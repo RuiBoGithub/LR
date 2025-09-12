@@ -1,0 +1,1018 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85144016382",
+    "originalText": "serial JL 280276 291210 291731 291768 291772 291800 291830 291881 31 Sustainable Cities and Society SUSTAINABLECITIESSOCIETY 2022-11-25 2022-11-25 2022-12-05 2022-12-05 2024-10-25T15:58:41 1-s2.0-S2210670722006217 S2210-6707(22)00621-7 S2210670722006217 10.1016/j.scs.2022.104317 S300 S300.1 FULL-TEXT 1-s2.0-S2210670722X00127 2024-10-25T15:42:34.128504Z 0 0 20230201 20230228 2023 2022-11-25T16:16:12.321747Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst nomenclature primabst ref 2210-6707 22106707 true 89 89 C Volume 89 55 104317 104317 104317 202302 February 2023 2023-02-01 2023-02-28 2023 Virtual Special Issue Articles article fla © 2022 Elsevier Ltd. All rights reserved. MODELPREDICTIVECONTROLABUILDINGRENEWABLEENERGYSYSTEMBASEDALONGSHORTTERMHYBRIDMODEL GAO Y Nomenclature 1 Introduction and background 1.1 Background 1.2 Literature review of MPC 1.3 Prediction model in MPC 1.4 Research gaps and contributions of our paper 2 Case building and optimization targets 2.1 Building model and dataset used 2.2 Optimization target and the construction of the MPC controller 3 Hybrid prediction models in MPC 3.1 Short-term prediction 3.2 Long-term prediction 4 Case study 4.1 Dataset introduction 4.2 Experimental details 5 Results and discussions 5.1 Prediction results in the testing dataset 5.2 Optimization performance with testing data 5.3 Supplementary experiments 6 Conclusion and future work Acknowledgments References ARROYO 2022 118346 J BIANCHINI 2019 327 340 G BOUNEFFOUF 2016 16 21 D CAMACHO 2013 E MODELPREDICTIVECONTROLSPRINGERSCIENCEBUSINESSMEDIA CEUSTERS 2021 117634 G CHEN 2022 103751 W CHEN 2020 119866 Y CHENNAIF 2022 117844 M GAO 2022 119783 Y GAO 2022 119288 Y GAO 2022 637 650 Y GAO 2020 110156 Y GRILLONE 2021 117502 B 2018 GUROBIOPTIMIZERREFERENCEMANUAL HOCHREITER 1997 1735 1780 S HUANG 2016 1510 1518 B HYLLEBERG 2014 S SEASONALITYINREGRESSION HYNDMAN 2018 R FORECASTINGPRINCIPLESPRACTICE KILLIAN 2016 403 412 M KIRCHER 2015 956 961 K 2015AMERICANCONTROLCONFERENCEACC MODELPREDICTIVECONTROLTHERMALSTORAGEFORDEMANDRESPONSE LEE 2022 112067 H LIU 2019 113359 M MANJARRES 2017 409 417 D MARIANOHERNANDEZ 2021 101692 D NYHOLM 2016 148 159 E OLDEWURTEL 2011 1 8 F 20112NDIEEEPESINTERNATIONALCONFERENCEEXHIBITIONINNOVATIVESMARTGRIDTECHNOLOGIES BUILDINGCONTROLSTORAGEMANAGEMENTDYNAMICTARIFFSFORSHAPINGDEMANDRESPONSE PENG 2020 J RASO 2017 7 p L SALAKIJ 2016 345 358 S SHEN 2022 118724 R STURZENEGGER 2015 1 12 D SULTANA 2017 391 406 W TOUB 2019 111924 M TSAI 2020 109992 C VELICKOVIC 2017 P GRAPHATTENTIONNETWORKS WANG 2021 118992 R WANG 2019 6607 6617 Y INTERNATIONALCONFERENCEMACHINELEARNING DEEPFACTORSFORFORECASTING WANG 2018 11 25 Z YAN 2019 709 717 J YUN 2012 225 233 K ZHANG 2015 1052 1065 Y ZHENG 2022 118638 B ZOU 2022 119243 B GAOX2023X104317 GAOX2023X104317XY NR_JUSTICE publishAcceptedManuscriptIndexable http://www.elsevier.com/open-access/userlicense/1.0/ 2024-12-05T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Elsevier Ltd. All rights reserved. 2022-12-21T10:40:59.017Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined JST JPMJSP2108 JST Japan Science and Technology Agency http://data.elsevier.com/vocabulary/SciValFunders/501100002241 http://sws.geonames.org/1861060/ Takasago Thermal Engineering Co. Ltd. We thank Takasago Thermal Engineering Co. Ltd. for their support and contribution to this research. This work was supported by the JST SPRING (grant number JPMJSP2108). We thank Takasago Thermal Engineering Co., Ltd . for their support and contribution to this research. This work was supported by the JST SPRING (grant number JPMJSP2108 ). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2210-6707(22)00621-7 S2210670722006217 1-s2.0-S2210670722006217 10.1016/j.scs.2022.104317 280276 2024-10-25T15:42:34.128504Z 2023-02-01 2023-02-28 1-s2.0-S2210670722006217-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/MAIN/application/pdf/be730d3950f10637ba6d4d0a134ec493/main.pdf main.pdf pdf true 988388 MAIN 11 1-s2.0-S2210670722006217-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/PREVIEW/image/png/8119ac1402886718d5c5a67f0c7c46c6/main_1.png main_1.png png 59939 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2210670722006217-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr1/DOWNSAMPLED/image/jpeg/67b9de83275c030dcc173d56b86fd12d/gr1.jpg gr1 gr1.jpg jpg 91295 201 531 IMAGE-DOWNSAMPLED 1-s2.0-S2210670722006217-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr2/DOWNSAMPLED/image/jpeg/061d520adfc12adb769aa796518ff7f7/gr2.jpg gr2 gr2.jpg jpg 98555 275 376 IMAGE-DOWNSAMPLED 1-s2.0-S2210670722006217-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr3/DOWNSAMPLED/image/jpeg/fe120ab4d1d34ae2bd8b73149761591c/gr3.jpg gr3 gr3.jpg jpg 95966 278 376 IMAGE-DOWNSAMPLED 1-s2.0-S2210670722006217-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr4/DOWNSAMPLED/image/jpeg/776fd4d9938ba7711793807cb3b0fc42/gr4.jpg gr4 gr4.jpg jpg 94601 255 530 IMAGE-DOWNSAMPLED 1-s2.0-S2210670722006217-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr5/DOWNSAMPLED/image/jpeg/44b503bebc6fe57a3bf7567a423e13a4/gr5.jpg gr5 gr5.jpg jpg 108901 290 527 IMAGE-DOWNSAMPLED 1-s2.0-S2210670722006217-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr6/DOWNSAMPLED/image/jpeg/ed5ad64a2b8189d76cadfd8ee2448047/gr6.jpg gr6 gr6.jpg jpg 103851 295 447 IMAGE-DOWNSAMPLED 1-s2.0-S2210670722006217-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr7/DOWNSAMPLED/image/jpeg/6ea1242aded6ba3817b417b2ac7861b9/gr7.jpg gr7 gr7.jpg jpg 99053 249 503 IMAGE-DOWNSAMPLED 1-s2.0-S2210670722006217-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr10/DOWNSAMPLED/image/jpeg/ba4deea9fa41a24258b2a13ab599c789/gr10.jpg gr10 gr10.jpg jpg 108079 267 532 IMAGE-DOWNSAMPLED 1-s2.0-S2210670722006217-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr8/DOWNSAMPLED/image/jpeg/1d69f78f7e25422451d0c2017b109ebd/gr8.jpg gr8 gr8.jpg jpg 106230 271 532 IMAGE-DOWNSAMPLED 1-s2.0-S2210670722006217-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr9/DOWNSAMPLED/image/jpeg/63f2ce82de97aa71f2da98b0f01da4ae/gr9.jpg gr9 gr9.jpg jpg 103777 270 532 IMAGE-DOWNSAMPLED 1-s2.0-S2210670722006217-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr1/THUMBNAIL/image/gif/e03625b52a8edfe1dcb875d5c0ce7f4a/gr1.sml gr1 gr1.sml sml 71683 83 219 IMAGE-THUMBNAIL 1-s2.0-S2210670722006217-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr2/THUMBNAIL/image/gif/f7dcac57347a2a1bdee1589041fc1c2a/gr2.sml gr2 gr2.sml sml 74691 160 219 IMAGE-THUMBNAIL 1-s2.0-S2210670722006217-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr3/THUMBNAIL/image/gif/c7846450c5e30380abaa4264ed23fe7f/gr3.sml gr3 gr3.sml sml 73799 162 219 IMAGE-THUMBNAIL 1-s2.0-S2210670722006217-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr4/THUMBNAIL/image/gif/91d270471d192050a90e043f241ca960/gr4.sml gr4 gr4.sml sml 70225 106 219 IMAGE-THUMBNAIL 1-s2.0-S2210670722006217-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr5/THUMBNAIL/image/gif/b47f4f06fc85e00f735074d6674e1677/gr5.sml gr5 gr5.sml sml 73633 121 219 IMAGE-THUMBNAIL 1-s2.0-S2210670722006217-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr6/THUMBNAIL/image/gif/55443e408f843b6175dbdb8450d7ab80/gr6.sml gr6 gr6.sml sml 73332 144 219 IMAGE-THUMBNAIL 1-s2.0-S2210670722006217-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr7/THUMBNAIL/image/gif/3e09affa1b36e96d223740911c7c890a/gr7.sml gr7 gr7.sml sml 71495 108 219 IMAGE-THUMBNAIL 1-s2.0-S2210670722006217-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr10/THUMBNAIL/image/gif/6a35b91be8f3aeff2a6ab2b4e8e670fd/gr10.sml gr10 gr10.sml sml 74298 110 219 IMAGE-THUMBNAIL 1-s2.0-S2210670722006217-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr8/THUMBNAIL/image/gif/eb3ee273d33b9278109e3f0a59900d44/gr8.sml gr8 gr8.sml sml 75205 111 219 IMAGE-THUMBNAIL 1-s2.0-S2210670722006217-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/gr9/THUMBNAIL/image/gif/b3460a0edaa718b43f9c2fd53b3fb0fe/gr9.sml gr9 gr9.sml sml 72793 111 219 IMAGE-THUMBNAIL 1-s2.0-S2210670722006217-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/HIGHRES/image/jpeg/9ec3bb6945cd56363b8ef22cca3feb5b/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 233875 890 2350 IMAGE-HIGH-RES 1-s2.0-S2210670722006217-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/HIGHRES/image/jpeg/58557ba6a91945a019a578cf1c095d4e/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 240484 1219 1668 IMAGE-HIGH-RES 1-s2.0-S2210670722006217-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/HIGHRES/image/jpeg/e105fa62edec1ab0687e996588ec1c47/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 232499 1232 1668 IMAGE-HIGH-RES 1-s2.0-S2210670722006217-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/HIGHRES/image/jpeg/b84fc5e391790119c5074f7ed540f257/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 248273 1131 2347 IMAGE-HIGH-RES 1-s2.0-S2210670722006217-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/HIGHRES/image/jpeg/d237956584c80df32a253192ea3bb730/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 346127 1285 2335 IMAGE-HIGH-RES 1-s2.0-S2210670722006217-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/HIGHRES/image/jpeg/ba223b31bc649f83d8ce965984196af6/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 300576 1307 1982 IMAGE-HIGH-RES 1-s2.0-S2210670722006217-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/HIGHRES/image/jpeg/9b98815dab06fcc3fa4ba9559646f825/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 293032 1100 2226 IMAGE-HIGH-RES 1-s2.0-S2210670722006217-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/HIGHRES/image/jpeg/598998ffeb0dbbb6b1c209269ec983a3/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 380576 1183 2355 IMAGE-HIGH-RES 1-s2.0-S2210670722006217-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/HIGHRES/image/jpeg/7963f031d757ee35085a5928134ad9ee/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 389874 1199 2355 IMAGE-HIGH-RES 1-s2.0-S2210670722006217-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/HIGHRES/image/jpeg/afa28c8dad8c3776fd305e987872d382/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 331608 1193 2354 IMAGE-HIGH-RES 1-s2.0-S2210670722006217-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/c0d4632cf5f03fc5fb6982cc187064cb/si1.svg si1 si1.svg svg 2485 ALTIMG 1-s2.0-S2210670722006217-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/510c79baa9a45a6b7b50dcc9146359fc/si10.svg si10 si10.svg svg 9577 ALTIMG 1-s2.0-S2210670722006217-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/0a38565c4511c6db609542bb3d970335/si11.svg si11 si11.svg svg 8907 ALTIMG 1-s2.0-S2210670722006217-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/3ea16af167673ead8dcb1894ddc2d062/si12.svg si12 si12.svg svg 8075 ALTIMG 1-s2.0-S2210670722006217-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/e203db83e3fb2c4bd79f4449ebceaf84/si14.svg si14 si14.svg svg 15277 ALTIMG 1-s2.0-S2210670722006217-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/176233201409d3a7d53b0914cb2ced13/si15.svg si15 si15.svg svg 8164 ALTIMG 1-s2.0-S2210670722006217-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/e2374220d09e0f0ff31d2a0c35e88c8b/si16.svg si16 si16.svg svg 15831 ALTIMG 1-s2.0-S2210670722006217-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/615e4b543209ae6bebff405fd1dccb34/si17.svg si17 si17.svg svg 12262 ALTIMG 1-s2.0-S2210670722006217-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/d7c8391acd7eb4c2fcb71f416991b435/si18.svg si18 si18.svg svg 12185 ALTIMG 1-s2.0-S2210670722006217-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/a986ff62bbddb4f937ec4a296054f0fa/si19.svg si19 si19.svg svg 1627 ALTIMG 1-s2.0-S2210670722006217-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/7c7ddc349919e2b5020ec60fcc35e935/si2.svg si2 si2.svg svg 2506 ALTIMG 1-s2.0-S2210670722006217-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/d5f79329eb8e16572bb6b41f3da17073/si20.svg si20 si20.svg svg 1359 ALTIMG 1-s2.0-S2210670722006217-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/2729b1e11b9a53dc0f1a16fa9ce5fb91/si21.svg si21 si21.svg svg 1142 ALTIMG 1-s2.0-S2210670722006217-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/5b354d2bbfe7dc0d02cd9ae20a009e9d/si22.svg si22 si22.svg svg 1128 ALTIMG 1-s2.0-S2210670722006217-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/17b5677d55bc52d1a01516719b1d78b7/si23.svg si23 si23.svg svg 1086 ALTIMG 1-s2.0-S2210670722006217-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/f85089e5bb1757f043c6dbe2a094683f/si24.svg si24 si24.svg svg 1551 ALTIMG 1-s2.0-S2210670722006217-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/c0abd5cc9d7db6b19efd98a413f446fe/si25.svg si25 si25.svg svg 1732 ALTIMG 1-s2.0-S2210670722006217-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/1fa33de5d0012a3c93fa75521675cdb4/si26.svg si26 si26.svg svg 1539 ALTIMG 1-s2.0-S2210670722006217-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/a47588efdcce12be01c85111f77d148a/si27.svg si27 si27.svg svg 1774 ALTIMG 1-s2.0-S2210670722006217-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/93b28433ebb047245d812667a2137afb/si29.svg si29 si29.svg svg 2007 ALTIMG 1-s2.0-S2210670722006217-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/aca2b41bf6c41884a22d07081a464875/si3.svg si3 si3.svg svg 2591 ALTIMG 1-s2.0-S2210670722006217-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/93d6357445568cd9dbbb6bcda0f289d8/si30.svg si30 si30.svg svg 614 ALTIMG 1-s2.0-S2210670722006217-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/7a28e0e49848a5f210e934031db77c2b/si31.svg si31 si31.svg svg 2626 ALTIMG 1-s2.0-S2210670722006217-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/4ea6acd9fddffcd6b074a8b42495a710/si32.svg si32 si32.svg svg 10862 ALTIMG 1-s2.0-S2210670722006217-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/8beb71d40b2a2eafd7f358a420148d0d/si36.svg si36 si36.svg svg 22598 ALTIMG 1-s2.0-S2210670722006217-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/af68e230a192041adc91c427e323a914/si38.svg si38 si38.svg svg 30214 ALTIMG 1-s2.0-S2210670722006217-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/3c2dc2908c4b56436d18c41b80976ee5/si4.svg si4 si4.svg svg 4856 ALTIMG 1-s2.0-S2210670722006217-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/8810c413332130c1d2dc26216ca9bb94/si40.svg si40 si40.svg svg 5677 ALTIMG 1-s2.0-S2210670722006217-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/76beb677ff1d3c6324da2348ffd0c3db/si41.svg si41 si41.svg svg 8931 ALTIMG 1-s2.0-S2210670722006217-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/f67957b02c6528fd23457f84cda2f2d3/si48.svg si48 si48.svg svg 15281 ALTIMG 1-s2.0-S2210670722006217-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/e14d16bb88ec0b4d90cf7931367fe3ef/si49.svg si49 si49.svg svg 20447 ALTIMG 1-s2.0-S2210670722006217-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/debc9bd9acdb3976142dced16d7bc02b/si5.svg si5 si5.svg svg 3837 ALTIMG 1-s2.0-S2210670722006217-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/bd2b2015ee52d59753b463caeb5fc65b/si50.svg si50 si50.svg svg 753 ALTIMG 1-s2.0-S2210670722006217-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/bb7ca3e69ed5f8edb7835e287621e989/si51.svg si51 si51.svg svg 10964 ALTIMG 1-s2.0-S2210670722006217-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/8ee59d18f4fdc9b0594da5b9f86c4aae/si53.svg si53 si53.svg svg 4046 ALTIMG 1-s2.0-S2210670722006217-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/eec981df6c281f48883fa8c12cafb281/si54.svg si54 si54.svg svg 4037 ALTIMG 1-s2.0-S2210670722006217-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/e89d8a69fa8c4e9f2f1a2f040ff353fe/si55.svg si55 si55.svg svg 668 ALTIMG 1-s2.0-S2210670722006217-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/7ae683c31b79901b4f5a613c1ca3c9ea/si56.svg si56 si56.svg svg 657 ALTIMG 1-s2.0-S2210670722006217-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/84b5557c7770e66a8da74834e454b71d/si57.svg si57 si57.svg svg 668 ALTIMG 1-s2.0-S2210670722006217-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/9dd01d7015aeb295c30e00abb0a0b983/si6.svg si6 si6.svg svg 5508 ALTIMG 1-s2.0-S2210670722006217-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/00dc0e9d357b017cffa43068a9549095/si61.svg si61 si61.svg svg 7456 ALTIMG 1-s2.0-S2210670722006217-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/d0fa31d9efaa3e145d71c1f91e177c96/si62.svg si62 si62.svg svg 2001 ALTIMG 1-s2.0-S2210670722006217-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/c7eaf16b4d71876b744c3f40de817e24/si63.svg si63 si63.svg svg 2112 ALTIMG 1-s2.0-S2210670722006217-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/1025d3146658691c44c6abaa0f88d506/si64.svg si64 si64.svg svg 2444 ALTIMG 1-s2.0-S2210670722006217-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/e7786b816a9a2f60b093e5404591b89b/si65.svg si65 si65.svg svg 1966 ALTIMG 1-s2.0-S2210670722006217-si68.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/c5bb6b44faff1441ef67992dc639d904/si68.svg si68 si68.svg svg 5528 ALTIMG 1-s2.0-S2210670722006217-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/d00be65693129b2dafa9ce792265fb63/si69.svg si69 si69.svg svg 2606 ALTIMG 1-s2.0-S2210670722006217-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/7e6af2215a9f09014b5de045317fea2f/si7.svg si7 si7.svg svg 4168 ALTIMG 1-s2.0-S2210670722006217-si73.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/e389ccbe48386cb8183e6795932564c0/si73.svg si73 si73.svg svg 2008 ALTIMG 1-s2.0-S2210670722006217-si74.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/73f463647c8f4f5c3df83a2226c7416d/si74.svg si74 si74.svg svg 20538 ALTIMG 1-s2.0-S2210670722006217-si75.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/888133e7c5c957e31cd1f7a74d33c808/si75.svg si75 si75.svg svg 5009 ALTIMG 1-s2.0-S2210670722006217-si76.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/fa251a116712eac56548d3a5f0aa2a84/si76.svg si76 si76.svg svg 4962 ALTIMG 1-s2.0-S2210670722006217-si77.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/fe46b036fc1c8c94953b5b741966cbd8/si77.svg si77 si77.svg svg 7201 ALTIMG 1-s2.0-S2210670722006217-si78.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/832c049c049ae9133b355c15b0b09633/si78.svg si78 si78.svg svg 764 ALTIMG 1-s2.0-S2210670722006217-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/39cad204a696eccee2dd69b384d2e1a2/si8.svg si8 si8.svg svg 6617 ALTIMG 1-s2.0-S2210670722006217-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2210670722006217/image/svg+xml/13ef2cab5cfe3073db6f1e20e5cbc706/si9.svg si9 si9.svg svg 7008 ALTIMG 1-s2.0-S2210670722006217-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:108Q6ZZXF1K/MAIN/application/pdf/3b4f81dff4584ce0e35cf02f7bc9441f/am.pdf am am.pdf pdf false 757036 AAM-PDF SCS 104317 104317 S2210-6707(22)00621-7 10.1016/j.scs.2022.104317 Elsevier Ltd Fig. 1 Concept of a renewable energy system and building. Fig. 2 Structure of off-grid cost function before adjustment. Fig. 3 Structure of the off-grid cost function. Fig. 4 Hybrid prediction model in MPC. Fig. 5 Short-term prediction model. Fig. 6 Prediction of the long-term prediction model. Fig. 7 Predictions of M.3 and M.4. Fig. 8 CHP policy in situations with specific initial conditions. Fig. 9 Battery state in situations with specific initial conditions. Fig. 10 Off-grid operation in situations with specific initial conditions. Table 1 Dimensions of BES devices. Energy assets Input Output Capacity Minimum control set Maximum control set transformer elec elec + ∞ 0 + ∞ Solar PV Solar elec 200 kW 0% 100% Biomass generators (CHP) Biomass Electricity 40 kW ∗ 2 0 (turn off both) 2 (turn on both) Battery elec elec 4595 kWh −200 kW ＋200 kW Table 2 Definition of the cost function for the battery safety. Battery safety cost If battery state < 0.2 and the action of the battery is discharging: battery reward = −1.2 If battery state > 0.8 and the action of battery is charging: battery reward = −1.2 else: battery reward = 0 Table 3 Features and labels for the prediction models. Long-term Short-term Features Month; Hour of day; Day of week; Holiday; Max daily temperature; Min daily temperature Month; Hour of day; Max daily temperature; Min daily temperature Month; Hour of day; Day of week; Holiday; Hour temperature Month; Hour of day; Hour temperature Number of features 6 4 5 3 Label Energy PV generation Energy PV generation Table 4 Operational data used for the MPC analysis. Variables Data amount Time period PV generation prediction results; 0 am 2021-08-01 to Energy prediction results; 1896 h 23 pm 2021-10-18 Table 5 Baseline control logic. Generator control Business day: 7 am to 7 pm, turn two generators on. else: turn both generators off Solar PV control x: battery state x ≤ 63.2%; solar PV open 100% 63.2% < x ≤ 67.2%; solar PV open 80% 67.2% < x ≤ 71.2%; solar PV open 60% 71.2% < x ≤ 75.2%; solar PV open 36% 75.2% < x ≤ 79.2%; solar PV open 12% 79.2% < x; solar PV open 0% Battery control Used as a backup to meet off-grid operation demand Table 6 Prediction metrics. Predictions R2-score MAPE Long-term solar prediction 72% 43% Short-term solar prediction 87% 22% Long-term power prediction 64% 37% Short-term power prediction 92% 11% Power prediction benchmark 27% 37% Solar prediction benchmark 42% 53% Table 7 Evaluation metrics of the MPC performance. Off-grid evaluation (kWh) Battery unsafe hours CHP changing times M.1 3.69 70.70 13.88 M.2 7.55 14.85 5.90 M.3 24.59 10.55 9.33 M.4 7.11 9.16 3.55 Table 8 Evaluation metrics in supplementary experiments. Description Off-grid evaluation (kWh) Battery unsafe hours CHP changing times S.1 100% prediction in short-term 0 11.51 9.20 S.2 100% prediction in long-term 7.01 6.48 6.34 S.3 100% prediction in all 0 7.89 4.14 Model predictive control of a building renewable energy system based on a long short-term hybrid model Yuan Gao a \u204e Yuki Matsunami b Shohei Miyata a Yasunori Akashi a a Department of Architecture, Graduate School of Engineering, The University of Tokyo, Japan Department of Architecture, Graduate School of Engineering, The University of Tokyo Japan Department of architecture, Graduate School of Engineering, The University of Tokyo, Japan b Takasago Thermal Engineering Co. Ltd., Japan Takasago Thermal Engineering Co. Ltd. Japan Takasago Thermal Engineering Co. Ltd., Japan \u204e Corresponding author. Considering solar photovoltaic (PV) usage in building energy systems (BES), energy systems that combine batteries and solar PV (PVB) have been widely used in buildings. Ensuring the safety of the battery and the operation requirements of other types of equipment to the extent possible while achieving the optimization goal has become an important challenge in the implementation of this system. In this case, model predictive control (MPC) has gained increasing attention in the operation control of BES owing to its strong fitting ability. However, the prediction models at the core of MPC are not adequately designed for the BES optimization problem, and numerous studies have not yet been modeled and tested in real buildings. In this study, we used a long- and short-term hybrid prediction model in the MPC framework. The proposed prediction models and MPC framework were validated using a measured dataset from a real office building in Japan. The results show that, compared with the currently used baseline control logic, the proposed hybrid prediction MPC framework can improve the battery safety index by 81.6%, while the combined heat and power continuous operation index can also be improved by 36.4%. Compared with the conventional MPC framework, the proposed hybrid prediction MPC framework improves the optimization of off-grid operation by approximately 69% while maintaining the remaining optimization objectives. Keywords Model predictive control Renewable building energy system Hybrid prediction model Deep learning Data availability The authors do not have permission to share data. Nomenclature PV Photovoltaic BES Building energy system PVB PV\u2013battery MPC Model predictive control LSTM Long short-term memory MAPE Mean absolute percentage error CHP Combined heat and power x t State vector u t Actor vector w t Stochastic noise L cost Cost function of the MPC controller E r r o r t Amount of interaction between BES and the grid A C H P t Control action of CHP A p v t Control action of PV A b a t t e r y t Control action of battery C a p C H P Capacity of CHP G e n p v m a x Current maximum power generation of PV C a p b a t t e r y t Maximum charging/discharging capacity of battery D e m a n d t Current power demand in BES 1 Introduction and background 1.1 Background With the development of the world economy and an increasing level of urbanization in the last few decades, people have started spending more time in buildings. It has been reported that people spend more than 80% of their time inside buildings (Wang, Wang, Zeng, Srinivasan, & Ahrentzen, 2018). This has led to a rapid increase in building energy consumption in recent years (Liu, Ooka, Choi, & Ikeda, 2019). By 2021, the proportion of the total global energy consumption attributable to residential and commercial building energy consumption reached as high as 40% (Grillone, Mor, Danov, Cipriano, & Sumper, 2021). The large energy consumption of buildings also results in large CO2 emissions (all buildings account for approximately 30% of the total global CO2 emissions Shen et al., 2022.) In fact, countries have reached a certain consensus on CO2 emission reduction; for instance, Japan plans to achieve its own carbon-neutral goals by 2050 (Chen, Lim, Miyata, & Akashi, 2022), and in the field of building energy consumption, current building carbon emissions should be reduced by 60% (Huang, Mauerhofer, & Geng, 2016). To achieve CO2 emission reductions, the development and utilization of renewable energy technology is necessary (Wang, Feng, Wang, & Lu, 2021). Solar photovoltaics (PV) are currently the most commonly used renewable energy technology in the building sector (Zou et al., 2022) because of their significant advantages, such as low cost (Yan, Yang, Elia Campana, & He, 2019) and easy integration with buildings (Peng et al., 2020). To overcome the shortcomings of instabilities in the photovoltaic power generation, batteries are often integrated with photovoltaic systems to form PV\u2013battery (PVB) systems (Nyholm, Goop, Odenberger, & Johnsson, 2016). However, uncertainties in the building demand and solar power generation can cause PVB systems to deviate from their operational design during actual operation. To avoid threats to the security of the grid across a region, some researchers in the field of renewable building energy systems have begun exploring off-grid operation (Chennaif, Maaouane, Zahboune, Elhafyani, & Zouggar, 2022). As a result, the precise administration of control strategies for various equipment in a PVB system during the operation phase has become the focus of current research (Tsai et al., 2020). Model predictive control (MPC) has emerged as a promising option (Arroyo, Manna, Spiessens, & Helsen, 2022; Sturzenegger, Gyalistras, Morari, & Smith, 2015). 1.2 Literature review of MPC The concept behind MPC is to optimize system variable(s) as a function of future disturbances for a given horizon to satisfy certain constraints, which is an ideal intelligent control strategy for handling the optimal control of buildings (Killian & Kozek, 2016). The MPC controller in a building outputs a control vector that minimizes the objective function within the forecast horizon, and this control variable makes decisions about different devices in the building\u2019s energy system. The MPC is defined as an optimization problem with equality and inequality constraints (Eqs. (1)) (Camacho & Alba, 2013). (1) min x , μ ∑ k = t T c k x k , μ k s.t. x t = x t x k + 1 = f x k , μ k ∀ k ∈ t , t + 1 , t + 2 , \u2026 , T − 1 g μ t , μ t + 1 , \u2026 , μ T , x t , x t + 1 , \u2026 , x T = 0 h μ t , μ t + 1 , \u2026 , μ T , x t , x t + 1 , \u2026 , x T ≤ 0 \u2022 x is the state variable, which refers to the information that MPC could observe (e.g., temperature, humidity, and solar radiation). \u2022 μ is the control variable, which refers to the control policy that MPC needs to determine during the optimization period, for instance, the on/off for the generator and the proportional open status of solar PV. \u2022 c is the cost function for optimization. We need to compute the same cost function for all optimization steps within the MPC optimization window and sum over the entire optimization window. This cost function contains the model designer\u2019s mathematical description of the system\u2019s operating goals, such as minimizing operating costs and maximizing renewable energy utilization. \u2022 T refers to the prediction horizon in MPC, and t is one control time step of the horizon. \u2022 f is the system dynamics, which is the prediction model that should be prepared when using MPC. For the operation control of a building energy system, we need to predict the variables that affect the system control, such as temperature, energy consumption, and solar radiation intensity. \u2022 g and h give the additional equality and inequality constraints in MPC, such as the power balance constraints and the continuous running constraint for the generator. According to the definition of MPC and the settings of different parameters, MPC can be easily applied to the control of a building energy system. MPC can manage energy storage, power generation, and renewable energy. For instance, Kircher et al. used MPC to optimize the operation of cooling systems in US office buildings, reducing the peak loads by 25% (Kircher & Zhang, 2015). Oldewurtel et al. developed a control algorithm for MPC for residential and office buildings, and the results showed that it can reduce the peak load demand by up to 17.5% (Oldewurtel, Ulbig, Morari, & Andersson, 2011). Ceusters et al. designed an MPC solution to optimize the operation of multi-energy systems, including CHP, wind, and photovoltaic power generation, and minimize the operating cost (Ceusters et al., 2021). Zhang et al. used the MPC framework to control the operation of a residential microgrid. Compared with the conventional rule control algorithm, the perfectly predicted MPC can reduce the operational cost by 40% (Zhang, Zhang, Wang, Liu, & Guo, 2015). Kim et al. used MPC to evaluate the performance of an actual campus renewable energy system, considering the signaling of actual operations and to achieve a 10% CO2 reduction. Although there have been many studies involving MPC applications in renewable energy and energy storage systems, most of them do not focus on predictive modeling. Therefore, most studies directly assume a prediction error without integrating an actual prediction model. Thus, it is difficult to judge the actual MPC performance by using a real prediction model. In addition, there are few cases of applying MPC for the off-grid operation of renewable energy systems. 1.3 Prediction model in MPC When applying MPC to the operational optimization of building energy systems, the construction of prediction models is at the heart of the MPC framework (Ceusters et al., 2021). In particular, after the introduction of renewable energy, the prediction of variables related to renewable energy will become an important factor that will ultimately affect optimization possibilities. In this case, prediction targets should include not only normal variables (e.g., temperature Lee & Heo, 2022 and energy consumption Yun, Luck, Mago, & Cho, 2012) but also variables related to renewable energy (e.g., solar radiation and wind speed Sultana, Sahoo, Sukchai, Yamuna, & Venkatesh, 2017). Irrespective of the type of variable forecast, there are three forecasting methods: the white box, black box, and hybrid (Mariano-Hernández, Hernández-Callejo, Zorita-Lamadrid, Duque-Pérez, & García, 2021) models. Physics-based methods are often referred to as white boxes. They use calculations that rely on physics to explain a building\u2019s energy performance, an approach that often involves detailed modeling and simulation software that calculates building and energy system loads, such as outdoor or indoor temperatures and building energy consumption. Salakij et al. predicted and modeled the variables required by the MPC algorithm through a simplified building information model. They found that the MPC can reduce energy consumption while maintaining the thermal comfort of guests (Salakij, Yu, Paolucci, & Antsaklis, 2016). Using a thermodynamic model, Bianchini et al. predicted parameters such as the solar radiation and building heat load required for MPC applications of building energy systems in large buildings (Bianchini, Casini, Pepe, Vicino, & Zanvettor, 2019). Toub predicted solar radiation and indoor air temperature by building a thermal resistance model and a solar energy prediction model and used the prediction results for MPC optimization. Compared with conventional models, MPC can result in operating costs savings of up to 70% (Toub et al., 2019). However, the white-box approach involves heat and mass balance equations and a deep understanding of the thermal properties of buildings. This requires a considerable simulation time and engineering knowledge (Cígler, Gyalistras, Široky, Tiet, & Ferkl, 2013). In view of the shortcomings of the black-box model, machine learning-related black-box models are gradually emerging (Arroyo et al., 2022). Manjarres et al. used the random forest algorithm as a prediction model in the MPC framework to perform energy-saving control of a building energy system, and the heating energy consumption could be reduced by 48% (Manjarres, Mera, Perea, Lejarazu, & Gil-Lopez, 2017). Chen et al. developed a time-series forecasting model suitable for MPC using transfer learning and discussed the different effects of single-step forecasting and multi-step forecasting (Chen, Tong, Zheng, Samuelson, & Norford, 2020). The main advantage of deep learning-based methods is that they operate as black-box models, learning relationships between inputs and outputs based solely by studying previously recorded data (Gao, Ruan, Fang, & Yin, 2020). Therefore, with a black-box model, higher generalization ability can be realized without spending considerable time and effort on developing a physical model. However, few models discuss deep learning algorithms in MPC applications for building energy systems. Owing to space limitations for journal articles, many MPC studies assume the error of the prediction model and do not develop a prediction model. Additionally, the prediction model has not been adjusted for the characteristics of the MPC framework. 1.4 Research gaps and contributions of our paper Based on the aforementioned literature survey and discussion, although a significant amount of research has been conducted on the use of MCP in building energy systems, the following problems persist: \u2022 For the optimization goal of off-grid operation of renewable building energy systems, there is still a lack of application cases using MPC to solve related problems. \u2022 As the core of an MPC framework, existing prediction models have not been fully adapted and improved for the MPC framework. Furthermore, a large amount of time is required to model and calibrate physical models, limiting their practical engineering applications. Moreover, for data-driven models, the predictions not fully take the model characteristics of the MPC, which is only adopted one time step in the future of optimization window. The aim of this study was to solve the above-mentioned problems. Its main contributions can be summarized as follows: \u2022 As MPC only adopts one-step control strategies for the future, a short-term prediction model is developed to ensure more accurate short-term control. A long-term prediction model is developed for characteristics that require long-term prediction to reduce the accumulation of errors. \u2022 For the research on off-grid operation of actual buildings, the prediction model construction and case analysis were carried out using actual data. \u2022 The hybrid prediction model and MPC framework contain many contents. Due to space limitations, we refer to previous papers on short- and long-term prediction models. The data and code of the short-term model are open source. The research target and MPC controller are introduced in Section 2. Section 3 describes the specific content of the prediction models in MPC. The operation results and effects of the proposed MPC model are analyzed in detail in Section 4. Finally, a summary and possible future research directions are provided in Section 5. 2 Case building and optimization targets 2.1 Building model and dataset used The research object of this study was a real office building in Tsukuba, Japan. A schematic of the building and renewable energy system is shown in Fig. 1. The entire energy system includes solar photovoltaic (PV) power generation equipment, two combined heating and power (CHP) generators, and a battery, all of which are components of a typical PVB. The power demand of the entire system is met using four sources: solar power generation, generator power generation, grid power purchase, and battery discharge. Simultaneously, the battery can absorb any excessive power generation in the system. The device characteristics are presented in Table 1. In the control settings of the battery, − 200 kW means discharging 200 kWh in 1 h, and ＋200 kW refers to charging 200 kWh in 1 h. For CHP power generation, there are only two settings, namely, on and off for each single generator, owing to the requirements of equipment control. Here, we ignore the differences between different generators and consider only the difference in the number of generators turned on under different circumstances. Thus, there are three scenarios for the generators. First, the two CHP generators were turned off, and the control signal was represented by 0. The second is to turn on one generator, and the control signal is represented by a 1. Finally, the two generators were turned on, and the control signal was represented by a value of 2. Therefore, the control of a biomass generator is discrete. The control of a solar PV and battery system can be regarded as a continuous control. Note that the device parameters in Table 1 are a simplification of the actual device situation. A discussion of the specific device characteristics is beyond the scope of this study and will not be described here. The entire system was officially put into operation on August 1, 2020. The dataset used in this study contains all hourly data from August 1, 2020, to October 18, 2021. The original data include three types of data: the original energy consumption of the building (kWh), outdoor air temperature (°C), and hourly solar radiation intensity (kWh/ m 2 ). 2.2 Optimization target and the construction of the MPC controller In this case study, the optimization goal mainly had the following three aims: \u2022 Considering the impact of the uncertainty in renewable energy production on the grid in terms of surplus electricity, the system hopes to operate under off-grid conditions and minimize interactions with the grid (Zheng & Wu, 2022). Based on the needs of PVB owners, it is currently hoped that a steady 10 kWh per hour can be purchased from the grid. Due to the regulations of the power company where the building is located, the excess renewable energy generated by the current building should not be sold on the grid. Based on the needs of BES owners, it is currently hoped that a steady 10 kWh per hour can be purchased from the grid. \u2022 In PVB, the battery is an important means for maintaining the flexibility of the system. Considering the flexible regulation of the entire system and the safety of the battery itself, the battery charging percentage should be maintained between 20% and 80%; that is, the charging capacity of the entire battery should be between 919 and 3676 kWh. \u2022 Considering the safety of the operation of the generator equipment, the user does not expect frequent changes in the operating state of the generator. In other words, the start-stop control times of each power generation should be minimized. Based on the above optimization objectives and system characteristics, the authors present a specific setting method for the MPC optimizer. In this study, the MPC controller is instantiated using the Python and Gurobi optimizer (Gurobi Optimization, LLC, 2018). In addition, it is clear that we used the common discrete-time assumption in our research, which is as follows (Eq. (2) Ceusters et al., 2021). (2) x t + 1 = f t , x t , u t , w t where x t is the n-dimensional state vector, u t refers to the m- dimensional action vector, and w t indicates stochastic noise. In this case, the continuous system operation is discretized into several finite time steps, and this assumption is used throughout the optimization process in this study. According to the above definition, the MPC optimizer used in this study can be defined using Eq. (3). (3) max ∑ k = 0 T − 1 L cost t + k , x t + k , u t + k \u2022 L cost refers to the cost function of the MPC controller. This function is a combination of three different parts: \u2013 Off-grid oriented cost function: The off-grid operation target of a fixed purchase of 10 kWh of electricity per hour is difficult to judge through a single boundary, but it is possible to conduct a unified study based on the gap between different operation results and the purchase of 10 kWh of electricity. Based on this, the author uses a Gaussian distribution for designing this part of the cost function (Bouneffouf & Féraud, 2016; Gao, Matsunami, Miyata and Akashi, 2022). First, we need to use Eq. (4) to calculate the actual value of the grid interactions under the current strategy. (4) E r r o r t = A C H P t ∗ C a p C H P + A p v t ∗ G e n p v − A b a t t e r y t ∗ C a p b a t t e r y t − D e m a n d t where C a p C H P is the capacity of one CHP (40 kW), G e n p v is the current maximum power generation of the solar PV, and C a p b a t t e r y is the maximum charging/discharging capacity of the battery (200 kWh). If E r r o r t is negative, the system buys electricity from the grid; if E r r o r t is positive, the system must sell excess power to the grid, i.e., the best result is that E r r o r t evaluates to −10. A C H P t is the control for CHP generations, which is a discrete action for three kinds of values. The control value range of A p v t is 0\u20141, which indicates the control of the solar PV. The control range of the battery ( A b a t t e r y t ) is between −1 and 1, where a negative sign indicates that the battery is discharged and a positive sign indicates that the battery is charged. In addition, it should be noted that the proportion of the battery action is calculated based on the maximum charge and discharge per hour (200 kWh) and not the overall capacity of the battery. After the calculation was completed, according to the characteristics of the Gaussian distribution (Eq. (5)), we set the mean of the Gaussian distribution to −10, and the standard deviation to 2. A mean value of −10 means that when BES purchases 10 kWh of electricity from the grid, it is most in line with our current optimization goal, so it will receive the largest value function reward. The standard deviation of 2 of the Gaussian distribution is a number that can be set by the user, and it determines the width of the Gaussian distribution. Within this width, the cost function changes gently. Outside this range, it is a fixed value, which enables the carrying out of different optimizations balances based on different goals. Fig. 2 shows a graph of the off-grid running cost function after applying a Gaussian distribution. Subsequently, we adjusted the value range of the Gaussian distribution to a certain extent so that the maximum value was 1 and the minimum value is −0.6. This adjustment is made by the author in order to facilitate the design of the cost function of other optimization objectives (From Fig. 2. The maximum value is 0.2, the result is multiplied by 8 and subtract by 0.6 in Eq. (5)). In other cases, the reader can adjust it as needed. The adjustment method is shown in Eq. (6). According to the probability density function of the Gaussian distribution, we can determine the current reward function as shown in Fig. 3. (5) f ( x ) = 1 σ 2 π e − ( x − μ ) 2 2 σ 2 (6) f ( x ) = 8 ∗ 1 σ 2 π e − ( x − μ ) 2 2 σ 2 − 0 . 6 Thus far, we can evaluate the effects of off-grid operation according to the different results of the error calculation. \u2013 To achieve safe operation of the battery, the cost function can be designed with an if condition for judging. If the current action causes the battery\u2019s charging percentage to exceed the safe range of between 20% and 80%, a negative reward that is greater in absolute value than the off-grid operating reward is given. In this study, we set this negative reward to −1.2. The specific definitions are shown in Table 2. The value −1.2 is chosen because the authors believe that maintaining a safe battery state and system flexibility are particularly important for off-grid operation control. As long as the battery has a high enough margin, the user can use the battery as a backup for the system and perform manual adjustments when the agent strategy is abnormal. the maximum value of the cost function for off-grid operation is + 1, while the penalty for violating the battery safety range is −1.2. In absolute terms, it can offset the rewards of perfect off-grid operation. This means that we want to sacrifice a certain amount of off-grid operation to maintain battery safety, considering only the current step. In essence, the setting of all cost functions is a trade-off. The reader can use a value smaller than −1.2 to indicate that the optimization pays more attention to the safety of the battery. \u2013 Frequent startups and shutdowns will greatly influence the operation efficiency of the CHP generator, so the system owner hopes that the CHP operation strategy in the optimization cycle can be kept as stable as possible. As the control strategy of CHP generator in the system in this study has only three possibilities, namely 0, 1, and 2, the authors directly use the difference between the CHP control strategy at the last moment and the current control strategy for controlling the continuous operation of the CHP generator (Eq. (7)). As the control of the entire MPC is a maximizing function, a negative sign is added in front. (7) l o s s C H P = − | A C H P t − A C H P t − 1 | L cost sums the three-part optimization objectives to form the final optimization loss function for the MPC. \u2022 x t + k represents the energy balance equation based on the system and actual physical constraints between different devices. This mainly includes the energy balance equation of the system and the physical limitations of battery charging and discharging. \u2022 u t + k indicates the actual limitations of the different devices in the system control strategy. Please see Table 1 for details. 3 Hybrid prediction models in MPC Although MPC must predict the entire optimization window, it only adopts the action of the first time step for future practical applications. Therefore, it is natural to wonder whether short-term and long-term prediction models can be constructed separately for the computational characteristics of MPC (Raso & Malaterre, 2017). A forecasting model that combines long-term forecasting and short-term forecasting is used in this study to provide forecast results for MPC and to apply MPC in a renewable BES. Fig. 4 shows the concept of the prediction model, where the dashed blue line indicates the prediction results in the MPC optimization window. According to the characteristics of the MPC framework, the authors divided the prediction model of the original optimization window into two modules: a short-term prediction and a long-term prediction window. The short-term prediction model predicts only the variables one step in the future, and the time step is determined by the data type of the dataset itself. 3.1 Short-term prediction Because the MPC framework only adopts the optimization results of the first step in the future as a real strategy, the quality of the single-step prediction may have an important impact on future optimization results. The authors will use a previously published forecasting model for future single-step forecasts of photovoltaic power generation and building energy consumption data. The detailed model settings and code used in previous research are open source, and readers can refer to the authors\u2019 related papers for details (Gao, Miyata, & Akashi, 2022b). This study briefly introduces the model used in this study. Fig. 5 illustrates the structure of the short-term model used in this study. The main idea of short-term models is to make full use of deep learning networks in analyzing the internal relationships of multidimensional time series to provide good future single-step predictions. For changes in the time dimension, the authors used a long short-term memory (LSTM) network (Hochreiter & Schmidhuber, 1997) to encode the data and obtain change information in the time dimension, which is c in Fig. 5. For the relationship between different variables, the authors first used a graph learning layer to build a graph structure with gradients (Wu et al., 2020) and capture information regarding the relationship between different variables through a graph neural network. This information is represented by graph embedding and enters the final decoder to determine the result (Veličković et al., 2017). 3.2 Long-term prediction The MPC framework must predict and control a long-term trajectory over a future period. However, as the prediction window continues to move forward, the temporal correlation between the long-distance predicted variables and the current time-point data continues to decrease. In addition, the use of single-step forecast iterations for long-term forecasting undoubtedly causes a serious error accumulation problem (Chen et al., 2020). Therefore, in this study, we used previously published long-term forecasting models to make predictions (Gao, Miyata, & Akashi, 2022c). Generally, research suggests that a complex time series can be divided into several parts (Hylleberg, 2014): (8) y t = T t + C t + S t + I t where the trend component ( T t ) refers to long-term information; the cyclical component ( C t ) and the seasonal component ( S t ) indicate a regular pattern (e.g., daily, monthly, or seasonal), and the irregular component ( I t ) could be considered the error. Usually, the trend component ( T t ) and cyclical component ( C t ) are considered together in the form of a single trend-cycle component (Hyndman & Athanasopoulos, 2018). In the authors\u2019 preamble, we assumed that the entire time series could be split into two parts, as shown in Eq. (9) (Gao et al., 2022c; Wang et al., 2019). (9) y t = g t + r t where g t refers to all stable information of the time-series data, including the long-term and seasonal trends of the time series ( T t , C t , and S t in Eq. (8)). r t refers to the random effects in different time steps. Similarly, the authors used two LSTM networks to fit time-series data. The modeling process is illustrated in Fig. 6 (Gao et al., 2022c). A detailed model explanation can still be viewed in previous papers by the authors. 4 Case study Previously, we introduced the settings of the MPC controller and construction methods of different prediction models in detail. This section introduces and explains the detailed parameter settings for cases that need to be studied. 4.1 Dataset introduction To ensure that the dataset better met the prediction requirements of the deep learning model, in addition to the original measured dataset, the authors also artificially added some features and labels for the construction of a deep learning model. Table 3 lists the features used by different forecasting models. In this study, we built long-term and short-term models for building energy consumption and solar photovoltaic power generation, respectively. It should be noted that as the authors lacked the required temperature forecast data, they directly used the measured temperature data to simulate the daily maximum and minimum temperatures obtained by the weather forecast. Therefore, the effect predicted by the actual model was slightly better than that of the real application scenario. In addition, the authors used the predicted solar radiation data to calculate the maximum power generation of the installed solar PV based on an empirical equation (Eq. (10)). (10) K = 1 − Loss t h × 1 − Loss p c × 1 − Loss other where Loss t h denotes the thermal loss in the PV panel. From December to March, the thermal loss was 7.8%, and from June to September, it was 15.6%. In all other months, the thermal loss was 11.7%. Loss p c refers to the power conditioner loss, which is approximately 1.2%, and Loss o t h e r indicates the transmission and circuit losses, which are both approximately 5%. We used the data from 0:00 on August 1, 2020 to 23:00 on July 31, 2021 for a full year as the training dataset. Owing to a lack of data, the data from August 1, 2021 to October 18, 2021 were used as the test dataset. The authors selected the best prediction results from the test set as the final output. As the validation process of the MPC framework needs to use the results predicted by the model, all the training datasets will not be used in the MPC validation process. Table 4 summarizes the data and features used in MPC applications. It is worth noting that the predicted quantities of PV power generation and building energy consumption change according to the different experimental models. 4.2 Experimental details To verify the impact of the hybrid prediction model proposed in this study within the MPC framework, several different models were designed for comparison. \u2022 M.1 (Rule based control): As the baseline model for this study, the authors chose the operational strategies actually employed in current buildings. The goal of this study was also to use MPC for optimization and improvement based on the actual operation of a current building. Currently, an administrator only has certain control over the solar PV, which turns on or off a fraction of the solar PV based on the current battery state percentage. The operation of the CHP generator completely complies with the law of building use. Furthermore, the battery is used as the backup for the entire system and is regulated by charging and discharging. The entire control logic is shown in Table 5. In the baseline control, the CHP naturally satisfies the conditions of continuous operation. Due to a lack of expert experience, only the solar PV can be regulated, battery is just considered as a backup. \u2022 M.2 (Hybrid prediction model with MPC): The M.2 model uses the proposed hybrid prediction model and the MPC framework for operational optimization. By comparing the optimization effects of the M.2 and M.1 models using the measured data, the performance improvement of the hybrid prediction MPC framework proposed by the authors can be obtained. \u2022 M.3 (Conventional MPC with long-term prediction): M.3 uses a conventional MPC framework combined with a deep learning predictive model. Unlike M.2, M.3 only uses long-term forecasting models. The author hopes that the performance improvement due to the use of the hybrid prediction can be obtained by comparing M.3 and M.2. Fig. 7 indicates the prediction concept of M.3. \u2022 M.4 (Best baseline of MPC): Results of using the short-term forecasting model exclusively in the forecasting model. Compared with M.2, M.4 results in a change in the results of the long-term forecast, which can be found in Fig. 7. The author hopes to discuss whether the accuracy of the long-term prediction model will affect the final MPC optimization effect by comparing M.4 with M.2 and M.3. Note that this case cannot actually be implemented in real scenarios. The results from the same short-term forecasting and long-term forecasting models were used in all experiments. As requested by the building owner, the long-term forecast was 168 h, and the short-term forecast was 1 h. 5 Results and discussions 5.1 Prediction results in the testing dataset As the core attribute of the MPC framework, the accuracy of the model prediction determines the final MPC operation optimization effect. Table 6 summarizes the prediction accuracies of the two prediction models used in this study in terms of energy consumption and solar radiation. To compare the prediction accuracy of the model, we constructed a benchmark with the data 24 h before the prediction target as the prediction result, and the prediction indicators of the benchmark are also added in the table. The forecast results revealed that the results of the short-term forecasts were significantly better than those of the long-term forecasts. This is because in short-term forecast models, we often use the historical data closest to the next 1-h window for forecasting. This strengthens the temporal correlation between the features and predicted targets. In addition, short-term models can use hourly measured outdoor temperatures to make predictions, whereas long-term models use daily maximum and minimum temperatures to simulate weather forecasts, which may also be another reason for the better results of the short-term prediction models. In terms of long-term prediction, the prediction results of the two variables were not particularly ideal, with the MAPE reaching 43%. This may be due to the low number of features in the current dataset. However, the effect of the final model was compared with the actual MPC optimization framework. Finally, clearly, whether it is a short- or a long-term model, the R2 and MAPE of the prediction results exceed the benchmark accuracy standards. Only the MAPE for the long-term prediction of energy consumption was close to the benchmark. 5.2 Optimization performance with testing data To better verify the robustness of the hybrid prediction MPC, the authors conducted 91 episodes of optimization case tests with random starting time steps and random battery states using testing data. For the three optimization goals of the MPC optimizer in this study, three different evaluation indicators were set up to measure the optimization effect of the optimizer as shown in Table 7. \u2022 Off-grid target: For the goal of off-grid operation, we directly calculate the absolute value of the difference between the power purchase and the target value in each optimization step. \u2022 Battery safety target: The evaluation method for battery safety adopts the method of direct counting; that is, it measures how many time steps the battery\u2019s charge exceeds the safety range we set (20%\u201380%) during the entire optimization window of each case. \u2022 Continuous running of a CHP generator: The objective of continuous operation of a CHP generator is to count the number of changes in the generator operation strategy during the optimization window. That is, only changes in the operation strategy of the generator are counted, but specific changes are ignored (see Table 7). As the control logic used by the current energy system, M.1 exhibited a poor overall performance. In the 168-h operating window, an average of 70 h in the battery state exceeded the specified safety interval, which undoubtedly significantly reduced the flexibility of the system and also posed a threat to the safety of the battery. In terms of off-grid operation, battery safety was sacrificed. This is because the goal of off-grid operation is met as often as possible while maintaining energy balance. The superiority of these indicators is impractical. As the CHP generator adopts a fixed operation strategy, the number of changes in 168 h was approximately 14. All models using the MPC framework (M.2, M.3, M.4) outperformed M.1 in terms of both battery safety and continuous CHP operation. The M.3 model is a conventional MPC framework model, and we only use the results predicted by the long-term model to guide the optimization of the optimizer. For the tasks of battery safety and continuous operation of the CHP generator, the results revealed that the M.3 model performed better and its battery unsafe hours were 85.1% lower than those of M.1. The number of changes in the CHP operating strategy also changed from an average of 13.88 to an average of 9.33, that is, a decrease of 32.8%. However, in the finer control of off-grid operation, the MPC framework in M.3 did not perform well, with an average gap of 24.59 kWh from the target electricity purchase per hour. This is because the prediction accuracy of the long-term prediction model is poor, and this study follows the established strategy of the MPC controller without adjustments and corrections. M.2 uses a mixture of the two prediction models. A long-term prediction model was used to capture the long-term trend of data changes within the optimization window, and a short-term model was used to make accurate predictions. Compared with the M.3 model, M.2 significantly improves the performance of off-grid operation tasks while slightly sacrificing battery safety and the number of CHP changes. The off-grid performance improved by 69.2%. M.4 comprehensively improved the prediction accuracy of the model. Compared with those of the M.2 model, the long-term predictions of M.4 were more accurate. Compared with the M.3 model, M.4 improved the prediction results across all optimization windows. The indicators for battery safety did not differ significantly, but there was a significant improvement in off-grid operation and CHP continuous running tasks. Compared with M.2, M.4 improved the long-term prediction accuracy. The off-grid operation index was only increased by 0.44 kWh, but the battery safety and continuous CHP generator operation were both improved by approximately 40%. Evidently, the accuracy of the long-term prediction model is crucial in maintaining the safety of the battery and a continuous operation of the CHP generator over the entire optimization window. The accuracy of the short-term prediction model affects the realization effect of off-grid operation. Finally, the authors used a 168-h running optimization starting at 3:00 on September 21, 2021, as an example for visualization. In this case, the initial state of the battery was 0.24. Figs. 8, 9, 10 show the three important indicators in the current optimization case under specific situations. Fig. 8 shows the CHP running policy in the optimization window. M.1 maintains the regular pattern, whereas M.3 and M.4 have many changes at the end of this optimization. M.3 has a relatively stable running schedule that matches the average results of all cases. Except for M.2, all the other models have unsafe battery conditions, as shown in Fig. 9. In particular, for M.4, when CHP cannot meet the established strategy of frequent adjustment control of the battery capacity, it is crucial to maintain the off-grid operation goal of the system. As the battery is used as a backup in actual operation, M.1 perfectly achieves the goal of off-grid operation but also sacrifices the safety of battery operation and the flexibility of the system. Owing to inaccurate long-term predictions, M.3 achieved the worst off-grid performance when interacting with a grid distributing at least 150 kWh. Because M.2 and M.4 use the same short-term prediction results, their curves in Fig. 10 are also similar. 5.3 Supplementary experiments As an advancement of the M.4 model, in a supplementary experiment, the authors assumed that a 100% prediction accuracy could be obtained by the entire MPC framework and thus calculated the theoretical upper limit that all models in the case analysis could achieve under the current optimization conditions. Table 8 presents details of the supplementary experiments. For the S.1 model, improvement in the single-step prediction accuracy can undoubtedly achieve the goal of accurate off-grid operation. It also has a certain impact on the results of battery safety and CHP generator operation; however, the changes in these indicators are relatively weak. Comparing S.2 with M.2 further proves that the improvement in the long-term forecast mainly lies in the indicators related to the battery and CHP. In the S.3 model, which assumes all known future predictions, the battery still does not meet the safety interval requirements for 7.89 h, and the operation strategy of the CHP generator changes an average of 4.14 times. Owing to the random initialization of the time steps and battery states, there may be many cases in which a perfect operation is not achieved. This also indicates that the accuracy requirements of this MPC framework for long-term prediction models may not be very high. 6 Conclusion and future work In this paper, we proposed an MPC framework based on a long-term hybrid deep learning prediction model for operational optimization of a PVB system. This study aimed to achieve off-grid operation of the entire PVB system while maintaining battery safety and continuous operation of the CHP generator. The proposed hybrid prediction was fully adapted to the predictive model characteristics required by MPC. The proposed predictive model and MPC framework were trained, optimized, and validated using a measured dataset of a real building in Japan. Compared with the rule control currently used in buildings, the proposed hybrid prediction MPC framework can improve the battery safety index by 81.6%, whereas the CHP continuous operation index can also be improved by 36.4%. Compared with the conventional MPC framework, the hybrid prediction MPC framework proposed in this study improves the optimization of off-grid operation by approximately 69% while maintaining the remaining optimization objectives. In addition, by comparing the relationship between the prediction accuracies of different prediction models, we found that the accuracy of the short-term model mainly affects the optimization of off-grid operation, whereas battery safety and continuous CHP generator operation are more dependent on the long-term prediction model. Finally, regarding the optimization goals of battery safety and continuous operation of the CHP system, improving the accuracy of the prediction model did not make its performance superior to that of the current optimizer. Future research should consider a comparison between MPC and other optimization algorithms. In addition, uncertainty in the prediction models will be a focus of future research. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments We thank Takasago Thermal Engineering Co., Ltd. for their support and contribution to this research. This work was supported by the JST SPRING (grant number JPMJSP2108). References Arroyo et al., 2022 Arroyo J. Manna C. Spiessens F. Helsen L. Reinforced model predictive control (RL-MPC) for building energy management Applied Energy 309 2022 118346 J. Arroyo, C. Manna, F. Spiessens, L. Helsen, Reinforced model predictive control (rl-mpc) for building energy management, Applied Energy 309 (2022) 118346. Bianchini et al., 2019 Bianchini G. Casini M. Pepe D. Vicino A. Zanvettor G.G. An integrated model predictive control approach for optimal HVAC and energy storage operation in large-scale buildings Applied Energy 240 2019 327 340 G. Bianchini, M. Casini, D. Pepe, A. Vicino, G. G. Zanvettor, An integrated model predictive control approach for optimal hvac and energy storage operation in large-scale buildings, Applied Energy 240 (2019) 327\u2013340. Bouneffouf and Féraud, 2016 Bouneffouf D. Féraud R. Multi-armed bandit problem with known trend Neurocomputing 205 2016 16 21 D. Bouneffouf, R. Féraud, Multi-armed bandit problem with known trend, Neurocomputing 205 (2016) 16\u201321. Camacho and Alba, 2013 Camacho E.F. Alba C.B. Model predictive control: Springer Science & Business Media 2013 E. F. Camacho, C. B. Alba, Model predictive control: Springer science & business media (2013). Ceusters et al., 2021 Ceusters G. Rodríguez R.C. García A.B. Franke R. Deconinck G. Helsen L. Model-predictive control and reinforcement learning in multi-energy system case studies Applied Energy 303 2021 117634 G. Ceusters, R. C. Rodríguez, A. B. García, R. Franke, G. Deconinck, L. Helsen, A. Nowé, M. Messagie, L. R. Camargo, Model-predictive control and reinforcement learning in multi-energy system case studies, Applied Energy 303 (2021) 117634. Chen et al., 2022 Chen W.-A. Lim J. Miyata S. Akashi Y. Methodology of evaluating the sewage heat utilization potential by modelling the urban sewage state prediction model Sustainable Cities and Society 80 2022 103751 Methodology of evaluating the sewage heat utilization potential by modelling the urban sewage state prediction model, Chen, Wei-An and Lim, Jongyeon and Miyata, Shohei and Akashi, Yasunori, Sustainable Cities and Society, 80, 103751, 2022, Elsevier Chen et al., 2020 Chen Y. Tong Z. Zheng Y. Samuelson H. Norford L. Transfer learning with deep neural networks for model predictive control of HVAC and natural ventilation in smart buildings Journal of Cleaner Production 254 2020 119866 Y. Chen, Z. Tong, Y. Zheng, H. Samuelson, L. Norford, Transfer learning with deep neural networks for model predictive control of hvac and natural ventilation in smart buildings, Journal of Cleaner Production 254 (2020) 119866. Chennaif et al., 2022 Chennaif M. Maaouane M. Zahboune H. Elhafyani M. Zouggar S. Tri-objective techno-economic sizing optimization of off-grid and on-grid renewable energy systems using electric system cascade extended analysis and system advisor model Applied Energy 305 2022 117844 M. Chennaif, M. Maaouane, H. Zahboune, M. Elhafyani, S. Zouggar, Tri-objective techno-economic sizing optimization of off-grid and on-grid renewable energy systems using electric system cascade extended analysis and system advisor model, Applied Energy 305 (2022) 117844. Cígler et al., 2013 Cígler, J., Gyalistras, D., Široky, J., Tiet, V., & Ferkl, L. (2013). Beyond theory: the challenge of implementing model predictive control in buildings. In Proceedings of 11th rehva world congress, clima, vol. 250. J. Cígler, D. Gyalistras, J. Široky, V. Tiet, L. Ferkl, Beyond theory: the challenge of implementing model predictive control in buildings, in: Proceedings of 11th Rehva world congress, Clima, Vol. 250, 2013. Gao, Matsunami et al., 2022 Gao Y. Matsunami Y. Miyata S. Akashi Y. Operational optimization for off-grid renewable building energy system using deep reinforcement learning Applied Energy 325 2022 119783 Y. Gao, Y. Matsunami, S. Miyata, Y. Akashi, Operational optimization for off-grid renewable building energy system using deep reinforcement learning, Applied Energy 325 (2022) 119783. Gao et al., 2022b Gao Y. Miyata S. Akashi Y. Interpretable deep learning models for hourly solar radiation prediction based on graph neural network and attention Applied Energy 321 2022 119288 Y. Gao, S. Miyata, Y. Akashi, Interpretable deep learning models for hourly solar radiation prediction based on graph neural network and attention, Applied Energy 321 (2022) 119288. Gao et al., 2022c Gao Y. Miyata S. Akashi Y. Multi-step solar irradiation prediction based on weather forecast and generative deep learning model Renewable Energy 188 2022 637 650 Y. Gao, S. Miyata, Y. Akashi, Multi-step solar irradiation prediction based on weather forecast and generative deep learning model, Renewable Energy 188 (2022) 637\u2013650. Gao et al., 2020 Gao Y. Ruan Y. Fang C. Yin S. Deep learning and transfer learning models of energy consumption forecasting for a building with poor information data Energy and Buildings 223 2020 110156 Y. Gao, Y. Ruan, C. Fang, S. Yin, Deep learning and transfer learning models of energy consumption forecasting for a building with poor information data, Energy and Buildings 223 (2020) 110156. Grillone et al., 2021 Grillone B. Mor G. Danov S. Cipriano J. Sumper A. A data-driven methodology for enhanced measurement and verification of energy efficiency savings in commercial buildings Applied Energy 301 2021 117502 B. Grillone, G. Mor, S. Danov, J. Cipriano, A. Sumper, A data-driven methodology for enhanced measurement and verification of energy efficiency savings in commercial buildings, Applied Energy 301 (2021) 117502. Gurobi Optimization, LLC, 2018 Gurobi Optimization, LLC Gurobi optimizer reference manual 2018 L. Gurobi Optimization, Gurobi optimizer reference manual (2018). Hochreiter and Schmidhuber, 1997 Hochreiter S. Schmidhuber J. Long short-term memory Neural Computation 9 8 1997 1735 1780 S. Hochreiter, J. Schmidhuber, Long short-term memory, Neural computation 9 (8) (1997) 1735\u20131780. Huang et al., 2016 Huang B. Mauerhofer V. Geng Y. Analysis of existing building energy saving policies in Japan and China Journal of Cleaner Production 112 2016 1510 1518 B. Huang, V. Mauerhofer, Y. Geng, Analysis of existing building energy saving policies in japan and china, Journal of cleaner production 112 (2016) 1510\u20131518. Hylleberg, 2014 Hylleberg S. Seasonality in regression 2014 Academic Press S. Hylleberg, Seasonality in regression, Academic Press, 2014. Hyndman and Athanasopoulos, 2018 Hyndman R.J. Athanasopoulos G. Forecasting: Principles and practice 2018 OTexts R. J. Hyndman, G. Athanasopoulos, Forecasting: principles and practice, OTexts, 2018. Killian and Kozek, 2016 Killian M. Kozek M. Ten questions concerning model predictive control for energy efficient buildings Building and Environment 105 2016 403 412 M. Killian, M. Kozek, Ten questions concerning model predictive control for energy efficient buildings, Building and Environment 105 (2016) 403\u2013412. Kircher and Zhang, 2015 Kircher K.J. Zhang K.M. Model predictive control of thermal storage for demand response 2015 american control conference (ACC) 2015 IEEE 956 961 K. J. Kircher, K. M. Zhang, Model predictive control of thermal storage for demand response, in: 2015 American control conference (ACC), IEEE, 2015, pp. 956\u2013961. Lee and Heo, 2022 Lee H. Heo Y. Simplified data-driven models for model predictive control of residential buildings Energy and Buildings 2022 112067 H. Lee, Y. Heo, Simplified data-driven models for model predictive control of residential buildings, Energy and Buildings (2022) 112067. Liu et al., 2019 Liu M. Ooka R. Choi W. Ikeda S. Experimental and numerical investigation of energy saving potential of centralized and decentralized pumping systems Applied Energy 251 2019 113359 Experimental and numerical investigation of energy saving potential of centralized and decentralized pumping systems, Liu, Mingzhe and Ooka, Ryozo and Choi, Wonjun and Ikeda, Shintaro, Applied Energy, 251, 113359, 2019, Elsevier Manjarres et al., 2017 Manjarres D. Mera A. Perea E. Lejarazu A. Gil-Lopez S. An energy-efficient predictive control for HVAC systems applied to tertiary buildings based on regression techniques Energy and Buildings 152 2017 409 417 D. Manjarres, A. Mera, E. Perea, A. Lejarazu, S. Gil-Lopez, An energy-efficient predictive control for hvac systems applied to tertiary buildings based on regression techniques, Energy and Buildings 152 (2017) 409\u2013417. Mariano-Hernández et al., 2021 Mariano-Hernández D. Hernández-Callejo L. Zorita-Lamadrid A. Duque-Pérez O. García F.S. A review of strategies for building energy management system: Model predictive control, demand side management, optimization, and fault detect & diagnosis Journal of Building Engineering 33 2021 101692 D. Mariano-Hernández, L. Hernández-Callejo, A. Zorita-Lamadrid, O. Duque-Pérez, F. S. García, A review of strategies for building energy management system: Model predictive control, demand side management, optimization, and fault detect & diagnosis, Journal of Building Engineering 33 (2021) 101692. Nyholm et al., 2016 Nyholm E. Goop J. Odenberger M. Johnsson F. Solar photovoltaic-battery systems in Swedish households\u2013self-consumption and self-sufficiency Applied Energy 183 2016 148 159 E. Nyholm, J. Goop, M. Odenberger, F. Johnsson, Solar photovoltaic-battery systems in swedish households\u2013self-consumption and self-sufficiency, Applied energy 183 (2016) 148\u2013159. Oldewurtel et al., 2011 Oldewurtel F. Ulbig A. Morari M. Andersson G. Building control and storage management with dynamic tariffs for shaping demand response 2011 2nd IEEE PES international conference and exhibition on innovative smart grid technologies 2011 IEEE 1 8 F. Oldewurtel, A. Ulbig, M. Morari, G. Andersson, Building control and storage management with dynamic tariffs for shaping demand response, in: 2011 2nd IEEE PES International Conference and Exhibition on Innovative Smart Grid Technologies, IEEE, 2011, pp. 1\u20138. Peng et al., 2020 Peng J. Yan J. Zhai Z. Markides C.N. Lee E.S. Eicker U. Solar energy integration in buildings Applied Energy 264 NREL/JA-5D00-77178 2020 J. Peng, J. Yan, Z. Zhai, C. N. Markides, E. S. Lee, U. Eicker, X. Zhao, T. E. Kuhn, M. Sengupta, R. A. Taylor, Solar energy integration in buildings, Applied Energy 264 (NREL/JA-5D00-77178) (2020). Raso and Malaterre, 2017 Raso L. Malaterre P.O. Combining short-term and long-term reservoir operation using infinite horizon model predictive control Journal of Irrigation and Drainage Engineering 143 3 2017 7 p L. Raso, P. O. Malaterre, Combining short-term and long-term reservoir operation using infinite horizon model predictive control, Journal of Irrigation and Drainage Engineering 143 (3) (2017) 7\u2013p. Salakij et al., 2016 Salakij S. Yu N. Paolucci S. Antsaklis P. Model-based predictive control for building energy management. I: Energy modeling and optimal control Energy and Buildings 133 2016 345 358 S. Salakij, N. Yu, S. Paolucci, P. Antsaklis, Model-based predictive control for building energy management. i: Energy modeling and optimal control, Energy and Buildings 133 (2016) 345\u2013358. Shen et al., 2022 Shen R. Zhong S. Wen X. An Q. Zheng R. Li Y. Multi-agent deep reinforcement learning optimization framework for building energy system with renewable energy Applied Energy 312 2022 118724 R. Shen, S. Zhong, X. Wen, Q. An, R. Zheng, Y. Li, J. Zhao, Multi-agent deep reinforcement learning optimization framework for building energy system with renewable energy, Applied Energy 312 (2022) 118724. Sturzenegger et al., 2015 Sturzenegger D. Gyalistras D. Morari M. Smith R.S. Model predictive climate control of a swiss office building: Implementation, results, and cost\u2013benefit analysis IEEE Transactions on Control Systems Technology 24 1 2015 1 12 D. Sturzenegger, D. Gyalistras, M. Morari, R. S. Smith, Model predictive climate control of a swiss office building: Implementation, results, and cost\u2013benefit analysis, IEEE Transactions on Control Systems Technology 24 (1) (2015) 1\u201312. Sultana et al., 2017 Sultana W.R. Sahoo S.K. Sukchai S. Yamuna S. Venkatesh D. A review on state of art development of model predictive control for renewable energy applications Renewable and Sustainable Energy Reviews 76 2017 391 406 W. R. Sultana, S. K. Sahoo, S. Sukchai, S. Yamuna, D. Venkatesh, A review on state of art development of model predictive control for renewable energy applications, Renewable and sustainable energy reviews 76 (2017) 391\u2013406. Toub et al., 2019 Toub M. Reddy C.R. Razmara M. Shahbakhti M. Robinett III R.D. Aniba G. Model-based predictive control for optimal MicroCSP operation integrated with building HVAC systems Energy Conversion and Management 199 2019 111924 M. Toub, C. R. Reddy, M. Razmara, M. Shahbakhti, R. D. Robinett III, G. Aniba, Model-based predictive control for optimal microcsp operation integrated with building hvac systems, Energy Conversion and Management 199 (2019) 111924. Tsai et al., 2020 Tsai C.-H. Figueroa-Acevedo A. Boese M. Li Y. Mohan N. Okullo J. Challenges of planning for high renewable futures: Experience in the US midcontinent electricity market Renewable and Sustainable Energy Reviews 131 2020 109992 C.-H. Tsai, A. Figueroa-Acevedo, M. Boese, Y. Li, N. Mohan, J. Okullo, B. Heath, J. Bakke, Challenges of planning for high renewable futures: Experience in the us midcontinent electricity market, Renewable and Sustainable Energy Reviews 131 (2020) 109992. Veličković et al., 2017 Veličković P. Cucurull G. Casanova A. Romero A. Lio P. Bengio Y. Graph attention networks 2017 arXiv preprint arXiv:1710.10903 P. Veličković, G. Cucurull, A. Casanova, A. Romero, P. Lio, Y. Bengio, Graph attention networks, arXiv preprint arXiv:1710.10903 (2017). Wang et al., 2021 Wang R. Feng W. Wang L. Lu S. A comprehensive evaluation of zero energy buildings in cold regions: Actual performance and key technologies of cases from China, the US, and the European Union Energy 215 2021 118992 R. Wang, W. Feng, L. Wang, S. Lu, A comprehensive evaluation of zero energy buildings in cold regions: Actual performance and key technologies of cases from china, the us, and the european union, Energy 215 (2021) 118992. Wang et al., 2019 Wang Y. Smola A. Maddix D. Gasthaus J. Foster D. Januschowski T. Deep factors for forecasting International conference on machine learning 2019 PMLR 6607 6617 Y. Wang, A. Smola, D. Maddix, J. Gasthaus, D. Foster, T. Januschowski, Deep factors for forecasting, in: International conference on machine learning, PMLR, 2019, pp. 6607\u20136617. Wang et al., 2018 Wang Z. Wang Y. Zeng R. Srinivasan R.S. Ahrentzen S. Random forest based hourly building energy prediction Energy and Buildings 171 2018 11 25 Z. Wang, Y. Wang, R. Zeng, R. S. Srinivasan, S. Ahrentzen, Random forest based hourly building energy prediction, Energy and Buildings 171 (2018) 11\u201325. Wu et al., 2020 Wu, Z., Pan, S., Long, G., Jiang, J., Chang, X., & Zhang, C. (2020). Connecting the dots: Multivariate time series forecasting with graph neural networks. In Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining (pp. 753\u2013763). Z. Wu, S. Pan, G. Long, J. Jiang, X. Chang, C. Zhang, Connecting the dots: Multivariate time series forecasting with graph neural networks, in: Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, 2020, pp. 753\u2013763. Yan et al., 2019 Yan J. Yang Y. Elia Campana P. He J. City-level analysis of subsidy-free solar photovoltaic electricity price, profits and grid parity in China Nature Energy 4 8 2019 709 717 J. Yan, Y. Yang, P. Elia Campana, J. He, City-level analysis of subsidy-free solar photovoltaic electricity price, profits and grid parity in china, Nature Energy 4 (8) (2019) 709\u2013717. Yun et al., 2012 Yun K. Luck R. Mago P.J. Cho H. Building hourly thermal load prediction using an indexed ARX model Energy and Buildings 54 2012 225 233 K. Yun, R. Luck, P. J. Mago, H. Cho, Building hourly thermal load prediction using an indexed arx model, Energy and Buildings 54 (2012) 225\u2013233. Zhang et al., 2015 Zhang Y. Zhang T. Wang R. Liu Y. Guo B. Optimal operation of a smart residential microgrid based on model predictive control by considering uncertainties and storage impacts Solar Energy 122 2015 1052 1065 Y. Zhang, T. Zhang, R. Wang, Y. Liu, B. Guo, Optimal operation of a smart residential microgrid based on model predictive control by considering uncertainties and storage impacts, Solar Energy 122 (2015) 1052\u20131065. Zheng and Wu, 2022 Zheng B. Wu X. Integrated capacity configuration and control optimization of off-grid multiple energy system for transient performance improvement Applied Energy 311 2022 118638 B. Zheng, X. Wu, Integrated capacity configuration and control optimization of off-grid multiple energy system for transient performance improvement, Applied Energy 311 (2022) 118638. Zou et al., 2022 Zou B. Peng J. Yin R. Li H. Li S. Yan J. Capacity configuration of distributed photovoltaic and battery system for office buildings considering uncertainties Applied Energy 319 2022 119243 B. Zou, J. Peng, R. Yin, H. Li, S. Li, J. Yan, H. Yang, Capacity configuration of distributed photovoltaic and battery system for office buildings considering uncertainties, Applied Energy 319 (2022) 119243.",
+    "scopus-id": "85144016382",
+    "coredata": {
+        "eid": "1-s2.0-S2210670722006217",
+        "dc:description": "Considering solar photovoltaic (PV) usage in building energy systems (BES), energy systems that combine batteries and solar PV (PVB) have been widely used in buildings. Ensuring the safety of the battery and the operation requirements of other types of equipment to the extent possible while achieving the optimization goal has become an important challenge in the implementation of this system. In this case, model predictive control (MPC) has gained increasing attention in the operation control of BES owing to its strong fitting ability. However, the prediction models at the core of MPC are not adequately designed for the BES optimization problem, and numerous studies have not yet been modeled and tested in real buildings. In this study, we used a long- and short-term hybrid prediction model in the MPC framework. The proposed prediction models and MPC framework were validated using a measured dataset from a real office building in Japan. The results show that, compared with the currently used baseline control logic, the proposed hybrid prediction MPC framework can improve the battery safety index by 81.6%, while the combined heat and power continuous operation index can also be improved by 36.4%. Compared with the conventional MPC framework, the proposed hybrid prediction MPC framework improves the optimization of off-grid operation by approximately 69% while maintaining the remaining optimization objectives.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-02-28",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2210670722006217",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Gao, Yuan"
+            },
+            {
+                "@_fa": "true",
+                "$": "Matsunami, Yuki"
+            },
+            {
+                "@_fa": "true",
+                "$": "Miyata, Shohei"
+            },
+            {
+                "@_fa": "true",
+                "$": "Akashi, Yasunori"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S2210670722006217"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S2210670722006217"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2210-6707(22)00621-7",
+        "prism:volume": "89",
+        "articleNumber": "104317",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "Model predictive control of a building renewable energy system based on a long short-term hybrid model",
+        "prism:copyright": "© 2022 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "22106707",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Model predictive control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Renewable building energy system"
+            },
+            {
+                "@_fa": "true",
+                "$": "Hybrid prediction model"
+            },
+            {
+                "@_fa": "true",
+                "$": "Deep learning"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Sustainable Cities and Society",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "104317",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "February 2023",
+        "prism:doi": "10.1016/j.scs.2022.104317",
+        "prism:startingPage": "104317",
+        "dc:identifier": "doi:10.1016/j.scs.2022.104317",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "201",
+            "@width": "531",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "91295",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "275",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "98555",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "278",
+            "@width": "376",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "95966",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "255",
+            "@width": "530",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94601",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "290",
+            "@width": "527",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "108901",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "295",
+            "@width": "447",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "103851",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "249",
+            "@width": "503",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "99053",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "267",
+            "@width": "532",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "108079",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "271",
+            "@width": "532",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "106230",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "270",
+            "@width": "532",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "103777",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "83",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "71683",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "160",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74691",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "162",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73799",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "106",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "70225",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "121",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73633",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "144",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73332",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "108",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "71495",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "110",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74298",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "111",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75205",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "111",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72793",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "890",
+            "@width": "2350",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "233875",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1219",
+            "@width": "1668",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "240484",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1232",
+            "@width": "1668",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "232499",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1131",
+            "@width": "2347",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "248273",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1285",
+            "@width": "2335",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "346127",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1307",
+            "@width": "1982",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "300576",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1100",
+            "@width": "2226",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "293032",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1183",
+            "@width": "2355",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "380576",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1199",
+            "@width": "2355",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "389874",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1193",
+            "@width": "2354",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "331608",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2485",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9577",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8907",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8075",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15277",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8164",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15831",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12262",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12185",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1627",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2506",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1359",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1142",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1128",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1086",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1551",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1732",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1539",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1774",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2007",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2591",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "614",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2626",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10862",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22598",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30214",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4856",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5677",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8931",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15281",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20447",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3837",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "753",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10964",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4046",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4037",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "668",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "657",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "668",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5508",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7456",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2001",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2112",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2444",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1966",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si68.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5528",
+            "@ref": "si68",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2606",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4168",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si73.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2008",
+            "@ref": "si73",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si74.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20538",
+            "@ref": "si74",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si75.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5009",
+            "@ref": "si75",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si76.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4962",
+            "@ref": "si76",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si77.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7201",
+            "@ref": "si77",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si78.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "764",
+            "@ref": "si78",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6617",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7008",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2210670722006217-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "757036",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85144016382"
+    }
+}}

@@ -1,0 +1,254 @@
+scale:
+  building_model:
+    - "building energy modelling" 
+    - "bem"
+    - "building model"
+    - "whole-building"
+    - "building-level"
+    - "building energy model"
+    - "zone model"
+    - "thermal zone"
+    - "room model"
+    - "building cluster model"
+    - "ubem"
+    - "urban building energy modelling"    
+  system_model:
+    - "system model"
+    - "hvac model"
+    - "chiller model"
+    - "boiler model"
+    - "heat pump model"    
+    - "air handling unit model"
+    - "equipment model"
+    - "device model"
+    - "asset model"
+  occupancy_model:
+    - "occupancy model"
+    - "occupant model"
+    - "occupancy estimation"
+  climate_model:
+    - "climate model"
+    - "weather model"
+    - "meteorological model"
+    - "numerical weather prediction"
+
+model_paradigm:
+  whitebox:
+    - 'energyplus'
+    - 'trnsys'
+    - 'ies-ve'
+    - 'modelica'
+    - 'ida-ice'
+    - 'physics-based'
+    - 'first-principles'
+    - 'calibrated simulation'
+  greybox:
+    - grey-box'
+    - gray-box'
+    - state-space'
+    - kalman'
+    - parameter estimation'
+    - semi-empirical'
+    - hybrid'
+    - resistor-capacitor'
+    - RC model'
+    - RC model (ISO 52016)'
+    - degree-day'
+    - rc network'
+  blackbox:
+    - 'data-driven'
+    - 'statistical'
+    - 'regression'
+    - 'black box'
+    - 'neural network'
+    - 'ann'
+    - 'lstm'
+    - 'gru'
+    - 'svm'
+    - 'svr'
+    - 'random forest'
+    - 'xgboost'
+    - 'deep learning'
+    - 'reinforcement learning'
+
+data_types:
+  metering:
+    - 'smart meter'
+    - 'electricity meter'
+    - 'kwh'
+    - 'kw'
+  air_temperature:
+    - 'air temperature'
+    - 'dry-bulb'
+    - 't_air'
+  air_quality:
+    - 'co2'
+    - 'pm2.5'
+    - 'pm10'
+    - 'voc'
+  environment:
+    - 'outdoor temperature'
+    - 'humidity'
+    - 'solar irradiance'
+    - 'wind speed'
+    - 'weather station'
+  occupancy:
+    - 'occupancy'
+    - 'presence'
+    - 'people count'
+    - 'wifi probes'
+    - 'ble'
+  hvac_signals:
+    - 'valve position'
+    - 'damper'
+    - 'supply air'
+    - 'return air'
+    - 'air flow'
+    - 'water flow'
+  thermal_comfort:
+    - 'indoor overheating'
+    - 'PMV'
+
+applications:
+  performance monitoring:
+    - 'conditioning'
+  operation and maintenance:
+    - 'predictive maintenance'
+    - 'preventive maintenance'
+
+  energy flexibility:
+    - 'demand response'
+    - 'dynamic pricing'
+    - 'load shedding'
+    - 'load shifting'
+    - 'grid balancing'
+    - 'energy storage'
+
+  fdd:
+    - 'fault detection and diagnosis'
+    - 'fdd'
+  mpc:
+    - 'model predictive control'
+    - 'mpc'
+  occ:
+    - 'occupant centric operation'
+    - 'occupant centric control'
+    - 'demand-based control'
+    - 'occupancy-based control'
+    - 'recommender system'
+  operation performance analysis:
+    - 'prediction'
+    - 'optimisation'
+
+  benchmarking:
+    - 'benchmarking'
+    - 'baseline model'
+
+  retrofit:
+    - 'retrofit analysis'
+    - 'energy conservation measure'
+    - 'ecm'
+
+kpi_resolution:
+  subhourly:
+    - "second"
+    - "minute"
+    - "1-min"
+    - "5-min"
+    - "15-min"
+    - "hz"
+  hourly:
+    - "hour"
+    - "hourly"
+    - "per hour"
+  daily:
+    - "daily"
+    - "per day"
+  monthly:
+    - "monthly"
+    - "per month"
+  yearly:
+    - "annual"
+    - "yearly"
+
+input_resolution:
+  subhourly:
+    - "second"
+    - "minute"
+    - "1-min"
+    - "5-min"
+    - "15-min"
+    - "hz"
+  hourly:
+    - "hour"
+    - "hourly"
+    - "per hour"
+  daily:
+    - "daily"
+    - "per day"
+  monthly:
+    - "monthly"
+    - "per month"
+  yearly:
+    - "annual"
+    - "yearly"
+
+model_development:
+  - "schedule"
+  - "stochastic"
+  - "probabilistic"
+  - "real-time"
+  - "raw data"
+  - "update"
+
+model_inputs:
+  occupancy:
+    - "occupancy"
+    - "occupant count"
+    - "presence"
+  electric_load:
+    - "electric load"
+    - "demand"
+    - "power draw"
+  electric_use:
+    - "electricity use"
+    - "energy use"
+    - "kwh"
+  internal_gains:
+    - "internal gains"
+    - "plug loads"
+    - "lighting gains"
+  weather:
+    - "weather"
+    - "outdoor temperature"
+    - "solar irradiance"
+  operation_schedules:
+    - "operation schedule"
+    - "equipment schedule"
+    - "hvac schedule"
+
+kpi_type:
+  energy_performance:
+    - "energy use"
+    - "energy consumption"
+    - "energy efficiency"
+    - "eui"
+  thermal_comfort:
+    - "comfort"
+    - "pmv"
+    - "ppd"
+    - "operative temperature"
+  cost:
+    - "cost"
+    - "opex"
+    - "capex"
+    - "price"
+  carbon_emissions:
+    - "carbon"
+    - "co2"
+    - "emissions"
+    - "ghg"
+  flexibility:
+    - "demand response"
+    - "load shifting"
+    - "flexibility"

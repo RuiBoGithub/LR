@@ -1,0 +1,233 @@
+
+model_paradigm:
+  white:
+    - energyplus
+    - trnsys
+    - ies-ve
+    - modelica
+    - ida-ice
+    - physics-based
+    - first-principles
+    - calibrated simulation
+  grey:
+    - grey-box
+    - gray-box
+    - state-space
+    - kalman
+    - parameter estimation
+    - semi-empirical
+    - hybrid
+    - resistor-capacitor
+    - RC model
+    - RC model (ISO 52016)
+    - degree-day
+  black:
+    - data-driven
+    - statistical
+    - regression
+    - black box
+    - neural network
+    - ann
+    - lstm
+    - gru
+    - svm
+    - svr
+    - random forest
+    - xgboost
+    - deep learning
+    - reinforcement learning
+    - rc network
+
+
+optimisation:
+  python:
+    - SciPy
+    - Pyomo
+    - OpenPyXL
+    - CVXPY
+  matlab:
+    - Optimization Toolbox
+    - CVX
+  others:
+    - Gurobi
+    - JuMP
+    - OpenSolver
+
+
+scale:
+  building:
+    - ubem
+    - district-level
+    - whole-building
+    - building-level
+    - floor-level
+    - zone-level
+    - room-level
+    - space-level
+   
+  system:
+    - hvac
+    - ahu
+    - vav
+    - chiller
+    - boiler
+    - heat pump
+
+  occupancy:
+    - occupancy
+    - presence
+    - arrival
+    - departure
+    - people count
+
+  climate:
+    - climate
+    - weather
+    - outdoor temperature
+    - solar radiation
+
+data_types:
+  metering:
+    - smart meter
+    - electricity meter
+    - kwh
+    - kw
+  air_temperature:
+    - air temperature
+    - dry-bulb
+    - t_air
+  air_quality:
+    - co2
+    - pm2.5
+    - pm10
+    - voc
+  environment:
+    - outdoor temperature
+    - humidity
+    - solar irradiance
+    - wind speed
+    - weather station
+  occupancy:
+    - occupancy
+    - presence
+    - people count
+    - wifi probes
+    - ble
+  hvac_signals:
+    - valve position
+    - damper
+    - supply air
+    - return air
+    - air flow
+    - water flow
+  thermal_comfort:
+    - indoor overheating
+    - PMV
+
+applications:
+  performance monitoring:
+    - conditioning
+  operation and maintenance:
+    - predictive maintenance
+    - preventive maintenance
+
+  energy flexibility:
+    - demand response
+    - dynamic pricing
+    - load shedding
+    - load shifting
+    - grid balancing
+    - energy storage
+
+  fdd:
+    - fault detection and diagnosis
+    - fdd
+  mpc:
+    - model predictive control
+    - mpc
+  occ:
+    - occupant centric operation
+    - occupant centric control
+    - demand-based control
+    - occupancy-based control
+    - recommender system
+  operation performance analysis:
+    - prediction
+    - optimisation
+
+  benchmarking:
+    - benchmarking
+    - baseline model
+
+  retrofit:
+    - retrofit analysis
+    - energy conservation measure
+    - ecm
+
+kpi_resolution:
+  yearly:
+    - yearly
+    - annual
+  monthly:
+    - monthly
+  daily:
+    - daily
+  hourly:
+    - hourly
+    - per hour
+    - 1-hour
+  subhourly:
+    - 30-min
+    - 15-min
+    - 5-min
+    - 1-min
+    - 30-s
+    - 10-second
+
+model_development:
+  - schedule 
+  - stochastic model
+  - probabilistic model
+  - real-time
+  - raw data
+  - update
+
+kpi_types:
+  energy_performance:
+    - energy use
+    - energy consumption
+    - electricity consumption
+    - gas consumption
+    - demand
+    - load
+    - kwh
+    - kw demand
+  thermal_comfort:
+    - thermal comfort
+    - pmv
+    - ppd
+    - operative temperature
+    - comfort violation
+  occupancy:
+    - occupancy rate
+    - presence rate
+    - occupancy probability
+    - people count accuracy
+  indoor_air_quality:
+    - co2 concentration
+    - indoor air quality
+    - pm2.5 concentration
+    - pm10 concentration
+    - voc level
+  emissions:
+    - carbon emission
+    - co2 emission
+    - ghg emission
+  cost:
+    - energy cost
+    - operating cost
+    - electricity bill
+  flexibility:
+    - demand response performance
+    - load shifting performance
+    - peak shaving
