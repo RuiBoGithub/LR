@@ -29,12 +29,12 @@ ensure_nltk()
 
 # ---------------- Section parsing ----------------
 SECTION_WEIGHTS = {
-    "method": 1.0, "methodology": 1.0, "materials": 1.0, "data": 0.95,
-    "experiment": 0.95, "implementation": 0.9,
-    "results": 0.8, "evaluation": 0.8,
-    "abstract": 0.6, "preamble": 0.5,
-    "introduction": 0.25, "related": 0.25, "literature": 0.25, "background": 0.25, "review": 0.25,
-    "discussion": 0.4, "conclusion": 0.4, "future": 0.3, "appendix": 0.2
+    "method":0.75, "methodology": 0.75, "materials": 1.0, "data": 0.95,
+    "experiment": 0.95, "implementation": 0.95,
+    "results": 0.95, "evaluation": 0.5,
+    "abstract": 0.95, "preamble": 0.5,
+    "introduction": 0.05, "related": 0.05, "literature": 0.05, "background": 0.05, "review": 0.05,
+    "discussion": 0.1, "conclusion": 0.95, "future": 0.1, "appendix": 0.1
 }
 
 HEADING_RX = re.compile(r'(?m)^(?:\s*\d+(?:\.\d+)*\s+)?([A-Z][A-Za-z][^\n]{0,100})$')
@@ -117,6 +117,7 @@ def to_str(x):
     return str(x)
 
 # ---------------- Labelers ----------------
+
 def label_models_multi(sections, model_paradigm_terms: dict):
     model_hits, evidence = {}, {}
     paradigm_scores = {k: 0.0 for k in model_paradigm_terms.keys()}
@@ -160,7 +161,6 @@ def label_data_types(sections, ont):
 
 SAMPLE_RX = re.compile(r'\b(\d+(?:\.\d+)?)\s*(hz|/s|/min|/hour|s|sec|second|min|minute|h|hr|hour)\b', re.I)
 FREQ_WORDS = ["hourly", "daily", "weekly", "monthly", "15-min", "5-min", "1-min", "subhourly", "annual", "yearly"]
-DUR_RX = re.compile(r'\b(?:for|over)\s+(\d+(?:\.\d+)?)\s*(day|days|week|weeks|month|months|year|years)\b', re.I)
 
 def extract_sampling(sections):
     hits = []
@@ -172,13 +172,6 @@ def extract_sampling(sections):
         for w in FREQ_WORDS:
             if contains_term(t, w):
                 hits.append({"section": sec, "value": None, "unit": w})
-    return hits
-
-def extract_durations(sections):
-    hits = []
-    for sec, text in sections.items():
-        for m in DUR_RX.finditer(text or ""):
-            hits.append({"section": sec, "value": m.group(1), "unit": m.group(2)})
     return hits
 
 def label_applications_and_kpi(sections, ont, kpi_priority_order):
@@ -217,6 +210,82 @@ def pick_primary_kpi(kpi_ev, kpi_priority_order):
     # If none of the canonical keys hit, fall back to highest score
     return max(scored, key=scored.get)
 
+# ---------------- New labelers for KPI type and model inputs ----------------
+
+def label_generic_categories(sections, ont, ont_section_key):
+    """
+    Generic multi-label detector: returns (sorted_labels, evidence_dict).
+    evidence_dict[label] -> list of (section, term, snippet)
+    """
+    found = set(); ev = defaultdict(list)
+    subtree = ont.get(ont_section_key, {})
+    if not isinstance(subtree, dict):
+        return [], {}
+    for sec, text in sections.items():
+        t = (text or "").lower()
+        for label, terms in subtree.items():
+            ft = find_terms(t, terms, max_hits=3)
+            if ft:
+                found.add(label)
+                ev[label].extend([(sec,)*1 + h for h in ft])
+    return sorted(found), ev
+
+def label_kpi_types(sections, ont):
+    return label_generic_categories(sections, ont, "kpi_type")
+
+
+def label_model_development(sections, ont):
+    # ont["model_development"] can be either a list or dict of lists
+    found = set(); ev = defaultdict(list)
+    subtree = ont.get("model_development", {})
+    mode_map = {}
+    if isinstance(subtree, dict):
+        mode_map = subtree
+    elif isinstance(subtree, list):
+        # Treat as flat list under a single bucket named "mode"
+        mode_map = {m: [m] for m in subtree}
+    for sec, text in sections.items():
+        t = (text or "").lower()
+        for mode, terms in mode_map.items():
+            ft = find_terms(t, terms, max_hits=3)
+            if ft:
+                found.add(mode); ev[mode].extend([(sec,)*1 + h for h in ft])
+    return sorted(found), ev
+
+def label_model_inputs_and_resolution(sections, ont, input_kpi_priority_order):
+    """
+    Detects model input *types* (e.g., occupancy, load, weather) and their *temporal resolution*,
+    analogous to KPI resolution. Also captures generic frequency tokens (hourly, daily, etc.).
+    """
+    inputs = set(); input_ev = defaultdict(list)
+    input_resolutions = set(); input_res_ev = defaultdict(list)
+
+    # Inputs
+    for sec, text in sections.items():
+        t = (text or "").lower()
+        for inp, terms in ont.get("model_inputs", {}).items():
+            ft = find_terms(t, terms, max_hits=3)
+            if ft:
+                inputs.add(inp); input_ev[inp].extend([(sec,)*1 + h for h in ft])
+
+    # Resolutions (explicit dictionary like kpi_resolution)
+    for sec, text in sections.items():
+        t = (text or "").lower()
+        for res, terms in ont.get("input_resolution", {}).items():
+            ft = find_terms(t, terms, max_hits=3)
+            if ft:
+                input_resolutions.add(res)
+                input_res_ev[res].extend([(sec,)*1 + h for h in ft])
+
+        # Bare tokens too
+        for kw in ["hourly", "daily", "monthly", "15-min", "5-min", "1-min", "subhourly", "annual", "yearly"]:
+            if contains_term(t, kw):
+                tag = kw.replace('-', '_')
+                input_resolutions.add(tag); input_res_ev[tag].append((sec, kw, kw))
+
+    primary_input_resolution = pick_primary_kpi(input_res_ev, input_kpi_priority_order) if input_res_ev else None
+    return sorted(inputs), sorted(input_resolutions), primary_input_resolution, input_ev, input_res_ev
+
 # Map sampling mentions to a coarse resolution bucket
 def sampling_to_resolution(sampling_mentions):
     # Any Hz or seconds/minutes -> subhourly
@@ -238,7 +307,7 @@ def sampling_to_resolution(sampling_mentions):
     return None
 
 # ---------------- Core paper analysis ----------------
-def analyze_paper(doc, w2v_model, ont_expanded, kpi_priority_order):
+def analyze_paper(doc, ont_expanded, kpi_priority_order, input_kpi_priority_order):
     raw = doc['full-text-retrieval-response']['originalText']
     sections = split_sections(raw)
 
@@ -248,10 +317,19 @@ def analyze_paper(doc, w2v_model, ont_expanded, kpi_priority_order):
     scales, scale_ev = label_scale(sections, ont_expanded)
     data_types, data_ev = label_data_types(sections, ont_expanded)
     sampling = extract_sampling(sections)
-    durations = extract_durations(sections)
     apps, kpis, primary_kpi, app_ev, kpi_ev = label_applications_and_kpi(
         sections, ont_expanded, kpi_priority_order
     )
+
+    # *** NEW: KPI types
+    kpi_types, kpi_type_ev = label_kpi_types(sections, ont_expanded)
+
+    # *** NEW: model development modes
+    model_development_modes, model_development_ev = label_model_development(sections, ont_expanded)
+
+    # *** NEW: model inputs + their resolution
+    model_inputs, input_resolutions, primary_input_resolution, model_inputs_ev, input_res_ev = \
+        label_model_inputs_and_resolution(sections, ont_expanded, input_kpi_priority_order)
 
     # Derive collected data resolution from sampling; if none, fall back to primary KPI
     collected_data_resolution = sampling_to_resolution(sampling) or primary_kpi
@@ -266,12 +344,21 @@ def analyze_paper(doc, w2v_model, ont_expanded, kpi_priority_order):
         "data_types": data_types,
         "data_evidence": data_ev,
         "sampling_mentions": sampling,
-        "duration_mentions": durations,
         "applications": apps,
+        "applications_evidence": app_ev,
         "kpis": kpis,
         "kpi_primary": primary_kpi,
         "kpi_evidence": kpi_ev,
         "collected_data_resolution": collected_data_resolution,
+        "kpi_types": kpi_types,
+        "kpi_type_evidence": kpi_type_ev,
+        "model_development": model_development_modes,
+        "model_development_evidence": model_development_ev,
+        "model_inputs": model_inputs,
+        "input_resolutions": input_resolutions,
+        "input_resolution_primary": primary_input_resolution,
+        "model_inputs_evidence": model_inputs_ev,
+        "input_resolution_evidence": input_res_ev,
     }
 
 # ---------------- IO & parallel driver ----------------
@@ -283,9 +370,9 @@ def load_jsons(dirpath):
                 yield fn, json.load(f)
 
 def worker(args):
-    fname, doc, model_path, ont_expanded, kpi_priority_order = args
-    model = Word2Vec.load(model_path)  # safest across processes
-    res = analyze_paper(doc, model, ont_expanded, kpi_priority_order)
+    fname, doc, ont_expanded, kpi_priority_order, input_kpi_priority_order = args
+    # No need to load the model here anymore
+    res = analyze_paper(doc, ont_expanded, kpi_priority_order, input_kpi_priority_order)
     return fname, res
 
 def main():
@@ -295,7 +382,7 @@ def main():
     ap.add_argument("--ontology", default="ontology.yaml", help="Seed ontology YAML/YML")
     ap.add_argument("--output_csv", default="classified_papers.csv", help="Output CSV path")
     ap.add_argument("--output_json", default="", help="Optional evidence JSON")
-    ap.add_argument("--jobs", type=int, default=1, help="Parallel workers")
+    ap.add_argument("--jobs", type=int, default=8, help="Parallel workers")
     args = ap.parse_args()
 
     # Load ontology
@@ -309,9 +396,14 @@ def main():
     # KPI priority order strictly follows the order defined in ontology.yaml
     # e.g., if you want subhourly to win first, list it first in YAML.
     kpi_priority_order = list(ont.get("kpi_resolution", {}).keys())
+    # KPI priority order strictly follows the order defined in ontology.yaml
+
+    input_kpi_priority_order = list(ont.get("input_resolution", {}).keys())
 
     items = list(load_jsons(args.input_dir))
-    tasks = [(fname, doc, args.model, ont_expanded, kpi_priority_order) for (fname, doc) in items]
+    
+    tasks = [(fname, doc, ont_expanded, kpi_priority_order, input_kpi_priority_order)
+         for (fname, doc) in items]
 
     rows = []
     if args.jobs and args.jobs > 1:
@@ -343,8 +435,14 @@ def main():
             "kpi_primary": r["kpi_primary"] or "",
             "collected_data_resolution": r["collected_data_resolution"] or "",
             "sampling_mentions": to_str([f'{h["section"]}:{h["value"] or ""}{h["unit"]}' for h in r["sampling_mentions"]]),
-            "duration_mentions": to_str([f'{h["section"]}:{h["value"]}{h["unit"]}' for h in r["duration_mentions"]]),
+
+            "kpi_types": to_str(r.get("kpi_types")),
+            "model_development": to_str(r.get("model_development")),
+            "model_inputs": to_str(r.get("model_inputs")),
+            "input_resolutions_all": to_str(r.get("input_resolutions")),
+            "input_resolution_primary": r.get("input_resolution_primary") or "",
         })
+
     df = pd.DataFrame(out_rows).sort_values("file")
     df.to_csv(args.output_csv, index=False)
     print(f"[OK] Wrote {args.output_csv} with {len(df)} rows.")
