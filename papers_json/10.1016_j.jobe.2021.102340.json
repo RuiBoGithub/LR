@@ -1,0 +1,1122 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85104065647",
+    "originalText": "serial JL 312002 291210 291862 291881 31 Journal of Building Engineering JOURNALBUILDINGENGINEERING 2021-03-10 2021-03-10 2021-04-12 2021-04-12 2024-11-26T15:57:10 1-s2.0-S2352710221001960 S2352-7102(21)00196-0 S2352710221001960 10.1016/j.jobe.2021.102340 S300 S300.6 FULL-TEXT 1-s2.0-S2352710221X00071 2024-11-26T16:46:06.624711Z 0 0 20211001 20211031 2021 2021-03-10T10:38:33.124309Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst orcid primabst ref 2352-7102 23527102 true 42 42 C Volume 42 4 102340 102340 102340 202110 October 2021 2021-10-01 2021-10-31 2021 article fla © 2021 Elsevier Ltd. All rights reserved. CONTEXTAWAREMODELPREDICTIVECONTROLFRAMEWORKFORMULTIZONEBUILDINGS MTIBAA F 1 Introduction 2 Related work 2.1 Machine learning approaches 2.2 Optimization approaches 3 Smart building model 3.1 System description 3.2 Data-driven control framework 4 Context-aware multivariate LSTM framework for modeling IAT 4.1 Data organization 4.2 CAM-LSTM model 4.2.1 High-level feature extraction 4.2.2 Low-level feature extraction 4.2.3 Attention networks 5 Control design 5.1 Formulation of optimization problem for the MPC 5.2 Proposed genetic algorithm 6 Results and discussion 6.1 Results-I: time series prediction 6.2 Results-II: the impact of control signals on the prediction 6.3 Results-III: GA sensitivity analysis 6.4 Results-IV: MPC-GA results 7 Conclusion CRediT author statement References SHAIKH 2014 409 429 P COSTA 2013 310 316 A DOE 2011 U BUILDINGSENERGYDATABOOK PRIVARA 2013 8 22 S AFRAM 2017 96 113 A STURZENEGGER 2016 1 12 D CHEN 2015 187 198 X HUANG 2015 86 97 H SERALE 2018 631 G REYNOLDS 2018 729 739 J GARNIER 2015 847 862 A ASADI 2014 444 456 E LIM 2019 B TEMPORALFUSIONTRANSFORMERSFORINTERPRETABLEMULTIHORIZONTIMESERIESFORECASTING NUNEZ 2019 2859 2867 F FINCK 2019 365 379 C MTIBAA 2020 1 17 F DELCROIX 2020 1 14 B BUILDINGSIMULATIONPLUS05EMMINUS04EM AUTOREGRESSIVENEURALNETWORKSEXOGENOUSVARIABLESFORINDOORTEMPERATUREPREDICTIONINBUILDINGS LIANG 2019 3132 3142 Y PROCEEDINGS25THACMSIGKDDINTERNATIONALCONFERENCEKNOWLEDGEDISCOVERYDATAMINING URBANFMINFERRINGFINEGRAINEDURBANFLOWS JAIN 2018 4 A SMARRA 2018 1252 1272 F LIU 2020 113082 Y ZHENG 2018 1049 1058 G PROCEEDINGS24THACMSIGKDDINTERNATIONALCONFERENCEKNOWLEDGEDISCOVERYDATAMINING OPENTAGOPENATTRIBUTEVALUEEXTRACTIONPRODUCTPROFILES KAMPELIS 2019 2177 N TYUKOV 2017 1 7 A 20178THINTERNATIONALCONFERENCEINFORMATIONINTELLIGENCESYSTEMSAPPLICATIONSIISAPLUS05EMMINUS04EM SUPERVISORYMODELPREDICTIVEONOFFCONTROLHVACSYSTEMS STANDARD 2010 A STANDARD552010THERMALENVIRONMENTALCONDITIONSFORHUMANOCCUPANCY MTIBAAX2021X102340 MTIBAAX2021X102340XF 2023-04-12T00:00:00.000Z 2023-04-12T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2021 Elsevier Ltd. All rights reserved. 2021-06-04T10:19:37.615Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2352-7102(21)00196-0 S2352710221001960 1-s2.0-S2352710221001960 10.1016/j.jobe.2021.102340 312002 2024-11-26T16:46:06.624711Z 2021-10-01 2021-10-31 1-s2.0-S2352710221001960-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/MAIN/application/pdf/f7c91a936d0dcaf2cfd03ca5b2d851d1/main.pdf main.pdf pdf true 7573543 MAIN 13 1-s2.0-S2352710221001960-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/PREVIEW/image/png/927e5fb58557f988671af03a0dc607a8/main_1.png main_1.png png 58800 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2352710221001960-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr1/DOWNSAMPLED/image/jpeg/8ffd0c820cf3301bf820e5704e99e353/gr1.jpg gr1 gr1.jpg jpg 28537 339 389 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr10/DOWNSAMPLED/image/jpeg/f8b0d88bcf4ddc3e50e328e1922a8334/gr10.jpg gr10 gr10.jpg jpg 35175 249 544 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr11/DOWNSAMPLED/image/jpeg/191ad976175f2929aa4d88aa110bd306/gr11.jpg gr11 gr11.jpg jpg 82536 480 793 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr12/DOWNSAMPLED/image/jpeg/3844215531d6bba411474bcc89618847/gr12.jpg gr12 gr12.jpg jpg 96533 476 793 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr2/DOWNSAMPLED/image/jpeg/0594ee663c86a52c2429140e947f23ab/gr2.jpg gr2 gr2.jpg jpg 41808 237 544 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr3/DOWNSAMPLED/image/jpeg/27ac35ab4e3a4e061ff71db28706dc7b/gr3.jpg gr3 gr3.jpg jpg 41936 410 387 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr4/DOWNSAMPLED/image/jpeg/be65011343de1743f6e4550b2f7676f7/gr4.jpg gr4 gr4.jpg jpg 94809 384 713 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr5/DOWNSAMPLED/image/jpeg/66a182ba7161840b34f17c8b8aef5613/gr5.jpg gr5 gr5.jpg jpg 54217 256 802 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr6/DOWNSAMPLED/image/jpeg/61e62f4bbd5206b3febe5049962419f3/gr6.jpg gr6 gr6.jpg jpg 24997 160 713 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr7/DOWNSAMPLED/image/jpeg/80e4904def518a90739a5c13afa15912/gr7.jpg gr7 gr7.jpg jpg 69619 329 713 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr8/DOWNSAMPLED/image/jpeg/182a4ece3f1086f73d8b7fb7cc8df0fd/gr8.jpg gr8 gr8.jpg jpg 26216 212 624 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr9/DOWNSAMPLED/image/jpeg/f0292814eb23573c6823aed89cf46a30/gr9.jpg gr9 gr9.jpg jpg 37204 220 811 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001960-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr1/THUMBNAIL/image/gif/4d38154865d1eec66596b601400b7377/gr1.sml gr1 gr1.sml sml 6559 164 188 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr10/THUMBNAIL/image/gif/aabbfa054b55319f7b41a19a27d41c23/gr10.sml gr10 gr10.sml sml 5959 100 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr11/THUMBNAIL/image/gif/892367afabf927637e6a9209501e7323/gr11.sml gr11 gr11.sml sml 6347 133 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr12/THUMBNAIL/image/gif/86574d51451ea4f8261a2dd15716121b/gr12.sml gr12 gr12.sml sml 7855 131 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr2/THUMBNAIL/image/gif/49bcfed7176d2f31c2b9f33a141edc5e/gr2.sml gr2 gr2.sml sml 6292 96 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr3/THUMBNAIL/image/gif/111cd157f3494f03d8eac365b24a7713/gr3.sml gr3 gr3.sml sml 6607 163 154 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr4/THUMBNAIL/image/gif/d250ea0b294bdf253ea491c23f5f6969/gr4.sml gr4 gr4.sml sml 9377 118 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr5/THUMBNAIL/image/gif/06835a852c028b6db9f0e68069007c67/gr5.sml gr5 gr5.sml sml 5190 70 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr6/THUMBNAIL/image/gif/87f2a3049d7fad212fd59936db8cba5e/gr6.sml gr6 gr6.sml sml 3212 49 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr7/THUMBNAIL/image/gif/992ac1c9abcb39cd1ade613b6e789a20/gr7.sml gr7 gr7.sml sml 6325 101 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr8/THUMBNAIL/image/gif/af073e29cf530ecb2b41295ed98c846c/gr8.sml gr8 gr8.sml sml 2735 74 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/gr9/THUMBNAIL/image/gif/ad641ef6e35784ce044f821e158b7920/gr9.sml gr9 gr9.sml sml 3835 59 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001960-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/HIGHRES/image/jpeg/353397bf4c318ccdcfc506de4e219284/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 218641 1502 1722 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/HIGHRES/image/jpeg/40c5b679d8d55ebfd9e24f04cebff436/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 334907 1102 2410 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/HIGHRES/image/jpeg/6374b5410baa21cecb28ba8e051f5bc9/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 551868 2126 3512 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/DOWNSAMPLED/image/jpeg/fa299e3774bfcdc0ffdb24b8cf5cbecf/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 646349 2106 3512 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/HIGHRES/image/jpeg/065b54cbcebcadea3d45ea4ed832a2e8/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 317105 1052 2410 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/HIGHRES/image/jpeg/e640e9729d1f8c34b398faedab060b03/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 313261 1816 1713 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/HIGHRES/image/jpeg/5711ba92fd5034aa61e8eaab01749c1e/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 752704 1700 3158 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/HIGHRES/image/jpeg/031d1c1945f9d1e3a657382e9ea5897f/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 383091 1132 3552 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/DOWNSAMPLED/image/jpeg/d3d8ee2083d35bdefa583e8655733766/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 193572 710 3158 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/HIGHRES/image/jpeg/e14b0aaf709e33d4064740e3e4c97b88/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 507253 1459 3158 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/HIGHRES/image/jpeg/54965ec6512d7e5b18db1d17221958ea/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 192312 938 2764 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/HIGHRES/image/jpeg/86ded19c91c98534c72310274ff4d33f/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 271085 972 3591 IMAGE-HIGH-RES 1-s2.0-S2352710221001960-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/0ad24d1a20c2e780ce33ab8c6b988690/si1.svg si1 si1.svg svg 7788 ALTIMG 1-s2.0-S2352710221001960-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/1a7cabf9616c0cbc7351d44a516bbc7e/si10.svg si10 si10.svg svg 63184 ALTIMG 1-s2.0-S2352710221001960-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/eff74b8ec45db1f3c99310b27f7138d3/si11.svg si11 si11.svg svg 19174 ALTIMG 1-s2.0-S2352710221001960-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/a12be89bbb7a0b364e813c15523fd54c/si12.svg si12 si12.svg svg 17676 ALTIMG 1-s2.0-S2352710221001960-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/6700da0a5c69788636696111959cd634/si13.svg si13 si13.svg svg 26685 ALTIMG 1-s2.0-S2352710221001960-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/f8036cb9e7f9af73a98a0a08a23eb671/si14.svg si14 si14.svg svg 25187 ALTIMG 1-s2.0-S2352710221001960-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/9a9a6a434aa5a52b42213dc44a549265/si15.svg si15 si15.svg svg 28403 ALTIMG 1-s2.0-S2352710221001960-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/28da455102491794b2e36769e9d13c24/si16.svg si16 si16.svg svg 26905 ALTIMG 1-s2.0-S2352710221001960-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/34be3352004001d2cb8656be8f60ebcb/si17.svg si17 si17.svg svg 26314 ALTIMG 1-s2.0-S2352710221001960-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/3914c15ac4fc49cd5b71b7438287ef8d/si18.svg si18 si18.svg svg 38359 ALTIMG 1-s2.0-S2352710221001960-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/741130f6aec16b0306729379195446b2/si19.svg si19 si19.svg svg 23150 ALTIMG 1-s2.0-S2352710221001960-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/c73e90b3784a5b797e5bacfedb03fbe2/si2.svg si2 si2.svg svg 16286 ALTIMG 1-s2.0-S2352710221001960-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/c94328fba7f832667065bf75fcb47f52/si20.svg si20 si20.svg svg 20166 ALTIMG 1-s2.0-S2352710221001960-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/f11864745fc016e9070d5d1a997e6d3c/si21.svg si21 si21.svg svg 26955 ALTIMG 1-s2.0-S2352710221001960-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/0db785f5077a99851687da02f3c3a6ec/si22.svg si22 si22.svg svg 39494 ALTIMG 1-s2.0-S2352710221001960-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/e352c64e2333a134451ae28857824f5c/si23.svg si23 si23.svg svg 45967 ALTIMG 1-s2.0-S2352710221001960-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/1adf56a68f954d9a1a7b7f043f9f2ec8/si24.svg si24 si24.svg svg 28208 ALTIMG 1-s2.0-S2352710221001960-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/65dc3120cc85a8d55d930e245a5cda32/si25.svg si25 si25.svg svg 129071 ALTIMG 1-s2.0-S2352710221001960-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/213835656277284d3f325f7cc0977b6b/si26.svg si26 si26.svg svg 120891 ALTIMG 1-s2.0-S2352710221001960-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/06b8bf7bf3fbe9d88a12e7e9a827ec15/si27.svg si27 si27.svg svg 127586 ALTIMG 1-s2.0-S2352710221001960-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/f162008298061abaab20e23f04251262/si28.svg si28 si28.svg svg 163335 ALTIMG 1-s2.0-S2352710221001960-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/b3727cbe7c78a033034cd904a34a9a1b/si3.svg si3 si3.svg svg 16904 ALTIMG 1-s2.0-S2352710221001960-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/fc284f7e5212c4c97abf922ad85b11bb/si30.svg si30 si30.svg svg 61430 ALTIMG 1-s2.0-S2352710221001960-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/a1b1a26d62720ddec55e8e40a171d891/si31.svg si31 si31.svg svg 94611 ALTIMG 1-s2.0-S2352710221001960-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/2637e6e57ecf1899562700ab6f3e35c1/si33.svg si33 si33.svg svg 115959 ALTIMG 1-s2.0-S2352710221001960-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/f56cb83c59de32e8be9474252320223a/si35.svg si35 si35.svg svg 60044 ALTIMG 1-s2.0-S2352710221001960-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/99ff7662534b4ff7ce44def3e5fa8e4d/si36.svg si36 si36.svg svg 49217 ALTIMG 1-s2.0-S2352710221001960-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/ce2e2d37b749ed853796ee87aa8c9200/si37.svg si37 si37.svg svg 74236 ALTIMG 1-s2.0-S2352710221001960-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/e99c65fbabcd703f152cbc98d619c499/si38.svg si38 si38.svg svg 128739 ALTIMG 1-s2.0-S2352710221001960-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/f6b110abe2556fd9543fc58faf761807/si4.svg si4 si4.svg svg 17236 ALTIMG 1-s2.0-S2352710221001960-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/0cf78c9b4132e1e646f79537674d4046/si40.svg si40 si40.svg svg 98270 ALTIMG 1-s2.0-S2352710221001960-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/0881c31919397c5eee55b84d6ce1afcc/si42.svg si42 si42.svg svg 17409 ALTIMG 1-s2.0-S2352710221001960-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/163fa819f94f6c83fd14fb5713f899c6/si43.svg si43 si43.svg svg 58343 ALTIMG 1-s2.0-S2352710221001960-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/bdd6e5e337aef882077f385fecf35952/si44.svg si44 si44.svg svg 21034 ALTIMG 1-s2.0-S2352710221001960-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/b7bc1ff25c2a385325a8661f226bfbd4/si45.svg si45 si45.svg svg 42386 ALTIMG 1-s2.0-S2352710221001960-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/e5a5acd1d739e934e67470637dcc3d7a/si46.svg si46 si46.svg svg 43276 ALTIMG 1-s2.0-S2352710221001960-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/e1c32d5fb930eaeecbbcc092be8808ee/si47.svg si47 si47.svg svg 31195 ALTIMG 1-s2.0-S2352710221001960-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/1051c89f61adefe37b7c8987783fa228/si48.svg si48 si48.svg svg 31531 ALTIMG 1-s2.0-S2352710221001960-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/919fe07bb128bee6b5dcdf8d5f87ba35/si49.svg si49 si49.svg svg 36477 ALTIMG 1-s2.0-S2352710221001960-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/a9872f85774ae36de391631def982f87/si5.svg si5 si5.svg svg 17905 ALTIMG 1-s2.0-S2352710221001960-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/b50d0821f3ad0db9ecaa675a77386e9f/si50.svg si50 si50.svg svg 34414 ALTIMG 1-s2.0-S2352710221001960-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/97793166ed23804fa3c19295ccd653db/si51.svg si51 si51.svg svg 12322 ALTIMG 1-s2.0-S2352710221001960-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/8e3a16f56ddaaebd0ed6a462934e85ee/si52.svg si52 si52.svg svg 26412 ALTIMG 1-s2.0-S2352710221001960-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/cbd5fd8ac6ab96b8f918800bf07662a2/si53.svg si53 si53.svg svg 23943 ALTIMG 1-s2.0-S2352710221001960-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/a6cd6cb54e85bcfdc9bcf6a0e8ff5a7c/si54.svg si54 si54.svg svg 15727 ALTIMG 1-s2.0-S2352710221001960-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/1f6f70c67a1452b47a38ab46fa8e24a8/si55.svg si55 si55.svg svg 30642 ALTIMG 1-s2.0-S2352710221001960-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/f6801ae6af93a6a296dc2a752a52c8ee/si56.svg si56 si56.svg svg 33316 ALTIMG 1-s2.0-S2352710221001960-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/97bf1f9d851028328a936a76603a13b9/si57.svg si57 si57.svg svg 65143 ALTIMG 1-s2.0-S2352710221001960-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/1d1c457080a888ea5b22e54e7059bb2a/si58.svg si58 si58.svg svg 19075 ALTIMG 1-s2.0-S2352710221001960-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/c7d2d678805eccc2743b7b9a06fa6bd5/si59.svg si59 si59.svg svg 69412 ALTIMG 1-s2.0-S2352710221001960-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/a27c4aa2bac4e394096d4485a35ca1e1/si6.svg si6 si6.svg svg 18506 ALTIMG 1-s2.0-S2352710221001960-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/3a176de655caa06172848c1dd8c8ada7/si60.svg si60 si60.svg svg 74214 ALTIMG 1-s2.0-S2352710221001960-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/4dbfb84ca7e20089b4e1b4ae029b4903/si61.svg si61 si61.svg svg 54093 ALTIMG 1-s2.0-S2352710221001960-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/3fa28d907ecabcb0a8b8fe6a02486d68/si62.svg si62 si62.svg svg 8340 ALTIMG 1-s2.0-S2352710221001960-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/247a6d969a4756320227021d0f215d89/si63.svg si63 si63.svg svg 20270 ALTIMG 1-s2.0-S2352710221001960-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/65798d4d7a42cce5732007d2e74b7c83/si7.svg si7 si7.svg svg 53090 ALTIMG 1-s2.0-S2352710221001960-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/dec7483aae619a205b688f418b495741/si8.svg si8 si8.svg svg 37992 ALTIMG 1-s2.0-S2352710221001960-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001960/STRIPIN/image/svg+xml/7709008cf28651bd7eb7c8a88e55a0ce/si9.svg si9 si9.svg svg 16878 ALTIMG 1-s2.0-S2352710221001960-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10H876MHLTL/MAIN/application/pdf/a6aa1cd902148c151d0057edf6cd2253/am.pdf am am.pdf pdf false 1522074 AAM-PDF JOBE 102340 102340 S2352-7102(21)00196-0 10.1016/j.jobe.2021.102340 Elsevier Ltd Fig. 1 Schematic diagram of RTU for one zone. Fig. 1 Fig. 2 Data-driven control design. Fig. 2 Fig. 3 Multi-horizon forecasting with multi-variate time series composed by past observed and known future inputs. Fig. 3 Fig. 4 Input data sample description. Fig. 4 Fig. 5 Schematic diagram of dual-stream neural networks model for temperature prediction. Fig. 5 Fig. 6 Genetic algorithm chart. Fig. 6 Fig. 7 CAM-LSTM Model temperature prediction for the three zones with three case studies: (a) (b) (c) represent 3 case studies for the 3 zones in the winter season, and (d) (e) (f) represent 3 case studies for the 3 zones in the summer season. Fig. 7 Fig. 8 Outdoor air temperature for test 1 and 2. Fig. 8 Fig. 9 The runtime for each stage for deployment test 1 and 2 using MPC-GA and RBC. Fig. 9 Fig. 10 The percentage of time the temperature is outside of the dead band of the setpoint. Fig. 10 Fig. 11 Comparison between MPC-GA in real time mode and RBC for the deployment test 1. Fig. 11 Fig. 12 Comparison between MPC-GA in real time mode and RBC for the deployment test 2. (a) Test 2 MPC-GA and (b) Test 2 RBC. Fig. 12 Table 1 Feature description. Table 1 Feature Description Unit Controlled variables, u i u c1i cooling stage 1 of zone i Binary u c2i cooling stage 2 of zone i Binary u fi Fan stage of zone i Binary u h1i heating stage 1 of zone i Binary u h2i heating stage 2 of zone i Binary Uncontrolled variables, v i h Hour of day Integer d Day of week Integer T out Outdoor air temperature ◦ C Target Variables, y i T i i n Indoor air temperature of zone i ◦ C Table 2 Limits on temperature drifts and ramps [25]. Table 2 [1pt] Time Period, h 0.25 0.5 1 2 4 Time Steps τ η 3 6 12 24 48 Maximum Operative Tempera-ture Change Allowed TR η , ◦ C (◦ F) 1.1 (2.0) 1.7 (3.0) 2.2 (4.0) 2.8 (5.0) 3.3 (6.0) Table 3 Performance comparison of different prediction method with past time steps equal to 3 h and future time steps equal to 2 h. Table 3 [1pt] Models MAPE (%) RMSE (◦ C) MAE (◦ C) NNARX [17] 0.4699 1.9431 1.449 LSTM-MISO [16] 0.6487 0.1937 0.1373 CANN [18] 1.0139 0.3103 0.2139 DSTP-RNN [21] 0.7105 0.353 0.1682 SA-LSTM [22] 0.2269 0.0039 0.048 CAM-LSTM 0.0872 0.0005 0.0181 Table 4 GA sensitivity analysis. Table 4 (A) Best fitness, Fix: Pop size 400 Elite Generation 20 40 80 100 25 90.96 71.55 88.97 88.64 40 70.25 61.55 59.56 53.85 60 48.38 47.88 37.44 43.48 (B) Fix: Generation 60, Elite 80 Population size Best fitness 100 108.96 200 38.66 300 45.52 400 37.44 500 47.16 (C) Fix: Pop 400, Generation 60, Elite 80 Nb_Mutation Best fitness 1 37.44 3 47.33 10 84.77 (D) Fix: Pop 400, Generation 60, Elite 80, Nb_mutation = 1 Nb_crossover Best fitness 3 40.44 6 47.35 12 37.44 18 51.11 24 51.58 Table 5 Control results. Table 5 Deploy test day 1 (T1) Deploy test day 2 (T2) Control method MPC-GA simulation MPC-GA real-time RBC baseline MPC-GA simulation MPC-GA real-time RBC baseline Datetime Test 9/8/202012:25 to 17:15 9/8/202012:25 to 17:15 8/15/201912:25 to 17:15 9/18/202011:05 to 17:00 9/18/202011:05 to 17:00 10/30/201911:05 to 17:00 Day of week Tuesday Tuesday Thursday Friday Friday Wednesday Min(OAT) ◦ C 20.13 20.13 19.52 11.97 11.97 12.12 Max(OAT) ◦ C 23.58 23.58 23.43 14.08 14.08 14.2 Mean(OAT) ◦ C 21.855 21.855 21.475 13.025 13.025 13.16 Energy zone 1 (kWh) 98.98 111.7 280.25 63.5 37.08 9 Energy zone 2 (kWh) 108.75 105.66 280.25 57.95 49.91 119.99 Energy zone 3 (kWh) 116.2 105.66 141.5 63.24 34.37 72.54 Total Energy (kWh) 323.93 323.02 702 184.69 121.36 201.53 Max Power (kW) 11.16 14.25 14.25 8.08 8.08 3.4 Discomfort (◦ C/h) 0.008 0 11.19 0 0.04 0.22 Table 6 Savings for test 1 and test 2. Table 6 [1pt] Tests Saving of energy consumption (%) Saving of power peak (%) Saving of discomfort (%) Test 1 62.29 0 100 Test 2 58.40 0 81.81 Context-aware Model Predictive Control framework for multi-zone buildings Fatma Mtibaa a b ∗ Kim-Khoa Nguyen a Vasken Dermardiros b Mohamed Cheriet a a Synchromedia Laboratory - École de Technologie Supérieure, Université Du Québec, Canada Synchromedia Laboratory - École de Technologie Supérieure Université Du Québec Canada Synchromedia Laboratory - Ecole de Technologie Superieure, Universite Du Quebec, Canada b Smart Building Lab, BrainBox AI, Montreal, QC, Canada Smart Building Lab BrainBox AI Montreal QC Canada Smart Building Lab, BrainBox AI, Montreal, QC, Canada ∗ Corresponding author. Synchromedia Laboratory - École de Technologie Supérieure, Université Du Québec, Canada. Synchromedia Laboratory - École de Technologie Supérieure Université Du Québec Canada Today, Model predictive control (MPC) has largely been used to optimize energy consumption and maintain thermal comfort in buildings. However, to build an online MPC model in building, the dynamics of the physical system must be accurately modeled, which is a time-consuming and costly task. Neural network models help to overcome the modeling problems especially with the availability of historical data. This research presents a novel online data-driven control framework named Model Predictive Control via Genetic algorithm (MPC-GA) allowing the optimal operation of the heating, ventilation, and air conditioning system and has been experimentally validated in a multi-zone retail building. The MPC-GA combines an attention-based neural network time series multivariate prediction model with a MPC framework. The prediction model used a dual-stream neural networks based on multivariate time series of controlled and uncontrolled inputs. The attention mechanism is applied on controlled parameters to give them more weight to better predict the zone temperature. The prediction model is used as input for the optimization framework which minimizes: energy consumption, peak demand and discomfort during occupied hours under self-tuned setpoint, temperature ramp and equipment cycling constraints. A heuristic search algorithm using a genetic algorithm is used to solve the online data-driven MPC-GA models and obtain the future optimal combination settings of all controls for all the zones over a prediction horizon. The benchmark results showed that the MPC-GA outperforms RBC control systems with more than 50% and 80% reduction in energy consumption and discomfort respectively. Keywords HVAC Multivariate time series Neural network Attention mechanism MPC Genetic algorithm Optimal controls 1 Introduction The total energy used in commercial buildings accounts for 40% of the global energy consumption [1] and up to 30% of carbon dioxide emissions [2]. A survey conducted in the United States has shown that in buildings, more than 50% of the energy consumed is related to heating, cooling, ventilation and air conditioning (HVAC) systems, while lighting accounts for about 9% [3]. The main question that should be addressed is, what are the best approaches to cool or heat buildings in order to save energy and reduce carbon footprint without affecting the householder\u2019s comfort? On today\u2019s advanced HVAC systems, rule-based controllers (RBC) are generally used. However, RBC cannot generalize their rules at a building level [4], due to the high complexity of managing their defined rules and continuously monitoring and tuning the HVAC control signals to reduce global energy consumption while simultaneously ensure a thermal comfort. In addition, RBC are not anticipatory controller: they operate on the basis of the current state of the system rather than projecting into the future and deciding on the next appropriate action [5]. Model predictive control (MPC) is an optimal control that can improve energy efficiency in HVAC systems. It has been proven efficient control solution for buildings by providing 17% energy savings more than RBC [1,6]. Instead of being a reactive control, MPC is a predictive control that uses weather forecast and occupancy data over a prediction horizon and executes the appropriate control signals at the present time. The major challenge with MPC is to accurately model the dynamics of the physical system, which requires tuning of the system controller parameters and deploying new sensors in the building [6]. This task is complicated, requires expertise to use and time-consuming especially when there are many types of buildings to control. Modern smart buildings are equipped with a variety of sensors, such as temperatures and humidity probes, power meters, air-pressure transducers, and so on. The availability of historical monitoring data from this panoply of sensors already deployed opens the opportunity to develop data-driven solutions based on Artificial Intelligence (AI) algorithms [7,8]. The main advantage to use data-driven control is to reduce the cost and time consuming task caused by MPC that requires an accurate and complex modeling processes [9]. To implement MPC model, online optimization is needed with low computation time to generate a sequence of control signals for all the zones over prediction horizon. Evolutionary algorithms like genetic algorithms (GA) have been widely applied to resolve the optimization problem related to MPC in HVAC systems. An optimization procedure combining GA, MPC and artificial neural network to minimize the energy consumption has been proposed in Refs. [10\u201312]. However, none of the previously mentioned approaches has been validated in real time with the building\u2019s feedback states. It is not obvious that a building operator allows to implement a data-driven controller on a real building because the error of the prediction might disturb the built environment. Implementation in real buildings can lead to undesirable results such as temperatures that are too cold or too hot and drop the security of the controls. The data-driven control system should avoid these undesirable results because there is no turning back during the implementation phase. Moreover, the optimization models proposed in previous work focus mainly on energy efficiency and discomfort reduction. In this paper, the control problem considers a self-tuned setpoint, cycling and temperature ramp constraints in addition to energy, peak power and discomfort costs, and it has been implemented online in real building use case. Unlike some prior work [10,11] that do not consider weather and occupancy forecasting parameters, past and future weather conditions, occupancy and controlled values are all included in our prediction model to improve the perdition accuracy and the control decision. The main challenge is developing a prediction model to consider the impact of controls on temperature and close the control loop. The complex and non-linear inter-dependencies between multivariate time series, including control and uncontrolled parameters, make the prediction task more complicated. The typical LSTM models with an attention mechanism [13,14] failed to capture temporal patterns across multiple time steps. In this paper, we propose a context aware multivariate LSTM (CAM-LSTM) based on dual-stream neural network with an attention mechanism which selects not only past but also future multivariate time series including controlled and uncontrolled inputs to predict a multi-steps temperature output. Firstly, the control and uncontrolled multivariate time series are fed independently into two parallel streams. The first stream includes one high-level and one low-level feature extraction components to model the complex mixtures of temporal patterns. The second stream includes the same components as the first one, in addition to an attention component which learns the dependencies among various controls and target features. To the best of our knowledge, this is the first work that uses attention with dual stream network in predictive control mechanism. The proposed MPC-GA control system combines CAM-LSTM models based on an attention mechanism learned in offline mode and GA to generate the control sequence for the whole prediction horizon. The GA leads to find the optimal sequence combination of control signals, which minimize the cost function. The CAM-LSTM model uses this optimal combination as input to predict the future indoor air temperature (IAT). Experiments on real-world demonstrate the accuracy and robustness of the proposed MPC-GA control method. The contributions of this paper are: 1) a CAM-LSTM models based on dual-stream neural network including attention mechanism which include past and future controlled and uncontrolled inputs; 2) an optimization model to minimize energy, power peak and discomfort that considers a self-tuned setpoint, cycling and temperature ramp as constraints; 3) The validation of the closed-loop MPC-GA control framework in a real multi-zone retail building.This paper is structured as follows: Section 2 summarizes the prior work related to our research. Section 3 describes the use case used in this study and the global methodology of our proposed data-driven optimization framework. Section 4 illustrates in details the CAM-LSTM model. The control design of MPC-GA framework is introduced in Section 5. Section 6 discusses the experimental results and compares the performance of the proposed models. Finally, we conclude key findings and present future research directions. 2 Related work This section describes relevent literature research on machine learning and optimization techniques used in data-driven control models in HVAC systems. 2.1 Machine learning approaches Generally, prior work employed artificial neural networks (ANN) as black-box models to represent HVAC building systems and combined it with an MPC optimal control framework as discussed in Refs. [10,15]. Nevertheless, LSTM has been shown to outperform ANN in HVAC systems by as much as 50% of accuracy especially for time series data [16]. LSTM uses historical data and future instances, taking into account the inertia of the system. A preliminary work has been reported in Ref. [16], wherein we have modeled a multi-step temperature prediction in HVAC systems using an LSTM model and compared the performance of multi-input single-output (MISO) and multi-input multi-output (MIMO) architectures. However, only past controlled and uncontrolled parameters are used for the prediction. Additionally, a Neural Network Autoregressive with Exogenous Input (NNARX) model is proposed by Ref. [17] which predicts the behaviors of the indoor air temperature. The experiments are performed with the same type of use-case building used in this paper. The accuracy results are very close to the LSTM-MISO used in Ref. [16]. However, the authors in Ref. [17] develop a one-step forecasting model, then use a recursive multi-step forecasting strategy to predict the future steps. Such recursive strategy degrades the performance of the model as the number of future steps increases, because prediction values are used instead of real observations and the error is compounded. In addition, the temporal dependency among continuous variables is ignored, while the historical data collected from HVAC systems are generally time series data. In this paper, we add context-aware attention component to the LSTM model to consider the sensitive relationship between temperature and control parameters. Liang et al. [18] designed a framework named UrbanFM based on deep neural networks. An external factor fusion component is added to handle the context information (like the day of the week, time of the day, weather, other external factors) and capture near and distant spatio-temporal dependencies. This component plays an important role in providing a prior knowledge and improves the inference performance under sparse sampling. This module is integrated in the high-level feature extraction used in this paper to model the complex high-level interaction between input features. A data-driven control model was proposed in Ref. [19] which combine multi-output regression trees with MPC. The proposed approach was applied to trade-off peak power reduction against thermal comfort in buildings. Yet, the modeling accuracy using single trees to represent multi-step prediction is strongly affected by overfitting and high variance. The authors in Ref. [20] replace the model dynamic in MPC by a set of linear regression model which changes from time step to time step. A regression model was used then extended to a random forest model. The proposed control model was applied to design the optimal ON/OFF scheduling for the heating system in order to save energy. It is obvious that the availability of an accurate multi-step prediction model is extremely important in a data-driven MPC framework. As discussed in the previous paragraph, several deep learning models have been proposed and integrated with MPC to define a data-driven control methodology [10,11,19]. However, they usually include black box models that do not take into account the physical aspect. They define a predictive model but ignore the sensitivities of control on temperature which can bias the optimization decision for the control outputs. For example, if the cooling controls are all OFF and it is hot outside, automatically the model should predict an increasing in the temperature behaviour, which is not the case of models proposed by several related works. In general, when modeling temperature which should be used to decide the future control actions, it is essential to capture the sensitivities of the temperature output with respect to known future inputs like control commands and outside temperature. In particular, at every time t, given the known future inputs and other inputs that are only historically known, the model should correctly describe the variations of the predicted temperature output, due to variations of the command input sequence including observed and future know values. Recent deep neural networks have considered the use of transformer networks with attention-based mechanism for multi-horizon time series forecasting [13]. In Ref. [14], they use the basic structure of encoder-decoder with attention model combined with MPC to control a paste thickener systems. Although attention mechanism improve long-horizon sequence, it have difficulties handling continuous time-series data which requires a strong temporal consistency. However, temporal consistency is a requirement for temperature prediction, as the control variables should remain stable over a short period of time to avoid unnecessarily cycling equipment. In Refs. [21,22], the attention mechanism is used to capture the spatio-temporal relationships between multivariate time series and they will be used as a reference to compare our proposed prediction model. The use case demonstrated in this paper includes historical target parameters, historical and future known control and uncontrolled parameters. To model an appropriate data-driven control model, we propose a CAM-LSTM prediction model based on attention mechanism that considers the contribution of both control and uncontrolled parameters to dynamically model temperature behavior in the future. This prediction model is used in the core of the MPC process in the optimization problem. 2.2 Optimization approaches Evolutionary algorithms has been widely applied to resolve the optimization problem related to MPC in HVAC systems. An optimization procedure combining GA, MPC and artificial neural network to minimize the energy consumption and it is proved to guarantee globally-bounded closed-loop stability [10]. They considering two different simulation scenarios (flat and time-of-use price tariffs). According to their results, they have achieved a reduction in energy consumption by around 25% compared to a baseline heating strategy. However, this work did not consider weather and occupancy forecasting parameters in their prediction model and they only implement their approach on simulated building rather than real-world trial. A low-order ANN based models combined with MPC was developed to minimize the energy consumption of a multi-zone HVAC system [11]. Researchers used GA to minimize the cost function. Also they used the predicted mean vote (PMV) index as a thermal comfort indicator. This strategy was compared with basic control techniques and resulted in 5.2% and 14.7% of energy saving during heating and cooling seasons respectively. However it does not include predicted weather as a model input failing to adjust control parameters in the future steps. Moreover, it was modeled using a simulation model generated in the EnergyPlus software and no real-world data was used for training or model validation. In Ref. [12], a GA is applied to solve a multi-objective optimization problem which trade-offs between the retrofit cost, energy consumption and thermal comfort. The authors demonstrated that GA is well suited for multi-objective problems and they showed that the simultaneous optimization of all three lead to good results in contrast to optimizing per an individual objective. However, their model is based on a simulation database that was generated from a comprehensive building model developed in TRNSYS to train and validate ANN models which is difficult to extend in real-building. Kampelis et al. [23] have also used GA for power optimization of HVAC systems. They studied the trade-off between minimizing energy costs and maximizing thermal comfort by integrating PMV to ensure thermal comfort requirements. The control approach they proposed is not suitable for a real-time energy and comfort management application, as it is time-consuming to execute. An adjustment of the optimization parameters is necessary to conduct the deployment in real time. An adaptive supervisory model predictive on-off control algorithm is presented in Ref. [24], including the predicted weather factor. The GA is used to optimize the cost function which can save up to 20\u201340% of gas consumption while maintaining comfort. However, this approach has not been validated in real time with the building\u2019s feedback states. In this research, we use GA strategy with low computation time to solve the online MPC optimization problem which minimize energy, peak power and discomfort costs and consider a self-tuned setpoint, cycling and temperature ramp constraints. 3 Smart building model 3.1 System description The proposed control solution can be applied to any HVAC system with a rooftop unit (RTU). Consider an example of a retail building with an open space of around 1000 m 2 located in Montreal, QC, Canada. The building has three zones equipped with a RTU each and controlled by a separate thermostat per zone. Each RTU contains a fan with two heating and two cooling coils stages as described in Fig. 1 . We assume that the speed of the fan is fixed and it is controlled by an ON/OFF switch. We assume that there is significant thermal coupling between the three zones since there are no walls between them. Given a zone i, it is controlled by a vector u ^ including five control parameters u ^ c1i , u ^ c2i , u ^ f i , u ^ h1i and u ^ h2i which represent cooling stage 1, cooling stage 2, fan ventilation stage, heating stage 1 and heating stage 2. The control signal is binary: 0 signifying OFF and 1, ON. The set of valid operation combinations contain six possibilities: u ^ i = { { 0 , 0 , 0 , 0 , 0 } , { 0 , 0 , 1 , 0 , 0 } , { 1 , 0 , 1 , 0 , 0 } , { 1 , 1 , 1 , 0 , 0 } , { 0 , 0 , 1 , 1 , 0 } , { 0 , 0 , 1 , 1 , 1 } } = { 0 , 1 , 2 , 3 , 4 , 5 } , which indicate: that all control parameters are OFF, only fan is ON, cooling stage 1 and fan are ON, all cooling control parameters with fan are ON, heating stage 1 and fan are ON and all heating control parameters with fan are ON, respectively. The system is operated with a capacity of P c,s1 = 18.5 kW for the first cooling stage, P c,s2 = 37 kW for the second cooling stage, P h,s1 = 39.8 kW for first heating stage and P h,s2 = 59.8 kW for second heating stage and P f = 1.5 kW for fan stage. The heating/cooling stage 1 can operate alone, however the stage 2 always works with the stage 1. The fan can activate alone, or whenever the heating/cooling system is ON. We assume that at least one fan is ON during occupancy time to avoid that one fan is over used and another is never used. We assume that the same fan is always ON during one day then next one the following day and so on. The energy efficiency of a building can be achieved by tuning the sequence of switch ON/OFF control signals across the prediction horizon while respecting the constraint operation of the system. The system operates following a tiered utility rate. Energy is charged at 0.05303 $/kWh if the energy consumption is less than the maximum energy supplied per month E max = 210000 kWh/month and 0.0373 $/kWh otherwise. The power-peak rate is 14.58 $/kW and charged on the maximum power demand during the month. 3.2 Data-driven control framework In this paper we propose a new data-driven control framework allowing the HVAC operation in retail building to be optimized by determining an optimal control (on/off) operation status of the subsystems (see Fig. 2 ). The data-driven control framework is composed by three modules; data extraction module, prediction module and optimization module. The data extraction module gets time dependent input features at each time step from the database. These data will feed the prediction module which will be described in detail in section 4. This module contains the prediction model for each zone in order to predict the temperature over a control horizon. The prediction data will feed the optimization module (section 5) in order to compute the optimal control sequence using MPC-GA. The MPC-GA operates on a receding horizon by solving for a fixed prediction horizon (2 h in our case) from the current timestep t. The first control signal u z 1 , 2 , 3 * ( t + 1 ) is applied to the building. All this process is executed as a closed-loop over the time progress. 4 Context-aware multivariate LSTM framework for modeling IAT 4.1 Data organization The data was collected from August 1st, 2019 to August 31, 2020. with 5-min sampling intervals. Table 1 summarizes all features used in this work. In order to build predictive models, the selected features include observed and known inputs are categorized into three groups: ● Controlled features: Includes past observed and future known control actions that impact HVAC system operations. The set u i,t−l:t are the vectors of the past observed control variables for each zone i. The set u i,t+1:t+p is the future known controlled variables which represent the outputs of MPC-GA model discussed in section 5.2. ● Uncontrolled features: The set v i,t−l:t are the vectors of the past observed measured variables for each zone i (e.g. the outdoor air temperature, the day of the week and the hour of the day). The set v i,t+1:t+p are the vectors of the future known measured variables. ● Target features: The set y i,t−l:t is the vector T i i n of IAT for each zone i. We add the hour of day and day of the week as inputs. The hour input helps differentiate temperature profiles during occupied and unoccupied times. The day input helps identify business days and weekends. All selected features are normalized between 0 and 1 before they are used for training, to prevent the dominant effect of particular variables. equation (1) is used to scale the variables into [0,1]. (1) x scale = x − x min x max − x min Where x scale represents the scaled variable, x defines the variable value before scaling, x min and x max are the minimum and maximum values of the dataset to be scaled, respectively. After data pre-processing steps, the dataset was divided into randomly sampled training (60% of the data), validation (20% of the data) and testing (20% of the data) sets from one year of data. The dataset has been randomly sampled for training instead of using k-folds cross validation because the dataset is large enough (i.e., one year of data with 5-min sampling intervals) and time-dependent. The historical data is used to train a predictive model for the future behaviour. Models are developed using the training and validation datasets and the prediction results are derived from the test dataset. The operation of HVAC controls leads to maintain the comfort in the building. So it is important to learn/capture the effect of the HVAC system on the evolution of the indoor temperature. The prediction model will be used in an optimal control framework where HVAC controls minimizing operation costs while maintaining thermal comfort need to be determined. Consequently, the prediction model must be sensitive to HVAC control profile. For example, if the heating control inputs of the model are OFF during a cold winter days, the IAT prediction must decrease. In this paper, the main prediction problem can be formulated as, given a past time series of observations of temperature, past and future uncontrolled and controlled data as input, predict a sequence of temperature as output which can be influenced by control parameters as illustrated in Fig. 3 . Fig. 4 defines the detailed structure of a data sample for one zone i to predict a horizon of p future steps with l previous steps. The input of the model includes the future known variables of uncontrolled and controlled parameters. The future controlled parameters over control horizon from time t + 1 to t + p represents the output of MPC-GA model. The prediction model of the temperature of each zone i has the form shown in 13. 4.2 CAM-LSTM model The control signals have a complicated influence on temperature behavior. The proposed CAM-LSTM model leads to capture the complex impact of control signals on prediction. The CAM-LSTM model is composed by three main component: the high-level feature extraction component, the low-level feature extraction component and the attention networks component as shown in Fig. 5 . The multivariate time series data are separated into three groups, uncontrol, control and target features. The model follow dual-stream network. The first branch treats uncontrol parameters and the second one is dedicated to control parameters. The control and uncontrol parameters are fed as input into a first feature extraction component separately. The outputs of these two modules are concatenated with the target feature and fed as input into a second feature extraction using convolution layers separately. In the second branch, the attention networks takes as inputs the extracted features from control parameters. The self-attention layers capture the degree of relevance of control with respect to IAT. The outputs of first branch and attention networks is concatenated and fed into LSTM-bidirectional layers which gives the multi-step IAT prediction of each zone for the whole prediction horizon p as output. In this section, we describe the key components of the main three components. 4.2.1 High-level feature extraction This component is structured with two dense layers with ReLU activation. The dense layers leads to combine the several external impacts to build a hidden representation, that models the complex high-level interaction between features [18]. The first feature extraction is applied for control u i and uncontrol v i parameters separately. This module provides one output for each branch H u i and H v i . These two outputs carries the uncontrol and control information until the end of network and thus prevents the information from disappearing into the deep network. H u i and H v i are then concatenated with the target feature y i to construct two augmented features H y , u i and H y , v i . These two augmented features are fed into the low-level feature extraction. 4.2.2 Low-level feature extraction We use two 1-D convolution layers with ReLU activation functions to introduce non linearity. The convolution filters are applied on both controlled feature fused H y , u i and uncontrolled feature fused H y , v i . The first convolution layer take the fused high level features as input and construct a low-level view H y , u i \u2032 and H y , v i \u2032 for control and uncontrol branch separately. The convolution layers are the ability to capture different important signal patterns. It is important to note that the 1-D convolution is applied to create a multi-dimensional representation of each time step. Therefore, if the initial time series contains n steps, it will always contain n steps. 4.2.3 Attention networks The attention networks focus on certain parts of the control input when predicting temperature. The prediction of the next p hours of temperature should be based on the action taken by controls in the past and in the future. There are two scenarios. In the first scenario, we assume that the cooling controls u i,t+1:t+p are ON and outside is warm. In the second scenario, we assume that cooling u i,t+1:t+p are OFF and the outside is warm. If we want to predict the indoor temperature from t + 1 to t + p, for the first scenario the prediction should be between setpoints range, however for the second scenario the prediction should exceeds the higher setpoint. The model should be given more weights on control status which will help to better predict the temperature. The attention mechanism in our model play an essential role to simply looking for the good features of control parameters u i that help a best prediction of T ^ i t + k ∣ t . The rest of the features will simply be ignored. This mechanism was applied horizontally across the feature time-series instead of expand the dimensions of the attention mechanism. The LSTM-Bi layer take as input the augmented features extracted from controlled parameters H y , u i \u2032 . The output of the LSTM-Bi layer is represented as follows, h 1 , t \u2032 , h 2 , t \u2032 , \u2026 , h n , t \u2032 where h t , t \u2032 = h t , t \u2032 \u20d7 , h t , t \u2032 \u20d6 . The h t , t \u2032 \u20d7 , h t , t \u2032 \u20d6 are subsequently concatenated and fed into an attention layer, where self-attention weights α t t = 1 n are computed. The attention weights indicates the importance of the input time series sample at time-step t to predict the output value at time-step t + 1. In general the self-attention use a softmax function to normalize the vector e i over the input time series sequence. However this method leads to pick one single input variable and ignore other multivariate inputs. In this paper we use a sigmoid function to compute the weights, as we work with multivariate inputs and we assume that more than one input variable are used for prediction. (2) e t = σ h t , t \u2032 W t + b t (3) a t = s i g m o i d e t Where σ(.) represents the sigmoid activation function and W t are the weights specific to the input feature representation h t , t \u2032 = h t , t \u2032 \u20d7 , h t , t \u2032 \u20d6 . Each self-attention weight represents the relevance of one or more control parameters within all controls. Indeed, relevent parameters should be assigned the most higher weight values. The output of the attention networks component is computed by performing a weighted aggregation of the LSTM-Bi output and the self-attention weights as follows, (4) l t \u2032 = ∑ t a t h t , t \u2032 This output is augmented by the first uncontrolled stream network. The concatenation of both outputs is then fed into LSTM-Bi layer. At the end, a dense layer generates a prediction of a single temperature for the whole prediction horizon p. 5 Control design 5.1 Formulation of optimization problem for the MPC Based on CAM-LSTM models described in section 4.2 and the HVAC operational constraints, a general optimization problem with the three objectives, minimization of the total energy consumption, the peak power and the discomfort during occupancy time is formulated in (5). Energy, power and discomfort are normalized to [0, 1] using minimum and maximum values that are calculated from existing data in the database. The predictive controller solves at each time step the problem defined in (5) according to the constraints defined in (6) to (24). (5) min u ^ α ⋅ E n e r g y ( u ^ ) + β ⋅ P o w e r ( u ^ ) + γ ⋅ D i s c o m f o r t ( u ^ ) s.t. (6) E n e r g y ( u ^ ) = ∑ t = 1 N p ∑ i = 1 N z E i t + k ∣ t u ^ ⋅ p energy t + k ∣ t (7) P o w e r ( u ^ ) = ∑ t = 1 N p ∑ i = 1 N z max p i t + k ∣ t u ^ ⋅ p power t + k ∣ t (8) D i s c o m f o r t ( u ^ ) = ∑ t = 1 N p ∑ i = 1 N z max 0 , T ^ i t + k ∣ t u ^ − T ̄ s p + max 0 , T _ s p − T ^ i t + k ∣ t u ^ ⋅ Δ t / 60 (9) E i t + k ∣ t u ^ = p i t + k ∣ t u ^ ⋅ Δ t / 60 (10) p i t + k ∣ t u ^ = u ^ c1i t + k ∣ t ⋅ P c , s 1 + u ^ c2i t + k ∣ t ⋅ P c , s 2 + u ^ f i t + k ∣ t ⋅ P f + u ^ h1i t + k ∣ t ⋅ P h , s 1 + u ^ h2i t + k ∣ t ⋅ P h , s 2 , ∀ i , ∀ k (11) T ^ i t + k | t u ^ = f C A M − L S T M z i T i , t − l : t , u i , t − l : t , u ^ i , t + 1 : t + k , v i , t − l : t , v ^ i , t + 1 : t + k ∀ i (12) 0 ≤ E i t + k ∣ t u ^ ≤ E max (13) T _ s p ≤ T ^ i t + k ∣ t u ^ ≤ T ̄ s p (14) T ̄ s p t + 1 = T ̄ s p + ∑ i N z T i t ^ − T t N z (15) ∑ t = τ η l + p − τ η T i t + τ η u ^ − T i t u ^ l + p − τ η ≤ T R η , ∀ η ∈ 0 , 4 , ∀ i ∈ N z (16) ∑ i N z ∑ ι = 1 l u i t − l + ι − u i t − l + ι − 1 + ∑ ρ = 1 p u i t + p − ρ + 1 − u i t + p − ρ / l + p − 1 ⋅ N z ≤ λ (17) α + β + γ = 1 (18) u ^ = u ^ c 1 t + k ∣ t , u ^ c 2 t + k ∣ t , u ^ f t + k ∣ t , u ^ h 1 t + k ∣ t , u ^ h 2 t + k ∣ t (19) u ^ ∈ 0 , 5 N p represents the prediction horizon, t + k|t indicates the predicted value of a certain variable at time step t + k starting from time step t. p power t + k ∣ t and p energy t + k ∣ t are the time varying power and electricity price in dollars per kWh. The total energy consumption, the power peak and the discomfort are calculated using (6), (7) and (8) respectively. The discomfort is calculated according to the positive deviation ($/◦ C) between temperature setpoint in occupancy and unoccupancy time and the predicted temperature as defined in (8). The T _ s p t + k ∣ t and T ̄ s p t + k ∣ t are the lower and upper temperature setpoint respectively, and they are depending on the occupancy and unoccupancy time. The energy consumption E i t + k ∣ t ( u ^ ) is calculated according to (10). The operation system power p i t + k ∣ t ( u ^ ) of each zone i is calculated by multiplying the control signals u ^ i by the power of the cooling stage 1 (P c,s1 = 18.5 kW), the cooling stage 2 (P c,s2 = 37 kW), the heating stage 1 (P h,s1 = 39.8 kW), heating stage 2 (P h,s2 = 59.8 kW) and the supply fan (P f = 1.5 kW) as defined in (11). An optimal controller should be aware of the maximum peak power demand since the beginning of the month to not cause a new peak. T ^ i t + k ∣ t is the predicted temperature for the whole prediction horizon (13). The constraint in (15) indicates that the energy generated by the cooling/heating should not exceed the maximum energy supplied per month E max. The constraint in (16) indicates that the predicted temperature should be between the upper and lower temperature setpoint. The upper occupancy setpoint in each future step T ̄ s p t + 1 is self-tuned according to the prediction value at each time t as described in (17). This tuned upper setpoint is computed by adding the mean error between the prediction values of temperature at time t and the feedback/current temperature values for all the zones N z to the setpoint at time t. Moreover, the indoor temperature ramp (TR) is considered in the proposed MPC model as described in (18). TR expresses the change over a different time interval as explained in Table 2 based on ASHRAE standard [25]. The minimization of energy consumption leads to significant fluctuations of the temperature. In this paper, we compute the average TR for past and predicted temperature data from t − l to t + p for each time step τ η . The consideration of TR results in a smoother control signal and energy savings. In the proposed MPC model, the cyclic variation is considered as defined in (20) which represents the repeatedly rises and falls of control parameters. This constraint represents the variation mean of controls from t − l to t + p period that should be less than λ, a predefined maximum cyclic factor. Each zone i is controlled by a vector u ^ including five control parameters as described in 3.1. The optimization problem is solved using a genetic algorithm, which generates an optimized control vector u ^ t + 1 : t + p for each zone. Only the first control signal u ^ t + 1 is applied to the building. As the time step t progress, the optimization problem MPC-GA is solved again as closed-loop with the updated initial condition and shifted the constraints. 5.2 Proposed genetic algorithm In this paper, GA is developed to solve the online optimization problem defined in section 5.1 to search the optimal values of control parameters u ^ t + 1 : t + p for all the zones, that minimize the overall cost within the prediction horizon N p . Since the MPC-GA is deployed in real time, the computation time to solve the optimization problem is very crucial and should not exceed the control horizon period (5-min). GA is used because it uses a low computation time to solve our problem. GA starts with a random population including N s initial individuals and this number is left constant for every generation. Each individual has M chromosomes, and includes the control parameters u ^ t + 1 : t + p for the whole prediction horizon. For the sake of simplicity, each individual represents one solution for N p time ahead and N z zones. At the computation of each generation, each individual is given to the prediction model to predict the temperature T ^ i , t + 1 : t + p , which is used by the optimizer MPC-GA to compute the combined cost. Fig. 6 depicts the proposed GA, which includes the following steps: Algorithm 1 Multi-point crossover Input: parents p1 and p2 Output: parents p3 and p4 Data: Selected parents 1. ρ = random(2, (M/N z )) // ρ is the random number of crossover points 2. cutindex = random(i 1, i 2, \u2025, i ρ ) // cut index \u202fare the random index in each parent 3. p3 and p4 = recombination(cutindex, p1, p2) ● Tournament selection: The selection of individuals for the next generation is evaluated by their fitness, which is computed by MPC-GA optimization function. We use a tournament selection as a selection strategy. Tournament selection selects a number of individuals from the current generation and hold a tournament amongst them. As explained in sub-section 6.3, according to our sensitivity analysis, 20% of the population size is selected. We compare each pair of individuals. If both are feasible, the individual with the better fitness will be chosen. If an individual is infeasible and the other is feasible, the feasible one will be chosen. If both individuals are infeasible, the individual with the lowest cost will be selected. ● Multi-point crossover: We created an offspring from the list of selected parents resulting from the tournament selection. In this list, two parents are selected randomly (p1 and p2) to be recombined and returns two new parents (p3 and p4). A random number of points ρ are selected where ρ ∈ 2 , M N z . ρ starts from 2 because it is a multi-point crossover and we assume that the minimum can be two points. Then, a set of ρ random cut indexes c u t index = i 1 , i 2 , \u2025 , i ρ are selected where cut index %N z = 0 which means that all cut indexes should be divisible by zones N z to exchange the chromosomes between the same zones. The recombination of chromosomes is performed as follow: the chromosomes of the first parent are passed to the child until the first cut index, then the chromosomes of the second parent are passed to the second part of the child until the second cut index and so on until the end of n index . Algorithm 1 summarizes our implementation of the multi-point crossover method. ● Offspring mutation: Our mutation strategy consists in randomly changing the genes of each offspring by a random control value u ∈ 0 , 5 with a certain probability (i.e., a mutation rate equal to 0.002). Only the gene of heating or cooling controls will be replaced in the offspring in the winter or summer season, respectively, in order to avoid heating during summer season and cooling during winter season. This whole process is executed in a loop until we reach the terminal condition which corresponds to the number of generations (i.e., 60 generations), according to our sensitivity analysis in sub-section 6.3. 6 Results and discussion 6.1 Results-I: time series prediction CAM-LSTM is compared against five baseline methods. Among them, there are two classic methods to address time series prediction e.g., NNARX [17] and LSTM-MISO [16]. The additional methods, DSTP-RNN [21] and SA-LSTM [22], which use attention-based encode-decoder network, are also used as baselines. Finally, the context-aware neural network model (CANN) is based on the model proposed in Ref. [18], named UrbanFM which uses a fusion network with a feature extraction module. All baselines are tested on the real data as described in section 4.1. CAM-LSTM is evaluated on the test dataset and three metrics are used: the mean absolute percentage error (MAPE) in 25, the root mean square error (RMSE) in 26 and the mean absolute error (MAE) in 27. The MAPE measures the size of the error in percentage terms, a lower result indicates better performance. The RMSE penalizes more larger error values. The MAE corresponds to the mean value of the sum of absolute differences between actual and forecast values, and it evaluates forecast accuracy. (20) M A P E = 100 n × ∑ i = 1 n y i − y ^ i y i (21) R M S E = 1 n ∑ k = 1 n y k − y ^ k 2 (22) M A E = 1 n ∑ k = 1 n y k − y ^ k Where y and y ^ define the real and predicted outputs respectively, and n is the total observation number. In Table 3 , we observe that the RMSE of the NNARX model is higher than all other methods. This is due to the error propagation over time caused by the recursive prediction strategy used to predict the 2 h, since the RMSE penalizes large error values. In addition, we observe that LSTM-MISO outperform CANN and DSTP-RNN even with its simple architecture. The CANN model captures the sequential relationship between inputs using the external factor fusion component. However, it is less powerful than the gate mechanism used in the LSTM-MISO. Models using attention mechanism are generally more efficient than other models because they are able to select the relevant hidden states across all time steps. DSTP-RNN, SA-LSTM and CAM-LSTM use an attention mechanism, but in a different way. For each of them, the performance of SA-LSTM and CAM-LSTM are the closest. In addition to the attention mechanism, CAM-LSTM uses two-level feature extraction modules to model the complex mixtures of temporal patterns resulting the best MAPE, RMSE and MAE compared to baselines. CAM-LSTM is used with MPC-GA in a real deployment use case with never before seen data as it will be described in section 6.4. The prediction behaviour is very close to the real values as described in Fig. 11 (a) and 12 (a) which leads to a better control decision, as will be further described in the following sections. 6.2 Results-II: the impact of control signals on the prediction In the control concept, CAM-LSTM is designed to capture the sensitivities of the temperature prediction with respect to the control commands. Failing to get these sensitivities with sufficient precision may result in a model that responds poorly to control commands. To evaluate the effectiveness of the input attention mechanism in CAM-LSTM, and since attention is only used on control signals, we studied the impact of these exogenous inputs on the prediction results. Three case studies were performed to study the influence of observed (l = 3 h) and known (p = 2 h) control signals on the temperature prediction output. For the first case study, the real control signals are used to predict the temperature. The second case study is performed using random and noisy control signals instead of real ones. The third case study sets all real control signals (heating or cooling) to be off when are supposed to be on. Fig. 7 show an example of the effect of control with the three case studies described before. Fig. 7 (a), (b) and (c) show that the temperature prediction decreases very fast when the heating controls are OFF when it is supposed to be ON in winter season. Fig. 7 (d), (e) and (f) show that the temperature prediction increases very fast when the cooling controls are OFF when it is supposed to be ON in summer season. We notice also that the prediction of the temperature is generally off with a random control setting. In addition, the prediction values variability follows the real values using the test data without any modification. This indicates that CAM-LSTM can capture long and short dependencies by selecting relevant hidden states across all controls time steps. Consequently, CAM-LSTM is sensitive to control signals, therefore it is eligible to be used in a control closed-loop system. 6.3 Results-III: GA sensitivity analysis We perform a sensitivity analysis to determine the best values of the population size, the generation number, the elite, and the number of mutation and crossover points as depicted in Table 4 . This analysis is important in order to interpret the results of the GA as well as to avoid choosing obsolete solutions as optimal solutions. As the generations pass, the fitness value decreases in all five population size test cases. However, the test case with minimum fitness is used for the MPC-GA deployment. From the sensitivity analysis, the adopted parameters are marked in Table 4. We start by examining the elite and generation numbers as described in Table 4 (A). The elite and generation number of 80 and 60 respectively gives the best fitness value (i.e., 37.44). Then, we fixed these two parameters to obtain the best population size (i.e., 400 Table 4 (B)). Similarly, we tuned the number of mutations and the number of crossover points to 1 and 12 respectively (see Table 4 (C) and Table 4 (D)). 6.4 Results-IV: MPC-GA results To demonstrate the potential for discomfort, power minimization and energy savings, MPC-GA has been tested under a simulation mode before applied it in a real on-line experiments. The simulation tests are used to examine the closed-loop performance of the MPC and test its stability by setting its parameters offline. For instance, the execution time of the MPC-GA process must not exceed the control horizon period, which is in our case 5-min. Therefore, the related parameters in GA was tuned to not exceed the 5-min control horizon as described in Table 4. The population size is set to 400, and the maximum number of iteration is set to 60 to find the near optimal solution. The proposed algorithm accommodates the preferences of the building administrator when assigning energy/temperature for a comfort level by changing the weight of each cost in the objective function. For example, if the administrator wants a higher energy efficiency, he can increase the weights of energy cost in (5). The weighting coefficients of the cost function were tuned experimentally to α = 0.2, β = 0.3 and γ = 0.4. We transformed the constrained problem into unconstrained problem by using a penalty method. We converted all the constraints into penalty functions, then add them to the objective function. To control the violation severity of the penalty, we multiply the penalty function of each constraint by a positive constant which has been tuned experimentally. The tournament selection step of the GA will select the candidates with the lowest cost as explained in section 5.2. For simulation purposes, the feedback resulting from the optimal controls are predicted using CAM-LSTM model. The advantage of this method is that the model output is very similar to the real output, so the optimal control decision will not be too much affected. However, this method can still lead to errors in the simulation test and this depends on the prediction accuracy errors. In the case of the real-time deployment mode, the controls resulting from the optimization model are executed and the system receives the feedback to improve the trajectory in the next steps. Table 5 presents the results of the two deployment tests which were conducted on two different days. All MPC-GA tests were executed with an occupancy setpoint between 19 °C and 22.5 °C. The first and second day tests were executed on Tuesday 08/09/2020 from 12:25pm to 5:15pm and Friday 18/09/2020 from 11:05am to 5pm, respectively. We compared also the efficiency of MPC-GA with an advanced RBC model which was in operation in the building from August 2019 to September 2020. So all past controls data in the database are resulting from RBC model. The basic idea of the advanced RBC baseline control is that cooling is activated when the measured temperature exceeds a higher cooling setpoint. The cooling control is disabled when the measured temperature falls below a lower cooling setpoint. The control baseline check the outside air temperature\u2019s condition and the building status. It uses a recurrent neural network and a convolutional neural network model to predict the temperature which helps to decide when is the good moment to start or stop the systems. To compare the two control approaches, we had to find days where the outdoor temperature profile was similar to the days when the MPC-GA was deployed. Thus, MAE and RMSE were used to compare the outdoor temperature measurements of the MPC-GA days with all other days available in the database. The day with the minimum error was used for the comparison. Fig. 8 shows the outdoor air temperature for the two reference days compared to the real deployment test days and it can be seen that the outdoor trajectories are very similar. It is important to mention that the comparison days selected for test 1 and test 2 are also close in terms of month and day of the week. The results shown in Table 5 clearly indicate that there is a significant reduction in energy and discomfort for MPC-GA simulation and real-time mode compared to RBC baseline controller. The results of the MPC-GA simulation and real-time modes are very close. Which shows that even without the real feedback and with only the accurate prediction of the state of the system, the model was able to give near-real results. A more predictive aware building controller leads to improvements over the traditional RBC controller. However, RBC slightly outperforms the MPC-GA for the maximum power consumption of test 2. To understand these savings and the behavior of the maximum power consumption, Figs. 11 and 12 show the indoor temperature and the corresponding control resulting from the real-time deployment of the MPC-GA and RBC for tests 1 and 2 respectively. The upper graphs of Figs. 11 and 12 (a) represent the real and the prediction of temperature using CAM-LSTM with the optimization model. The temperature prediction is stable and very close to the real (observed) values, which indicates an efficient accuracy of CAM-LSTM. This leads the system to know the future trajectory and to make the right control decision that minimizes the total costs. In addition, it can be observed that the MPC-GA more strictly maintains the indoor temperature within the setpoint range than RBC. The lower graphs of Fig. 11 (b), 12 (b) and 11 (a), 12 (a) indicate the state of controls for each zone before and after optimization respectively. All control status are described in detail in section 3.1. It is noticeable that after the optimization, the three control systems are not switched on at the same time for the three zones, in order to minimize the the maximum power consumption. However, before the optimization, RBC keeps on the controls for a long period of time. For example, in test 1, RBC keeps on the fan, cooling stage 1 and 2 for both zones 1 and 2 for the entire test period. This results in higher total energy consumption (702 kWh), as shown in Table 5. This high energy consumption did not allow the system to ensure comfort in the building. Fig. 10 shows the percentage of time when the indoor temperature is outside of the setpoint range. The percentage of discomfort is 100% for zone 1 and 2 using RBC for test 1. Similarly for zone 3, the percentage of discomfort using RBC exceeds the percentage of discomfort using MPC-GA for both tests. This is due to the non-operation of the cooling stages for a long period of time, which also explains the lower maximum power consumption of the RBC compared to the MPC-GA. To investigate further the reason of the total of energy consumption of each zone described in Table 5, Fig. 9 presents the fan, cooling stage 1 and 2 run time for deployment test 1 and 2 before and after optimization. Only cooling stages were activated since the two-day experiment was conducted in the cooling season. More importantly, MPC-GA was able to reduce the operation of the cooling stage 2 over the long term. The run time of cooling stage 1 with MPC-GA for both tests is much lower than RBC. The main source of the energy savings comes from the minimization of the operation of the cooling stage 2 for all zones, since it is the one with the highest capacity P c , s 2 . In addition, it can be noted that the run time of the fan, cooling stage 1 and cooling stage 2 is balanced between three zones for MPC-GA to avoid giving a lot of load to a single control system and preventing maintenance. Table 6 shows the savings in energy, peak power and discomfort for both tests. The results conclude that the MPC-GA reduces energy by more than 50% and discomfort by more than 80% for both tests. However, there was no reduction in power peak for either test. The lack of peak savings with MPC-GA is not necessarily an optimization failure. Since the power peak rate is applied on the maximum power demand during the month. The MPC-GA should be aware of the maximum power peak demand since the beginning of the month to not cause a new peak. The model keeps the power below the power consumed since the beginning of the month. The maximum of power consumption indicated in Table 4, still less than the maximum power consumed from the beginning of the month for the two tests. So there are no additional cost related to power peak. 7 Conclusion In this paper a data-driven MPC model controller was described, implemented and evaluated in a real commercial building. A neural network attention based model named CAM-LSTM is proposed to predict the IAT. This model is used in the MPC process control and its accuracy has been proven. An online optimization with low computation time is developed to minimize the energy, power peak and discomfort that considers a self-tuned setpoint, cycling and temperature ramp as constraints. A genetic algorithm was used to solve the control optimization problem and to find the optimal combination of control parameters during 2 h for all the zones. The MPC-GA controller ran an optimization in a receding horizon window with updated information. Results of the real deployment of the MPC-GA controller were very promising: the energy consumption and the discomfort was minimized by more than 50% and 80% respectively. Further work will include more tests on other type of HVAC system and building with more zones. CRediT author statement Fatma Mtibaa: Writing- Original draft, Conceptualization, Methodology, Investigation, Visualization, Software, Writing- Reviewing and Editing. Kim-Khoa Nguyen: Supervision, Writing- Reviewing and Editing, Validation. Vasken Dermardiros: Writing- Reviewing and Editing, Validation. Mohamed Cheriet: Supervision. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. References [1] P.H. Shaikh N.B.M. Nor P. Nallagownden I. Elamvazuthi T. Ibrahim A review on optimized control systems for building energy and comfort management of smart sustainable buildings Renew. Sustain. Energy Rev. 34 2014 409 429 P. H. Shaikh, N. B. M. Nor, P. Nallagownden, I. Elamvazuthi, and T. Ibrahim, \u201cA review on optimized control systems for building energy and comfort management of smart sustainable buildings,\u201d Renew. Sustain. Energy Rev., vol. 34, pp. 409-429, 2014. [2] A. Costa M.M. Keane J.I. Torrens E. Corry Building operation and energy performance: monitoring, analysis and optimisation toolkit Appl. Energy 101 2013 310 316 A. Costa, M. M. Keane, J. I. Torrens, and E. Corry, \u201cBuilding operation and energy performance: monitoring, analysis and optimisation toolkit,\u201d Appl. Energy, vol. 101, pp. 310-316, 2013. [3] U. DoE Buildings Energy Data Book 2011 Energy Efficiency & Renewable Energy Department U. DoE et al., \u201cBuildings Energy Data Book,\u201d Energy Efficiency & Renewable Energy Department, 2011. [4] S. Privara J. Cigler Z. Váňa F. Oldewurtel C. Sagerschnig E. Žáčeková Building modeling as a crucial part for building predictive control Energy Build. 56 2013 8 22 S. Privara, J. Cigler, Z. Vana, F. Oldewurtel, C. Sagerschnig, and E. Zacekova, \u201cBuilding modeling as a crucial part for building predictive control,\u201d Energy Build., vol. 56, pp. 8-22, 2013. [5] A. Afram F. Janabi-Sharifi A.S. Fung K. Raahemifar Artificial neural network (ann) based model predictive control (mpc) and optimization of hvac systems: a state of the art review and case study of a residential hvac system Energy Build. 141 2017 96 113 A. Afram, F. Janabi-Sharifi, A. S. Fung, and K. Raahemifar, \u201cArtificial neural network (ann) based model predictive control (mpc) and optimization of hvac systems: a state of the art review and case study of a residential hvac system,\u201d Energy Build., vol. 141, pp. 96-113, 2017. [6] D. Sturzenegger D. Gyalistras M. Morari R.S. Smith \u201cModel predictive climate control of a swiss office building: implementation, results, and cost\u2013benefit analysis IEEE Trans. Contr. Syst. Technol. 24 1 2016 1 12 D. Sturzenegger, D. Gyalistras, M. Morari, and R. S. Smith, \u201cModel predictive climate control of a swiss office building: implementation, results, and cost-benefit analysis,\u201d IEEE Trans. Contr. Syst. Technol., vol. 24, no. 1, pp. 1-12, 2016. [7] X. Chen Q. Wang J. Srebric A data-driven state-space model of indoor thermal sensation using occupant feedback for low-energy buildings Energy Build. 91 2015 187 198 X. Chen, Q. Wang, and J. Srebric, \u201cA data-driven state-space model of indoor thermal sensation using occupant feedback for low-energy buildings,\u201d Energy Build., vol. 91, pp. 187-198, 2015. [8] H. Huang L. Chen E. Hu A neural network-based multi-zone modelling approach for predictive control system design in commercial buildings Energy Build. 97 2015 86 97 H. Huang, L. Chen, and E. Hu, \u201cA neural network-based multi-zone modelling approach for predictive control system design in commercial buildings,\u201d Energy Build., vol. 97, pp. 86-97, 2015. [9] G. Serale M. Fiorentini A. Capozzoli D. Bernardini A. Bemporad Model predictive control (mpc) for enhancing building and hvac system energy efficiency: problem formulation, applications and opportunities Energies 11 3 2018 631 G. Serale, M. Fiorentini, A. Capozzoli, D. Bernardini, and A. Bemporad, \u201cModel predictive control (mpc) for enhancing building and hvac system energy efficiency: problem formulation, applications and opportunities,\u201d Energies, vol. 11, no. 3, p. 631, 2018. [10] J. Reynolds Y. Rezgui A. Kwan S. Piriou A zone-level, building energy optimisation combining an artificial neural network, a genetic algorithm, and model predictive control Energy 151 2018 729 739 J. Reynolds, Y. Rezgui, A. Kwan, and S. Piriou, \u201cA zone-level, building energy optimisation combining an artificial neural network, a genetic algorithm, and model predictive control,\u201d Energy, vol. 151, pp. 729-739, 2018. [11] A. Garnier J. Eynard M. Caussanel S. Grieu Predictive control of multizone heating, ventilation and air-conditioning systems in non-residential buildings Appl. Soft Comput. 37 2015 847 862 A. Garnier, J. Eynard, M. Caussanel, and S. Grieu, \u201cPredictive control of multizone heating, ventilation and air-conditioning systems in non-residential buildings,\u201d Appl. Soft Comput., vol. 37, pp. 847-862, 2015. [12] E. Asadi M.G. da Silva C.H. Antunes L. Dias L. Glicksman Multi-objective optimization for building retrofit: a model using genetic algorithm and artificial neural network and an application Energy Build. 81 2014 444 456 E. Asadi, M. G. da Silva, C. H. Antunes, L. Dias, and L. Glicksman, \u201cMulti-objective optimization for building retrofit: a model using genetic algorithm and artificial neural network and an application,\u201d Energy Build., vol. 81, pp. 444-456, 2014. [13] B. Lim S.O. Arik N. Loeff T. Pfister Temporal Fusion Transformers for Interpretable Multi-Horizon Time Series Forecasting 2019 arXiv preprint arXiv:1912.09363 B. Lim, S. O. Arik, N. Loeff, and T. Pfister, \u201cTemporal Fusion Transformers for Interpretable Multi-Horizon Time Series Forecasting,\u201d arXiv preprint arXiv:1912.09363, 2019. [14] F. Nunez S. Langarica P. Diaz M. Torres J.C. Salas Neural network-based model predictive control of a paste thickener over an industrial internet platform IEEE.Trans. Ind.Inf. 16 4 2019 2859 2867 F. Nunez, S. Langarica, P. Diaz, M. Torres, and J. C. Salas, \u201cNeural network-based model predictive control of a paste thickener over an industrial internet platform,\u201d IEEE.Trans. Ind.Inf., 2019. [15] C. Finck R. Li W. Zeiler Economic model predictive control for demand flexibility of a residential building Energy 176 2019 365 379 C. Finck, R. Li, and W. Zeiler, \u201cEconomic model predictive control for demand flexibility of a residential building,\u201d Energy, vol. 176, pp. 365-379, 2019. [16] F. Mtibaa K.-K. Nguyen M. Azam A. Papachristou J.-S. Venne M. Cheriet Lstm-based indoor air temperature prediction framework for hvac systems in smart buildings Neural Comput. Appl. 2020 1 17 F. Mtibaa, K.-K. Nguyen, M. Azam, A. Papachristou, J.-S. Venne, and M. Cheriet, \u201cLstm-based indoor air temperature prediction framework for hvac systems in smart buildings,\u201d Neural Comput. Appl., pp. 1-17, 2020. [17] B. Delcroix J. Le Ny M. Bernier M. Azam B. Qu J.-S. Venne Autoregressive neural networks with exogenous variables for indoor temperature prediction in buildings Building Simulation. Plus 0.5em Minus 0.4em 2020 Springer 1 14 B. Delcroix, J. Le Ny, M. Bernier, M. Azam, B. Qu, and J.-S. Venne, \u201cAutoregressive neural networks with exogenous variables for indoor temperature prediction in buildings,\u201d in Building Simulation. Plus 0.5em Minus 0.4em Springer, 2020, pp. 1-14. [18] Y. Liang K. Ouyang L. Jing S. Ruan Y. Liu J. Zhang D.S. Rosenblum Y. Zheng Urbanfm: inferring fine-grained urban flows Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining 2019 3132 3142 Y. Liang, K. Ouyang, L. Jing, S. Ruan, Y. Liu, J. Zhang, D. S. Rosenblum, and Y. Zheng, \u201cUrbanfm: inferring fine-grained urban flows,\u201d in Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, 2019, pp. 3132-3142. [19] A. Jain F. Smarra M. Behl R. Mangharam Data-driven model predictive control with regression trees-an application to building energy management ACM Transactions on Cyber-Physical Systems 2 1 2018 4 A. Jain, F. Smarra, M. Behl, and R. Mangharam, \u201cData-driven model predictive control with regression trees-an application to building energy management,\u201d ACM Transactions on Cyber-Physical Systems, vol. 2, no. 1, p. 4, 2018. [20] F. Smarra A. Jain T. de Rubeis D. Ambrosini A. D'Innocenzo R. Mangharam Data-driven model predictive control using random forests for building energy optimization and climate control Appl. Energy 226 2018 1252 1272 F. Smarra, A. Jain, T. de Rubeis, D. Ambrosini, A. D'Innocenzo, and R. Mangharam, \u201cData-driven model predictive control using random forests for building energy optimization and climate control,\u201d Appl. Energy, vol. 226, pp. 1252-1272, 2018. [21] Y. Liu C. Gong L. Yang Y. Chen Dstp-rnn: a dual-stage two-phase attention-based recurrent neural network for long-term and multivariate time series prediction Expert Syst. Appl. 143 2020 113082 Y. Liu, C. Gong, L. Yang, and Y. Chen, \u201cDstp-rnn: a dual-stage two-phase attention-based recurrent neural network for long-term and multivariate time series prediction,\u201d Expert Syst. Appl., vol. 143, p. 113082, 2020. [22] G. Zheng S. Mukherjee X.L. Dong F. Li Opentag: open attribute value extraction from product profiles Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining 2018 1049 1058 G. Zheng, S. Mukherjee, X. L. Dong, and F. Li, \u201cOpentag: open attribute value extraction from product profiles,\u201d in Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, 2018, pp. 1049-1058. [23] N. Kampelis N. Sifakis D. Kolokotsa K. Gobakis K. Kalaitzakis D. Isidori C. Cristalli Hvac optimization genetic algorithm for industrial near-zero-energy building demand response Energies 12 11 2019 2177 N. Kampelis, N. Sifakis, D. Kolokotsa, K. Gobakis, K. Kalaitzakis, D. Isidori, and C. Cristalli, \u201cHvac optimization genetic algorithm for industrial near-zero-energy building demand response,\u201d Energies, vol. 12, no. 11, p. 2177, 2019. [24] A. Tyukov M. Shcherbakov A. Sokolov A. Brebels M. Al-Gunaid Supervisory model predictive on/off control of hvac systems 2017 8th International Conference on Information, Intelligence, Systems & Applications (IISA). Plus 0.5em Minus 0.4em 2017 IEEE 1 7 A. Tyukov, M. Shcherbakov, A. Sokolov, A. Brebels, and M. Al-Gunaid, \u201cSupervisory model predictive on/off control of hvac systems,\u201d in 2017 8th International Conference on Information, Intelligence, Systems & Applications (IISA). Plus 0.5em Minus 0.4em IEEE, 2017, pp. 1-7. [25] A. Standard Standard 55-2010, Thermal Environmental Conditions for Human Occupancy 2010 American Society of Heating, Refrigerating and Air Conditioning Engineers A. Standard, \u201cStandard 55-2010, Thermal Environmental Conditions for Human Occupancy,\u201d American Society of Heating, Refrigerating and Air Conditioning Engineers, 2010.",
+    "scopus-id": "85104065647",
+    "coredata": {
+        "eid": "1-s2.0-S2352710221001960",
+        "dc:description": "Today, Model predictive control (MPC) has largely been used to optimize energy consumption and maintain thermal comfort in buildings. However, to build an online MPC model in building, the dynamics of the physical system must be accurately modeled, which is a time-consuming and costly task. Neural network models help to overcome the modeling problems especially with the availability of historical data. This research presents a novel online data-driven control framework named Model Predictive Control via Genetic algorithm (MPC-GA) allowing the optimal operation of the heating, ventilation, and air conditioning system and has been experimentally validated in a multi-zone retail building. The MPC-GA combines an attention-based neural network time series multivariate prediction model with a MPC framework. The prediction model used a dual-stream neural networks based on multivariate time series of controlled and uncontrolled inputs. The attention mechanism is applied on controlled parameters to give them more weight to better predict the zone temperature. The prediction model is used as input for the optimization framework which minimizes: energy consumption, peak demand and discomfort during occupied hours under self-tuned setpoint, temperature ramp and equipment cycling constraints. A heuristic search algorithm using a genetic algorithm is used to solve the online data-driven MPC-GA models and obtain the future optimal combination settings of all controls for all the zones over a prediction horizon. The benchmark results showed that the MPC-GA outperforms RBC control systems with more than 50% and 80% reduction in energy consumption and discomfort respectively.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2021-10-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352710221001960",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Mtibaa, Fatma"
+            },
+            {
+                "@_fa": "true",
+                "$": "Nguyen, Kim-Khoa"
+            },
+            {
+                "@_fa": "true",
+                "$": "Dermardiros, Vasken"
+            },
+            {
+                "@_fa": "true",
+                "$": "Cheriet, Mohamed"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S2352710221001960"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S2352710221001960"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2352-7102(21)00196-0",
+        "prism:volume": "42",
+        "articleNumber": "102340",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "Context-aware Model Predictive Control framework for multi-zone buildings",
+        "prism:copyright": "© 2021 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "23527102",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "HVAC"
+            },
+            {
+                "@_fa": "true",
+                "$": "Multivariate time series"
+            },
+            {
+                "@_fa": "true",
+                "$": "Neural network"
+            },
+            {
+                "@_fa": "true",
+                "$": "Attention mechanism"
+            },
+            {
+                "@_fa": "true",
+                "$": "MPC"
+            },
+            {
+                "@_fa": "true",
+                "$": "Genetic algorithm"
+            },
+            {
+                "@_fa": "true",
+                "$": "Optimal controls"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Building Engineering",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "102340",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "October 2021",
+        "prism:doi": "10.1016/j.jobe.2021.102340",
+        "prism:startingPage": "102340",
+        "dc:identifier": "doi:10.1016/j.jobe.2021.102340",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "339",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28537",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "249",
+            "@width": "544",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "35175",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "480",
+            "@width": "793",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "82536",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "476",
+            "@width": "793",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "96533",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "237",
+            "@width": "544",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41808",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "410",
+            "@width": "387",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41936",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "384",
+            "@width": "713",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94809",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "256",
+            "@width": "802",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "54217",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "160",
+            "@width": "713",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "24997",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "329",
+            "@width": "713",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "69619",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "212",
+            "@width": "624",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "26216",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "220",
+            "@width": "811",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37204",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "188",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6559",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "100",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5959",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "133",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6347",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7855",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "96",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6292",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "154",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6607",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9377",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "70",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5190",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "49",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3212",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "101",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6325",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "74",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2735",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "59",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3835",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1502",
+            "@width": "1722",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "218641",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1102",
+            "@width": "2410",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "334907",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2126",
+            "@width": "3512",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "551868",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2106",
+            "@width": "3512",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "646349",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1052",
+            "@width": "2410",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "317105",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1816",
+            "@width": "1713",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "313261",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1700",
+            "@width": "3158",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "752704",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1132",
+            "@width": "3552",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "383091",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "710",
+            "@width": "3158",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "193572",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1459",
+            "@width": "3158",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "507253",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "938",
+            "@width": "2764",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "192312",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "972",
+            "@width": "3591",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "271085",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7788",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "63184",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19174",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17676",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26685",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25187",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28403",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26905",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26314",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "38359",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23150",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16286",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20166",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26955",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "39494",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "45967",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28208",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "129071",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "120891",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "127586",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "163335",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16904",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "61430",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "94611",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "115959",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "60044",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "49217",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "74236",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "128739",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17236",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "98270",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17409",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "58343",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21034",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "42386",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "43276",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "31195",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "31531",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "36477",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17905",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "34414",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12322",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26412",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23943",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15727",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30642",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "33316",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "65143",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19075",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "69412",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18506",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "74214",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "54093",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8340",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20270",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "53090",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "37992",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16878",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001960-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1522074",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85104065647"
+    }
+}}

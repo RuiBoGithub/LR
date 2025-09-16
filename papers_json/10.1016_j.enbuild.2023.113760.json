@@ -1,0 +1,1042 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85178384983",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 Energy and Buildings ENERGYBUILDINGS 2023-11-24 2023-11-24 2023-11-27 2023-11-27 2023-12-28T11:01:14 1-s2.0-S0378778823009908 S0378-7788(23)00990-8 S0378778823009908 10.1016/j.enbuild.2023.113760 S300 S300.1 FULL-TEXT 1-s2.0-S0378778823X00231 2023-12-28T11:20:55.404436Z 0 0 20240115 2024 2023-11-24T16:16:10.294165Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst orcid primabst ref specialabst 0378-7788 03787788 true 303 303 C Volume 303 12 113760 113760 113760 20240115 15 January 2024 2024-01-15 2024 Review Articles article fla © 2023 Elsevier B.V. All rights reserved. ATRANSFERLEARNINGAPPROACHMINIMIZEREINFORCEMENTLEARNINGRISKSINENERGYOPTIMIZATIONFORAUTOMATEDSMARTBUILDINGS GENKIN M 1 Introduction 1.1 Smart buildings and energy optimization 1.2 Problem 1.3 Contribution 2 Previous work 2.1 Overcoming cold start 2.2 ML and smart buildings 3 Architecture 3.1 ReLBOT theoretical basis 3.2 BDNE architecture 3.3 ReLBOT architecture 4 Methodology 5 Results 5.1 BDNE performance 5.2 ReLBOT performance 6 Conclusion Acknowledgement References AGUILAR 2021 111530 J AHN 2022 111717 Y ALANNE 2022 103445 K ASCIONE 2016 131 144 F CHADOULOS 2021 S TWELFTHACMINTERNATIONALCONFERENCEFUTUREENERGYSYSTEMSEENERGY21 ONEMODELFITSINDIVIDUALIZEDHOUSEHOLDENERGYDEMANDFORECASTINGASINGLEDEEPLEARNINGMODEL CORACI 2023 120598 D DENG 2021 110860 Z FANG 2023 125679 X FARZANEH 2021 763 H FU 2022 112284 Q FU 2019 94 101 W PROCEEDINGSAAAICONFERENCEARTIFICIALINTELLIGENCE DEEPLYFUSINGREVIEWSCONTENTSFORCOLDSTARTUSERSINCROSSDOMAINRECOMMENDATIONSYSTEMS GENKIN 2023 106063 M GRUBINGER 2017 63 71 T GUPTA 2021 101739 A HIMEUR 2021 1 21 Y HIMEUR 2022 104059 Y HIMEUR 2021 116601 Y HU 2019 3830 3837 L PROCEEDINGSAAAICONFERENCEARTIFICIALINTELLIGENCE HERSMODELINGINFLUENTIALCONTEXTSHETEROGENEOUSRELATIONSFORSPARSECOLDSTARTRECOMMENDATION HUANG 2018 Q 2018 GLOBALWARMING15CIPCCSPECIALREPORTIMPACTSGLOBALWARMING15CABOVEPREINDUSTRIALLEVELSRELATEDGLOBALGREENHOUSEGASEMISSIONPATHWAYSINCONTEXTSTRENGTHENINGGLOBALRESPONSETHREATCLIMATECHANGE KANNAN 2020 131534 131544 R KANNAN 2020 206622 206637 R KIRAN 2020 113054 R KUMARI 2021 972 977 A 2021INTERNATIONALCONFERENCECOMPUTINGCOMMUNICATIONINTELLIGENTSYSTEMSICCCIS ALBASEDPEAKLOADREDUCTIONAPPROACHFORRESIDENTIALBUILDINGSUSINGREINFORCEMENTLEARNING LI 2022 112461 G LIU 2020 109675 T LU 2023 112854 X MEHMOOD 2019 109383 M MERABET 2021 110969 G MINOLI 2017 269 283 D MINOLI 2017 269 283 D MIRNAGHI 2020 110492 M MOCANU 2016 646 655 E MOON 2020 886 J NGARAMBE 2020 109807 J NWEYE 2023 121323 K OJAGH 2020 97 118 S PEIRELINCK 2022 100126 T PINTO 2022 112530 G PINTO 2022 100084 G QIN 2023 126209 H QOLOMANY 2019 90316 90356 B RIBEIRO 2018 352 363 M SALINAS 2020 1181 1191 D SCHEIN 2002 253 260 A PROCEEDINGS25THANNUALINTERNATIONALACMSIGIRCONFERENCERESEARCHDEVELOPMENTININFORMATIONRETRIEVAL METHODSMETRICSFORCOLDSTARTRECOMMENDATIONS SERRANO 2022 104751 W STOCK 2021 M PROCEEDINGSBUILDINGSIMULATION2021 VACPERFORMANCEEVALUATIONOPTIMIZATIONALGORITHMSDEVELOPMENTFORLARGEBUILDINGS TEO 2021 1 5 J 2021INTERNATIONALCONFERENCEGREENENERGYCOMPUTINGSUSTAINABLETECHNOLOGYGECOST ENERGYMANAGEMENTCONTROLSFORCHILLERSYSTEMAREVIEW VAZQUEZCANTELI 2019 1072 1089 J VRSALOVIC 2021 01 05 A 20216THINTERNATIONALCONFERENCESMARTSUSTAINABLETECHNOLOGIESSPLITECH IOTDEPLOYMENTFORSMARTBUILDINGWATERCONSUMPTIONANALYSIS WANG 2022 102534 L WANG 2020 115036 Z WANIGASEKARA 2016 121 129 N PROCEEDINGS6THINTERNATIONALCONFERENCEINTERNETTHINGS ABANDITAPPROACHFORINTELLIGENTIOTSERVICECOMPOSITIONACROSSHETEROGENEOUSSMARTSPACES WEI 2017 29 39 J WEI 2020 6402 6413 P XU 2020 230 239 S PROCEEDINGS7THACMINTERNATIONALCONFERENCESYSTEMSFORENERGYEFFICIENTBUILDINGSCITIESTRANSPORTATION ONEFORMANYTRANSFERLEARNINGFORBUILDINGHVACCONTROL YU 2021 12046 12063 L ZHANG 2020 8021 8031 W ZHAO 2018 1 21 H ZHU Z ZHU 2023 Z GENKINX2024X113760 GENKINX2024X113760XM 2025-11-27T00:00:00.000Z 2025-11-27T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Elsevier B.V. All rights reserved. 2023-12-05T05:34:04.489Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science and Engineering Research Council of Canada DGECR-2018-00395 RGPIN/04105-2018 NSERC Natural Sciences and Engineering Research Council of Canada http://data.elsevier.com/vocabulary/SciValFunders/501100000038 http://sws.geonames.org/6251999/ This research was funded by the Natural Science and Engineering Research Council of Canada [ DGECR-2018-00395 and RGPIN/04105-2018 ]. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0378-7788(23)00990-8 S0378778823009908 1-s2.0-S0378778823009908 10.1016/j.enbuild.2023.113760 271089 2023-12-28T11:20:55.404436Z 2024-01-15 1-s2.0-S0378778823009908-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/MAIN/application/pdf/6a3dde90052eb790ba68414aac54162c/main.pdf main.pdf pdf true 1228838 MAIN 10 1-s2.0-S0378778823009908-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/PREVIEW/image/png/7fcd6b4b8f36b8c8d955ca868cca383b/main_1.png main_1.png png 55174 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0378778823009908-gr010.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr010/DOWNSAMPLED/image/jpeg/d09cad93bebb884ae56749d599672fb8/gr010.jpg gr010 gr010.jpg jpg 13071 233 389 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr011.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr011/DOWNSAMPLED/image/jpeg/dc3d7d616bcd7376dfb616808b480a33/gr011.jpg gr011 gr011.jpg jpg 13536 233 389 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr003.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr003/DOWNSAMPLED/image/jpeg/b4e5322ad09cd0d4ee47aa34f2d96a07/gr003.jpg gr003 gr003.jpg jpg 21297 279 394 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr004.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr004/DOWNSAMPLED/image/jpeg/b5e27a1de80d92c8d6b299ea6109961d/gr004.jpg gr004 gr004.jpg jpg 14652 164 344 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr001.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr001/DOWNSAMPLED/image/jpeg/17ebc941cffd5bdfc110212568864956/gr001.jpg gr001 true gr001.jpg jpg 25705 200 427 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr012.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr012/DOWNSAMPLED/image/jpeg/1f97b5facb4500e5e756a2089a28cafc/gr012.jpg gr012 gr012.jpg jpg 11503 235 388 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr002.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr002/DOWNSAMPLED/image/jpeg/00f2c16d9ff7ef276083b5ac7c21b7c1/gr002.jpg gr002 gr002.jpg jpg 23013 248 394 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr007.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr007/DOWNSAMPLED/image/jpeg/31886e6a7c11d1f173897e747a518821/gr007.jpg gr007 gr007.jpg jpg 19548 222 388 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr008.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr008/DOWNSAMPLED/image/jpeg/3a51891464ab697c2c028b7a1caa13c3/gr008.jpg gr008 gr008.jpg jpg 10948 196 389 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr005.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr005/DOWNSAMPLED/image/jpeg/762af997e9e3a3141feb515be714e22a/gr005.jpg gr005 gr005.jpg jpg 15051 177 350 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr006.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr006/DOWNSAMPLED/image/jpeg/974a1abe6d5c118a08e04aeb75f05a76/gr006.jpg gr006 gr006.jpg jpg 4878 173 249 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr009.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr009/DOWNSAMPLED/image/jpeg/d5262467e83b515c71e9e2be42e87517/gr009.jpg gr009 gr009.jpg jpg 16914 225 389 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823009908-gr010.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr010/THUMBNAIL/image/gif/0861f185b57777fd4745a316ecc2e02f/gr010.sml gr010 gr010.sml sml 2795 131 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr011.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr011/THUMBNAIL/image/gif/3d226a9c082db6194144541fc7594f63/gr011.sml gr011 gr011.sml sml 2973 131 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr003.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr003/THUMBNAIL/image/gif/238dc5ec47259c2c0a4643f82697a14a/gr003.sml gr003 gr003.sml sml 5431 155 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr004.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr004/THUMBNAIL/image/gif/6075b4562063845b21677d51cb04d892/gr004.sml gr004 gr004.sml sml 5157 104 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr001.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr001/THUMBNAIL/image/gif/caaccd302e6297bc81d9bae797a4ce45/gr001.sml gr001 true gr001.sml sml 6510 103 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr012.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr012/THUMBNAIL/image/gif/55a495d8a3a79ccae4919397e91dbc2c/gr012.sml gr012 gr012.sml sml 2826 133 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr002.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr002/THUMBNAIL/image/gif/4887e9fd90a6636832eebe87b412bd51/gr002.sml gr002 gr002.sml sml 6108 138 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr007.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr007/THUMBNAIL/image/gif/abcc147fabb1a19e345cdd192977d475/gr007.sml gr007 gr007.sml sml 7315 125 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr008.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr008/THUMBNAIL/image/gif/90704e6890bc4d98b888e35fde4fe1a8/gr008.sml gr008 gr008.sml sml 3100 110 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr005.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr005/THUMBNAIL/image/gif/67277cf03745d9d92249f6a6710db966/gr005.sml gr005 gr005.sml sml 7730 110 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr006.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr006/THUMBNAIL/image/gif/38e3d9ae46d41abc4c12a07627e08fef/gr006.sml gr006 gr006.sml sml 5009 152 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr009.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/gr009/THUMBNAIL/image/gif/0517f2edc0375be5cc15350ac5f9c22d/gr009.sml gr009 gr009.sml sml 5247 127 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823009908-gr010_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/03e6ec95c0d1a36939d6e656c28808e1/gr010_lrg.jpg gr010 gr010_lrg.jpg jpg 47879 620 1033 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr011_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/dbee86566db21a13772147d30101204b/gr011_lrg.jpg gr011 gr011_lrg.jpg jpg 47896 619 1033 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr003_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/5a8feeefd4f6f037de365bc46eacc0b9/gr003_lrg.jpg gr003 gr003_lrg.jpg jpg 603915 2468 3488 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr004_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/0b77c1e8bb193df47fdaf80f9b7bb1d1/gr004_lrg.jpg gr004 gr004_lrg.jpg jpg 291499 1452 3045 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr001_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/643b7318a64003e013cb6dc5beac0a43/gr001_lrg.jpg gr001 true gr001_lrg.jpg jpg 111778 531 1134 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr012_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/5a9b75339b0006a3ba52692a78431919/gr012_lrg.jpg gr012 gr012_lrg.jpg jpg 41859 624 1031 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr002_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/ca1f4c5fc6706bfbe6b90ca885bf43f9/gr002_lrg.jpg gr002 gr002_lrg.jpg jpg 691131 2197 3488 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr007_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/4f157dda173db83cea9a37c09e07ebcc/gr007_lrg.jpg gr007 gr007_lrg.jpg jpg 77893 590 1031 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr008_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/cb52b4d7a60112e13cad0eaab6abb748/gr008_lrg.jpg gr008 gr008_lrg.jpg jpg 38819 521 1033 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr005_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/106c1923f6fa631ca47561929094d461/gr005_lrg.jpg gr005 gr005_lrg.jpg jpg 51637 469 930 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr006_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/318a19e1f6368e062b4afd805a07025b/gr006_lrg.jpg gr006 gr006_lrg.jpg jpg 17209 461 663 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-gr009_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/HIGHRES/image/jpeg/c886c91e10512e53c7b35a0face33be7/gr009_lrg.jpg gr009 gr009_lrg.jpg jpg 61215 597 1033 IMAGE-HIGH-RES 1-s2.0-S0378778823009908-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/fef1979f83bff4606822edc41e7d04e3/si1.svg si1 si1.svg svg 2235 ALTIMG 1-s2.0-S0378778823009908-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/652d167dd21092cecc9d59e15f210408/si10.svg si10 si10.svg svg 5092 ALTIMG 1-s2.0-S0378778823009908-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/cc75f92238a6c2d576318ae7b5285643/si11.svg si11 si11.svg svg 4509 ALTIMG 1-s2.0-S0378778823009908-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/2a1df1d8373137ba48cbf5a06f48491d/si12.svg si12 si12.svg svg 1855 ALTIMG 1-s2.0-S0378778823009908-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/a22c0d019de50f43aff7e54b4b693652/si13.svg si13 si13.svg svg 2385 ALTIMG 1-s2.0-S0378778823009908-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/d84f066ad057111d7d2a4502a731ea28/si14.svg si14 si14.svg svg 19666 ALTIMG 1-s2.0-S0378778823009908-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/582e33f050b1d454228c6dee00df7bcd/si15.svg si15 si15.svg svg 2284 ALTIMG 1-s2.0-S0378778823009908-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/a07e9f2dcf35a025e6778d524d49084b/si16.svg si16 si16.svg svg 2219 ALTIMG 1-s2.0-S0378778823009908-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/967787b896c23e07015c6014ee3e43e7/si17.svg si17 si17.svg svg 3976 ALTIMG 1-s2.0-S0378778823009908-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/78c597a9f9eebe738a31bd1cb6ad9d1f/si18.svg si18 si18.svg svg 2938 ALTIMG 1-s2.0-S0378778823009908-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/21e4d66956599fab215ca031ef8cb5b6/si19.svg si19 si19.svg svg 3569 ALTIMG 1-s2.0-S0378778823009908-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/412d4fcdec50cb7ed07759ce4fad5ec7/si2.svg si2 si2.svg svg 2597 ALTIMG 1-s2.0-S0378778823009908-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/47ad7e240d3c8b172138d24b2915fb29/si20.svg si20 si20.svg svg 3217 ALTIMG 1-s2.0-S0378778823009908-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/8321741558a07d844a1a5dffef67fc17/si21.svg si21 si21.svg svg 2297 ALTIMG 1-s2.0-S0378778823009908-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/3f0e890ca742127882f57463e46e2753/si22.svg si22 si22.svg svg 4111 ALTIMG 1-s2.0-S0378778823009908-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/23a85148b6a38f6dddaac6e456d695bb/si23.svg si23 si23.svg svg 9979 ALTIMG 1-s2.0-S0378778823009908-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/0d0636a4e84ac35c6cb99d213ef9549d/si24.svg si24 si24.svg svg 2111 ALTIMG 1-s2.0-S0378778823009908-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/1dc08732d313c8b6b32d6878db55b141/si25.svg si25 si25.svg svg 2731 ALTIMG 1-s2.0-S0378778823009908-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/d1484324c9cbafb7bfa6ea6146ca0c8c/si26.svg si26 si26.svg svg 3982 ALTIMG 1-s2.0-S0378778823009908-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/c6fa991ca85950f07813f46ab7add12c/si27.svg si27 si27.svg svg 2202 ALTIMG 1-s2.0-S0378778823009908-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/f8009f65758cce62d50a36d2921f957b/si28.svg si28 si28.svg svg 3015 ALTIMG 1-s2.0-S0378778823009908-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/0961ea6a2a7ce1af9ecb669e0881669e/si29.svg si29 si29.svg svg 6631 ALTIMG 1-s2.0-S0378778823009908-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/f97252fc10a3dc4b532a40b1ae797e35/si3.svg si3 si3.svg svg 2413 ALTIMG 1-s2.0-S0378778823009908-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/4c4c22a1eaaa84e33dbc073b4fc6ff77/si30.svg si30 si30.svg svg 8961 ALTIMG 1-s2.0-S0378778823009908-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/c6aa0eb623b9476795e5a95816b0fe6c/si31.svg si31 si31.svg svg 4907 ALTIMG 1-s2.0-S0378778823009908-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/3c4f34e1dcbfdca589732756b83391a9/si32.svg si32 si32.svg svg 5062 ALTIMG 1-s2.0-S0378778823009908-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/3af50196b500ea88e3dbf2a9b6e4ad11/si33.svg si33 si33.svg svg 2850 ALTIMG 1-s2.0-S0378778823009908-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/ecd8f7b5c18cd27b243bbef35ad188a7/si34.svg si34 si34.svg svg 2591 ALTIMG 1-s2.0-S0378778823009908-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/2965b79fee696b9e1637122dd51f75b3/si35.svg si35 si35.svg svg 4176 ALTIMG 1-s2.0-S0378778823009908-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/99e24757bbdb954ab6ec20cae24ca94a/si36.svg si36 si36.svg svg 2759 ALTIMG 1-s2.0-S0378778823009908-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/c7d69b9a733f5ffffe69ebf7246be543/si37.svg si37 si37.svg svg 5390 ALTIMG 1-s2.0-S0378778823009908-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/21f138238f02817ca40c1025134611dd/si38.svg si38 si38.svg svg 2208 ALTIMG 1-s2.0-S0378778823009908-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/997a7b9336bf4cec83be7db24179df40/si4.svg si4 si4.svg svg 9831 ALTIMG 1-s2.0-S0378778823009908-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/36539d008c6c1ce227e508e361029a50/si40.svg si40 si40.svg svg 11331 ALTIMG 1-s2.0-S0378778823009908-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/110266e0be4caaa26b56ad17c174acc0/si41.svg si41 si41.svg svg 14494 ALTIMG 1-s2.0-S0378778823009908-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/b588190487060bf4802da0936d287fda/si42.svg si42 si42.svg svg 3869 ALTIMG 1-s2.0-S0378778823009908-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/2fb3481d12a201d6bf896fd530092c71/si43.svg si43 si43.svg svg 3894 ALTIMG 1-s2.0-S0378778823009908-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/6294c9defdf4fb05904490f90c78f01f/si44.svg si44 si44.svg svg 6662 ALTIMG 1-s2.0-S0378778823009908-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/2f564309ff653409932fa0e0aa92329c/si45.svg si45 si45.svg svg 5558 ALTIMG 1-s2.0-S0378778823009908-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/8a0a33916d93d2097a0f16a8c09c8b02/si46.svg si46 si46.svg svg 3055 ALTIMG 1-s2.0-S0378778823009908-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/edd66e18a7ac36831a2fd0b6b85b3523/si47.svg si47 si47.svg svg 5572 ALTIMG 1-s2.0-S0378778823009908-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/79c5823fde71ecc2b9539bd1f332f7d1/si48.svg si48 si48.svg svg 1760 ALTIMG 1-s2.0-S0378778823009908-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/4fe428ce52a1c74c842eae403b9189f8/si49.svg si49 si49.svg svg 2171 ALTIMG 1-s2.0-S0378778823009908-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/dcd21b7fe14d4503b366152fb09d1eb8/si5.svg si5 si5.svg svg 3810 ALTIMG 1-s2.0-S0378778823009908-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/ff526497f6bf6718fd683659dda257ef/si50.svg si50 si50.svg svg 1957 ALTIMG 1-s2.0-S0378778823009908-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/fee66cad41abbb2c848b4b898b45da9d/si52.svg si52 si52.svg svg 4532 ALTIMG 1-s2.0-S0378778823009908-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/48254f091ddc036ec88d8745f923a876/si53.svg si53 si53.svg svg 4601 ALTIMG 1-s2.0-S0378778823009908-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/bbea3240ca66b9380c7dc9cc1af989dc/si54.svg si54 si54.svg svg 2081 ALTIMG 1-s2.0-S0378778823009908-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/f8a7b44d8ea815dca4ee6380d8f34a2d/si6.svg si6 si6.svg svg 2138 ALTIMG 1-s2.0-S0378778823009908-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/9677615c979bd5846799fc44c6b2640e/si7.svg si7 si7.svg svg 5981 ALTIMG 1-s2.0-S0378778823009908-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/d19e42ee148e845c4ef7a1037a9a512a/si8.svg si8 si8.svg svg 8127 ALTIMG 1-s2.0-S0378778823009908-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823009908/image/svg+xml/95633e7c28bc032208521b5ae7a3ac63/si9.svg si9 si9.svg svg 5287 ALTIMG 1-s2.0-S0378778823009908-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10P11M64850/MAIN/application/pdf/e1abacc8940c8e82b1fd974804bcabfa/am.pdf am am.pdf pdf false 1763258 AAM-PDF ENB 113760 113760 S0378-7788(23)00990-8 10.1016/j.enbuild.2023.113760 Elsevier B.V. Algorithm 1 The ReLBOT main algorithm. Algorithm 1 Algorithm 2 Algorithm for computing similarity between the transfer building and the target building. Algorithm 2 Fig. 1 BDNE architecture. Fig. 1 Fig. 2 ReLBOT architecture. Fig. 2 Fig. 3 ReLBOT ANN architecture. Fig. 3 Fig. 4 Predicted reward with and without transfer learning for building combination T-W. Fig. 4 Fig. 5 Frequency of actions taken by ReLBOT with and without transfer learning for building combination T-W during the warm-up period (first 300 steps taken). Fig. 5 Fig. 6 Set point behavior with and without transfer learning during the warm-up period for building combination T-W. Fig. 6 Fig. 7 Improvement (times) vs. Similarity plotted for the warm-up duration reduction. Fig. 7 Fig. 8 Improvement (times) vs. Similarity plotted for the warm-up variance reduction. Fig. 8 Fig. 9 Improvement (times) vs. Similarity plotted for the mean variance reduction. Fig. 9 Table 1 Buildings used as sources of data. Table 1 Building ID Chiller Type Cooling System Building Age (years) Description H High Efficiency Semi-Hermetic Single-Stage Centrifugal Liquid Chiller with Unit-Mounted VFD Variable flow chilled water primary system serving two-pipe fan coils in each unit; variable flow condenser loop served by variable-speed cooling tower 11 24 story, multi-unit residential building with 351 units T High Efficiency Semi-Hermetic Single-Stage Centrifugal Liquid Chiller with Unit-Mounted VFD Variable flow chilled water primary system serving two-pipe fan coils in each unit; variable flow condenser loop served by variable-speed cooling tower 30 21 story, multi-unit residential building with 200 units W High Efficiency Semi-Hermetic Single-Stage Centrifugal Liquid Chiller with Unit-Mounted VFD Variable flow chilled water primary system serving two-pipe fan coils in each unit; variable flow condenser loop served by variable-speed cooling tower 12 Part of two-tower multi-unit residential complex, each tower with 25-stories, totaling 350 units Table 2 BDNE performance summary. Table 2 Feature Building H Loss Building T Loss Building W Loss Training Testing Training Testing Training Testing F c p s 1 0.00 0.00 0.00 0.00 77.63 78.52 F c p s 2 1.78 1.73 0.00 0.00 74.79 75.59 T in 0.84 0.75 0.38 0.38 0.33 0.34 T out 1.34 1.24 1.02 1.00 0.90 0.94 E c h 7.25 6.31 111.23 114.71 86.78 91.83 Table 3 Improvements observed with transfer learning. Table 3 Target Building Transfer Building Similarity Warm-up Duration Reduction (%) Warm-up Variance Reduction (%) Mean Variance Reduction (%) Prediction Accuracy Improvement (%) H T 0.57 78 77 52 -0.4 T H 0.31 0 69 67 2.2 W T 0.33 0 2 2 0.01 W H 0.03 0 35 28 1.2 T W 0.60 84 99 97 3.8 H W 0.49 78 88 67 0.6 Average 0.39 40 62 52 1.2 A transfer learning approach to minimize reinforcement learning risks in energy optimization for automated and smart buildings Mikhail Genkin a \u204e J.J. McArthur b a Department of Computer Science and Information Systems, Trent University, Peterborough, Ontario, Canada Department of Computer Science and Information Systems Trent University Peterborough Ontario Canada Department of Architectural Science, Toronto Metropolitan University, Toronto, Ontario, Canada b Department of Architectural Science, Toronto Metropolitan University, Toronto, Ontario, Canada Department of Architectural Science Toronto Metropolitan University Toronto Ontario Canada Department of Architectural Science, Toronto Metropolitan University, Toronto, Ontario, Canada \u204e Corresponding author. Energy optimization leveraging artificially intelligent algorithms has been proven effective. However, when buildings are commissioned, there is no historical data that could be used to train these algorithms. On-line Reinforcement Learning (RL) algorithms have shown significant promise, but their deployment carries a significant risk, because as the RL agent initially explores its action space it could cause significant discomfort to the building residents. In this paper we present ReLBOT \u2013 a new technique that uses transfer learning in conjunction with deep RL to transfer knowledge from an existing, optimized and instrumented building, to the newly commissioning smart building, to reduce the adverse impact of the reinforcement learning agent's warm-up period. We demonstrate improvements of up to 84% (40% average) in the duration, and up to 99% (62% average) in prediction variance, for the reinforcement learning agent's warm-up period. RL agent's prediction accuracy improved by up to 4% (1% average). Graphical abstract Keywords Reinforcement learning Transfer learning Big data Building energy optimization Data availability Data will be made available on request. 1 Introduction 1.1 Smart buildings and energy optimization Buildings are responsible for approximately 32% of global energy use and 19% of C O 2 emissions. Further, their longevity as well as their ability to reduce the C O 2 emission values have made buildings a significant priority for emissions reduction [20]. In this context, the ability to manage buildings most efficiently is critical. In temperate climate, the majority of building energy consumption is due to Heating, Ventilation, and Air Conditioning (HVAC) loads. HVAC systems are critical to ensure a healthy and comfortable indoor environment for the building occupants. Chillers (cooling) and boilers (heating) are the most significant HVAC equipment and the ability to optimize their controls offers significant potential for C O 2 emissions reduction. Recent developments in Machine Learning (ML) and cloud computing provide new opportunities for controls optimization. A significant number of studies have explored online controls optimization, demonstrating savings of 30-70% [21,48,47]. However, there is limited uptake due to research gaps in the development of data retrieval, analysis, and management processes; services for deployment, maintenance, and calibration of sensors; the high cost of updating physics-based models for performance and energy estimation; inability to scale machine learning algorithms for building energy management; and the lack of case studies [30]. Further underpinning the process challenges is a lack of a supporting computational architecture to integrate ML and Artificial Intelligence (AI) with building systems [12]. Reinforcement Learning (RL) offers significant opportunity to streamline the process, reducing the need for physics-based models [49]. However, they are challenging to implement due to a) the time-consuming and data-demanding training process; b) the need to ensure the RL agent will not create problems during its training stage; and c) the lack of knowledge how to implement Transfer Learning (TL) to minimize the risks of b) [52]. This paper directly addresses this last challenge, presenting a novel means to integrate RL and TL for building energy optimization. 1.2 Problem The problem with using off-line reinforcement learning, or any machine learning technique that relies on data collected in the past to optimize performance in the present is that it can take a very long time to collect a sufficient volume of data to enable acceptable algorithm performance. Building life cycles are measured in decades. Seasonal variations in external temperature, humidity, and other environmental factors affect building energy performance. When a new smart building is commissioned, or a traditional building is converted to be a smart building, years may pass before a sufficient volume of data, capturing seasonal building performance under a variety of external conditions, has been collected to enable effective application of these machine learning algorithms. This problem is referred to as the smart building \u2018cold start\u2019. On-line reinforcement learning methods have been applied to deal with this issue. However, an on-line reinforcement learning agent learns by trial-and-error. During its initial period of operation, known as the warm-up period, the agent's actions are largely random, and could cause significant discomfort to the building's residents because these actions involve adjusting chiller and boiler set-points, which in turn, results in changes to the building's internal air temperature. Deployment of reinforcement learning algorithms thus carries significant risk for building management companies, and this consideration has inhibited the adoption of on-line reinforcement learning algorithms. 1.3 Contribution In this paper we present Reinforcement Learning Building Optimizer with Transfer learning (ReLBOT) - the first technique specifically designed to overcome the smart building cold start. Our technique uses deep reinforcement learning in combination with transfer learning to enable algorithm training on an established building with a sufficient level of instrumentation and a historical data set, and subsequent application of this algorithm on a different, brand new, smart building that lacks historical data. We also present a method for measuring similarity among buildings and selecting the most appropriate donor building to optimize transfer learning. Our approach allows the close-to-optimal energy performance for the building to be established at the very beginning of the building's life-cycle, without causing discomfort to the building residents. 2 Previous work To contextualize this research, we provide a review of two bodies of literature: those related specifically to overcoming the \u2018cold start\u2019 problem, both within the building energy domain and the broader literature, and those applying ML algorithms to optimize building energy performance, with a focus on recent developments in RL and TL applications. We begin by recapping research that describes how the smart building cold start problem was dealt with up until this point and expand this with perspectives from the broader literature to provide a more holistic context to the issue. We then proceed to discuss the most relevant prior art focusing on the use of various ML algorithms to optimize building energy performance, and then we conclude our review by highlighting the potential to TL to overcome the \u2018cold start\u2019 problem with RL algorithms and examine the few domain-specific works that address this combination of approaches. 2.1 Overcoming cold start The \u2018cold start\u2019 problem for building energy simulation is a long-recognized problem for data science, particularly recommender systems [45]. In this context, \u2018cold start\u2019 refers to the challenge of predicting energy consumption for a new facility for which no historical data is available [5]; this has been noted as a significant challenge to be overcome to develop building energy-efficiency recommender systems [15]. To understand the state of the art in terms of how to overcome this challenge in energy optimization, we begin with a review of that literature and then expand beyond the building energy domain to obtain a more holistic view. The cold start problem with respect to HVAC optimization has been addressed through data augmentation by a number of scholars, notably Kannan and Roy [21], Kannan et al. [22]. In one study, Kannan et al. [22] used preference maps to expand the dataset for air-conditioners (ACs), adding similar data from other ACs to help overcome the cold-start problem and leading to a common deep neural network for all units. Considering a large number of ACs (37,748), a large dataset was created despite the relatively small number of points for each, and the resultant model showed excellent results with a median 57.38% achieved energy savings. In a related study, Kannan and Roy [21] considered a large dataset of 53,528 ACs, finding that individual model predictions were insufficient in 76% of cases, while a combined dataset and deep neural network permitted strong (R2= 0.8) predictions to be made for all ACs. Similarly, Chadoulos et al. [5] used an aggregate dataset to train a common deep learning model (recurrent neural network encoder with multi-layer perceptron architecture) for household energy demand forecasting, significantly increasing predictive accuracy over single-house models. This data augmentation approach was also implemented by Wei et al. [55], who applied Markov decision process with deep reinforcement learning to develop a recommender system to guide occupant energy-conservation behavior, achieving savings of 19-26% across their field studies. Data augmentation has also been used for electric load prediction using tree-based (multivariate random forest) methods [34]. Bridging between building energy and other disciplines, Salinas et al. [44] explored the application of deep learning to time series forecasting using auto regressive recurrent networks, demonstrating the value of this approach to both traffic and electricity consumption forecasting. Of particular interest to energy optimization, this approach was able to incorporate seasonality to generate high-accuracy forecasts. There have been recent attempts to mitigate the cold start problem using rules-based control algorithms [27,36]. These algorithms can produce reasonable energy performance during the cold start period. However, the energy performance of the building will not be optimal. To be certain that the building energy performance is optimal, a search of the building parameter space needs to be performed, and this can cause discomfort to the building residents. Beyond the building energy domain, a significant volume of research has also considered the \u2018cold start\u2019 issue for recommender systems. Collaborative filtering is the most common approach for recommender systems [54], however, it suffers extensively from the \u2018cold start\u2019 issue [11,54,15]. To overcome this, deep learning has been increasingly used to use cross-domain information to help overcome the cold start approach. Studies of this kind have explored deep neural network integration with collaborative filtering [23] and stacked autoencoders [11]. Other studies seeking to overcome the cold start problem have explored content-based and context-aware approaches such as hybrid collaborative filtering and content-based approaches [37], influential context embedding and neural context-aware units [18], and contextual bandit reinforcement learning [53]. 2.2 ML and smart buildings There is an extensive body of literature on the application of ML to Smart Building systems; for comprehensive reviews on these applications and their supporting software and architectures, refer to [42], [30] and for insight on AI-initiated learning in these applications, refer to [3]. ML is used for a range of tasks to support buildings, including: data acquisition, data pre-processing, feature extraction, selection, and prediction, and dimension reduction [42]. Within the HVAC domain, building automation systems (BAS) have proven to be a valuable source of data alongside additional energy metering and, in some cases, supplemental equipment controls points [31,47] and PoE devices [31]. Other building management applications of ML include lighting [19], water management [50], energy management [30], indoor environmental control [58,4], automated fault detection [32], and occupant detection [59]. Of particular relevance to this paper is the application of ML to HVAC controls and energy management. This is a rapidly-expanding field with numerous recent reviews summarizing the state-of-the-art [17,9,1,28,29,35]. For many years, such studies have shown significant potential for energy management [30], with demonstrated savings exceeding 50% [4,47]. Such applications have leveraged the full spectrum of ML techniques; see summaries by Alanne and Sierla [3], Minoli et al. [30], Qolomany et al. [42]. Supervised learning (classification, regression, ensemble methods, and time-series analysis) has been widely used, but requires a significant volume of labeled data [30,42], which makes them highly susceptible to the \u2018cold start\u2019 problem described above for both energy management and fault detection applications. Unsupervised learning, primarily using clustering, overcomes this challenge but is computationally expensive and has limited applications [42]. Semi-supervised learning overcomes some of these challenges but has had limited adoption for energy applications. Finally, RL has had increasing adoption for energy management and HVAC control [42,52,24,3,51], but suffers from a lack of real-world application due to the risks present during agent training [52], the high computational cost control [42,52], and the need for significant training data for robust operation, again making it susceptible to the \u2018cold start\u2019 problem [52]. During the \u2018cold start\u2019 period, RL agents are susceptible to creating unacceptable conditions as agents may explore more extreme environmental states. The solution to this challenge is typically to create a simulated environment for training [41] as evidenced in several studies [6,14]. Deep Reinforcement Learning (DRL) is seen as a potential solution to these RL limitations [26]. Current DRL approaches include both model-free and model-based approaches. For a detailed review and summary, see Yu et al. [57]. Specific algorithms tested in the recent literature for building energy optimization using DRL include Deep Q-networks (DQN) [14] and its variants including Dueling Double DQN (D3QN) [41] and Prioritized Replay DQN (PR-DQN) [41]; multi-agent RL [10]; random neural network with LSTM [46]. However, DRL is still an emerging technology requiring further research [41], particularly to overcome the considerable time it takes to converge [6]. Increasingly, building energy prediction researchers using RL are identifying TL as a potential solution to this challenge [41,6,61]. TL has been identified as offering significant promise to resolve the \u2018cold start\u2019 issue, and there has been a notable rise in application of TL for building energy prediction \u2013 see, for example, the review by Himeur et al. [16] or papers by Pinto et al. [39], Ahn and Kim [2], Peirelinck et al. [38], Ribeiro et al. [43], Grubinger et al. [13], and Mocanu et al. [33]. Within this literature, there is an increasing exploration of Deep Transfer Learning (DTL); see the recent summaries presented by and Pinto et al. [40] and Li et al. [25]. However, the majority of studies do not consider TL (or DTL) in combination with RL [7]. This application of TL to RL is recognized as a significant gap requiring additional research [3]. An early exploration [33] was limited to energy prediction only, developing an initial model based on a Deep Belief Network for transfer to other buildings of both the same and different occupancy types to predict energy consumption with RL. Following this, Zhu et al. [60] provide a robust discussion of the theoretical integration of transfer and reinforcement learning, and this has been demonstrated to some degree in the literature that has followed, particularly using DRL. Xu et al. [56] sought to optimize HVAC controllers by decomposing their HVAC control system into a transferable front-end network with a building-agnostic back-end network, finding that this approach was effective even when the source and target buildings had differing numbers of thermal zones, materials and layouts, HVAC equipment, and \u2013 in some cases \u2013 weather conditions. Similarly, Coraci et al. [6] used an online transfer learning (OTL) strategy to transfer a deep reinforcement learning (DRL) control policy trained on an emulator based on a soft actor-critical approach; however, this was limited to simulated buildings with the same geometry and energy systems. [8] also applied deep Q-learning to create a control strategy for the source building, transferring the first few layers to the target building and refining the remaining layers using target building data. Each of these studies reported positive results, highlighting the significant potential for TL to transfer RL control strategies between buildings. The limitations of the above studies \u2013 whether the substantial computational resources to create an emulator for model training, or the limits to transferability when buildings have different geometry or systems \u2013 highlight the need for additional research to truly overcome the scalability challenges in current RL and other ML building energy optimization applications. This paper contributes to this emerging discourse by presenting an architecture designed specifically to use TL to reduce the \u2018cold start\u2019 challenge for RL building optimization algorithms. 3 Architecture Results presented in this paper were generated using two separate systems: 1. The Building Data Neural Emulator (BDNE) was used to emulate the data behavior of an actual building. 2. The RelBOT itself. Below we begin by describing the theoretical basis for our technique and then proceed to discuss the architecture and operation of BDNE, and subsequently the architecture and operation of ReLBOT. 3.1 ReLBOT theoretical basis Before delving into the ReLBOT architecture we clarify the terminology that will be used in the remainder of this work. The term target building will be used to indicate the building that is being optimized by ReLBOT for energy performance. The term transfer building will be used to indicate the building that is being used as the source of data for transfer learning. The method described in this work involves transferring knowledge learned in the transfer building domain D s to the target building domain D t . The state of transfer building is described by a feature vector X s = { x 1 , . . . , x n } ∈ X s , the transfer building feature space. In all cases x i ∈ R . The label space of the transfer building is denoted as Y s . The predictive task, in the transfer building domain, involves learning an objective function f s : X s → Y s . The task T s = { Y s , f ( X s ) } , is learned from training data { x i , y i } where x i ∈ X s and y i ∈ Y s . The regression task T s aims to predict the building Coefficient Of Performance (COP) given the input feature vector X s . The COP of the transfer building (any building) can be calculated using the following equation: C O P i = y i = c w ρ w F c p s f ( T i n − T o u t ) ÷ E c h Where c w is the specific heat capacity of water, ρ w is the density of water, F c p s is the chiller pump speed, f is the flow rate factor, T i n is the entering chiller temperature, T o u t is the exiting chiller water temperature, and E c h is the energy consumption rate of the chiller. Thus, we can see that since historical data for the transfer building exist it is possible to construct the label space Y s and train the predictive function f ( X s ) so that it is able to perform the regression task T s with sufficient accuracy by using standard machine learning approaches. This does require that X s contain features with values for F c p s , T i n , T o u t , and E c h . The other terms in the equation are known constants. There are no historical training data that can be used for the target building. This is the fundamental constraint of the cold start scenario that this work aims to address. The ReLBOT aims to solve this problem using an actor-critic reinforcement learning agent (see Fig. 2). The state of target building is described by a feature vector X t = { x 1 , . . . , x m } ∈ X t , the transfer building feature space. As with the transfer building, in all cases x i ∈ R . The label space of the target building in the domain D t is denoted as Y t . The ReLBOT actor performs a classification task T t a . This task involves learning a function a ( X t ) that returns the most appropriate action based on the building state represented by X t and using this function to select the most appropriate action at each step. There are no label data Y t a for this task, and so the actor shares knowledge with the critic to ensure prediction accuracy. The predictive task, in the target building domain, involves learning an objective function for the critic f t c : X t → Y t c . The critic task T t c = { Y t c , f t c ( X t ) } , is learned from training data { x i , y i } where x i ∈ X t and y i ∈ Y t c . The labels Y t c for the critic are, just like for the transfer building label space Y t , are COP values calculated for each input vector X t using the same formula given above. Thus, the critic task for the target building T s c is the same regression task as the regression task for the transfer building T s , and it should be possible to share knowledge: T s ⇒ T t c . The critic shares knowledge ω t c with the actor function a ( X t ) . It must be noted, however, that the dimension of the transfer building input vector n is not the same as the dimension of the target building input vector m, and, therefore, an adaptation function α t ( X s , X t ) must be introduced to reconcile this difference. The critic is initialized using knowledge ω s produced by the target building regression task T s . The critic is then incrementally retrained after each time that the input vector X t is presented. Algorithm 1 describes the operation of the ReLBOT actor-critic reinforcement learning agent. Effectiveness of the transfer learning approach among buildings may vary. It is logical to assume that relatively similar buildings will benefit from transfer learning more than relatively dissimilar ones. It is therefore important to define similarity among buildings mathematically. In this work similarity between the transfer building and the target building is defined as S s t = s ( { X s } t = i k , { X t } t = j l ) . S s t ∈ R | 0 ≦ s ( { X s } t = i k , { X t } t = j l ) ≦ 1 Using this definition stating that two buildings are completely dissimilar would imply that the buildings have completely dissimilar feature vectors and S s t = 0 . Conversely, stating that two buildings are perfectly similar would imply that their feature vectors are perfectly similar, and that S s t = 1 . In order to calculate similarity some historical data must be available for both the transfer ( { X s } t = i k ) and the target building ( { X t } t = j l ). These time-series do not need to be the same length, and it is understood that the target building will have less historical data available, but they should contain segments capturing similar seasonality (for example the summer months). The algorithm for calculating S s t is listed in Algorithm 2 . The algorithm takes example time-series collected for the transfer building and target building. The algorithm then iterates through all of the features in the transfer building feature vector and tries to find a similar feature in the target building feature vector. Features are considered similar if they have similar normalized kurtosis and skew (both positive or both negative), and means. The means are considered similar if the distance between them is less than the sum of the standard deviation for the transfer building feature and the standard deviation of the target building feature that is being considered. If the length of the transfer building feature vector n is greater than the length of the target building feature vector m, a penalty (ε in Algorithm 2) is applied. This is due to the consideration that it will not be possible to transfer all of the knowledge extracted from a richer feature vector. 3.2 BDNE architecture The BDNE architecture is shown in Fig. 1 . It consists of two components: 1. The Building Source Data File. This CSV file contains actual building sensor data. These data are used as input to the Streaming Consumer component. 2. The BDNE Consumer. This component reads data from the Building Source Data File one row at a time, and invokes ReLBOT. ReLBOT takes the row data, which represents the current building state, as input and predicts the action that should be taken next. ReLBOT generates a Predictions File that records the action taken for each step, and the reward predicted for that action by ReLBOT. 3. The BDNE component emulates the action predicted by ReLBOT and adjusts the values read from the (Building Source Data File) by amounts predicted by the BDNE models. The change in values is assumed to be instantaneous. The BDNE generates the Building Response File. This file stores that building state values adjusted by BDNE for every step (row) read in from the Building Source Data File. The BDNE implements five machine learning models, one to predict each of the factors described in the sub-section 3.1 to calculate the COP. Each model is used to perform regression operations on source data used for Coefficient Of Performance (COP) calculations. These columns are adjusted with new values predicted by the models in response to actions taken by ReLBOT. Columns containing data that would not be impacted by these actions, such as the column containing the outdoor air temperature, are not changed. Machine learning models used by the BDNE are Artificial Neural Networks (ANNs). Each ANN has logic to adjust the size of the input layer to the size of the feature vector, and 2 identically-sized hidden layers with sigmoid activations. Each model has an output layer with linear activation function. 3.3 ReLBOT architecture ReLBOT architecture is shown in Fig. 2 . ReLBOT is an actor-critic deep reinforcement learning agent capable of operating with and without reinforcement learning capabilities. When the reinforcement learning feature is turned off, it operates like a standard deep reinforcement learning actor-critic agent. Both the Actor and the Critic (see Fig. 2) are implemented as ANNs. The role of the Actor is to select the best action given an input target building state. The input target building state is a feature vector containing real numbered values read from the many sensors that instrument the building. The state includes all available values for the building sensors, excluding the timestamp and the chiller set point. The chiller set point is the value that is being acted on by the ReLBOT actor. At any step the ReLBOT Actor can choose from the following actions { A } a = 1 3 : \u2022 Do nothing. \u2022 Increase the chiller set-point by an amount specified in the ReLBOT configuration file. \u2022 Decrease the chiller set-point by an amount specified in the ReLBOT configuration file. Once the Actor selects the action based on the current building state, it passes this action to the Building Environment component. The Building Environment component adjusts the target building chiller set point based on the action selected by the ReLBOT actor. The Building Environment component then uses the BDNE to predict the changes in the building state that will result from this action. It will then calculate the actual reward amount that will be returned to the ReLBOT critic component. The Building Environment component implements a reward function that uses the Coefficient Of Performance (COP) to determine the reward that will be used. The COP is the key building energy performance measure used in the civil engineering field. The amount of reward depends on the difference between the COP calculated for the current target building state, adjusted for changes predicted by the BDNE, and the COP calculated for the previous building state. This difference is then multiplied by a configurable scaling factor. The Critic (see Fig. 2) predicts the amount of reward ( r t ) that will be returned by the Building Environment component. Once ReLBOT receives the actual reward returned by the Building Environment component ( R t ), it uses it as a label ( Y t ) to re-train the Critic component. The Critic component is incrementally re-trained at every step. Immediately after re-training ReLBOT uses transfer learning to update the Actor ANN using a sub-set of Critic's weights and biases ( T s ⇒ T t c ). The Actor and Critic ANNs have identical input and hidden layers. The only difference is in the output layer, which in the Actor's case performs a classification task (logistic activation) to identify the best action, and in the Critic's case performs a regression task (linear activation) to predict the reward associated with the action. The ANN models used for both the Actor and Critic components have nearly identical architecture. They are both organized into 4 conceptual segments (Fig. 3 ): \u2022 Input segment. This segment includes a configurable input layer that adjusts to the size of the target building's feature vector and a hidden layer configured to have the same number of neurons as the input layer. \u2022 Adaptation segment. This segment includes a hidden layer, with a configurable fixed number of neurons. The number of neurons is the same as in the core segment. The purpose of this layer is to map the variable-size input layer to the fixed size layers of the core segment. This implements the adaptation function α t ( X s , X t ) . \u2022 Core segment. This segment has two hidden layers with a configurable, fixed number of neurons. \u2022 Output segment. This segment has a single output layer with a single output. To enable transfer learning ReLBOT uses an off-line utility to read in the transfer building source data file, calculate the COP and the reward for each step in the time-series, and train the transfer model for the transfer building. The transfer model is an ANN with an architecture identical to the ReLBOT Critic component model. When the transfer learning feature is turned on ReLBOT uses transfer learning to copy the weights and biases for the Core model segment from the Transfer model to the Actor and Critic models. 4 Methodology Three buildings located in ASHRAE Climate Zone 5 were selected for our experiments. Table 1 summarizes the buildings and describes the specifics of their Heating Ventilation and Air Conditioning (HVAC) systems. The following procedure was followed to collect data and evaluate the ReLBOT algorithms: 1. Data preparation. This involved the following steps: (a) Remove any identifying information, such as building name or elements of the address, from the raw data file and column name. (b) Impute data for missing values (see discussion above in the 3.2 section). (c) Write out the data in CSV format that could be read in by the BDNE and ReLBOT. 2. Train BDNE prediction models for each building. BDNE prediction model design was iterative to ensure that the predictive models were not underfitting or overfitting, and involved adding and removing hidden layers from ANN models, and thereby adjusting model complexity, until reasonable model performance was achieved. This is discussed in more detail below. 3. Train ReLBOT transfer models for each building. 4. Organize experiments by building pairs (target building and transfer building) and execute simulated on-line optimization runs using ReLBOT for each building pair, with and without transfer learning. 5. Calculate relative improvements for each metric of each building pair, taking the configuration without transfer learning as the baseline. 6. Aggregate statistics for all runs and metrics (described below). Step 4 described above is essentially an adaptation of a 3-fold cross-validation approach. One of the buildings is used to train the transfer model. This transfer model is then used to transfer knowledge to 2 other buildings. This produces a total of 6 possible target-transfer building combinations. For each combination key metrics (discussed below) are recorded with and without transfer learning enabled. For each building combinations, the following metrics were used to evaluate the effectiveness of ReLBOT: \u2022 Warm-up reward variance. This metric measures the variance of the reward predicted by the ReLBOT Critic beginning at the very start of the experiment, and until the end of the warm-up period. \u2022 Mean reward variance. This metric refers to the mean reward variance observed for the entire experiment. \u2022 Warm-up period duration. The duration of the warm-up period is defined as the number of steps in the building state time-series from the very beginning to the first step where the rolling average of the reward variance is equal to or smaller than the mean variance for the entire time-series recorded in the ReLBOT Predictions File (see Fig. 1). \u2022 Mean reward prediction accuracy. This metric refers to how closely ReLBOT can predict the reward predicted by the Building Environment component (see Fig. 2). This metric is the Root Mean Squared Error (RMSE) computed between the set of ReLBOT predictions and BDNE predictions returned via the Building Environment component. These metrics were selected for investigation because they provide key insights into the ReLBOT behavior, and the effectiveness of the transfer learning technique. The variance in the reward predicted by the Critic is directly related to the choice of action by the Actor, because the Critic and the Actor ANN models share most of the weights and biases. High variance in the predicted reward is thus related to sub-optimal, and more chaotic choice of action selected by the Actor. The period (number of steps) during which the predicted reward variance is much larger than the overall mean predicted reward variance can be used to unambiguously define the length of the warm-up period for the reinforcement-learning agent. This is graphically shown in Fig. 4 . Absolute values for the metrics are not very meaningful when considered in isolation. Therefore, analysis presented in Section 5 focuses on presenting and discussing relative changes observed with and without transfer learning. Although BDNE is not the key focus of this study, the performance of this component was evaluated to make sure it was sufficient to allow for effective evaluation of ReLBOT. As discussed in Section 3, BDNE uses predictive models to perform regression on key factors used in the COP calculation. A 66%/33% tain/test split was performed on the building data before training each BDNE model. For each model, Mean Squared Error (MSE) was calculated and recorded for both the training and testing sets. For each model, the magnitude of MSE was compared with the mean value that was being predicted to make sure the model was not underfit. For each model, MSE for the training and testing sets were compared to make sure that the model was not overfit. 5 Results 5.1 BDNE performance Table 2 presents a summary of BDNE performance. The Feature column contains the factors, described in Section 3.1, used to calculate the COP of the building. BDNE uses trained models to predict the values for these features. The MSE loss is shown for each building, and for both the training and testing set of each regression model. For all buildings the MSE loss was observed to be very low to acceptable in proportion to the calculation factor values being predicted. The average error for the predictions, defined as the square root of MSE, was observed to be less than 10% of the values being predicted. This indicates that the BDNE predictive models were not underfit. It is also important to point out that MSE loss values for training and testing sets were within 5% of each other in all cases. This indicates that BDNE predictive models were not overfit, and capable of generalizing to unseen data. 5.2 ReLBOT performance Table 3 presents a summary of findings for our experiments. This table shows relative improvement achieved for the key metrics as percentages in reduction. Configuration with no transfer learning was chosen as the baseline in each case. For all metrics smaller is considered better. For example for the building combination T-W, where the target building is T and the transfer building is W, the reduction in the duration of the ReLBOT warm-up period was observed to be 84% shorter with transfer learning than without it. The warm-up reward variance was observed to be 99% smaller with transfer learning than without it. The mean variance was observed to be 97% smaller with transfer learning than without it. In this case transfer learning among buildings clearly produced a dramatic improvement to the speed with which ReLBOT was able to find the COP optimum and minimized the potential discomfort that would be experienced by the building residents due to excessive exploration of the action space. Averaged for all six building combinations, it was observed that transfer learning among buildings resulted in: \u2022 40% reduction in the duration of the warm-up period. \u2022 62% reduction in reward variance during the warm-up period. \u2022 52% reduction in mean reward variance. ReLBOT's prediction accuracy improvements (see Tables 3) were less spectacular than those observed for the duration of the warm-up period, warm-up period variance reduction, or mean variance reduction. This is not entirely unexpected, because even without transfer learning the RL agent eventually learns to select the optimal action for a given building state. Nevertheless, modest improvements in ReLBOT prediction accuracy were observed for 3 out of the 6 building combinations (see Tables 3). The best results, as with the other key metrics, were observed with the building combination T-W, where an average prediction accuracy improvement of 3.8% was observed. Building combination T-W has the highest similarity (discussed further below) of all building combinations considered in this study. This building combination also produced the largest reductions in the duration of the warm-up period, the warm-up period reward variance, and the mean reward variance reduction, as discussed above. The observation that this building combination produced the largest improvement in prediction accuracy is consistent with these observations, and underscores the importance of similarity. This is further discussed below. It should be noted that in some cases transfer learning among buildings does not seem to produce significant improvements in the key metrics. For example for building combination W-T (W as the target building and T as the transfer building, see Table 3), using transfer learning did not make many differences. Fig. 4 shows the ReLBOT predicted reward behavior with and without transfer learning. Without transfer learning the predicted reward varies widely during the warm-up period, the duration of which is indicated on the graph by the dashed line. During this period of time, because the ReLBOT Actor and Critic share knowledge, the Actor explores the action space almost at random. Since each action results in a change to the chiller set point this could cause considerable discomfort to the building residents. In this case the warm-up period lasts for close to three weeks. With transfer learning from building W, the warm-up period was observed to be almost completely eliminated, reducing the potential for discomfort to the building residents. In both cases the predicted reward eventually tends to zero, as the ReLBOT finds the COP optimum for the target building. Fig. 5 shows the distribution of actions taken by ReLBOT during the warm-up period. Because the duration of the warm-up period varies with and without transfer learning, the first 300 steps were used. With transfer learning it was observed that the actions chosen by the ReLBOT during the warm-up period were much more evenly distributed between choosing to do nothing, and adjusting the chiller set point up or down to find the optimal operating conditions. This pattern of behavior leads to more gradual adjustments to the chiller set-point, reducing the potential to cause discomfort to the building residents. Fig. 6 demonstrates this behavior for the building combination T-W with and without transfer learning during the warm-up period. Without transfer learning the ReLBOT actor-critic RL agent aggressively adjusts the chiller set point to higher and higher values in search of the COP optimum. Effectively, it turns off the cooling by pushing the chiller set point above 20 degrees Celsius. If this pattern of set points was enacted on an actual building, it would cause significant discomfort to the building residents. In comparison, with transfer learning, the agent adjusts the set point much more conservatively, exploring values slightly above and below the initial set-point of 7.3 degrees Celsius. This patter of chiller set-points would not cause significant discomfort to the building residents. ReLBOT was eventually able to find the same COP optimum both with and without transfer learning. Without transfer learning though, it took longer to get there and chiller set-point fluctuations were more significant. The primary benefit of using transfer learning from another building is the fact that it mitigates the risk of causing significant discomfort to the building residents during initial building commissioning, or during on-going re-commissioning as part of SOCx. An added benefit are the reduced energy cost expenditures that result from the much-shortened warm-up period. It is important to note that the effectiveness of transfer learning among buildings depends on the choice of the transfer building. In our case building W appears to be the best transfer building, producing the most spectacular results with two different target buildings - T and H. Figs. 7, 8, and 9 show the relationship between the amount of improvement (times improvement) and similarity for all of the key metrics. The overall trend in the data is shown using a dashed line. Note that for the Mean Variance Reduction (MVR) and Warm-Up period Variance Reduction (WUVR) the y-axis is logarithmic. It should be noted that the feature vectors of our buildings were observed to be relatively dissimilar (i.e. relatively far from the ideal similarity of 1). Similarity for our building combinations ranges from 0.03 (W-H) to 0.60 (T-W). For all metrics the overall trend shows significant improvement over this range, and the relationship appears to be exponential, with order-of-magnitude improvements achieved as similarity reaches 0.6. For warm-up duration reduction, the coefficient of determination R 2 for the exponential model was observed to be 0.74 (see Fig. 7), supporting the notion that the relationship between similarity and this metric is exponential. For WUVR and MVR R 2 for the exponential model was observed to be lower at 0.46 (see Fig. 8) and 0.35 (see Fig. 9) respectively. This was observed to be due to a single data point (building combination T-W) that resulted in better-than-exponential improvement for WUVR and MVR. Overall, the exponential model best explains the observed relationship between similarity and our key performance metrics. The best results were observed in those cases where the length of the transfer building feature vector was smaller than the length of the target building feature vector, and most transfer building features were statistically similar to target building features. The worst results were observed in those cases where the length of the transfer building feature vector was larger than the length of the target building feature vector. This appears to result in only partial knowledge transfer, and reduced benefit from transfer learning. 6 Conclusion In this work we presented ReLBOT - the first reinforcement learning technique that allows smart buildings to overcome the \u2018cold start\u2019 scenario by transferring knowledge from another, already optimized building. The building used as the transfer building does not have to be a smart building, but it does need to have a sufficient level of instrumentation and a historical energy performance data set to enable training of transfer models. Our technique uses deep reinforcement learning in combination with transfer learning to greatly mitigate the optimization algorithm deployment risk to the building management company. ReLBOT can reduce the duration of the warm-up period by up to 84% (40% average), reduce the variance observed during the warm-up period by up to 99% (62% average), and reduce the overall mean variance by up to 99% (62% average). RL agent's prediction accuracy was also observed to improve by up to 4% (1% average). For optimal results the transfer building needs to be carefully selected to ensure that its feature vector is the same size, or smaller than the feature vector of the target building. The feature vector of the target building should ideally contain statistically equivalent features to all of the features of the transfer building, if sufficient data are available to make this comparison. For this reason, the use of buildings with rich data sets offers significant benefits for transfer learning. However, even relatively dissimilar building feature vectors, can still lead to dramatic improvements in all key warm-up period metrics, as well as a significant reduction of risk associated with RL deployment and, thus, have significant value for energy management. Limitations of this study are the relatively small (4) number of buildings considered, and the consideration only of cooling system (chiller) performance. To address these limitations, future work includes extending ReLBOT to optimize building performance during the heating cycle (boiler efficiency), as well as adding more buildings of varying topologies, HVAC systems, and levels of sensor instrumentation. Other future work of value would be to further expand this across climate zones, integrating the methods developed by Ribeiro et al. [43], and to integrate ReLBot with smart commissioning approaches to support semi-autonomous building start-up and energy optimization. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgement This research was funded by the Natural Science and Engineering Research Council of Canada [DGECR-2018-00395 and RGPIN/04105-2018]. References [1] J. Aguilar A. Garces-Jimenez M. R-moreno R. García A systematic literature review on the use of artificial intelligence in energy self-management in smart buildings Renew. Sustain. Energy Rev. 151 2021 111530 Aguilar, J., Garces-Jimenez, A., R-moreno, M., García, R., 2021. A systematic literature review on the use of artificial intelligence in energy self-management in smart buildings. Renewable and Sustainable Energy Reviews 151, 111530. [2] Y. Ahn B.S. Kim Prediction of building power consumption using transfer learning-based reference building and simulation dataset Energy Build. 258 2022 111717 10.1016/j.enbuild.2021.111717 https://www.sciencedirect.com/science/article/pii/S037877882101001X Ahn, Y., Kim, B.S., 2022. Prediction of building power consumption using transfer learning-based reference building and simulation dataset. Energy and Buildings 258, 111717. URL: https://www.sciencedirect.com/science/article/pii/S037877882101001X, doi: https://doi.org/10.1016/j.enbuild.2021.111717. [3] K. Alanne S. Sierla An overview of machine learning applications for smart buildings Sustain. Cities Soc. 75 2022 103445 Alanne, K., Sierla, S., 2022. An overview of machine learning applications for smart buildings. Sustainable Cities and Society 75, 103445. [4] F. Ascione N. Bianco C.D. Stasio G. Mauro G. Vanoli Simulation-based model predictive control by the multi-objective optimization of building energy performance and thermal comfort Energy Build. 111 2016 131 144 Ascione, F., Bianco, N., Stasio, C.D., Mauro, G., Vanoli, G., 2016. Simulation-based model predictive control by the multi-objective optimization of building energy performance and thermal comfort. Energy and Buildings 111, 131\u2013144. [5] S. Chadoulos I. Koutsopoulos G.C. Polyzos One model fits all: individualized household energy demand forecasting with a single deep learning model The Twelfth ACM International Conference on Future Energy Systems (e-Energy '21) June 28\u2013July 2, 2021, Virtual Event, Italy 2021 ACM New York, NY, USA Chadoulos, S., Koutsopoulos, I., Polyzos, G.C., 2021. One model fits all: Individualized household energy demand forecasting with a single deep learning model., in: In: The Twelfth ACM International Conference on Future Energy Systems (e-Energy '21), June 28\u2013July 2, 2021, Virtual Event, Italy., ACM, New York, NY, USA. [6] D. Coraci S. Brandi T. Hong A. Capozzoli Online transfer learning strategy for enhancing the scalability and deployment of deep reinforcement learning control in smart buildings Appl. Energy 333 2023 120598 Coraci, D., Brandi, S., Hong, T., Capozzoli, A., 2023. Online transfer learning strategy for enhancing the scalability and deployment of deep reinforcement learning control in smart buildings. Applied Energy 333, 120598. [7] Z. Deng Q. Chen Reinforcement learning of occupant behavior model for cross-building transfer learning to various hvac control systems Energy Build. 238 2021 110860 Deng, Z., Chen, Q., 2021. Reinforcement learning of occupant behavior model for cross-building transfer learning to various hvac control systems. Energy and Buildings 238, 110860. [8] X. Fang G. Gong G. Li L. Chun P. Peng W. Li X. Shi Cross temporal-spatial transferability investigation of deep reinforcement learning control strategy in the building hvac system level Energy 263 2023 125679 Fang, X., Gong, G., Li, G., Chun, L., Peng, P., Li, W., Shi, X., 2023. Cross temporal-spatial transferability investigation of deep reinforcement learning control strategy in the building hvac system level. Energy 263, 125679. [9] H. Farzaneh L. Malehmirchegini A. Bejan T. Afolabi A. Mulumba P.P. Daka Artificial intelligence evolution in smart buildings for energy efficiency Appl. Sci. 11 2021 763 Farzaneh, H., Malehmirchegini, L., Bejan, A., Afolabi, T., Mulumba, A., Daka, P.P., 2021. Artificial intelligence evolution in smart buildings for energy efficiency. Applied Sciences 11, 763. [10] Q. Fu X. Chen S. Ma N. Fang B. Xing J. Chen Optimal control method of hvac based on multi-agent deep reinforcement learning Energy Build. 270 2022 112284 Fu, Q., Chen, X., Ma, S., Fang, N., Xing, B., Chen, J., 2022. Optimal control method of hvac based on multi-agent deep reinforcement learning. Energy and Buildings 270, 112284. [11] W. Fu Z. Peng S. Wang Y. Xu J. Li Deeply fusing reviews and contents for cold start users in cross-domain recommendation systems Proceedings of the AAAI Conference on Artificial Intelligence 2019 94 101 Fu, W., Peng, Z., Wang, S., Xu, Y., Li, J., 2019. Deeply fusing reviews and contents for cold start users in cross-domain recommendation systems, in: Proceedings of the AAAI Conference on Artificial Intelligence, pp. 94\u2013101. [12] M. Genkin J. McArthur B-smart: a reference architecture for artificially intelligent autonomic smart buildings Eng. Appl. Artif. Intell. 121 2023 106063 Genkin, M., McArthur, J., 2023. B-smart: A reference architecture for artificially intelligent autonomic smart buildings. Engineering Applications of Artificial Intelligence 121, 106063. [13] T. Grubinger G.C. Chasparis T. Natschläger Generalized online transfer learning for climate control in residential buildings Energy Build. 139 2017 63 71 Grubinger, T., Chasparis, G.C., Natschläger, T., 2017. Generalized online transfer learning for climate control in residential buildings. Energy and Buildings 139, 63\u201371. [14] A. Gupta Y. Badr A. Negahban R.G. Qiu Energy-efficient heating control for smart buildings with deep reinforcement learning J. Build. Eng. 34 2021 101739 Gupta, A., Badr, Y., Negahban, A., Qiu, R.G., 2021. Energy-efficient heating control for smart buildings with deep reinforcement learning. Journal of Building Engineering 34, 101739. [15] Y. Himeur A. Alsalemi A. Al-Kababji F. Bensaali A. Amira C. Sardianos G. Dimitrakopoulos I. Varlamis A survey of recommender systems for energy efficiency in buildings: principles, challenges and prospects Inf. Fusion 72 2021 1 21 Himeur, Y., Alsalemi, A., Al-Kababji, A., Bensaali, F., Amira, A., Sardianos, C., Dimitrakopoulos, G., Varlamis, I., 2021a. A survey of recommender systems for energy efficiency in buildings: Principles, challenges and prospects. Information Fusion 72, 1\u201321. [16] Y. Himeur M. Elnour F. Fadli N. Meskin I. Petri Y. Rezgui F. Bensaali A. Amira Next-generation energy systems for sustainable smart cities: roles of transfer learning Sustain. Cities Soc. 2022 104059 Himeur, Y., Elnour, M., Fadli, F., Meskin, N., Petri, I., Rezgui, Y., Bensaali, F., Amira, A., 2022. Next-generation energy systems for sustainable smart cities: Roles of transfer learning. Sustainable Cities and Society, 104059. [17] Y. Himeur K. Ghanem A. Alsalemi F. Bensaali A. Amira Artificial intelligence based anomaly detection of energy consumption in buildings: a review, current trends and new perspectives Appl. Energy 287 2021 116601 Himeur, Y., Ghanem, K., Alsalemi, A., Bensaali, F., Amira, A., 2021b. Artificial intelligence based anomaly detection of energy consumption in buildings: A review, current trends and new perspectives. Applied Energy 287, 116601. [18] L. Hu S. Jian L. Cao Z. Gu Q. Chen A. Amirbekyan Hers: modeling influential contexts with heterogeneous relations for sparse and cold-start recommendation Proceedings of the AAAI Conference on Artificial Intelligence 2019 3830 3837 Hu, L., Jian, S., Cao, L., Gu, Z., Chen, Q., Amirbekyan, A., 2019. Hers: Modeling influential contexts with heterogeneous relations for sparse and cold-start recommendation, in: Proceedings of the AAAI Conference on Artificial Intelligence, pp. 3830\u20133837. [19] Q. Huang Energy-efficient smart building driven by emerging sensing, communication, and machine learning technologies Eng. Lett. 26 2018 Huang, Q., 2018. Energy-efficient smart building driven by emerging sensing, communication, and machine learning technologies. Engineering Letters 26. [20] IPCC Global Warming of 1.5°C: An IPCC Special Report on the Impacts of Global Warming of 1.5°C Above Pre-industrial Levels and Related Global Greenhouse Gas Emission Pathways, in the Context of Strengthening the Global Response to the Threat of Climate Change Intergovernmental Panel on Climate Change, Geneva 2018 IPCC, 2018. Global Warming of 1.5°C: An IPCC Special Report on the Impacts of Global Warming of 1.5°C Above Pre-industrial Levels and Related Global Greenhouse Gas Emission Pathways, in the Context of Strengthening the Global Response to the Threat of Climate Change. Intergovernmental Panel on Climate Change., Geneva. [21] R. Kannan M.S. Roy Ac cooling time prediction using common representation model IEEE Access 8 2020 131534 131544 Kannan, R., Roy, M.S., 2020. Ac cooling time prediction using common representation model. Ieee Access 8, 131534\u2013131544. [22] R. Kannan M.S. Roy S.H. Pathuri Artificial intelligence based air conditioner energy saving using a novel preference map IEEE Access 8 2020 206622 206637 Kannan, R., Roy, M.S., Pathuri, S.H., 2020. Artificial intelligence based air conditioner energy saving using a novel preference map. IEEE Access 8, 206622\u2013206637. [23] R. Kiran P. Kumar B. Bhasker Dnnrec: a novel deep learning based hybrid recommender system Expert Syst. Appl. 144 2020 113054 Kiran, R., Kumar, P., Bhasker, B., 2020. Dnnrec: A novel deep learning based hybrid recommender system. Expert Systems with Applications 144, 113054. [24] A. Kumari S. Tanwar Al-based peak load reduction approach for residential buildings using reinforcement learning 2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS) 2021 IEEE 972 977 Kumari, A., Tanwar, S., 2021. Al-based peak load reduction approach for residential buildings using reinforcement learning, in: 2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS), IEEE. pp. 972\u2013977. [25] G. Li Y. Wu J. Liu X. Fang Z. Wang Performance evaluation of short-term cross-building energy predictions using deep transfer learning strategies Energy Build. 275 2022 112461 Li, G., Wu, Y., Liu, J., Fang, X., Wang, Z., 2022. Performance evaluation of short-term cross-building energy predictions using deep transfer learning strategies. Energy and Buildings 275, 112461. [26] T. Liu Z. Tan C. Xu H. Chen Z. Li Study on deep reinforcement learning techniques for building energy consumption forecasting Energy Build. 208 2020 109675 Liu, T., Tan, Z., Xu, C., Chen, H., Li, Z., 2020. Study on deep reinforcement learning techniques for building energy consumption forecasting. Energy and Buildings 208, 109675. [27] X. Lu Y. Fu Z. O'Neill Benchmarking high performance hvac rule-based controls with advanced intelligent controllers: a case study in a multi-zone system in modelica Energy Build. 284 2023 112854 10.1016/j.enbuild.2023.112854 https://www.sciencedirect.com/science/article/pii/S0378778823000841 Lu, X., Fu, Y., O'Neill, Z., 2023. Benchmarking high performance hvac rule-based controls with advanced intelligent controllers: A case study in a multi-zone system in modelica. Energy and Buildings 284, 112854. URL: https://www.sciencedirect.com/science/article/pii/S0378778823000841, doi: https://doi.org/10.1016/j.enbuild.2023.112854. [28] M.U. Mehmood D. Chun H. Han G. Jeon K. Chen A review of the applications of artificial intelligence and big data to buildings for energy-efficiency and a comfortable indoor living environment Energy Build. 202 2019 109383 Mehmood, M.U., Chun, D., Han, H., Jeon, G., Chen, K., et al., 2019. A review of the applications of artificial intelligence and big data to buildings for energy-efficiency and a comfortable indoor living environment. Energy and Buildings 202, 109383. [29] G.H. Merabet M. Essaaidi M.B. Haddou B. Qolomany J. Qadir M. Anan A. Al-Fuqaha M.R. Abid D. Benhaddou Intelligent building control systems for thermal comfort and energy-efficiency: a systematic review of artificial intelligence-assisted techniques Renew. Sustain. Energy Rev. 144 2021 110969 Merabet, G.H., Essaaidi, M., Haddou, M.B., Qolomany, B., Qadir, J., Anan, M., Al-Fuqaha, A., Abid, M.R., Benhaddou, D., 2021. Intelligent building control systems for thermal comfort and energy-efficiency: A systematic review of artificial intelligence-assisted techniques. Renewable and Sustainable Energy Reviews 144, 110969. [30] D. Minoli K. Sohraby B. Occhiogrosso Iot considerations, requirements, and architectures for smart buildings\u2014energy optimization and next-generation building management systems IEEE Int. Things J. 4 2017 269 283 Minoli, D., Sohraby, K., Occhiogrosso, B., 2017a. Iot considerations, requirements, and architectures for smart buildings\u2014energy optimization and next-generation building management systems. IEEE Internet of Things Journal 4, 269\u2013283. [31] D. Minoli K. Sohraby B. Occhiogrosso Iot considerations, requirements, and architectures for smart buildings\u2014energy optimization and next-generation building management systems IEEE Int. Things J. 4 2017 269 283 Minoli, D., Sohraby, K., Occhiogrosso, B., 2017b. Iot considerations, requirements, and architectures for smart buildings\u2014energy optimization and next-generation building management systems. IEEE Internet of Things Journal 4, 269\u2013283. [32] M.S. Mirnaghi F. Haghighat Fault detection and diagnosis of large-scale hvac systems in buildings using data-driven methods: a comprehensive review Energy Build. 229 2020 110492 Mirnaghi, M.S., Haghighat, F., 2020. Fault detection and diagnosis of large-scale hvac systems in buildings using data-driven methods: A comprehensive review. Energy and Buildings 229, 110492. [33] E. Mocanu P.H. Nguyen W.L. Kling M. Gibescu Unsupervised energy prediction in a smart grid context using reinforcement cross-building transfer learning Energy Build. 116 2016 646 655 Mocanu, E., Nguyen, P.H., Kling, W.L., Gibescu, M., 2016. Unsupervised energy prediction in a smart grid context using reinforcement cross-building transfer learning. Energy and Buildings 116, 646\u2013655. [34] J. Moon J. Kim P. Kang E. Hwang Solving the cold-start problem in short-term load forecasting using tree-based methods Energies 13 2020 886 Moon, J., Kim, J., Kang, P., Hwang, E., 2020. Solving the cold-start problem in short-term load forecasting using tree-based methods. Energies 13, 886. [35] J. Ngarambe G.Y. Yun M. Santamouris The use of artificial intelligence (ai) methods in the prediction of thermal comfort in buildings: energy implications of ai-based thermal comfort controls Energy Build. 211 2020 109807 Ngarambe, J., Yun, G.Y., Santamouris, M., 2020. The use of artificial intelligence (ai) methods in the prediction of thermal comfort in buildings: Energy implications of ai-based thermal comfort controls. Energy and Buildings 211, 109807. [36] K. Nweye S. Sankaranarayanan Z. Nagy Merlin: multi-agent offline and transfer learning for occupant-centric operation of grid-interactive communities Appl. Energy 346 2023 121323 10.1016/j.apenergy.2023.121323 https://www.sciencedirect.com/science/article/pii/S0306261923006876 Nweye, K., Sankaranarayanan, S., Nagy, Z., 2023. Merlin: Multi-agent offline and transfer learning for occupant-centric operation of grid-interactive communities. Applied Energy 346, 121323. URL: https://www.sciencedirect.com/science/article/pii/S0306261923006876, doi: https://doi.org/10.1016/j.apenergy.2023.121323. [37] S. Ojagh M.R. Malek S. Saeedi S. Liang A location-based orientation-aware recommender system using iot smart devices and social networks Future Gener. Comput. Syst. 108 2020 97 118 Ojagh, S., Malek, M.R., Saeedi, S., Liang, S., 2020. A location-based orientation-aware recommender system using iot smart devices and social networks. Future Generation Computer Systems 108, 97\u2013118. [38] T. Peirelinck H. Kazmi B.V. Mbuwir C. Hermans F. Spiessens J. Suykens G. Deconinck Transfer learning in demand response: a review of algorithms for data-efficient modelling and control Energy AI 7 2022 100126 10.1016/j.egyai.2021.100126 https://www.sciencedirect.com/science/article/pii/S2666546821000732 Peirelinck, T., Kazmi, H., Mbuwir, B.V., Hermans, C., Spiessens, F., Suykens, J., Deconinck, G., 2022. Transfer learning in demand response: A review of algorithms for data-efficient modelling and control. Energy and AI 7, 100126. URL: https://www.sciencedirect.com/science/article/pii/S2666546821000732, doi: https://doi.org/10.1016/j.egyai.2021.100126. [39] G. Pinto R. Messina H. Li T. Hong M.S. Piscitelli A. Capozzoli Sharing is caring: an extensive analysis of parameter-based transfer learning for the prediction of building thermal dynamics Energy Build. 276 2022 112530 Pinto, G., Messina, R., Li, H., Hong, T., Piscitelli, M.S., Capozzoli, A., 2022a. Sharing is caring: An extensive analysis of parameter-based transfer learning for the prediction of building thermal dynamics. Energy and Buildings 276, 112530. [40] G. Pinto Z. Wang A. Roy T. Hong A. Capozzoli Transfer learning for smart buildings: a critical review of algorithms, applications, and future perspectives Adv. Appl. Energy 5 2022 100084 10.1016/j.adapen.2022.100084 https://www.sciencedirect.com/science/article/pii/S2666792422000026 Pinto, G., Wang, Z., Roy, A., Hong, T., Capozzoli, A., 2022b. Transfer learning for smart buildings: A critical review of algorithms, applications, and future perspectives. Advances in Applied Energy 5, 100084. URL: https://www.sciencedirect.com/science/article/pii/S2666792422000026, doi: https://doi.org/10.1016/j.adapen.2022.100084. [41] H. Qin Z. Yu T. Li X. Liu L. Li Energy-efficient heating control for nearly zero energy residential buildings with deep reinforcement learning Energy 264 2023 126209 Qin, H., Yu, Z., Li, T., Liu, X., Li, L., 2023. Energy-efficient heating control for nearly zero energy residential buildings with deep reinforcement learning. Energy 264, 126209. [42] B. Qolomany A. Al-Fuquaha A. Gupta D. Benhaddou S. Alwajidi J. Qadir A. Fong Leveraging machine learning and big data for smart buildings: a comprehensive survey IEEE Access 7 2019 90316 90356 Qolomany, B., Al-Fuquaha, A., Gupta, A., Benhaddou, D., Alwajidi, S., Qadir, J., Fong, A., 2019. Leveraging machine learning and big data for smart buildings: A comprehensive survey. IEEE Access 7, 90316 \u2013 90356. [43] M. Ribeiro K. Grolinger H.F. ElYamany W.A. Higashino M.A. Capretz Transfer learning with seasonal and trend adjustment for cross-building energy forecasting Energy Build. 165 2018 352 363 Ribeiro, M., Grolinger, K., ElYamany, H.F., Higashino, W.A., Capretz, M.A., 2018. Transfer learning with seasonal and trend adjustment for cross-building energy forecasting. Energy and Buildings 165, 352\u2013363. [44] D. Salinas V. Flunkert J. Gasthaus T. Januschowski Tdeepar: probabilistic forecasting with autoregressive recurrent networks Int. J. Forecast. 36 2020 1181 1191 Salinas, D., Flunkert, V., Gasthaus, J., Januschowski, T., 2020. Tdeepar: Probabilistic forecasting with autoregressive recurrent networks. International Journal of Forecasting 36, 1181 \u2013 1191. [45] A. Schein A. Popescul L. Ungar D. Pennock Methods and metrics for cold-start recommendations Proceedings of the 25th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval 2002 253 260 Schein, A., Popescul, A., Ungar, L., Pennock, D., 2002. Methods and metrics for cold-start recommendations., in: Proceedings of the 25th annual international ACM SIGIR conference on Research and development in information retrieval., pp. 253\u2013260. [46] W. Serrano Deep reinforcement learning with the random neural network Eng. Appl. Artif. Intell. 110 2022 104751 Serrano, W., 2022. Deep reinforcement learning with the random neural network. Engineering Applications of Artificial Intelligence 110, 104751. [47] M. Stock M. Kandil J. McArthur Vac performance evaluation and optimization algorithms development for large buildings Proceedings of Building Simulation 2021 Bruges 2021 Stock, M., Kandil, M., McArthur, J., 2021. Vac performance evaluation and optimization algorithms development for large buildings., in: Proceedings of Building Simulation 2021, Bruges. [48] J.S.H. Teo K.H. Law V.C.C. Lee Energy management controls for chiller system: a review 2021 International Conference on Green Energy, Computing and Sustainable Technology (GECOST) 2021 IEEE 1 5 Teo, J.S.H., Law, K.H., Lee, V.C.C., 2021. Energy management controls for chiller system: A review, in: 2021 International Conference on Green Energy, Computing and Sustainable Technology (GECOST), IEEE. pp. 1\u20135. [49] J.R. Vázquez-Canteli Z. Nagy Reinforcement learning for demand response: a review of algorithms and modeling techniques Appl. Energy 235 2019 1072 1089 Vázquez-Canteli, J.R., Nagy, Z., 2019. Reinforcement learning for demand response: A review of algorithms and modeling techniques. Applied energy 235, 1072\u20131089. [50] A. Vrsalović T. Perković I. Andrić M. Čuvić P. Šolić Iot deployment for smart building: water consumption analysis 2021 6th International Conference on Smart and Sustainable Technologies (SpliTech) 2021 IEEE 01 05 Vrsalović, A., Perković, T., Andrić, I., Čuvić, M., Šolić, P., 2021. Iot deployment for smart building: Water consumption analysis., in: 2021 6th International Conference on Smart and Sustainable Technologies (SpliTech)., IEEE. pp. 01\u201305. [51] L. Wang G. Zhang X. Yin H. Zhang M. Ghalandari Optimal control of renewable energy in buildings using the machine learning method Sustain. Energy Technol. Assess. 53 2022 102534 Wang, L., Zhang, G., Yin, X., Zhang, H., Ghalandari, M., 2022. Optimal control of renewable energy in buildings using the machine learning method. Sustainable Energy Technologies and Assessments 53, 102534. [52] Z. Wang T. Hong Reinforcement learning for building controls: the opportunities and challenges Appl. Energy 269 2020 115036 Wang, Z., Hong, T., 2020. Reinforcement learning for building controls: The opportunities and challenges. Applied Energy 269, 115036. [53] N. Wanigasekara J. Schmalfuss D. Carlson D.S. Rosenblum A bandit approach for intelligent iot service composition across heterogeneous smart spaces Proceedings of the 6th International Conference on the Internet of Things 2016 121 129 Wanigasekara, N., Schmalfuss, J., Carlson, D., Rosenblum, D.S., 2016. A bandit approach for intelligent iot service composition across heterogeneous smart spaces, in: Proceedings of the 6th International Conference on the Internet of Things, pp. 121\u2013129. [54] J. Wei J. He K. Chen Y. Zhou Z. Tang Collaborative filtering and deep learning based recommendation system for cold start items Expert Syst. Appl. 69 2017 29 39 Wei, J., He, J., Chen, K., Zhou, Y., Tang, Z., 2017. Collaborative filtering and deep learning based recommendation system for cold start items. Expert Systems with Applications 69, 29\u201339. [55] P. Wei S. Xia R. Chen J. Qian C. Li X. Jiang A deep-reinforcement-learning-based recommender system for occupant-driven energy optimization in commercial buildings IEEE Int. Things J. 7 2020 6402 6413 Wei, P., Xia, S., Chen, R., Qian, J., Li, C., Jiang, X., 2020. A deep-reinforcement-learning-based recommender system for occupant-driven energy optimization in commercial buildings. IEEE Internet of Things Journal 7, 6402 \u2013 6413. [56] S. Xu Y. Wang Z. O'Neill Q. Zhu One for many: transfer learning for building hvac control Proceedings of the 7th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation 2020 230 239 Xu, S., Wang, Y., O'Neill, Z., Zhu, Q., 2020. One for many: Transfer learning for building hvac control., in: Proceedings of the 7th ACM international conference on systems for energy-efficient buildings, cities, and transportation., pp. 230\u2013239. [57] L. Yu S. Qin M. Zhang C. Shen T. Jiang X. Guan A review of deep reinforcement learning for smart building energy management IEEE Int. Things J. 8 2021 12046 12063 Yu, L., Qin, S., Zhang, M., Shen, C., Jiang, T., Guan, X., 2021. A review of deep reinforcement learning for smart building energy management. IEEE Internet of Things Journal 8, 12046\u201312063. [58] W. Zhang Y. Wen K. Tseng G. Jin Demystifying thermal comfort in smart buildings: an interpretable machine learning approach IEEE Int. Things J. 8 2020 8021 8031 Zhang, W., Wen, Y., Tseng, K., Jin, G., 2020. Demystifying thermal comfort in smart buildings: An interpretable machine learning approach. IEEE Internet of Things Journal 8, 8021\u20138031. [59] H. Zhao Q. Hua H. Chen Y. Ye H. Wang S. Tan E. Tlelo-Cuautle Thermal-sensor-based occupancy detection for smart buildings using machine-learning methods ACM Trans. Des. Autom. Electron. Syst. 23 2018 1 21 Zhao, H., Hua, Q., Chen, H., Ye, Y., Wang, H., Tan, S., Tlelo-Cuautle, E., 2018. Thermal-sensor-based occupancy detection for smart buildings using machine-learning methods. ACM Transactions on Design Automation of Electronic Systems (TODAES) 23, 1\u201321. [60] Z. Zhu K. Lin A.K. Jain J. Zhou Transfer learning in deep reinforcement learning: a survey arXiv preprint arXiv:2009.07888 2020 Zhu, Z., Lin, K., Jain, A.K., Zhou, J., 2020. Transfer learning in deep reinforcement learning: A survey. arXiv preprint arXiv:2009.07888. [61] Z. Zhu K. Lin A.K. Jain J. Zhou Transfer learning in deep reinforcement learning: a survey IEEE Trans. Pattern Anal. Mach. Intell. 2023 Zhu, Z., Lin, K., Jain, A.K., Zhou, J., 2023. Transfer learning in deep reinforcement learning: A survey. IEEE Transactions on Pattern Analysis and Machine Intelligence.",
+    "scopus-id": "85178384983",
+    "coredata": {
+        "eid": "1-s2.0-S0378778823009908",
+        "dc:description": "Energy optimization leveraging artificially intelligent algorithms has been proven effective. However, when buildings are commissioned, there is no historical data that could be used to train these algorithms. On-line Reinforcement Learning (RL) algorithms have shown significant promise, but their deployment carries a significant risk, because as the RL agent initially explores its action space it could cause significant discomfort to the building residents. In this paper we present ReLBOT \u2013 a new technique that uses transfer learning in conjunction with deep RL to transfer knowledge from an existing, optimized and instrumented building, to the newly commissioning smart building, to reduce the adverse impact of the reinforcement learning agent's warm-up period. We demonstrate improvements of up to 84% (40% average) in the duration, and up to 99% (62% average) in prediction variance, for the reinforcement learning agent's warm-up period. RL agent's prediction accuracy improved by up to 4% (1% average).",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-01-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378778823009908",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Genkin, Mikhail"
+            },
+            {
+                "@_fa": "true",
+                "$": "McArthur, J.J."
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0378778823009908"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0378778823009908"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0378-7788(23)00990-8",
+        "prism:volume": "303",
+        "articleNumber": "113760",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "A transfer learning approach to minimize reinforcement learning risks in energy optimization for automated and smart buildings",
+        "prism:copyright": "© 2023 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Reinforcement learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Transfer learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Big data"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building energy optimization"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "113760",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 January 2024",
+        "prism:doi": "10.1016/j.enbuild.2023.113760",
+        "prism:startingPage": "113760",
+        "dc:identifier": "doi:10.1016/j.enbuild.2023.113760",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "233",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr010.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "13071",
+            "@ref": "gr010",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "233",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr011.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "13536",
+            "@ref": "gr011",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "279",
+            "@width": "394",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr003.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21297",
+            "@ref": "gr003",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "164",
+            "@width": "344",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr004.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "14652",
+            "@ref": "gr004",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "427",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr001.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25705",
+            "@ref": "gr001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "235",
+            "@width": "388",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr012.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "11503",
+            "@ref": "gr012",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "248",
+            "@width": "394",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr002.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23013",
+            "@ref": "gr002",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "222",
+            "@width": "388",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr007.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "19548",
+            "@ref": "gr007",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "196",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr008.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "10948",
+            "@ref": "gr008",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "177",
+            "@width": "350",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr005.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "15051",
+            "@ref": "gr005",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "173",
+            "@width": "249",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr006.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "4878",
+            "@ref": "gr006",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "225",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr009.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16914",
+            "@ref": "gr009",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr010.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2795",
+            "@ref": "gr010",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr011.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2973",
+            "@ref": "gr011",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "155",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr003.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5431",
+            "@ref": "gr003",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "104",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr004.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5157",
+            "@ref": "gr004",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "103",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr001.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6510",
+            "@ref": "gr001",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "133",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr012.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2826",
+            "@ref": "gr012",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "138",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr002.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6108",
+            "@ref": "gr002",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "125",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr007.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7315",
+            "@ref": "gr007",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "110",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr008.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3100",
+            "@ref": "gr008",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "110",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr005.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7730",
+            "@ref": "gr005",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "152",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr006.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5009",
+            "@ref": "gr006",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "127",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr009.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5247",
+            "@ref": "gr009",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "620",
+            "@width": "1033",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr010_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "47879",
+            "@ref": "gr010",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "619",
+            "@width": "1033",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr011_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "47896",
+            "@ref": "gr011",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2468",
+            "@width": "3488",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr003_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "603915",
+            "@ref": "gr003",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1452",
+            "@width": "3045",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr004_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "291499",
+            "@ref": "gr004",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "531",
+            "@width": "1134",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr001_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "111778",
+            "@ref": "gr001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "624",
+            "@width": "1031",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr012_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "41859",
+            "@ref": "gr012",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2197",
+            "@width": "3488",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr002_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "691131",
+            "@ref": "gr002",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "590",
+            "@width": "1031",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr007_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "77893",
+            "@ref": "gr007",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "521",
+            "@width": "1033",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr008_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "38819",
+            "@ref": "gr008",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "469",
+            "@width": "930",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr005_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "51637",
+            "@ref": "gr005",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "461",
+            "@width": "663",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr006_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "17209",
+            "@ref": "gr006",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "597",
+            "@width": "1033",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-gr009_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "61215",
+            "@ref": "gr009",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2235",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5092",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4509",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1855",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2385",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19666",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2284",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2219",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3976",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2938",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3569",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2597",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3217",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2297",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4111",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9979",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2111",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2731",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3982",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2202",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3015",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6631",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2413",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8961",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4907",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5062",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2850",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2591",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4176",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2759",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5390",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2208",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9831",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11331",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14494",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3869",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3894",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6662",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5558",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3055",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5572",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1760",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2171",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3810",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1957",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4532",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4601",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2081",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2138",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5981",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8127",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5287",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823009908-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1763258",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85178384983"
+    }
+}}

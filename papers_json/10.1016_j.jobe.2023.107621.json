@@ -1,0 +1,1262 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85170432485",
+    "originalText": "serial JL 312002 291210 291862 291881 31 Journal of Building Engineering JOURNALBUILDINGENGINEERING 2023-08-20 2023-08-20 2023-09-08 2023-09-08 2024-11-27T15:58:58 1-s2.0-S2352710223018016 S2352-7102(23)01801-6 S2352710223018016 10.1016/j.jobe.2023.107621 S300 S300.1 FULL-TEXT 1-s2.0-S2352710223X0014X 2024-11-27T18:39:30.842478Z 0 0 20231101 2023 2023-08-20T05:03:57.805118Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst nomenclature orcid primabst ref 2352-7102 23527102 true 78 78 C Volume 78 155 107621 107621 107621 20231101 1 November 2023 2023-11-01 2023 article fla © 2023 Published by Elsevier Ltd. EXTENDEDKALMANFILTERBASEDEXTREMUMSEEKINGALGORITHMFORMODELFREECONTROLBUILDINGTHERMALENVIRONMENTUNDERUNCERTAINTY LI Y Nomenclature 1 Introduction 2 Method 2.1 Improved ESC-based control algorithm 2.2.1 Classical ESC 2.2.2 Adaptive ESC (ESCAP) 2.2.3 EKF-ESC 2.2 Case description 2.2.1 Co-simulation platform 2.2.2 Description of the building thermal environment 2.2.3 Control objective 3 Results 3.1 Control performance under uncertainty 3.1.1 Case 1: Performance of the EKF-ESC controller 3.1.2 Case 2: Adaptivity of EKF-ESC to environmental disturbances 3.1.3 Case 3: Robustness of EKF-ESC to measurement noise 3.2 Performance comparison among different controllers 3.3 Practical implementations 4 Conclusion CRediT authorship contribution statement Acknowledgement References CUI 2013 114 122 W LI 2023 106272 W SALOUX 2023 105785 E SHAIKH 2014 409 429 P GOYAL 2015 75 84 S ZHOU 2023 106536 X MARIANOHERNANDEZ 2021 101692 D BIYIK 2019 100826 E YANG 2014 912 923 Y SAIYAD 2021 102397 A LI 2021 102270 X CHEN 2021 101639 Y HAJIHOSSEINLOO 2020 115451 A CHEN 2018 195 205 Y DU 2021 116117 Y ARIYUR 2003 K REALTIMEOPTIMIZATIONBYEXTREMUMSEEKINGCONTROL CIRI 2017 1033 1045 U KEBIR 2019 914 926 A XU 2019 113329 Z HU 2015 361 372 B HU 2016 332 346 B MU 2017 766 781 B DONG 2020 115787 L WANG 2019 612 626 W WANG 2020 115399 W GONG 2023 101867 Y KOELN 2014 14 25 J POVEDA 2021 109361 J SUTTNER 2023 110945 R WEPENER 2023 103033 D STRAUS 2019 78 87 J CUI 2023 121045 C CHAKRABARTY 2021 117335 A CHAKRABARTY 2022 86 96 A YANG 2020 115147 S DRGONA 2018 199 216 J WANG 2016 18 26 L GELBERT 2012 700 709 G 2005 CLIMATEDATAOFFICE KRARTI 2020 110047 M SHINSKEY 1990 114 121 F BELIC 2015 679 686 F HVACCONTROLMETHODSAREVIEW201519THINTERNATIONALCONFERENCESYSTEMTHEORYCONTROLCOMPUTINGICSTCC LIX2023X107621 LIX2023X107621XY 2025-09-08T00:00:00.000Z 2025-09-08T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Published by Elsevier Ltd. 2023-09-14T07:26:47.881Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Fundamental Research Funds for Central University 2023QN1049 Fundamental Research Funds for the Central Universities http://data.elsevier.com/vocabulary/SciValFunders/501100012226 http://sws.geonames.org/1814991/ National Natural Science Foundation of China 52075481 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Natural Science Foundation of Jiangsu Province SBK2023044817 Natural Science Foundation of Jiangsu Province http://data.elsevier.com/vocabulary/SciValFunders/501100004608 http://sws.geonames.org/1814991/ This research was financially supported by the National Natural Science Foundation of China ( 52075481 ), Natural Science Foundation of Jiangsu Province ( SBK2023044817 ), the Fundamental Research Funds for Central University ( 2023QN1049 ). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2352-7102(23)01801-6 S2352710223018016 1-s2.0-S2352710223018016 10.1016/j.jobe.2023.107621 312002 2024-11-27T18:39:30.842478Z 2023-11-01 1-s2.0-S2352710223018016-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/MAIN/application/pdf/36b21c88aa59513c265261d397681eef/main.pdf main.pdf pdf true 6786984 MAIN 13 1-s2.0-S2352710223018016-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/PREVIEW/image/png/684d28c1d55afaad10c6f11a44fc3a97/main_1.png main_1.png png 43309 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2352710223018016-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr9/DOWNSAMPLED/image/jpeg/def1bc18ccdb9ca619eab86850f56221/gr9.jpg gr9 gr9.jpg jpg 160010 287 731 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/fx1/DOWNSAMPLED/image/jpeg/252c7167360677488a529dbf2000e716/fx1.jpg fx1 fx1.jpg jpg 38930 230 389 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr7/DOWNSAMPLED/image/jpeg/e0c8f93dd25c2ca63d6375829dccf986/gr7.jpg gr7 gr7.jpg jpg 142794 323 491 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr8/DOWNSAMPLED/image/jpeg/c94a53b1e19bf412924d2bc4f82de4d7/gr8.jpg gr8 gr8.jpg jpg 151822 360 491 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr5/DOWNSAMPLED/image/jpeg/96b995141b7ed6e1b0e2fca6522a856a/gr5.jpg gr5 gr5.jpg jpg 116718 175 491 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr6/DOWNSAMPLED/image/jpeg/92f02c0252c5b7354efa671c6ca2f35c/gr6.jpg gr6 gr6.jpg jpg 141962 389 491 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr3/DOWNSAMPLED/image/jpeg/8b7e2ed0fb86f0beb7bf54f2e7521ea1/gr3.jpg gr3 gr3.jpg jpg 103825 168 491 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr4/DOWNSAMPLED/image/jpeg/314ee5c233be61d08384e65545aff9b3/gr4.jpg gr4 gr4.jpg jpg 126539 205 491 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr1/DOWNSAMPLED/image/jpeg/b8a97793e7ec3b9b05348be1fbaef762/gr1.jpg gr1 gr1.jpg jpg 111072 179 491 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr10/DOWNSAMPLED/image/jpeg/1340d8ae5a7454a4e4f2e164f66f4366/gr10.jpg gr10 gr10.jpg jpg 105416 154 491 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr2/DOWNSAMPLED/image/jpeg/ecd6d2734127b31a40cfd0a451aeedfe/gr2.jpg gr2 gr2.jpg jpg 97296 189 344 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr11/DOWNSAMPLED/image/jpeg/769fc955e3914896ddbb16eab8a12a7a/gr11.jpg gr11 gr11.jpg jpg 130147 235 491 IMAGE-DOWNSAMPLED 1-s2.0-S2352710223018016-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr9/THUMBNAIL/image/gif/29e9852fde0e251a41f1fc2788152f0f/gr9.sml gr9 gr9.sml sml 76223 86 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/fx1/THUMBNAIL/image/gif/5a5e845c06868ac088f2c8f48a227691/fx1.sml fx1 fx1.sml sml 14600 130 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr7/THUMBNAIL/image/gif/93690121c7ebcd39184a76b84f447b55/gr7.sml gr7 gr7.sml sml 81642 144 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr8/THUMBNAIL/image/gif/eb2a800817272b02c3c8e7121acd0567/gr8.sml gr8 gr8.sml sml 83062 160 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr5/THUMBNAIL/image/gif/774326e093362f42af222c7984696a38/gr5.sml gr5 gr5.sml sml 75003 78 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr6/THUMBNAIL/image/gif/f3f1ab303d7697c6a2d4173c568ebe9c/gr6.sml gr6 gr6.sml sml 78651 164 207 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr3/THUMBNAIL/image/gif/56f75c5d93f8ff8194ff1589ab256d69/gr3.sml gr3 gr3.sml sml 74110 75 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr4/THUMBNAIL/image/gif/fbb7d4591f4daed080ff54eba0210f9b/gr4.sml gr4 gr4.sml sml 78626 92 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr1/THUMBNAIL/image/gif/c02849082d69037be6f9a9d419aa2b3c/gr1.sml gr1 gr1.sml sml 74652 80 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr10/THUMBNAIL/image/gif/c5cd66038d66325999bf53d8fabd5ec7/gr10.sml gr10 gr10.sml sml 74056 69 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr2/THUMBNAIL/image/gif/1fe836fc2154d4228a320744b81f5146/gr2.sml gr2 gr2.sml sml 77434 121 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/gr11/THUMBNAIL/image/gif/d30df82f2810b6e1f7494a947b8e5b12/gr11.sml gr11 gr11.sml sml 78907 105 219 IMAGE-THUMBNAIL 1-s2.0-S2352710223018016-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/21eae361b12e69ff60701c0408b8ea34/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 632508 1270 3238 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/21412e387565076a311ff234be7c0fd0/fx1_lrg.jpg fx1 fx1_lrg.jpg jpg 250019 1022 1725 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/a84853bca6c8904620dc9b5e07ea2a71/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 582293 1430 2174 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/fd6d1245d7f43d73bbc9e105b5302773/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 727149 1592 2174 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/7d4a5053171b82e94ff214d69f8739c4/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 423497 773 2174 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/47fbdb2e42eba406e7b0f3d89179638b/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 675694 1721 2173 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/1b1f40d80cdbf39fe62a4d55ad607cd2/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 309800 745 2174 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/1f3883a87d96b119faed52a9c3d4084a/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 451661 908 2173 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/762e4d1cc0a80e5c0df8379195e1d825/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 333844 793 2174 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/e28647e4c77a6e04fd0d1ad6e53388c1/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 391262 682 2174 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/77160a8c8de2c71f67e45fbc4d013a3d/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 228496 839 1524 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/HIGHRES/image/jpeg/b280ce284f1d626a59571feb679cf960/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 504415 1040 2174 IMAGE-HIGH-RES 1-s2.0-S2352710223018016-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/6a518aaa5d3fdc82bf362bb99822c62f/si40.svg si40 si40.svg svg 13536 ALTIMG 1-s2.0-S2352710223018016-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/5f71f30ce2df4a60e0e285605c615c84/si26.svg si26 si26.svg svg 22195 ALTIMG 1-s2.0-S2352710223018016-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/b07c633ea06c0fb7d0d207103a1b6e2d/si54.svg si54 si54.svg svg 6301 ALTIMG 1-s2.0-S2352710223018016-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/2f38e8c4992b594798b63204025ce19d/si11.svg si11 si11.svg svg 11498 ALTIMG 1-s2.0-S2352710223018016-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/cea026357663c000d3827a63ff729acc/si42.svg si42 si42.svg svg 60832 ALTIMG 1-s2.0-S2352710223018016-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/2ae301ffe92e496306b8bd8e9ebc9e04/si34.svg si34 si34.svg svg 71576 ALTIMG 1-s2.0-S2352710223018016-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/99ef9c7c97155cc345402a587bcaf753/si61.svg si61 si61.svg svg 7246 ALTIMG 1-s2.0-S2352710223018016-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/a22f114c4160542f376ad03202e7be59/si63.svg si63 si63.svg svg 37917 ALTIMG 1-s2.0-S2352710223018016-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/fc8a137a3e53e404f6bed5a3281bb58c/si55.svg si55 si55.svg svg 19605 ALTIMG 1-s2.0-S2352710223018016-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/e745941583576a822fbd142d76714800/si32.svg si32 si32.svg svg 103379 ALTIMG 1-s2.0-S2352710223018016-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/c4827e5b2ded8f74569622d80fa7b5da/si37.svg si37 si37.svg svg 46062 ALTIMG 1-s2.0-S2352710223018016-si73.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/c202fd5418a3908287a6c517b4f1145d/si73.svg si73 si73.svg svg 23845 ALTIMG 1-s2.0-S2352710223018016-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/4faad2f5c0260cf6df088d665383c3bd/si44.svg si44 si44.svg svg 40360 ALTIMG 1-s2.0-S2352710223018016-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/8d74f96ee2bf72615b9177de0299ff29/si56.svg si56 si56.svg svg 12112 ALTIMG 1-s2.0-S2352710223018016-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/c91811f772e4cb33975160ce8a472f3b/si20.svg si20 si20.svg svg 13019 ALTIMG 1-s2.0-S2352710223018016-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/22e0db3200f2341e8e70288dc611914b/si9.svg si9 si9.svg svg 6355 ALTIMG 1-s2.0-S2352710223018016-si67.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/2516cb2765a8cff62a2aef3dc0a82fea/si67.svg si67 si67.svg svg 51474 ALTIMG 1-s2.0-S2352710223018016-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/20079eba25d42aff17d560b4aedc2223/si1.svg si1 si1.svg svg 5306 ALTIMG 1-s2.0-S2352710223018016-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/ec3371780a796609f3ab825aa48d1bce/si15.svg si15 si15.svg svg 12625 ALTIMG 1-s2.0-S2352710223018016-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/cbffba53c7798c1747ed59309d98a7f0/si8.svg si8 si8.svg svg 4283 ALTIMG 1-s2.0-S2352710223018016-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/9511722276fca8ee411cd670ee07bb98/si45.svg si45 si45.svg svg 10639 ALTIMG 1-s2.0-S2352710223018016-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/c0b274d17c7a6da48ab68b3aa35b02c0/si64.svg si64 si64.svg svg 47100 ALTIMG 1-s2.0-S2352710223018016-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/220c42d4e1244f45e7bfa7b10d287046/si3.svg si3 si3.svg svg 5802 ALTIMG 1-s2.0-S2352710223018016-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/7d43cc6f48dc34cae69e7379db7d6478/si28.svg si28 si28.svg svg 72676 ALTIMG 1-s2.0-S2352710223018016-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/2bc6e16d83c1cbe46c6ff3969727fe6d/si13.svg si13 si13.svg svg 6598 ALTIMG 1-s2.0-S2352710223018016-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/e985d4e15508bf999f946febaae8815d/si17.svg si17 si17.svg svg 20822 ALTIMG 1-s2.0-S2352710223018016-si72.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/e78a8ba958cddef927f73d5d99e266d6/si72.svg si72 si72.svg svg 53694 ALTIMG 1-s2.0-S2352710223018016-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/c298be7a98765ef13771773b3b0ad210/si66.svg si66 si66.svg svg 69750 ALTIMG 1-s2.0-S2352710223018016-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/52e11c5edf914173035278f8adad276a/si5.svg si5 si5.svg svg 5476 ALTIMG 1-s2.0-S2352710223018016-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/a4ddb5a213cab1591bac512050f651b1/si25.svg si25 si25.svg svg 38795 ALTIMG 1-s2.0-S2352710223018016-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/1f956d935da038fec3cd9fbf0d8edded/si33.svg si33 si33.svg svg 19476 ALTIMG 1-s2.0-S2352710223018016-si70.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/2a800027f9fa4904ec2bdcadcd5de132/si70.svg si70 si70.svg svg 17580 ALTIMG 1-s2.0-S2352710223018016-si71.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/b995cbc9d391670e63aaacf8a67e395c/si71.svg si71 si71.svg svg 8832 ALTIMG 1-s2.0-S2352710223018016-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/6d7d1160f73704ee7414fb73a5dd9326/si62.svg si62 si62.svg svg 51474 ALTIMG 1-s2.0-S2352710223018016-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/7c100ba2615b611c2a54118280188652/si12.svg si12 si12.svg svg 10659 ALTIMG 1-s2.0-S2352710223018016-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/7c958581a17689f460354b8657770471/si57.svg si57 si57.svg svg 6849 ALTIMG 1-s2.0-S2352710223018016-si68.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/005797e122552b80fc2767582633c101/si68.svg si68 si68.svg svg 52952 ALTIMG 1-s2.0-S2352710223018016-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/eb4b5feb0e286011708087896270098d/si38.svg si38 si38.svg svg 7982 ALTIMG 1-s2.0-S2352710223018016-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/149b2a9694454f882cc34855501286c1/si47.svg si47 si47.svg svg 8960 ALTIMG 1-s2.0-S2352710223018016-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/6432c5b809c77094c61c4b9e15c76195/si27.svg si27 si27.svg svg 15319 ALTIMG 1-s2.0-S2352710223018016-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/89d1ea99b0ce4ab538313b4d5d56524a/si49.svg si49 si49.svg svg 21996 ALTIMG 1-s2.0-S2352710223018016-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/eadeaeac7a02d93cedc1b2f8f7447df2/si24.svg si24 si24.svg svg 51291 ALTIMG 1-s2.0-S2352710223018016-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/750fdf1c347e635cb075ff4938a632f8/si22.svg si22 si22.svg svg 10543 ALTIMG 1-s2.0-S2352710223018016-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/d6d7c2752c90a6e2db3a1349c4a28581/si21.svg si21 si21.svg svg 13609 ALTIMG 1-s2.0-S2352710223018016-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/6427f267c74b3e610e5fa215a6fe4764/si10.svg si10 si10.svg svg 4350 ALTIMG 1-s2.0-S2352710223018016-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/ab90d5ec354ae14ddd9f7644cb52953e/si52.svg si52 si52.svg svg 63928 ALTIMG 1-s2.0-S2352710223018016-si74.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/bf33a2f54c09cae592ea88c218d2bd8f/si74.svg si74 si74.svg svg 28025 ALTIMG 1-s2.0-S2352710223018016-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/b92fc8809394c9eec92e32643126ac3b/si19.svg si19 si19.svg svg 30480 ALTIMG 1-s2.0-S2352710223018016-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/1b1297a46aab02abcd0c4748305e4e62/si35.svg si35 si35.svg svg 7767 ALTIMG 1-s2.0-S2352710223018016-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/b5692b784f04f501e6165e61d19cfe84/si36.svg si36 si36.svg svg 14960 ALTIMG 1-s2.0-S2352710223018016-si75.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/163ea5f7458aa7f57a35ac41a5dacd8e/si75.svg si75 si75.svg svg 54720 ALTIMG 1-s2.0-S2352710223018016-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/a0e5b1ba7a95cf62dc1bf21bc0f52e31/si51.svg si51 si51.svg svg 54967 ALTIMG 1-s2.0-S2352710223018016-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/de3642d875bb5844cc6cdd4da1006bc8/si58.svg si58 si58.svg svg 8068 ALTIMG 1-s2.0-S2352710223018016-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/a0cececfa1ae0cb7c691843517dd9b2d/si16.svg si16 si16.svg svg 9968 ALTIMG 1-s2.0-S2352710223018016-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/44a2da72f6fa086440a130d2ef16f1ad/si14.svg si14 si14.svg svg 10809 ALTIMG 1-s2.0-S2352710223018016-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/e4106b85dca798c8f60844d2ce3cca00/si4.svg si4 si4.svg svg 6091 ALTIMG 1-s2.0-S2352710223018016-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/9ee9e0c67f63dfa3db020c33e480e298/si41.svg si41 si41.svg svg 12224 ALTIMG 1-s2.0-S2352710223018016-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/f52be8398590319f8fcf9983fc24f254/si18.svg si18 si18.svg svg 25961 ALTIMG 1-s2.0-S2352710223018016-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/60eff7a90cf412f04f270435621c0346/si59.svg si59 si59.svg svg 9160 ALTIMG 1-s2.0-S2352710223018016-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/79e36962ddbd3fdf14b37afa11ee0552/si60.svg si60 si60.svg svg 26782 ALTIMG 1-s2.0-S2352710223018016-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/5511b9549661359b17846ca09ed203f2/si39.svg si39 si39.svg svg 16567 ALTIMG 1-s2.0-S2352710223018016-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/5366ac7647d1540c10e6ca1d4ee729ba/si29.svg si29 si29.svg svg 10687 ALTIMG 1-s2.0-S2352710223018016-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/fe5be20729801f07d7dea2c3695b65d4/si30.svg si30 si30.svg svg 10264 ALTIMG 1-s2.0-S2352710223018016-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/4ccca7b343a8fb3a933721bc6ecc8fae/si48.svg si48 si48.svg svg 29768 ALTIMG 1-s2.0-S2352710223018016-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/b2ada2513ea645bc8f9402425f059c7e/si23.svg si23 si23.svg svg 24973 ALTIMG 1-s2.0-S2352710223018016-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/c3dc2e0304643cad88c2963a4a64179f/si65.svg si65 si65.svg svg 64878 ALTIMG 1-s2.0-S2352710223018016-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/511f7338771848f9833514e85d6967b5/si69.svg si69 si69.svg svg 3837 ALTIMG 1-s2.0-S2352710223018016-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/d61119fb28cbc5374d868413d66d2f66/si43.svg si43 si43.svg svg 18130 ALTIMG 1-s2.0-S2352710223018016-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/ef35a01448e16dba35c26534af7f09c6/si46.svg si46 si46.svg svg 20492 ALTIMG 1-s2.0-S2352710223018016-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/60c4c58e4b2db77dbb810dd1f30c86c2/si2.svg si2 si2.svg svg 4792 ALTIMG 1-s2.0-S2352710223018016-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/62e0e71db4b5fb56468a9227e69659de/si50.svg si50 si50.svg svg 8804 ALTIMG 1-s2.0-S2352710223018016-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/28cc43eb11cd87e8c40123a6eed56e3c/si6.svg si6 si6.svg svg 7186 ALTIMG 1-s2.0-S2352710223018016-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/2ef31a25fdfac3e57f52c206c046f087/si7.svg si7 si7.svg svg 7018 ALTIMG 1-s2.0-S2352710223018016-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710223018016/image/svg+xml/b5a77e8b36ce94589ac344ee404846cc/si53.svg si53 si53.svg svg 8318 ALTIMG 1-s2.0-S2352710223018016-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:107L7TFH79S/MAIN/application/pdf/f2f92b06dc905776161a56acb73ddf4c/am.pdf am am.pdf pdf false 1333963 AAM-PDF JOBE 107621 107621 S2352-7102(23)01801-6 10.1016/j.jobe.2023.107621 Fig. 1 Diagram of classical ESC controller. Fig. 1 Fig. 2 Diagram of ESCAP controller. Fig. 2 Fig. 3 Diagram of the EKF-ESC controller. Fig. 3 Fig. 4 Research framework. Fig. 4 Fig. 5 (a) Outdoor weather conditions and schedule of occupancy and electrical equipment. (b) Static map of indoor temperature. Fig. 5 Fig. 6 Control performance of EKF-ESC. (a) Indoor temperature. (b) Supply air temperature. (c) Evaluation of control accuracy. Fig. 6 Fig. 7 (a) Outdoor temperature variations and schedule of occupancy and electrical equipment. (b) Static map of indoor temperature. (c) Indoor temperature variations with supply air temperature of 18 °C. Fig. 7 Fig. 8 Control performance of EKF-ESC, ESCAP, and classical ESC under conditions with the presence of environmental disturbances. (a) Indoor temperature. (b) Supply air temperature. (c) Evaluation of control accuracy. Fig. 8 Fig. 9 Error distribution for (a) EKF-ESC, (b) ESCAP, (c) Classical ESC ( e = T i n d o o r − T s e t p o i n t ). Fig. 9 Fig. 10 The robustness of the EKF-ESC controller to measurement noise. (a) Control output trajectories. (b) Daily percentage of discomfort time under EKF-ESC, ESCAP, and classical ESC schemes. Fig. 10 Fig. 11 Performance comparison among different control algorithms under condition (a) with sensor noise, and (b) without sensor noise. Fig. 11 Table 1 Indoor temperature setpoints in a daily cycle. Table 1 Time period 0:00\u20138:00 8:00\u201317:00 17:00\u201324:00 Tsetpoint (°C) 27 24 27 Table 2 Description of the case study. Table 2 Case study Indoor thermodynamics Control objective Case 1 T i n = f w t ( T S A ) J = − ( T s e t p o i n t − T i n ) 2 Case 2 T i n = f w t , o c , e e p ( T S A ) Case 3 T i n = f w t , o c , e e p , n o i s ( T S A ) Table 3 Demonstration of the convergence time of different controllers. Table 3 Control algorithm EKF-ESC ESCAP ESC Yang et al. a [35] -MPC Drgoňa et al. a [36] -MPC Convergence time 78 min 174 min 343 min 96 min 138 min a The HVAC control in Ref. [35] was conducted in an office in the campus of Nanyang Technological University in Singapore with a 5-min control interval. The HVAC control in Ref. [36] was conducted in an existing 6-rooms terraced house in Bruges, Belgium, with a 15-min control interval. Extended Kalman filter based extremum seeking algorithm for model-free control of building thermal environment under uncertainty Yue Li a Zheming Tong b c ∗ a School of Mechatronic Engineering, China University of Mining and Technology, Xuzhou, 221116, China School of Mechatronic Engineering China University of Mining and Technology Xuzhou 221116 China School of Mechatronic Engineering, China University of Mining and Technology, Xuzhou, 221116, China b State Key Laboratory of Fluid Power and Mechatronic Systems, Zhejiang University, Hangzhou, 310027, China State Key Laboratory of Fluid Power and Mechatronic Systems Zhejiang University Hangzhou 310027 China State Key Laboratory of Fluid Power and Mechatronic Systems, Zhejiang University, Hangzhou, 310027, China c School of Mechanical Engineering, Zhejiang University, Hangzhou, 310027, China School of Mechanical Engineering Zhejiang University Hangzhou 310027 China School of Mechanical Engineering, Zhejiang University, Hangzhou, 310027, China ∗ Corresponding author. State Key Laboratory of Fluid Power and Mechatronic Systems, Zhejiang University, Hangzhou, 310027, China. State Key Laboratory of Fluid Power and Mechatronic Systems Zhejiang University Hangzhou 310027 China Online optimization of building thermal environment is no trivial task due to the complex and uncertain indoor thermodynamics. In this study, an extended Kalman filter-based extremum seeking control (EKF-ESC) strategy for model-free control of thermal environment under uncertainty is proposed. The EKF-ESC uses extended Kalman filter for estimating gradient of the objective function of the extremum seeking controller, which enables real-time optimization of thermal environment with fast convergence time. In addition, a co-simulation platform is developed by combining EnergyPlus and Simulink/Matlab for validating effectiveness of the EKF-ESC strategy for controlling thermal environment. Our study demonstrates that the EKF-ESC strategy has good adaptivity to uncertainties resulting from changes in weather, electrical equipment and occupancy. Moreover, it is shown that the EKF-ESC is robust to measurement noise. In addition, comparison of convergence performance among EKF-ESC, adaptive ESC, and classical ESC is conducted. It is shown that the EKF-ESC based control strategy has the fastest convergence time towards indoor temperature setpoints. Compared with the classical ESC and adaptive ESC schemes, about 77% and 55% reduction of the convergence time are realized through EKF-ESC. According to the research results, it could be inferred that EKF-ESC strategy has the potential for effective building thermal management under uncertainty with fast convergence time. Keywords Thermal environment Control strategy Online optimization Extremum seeking control Data availability Data will be made available on request. Nomenclature Abbreviation HVAC Heating, ventilation, and air conditioning system ESC Extremum seeking control EKF Extended Kalman filter FMU Functional Mock-up Unit FMI Functional Mock-up Interface HP High-pass filter LP Low-pass filter CSWD Chinese Standard Weather Data ADAM Adaptive moment estimation PI-ESC Proportional-integral ESC MPC Model predictive control LQR Linear quadratic regulator Symbols a Dither amplitude ω Perturbation frequency u Control input d Dither signal f System dynamics k Controller gain T Temperature (°C) J Objective function y Control output r Constant coefficient Subscripts S A Supply air w t Weather o c Occupancy e e p Electrical equipment n o i Noise i n Indoor 1 Introduction Building thermal environment plays an important role in affecting thermal comfort, health, and working efficiency of indoor occupants [1]. In particular, heating, ventilation, and air conditioning systems (HVAC) are the key component for building thermal management [2,3]. At present, the HVAC control strategies can roughly be categorized as rule-based, model-based, and model-free control strategies [4]. Rule-based controllers are widely used in practice due to their low demand for computational capacity [5,6]. However, it is difficult for the rule-based control strategies to determine the optimal control rules for real-time optimization of indoor thermal environment. On the other hand, model-based strategies are able to realize optimal control via advanced schemes, such as model predictive control (MPC) [7,8] and linear quadratic regulator (LQR) [9]. However, it is difficult to construct a precise model for describing building thermodynamics due to measurement limitations [10] and the time-varying building operation conditions. Moreover, accuracy of the building models might decrease due to the unpredicted system uncertainties [11,12], such as weather changes, indoor activities, and building renovation, which pose challenges for the model-based control strategies in real applications. Different from rule-based control and model-based control, model-free control strategies are capable of realizing optimal control in an adaptive and model-free manner without dependence on prior knowledge related to the thermal environment [13\u201315]. In particular, extremum seeking control (ESC) is a significant model-free strategy that performs real-time optimization by injecting a sinusoidal perturbation to the input signal to estimate the gradient of the objective function [16]. In the past decade, the ESC algorithm has been applied for a wide range of complex systems to deal with real-time optimization problems such as wind power optimization [17], power optimization in microbial fuel cell [18] and thermal efficiency optimization in spark-ignition engines [19], etc. Recently, there have been some pioneering works focusing on utilizing ESC for optimal control of HVAC components, such as heat pump [20,21], chilled water plant [22], and refrigerant flow system [23]. For example, Wang et al. optimized the performance of a two-stage air source heat pump water heater by using ESC to control the total power consumption [24]. Mu et al. investigated the effectiveness of multivariable ESC to simultaneously control tower airflow and condenser water flow of parallel chillers [22]. Wang et al. used the ESC scheme to maximize the coefficient of performance (COP) of a cascade air source heat pump under fixed and realistic ambient temperature profiles [25]. Gong et al. applied the ESC scheme for minimizing power consumption of a vapor injection high-temperature heat pump system [26]. Koeln et al. implemented ESC-based control strategy to achieve optimal subcooling of a vapor compression system [27]. These previous studies demonstrate that the classical ESC scheme can optimize the performance of HVAC components efficiently in a model-free manner. However, despite the model-free advantage, the time scale separation in classical ESC scheme significantly limits ESC performance in terms of convergence speed [28,29]. The slow convergence of classical ESC may lead to sub-optimal control and may result in low control precision. To overcome this limitation, improved ESC scheme has been developed recently to improve the performance of ESC-based controller in terms of convergence speed [30,31]. At present, there have been a few studies investigating the performance of the improved ESC scheme for operation optimization of the HVAC components such as heat pump. For example, Cui et al. developed a phasor ESC controller to optimize the discharge pressure and medium pressure of an integrated subcooling transcritical heat pump water heater, and demonstrated higher optimization efficiency of the phasor ESC controller compared with the classical ESC [32]. Chakrabarty et al. accelerated the convergence speed of ESC scheme using Bayesian Optimization and adaptive moment-based optimization method, and applied the proposed ESC scheme for optimizing energy efficiency of heat pump [33]. In addition, Chakrabarty et al. combined proportional-integral ESC (PI-ESC) with a failure-robust Bayesian optimization algorithm to increase convergence speed and to avoid closed-loop instability, and applied the proposed ESC-based control strategy for energy optimization of a heat pump [34]. Even though convergence time is a significant performance criterion that determines the effectiveness of building thermal management, few studies reported the convergence-related property of ESC-based HVAC controller for optimizing building thermal environment. There have been only a few studies reported the convergence-related property of MPC based controller for building thermal management. For example, in the research by Yang et al. [35], it is reported that the convergence time was about 90 min for the MPC-based HVAC control conducted in an office in the campus of Nanyang Technological University in Singapore with a 5-min control interval. In the study by Drgoňa et al. [36], it is demonstrated that the convergence time of MPC-based HVAC control was about 100 min with a 15-min control interval in an existing 6-rooms terraced house in Bruges, Belgium. It is necessary to develop improved ESC scheme and to investigate the convergence-related property of the ESC-based scheme for online optimization of building thermal environment. According to the previous studies, there are mainly three research gaps that remain to be filled. Firstly, considering the model-free advantage of the ESC controller, it has the potential to be applied for real-time control of the complex building thermal environment. However, most studies investigated ESC performance for controlling HVAC components, few studies applied ESC-based control strategy for model-free control of thermal environment with complex indoor thermodynamics. Secondly, in order to ensure efficient thermal management in buildings, fast convergence speed of the ESC-based controller is required to promote accurate indoor thermal environment control. It is necessary to develop an improved ESC scheme improve the convergence speed of the controller and to investigate its performance for online optimization of building thermal environment. Thirdly, the unpredicted uncertainties resulting from time-varying weather conditions, occupancy rate, and measurement noise, etc., pose significant challenge to the performance of building thermal environment control. It is of great importance to investigate the robustness of the HVAC controller for building thermal management under uncertainty. In this study, an extended Kalman filter-based ESC controller (EKF-ESC) is developed for controlling indoor thermal environment to handle the uncertainties and to improve the convergence speed. The main contributions of this work are: 1) Fast convergence is realized through EKF-ESC by using the extended Kalman filter to estimate the gradient of the cost function. 2) The adaptivity of the EKF-ESC controller are evaluated under uncertain conditions with various weather conditions, electrical equipment and occupancy. In addition, the robustness of EKF-ESC is evaluated under different noise levels to investigate the application potential of the EKF-ESC controller. 3) A co-simulation platform combining EnergyPlus and Simulink/Matlab is developed for validation of EKF-ESC strategy, where the building system is simulated through EnergyPlus and the control scheme is realized based on Simulink/Matlab. 4) Performance comparison among EKF-ESC, classical ESC, and adaptive ESC (ESCAP) is conducted. 2 Method 2.1 Improved ESC-based control algorithm 2.2.1 Classical ESC The classical ESC algorithm aims to seek out the optimal control input u* to generate the minimum output y* for the system ( y = f ( u ) ) with unknown dynamics f through gradient-based optimization [16]. To obtain the gradient of system dynamics ( f \u2032 = d y d u ), a sinusoidal perturbation asin ( ω t ) is added into the control input ( u 0 ) as shown in Fig. 1 , leading to a sinusoidal output y ( t ) oscillating around the initial value y 0 ( y 0 = f ( u 0 ) ), as shown in Eq. (1). (1) y ( t ) = y 0 + f \u2032 ∙ asin \u2061 ( ω t ) The output y ( t ) is then passed through a high-pass filter (HP) to remove the low-frequency part while preserving the high-frequency part f \u2032 ∙ asin \u2061 ( ω t ) . Eq. (2) demonstrates the output y H ( t ) through a first-order high-pass filter G H . (2) y H ( t ) ≈ | G H | ∙ f \u2032 ∙ a ∙ sin \u2061 ( ω t + φ H ) where | G H | and φ H are the amplitude and phase of the high-pass filter G H . The output y H ( t ) is then multiplied by the high-frequency perturbation asin \u2061 ( ω t ) to generate the demodulated signal, as shown in Eq. (3). (3) y d ( t ) = y H ( t ) ∙ a ∙ sin ( ω t ) = f \u2032 | G H | a 2 2 [ cos ( φ H ) − cos ( 2 ω t + φ H ) ] To reduce the influence of the high-frequency component in Eq. (3), a low-pass filter (LP) GL is used and y L ( t ) is obtained, as shown in Eq. (4). (4) y L ( t ) = | G H | f \u2032 a 2 2 cos ( φ H ) As shown in Eq. (4), the output y L ( t ) is proportional to the gradient of the system f \u2032 . The value of y L ( t ) would decrease gradually as the system output converges to its optimal value. Then, the signal y L ( t ) is integrated to obtain the term Δ u ( t ) , which is a significant component in the control input u, as shown in Eq. (5). (5) u ( t ) = Δ u ( t ) + u 0 + a ∙ sin ω t There are three major time scales in the classical ESC framework that influence the operation efficiency of the classical ESC scheme, i.e., system dynamics, perturbation frequency ( ω ) and corner frequency of HP ( ω H ) . To ensure efficient operation of classical ESC algorithm, the perturbation frequency ω must be faster than the HP corner frequency ω H , but slower than the system dynamics. The time scale separation in classical ESC scheme significantly limits convergence speed of classical ESC method [18]. 2.2.2 Adaptive ESC (ESCAP) The ESCAP framework was firstly proposed by Wang et al., in 2016 [37], aiming at realizing a fast ESC control by automatically adjusting the perturbation amplitude. As shown in Fig. 2 , similar to classical ESC, ESCAP uses a combination of high- and low- pass filters to estimate the gradient of the cost function. The major difference between classical ESC and ESCAP is that the ESCAP adjusts the amplitude of the sinusoidal excitation signal adaptively to improve the performance of ESC (Fig. 2). To be specific, amplitude of the sinusoidal perturbation signal is dynamically adjusted according to the value of y L as shown in Eq. (6). (6) u ( t ) = Δ u ( t ) + u 0 + r y L ∙ sin ω t Where r is a positive constant and significantly influences the convergence speed. As shown in Eq. (6), the amplitude of the perturbation signal decreases with the decrease of y L P . Perturbation signal of large amplitude would be injected into the control input to accelerate the convergence speed when the control output is far away from the optimal value. On the other hand, the perturbation amplitude would converge to zero when the system output converges towards the optimum. According to the study by Wang et al., the ESCAP outperforms the classical ESC with faster convergence speed and has the advantage to avoid falling to local optimum during the online optimization process [37]. 2.2.3 EKF-ESC Classical ESC scheme uses a combination of high- and low- pass filters to estimate the gradient of the cost function. It should be noted that the perturbation frequency ω must be faster than the corner frequency of the HP but slower than the system dynamics in classical ESC algorithm, thus the convergence performance of the controller strongly depends on the dynamics of the controlled system. Different from the classical ESC scheme that uses a combination of high- and low- pass filters to estimate the gradient of the cost function, the EKF-ESC scheme uses an extended Kalman filter (EKF) instead [38]. EKF is an effective method for estimating unknown parameters [38] and the EKF-based gradient estimation in EKF-ESC scheme does not rely on the system dynamics, which provides an effective solution to overcome the time-scale separation problem in classical ESC scheme. Thus, the EKF-ESC scheme has faster convergence speed compared with the classical ESC controller. The diagram of the EKF-ESC scheme is shown in Fig. 3 . The estimated control output y ( t ) is obtained based on Eq. (7), which is then applied for establishing the state-space model for EKF. (7) y ( t ) = y 0 + f \u2032 ( u q ) u ( t ) where u q is quasi-steady component of control input. y 0 are the initial value of system output. f \u2032 is the slope of the unknown system. The unknown parameters f \u2032 ( u q ) and y 0 in Eq. (7) are defined as the states of the Kalman filter X that would be estimated and calculated based on the EKF method (i.e., x 1 = f \u2032 ( u q ) and x 2 = y 0 ). In this study, the major task of the EKF focuses on calculating the gradient information, i.e., x 1 . The observation and state-space equations are shown in Eqs. (8) and (9), respectively. (8) X ( t + 1 ) = ( x 1 ( t + 1 ) x 2 ( t + 1 ) ) = [ 1 0 0 1 ] X ( t ) + Q t (9) Y ( t ) = ( y ( t ) y ( t − n ) ) = ( u ( t ) 1 u ( t − n ) 1 ) X ( t ) + R t Where R and Q are the covariance matrix representing Gaussian white noise for state and observation equations. y ( t − n ) refers to the system output at previous n Δ t step, where Δ t is the sampling time. [ 1 0 0 1 ] represent the measurement matrix H . ( u ( t ) 1 u ( t − n ) 1 ) represent the state transition matrix F . The estimated x 1 (i.e., gradient of the static map, x 1 = f \u2032 ( u q ) ) could be calculated based on Eqs. (8) and (9) using EKF method, and then would be sent to the integrator to be added in the control input u based on Eq. (5). Pseudocode for the EKF-ESC algorithm is demonstrated in Algorithm 1. Algorithm 1 EKF-ESC scheme Image 1 2.2 Case description 2.2.1 Co-simulation platform A co-simulation platform is established by combining EnergyPlus and Simulink/Matlab, where the building system is simulated through EnergyPlus and the control scheme is realized based on Simulink/Matlab. The building simulation program is exported as a Functional Mock-up Unit (FMU) using the Functional Mock-up Interface (FMI) standard. Then the FMU is be imported into Simulink/Matlab to construct the co-simulation platform (Fig. 4 ). The co-simulation platform in this study is used to validate the effectiveness of EKF-ESC scheme. To be specific, the Matlab/Simulink is used as the controller that is responsible for seeking out the optimal HVAC supply air temperature, while the EnergyPlus simulates indoor thermal environment and is used as the virtual sensor that provides control feedback for HVAC control. Data exchange between EnergyPlus and Matlab/Simulink is implemented at a 1-min time interval. 2.2.2 Description of the building thermal environment A five-room building model is created in EnergyPlus to simulate indoor temperature variations in various test cases. The weather data of Shanghai, a Chinese City located in Hot Summer/Cold Winter (HSCW) climate zone, is used for building simulation in this study. The weather data is the hourly Chinese Standard Weather Data (CSWD) developed by China Meteorological Bureau and Tsinghua University [39]. In addition, an east-facing room is selected to be used for investigating the effectiveness of the EKF-ESC scheme to include the thermal effect from both internal and external wall exposure. The outdoor weather conditions affect the indoor temperature directly through external wall exposure and indirectly through the internal wall exposure from the other rooms. In addition, indoor heat gains in the room mainly consist of heat gains from occupants and electrical equipment, which are operated according to the building schedule. 2.2.3 Control objective The HVAC control scheme runs on a 5-min time step. In this study, the control objective is to track the indoor temperature setpoints (T setpoint ) by adjusting the supply air temperature (T SA ), as shown in Eq. (10). (10) J = − ( T s e t p o i n t − T i n ) 2 The temperature setpoint T s e t p o i n t is set according to Ref. [40] as shown in Table 1 . In order to demonstrate the application potential of the proposed EKF-ESC controller, the indoor thermal environment is simulated and controlled under different conditions, as shown in Table 2 . To be specific, Case 1 describes EKF-ESC performance during a daily cycle to evaluate its control performance under a relatively stable environmental condition, where the uncertainties mainly arising from weather changes ( T i n = f w t ( T S A ) ). Case 2 focuses on investigating the adaptivity of the EKF-ESC scheme under the condition with presence of time-varying environmental disturbances from weather, occupancy and electrical equipment ( T i n = f w t , o c , e e p ( T S A ) ). In addition, Case 3 investigates robustness of the EKF-ESC under different noise levels ( T i n = f w t , o c , e e p , n o i s ( T S A ) ), since robustness to measurement noise is one of the greatest concerns in controller design. In addition, the control accuracy is evaluated in terms of cumulative regret, which represents the cumulative deviation of control output from the control target during the control period, as shown in Eq. (11). (11) C R ( τ ) = ∑ t = 1 τ ( | r o p t − r t | ) where τ represents the time duration of the control period. r o p t and r t represent temperature setpoint and the indoor temperature, respectively. 3 Results 3.1 Control performance under uncertainty 3.1.1 Case 1: Performance of the EKF-ESC controller In this section, EKF-ESC is applied for real-time control of indoor thermal environment in the co-simulation platform based on EnergyPlus and Simulink/Matlab. The control performance is evaluated under a relatively stable environmental condition, where the indoor heat gains from occupancy and electrical equipment remain unchanged (Fig. 5 ). As shown in Eq. (10), the aim of the EKF-ESC controller is to seek out the supply air temperature online to track the indoor temperature setpoints according to Table 1. The outdoor temperature is shown in Fig. 5a. In addition, the static map of indoor temperature is established as a function of time and HVAC supply air temperature (Fig. 5b), based on which the optimal value of HVAC supply air temperature during the daily cycle is calculated. Performance comparison among classical ESC, ESCAP, and EKF-ESC is demonstrated in Fig. 6 . As shown in Fig. 6, the classical ESC is observed to have the slowest convergence speed among the three ESC-based control strategies. About 5.2 h is required to reach the indoor temperature setpoint for classical ESC. This is because the convergence speed is limited by the indoor thermodynamics due to the time-scale separation problem in classical ESC. In addition, the slow convergence speed of classical ESC would induce long tracking time towards the optimum and lead to a lack of control precision as a result. Thus, it could be concluded that it is difficult to apply the classical ESC for effective control of building thermal environment in real applications. In Fig. 6, it could be observed that the ESCAP controller performs better than the classical ESC and it takes about 2.5 h for ESCAP to seek out the optimal indoor temperature setpoint. It should be noted that a significant difference between ESCAP and the classical ESC controller is that the perturbation amplitude of control input in ESCAP varies adaptively as shown in Fig. 6b. In ESCAP, the perturbation amplitude of control input decreases gradually according to control feedback and would finally converge to almost zero when the indoor temperature converges to the indoor temperature setpoint. The EKF-ESC controller operates by using the EKF for gradient estimation instead of the combination of high- and low- pass filters in classical ESC and ESCAP frameworks. It turns out that the EKF-ESC is capable of providing fastest gradient estimation compared with the classical ESC and ESCAP as shown in Fig. 6. According to Fig. 6, it takes less than 1 h for EKF-ESC to converge to the steady state. In addition, according to Fig. 6c, EKF-ESC is observed to have the highest control accuracy, and outperforms the other controllers (i.e., ESC and ESCAP) significantly over time. Therefore, it can be concluded that the EKF-ESC algorithm can provide effective HVAC control with improved convergence speed. 3.1.2 Case 2: Adaptivity of EKF-ESC to environmental disturbances In real applications, building thermal management is usually challenged by disturbances associated with the changes in weather conditions, electrical equipment, and occupant behavior. It is important to evaluate the adaptivity of the EKF-ESC controllers with presence of time-varying environmental disturbances. Weather conditions and the schedule of occupancy and electrical equipment are demonstrated in Fig. 7 a, and the static map of indoor temperature is established as a function of time and HVAC supply air temperature in Fig. 7b. To further describe the building thermodynamics under the effect of electrical equipment and occupancy, Fig. 7c demonstrates indoor temperature variation with fixed HVAC supply air temperature. It could be observed that the temperature in noontime during each day decreases due to the reduced indoor heat gains resulting from occupancy variations. In addition, it could also be observed that despite the high outdoor temperature of over 30 °C on Day 5 and Day 6, the indoor temperature on Day 5 and Day 6 is lower than most the other days under the same HVAC condition due to the effect of uncertainties causing by electrical equipment. This indicates that the disturbances, associated with weather conditions, electronic equipment and occupant behavior, have significant effects on indoor temperature. It is necessary to develop an adaptive control strategy that is able to handle the uncertainties in indoor environment and to ensure indoor thermal comfort. The control performance of EKF-ESC is demonstrated in Fig. 8 . It could be observed that the EKF-ESC has the capacity to adjust the HVAC temperature adaptively according to the building conditions to track the indoor temperature setpoints. For example, the supply air temperature is adjusted to approximately 21 °C and 19.5 °C on Day 0 and Day 3 respectively according to building conditions to track the target indoor temperature setpoint of 24 °C in daytime. As for classical ESC, Fig. 8 demonstrates that it performs better on Day 5 and Day 6 compared with the other test days in terms of convergence time. To be specific, the average convergence time for classical ESC is approximately 320 min on Day 5\u20136 and 350 min on the other days, respectively. This is because of the relatively stable building thermal environment without environmental disturbances causing by electrical equipment on Day 5\u20136, which reduces the difficulty to seek out the optimal operating point for classical ESC controller. Moreover, it should be noted that even though there is some improvement of convergence performance of ESCAP over the classical ESC, the low contorl accuracy limits the application of ESCAP in real applications. It could be concluded that it is difficult for ESC and ESCAP controller to handle the uncertainties in thermal environment. Fig. 8c shows that EKF-ESC has the highest control accuracy compared with the other controllers. Moreover, the control error distributions are demonstrated in Fig. 9 . The control errors for EKF-ESC, ESCAP, and EKF-ESC follow Gaussian distribution with the mean value of zero. It could be observed that the control error is smaller than 0.5 °C in most conditions for EKF-ESC, while the classical ESC controller suffers from low control accuracy with an obvious larger variance as shown in Fig. 9. The convergence time of the EKF-ESC, ESCAP, and classical ESC is summarized in Table 3 . EKF-ESC shows fastest convergence speed. It takes about 70 min for EKF-ESC to reach the convergence value, and about 77% and 55% reduction of the convergence time could be realized compared to the classical ESC and ESCAP controller. Moreover, the convergence time of about 70 min for EKF-ESC in this case with environmental disturbances is slightly higher than the convergence time of about 60 min under relatively stable environmental conditions in Case 1. The environmental disturbances slightly increase the convergence time for EKF-ESC controller. In addition, as shown in Table 3, the convergence time of EKF-ESC controller is about 18\u201345% shorter than the MPC controller in previous studies [35,36]. It could be inferred that the EKF-ESC operates in a model-free manner with a relatively fast response time. It should be noted that there are differences in building environments and control intervals in different studies, further studies that compare EKF-ESC with the other advanced controllers in different building environments should be conducted. 3.1.3 Case 3: Robustness of EKF-ESC to measurement noise To investigate the robustness of the EKF-ESC controller to measurement noise, we consider the control scenario with presence of noise in sensor measurement results, since robustness to measurement noise is one of the greatest concerns in controller design [41]. The noise is modeled by Gaussian distribution with a mean value of zero and a standard deviation of σ n o i s e , which is then added to the indoor temperature as measurement noise. Gaussian noises of different variance σ n o i s e 2 are investigated to analyze the robustness of the EKF-ESC controller to different noise levels. As shown in Fig. 10 a, despite different noise levels, EKF-ESC operates efficiently with good robustness to measurement noise. The EKF-ESC control under conditions with different noise levels shares the similar control output trajectory. In addition, the daily percentage of discomfort time is demonstrated under different noise levels as shown in Fig. 10b. The daily discomfort time accumulates when the control error ( e = | T i n d o o r − T s e t p o i n t | ) is over 1 °C. Fig. 10b demonstrates that the classical ESC performs with poor robustness to measurement noise. On the other hand, using EKF-ESC, the percentage of discomfort time slightly increases with the increase of noise level, demonstrating good robustness to measurement noise. 3.2 Performance comparison among different controllers In this section, EKF-ESC is compared with controllers including PI [42], PI-ESC [34] and ADAM-ESC [33]. PI is one of the most often used controllers for building thermal management in practice, while PI-ESC and ADAM-ESC are the state-of-art ESC-based control algorithms that have been developed recently. To be specific,PI-ESC controller in Ref. [34] uses the Bayesian-optimization-tuned ESC for online optimization of the parameters of PI controller. ADAM-ESC in Ref. [33] uses adaptive moment estimation (ADAM) to estimate the gradient in ESC algorithm. Fig. 11 demonstrates variations of indoor temperature under the control of EKF-ESC, PI, PI-ESC, and ADAM-ESC, respectively. As shown in Fig. 11, the convergence speed of EKF-ESC is obviously faster than the PI controller. This is because the parameters of PI controller are tuned under specific operational conditions, which makes it difficult to ensure optimal control performance in practice under complex HVAC operation conditions. The PI-ESC controller demonstrates much better performance compared with the PI controller, because ESC scheme is able to tune the parameter of PI controller adaptively in a model-free manner according to the time-varying building thermodynamics. However, despite the good performance of PI-ESC controller, Fig. 11 demonstrates that the PI-ESC controller might be strongly affected by the measurement noise. The control feedback oscillates around the indoor temperature setpoint with a standard deviation of about 0.94 K (Fig. 11a). On the other hand, the EKF-ESC method is more robust to the sensor noise and the standard deviation of indoor temperature under EKF-ESC control is about 49.8% lower than the PI-ESC controller. Moreover, the ADAM-ESC controller exhibits the longest convergence time among the four controllers in Fig. 11. This is because that the ADAM algorithm is characterized by small learning rate near optimum, which limits the convergence performance of ADAM-ESC for finding the optimal control input. 3.3 Practical implementations In real applications, the building thermal environment is subject to complex thermodynamics due to the uncertainties resulting from indoor activities, building renovation, and measurement noise, etc. The development of EFK-ESC has the potential for controlling building thermal environment due to the following three main advantages. Firstly, EKF-ESC has good adaptivity to environmental disturbances and uncertainties, and thus has the potential for building thermal management in practice. Secondly, EKF-ESC is robust to sensor noise, which could reduce the noise-induced instability in closed-loop control. Last but not least, the EKF-ESC has good control performance in terms of convergence speed. The application of the current study is mainly manifested in the following three aspects: 1) With the advantages shown above, the EKF-ESC controller is able to effectively improve thermal comfort performance in indoor environment under uncertainty. 2) The EKF-ESC controller has the potential to be used in fields that needs a fast convergence time to protect products, such as the museum and medicine manufacturing industry. 3) In addition to building thermal management, the EKF-ESC control strategy could be further extended to other control scenarios such as photovoltaic optimization. 4 Conclusion In this study, an improved ESC method by combining EKF and ESC algorithm is applied for online tracking of building indoor temperature setpoint. A co-simulation platform based on EnergyPlus and Simulink is established to investigate the application potential of the proposed control strategy. Performance comparison among EKF-ESC, classical ESC, and adaptive ESC (ESCAP) is conducted. Moreover, the adaptivity and robustness of the EKF-ESC controller are evaluated under the condition with time-varying environmental variations to investigate the application potential of the EKF-ESC controller. Our study demonstrates that the EKF-ESC controller performs well in terms of both convergence speed and control accuracy. The main findings of this study are summarized as follows: (1) EKF-ESC controller has good adaptivity to environmental disturbances associated with weather changes, indoor occupancy, and electrical equipment. (2) The EKF-ESC controller significantly improves the convergence performance for building thermal environment control compared to the classical ESC controller. About 77% and 55% reduction of the convergence time could be realized through EKF-ESC compared to the classical ESC and ESCAP scheme. (3) Using EKF-ESC, the daily percentage of discomfort time slightly increases with the increase of noise level, demonstrating good robustness to measurement noise. CRediT authorship contribution statement Yue Li: Conceptualization, Software, Writing- Original draft preparation. Zheming Tong: Data curation, Methodology, Supervision. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgement This research was financially supported by the National Natural Science Foundation of China (52075481), Natural Science Foundation of Jiangsu Province (SBK2023044817), the Fundamental Research Funds for Central University (2023QN1049). References [1] W. Cui G. Cao J.H. Park Q. Ouyang Y. Zhu Influence of indoor air temperature on human thermal comfort, motivation and performance Build. Environ. 68 2013 114 122 Cui W, Cao G, Park JH, Ouyang Q, Zhu Y. Influence of indoor air temperature on human thermal comfort, motivation and performance. Building and Environment. 2013;68:114-122. [2] W. Li S. Chen J. Zhang Y. Zhao S. Huang L. Wu Development and validation of mobile app and data management system for intelligent control of indoor thermal environment J. Build. Eng. 69 2023 106272 Li W, Chen S, Zhang J, Zhao Y, Huang S, Wu L, et al. Development and validation of mobile app and data management system for intelligent control of indoor thermal environment. Journal of Building Engineering. 2023;69:106272. [3] E. Saloux K. Zhang Towards integration of virtual meters into building energy management systems: development and assessment of thermal meters for cooling J. Build. Eng. 65 2023 105785 Saloux E, Zhang K. Towards integration of virtual meters into building energy management systems: Development and assessment of thermal meters for cooling. Journal of Building Engineering. 2023;65:105785. [4] P.H. Shaikh N.B.M. Nor P. Nallagownden I. Elamvazuthi T. Ibrahim A review on optimized control systems for building energy and comfort management of smart sustainable buildings Renew. Sustain. Energy Rev. 34 2014 409 429 Shaikh PH, Nor NBM, Nallagownden P, Elamvazuthi I, Ibrahim T. A review on optimized control systems for building energy and comfort management of smart sustainable buildings. Renewable and Sustainable Energy Reviews. 2014;34:409-429. [5] S. Goyal P. Barooah T. Middelkoop Experimental study of occupancy-based control of HVAC zones Appl. Energy 140 2015 75 84 Goyal S, Barooah P, Middelkoop T. Experimental study of occupancy-based control of HVAC zones. Applied Energy. 2015;140:75-84. [6] X. Zhou H. Du Y. Sun H. Ren P. Cui Z. Ma A new framework integrating reinforcement learning, a rule-based expert system, and decision tree analysis to improve building energy flexibility J. Build. Eng. 71 2023 106536 Zhou X, Du H, Sun Y, Ren H, Cui P, Ma Z. A new framework integrating reinforcement learning, a rule-based expert system, and decision tree analysis to improve building energy flexibility. Journal of Building Engineering. 2023;71:106536. [7] D. Mariano-Hernández L. Hernández-Callejo A. Zorita-Lamadrid O. Duque-Pérez F. Santos García A review of strategies for building energy management system: model predictive control, demand side management, optimization, and fault detect & diagnosis J. Build. Eng. 33 2021 101692 Mariano-Hernandez D, Hernandez-Callejo L, Zorita-Lamadrid A, Duque-Perez O, Santos Garcia F. A review of strategies for building energy management system: Model predictive control, demand side management, optimization, and fault detect & diagnosis. Journal of Building Engineering. 2021;33:101692. [8] E. Biyik A. Kahraman A predictive control strategy for optimal management of peak load, thermal comfort, energy storage and renewables in multi-zone buildings J. Build. Eng. 25 2019 100826 Biyik E, Kahraman A. A predictive control strategy for optimal management of peak load, thermal comfort, energy storage and renewables in multi-zone buildings. Journal of Building Engineering. 2019;25:100826. [9] Y. Yang M.-D. Wu Y.-C. Chang Temperature control of the four-zone split inverter air conditioners using LMI expression based on LQR for mixed H2/H Appl. Energy 113 2014 912 923 Yang Y, Wu M-D, Chang Y-C. Temperature control of the four-zone split inverter air conditioners using LMI expression based on LQR for mixed H2/H∞. Applied Energy. 2014;113:912-923. [10] A. Saiyad A. Patel Y. Fulpagare A. Bhargav Predictive modeling of thermal parameters inside the raised floor plenum data center using Artificial Neural Networks J. Build. Eng. 42 2021 102397 Saiyad A, Patel A, Fulpagare Y, Bhargav A. Predictive modeling of thermal parameters inside the raised floor plenum data center using Artificial Neural Networks. Journal of Building Engineering. 2021;42:102397. [11] X. Li Z. Han T. Zhao J. Gao Online model for indoor temperature control based on building thermal process of air conditioning system J. Build. Eng. 39 2021 102270 Li X, Han Z, Zhao T, Gao J. Online model for indoor temperature control based on building thermal process of air conditioning system. Journal of Building Engineering. 2021;39:102270. [12] Y. Chen J. Castiglione R. Astroza Y. Li Parameter estimation of resistor-capacitor models for building thermal dynamics using the unscented Kalman filter J. Build. Eng. 34 2021 101639 Chen Y, Castiglione J, Astroza R, Li Y. Parameter estimation of resistor-capacitor models for building thermal dynamics using the unscented Kalman filter. Journal of Building Engineering. 2021;34:101639. [13] A. Haji Hosseinloo A. Ryzhov A. Bischi H. Ouerdane K. Turitsyn M.A. Dahleh Data-driven control of micro-climate in buildings: an event-triggered reinforcement learning approach Appl. Energy 277 2020 115451 Haji Hosseinloo A, Ryzhov A, Bischi A, Ouerdane H, Turitsyn K, Dahleh MA. Data-driven control of micro-climate in buildings: An event-triggered reinforcement learning approach. Applied Energy. 2020;277:115451. [14] Y. Chen L.K. Norford H.W. Samuelson A. Malkawi Optimal control of HVAC and window systems for natural ventilation through reinforcement learning Energy Build. 169 2018 195 205 Chen Y, Norford LK, Samuelson HW, Malkawi A. Optimal control of HVAC and window systems for natural ventilation through reinforcement learning. Energy and Buildings. 2018;169:195-205. [15] Y. Du H. Zandi O. Kotevska K. Kurte J. Munk K. Amasyali Intelligent multi-zone residential HVAC control strategy based on deep reinforcement learning Appl. Energy 281 2021 116117 Du Y, Zandi H, Kotevska O, Kurte K, Munk J, Amasyali K, et al. Intelligent multi-zone residential HVAC control strategy based on deep reinforcement learning. Applied Energy. 2021;281:116117. [16] K.B. Ariyur M. Krstic Real-time Optimization by Extremum-Seeking Control 2003 John Wiley & Sons Ariyur KB, Krstic M. Real-time optimization by extremum-seeking control: John Wiley & Sons; 2003. [17] U. Ciri M.A. Rotea S. Leonardi Model-free control of wind farms: a comparative study between individual and coordinated extremum seeking Renew. Energy 113 2017 1033 1045 Ciri U, Rotea MA, Leonardi S. Model-free control of wind farms: A comparative study between individual and coordinated extremum seeking. Renewable Energy. 2017;113:1033-1045. [18] A. Kebir L. Woodward O. Akhrif Real-time optimization of renewable energy sources power using neural network-based anticipative extremum-seeking control Renew. Energy 134 2019 914 926 Kebir A, Woodward L, Akhrif O. Real-time optimization of renewable energy sources power using neural network-based anticipative extremum-seeking control. Renewable Energy. 2019;134:914-926. [19] Z. Xu Y. Zhang H. Di T. Shen Combustion variation control strategy with thermal efficiency optimization for lean combustion in spark-ignition engines Appl. Energy 251 2019 113329 Xu Z, Zhang Y, Di H, Shen T. Combustion variation control strategy with thermal efficiency optimization for lean combustion in spark-ignition engines. Applied Energy. 2019;251:113329. [20] B. Hu Y. Li F. Cao Z. Xing Extremum seeking control of COP optimization for air-source transcritical CO2 heat pump water heater system Appl. Energy 147 2015 361 372 Hu B, Li Y, Cao F, Xing Z. Extremum seeking control of COP optimization for air-source transcritical CO2 heat pump water heater system. Applied Energy. 2015;147:361-372. [21] B. Hu Y. Li B. Mu S. Wang J.E. Seem F. Cao Extremum seeking control for efficient operation of hybrid ground source heat pump system Renew. Energy 86 2016 332 346 Hu B, Li Y, Mu B, Wang S, Seem JE, Cao F. Extremum seeking control for efficient operation of hybrid ground source heat pump system. Renewable Energy. 2016;86:332-346. [22] B. Mu Y. Li J.M. House T.I. Salsbury Real-time optimization of a chilled water plant with parallel chillers based on extremum seeking control Appl. Energy 208 2017 766 781 Mu B, Li Y, House JM, Salsbury TI. Real-time optimization of a chilled water plant with parallel chillers based on extremum seeking control. Applied Energy. 2017;208:766-781. [23] L. Dong Y. Li J.M. House T.I. Salsbury Model-free control and staging for real-time energy efficient operation of a variable refrigerant flow system with multiple outdoor units Appl. Therm. Eng. 180 2020 115787 Dong L, Li Y, House JM, Salsbury TI. Model-free control and staging for real-time energy efficient operation of a variable refrigerant flow system with multiple outdoor units. Applied Thermal Engineering. 2020;180:115787. [24] W. Wang Y. Li Intermediate pressure optimization for two-stage air-source heat pump with flash tank cycle vapor injection via extremum seeking Appl. Energy 238 2019 612 626 Wang W, Li Y. Intermediate pressure optimization for two-stage air-source heat pump with flash tank cycle vapor injection via extremum seeking. Applied Energy. 2019;238:612-626. [25] W. Wang Y. Li B. Hu Real-time efficiency optimization of a cascade heat pump system via multivariable extremum seeking Appl. Therm. Eng. 176 2020 115399 Wang W, Li Y, Hu B. Real-time efficiency optimization of a cascade heat pump system via multivariable extremum seeking. Applied Thermal Engineering. 2020;176:115399. [26] Y. Gong G. Liu Z. Lu Extremum seeking control for real-time optimization of high temperature heat pump systems incorporating vapor injection Therm. Sci. Eng. Prog. 42 2023 101867 Gong Y, Liu G, Lu Z. Extremum seeking control for real-time optimization of high temperature heat pump systems incorporating vapor injection. Thermal Science and Engineering Progress. 2023;42:101867. [27] J.P. Koeln A.G. Alleyne Optimal subcooling in vapor compression systems via extremum seeking control: theory and experiments Int. J. Refrig. 43 2014 14 25 Koeln JP, Alleyne AG. Optimal subcooling in vapor compression systems via extremum seeking control: Theory and experiments. International Journal of Refrigeration. 2014;43:14-25. [28] J.I. Poveda N. Li Robust hybrid zero-order optimization algorithms with acceleration via averaging in time Automatica 123 2021 109361 Poveda JI, Li N. Robust hybrid zero-order optimization algorithms with acceleration via averaging in time. Automatica. 2021;123:109361. [29] R. Suttner M. Krstić Extremum seeking control for fully actuated mechanical systems on Lie groups in the absence of dissipation Automatica 152 2023 110945 Suttner R, Krstic M. Extremum seeking control for fully actuated mechanical systems on Lie groups in the absence of dissipation. Automatica. 2023;152:110945. [30] D.A. Wepener J.D. le Roux I.K. Craig Extremum seeking control to optimize mineral recovery of a flotation circuit using peak air recovery J. Process Control 129 2023 103033 Wepener DA, le Roux JD, Craig IK. Extremum seeking control to optimize mineral recovery of a flotation circuit using peak air recovery. Journal of Process Control. 2023;129:103033. [31] J. Straus D. Krishnamoorthy S. Skogestad On combining self-optimizing control and extremum-seeking control \u2013 applied to an ammonia reactor case study J. Process Control 78 2019 78 87 Straus J, Krishnamoorthy D, Skogestad S. On combining self-optimizing control and extremum-seeking control - Applied to an ammonia reactor case study. Journal of Process Control. 2019;78:78-87. [32] C. Cui J. Ren M. Rampazzo Y. Song X. Yin W. Wang Real-time optimization of integrated subcooling transcritical CO2 heat pump water heater via phasor extreme seeking control (ESC) Appl. Therm. Eng. 232 2023 121045 Cui C, Ren J, Rampazzo M, Song Y, Yin X, Wang W, et al. Real-time optimization of integrated subcooling transcritical CO2 heat pump water heater via phasor extreme seeking control (ESC). Applied Thermal Engineering. 2023;232:121045. [33] A. Chakrabarty C. Danielson S.A. Bortoff C.R. Laughman Accelerating self-optimization control of refrigerant cycles with Bayesian optimization and adaptive moment estimation Appl. Therm. Eng. 197 2021 117335 Chakrabarty A, Danielson C, Bortoff SA, Laughman CR. Accelerating self-optimization control of refrigerant cycles with Bayesian optimization and adaptive moment estimation. Applied Thermal Engineering. 2021;197:117335. [34] A. Chakrabarty D.J. Burns M. Guay C.R. Laughman Extremum seeking controller tuning for heat pump optimization using failure-robust Bayesian optimization J. Process Control 120 2022 86 96 Chakrabarty A, Burns DJ, Guay M, Laughman CR. Extremum seeking controller tuning for heat pump optimization using failure-robust Bayesian optimization. Journal of Process Control. 2022;120:86-96. [35] S. Yang M.P. Wan W. Chen B.F. Ng S. Dubey Model predictive control with adaptive machine-learning-based model for building energy efficiency and comfort optimization Appl. Energy 271 2020 115147 Yang S, Wan MP, Chen W, Ng BF, Dubey S. Model predictive control with adaptive machine-learning-based model for building energy efficiency and comfort optimization. Applied Energy. 2020;271:115147. [36] J. Drgoňa D. Picard M. Kvasnica L. Helsen Approximate model predictive building control via machine learning Appl. Energy 218 2018 199 216 Drgona J, Picard D, Kvasnica M, Helsen L. Approximate model predictive building control via machine learning. Applied Energy. 2018;218:199-216. [37] L. Wang S. Chen K. Ma On stability and application of extremum seeking control without steady-state oscillation Automatica 68 2016 18 26 Wang L, Chen S, Ma K. On stability and application of extremum seeking control without steady-state oscillation. Automatica. 2016;68:18-26. [38] G. Gelbert J.P. Moeck C.O. Paschereit R. King Advanced algorithms for gradient estimation in one- and two-parameter extremum seeking controllers J. Process Control 22 2012 700 709 Gelbert G, Moeck JP, Paschereit CO, King R. Advanced algorithms for gradient estimation in one- and two-parameter extremum seeking controllers. Journal of Process Control. 2012;22:700-709. [39] China Meteorological Bureau Climate Information Center Climate Data Office and 2005 Tsinghua University, Department of Building Science and Technology China Standard Weather Data for Analyzing Building Thermal Conditions China Meteorological Bureau Climate Information Center, Climate Data Office and Tsinghua University, Department of Building Science and Technology. China Standard Weather Data for Analyzing Building Thermal Conditions. 2005. [40] M. Krarti Evaluation of occupancy-based temperature controls on energy performance of KSA residential buildings Energy Build. 220 2020 110047 Krarti M. Evaluation of occupancy-based temperature controls on energy performance of KSA residential buildings. Energy and Buildings. 2020;220:110047. [41] F. Shinskey How good are our controllers in absolute performance and robustness? Measurement and Control 23 1990 114 121 Shinskey F. How good are our controllers in absolute performance and robustness? Measurement and Control. 1990;23:114-121. [42] F. Belic Z. Hocenski D. Sliskovic HVAC Control Methods - a Review. 2015 19th International Conference on System Theory, Control and Computing (ICSTCC) 2015 679 686 Belic F, Hocenski Z, Sliskovic D. HVAC control methods - a review. 2015 19th International Conference on System Theory, Control and Computing (ICSTCC) 2015. p. 679-686.",
+    "scopus-id": "85170432485",
+    "coredata": {
+        "eid": "1-s2.0-S2352710223018016",
+        "dc:description": "Online optimization of building thermal environment is no trivial task due to the complex and uncertain indoor thermodynamics. In this study, an extended Kalman filter-based extremum seeking control (EKF-ESC) strategy for model-free control of thermal environment under uncertainty is proposed. The EKF-ESC uses extended Kalman filter for estimating gradient of the objective function of the extremum seeking controller, which enables real-time optimization of thermal environment with fast convergence time. In addition, a co-simulation platform is developed by combining EnergyPlus and Simulink/Matlab for validating effectiveness of the EKF-ESC strategy for controlling thermal environment. Our study demonstrates that the EKF-ESC strategy has good adaptivity to uncertainties resulting from changes in weather, electrical equipment and occupancy. Moreover, it is shown that the EKF-ESC is robust to measurement noise. In addition, comparison of convergence performance among EKF-ESC, adaptive ESC, and classical ESC is conducted. It is shown that the EKF-ESC based control strategy has the fastest convergence time towards indoor temperature setpoints. Compared with the classical ESC and adaptive ESC schemes, about 77% and 55% reduction of the convergence time are realized through EKF-ESC. According to the research results, it could be inferred that EKF-ESC strategy has the potential for effective building thermal management under uncertainty with fast convergence time.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-11-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352710223018016",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Li, Yue"
+            },
+            {
+                "@_fa": "true",
+                "$": "Tong, Zheming"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S2352710223018016"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S2352710223018016"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2352-7102(23)01801-6",
+        "prism:volume": "78",
+        "articleNumber": "107621",
+        "prism:publisher": "Published by Elsevier Ltd.",
+        "dc:title": "Extended Kalman filter based extremum seeking algorithm for model-free control of building thermal environment under uncertainty",
+        "prism:copyright": "© 2023 Published by Elsevier Ltd.",
+        "openaccess": "0",
+        "prism:issn": "23527102",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Thermal environment"
+            },
+            {
+                "@_fa": "true",
+                "$": "Control strategy"
+            },
+            {
+                "@_fa": "true",
+                "$": "Online optimization"
+            },
+            {
+                "@_fa": "true",
+                "$": "Extremum seeking control"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Building Engineering",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "107621",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 November 2023",
+        "prism:doi": "10.1016/j.jobe.2023.107621",
+        "prism:startingPage": "107621",
+        "dc:identifier": "doi:10.1016/j.jobe.2023.107621",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "287",
+            "@width": "731",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "160010",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "230",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38930",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "323",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "142794",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "360",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "151822",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "175",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "116718",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "389",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "141962",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "168",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "103825",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "205",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "126539",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "179",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "111072",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "154",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "105416",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "189",
+            "@width": "344",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "97296",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "235",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "130147",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "86",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "76223",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "130",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14600",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "144",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "81642",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "160",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "83062",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "78",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75003",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "207",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "78651",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "75",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74110",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "92",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "78626",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74652",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "69",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74056",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "121",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "77434",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "105",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "78907",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1270",
+            "@width": "3238",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "632508",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1022",
+            "@width": "1725",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "250019",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1430",
+            "@width": "2174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "582293",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1592",
+            "@width": "2174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "727149",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "773",
+            "@width": "2174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "423497",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1721",
+            "@width": "2173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "675694",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "745",
+            "@width": "2174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "309800",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "908",
+            "@width": "2173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "451661",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "793",
+            "@width": "2174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "333844",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "682",
+            "@width": "2174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "391262",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "839",
+            "@width": "1524",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "228496",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1040",
+            "@width": "2174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "504415",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13536",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22195",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6301",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11498",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "60832",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "71576",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7246",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "37917",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19605",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "103379",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "46062",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si73.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23845",
+            "@ref": "si73",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "40360",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12112",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13019",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6355",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si67.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "51474",
+            "@ref": "si67",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5306",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12625",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4283",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10639",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "47100",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5802",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "72676",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6598",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20822",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si72.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "53694",
+            "@ref": "si72",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "69750",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5476",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "38795",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19476",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si70.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17580",
+            "@ref": "si70",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si71.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8832",
+            "@ref": "si71",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "51474",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10659",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6849",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si68.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "52952",
+            "@ref": "si68",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7982",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8960",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15319",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21996",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "51291",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10543",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13609",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4350",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "63928",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si74.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28025",
+            "@ref": "si74",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30480",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7767",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14960",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si75.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "54720",
+            "@ref": "si75",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "54967",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8068",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9968",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10809",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6091",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12224",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25961",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9160",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26782",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16567",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10687",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10264",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29768",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24973",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "64878",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3837",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18130",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20492",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4792",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8804",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7186",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7018",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8318",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710223018016-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1333963",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85170432485"
+    }
+}}

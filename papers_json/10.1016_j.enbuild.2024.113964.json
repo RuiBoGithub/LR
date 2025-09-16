@@ -1,0 +1,1116 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85183955095",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 90 Energy and Buildings ENERGYBUILDINGS 2024-02-01 2024-02-01 2024-02-05 2024-02-05 2025-03-15T09:36:53 1-s2.0-S037877882400080X S0378-7788(24)00080-X S037877882400080X 10.1016/j.enbuild.2024.113964 S300 S300.4 FULL-TEXT 1-s2.0-S0378778824X0002X 2025-03-17T02:15:24.82335Z 0 0 20240315 2024 2024-02-01T21:27:53.86927Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst nomenclature orcid primabst ref 0378-7788 03787788 UNLIMITED CRKNHY2024 true 307 307 C Volume 307 11 113964 113964 113964 20240315 15 March 2024 2024-03-15 2024 Research Articles article fla © 2025 The Authors. Published by Elsevier B.V. MULTITASKDEEPLEARNINGFORLARGESCALEBUILDINGSENERGYMANAGEMENT WANG R Nomenclature 1 Introduction 2 Related work 2.1 Energy multi-task learning 2.2 Anomaly detection and prediction 3 Dataset and preprocessing 3.1 Data features 3.2 Preprocessing 3.3 Task correlation 4 Methodology 4.1 Problem statement 4.2 System architecture 4.3 Algorithm 5 Experiments 5.1 Multi-task training configuration 5.2 Time series forecasting 5.3 Anomaly detection and prediction 5.4 Performance analysis 5.5 Train procedure analysis 5.6 Task correlation analysis 6 Conclusions CRediT authorship contribution statement References IEA 2022 BUILDINGS MARIANOHERNANDEZ 2021 101692 D ZHANG 2022 27853 27862 H FAN 2018 1123 1135 C ARAYA 2017 191 206 D ZHANG 2021 116452 L HIMEUR 2021 116601 Y XUAN 2021 106583 W XIAO 2023 113178 J EDDINEDEGHA 2019 212 233 H ZHANG 2018 279 294 Y TAN 2023 121177 M ZHANG 2020 1355 L GUO 2022 3481 3492 Y ZHANG 2023 109507 S LIU 2023 112601 C QIAO 2022 105364 D WANG 2021 107233 S CIMEN 2020 977 987 H SHIREEN 2018 654 662 T XU 2022 107897 H ALMAZROI 2023 A LIU 2022 118303 J CHANDOLA 2009 1 58 V LEI 2023 125575 L COPIACO 2023 105775 A IANDOLA F KRIZHEVSKY 2012 A SATER 2021 1 23 R LIN 2004 460 469 J PROCEEDINGSTENTHACMSIGKDDINTERNATIONALCONFERENCEKNOWLEDGEDISCOVERYDATAMINING VISUALLYMININGMONITORINGMASSIVETIMESERIES LIN 2022 111670 J WANG 2023 113215 R GULATI 2022 485 488 M PROCEEDINGSTHIRTEENTHACMINTERNATIONALCONFERENCEFUTUREENERGYSYSTEMS LEAD10ALARGESCALEANNOTATEDDATASETFORENERGYANOMALYDETECTIONINCOMMERCIALBUILDINGS MILLER 2020 1427 1447 C MA 2018 1930 1939 J PROCEEDINGS24THACMSIGKDDINTERNATIONALCONFERENCEKNOWLEDGEDISCOVERYDATAMINING MODELINGTASKRELATIONSHIPSINMULTITASKLEARNINGMULTIGATEMIXTUREOFEXPERTS CHEN 2018 794 803 Z INTERNATIONALCONFERENCEMACHINELEARNING GRADIENTNORMALIZATIONFORADAPTIVELOSSBALANCINGINDEEPMULTITASKNETWORKS HE 2016 770 778 K PROCEEDINGSIEEECONFERENCECOMPUTERVISIONPATTERNRECOGNITION DEEPRESIDUALLEARNINGFORIMAGERECOGNITION GERS 2000 2451 2471 F VASWANI 2017 A GUO 2022 331 368 M FLORIDI 2020 681 694 L WANG S WU 2021 22419 22430 H ZHOU 2021 11106 11115 H PROCEEDINGSAAAICONFERENCEARTIFICIALINTELLIGENCE INFORMERBEYONDEFFICIENTTRANSFORMERFORLONGSEQUENCETIMESERIESFORECASTING KITAEV N KINGMA D WANGX2024X113964 WANGX2024X113964XR Full 2025-01-26T22:39:35Z ElsevierWaived CRKN 2024: Hybrid journals http://creativecommons.org/licenses/by-nc-nd/4.0/ 2026-02-05T00:00:00.000Z 2026-02-05T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the CC BY-NC-ND license. © 2025 The Authors. Published by Elsevier B.V. item S0378-7788(24)00080-X S037877882400080X 1-s2.0-S037877882400080X 10.1016/j.enbuild.2024.113964 271089 2025-03-17T02:15:24.82335Z 2024-03-15 UNLIMITED CRKNHY2024 1-s2.0-S037877882400080X-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/MAIN/application/pdf/83277220ed6c66639ecd3c31ae30e843/main.pdf main.pdf pdf true 2175911 MAIN 19 1-s2.0-S037877882400080X-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/PREVIEW/image/png/a6d010cab4d7b0dcef451f1a7b959a0f/main_1.png main_1.png png 42360 849 656 IMAGE-WEB-PDF 1 1-s2.0-S037877882400080X-gr010.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr010/DOWNSAMPLED/image/jpeg/20a1398cbd57eec0f681abe0f54e7e65/gr010.jpg gr010 gr010.jpg jpg 40956 566 578 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr011.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr011/DOWNSAMPLED/image/jpeg/646b2dbc370b2a61d58de1a0b5ae7eaf/gr011.jpg gr011 gr011.jpg jpg 31825 217 394 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr001.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr001/DOWNSAMPLED/image/jpeg/6cea567251c4eaf6209311e9c9684c75/gr001.jpg gr001 gr001.jpg jpg 47504 593 353 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr012.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr012/DOWNSAMPLED/image/jpeg/117a7370fd781176d68b9fd336eead68/gr012.jpg gr012 gr012.jpg jpg 85707 799 682 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr002.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr002/DOWNSAMPLED/image/jpeg/b6057477ef58d6665e77d3ccd902f374/gr002.jpg gr002 gr002.jpg jpg 45504 248 641 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr013.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr013/DOWNSAMPLED/image/jpeg/4600c27edd063cccb01a6b5a6274cb00/gr013.jpg gr013 gr013.jpg jpg 60989 703 523 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr003.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr003/DOWNSAMPLED/image/jpeg/f1a71bf5515db83c3c4a086d97aa35e9/gr003.jpg gr003 gr003.jpg jpg 38356 249 640 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr014.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr014/DOWNSAMPLED/image/jpeg/88b0b4fb8f4279e76ead3e90030e140b/gr014.jpg gr014 gr014.jpg jpg 53893 707 316 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr004.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr004/DOWNSAMPLED/image/jpeg/f7f404693811a2c5a3cf5852616adc6b/gr004.jpg gr004 gr004.jpg jpg 37659 235 642 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr015.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr015/DOWNSAMPLED/image/jpeg/b81d54d23a40ef16f6ca0a6c51fa46b2/gr015.jpg gr015 gr015.jpg jpg 33607 443 327 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr005.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr005/DOWNSAMPLED/image/jpeg/e2e6048d37adc9242e42a00511140d07/gr005.jpg gr005 gr005.jpg jpg 247110 671 686 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr016.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr016/DOWNSAMPLED/image/jpeg/6a6ec7b376eb714c49b15e43bf0ad7ee/gr016.jpg gr016 gr016.jpg jpg 125430 870 681 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr006.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr006/DOWNSAMPLED/image/jpeg/a3f4c2a1f98901bb336ce8433a1c15e7/gr006.jpg gr006 gr006.jpg jpg 40683 234 640 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr007.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr007/DOWNSAMPLED/image/jpeg/c29feb756e45710c4a2b365762a09407/gr007.jpg gr007 gr007.jpg jpg 41992 235 642 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr008.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr008/DOWNSAMPLED/image/jpeg/e1081a27339b774b06aeca0d98f42f9c/gr008.jpg gr008 gr008.jpg jpg 23948 341 640 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr009.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr009/DOWNSAMPLED/image/jpeg/e28d1db62825ee682c964d5be1117131/gr009.jpg gr009 gr009.jpg jpg 52711 256 808 IMAGE-DOWNSAMPLED 1-s2.0-S037877882400080X-gr010.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr010/THUMBNAIL/image/gif/3353180585b3a39f36d4c097226e5700/gr010.sml gr010 gr010.sml sml 5531 164 167 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr011.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr011/THUMBNAIL/image/gif/632801bbd8a6d2371d7e5e8569ce361a/gr011.sml gr011 gr011.sml sml 8000 121 219 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr001.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr001/THUMBNAIL/image/gif/3af60a0c5053055ea8667fdd7aeb3759/gr001.sml gr001 gr001.sml sml 6000 163 97 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr012.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr012/THUMBNAIL/image/gif/86082b81e286a7f70de3af386a7917a9/gr012.sml gr012 gr012.sml sml 5730 164 140 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr002.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr002/THUMBNAIL/image/gif/f81de97e74d0c83165878e5205dbd13d/gr002.sml gr002 gr002.sml sml 10339 85 219 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr013.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr013/THUMBNAIL/image/gif/d10150ad48ff7aaef76d4107a6f37621/gr013.sml gr013 gr013.sml sml 5275 164 122 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr003.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr003/THUMBNAIL/image/gif/e1a64e107a54c254555a1d1eadbd0447/gr003.sml gr003 gr003.sml sml 8084 85 219 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr014.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr014/THUMBNAIL/image/gif/7425ce1f2ddc9ae134a0bc34bab83214/gr014.sml gr014 gr014.sml sml 4697 163 73 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr004.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr004/THUMBNAIL/image/gif/1f57527426e451e8057b52509dc20c64/gr004.sml gr004 gr004.sml sml 6370 80 219 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr015.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr015/THUMBNAIL/image/gif/5a6e546dfae11ffaedc91b1291d4c457/gr015.sml gr015 gr015.sml sml 5953 164 121 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr005.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr005/THUMBNAIL/image/gif/929a0cbcbff8b5a2ec047d9f625be742/gr005.sml gr005 gr005.sml sml 14446 164 168 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr016.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr016/THUMBNAIL/image/gif/798d93e00243dc46e409e4a32d052da5/gr016.sml gr016 gr016.sml sml 5868 164 128 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr006.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr006/THUMBNAIL/image/gif/19fb9e3becb77fb60642b853c9bf621b/gr006.sml gr006 gr006.sml sml 7034 80 219 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr007.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr007/THUMBNAIL/image/gif/d9abbd65b95dc572e857b04430fbcb54/gr007.sml gr007 gr007.sml sml 7013 80 219 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr008.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr008/THUMBNAIL/image/gif/f586de3a7977b74059deb085b343cfbc/gr008.sml gr008 gr008.sml sml 4464 117 219 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr009.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/gr009/THUMBNAIL/image/gif/cdda58e25b5e47bc4801b27fb2b65dec/gr009.sml gr009 gr009.sml sml 6555 69 219 IMAGE-THUMBNAIL 1-s2.0-S037877882400080X-gr010_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/b683a159066c18cb4b74736b87d677e2/gr010_lrg.jpg gr010 gr010_lrg.jpg jpg 309249 2510 2561 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr011_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/05acbe4319e517e9dfa7efa0b62baf18/gr011_lrg.jpg gr011 gr011_lrg.jpg jpg 837254 1922 3488 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr001_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/4d0f77cc404e53d1a7f960bb1bf82a8c/gr001_lrg.jpg gr001 gr001_lrg.jpg jpg 675079 2625 1563 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr012_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/c816ed9380db195ddfd391b8ab1d5014/gr012_lrg.jpg gr012 gr012_lrg.jpg jpg 612330 3540 3020 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr002_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/14ac1d7a0743a0aa788275517f04f370/gr002_lrg.jpg gr002 gr002_lrg.jpg jpg 383748 1099 2840 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr013_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/d00cd6e5493307bc86a695c6ddacb9ff/gr013_lrg.jpg gr013 gr013_lrg.jpg jpg 466264 3116 2317 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr003_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/5abc54d7dffc7a65cc04f73531b95bf8/gr003_lrg.jpg gr003 gr003_lrg.jpg jpg 324823 1103 2833 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr014_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/5045c9e828541cc5b1d32d6561011076/gr014_lrg.jpg gr014 gr014_lrg.jpg jpg 420191 3136 1401 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr004_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/9a272f40c07cdea9a1c1026bd679a9c7/gr004_lrg.jpg gr004 gr004_lrg.jpg jpg 286239 1038 2841 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr015_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/f4472b2757de6829e6e274c68f1c03e5/gr015_lrg.jpg gr015 gr015_lrg.jpg jpg 264919 1963 1450 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr005_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/b05837e9517d4a9870fc1e54d021e17d/gr005_lrg.jpg gr005 gr005_lrg.jpg jpg 1580900 2971 3039 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr016_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/edec27a60a586d33c53757ae2d722f6c/gr016_lrg.jpg gr016 gr016_lrg.jpg jpg 974577 3854 3016 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr006_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/43543dca43ebe313530674ea9d2cd15c/gr006_lrg.jpg gr006 gr006_lrg.jpg jpg 309072 1038 2834 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr007_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/dda859ac1253abcbcff9410cab409726/gr007_lrg.jpg gr007 gr007_lrg.jpg jpg 305437 1039 2842 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr008_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/e326855c60f6496343b7a3e1febe7359/gr008_lrg.jpg gr008 gr008_lrg.jpg jpg 183264 1511 2836 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-gr009_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/HIGHRES/image/jpeg/75dce108f2a0ff7595470cf4913dd113/gr009_lrg.jpg gr009 gr009_lrg.jpg jpg 412306 1133 3579 IMAGE-HIGH-RES 1-s2.0-S037877882400080X-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/f7ad3c2e5a3bb955139b0bfac9e73150/si1.svg si1 si1.svg svg 5236 ALTIMG 1-s2.0-S037877882400080X-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/4223bf966018d08cf6c282be9e234312/si10.svg si10 si10.svg svg 1957 ALTIMG 1-s2.0-S037877882400080X-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/4a5b2728ccf9a1f5051efb78455d9bf6/si11.svg si11 si11.svg svg 2202 ALTIMG 1-s2.0-S037877882400080X-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/57afa1a03689a4482ca706ba2ae45d13/si12.svg si12 si12.svg svg 1857 ALTIMG 1-s2.0-S037877882400080X-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/0d57306b76475d47da1d8b42abd62034/si13.svg si13 si13.svg svg 12180 ALTIMG 1-s2.0-S037877882400080X-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/179eefbb043097d534afacb5ae774d12/si14.svg si14 si14.svg svg 13672 ALTIMG 1-s2.0-S037877882400080X-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/b55dfec8941471fa25df69617cd924bd/si15.svg si15 si15.svg svg 16525 ALTIMG 1-s2.0-S037877882400080X-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/ccceb1f2a35f0675530161d9a7cec514/si16.svg si16 si16.svg svg 5887 ALTIMG 1-s2.0-S037877882400080X-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/844116f717d6f97e5dd69f17229c4e12/si17.svg si17 si17.svg svg 4030 ALTIMG 1-s2.0-S037877882400080X-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/c33d5c788c0d7477e1e0efbd09929d16/si18.svg si18 si18.svg svg 3410 ALTIMG 1-s2.0-S037877882400080X-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/d269d73b72d12697b3b8e75489713b7e/si19.svg si19 si19.svg svg 19259 ALTIMG 1-s2.0-S037877882400080X-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/f6dba8606a3fab93f905f62c2e16b2b7/si2.svg si2 si2.svg svg 2013 ALTIMG 1-s2.0-S037877882400080X-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/b73a5b67111b7c06710470918aafe1d3/si20.svg si20 si20.svg svg 1860 ALTIMG 1-s2.0-S037877882400080X-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/f885077544827209cb3e374bc03a6326/si21.svg si21 si21.svg svg 14134 ALTIMG 1-s2.0-S037877882400080X-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/e9e001628194be2cb92106e1380871b8/si22.svg si22 si22.svg svg 5836 ALTIMG 1-s2.0-S037877882400080X-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/1994d7ab7e806c7bfc73e3b4040a49c2/si23.svg si23 si23.svg svg 18478 ALTIMG 1-s2.0-S037877882400080X-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/0164f919008961f43a43cda0bc9fbbd4/si24.svg si24 si24.svg svg 3571 ALTIMG 1-s2.0-S037877882400080X-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/caee1910ced6613373aefe3bbea3ff95/si25.svg si25 si25.svg svg 24890 ALTIMG 1-s2.0-S037877882400080X-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/472e09ef959a5eadadd95e6aed6ba8a5/si26.svg si26 si26.svg svg 3055 ALTIMG 1-s2.0-S037877882400080X-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/6e35da8a13234b1788d2d380e3881f27/si27.svg si27 si27.svg svg 2431 ALTIMG 1-s2.0-S037877882400080X-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/9fac0b706ef56dae61cf68cdff52c501/si28.svg si28 si28.svg svg 7547 ALTIMG 1-s2.0-S037877882400080X-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/18bf7e499656883fadeefa07602a42b0/si29.svg si29 si29.svg svg 2566 ALTIMG 1-s2.0-S037877882400080X-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/4aa46f7bcc4b38a20b03de26d85a52cf/si30.svg si30 si30.svg svg 3447 ALTIMG 1-s2.0-S037877882400080X-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/09fe721bf574fc828c734b6a65aa5838/si31.svg si31 si31.svg svg 2435 ALTIMG 1-s2.0-S037877882400080X-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/2f9a6304594eca0ff15b588f39520d70/si32.svg si32 si32.svg svg 5945 ALTIMG 1-s2.0-S037877882400080X-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/d7951d9f3cdcb06bf7db8ea794ceac6d/si33.svg si33 si33.svg svg 8386 ALTIMG 1-s2.0-S037877882400080X-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/94deb4ff8ccf9b7102fc41dd8b10e4d0/si34.svg si34 si34.svg svg 6021 ALTIMG 1-s2.0-S037877882400080X-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/3fcf25ab0bda98aa3f7275d40995c102/si35.svg si35 si35.svg svg 3610 ALTIMG 1-s2.0-S037877882400080X-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/557ba0f726aa69d46f68ec9cd4391970/si36.svg si36 si36.svg svg 15256 ALTIMG 1-s2.0-S037877882400080X-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/cc97919207fcadda7dc694e08474bb15/si37.svg si37 si37.svg svg 6551 ALTIMG 1-s2.0-S037877882400080X-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/7e6cf4e8a0accc62d39692843b2a624a/si38.svg si38 si38.svg svg 10690 ALTIMG 1-s2.0-S037877882400080X-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/cb62c8997d4e41574add9ca62d6d93d1/si39.svg si39 si39.svg svg 18276 ALTIMG 1-s2.0-S037877882400080X-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/15cf86bc741c42357285067782c635dc/si40.svg si40 si40.svg svg 10014 ALTIMG 1-s2.0-S037877882400080X-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/378ad13c4c3f307243e4f3401a6fded2/si41.svg si41 si41.svg svg 8650 ALTIMG 1-s2.0-S037877882400080X-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/0095f9ea83e09dae21157c227062252f/si42.svg si42 si42.svg svg 20571 ALTIMG 1-s2.0-S037877882400080X-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/f12718b2906b2f148507054fd68c22a0/si43.svg si43 si43.svg svg 9475 ALTIMG 1-s2.0-S037877882400080X-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/439add8a7a57b52cb034b2267fe84e2e/si44.svg si44 si44.svg svg 6267 ALTIMG 1-s2.0-S037877882400080X-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/cfba0ee39306991a61abc080b4affa8b/si45.svg si45 si45.svg svg 3698 ALTIMG 1-s2.0-S037877882400080X-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/ee39d25c26f36599ec816006184acff5/si5.svg si5 si5.svg svg 7297 ALTIMG 1-s2.0-S037877882400080X-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/14c0da872db09605d7e25c65f3d5c826/si6.svg si6 si6.svg svg 2235 ALTIMG 1-s2.0-S037877882400080X-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/7dbd6a9cc1425fadb0c1c0de1863ec02/si7.svg si7 si7.svg svg 4943 ALTIMG 1-s2.0-S037877882400080X-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/2d8a1540d1da03ac0818aa0cf02007ca/si8.svg si8 si8.svg svg 5240 ALTIMG 1-s2.0-S037877882400080X-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400080X/image/svg+xml/7507348d88f4e4c71427be71476caf58/si9.svg si9 si9.svg svg 6493 ALTIMG 1-s2.0-S037877882400080X-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10M93THQNRC/MAIN/application/pdf/7a19ece8bfc5d52f9d9225f97fb0c152/am.pdf am am.pdf pdf false 2204334 AAM-PDF ENB 113964 113964 S0378-7788(24)00080-X 10.1016/j.enbuild.2024.113964 The Authors Fig. 1 Data preprocessing pipeline. Fig. 1 Fig. 2 Electricity load of buildings. Fig. 2 Fig. 3 Air temperature of buildings. Fig. 3 Fig. 4 Anomaly pattern of building 1267. Fig. 4 Fig. 5 Heatmap of feature correlations of the dataset. (For interpretation of the colors in the figure(s), the reader is referred to the web version of this article.) Fig. 5 Fig. 6 Anomaly pattern correlation with Electricity load in building 880. Fig. 6 Fig. 7 Anomaly pattern correlation with Electricity load in building 990. Fig. 7 Fig. 8 Difference between anomaly detection and anomaly prediction. Fig. 8 Fig. 9 Multi-task learning as encoder-decoder architecture, one decoder generates predictions for one task. Fig. 9 Fig. 10 Multi-gate mixture of experts architecture. Fig. 10 Algorithm 1 Multi-gate mixture of linear attention algorithm. Algorithm 1 Fig. 11 Boxplots of the prediction performances across different combinations of tasks. Fig. 11 Fig. 12 Prediction results of 24-hour time series of air temperature and electricity load. Fig. 12 Fig. 13 Training progress of multitask models. Fig. 13 Fig. 14 Comparison of deep learning models' resource consumption, the x-axis shows the configuration of the multi-task model, 2-3 refers to two experts, every expert has three layers. Fig. 14 Fig. 15 Multi-task models' performance with different hyperparameters that layers range from 3 to 5, experts number range from 2 to 8. Fig. 15 Table 1 Building dataset features. Table 1 Feature Category building_id, square_feet etc. Metadata meter_reading time series anomaly time series air_temperature meteorological weather cloud_coverage meteorological weather dew_temperature meteorological weather precip_depth_1_hr meteorological weather sea_level_pressure meteorological weather wind_direction meteorological weather wind_speed meteorological weather weekday, month, is_holiday etc. time stamp air_temperature mean,std etc. statistical data Table 2 Multi-task and Single task Learning Architectures. Table 2 Architecture Encoder Decoder Experts Layer Feature dimension Short name Single Task LSTM LSTM 1 5 128 LSTM Single Task CNN n/a 1 5 128 CNN Single Task MLP n/a 1 5 128 MLP Single Task Transformer n/a 1 5 128 TRANS Single Task Autoformer Autoformer 1 5 128 Autoformer Single Task Informer Informer 1 5 128 Informer Single Task Reformer Reformer 1 5 128 Reformer MultiTask LSTM CNN 2, 4, 8 3, 4, 5 128 MultiLSTM MultiTask CNN CNN 2, 4, 8 3, 4, 5 128 MultiCNN MultiTask Linformer Linformer 2, 4, 8 3, 4, 5 128 MultiTRANS Table 3 Hyper-parameters of multi-task training. Table 3 Hyperparameter value learning rate 0.0001 train epochs/round 200 time prediction length 24 input length 48 gradient normalization rate α 1.5 Table 4 Air temperature and electricity load forecasting, MultiTrans is our proposed model. Table 4 Task Hyperparameter Air Temperature Electricity Load Model Experts Layers MSE MAE MSE MAE CNN 1 5 0.0402 0.1202 0.4478 0.4365 LSTM 1 5 0.0148 0.0718 0.3795 0.38 MLP 1 5 0.0462 0.1334 0.4959 0.4541 TRANS 1 5 0.0128 0.0675 0.1869 0.2688 Autoformer 1 5 0.1426 0.2453 0.6579 0.5223 Informer 1 5 0.0161 0.0771 0.1950 0.2668 Reformer 1 5 0.0327 0.1177 0.3550 0.4029 MULTICNN 2 3 0.0384 0.1541 0.316 0.4127 MULTICNN 2 4 0.1306 0.1491 0.3343 0.4076 MULTICNN 2 5 0.0318 0.1555 0.3232 0.3944 MULTICNN 4 3 0.023 0.1335 0.3139 0.4028 MULTICNN 4 4 0.0178 0.1183 0.2992 0.3906 MULTICNN 4 5 0.0336 0.1437 0.2978 0.3877 MULTICNN 8 3 0.0226 0.1425 0.3006 0.3908 MULTICNN 8 4 0.027 0.1397 0.2958 0.3893 MULTICNN 8 5 0.0209 0.1313 0.2957 0.3829 MULTILSTM 2 3 0.0413 0.1844 0.3515 0.4063 MULTILSTM 2 4 0.0353 0.1695 0.3507 0.4202 MULTILSTM 2 5 0.0608 0.212 0.3744 0.4339 MULTILSTM 4 3 0.0263 0.1381 0.342 0.4075 MULTILSTM 4 4 0.0665 0.1979 0.3319 0.4074 MULTILSTM 4 5 0.0813 0.2171 0.3839 0.4406 MULTILSTM 8 3 0.0223 0.1325 0.3289 0.4061 MULTILSTM 8 4 0.0233 0.1387 0.3383 0.4104 MULTILSTM 8 5 0.1171 0.1628 0.372 0.4383 MULTITRANS 2 3 0.0084 0.0815 0.1199 0.2601 MULTITRANS 2 4 0.0097 0.0835 0.1372 0.2842 MULTITRANS 2 5 0.0066 0.08 0.1311 0.28 MULTITRANS 4 3 0.0068 0.0825 0.1219 0.2669 MULTITRANS 4 4 0.0079 0.0849 0.1288 0.2774 MULTITRANS 4 5 0.0072 0.0774 0.129 0.2687 MULTITRANS 8 3 0.0065 0.0801 0.117 0.2569 MULTITRANS 8 4 0.0071 0.0799 0.1198 0.268 MULTITRANS 8 5 0.0093 0.0876 0.1452 0.2784 Table 5 Anomaly detection and anomaly prediction, MultiTrans is our proposed model. Table 5 Task Hyperparameter Anomaly Detection Anomaly Prediction Model Experts Layers Accuracy F1 Score Accuracy F1 Score CNN 1 5 0.9252 0.9202 0.9453 0.9085 MLP 1 5 0.9066 0.9024 0.8772 0.7795 TRANS 1 5 0.9782 0.9774 0.9795 0.9661 Autoformer 1 5 0.92 0.9189 0.8659 0.7679 Informer 1 5 0.9415 0.9627 0.9543 0.9255 Reformer 1 5 0.9429 0.9622 0.8654 0.7840 MULTICNN 2 3 0.9662 0.8562 0.9764 0.9094 MULTICNN 2 4 0.9561 0.8507 0.9221 0.8293 MULTICNN 2 5 0.9662 0.8625 0.9742 0.9217 MULTICNN 4 3 0.9708 0.8654 0.9819 0.9228 MULTICNN 4 4 0.9656 0.861 0.9778 0.9271 MULTICNN 4 5 0.9602 0.8696 0.9795 0.9336 MULTICNN 8 3 0.9573 0.8507 0.9807 0.9264 MULTICNN 8 4 0.9608 0.8692 0.9216 0.8301 MULTICNN 8 5 0.9647 0.8677 0.9169 0.8454 MULTILSTM 2 3 0.9142 0.7891 0.9668 0.9163 MULTILSTM 2 4 0.9465 0.8167 0.9538 0.8751 MULTILSTM 2 5 0.9454 0.788 0.9381 0.8963 MULTILSTM 4 3 0.9194 0.733 0.9478 0.8524 MULTILSTM 4 4 0.9387 0.7658 0.9544 0.8688 MULTILSTM 4 5 0.8814 0.7 0.8667 0.758 MULTILSTM 8 3 0.944 0.7999 0.9621 0.9207 MULTILSTM 8 4 0.9429 0.8082 0.9021 0.8411 MULTILSTM 8 5 0.9224 0.689 0.9563 0.8786 MULTITRANS 2 3 0.9866 0.9462 0.9831 0.9655 MULTITRANS 2 4 0.9855 0.9242 0.9832 0.9681 MULTITRANS 2 5 0.9802 0.8989 0.9609 0.9578 MULTITRANS 4 3 0.9838 0.9329 0.9776 0.9565 MULTITRANS 4 4 0.9836 0.9409 0.9794 0.9541 MULTITRANS 4 5 0.9849 0.9242 0.9865 0.9646 MULTITRANS 8 3 0.9852 0.9555 0.9792 0.942 MULTITRANS 8 4 0.9849 0.9341 0.9839 0.964 MULTITRANS 8 5 0.9839 0.952 0.9678 0.9538 Table 6 Overall performance rank of Multi-task model evaluation, the best sub-task score is ascending order that larger value corresponds to better performance. Table 6 Model Anomaly Detection Anomaly Prediction Air Temperature Electricity Load Score Accuracy F1 Accuracy F1 MSE MAE MSE MAE CNN 7 22 10 14 9 20 3 5 90 MLP 2 20 4 3 7 17 2 2 57 TRANS 24 33 27 32 24 33 24 27 224 Autoformer 5 21 2 2 1 1 1 1 34 Informer 9 32 13 20 23 32 23 31 183 Reformer 11 31 1 4 13 22 7 15 104 M-CNN-2-3 22 12 21 15 10 9 16 8 113 M-CNN-2-4 15 11 8 5 2 10 12 10 73 M-CNN-2-5 22 14 20 18 14 8 15 17 128 M-CNN-4-3 23 15 29 19 18 16 17 16 153 M-CNN-4-4 20 13 23 22 22 21 19 19 159 M-CNN-4-5 17 18 27 23 12 11 20 21 149 M-CNN-8-3 16 11 28 21 19 12 18 18 143 M-CNN-8-4 18 17 7 6 15 13 21 20 117 M-CNN-8-5 19 16 6 8 21 19 22 22 133 M-LSTM-2-3 3 6 18 16 8 5 8 13 77 M-LSTM-2-4 14 9 12 11 11 6 9 7 79 M-LSTM-2-5 13 5 9 13 6 3 5 6 60 M-LSTM-4-3 4 3 11 9 16 15 10 11 79 M-LSTM-4-4 8 4 14 10 5 4 13 12 70 M-LSTM-4-5 1 2 3 1 4 2 4 3 20 M-LSTM-8-3 12 7 17 17 20 18 14 14 119 M-LSTM-8-4 11 8 5 7 17 14 11 9 82 M-LSTM-8-5 6 1 15 12 3 7 6 4 54 M-TRANS-2-3 33 28 30 31 27 27 31 32 239 M-TRANS-2-4 32 24 31 33 25 25 26 23 219 M-TRANS-2-5 25 19 16 28 32 29 27 24 200 M-TRANS-4-3 27 25 22 27 31 26 30 30 218 M-TRANS-4-4 26 27 25 26 28 24 29 26 211 M-TRANS-4-5 30 24 33 30 29 31 28 28 233 M-TRANS-8-3 31 30 24 24 33 28 33 33 236 M-TRANS-8-4 30 26 32 29 30 30 32 29 238 M-TRANS-8-5 28 29 19 25 26 23 25 25 200 Table 7 Comparisons of sub-task performances across different combinations of tasks, the combinations start from Air&Electricity, Anomaly Detection&Prediction, the full tasks include all tasks. All the multi-task models have the same hyperparameter setup that 4 experts and 4 layers are used. Table 7 Model Task Air Electricity Load Anomaly Detection Anomaly Prediction MSE MAE MSE MAE Accuracy F1-Score Accuracy F1-Score LSTM Air&Electricity 0.0901 0.1914 0.5756 0.4683 n/a n/a n/a n/a CNN Air&Electricity 0.0392 0.1476 0.2848 0.3796 n/a n/a n/a n/a Transformer Air&Electricity 0.0086 0.0930 0.1248 0.2781 n/a n/a n/a n/a LSTM Detection&Prediction n/a n/a n/a n/a 0.8153 0.8585 0.9134 0.7448 CNN Detection&Prediction n/a n/a n/a n/a 0.9064 0.8452 0.9509 0.8439 Transformer Detection&Prediction n/a n/a n/a n/a 0.9862 0.9629 0.9845 0.9461 LSTM Air&Elect&Detection 0.0303 0.1517 0.3536 0.4072 0.9598 0.9004 n/a n/a CNN Air&Elect&Detection 0.0213 0.1304 0.2848 0.3838 0.9637 0.8702 n/a n/a Transformer Air&Elect&Detection 0.0110 0.1020 0.1568 0.3311 0.9810 0.9365 n/a n/a LSTM Air&Elect&Prediction 0.0666 0.2034 0.3063 0.4037 n/a n/a 0.9288 0.7841 CNN Air&Elect&Prediction 0.0200 0.1309 0.3124 0.3957 n/a n/a 0.9637 0.8702 Transformer Air&Elect&Prediction 0.0114 0.0998 0.1610 0.3276 n/a n/a 0.9742 0.9094 LSTM Full 0.0178 0.1183 0.2992 0.3906 0.9656 0.861 0.9778 0.9271 CNN Full 0.0665 0.1979 0.3319 0.4074 0.9387 0.7658 0.9544 0.8688 Transformer Full 0.0079 0.0849 0.1288 0.2774 0.9836 0.9409 0.9794 0.9541 Multi-task deep learning for large-scale buildings energy management Rui Wang Conceptualization Data curation Methodology Software Writing \u2013 original draft Writing \u2013 review & editing a Rakiba Rayhana Investigation Validation a Majid Gholami Formal analysis Validation b Omar E. Herrera Supervision b Zheng Liu Conceptualization Supervision Writing \u2013 review & editing a \u204e Walter Mérida Data curation Supervision b a School of Engineering, University of British Columbia, Kelowna, V1V 1V7, Canada School of Engineering University of British Columbia Kelowna V1V 1V7 Canada Schoool of Engineering, University of British Columbia, Kelowna, V1V 1V7, Canada b Clean Energy Research Center, University of British Columbia, Vancouver, V6T 1Z3, Canada Clean Energy Research Center University of British Columbia Vancouver V6T 1Z3 Canada Clean Energy Research Center, University of British Columbia, Vancouver, V6T 1Z3, Canada \u204e Corresponding author. Building energy management acts as the brain of the building, which controls the energy supply based on sensor data and algorithms. However, existing methods only focus on single-task prediction like load forecasting. As more multi-variable data is collected from ubiquitous sensors, building energy management needs to extend functionality from single-task to multi-purpose predictions. This study designs a multi-task learning system to tackle four different tasks: 1. Electricity load forecasting; 2. Air temperature forecasting; 3. Energy anomaly detection; 4. Energy anomaly prediction. A mixture-of-experts framework with the self-attention mechanism is proposed for learning heterogeneous tasks. A new comprehensive dataset has been created with real data to demonstrate the heterogeneous tasks' efficacy of the suggested framework. Extensive experiments are conducted with various deep learning models, which shows our proposed model achieves superior prediction performance overall tasks. Comparative studies are performed to explore the correlations between forecasting and anomaly learning, which reveal the benefits of multi-task learning for heterogeneous tasks. Anomaly detection and prediction both achieve 98% accuracy and 95% F1-score, while the electricity load forecasting single-task error is reduced by almost 60% through the multi-task model. Nonetheless, the tasks' training difficulties and resource consumption are also investigated and the deeper network doesn't ensure better performances. The dataset is open-sourced at: https://github.com/rekingbc/Multi-task-building. Keywords Multitask learning Building energy management Deep learning Anomaly detection Anomaly prediction Data availability Data will be made available on request. Nomenclature Abbreviations LSTM Long short-term memory networks GRU Gated recurrent unit CNN Convolutional Neural Network PSO Particle Swarm Optimization BEMS Building energy management system GBRT Multitask learning MPC Model predictive control MTL Multitask learning SVM Support vector machine MLP Multilayer perception RNN Recurrent neural network LOF Local outlier factor Variables f ( X t , θ t ) Machine learning model of subtask t L i Train loss of task i θ t Model parameters of task t δ i ( t ) Inverse training rate of task i at timestep t G r a d θ i ( t ) gradient of task i at timestep t Q Query tensor of self-attention module K Key tensor of self-attention module V Value tensor of self-attention module 1 Introduction Building energy consumption accounts for a third of global C O 2 emissions [1], while the energy demand keeps growing at 3-4% per year. To improve energy efficiency, the building energy management system (BEMS) is widely adopted for optimal energy flow scheduling based on monitoring and algorithms. The BEMS is a multi-purpose system with functionalities like load forecasting, anomaly detection, optimal control, etc [2]. Although the data channels increase with ubiquitous sensors, most existing researches only focus on single tasks, such as model predictive control (MPC) [3], energy anomaly detection [4,5] etc. Among these tasks, load forecasting is critical to provide estimates of future energy consumption that energy supply could be adapted to actual demand. Extensive studies [6] have already developed various approaches to predict time series from different energy units, such as the HVAC systems, natural gas supply, cooling loads, etc. On the other hand, abnormal energy consumption is also widely studied for better energy utilization and infrastructure maintenance. The anomalous energy patterns provide cautious information about current energy consumption behaviors, which could reveal potential problems like malfunction of electricity infrastructure, and energy waste of end users [7]. The anomaly detection needs a classification model or regression-based classification while the forecasting model relies on sequential time series prediction. The difference in model structures incurs difficulty in combinations of forecasting and anomaly detection, but it is beneficial for BEMS that energy efficiency and health inspection are both considered in one framework, which reduces the maintenance cost. Most multi-task learning (MTL) frameworks only solve one type of machine learning task like load forecasting, nevertheless, anomaly detection is always ignored in building energy applications. One reason is the lack of anomaly labels since manual annotations are hard to get. Without anomaly labels, the anomaly detection would not have an accuracy benchmark to justify if it is a good or bad model. Furthermore, combining unsupervised anomaly detection and supervised load forecasting into one framework regarding the model structure difference is more complicated. Currently, multi-task load forecasting attracts more studies due to the increasing number of sensors in energy systems. For example, heating and cooling devices of integrated energy systems are adopted into the MTL system for load forecasting [8]. The hybrid MTL network could achieve good performance for all tasks. Meanwhile, the multiple buildings' load forecasting could also be formulated as MTL model [9], the sharing network parameters consider spatial feature relations across different buildings. Apart from building-level data analytics, fine-grained data like appliance usage [10], and occupants' behaviors [11] are also good cases of MTL studies. Various AI methodologies [7] have been studied to improve energy anomaly detection across different application levels, such as appliance usage, building energy supply, and occupancy detection. However acquiring annotated anomaly labels requires huge manual efforts, and most datasets are imbalanced with sparse labels. The anomaly energy patterns reveal additional challenges to load forecasting as uncertainty increases, which may disturb the underlying temporal feature learning. Existing researches only focus on anomaly detection, but in this study, anomaly prediction is also studied since it is an important indicator for future states, while anomaly detection only reflects the historical pattern that already happened. The anomaly prediction is similar to load forecasting as both tasks generate future labels. How to combine these tasks under one framework is the main focus of this research, and whether MTL helps heterogeneous tasks or undermines single-task learning is investigated. To fill the blank area of no research on heterogeneous machine learning tasks for building energy applications, this study designs a multi-task learning framework for heterogeneous building energy data learning tasks. To our best knowledge, it is the first time to combine anomaly learning and load forecasting in one framework. The main contributions of this study are summarized as follows: \u2022 A new publicly accessible dataset for heterogeneous multi-task learning of building energy data is created. This will facilitate the researchers in the field to conduct and advance the research. \u2022 A new multi-task learning framework is designed to use multi-gate feature fusion to generate abundant low-level features while a sparse-constrained transformer model is applied to improve all tasks' prediction accuracy \u2022 Extensive comparative experiments are conducted with various deep learning models, which provide insightful analysis of multi-task learning on building energy data. The rest of the paper is organized as follows. Section 2 presents the related work of multi-task building energy applications. Section 4 elaborates on the design of the multi-task learning framework and the multi-gate mixture of attention learning algorithm. Section 3 introduces the dataset creation and preprocessing for multitasking energy learning. Section 5 describes the experimental results and data analysis. Lastly, Section 6 summarizes the findings and discusses the future directions. 2 Related work In building energy data analytics, there are two types of machine learning tasks: 1. Time series forecasting, 2. Time series anomaly detection. These two tasks are different from each other and rarely considered under the same application. To our knowledge, it is the first time to combine these two types of tasks into one framework for our study. Before diving into our methodologies, we briefly review existing MTL research for energy data and identify the gaps from current methods to our ultimate goal of an all-in-one system. 2.1 Energy multi-task learning Modern smart buildings are equipped with multiple types of sensors, such as heating, cooling, electricity load, gas load etc. There are massive amounts of multi-variable data generated from these sensors, and multi-task prediction models are developed to address high-dimension time series prediction. For the multi-energy system, the coupling relations between different energy loads are frequently explored through the MTL framework [8,12,13]. Wang Xuan et al. [8] combined the convolutional neural network (CNN) with the gated recurrent unit (GRU) network for multivariable feature extraction of the integrated energy system (IES). To enhance the coupling relations across different energy loads like power and heat, a mechanism called homoscedastic uncertainty (HUMTL) is proposed to make better predictions for all tasks. HUMTL acts as subtask training loss normalization to avoid one task dominating other task training. The final outputs for tasks are generated by the stacked ensemble model of Gradient Boosted Regression Trees (GBRT), which shows better prediction accuracy compared with the single-task model. Another study [12] of multi-energy feature infusion is proposed for IES. The multi-resource energy data are filtered through synthesis correlation analysis (SCA) to extract multi-level features. The fluctuating sub-energy-loads issue is mitigated by load precipitation factor (LPF), to build normalized sub-load input. The benefit of using these two feature engineering methods is to reduce the impact of load fluctuations across different tasks, and unrelated features are parsed out for efficient deep learning model training. The SCA and LPF are shown to improve the prediction accuracy by around 1%. Apart from evaluation of the prediction accuracy of MTL models, Zhang et al. [13] also compare the training time of MTL and single-task models that MTL could reduce the training time significantly compared to the sum of single-task training time. Guo et al. [14] apply the Maximum Information Coefficient (MIC) to combine electricity load, cooling, and heating loads with different correlation factors season by season. For IES applications, the mentioned methodologies mostly focus on feature transformation and ensemble design on basic models such as LSTM. The differences between tasks are only the data distribution of time series and sub-task models are the same structure. For building energy applications, multi-task learning is frequently composed of two tasks, a main task and an auxiliary task. S. Zhang et al. [15] set the electricity load forecasting as the main task, while other context information like weather and date features are predicted as one auxiliary task. The main task of load forecasting is improved by 6% compared to traditional single-task machine learning models. Liu et al. [16] also apply a main-auxiliary task model to predict building electricity loads. The weight distribution of subtasks is controlled through a hyperparameter c. The tuning of task weighting improves the prediction accuracy by at least 5%. Instead of using hard shared parameters for MTL, Xiao et al. [9] propose a selected-share-private MTL framework, which only shares the parameters of one branch across different buildings' load forecasting, another private branch is also trained for local prediction. The experiments show better performance of prediction accuracy than the traditional bottom-shared mechanism. The buildings' HVAC systems are heavily impacted by meteorological factors and air temperature could be an important factor. D. Qial et al. [17] applied spatio-temporal feature extraction to environmental measurement data, so the MTL model could generate more accurate predictions of air temperature. The deep learning models from the mentioned studies normally use basic deep learning models like LSTM or GRU, and the benchmark models are also constrained to basic models such as ARIMA, and CNN. The household energy consumption is composed of multiple appliances that MTL could utilize to generate appliance-level energy data forecasting. Wang et al. [18] constructs the MTL framework through bottom-up design, where the appliance's data are fed into shared GRU modules. The MTL model is efficient in exploring the correlations across intermittent appliances' usage and the overall electricity load prediction accuracy is improved significantly. The Non-intrusive load monitoring (NILM) could decompose the household electricity load to appliance level consumptions, which allows the MTL model to predict load status and energy disaggregation simultaneously. An MTL framework combined with NIKM [19] is proposed to improve the satisfaction ratio by around 50%, but the MTL framework only uses the basic deep learning model of GRU. Apart from building energy applications, the MTL is also widely applied to other energy applications like renewable energy, energy price marketing etc. T. Shireen et al. [20] apply iterative MTL to solar panel outputs forecasting for school buildings. The iterative training scheme could mitigate the historical data from some solar panels, which is flexible for practical model training. The electricity price bidding is studied with MTL deep reinforcement learning [21], where the price prediction task and bidding regression task are computed together under the same architecture. The training efficiency and stability are improved under this framework, which indicates the multi-channel information fusion of MTL helps the decision-making in the electricity retailing market. Cloud computing data center electricity usage could also be reduced through the MTL model, as the joint learning of different task features could benefit the overall prediction performance [22]. Instead of only using building energy data, J. Liu et al. [23] collect the mobility data from covid 19 data sources to help load forecasting of region energy consumptions. The parameter-sharing scheme of multi-task learning enables the knowledge transfer between different load forecasting tasks. Some researchers propose to use the two-task model to improve the main task of load forecasting. 2.2 Anomaly detection and prediction Anomaly pattern classification is critical for sustainable building energy operations. The scenarios of anomaly usage of building energy include sharp fluctuations of energy load, stale sensor data, and missing sensor values. There are three categories of anomaly patterns: 1. point anomaly; 2. contextual anomalies; 3. collective anomalies [24]. Contextual anomalies are common in time series of energy data, where the sharp value change reflects a specific event in a time window. Collective anomalies are also frequently happening in energy consumption data, where the sub-sequence of data points shows strong evidence of abnormal behaviors like zero energy consumption. Due to the lack of anomaly labels, most researchers are using unsupervised or semi-supervised learning to address anomaly detection. C. Fan et al. [4] use autoencoder to perform unsupervised anomaly detection of building operation data. Since the anomaly labels are not available, the detection criteria are defined through the threshold of ensemble predictions that 5% of whole data points are assumed to be abnormal. Another ensemble framework of anomaly detection is proposed with pattern-based classifier [5] that anomaly labels are provided to measure the true and false rates. The framework adopts various base learners like autoencoder, support vector regression, and random forests. Contextual and collective anomalies are learned with sliding windows that experimental results show improvement than pure machine learning model without feature engineering. Clustering with particle swarm optimization (PSO) of energy features could also be utilized to detect anomalies [25]. The energy time series are processed with PSO to generate K-cluster features, and the local outlier factor (LOF) is used to detect the anomaly points. Only visual analysis of detected anomaly patterns is conducted in this work since no anomaly labels are available in the dataset. The deep learning model is also capable of unsupervised anomaly energy detection load forecasting of the RNN model is used for prediction, and quantile regression is used to judge if the actual value deviates from the normal pattern. The normal way is the output generated from the RNN model, which is trained on historical energy consumption. However, the evaluation of detection results is still limited to visual analysis. The lack of anomaly labels makes evaluating anomaly detection performance difficult in that only case studies of the anomaly sequences could reflect the effectiveness. Supervised learning of anomaly detection could be handled by Convolutional neural network (CNN) directly in the work [26], which transforms the time series into 2D images for feature extraction. The CNN models are imported from other mature models, such as SqueezeNet [27] and AlexNet [28], with its initial parameters for transfer learning. For multiple buildings' energy anomaly detection, federated learning is adopted with LSTM network [29]. The anomaly labels are provided with specific anomaly types of collective anomalies and contextual anomalies. The federated learning outperforms other single-model training in supervised anomaly detection. Anomaly prediction is rarely studied compared to anomaly detection. Due to the lack of anomaly labels, most studies apply unsupervised learning models like clustering to distinguish abnormal and normal patterns. Anomaly prediction not only learns data patterns but also needs forecasting capability, which may rely on a load forecasting model. The SAX patterns [30] are used for energy time series pattern representation that the forecasted future time series would be translated into this format. The anomaly criteria are based on the frequency of the SAX patterns' appearance from historical records; the rarely-happened pattern is assumed to be an anomaly [31]. The benefit of anomaly prediction is to bring the power of load forecasting for anomaly estimation in the future. It could provide cautious signals ahead and let building operations prepare early for suspicious energy pattern changes. This workflow is extended by federated learning [32] that load forecasting is in safe, private mode and anomaly pattern learning is bounded in data owner places. The data privacy risk is reduced in this distributed machine learning framework as no building energy data is shared across each other. Based on the literature review, we find there are several gaps in existing methodologies and the objective of multi-purpose building energy management: \u2022 The MTL framework is mostly designed for the same type of machine learning task, especially focused on load forecasting only, which constrains the capabilities of energy applications such as energy device health monitoring. \u2022 Most researchers use basic sequential deep learning models such as LSTM or GRU since MTL is already complicated with a combination of different tasks. However, there is still a potential opportunity to improve prediction accuracy with more advanced deep learning model design. \u2022 Although anomaly detection is widely studied as a single-task model for energy application, anomaly prediction is easily ignored. Future anomaly prediction may bring more valuable information than anomaly detection. \u2022 The training difficulties of different tasks are mostly ignored in existing building energy multi-task applications, while the resource consumption is also not given enough attention.\u201d To fill the gaps in existing methodologies and our objective of creating multi-purpose energy data analytics, we propose our heterogeneous multi-task learning framework with a specific inter-task weighting mechanism and sparsity-constrained transformer model design. In section 4, the MTL framework and deep learning model are introduced. Extensive experiments and comparative analysis are conducted in section 5. 3 Dataset and preprocessing The multi-task energy learning (MTEL) dataset is generated from the open energy anomaly detection competition LEAD 1.0 [33]. This competition provides a large-scale building energy dataset of 1413 energy meters with 8784[366 days x 24 hours] measurements. Anomaly labels are annotated for each data entry to support supervised learning. The LEAD 1.0 dataset is a preprocessed subset from the ASHRAE dataset [34], which includes 1636 commercial buildings' data. The data from these two datasets are not trainable directly, and also not created for multi-task training that it needs preprocessing to create our new dataset called MTEL to facilitate heterogeneous multi-task learning. In this section, we introduce the building data fields first, then the preprocessing steps are elaborated. The correlation between electricity load and anomaly series is studied. 3.1 Data features The original LEAD 1.0 dataset provides 49 features of around 200 buildings' related data for supervised anomaly detection. These features include building metadata like id square feet, energy loads, weather data, and statistical aggregation. There are 5 main categories across these features, which are listed in the following Table 1 . The MTEL dataset parses 31 features out of 49 by calculating the correlation matrix across all feature columns [35]. Seventeen features are highly correlated with the remaining features, and the feature correlation heatmap is visualized in Fig. 5. The person correlation is calculated across all features and the correlation threshold is set as 0.95 to indicate if two features are correlated. The blue entries do not stay on the diagonal line indicating the correlation across other features. For example, the max and min values of air temperatures are correlated. The gte-metering time stamps correlate with weekday, month, and hour features. These features are redundant which may cause more computing resource consumption. Among these features, three features are selected for multi-task learning: 1. Electricity load; 2. Anomaly labels; 3. Air temperature. The electricity load and anomaly labels are already utilized by previous datasets, and the air temperature is a proxy variable for weather data, which may heavily impact the building energy system [9]. 3.2 Preprocessing To generate a trainable dataset for multi-target predictions, there are still some issues to resolve with the original LEAD 1.0 dataset: 1. Some building meterings miss months of data, which makes the dataset imbalanced across buildings 2. The numerical value scales of features are different across buildings, which needs normalization 3. The temporal order of the building energy data needs to be sorted out for sequential processing First, the data entries are grouped by building ID, and then the preprocessing module sorts the building time series in time order, which is one year from 2016-01-01 to 2016-12-31. If the time series is complete, the dimension of each building's data frame should be 8784 x 31 . If the building has too many missing values, it would be dropped since the imputation may introduce a strong bias to the data. In the original LEAD 1.0 dataset, some buildings have months of missing data entries, which is not practical to include in our dataset. For buildings with limited missing entries, the imputation uses the nearby entries to fill. There are 187 buildings with complete multivariable features after imputation. Finally, the time series is normalized along each feature column through a standard scaler with 0 mean value and one standard deviation. The standard scaler is formulated as follows: (1) z = ( x − μ ) σ the mean value μ and the standard deviation σ is calculated along with each feature column independently. The data preprocessing procedure is visualized in Fig. 1 The dataset includes two sets of variables, one is the multivariable time series, and another is the prediction labels. The prediction labels are in two formats: 1. 24-hour time series for electricity load forecasting and air temperature forecasting; 2. The binary value for anomaly prediction and detection. The length of the input time series is 48 hours, and the prediction length is 24. The anomaly prediction labels correspond to the 24-hour-ahead time series, while the anomaly detection is to detect past 48-hour anomalies. Three buildings' normalized electricity loads are visualized in Fig. 2 . From this graph, there are two anomaly patterns found. Firstly, the frequent high spikes indicate high fluctuations in energy consumption. The second ever-lasting zero values are located in the orange line of building 117, revealing the sensor's malfunction state. The sampled air temperatures are visualized in Fig. 3 . From this graph, the air temperatures have limited deviations in that most values are bound in the range of −2 to 2, although there are some deep spikes in building 992 and building 117 with blue and orange lines, respectively. Air temperature forecasting is believed to be easier to learn than electricity load forecasting. 3.3 Task correlation The electricity load of the building has frequent anomaly patterns, which are visualized in Fig. 4 , for example. There are two types of anomaly patterns: 1. The point anomaly is like a spike of electricity load; and 2. The missing value of electricity load. The anomaly patterns are annotated in Fig. 6 and Fig. 7 . The trends of air temperature and electricity load are similar in that the higher electricity consumption corresponds to higher air temperature. Through the temporal pattern analysis of the multi-variable data, it is believed that anomaly tasks and time series prediction are correlated and may benefit each other. The spikes of the time series correspond to the point anomalies, and the vertical line of the time series with the same values are assumed to be collective anomalies. In this study, even if there is one anomaly point in the 24-hour future or 48-hour past time window, the whole time series is assumed to be an anomaly. Since the electricity load has too many anomaly patterns, it is hard to get a high correlation between air temperature and electricity load. The main challenge of multi-task learning is to resolve the anomaly pattern identification. The electricity load and anomaly detection&prediction are the main tasks. The air temperature doesn't have practical usage for building energy management as it is an environmental and meteorological observation, but it is still selected for our multi-task learning as it is quite regular compared to the other three tasks. There could be strong performance differences across these tasks. 4 Methodology This section elaborates on the design of a multitask multi-gate system for energy forecasting and anomaly learning. The multitask learning problem is described to introduce the objective of the framework. Then the system architecture with multi-gate feature selection is described to illustrate the gate mechanism for tasks' feature learning. Finally, feature extraction is introduced as the main body of the machine learning model. The weighted gradient backpropagation is discussed to understand the balance between different tasks. 4.1 Problem statement The building energy management is designed to handle four tasks: 1. Power consumption prediction; 2. Air temperature prediction; 3. Anomaly detection; 4. Anomaly prediction. The first two tasks are time series prediction problems. The last two tasks are time series classification problems. Specifically, anomaly detection and prediction are also different as one is to classify historical time series, and one is to organize future time series. Fig. 8 illustrates the difference. Each task is formulated as a learning problem: (2) Y t = f ( X t , θ t ) where Y t is the target variable for task t, f is learning model, X t is task t learning features, θ t is the task t model parameters. The differences between tasks are the output labels that forecast tasks using sequences of target variables in future time windows; anomaly learning tasks use binary anomaly labels as output labels. The multi-task learning problem could be formulated as minimizing the overall task losses: (3) m i n θ ∑ i = 0 t L i ( y i , f ( x i , θ i ) ) where the L i is the loss function for task i. The data input is shared across all tasks, and all features are utilized for each subtask. Although the tasks are trained under the same framework with shared feature space, this process has several challenges. First, the difficulties of tasks are not the same as the training errors are in different scales. Second, the difficult task may drag the easy task to slow training since the backpropagations to the bottom feature module are shared. We design a mixture of attention frameworks with specific optimizations to address multi-tasking challenges. The input data for the multi-task and single-task models are both in the same format, which is 31 feature columns with a time horizon of 48 hours. The output of air temperature and electricity load forecasting is the 24-hour numerical sequence, and the anomaly detection&prediction output is the 0-1 binary classification label. 4.2 System architecture The proposed architecture utilized the encoder-decoder flow to process the building energy data. Based on only one input feature tensor, which is the 31-feature column with 48-hour steps, the multi-encoder-decoder architecture generates multiple feature maps for each task. Every task has its decoder to select feature combinations through its linear gate. The multi-encoder-decoder architecture is visualized in Fig. 9 , the building sensor and environmental data with 31-column features are ingested into each encoder. Every encoder generates a feature map, then the decoder processes the feature maps with linear transformation to generate input for itself. The predictions generated from each decoder correspond to one specific task. The number of encoders is the same as the number of experts, which is a hyperparameter to set up. The linear gate of the decoder assigned different weights to the feature maps. The weights are learned through backpropagation, which is dynamic in the training process. The multi-gate mixture of expert architecture [36] is utilized in our framework, which is visualized in Fig. 10 . The feature selection mechanism of a linear gate is formulated as follows: (4) G a t e t ( X ) = s o f t m a x ( W g t X ) where the linear gate accepts the data input to generate a vector with a summation of 1. The gate function would multiply with the encoder feature maps to produce a new input for task prediction; the input for task t with k encoders is: (5) F e a t t = ∑ i = 0 k G a t e t ( x ) i E n c i ( x ) y t = D e c t ( F e a t t ) where the encoder i output is E n c i ( X ) , the decoder feature input is F e a t t , the decoder network is D e c t . The linear gate function is a learnable one-layer neural network, which makes the feature extraction a soft combination of encoder features. Meanwhile, since each task decoder has its linear gate function, the feature extraction is independent for each task, which could improve the capability of representation learning of the sub-task. 4.3 Algorithm The multi-task learning framework faces two challenges: 1. Efficient training of sub-tasks as the multi-task model is much larger than single-task model; 2. Balance the learning speed for each task as difficulty of learning varies across sub-tasks. In this paper, we propose to use the transformer model as the base expert model and the gradnorm [37] to balance the learning speed of different tasks. As the dataset provides a multi-variable time series with 31 feature dimensions, it is challenging to learn effective feature representations for different tasks. The CNN and LSTM models are also utilized for experimental comparisons. The CNN model [38] is good at spatial feature extraction while LSTM [39] is good at temporal feature extraction. Transformer network [40] has been widely used for various machine learning tasks with superior prediction performances, such as computer vision [41] and natural language processing [42]. In this work, we also use the multi-head attention mechanism of the transformer for end-to-end learning. The self-attention mechanism is defined as follows: (6) M u l t i h e a d ( Q , K , V ) = c o n c a t ( h e a d 1 , \u2026 , h e a d n ) W o Q, K, and V are the query, keys and values transformed from the input. The head is divided as a sub-component for independent attention learning. W o is the weight matrix to combine the multi-head attention. Each head corresponds to an attention learning sub-module: (7) h e a d i = a t t e n t i o n ( Q W i Q , K W i K , V W i V ) where the weight matrices W i Q , W i K , W i V are linear projections for each value. The attention function is a softmax learning of scaled dot production of Q, K and multiplied by V. The scale is a factor designed to resolve the vanishing gradients problem (8) a t t e n t i o n ( Q , K , V ) = s o f t m a x ( Q K T d k ) V Since the transformer architecture consumes a lot of computing resources than other deep learning models. We adopt two solutions to mitigate this issue: 1. Use transformer decoder [42] that only the self-attention module is adopted to simplify the architecture; 2. Reduce the size of attention matrices for less memory and CPU consumption through low-rank approximations with linear projections [43]. Two linear projections S i , T i for key and value matrices are created to reduce the attention matrices' dimensions. (9) h e a d i = a t t e n t i o n ( Q W i Q , S i K W i K , T i V W i V ) = s o f t m a x ( Q W i Q ( S i K W i K ) T d k ) T ˙ i V W i V The key and value matrices were nxd dimensions before the additional linear projections. After the low-rank approximation, the size is reduced to kxd. The n is the length of time steps of the time series, which is 48-hours in our study. The k is a hyperparameter smaller than n, which is set as half of the original sequence length n. It is expected to reduce the transformer model size by 50% after the approximation of attention matrices is applied. Furthermore, the complexity of the attention matrice product is reduced from O ( N 2 ) to O ( N ) . Although the deep learning model is already optimized for computation efficiency, the training speed's difference of sub-tasks may cause additional problems in that easy tasks could converge faster and difficult task could stuck in local optimal. To tackle this issue, we utilize the gradnorm [37] method to balance the gradients of different tasks. First, the multitask loss could be formulated as a linear combination of subtasks' losses: (10) L ( t ) = ∑ i = 0 k w i L i ( t ) where the L ( t ) is the multi-task general loss at timestep t, the L i ( t ) is the loss of subtask i at timestep t, and the weight is defined as w i per subtask. To measure the learning speed, the loss ratio is created by dividing the current loss value by the 0-step loss value: (11) L i ˜ ( t ) = L i ( t ) / L i ( 0 ) The learning speed could be transformed to task loss ratio through inverse training rate: (12) δ i ( t ) = L i ˜ ( t ) / E i [ L i ˜ ( t ) ] where the E i [ L i ˜ ( t ) ] is the cumulative mean of all tasks' relative learning speed. The δ i ( t ) is the inverse training rate to multiple by task i gradient. The gradient is defined by: (13) G r a d θ i ( t ) = | | ∇ θ w i L i ( t ) | | 2 G r a d θ \u203e ( t ) = E i [ G r a d θ i ( t ) ] The grad norm mean value is defined as G r a d θ \u203e ( t ) , which is multiplied by inverse training rate δ i ( t ) with exponential α, which control the strength to pull the extreme gradient to normal scale. The targe gradient of task i is defined as G r a d θ \u203e ( t ) × [ δ i ( t ) ] α . The weight w i is updated with L1 loss of the differential value between the actual gradient norm and target gradient norm: (14) L g r a d ( t ; w i ( t ) ) = ∑ i | G r a d θ i ( t ) − G r a d θ \u203e ( t ) × [ δ i ( t ) ] α | 2 If there was an increasing gap between the actual gradient and target gradient, the slower task's loss weight w i is adjusted with more gradients. The α is a hyperparameter to control the strength of gradient normalization that pulls the exceeding gradient back to the normal scale. In this study, this pulling strength of α is set as constant value 1.5, which is a default value for gradnorm. The full procedure of a multi-gate mixture of linear attention is described at Algorithm 1 . In summary, the multi-task learning procedure is based on a mixture of expert (MOE) architecture. The multi-gate feature selection mechanism is designed to parse the temporal multivariate features for specific tasks. The gradnorm backpropagation mechanism is applied to balance the learning progress across different tasks. Since the training losses of time series forecasting and anomaly label prediction may appear on different scales, the balance through the L2 norm of gradients is necessary to handle the problem. 5 Experiments To evaluate the performance of multi-task models, we conduct three sets of experiments: 1. Run suitable deep learning models for each single task; 2. Run multi-task models with expert models, such as LSTM, CNN, and linear transformers; 3. Combinations of different subtasks with different expert models. The experiment configurations, evaluation metrics, and model performances are discussed in this section. The input data to both single-task and multi-task models is the same as a 31-feature column with a 48-hour horizon steps tensor. The numerical value is normalized for each column through standard deviation normalization, which is already elaborated in the section 3. 5.1 Multi-task training configuration The four tasks of building energy data analytics could be categorized into two groups: 1. Time series forecasting for power load and air temperature; 2. Time series classification for anomaly detection and prediction. Each category has its evaluation metrics. For time series forecasting, two evaluation metrics are adopted for performance measurement, MSE, and MAE, which are defined as: (15) M S E = 1 N ∑ i = 1 N ( y i − y i ˆ ) 2 The MAE is defined as: (16) M A E = 1 N ∑ i = 1 N | y i − y i ˆ | The anomaly detection and prediction results are measured through accuracy and F-1 score. Since anomaly labels are rare compared to normal labels, the imbalance of classification labels may cause biased measurement through accuracy. The F1 score is defined as: (17) F 1 = 2 \u204e p r e c i s i o n \u204e r e c a l l p r e c i s i o n + r e c a l l p r e c i s i o n = T P T P + F P r e c a l l = T P T P + F N where the TP is true positive, and FP is false positive. FN is false negative. There are three configurations of the multitask framework to set up with a deep learning model. First, how many experts are used to extract energy data features? Secondly, how many layers of the basic deep learning module? Thirdly, which deep learning model could produce the best results across all tasks? Single-task learning is also explored to understand if the multitask framework improves prediction accuracy from the isolated single-task model. There are several deep learning models utilized for single-task learning: LSTM, CNN, Transformer, Autoformer [44], Informer [45], Reformer [46] and multi-layer perception (MLP), while long-short-term memory (LSTM) is only used for time series forecasting. Among these models, autoformer, informer, and reformer achieved state-of-art results across multiple benchmarks. The multi-task framework has two modules named encoder and decoder, each module is a sub-neural-network. The sub-neural-network uses LSTM, CNN, and our proposed linear attention transformer. Nine hyperparameter configurations are used for each multi-task encoder-decoder model, which is generated from the selection of expert size 2, 4, 8 and deep learning layers 3, 4, 5. Table 2 depicts the detailed network configurations. The hyperparameters of multitask learning are listed in Table 3 , where the ADAM [47] optimizer is used to control the learning rate. 5.2 Time series forecasting The forecasting results of electricity load and air temperature are summarized in Table 4 . There is a significant difference that air temperature forecasting is much easier than electricity load forecasting as the best MSE is less than 0.01, which is much lower than 0.3 MSE of electricity consumption. Furthermore, it is found that all models perform well in air temperature forecasting. From the visualized data pattern in Fig. 3, the air temperature is bounded in a limited range with a significant recurring pattern. On the contrary, electricity consumption forecasting is very hard, and all models except transformers get similar results of 0.3 and 0.4 for MSE and MAE. For simple air temperature forecasting, the single-task transformer gets the best MAE while for difficult electricity forecasting, the multitask transformer achieves the best MSE and MAE. The autoformer and reformer couldn't get good prediction results on electricity load forecasting, and the informer got good results similar to the transformer. There are two reasons that these two models failed: 1. There are many time stamps feature columns like day, month, and year, which introduce noise to the sequence position encoding, which is based on one date column only in its original design; 2. The irregular patterns of electricity load are more frequent than other normal time series, which might make complicated models like autoformer hard to converge. The single-task transformer gets an MSE of 0.1869 for the power consumption task, which is almost half of the multi-task CNN and MultiLSTM. Nonetheless, the Multi-transformer reduces the MSE to 0.117, which is a significant improvement that the MSE error is reduced by almost 60%. Meanwhile, the multitask-cnn model outperforms the single-task CNN model and the MSE is reduced by 33%. The Multitask LSTM reduces the MSE by 10% from single-task LSTM. These improvements indicate that the multitask framework could benefit specific hard tasks through shared feature learning since the subtasks correlate at feature and label spaces. The prediction of daily ahead time series is visualized in Fig. 12. The figure shows the tight fitting of the air temperature predictions that the error gap is almost invisible. Meanwhile, the electricity load forecasting shows a larger error gap, which means that it is hard to fit regression. 5.3 Anomaly detection and prediction Anomaly detection is assumed to be easier than anomaly prediction since the detection task is a classification of happening data, while anomaly prediction is a prediction of unhappening data. However, the metrics of Table 5 got the opposite results. For single-task models, CNN and Transformer both get better accuracy of prediction than detection. Meanwhile, under the same encoder and layer configurations, most multitask models get better accuracy and F-1 score. This counterintuitive result indicates that temporal pattern learning pulls the prediction and detection into the same level of difficulty regardless of the multitasking or single-task mode. The multitask transformer model proposed by us achieves the three best results out of the four metrics in Table 5 while single-task transformer gets the best F1-score of anomaly detection. The LSTM and CNN models are less competitive in anomaly learning tasks although they also achieve high accuracies over 95%. The autoformer and reformer also could not get good results on anomaly prediction. The reason could be the same with electricity load forecasting. Furthermore, the autoformer and reformer shows better performance on long-distance sequence predictions, which might not be suitable for 0-1 anomaly label prediction. The autoformer and reformer couldn't get good prediction results on anomaly prediction task, but for anomaly detection, these two models could still get good results. This significant difference indicates that the autoformer and reformer lacks the capability of forecasting future values, which might be heavily impacted by the many timestamp columns which add noise. The original models only use one column of date for position encoding, but our dataset have multiple date related columns such as {hour, weekday, month, year, is_holiday, gte_hour, gte_weekday, gte_month, gte_meter_hour, gte_meter_weekday, gte_meter_month}. The multitask transformer with two encoders outperforms the same model with 4 and 8 encoders for both anomaly prediction and detection, which means two experts are good enough for anomaly prediction and detection. But the models with four and eight experts are also achieving good results with over 98% accuracy though not the best. The expert number growth doesn't result in overfitting, which indicates the effectiveness of multigate feature selection which may trim the redundant features. On the other hand, the single-task transformer model overperforms all CNN and LSTM models including multitask models, which reflects the powerful learning capability of the self-attention mechanism. To validate if the multitask framework is better than the single-task model, we only need to compare the Multitask CNN and CNN, Multitask Transformer and Transformer. The comparisons reveal the superior performances of multitask models, especially CNN models which are improved around 7% accuracy by multitask framework. Furthermore, LSTM is unsuitable for classification tasks because the prediction is in binary 0-1 values other than sequential outputs. The CNN is utilized as a decoder to process LSTM features, most MultiLSTM models produce better anomaly prediction scores than anomaly detection which indicates the temporal features are beneficial for the prediction task. 5.4 Performance analysis The performance results of different models are visualized in Fig. 15 across all tasks. The green lines correspond to the results of multitask transformers, and for all tasks, the multitask transformers show the best performances on most configurations of experts and layers. Multitask CNN models achieve second-best performances across all tasks, especially in the metric of anomaly prediction accuracy, which surpasses multitask transformers with four experts and three layers. The performances of multitask LSTM are unstable, and the corresponding orange lines are wiggly. In contrast, the performances of multitasking transformers are very similar. No evidence shows that the more encoders and layers, the better performance. For air temperature forecasting, models with four encoders show better performances, while for power consumption, models with eight encoders and three layers show better performance. The models with four encoders perform better anomaly prediction and detection tasks regardless of the model types. Deep learning models with different layers are expected to show dramatically different prediction performances. However, multitask transformer models achieve very similar results across all tasks. Meanwhile, more expert encoders are expected to extract more diversified features, which is assumed to benefit the prediction results. But from the metrics shown in Fig. 15e and Fig. 15f, the models with eight experts got deteriorated performances. Although the hyperparameters of layer and expert numbers don't impact the prediction performance of multi-task models, the expert model architecture selection determines the overall performance. For example, in the electricity load forecasting of Fig. 15c, the transformer architecture results in more than 50% error reductions from MultiCNN and MultiLSTM. The MultiCNN achieves good anomaly prediction accuracy and f1-score, which indicates the anomaly prediction task is suitable for sparse feature extraction from CNN architecture. The best prediction results of different tasks are achieved by different multi-task models with specific hyperparameters, how to determine the best prediction model is a new challenge for practical applications. In this study, load forecasting and anomaly detection have a reverse evaluation standard that forecasting needs smaller errors while detection&prediction needs larger accuracy. If the forecasting error is used as a divisor to get reverse values like: (18) R e v e r s e M S E = 1 / M S E The overall metrics might be impacted by the forecasting error as the reverse value is not bounded. For example, one reverse MSE like 1 0.0065 = 116.279 is much larger than the 1 0.0303 = 33 of another model's reverse MSE. The small difference in MSE causes a huge difference in reverse value calculation. To ensure the evaluation of multi-task models assign equal weight to each task, we propose a score ranking method. This method sorts the performance ranking for each task and the best performance gets the highest ranking score, which is 33 out of 33. The lowest performance would get 1 out of 33 as a ranking score. The overall performance is based on the summation of four tasks' ranking scores, which are listed in Table 6 . The Multi-task model proposed by us, which uses a linear attention transformer of 2 experts and 3 layers, gets the highest ranking score of 239. The second place is achieved by a multitask transformer with 8 experts and 4 layers. If the weight of each task is different from the other, the summation could be adjusted to assign more weight to the more important task. 5.5 Train procedure analysis Training multitask models is challenging, especially for a heterogeneous combination of time series forecasting and anomaly label classification. The training error difference of air temperature and electricity load forecasting proved the imbalance of tasks' difficulties. To understand the tasks' learning procedures, this study visualizes the training errors along with the training rounds in Fig. 13. The electricity load forecasting is the most difficult for all three multitask models, which is visualized in the green lines. Air temperature forecasting is the easiest task as the error reduces much faster than other tasks and the value is almost nearby 0. The anomaly detection and prediction tasks are similarly hard to learn because the error lines are near each other. The difficulty order of the four tasks could be ranked as Electricity load forecasting > anomaly prediction = anomaly detection > Air temperature prediction. The error values are extracted from the configuration of 4 encoders and 5 layers for MultitaskLSTM, MultitaskCNN, and MultitaskTransformer. The training errors of the Multitask transformer model are much smaller than the other two models. Nevertheless, anomaly prediction and detection tasks' prediction errors are reduced significantly at round 125, which are almost same as air temperature. Computing resource consumption is also an important metric to investigate in this study. Training latency and model size are two factors to evaluate the efficiency of multitask models. The detailed results are visualized across all models in Fig. 14. The transformer consumes much more memory and time than Multitask LSTM and CNN. The Multitask CNN takes only 1/3 time and 1/5 memory of the Multitask transformer under the same hyperparameter setup. The MultiLSTM model consumes the least memory among the three models since the LSTM layers don't need a list of feature extraction filters like CNN and transformer. The training time consumption increased significantly after expert encoders increased to 8 for LSTM and transformer. All models' sizes increased substantially after the expert encoders increased to eight. Based on the prediction performances in Fig. 15, the Multitask CNN is the best choice for efficient training. However, the Multitask transformer has much better prediction accuracy for the most difficult task of electricity load forecasting, which is a guarantee for reliable building energy load forecasting. The multi-task transformer is already simplified through linear low-rank approximation and decoder-only structure, without these two simplications, the memory and computation resource consumption would double than current value. 5.6 Task correlation analysis From the performance analysis, the multi-task models outperform single-task models across most metrics. The benefit of task combination is investigated in this section, to understand how does one task impact another task regarding different evaluation metrics. In our experiment, we select only one set of hyperparameters for the multi-task model, which is 4 experts and 4 layers, to avoid external impact from model size. The combination of sub-tasks includes: 1. Air temperature and electricity load forecasting 2. Anomaly detection and prediction 3. Air temperature, electricity load forecasting, anomaly detection 4. Air temperature, electricity load forecasting, anomaly prediction 5. Full task includes all four sub-tasks The main tasks are electricity load forecasting and anomaly detection & prediction, while air temperature forecasting is an easy task. The prediction results are listed in Table 7 that the multi-task transformer model with only anomaly detection&prediction gets the best anomaly learning results. In contrast, the full-task transformer model gets the best forecasting results. From the comparison between combinations of {air, electricity, anomaly prediction} and {air, electricity, anomaly prediction}, the anomaly prediction shows better improvement than anomaly detection on the air temperature and electricity forecasting, although the difference is tiny. The anomaly detection&prediction performance is improved by air&electricity forecasting on LSTM and CNN models since the combination of 2 tasks {anomaly detection&prediction} has lower prediction accuracy and f-1 score than the combination of 3 tasks {air, electricity, anomaly detection or prediction}. However, for transformer-based multi-task models, the anomaly detection&prediction shows decreased accuracy when two tasks {air, electricity} are added to the multi-task framework. The reason could be the high training complexity of the transformer model makes anomaly tasks converge slower than a simpler 2-task combination of anomaly detection&prediction. Since there are three models for each task combination, we visualize the overall performances through the box plot in Fig. 11 . The combination of 3 tasks air, electricity, anomaly detection achieves the best performance for air temperature forecasting. Both anomaly detection and prediction combined with air temperature forecasting improve the average prediction accuracy of air temperature. For the electricity load task, the full task combination achieves the best performance. The combination with only anomaly detection or prediction also improves the average MSE. For anomaly detection, the combination of 3 tasks air, electricity, detection shows better average performances, although the combination of anomaly detection and prediction tasks with our proposed multi-task transformer model achieves the best results. For anomaly prediction, the full-task model shows better average performance, and the air and electricity forecastings have a significant improvement in average performance on anomaly prediction. The combination of 3 tasks air, electricity, anomaly prediction also improves the accuracy and f1-score of anomaly prediction. In summary, there are several critical findings from our experiments: 1. The task difficulty varies a lot, and the electricity load forecasting is the most difficult, anomaly detection&prediction is medium difficult, air temperature is straightforward, and all deep learning models could achieve good results. 2. The multi-task learning benefits sing-task learning. The correlation of subtasks is proved through the combination of different tasks and single-task results. Including more tasks could bring better average performance. 3. The model with more layers and experts doesn't promise better results. In contrast, for multi-task learning, the model with fewer parameters could outperform large models. The correlation impact across different sub-tasks might enhanced with a simplified model. 4. The base model selection for multi-task learning is essential, and our proposed transformer model could improve the prediction performance by 50% on the most difficult load forecasting. 5. There is a trade-off between model size and prediction accuracy that our simplified sparse transformer multi-task model still has five times more memory consumption than the multi-task CNN model, which still needs more improvement in the future.\u201d 6 Conclusions Building energy management is critical for sustainable building development moving toward a low-carbon society. The multi-channel data streams from building sensors foster the development of multipurpose data analytics. Based on the multivariable building energy data, we propose a new multitask learning framework to handle heterogeneous tasks of forecasting and anomaly learning, which is different than existing methodologies that only address load forecasting tasks. This innovative design with multi-task encoder-decoder architecture extends the capabilities of BEMS to provide more informative analysis from streaming data features. Furthermore, this framework decouples the task feature extraction and prediction tasks' loss calculation, which is extensive to all supervised learning tasks. It is also the first time to combine anomaly detection and anomaly prediction in one framework that anomaly prediction is proven not more difficult than anomaly detection. We generate a new public dataset with anomaly labels to boost the development of anomaly detection and prediction for building energy data. Researchers are encouraged to develop new models to verify their implementations. Extensive experiments are conducted for both multi-task and single-task learning, and the results show the superior prediction performance of our proposed multi-gate mixture of attention model. A critical finding is discovered that multitasking learning benefits the single-task prediction improvement that the most difficult irregular electricity load forecasting error is reduced by almost 60%. The correlation analysis across task combinations also indicates the contribution of multi-tasks to improve single-task predictions. The training procedure of multi-task learning is also investigated, the training difficulty of tasks varies a lot. The multi-task computation resource consumption is also studied and our proposed model consumes much more resources, which needs improvement although sparse simplification is already applied. In summary, multitask learning shows great potential in handling heterogeneous tasks, which is a reliable choice for the data processing of growing sensors equipped in smart buildings. Although multitask learning performs well, several limitations are revealed from the experiment results. First, the consumption of computing resources is high for the multitask learning model, especially for the most powerful transformer model. Second, the large training time may make the framework unsuitable for online learning of building energy data. These shortcomings indicate several future directions for better design of the multitask framework. First, it is worth exploring the methods to reduce the large deep learning models to improve the efficiency of multitasking learning. Hyperparameter optimization is an available choice. Second, the subtask models don't have to be in the same deep learning formatting; more investigation is required to find a solution for a suitable deep learning model choice. The easy task should be assigned with a simple deep-learning model. CRediT authorship contribution statement Rui Wang: Conceptualization, Data curation, Methodology, Software, Writing \u2013 original draft, Writing \u2013 review & editing. Rakiba Rayhana: Investigation, Validation. Majid Gholami: Formal analysis, Validation. Omar E. Herrera: Supervision. Zheng Liu: Conceptualization, Supervision, Writing \u2013 review & editing. Walter Mérida: Data curation, Supervision. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. References [1] IEA Buildings 2022 IEA Paris https://www.iea.org/reports/buildings Iea (2022), buildings, iea, paris. https://www.iea.org/reports/buildings. Accessed: 2022-09-30. [2] D. Mariano-Hernández L. Hernández-Callejo A. Zorita-Lamadrid O. Duque-Pérez F. Santos García A review of strategies for building energy management system: model predictive control, demand side management, optimization, and fault detect & diagnosis J. Build. Eng. 33 2021 101692 D Mariano-Hernández, L Hernández-Callejo, A Zorita-Lamadrid, O Duque-Pérez, and F Santos García. A review of strategies for building energy management system: Model predictive control, demand side management, optimization, and fault detect & diagnosis. Journal of Building Engineering, 33:101692, 2021. [3] Huiliang Zhang Sayani Seal Di Wu François Bouffard Benoit Boulet Building energy management with reinforcement learning and model predictive control: a survey IEEE Access 10 2022 27853 27862 Huiliang Zhang, Sayani Seal, Di Wu, François Bouffard, and Benoit Boulet. Building energy management with reinforcement learning and model predictive control: A survey. IEEE Access, 10:27853\u201327862, 2022. [4] Cheng Fan Fu Xiao Yang Zhao Jiayuan Wang Analytical investigation of autoencoder-based methods for unsupervised anomaly detection in building energy data Appl. Energy 211 2018 1123 1135 Cheng Fan, Fu Xiao, Yang Zhao, and Jiayuan Wang. Analytical investigation of autoencoder-based methods for unsupervised anomaly detection in building energy data. Applied energy, 211:1123\u20131135, 2018. [5] Daniel B. Araya Katarina Grolinger Hany F. ElYamany Miriam A.M. Capretz Girma Bitsuamlak An ensemble learning framework for anomaly detection in building energy consumption Energy Build. 144 2017 191 206 Daniel B Araya, Katarina Grolinger, Hany F ElYamany, Miriam AM Capretz, and Girma Bitsuamlak. An ensemble learning framework for anomaly detection in building energy consumption. Energy and Buildings, 144:191\u2013206, 2017. [6] Liang Zhang Jin Wen Yanfei Li Jianli Chen Yunyang Ye Yangyang Fu William Livingood A review of machine learning in building load prediction Appl. Energy 285 2021 116452 Liang Zhang, Jin Wen, Yanfei Li, Jianli Chen, Yunyang Ye, Yangyang Fu, and William Livingood. A review of machine learning in building load prediction. Applied Energy, 285:116452, 2021. [7] Yassine Himeur Khalida Ghanem Abdullah Alsalemi Faycal Bensaali Abbes Amira Artificial intelligence based anomaly detection of energy consumption in buildings: a review, current trends and new perspectives Appl. Energy 287 2021 116601 Yassine Himeur, Khalida Ghanem, Abdullah Alsalemi, Faycal Bensaali, and Abbes Amira. Artificial intelligence based anomaly detection of energy consumption in buildings: A review, current trends and new perspectives. Applied Energy, 287:116601, 2021. [8] Wang Xuan Wang Shouxiang Zhao Qianyu Wang Shaomin Fu Liwei A multi-energy load prediction model based on deep multi-task learning and ensemble approach for regional integrated energy systems Int. J. Electr. Power Energy Syst. 126 2021 106583 Wang Xuan, Wang Shouxiang, Zhao Qianyu, Wang Shaomin, and Fu Liwei. A multi-energy load prediction model based on deep multi-task learning and ensemble approach for regional integrated energy systems. International Journal of Electrical Power & Energy Systems, 126:106583, 2021. [9] Jiang-Wen Xiao Minghui Cao Hongliang Fang Jinsong Wang Yan-Wu Wang Joint load prediction of multiple buildings using multi-task learning with selected-shared-private mechanism Energy Build. 293 2023 113178 Jiang-Wen Xiao, Minghui Cao, Hongliang Fang, Jinsong Wang, and Yan-Wu Wang. Joint load prediction of multiple buildings using multi-task learning with selected-shared-private mechanism. Energy and Buildings, 293:113178, 2023. [10] Houssem Eddine Degha Fatima Zohra Laallam Bachir Said Intelligent context-awareness system for energy efficiency in smart building based on ontology Sustain. Comput., Inf. Syst. 21 2019 212 233 Houssem Eddine Degha, Fatima Zohra Laallam, and Bachir Said. Intelligent context-awareness system for energy efficiency in smart building based on ontology. Sustainable computing: informatics and systems, 21:212\u2013233, 2019. [11] Yan Zhang Xuemei Bai Franklin P. Mills John C.V. Pezzey Rethinking the role of occupant behavior in building energy performance: a review Energy Build. 172 2018 279 294 Yan Zhang, Xuemei Bai, Franklin P Mills, and John CV Pezzey. Rethinking the role of occupant behavior in building energy performance: A review. Energy and Buildings, 172:279\u2013294, 2018. [12] Mao Tan Chengchen Liao Jie Chen Yijia Cao Rui Wang Yongxin Su A multi-task learning method for multi-energy load forecasting based on synthesis correlation analysis and load participation factor Appl. Energy 343 2023 121177 Mao Tan, Chengchen Liao, Jie Chen, Yijia Cao, Rui Wang, and Yongxin Su. A multi-task learning method for multi-energy load forecasting based on synthesis correlation analysis and load participation factor. Applied Energy, 343:121177, 2023. [13] Linjuan Zhang Jiaqi Shi Lili Wang Changqing Xu Electricity, heat, and gas load forecasting based on deep multitask learning in industrial-park integrated energy system Entropy 22 12 2020 1355 Linjuan Zhang, Jiaqi Shi, Lili Wang, and Changqing Xu. Electricity, heat, and gas load forecasting based on deep multitask learning in industrial-park integrated energy system. Entropy, 22(12):1355, 2020. [14] Yixiu Guo Yong Li Xuebo Qiao Zhenyu Zhang Wangfeng Zhou Yujie Mei Jinjie Lin Yicheng Zhou Yosuke Nakanishi Bilstm multitask learning-based combined load forecasting considering the loads coupling relationship for multienergy system IEEE Trans. Smart Grid 13 5 2022 3481 3492 Yixiu Guo, Yong Li, Xuebo Qiao, Zhenyu Zhang, Wangfeng Zhou, Yujie Mei, Jinjie Lin, Yicheng Zhou, and Yosuke Nakanishi. Bilstm multitask learning-based combined load forecasting considering the loads coupling relationship for multienergy system. IEEE Transactions on Smart Grid, 13(5):3481\u20133492, 2022. [15] Shiyun Zhang Runhuan Chen Jiacheng Cao Jian Tan A cnn and lstm-based multi-task learning architecture for short and medium-term electricity load forecasting Electr. Power Syst. Res. 222 2023 109507 Shiyun Zhang, Runhuan Chen, Jiacheng Cao, and Jian Tan. A cnn and lstm-based multi-task learning architecture for short and medium-term electricity load forecasting. Electric Power Systems Research, 222:109507, 2023. [16] Chien-Liang Liu Chun-Jan Tseng Tzu-Hsuan Huang Jie-Si Yang Kai-Bin Huang A multi-task learning model for building electrical load prediction Energy Build. 278 2023 112601 Chien-Liang Liu, Chun-Jan Tseng, Tzu-Hsuan Huang, Jie-Si Yang, and Kai-Bin Huang. A multi-task learning model for building electrical load prediction. Energy and Buildings, 278:112601, 2023. [17] Dalei Qiao Bilong Shen Xianyong Dong Hao Zheng Wenwen Song Shun Wu Mtl-deep-stf: a multitask learning based deep spatiotemporal fusion model for outdoor air temperature prediction in building hvac systems J. Build. Eng. 62 2022 105364 Dalei Qiao, Bilong Shen, Xianyong Dong, Hao Zheng, Wenwen Song, and Shun Wu. Mtl-deep-stf: A multitask learning based deep spatiotemporal fusion model for outdoor air temperature prediction in building hvac systems. Journal of Building Engineering, 62:105364, 2022. [18] Shouxiang Wang Xinyu Deng Haiwen Chen Qingyuan Shi Di Xu A bottom-up short-term residential load forecasting approach based on appliance characteristic analysis and multi-task learning Electr. Power Syst. Res. 196 2021 107233 Shouxiang Wang, Xinyu Deng, Haiwen Chen, Qingyuan Shi, and Di Xu. A bottom-up short-term residential load forecasting approach based on appliance characteristic analysis and multi-task learning. Electric Power Systems Research, 196:107233, 2021. [19] Halil Çimen Nurettin Çetinkaya Juan C. Vasquez Josep M. Guerrero A microgrid energy management system based on non-intrusive load monitoring via multitask learning IEEE Trans. Smart Grid 12 2 2020 977 987 Halil Çimen, Nurettin Çetinkaya, Juan C Vasquez, and Josep M Guerrero. A microgrid energy management system based on non-intrusive load monitoring via multitask learning. IEEE Transactions on Smart Grid, 12(2):977\u2013987, 2020. [20] Tahasin Shireen Chenhui Shao Hui Wang Jingjing Li Xi Zhang Mingyang Li Iterative multi-task learning for time-series modeling of solar panel pv outputs Appl. Energy 212 2018 654 662 Tahasin Shireen, Chenhui Shao, Hui Wang, Jingjing Li, Xi Zhang, and Mingyang Li. Iterative multi-task learning for time-series modeling of solar panel pv outputs. Applied energy, 212:654\u2013662, 2018. [21] Hongsheng Xu Qiuwei Wu Jinyu Wen Zhihong Yang Joint bidding and pricing for electricity retailers based on multi-task deep reinforcement learning Int. J. Electr. Power Energy Syst. 138 2022 107897 Hongsheng Xu, Qiuwei Wu, Jinyu Wen, and Zhihong Yang. Joint bidding and pricing for electricity retailers based on multi-task deep reinforcement learning. International journal of electrical power & energy systems, 138:107897, 2022. [22] Abdulwahab Ali Almazroi Nasir Ayub Multi-task learning for electricity price forecasting and resource management in cloud based industrial iot systems IEEE Access 2023 Abdulwahab Ali Almazroi and Nasir Ayub. Multi-task learning for electricity price forecasting and resource management in cloud based industrial iot systems. IEEE Access, 2023. [23] Jiefeng Liu Zhenhao Zhang Xianhao Fan Yiyi Zhang Jiaqi Wang Ke Zhou Shuo Liang Xiaoyong Yu Wei Zhang Power system load forecasting using mobility optimization and multi-task learning in Covid-19 Appl. Energy 310 2022 118303 Jiefeng Liu, Zhenhao Zhang, Xianhao Fan, Yiyi Zhang, Jiaqi Wang, Ke Zhou, Shuo Liang, Xiaoyong Yu, and Wei Zhang. Power system load forecasting using mobility optimization and multi-task learning in covid-19. Applied Energy, 310:118303, 2022. [24] Varun Chandola Arindam Banerjee Vipin Kumar Anomaly detection: a survey ACM Comput. Surv. 41 3 2009 1 58 Varun Chandola, Arindam Banerjee, and Vipin Kumar. Anomaly detection: A survey. ACM computing surveys (CSUR), 41(3):1\u201358, 2009. [25] Lei Lei Bing Wu Xin Fang Li Chen Hao Wu Wei Liu A dynamic anomaly detection method of building energy consumption based on data mining technology Energy 263 2023 125575 Lei Lei, Bing Wu, Xin Fang, Li Chen, Hao Wu, and Wei Liu. A dynamic anomaly detection method of building energy consumption based on data mining technology. Energy, 263:125575, 2023. [26] Abigail Copiaco Yassine Himeur Abbes Amira Wathiq Mansoor Fodil Fadli Shadi Atalla Shahab Saquib Sohail An innovative deep anomaly detection of building energy consumption using energy time-series images Eng. Appl. Artif. Intell. 119 2023 105775 Abigail Copiaco, Yassine Himeur, Abbes Amira, Wathiq Mansoor, Fodil Fadli, Shadi Atalla, and Shahab Saquib Sohail. An innovative deep anomaly detection of building energy consumption using energy time-series images. Engineering Applications of Artificial Intelligence, 119:105775, 2023. [27] Forrest N. Iandola Song Han Matthew W. Moskewicz Khalid Ashraf William J. Dally Kurt Keutzer Squeezenet Alexnet-level accuracy with 50x fewer parameters and <0.5 mb model size arXiv preprint arXiv:1602.07360 2016 Forrest N Iandola, Song Han, Matthew W Moskewicz, Khalid Ashraf, William J Dally, and Kurt Keutzer. Squeezenet: Alexnet-level accuracy with 50x fewer parameters and< 0.5 mb model size. arXiv preprint arXiv:1602.07360, 2016. [28] Alex Krizhevsky Ilya Sutskever Geoffrey E. Hinton Imagenet classification with deep convolutional neural networks Adv. Neural Inf. Process. Syst. 25 2012 Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. Imagenet classification with deep convolutional neural networks. Advances in neural information processing systems, 25, 2012. [29] Raed Abdel Sater A. Ben Hamza A federated learning approach to anomaly detection in smart buildings ACM Trans. Int. Things 2 4 2021 1 23 Raed Abdel Sater and A Ben Hamza. A federated learning approach to anomaly detection in smart buildings. ACM Transactions on Internet of Things, 2(4):1\u201323, 2021. [30] Jessica Lin Eamonn Keogh Stefano Lonardi Jeffrey P. Lankford Donna M. Nystrom Visually mining and monitoring massive time series Proceedings of the Tenth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 2004 460 469 Jessica Lin, Eamonn Keogh, Stefano Lonardi, Jeffrey P Lankford, and Donna M Nystrom. Visually mining and monitoring massive time series. In Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining, pages 460\u2013469, 2004. [31] Jing Lin Julián A. Fernández Rakiba Rayhana Amirhossein Zaji Ran Zhang Omar E. Herrera Zheng Liu Walter Mérida Predictive analytics for building power demand: day-ahead forecasting and anomaly prediction Energy Build. 255 2022 111670 Jing Lin, Julián A Fernández, Rakiba Rayhana, Amirhossein Zaji, Ran Zhang, Omar E Herrera, Zheng Liu, and Walter Mérida. Predictive analytics for building power demand: Day-ahead forecasting and anomaly prediction. Energy and Buildings, 255:111670, 2022. [32] Rui Wang Hongguang Yun Rakiba Rayhana Junchi Bin Chengkai Zhang Omar E. Herrera Zheng Liu Walter Mérida An adaptive federated learning system for community building energy load forecasting and anomaly prediction Energy Build. 2023 113215 Rui Wang, Hongguang Yun, Rakiba Rayhana, Junchi Bin, Chengkai Zhang, Omar E Herrera, Zheng Liu, and Walter Mérida. An adaptive federated learning system for community building energy load forecasting and anomaly prediction. Energy and Buildings, page 113215, 2023. [33] Manoj Gulati Pandarasamy Arjunan Lead 1.0: a large-scale annotated dataset for energy anomaly detection in commercial buildings Proceedings of the Thirteenth ACM International Conference on Future Energy Systems 2022 485 488 Manoj Gulati and Pandarasamy Arjunan. Lead1. 0: a large-scale annotated dataset for energy anomaly detection in commercial buildings. In Proceedings of the Thirteenth ACM International Conference on Future Energy Systems, pages 485\u2013488, 2022. [34] Clayton Miller Pandarasamy Arjunan Anjukan Kathirgamanathan Chun Fu Jonathan Roth June Young Park Chris Balbach Krishnan Gowri Zoltan Nagy Anthony D. Fontanini The ashrae great energy predictor iii competition: overview and results Sci. Technol. Built Environ. 26 10 2020 1427 1447 Clayton Miller, Pandarasamy Arjunan, Anjukan Kathirgamanathan, Chun Fu, Jonathan Roth, June Young Park, Chris Balbach, Krishnan Gowri, Zoltan Nagy, Anthony D Fontanini, et al. The ashrae great energy predictor iii competition: Overview and results. Science and Technology for the Built Environment, 26(10):1427\u20131447, 2020. [35] Lead 1.0 competition, Kaggle https://www.kaggle.com/code/abhishek123maurya/2-anomaly-detection-features-csv 2022 Accessed: 2022 Lead 1.0 competition (2022), kaggle. https://www.kaggle.com/code/abhishek123maurya/2-anomaly-detection-features-csv. Accessed: 2022. [36] Jiaqi Ma Zhe Zhao Xinyang Yi Jilin Chen Lichan Hong Ed H. Chi Modeling task relationships in multi-task learning with multi-gate mixture-of-experts Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining 2018 1930 1939 Jiaqi Ma, Zhe Zhao, Xinyang Yi, Jilin Chen, Lichan Hong, and Ed H Chi. Modeling task relationships in multi-task learning with multi-gate mixture-of-experts. In Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining, pages 1930\u20131939, 2018. [37] Zhao Chen Vijay Badrinarayanan Chen-Yu Lee Andrew Rabinovich Gradnorm Gradient normalization for adaptive loss balancing in deep multitask networks International Conference on Machine Learning 2018 PMLR 794 803 Zhao Chen, Vijay Badrinarayanan, Chen-Yu Lee, and Andrew Rabinovich. Gradnorm: Gradient normalization for adaptive loss balancing in deep multitask networks. In International conference on machine learning, pages 794\u2013803. PMLR, 2018. [38] Kaiming He Xiangyu Zhang Shaoqing Ren Jian Sun Deep residual learning for image recognition Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition 2016 770 778 Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770\u2013778, 2016. [39] Felix A. Gers Jürgen Schmidhuber Fred Cummins Learning to forget: continual prediction with lstm Neural Comput. 12 10 2000 2451 2471 Felix A Gers, Jürgen Schmidhuber, and Fred Cummins. Learning to forget: Continual prediction with lstm. Neural computation, 12(10):2451\u20132471, 2000. [40] Ashish Vaswani Noam Shazeer Niki Parmar Jakob Uszkoreit Llion Jones Aidan N. Gomez Łukasz Kaiser Illia Polosukhin Attention is all you need Adv. Neural Inf. Process. Syst. 30 2017 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in neural information processing systems, 30, 2017. [41] Meng-Hao Guo Tian-Xing Xu Jiang-Jiang Liu Zheng-Ning Liu Peng-Tao Jiang Tai-Jiang Mu Song-Hai Zhang Ralph R. Martin Ming-Ming Cheng Shi-Min Hu Attention mechanisms in computer vision: a survey Comput. Vis. Media 8 3 2022 331 368 Meng-Hao Guo, Tian-Xing Xu, Jiang-Jiang Liu, Zheng-Ning Liu, Peng-Tao Jiang, Tai-Jiang Mu, Song-Hai Zhang, Ralph R Martin, Ming-Ming Cheng, and Shi-Min Hu. Attention mechanisms in computer vision: A survey. Computational visual media, 8(3):331\u2013368, 2022. [42] Luciano Floridi Massimo Chiriatti Gpt-3: its nature, scope, limits, and consequences Minds Mach. 30 2020 681 694 Luciano Floridi and Massimo Chiriatti. Gpt-3: Its nature, scope, limits, and consequences. Minds and Machines, 30:681\u2013694, 2020. [43] Sinong Wang Belinda Z. Li Madian Khabsa Han Fang Hao Ma Linformer: Self-attention with linear complexity arXiv preprint arXiv:2006.04768 2020 Sinong Wang, Belinda Z Li, Madian Khabsa, Han Fang, and Hao Ma. Linformer: Self-attention with linear complexity. arXiv preprint arXiv:2006.04768, 2020. [44] Haixu Wu Jiehui Xu Jianmin Wang Mingsheng Long Autoformer: decomposition transformers with auto-correlation for long-term series forecasting Adv. Neural Inf. Process. Syst. 34 2021 22419 22430 Haixu Wu, Jiehui Xu, Jianmin Wang, and Mingsheng Long. Autoformer: Decomposition transformers with auto-correlation for long-term series forecasting. Advances in Neural Information Processing Systems, 34:22419\u201322430, 2021. [45] Haoyi Zhou Shanghang Zhang Jieqi Peng Shuai Zhang Jianxin Li Hui Xiong Wancai Zhang Informer: beyond efficient transformer for long sequence time-series forecasting Proceedings of the AAAI Conference on Artificial Intelligence vol. 35 2021 11106 11115 Haoyi Zhou, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, and Wancai Zhang. Informer: Beyond efficient transformer for long sequence time-series forecasting. In Proceedings of the AAAI conference on artificial intelligence, volume 35, pages 11106\u201311115, 2021. [46] Nikita Kitaev Łukasz Kaiser Anselm Levskaya Reformer: The efficient transformer arXiv preprint arXiv:2001.04451 2020 Nikita Kitaev, Łukasz Kaiser, and Anselm Levskaya. Reformer: The efficient transformer. arXiv preprint arXiv:2001.04451, 2020. [47] Diederik P. Kingma Jimmy Ba Adam: a method for stochastic optimization arXiv preprint arXiv:1412.6980 2014 Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.",
+    "scopus-id": "85183955095",
+    "coredata": {
+        "eid": "1-s2.0-S037877882400080X",
+        "dc:description": "Building energy management acts as the brain of the building, which controls the energy supply based on sensor data and algorithms. However, existing methods only focus on single-task prediction like load forecasting. As more multi-variable data is collected from ubiquitous sensors, building energy management needs to extend functionality from single-task to multi-purpose predictions. This study designs a multi-task learning system to tackle four different tasks: 1. Electricity load forecasting; 2. Air temperature forecasting; 3. Energy anomaly detection; 4. Energy anomaly prediction. A mixture-of-experts framework with the self-attention mechanism is proposed for learning heterogeneous tasks. A new comprehensive dataset has been created with real data to demonstrate the heterogeneous tasks' efficacy of the suggested framework. Extensive experiments are conducted with various deep learning models, which shows our proposed model achieves superior prediction performance overall tasks. Comparative studies are performed to explore the correlations between forecasting and anomaly learning, which reveal the benefits of multi-task learning for heterogeneous tasks. Anomaly detection and prediction both achieve 98% accuracy and 95% F1-score, while the electricity load forecasting single-task error is reduced by almost 60% through the multi-task model. Nonetheless, the tasks' training difficulties and resource consumption are also investigated and the deeper network doesn't ensure better performances. The dataset is open-sourced at: https://github.com/rekingbc/Multi-task-building.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-03-15",
+        "openaccessUserLicense": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S037877882400080X",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Wang, Rui"
+            },
+            {
+                "@_fa": "true",
+                "$": "Rayhana, Rakiba"
+            },
+            {
+                "@_fa": "true",
+                "$": "Gholami, Majid"
+            },
+            {
+                "@_fa": "true",
+                "$": "Herrera, Omar E."
+            },
+            {
+                "@_fa": "true",
+                "$": "Liu, Zheng"
+            },
+            {
+                "@_fa": "true",
+                "$": "Mérida, Walter"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S037877882400080X"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S037877882400080X"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": "Full",
+        "pii": "S0378-7788(24)00080-X",
+        "prism:volume": "307",
+        "articleNumber": "113964",
+        "prism:publisher": "The Authors. Published by Elsevier B.V.",
+        "dc:title": "Multi-task deep learning for large-scale buildings energy management",
+        "prism:copyright": "© 2025 The Authors. Published by Elsevier B.V.",
+        "openaccess": "1",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Multitask learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building energy management"
+            },
+            {
+                "@_fa": "true",
+                "$": "Deep learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Anomaly detection"
+            },
+            {
+                "@_fa": "true",
+                "$": "Anomaly prediction"
+            }
+        ],
+        "openaccessArticle": "true",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": "ElsevierWaived",
+        "prism:pageRange": "113964",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 March 2024",
+        "prism:doi": "10.1016/j.enbuild.2024.113964",
+        "prism:startingPage": "113964",
+        "dc:identifier": "doi:10.1016/j.enbuild.2024.113964",
+        "openaccessSponsorName": "CRKN 2024: Hybrid journals"
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "566",
+            "@width": "578",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr010.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40956",
+            "@ref": "gr010",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "217",
+            "@width": "394",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr011.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31825",
+            "@ref": "gr011",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "593",
+            "@width": "353",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr001.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "47504",
+            "@ref": "gr001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "799",
+            "@width": "682",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr012.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "85707",
+            "@ref": "gr012",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "248",
+            "@width": "641",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr002.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45504",
+            "@ref": "gr002",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "703",
+            "@width": "523",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr013.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "60989",
+            "@ref": "gr013",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "249",
+            "@width": "640",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr003.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38356",
+            "@ref": "gr003",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "707",
+            "@width": "316",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr014.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "53893",
+            "@ref": "gr014",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "235",
+            "@width": "642",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr004.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37659",
+            "@ref": "gr004",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "443",
+            "@width": "327",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr015.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33607",
+            "@ref": "gr015",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "671",
+            "@width": "686",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr005.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "247110",
+            "@ref": "gr005",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "870",
+            "@width": "681",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr016.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "125430",
+            "@ref": "gr016",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "234",
+            "@width": "640",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr006.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40683",
+            "@ref": "gr006",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "235",
+            "@width": "642",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr007.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41992",
+            "@ref": "gr007",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "341",
+            "@width": "640",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr008.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23948",
+            "@ref": "gr008",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "256",
+            "@width": "808",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr009.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "52711",
+            "@ref": "gr009",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "167",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr010.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5531",
+            "@ref": "gr010",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "121",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr011.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8000",
+            "@ref": "gr011",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "97",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr001.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6000",
+            "@ref": "gr001",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "140",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr012.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5730",
+            "@ref": "gr012",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "85",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr002.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10339",
+            "@ref": "gr002",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "122",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr013.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5275",
+            "@ref": "gr013",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "85",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr003.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8084",
+            "@ref": "gr003",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "73",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr014.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4697",
+            "@ref": "gr014",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr004.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6370",
+            "@ref": "gr004",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "121",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr015.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5953",
+            "@ref": "gr015",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "168",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr005.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14446",
+            "@ref": "gr005",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "128",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr016.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5868",
+            "@ref": "gr016",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr006.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7034",
+            "@ref": "gr006",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr007.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7013",
+            "@ref": "gr007",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "117",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr008.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4464",
+            "@ref": "gr008",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "69",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr009.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6555",
+            "@ref": "gr009",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "2510",
+            "@width": "2561",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr010_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "309249",
+            "@ref": "gr010",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1922",
+            "@width": "3488",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr011_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "837254",
+            "@ref": "gr011",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2625",
+            "@width": "1563",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr001_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "675079",
+            "@ref": "gr001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3540",
+            "@width": "3020",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr012_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "612330",
+            "@ref": "gr012",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1099",
+            "@width": "2840",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr002_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "383748",
+            "@ref": "gr002",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3116",
+            "@width": "2317",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr013_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "466264",
+            "@ref": "gr013",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1103",
+            "@width": "2833",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr003_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "324823",
+            "@ref": "gr003",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3136",
+            "@width": "1401",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr014_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "420191",
+            "@ref": "gr014",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1038",
+            "@width": "2841",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr004_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "286239",
+            "@ref": "gr004",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1963",
+            "@width": "1450",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr015_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "264919",
+            "@ref": "gr015",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2971",
+            "@width": "3039",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr005_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1580900",
+            "@ref": "gr005",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3854",
+            "@width": "3016",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr016_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "974577",
+            "@ref": "gr016",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1038",
+            "@width": "2834",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr006_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "309072",
+            "@ref": "gr006",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1039",
+            "@width": "2842",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr007_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "305437",
+            "@ref": "gr007",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1511",
+            "@width": "2836",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr008_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "183264",
+            "@ref": "gr008",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1133",
+            "@width": "3579",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-gr009_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "412306",
+            "@ref": "gr009",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5236",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1957",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2202",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1857",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12180",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13672",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16525",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5887",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4030",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3410",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19259",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2013",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1860",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14134",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5836",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18478",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3571",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24890",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3055",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2431",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7547",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2566",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3447",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2435",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5945",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8386",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6021",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3610",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15256",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6551",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10690",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18276",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10014",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8650",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20571",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9475",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6267",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3698",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7297",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2235",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4943",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5240",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6493",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S037877882400080X-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2204334",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183955095"
+    }
+}}

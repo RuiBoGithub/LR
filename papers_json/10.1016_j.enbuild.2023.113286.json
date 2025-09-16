@@ -1,0 +1,1476 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85164677656",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 Energy and Buildings ENERGYBUILDINGS 2023-06-21 2023-06-21 2023-06-27 2023-06-27 2023-10-06T19:00:11 1-s2.0-S0378778823005169 S0378-7788(23)00516-9 S0378778823005169 10.1016/j.enbuild.2023.113286 S300 S300.1 FULL-TEXT 1-s2.0-S0378778823X00152 2023-10-06T18:52:13.541932Z 0 0 20230915 2023 2023-06-21T21:28:13.123469Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath affil appendices articletitle auth authfirstini authfull authkeywords authlast nomenclature orcid primabst ref 0378-7788 03787788 true 295 295 C Volume 295 13 113286 113286 113286 20230915 15 September 2023 2023-09-15 2023 Research Articles article fla © 2023 Published by Elsevier B.V. ENERGYORIENTEDCONTROLRETROFITFOREXISTINGHVACSYSTEMADOPTINGDATADRIVENMPCMETHODOLOGYIMPLEMENTATIONFIELDTEST YUE B Nomenclature 1 Introduction 2 Methodology 2.1 General MPC strategy 2.2 Cloud-edge collaboration architecture 2.2.1 Overall architecture 2.2.2 Solution for large-scale data processing and store in near real-time 2.3 Standard workflow 3 Control retrofit implementation 3.1 Target system description 3.1.1 HVAC system configuration 3.1.2 Original control strategy of the HVAC system 3.2 MPC strategy development 3.2.1 Cooling optimization 3.2.2 ACHP sequencing optimization 4 Field test and analysis 4.1 Model validation 4.1.1 Validation of cooling plant power model 4.1.2 Validation of building thermal model 4.2 Performance evaluation 4.2.1 Determination of similar days 4.2.2 Energy performance 4.2.3 Indoor thermal comfort 4.2.4 Detail analysis 5 Conclusions Appendix A.1 Hybrid building thermal model A.1.1 Gray-box building thermal model Data-driven residual model Air-cooled heat pump model A.2.1 Stage prediction module Power prediction module Chilled water pump model References YOU 2023 106679 K LI 2022 101788 G WANG 2022 104103 Z STRZALKOWSKI 2021 107799 J SOMASUNDARAM 2020 115064 S CAI 2016 218 223 X SCHIBUOLA 2018 606 614 L LI 2017 3638 3645 Y LAI 2022 118048 Y LIU 2022 112486 T DJURIC 2009 486 492 N DING 2020 110295 Y JRADI 2020 101464 M BJORNSKOV 2022 104277 J WANG 2008 3 32 S GHOLAMZADEHMIR 2020 102480 M YAO 2021 107952 Y SERALE 2018 631 G AFRAM 2014 343 355 A CHEN 2016 341 351 X HUANG 2021 116027 S AFRAM 2017 268 282 A LIANG 2015 256 268 W LEE 2019 301 316 S BLUM 2022 119104 D BIRD 2022 112269 M LAND 1960 497 520 A JIN 2021 111345 Y JIEFAN 2018 135 145 G REDDYAGAMI 2002 101 124 T YUEX2023X113286 YUEX2023X113286XB 2025-06-27T00:00:00.000Z 2025-06-27T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Published by Elsevier B.V. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0378-7788(23)00516-9 S0378778823005169 1-s2.0-S0378778823005169 10.1016/j.enbuild.2023.113286 271089 2023-10-06T18:52:13.541932Z 2023-09-15 1-s2.0-S0378778823005169-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/MAIN/application/pdf/36f1ad44b85af1d39c3a95a690764704/main.pdf main.pdf pdf true 2563699 MAIN 18 1-s2.0-S0378778823005169-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/PREVIEW/image/png/02c8a363f8c3d9124257ea4eac370d4d/main_1.png main_1.png png 58287 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0378778823005169-gr21.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr21/DOWNSAMPLED/image/jpeg/cb3a5197306394c2623527a8c5231db3/gr21.jpg gr21 gr21.jpg jpg 172837 978 548 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr10/DOWNSAMPLED/image/jpeg/9d0fc08dc163e3ab45dc00a1a4ff8aae/gr10.jpg gr10 gr10.jpg jpg 13401 195 382 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr20.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr20/DOWNSAMPLED/image/jpeg/a08b9700d6a71c8509965a51e80bc38c/gr20.jpg gr20 gr20.jpg jpg 15755 234 382 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr23.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr23/DOWNSAMPLED/image/jpeg/11706a2a8bed7b51198964edef92af3e/gr23.jpg gr23 gr23.jpg jpg 48070 465 382 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr12/DOWNSAMPLED/image/jpeg/349d79b9e9002584176a0dc854114294/gr12.jpg gr12 gr12.jpg jpg 13867 198 382 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr22.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr22/DOWNSAMPLED/image/jpeg/4e8ad69515af5b91f58cb675b3ad4b5f/gr22.jpg gr22 gr22.jpg jpg 30651 754 653 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr11/DOWNSAMPLED/image/jpeg/af307f49243f100e35245883cbe7ad70/gr11.jpg gr11 gr11.jpg jpg 27487 256 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr6/DOWNSAMPLED/image/jpeg/7fd34c20c54eb5fd74995f767245aaf0/gr6.jpg gr6 gr6.jpg jpg 36787 633 383 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr7/DOWNSAMPLED/image/jpeg/c6c79061540db60eb43438252b500ed2/gr7.jpg gr7 gr7.jpg jpg 12035 147 382 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr8/DOWNSAMPLED/image/jpeg/5d91d9e3f06bbaf50e08f4507c013188/gr8.jpg gr8 gr8.jpg jpg 9387 64 382 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr9/DOWNSAMPLED/image/jpeg/cb47cfc337a27db17a7baa411062abbe/gr9.jpg gr9 gr9.jpg jpg 31818 269 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr14/DOWNSAMPLED/image/jpeg/4c45690f8a31c55cf070698fb49c6520/gr14.jpg gr14 gr14.jpg jpg 30325 157 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr13/DOWNSAMPLED/image/jpeg/e58cbd569887273cb5ceaf546412e18b/gr13.jpg gr13 gr13.jpg jpg 33080 179 608 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr16.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr16/DOWNSAMPLED/image/jpeg/f5792f42bf13181bf8813e3753528e31/gr16.jpg gr16 gr16.jpg jpg 32455 178 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr15/DOWNSAMPLED/image/jpeg/59fe257e56cc44339fe988c2378c422b/gr15.jpg gr15 gr15.jpg jpg 28494 157 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr1/DOWNSAMPLED/image/jpeg/b68df83abeb917ae33d290809e5d73ad/gr1.jpg gr1 gr1.jpg jpg 93155 792 568 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr2/DOWNSAMPLED/image/jpeg/3fbead058f173a6be63e4b38138321e3/gr2.jpg gr2 gr2.jpg jpg 33056 317 358 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr18.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr18/DOWNSAMPLED/image/jpeg/c28f4a8f39d8d96e586bd6f3dd2e3680/gr18.jpg gr18 gr18.jpg jpg 27777 202 596 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr3/DOWNSAMPLED/image/jpeg/7501bb940150bf798e99f928d6883874/gr3.jpg gr3 gr3.jpg jpg 26305 156 502 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr17.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr17/DOWNSAMPLED/image/jpeg/43ae468bf7cbbb83dee3fea2d0dd5698/gr17.jpg gr17 gr17.jpg jpg 30877 196 596 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr4/DOWNSAMPLED/image/jpeg/7f9439025e2943db5df2c1cee72f8034/gr4.jpg gr4 gr4.jpg jpg 66788 730 382 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr5/DOWNSAMPLED/image/jpeg/84a535796b2a154b9426073d730155cf/gr5.jpg gr5 gr5.jpg jpg 20950 205 382 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr19.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr19/DOWNSAMPLED/image/jpeg/dc854b2b73bae15fc539183629cffa76/gr19.jpg gr19 gr19.jpg jpg 30372 270 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823005169-gr21.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr21/THUMBNAIL/image/gif/d9012d0356d5adbbe73f89033146e381/gr21.sml gr21 gr21.sml sml 7878 164 92 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr10/THUMBNAIL/image/gif/4affd80943e31a31c616eb0ed17e0e21/gr10.sml gr10 gr10.sml sml 4194 112 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr20.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr20/THUMBNAIL/image/gif/5240a71049cec248138b53465994eda6/gr20.sml gr20 gr20.sml sml 5739 134 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr23.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr23/THUMBNAIL/image/gif/adb37192e30a85c51102e19413cd423a/gr23.sml gr23 gr23.sml sml 7485 163 134 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr12/THUMBNAIL/image/gif/8dd279601fbdff5cd5daf35d97d82464/gr12.sml gr12 gr12.sml sml 4477 113 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr22.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr22/THUMBNAIL/image/gif/685c9df5c8a4a8b93d9427080d3467e5/gr22.sml gr22 gr22.sml sml 2823 164 142 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr11/THUMBNAIL/image/gif/b0a49e49524b1f0604078616dac94d76/gr11.sml gr11 gr11.sml sml 5319 105 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr6/THUMBNAIL/image/gif/32ad0522b743ac9cf1a46868f8302738/gr6.sml gr6 gr6.sml sml 3425 164 99 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr7/THUMBNAIL/image/gif/b65ed9bca2703bd902de156351ee41b0/gr7.sml gr7 gr7.sml sml 4232 84 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr8/THUMBNAIL/image/gif/989f7ebe3bae211d020ddeac05073332/gr8.sml gr8 gr8.sml sml 3672 37 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr9/THUMBNAIL/image/gif/aa6248ad4cd598e7f69b5e3567aa95bd/gr9.sml gr9 gr9.sml sml 6145 110 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr14/THUMBNAIL/image/gif/78ca8ba27aa0fb1e63f161b4259b5532/gr14.sml gr14 gr14.sml sml 5293 65 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr13/THUMBNAIL/image/gif/f46f5b11463c0270fddbc876f498e5b0/gr13.sml gr13 gr13.sml sml 5181 65 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr16.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr16/THUMBNAIL/image/gif/8dcc647155ee365c40bf77dd5d6e29d3/gr16.sml gr16 gr16.sml sml 5959 73 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr15/THUMBNAIL/image/gif/41a493a96f91d5870eeb597a21892e30/gr15.sml gr15 gr15.sml sml 5206 65 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr1/THUMBNAIL/image/gif/42a01ec378f7517fc1b11a95e696073d/gr1.sml gr1 gr1.sml sml 7068 163 117 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr2/THUMBNAIL/image/gif/9a2b3e1b09e6159b91d34b562a610a8d/gr2.sml gr2 gr2.sml sml 10577 164 185 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr18.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr18/THUMBNAIL/image/gif/f8c7a22399510486db6eaf64814d698d/gr18.sml gr18 gr18.sml sml 4486 74 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr3/THUMBNAIL/image/gif/bed52c807d033234860495624f2fc8a1/gr3.sml gr3 gr3.sml sml 5308 68 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr17.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr17/THUMBNAIL/image/gif/8cda1cf43556dc41475b8c8e0980644f/gr17.sml gr17 gr17.sml sml 5509 72 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr4/THUMBNAIL/image/gif/25f4d87e6f8b8f36031b151a3376d0c0/gr4.sml gr4 gr4.sml sml 4793 162 85 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr5/THUMBNAIL/image/gif/1cdafaadc29f2fcdb7296180a4546dae/gr5.sml gr5 gr5.sml sml 6494 118 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr19.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/gr19/THUMBNAIL/image/gif/ded6c7026fc5dec8cf18364572c8978e/gr19.sml gr19 gr19.sml sml 5919 111 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823005169-gr21_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/bdfbeac96bf965eca449c3135ec72188/gr21_lrg.jpg gr21 gr21_lrg.jpg jpg 1215061 4331 2428 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/6cbbd6a33ee6e43840cfef54e5da43a4/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 104871 863 1693 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr20_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/06ccb856e66610858c16bb44b6934dca/gr20_lrg.jpg gr20 gr20_lrg.jpg jpg 111875 1038 1693 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr23_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/04a250ed47de458470e1d482351c9894/gr23_lrg.jpg gr23 gr23_lrg.jpg jpg 361145 2062 1693 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/1ec3d4771eb27a7952886cd3deceabf8/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 102800 877 1693 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr22_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/a2ce227d255ac346d4ef4a93fcc2d745/gr22_lrg.jpg gr22 gr22_lrg.jpg jpg 209125 3338 2891 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/eb5e127f62e598ba7fd65cf0a3fa1d16/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 226837 1134 2362 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/7974ff8f9721efe3b84a03abbd8307b2/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 207295 2809 1699 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/b974c1fd91a46938778792786c4e0e99/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 85994 650 1693 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/477b86df968728e6dea6815b343ef7a1/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 73311 283 1693 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/a8dd45e0ac6dc8d91fc5629e6a6ddd06/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 238902 1190 2362 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/7626d3c378d978db09c84b5ce505896b/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 220138 696 2362 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/382e3b8593e095892157f8bea09213b1/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 244029 793 2691 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr16_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/baa805aeab83598e56c439f93152ee90/gr16_lrg.jpg gr16 gr16_lrg.jpg jpg 249747 791 2362 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/4ffa67c5944c0b30fc9b345f612c2d4f/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 210563 697 2362 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/6d988641c061840d36e99e6db77a486c/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 745522 3504 2514 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/456f8adc066dcb94a1b6bc426d5bd879/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 240272 1404 1588 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr18_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/2d244250a6237a6e9a6f8465d056da62/gr18_lrg.jpg gr18 gr18_lrg.jpg jpg 209997 894 2639 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/259b9297d60d6829b7db658ce50ce3aa/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 177114 691 2225 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr17_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/81ea89cbde66d48e8a06bbb321984afd/gr17_lrg.jpg gr17 gr17_lrg.jpg jpg 239743 868 2640 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/7cd1463fbf9e21a7200634c66a661c06/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 474617 3236 1693 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/28b3dea3a351e491b36b7dd8d7debd74/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 130657 909 1693 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-gr19_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/HIGHRES/image/jpeg/77431dbe9e1539656354f7433993cb83/gr19_lrg.jpg gr19 gr19_lrg.jpg jpg 230301 1198 2362 IMAGE-HIGH-RES 1-s2.0-S0378778823005169-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/36209bca1dd2d209499d8e2fb12c16fa/si1.svg si1 si1.svg svg 1756 ALTIMG 1-s2.0-S0378778823005169-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/c1d1f91384ef6f21508c78ba9998b8bf/si10.svg si10 si10.svg svg 2796 ALTIMG 1-s2.0-S0378778823005169-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/b084edc06dd01cee1de2d9e8ef8a728a/si11.svg si11 si11.svg svg 14884 ALTIMG 1-s2.0-S0378778823005169-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/d3631e0b818ab7069288bee636057b47/si12.svg si12 si12.svg svg 33598 ALTIMG 1-s2.0-S0378778823005169-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/39f78363198cb958979a53adf2d8a105/si13.svg si13 si13.svg svg 36730 ALTIMG 1-s2.0-S0378778823005169-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/694d147c57f31d00bae5b44f2cbf88eb/si14.svg si14 si14.svg svg 9705 ALTIMG 1-s2.0-S0378778823005169-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/1055b4cf923e92f5574b2b611a4f561e/si15.svg si15 si15.svg svg 27876 ALTIMG 1-s2.0-S0378778823005169-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/d335d688bac0ed34237d71eac19ac8a9/si16.svg si16 si16.svg svg 6362 ALTIMG 1-s2.0-S0378778823005169-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/62f7ebd7d00500d467621559847fd7f4/si17.svg si17 si17.svg svg 8001 ALTIMG 1-s2.0-S0378778823005169-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/eb2f5f2c003d628d1bbe7a428041a915/si18.svg si18 si18.svg svg 4161 ALTIMG 1-s2.0-S0378778823005169-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/59ec682cf2695c96adb70fbfc07391d7/si19.svg si19 si19.svg svg 5801 ALTIMG 1-s2.0-S0378778823005169-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/d7e41e20294994d401abaaf038fe2c2c/si2.svg si2 si2.svg svg 1809 ALTIMG 1-s2.0-S0378778823005169-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/7c4a468b0950e92cb4eee20d1ef50976/si20.svg si20 si20.svg svg 5439 ALTIMG 1-s2.0-S0378778823005169-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/15ca41a3d02a27be6647dacb6f89cab4/si21.svg si21 si21.svg svg 7733 ALTIMG 1-s2.0-S0378778823005169-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/b77c031b0d804f5b363ffd957eac6066/si22.svg si22 si22.svg svg 3747 ALTIMG 1-s2.0-S0378778823005169-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/23c767cd4c9933013f29c9a55a035dcc/si23.svg si23 si23.svg svg 2852 ALTIMG 1-s2.0-S0378778823005169-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/a5de57f59edc8745399fcb28582af1c3/si24.svg si24 si24.svg svg 5338 ALTIMG 1-s2.0-S0378778823005169-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/7e55fcf7cf25b754730d234c620736fd/si25.svg si25 si25.svg svg 10521 ALTIMG 1-s2.0-S0378778823005169-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/38b2559416b78ebf8e09d2db98c60a9c/si26.svg si26 si26.svg svg 29218 ALTIMG 1-s2.0-S0378778823005169-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/f3c9dd2070b526d1736e513f9fa56d29/si27.svg si27 si27.svg svg 13713 ALTIMG 1-s2.0-S0378778823005169-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/8744a2498c7a543992f6077bb5d85353/si28.svg si28 si28.svg svg 36753 ALTIMG 1-s2.0-S0378778823005169-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/c2a34a9ab20f0f69dfe29f4bde5406f8/si29.svg si29 si29.svg svg 47433 ALTIMG 1-s2.0-S0378778823005169-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/579cc47e6e4c2b3c1e48316cfcf585ec/si3.svg si3 si3.svg svg 1747 ALTIMG 1-s2.0-S0378778823005169-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/c84502a99723435d28712cca9ab5ec9d/si30.svg si30 si30.svg svg 42926 ALTIMG 1-s2.0-S0378778823005169-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/366e67ecdc6922e503690a2001c50b46/si31.svg si31 si31.svg svg 10816 ALTIMG 1-s2.0-S0378778823005169-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/d4be531f4d9632ec373a4404eab49f28/si32.svg si32 si32.svg svg 6326 ALTIMG 1-s2.0-S0378778823005169-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/e2a4650a09a3d6c40236df1758e6ac08/si33.svg si33 si33.svg svg 5475 ALTIMG 1-s2.0-S0378778823005169-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/2b5b8b6927feb12b20881a55f173dfba/si34.svg si34 si34.svg svg 1716 ALTIMG 1-s2.0-S0378778823005169-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/e250a6fcaa448f2bae2c807757130f36/si35.svg si35 si35.svg svg 14467 ALTIMG 1-s2.0-S0378778823005169-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/bf433bae7484cca2a4fa751517a1dd83/si36.svg si36 si36.svg svg 4033 ALTIMG 1-s2.0-S0378778823005169-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/428240e4ea17ea57389faf7715593a2a/si37.svg si37 si37.svg svg 2531 ALTIMG 1-s2.0-S0378778823005169-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/776eaa8e466271a583fbec901bf02de5/si38.svg si38 si38.svg svg 2636 ALTIMG 1-s2.0-S0378778823005169-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/0d333d0095c28c65939243b98a7b7ea7/si39.svg si39 si39.svg svg 35713 ALTIMG 1-s2.0-S0378778823005169-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/7a242e4d83faca9665d5b525d78d542f/si4.svg si4 si4.svg svg 1711 ALTIMG 1-s2.0-S0378778823005169-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/1ad1e1ff29e147c78cd182458a59cc72/si40.svg si40 si40.svg svg 10994 ALTIMG 1-s2.0-S0378778823005169-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/fcab6b510cda30610c8aee665de919e8/si41.svg si41 si41.svg svg 3382 ALTIMG 1-s2.0-S0378778823005169-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/0b63cf9ac2e84faa6738bcdafbf3fd39/si42.svg si42 si42.svg svg 2868 ALTIMG 1-s2.0-S0378778823005169-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/c3c822ebb86214f3afec0db6e39b8bc5/si43.svg si43 si43.svg svg 3000 ALTIMG 1-s2.0-S0378778823005169-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/01398f02fdf9b30a52bf00150d5f2197/si44.svg si44 si44.svg svg 10037 ALTIMG 1-s2.0-S0378778823005169-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/599296279298ffa5ee6825b43175840d/si45.svg si45 si45.svg svg 1737 ALTIMG 1-s2.0-S0378778823005169-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/9dfdaf042a73e9682a0acf15b6ac34bb/si46.svg si46 si46.svg svg 10594 ALTIMG 1-s2.0-S0378778823005169-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/cb8d66691dd6d2eecc2024d9a439a40b/si47.svg si47 si47.svg svg 6014 ALTIMG 1-s2.0-S0378778823005169-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/11b447ead4fb068fb885a3f5a51ed7af/si48.svg si48 si48.svg svg 14276 ALTIMG 1-s2.0-S0378778823005169-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/9d55499d67c3a50384d0d4dbc0659d23/si49.svg si49 si49.svg svg 6477 ALTIMG 1-s2.0-S0378778823005169-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/756aacb2f5a8d91657522c5dcdb75928/si5.svg si5 si5.svg svg 6260 ALTIMG 1-s2.0-S0378778823005169-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/02c0df51d0554307459edf1f1eef3dd2/si50.svg si50 si50.svg svg 2733 ALTIMG 1-s2.0-S0378778823005169-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/8ef7ce38beab588e83269d0ee91a3a53/si51.svg si51 si51.svg svg 3188 ALTIMG 1-s2.0-S0378778823005169-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/725eade3c58bc3fa0dcd15a2fff00d4e/si6.svg si6 si6.svg svg 3887 ALTIMG 1-s2.0-S0378778823005169-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/c6f82d3907c210f7a0675fe2c922f183/si7.svg si7 si7.svg svg 10900 ALTIMG 1-s2.0-S0378778823005169-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/108676595d57288c88d0b9a22596bd68/si8.svg si8 si8.svg svg 4536 ALTIMG 1-s2.0-S0378778823005169-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823005169/image/svg+xml/73dbae91ce29573620fd3454c007ebfe/si9.svg si9 si9.svg svg 1568 ALTIMG 1-s2.0-S0378778823005169-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10TTGKGVJ44/MAIN/application/pdf/be70f67237382c60f7b332e5ee00fcc3/am.pdf am am.pdf pdf false 1797319 AAM-PDF ENB 113286 113286 S0378-7788(23)00516-9 10.1016/j.enbuild.2023.113286 Fig. 1 The proposed general MPC strategy. Fig. 2 Cloud-edge collaboration architecture of the proposed control retrofit approach. Fig. 3 Architecture of the proposed solution and process of the large-scale data processing. Fig. 4 Standard workflow for implementation of the control retrofit approach. Fig. 5 Schematic of the target HVAC system. Fig. 6 Diagram of the development of the proposed hybrid building thermal model. Fig. 7 Schematic of the hybrid building thermal model. Fig. 8 Schematic of the ACHP power prediction model. Fig. 9 Comparison between the predicted and measured cooling plant power consumption. Fig. 10 Prediction error of the cooling plant power model. Fig. 11 Comparison between the measured and predicted indoor average temperature. Fig. 12 Prediction error of the building thermal model. Fig. 13 Values of the indicators between the days using RBC strategy and 30th Sep. Fig. 14 Values of the indicators between the days using RBC strategy and 1st Oct. Fig. 15 Values of the indicators between the days using RBC strategy and 2nd Oct. Fig. 16 Comparison of the dry bulb temperature and relative humidity of the similar days. Fig. 17 System cooling output when using MPC and RBC strategies. Fig. 18 Set points and actual values of chilled water supply temperature using MPC and RBC strategies. Fig. 19 Comparison of the system power consumption of the similar days. Fig. 20 Indoor average temperature comparison when using MPC and RBC strategies. Fig. 21 Fan frequency, return air temperature, and supply air temperature of the six AHUs in the three groups of similar days. Fig. A1 Spectrum analysis of influencing factors of aggregated heat gains in an airport in China. Fig. A2 Schematic of the stage prediction module. Table 1 Comparison of the power consumption of the similar days. Group NO. Control strategy Energy end-use (kWh) Total energy consumption(kWh) Energysavings(kWh) Energy savingrate ACHPs Pumps AHUs 1 MPC 1576.91 418.94 519.95 2515.80 1493.73 37.25% RBC 3074.27 419.08 516.18 4009.54 \u2013 \u2013 2 MPC 1947.54 417.99 723.14 3088.66 364.32 10.55% RBC 2447.15 416.56 589.26 3452.97 \u2013 \u2013 3 MPC 1938.78 404.86 981.05 3324.70 1034.65 23.73% RBC 3039.34 384.46 935.54 4359.34 \u2013 \u2013 Energy-oriented control retrofit for existing HVAC system adopting data-driven MPC \u2013 Methodology, implementation and field test Bao Yue a b \u204e Bing Su a Fu Xiao c d Anbang Li a Kehua Li a Shen Li a Rui Yan a Qiuzhuang Lian a Ao Li c Yuanyang Li a Xing Fang a Xingang Liang b a Midea Building Technologies Division, Midea Group, Guangdong 528311, China Midea Building Technologies Division Midea Group Guangdong 528311 China Midea Building Technologies Division, Midea Group, Guangdong 528311, China b School of Aerospace Engineering, Tsinghua University, Beijing 100093, China School of Aerospace Engineering Tsinghua University Beijing 100093 China School of Aerospace Engineering, Tsinghua University, Beijing 100093, China c Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong, China Department of Building Environment and Energy Engineering The Hong Kong Polytechnic University Hong Kong, China Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong, China d Research Institute for Smart Energy, The Hong Kong Polytechnic University, Hong Kong, China Research Institute for Smart Energy The Hong Kong Polytechnic University Hong Kong, China Research Institute for Smart Energy, The Hong Kong Polytechnic University, Hong Kong, China \u204e Corresponding author at: Midea Building Technologies Division, Midea Group, Guangdong 528311, China. Midea Building Technologies Division Midea Group Guangdong 528311 China Energy conservation and carbon reduction of existing buildings have been receiving increasing attention with the proposed carbon neutrality goals. As presented in many studies, adopting model predictive control (MPC) for building HVAC system control is an effective means to realize building energy conservation. However, existing studies rarely addressed the critical challenges for practical applications and integration of MPC in existing Building Automation Systems (BASs). This study proposes a control retrofit approach, which is lightweight and replicable, to realize the improvement of energy efficiency of the existing building HVAC systems through integrating data-driven MPC into existing BASs. The critical challenges in the practical applications of MPC strategies, including MPC strategy development, large-scale data processing, strategy deployment and integration with existing BASs are addressed. The proposed approach was applied to the existing HVAC system of an actual airport terminal and the evaluation results indicate that the control retrofit approach is effective in achieving energy efficiency and thermal comfort improvement. The system daily energy consumption was reduced by 24.5% in average and the percentage of the discomfort time was reduced from 70.2% to 5.7% in average after the control retrofit. The proposed control retrofit approach, with the help of the scalability and distributed computing capabilities of the cloud computing platform, is expected to be able to realize lightweight control retrofit of large number of existing building HVAC systems. Keywords Model predictive control Air conditioning Control retrofit Field test Energy conservation Hybrid building thermal model Data availability The authors do not have permission to share data. Nomenclature Symbols ACHP air-cooled heat pump AHU air handling unit a, b, c, d, g, h coefficients BACnet building automation and control network BAS building automation system BMS building management system C heat capacity, kJ/K Cap cooling capacity, kW CLG cooling power, kW COP coefficient of performance dP differential pressure, kPa F water flow rate, kg/s f frequency, Hz HVAC heating, ventilation, air conditioning and cooling IoT Internet of Things L period LDAP Lightweight Directory Access Protocol MAD Mean Absolute Difference MAPD Mean Absolute Percentage Difference MPC model predictive control MQTT Message Queuing Telemetry Transport N number P power, kW Q cooling/heating energy, kJ R thermal resistance, K/kW RBAC Role Based Access Control RBC rule-based control T temperature, °C TLS Transport Layer Security UDF User Defined Function Subscripts AE air exchange agg aggregated avg average db dry bulb enve envelope hp heat pump IA indoor air IHG internal heat gain lb lower bound min minimum OA outdoor air t time ub upper bound var_rate variation rate Greek symbols α , β , γ parameters ε threshold value 1 Introduction Carbon emissions during building operation accounts for a large proportion of the total carbon emissions in China, which was 21.9% in 2018 [1]. Therefore, reduction of carbon emissions during building operation is one of the key paths to achieve carbon peaking and carbon neutrality goals that proposed by the Chinese government. The reduction of carbon emissions in the operation phase of existing buildings can mainly be achieved by reducing the energy consumption of existing buildings and using more renewable energy. A large proportion of the energy consumption in existing buildings is consumed by HVAC systems, especially for existing public buildings [2,3]. Therefore, energy conservation of HVAC system is very important for reducing the energy consumption of existing public buildings. The approaches for energy conservation of HVAC systems in existing public buildings mainly include system hardware retrofit, system commissioning and advanced control. System hardware retrofit refers to the approaches that realize the energy conservation through modifying building envelope (e.g., wall insulation layer [4], and low-e glass [5]), replacing low-efficiency equipment [6], and adding additional equipment in the original system [7\u20139]. These approaches commonly show considerable performance on energy conservation while they involve a relatively large cost and unneglectable risks for cost recovery [10,11]. Commissioning is a systematic process to ensure the building facility systems perform as the requirements of design documentation and intent [12]. For HVAC systems, due to the deviation of the actual working conditions from the design working conditions and the performance degradation or even faults of equipment, issues such as overheating, overcooling and/or low energy efficiency may occur in the HVAC systems after a period of operation [13]. In such cases, system commissioning is an effective means to deal with these problems and therefore improves the indoor thermal comfort and energy efficiency of the HVAC systems [14]. However, system commissioning requires high professionalism, and experts who are very familiar with the HVAC systems are always needed to conduct a comprehensive diagnosis. Moreover, it is difficult to completely solve the problem at a time, the system needs to have a re-commissioning after a period to maintain comfort and energy performance [15]. These problems make it hard to scale up the applications of commissioning service in practice. Adopting advanced control approaches instead of using simple ones, such as rule-based control or reactive control, is another effective means to realize energy conservation of existing building HVAC systems. Through optimizing the set-points of the system control variables proactively, advanced control approaches can achieve the efficient operation of target HVAC systems in the form of supervisory control [16]. Especially for the advanced control approaches with the self-adapting capability, once the control approaches are developed and deployed for the target HVAC systems, the system operation efficiency can be improved and maintained continuously with quite little maintenance fee [17]. These features make it more attractive in the energy conservation of existing building HVAC systems than the system hardware retrofit and system commissioning approaches. Therefore, this study focuses on the control retrofit of existing HVAC systems using advanced control approaches. MPC (model predictive control) is one of the typical advanced control approaches which has been proved to be effective in multiple studies [18]. MPC uses a system model to predict the system state or performance metrics (usually in the form of objective function in optimization) within a certain period in the future (i.e., prediction time horizon, such as 1 h, 1 day). Based on the prediction results, the optimal control variables can be obtained using optimization techniques to minimize the system performance indices (e.g., operating costs, energy consumption, carbon emissions) while ensuring comfort requirements [19]. A large number of studies have been conducted on the development of modelling approaches and optimization algorithms for MPC, and the relative studies have been reviewed in detail by Refs [18,20]. In recent years, many studies have been conducted to investigate the effectiveness of MPC in building HVAC systems for energy conservation [21]. Yang et al. [22] proposed a MPC strategy for an air-conditioning system with dedicated outdoor air system and conducted an experimental test to investigate the control performance. Compared to the conventional feedback control, the MPC strategy achieved 18% to 20% energy savings. Chen et al. [23] developed an occupant feedback-based model predictive control strategy using a novel dynamic thermal sensation (DTS) model and conducted chamber experiments to evaluate its performance. The test results show that the developed DTS-based MPC performs better than the Predicted Mean Vote-based MPC. Huang et al. [24] investigated the combined impacts of selected time intervals for model discretization and control sampling on the performance of MPC through detailed simulations. The simulation results show that the time interval of model discretization has much greater influence. These studies provide the means and guidelines to design and develop the MPC strategies, and demonstrate their superior performance in HVAC control. However, there are yet few practical applications of MPC in the optimal control of building HVAC systems, and the effective means to promote the application of MPC in engineering are rarely found in the existing studies. Most of the existing studies focused on validating the feasibility and advantages of MPC in the control of specific HVAC systems but not the general approach for realizing the practical applications of MPC in large scale [25\u201327]. Only a few studies have discussed the critical challenges in scaling up the practical applications of MPC in existing building HVAC systems, including the acquirement of required operation data, design and development of MPC, implementation of MPC in existing BMS (Building Management System) or BAS (Building Automation System) [28,29]. Blum et al. [28] estimated the model development and engineering costs for MPC implementation in a real office building, and demonstrated the feasibility of developing MPC using the open-source software developed in [30]. However, the proposed MPC strategy was designed for the HVAC system of the target office specifically, and its generality remained unclear. Bird et al. [29] presented a cloud-based monitoring and control platform in the case study of a food-retail building in the UK and introduced the design, installation and cost of implementing MPC for its HVAC system. The simulation results showed that the proposed MPC control outperforms the existing rule-based control both in energy cost and carbon emission. These studies introduced the workflow for developing and implementing MPC in practical applications, while several critical challenges remained unsolved, including the development of reliable and efficient system model, the large-scale data processing in near real-time, and the compatibility of MPC strategy with existing control logic. And these challenges restrict the wide and flexible application of MPC in existing building HVAC systems for energy conservation. To fulfill the research gaps in practical deployment of MPC in existing HVAC systems, this study proposes a general control retrofit approach which can realize the energy conservation of existing building HVAC systems adopting MPC. A general and replicable MPC strategy which is effective for the energy conservation of existing HVAC systems with different configurations is proposed. A cloud-edge collaboration architecture is proposed to realize the operation data access and integration of the MPC strategies with existing BASs in a lightweight and scalable way through standard communication protocols. The MPC strategies are deployed in the cloud to optimize the system operation according to the acquired operation data through sending supervisory control settings to the existing BASs. The implementation of the proposed approach in a real-life airport terminal is presented in detail and the field test results are analyzed. The contributions of this work are summarized as follows. \u2022 A general and replicable MPC strategy for energy conservation of existing building HVAC systems is proposed and validated in practical application. This strategy can be applied in most of the building HVAC systems of different configurations since it is designed to optimize the system operation at the macro level rather than to optimize the system/subsystem of specific configuration. According to the predicted indoor temperature trend, the proposed MPC proactively generates the optimal system cooling outputs which are achieved through adjusting the chilled water supply temperature. In this manner, the system cooling outputs can be minimized while maintaining indoor thermal comfort. Based on the optimal system cooling outputs, the operating number of chillers is optimized to minimize the energy consumption of chillers. \u2022 A general approach for implementing the MPC strategy in existing HVAC systems is proposed and the critical problems in practical applications are addressed, including near real-time (within 1 min) large-scale data processing and the compatibility and integration of MPC with the existing BAS. Near real-time data is necessary for operation of MPC strategy and it is a challenge work to deal with the huge amount of operation data in near real-time when many HVAC systems are integrated in the cloud platform. An effective solution is presented in this study for this critical problem in practice. Moreover, it is a difficult task to deploy MPC strategies in the existing BASs especially when the existing control logic needs to be revised, since their programs are customized without uniform programming standards. Using the proposed approach, the MPC strategy can be integrated into the existing BASs noninvasively, i.e., the control logic of the existing BASs doesn\u2019t need to be revised. The proposed approach is of great significance to guide the application and promotion of data-driven MPC in actual building energy-saving retrofitting projects. \u2022 A novel hybrid model, which consists of a gray-box building thermal model and a data-driven residual prediction model, is proposed for the prediction of indoor temperature variation in practical applications. The gray-box building thermal model is developed based domain knowledge on thermodynamics which brings high generality since it doesn\u2019t rely on detail information of the target buildings. The heat gains that cannot be directly measured, such as indoor heat gains of solar irradiance and occupancy, are innovatively regarded as a periodical function and represented as Fourier expansion in the gray-box model. The accuracy of the gray-box model is further enhanced using a data-driven model to compensate its prediction error which may be caused by the simplification of model structure. The rest of this paper is organized as follows. Section 2 introduces the general MPC strategy, the cloud-edge collaboration architecture and the standard workflow of the proposed control retrofit approach. Section 3 presents the implementation of the proposed control retrofit approach in a real-life airport terminal, including the target system description and the MPC strategy development. In Section 4, the performance of the developed MPC strategy is evaluated according to the field test results. The conclusions of this study are summarized in Section 5. 2 Methodology The proposed control retrofit approach is a general and replicable approach for energy conservation of existing building HVAC systems through integrating MPC strategies into their BASs. A general MPC strategy for optimal control of target HVAC system, a cloud-edge collaboration architecture for the integration of MPC strategy with existing BAS, and the standard workflow for implementing the control retrofit approach are presented. 2.1 General MPC strategy The schematic and optimization process of the proposed general MPC strategy for existing HVAC systems is presented in Fig. 1 . The proposed MPC strategy is a supervisory control strategy which optimizes the set points of chilled water supply temperature and the operating number of the chillers. It contains two parts, i.e., cooling optimization and chiller sequencing optimization. The main idea of this MPC strategy is to minimize the system power consumption by both minimizing the system cooling supply and maximizing the system operation efficiency. The cooling optimization part is responsible for minimizing the system cooling output while maintaining the indoor temperature in the predefined range. The building thermal model is responsible for predicting the building indoor average temperature trend in the control time horizon (e.g., future 30 min). The optimal cooling output is achieved by the optimization method according to the prediction results of the building thermal model. With the obtained optimal cooling output, the optimal chilled water supply temperature can be approximately calculated according to the current chilled water return temperature and chilled water flow rate. The chiller sequencing optimization part is to seek for the optimal operation number of chillers which can minimize the system power consumption while providing the required cooling capacity, i.e., the optimal cooling output obtained by cooling optimization. The cooling plant power model is responsible for predicting the power consumption of the cooling plant when different sequencing strategies are adopted. The proposed MPC strategy is applicable in a large amount of HVAC systems with different configurations since the means of realizing the system energy conservation, i.e., cooling optimization and sequencing optimization, is not designed according to the HVAC system with specific configurations. Moreover, the proposed MPC strategy optimizes the operation of target HVAC system through supervisory control and therefore will not affect the existing local control logics of the existing BAS. The proposed MPC strategy is applied and validated in a real-life airport terminal and the details are presented in Section 3.2 and Section 4. 2.2 Cloud-edge collaboration architecture 2.2.1 Overall architecture Fig. 2 presents the proposed cloud-edge collaboration architecture of the control retrofit approach, which consists of an IoT (Internet of Things) gateway and a cloud platform. The architecture is able to realize the lightweight control retrofit of existing building HVAC systems since only an IoT gateway is needed to be integrated into the existing BASs and no revision on the original control logic of the existing BASs is needed. The cloud platform is responsible for the real-time data processing and storage as well as the deployment and operation of the MPC strategy. The IoT gateway is responsible for the bidirectional data transmission between the existing BAS and the cloud platform. The system raw operation data generated in the BAS are acquired by the IoT gateway and then uploaded to the cloud platform for data processing and storage. The processed data is used by the deployed MPC strategy for system operation optimization. Once the optimized settings are generated by the MPC strategy, they are sent to the IoT gateway and then delivered to the existing BAS for control execution. The bidirectional data transmission between BAS and the IoT gateway, i.e., operation data upload and control settings delivery, is realized through BACnet (Building Automation and Control Network) communication protocol, a commonly used network protocol in BASs for interoperation between different devices. BACnet provides a convenient way to realize the information upload and control settings execution. For information upload, all the available data points in the BAS control network can be obtained directly through BACnet scanner and therefore the integration of the IoT gateway can be realized easily. For control settings execution, the settings from MPC strategy can be executed directly without modifying the original program of the existing BASs through priority-based overriding mechanism of BACnet, i.e., the original setting parameters in the existing BASs can be directly overridden by the settings from the MPC strategy which has an equal or higher priority. The communication protocol used for the information exchange between the IoT gateway and the cloud platform is MQTT (Message Queuing Telemetry Transport). MQTT is a light protocol widely used in IoT systems since it can ensure smooth and reliable data transfer among multiple devices with low bandwidth. The TLS (Transport Layer Security) encryption mechanism is added in the MQTT protocol to protect the system against the vulnerabilities. For the deployment of MPC strategy, Docker is adopted to package up the code of each MPC strategy and its dependencies as a portable and self-sufficient container operating on the cloud platform [31]. In this manner, the MPC strategies can be tailored as different micro services on the cloud platform to provide service for different building HVAC systems. 2.2.2 Solution for large-scale data processing and store in near real-time Considering the large-scale applications of this approach for the control retrofit of existing HVAC systems, the near real-time processing and store of large-scale data in the cloud platform need to be addressed. The near real-time data processing and storing is very important for the MPC strategy since the optimization needs to be conducted based on the current and historical state of the system. Considering the situation that 100 building HVAC systems are integrated in the cloud platform and the number of data points of one building HVAC system is 1,000, the amount of data needed to be processed in one minute will be 100,000. As a result, there will be 144 million records per day and more than 52 billion records in total in one year needed to be stored. This brings critical challenges to the cloud platform, which including massive data processing (such as missing data handling, data noise and outliers handling) in near real-time, low-cost and scalable data storage, fast data query and retrieval, data backup, and data safety. An effective solution is proposed for the near real-time large-scale data processing in the cloud platform. It is based on the recent emerging Lakehouse architecture - an open data architecture which combines the flexible storage of unstructured data from data lakes and the management features and tools from data warehouses [32]. The ability of end-to-end streaming and decoupling of storage and computing makes it preferred architecture for this scenario. The architecture of the proposed solution and process of the large-scale data processing are shown in Fig. 3 . Massive operation data of different building HVAC systems are uploaded to the MQTT brokers and sent to the Kafka [33], which is an open source platform supporting steaming analytics, through an adapter developed for data format conversion. Based on PySpark Streaming [34], the missing values and outliers in the massive data can be handled using the UDFs (User Defined Function) written in Python in near real-time. The UDFs are executed in distributed computing in Spark cluster which makes computing scalable. By decoupling storage from computing, the handled time-series data is then stored into cheap object storage yet with great data analytics performance in Delta Lake format [35]. In order to ensure the performance of the database in query and retrieval, multiple optimization techniques including partition [35], compaction [35] and z-order [36] are utilized. Moreover, with Delta Lake metadata stored in the same location with the time-series data, the backup and archive of the data can be realized by simply using \u2018clone\u2019 command to copy plain object storage files into cheaper storage like tapes. With security in mind, the RBAC (Role Based Access Control) plugin is developed based on the LDAP (Lightweight Directory Access Protocol) to manage the users\u2019 access to the database under the multi-tenant mode. Then, the applications, i.e., the MPC strategies for different building HVAC systems can access the corresponding near real-time data securely through PyHive [37]. 2.3 Standard workflow Fig. 4 presents the standard workflow for implementation of the proposed control retrofit approach, which contains five key steps, including onsite system investigation, IoT gateway integration, data processing, MPC strategy development, and MPC strategy deployment and trail operation. The first two steps will consume 3\u20137 days based on the complexity of the target HVAC system and its BAS. The most time-consuming steps are the data processing and MPC strategy development. The main reason is that the system models need to be developed based on the operation data of the target HVAC systems. For the HVAC systems with abundant historical operation data, the MPC strategy can be developed in about two weeks. While for the cases that historical operation data is unavailable, one month operation data is normally needed to be collected for the strategy development and the whole step will cost about 6 weeks. The detail descriptions of these steps are presented as follows. \u2022 Onsite system investigation is conducted to obtain the important information of the target HVAC system, including the system configuration, local control logic and available measurement points. \u2022 IoT gateway integration is conducted to realize the bidirectional data transmission between the cloud platform and the existing BAS. In this manner, the operation data of the HVAC system generated by the BAS can be obtained for further use, such as system performance analysis, development of the system model and optimization of system operation, and the optimal settings generated by the MPC strategy can be sent to the existing BASs for control execution. \u2022 Data processing is conducted to deal with the two main problems in the obtained raw operation data, which are non-standard name of data points, and data noise and outliers. Firstly, the data organization is conducted to map the original data to standard tagging scheme. The organized data is then processed to deal with the noise and outliers. In real applications, the noise and outliers can be generated by various problems, such as improper installation of sensors, sensor bias and faults, so the algorithms for dealing with the data noise and outliers needs to be developed accordingly. \u2022 MPC strategy development is conducted to develop MPC strategy for the target HVAC system according to the collected system information and processed data. In this step, the prediction model of the system, the objective function in optimization and the optimization algorithms are developed. \u2022 Trial operation is conducted to test the reliability and effectiveness of the developed MPC strategy in test environment of the cloud platform before real applications. During the trial operation, the real-time data transmission, MPC strategy operation, and control settings delivery and execution will be tested. Once the whole system is proved to be reliable and robust during the trial operation, the MPC strategy will be encapsulated and deployed on the operation environment to optimize the operation of the target HVAC system continuously. 3 Control retrofit implementation The proposed control retrofit approach is applied in the HVAC system of a real-life building, which is a three-floor airport terminal located in Zhejiang province, China, with about 16,500 m2. The system information is obtained through onsite system investigation and relative materials, including design documents of the building HVAC system and the instructions of its BAS. The system configuration and original control strategy of the existing BAS are presented in Section 3.1. Since there is no historical operation data available in the existing BAS, the operation data is collected after the IoT gateway being integrated into the existing BAS. Through BACnet scanner, the available data points are obtained and there are totally 900 data points available in the BAS. Although not all data points are needed for development and operation of the MPC strategy, they are collected completely considering the use of system operation monitoring and further analysis. The acquired data is uploaded to the cloud through 4G network in 1-min interval. With the collected data, the MPC strategy for the HVAC system is developed and it is presented in Section 3.2. 3.1 Target system description 3.1.1 HVAC system configuration The schematic of the target HVAC system is shown in Fig. 5 . The system consists of six air-cooled heat pumps (ACHPs), four variable speed chilled water pumps and six air handling units (AHUs). The nominal cooling capacity of each air-cooled heat pump is 602 kW under nominal working condition, i.e., at the chilled water supply temperature of 7 °C, chilled water flow rate of 28.8 L/s and ambient air temperature of 35 °C. Among the four chilled water pumps, three are associated with the ACHPs and the other one is stand by. The rated flow rate and power load of the chilled water pumps are 61.1 L/s and 45 kW, respectively. In order to prevent the ACHPs from suffering chilled water shortage, a bypass chilled water pipeline with a manual valve is built. The nominal cooling capacities of the AHUs are 280 kW, 280 kW, 320 kW, 320 kW, 245 kW, 245 kW, respectively and their nominal fan power are 22 kW, 22 kW, 30 kW, 30 kW, 22 kW, and 22 kW, respectively. 3.1.2 Original control strategy of the HVAC system The existing BAS of the HVAC system has been configured with a rule-based control (RBC) strategy and multiple local control functions to allow the HVAC system to operate properly. The rule-based control strategy is responsible for the control of chilled water supply temperature ( T chws ), and it determines the chilled water supply temperature according to outdoor wet-bulb temperature ( T wb ) as shown in Eq. (1). Where α and γ are constant parameters determined according to experience of the engineers to ensure the performance of this strategy. (1) T chws = α T wb + γ The local control functions include the sequencing control of ACHPs and pumps, as well as the process control for pump frequency, AHU supply air temperature and AHU fan frequency. For the sequencing control of ACHPs, an ACHP will be turned on if the set point of chilled water supply temperature cannot be achieved and all the operating ACHPs are operating at high part load ratio for a predefined time, and vice versa. The number of running pumps is determined by the number of running ACHPs, i.e., it is the number of running ACHPs divides two rounded up. The pump frequency is adjusted according to the difference between the set point and the actual value of the pressure difference between the supply side and return side of the main water pipeline. For the process control of AHUs, the supply air temperature is controlled by modulating the opening of water valve according to the difference between the set point and actual value. The fan frequency of an AHU is controlled according to the difference between the set point of indoor temperature and its real value. 3.2 MPC strategy development The MPC strategy proposed in Section 2.1 is used in this HVAC system. Note that only cooling mode of the HVAC system is considered in this study since there is no available historical operation data of heating season. The proposed MPC strategy contains two parts, which are cooling optimization and ACHP sequencing optimization. Considering the building thermal inertia and system dynamics, the control time horizon of MPC is set as thirty minutes in this study and the optimization is conducted per ten minutes. 3.2.1 Cooling optimization The optimization problem of cooling optimization is formulated as Eq. (2). The objective is to minimize the cooling output of the next three time steps and the constraints include the lower and upper bound of system cooling output, indoor average temperature, and the variation rate of the cooling outputs at two consecutive time steps. Where CLG t is the system cooling output at time t , T IA is the average temperature of the indoor air, and subscripts lb, ub and var_rate represent, lower bound, upper bound and variation rate, respectively. (2) Minimize ∑ t = 1 3 CLG t s u b j e c t t o : CLG lb < CLG t < CLG ub T IA , l b < T IA < T IA , u b CLG v a r _ r a t e ≤ CLG v a r _ r a t e , u b To solve the optimization problem, a building thermal dynamic model is needed for indoor average temperature prediction. Considering the low generality and modelling efficiency of traditional white-box model and the low extrapolation accuracy of pure data-driven model, a novel hybrid model which consists of a gray-box building thermal model and a data-driven residual prediction model is proposed Compared to traditional white-box models, the proposed model doesn\u2019t rely on the detail information of the target building but only general thermodynamic analysis, and is therefore more easily and efficiently applied to different buildings. Meanwhile, owing to the informed physics laws, the proposed hybrid can be more robust to outliers in the training dataset and has better performance in extrapolative prediction than the pure data-driven models. The development of the proposed hybrid model consists of four main steps as shown in Fig. 6 . Firstly, a gray-box building thermal model for indoor average temperature prediction is derived based on domain knowledge. The unknown coefficients in the derived model are estimated using Least Squares based on the historical HVAC system operation data collected from the case study building. After the parameter estimation, the residual of the gray-box building thermal model is calculated and modeled using a machine learning method (i.e., Cubist [38]). In the last step, the hybrid model for indoor average temperature prediction is obtained by combining the physics-informed building thermal model and the data-driven residual model. The details of each step are presented in the Appendix A.1. The schematic of the hybrid building thermal model is shown in Fig. 7 . For one-step-ahead prediction, the indoor average temperature, the outdoor air temperature, and the cooling supply of the last three steps as well as the current timestamp are required to predict the indoor average temperature of the next step. For multi-step-ahead prediction, the prediction results of the former time steps are recurrently used as the input to predict the indoor average temperature at the latter time steps. In order to solve the cooling optimization problem presented as Eq. (2), Branch and Bound, a general optimization method for discrete and combinatorial optimization problems proposed in Operation Research, is adopted in this study [39]. Although the original optimization problem is continuous, it can be transformed into discrete and combinatorial optimization problem without sacrificing optimization performance considering the control and measurement precision of HVAC systems. 3.2.2 ACHP sequencing optimization The optimization problem of ACHP sequencing optimization is formulated as Eq. (3). The objective is to minimize the power consumption of the cooling plant, which includes that of the ACHPs and pumps, through optimizing their operating numbers. The operating number of the water pumps is associated with that of the ACHPs as shown in Eq. (4). The constraints include the minimum requirement on the number of operating ACHPs and the limitation on the number of ACHPs that can change ON/OFF status. (3) Minimize ∑ t = 1 3 P hp , t N hp , T chws , T db , CLG t + P pump , t N hp , N pump , d P (4) N pump = ⌈ N hp 2 ⌉ subjectto : N hp ≥ N min N change ≤ N avaliable where P hp , t and P pump , t are the power consumption of operating ACHPs and pumps at time t, N hp and N pump are the number of ACHPs and pumps in operation, N min is the minimum number of ACHPs needed to be turned on, N avaliable is the number of ACHPs that can change ON/OFF status, T chws and T db are the chilled water supply temperature and outdoor dry bulb temperature, dP is the differential pressure of the chilled water system. Simplified models of the ACHPs and pumps are developed to predict the power consumption of the cooling plant. The ACHPs used in this system can modulate their cooling capacities in four steps, i.e., 25%, 50%, 75%, and 100%, denoted as stage 1 to stage 4. The performance of the ACHPs sizably varies from one stage to another and the operating capacity of the ACHPs are controlled by the built-in control logic. Therefore, in order to predict the power consumption of an ACHP, its operation stage needs to be determined first. In this study, a hybrid model which includes a stage prediction module and a power prediction module is developed for the power prediction of one ACHP. Fig. 8 presents the schematic of the hybrid model. Based on the total cooling output ( CLG tot ), the number of operating ACHPs ( N hp ), the chilled water supply temperature ( T chws ), and dry bulb temperature ( T db ), the operating stages and the cooling outputs of the ACHPs ( CLG 1 , ⋯ , C L G k ) are determined. According to the determined operation stages and cooling outputs of the ACHPs as well as the T chws and T db , the power consumption of the operating ACHPs can be obtained. The detail description of the developed model is presented in the Appendix A.2. In order to solve the sequencing optimization problem presented as Eq. (3), exhaustive search is adopted as the optimization method in this study since the potential solution of the problem is limited. 4 Field test and analysis 4.1 Model validation Based on the collected operation data through the integrated IoT gateway, the cooling plant power model and the building thermal model were trained and validated. The operation data from 5th July to 7th Aug 2022 (34 days in total) were used for model training and the data from 8th to 11th Aug 2022 (four days in total) were used for testing. 4.1.1 Validation of cooling plant power model The cooling plant power model, which includes the ACHP and chilled water pump models, is used to predict the plant power consumption. Fig. 9 compares the measured and predicted power consumption of the cooling plant during the four test days. It can be seen that although the total power consumption of the cooling plant changed stepwise in certain periods due to the switching of operation stage of the operating ACHPs, the prediction results match the measured values closely in the whole time period. The prediction error was less than 5% except for one test case as shown in Fig. 10 , indicating the effectiveness of the cooling plant model. 4.1.2 Validation of building thermal model The building thermal model is used to predict the indoor average temperature in the next 30 min. Fig. 11 compares the measured and predicted indoor average temperature of the air-conditioned area in the studied building during the four testing days. It can be seen that the predicted indoor average temperature highly approximated the measured values during the testing days and the RMSE (Root Mean Square Error) between the measured and predicted indoor average temperature was 0.12 °C. The relative prediction error of the model was less than 5% as shown in Fig. 12 , and the absolute error was lower than 0.2 °C in most of the cases, indicating the effectiveness of the building thermal model. 4.2 Performance evaluation The control retrofit for this HVAC system was completed at 22nd Sep 2022, and the deployed MPC strategy continuously optimized the operation of the HVAC systems until the end of the cooling season, 6th Oct. During the 15 days running, the operation of the MPC strategy and the bidirectional information transmission between the cloud platform and the existing BAS were stable. In order to evaluate the performance of the MPC strategy in energy saving and thermal comfort improvement, the system power consumption and indoor average temperature under MPC strategy are compared with those under original RBC strategy at the similar days. During the operation period after control retrofit, the cooling load of the building is very small at most of the operation time and one ACHP operates at the stage 2, i.e., the stage with the smallest cooling capacity, can fulfill the cooling demand. In such cases, the advantage of the MPC strategy in optimizing the system cooling output and ACHP operating number cannot be reflected. Fortunately, the building cooling load increased a little during 30th Sep to 2nd Oct due to the increase of the outdoor air temperature. Therefore, the performance of the MPC strategy during the three typical days is analyzed in detail. 4.2.1 Determination of similar days The outdoor dry bulb temperature and the relative humidity, which are highly correlated to the cooling load, are the variables concerned while determining the similar days. The mean absolute difference (MAD) and mean absolute percentage difference (MAPD) of the two variables between the days using MPC strategy and the days using RBC strategy are calculated to quantify the similarity. Based on the four indicators, i.e., MAD and MAPD of outdoor dry bulb temperature (MADdb, MAPDdb), MAD and MAPD of relative humidity (MADrh, MAPDrh), the most similar day to a selected day can be determined. In this study, the most similar days are determined through two steps. Firstly, the days with MADdb less than 1.5 °C and MADrh less than 10% are filtered out as the qualified days. Then, the day with the minimum value of the sum of MAPDdb and MAPDrh among the qualified days is determined as the most similar day. The similarities among the days using RBC strategy (from 1st Aug to 20th Sep) and the days using MPC strategy are evaluated based on the four indicators and the most similar days are identified according to the evaluation results. Fig. 13 presents the values of MADdb and MADrh among the days using the RBC strategy and 30th Sep, and the values of the sum of MADPdb and MAPDrh of the qualified days. It can be seen that among the four qualified days, 13th Sep, with the MAPDsum of 0.0861 is the most similar day to 30th Sep. Similarly, as show in Fig. 14 and Fig. 15 , the most similar days to 1st Oct and 2nd Oct are 11th Sep (MAPDsum is 0.1109) and 28th Aug (MAPDsum is 0.1156), respectively. Fig. 16 presents the comparison of the dry bulb temperature and relative humidity of the three groups of similar days. It can be seen that the dry bulb temperature and relative humidity of each group of similar days are very close, indicating the cooling demand should be close. Therefore, it is reasonable to evaluate the performance of the MPC strategy through comparing the system energy consumption and indoor thermal comfort of the selected similar days. 4.2.2 Energy performance Fig. 17 presents the optimized cooling output and the actual system cooling output using the MPC strategy and the RBC strategy. It can be seen that the system cooling outputs when using the MPC strategy were obviously smaller than those of using RBC strategy. Fig. 18 presents the set points and actual values of the chilled water supply temperature when using the MPC strategy and RBC strategy. The set points and the actual values of the chilled water supply temperature when using the MPC strategy were obviously higher than those of using the original RBC strategy. This is because that the MPC strategy optimized the system cooling output according to the prediction results of the building thermal model and adjusted the chilled water supply temperature to control the system cooling output. In this means, the system cooling output was controlled according to the actual building cooling demand and therefore the redundant cooling output was reduced or even eliminated. While the RBC strategy adjusted the chilled water supply temperature according to the wet bulb temperature only and redundant cooling output cannot be avoided. It is worth noting that, since the ACHPs used in this system cannot modulate its output smoothly, there always exists difference between the set points and the measured values of the chilled water supply temperature and system cooling output when using both strategies. Through the optimization and control of the system cooling output, MPC strategy showed superior energy performance than the RBC strategy. Fig. 19 compares the system daily energy consumption, which is the sum of the daily energy consumption of the operating ACHPs, CHWPs and AHUs, when using the MPC strategy and RBC strategy in the similar days. It can be found that, the system energy consumption was obvious smaller when using the MPC strategy compared with that of the similar days when using RBC strategy. The detailed statistical data is presented in Table. 1 . The energy savings of the three days were 1493.73 kWh (37.3%), 364.32 kWh (10.6%) and 1034.65 kWh (23.7%), respectively. It can be found that the energy savings mainly come from the reduction of the energy consumption of ACHPs. The main reason is that the high chilled water supply temperature reduced the cooling output of the ACHPs and improved their energy efficiency. It can also be observed the energy consumption of the AHUs when using MPC strategy were higher than that of using RBC strategy in group 2 and group 3. The main reason is that the volume of cooled air required for maintaining indoor temperature was larger when using the MPC strategy, as the supply air temperature of the AHUs were higher due to the higher chilled water supply temperature. It is a pity that the performance of the sequencing optimization cannot be evaluated due to the small cooling load in the testing days. Its performance will be evaluated in the operation of next cooling season. 4.2.3 Indoor thermal comfort Through optimizing the system cooling output according to the cooling demand, the indoor comfort was obviously improved after the control retrofit, i.e., when using the MPC strategy. The indoor average temperature is adopted as the indicator of the indoor thermal comfort in this study. According to the design code for heating ventilation and air conditioning of civil buildings [40], 24 °C to 26 °C is recommended as the most comfortable indoor temperature region in cooling season. Fig. 20 presents the indoor average temperature distribution of the three groups of similar days. The overcooling phenomenon, i.e., the indoor average temperature is lower than 24 °C, was very common when using the RBC strategy, especially in group 1 and group 3. When using MPC strategy, the indoor average temperature was controlled between 24 °C to 26 °C at most of the time. The percentage of the time that the indoor temperature was kept in the comfort region of the three days when using RBC strategy were 2.42%, 70.59% and 16.02%, respectively. When using the MPC strategy, the percentages were improved to 83.97%, 100% and 98.94%, respectively. 4.2.4 Detail analysis The test results show that the MPC strategy has superior performance in both energy saving and indoor thermal comfort than the RBC strategy. In order to investigate the advantage of the MPC strategy, the operation of the HVAC system under the two strategies are analyzed in detail. Both the MPC strategy and RBC strategy are used to optimize the set points of the cooling plant and the set points of the AHUs, which include the set points of supply air temperature and indoor temperature, are adjusted by the operators manually. According to the operation record, the set points of the supply air temperature are kept constant in the six days concerned, which are 18 °C. The set points of the indoor temperature are the same, i.e., 26 °C, in the concerned six days except for 28th Aug. The set points of the six AHUs are set to be 26 °C, 26 °C, 23 °C, 23 ℃, 25 °C, 25 °C, respectively in 28th Aug. Actually, this is an experience-guided rule used by the operators to avoid insufficient cooling supply of the four AHUs located in the second floor of the airport terminal. The set points of the AHUs will be set to be lower at the beginning of July and reset to be 26℃ at the beginning of September. The reason is that the cooling demand of the four region is relatively larger. It is worth noting that, the adjustment of the set points doesn\u2019t indicate that the target indoor air temperature of the four regions are lower. The expected indoor air temperature of the six AHUs is still 24 °C∼28 °C. Fig. 21 presents the fan frequency, return air temperature and supply air temperature of the six AHUs at the three groups of similar days. It can be found that, no matter the set points of the AHUs are the same or not, the MPC strategy reduced the overcooling in AHU1 and AHU2 compared with that using RBC strategy, and maintained the indoor temperature of the other AHUs within the expected range. The main reason is that the MPC control strategy can further reduce the cooling output of the system by adjusting the water supply temperature when the air side regulation reaches the limit. Taking AHU1 as an example, during the operation in the three groups of similar days, its fan frequency kept at the lowest value (35 Hz), when using both of two strategies, which indicates that the cooling output cannot be reduced any more by the regulation of the AHU. In such cases, when the MPC strategy is used, the supply air temperature of the AHU was higher due to the supply of higher chilled water supply temperature, which further reduced the system cooling output. Owing to the accurate prediction of the indoor temperature by the building thermal model, the return air temperature of the AHUs with relatively higher cooling demand were maintained within the expected range with the reduced system cooling output. It is possible to formulate a RBC strategy to realize the system cooling output reduction as the MPC strategy through adjusting the chilled water supply temperature according to the return air temperature. However, without the prediction of the indoor temperature, it\u2019s hard to determine the set point of chilled water supply temperature which can reduce the system energy consumption while maintaining the indoor thermal comfort. As presented in the previous studies, the RBC strategies normally perform worse in energy savings and indoor thermal comfort than MPC strategies [21]. Moreover, in order to ensure the performance of such RBC strategies in practical applications, their parameters such as the step of the adjustment and the threshold for determining the execution of adjustment, needed to be identified and configured carefully. Therefore, considering the large-scale applications of the control strategy, using MPC strategy would be more effective and efficient. 5 Conclusions This study proposes a lightweight and replicable control retrofit approach to improve the energy efficiency of the building HVAC systems adopting MPC strategies. A general MPC strategy is proposed for the energy conservation of HVAC systems with different configurations. A cloud-edge collaboration architecture is proposed to realize the integration of the MPC strategies with the existing BASs without modifying the original control logics. With the help of the scalability and distributed computing capabilities of the cloud computing platform, multiple MPC strategies can be deployed on the cloud platform to optimize the operation of the HVAC systems through interacting with their existing BASs. The proposed control retrofit approach is expected to be able to provide lightweight control retrofit services for large number of existing building HVAC systems. The proposed control retrofit approach was implemented in a real-life airport terminal and the MPC strategy showed superior performance than the original RBC strategy in the existing BASs both in energy and thermal comfort. Compared with the similar days before the control retrofit, the system energy consumption was reduced by 37.3% (1493.73 kWh), 10.6% (364.32 kWh) and 23.7% (1034.65 kWh), respectively, and the percentages of the discomfort time were reduced from 97.58%, 29.41% and 83.98% to 16.03%, 0.00% and 1.06%, respectively. Moreover, the proposed hybrid building thermal model was proven to be effective in predicting indoor temperature. During the test period, the prediction error was lower than 0.2 °C in most of the cases and the RMSE was 0.12 °C. Further efforts will be devoted to developing model update mechanism to ensure the prediction accuracy of the system models. Since the effectiveness of the MPC strategies highly relies on the accuracy of the prediction models, and the model performance could become worse in continuous operation due to the variation of the working conditions and the equipment performance. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Appendix A.1 Hybrid building thermal model A.1.1 Gray-box building thermal model Considering the case study building as a whole, according to the law of conservation of energy, the heat balance equation of the building can be represented as Eq. (A.1). (A1) C IA T IA , t 1 - T IA , t 0 = Δ Q cooling + Δ Q enve + Δ Q solar + Δ Q AE + Δ Q IHG where CIA is the heat capacity of the indoor air [kJ/K], TIA is the indoor average temperature, ΔQcooling stands for the cooling energy [kJ] provided to the indoor air between t0 and t1 , ΔQenve , ΔQsolar , and ΔQAE indicate the heat gains caused by heat transfer through the building envelope, solar radiation, and air exchange between indoor and outdoor, respectively, and ΔQIHG indicates the internal heat gains caused by occupants\u2019 activities, lighting, and electricity appliances, etc. ΔQenve can be calculated according to Eq. (A.2). (A2) Δ Q enve = ( T OA - T IA R enve ) Δ t where TOA is the outdoor air temperature, Renve is the equivalent thermal resistance of the building envelope [K/kW] and is considered as a constant for simplification, and Δt stands for the time length between t0 and t1 . ΔQsolar , ΔQAE and ΔQIHG of a building cannot be easily measured in practice. However, the heat gains are considerably influenced by factors that have strong periodicity, such as solar irradiance, weather and building occupancy [41]. A spectrum analysis [42] is conducted on the solar irradiance data of the case study site (from a typical meteorological year database [43]) and the occupancy data of another airport terminal building in China (from Ref. [44]) to illustrate the periodicity of the factors. According to Fig. A.1 a), the most considerable periods in the solar irradiance data include one year (8760 h), one day (24 h), a half day (12 h) and these around one hour, which can be interpreted as annual, daily, and intra-day variabilities. While the period of one year, one day and a half day are mostly due to the nature of sun, the periods around one hour is caused by occasional factors, such as cloud and measurement noise, that can be eliminated from the prediction model to avoid overfitting [45]. In Fig. A. 1b), the most considerable periods in the occupancy data include one year (8760 h), one day (24 h) and these around one hour, which can be interpreted as annual, daily, and intra-daily variabilities. for simplicity, ΔQsolar , ΔQAE and ΔQIHG are not described in detail but innovatively aggregated as one term that can be represented using Fourier series. Accordingly, the three variables can be expressed as in Eq. (A.3). (A3) Δ Q solar + Δ Q AE + Δ Q IHG = Δ Q agg = a 0 2 + ∑ n = 1 N a n cos 2 π L n t + b n sin 2 π L n t where ΔQagg stands for the aggregated heat gain term, a0 , an and bn (n = 1, 2, \u2026, N) are coefficients to be estimated, N is the number of orders of the Fourier series, L is the period of the aggregated heat gain term, and t stands for time. In this study, L and N are determined based on the aforementioned spectrum analysis (Fig. A. 1.). Obviously, L should be chosen as large as possible (e.g., one year) to cover the whole most considerable periods (i.e., 1 h, 12 h, 24 h and one year) as shown in Fig. A.2 . However, since the time length of dataset for model training is usually from a couple of weeks to a few months in practical, thus L of one year is meaningless and L of 24 h is chosen. Similarly, N should be chosen as large as possible to contain the high-frequency intra-day variabilities with shorter periods, e.g., one hour or less. However, since the variabilities of periods around one hour maybe caused by some occasional factors (e.g., cloud movement and measurement noise) and the building with high thermal inertial is insensitive to such high-frequency variabilities, these part of variabilities are thus not considered to avoid overfitting and improve the generality of the model. Therefore, the value of L and N are set to be 24 h and 2 respectively, which means that the Fourier expansion of the aggregated heat gains term contains the variabilities of period 24 h and 12 h. According to Eq. (A.1) to Eq. (A.3), the indoor average temperature at t1 can be calculated using Eq. (A.4). (A4) T IA , t 1 = Δ Q cooling + ( T OA - T IA R enve ) Δ t + a 0 2 + ∑ n = 1 N a n cos 2 π L n t + b n sin 2 π L n t C IA + T IA , t 0 Since it is difficult to obtain the average temperature difference between indoor and outdoor air during Δt in practice, considering that the change of either indoor or outdoor air is small during a short time period, the average temperature difference from t0 to t1 can be approximated using the instantaneous temperature difference at t0 . Eq. (A.4) can consequently be expressed as Eqs. (A.5)-(A.7). (A5) T IA , t 1 = c 1 T OA , t 0 - T IA , t 0 + c 2 Δ Q cooling + a 0 2 + ∑ n = 1 N a n cos 2 π L n t + b n sin 2 π L n t + T IA , t 0 (A6) c 1 = 1 C IA R enve (A7) c 2 = 1 C IA Eq. (A.5) is the gray-box building thermal model used for indoor average temperature prediction, where TIA,t1 is the indoor average temperature to be predicted, TOA,t0 , TIA,t0 , ΔQcooling and t are predictor variables, a0 , an , bn , c1 , and c2 are coefficients to be estimated, N and L are hyper-parameters to be determined by the user. In this study, N and L are set to be one week and 28 respectively determined by trial and error, which means the period and fundamental period of the aggregated term is one week and 1/4 day, respectively. The unknown coefficients in the derived model, i.e., Eq. (A.5), including a0 , an , bn , c1 , and c2 (n = 1, 2, \u2026, N), are estimated using historical system operation data of the case study building. Since c1 and c2 in the model cannot be negative from the perspective of physics, a non-negative least squares method proposed by Lawson and Hanson [46] is utilized in this study to estimate the two coefficients. Data-driven residual model Due to the complicity of the thermal transfer in a building, the non-linearity relationship between the indoor average temperature and the independent variables, such as outdoor air temperature and amount of cooling energy, cannot be completely captured by the simplified gray-box model, which contributes to the residuals between the measured and predicted values. In order to improve the prediction accuracy of the gray-box model, a residual prediction model is developed to predict its prediction residuals. Since machine learning methods commonly show good performance in modelling non-linearity relationships, a machine learning model is trained to predict the residuals. In this study, Cubist [38] is used for the modelling of residuals considering its better performance in extrapolation compared to most other machine learning algorithms. Cubist is a machine learning algorithm that aggregates multiple model trees to generate an ensemble model with higher accuracy. Each model tree in the ensemble model has a tree-like structure which is similar to a regression tree, while the constant value in each terminal node of the regression tree is replaced by a linear regression model. Air-cooled heat pump model A.2.1 Stage prediction module As aforementioned, the stage prediction module is responsible for the prediction of the operation stage and the individual cooling outputs of the ACHPs. For this problem, data-driven model is an effective method since the control logic of the ACHP operation stage is unknown. However, the accuracy of the data-driven models highly relies on the diversity and accuracy of the training data. Once the testing data is out of the range of the training data set, data-driven models are likely to generate incorrect results. Therefore, in this study, a revision scheme is developed to revise the predicted operation stages by the data driven model and therefore improve the prediction accuracy. The schematic and prediction process of the stage prediction module is presented in Fig. A.2. According to the input data, including the system total cooling output ( CL G tot ), the number of operating ACHPs ( N hp ), the chilled water supply temperature ( T chws ) and the ambient dry bulb temperature ( T db ), operation stages of the operating ACHPs are predicted using the decision tree models. Then, capacity models are used to predict the capacities of the operating ACHPs at the predicted stages. According to the difference between the sum of the predicted cooling capacities and the total system cooling output, the predicted operation stages are revised until the difference is less than the threshold ( ε ) or the revision loop has been conducted for more than two times. The threshold value is ten percent of the total system cooling output in this case. With the determined stage and corresponding cooling capacities of the operating ACHPs, the individual cooling outputs of the ACHPs are calculated. The capacity models for the ACHPs are shown as Eq. (A.8). (A8) Cap = d 1 × T chws + d 2 where Cap is the cooling capacity of one ACHP at a stage, T chws is the chilled water supply temperature, d 1 and d 2 are the coefficients. Since the performance of the heating pump sizably varies from one stage to another, the coefficients of the capacity models for one ACHP of stage 2, stage 3 and stage 4 need to be determined separately. Stage 1 is not considered in the prediction model since it is only lasted for a very short time (normally less than 10 min) during the starting up or shut down period. Power prediction module With the predicted operation stages and cooling outputs of the operating ACHPs, their power consumption can then be predicted. To the best of the authors\u2019 knowledge, there is no available air-cooled heat pump model that is suitable for this study. Therefore, a verified multivariate polynomial model [47] for the water-cooled chiller was referred to develop the energy usage prediction models for the ACHPs in this study. The formulas used in this study to predict the energy usage of an ACHP is shown as following. (A9) COP = β 0 + β 1 C L G + β 2 T chws + β 3 T db + β 4 CLG 2 + β 5 T chws 2 + β 6 T db 2 + β 7 C L G T chws + β 8 C L G T db + β 9 T db T chws (A10) P chi = CLG COP where COP is the coefficient of performance, CLG is the cooling output, T db is the outdoor dry-bulb temperature, T chws is the chilled water supply temperature, and β 0 to β 9 are coefficients need to be identified according to the operation data. It is worth noting that, although the six ACHPs have the same nominal capacities, their performance are diverse with each other because of the different degrees of performance degradation. Therefore, the model parameters of the six ACHPs are needed to be identified according to their operation data separately. Chilled water pump model Four chilled water pumps are connected in parallel in the studied system, in which three for use and one for backup. The electric power of a pump depends on the water flow rate and its frequency. When the pressure difference between supply and return water pipes is constant, the flow rate of the pump is determined by the resistance of the pipe network and pump frequency. The operation data of the system show that the openings of the terminal water dampers have little influence on the resistance of the pipe network and the number of operating ACHPs and pumps is the main factor affecting the resistance of the pipe network. The main reason is that the manual valve of the bypass pipeline keeps wide open. Therefore, when the operating number of ACHPs and chilled water pumps are determined, the resistance of the pipe network can be regarded as constant. In such case, according to the affinity laws, the water flow rate (F) can be determined by the frequency (f) of the pump shown as Eq. (A.11). (A11) F F rated = f f rated Then, the pressure difference ( dP ) can be determined by the pump frequency ( f ) as shown in Eq. (A.12). (A12) dP = g 0 + g 1 f + g 2 f 2 With the pump frequency obtained by solving Eq. (16) according to the measured pressure difference, the power consumption ( P pump ) of the operating pump can be obtained according to Eq. (A.13). (A13) P pump = h 0 + h 1 f + h 2 f 2 + h 3 f 3 The coefficients g 0 , g 1 , g 2 and h 0 to h 3 are various with the number of operating ACHPs and water pumps and need to be identified according to the corresponding operation data separately. References [1] K. You H. Ren W. Cai R. Huang Y. Li Modeling carbon emission trend in China's building sector to year 2060 Resour. Conserv. Recycl. 188 2023 106679 Kairui You, Hong Ren, Weiguang Cai, Ruopeng Huang, Yuanli Li, Modeling carbon emission trend in China's building sector to year 2060, Resources, Conservation and Recycling, Volume 188, 2023, 106679. [2] G. Li Q. Yao Y. Hu X.i. Fang L. Wang Investigating thermostat sensor offset impacts on operating performance and thermal comfort of three different HVAC systems in Wuhan, China Case Stud. Therm. Eng. 31 2022 101788 Guannan Li, Qing Yao, Yunpeng Hu, Xi Fang, Luhan Wang, Investigating thermostat sensor offset impacts on operating performance and thermal comfort of three different HVAC systems in Wuhan, China, Case Studies in Thermal Engineering, Volume 31, 2022,101788. [3] Z.u. Wang J. Calautit S. Wei P.W. Tien L. Xia Real-time building heat gains prediction and optimization of HVAC setpoint: An integrated framework J. Build. Eng. 49 2022 104103 Zu Wang, John Calautit, Shuangyu Wei, Paige Wenbin Tien, Liang Xia, Real-time building heat gains prediction and optimization of HVAC setpoint: An integrated framework, Journal of Building Engineering, Volume 49, 2022, 104103. [4] J. Strzałkowski P. Sikora S.-Y. Chung M. Abd Elrahman Thermal performance of building envelopes with structural layers of the same density: Lightweight aggregate concrete versus foamed concrete Build. Environ. 196 2021 107799 Jarosław Strzałkowski, Pawel Sikora, Sang-Yeop Chung, Mohamed Abd Elrahman, Thermal performance of building envelopes with structural layers of the same density: Lightweight aggregate concrete versus foamed concrete, Building and Environment, Volume 196, 2021, 107799. [5] S. Somasundaram S.R. Thangavelu A. Chong Improving building efficiency using low-e coating based retrofit double glazing with solar films Appl. Therm. Eng. 171 2020 115064 Sivanand Somasundaram, Sundar Raj Thangavelu, Alex Chong, Improving building efficiency using low-e coating based retrofit double glazing with solar films, Applied Thermal Engineering, Volume 171, 2020, 115064. [6] X. Cai H. Li G. Feng Y.u. Shui Y. Zhao HVAC System Green Retrofit Survey and Analysis of Public Institutions Building in Cold Region Procedia Eng. 146 2016 218 223 Xiaoxu Cai, Huixing Li, Guohui Feng, Shui Yu, Yibo Zhao, HVAC System Green Retrofit Survey and Analysis of Public Institutions Building in Cold Region, Procedia Engineering, Volume 146, 2016, Pages 218-223. [7] Soumaya EL BARRAK, Alessandro De La Garza, Jordan Mardis, Timmy Nguyen, Mi Tran, Jennifer Tzoc, Annie Vallejo, Preston Turner, Driss Benhaddou, IoT-Based Smart Airflow System for Retrofitting Commercial Variable Air Volume HVAC Systems, IFAC-PapersOnLine, Volume 55, Issue 12, 2022, Pages 444-449. [8] L. Schibuola M. Scarpa C. Tambani CO2 based ventilation control in energy retrofit: An experimental assessment Energy 143 2018 606 614 Luigi Schibuola, Massimiliano Scarpa, Chiara Tambani, CO2 based ventilation control in energy retrofit: An experimental assessment, Energy, Volume 143, 2018, Pages 606-614. [9] Y. Li J. Ren Z. Jing L.u. Jianping Q. Ye Z. Lv The Existing Building Sustainable Retrofit in China-A Review and Case Study Procedia Eng. 205 2017 3638 3645 Yutong Li, Jun Ren, Zhou Jing, Lu Jianping, Qing Ye, Zhijun Lv, The Existing Building Sustainable Retrofit in China-A Review and Case Study, Procedia Engineering, Volume 205, 2017, Pages 3638-3645. [10] Y. Lai S. Papadopoulos F. Fuerst G. Pivo J. Sagi C.E. Kontokosta Building retrofit hurdle rates and risk aversion in energy efficiency investments Appl. Energy 306 2022 118048 Yuan Lai, Sokratis Papadopoulos, Franz Fuerst, Gary Pivo, Jacob Sagi, Constantine E. Kontokosta, Building retrofit hurdle rates and risk aversion in energy efficiency investments, Applied Energy, Volume 306, Part B, 2022, 118048. [11] T. Liu G. Ma D. Wang Pathways to Successful Building Green Retrofit Projects: Causality Analysis of Factors Affecting Decision Making Energ. Buildings 276 2022 112486 Tianyi Liu, Guofeng Ma, Ding Wang, Pathways to Successful Building Green Retrofit Projects: Causality Analysis of Factors Affecting Decision Making, Energy and Buildings, 2022, 112486. [12] N. Djuric V. Novakovic Review of possibilities and necessities for building lifetime commissioning Renew. Sustain. Energy Rev. 13 2 2009 486 492 Natasa Djuric, Vojislav Novakovic, Review of possibilities and necessities for building lifetime commissioning, Renewable and Sustainable Energy Reviews, Volume 13, Issue 2, 2009, Pages 486-492. [13] Y. Ding H. Su K. Liu Q. Wang Robust commissioning strategy for existing building cooling system based on quantification of load uncertainty Energ. Buildings 225 2020 110295 Yan Ding, Hao Su, Kuixing Liu, Qiaochu Wang, Robust commissioning strategy for existing building cooling system based on quantification of load uncertainty, Energy and Buildings, Volume 225, 2020, 110295. [14] M. Jradi N.a. Liu K. Arendt C.G. Mattera Claudio Giovanni Mattera, An automated framework for buildings continuous commissioning and performance testing \u2013 a university building case study J. Build. Eng. 31 2020 101464 Muhyiddine Jradi, Na Liu, Krzysztof Arendt, Claudio Giovanni Mattera, An automated framework for buildings continuous commissioning and performance testing \u2013 A university building case study, Journal of Building Engineering, Volume 31, 2020, 101464. [15] J. Bjørnskov M. Jradi C. Veje Component-level re-commissioning of a newly retrofitted Danish healthcare building J. Build. Eng. 51 2022 104277 Jakob Bjørnskov, Muhyiddine Jradi, Christian Veje, Component-level re-commissioning of a newly retrofitted Danish healthcare building, Journal of Building Engineering, Volume 51, 2022, 104277. [16] S. Wang Z. Ma Supervisory and Optimal Control of Building HVAC Systems: A Review HVAC&R Research 14 1 2008 3 32 Shengwei Wang & Zhenjun Ma (2008) Supervisory and Optimal Control of Building HVAC Systems: A Review, HVAC&R Research, 14:1, 3-32. [17] M. Gholamzadehmir C. Del Pero S. Buffa R. Fedrizzi N. Aste Adaptive-predictive control strategy for HVAC systems in smart buildings \u2013 A review Sustain. Cities Soc. 63 2020 102480 Maryam Gholamzadehmir, Claudio Del Pero, Simone Buffa, Roberto Fedrizzi, Niccolo' Aste, Adaptive-predictive control strategy for HVAC systems in smart buildings \u2013 A review, Sustainable Cities and Society, Volume 63, 2020, 102480. [18] Y.e. Yao D.K. Shekhar Divyanshu Kumar Shekhar, State of the art review on model predictive control (MPC) in Heating Ventilation and Air-conditioning (HVAC) field Build. Environ. 200 2021 107952 Ye Yao, Divyanshu Kumar Shekhar, State of the art review on model predictive control (MPC) in Heating Ventilation and Air-conditioning (HVAC) field, Building and Environment, Volume 200, 2021, 107952. [19] G. Serale M. Fiorentini A. Capozzoli D. Bernardini A. Bemporad Model Predictive Control (MPC) for Enhancing Building and HVAC System Energy Efficiency: Problem Formulation Appl. Opportun. Energ. 11 2018 631 Serale, G., Fiorentini, M., Capozzoli, A., Bernardini, D., Bemporad, A. Model Predictive Control (MPC) for Enhancing Building and HVAC System Energy Efficiency: Problem Formulation, Applications and Opportunities. Energies 2018, 11, 631. [20] Ján Drgoňa, Javier Arroyo, Iago Cupeiro Figueroa, David Blum, Krzysztof Arendt, Donghun Kim, Enric Perarnau Ollé, Juraj Oravec, Michael Wetter, Draguna L. Vrabie, Lieve Helsen, All you need to know about model predictive control for buildings, Annual Reviews in Control, Volume 50, 2020, Pages 190-232. [21] A. Afram F. Janabi-Sharifi Theory and applications of HVAC control systems \u2013 A review of model predictive control (MPC) Build. Environ. 72 2014 343 355 Abdul Afram, Farrokh Janabi-Sharifi, Theory and applications of HVAC control systems \u2013 A review of model predictive control (MPC), Building and Environment, Volume 72, 2014, Pages 343-355. [22] Shiyu Yang, Man Pun Wan, Bing Feng Ng, Swapnil Dubey, Gregor P. Henze, Wanyu Chen, Krishnamoorthy Baskaran, Experimental study of model predictive control for an air-conditioning system with dedicated outdoor air system, Applied Energy, Volume 257, 2020, 113920. [23] X. Chen Q. Wang J. Srebric Occupant feedback based model predictive control for thermal comfort and energy optimization: A chamber experimental evaluation Appl. Energy 164 2016 341 351 Xiao Chen, Qian Wang, Jelena Srebric, Occupant feedback based model predictive control for thermal comfort and energy optimization: A chamber experimental evaluation, Applied Energy, Volume 164, 2016, Pages 341-351. [24] S. Huang Y. Lin V. Chinde X.u. Ma J. Lian Simulation-based performance evaluation of model predictive control for building energy systems Appl. Energy 281 2021 116027 Sen Huang, Yashen Lin, Venkatesh Chinde, Xu Ma, Jianming Lian, Simulation-based performance evaluation of model predictive control for building energy systems, Applied Energy, Volume 281, 2021, 116027. [25] A. Afram F. Janabi-Sharifi Supervisory model predictive controller (MPC) for residential HVAC systems: Implementation and experimentation on archetype sustainable house in Toronto Energ. Buildings 154 2017 268 282 Abdul Afram, Farrokh Janabi-Sharifi, Supervisory model predictive controller (MPC) for residential HVAC systems: Implementation and experimentation on archetype sustainable house in Toronto, Energy and Buildings, Volume 154, 2017, Pages 268-282. [26] W. Liang R. Quinte X. Jia J.-Q. Sun MPC control for improving energy efficiency of a building air handler for multi-zone VAVs Build. Environ. 92 2015 256 268 Wei Liang, Rebecca Quinte, Xiaobao Jia, Jian-Qiao Sun, MPC control for improving energy efficiency of a building air handler for multi-zone VAVs, Building and Environment, Volume 92, 2015, Pages 256-268. [27] S. Lee J. Joe P. Karava I. Bilionis A. Tzempelikos Implementation of a self-tuned HVAC controller to satisfy occupant thermal preferences and optimize energy use Energ. Buildings 194 2019 301 316 Seungjae Lee, Jaewan Joe, Panagiota Karava, Ilias Bilionis, Athanasios Tzempelikos, Implementation of a self-tuned HVAC controller to satisfy occupant thermal preferences and optimize energy use, Energy and Buildings, Volume 194, 2019, Pages 301-316. [28] D. Blum Z. Wang C. Weyandt D. Kim M. Wetter T. Hong M.A. Piette Mary Ann Piette, Field demonstration and implementation analysis of model predictive control in an office HVAC system Appl. Energy 318 2022 119104 David Blum, Zhe Wang, Chris Weyandt, Donghun Kim, Michael Wetter, Tianzhen Hong, Mary Ann Piette, Field demonstration and implementation analysis of model predictive control in an office HVAC system, Applied Energy, Volume 318, 2022, 119104. [29] M. Bird C. Daveau E. O'Dwyer S. Acha N. Shah Real-world implementation and cost of a cloud-based MPC retrofit for HVAC control systems in commercial buildings Energ. Buildings 270 2022 112269 Max Bird, Camille Daveau, Edward O'Dwyer, Salvador Acha, Nilay Shah, Real-world implementation and cost of a cloud-based MPC retrofit for HVAC control systems in commercial buildings, Energy and Buildings, Volume 270, 2022, 112269. [30] David Blum, Michael Wetter. MPCPy: An open-source software platform for model predictive control in buildings. In: Proceedings of the 15th IBPSA conference. 2017, Pages 1381\u201390. [31] Docker: Accelerated, Containerized Application Development. https://www.docker.com. [32] Michael Armbrust, Ali Ghodsi1, Reynold Xin, Matei Zaharia. Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics. Conference on Innovative Data Systems Research, 2021. [33] Apache Kafka: An open-source distributed event streaming platform. https://kafka.apache.org/. [34] PySpark: Python API for Spark. https://spark.apache.org/docs/3.0.1/api/python/index.html. [35] Delta Lake: An open source project that enables building a Lakehouse architecture on top of data lakes. https://docs.delta.io/latest/delta-intro.html. [36] Nathan, V., Ding, J., Alizadeh, M., & Kraska, T. (2020). Learning multi-dimensional indexes. In Proceedings of the 2020 ACM SIGMOD international conference on management of data, pp. 985-1000. [37] PyHive: A collection of Python DB-API and SQLAlchemy interfaces for Presto and Hive. https://pypi.org/project/PyHive/. [38] Quinlan, R 1992, \u2018Learning with continuous classes\u2019, in 5th Australian joint conference on artificial intelligence, vol. 92, pp. 343-8. [39] A.H. Land A.G. Doig An automatic method of solving discrete programming problems Econometrica 28 3 1960 497 520 A. H. Land and A. G. Doig (1960). \u201cAn automatic method of solving discrete programming problems\u201d. Econometrica 28 (3). pp. 497\u2013520. [40] Design code for heating ventilation and air conditioning of civil buildings. GB50736-2012, 2012. [41] Y. Jin D.a. Yan A. Chong B. Dong J. An Building occupancy forecasting: A systematical and critical review Energ. Buildings 251 2021 111345 Yuan Jin, Da Yan, Adrian Chong, Bing Dong, Jingjing An, Building occupancy forecasting: A systematical and critical review, Energy and Buildings, Volume 251, 2021, 111345 [42] Alessio S. M., Digital signal processing and spectralanalysis for scientists: concepts and applications, 2016. [43] China Standard Weather Data for Analyzing Building Thermal Conditions, ISBN 7-112-07273-3, 2005. [44] G.u. Jiefan X.u. Peng Z. Pang Y. Chen Y. Ji Z. Chen Extracting typical occupancy data of different buildings from mobile positioning data Energ. Buildings 180 2018 135 145 Jiefan Gu, Peng Xu, Zhihong Pang, Yongbao Chen, Ying Ji, Zhe Chen, Extracting typical occupancy data of different buildings from mobile positioning data, Energy and Buildings, volume 180, 2018, Pages 135-45 [45] Qinwei Xu, Ruipeng Zhang, Ya Zhang, Yanfeng Wang, Qi Tian; Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 14383-9. [46] Lawson C., Hanson R.J., (1987) Solving Least Squares Problems, SIAM. [47] T. Reddy Agami A. Klaus An evaluation of classical steady-state off-line linear parameter estimation methods applied to chiller performance data HVAC&R Res. 8 1 2002 101 124 Reddy Agami T, Andersen Klaus. An evaluation of classical steady-state off-line linear parameter estimation methods applied to chiller performance data. HVAC&R Research, 2002, 8(1): 101-124.",
+    "scopus-id": "85164677656",
+    "coredata": {
+        "eid": "1-s2.0-S0378778823005169",
+        "dc:description": "Energy conservation and carbon reduction of existing buildings have been receiving increasing attention with the proposed carbon neutrality goals. As presented in many studies, adopting model predictive control (MPC) for building HVAC system control is an effective means to realize building energy conservation. However, existing studies rarely addressed the critical challenges for practical applications and integration of MPC in existing Building Automation Systems (BASs). This study proposes a control retrofit approach, which is lightweight and replicable, to realize the improvement of energy efficiency of the existing building HVAC systems through integrating data-driven MPC into existing BASs. The critical challenges in the practical applications of MPC strategies, including MPC strategy development, large-scale data processing, strategy deployment and integration with existing BASs are addressed. The proposed approach was applied to the existing HVAC system of an actual airport terminal and the evaluation results indicate that the control retrofit approach is effective in achieving energy efficiency and thermal comfort improvement. The system daily energy consumption was reduced by 24.5% in average and the percentage of the discomfort time was reduced from 70.2% to 5.7% in average after the control retrofit. The proposed control retrofit approach, with the help of the scalability and distributed computing capabilities of the cloud computing platform, is expected to be able to realize lightweight control retrofit of large number of existing building HVAC systems.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-09-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378778823005169",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Yue, Bao"
+            },
+            {
+                "@_fa": "true",
+                "$": "Su, Bing"
+            },
+            {
+                "@_fa": "true",
+                "$": "Xiao, Fu"
+            },
+            {
+                "@_fa": "true",
+                "$": "Li, Anbang"
+            },
+            {
+                "@_fa": "true",
+                "$": "Li, Kehua"
+            },
+            {
+                "@_fa": "true",
+                "$": "Li, Shen"
+            },
+            {
+                "@_fa": "true",
+                "$": "Yan, Rui"
+            },
+            {
+                "@_fa": "true",
+                "$": "Lian, Qiuzhuang"
+            },
+            {
+                "@_fa": "true",
+                "$": "Li, Ao"
+            },
+            {
+                "@_fa": "true",
+                "$": "Li, Yuanyang"
+            },
+            {
+                "@_fa": "true",
+                "$": "Fang, Xing"
+            },
+            {
+                "@_fa": "true",
+                "$": "Liang, Xingang"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0378778823005169"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0378778823005169"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0378-7788(23)00516-9",
+        "prism:volume": "295",
+        "articleNumber": "113286",
+        "prism:publisher": "Published by Elsevier B.V.",
+        "dc:title": "Energy-oriented control retrofit for existing HVAC system adopting data-driven MPC \u2013 Methodology, implementation and field test",
+        "prism:copyright": "© 2023 Published by Elsevier B.V.",
+        "openaccess": "0",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Model predictive control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Air conditioning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Control retrofit"
+            },
+            {
+                "@_fa": "true",
+                "$": "Field test"
+            },
+            {
+                "@_fa": "true",
+                "$": "Energy conservation"
+            },
+            {
+                "@_fa": "true",
+                "$": "Hybrid building thermal model"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "113286",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 September 2023",
+        "prism:doi": "10.1016/j.enbuild.2023.113286",
+        "prism:startingPage": "113286",
+        "dc:identifier": "doi:10.1016/j.enbuild.2023.113286",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "978",
+            "@width": "548",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr21.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "172837",
+            "@ref": "gr21",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "195",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "13401",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "234",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr20.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "15755",
+            "@ref": "gr20",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "465",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr23.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48070",
+            "@ref": "gr23",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "198",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "13867",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "754",
+            "@width": "653",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr22.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30651",
+            "@ref": "gr22",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "256",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27487",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "633",
+            "@width": "383",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36787",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "147",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "12035",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "64",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "9387",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "269",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31818",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "157",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30325",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "179",
+            "@width": "608",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33080",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "178",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr16.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32455",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "157",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28494",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "792",
+            "@width": "568",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "93155",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "317",
+            "@width": "358",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33056",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "202",
+            "@width": "596",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr18.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27777",
+            "@ref": "gr18",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "156",
+            "@width": "502",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "26305",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "196",
+            "@width": "596",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr17.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30877",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "730",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "66788",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "205",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "20950",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "270",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr19.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30372",
+            "@ref": "gr19",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "92",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr21.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7878",
+            "@ref": "gr21",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4194",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "134",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr20.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5739",
+            "@ref": "gr20",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "134",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr23.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7485",
+            "@ref": "gr23",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4477",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "142",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr22.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2823",
+            "@ref": "gr22",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "105",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5319",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "99",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3425",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "84",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4232",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "37",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3672",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "110",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6145",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "65",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5293",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "65",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5181",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "73",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr16.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5959",
+            "@ref": "gr16",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "65",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5206",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7068",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "185",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10577",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "74",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr18.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4486",
+            "@ref": "gr18",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "68",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5308",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "72",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr17.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5509",
+            "@ref": "gr17",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "162",
+            "@width": "85",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4793",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6494",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "111",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr19.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5919",
+            "@ref": "gr19",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "4331",
+            "@width": "2428",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr21_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1215061",
+            "@ref": "gr21",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "863",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "104871",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1038",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr20_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "111875",
+            "@ref": "gr20",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2062",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr23_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "361145",
+            "@ref": "gr23",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "877",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "102800",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3338",
+            "@width": "2891",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr22_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "209125",
+            "@ref": "gr22",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1134",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "226837",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2809",
+            "@width": "1699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "207295",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "650",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "85994",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "283",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "73311",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1190",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "238902",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "696",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "220138",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "793",
+            "@width": "2691",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "244029",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "791",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr16_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "249747",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "697",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "210563",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3504",
+            "@width": "2514",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "745522",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1404",
+            "@width": "1588",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "240272",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "894",
+            "@width": "2639",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr18_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "209997",
+            "@ref": "gr18",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "691",
+            "@width": "2225",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "177114",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "868",
+            "@width": "2640",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr17_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "239743",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3236",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "474617",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "909",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "130657",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1198",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-gr19_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "230301",
+            "@ref": "gr19",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1756",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2796",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14884",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "33598",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "36730",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9705",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27876",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6362",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8001",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4161",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5801",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1809",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5439",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7733",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3747",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2852",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5338",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10521",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29218",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13713",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "36753",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "47433",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1747",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "42926",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10816",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6326",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5475",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1716",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14467",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4033",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2531",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2636",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "35713",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1711",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10994",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3382",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2868",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3000",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10037",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1737",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10594",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6014",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14276",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6477",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6260",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2733",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3188",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3887",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10900",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4536",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1568",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823005169-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1797319",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85164677656"
+    }
+}}

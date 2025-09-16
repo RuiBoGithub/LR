@@ -1,0 +1,1406 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85130133991",
+    "originalText": "serial JL 271429 291210 291702 291731 291787 291877 291878 291881 31 Applied Energy APPLIEDENERGY 2022-05-13 2022-05-13 2022-05-13 2022-05-13 2022-05-28T18:56:04 1-s2.0-S030626192200469X S0306-2619(22)00469-X S030626192200469X 10.1016/j.apenergy.2022.119082 S300 S300.1 FULL-TEXT 1-s2.0-S0306261922X00111 2024-01-01T13:30:21.133674Z 0 0 20220801 2022 2022-05-13T17:18:42.410824Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst nomenclature orcid primabst ref specialabst 0306-2619 03062619 true 319 319 C Volume 319 5 119082 119082 119082 20220801 1 August 2022 2022-08-01 2022 Research Papers article fla © 2022 Published by Elsevier Ltd. DATADRIVENONLINEINTERACTIVEBIDDINGSTRATEGYFORDEMANDRESPONSE LEE K Acronyms 1 Introduction 2 Literature review 3 Framework of the proposed method and demand bidding program 3.1 Framework of the proposed bidding strategy 3.2 DB program 4 Problem formulation and proposed strategies 4.1 System model 4.1.1 The uncertainty contributed by the customers 4.1.2 The uncertainty contributed by the market 4.1.3 The bidding settlement 4.2 Markov Decision Process (MDP)-based two-agent learning mechanism 4.3 DDPG method 5 Environment simulator and simulations 5.1 Environment simulator 5.2 Offline learning 5.2.1 Bidding price and quantity 5.2.2 Cumulative profit over iteration 5.3 Online learning results 6 Conclusion CRediT authorship contribution statement Acknowledgments References LU 2018 1 15 S 2018IEEEIAS54THINDUSTRIALCOMMERCIALPOWERSYSTEMSTECHNICALCONFERENCEICPS EVALUATIONMAXIMUMALLOWABLEGENERATIONCAPACITYAFTEROFFSHOREWINDFARMSINTEGRATEDEXISTINGTAIPOWERSYSTEMACASESTUDYINTAIWAN STRASSER 2014 2424 2438 T SHAFIEKHAH 2019 3757 3771 M IRIA 2018 658 669 J UTAMA 2021 116418 C DONG 2021 107229 Y 2018 HOWMUCHENERGYCONSUMEDINRESIDENTIALCOMMERCIALBUILDINGS BAHRAMI 2017 4712 4725 S PARIZY 2018 3259 3268 E LU 2012 1263 1270 N MOON 2018 2518 2528 S KORKAS 2016 93 104 C YAO 2018 2754 2762 L JIA 2019 58626 58637 Y LI 2019 350 360 P TANG 2019 79798 79809 W FAZLALIPOUR 2019 689 700 P ZHAO 2018 116 125 T ALASHERY 2019 M WEI 2015 1 5 M 201512THINTERNATIONALCONFERENCEEUROPEANENERGYMARKETEEM OPTIMALBIDDINGSTRATEGYFORDEMANDRESPONSEAGGREGATORINDAYAHEADMARKETSVIASTOCHASTICPROGRAMMINGROBUSTOPTIMIZATION LIU 2015 227 237 G RAHIMIYAN 2015 2676 2687 M ASENSIO 2015 200 208 M XU 2015 96 105 Z NGUYEN 2014 135 146 D HENDERSON 2018 P THIRTYSECONDAAAICONFERENCEARTIFICIALINTELLIGENCE DEEPREINFORCEMENTLEARNINGMATTERS VAZQUEZCANTELI 2019 1072 1089 J WANG 2020 3146 3155 B LU 2019 6629 6639 R LU 2019 937 949 R RAHIMIYAN 2008 165 175 M YAN 2018 411 419 X SONG 2018 1948 1958 M LI 2011 4686 4700 G LILLICRAP 2015 T CONTINUOUSCONTROLDEEPREINFORCEMENTLEARNING BERGSTRA 2011 2546 2554 J ADVANCESINNEURALINFORMATIONPROCESSINGSYSTEMS ALGORITHMSFORHYPERPARAMETEROPTIMIZATION LEEX2022X119082 LEEX2022X119082XK 2024-05-13T00:00:00.000Z 2024-05-13T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Published by Elsevier Ltd. 0 https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0306-2619(22)00469-X S030626192200469X 1-s2.0-S030626192200469X 10.1016/j.apenergy.2022.119082 271429 2024-01-01T13:30:21.133674Z 2022-08-01 1-s2.0-S030626192200469X-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/MAIN/application/pdf/c14e7e9021848176bb37a89c2a3b997c/main.pdf main.pdf pdf true 3282535 MAIN 12 1-s2.0-S030626192200469X-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/PREVIEW/image/png/7a61d751b417da0faf0bb50934892410/main_1.png main_1.png png 44139 849 656 IMAGE-WEB-PDF 1 1-s2.0-S030626192200469X-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr11/DOWNSAMPLED/image/jpeg/b5139df0f2a5bf37efced0b779bd6a16/gr11.jpg gr11 gr11.jpg jpg 85779 413 570 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr9/DOWNSAMPLED/image/jpeg/df31881335593939f93792951f46b130/gr9.jpg gr9 gr9.jpg jpg 77501 413 570 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr8/DOWNSAMPLED/image/jpeg/e53ae15a10b51ba773ad8cc35c468b9d/gr8.jpg gr8 gr8.jpg jpg 41145 223 508 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr7/DOWNSAMPLED/image/jpeg/ca768cbbee91f6d9a31adb181266b653/gr7.jpg gr7 gr7.jpg jpg 112935 430 597 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr6/DOWNSAMPLED/image/jpeg/66cf5ff91ad8f077a0c829b752b5d908/gr6.jpg gr6 gr6.jpg jpg 112105 438 599 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr5/DOWNSAMPLED/image/jpeg/cbcb51369ce10a45d8eb8b3a45f183ae/gr5.jpg gr5 gr5.jpg jpg 110108 448 612 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr4/DOWNSAMPLED/image/jpeg/141cdf90cff911a17e3521b7c36431a9/gr4.jpg gr4 gr4.jpg jpg 36929 158 600 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr10/DOWNSAMPLED/image/jpeg/d4ff0b15e0a49169eaba5eeb79bd8631/gr10.jpg gr10 gr10.jpg jpg 79920 413 570 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr3/DOWNSAMPLED/image/jpeg/810c446e80ecbd98306c75f29499d2e2/gr3.jpg gr3 gr3.jpg jpg 94723 272 542 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr2/DOWNSAMPLED/image/jpeg/c3ad99f0d8b41939250e57050106607b/gr2.jpg gr2 gr2.jpg jpg 49898 275 590 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr1/DOWNSAMPLED/image/jpeg/9f87afcca93ddd337570e2ac5bee3ab3/gr1.jpg gr1 gr1.jpg jpg 98125 450 589 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-fx1001.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/fx1001/DOWNSAMPLED/image/jpeg/192e8f4b2ab89d51f324e9eec54833a6/fx1001.jpg fx1001 fx1001.jpg jpg 86127 147 360 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/ga1/DOWNSAMPLED/image/jpeg/3fa05b0f3bef690c5a895540b68761e9/ga1.jpg ga1 true ga1.jpg jpg 94746 244 298 IMAGE-DOWNSAMPLED 1-s2.0-S030626192200469X-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr11/THUMBNAIL/image/gif/d869a0834e2c2db0ba0b4eb16f11f7ae/gr11.sml gr11 gr11.sml sml 22843 159 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr9/THUMBNAIL/image/gif/c40f73b029ba22ad7694cbb6832680f3/gr9.sml gr9 gr9.sml sml 20952 159 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr8/THUMBNAIL/image/gif/b9ad391cbf4ac89caa75c0511940e9b6/gr8.sml gr8 gr8.sml sml 14238 96 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr7/THUMBNAIL/image/gif/b679b23be3fb08efacd17200e8d36f2e/gr7.sml gr7 gr7.sml sml 28142 158 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr6/THUMBNAIL/image/gif/495e4f6a55a2a80fddcc5590597128c0/gr6.sml gr6 gr6.sml sml 28074 160 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr5/THUMBNAIL/image/gif/a49ca6230e7a123bc6f4f0b59804fdb2/gr5.sml gr5 gr5.sml sml 27522 160 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr4/THUMBNAIL/image/gif/69a839e7aec17ce39150bdda25e5c7ed/gr4.sml gr4 gr4.sml sml 12135 58 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr10/THUMBNAIL/image/gif/52ffb5b113f0ff5184627c4e82a65bd8/gr10.sml gr10 gr10.sml sml 21540 159 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr3/THUMBNAIL/image/gif/2b0cc5bcde118c98c0dd0a7413311ed1/gr3.sml gr3 gr3.sml sml 72512 110 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr2/THUMBNAIL/image/gif/35681ffacc408c8d51675a556bb642f9/gr2.sml gr2 gr2.sml sml 14377 102 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr1/THUMBNAIL/image/gif/2d07e1487b9c643cea5f158e166055c7/gr1.sml gr1 gr1.sml sml 25046 164 215 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-fx1001.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/fx1001/THUMBNAIL/image/gif/1b299d279ee176f3f5ed9d9e8c623d33/fx1001.sml fx1001 fx1001.sml sml 72550 89 219 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/ga1/THUMBNAIL/image/gif/453276a70ebb2f13cde2f73c803830f6/ga1.sml ga1 true ga1.sml sml 77125 164 200 IMAGE-THUMBNAIL 1-s2.0-S030626192200469X-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr11/HIGHRES/image/jpeg/2651484573f362815f361ce4f94db90d/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 504318 1830 2523 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr9/HIGHRES/image/jpeg/bb0fb32c57d4ad33de1c3ed47f9f3ca8/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 454632 1830 2523 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr8/HIGHRES/image/jpeg/d01b13e77881870944fe2836412e6f5e/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 218148 986 2250 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr7/HIGHRES/image/jpeg/4f056b7b573c36c86bf203b003e94380/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 733918 1904 2646 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr6/HIGHRES/image/jpeg/28459e0e7debe14b3ab357aede42d889/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 724427 1938 2651 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr5/HIGHRES/image/jpeg/c90bbbbf596a4a0419e678f59040e4c4/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 716260 1982 2709 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr4/HIGHRES/image/jpeg/54dc08da445794594938a7b22b689527/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 214608 700 2656 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr10/HIGHRES/image/jpeg/b873b511d5b3b41826eed188424e7c8f/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 466964 1830 2523 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr3/HIGHRES/image/jpeg/1751266648fd8cebce24a403ddafd76b/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 248639 1205 2400 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr2/HIGHRES/image/jpeg/a1505792e24163abc8c63f0168b83929/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 297979 1216 2612 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/gr1/HIGHRES/image/jpeg/60a47d5740321a7dcbf4bdcd706fbf01/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 569200 1991 2607 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-fx1001_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/fx1001/HIGHRES/image/jpeg/fcb8479d25e8b10127a96dcbd0555482/fx1001_lrg.jpg fx1001 fx1001_lrg.jpg jpg 185779 650 1595 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/ga1/HIGHRES/image/jpeg/f48127e78bce8670a3c20673d72348fc/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 227533 1085 1323 IMAGE-HIGH-RES 1-s2.0-S030626192200469X-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/abcce3ece92df49cefdad788ed954fa5/si1.svg si1 si1.svg svg 235 ALTIMG 1-s2.0-S030626192200469X-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/3870d4c71d9ef51153a44088868497d2/si10.svg si10 si10.svg svg 5590 ALTIMG 1-s2.0-S030626192200469X-si101.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/c07add92d3e651c8207b1bc072a04a6c/si101.svg si101 si101.svg svg 5048 ALTIMG 1-s2.0-S030626192200469X-si103.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/c64117a05eef0e6d46557be743733408/si103.svg si103 si103.svg svg 24082 ALTIMG 1-s2.0-S030626192200469X-si107.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/2f07c43355cae691fcdda0ab015bd0cc/si107.svg si107 si107.svg svg 19881 ALTIMG 1-s2.0-S030626192200469X-si117.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/ff041e31887fc31e970d73cd1d8b7220/si117.svg si117 si117.svg svg 2008 ALTIMG 1-s2.0-S030626192200469X-si121.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/acd0cdbdc6c90f7c74c7973a71483965/si121.svg si121 si121.svg svg 10277 ALTIMG 1-s2.0-S030626192200469X-si123.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/9fec4bb250ef399d5593eed28525a181/si123.svg si123 si123.svg svg 1615 ALTIMG 1-s2.0-S030626192200469X-si124.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/077983b7b2430291bd186ee5f7e7a3f1/si124.svg si124 si124.svg svg 1663 ALTIMG 1-s2.0-S030626192200469X-si125.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/5b899dd0ff6c85731d4f0ce9ecd021cf/si125.svg si125 si125.svg svg 11616 ALTIMG 1-s2.0-S030626192200469X-si127.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/6bdbfff299befd1639aa98d2a5a251fb/si127.svg si127 si127.svg svg 3764 ALTIMG 1-s2.0-S030626192200469X-si128.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/08ffe0557c1aa38f42525eef798ca5de/si128.svg si128 si128.svg svg 4079 ALTIMG 1-s2.0-S030626192200469X-si129.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/1b9ea98c5bf59a60dea6c7c7f5ad6c81/si129.svg si129 si129.svg svg 17875 ALTIMG 1-s2.0-S030626192200469X-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/8bc57026aad4952fb3aa8b6282049b45/si13.svg si13 si13.svg svg 3769 ALTIMG 1-s2.0-S030626192200469X-si130.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/cad62ba8668d51b3036b2ae65e569a2f/si130.svg si130 si130.svg svg 13403 ALTIMG 1-s2.0-S030626192200469X-si135.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/793450fda0604d4f7f82dc9781f405f9/si135.svg si135 si135.svg svg 1325 ALTIMG 1-s2.0-S030626192200469X-si136.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/0345e239bb4cc547514627650e8fa822/si136.svg si136 si136.svg svg 1910 ALTIMG 1-s2.0-S030626192200469X-si137.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/36308640583d9a7deb6cb8f127f0d60c/si137.svg si137 si137.svg svg 9709 ALTIMG 1-s2.0-S030626192200469X-si138.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/012fbfbc12d70d7a0197a3ed1ee4292c/si138.svg si138 si138.svg svg 5067 ALTIMG 1-s2.0-S030626192200469X-si139.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/0b97084cde7d24e0363fb7498ee46ea7/si139.svg si139 si139.svg svg 1405 ALTIMG 1-s2.0-S030626192200469X-si140.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/ca74fc6854c332201141d16220c7217c/si140.svg si140 si140.svg svg 1378 ALTIMG 1-s2.0-S030626192200469X-si143.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/e42a2c9471001d7c006519730cd3319c/si143.svg si143 si143.svg svg 7828 ALTIMG 1-s2.0-S030626192200469X-si144.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/43e5dcfa92f48f414e918e202b958ae9/si144.svg si144 si144.svg svg 9910 ALTIMG 1-s2.0-S030626192200469X-si147.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/d285da94e85810051f852372ebe0693c/si147.svg si147 si147.svg svg 6796 ALTIMG 1-s2.0-S030626192200469X-si150.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/d94baac4322cd742097a11115e71d3b4/si150.svg si150 si150.svg svg 5336 ALTIMG 1-s2.0-S030626192200469X-si151.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/f871477080f217a83797b8c14b1f1bf1/si151.svg si151 si151.svg svg 1189 ALTIMG 1-s2.0-S030626192200469X-si153.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/c94b29d4bd4757c3ab6a1bb4e035f53c/si153.svg si153 si153.svg svg 9049 ALTIMG 1-s2.0-S030626192200469X-si154.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/997167b4c88ad54181b62064f4035f7a/si154.svg si154 si154.svg svg 4561 ALTIMG 1-s2.0-S030626192200469X-si157.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/9bb046cdd8974e032f2d8aa2eba1c8a5/si157.svg si157 si157.svg svg 27124 ALTIMG 1-s2.0-S030626192200469X-si159.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/5c00b152ebdf18b9963222022950d8c2/si159.svg si159 si159.svg svg 2350 ALTIMG 1-s2.0-S030626192200469X-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/589fcde9fd32b53ea571f3063a374298/si16.svg si16 si16.svg svg 4816 ALTIMG 1-s2.0-S030626192200469X-si160.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/0286ea1179341687d3757a64e4c69e0e/si160.svg si160 si160.svg svg 2396 ALTIMG 1-s2.0-S030626192200469X-si162.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/d39cd1c2fa7ce4b1039f2fe42db5d122/si162.svg si162 si162.svg svg 2386 ALTIMG 1-s2.0-S030626192200469X-si165.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/aadceba0366f88abb0dff068c8336e5a/si165.svg si165 si165.svg svg 4190 ALTIMG 1-s2.0-S030626192200469X-si174.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/1dd792efc93d3c3864dbdbec87141213/si174.svg si174 si174.svg svg 15759 ALTIMG 1-s2.0-S030626192200469X-si175.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/e315a0071c277c9a4dca16df25836e9e/si175.svg si175 si175.svg svg 6762 ALTIMG 1-s2.0-S030626192200469X-si178.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/1093335182770f55b2bd297f437cc35e/si178.svg si178 si178.svg svg 7463 ALTIMG 1-s2.0-S030626192200469X-si179.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/3798b139187b498d40a3be8a6fbae8bf/si179.svg si179 si179.svg svg 14622 ALTIMG 1-s2.0-S030626192200469X-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/aed087d6103ac626b63482b9241f24c7/si18.svg si18 si18.svg svg 1994 ALTIMG 1-s2.0-S030626192200469X-si180.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/801c0a37bf7de3511374892ad9f7ecb0/si180.svg si180 si180.svg svg 4601 ALTIMG 1-s2.0-S030626192200469X-si183.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/334161488263b2ed8d5bf859c50a3165/si183.svg si183 si183.svg svg 5160 ALTIMG 1-s2.0-S030626192200469X-si188.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/b17ee61665cfaf1d0200e9365741ea49/si188.svg si188 si188.svg svg 14947 ALTIMG 1-s2.0-S030626192200469X-si189.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/f7ee13787bd78ddf8603cc5a037249be/si189.svg si189 si189.svg svg 8686 ALTIMG 1-s2.0-S030626192200469X-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/a5ba2e5c0244b0429ceccfa6357bf61f/si19.svg si19 si19.svg svg 2095 ALTIMG 1-s2.0-S030626192200469X-si190.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/c325779f797c42ed07a8d68ecd24d284/si190.svg si190 si190.svg svg 3090 ALTIMG 1-s2.0-S030626192200469X-si191.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/fba5c846e3c34010ad2bf91265373eee/si191.svg si191 si191.svg svg 6045 ALTIMG 1-s2.0-S030626192200469X-si192.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/80eb0a57cc42f12df4bd9bb7bc6bb7c5/si192.svg si192 si192.svg svg 1019 ALTIMG 1-s2.0-S030626192200469X-si195.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/29de23ed1c0724bad256ab8b6171cf7c/si195.svg si195 si195.svg svg 3369 ALTIMG 1-s2.0-S030626192200469X-si196.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/5eb12ff3b717e9bcde49a7d65ad3f5df/si196.svg si196 si196.svg svg 1987 ALTIMG 1-s2.0-S030626192200469X-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/6c6ed39a52fd28cee7ec4bbba6741ef5/si2.svg si2 si2.svg svg 2209 ALTIMG 1-s2.0-S030626192200469X-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/a8f12d05516fa17e5098d321b6f76b86/si20.svg si20 si20.svg svg 2218 ALTIMG 1-s2.0-S030626192200469X-si200.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/f62c5bca2f722eabc7ecde729146ff91/si200.svg si200 si200.svg svg 6304 ALTIMG 1-s2.0-S030626192200469X-si201.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/cb7dc3ad491db1effae8b589f01be954/si201.svg si201 si201.svg svg 6530 ALTIMG 1-s2.0-S030626192200469X-si202.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/3a7ed05d2b2d9b5687fc148727df3993/si202.svg si202 si202.svg svg 15596 ALTIMG 1-s2.0-S030626192200469X-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/000329362d162c1bfa5620a00cb32906/si21.svg si21 si21.svg svg 5698 ALTIMG 1-s2.0-S030626192200469X-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/9d494fdee40f0ca3d037eaeeb1fddc75/si22.svg si22 si22.svg svg 2811 ALTIMG 1-s2.0-S030626192200469X-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/39a4898b1710138a496891705efd1bd0/si24.svg si24 si24.svg svg 1425 ALTIMG 1-s2.0-S030626192200469X-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/b9d1c993e95a0230f6cc93928a2da604/si25.svg si25 si25.svg svg 7209 ALTIMG 1-s2.0-S030626192200469X-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/60904d7f22dfa82f4b6ec58562abca4b/si26.svg si26 si26.svg svg 5963 ALTIMG 1-s2.0-S030626192200469X-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/05281df2e8e8799098399f998337bf36/si27.svg si27 si27.svg svg 1137 ALTIMG 1-s2.0-S030626192200469X-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/7a843ec8fe67618d21dc0575cbdd7d20/si28.svg si28 si28.svg svg 2392 ALTIMG 1-s2.0-S030626192200469X-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/9ae92c6c947fac02ff38341d30d1d7e7/si29.svg si29 si29.svg svg 2126 ALTIMG 1-s2.0-S030626192200469X-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/c5412f95e21a919005c2832f376858bf/si3.svg si3 si3.svg svg 1342 ALTIMG 1-s2.0-S030626192200469X-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/7a314bd981f17093578b1040dc6d649a/si4.svg si4 si4.svg svg 2249 ALTIMG 1-s2.0-S030626192200469X-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/b5aaaae298f056ddffc8c8069e3e2f2e/si40.svg si40 si40.svg svg 12573 ALTIMG 1-s2.0-S030626192200469X-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/893c66a9893caf8b14aeed750ac3ca33/si41.svg si41 si41.svg svg 5362 ALTIMG 1-s2.0-S030626192200469X-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/af61088b57bcda711bc6f3b0e2af89ab/si42.svg si42 si42.svg svg 1512 ALTIMG 1-s2.0-S030626192200469X-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/9d34aa341dedd3e4bc7db834689c770a/si43.svg si43 si43.svg svg 6923 ALTIMG 1-s2.0-S030626192200469X-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/3d2b39aa131406ef8bdd25fedba3d246/si49.svg si49 si49.svg svg 16506 ALTIMG 1-s2.0-S030626192200469X-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/43c7f446e16e2d7fc3a77923f277a4c0/si5.svg si5 si5.svg svg 3556 ALTIMG 1-s2.0-S030626192200469X-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/31d3ecffefc3d698e64db91fa6776d17/si53.svg si53 si53.svg svg 4789 ALTIMG 1-s2.0-S030626192200469X-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/e66dc34056e680e8662f3965cb16b410/si57.svg si57 si57.svg svg 3797 ALTIMG 1-s2.0-S030626192200469X-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/55a0dc7b5080b54877449e520deca0dd/si66.svg si66 si66.svg svg 21494 ALTIMG 1-s2.0-S030626192200469X-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/6a9a801d2e424fa384b694311fe23ccf/si69.svg si69 si69.svg svg 11181 ALTIMG 1-s2.0-S030626192200469X-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/a52b4b5d86a2e83623edf5cac576a7db/si7.svg si7 si7.svg svg 1093 ALTIMG 1-s2.0-S030626192200469X-si72.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/15b9347567fa0965c7a3912034fe44d4/si72.svg si72 si72.svg svg 7151 ALTIMG 1-s2.0-S030626192200469X-si79.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/cfa3b13514d80ead0ea81efad58ddf85/si79.svg si79 si79.svg svg 10943 ALTIMG 1-s2.0-S030626192200469X-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/8f9a11c373869942259f4506f327c224/si8.svg si8 si8.svg svg 3794 ALTIMG 1-s2.0-S030626192200469X-si82.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/f291078789f01547b75b62d3c80824c0/si82.svg si82 si82.svg svg 1949 ALTIMG 1-s2.0-S030626192200469X-si88.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/4c9ee04f34d9113c770aad0510566f8c/si88.svg si88 si88.svg svg 14345 ALTIMG 1-s2.0-S030626192200469X-si89.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/4e355a24c2c0663261d54934fcab1cb4/si89.svg si89 si89.svg svg 7292 ALTIMG 1-s2.0-S030626192200469X-si90.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/930f085f596156944dad0f70cd4fb346/si90.svg si90 si90.svg svg 10403 ALTIMG 1-s2.0-S030626192200469X-si95.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/e2be975efda3a07492df8e0f51e5ec75/si95.svg si95 si95.svg svg 3999 ALTIMG 1-s2.0-S030626192200469X-si98.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192200469X/STRIPIN/image/svg+xml/8b4773b9c5964c02b950364394146166/si98.svg si98 si98.svg svg 12972 ALTIMG 1-s2.0-S030626192200469X-am.pdf am am.pdf pdf 2748515 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10S76R9SWHB/MAIN/application/pdf/cd80780f13c0e592a4e7e1cee6b64ddb/am.pdf APEN 119082 119082 S0306-2619(22)00469-X 10.1016/j.apenergy.2022.119082 Fig. 1 The framework of the research. Fig. 2 Example for the calculation of CBL and DB reduction. Fig. 3 MDP-based two-agent learning mechanism. Fig. 4 Online learning process for agents. Fig. 5 Offline learning results for Scenario 1. Fig. 6 Offline learning results for Scenario 2. Fig. 7 Offline learning results for Scenario 3. Fig. 8 Cumulative profit over the offline learning episode. Fig. 9 Online learning results for Scenario 1. Fig. 10 Online learning results for Scenario 2. Fig. 11 Online learning results for Scenario 3. Table 1 The parameter settings of the simulators. Table 2 Offline learning results for three scenarios. Scenario Success rate Rate of 0 . 8 ≤ ξ ≤ 1 . 2 Rate of 0 . 6 ≤ ξ ≤ 1 . 5 1 98.3% 85.4% 90.0% 2 97.5% 83.3% 85.5% 3 93.3% 51.1% 70.6% Table 3 The average performance comparison between the proposed method and benchmark. Method Success rate Rate of 0 . 8 ≤ ξ ≤ 1 . 2 Proposed 97.5% 76.9% Benchmark 42.5% 57.5% Data-driven online interactive bidding strategy for demand response Kuan-Cheng Lee Data curation Writing \u2013 original draft Methodology Software a Hong-Tzer Yang Supervision Writing \u2013 review & editing a Wenjun Tang Conceptualization Visualization Investigation Validation b c \u204e a Department of Electrical Engineering, National Cheng Kung University, Tainan 70101, Taiwan Department of Electrical Engineering, National Cheng Kung University Tainan 70101 Taiwan Department of Electrical Engineering, National Cheng Kung University, Tainan 70101 b Shenzhen Power Supply Bureau Co., Ltd, Shenzhen 518055, China Shenzhen Power Supply Bureau Co., Ltd Shenzhen 518055 China School of Artificial Intelligence, Shenzhen Polytechnic, Shenzhen 518055 c Smart Grid & Renewable Energy Lab, Tsinghua Berkeley Shenzhen Institute, Shenzhen 518055, China Smart Grid & Renewable Energy Lab, Tsinghua Berkeley Shenzhen Institute Shenzhen 518055 China Smart Grid & Renewable Energy Lab, Tsinghua Berkeley Shenzhen Institute, Shenzhen 518055 \u204e Corresponding author at: Shenzhen Power Supply Bureau Co., Ltd, Shenzhen 518055, China. Shenzhen Power Supply Bureau Co., Ltd Shenzhen 518055 China Demand response (DR), as one of the important energy resources in the future\u2019s grid, provides the services of peak shaving, enhancing the efficiency of renewable energy utilization with a short response period, and low cost. Various categories of DR are established, e.g. automated DR, incentive DR, emergency DR, and demand bidding. However, with the practical issue of the unawareness of residential and commercial consumers\u2019 utility models, the researches about demand bidding aggregator involved in the electricity market are just at the beginning stage. For this issue, the bidding price and bidding quantity are two required decision variables while considering the uncertainties due to the market and participants. In this paper, we determine the bidding and purchasing strategy simultaneously employing the smart meter data and functions. A two-agent deep deterministic policy gradient method is developed to optimize the decisions through learning historical bidding experiences. The online learning further utilizes the daily newest bidding experience attained to ensure trend tracing and self-adaptation. Two environment simulators are adopted for testifying the robustness of the model. The results prove that when facing diverse situations the proposed model can earn the optimal profit via off/online learning the bidding rules and robustly making the proper bid. Graphical abstract Keywords Smart meter Demand response Demand bidding Machine learning Multi-agent Reinforcement Learning Acronyms CBL Customer Baseline Load DB Demand Bidding DBE Demand Bidding Event DDPG Deep Deterministic Policy Gradient DQN Deep Q Network DR Demand Response DSO Distribution System Operator EMS Energy Management System ISO Independent System Operator MCP Market Clearing Price MDP Markov Decision Process RL Reinforcement Learning SM Smart Meter TSO Transmission System Operator x Nomenclature Sets and Indices Λ i The customer i \u2019s participation plan Parameters α t Incentive ratio λ i , t The price of the customer i submitting to curtail at time t λ M , t Market Clearing Price at time t C B L i , t The i \u2019s Customer Baseline Load at time t p i , t The actual consumption for customer i at time t q a c t , t The actual total load shedding at time t t e The ending time of Demand Bidding Event t s The starting time of Demand Bidding Event Variables a t Action variable λ b i d , t The bidding price of aggregator ξ t The execution rate at time t P The profit during one DB event Q π ( s t , a t ) Action-value function q b i d , t The bidding quantity of aggregator r Reward R t Cumulative discounted reward s t State variable 1 Introduction The serious environmental challenges are caused by the increasing massive consumption of fossil fuels. Meanwhile, energy shortage becomes a worldwide global issue. Take Taiwan as an example, the reserve rate at peak hour recently drops on the verge of restriction on electricity use and brings dramatic risk to the power system [1]. To solve the crisis issue, the development of renewable and sustainable energy sources is encouraged. Demand response (DR) is also adopted by many independent system operators (ISOs) with the role of flexible demand resources to improve economic efficiency and system reliability [2]. Nowadays, most ongoing DR programs have industrial customers as the target participants but neglecting a large amount of available DR potential from residential and commercial customers, especially for the demand bidding framework [3]. Meanwhile, the research discussing the DR program on residential and commercial customers is always set prior hypothesis, e.g., the awareness of consumers\u2019 utility function [4] or the load is directly controllable [5,6], which makes it not practical to the realistic application. Specifically, the residential and commercial sectors accounted for about 40% of total U.S. energy consumption in 2018 [7]. On the other hand, smart meters (SMs) and energy management system (EMS) have been vastly deployed in different phases around residential and commercial customers recently. All the above calls for the research on the DR program targeting residential and commercial loads with good practicability. Different from the industrial customer who individually has higher average consumption and can be enrolled in DR programs directly, the residential and commercial customers need to be aggregated jointly participating in the program to have a finger in the pie. Generally, we name the aggregated entity as aggregator. The aggregator acts as a broker between DR resources and the system operator and a manager who aims to maximize the DR profit. For all kinds of DR programs, demand bidding is the most complicated type, which, to our best knowledge, still lacks comprehensive problem formulation, especially for commercial and residential consumers. In this paper, we stand in the view of the aggregator considering two fundamental issues. One is the unawareness of the time-varying and consumer-varying comfort requirement of consumers while another is the unawareness of the prices in the market. Specifically, we aim to help the profit-oriented aggregator to determine its purchase strategy to the customers and its bidding strategy to the market through the data collected by Smart Meters. The contributions of our work can be concluded as: \u2022 Model-Free Strategy with Win\u2013Win solution: Employing a two-agent deep deterministic policy gradient method, our Reinforcement Learning (RL)-based strategy model generates a solution benefiting for both aggregator and consumers without the awareness of consumers\u2019 utility model; \u2022 Uncertainties Consideration: The uncertainties, no matter coming from the price in the market or from the comfort requirement among consumers, are simultaneously measured in the decision-making model. Through learning from the growing amount of experience, the model obtains the strategies approaching the profit maximized; \u2022 Self-Adjusting and Learning Ability: With the state-of-the-art RL method and structure of dynamic learning, the proposed two-agent model can adapt to the implicit market trend and the consumers\u2019 comfort preference variation by the online training structure; \u2022 Robustness in Variation: We design an environment simulator to evaluate the robustness of our model. The results exhibit the adaptivity and the profit-pursuing ability of the model under various uncertainties. Moreover, both the online and offline models perform stable decision-making abilities especially after more and more experience is involved. The remainder of this paper is organized as follows. We review the related works and research in Section 2. We detail the framework and the proposed methodology in Sections 3 and 4. We discuss the simulation results in Section 5 and conclude this paper in Section 6 2 Literature review Generally DR management is considered as a demand-side management problem [8\u201310], especially when formulating the problem in price-based DR. The loads of the consumer are distinctively divided into 2 categories: elastic and inelastic type. These two types can further be detailed to the elastic appliances with a memory-less property, elastic appliances with a full memory property, elastic appliances with a partial memory property, inelastic appliances with an interruptible operation, and inelastic appliances with an uninterruptible operation [11]. Based on the classification, the works in [8] develop the methods to schedule the elastic and interruptible loads, i.e., appliances, to gain the benefit from DR. Most of these assume the load can be directly controlled and thus are designed either for peak load reduction [9] or regulation services [10]. Indirect load control methods are typically extensions of direct load control methods that include additional control components to convert incentive signals, e.g., prices, to comfort signals, e.g., thermostat offsets [12]. Simultaneously, the comfort of users participating in DR is counted in the scheduling, represented by minimum waiting time of appliances or thermal comfort set in the constraints or the utility of consuming in the objective function. However, how to quantify comfort is still a big issue, as even to the user itself, the understanding of self-consuming requirements lacks a comprehensive knowledge for varying times and dates, especially for the residential and commercial consumer. Therefore, when standing in the view of the aggregator side, the problem becomes more complicated, let alone when the aggregator joining in DB program. To win the bids and make the profit in the DB, the uncertainties both from the market clearing price (MCP) and customers\u2019 consumption behavior are the key factors to be considered. Some Research discusses how aggregator determines the purchase strategy to allocate the proper quantity in the DB market. The authors in [13] propose a purchase strategy to find the combination of purchase status and then minimize the total bidding cost aiming to respond to the offered load curtailment. Acting as a price-taker, the aggregator in [14] constructs a two-stage nested bilevel model for the optimal bidding strategy in day-ahead and balancing markets. However, these works assume the curtailment quantity is provided by the seller, e.g., consumer, (the same issue we mentioned before) just following the signal of incentive or curtailment. In other words, customers are required to submit their curtailment quantity and no bidding strategy is considered in the study. P. Li et al. raise an online learning model to estimate the cost function of consumers by sending varying price signals [15]. Even though still lacking the consideration of the price uncertainty aggregator received from the utility, this work inspires us with the idea of formulating the consumer response to price through a model-free methodology. Some works discuss the methodology to deal with the price uncertainty when bidding under the electricity market mechanism, where robust optimization [16], stochastic programming [17], chance- constrained optimization [18], and conditional value at risk (CVaR) [19] schemes are mostly used. A bidding strategy for the DR aggregator is proposed by [20]. It utilizes stochastic programming to simulate different scenarios regarding price uncertainty, and then employs robust optimization with forecast values and bounded price intervas to manage uncertainty and seek solutions under different robustness. Concerning a microgrid operator who manages the intermittent distributed generation, storage, dispatchable DR, and price responsive loads, robust optimization is also utilized to manage uncertainties associated with the renewable generation intermittence, the MCP, and customers\u2019 behavior to maximize profit or minimize operating cost [16,21,22]. Other works use risk-constrained optimization for aggregators to deal with uncertainties by setting their acceptable risk when aggregator bids in the energy pool market [23\u201325]. Nevertheless, the decision-makers, e.g. aggregator and system operator, in these studies are all treated as the price-taker, namely, they are fully aware of the price it can gain. Moreover, the stochastic optimization is done offline using historical data which is incompetent to handle continuous real-time bidding situations effectively. Therefore, a technical framework is required to implement effective DB programs from the aggregator\u2019s point of view. The framework must be both automated and able to sense and minimize user discomfort while bidding and maximizing the profit in the market-based program. Meanwhile, the correlation between the purchase and bidding strategy must be seriously counted in the framework. As a model-free learning algorithm, Reinforcement Learning (RL) is an agent-based AI algorithm where the agents learn the optimal set of actions, i.e., the optimal policy, through the interaction with the environment [26]. The literature [27] collects the articles focused on RL implemented DR strategy for both utility companies and consumers in detail. The RL models, e.g., on-policy and off-policy learning, have been mostly utilized in the energy systems to evaluate the human factor, i.e., comfort, desire to consume less energy, and to pay a lower energy bill [28,29]. The work of [30] also supports that the RL techniques can be used to maximize user comfort or minimize the energy consumption while adapted and applied to DR just by adding a few additional states, e.g., price. Moreover, RL is applied to the bidding strategy problem to decide the bidding curve to the electricity market as well [31]. However, the factors affecting consumer\u2019s energy consumption and price elasticity in the previous research are still based on a great prior hypothesis. This motivates us to develop a systematic framework to generate the purchasing and bidding strategies for the aggregator in DB program simultaneously and in a model-free way. 3 Framework of the proposed method and demand bidding program DB, as a market-based program, is the most complicated type of DR. For the aggregator, to participate in the DB, it is responsible to submit the bidding order, including the bidding price and quantity while considering the uncertainties that come from both market and consumers. By collecting the consumption data and price signal from consumers\u2019 sides (through SM) and the reserve and price information from the market side, our proposed scheme achieves the bidding decision. We introduce the framework of our study and the rules of DB program we followed to construct our problem in this section. These are the foundation of our following research. 3.1 Framework of the proposed bidding strategy We consider residential households, commercial buildings, and small industrial facilities as the consumers who are willing to participate in the DB program through the aggregator. The overall framework is illustrated in Fig. 1. The SM is installed in each consumer and equipped with real-time electricity consumption monitoring and recording function. Bidirectional communication among the electricity consumers, the aggregator, Distribution System Operator (DSO), and Transmission System Operator (TSO) is also functioned to provide remote metering and signal reception. DSO collects the end users\u2019 consumption information in real-time and is informed of the bidding quantity of the aggregator after the DB market is cleared. Meanwhile, TSO continuously receives the information from the markets, aggregators, and DSOs which supports the maintenance of the system. Besides, each participant in our study is assumed to possess EMS, e.g. household EMS (HEMS) and building EMS (BEMS), which are all abbreviated to EMS in the following description. In this paper, the communication function of EMS enables the users to send bidding information to the aggregator and receive the execution signal of DR. It should be noted that this work concentrates the substratum strategy with the consumers, e.g., purchase strategy, and the superstratum strategy in the DB market, e.g., bidding strategy. The scheduling strategy of participants\u2019 EMS during the DR event will not be discussed in the paper. Specifically, the purchase policy of the aggregator is determined based on the bids submitted by customers to quantify the comfort level and DR potential. And the uncertainties contributed by the market clearing price are taken as the main issue when making a bidding strategy. For the situation that the consumer does have the EMS installed, an app developed for recording the meter ID-correlated participation plan can also achieve the information communication between consumer and aggregator which also works for our framework. The bidding and purchase strategy are interacted and mutually reinforcing, which is thus considered in parallel in our following model formulation. 3.2 DB program As mentioned in [32], dynamic price signals can motivate consumers to adjust their electricity consumption accordingly and be combined with automation in end-use systems to have the potential to deliver more benefits to operators and consumers. We therefore modify the DB program proposed by Taipower Company [33], where only the high-voltage consumer with the contract capacity higher than 100 W is allowed to participate through aggregator. The modification makes all the end-use consumers allowed to participate while the rules except the admittance threshold are kept. We have the rules detailed as below: 1. The DB market is independent of other electricity markets. The DB event (DBE) is called ahead of the day when the system operator estimates an energy or system flexibility shortage. After the call, the participants submit the bidding price and quantity. The market operator clears the market by 18:00 and announces the MCP; 2. Aggregators who bid lower than the MCP win the bidding and should practically curtail their aggregated loads and get the actual total load shedding as close to the bidding quantity as possible during the DBE intervals; 3. The Customer Baseline Load (CBL) of each consumer is determined by the average of the maximum demand during the same time window(s) as DBE in the previous five days (with DBE days, off-peak days, and weekends excluded); 4. The consumer\u2019s DB reduction is evaluated distinctly as the difference between the maximum actual consumption and CBL during DBE. We take an example in Fig. 2 to clarify the relationship between CBL and DB reduction. The amount of the reduction collected from the consumers under an aggregator represents the actual total load shedding of the aggregator; 5. The overall incentive for each participant is calculated based on the pay-as-bid mechanism and execution rate of its bidding curtailment quantity in this DR event; 6. The program is a risk-free program, viz. the participant gains the rewards as the requested amount is met; otherwise, no penalty is given. The rules are all formulated and the details will be given in Section 4. It should be noted the formulation can be adapted according to the other realistic DB application, e.g., modifying the penalty in the objective function according to the rules of risky DB program. 4 Problem formulation and proposed strategies 4.1 System model The aggregator acts as a participant in the DB market. Namely, the aggregator needs to obey the rule of DB described in Section 3.2. The bidding steps can be described as: The market operator firstly notifies the starting and ending time, e.g., t s and t e , of the DBE before the market open. The consumers are then notified of t s and t e by the aggregator. Afterward, each consumer i submits its participation plan Λ i to aggregator which contains the information on which periods they want to participate and the price for curtailment. The aggregator is required to submit the bid including price λ b i d , t and quantity q b i d , t for the period starting from time t s and ending at time t e in one event, where t ∈ [ t s , t s + △ t , \u2026 , t s + n △ t , \u2026 , t s + ( N − 1 ) △ t ] and t s + N △ t = t e . △ t represents the time slot and the number of time slots included in one event is counted with n = [ 0 , \u2026 , N − 1 ] . △ t is a contracted value between aggregator and user, which assumed to be 15 min in our study and can be adjusted to meet the requirements of other cases. t s and t e are broadcasted by the market operator in advance. After winning the bid, the aggregator needs to commit the promised curtailment quantity. The customer i \u2019s participation plan Λ i is defined as follows. (1) Λ i = [ λ i , t s , λ i , t s + △ t , \u2026 , λ i , t s + n △ t , \u2026 , λ i , t s + ( N − 1 ) △ t ] λ i , t stands for the price of the customer i submitting to curtail at time t while λ i , t = 0 means the customer i has no willing to curtail at this time. As described in Fig. 1, the problem mainly deals with three uncertainty issues. One comes from the consumers\u2019 curtailment, one from the market price, while another from the bidding settlement. We thus detail the formulation of the problem into three concepts. 4.1.1 The uncertainty contributed by the customers In the real application, most customers have no sense about their actual electricity usage, let alone their possible DR quantity. Based on the assumption that the report price from customers reflects the comfort requirement, in the framework of our method, the aggregated customers do not need to submit their DR quantity but the price λ i , t . Namely, the responsibility of the DR quantity prediction is shifted from the consumer side to the aggregator side, which fits the realistic situation. Therefore, a model for predicting the total aggregated DR quantity, i.e., the bidding quantity q b i d , t , is introduced accordingly. The accuracy of the prediction depends on how well the aggregator understands the price elasticities ε i , t of its customers, which describes how sensitive the demand changes in response to their order price λ i , t [34]. Moreover, the prediction accuracy of q b i d , t influences the profit of the aggregator. In other words, we target to minimize the difference between prediction DB quantity q b i d , t and the actual total load shedding q a c t , t . q a c t , t is the summation of the reduction from individual C B L i , t to the actual consumption p i , t for customer i as (2) q a c t , t = ∑ i = 1 I q a c t , t i = ∑ i = 1 I m a x ( 0 , C B L i , t − p i , t ) . The execution rate ξ t at time t can then be calculated as (3) ξ t = q b i d , t q a c t , t . Generally, we aim to make the ξ t determined by our model-generating q b i d , t approaching 1, i.e., (4) lim ξ t = 1 . 4.1.2 The uncertainty contributed by the market The Genco bidding problems mostly consider the factors affecting the MCP to optimize the bidding decisions [35]. The decision of bidding price λ b i d , t is affected by the uncertainty of MCP λ M , t . In other words, to win the bid, λ b i d , t must be lower than or equal to λ M , t . Meanwhile, the λ b i d , t needs to approach λ M , t to earn as much profit as possible, i.e., (5) lim λ b i d , t = λ M , t . Conclusively, we target to decide the bidding price λ b i d , t which can achieve tracking λ M , t and then maximize the profit for the aggregator. Considering the system information generally open on the ISO website [36], we make the forecasting system reserve V t as the input of our decision model to optimize the bidding strategy. The reason for considering the reserve rate is because it is a key factor to λ M , t . Especially when the reserve rate of the system is low, namely, the system is on the edge of restrictions of electricity use, the MCP will rise. To consider the uncertainties from consumer side and market side, the aggregator collects the information of the customers\u2019 participation plan Λ i and system\u2019s forecasting reserve V t . Its decision model jointly generates the bidding strategy, e.g., λ b i d , t , and purchasing strategy, e.g., q b i d , t to achieve the targets, e.g., (4) and (5). The decision is made with the boundaries, i.e., λ b i d , t ∈ [ λ b i d , t m i n , λ b i d , t m a x ] and q b i d , t ≥ 0 , where λ b i d , t = λ b i d , t m i n = 0 represents a non-participant state. 4.1.3 The bidding settlement Once the bidding price λ b i d , t for time t is determined, the aggregator\u2019s purchase strategy is settled down. The customers, whose plan price λ i , t is lower than the bidding price λ b i d , t are informed to win the bid. This strategy ensures the cost of aggregator paying to customers is lower than or equal to the profit gained from the demand bidding market. The auxiliary variable x i , t declaring whether customer i wins the bid for time t is defined as (6) x i , t = 1 , λ i , t ≤ λ b i d , t , 0 , λ i , t > λ b i d , t , where x i , t = 1 means a win bid for i . According to the incentive rule, the profit during one DB event for the aggregator can be calculated as the difference of the profit owning from the DB market and the cost paying to the consumers\u2019 curtailment, i.e., (7) P = ∑ t = t s t s + N Δ t ( α t × λ b i d , t × q a c t , t − ∑ i = 1 I x i , t × λ i , t × q a c t , t i ) × Δ t , where α t denotes as the incentive ratio, which is correlated with the execution rate ξ t . Specifically, in the DB program in Taiwan, the incentive ratio α t is determined as (8) α t = 1 . 1 , 0 . 8 ≤ ξ t ≤ 1 . 2 , 1 . 05 , 0 . 6 ≤ ξ t < 0 . 8 o r 1 . 2 < ξ t ≤ 1 . 5 , 1 , 0 ≤ ξ t < 0 . 6 o r 1 . 5 < ξ t . We utilize the incentive ratio determined by Eq. (8) in the following studies. Moreover, by adjusting the incentive ratio rule according to different DB program, the calculation of P can be made and further used in the proposed model. Considering our target of maximizing the profit P in (7), based on the uncertainties and settlement framework introduced in this subsection, we employ a two-agent Deep Deterministic Policy Gradient (DDPG) reinforcement learning method to construct our decision model and obtain the bidding and purchase strategies. 4.2 Markov Decision Process (MDP)-based two-agent learning mechanism In this subsection, we demonstrate the proposed two-agent RL structure for the aggregator to establish the bidding and purchase policy. State, action, and reward compose the basic structure for RL, which allows the agent-based aggregator to achieve online learning-by-doing and gradually optimizing its policy. As estimates in Fig. 3, the two agents in our proposed model operate in parallel while sharing the information from the environment states, utilize the same reward function, and finally obtain the policies at the same time. We name the two agents as price agent and quantity agent separately. The former determines the bidding price λ b i d , t and the later determines the bidding quantity q b i d , t . These two decision variables are involved in the model as the action a t , which generated based on the state s t and the reward r t . The following definitions clarify how to embed our problem into RL formulation: \u2022 State variable s t : The two agents share the state variable, including the information the model receiving and updating noted by time t . The information consists of system reserve forecast V t , consumers\u2019 participation plan { λ i , t , i = 1 , \u2026 , I . } , and the corresponding time-related stamps, e.g., time t , date d , and weekday/weekend category w . For each time, the state can be described as (9) s t = [ t , d , w , λ i , t , V t ] . \u2022 Action variable a t : The action variables composed of bidding price a λ , t and curtailment quantity a q , t are distinctly determined by price agent and quantity agent. The actions are generated by the policies of the two agents which equally represent the bidding price and quantity and are determined within the market constraints, i.e., (10) λ b i d , t = a λ , t , s . t . , λ m i n ≤ a λ , t ≤ λ m a x , (11) q b i d , t = a q , t , s . t . , a q , t ≥ 0 \u2022 Reward r t : The reward r t is defined referring to Eq. (7). It is utilized and calculated jointly by the two agents as well. The reward is gained after the two actions, e.g., a λ , t and a q , t , made while the state transfers from s to s \u2032 , which is denoted as μ ( a q , t , a λ , t , s , s \u2032 ) . The expected total reward along the training episode evaluates the policy, which thus helps to improve the bidding and purchasing strategies. MDP provides a framework that is widely used for modeling agent-environment interactions. An MDP can be represented by a tuple ( s , a , r ) , where s and a are the two sets of the states and possible actions. We utilize the DDPG method to construct the model. 4.3 DDPG method In this paper, DDPG learning method [37] is used to solve the agent-based aggregator bidding model. As an off-policy RL model, DDPG not only combines the advantages of DQN, policy gradient, and actor\u2013critic but also adopts the deterministic policy to accelerate the converge time. Fig. 4 shows how agents interact with the environment to attain experience and then instantly updates their parameters to optimize the actions. The agents constantly store the newest experience to achieve online learning so that it can adapt to the implicit market trend in real-time. With the same learning structure, offline and online learning models are constructed sequentially. The offline learning uses a large amount of historical data to train the model iteratively. And online learning utilizes the trained model to make the strategies and also real-timely learns the up-to-date experience during the DR event. (1) Preliminary We construct the agent with a neural network structure to act and learn in a stochastic environment by sequentially making actions over time steps under the MDP structure. We model the DB problem as MDP which consists of state s t , action a t , stationary transition dynamics distribution p ( s t + 1 | s t , a t ) for any trajectory ( s 1 , a 1 , \u2026 , s t , a t , \u2026 , s t e , a t e ) , and reward function r t , where t ∈ [ t s , t s + △ t , \u2026 , t s + n △ t , \u2026 , t s + ( N − 1 ) △ t ] . A stochastic policy π θ ( a t | s t ) is used to select actions in MDP. It is the set of probability measures on a t associated with the policy when the agent is at state s t and determined by a set of parameters θ ∈ R n . The parameters θ are implemented by the neural network and can be adjusted by agent to affect the policy. (2) Action-Value Function The agent follows the policy π θ ( a t | s t ) to interact with the environment, which is the demand bidding market and the consumers\u2019 interaction in our problem. The reward and a trajectory are gained sequentially. Cumulative discounted reward of this trajectory is defined as (12) R t = ∑ k = t ∞ γ k − t r k , where γ ∈ [ 0 , 1 ] is a discounted factor for the agent to decide the weight of focusing on the future reward. The objective for the model is to maximize R t . The action-value function, (13) Q π ( s t , a t ) = E s ∼ τ π , a ∼ π θ [ R t | s t , a t ] = E s ∼ τ π , a ∼ π θ [ r ( s t , a t ) + γ E s ∼ τ π , a ∼ π θ [ Q π ( s t + 1 , a t + 1 ) ] ] , stands for the expected discounted return while τ π is denoted as the state visitation distribution after choosing action a t in state s t following the policy π θ . The function is utilized to evaluate the chosen action during the learning process and can also be expressed in a recursive relationship known as the Bellman equation. The agent learns the policy by maximizing Eq. (13). The DDPG algorithm we employed can be referred to [37], which based on the structure of actor\u2013critic algorithm along with deterministic action policy and policy gradient update. The advantages of off-policy training, e.g. replaying buffer and targeting Q network from DQN, are utilized. Actions a t are stochastically sampled from the distribution of policy π θ ( a t | s t ) in actor\u2013critic as a ∼ π θ . With the functions of DDPG, e.g., adding noise to deterministic actor policy, replay buffer, and parameter updating, our continuous bidding problem can be efficiently solved and converged. Online learning in Fig. 4 can also be thus achieved on daily base. 5 Environment simulator and simulations To test the robustness and learning ability of our method, two simulators are developed and detailed before the simulation. The results of offline learning over learning cases are shown to demonstrate the learning ability. Moreover, we use the trained model to do online learning and test the effectiveness of the system in the meantime. 5.1 Environment simulator The market clearing price λ M , t and the actual curtailment quantity of aggregated customers q a c t , t are the required data when training our proposed model. As the robustness target of our proposed model, the realistic data based simulators are proposed. The price simulator is constructed by historical MCP data from the bidding platform of Taiwan Power Company, while the curtailment simulator imitates the real consumption of each participants according to [34]. Specifically, we adopt a second order surface fitting function of V t to build the price simulator based on the historical data. The MCP λ M , t can be derived under arbitrary simulated cases with input of period t and system reserve rate V t to verify whether the bidding price λ b i d , t from the agent wins the bid. Given historical MCP data of demand bidding market and the corresponding reserve rate in 2017 from Taiwan Power Company, we adopt second order surface fitting function to construct the simulator for the MCP λ M , t : (14) λ M , t = p 1 × t 2 + p 2 × V t 2 + p 3 × V t × t + p 4 × t + p 5 × V t + p 6 . Least square method is used to derive the parameters [ p 1 , p 2 , \u2026 , p 6 ] of the function and the results are shown in Table 1. By learning the data, the agent is educated to capture the inner relationship as (14). To estimate the robustness of the learning, a noise is also randomly added following a normal distribution. The range of the noises is determined based on the difference between realistic data and the simulated data. Regarding customers\u2019 actual consumption during DR event, the relationship between their electricity consumption quantity p i , t and their bidding price λ i , t can be modeled through the coefficients of price elasticity ε i , t ∈ [ − 1 , 0 ] describing how sensitive their demands would change in response to their bidding price: (15) ε i , t = ( p i , t − p i , t 0 ) / p i , t 0 | λ i , t − λ T o U , t | / λ T o U , t , where p i , t 0 indicates the original load for customer i at time t obtaining from the load forecasting and λ T o U , t refers the Time of Use rate of the consumption [34]. As estimated in Table 1, the range of ε i , t varies according to the time intervals, e.g., peak (P), off-peak(OP), and semi-peak(SP). The elasticity of changing the load during OP is highest. And there are 16 customers are assumed aggregated under the aggregator with individual ε i , t , which is constant during the time interval t for each consumer i . 5.2 Offline learning We apply grid search [38] on the validation dataset and S u c c e s s R a t e ≥ 90 % as the evaluation rule. S u c c e s s R a t e is calculated by how much percentage of periods can earn profit among the total training periods. We found that at least 120 data are needed to train a qualified model. That is, 15 days dataset of DR events, which contains a total of 120 periods (15 mins per data and 2 h considered in a day) rom simulators, is needed to iteratively train the bidding system. As the noises found to range from 0 − 0 . 5 , three scenarios for validating the robustness are proposed with diverse noise modeled by normal distribution N ∼ ( μ , σ 2 ) to the simulated data, e.g., standard deviation σ equals to 0, 0.2, and 0.5. 5.2.1 Bidding price and quantity After offline training, the testing results of bidding price and bidding quantity for three scenarios in 120 time intervals are shown in Figs. 5, 6, and 7 respectively. Take the results in Fig. 5(a) as the example, the bidding price made by the bidding system in the blue line can be maintained slightly lower than the MCP in the red dash line, namely successfully tracing the MCP when confronting the state s t from the environment. The bidding quantity made by the bidding system represented as the orange line is nearly equal to the actual curtailment represented as the purple dash line in Fig. 5(b). Moreover, according to the incentive ratio α t demonstrated in Eq. (8) and involved in the reward function, the range between 0.8 and 1.2 of the actual curtailment is represented by the lavender area while the range between 0.6 and 1.4 is displayed by lilac area. It demonstrates the ability of agent structure employed to predict the actual curtailment quantity of aggregated customers. Particularly, though some bidding quantities are not exactly the same as the actual curtailment, they lie in between the range of 0.8 and 1.2 in most of the situations. A similar performance is revealed in Figs. 6, and 7. The proposed method employed does capture all the trends and relationships within the reserve rate, time stamp, and offered price by the customers. Ultimately, even the noises, e.g., σ = 0 . 2 and 0.5, added to the simulator, our proposed method achieves good performance and performs outstanding robustness. Overall, the details of offline learning results for three scenarios are shown in Table 2. The success rate of Scenario 2 is 97.5% which is quite near to 98.3% of Scenario 1. Even for Scenario 3, the case with the highest noise in the simulator, the success rate still can be maintained as 93.3%. All effectively demonstrate the robustness of learning ability for the proposed bidding system. For the execution rate ξ , it demonstrates the performance of the bidding quantity. The aggregator can gain a bonus when 0 . 6 ≤ ξ ≤ 1 . 5 referring to the DR rule shown in Table 1. Thus, we calculate the achievement rate of 0 . 8 ≤ ξ ≤ 1 . 2 and 0 . 6 ≤ ξ ≤ 1 . 5 . The results turn out that the average rate for the former one is around 73%, and the latter one reaches around 82% for the three scenarios, which shows good predictivity of the method employed under a limited amount of 120 periods of data. 5.2.2 Cumulative profit over iteration Cumulative profit is defined as the total profit the aggregator can earn for each episode by the proposed learning structure. The cumulative profits, changing by the training for three scenarios are shown in Fig. 8 with the orange line for Scenario 1, the gray line for Scenario 2, and the green line for Scenario 3. We can see that the cumulative profit increases with the training processing. It gradually becomes stable within a range after 120-th episode which reveals the bidding system has learned to determine a bidding strategy that is approach to optimal solution. 5.3 Online learning results With the same evaluation mechanism as offline learning while S u c c e s s R a t e ≥ 85 % is set, 50 days dataset for offline training and 5 days dataset for online training are found to be required for a qualified online bidding system. The parameters of the model are firstly obtained by the offline and sequential developed by online training and then tested in the online mode. Now, we test the model for 5 days which contains a total of 40 periods and verify the performance of online learning. Online learning is feasible to the real situation that the aggregator participates in the bidding market. In addition to the results shown in Section 5.2.2 have fully demonstrated the robustness and adaptivity of the proposed bidding system from 3 scenarios, we consider the 3 scenarios with the same standard deviation setting in this section to test the efficiency of online learning. The performance is shown in Figs. 9, 10, and 7. As estimated (a) and (b) in the figures, not only the bidding price but the quantity, the strategy made by our model can markedly capture the trend and accordingly submit bidding. Specifically, the performance of the bidding strategy can be evaluated from the approaching degree from bidding price to the MCP and the difference between actual curtailment and bidding quantity. Moreover, we evaluate the situation where the aggregator wins the bid and customers have the actual curtailment at time t as a win deal. The win flag in (c) of Figs. 9, 10, and 11 estimates a win deal if the value is 1 and the corresponding profit for aggregator is shown in (d). It represents high bidding winning rates, e.g., 97.5%, 92.5%, and 85.0%, which is to say only one failure during 40 bidding periods in Scenario 1. Nevertheless, there is no significant gap between the profits owned by the bidding strategy in 3 scenarios from the observation in (d) of the three figures. The proposed model is compared with a neural network (NN) based benchmark model. Two NNs, namely price model and quantity model, are employed to determine the bidding price and bidding quantity individually. The hyperparameters are set the same as the network in our model, e.g., 4 layers and the layers separately have 300, 600, 400, and 200 neurons. In other words, compared with our model the networks do not share the input or loss function but make the decision distinctly, which is the general structure to solve these kinds of problems. The training data for the models are the same as the proposed bidding model where the factors considered are time t , weekday/weekend category w , and reserve rate V t for the price model while t , w , and report prices from customers λ i , t for the quantity model. We list the average results of the online learning results for our model and benchmark model in 3 scenarios in Table 3. The success rate over 40 periods obtained by proposed is up to 97.50% shown in the table, which ensuring the aggregator can nearly earn a profit every time and learn the trend of MCP. And the execution rate is 76.9% in the range 0 . 8 ≤ ξ ≤ 1 . 2 , which advances the profit increase. On the other hand, the performance of the benchmark model, which without the experience sharing among the agents nor the interaction considered in the situation, only achieves 42.5% of success rate and 57.5% of execution rate in the range of 0 . 8 ≤ ξ ≤ 1 . 2 . Overall, the proposed two-agent DDPG scheme outperforms superiorly to the NN-based model. 6 Conclusion We have developed a machine learning-based bidding and purchasing methodology for aggregators to participate in the DR program. The state-of-the-art DDPG reinforcement learning algorithm has been utilized and developed into a two-agent structure. The model refines and updates the bidding decisions through offline and online learning with the bidding experience. The uncertainties from the MCP and the customers\u2019 consumption behavior confronted by the aggregator have thus been well measured and considered in the reward functions. Besides, to simulate the real situations the aggregator may face and to test the robustness of our proposed scheme, the simulators of MCP and customers\u2019 consumption reduction are introduced. Among all the scenarios, the proposed method has been proved to achieve a good performance and have a stable bidding ability especially after more and more bidding experiences are involved. In particular, the indices of bidding success rate and execution rate achieved from the proposed method perform well, as observed from the scenarios even with higher uncertainties. The results further verify the capability and robustness of the proposed method. For future work, based on the work we already developed, we plan to apply our online interactive model to other types of DR programs, e.g., price-driven and incentive-driven programs. As estimated, our model achieved good performance on learning the consumption behaviors behind the bidding plan submitted by the consumer. However, our study is based on the rule that the consumer needs to submit the willing price to the aggregator. It makes some limitations on the application. By utilizing the model and learning the reaction of consumers to the price or incentive signal, we believe the DR quantity and potential of end-users developed in other DR programs can be also well evaluated. CRediT authorship contribution statement Kuan-Cheng Lee: Data curation, Writing \u2013 original draft, Methodology, Software. Hong-Tzer Yang: Supervision, Writing \u2013 review & editing. Wenjun Tang: Conceptualization, Visualization, Investigation, Validation. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work was supported by MOST 110-3116-F-006-001. References [1] Lu S.D. Kuo M.T. Wu C.C. Tsou M.C. Zeng H. Evaluation of the maximum allowable generation capacity after offshore wind farms are integrated into the existing taipower system-A case study in Taiwan 2018 IEEE/IAS 54th industrial and commercial power systems technical conference (I&CPS) 2018 IEEE 1 15 S. D. Lu, M. T. Kuo, C. C. Wu, M. C. Tsou, and H. Zeng, \u201cEvaluation of the maximum allowable generation capacity after offshore wind farms are integrated into the existing taipower system-a case study in taiwan,\u201d in 2018 IEEE/IAS 54th Industrial and Commercial Power Systems Technical Conference (I&CPS). IEEE, 2018, pp. 1\u201315. [2] Strasser T. Andrén F. Kathan J. Cecati C. Buccella C. Siano P. Leitao P. Zhabelova G. Vyatkin V. Vrba P. A review of architectures and concepts for intelligence in future electric energy systems IEEE Trans Ind Electron 62 4 2014 2424 2438 T. Strasser, F. Andrén, J. Kathan, C. Cecati, C. Buccella, P. Siano, P. Leitao, G. Zhabelova, V. Vyatkin, P. Vrba et al., \u201cA review of architectures and concepts for intelligence in future electric energy systems,\u201d IEEE Transactions on Industrial Electronics, vol. 62, no. 4, pp. 2424\u20132438, 2014. [3] Shafie-khah M. Siano P. Aghaei J. Masoum M.A.S. Li F. Catalão J.P.S. Comprehensive review of the recent advances in industrial and commercial DR IEEE Trans Ind Inf 15 7 2019 3757 3771 10.1109/TII.2019.2909276 M. Shafie-khah, P. Siano, J. Aghaei, M. A. S. Masoum, F. Li, and J. P. S. Catalão, \u201cComprehensive review of the recent advances in industrial and commercial dr,\u201d IEEE Transactions on Industrial Informatics, vol. 15, no. 7, pp. 3757\u20133771, 2019. [4] Iria J. Soares F. Matos M. Optimal supply and demand bidding strategy for an aggregator of small prosumers Appl Energy 213 2018 658 669 J. Iria, F. Soares, and M. Matos, \u201cOptimal supply and demand bidding strategy for an aggregator of small prosumers,\u201d Applied Energy, vol. 213, pp. 658\u2013669, 2018. [5] Utama C. Troitzsch S. Thakur J. Demand-side flexibility and demand-side bidding for flexible loads in air-conditioned buildings Appl Energy 285 2021 116418 C. Utama, S. Troitzsch, and J. Thakur, \u201cDemand-side flexibility and demand-side bidding for flexible loads in air-conditioned buildings,\u201d Applied Energy, vol. 285, p. 116418, 2021. [6] Dong Y. Dong Z. Zhao T. Ding Z. A strategic day-ahead bidding strategy and operation for battery energy storage system by reinforcement learning Electr Power Syst Res 196 2021 107229 Y. Dong, Z. Dong, T. Zhao, and Z. Ding, \u201cA strategic day-ahead bidding strategy and operation for battery energy storage system by reinforcement learning,\u201d Electric Power Systems Research, vol. 196, p. 107229, 2021. [7] U.S. Energy Information Administration How much energy is consumed in U.S. residential and commercial buildings? 2018 [Online]. Available: https://www.eia.gov/tools/faqs/faq.php? U. E. I. Administration. (2018) How much energy is consumed in u.s. residential and commercial buildings? [Online]. Available: https://www.eia.gov/tools/faqs/faq.php? [8] Bahrami S. Wong V.W. Huang J. An online learning algorithm for demand response in smart grid IEEE Trans Smart Grid 9 5 2017 4712 4725 S. Bahrami, V. W. Wong, and J. Huang, \u201cAn online learning algorithm for demand response in smart grid,\u201d IEEE Transactions on Smart Grid, vol. 9, no. 5, pp. 4712\u20134725, 2017. [9] Parizy E.S. Bahrami H.R. Choi S. A low complexity and secure demand response technique for peak load reduction IEEE Trans Smart Grid 10 3 2018 3259 3268 E. S. Parizy, H. R. Bahrami, and S. Choi, \u201cA low complexity and secure demand response technique for peak load reduction,\u201d IEEE Transactions on Smart Grid, vol. 10, no. 3, pp. 3259\u20133268, 2018. [10] Lu N. An evaluation of the HVAC load potential for providing load balancing service IEEE Trans Smart Grid 3 3 2012 1263 1270 N. Lu, \u201cAn evaluation of the hvac load potential for providing load balancing service,\u201d IEEE Transactions on Smart Grid, vol. 3, no. 3, pp. 1263\u20131270, 2012. [11] Moon S. Lee J. Multi-residential demand response scheduling with multi-class appliances in smart grid IEEE Trans Smart Grid 9 4 2018 2518 2528 S. Moon and J. Lee, \u201cMulti-residential demand response scheduling with multi-class appliances in smart grid,\u201d IEEE Transactions on Smart Grid, vol. 9, no. 4, pp. 2518\u20132528, 2018. [12] Korkas C.D. Baldi S. Michailidis I. Kosmatopoulos E.B. Occupancy-based demand response and thermal comfort optimization in microgrids with renewable energy sources and energy storage Appl Energy 163 2016 93 104 C. D. Korkas, S. Baldi, I. Michailidis, and E. B. Kosmatopoulos, \u201cOccupancy-based demand response and thermal comfort optimization in microgrids with renewable energy sources and energy storage,\u201d Applied Energy, vol. 163, pp. 93\u2013104, 2016. [13] Yao L. Lim W.H. Optimal purchase strategy for demand bidding IEEE Trans Power Syst 33 3 2018 2754 2762 L. Yao and W. H. Lim, \u201cOptimal purchase strategy for demand bidding,\u201d IEEE Transactions on Power Systems, vol. 33, no. 3, pp. 2754\u20132762, 2018. [14] Jia Y. Mi Z. Yu Y. Song Z. Liu L. Sun C. Purchase bidding strategy for load agent with the incentive-based demand response IEEE Access 7 2019 58626 58637 Y. Jia, Z. Mi, Y. Yu, Z. Song, L. Liu, and C. Sun, \u201cPurchase bidding strategy for load agent with the incentive-based demand response,\u201d IEEE Access, vol. 7, pp. 58 626\u201358 637, 2019. [15] Li P. Wang H. Zhang B. A distributed online pricing strategy for demand response programs IEEE Trans Smart Grid 10 1 2019 350 360 P. Li, H. Wang, and B. Zhang, \u201cA distributed online pricing strategy for demand response programs,\u201d IEEE Transactions on Smart Grid, vol. 10, no. 1, pp. 350\u2013360, 2019. [16] Tang W. Yang H.-T. Optimal operation and bidding strategy of a virtual power plant integrated with energy storage systems and elasticity demand response IEEE Access 7 2019 79798 79809 W. Tang and H.-T. Yang, \u201cOptimal operation and bidding strategy of a virtual power plant integrated with energy storage systems and elasticity demand response,\u201d IEEE Access, vol. 7, pp. 79 798\u201379 809, 2019. [17] Fazlalipour P. Ehsan M. Mohammadi-Ivatloo B. Risk-aware stochastic bidding strategy of renewable micro-grids in day-ahead and real-time markets Energy 171 2019 689 700 P. Fazlalipour, M. Ehsan, and B. Mohammadi-Ivatloo, \u201cRisk-aware stochastic bidding strategy of renewable micro-grids in day-ahead and real-time markets,\u201d Energy, vol. 171, pp. 689\u2013700, 2019. [18] Zhao T. Pan X. Yao S. Ju C. Li L. Strategic bidding of hybrid AC/DC microgrid embedded energy hubs: A two-stage chance constrained stochastic programming approach IEEE Trans Sustain Energy 11 1 2018 116 125 T. Zhao, X. Pan, S. Yao, C. Ju, and L. Li, \u201cStrategic bidding of hybrid ac/dc microgrid embedded energy hubs: A two-stage chance constrained stochastic programming approach,\u201d IEEE Transactions on Sustainable Energy, vol. 11, no. 1, pp. 116\u2013125, 2018. [19] AlAshery M.K. Xiao D. Qiao W. Second-order stochastic dominance constraints for risk management of a wind power producer\u2019s optimal bidding strategy IEEE Trans Sustain Energy 2019 M. K. AlAshery, D. Xiao, and W. Qiao, \u201cSecond-order stochastic dominance constraints for risk management of a wind power producer\u2019s optimal bidding strategy,\u201d IEEE Transactions on Sustainable Energy, 2019. [20] Wei M. Zhong J. Optimal bidding strategy for demand response aggregator in day-ahead markets via stochastic programming and robust optimization 2015 12th international conference on the european energy market (EEM) 2015 1 5 M. Wei and J. Zhong, \u201cOptimal bidding strategy for demand response aggregator in day-ahead markets via stochastic programming and robust optimization,\u201d in 2015 12th International Conference on the European Energy Market (EEM), 2015, pp. 1\u20135. [21] Liu G. Xu Y. Tomsovic K. Bidding strategy for microgrid in day-ahead market based on hybrid stochastic/robust optimization IEEE Trans Smart Grid 7 1 2015 227 237 G. Liu, Y. Xu, and K. Tomsovic, \u201cBidding strategy for microgrid in day-ahead market based on hybrid stochastic/robust optimization,\u201d IEEE Transactions on Smart Grid, vol. 7, no. 1, pp. 227\u2013237, 2015. [22] Rahimiyan M. Baringo L. Strategic bidding for a virtual power plant in the day-ahead and real-time markets: A price-taker robust optimization approach IEEE Trans Power Syst 31 4 2015 2676 2687 M. Rahimiyan and L. Baringo, \u201cStrategic bidding for a virtual power plant in the day-ahead and real-time markets: A price-taker robust optimization approach,\u201d IEEE Transactions on Power Systems, vol. 31, no. 4, pp. 2676\u20132687, 2015. [23] Asensio M. Contreras J. Risk-constrained optimal bidding strategy for pairing of wind and demand response resources IEEE Trans Smart Grid 8 1 2015 200 208 M. Asensio and J. Contreras, \u201cRisk-constrained optimal bidding strategy for pairing of wind and demand response resources,\u201d IEEE Transactions on Smart Grid, vol. 8, no. 1, pp. 200\u2013208, 2015. [24] Xu Z. Hu Z. Song Y. Wang J. Risk-averse optimal bidding strategy for demand-side resource aggregators in day-ahead electricity markets under uncertainty IEEE Trans Smart Grid 8 1 2015 96 105 Z. Xu, Z. Hu, Y. Song, and J. Wang, \u201cRisk-averse optimal bidding strategy for demand-side resource aggregators in day-ahead electricity markets under uncertainty,\u201d IEEE Transactions on Smart Grid, vol. 8, no. 1, pp. 96\u2013105, 2015. [25] Nguyen D.T. Le L.B. Risk-constrained profit maximization for microgrid aggregators with demand response IEEE Trans Smart Grid 6 1 2014 135 146 D. T. Nguyen and L. B. Le, \u201cRisk-constrained profit maximization for microgrid aggregators with demand response,\u201d IEEE Transactions on smart grid, vol. 6, no. 1, pp. 135\u2013146, 2014. [26] Henderson P. Islam R. Bachman P. Pineau J. Precup D. Meger D. Deep reinforcement learning that matters Thirty-second AAAI conference on artificial intelligence 2018 P. Henderson, R. Islam, P. Bachman, J. Pineau, D. Precup, and D. Meger, \u201cDeep reinforcement learning that matters,\u201d in Thirty-Second AAAI Conference on Artificial Intelligence, 2018. [27] Vázquez-Canteli J.R. Nagy Z. Reinforcement learning for demand response: A review of algorithms and modeling techniques Appl Energy 235 2019 1072 1089 J. R. Vázquez-Canteli and Z. Nagy, \u201cReinforcement learning for demand response: A review of algorithms and modeling techniques,\u201d Applied energy, vol. 235, pp. 1072\u20131089, 2019. [28] Wang B. Li Y. Ming W. Wang S. Deep reinforcement learning method for demand response management of interruptible load IEEE Trans Smart Grid 11 4 2020 3146 3155 B. Wang, Y. Li, W. Ming, and S. Wang, \u201cDeep reinforcement learning method for demand response management of interruptible load,\u201d IEEE Transactions on Smart Grid, vol. 11, no. 4, pp. 3146\u20133155, 2020. [29] Lu R. Hong S.H. Yu M. Demand response for home energy management using reinforcement learning and artificial neural network IEEE Trans Smart Grid 10 6 2019 6629 6639 R. Lu, S. H. Hong, and M. Yu, \u201cDemand response for home energy management using reinforcement learning and artificial neural network,\u201d IEEE Transactions on Smart Grid, vol. 10, no. 6, pp. 6629\u20136639, 2019. [30] Lu R. Hong S.H. Incentive-based demand response for smart grid with reinforcement learning and deep neural network Appl Energy 236 2019 937 949 R. Lu and S. H. Hong, \u201cIncentive-based demand response for smart grid with reinforcement learning and deep neural network,\u201d Applied energy, vol. 236, pp. 937\u2013949, 2019. [31] Rahimiyan M. Mashhadi H.R. Supplier\u2019s optimal bidding strategy in electricity pay-as-bid auction: Comparison of the Q-learning and a model-based approach Electr Power Syst Res 78 1 2008 165 175 M. Rahimiyan and H. R. Mashhadi, \u201cSupplier\u2019s optimal bidding strategy in electricity pay-as-bid auction: Comparison of the q-learning and a model-based approach,\u201d Electric Power Systems Research, vol. 78, no. 1, pp. 165\u2013175, 2008. [32] Yan X. Ozturk Y. Hu Z. Song Y. A review on price-driven residential demand response Renew Sustain Energy Rev 96 2018 411 419 X. Yan, Y. Ozturk, Z. Hu, and Y. Song, \u201cA review on price-driven residential demand response,\u201d Renewable and Sustainable Energy Reviews, vol. 96, pp. 411\u2013419, 2018. [33] Taipower Company, Demand-Side Management Measures, [Online]. Available: https://dbp.taipower.com.tw/TaiPowerDBP/Portal/Login. [34] Song M. Amelin M. Price-maker bidding in day-ahead electricity market for a retailer with flexible demands IEEE Trans Power Syst 33 2 2018 1948 1958 M. Song and M. Amelin, \u201cPrice-maker bidding in day-ahead electricity market for a retailer with flexible demands,\u201d IEEE Transactions on power systems, vol. 33, no. 2, pp. 1948\u20131958, 2018. [35] Li G. Shi J. Qu X. Modeling methods for GenCo bidding strategy optimization in the liberalized electricity spot market\u2013A state-of-the-art review Energy 36 8 2011 4686 4700 G. Li, J. Shi, and X. Qu, \u201cModeling methods for genco bidding strategy optimization in the liberalized electricity spot market\u2013a state-of-the-art review,\u201d Energy, vol. 36, no. 8, pp. 4686\u20134700, 2011. [36] CAISO, California ISO Current and Forecasted Demand. [Online]. Available: http://www.caiso.com/TodaysOutlook/Pages/default.aspx. [37] Lillicrap T.P. Hunt J.J. Pritzel A. Heess N. Erez T. Tassa Y. Silver D. Wierstra D. Continuous control with deep reinforcement learning 2015 arXiv preprint arXiv:1509.02971 T. P. Lillicrap, J. J. Hunt, A. Pritzel, N. Heess, T. Erez, Y. Tassa, D. Silver, and D. Wierstra, \u201cContinuous control with deep reinforcement learning,\u201d arXiv preprint arXiv:1509.02971, 2015. [38] Bergstra J.S. Bardenet R. Bengio Y. Kégl B. Algorithms for hyper-parameter optimization Advances in neural information processing systems 2011 2546 2554 J. S. Bergstra, R. Bardenet, Y. Bengio, and B. Kégl, \u201cAlgorithms for hyper-parameter optimization,\u201d in Advances in neural information processing systems, 2011, pp. 2546\u20132554.",
+    "scopus-id": "85130133991",
+    "coredata": {
+        "eid": "1-s2.0-S030626192200469X",
+        "dc:description": "Demand response (DR), as one of the important energy resources in the future\u2019s grid, provides the services of peak shaving, enhancing the efficiency of renewable energy utilization with a short response period, and low cost. Various categories of DR are established, e.g. automated DR, incentive DR, emergency DR, and demand bidding. However, with the practical issue of the unawareness of residential and commercial consumers\u2019 utility models, the researches about demand bidding aggregator involved in the electricity market are just at the beginning stage. For this issue, the bidding price and bidding quantity are two required decision variables while considering the uncertainties due to the market and participants. In this paper, we determine the bidding and purchasing strategy simultaneously employing the smart meter data and functions. A two-agent deep deterministic policy gradient method is developed to optimize the decisions through learning historical bidding experiences. The online learning further utilizes the daily newest bidding experience attained to ensure trend tracing and self-adaptation. Two environment simulators are adopted for testifying the robustness of the model. The results prove that when facing diverse situations the proposed model can earn the optimal profit via off/online learning the bidding rules and robustly making the proper bid.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2022-08-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S030626192200469X",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Lee, Kuan-Cheng"
+            },
+            {
+                "@_fa": "true",
+                "$": "Yang, Hong-Tzer"
+            },
+            {
+                "@_fa": "true",
+                "$": "Tang, Wenjun"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S030626192200469X"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S030626192200469X"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0306-2619(22)00469-X",
+        "prism:volume": "319",
+        "articleNumber": "119082",
+        "prism:publisher": "Published by Elsevier Ltd.",
+        "dc:title": "Data-driven online interactive bidding strategy for demand response",
+        "prism:copyright": "© 2022 Published by Elsevier Ltd.",
+        "openaccess": "0",
+        "prism:issn": "03062619",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Smart meter"
+            },
+            {
+                "@_fa": "true",
+                "$": "Demand response"
+            },
+            {
+                "@_fa": "true",
+                "$": "Demand bidding"
+            },
+            {
+                "@_fa": "true",
+                "$": "Machine learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Multi-agent Reinforcement Learning"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Energy",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "119082",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 August 2022",
+        "prism:doi": "10.1016/j.apenergy.2022.119082",
+        "prism:startingPage": "119082",
+        "dc:identifier": "doi:10.1016/j.apenergy.2022.119082",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "413",
+            "@width": "570",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "85779",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "413",
+            "@width": "570",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "77501",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "223",
+            "@width": "508",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41145",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "430",
+            "@width": "597",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "112935",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "438",
+            "@width": "599",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "112105",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "448",
+            "@width": "612",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "110108",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "158",
+            "@width": "600",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36929",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "413",
+            "@width": "570",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "79920",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "272",
+            "@width": "542",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94723",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "275",
+            "@width": "590",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "49898",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "450",
+            "@width": "589",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "98125",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "147",
+            "@width": "360",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-fx1001.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "86127",
+            "@ref": "fx1001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "244",
+            "@width": "298",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94746",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "159",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "22843",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "159",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "20952",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "96",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14238",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "28142",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "160",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "28074",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "160",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "27522",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "58",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12135",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "159",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "21540",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "110",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72512",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "102",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14377",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "215",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "25046",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "89",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-fx1001.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72550",
+            "@ref": "fx1001",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "200",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "77125",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1830",
+            "@width": "2523",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "504318",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1830",
+            "@width": "2523",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "454632",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "986",
+            "@width": "2250",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "218148",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1904",
+            "@width": "2646",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "733918",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1938",
+            "@width": "2651",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "724427",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1982",
+            "@width": "2709",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "716260",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "700",
+            "@width": "2656",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "214608",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1830",
+            "@width": "2523",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "466964",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1205",
+            "@width": "2400",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "248639",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1216",
+            "@width": "2612",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "297979",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1991",
+            "@width": "2607",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "569200",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "650",
+            "@width": "1595",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-fx1001_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "185779",
+            "@ref": "fx1001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1085",
+            "@width": "1323",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "227533",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "235",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5590",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si101.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5048",
+            "@ref": "si101",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si103.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24082",
+            "@ref": "si103",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si107.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19881",
+            "@ref": "si107",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si117.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2008",
+            "@ref": "si117",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si121.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10277",
+            "@ref": "si121",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si123.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1615",
+            "@ref": "si123",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si124.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1663",
+            "@ref": "si124",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si125.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11616",
+            "@ref": "si125",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si127.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3764",
+            "@ref": "si127",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si128.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4079",
+            "@ref": "si128",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si129.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17875",
+            "@ref": "si129",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3769",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si130.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13403",
+            "@ref": "si130",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si135.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1325",
+            "@ref": "si135",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si136.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1910",
+            "@ref": "si136",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si137.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9709",
+            "@ref": "si137",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si138.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5067",
+            "@ref": "si138",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si139.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1405",
+            "@ref": "si139",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si140.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1378",
+            "@ref": "si140",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si143.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7828",
+            "@ref": "si143",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si144.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9910",
+            "@ref": "si144",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si147.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6796",
+            "@ref": "si147",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si150.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5336",
+            "@ref": "si150",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si151.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1189",
+            "@ref": "si151",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si153.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9049",
+            "@ref": "si153",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si154.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4561",
+            "@ref": "si154",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si157.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27124",
+            "@ref": "si157",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si159.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2350",
+            "@ref": "si159",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4816",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si160.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2396",
+            "@ref": "si160",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si162.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2386",
+            "@ref": "si162",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si165.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4190",
+            "@ref": "si165",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si174.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15759",
+            "@ref": "si174",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si175.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6762",
+            "@ref": "si175",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si178.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7463",
+            "@ref": "si178",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si179.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14622",
+            "@ref": "si179",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1994",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si180.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4601",
+            "@ref": "si180",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si183.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5160",
+            "@ref": "si183",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si188.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14947",
+            "@ref": "si188",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si189.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8686",
+            "@ref": "si189",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2095",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si190.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3090",
+            "@ref": "si190",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si191.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6045",
+            "@ref": "si191",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si192.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1019",
+            "@ref": "si192",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si195.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3369",
+            "@ref": "si195",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si196.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1987",
+            "@ref": "si196",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2209",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2218",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si200.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6304",
+            "@ref": "si200",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si201.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6530",
+            "@ref": "si201",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si202.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15596",
+            "@ref": "si202",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5698",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2811",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1425",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7209",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5963",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1137",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2392",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2126",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1342",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2249",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12573",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5362",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1512",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6923",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16506",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3556",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4789",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3797",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21494",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11181",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1093",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si72.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7151",
+            "@ref": "si72",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si79.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10943",
+            "@ref": "si79",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3794",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si82.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1949",
+            "@ref": "si82",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si88.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14345",
+            "@ref": "si88",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si89.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7292",
+            "@ref": "si89",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si90.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10403",
+            "@ref": "si90",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si95.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3999",
+            "@ref": "si95",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-si98.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12972",
+            "@ref": "si98",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192200469X-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2748515",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85130133991"
+    }
+}}

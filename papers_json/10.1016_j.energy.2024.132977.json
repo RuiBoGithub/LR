@@ -1,0 +1,1634 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85202883078",
+    "originalText": "serial JL 271090 291210 291702 291711 291731 291877 291878 31 Energy ENERGY 2024-08-30 2024-08-30 2024-09-02 2024-09-02 2025-01-28T11:16:11 1-s2.0-S0360544224027518 S0360-5442(24)02751-8 S0360544224027518 10.1016/j.energy.2024.132977 S300 S300.1 FULL-TEXT 1-s2.0-S0360544224X00158 2025-01-29T02:27:43.708977Z 0 0 20241101 2024 2024-08-30T07:18:40.29703Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst nomenclature primabst ref 0360-5442 03605442 true 308 308 C Volume 308 193 132977 132977 132977 20241101 1 November 2024 2024-11-01 2024 Full Length Articles article fla © 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. ALTERNATIVEREINFORCEMENTLEARNINGARLCONTROLSTRATEGYFORDATACENTERAIRCOOLEDHVACSYSTEMS LU R Nomenclature 1 Introduction 2 Theoretical background 2.1 A brief review of RL methods 2.2 An introduction to DDPG 2.3 An introduction to PPO 3 The framework of the proposed ARL strategy 3.1 Data center model 3.1.1 Assumptions 3.1.2 Energy balance equation 3.2 A brief introduction of the data center HVAC refrigeration cycle 3.3 Framework of the proposed ARL strategy 3.4 MDP formulation for HVAC control problem 3.4.1 State 3.4.2 Action 3.4.3 Reward 3.5 Accuracy evaluation 4 Case study 4.1 Hardware system and data preprocessing 4.1.1 Hardware system architecture 4.1.2 Data acquisition system 4.1.3 Preprocessing of data 4.2 Offline learning 4.3 Online learning 4.3.1 Action accuracy of training process 4.3.2 The analysis of control proportion 4.3.3 Comparison between RL and PID in energy saving 4.3.4 Comparison between RL and PID in temperature control 5 Discussion 5.1 Comparative analysis of DDPG and PPO for HVAC control 5.2 Error analysis 5.2.1 Execution errors 5.2.2 Measurement errors 5.3 Sensitivity of the ARL algorithm 5.3.1 Sensitivity to data quality 5.3.2 Sensitivity to operating conditions 5.3.3 Sensitivity to unexpected interference 5.3.4 Portability of the ARL algorithm 6 Conclusion CRediT authorship contribution statement References MASANET 2020 984 986 E MORLEY 2018 128 137 J DOUNIS 1996 131 140 A LEVERMORE 1992 G BUILDINGENERGYMANAGEMENTSYSTEMSAPPLICATIONHEATINGCONTROL BIEMANN 2021 117164 M WANG 2020 115036 Z AFRAM 2014 343 355 A MA 2012 796 803 Y KARLSSON 2011 556 569 H PRIVARA 2011 564 572 S DENG 2023 120621 Z ZHAO 2023 121921 D WANG 2023 109952 J PARIS 2010 1908 1917 B WATKINS 1989 C LEARNINGDELAYEDREWARDS SUTTON 1996 R GENERALIZATIONINREINFORCEMENTLEARNINGSUCCESSFULEXAMPLESUSINGSPARSECOARSECODING MNIH 2013 V PLAYINGATARIDEEPREINFORCEMENTLEARNING LILLICRAP 2015 T CONTINUOUSCONTROLDEEPREINFORCEMENTLEARNING BARRETT 2015 3 19 E MACHINELEARNINGKNOWLEDGEDISCOVERYINDATABASES AUTONOMOUSHVACCONTROLAREINFORCEMENTLEARNINGAPPROACH NIKOVSKI 2013 D AMETHODFORCOMPUTINGOPTIMALSETPOINTSCHEDULEFORHVACSYSTEMS LI 2015 444 449 B 2015IEEEINTERNATIONALCONFERENCEAUTOMATIONSCIENCEENGINEERING AMULTIGRIDREINFORCEMENTLEARNINGMETHODFORENERGYCONSERVATIONCOMFORTHVACINBUILDINGS ZENGER 2013 A TOWARDSINTELLIGENTHOMEUSINGREINFORCEMENTLEARNINGFOROPTIMALHEATINGCONTROL DALAMAGKIDIS 2007 2686 2698 K SI 2004 517 534 J HANDBOOKLEARNINGAPPROXIMATEDYNAMICPROGRAMMING ROBUSTREINFORCEMENTLEARNINGFORHEATINGVENTILATIONAIRCONDITIONINGCONTROLBUILDINGS WANG 2017 Y GAO 2020 8472 8484 G DU 2021 116117 Y ZHUANG 2023 120936 D DAI 2023 120650 M LU 2019 137 146 S CHEN 2022 19160 19173 L MAHBOD 2022 119392 M BIEMANN 2023 13876 13894 M FANG 2023 125679 X QIN 2023 126209 H LECOZ 2020 A TOWARDSOPTIMALDISTRICTHEATINGTEMPERATURECONTROLINCHINADEEPREINFORCEMENTLEARNING SUTTON 2018 R REINFORCEMENTLEARNINGINTRODUCTION SCHULMAN 2015 1889 1897 J SCHULMAN 2017 J PROXIMALPOLICYOPTIMIZATIONALGORITHMS ZHANG 2018 Z ADEEPREINFORCEMENTLEARNINGAPPROACHUSINGWHOLEBUILDINGENERGYMODELFORHVACOPTIMALCONTROL ZOU 2020 106535 Z CHUNG 2014 J EMPIRICALEVALUATIONGATEDRECURRENTNEURALNETWORKSSEQUENCEMODELING ORNSTEIN 1930 823 841 L YANG 2023 106636 S HASSELT 2010 H ADVANCESINNEURALINFORMATIONPROCESSINGSYSTEMS DOUBLEQLEARNING MA 2019 7946 7970 Z JIANG 2018 280 306 X NGAI 2006 9 E 2006IEEEAEROSPACECONFERENCE AREALTIMECOMMUNICATIONFRAMEWORKFORWIRELESSSENSORACTUATORNETWORKS KHAN 2019 219 235 W LUX2024X132977 LUX2024X132977XR 2026-09-02T00:00:00.000Z 2026-09-02T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0360-5442(24)02751-8 S0360544224027518 1-s2.0-S0360544224027518 10.1016/j.energy.2024.132977 271090 2025-01-29T02:27:43.708977Z 2024-11-01 1-s2.0-S0360544224027518-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/MAIN/application/pdf/004d3fd3943fc39278b090032cb4ff1a/main.pdf main.pdf pdf true 3815339 MAIN 15 1-s2.0-S0360544224027518-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/PREVIEW/image/png/8a6cc57f2a5f5dcbc7c3cd8e2dec76a2/main_1.png main_1.png png 57424 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0360544224027518-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr9/DOWNSAMPLED/image/jpeg/c5c296b1f93b3ee957b71ca8ef4a3116/gr9.jpg gr9 gr9.jpg jpg 139260 383 707 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr7/DOWNSAMPLED/image/jpeg/f29256eecd656c167adbe667030b97b8/gr7.jpg gr7 gr7.jpg jpg 130707 252 686 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr8/DOWNSAMPLED/image/jpeg/384b676331e4394a7d1dc9e9afd3d9cd/gr8.jpg gr8 gr8.jpg jpg 163051 357 699 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr10/DOWNSAMPLED/image/jpeg/70f32a3386a7955669f21885edf930a2/gr10.jpg gr10 gr10.jpg jpg 157787 366 697 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-fx1002.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/fx1002/DOWNSAMPLED/image/jpeg/8a7e7e2abc84bdb32c2a9f0a522b04c9/fx1002.jpg fx1002 fx1002.jpg jpg 93654 211 816 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-fx1001.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/fx1001/DOWNSAMPLED/image/jpeg/346d43daba505fe955f86dc31e53bbab/fx1001.jpg fx1001 fx1001.jpg jpg 146406 557 816 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr1/DOWNSAMPLED/image/jpeg/fcbbf02ac33316f6a56459f1a057be80/gr1.jpg gr1 gr1.jpg jpg 140053 357 706 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr2/DOWNSAMPLED/image/jpeg/2e08995fe00f3b03982ed4f8225322bc/gr2.jpg gr2 gr2.jpg jpg 201555 547 706 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-fx1003.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/fx1003/DOWNSAMPLED/image/jpeg/3ea4aba5b613e228f6310237f45a0eff/fx1003.jpg fx1003 fx1003.jpg jpg 85105 113 816 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr5/DOWNSAMPLED/image/jpeg/ba882ea22fcf11a1f656fa1d241a1e4c/gr5.jpg gr5 gr5.jpg jpg 146188 408 706 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr6/DOWNSAMPLED/image/jpeg/f3c98edcf2b77b61ef979b2a8b751b17/gr6.jpg gr6 gr6.jpg jpg 114449 190 706 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr3/DOWNSAMPLED/image/jpeg/3e4bb1707f5068106f35e1ca433a5bea/gr3.jpg gr3 gr3.jpg jpg 137627 572 535 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr4/DOWNSAMPLED/image/jpeg/9cdcd1036bf02dfa8fb36a61d5dbac18/gr4.jpg gr4 gr4.jpg jpg 95252 204 347 IMAGE-DOWNSAMPLED 1-s2.0-S0360544224027518-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr9/THUMBNAIL/image/gif/c6088f71d8c002c124c477f6aaeb240f/gr9.sml gr9 gr9.sml sml 74050 119 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr7/THUMBNAIL/image/gif/306a0ea84b9fc1bbd2c5526e05802116/gr7.sml gr7 gr7.sml sml 72974 80 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr8/THUMBNAIL/image/gif/5e19078f090d85a2670955f3503aea82/gr8.sml gr8 gr8.sml sml 76384 112 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr10/THUMBNAIL/image/gif/d15225a018c6099359afe201dd1b95b4/gr10.sml gr10 gr10.sml sml 78483 115 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-fx1002.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/fx1002/THUMBNAIL/image/gif/df02bc79525fdb043c47256d423ea59b/fx1002.sml fx1002 fx1002.sml sml 67972 57 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-fx1001.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/fx1001/THUMBNAIL/image/gif/f1244e040f972e4fe8c547591061cada/fx1001.sml fx1001 fx1001.sml sml 73365 149 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr1/THUMBNAIL/image/gif/8e1f7e22670894b5cbc2ca5b2b6ca4d2/gr1.sml gr1 gr1.sml sml 76671 111 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr2/THUMBNAIL/image/gif/f2f29995b650400c71499636996b1e13/gr2.sml gr2 gr2.sml sml 84282 164 211 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-fx1003.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/fx1003/THUMBNAIL/image/gif/591137a1a475ce44d2a0df19b4082708/fx1003.sml fx1003 fx1003.sml sml 67259 30 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr5/THUMBNAIL/image/gif/0ff0e58276dbbbe1c4da5c4c470ac9f7/gr5.sml gr5 gr5.sml sml 75263 127 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr6/THUMBNAIL/image/gif/27ce3f7ecee40e2a74ff0d2e30a13202/gr6.sml gr6 gr6.sml sml 70371 59 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr3/THUMBNAIL/image/gif/ac3f8a0a678364d8d0de84564911a522/gr3.sml gr3 gr3.sml sml 75086 164 153 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/gr4/THUMBNAIL/image/gif/392f5b65d113f09437c2674c07741111/gr4.sml gr4 gr4.sml sml 75166 129 219 IMAGE-THUMBNAIL 1-s2.0-S0360544224027518-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/c2f14e1d6f701ab0fb8822092eb2e22a/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 543831 1696 3130 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/e752ed94f2fd7bb368a4d2e4e7a45e4b/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 514134 1117 3039 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/e7c2dd7e0cc5f084f0b4262e0006efbf/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 719858 1581 3093 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/88fc0598d2fe17c8a70cef9d0af84354/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 675718 1622 3086 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-fx1002_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/53389fce4e6913369a3a1f2ecf680025/fx1002_lrg.jpg fx1002 fx1002_lrg.jpg jpg 281791 935 3613 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-fx1001_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/2057ca07f16e83273905f0ced824af7a/fx1001_lrg.jpg fx1001 fx1001_lrg.jpg jpg 730251 2465 3613 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/f196415dab013c9c102d003704ebef94/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 692964 1582 3125 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/b3905758c48fa9a3b4d3dd67f341bd13/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 937714 2422 3125 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-fx1003_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/fd779e9a93a636dc2f10e393ffceac12/fx1003_lrg.jpg fx1003 fx1003_lrg.jpg jpg 210414 500 3613 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/3327e9a8eb7cd53adb53f7c74664a005/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 515162 1808 3125 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/ed6c50654884c0b79f9d83bd510959cc/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 430877 842 3126 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224026306/HIGHRES/image/jpeg/6a49eac1c3fd7db2983641f6888c5c3b/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 649789 2536 2371 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/HIGHRES/image/jpeg/462c24cf8c86f719ee4a0615cc0d72f8/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 264181 903 1537 IMAGE-HIGH-RES 1-s2.0-S0360544224027518-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/21ae2bd27f559d9fbceeaa00e51aa567/si1.svg si1 si1.svg svg 790 ALTIMG 1-s2.0-S0360544224027518-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/625c974acae03104108949014fb8d70f/si10.svg si10 si10.svg svg 21311 ALTIMG 1-s2.0-S0360544224027518-si101.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/4095ce34be4a797c9bd5a9767fb94f52/si101.svg si101 si101.svg svg 29362 ALTIMG 1-s2.0-S0360544224027518-si104.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/4e4ef0c6aa3eeee95329da28cd794504/si104.svg si104 si104.svg svg 7087 ALTIMG 1-s2.0-S0360544224027518-si105.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/284b4352eb03954cc910ac5536d48880/si105.svg si105 si105.svg svg 7528 ALTIMG 1-s2.0-S0360544224027518-si106.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/9b7a99c1b69942873e5a679853a63912/si106.svg si106 si106.svg svg 1471 ALTIMG 1-s2.0-S0360544224027518-si107.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/f75734b77702dc8989e38a89d0480ffd/si107.svg si107 si107.svg svg 8256 ALTIMG 1-s2.0-S0360544224027518-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/7d510f3694e73e5a3b76f5dee8381cc5/si11.svg si11 si11.svg svg 5183 ALTIMG 1-s2.0-S0360544224027518-si112.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/65b3f95a99ed383b40f1b2f5bb0447ba/si112.svg si112 si112.svg svg 46173 ALTIMG 1-s2.0-S0360544224027518-si117.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/101b5c6beb20ae5e4da2a57ce2b49948/si117.svg si117 si117.svg svg 21682 ALTIMG 1-s2.0-S0360544224027518-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/c9b03422602fb874bddbcd550c238ad6/si12.svg si12 si12.svg svg 1519 ALTIMG 1-s2.0-S0360544224027518-si120.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/7760687b751032b462e0567afc25994e/si120.svg si120 si120.svg svg 6142 ALTIMG 1-s2.0-S0360544224027518-si122.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/9b1f7ae5b25ca9c9b245624737cd9648/si122.svg si122 si122.svg svg 7257 ALTIMG 1-s2.0-S0360544224027518-si123.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/c520f8d4e0376d77d5a0fad2ea47f61b/si123.svg si123 si123.svg svg 8117 ALTIMG 1-s2.0-S0360544224027518-si124.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/5733a748a2f08b51c2f05950daaa2a9c/si124.svg si124 si124.svg svg 2559 ALTIMG 1-s2.0-S0360544224027518-si125.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/802941df29b65f3e8b50dfc8b45c39e2/si125.svg si125 si125.svg svg 2266 ALTIMG 1-s2.0-S0360544224027518-si126.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/bf8567ba30b29a3bb4b9ab81dbafe059/si126.svg si126 si126.svg svg 4568 ALTIMG 1-s2.0-S0360544224027518-si128.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/959b306bcc2eb5f2f9c04d18826c4bc5/si128.svg si128 si128.svg svg 12898 ALTIMG 1-s2.0-S0360544224027518-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/5c0544c96db3f68425f3e35ecc6aef12/si13.svg si13 si13.svg svg 1325 ALTIMG 1-s2.0-S0360544224027518-si130.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/d7d1fa13dfb46c283226d20df196eba0/si130.svg si130 si130.svg svg 1416 ALTIMG 1-s2.0-S0360544224027518-si131.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/35abe0a56d660437f7e5ef3afddabb1d/si131.svg si131 si131.svg svg 7775 ALTIMG 1-s2.0-S0360544224027518-si132.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/9ebe97956da21d270156ed292c4d885c/si132.svg si132 si132.svg svg 8291 ALTIMG 1-s2.0-S0360544224027518-si136.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/2feb023a5c6239eda6a312472d531da5/si136.svg si136 si136.svg svg 2189 ALTIMG 1-s2.0-S0360544224027518-si137.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/56f8b82d969e2f70860784570dc7ba48/si137.svg si137 si137.svg svg 2863 ALTIMG 1-s2.0-S0360544224027518-si138.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/c182f831df44908b62e1546fc5191440/si138.svg si138 si138.svg svg 3627 ALTIMG 1-s2.0-S0360544224027518-si139.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/afc221182c75314e1dfd45270787524c/si139.svg si139 si139.svg svg 3463 ALTIMG 1-s2.0-S0360544224027518-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/fabaa8c97362383d5c5a2a1513242142/si14.svg si14 si14.svg svg 5926 ALTIMG 1-s2.0-S0360544224027518-si140.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/5e12a87f4a33b89ee6caf1e09816b074/si140.svg si140 si140.svg svg 4464 ALTIMG 1-s2.0-S0360544224027518-si143.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/f2ee6a28c374e6379291e30e5295ba67/si143.svg si143 si143.svg svg 1177 ALTIMG 1-s2.0-S0360544224027518-si144.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/16b1f143bd6183a81a9bd2384d375ed8/si144.svg si144 si144.svg svg 1252 ALTIMG 1-s2.0-S0360544224027518-si145.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/51d65853affe661f98256a9e5ca00403/si145.svg si145 si145.svg svg 3750 ALTIMG 1-s2.0-S0360544224027518-si146.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/10cdd78e8abc89a918b6ec8a047488ac/si146.svg si146 si146.svg svg 2338 ALTIMG 1-s2.0-S0360544224027518-si147.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/b71147e533a5613fbfecac1b69a9a0e3/si147.svg si147 si147.svg svg 2158 ALTIMG 1-s2.0-S0360544224027518-si149.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/6e84d9c9926685daf52206022ebf465e/si149.svg si149 si149.svg svg 2839 ALTIMG 1-s2.0-S0360544224027518-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/c3167b88956cc6dab9aca723f0bd1ddd/si15.svg si15 si15.svg svg 1910 ALTIMG 1-s2.0-S0360544224027518-si150.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/5d77bb3c153a34327bbbfdebc9f1ecdf/si150.svg si150 si150.svg svg 1021 ALTIMG 1-s2.0-S0360544224027518-si151.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/742831d3e7d9f0e553b472d04e3091b3/si151.svg si151 si151.svg svg 2688 ALTIMG 1-s2.0-S0360544224027518-si152.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/35f5830e1b6ae5885e6f0bcb46a86fc3/si152.svg si152 si152.svg svg 1813 ALTIMG 1-s2.0-S0360544224027518-si155.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/c3798d46d9535a2b392270060d8e7551/si155.svg si155 si155.svg svg 1687 ALTIMG 1-s2.0-S0360544224027518-si156.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/284dd882416a8cb49e40c91415d79058/si156.svg si156 si156.svg svg 3053 ALTIMG 1-s2.0-S0360544224027518-si157.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/b3d9cf73be055d0e25b5c1b3f14f1ebd/si157.svg si157 si157.svg svg 3452 ALTIMG 1-s2.0-S0360544224027518-si160.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/23e48e48b756353ca2980e818ec8e0a9/si160.svg si160 si160.svg svg 2901 ALTIMG 1-s2.0-S0360544224027518-si162.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/4104ca64721189f1c7a085c983adafa6/si162.svg si162 si162.svg svg 3053 ALTIMG 1-s2.0-S0360544224027518-si163.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/d7657e546d847a379e0bb5c9f178cdc9/si163.svg si163 si163.svg svg 2901 ALTIMG 1-s2.0-S0360544224027518-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/b850addaeedbbe2f0769d49b294510b9/si18.svg si18 si18.svg svg 1521 ALTIMG 1-s2.0-S0360544224027518-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/4601c9160826d4b1f35d6730a9e3495b/si19.svg si19 si19.svg svg 1136 ALTIMG 1-s2.0-S0360544224027518-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/52aac511ad56538fe816098db131d474/si21.svg si21 si21.svg svg 27144 ALTIMG 1-s2.0-S0360544224027518-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/ed4895d8b5d130b298d1224fba66f65b/si22.svg si22 si22.svg svg 13869 ALTIMG 1-s2.0-S0360544224027518-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/24665b3d8c8a9e5c0dcc256287f8edc9/si24.svg si24 si24.svg svg 5948 ALTIMG 1-s2.0-S0360544224027518-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/6aba455751ac49178a844506fd66ea9c/si25.svg si25 si25.svg svg 5688 ALTIMG 1-s2.0-S0360544224027518-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/31b167c440f8c81cf6f0bdd7edfd04cb/si26.svg si26 si26.svg svg 1156 ALTIMG 1-s2.0-S0360544224027518-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/5fef3efd3e4a26551d90dd9a60197398/si27.svg si27 si27.svg svg 3705 ALTIMG 1-s2.0-S0360544224027518-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/3389faeb8033e42d4579ec50d68c861a/si28.svg si28 si28.svg svg 1189 ALTIMG 1-s2.0-S0360544224027518-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/7e7dd98eb4da10cc2d880efd23399795/si29.svg si29 si29.svg svg 1389 ALTIMG 1-s2.0-S0360544224027518-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/45fddba12a5c9fe805aa956faa52f0d8/si30.svg si30 si30.svg svg 1625 ALTIMG 1-s2.0-S0360544224027518-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/e628ee9ebbf33fc16e7b3485a697ae07/si31.svg si31 si31.svg svg 23735 ALTIMG 1-s2.0-S0360544224027518-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/336e1889d89dc71026e8a645d8acb60c/si32.svg si32 si32.svg svg 11997 ALTIMG 1-s2.0-S0360544224027518-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/deb4f605ed6aaf822f4f727e16dcf18f/si33.svg si33 si33.svg svg 16790 ALTIMG 1-s2.0-S0360544224027518-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/a721a42dc4110c74a10fbc3f2b1d9608/si34.svg si34 si34.svg svg 9412 ALTIMG 1-s2.0-S0360544224027518-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/770cd518aa44e45acff271652b545daf/si35.svg si35 si35.svg svg 13673 ALTIMG 1-s2.0-S0360544224027518-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/ee4f960133a7b8325a8d2b973a28974f/si36.svg si36 si36.svg svg 3002 ALTIMG 1-s2.0-S0360544224027518-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/a5a424085c78b46c40c6239e7162e59f/si37.svg si37 si37.svg svg 5884 ALTIMG 1-s2.0-S0360544224027518-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/5160f7038ea736f65a7b30b1ff3f43bb/si4.svg si4 si4.svg svg 27679 ALTIMG 1-s2.0-S0360544224027518-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/a28ca4148840494ea03b58a7802154bd/si40.svg si40 si40.svg svg 6934 ALTIMG 1-s2.0-S0360544224027518-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/d48f571ea67bc7f9103e56e0083f5676/si43.svg si43 si43.svg svg 4346 ALTIMG 1-s2.0-S0360544224027518-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/4285632d6932c52b43b4abba298830d0/si44.svg si44 si44.svg svg 904 ALTIMG 1-s2.0-S0360544224027518-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/e1041abad74f51fbaf8ca77f276a8612/si45.svg si45 si45.svg svg 3933 ALTIMG 1-s2.0-S0360544224027518-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/41433860d2bfe768594985409a42a76f/si47.svg si47 si47.svg svg 2280 ALTIMG 1-s2.0-S0360544224027518-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/7d251f49679407c7abe27130dcdc3aa7/si48.svg si48 si48.svg svg 23312 ALTIMG 1-s2.0-S0360544224027518-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/bdcdabb76beec91e9872d0825993f1ba/si49.svg si49 si49.svg svg 7735 ALTIMG 1-s2.0-S0360544224027518-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/874e9d876d6301fae51dfbc59e236b19/si50.svg si50 si50.svg svg 5908 ALTIMG 1-s2.0-S0360544224027518-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/3d8a83f2ba26e844c46dcf6c128148a7/si51.svg si51 si51.svg svg 6362 ALTIMG 1-s2.0-S0360544224027518-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/e8f9ee5cad0fb27c20ff946eed5518b4/si52.svg si52 si52.svg svg 3248 ALTIMG 1-s2.0-S0360544224027518-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/d5bf3dd039af83ada27598271f589eb1/si53.svg si53 si53.svg svg 1351 ALTIMG 1-s2.0-S0360544224027518-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/c7829757b04dff6a3762c1a29d532146/si54.svg si54 si54.svg svg 1190 ALTIMG 1-s2.0-S0360544224027518-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/a2d462d5ca4ef7e1808e87aeb79ceb73/si56.svg si56 si56.svg svg 1352 ALTIMG 1-s2.0-S0360544224027518-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/481413358e39a01819b7d45b7e284f03/si57.svg si57 si57.svg svg 1305 ALTIMG 1-s2.0-S0360544224027518-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/0e7c7e60da60cc135b168df55a2600e7/si58.svg si58 si58.svg svg 8191 ALTIMG 1-s2.0-S0360544224027518-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/be14a4e4777c6b04384c480fc9b4fef1/si59.svg si59 si59.svg svg 23822 ALTIMG 1-s2.0-S0360544224027518-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/ff99993ce77b855ac3687b7f3865c25b/si60.svg si60 si60.svg svg 7748 ALTIMG 1-s2.0-S0360544224027518-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/67691c5432a43fb2e251416217d471a9/si63.svg si63 si63.svg svg 5849 ALTIMG 1-s2.0-S0360544224027518-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/87febec083633f9b5d24a4808c002bf5/si66.svg si66 si66.svg svg 5557 ALTIMG 1-s2.0-S0360544224027518-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/38584526c7d557581985056eb77ecf50/si69.svg si69 si69.svg svg 1553 ALTIMG 1-s2.0-S0360544224027518-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/d75ca49f67422b5c8ec142b1c3be3cf3/si7.svg si7 si7.svg svg 29347 ALTIMG 1-s2.0-S0360544224027518-si70.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/23f5a1dcc26de5e118990a94ada70ed4/si70.svg si70 si70.svg svg 2444 ALTIMG 1-s2.0-S0360544224027518-si71.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/5a5af324ad82fe94d573508f59fab8b5/si71.svg si71 si71.svg svg 2036 ALTIMG 1-s2.0-S0360544224027518-si74.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/b538c57337fe6ebdf4d7703ceb7a3648/si74.svg si74 si74.svg svg 1086 ALTIMG 1-s2.0-S0360544224027518-si76.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/4622601f29b872ff6fb8b6458deebdad/si76.svg si76 si76.svg svg 800 ALTIMG 1-s2.0-S0360544224027518-si77.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/c79d353f2d1e1e1a95d800e624c7196c/si77.svg si77 si77.svg svg 13244 ALTIMG 1-s2.0-S0360544224027518-si78.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/d97f657bd265b00395950613b30ed47d/si78.svg si78 si78.svg svg 993 ALTIMG 1-s2.0-S0360544224027518-si79.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/d1c0358696d5bf4d78e757f16533bcaf/si79.svg si79 si79.svg svg 13765 ALTIMG 1-s2.0-S0360544224027518-si80.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/1b66554d356af1baa86a3bfb9a935711/si80.svg si80 si80.svg svg 5083 ALTIMG 1-s2.0-S0360544224027518-si81.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/78821ec1eb93961bea7770689f9b55e9/si81.svg si81 si81.svg svg 14055 ALTIMG 1-s2.0-S0360544224027518-si83.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/8ebaa395592707c369ca47e228a4cd2d/si83.svg si83 si83.svg svg 14577 ALTIMG 1-s2.0-S0360544224027518-si85.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/503adb4998b8fd9dc426b356b382d840/si85.svg si85 si85.svg svg 13797 ALTIMG 1-s2.0-S0360544224027518-si87.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/8ff9e20a60770ef6fed4888d11e55a72/si87.svg si87 si87.svg svg 14315 ALTIMG 1-s2.0-S0360544224027518-si89.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/73d93e81ade10b9f043d68f3768ac6e9/si89.svg si89 si89.svg svg 14776 ALTIMG 1-s2.0-S0360544224027518-si90.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/d36d496b5166238c5470b74e75a96c3f/si90.svg si90 si90.svg svg 2715 ALTIMG 1-s2.0-S0360544224027518-si91.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/89ff5404e8ebbcf7267777ee3c960c30/si91.svg si91 si91.svg svg 10997 ALTIMG 1-s2.0-S0360544224027518-si92.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/2dd774226ac329b7a86968521328cf1a/si92.svg si92 si92.svg svg 4719 ALTIMG 1-s2.0-S0360544224027518-si93.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/3cdfab679de70be62171acc30e94f197/si93.svg si93 si93.svg svg 10418 ALTIMG 1-s2.0-S0360544224027518-si95.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/3b97c3116f88441d8a1bb49a2d55b321/si95.svg si95 si95.svg svg 13118 ALTIMG 1-s2.0-S0360544224027518-si96.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/efc91ebc0ea4f868101fe3ce0d927a12/si96.svg si96 si96.svg svg 11522 ALTIMG 1-s2.0-S0360544224027518-si97.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/847345c99144a90941573e2522e63356/si97.svg si97 si97.svg svg 3501 ALTIMG 1-s2.0-S0360544224027518-si98.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/7b262d2a6942b2e4a9cb2433c54013f3/si98.svg si98 si98.svg svg 20043 ALTIMG 1-s2.0-S0360544224027518-si99.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544224027518/image/svg+xml/4c682feac1864d7b0316ba63036c96d9/si99.svg si99 si99.svg svg 11167 ALTIMG 1-s2.0-S0360544224027518-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:104XM9M1W6L/MAIN/application/pdf/12e20e4a6ff9bede43ef3bb7868b3909/am.pdf am am.pdf pdf false 4740944 AAM-PDF EGY 132977 132977 S0360-5442(24)02751-8 10.1016/j.energy.2024.132977 Elsevier Ltd Fig. 1 The refrigeration cycles of HVAC in data centers. The red pipeline indicates that the refrigerant is of high temperature, and the blue pipeline indicates that the refrigerant is of low temperature. Fig. 2 Framework of the proposed ARL strategy. Fig. 3 The ARL strategy flowchart. Fig. 4 RL framework of the proposed ARL strategy. Fig. 5 The overall structure of the hardware system. Fig. 6 Accuracy of offline learning and online learning. Fig. 7 The control proportion of DDPG and PPO in online learning. The horizontal axis represents the 1 − 24 h period throughout the day, and the vertical axis represents the percentage of DDPG and PPO control over the total control in the corresponding one hour. Fig. 8 The power performance of HVAC under RL and PID control. Due to the fluctuations in power, the power in the figure is averaged every five data. The upper half shows the power of the HVAC. The blue dotted line represents the power of PID, and the red dotted line represents that of RL. The bottom half shows the power difference between the DDPG and the PID, and the negative number indicates that the HVAC has lower power under RL control. Fig. 9 The cumulative energy consumption of the DDPG and the PID during the training process. The upper half shows the cumulative energy consumption and energy saving of the HVAC, and the blue line refers to that of PID while the red line refers to the RL. The lower half shows the cumulative energy saving performance of the DDPG compared to PID. Fig. 10 The performance of RL and PID in temperature control. The every 20 data is averaged. The upper half shows the deviation between the standard temperature and the temperature under the ARL control. The blue dotted line represents the average temperature deviation of the PID, and the red dotted line refers to that of the RL. The light blue shaded area represents the maximum and minimum temperature deviation ranges of the PID, and the light red shadow area represents that of RL. Dark red shaded area is overlap of temperature deviation between RL and PID. The bottom half shows the cumulative temperature deviation optimized by RL, compared to PID. Table 1 State variables. Type Description Notation Unit Temperature Return air temperature T t i r A i r ¯ ( i = 0 , − 1 , − 2 , − 3 , − 4 ) ° C Humidity Return air humidity H t i r A i r ¯ ( i = 0 , − 1 , − 2 , − 3 , − 4 ) g/m 3 Temperature Supply air temperature T t i s A i r ¯ ( i = 0 , − 1 , − 2 , − 3 , − 4 ) ° C Humidity Supply air humidity H t i s A i r ¯ ( i = 0 , − 1 , − 2 , − 3 , − 4 ) g/m 3 Temperature Outdoor air temperature T t i o A i r ¯ ( i = 0 , − 1 , − 2 , − 3 , − 4 ) ° C Humidity Outdoor air humidity H t i o A i r ¯ ( i = 0 , − 1 , − 2 , − 3 , − 4 ) g/m 3 Load Data center server load P t i l o a d ¯ ( i = 0 , − 1 , − 2 , − 3 , − 4 ) kw PID action Condensing fan speed set A t s e t P I D c d f ¯ r/min PID action Compressor speed set A t s e t P I D c p s ¯ r/min Table 2 The details of training data and testing data used in offline learning. Start Time is the start date of collected offline data. End Time is the same. Type Start Time End Time Data size Train March 1, 2021 April 12, 2021 60075 Test April 13, 2021 April 16, 2021 5328 Table 3 The details of the online testing of the ARL. Start Time is the time when the RL algorithm adopted by ARL starts online testing. End Time is the same. RL Start Time End Time Data size DDPG 11:48, June 08, 2021 16:23, July 05, 2021 5535 PPO 13:45, August 16, 2021 11:06, September 23, 2021 4893 An Alternative Reinforcement Learning (ARL) control strategy for data center air-cooled HVAC systems Ruyuan Lu Writing \u2013 original draft Visualization Software Methodology Conceptualization a Xin Li Writing \u2013 review & editing a Ronghao Chen Writing \u2013 review & editing a Aimin Lei Writing \u2013 review & editing b Xiaoming Ma Writing \u2013 review & editing Methodology Funding acquisition a \u204e a School of Environment and Energy, Peking University, Shenzhen, 518055, China School of Environment and Energy, Peking University Shenzhen 518055 China organization=School of Environment and Energy,Peking University., city=Shenzhen, postcode=518055, country=China b Vertiv Tech Co., Ltd, Shenzhen 518055, China Vertiv Tech Co., Ltd Shenzhen 518055 China Vertiv Tech Co., Ltd, Shenzhen 518055, China \u204e Corresponding author. Energy efficiency of data center is of great concern globally due to their large amount of energy consumption and the foreseeable growth in the demand of digital services in the future. Advanced control strategies are needed to reduce energy consumption. However, the optimization of data center HVAC control is a challenge task due to the complexity of the thermal dynamic models of buildings and uncertainties associated with both server loads and outdoor temperature. In this paper, we propose a new control strategy called Alternately-Reinforcement Learning-control(ARL), which realizes the alternating control of RL and proportional, integral and derivative (PID) for optimizing the control of air-cooled HVAC systems in data centers. The control object of the ARL is the speed set of the compressor and the condensing fan, and the control goal is to minimize energy consumption while maintaining temperature stability. The applied RL algorithm is Deep deterministic policy gradient (DDPG) and Proximal policy optimization (PPO). We pre-train the ARL strategy in offline environment firstly and deploy it in real data center environment for online testing. The test results show that the ARL has significant advantages in maintaining temperature stability while reducing energy consumption, and the PPO algorithm performs better than the DDPG algorithm. Compared with the PID algorithm, the PPO algorithm can save energy by 5.27%, and the temperature control effect can be improved by 3.27%,which indicates the feasibility of the ARL for implementation in real data centers. Keywords Reinforcement learning (RL) Deep deterministic policy gradient (DDPG) Proximal policy optimization (PPO) Air-cooled HVAC systems Data center Data availability The data that has been used is confidential. Nomenclature ARL Alternately-Reinforcement Learning-control BCVTB Building Control Virtual Test Bed DDPG Deep Deterministic Policy Gradient DL Deep Learning DNN Deep Nerual Networks DPG Deterministic Policy Gradient DQN Deep Q-Network DRL Deep Reinforcement Learning GRU Gated Recurrent Unit HVAC Heating, Ventilating and Air-Conditioning LRLC Linear Reinforcement Learning Controller LSTM Long-Short Term Memory MDP Markov Decision Process MPC Model Predictive Control MSE Mean Square Error PI Proportional Integral PID Proportional,Integral and Derivative controllers PMV Predicted Mean Vote PPO Proximal Policy Optimization RL Reinforcement Learning RNN Recurrent Neural Network SGD Stochastic Gradient Descent TRPO Trust Region Policy Optimization TSF Time-Series Forecasting 1 Introduction Energy consumption in data centers accounts for around 1% of global power consumption [1]. The digitization process and the implementation of a series of new technologies such as artificial intelligence, connected energy systems and autonomous systems have led to a rapid increase in the number of data centers worldwide [2]. Moreover, the amount of computing in the global data centers is expected to double in the next three to four years [3]. The heating, ventilation, and air conditioning (HVAC) system is currently the most widely used device for maintaining temperature stability in buildings, including data centers. Nowadays, HVAC systems in data centers face several key challenges. First, due to the growth in the number and scale of data centers, it is necessary to explore effective energy management strategies. Second, HVAC control algorithms need to have adaptive capabilities to handle dynamically changing operational and environmental conditions. At the same time, the HVAC management systems of most buildings use classic algorithms, such as the proportional, integral and derivative(PID) controller [4,5], which is simple and effective, but not optimal, for three reasons. First, due to the high inertia of thermodynamics, HVAC systems often exceed the target temperature, which results in additional energy consumption [6]. Second, forecast and historical information on ambient air temperature is not taken into consideration [6,7]. For instance, cooling ahead will be more energy efficient when temperatures are forecast to rise shortly. Third, parameters in PID controller are fixed, so it is difficult to adapt to dynamic changes in the environment to find optimal control actions. To improve control performance, model predictive control (MPC) formulates these challenges as a constrained optimization problem [8]. The MPC-based approach predicts future states to optimize current actions. Ma et al. [9] applied the MPC-based method for building refrigeration systems considering thermal energy storage to optimize the action of energy storage equipment by predicting building cooling demand and weather conditions. In [10], the MPC model was designed for the electric vehicle air conditioning system, in order to reduce the power consumption of the air conditioning while satisfying the comfort level. In [11], a model based predictive control method is used to determine the optimal supply fluid temperature in the case of concrete embedded water-based floor heating in low energy residential buildings. The authors in [12] reported the use of both weather forecast and thermal model of a building for inside temperature control. Deng et al. [13] solved the mixed-integer nonlinear optimization problem of MPC for the building HVAC systems using quantum computing based methods. The author in [14] proposed a data-driven online energy management framework for HVAC systems. This framework utilizes variables such as the acquired sensing data, room temperature, HVAC operation data, and weather forecast data to predict room temperature changes by symbolic regression. Wang et al. [15] quantified the performance of MPC systems under different climate and weather conditions. The MPC-based method has proved its potential to save energy [9,12,16]. However, in order to reduce the prediction error, the MPC-based method needs to customize the thermodynamic model for different buildings. In industrial applications, it is costly to customize different models for different buildings. Therefore, it is not suitable to apply MPC in a real-world setting for industrial application. In recent years, due to the rapid development of deep learning(DL) and reinforcement learning(RL), machine learning algorithms for industrial problems have attracted the attention of many scientists and engineers. The RL-based controller has also become one of the key strategies for the optimal control strategy of HVAC, such as Q-learning [17], SARSA [18,19], deep Q-network(DQN) [20], DDPG [21]. Barret et al. [22], Nikovski et al. [23] used the Q-learning algorithm to increase comfort and reduce energy consumption by controlling household air conditioning switches and temperature set. They tested the algorithm in a virtual environment and achieved 10% energy saving compared to the always-on air conditioning strategy. Li et al. [24] designed a multigrid method for Q-learning to control the temperature set of air conditioning and tested it in EnergyPlus. In [25], the SARSA algorithm is applied to achieve the goal of adjust temperature to comfort quickly in a virtual small room. In [26], the authors established a linear reinforcement learning controller (LRLC) to minimize energy consumption by controling the heat pump, operating mode, and outlet size of the air conditioning in the simulated environment. Anderson et al. [27] proposed a control strategy for air conditioning in buildings that combines proportional integral(PI) control and RL control, which improves the stability of the temperature control. Wang et al. [28] adopted the actor-critic algorithm based on the long-short term memory(LSTM) recurrent neural network(RNN) model, and tested the algorithm in the simulation environment constructed by OpenStudio and EnergyPlus. Gao et al. [29] use the deep deterministic policy gradient(DDPG) method to control the temperature set and humidity set of air conditioning in simulation environment. Yan et al. [30] adopted the DDPG algorithm to control indoor temperature set in multi-zone residential HVAC systems, and conducted experiments on real-world weather data. To keep the indoor temperature within a predefined range while minimizing Energy consumption, Marco et al. [6] discussed the performance of four RL algorithms in HVAC system of simulation data center. In order to develop the optimal control strategy for HVAC, Zhuang et al. [31] combined time-series forecasting(TSF) and RL. They trained 16 LSTM models with bidirectional processing, convolution, and attention mechanisms, and used the best models to train RL agents. This method can achieve 17.4% energy reduction and 16.9% predicted mean vote (PMV) improvement. To balance the cooling capacity distribution when air conditioners are started in the morning in commercial buildings. Dai et al. [32] used the Q-learning algorithm to iteratively optimize the parameter settings of the controller to make the pre-cooling time consistent in different building areas. All the above research has proved the effectiveness of the RL in optimizing the control strategy of the HVAC systems in data centers. However, there still are some unsolved problems. First, in terms of control objects, most studies tend to focus on regulating the temperature set of air conditioning systems [22\u201324,29,33,34]. However, only a handful of studies examine the speed set of individual actuators within air conditioning units. It is worth noting that controlling the speed set of actuators can be a more efficient method of energy conservation compared to regulating temperature sets. This is due to the fact that the power consumption of the air conditioning system is directly linked to the power consumption of its actuators. Therefore, a more effective approach to reducing energy usage would be to prioritize the regulation of actuator speeds over temperature control. Second, in industrial applications, simply using RL control algorithms is likely to cause safety problems. Some RL-based algorithms [6,35\u201338] control the target value directly over a wide range, which can be unstable [39]. Therefore, some studies [30,39] have addressed this problem by controlling the adjustment of baseline, which can reduce the action space of the RL algorithms. One of the designs of the baseline is the action of the RL algorithm at the previous time, which is unstable and unsafe. Because once a few steps of RL control action error happen, the future actions will be affected and the actions may gradually deviate from the safe range. In industrial applications, this could bring huge losses. The other is to use expert experience as a baseline [39], which is stable and safe. However, this method cannot adapt to dynamic changes in the environment and could only find the suboptimal solution. When it comes to case studies, the majority of research is constrained by limitations in conditions, leading to a heavy reliance on simulated environments or offline data. Unfortunately, this makes it difficult to gauge the true practicality of the algorithms at hand since they have not been deployed in real-world data centers. Consequently, it remains unclear how these methods would perform in actual, complex scenarios. Motivated by the above concerns, in this study, we propose a new control strategy where the RL algorithm and the PID algorithm control the HVAC alternately, called Alternately-RL(ARL). As previously mentioned, the PID controller is known for its stability and reliability but struggles with adapting to changing environments. Conversely, RL algorithms dynamically adjust and discover efficient control strategies but can be unstable during extensive exploration. Our method leverages the strengths of both PID and RL to balance stability and optimization. The PID controller provides a reliable baseline to maintain system stability, particularly during the exploratory phases of the RL algorithm. Concurrently, the RL algorithm optimizes control actions for energy efficiency, utilizing the stability offered by the PID baseline. By alternating between PID and RL control, the ARL allows safe and efficient exploration and learning of optimal strategies, with the PID controller mitigating the risks associated with RL\u2019s exploratory actions. Additionally, the ARL can adaptively adjust the control parameters of the HVAC system based on the changing loads and environmental temperatures. This ensures that the system consistently maintains optimal performance and energy efficiency. The main contributions of this work are summarized as follows: \u2022 We have developed a novel control strategy known as ARL, aimed at optimizing air-cooled HVAC control in data centers. This innovative approach employs an alternating control mechanism between PID and RL, with RL calculating actions based on the previous stage\u2019s PID outputs. The PID serves as the baseline for ARL, ensuring its safety, while the dynamic changes in PID actions enable RL to explore the most energy-efficient actions. As a result, our ARL strategy stands out for its potential to achieve significant energy savings in data center HVAC control. \u2022 The proposed ARL approach focuses on controlling the speed set of the compressor and condensing fan, which represents the first instance of research exploring actuator control in air-cooled HVAC systems \u2022 We deploy the ARL to a real data center for real-world testing. The results show that the ARL has significant advantages in maintaining temperature stability and reducing energy consumption. Compared with the traditional PID algorithm, the ARL strategy can achieve a optimal energy saving ratio of 5.27% and improve the temperature control effect by 3.27%. The rest of the paper is organized as follows. The theoretical background of the proposed ARL is introduced in Section 2; in Section 3, the data center HVAC refrigeration cycle is first briefly introduced, followed by the framework of the ARL and the Markov Decision Process(MDP) process formulation for HVAC control problem; the experiments of the ARL strategy are presented in Section 4; finally, Section 6 concludes the paper. 2 Theoretical background 2.1 A brief review of RL methods The RL algorithm is one of the machine learning methods, which learns to perform sequential actions according to situations in order to find the optimal strategy by trial-and-error search [40]. Most of the RL problems can be modeled in a mathematical form of the MDP. The reward defined in the MDP servers as the guideline for algorithm evolution. A large, positive reward encourages the algorithm to search deep in the current direction, and vice versa. In recent decades, the RL algorithm has been proved especially suitable for handling decision-making problems with temporal constraints or with hidden state space [30]. Q-learning algorithm is one of the classical algorithms of RL. Based on the action state value function, Q-learning uses the optimal Q value of the next state to update the action in the current state. This strategy that does not execute the next state is called off-policy strategy. On the contrary, the SARSA algorithm updates the Q value in the current state using the action that is actually executed in the next state. This algorithm is called on-policy strategy. With the rapid development of deep neural networks (DNN), the feature extraction ability of machine learning models has been continuously improved. The DNN also becomes a powerful tool for the RL algorithm. In 2013, Mnih et al. [20] combined deep learning and RL for the first time, and proposed DQN, which is mainly used when the action is discrete. The DQN algorithm contains double Q network and experience pool, which can converge quickly and stably. However, the DQN algorithm still selects actions based on the Q value, which also limits its application in environments with discrete actions and small action dimensions. Therefore, actor-critic algorithms that can control continuous actions are developed. In 2014, Lillicrap et al. [21] proposed the DDPG, which combined deterministic policy gradient(DPG) [41] with deep learning algorithms. The DDPG algorithm uses four deep neural networks to solve RL problems in continuous action spaces. In 2015, Schulman et al. [42] proposed the TRPO, which accelerated the convergence of the policy gradient algorithm by introducing constraints. In 2017, Schulman et al. [43] proposed the proximal policy optimization(PPO), which transforms the on-policy training in the policy gradient algorithm into off-policy training through the importance sampling method. And wuthors used a clip method to modify the limitation of KL divergence on the parameters update in TRPO. This clip method is more suitable for large dimension space. 2.2 An introduction to DDPG DDPG algorithm is obtained by combining the double Q network of DQN algorithm with the actor-critic structure. The actor-critic structure of DDPG is defined as: (1) A c t o r = e v a l u a t e μ ( s ; θ ) , g r a d i e n t u p d a t e θ μ t a r g e t μ ( s ; θ \u2032 ) , s o f t u p d a t e θ μ (2) C r i t i c = e v a l u a t e Q ( s , a ; ω ) , g r a d i e n t u p d a t e θ Q t a r g e t Q ( s , a ; ω \u2032 ) , s o f t u p d a t e θ Q During training, the target network computes the update target, and the evaluate network computes the gradient and updates the network parameters using the update target. At regular intervals, the parameters of target network are updated by replicating the evaluate network parameters. The loss function of the DDPG algorithm is defined as: (3) J ( ω ) = E ( R + γ m a x a \u2032 ∈ A Q ( s , a ; ω \u2032 ) − Q ( s , a ; ω ) ) 2 where Q ( s , a ) is the value of action a in state s of evaluate network, Q ( s \u2032 , a \u2032 ) is the maximum value of the action in the state s \u2032 of target network. The evaluate network estimates value based on current state s and current action a . Target value is obtained by reward R , discount factor γ and the maximum value calculated by the target network based on the next state s \u2032 . And loss function is the square error between estimated value and target value. The action of DDPG is calculated by the actor network, the update formula of the evaluate network in actor network is defined as: (4) ∇ J ( θ ) = 1 N ∑ i ∇ a Q ( s i , a i ; ω ) | s = s i , a = e x p ( μ ( s i ) ) ∇ θ μ ( s i ; θ ) | s i It is easy to see that the quality of the action is directly related to the Q value, so increasing the Q value of the action is significant for updating of the evaluate network. Therefore, the update gradient of the evaluate network in actor network can be simplified as: (5) J ( θ ) = − 1 N ∑ i = 0 Q ( s i , a i ; θ ) The DDPG algorithm uses stochastic gradient descent (SGD) to update the evaluate network in actor and critic. Unlike DQN, the target network in the DDPG algorithm are not updated by directly copying the evaluate network, but by soft update. The update formula is as follows: (6) ω \u2032 = τ ω + ( 1 − τ ) ω \u2032 θ \u2032 = τ θ + ( 1 − τ ) θ \u2032 where τ is the update coefficient, usually a small value such as 0.1 or 0.01. The soft update makes the parameters of target network change in a small range, which ensures the stability of the evaluate network. But it also causes slow training process and large amount of data required for convergence. The pseudo code of the DDPG algorithm is shown in Algorithm 1. In an episode, the DDPG algorithm iterates the evaluate and target networks by interacting with the environment. At the same time, DDPG imitates the idea of DQN and preserves the experience of interacting with the environment. There will be a high correlation between the experience because of the time sequence of the interaction process. The DDPG randomly selects a certain number of experiences to update, which reduces the correlation of the experiences, so as to ensure the algorithm does not converge at an abnormal point. And the soft update also makes the DDPG algorithm avoid overfitting even though it has four deep neural networks. 2.3 An introduction to PPO PPO algorithm is based on actor-critic architecture. It simplifies trust region policy optimization(TRPO) [42] algorithm by cutting proxy target, which ensures the convergence and accuracy of the algorithm. In actor-critic, the update formula of the actor part is as follows: (7) θ = θ + α ∇ θ where θ represents the parameter of actor network, α refers to the learning rate, and ∇ θ is the gradient. In order to avoid the inaccuracy of the value network in PPO at the initial stage of training, the PPO algorithm also limits the objective function. The formula is as follows: (8) L C l i p ( θ ) = E t ˆ m i n ( r t ( θ ) A t ˆ , c l i p ( r t ( θ ) , 1 − ϵ , 1 + ϵ ) A t ˆ ) (9) r ( θ ) = π θ ( a | s ) π θ o l d ( a | s ) (10) A t ˆ = A θ o l d ( s , a ) | S t = s , A t = a (11) A θ ( s , a ) = Q θ ( s , a ) − V θ ( s ) (12) E t ˆ ▪ = E s ∼ π θ o l d , a ∼ π θ o l d ▪ where r ( θ ) is the ratio of the action probability of the old strategy to the new strategy. A θ ( s , a ) represents the dominance function, that is, under state s , the difference between the value of action a and the average value of all other actions. A θ ( s , a ) > 0 , indicating that action a is better than the average action. The PPO algorithm limits r ( θ ) to 1 − ϵ , 1 + ϵ , which ensures that the ratio of new strategy to old strategy is around 1 , and guarantees the stability of convergence. To be specific, when the selected action is better than the average action, the update of the strategy is prone to increase the probability of selecting the current action, resulting in r ( θ ) > 1 . The clipping constraint sets the maximum value of r ( θ ) to 1 + ϵ , which ensures that the new strategy does not overly increase the probability of the current action. And vice versa. Considering the clipping constraints only, the final objective function of the PPO consists of three parts: the clipped objective function, the mean square error of the value function, and the entropy of the action probability distribution of the policy model, the objective function is defined as: (13) L C l i p + V f + S ( θ ) = E t ˆ L t C l i p ( θ ) − c 1 L t V f ( θ ) + c 2 S π θ ( S t ) where L t C l i p ( θ ) represents the clipping target, which is used to update the parameters with reference to the old policy. L t V f ( θ ) is the mean square error(MSE) of the value function, which is the error between the action value and the target value of the current strategy. S π θ ( S t ) is the entropy of the action probability distribution under the current state and strategy, which increases the update range of the strategy and is intended to improve the exploration ability of the strategy. c 1 , c 2 are hyperparameters representing the MSE of the cost function, respectively. The details of the PPO algorithm is shown in Algorithm 2, where N is the number of training, L refers to the objective function, and N represents the number of actor. 3 The framework of the proposed ARL strategy 3.1 Data center model This subsection introduces the heat transfer balance equation of data center systems, which are essential for developing the ARL algorithm framework. The model primarily accounts for the interaction between the IT load of the data center servers and the cooling equipment. The precision air conditioner cools the servers by adjusting the fan speed and supply air temperature, thereby delivering cold air to the servers. The model\u2019s manipulated variables include the supply air temperature and flow rate of the precision air conditioner, incorporating the fluid dynamics and heat transfer effects caused by airflow time delay. 3.1.1 Assumptions The model is based on the following simplified assumptions: (a) All servers in the data center have the same power consumption under the same resource utilization. (b) The internal temperatures of electronic components within the servers are not directly considered. (c) Heat within the data center is solely transferred by airflow except for thermal radiation from the servers. (d) A fixed proportion of air is assumed to pass through each rack. (e) Only heat and thermal energy are considered in the energy balance equations. (f) The air velocity field of each precision air conditioner is assumed to be constant on any cross-section perpendicular to the precision air conditioner. (g) Temperature changes from the precision air conditioner outlet to the server rack inlet are neglected. (h) Airflows from different sources are assumed to be fully mixed before entering the servers. (i) Each precision air conditioner has a fixed influence area, through which air reaches the server racks. 3.1.2 Energy balance equation For the surrounding area of server k in rack j , the dynamic model for the outgoing air temperature T j , k , o u t ( t ) is given by: d T j , k , o u t ( t ) d t = P j , k ( t ) C t h + c p ρ A j , k ( t ) C t h ( T j , k , i n ( t ) − T j , k , o u t ( t ) ) where T j , k , i n ( t ) is the inlet temperature of the surrounding area of server k in rack j . P j , k ( t ) is the power consumption of server k in rack j . A j , k ( t ) is the airflow entering the surrounding area of server k in rack j . 3.2 A brief introduction of the data center HVAC refrigeration cycle As the key refrigeration equipment of the data center, precision air conditioners have complex internal components, such as evaporators, compressors, condensing fans, expansion valves. The refrigeration cycle of precision air conditioner is shown in Fig. 1. The precision air conditioner is composed of two identical refrigeration systems. Take the refrigeration system on the left side of the figure as an example. The precision air conditioning refrigeration cycle process can be described as the following steps: Firstly, the refrigerant circulates clockwise from the upper left, absorbs the indoor heat in the evaporator1, and changes from low-temperature and low-pressure liquid to low-temperature and low-pressure gas. Secondly, the compressor1 compresses the refrigerant to transform it into high-pressure gas. The temperature of the refrigerant will also rise during the process. Thirdly, the high-temperature and high-pressure gas dissipates heat in the condensing fan1 and becomes high-temperature and high-pressure liquid. Finally, the refrigerant is converted from high-temperature and high-pressure liquid to low-temperature and low-pressure liquid in the expansion valve and sent into the evaporator1 for heat absorption. In the refrigeration cycle, the compressors and condensing fans are the key components for pressurizing the refrigerant and dissipating heat. Therefore, we choose the compressors and condensing fans as the control objects of the proposed ARL. The goal is to minimize the energy consumption while keeping the temperature stable. 3.3 Framework of the proposed ARL strategy The framework of the proposed ARL is shown in Fig. 2. The data center provides the ARL with state information such as temperature, humidity, and server power. The ARL utilizes above data to calculate actions, and then sends the actions as commands to the compressors and the condensing fans in the HVAC system for execution. In ARL, the PID algorithm and the RL algorithm control the HVAC system alternately, and each control interval is 10 min. In addition, the PID control is immediately applied to ensure the safety of the data center HVAC systems when HVAC system fails during the RL control or the action of RL is not in the predefined adjustable range. For the RL algorithm in the proposed ARL, we adopt DDPG and PPO. The flowchart of the ARL strategy is shown in Fig. 3. Note that the input is the real-time json data due to the precision air conditioning protocol and the limitation of action release platform. After acquiring real-time json data, the algorithm parses json data and extracts key environment information. In addition, we only release action when the environment is stable to avoid potential damage of precision air conditioning caused by continuous releasing action. Specifically, we accumulate 10 min of environmental data to determine whether the environment is stable. 3.4 MDP formulation for HVAC control problem In this section,we will formulate the above data center HVAC control problem as a MDP, which will be solved by a model-free deep RL-based algorithm. Unfortunately, the slow thermal response in building thermal dynamics means that future states are not only dependent on the current states, rendering the Markovian Property invalid. This can pose a challenge in modeling and controlling building systems, as it requires more complex and sophisticated approaches to account for the system\u2019s non-Markovian behavior. To solve this problem, historical states need to be included to make the environment roughly a MDP [44]. Therefore, the HVAC control problem can be regarded as a finite Markov process and be solved using the RL method. In the context of data center HVAC control problem, the framework of the RL algorithm is shown in Fig. 4. The Agent obtains the state information S t provided by the current environment, the then algorithm will calculate action A t according to the S t and send it to the environment for execution. If the A t is in the adjustable range, it will be sent to the precision air conditioner for execution. Otherwise, it will not be executed. According to different execution situations, the environment will return feedback and the state of the next time to the agent. After the agent obtains the feedback, it will save the state, action, feedback, and control experience of the entire process, which can be used to update the algorithm. The details of state, action and reward are defined as follows. 3.4.1 State The state is the input for the RL controller. In the proposed ARL framework, the state vector includes 9 variables as shown in Table 1. The state vector can be categorized into 4 types: temperature, humidity, load, PID action. Different from the first three types of environmental parameters that affect refrigeration, PID action represents the speed set of the compressor and condensing fan under PID control. Note that except for the PID action, the state vector is not the state at time t , but the average of the state at time t and 4 time steps back. This has to do with the slow thermal response of the building thermal dynamics that was explained in the start of Section 3.4. 3.4.2 Action In this work, we control the adjustment speed set of compressor and condensing fan, which are most related to the power consumption of HVAC. Thus, we model the action space as: (14) A t = ( A t s e t Δ c p s , A t s e t Δ c d f ) where A t s e t Δ c p s , A t s e t Δ c d f are limited to [ − 10 , 10 ] . Note that the action of RL is different from that of PID, the former is the adjustment of the speed sets while the latter is the speed sets of the compressor or condensing fan. We combine the actions of RL and PID as the new speed sets, which is defined as: (15) ( A t s e t c p s , A t s e t c d f ) = ( A t s e t t P I D c p s , A t s e t P I D c d f ) + ( A t s e t Δ c p s , A t s e t Δ c d f ) where A t s e t c p s , A t s e t c d f refer to the speeds of compressor and condensing fan under PID control respectively. After the algorithm outputs an action at time t , the environment will be affected and give feedback after a period of time. Considering the rationality of the action and the protection of the HVAC, we will make a stability judgment after calculating the action. Only when the action is within the range determined by expert experience, the action will be executed. The stability judgment formula is defined as: (16) s t a b l e F l a g = 1 , ( A t s e t Δ c p s , A t s e t Δ c d f ) ∈ ( Δ c p s , Δ c d f ) 0 , ( A t s e t Δ c p s , A t s e t Δ c d f ) ∉ ( Δ c p s , Δ c d f ) where Δ c p s = [ − 3 , 3 ] , Δ c d f = [ − 5 , 5 ] refer to the adjustable safety range of the compressor and the condensing fan respectively, which are predefined by the experience of experts. And U is the neighborhood interval. As shown in the Eq. (16), we use the s t a b l e F l a g to mark whether the action at time t is executed. If the action at time t is not within the adjustable range, in order to protect HVAC and keep the internal components stable, the s t a b l e F l a g is 0 and the action is not issued. Otherwise, the s t a b l e F l a g is 1 and the action is sent normally. 3.4.3 Reward In this work,we define the reward function as: (17) R t = − 0 . 5 × ( | A t Δ c p s | + | A t Δ c d f | ) − 20 s t a b l e F l a g = 0 − ( α T ( | T t r A i r − T t s e t r A i r | + | T t s A i r − T t s e t s A i r | ) + α P P t H V A C + α p e n b ) s t a b l e F l a g = 1 (18) b = 1 , i f H V A C b r o k e n u n d e r c o n t r o l 0 , e l s e where P t H V A C is the precision air conditioner power at the time t . T t s e t r A i r and T t s e t s A i r are the return air temperature set and supply air temperature set of HVAC, respectively. α P , α t and α p e n refer to the penalty weights for power, temperature deviation, and air conditioner operating status at the time t , respectively. In Eq. (17), when the action is within the non-adjustable range, the feedback is much smaller than when it is within the adjustable range. This ensures the algorithm continuously improves the cumulative value through iterations. Through this approach, the agent can learn the implicit rule that actions should fall within the adjustable range, enabling it to effectively explore the most energy-efficient action strategies while adhering to the safe operating limits of the system. The objective of the task is to maximize the overall feedback, which considers HVAC power consumption, temperature deviation, and operating state. The objective reward fuction is: (19) m a x π ∑ i = 0 ∞ γ i R T + i where γ refer to the discount factor, which is used to reduce the future rewards while ensuring algorithm convergence. π is the policy. For RL algorithms based on neural networks, the optimal policy can be calculated through multiple training iterations in a complex system. 3.5 Accuracy evaluation In this task,we define an accuracy evaluation to compare the performance of the algorithms during training. When A t s e t Δ c p s and A t s e t Δ c d f are within the safe adjustment range, we consider the action to be accurate. And action accuracy is defined as the ratio of the number of accurate actions to the number of all actions. 4 Case study In this section, we use a case study of a single room in data-center to evaluate the proposed ARL. We introduce the hardware system in the case study first, followed by the experiments. The experiments are divided into two parts: (a) offline learning, which refers to algorithm learning by using offline data under PID control. (b) online learning, which refers to deploy the ARL to HVAC system for acquiring states, delivering actions, calculating feedbacks, training algorithm and storing models in a real-time manner. 4.1 Hardware system and data preprocessing 4.1.1 Hardware system architecture The hardware system architecture, illustrated in Fig. 5, comprises three primary components: a data acquisition system, an algorithm server, and a control monitoring center. The data acquisition system is responsible for gathering real-time data from the data center. The collected data is then transmitted to the algorithm server in JSON format. Once the algorithm computes the actions, the control monitoring center sends these actions to the control terminals, specifically the control panels attached to each air conditioning unit. The control panels, in turn, adjust the operating parameters of the air conditioners based on the received actions. 4.1.2 Data acquisition system The data collection system samples data every one minute to detect the real-time status of the HVAC system. The return air temperature, return air humidity, supply air temperature, and supply air humidity are acquired through the precision temperature and humidity data acquisition module inside the air conditioning unit. The outdoor temperature and humidity are obtained from the local weather station through an API. The server load is captured through the power data acquisition module connected to the three power plugs of the server. The sensors used in the data acquisition system have a measurement error of ±0.5 °C for temperature, ±2% RH for humidity, and ±0.1 m/s for airspeed. Despite the use of high-precision sensors and measures taken to ensure data accuracy, readings may still be affected by various external environmental factors, such as electromagnetic interference and dust accumulation. Additionally, during high-load operations, sensor readings may be delayed, which can impact the accuracy of the model results. 4.1.3 Preprocessing of data To mitigate the impact of data anomalies on the ARL, data preprocessing operations such as filling missing values, removing outliers, and standardizing HVAC parameters are required. Common causes of missing values include sensor failures and system shutdowns due to power overload. We use the moving average method to address missing values, as it effectively captures the update rate of HVAC parameters over time. To manage outliers, primarily caused by sensor misreadings, we use a z-score of 3 standard deviations (i.e., any value more than three standard deviations from its mean is eliminated), as this is a commonly used technique. Next, the data is standardized to account for the varying scales of different HVAC operating parameters. We use min\u2013max normalization with a feature range of 0 to 1, rescaling the maximum value to 1, the minimum value to 0, and linearly interpolating other values in between. 4.2 Offline learning The purpose of the offline learning is to use the data generated by the PID control strategy of HVAC to train the algorithm in advance, which ensures relatively stable control of ARL before being deployed to the precision air conditioner. We adopted the method proposed in [45] for offline learning, which uses a time-series prediction model to create the offline learning environment. Instead of using the Long Short-Term Memory(LSTM) model as in [45], we used the Gated Recurrent Unit(GRU) model to predict future variables. We chose GRU because it achieves similar effects as LSTM with fewer parameters [46]. Specifically, we employed a two-layer GRU network followed by a fully connected layer with ReLU activation, and applied L2 regularization to prevent overfitting. The model\u2019s input includes the state variables and precision air conditioner power at time t and the previous 4 time steps, along with the RL model\u2019s action at time t . Since the RL model\u2019s action is available only for one time step, we replicated its value to match the dimensionality. The model\u2019s output includes the state variables and HVAC power at time t + 1 . Note that the output states does not include the \u201cPID Action\u201d type. Because the data for offline learning is generated by PID strategies, PID actions are known in the data and do not require prediction. Once the prediction model is trained, an algorithm was developed to enable interactions between the DRL agent and the training environment, facilitated through the step function shown in Algorithm 3 We use 65403 data from March 1 to April 16, 2021, with a sampling interval of 1 min. The details of training data and testing data used in offline learning are shown in Table 2. We choose training parameters based on empirical tuning and guidelines from existing literature [21,43]. For DDPG, we set the learning rate of 1 × 1 0 − 4 and 1 × 1 0 − 3 for the actor and critic respectively, with a batch size of 64 and a replay buffer size of 100,000. For the soft target updates we used τ = 0 . 001 . And an Ornstein\u2013Uhlenbeck [47] noise process with parameters θ = 0 . 15 . For PPO, we set the actor learning rate to 1 × 1 0 − 4 and the critic learning rate to 1 × 1 0 − 3 , with a clipping range ( ϵ ) of 0.2, a batch size of 64 and a GAE λ of 0.95. In both algorithms, we used a discount factor of γ = 0 . 99 . Due to the high accuracy of both algorithms in the later stage of the first iteration, in order to ensure the stability of the algorithm and the generalization in online learning, we choose to take two iterations in offline learning. As shown in the Fig. 6, the DDPG obtains a higher accuracy in the latter part of the first iteration, which is due to the small output range of the algorithm and the small fitting range of the Critic network. The PPO algorithm maintains a faster convergence performance, showing a very high accuracy rate in the initial stage of the first iteration. 4.3 Online learning We compare the performance of ARL in action accuracy, control proportion, energy saving and temperature control when DDPG and PPO are used as RL algorithm in ARL, respectively. The details of the online testing of the ARL are shown in the Table 3. 4.3.1 Action accuracy of training process Fig. 6 shows the accuracy of online training process. The horizontal axis represents the number of training days, and the vertical axis is the accuracy of the actions in one day. The overall action accuracy of the DDPG is 88.45%. The algorithm only has a low accuracy in the first 20% of the training days. This is because offline learning cannot fully simulate the real environment of online learning. As a result, algorithms deployed in the real-world environment may initially be unstable and require a period of learning time to adapt to the environment. In the last 80% of the training days, the accuracy is close to 100%, and the accuracy continues to be stable. For PPO, the overall accuracy is 96.54%. In the last 10% of the training time, the accuracy is 97.43%. Specifically, the accuracy of the PPO is mostly above 90%, and a few less than 90% is also rising rapidly during the training process, which reflects the ability of the PPO to continuously explore and respond quickly to ensure stable control. 4.3.2 The analysis of control proportion The control proportion indicates the percentage of control among different strategies (such as DDPG and PPO) in a given time period. Analyzing the control proportion reflects the learning ability of the algorithm during different time periods. A low control proportion may indicate that the algorithm is exploring new operations during the period to enhance its learning results. Moreover, the change of control proportion over time periods can reflect the adaptability of the algorithm to different loads. For example, during peak server operation periods, the change in control proportion reflects the algorithm\u2019s adaptability in handling high loads. Additionally, the average level of control proportion reflects the overall stability of the algorithm, as a relatively uniform distribution of control proportion suggests that the algorithm can run stably in different time periods. Fig. 7 illustrates the control ratios of the DDPG and PPO algorithms at different time periods during the online training process. Analysis shows that during low control ratio periods (11 a.m. to 2 p.m., 4 p.m. to 5 p.m. and 7 p.m.), the control ratio of the DDPG algorithm is less than 4.1%. These periods coincide with the peak server operation periods, indicating that DDPG needs to explore alternative actions more to adapt to load changes due to the lack of offline learning experience. In contrast, the control proportion of the PPO algorithm drops below 4% at low control proportion moments (12 am, 2 pm, and 9 pm), but remains above 4% at other times. Similar to DDPG, PPO also has a low control proportion during server peak hours, indicating the need for exploration. However, unlike DDPG, PPO does not experience long periods of low control proportion during the day, reflecting its strong learning ability. This suggests that PPO is better at adjusting its control strategy according to changing conditions. 4.3.3 Comparison between RL and PID in energy saving A comparison is conducted between RL and PID in real data center scenarios. Specifically, the PID and RL control the HVAC alternately in one day, which ensures the basic consistency of the environment during the control period of the two algorithms. For other comparisons of PID and RL algorithms in real data center control scenarios, it is difficult to find a basically consistent environment. (1) Comparison of DDPG and PID The power performance of HVAC under DDPG and PID control is shown in Fig. 8. We analyze the overall power performance first, the air conditioner power fluctuates periodically both in the period of DDPG control and PID control, which is related to the daily fluctuation of the server load of the data center. However, there were two abnormal power consumption peaks that were significantly higher than other data, which may be related to the sudden increase of the server load of the data center. DDPG was found to have significant advantages over PID in energy saving performance. Specifically, our experiments show that DDPG outperforms PID in terms of energy-saving performance, particularly during low power periods and high power periods that require rapid indoor temperature control. Analysis of the power difference trend during training indicates that, in the first 500 training iterations, the power difference gradually increases and approaches zero. However, after 500 iterations, the power difference begins to decrease significantly, indicating that the DDPG algorithm has discovered a more energy-efficient mode of operation. This trend stabilizes around 2500 iterations, but ultimately rebounds at the end, suggesting that the algorithm is still undergoing exploration and has not yet converged to a final optimal solution. As shown in Fig. 9, the results demonstrate that the ARL method significantly reduces the energy consumption of the data center HVAC system, achieving an energy saving rate of 3.96% compared to traditional control methods. The DDPG algorithm surpasses the PID control strategy in cumulative power consumption, consistently maintaining its energy-saving effect throughout the training process. Although there is a slight increase in cumulative power deviation during the early stage of training, this indicates that the algorithm is exploring energy-saving strategies. In the middle and later stages of training, the increase remains stable, indicating that DDPG has converged to a more optimal solution. However, it is possible that the DDPG has too many networks, leading to failure to explore better strategies. For a single room in a data center, during the experiment (note that the experiment was conducted during the high-temperature months, where energy saving is more challenging than in low-temperature months), the DDPG saved 500.23 kW h per month compared to PID, while the PPO saved 533.05 kW h per month. According to the average industrial electricity price in China is 0.093$/kW h [48], the DDPG can save 46.52$ per month, and the PPO can save 49.57$ per month. These results indicate that the ARL method can consistently provide significant economic benefits. Based on the above analysis, we can easily know that DDPG algorithm shows excellent energy-saving performance, which is stable during training process. And the DDPG can quickly find energy-saving strategy in the early trainings, showing a fast iterative ability. (2) Comparison between PPO and PID Fig. 8 shows the HVAC power performance under PPO and PID control. During PPO and PID control, the HVAC power shows a periodic fluctuation state and the fluctuation is similar to that of DDPG, which is related to the daily fluctuation of server load in the data center. We analyze the energy saving of the algorithms. The PPO has a significant energy consumption reduction compared to the PID. Specifically, compared with PID, regardless of the lower period, or the high power period, the PPO has excellent energy-saving performance. For power difference, different from DDPG, which begins to break away from 0 after a period of training, PPO shows rapid energy saving ability in the early stage of training, and also shows good energy saving performance in the long run. After 1500 to 2000 trainings, the energy saving effect of PPO starts to show a downward trend. Fortunately, it quickly adjusts to the normal level in the later period. Fig. 9 shows the cumulative power of the PPO and the PID during the training process. PPO shows excellent and stable energy saving effect. Compared with PID, the power of HVAC under PPO control can be reduced by 5.27%. And in the training process, PPO always maintains a good energy-saving effect. Compared with the 3.96% energy saving achieved by the DDPG after more than 2500 trainings, the PPO achieved 5.27% energy saving after less than 2500 trainings, which shows PPO could find the better energy-saving strategy more quickly. The cumulative power deviation during the early stage of PPO training increases at a high rate, while there is only slight fluctuation during the middle and late stages. This behavior suggests that PPO converges quickly in the early stages and continues to explore energy-saving strategies based on the existing knowledge during the middle and late stages. Unlike DDPG, PPO exhibits fluctuations in the later stages, indicating that it has stronger exploration capabilities and may require further training to achieve even better energy-saving performance. Overall, the PPO algorithm demonstrates superior energy-saving performance when compared to DDPG and PID. While there is a slight reduction in the energy-saving effect during the exploration process, PPO quickly adjusts to reflect its stable control ability. 4.3.4 Comparison between RL and PID in temperature control (1) Comparison between DDPG and PID The performances of DDPG and PID in temperature control are shown in Fig. 10. Temperature deviation analysis indicates that both algorithms exhibit stable temperature control capabilities, with average deviations ranging from 0 . 2 ° C to 0 . 5 ° C, and only 4 instances exceeding 0 . 5 ° C. Although the temperature deviations of DDPG and PID are mostly consistent, DDPG demonstrates more stable performance in regions with larger deviations, particularly in the lighter blue areas of the PID graph, indicating that DDPG provides more stable temperature control and the temperature deviation optimization value is 2.21%. The temperature deviation fluctuation range for both algorithms is concentrated between 0 °C to 1 . 0 ° C, with some instances exceeding 1 . 0 ° C and a few exceeding 2 . 0 ° C, indicating that DDPG only has poor temperature control ability in rare cases. Experimental results show that although ARL control based on DDPG may experience fluctuations during the initial learning stage, after multiple rapid training iterations, it manages temperature more effectively than PID control. (2) Comparison between PPO and PID Fig. 10 illustrates that the average temperature deviations for PPO and PID are within the range of 0 . 1 ° C to 0 . 5 ° C, demonstrating similar overall temperature control stability for both algorithms. The PPO is better than PID in maintaining temperature stability, and the temperature deviation optimization value is 3.27%. Examining the cumulative temperature deviation, PPO\u2019s temperature control fluctuated during the first 500 training sessions and began to improve thereafter. Similar to DDPG, PPO also experienced fluctuations after 1500 training sessions but returned to optimal temperature control after further training. This demonstrates that PPO can quickly revert to an optimal strategy after exploring suboptimal ones, highlighting the rapid recovery capability of ARL control based on PPO. In summary, compared to PID control, ARL control exhibits some slight fluctuations during the initial learning and exploration stages but offers better advantages in temperature control. Specifically, the temperature deviation of ARL control based on PPO is optimized to 3.27%, which is better than the 2.21% achieved by ARL control based on DDPG in maintaining temperature stability. This indicates that ARL control based on PPO has superior temperature control ability. 5 Discussion 5.1 Comparative analysis of DDPG and PPO for HVAC control The experimental results in Section 4 indicated that while both DDPG and PPO improved HVAC control compared to traditional PID, PPO demonstrated superior stability, faster convergence, and more robust performance. These attributes make PPO a more suitable choice for HVAC control. This section will further discuss the reasons why PPO is more suitable for HVAC systems. DDPG is an off-policy algorithm that can handle high-dimensional action spaces and is known for its sample efficiency due to its use of a replay buffer [21]. It learns by optimizing a deterministic policy with the help of a critic that estimates Q-values [49]. While DDPG has the advantage of being able to reuse past experiences, it can suffer from instability during training due to the variance in Q-value estimates. This instability can lead to large, unpredictable updates, which are problematic for HVAC systems that require precise and stable control. Additionally, DDPG relies on an exploration noise process, such as Ornstein\u2013Uhlenbeck [47] noise and Gaussian noise, which may not be optimal in all environments and can result in suboptimal exploration early in training. Considering the specific requirements of HVAC systems, including the need for precise temperature control, energy efficiency, and stability, PPO\u2019s advantages become more evident. First, PPO uses a clipped objective function to restrict policy updates to a trusted region, preventing large, unstable updates [43]. This clipping mechanism ensures gradual policy changes, which is essential for maintaining stable control in HVAC systems. Second, PPO generally converges faster and more reliably than DDPG, making it better suited for real-time control tasks where quick adaptation to changing conditions is critical. Third, PPO\u2019s robustness to large policy updates and variance in gradient estimates ensures consistent performance improvements, making it a safer choice for the sensitive control environment of HVAC systems. 5.2 Error analysis In this section, we will discuss the types of errors that could occur in our study, their impact on the performance of our ARL strategy, and potential strategies to mitigate them. 5.2.1 Execution errors In Section 4.1.1, we mention that in real data centers, after the algorithm server calculates the actions, they need to be sent to the control and monitoring center first, and then to the air conditioning. Execution errors can be caused by hardware malfunctions or communication lags between the monitoring system and HVAC components. Delays in action execution may reduce overall system efficiency and increase energy consumption. Implementing low-latency communication protocols [50,51] or real-time communication frameworks [52], can minimize delays in action execution by reducing the time lag between the control server and HVAC components. Additionally, deploying edge computing solutions [53], where some computations are performed closer to the HVAC systems, can further reduce latency caused by data transmission, allowing for quicker response times and more efficient control. 5.2.2 Measurement errors As mentioned in Section 4.1.2, the data collected by sensors could have measurement errors, despite the use of high-precision sensors. These errors lead to inaccurate state observations, resulting in suboptimal actions by the RL algorithm. The impact on performance includes reduced energy efficiency and instability in maintaining desired environmental conditions. Regular calibration and maintenance of sensors can mitigate measurement errors. Additionally, implementing redundant sensors and employing data fusion techniques can further enhance measurement accuracy. 5.3 Sensitivity of the ARL algorithm 5.3.1 Sensitivity to data quality The performance of the ARL is heavily dependent on the quality of the input data. In environments with high-quality, accurate data, the ARL can effectively learn and continuously optimize to the best control strategy. When the data quality deteriorates, the ARL can still automatically filter out outliers through the built-in data quality control mechanism. 5.3.2 Sensitivity to operating conditions In general, the algorithm\u2019s performance could be affected by changes in operating conditions, such as load fluctuations and variations in ambient temperature. However, the experimental results show that the ARL can quickly adapt to changes in operating conditions through real-time learning and policy adjustments. To further optimize the adaptability of the algorithm under special operating conditions, such as high temperature and high load, the following methods can be explored in future research: \u2022 Data enhancement: Employing generative models or sampling techniques to generate additional data on varying load fluctuations and environmental temperature changes, thereby expanding the training dataset. \u2022 Multi-model switching: Multi-model switching involves training specific optimization models offline for special situations, such as high load and high-temperature environments. During online operation, different optimization models can be dynamically switched based on the current situation to implement the best control strategy. 5.3.3 Sensitivity to unexpected interference Unexpected interferences, such as sudden server failures and network interruptions, may affect the control performance of the ARL. To enhance robustness against unexpected interference, the ARL can ensure the safety of the data center by managing the safety protection mechanism of the monitoring center. If the control instructions of the ARL cannot be sent to the precision air conditioner, the safety protection mechanism will reset the supply and return air temperature settings to their initial values to mitigate the impact of unexpected interference on the system\u2019s overall performance. 5.3.4 Portability of the ARL algorithm The ARL has mastered the fundamental rules of data center HVAC tasks through offline learning, enabling it to be fully transferred to other HVAC systems with different configurations. Additionally, the algorithm employs a modular structure design, allowing each component to independently adapt to various data center environments, thereby demonstrating its universality and portability across different HVAC systems. 6 Conclusion This paper presents the development of the alternately-RL-control (ARL) and its implementation in both offline simulation learning and real data center precision air conditioners for performance verification. The proposed ARL strategy aims to enhance the energy efficiency of air-cooled HVAC systems in data centers by combining RL and PID algorithms. After the pre-training of offline learning, the algorithm can be stable, and shows good generalization ability in the online learning stage. In addition, compared with the DDPG algorithm, the PPO algorithm has fast iteration speed and strong control stability in offline learning. We compare the online control effects of the DDPG, PPO and PID algorithms respectively. The results show that PPO algorithm demonstrate excellent online learning effect after offline learning. Compared with the PID algorithm, the PPO algorithm can save energy by 5.27%, and the temperature control effect can be improved by 3.27%. The DDPG algorithm performs slightly worse than the PPO algorithm, but still outperforms the PID algorithm. Compared with the PID algorithm, the energy saving is 3.96%, and the temperature control effect is improved by 2.21%. In summary, the experimental results prove that the proposed ARL strategy can indeed reduce energy consumption while optimizing the temperature control of precision air conditioners in data centers, and has practical value in industrial applications. CRediT authorship contribution statement Ruyuan Lu: Writing \u2013 original draft, Visualization, Software, Methodology, Conceptualization. Xin Li: Writing \u2013 review & editing. Ronghao Chen: Writing \u2013 review & editing. Aimin Lei: Writing \u2013 review & editing. Xiaoming Ma: Writing \u2013 review & editing, Methodology, Funding acquisition. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. References [1] Masanet E. Shehabi A. Lei N. Smith S. Koomey J. Recalibrating global data center energy-use estimates Science 367 6481 2020 984 986 Masanet, E., Shehabi, A., Lei, N., Smith, S., Koomey, J., 2020. Recalibrating global data center energy-use estimates. Science 367, 984\u2013986. [2] Morley J. Widdicks K. Hazas M. Digitalisation, energy and data demand: The impact of internet traffic on overall and peak electricity consumption Energy Res Soc Sci 38 2018 128 137 Morley, J., Widdicks, K., Hazas, M., 2018. Digitalisation, energy and data demand: The impact of internet traffic on overall and peak electricity consumption. Energy Research & Social Science 38, 128\u2013137 . [3] Index GC. Cisco Global Cloud Index: Forecast and Methodology, 2016\u20132021 White Paper. [4] Dounis A.I. Bruant M. Santamouris M. Guarracino G. Michel P. Comparison of conventional and fuzzy control of indoor air quality in buildings J Intell Fuzzy Systems 4 1996 131 140 Dounis, A.I., Bruant, M., Santamouris, M., Guarracino, G., Michel, P., 1996. Comparison of conventional and fuzzy control of indoor air quality in buildings. J. Intell. Fuzzy Syst. 4, 131\u2013140. [5] Levermore G. Building energy management systems: an application to heating and control Application to heating and control 1992 E & FN Spon Levermore, G., 1992. Building Energy Management Systems: An Application to Heating and Control. Application to Heating and Control, E & FN Spon. [6] Biemann M. Scheller F. Liu X. Huang L. Experimental evaluation of model-free reinforcement learning algorithms for continuous HVAC control Appl Energy 298 2021 117164 10.1016/j.apenergy.2021.117164 Biemann, M., Scheller, F., Liu, X., Huang, L., 2021. Experimental evaluation of model-free reinforcement learning algorithms for continuous hvac control. Applied Energy 298, 117164. https://doi.org/10.1016/j.apenergy.2021.117164. [7] Wang Z. Hong T. Reinforcement learning for building controls: The opportunities and challenges Appl Energy 269 2020 115036 10.1016/j.apenergy.2020.115036 Wang, Z., Hong, T., 2020. Reinforcement learning for building controls: The opportunities and challenges. Applied Energy 269, 115036. https://doi.org/10.1016/j.apenergy.2020.115036. [8] Afram A. Janabi-Sharifi F. Theory and applications of HVAC control systems \u2013 a review of model predictive control (MPC) Build Environ 72 2014 343 355 10.1016/j.buildenv.2013.11.016 Afram, A., Janabi-Sharifi, F., 2014. Theory and applications of hvac control systems \u2013 a review of model predictive control (mpc). Building and Environment 72, 343\u2013355. https://doi.org/10.1016/j.buildenv.2013.11.016. [9] Ma Y. Borrelli F. Hencey B. Coffey B. Bengea S. Haves P. Model predictive control for the operation of building cooling systems IEEE Trans Control Syst Technol 20 3 2012 796 803 Ma, Y., Borrelli, F., Hencey, B., Coffey, B., Bengea, S., Haves, P., 2012. Model predictive control for the operation of building cooling systems. IEEE Transactions on Control Systems Technology 20, 796\u2013803. [10] Wei T, Zhu Q, Maasoumy M. Co-scheduling of HVAC control, EV charging and battery usage for building energy efficiency. In: 2014 IEEE/ACM international conference on computer-aided design. ICCAD, 2014, p. 191\u20136. [11] Karlsson H. Hagentoft C.-E. Application of model based predictive control for water-based floor heating in low energy residential buildings Build Environ 46 3 2011 556 569 Karlsson, H., Hagentoft, C.E., 2011. Application of model based predictive control for water-based floor heating in low energy residential buildings. Building and Environment 46, 556\u2013569. [12] Prívara S. Široký J. Ferkl L. Cigler J. Model predictive control of a building heating system: The first experience Energy Build 43 2 2011 564 572 10.1016/j.enbuild.2010.10.022 Prívara, S., Široký, J., Ferkl, L., Cigler, J., 2011. Model predictive control of a building heating system: The first experience. Energy and Buildings 43, 564\u2013572. https://doi.org/10.1016/j.enbuild.2010.10.022. [13] Deng Z. Wang X. Dong B. Quantum computing for future real-time building HVAC controls Appl Energy 334 2023 120621 10.1016/j.apenergy.2022.120621 Deng, Z., Wang, X., Dong, B., 2023. Quantum computing for future real-time building hvac controls. Applied Energy 334, 120621. https://doi.org/10.1016/j.apenergy.2022.120621. [14] Zhao D. Watari D. Ozawa Y. Taniguchi I. Suzuki T. Shimoda Y. Onoye T. Data-driven online energy management framework for HVAC systems: An experimental study Appl Energy 352 2023 121921 10.1016/j.apenergy.2023.121921 Zhao, D., Watari, D., Ozawa, Y., Taniguchi, I., Suzuki, T., Shimoda, Y., Onoye, T., 2023. Data-driven online energy management framework for hvac systems: An experimental study. Applied Energy 352, 121921. https://doi.org/10.1016/j.apenergy.2023.121921. [15] Wang J. Jiang Y. Tang C.Y. Song L. Analysis of predicted mean vote-based model predictive control for residential HVAC systems Build Environ 229 2023 109952 10.1016/j.buildenv.2022.109952 Wang, J., Jiang, Y., Tang, C.Y., Song, L., 2023. Analysis of predicted mean vote-based model predictive control for residential hvac systems. Building and Environment 229, 109952. https://doi.org/10.1016/j.buildenv.2022.109952. [16] Paris B. Eynard J. Grieu S. Talbert T. Polit M. Heating control schemes for energy management in buildings Energy Build 42 10 2010 1908 1917 10.1016/j.enbuild.2010.05.027 Paris, B., Eynard, J., Grieu, S., Talbert, T., Polit, M., 2010. Heating control schemes for energy management in buildings. Energy and Buildings 42, 1908\u20131917. https://doi.org/10.1016/j.enbuild.2010.05.027. [17] Watkins C. Learning from delayed rewards 1989 Watkins, C., 1989. Learning from delayed rewards . [18] Rummery G, Niranjan M. On-line Q-learning using connectionist systems. Technical report CUED/F-INFENG/TR 166, 1994. [19] Sutton R. Generalization in reinforcement learning: Successful examples using sparse coarse coding 1996 Sutton, R., 1996. Generalization in reinforcement learning: Successful examples using sparse coarse coding . [20] Mnih V. Kavukcuoglu K. Silver D. Graves A. Antonoglou I. Wierstra D. Riedmiller M. Playing atari with deep reinforcement learning 2013 Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra, D., Riedmiller, M., 2013. Playing atari with deep reinforcement learning . [21] Lillicrap T. Hunt J. Pritzel A. Heess N. Erez T. Tassa Y. Silver D. Wierstra D. Continuous control with deep reinforcement learning 2015 CoRR Lillicrap, T., Hunt, J., Pritzel, A., Heess, N., Erez, T., Tassa, Y., Silver, D., Wierstra, D., 2015. Continuous control with deep reinforcement learning. CoRR . [22] Barrett E. Linder S. Autonomous HVAC control, a reinforcement learning approach Bifet A. May M. Zadrozny B. Gavalda R. Pedreschi D. Bonchi F. Cardoso J. Spiliopoulou M. Machine learning and knowledge discovery in databases 2015 Springer International Publishing Cham 3 19 Barrett, E., Linder, S., 2015. Autonomous hvac control, a reinforcement learning approach, in: Bifet, A., May, M., Zadrozny, B., Gavalda, R., Pedreschi, D., Bonchi, F., Cardoso, J., Spiliopoulou, M. (Eds.), Machine Learning and Knowledge Discovery in Databases, Springer International Publishing, Cham. pp. 3\u201319. [23] Nikovski D. Xu J. Nonaka M. A method for computing optimal SetPoint schedule for HVAC systems 2013 Nikovski, D., Xu, J., Nonaka, M., 2013. A method for computing optimal setpoint schedule for hvac systems. [24] Li B. Xia L. A multi-grid reinforcement learning method for energy conservation and comfort of HVAC in buildings 2015 IEEE international conference on automation science and engineering CASE 2015 444 449 10.1109/CoASE.2015.7294119 Li, B., Xia, L., 2015. A multi-grid reinforcement learning method for energy conservation and comfort of hvac in buildings, in: 2015 IEEE International Conference on Automation Science and Engineering (CASE), pp. 444\u2013449. 10.1109/CoASE.2015.7294119. [25] Zenger A. Schmidt J. Krödel M. Towards the intelligent home: using reinforcement-learning for optimal heating control 2013 Springer Berlin Heidelberg Zenger, A., Schmidt, J., Krödel, M., 2013. Towards the intelligent home: Using reinforcement-learning for optimal heating control. Springer Berlin Heidelberg . [26] Dalamagkidis K. Kolokotsa D. Kalaitzakis K. Stavrakakis G. Reinforcement learning for energy conservation and comfort in buildings Build Environ 42 7 2007 2686 2698 10.1016/j.buildenv.2006.07.010 Dalamagkidis, K., Kolokotsa, D., Kalaitzakis, K., Stavrakakis, G., 2007. Reinforcement learning for energy conservation and comfort in buildings. Building and Environment 42, 2686\u20132698. https://doi.org/10.1016/j.buildenv.2006.07.010. [27] Si J. Barto A.G. Powell W.B. Wunsch D. Robust reinforcement learning for heating, ventilation, and air conditioning control of buildings Handbook of learning and approximate dynamic programming 2004 517 534 10.1109/9780470544785.ch20 Si, J., Barto, A.G., Powell, W.B., Wunsch, D., 2004. Robust Reinforcement Learning for Heating, Ventilation, and Air Conditioning Control of Buildings. pp. 517\u2013534. 10.1109/9780470544785.ch20. [28] Wang Y. Velswamy K. Huang B. A long-short term memory recurrent neural network based reinforcement learning controller for office heating ventilation and air conditioning systems Processes 5 3 2017 10.3390/pr5030046 Wang, Y., Velswamy, K., Huang, B., 2017. A long-short term memory recurrent neural network based reinforcement learning controller for office heating ventilation and air conditioning systems. Processes 5. 10.3390/pr5030046. [29] Gao G. Li J. Wen Y. DeepComfort: Energy-efficient thermal comfort control in buildings via reinforcement learning IEEE Internet Things J 7 9 2020 8472 8484 10.1109/JIOT.2020.2992117 Gao, G., Li, J., Wen, Y., 2020. Deepcomfort: Energy-efficient thermal comfort control in buildings via reinforcement learning. IEEE Internet of Things Journal 7, 8472\u20138484. 10.1109/JIOT.2020.2992117. [30] Du Y. Zandi H. Kotevska O. Kurte K. Munk J. Amasyali K. Mckee E. Li F. Intelligent multi-zone residential HVAC control strategy based on deep reinforcement learning Appl Energy 281 2021 116117 10.1016/j.apenergy.2020.116117 Du, Y., Zandi, H., Kotevska, O., Kurte, K., Munk, J., Amasyali, K., Mckee, E., Li, F., 2021. Intelligent multi-zone residential hvac control strategy based on deep reinforcement learning. Applied Energy 281, 116117. https://doi.org/10.1016/j.apenergy.2020.116117. [31] Zhuang D. Gan V.J. Duygu Tekler Z. Chong A. Tian S. Shi X. Data-driven predictive control for smart HVAC system in IoT-integrated buildings with time-series forecasting and reinforcement learning Appl Energy 338 2023 120936 Zhuang, D., Gan, V.J., Duygu Tekler, Z., Chong, A., Tian, S., Shi, X., 2023. Data-driven predictive control for smart hvac system in iot-integrated buildings with time-series forecasting and reinforcement learning. Applied Energy 338, 120936. [32] Dai M. Li H. Wang S. A reinforcement learning-enabled iterative learning control strategy of air-conditioning systems for building energy saving by shortening the morning start period Appl Energy 334 2023 120650 10.1016/j.apenergy.2023.120650 Dai, M., Li, H., Wang, S., 2023. A reinforcement learning-enabled iterative learning control strategy of air-conditioning systems for building energy saving by shortening the morning start period. Applied Energy 334, 120650. https://doi.org/10.1016/j.apenergy.2023.120650. [33] Lu S. Wang W. Lin C. Hameen E.C. Data-driven simulation of a thermal comfort-based temperature set-point control with ASHRAE RP884 Build Environ 156 2019 137 146 10.1016/j.buildenv.2019.03.010 Lu, S., Wang, W., Lin, C., Hameen, E.C., 2019. Data-driven simulation of a thermal comfort-based temperature set-point control with ashrae rp884. Building and Environment 156, 137\u2013146. https://doi.org/10.1016/j.buildenv.2019.03.010. [34] Chen L. Meng F. Zhang Y. MBRL-MC: An HVAC control approach via combining model-based deep reinforcement learning and model predictive control IEEE Internet Things J 9 19 2022 19160 19173 Chen, L., Meng, F., Zhang, Y., 2022. Mbrl-mc: An hvac control approach via combining model-based deep reinforcement learning and model predictive control. IEEE Internet of Things Journal 9, 19160\u201319173. [35] Mahbod M.H.B. Chng C.B. Lee P.S. Chui C.K. Energy saving evaluation of an energy efficient data center using a model-free reinforcement learning approach Appl Energy 322 2022 119392 10.1016/j.apenergy.2022.119392 Mahbod, M.H.B., Chng, C.B., Lee, P.S., Chui, C.K., 2022. Energy saving evaluation of an energy efficient data center using a model-free reinforcement learning approach. Applied Energy 322, 119392. https://doi.org/10.1016/j.apenergy.2022.119392. [36] Biemann M. Gunkel P.A. Scheller F. Huang L. Liu X. Data center HVAC control harnessing flexibility potential via real-time pricing cost optimization using reinforcement learning IEEE Internet Things J 10 15 2023 13876 13894 10.1109/JIOT.2023.3263261 Biemann, M., Gunkel, P.A., Scheller, F., Huang, L., Liu, X., 2023. Data center hvac control harnessing flexibility potential via real-time pricing cost optimization using reinforcement learning. IEEE Internet of Things Journal 10, 13876\u201313894. 10.1109/JIOT.2023.3263261. [37] Fang X. Gong G. Li G. Chun L. Peng P. Li W. Shi X. Cross temporal-spatial transferability investigation of deep reinforcement learning control strategy in the building HVAC system level Energy 263 2023 125679 10.1016/j.energy.2022.125679 Fang, X., Gong, G., Li, G., Chun, L., Peng, P., Li, W., Shi, X., 2023. Cross temporal-spatial transferability investigation of deep reinforcement learning control strategy in the building hvac system level. Energy 263, 125679. https://doi.org/10.1016/j.energy.2022.125679. [38] Qin H. Yu Z. Li T. Liu X. Li L. Energy-efficient heating control for nearly zero energy residential buildings with deep reinforcement learning Energy 264 2023 126209 10.1016/j.energy.2022.126209 Qin, H., Yu, Z., Li, T., Liu, X., Li, L., 2023. Energy-efficient heating control for nearly zero energy residential buildings with deep reinforcement learning. Energy 264, 126209. https://doi.org/10.1016/j.energy.2022.126209. [39] Le-Coz A. Nabil T. Courtot F. Towards optimal district heating temperature control in China with deep reinforcement learning 2020 Le-Coz, A., Nabil, T., Courtot, F., 2020. Towards optimal district heating temperature control in china with deep reinforcement learning . [40] Sutton R.S. Barto A.G. Reinforcement learning: an introduction 2018 A Bradford Book Cambridge, MA, USA Sutton, R.S., Barto, A.G., 2018. Reinforcement Learning: An Introduction. A Bradford Book, Cambridge, MA, USA. [41] Silver D, Lever G, Heess N, Degris T, Wierstra D, Riedmiller M. Deterministic Policy Gradient Algorithms. In: 31st international conference on machine learning. ICML 2014, Vol. 1, 2014. [42] Schulman J. Levine S. Moritz P. Jordan M.I. Abbeel P. Trust region policy optimization Comput Sci 2015 1889 1897 Schulman, J., Levine, S., Moritz, P., Jordan, M.I., Abbeel, P., 2015. Trust region policy optimization. Computer Science , 1889\u20131897. [43] Schulman J. Wolski F. Dhariwal P. Radford A. Klimov O. Proximal policy optimization algorithms 2017 ArXiv abs/1707.06347 Schulman, J., Wolski, F., Dhariwal, P., Radford, A., Klimov, O., 2017. Proximal policy optimization algorithms. ArXiv abs/1707.06347. [44] Zhang Z. Chong A. Pan Y. Zhang C. Lu S. Lam K. A deep reinforcement learning approach to using whole building energy model for HVAC optimal control 2018 Zhang, Z., Chong, A., Pan, Y., Zhang, C., Lu, S., Lam, K., 2018. A deep reinforcement learning approach to using whole building energy model for hvac optimal control. [45] Zou Z. Yu X. Ergan S. Towards optimal control of air handling units using deep reinforcement learning and recurrent neural network Build Environ 168 2020 106535 Zou, Z., Yu, X., Ergan, S., 2020. Towards optimal control of air handling units using deep reinforcement learning and recurrent neural network. Building and Environment 168, 106535. [46] Chung J. Gulcehre C. Cho K. Bengio Y. Empirical evaluation of gated recurrent neural networks on sequence modeling 2014 arXiv preprint arXiv:1412.3555 Chung, J., Gulcehre, C., Cho, K., Bengio, Y., 2014. Empirical evaluation of gated recurrent neural networks on sequence modeling. arXiv preprint arXiv:1412.3555 . [47] Ornstein L.S. On the theory of the Brownian motion Phys Rev 36 1930 823 841 Ornstein, L.S., 1930. On the theory of the brownian motion. Physical review 36, 823\u2013841. [48] Yang S. Jahanger A. Hossain M.R. Does China\u2019s low-carbon city pilot intervention limit electricity consumption? An analysis of industrial energy efficiency using time-varying DID model Energy Econ 121 2023 106636 Yang, S., Jahanger, A., Hossain, M.R., 2023. Does china\u2019s low-carbon city pilot intervention limit electricity consumption? an analysis of industrial energy efficiency using time-varying did model. Energy Economics 121, 106636. [49] Hasselt H. Double Q-learning Lafferty J. Williams C. Shawe-Taylor J. Zemel R. Culotta A. Advances in neural information processing systems Vol. 23 2010 Curran Associates, Inc. URL: https://proceedings.neurips.cc/paper_files/paper/2010/file/091d584fced301b442654dd8c23b3fc9-Paper.pdf Hasselt, H., 2010. Double q-learning, in: Lafferty, J., Williams, C., Shawe-Taylor, J., Zemel, R., Culotta, A. (Eds.), Advances in Neural Information Processing Systems, Curran Associates, Inc. https://proceedings.neurips.cc/paperfiles/paper/2010/file/091d584fced301b442654dd8c23b3fc9-Paper.pdf. [50] Ma Z. Xiao M. Xiao Y. Pang Z. Poor H.V. Vucetic B. High-reliability and low-latency wireless communication for internet of things: Challenges, fundamentals, and enabling technologies IEEE Internet Things J 6 5 2019 7946 7970 Ma, Z., Xiao, M., Xiao, Y., Pang, Z., Poor, H.V., Vucetic, B., 2019. High-reliability and low-latency wireless communication for internet of things: Challenges, fundamentals, and enabling technologies. IEEE Internet of Things Journal 6, 7946\u20137970. [51] Jiang X. Shokri-Ghadikolaei H. Fodor G. Modiano E. Pang Z. Zorzi M. Fischione C. Low-latency networking: Where latency lurks and how to tame it Proc IEEE 107 2 2018 280 306 Jiang, X., Shokri-Ghadikolaei, H., Fodor, G., Modiano, E., Pang, Z., Zorzi, M., Fischione, C., 2018. Low-latency networking: Where latency lurks and how to tame it. Proceedings of the IEEE 107, 280\u2013306. [52] Ngai E.C. Lyu M.R. Liu J. A real-time communication framework for wireless sensor-actuator networks 2006 IEEE aerospace conference 2006 IEEE 9 Ngai, E.C., Lyu, M.R., Liu, J., 2006. A real-time communication framework for wireless sensor-actuator networks, in: 2006 IEEE Aerospace Conference, IEEE. pp. 9\u2013pp. [53] Khan W.Z. Ahmed E. Hakak S. Yaqoob I. Ahmed A. Edge computing: A survey Future Gener Comput Syst 97 2019 219 235 Khan, W.Z., Ahmed, E., Hakak, S., Yaqoob, I., Ahmed, A., 2019. Edge computing: A survey. Future Generation Computer Systems 97, 219\u2013235.",
+    "scopus-id": "85202883078",
+    "coredata": {
+        "eid": "1-s2.0-S0360544224027518",
+        "dc:description": "Energy efficiency of data center is of great concern globally due to their large amount of energy consumption and the foreseeable growth in the demand of digital services in the future. Advanced control strategies are needed to reduce energy consumption. However, the optimization of data center HVAC control is a challenge task due to the complexity of the thermal dynamic models of buildings and uncertainties associated with both server loads and outdoor temperature. In this paper, we propose a new control strategy called Alternately-Reinforcement Learning-control(ARL), which realizes the alternating control of RL and proportional, integral and derivative (PID) for optimizing the control of air-cooled HVAC systems in data centers. The control object of the ARL is the speed set of the compressor and the condensing fan, and the control goal is to minimize energy consumption while maintaining temperature stability. The applied RL algorithm is Deep deterministic policy gradient (DDPG) and Proximal policy optimization (PPO). We pre-train the ARL strategy in offline environment firstly and deploy it in real data center environment for online testing. The test results show that the ARL has significant advantages in maintaining temperature stability while reducing energy consumption, and the PPO algorithm performs better than the DDPG algorithm. Compared with the PID algorithm, the PPO algorithm can save energy by 5.27%, and the temperature control effect can be improved by 3.27%,which indicates the feasibility of the ARL for implementation in real data centers.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-11-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0360544224027518",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Lu, Ruyuan"
+            },
+            {
+                "@_fa": "true",
+                "$": "Li, Xin"
+            },
+            {
+                "@_fa": "true",
+                "$": "Chen, Ronghao"
+            },
+            {
+                "@_fa": "true",
+                "$": "Lei, Aimin"
+            },
+            {
+                "@_fa": "true",
+                "$": "Ma, Xiaoming"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0360544224027518"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0360544224027518"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0360-5442(24)02751-8",
+        "prism:volume": "308",
+        "articleNumber": "132977",
+        "prism:publisher": "Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "An Alternative Reinforcement Learning (ARL) control strategy for data center air-cooled HVAC systems",
+        "prism:copyright": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "03605442",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Reinforcement learning (RL)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Deep deterministic policy gradient (DDPG)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Proximal policy optimization (PPO)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Air-cooled HVAC systems"
+            },
+            {
+                "@_fa": "true",
+                "$": "Data center"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Energy",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "132977",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 November 2024",
+        "prism:doi": "10.1016/j.energy.2024.132977",
+        "prism:startingPage": "132977",
+        "dc:identifier": "doi:10.1016/j.energy.2024.132977",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "383",
+            "@width": "707",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "139260",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "252",
+            "@width": "686",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "130707",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "357",
+            "@width": "699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "163051",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "366",
+            "@width": "697",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "157787",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "211",
+            "@width": "816",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-fx1002.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "93654",
+            "@ref": "fx1002",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "557",
+            "@width": "816",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-fx1001.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "146406",
+            "@ref": "fx1001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "357",
+            "@width": "706",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "140053",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "547",
+            "@width": "706",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "201555",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "113",
+            "@width": "816",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-fx1003.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "85105",
+            "@ref": "fx1003",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "408",
+            "@width": "706",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "146188",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "190",
+            "@width": "706",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "114449",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "572",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "137627",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "204",
+            "@width": "347",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "95252",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "119",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74050",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72974",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "76384",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "115",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "78483",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "57",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-fx1002.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "67972",
+            "@ref": "fx1002",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "149",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-fx1001.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73365",
+            "@ref": "fx1001",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "111",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "76671",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "211",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "84282",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "30",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-fx1003.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "67259",
+            "@ref": "fx1003",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "127",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75263",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "59",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "70371",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "153",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75086",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "129",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75166",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1696",
+            "@width": "3130",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "543831",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1117",
+            "@width": "3039",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "514134",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1581",
+            "@width": "3093",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "719858",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1622",
+            "@width": "3086",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "675718",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "935",
+            "@width": "3613",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-fx1002_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "281791",
+            "@ref": "fx1002",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2465",
+            "@width": "3613",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-fx1001_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "730251",
+            "@ref": "fx1001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1582",
+            "@width": "3125",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "692964",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2422",
+            "@width": "3125",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "937714",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "500",
+            "@width": "3613",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-fx1003_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "210414",
+            "@ref": "fx1003",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1808",
+            "@width": "3125",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "515162",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "842",
+            "@width": "3126",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "430877",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2536",
+            "@width": "2371",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "649789",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "903",
+            "@width": "1537",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "264181",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "790",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21311",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si101.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29362",
+            "@ref": "si101",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si104.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7087",
+            "@ref": "si104",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si105.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7528",
+            "@ref": "si105",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si106.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1471",
+            "@ref": "si106",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si107.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8256",
+            "@ref": "si107",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5183",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si112.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "46173",
+            "@ref": "si112",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si117.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21682",
+            "@ref": "si117",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1519",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si120.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6142",
+            "@ref": "si120",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si122.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7257",
+            "@ref": "si122",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si123.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8117",
+            "@ref": "si123",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si124.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2559",
+            "@ref": "si124",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si125.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2266",
+            "@ref": "si125",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si126.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4568",
+            "@ref": "si126",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si128.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12898",
+            "@ref": "si128",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1325",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si130.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1416",
+            "@ref": "si130",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si131.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7775",
+            "@ref": "si131",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si132.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8291",
+            "@ref": "si132",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si136.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2189",
+            "@ref": "si136",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si137.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2863",
+            "@ref": "si137",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si138.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3627",
+            "@ref": "si138",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si139.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3463",
+            "@ref": "si139",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5926",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si140.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4464",
+            "@ref": "si140",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si143.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1177",
+            "@ref": "si143",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si144.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1252",
+            "@ref": "si144",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si145.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3750",
+            "@ref": "si145",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si146.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2338",
+            "@ref": "si146",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si147.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2158",
+            "@ref": "si147",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si149.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2839",
+            "@ref": "si149",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1910",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si150.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1021",
+            "@ref": "si150",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si151.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2688",
+            "@ref": "si151",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si152.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1813",
+            "@ref": "si152",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si155.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1687",
+            "@ref": "si155",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si156.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3053",
+            "@ref": "si156",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si157.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3452",
+            "@ref": "si157",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si160.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2901",
+            "@ref": "si160",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si162.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3053",
+            "@ref": "si162",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si163.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2901",
+            "@ref": "si163",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1521",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1136",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27144",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13869",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5948",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5688",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1156",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3705",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1189",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1389",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1625",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23735",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11997",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16790",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9412",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13673",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3002",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5884",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27679",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6934",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4346",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "904",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3933",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2280",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23312",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7735",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5908",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6362",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3248",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1351",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1190",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1352",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1305",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8191",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23822",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7748",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5849",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5557",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1553",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29347",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si70.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2444",
+            "@ref": "si70",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si71.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2036",
+            "@ref": "si71",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si74.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1086",
+            "@ref": "si74",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si76.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "800",
+            "@ref": "si76",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si77.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13244",
+            "@ref": "si77",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si78.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "993",
+            "@ref": "si78",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si79.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13765",
+            "@ref": "si79",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si80.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5083",
+            "@ref": "si80",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si81.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14055",
+            "@ref": "si81",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si83.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14577",
+            "@ref": "si83",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si85.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13797",
+            "@ref": "si85",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si87.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14315",
+            "@ref": "si87",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si89.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14776",
+            "@ref": "si89",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si90.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2715",
+            "@ref": "si90",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si91.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10997",
+            "@ref": "si91",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si92.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4719",
+            "@ref": "si92",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si93.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10418",
+            "@ref": "si93",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si95.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13118",
+            "@ref": "si95",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si96.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11522",
+            "@ref": "si96",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si97.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3501",
+            "@ref": "si97",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si98.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20043",
+            "@ref": "si98",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-si99.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11167",
+            "@ref": "si99",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544224027518-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "4740944",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85202883078"
+    }
+}}

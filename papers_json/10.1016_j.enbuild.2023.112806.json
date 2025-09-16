@@ -1,0 +1,958 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85146700821",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 Energy and Buildings ENERGYBUILDINGS 2023-01-18 2023-01-18 2023-01-19 2023-01-19 2024-02-02T14:57:46 1-s2.0-S0378778823000361 S0378-7788(23)00036-1 S0378778823000361 10.1016/j.enbuild.2023.112806 S300 S300.4 FULL-TEXT 1-s2.0-S0378778823X00024 2024-02-02T15:26:36.85358Z 0 0 20230301 2023 2023-01-18T04:50:38.880672Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast orcid primabst ref 0378-7788 03787788 true 282 282 C Volume 282 19 112806 112806 112806 20230301 1 March 2023 2023-03-01 2023 Research Articles article fla Crown Copyright © 2023 Published by Elsevier B.V. All rights reserved. ESTIMATINGENERGYSAVINGSHVACCONTROLSFAULTCORRECTIONTHROUGHINVERSEGREYBOXMODELBASEDVIRTUALMETERING GUNAY B 1 Introduction 1.1 Literature review 1.2 Motivation and objectives 2 Methodology 2.1 Input data 2.1.1 Validation with data synthetically generated using an EnergyPlus model 2.1.2 Demonstration of the method with data from a real VAV AHU system 2.2 Inverse model for the VAV AHU system 2.2.1 Parameter estimation 2.3 Virtual meters 2.4 Estimating fault-free system\u2019s energy use 3 Results and discussion 3.1 Analysis with the synthetic BAS data 3.1.1 Inverse modelling results 3.1.2 Verification of the virtual meters 3.2 Demonstration with BAS data from a real VAV AHU system 3.3 Unresolved issues 4 Conclusion and future work Acknowledgements References TORABI 2022 109333 N GUNAY 2022 1 18 H SCIENCETECHNOLOGYFORBUILTENVIRONMENT CLASSIFICATIONSEQUENCINGLOGICFAULTSINMULTIPLEZONEAIRHANDLINGUNITSAREVIEWCASESTUDY KATIPAMULA 2005 3 25 S KATIPAMULA 2005 169 187 S ONEILL 2014 83 99 Z HAVES 2007 380 P SCHEIN 2006 1485 1492 J BRUTON 2015 299 322 K GUNAY 2020 106659 H TORABI 2022 01436 N MIRNAGHI 2020 110492 M GUNAY 2022 H SHI 2019 215 229 Z FIERRO 2020 558034 G LUO 2021 111224 N CHEN 2020 2107 2119 L ABUIMARA 2021 102803 T LI 2018 953 975 Y CHEUNG 2013 892 906 H ZHANG 2017 178 188 R YANG 2007 489 498 L POURARIAN 2017 151 160 S LU 2021 111448 X PADILLA 2015 214 219 M WETTER 2014 253 270 M POURARIAN 2015 S GUNAY 2018 652 666 H LI 2019 311 331 Y LI 2019 Y WESTERMANN 2019 170 186 P COTRUFO 2019 21 33 N DARWAZEH 2021 110867 D DARWAZEH 2021 323 336 D SONG 2013 335 345 L JOO 2007 66 80 I HOBSON 2019 106154 B BENNET 2017 461 475 I GUNAY 2016 234 249 H ASHRAE 2014 GUIDELINE14MEASUREMENTENERGYDEMANDWATERSAVINGS GUNAY 2016 586 605 H GUNAY 2020 501 515 H GUNAYX2023X112806 GUNAYX2023X112806XB 2025-01-19T00:00:00.000Z 2025-01-19T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ Crown Copyright © 2023 Published by Elsevier B.V. All rights reserved. 2023-01-27T05:51:33.829Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Research Council Canada 996635 NRC National Research Council Canada http://data.elsevier.com/vocabulary/SciValFunders/501100000046 http://sws.geonames.org/6251999/ This research is supported by a research contract with the National Research Council Canada (Contract number 996635). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0378-7788(23)00036-1 S0378778823000361 1-s2.0-S0378778823000361 10.1016/j.enbuild.2023.112806 271089 2024-02-02T15:26:36.85358Z 2023-03-01 1-s2.0-S0378778823000361-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/MAIN/application/pdf/2cf2cecddc89d04ac09662fb558b684d/main.pdf main.pdf pdf true 4252824 MAIN 17 1-s2.0-S0378778823000361-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/PREVIEW/image/png/745a66565489c4ada4e090a34d9dfe5e/main_1.png main_1.png png 60770 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0378778823000361-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/fx1/DOWNSAMPLED/image/jpeg/a1aa6772f95903eae18f576a58fd5b49/fx1.jpg fx1 fx1.jpg jpg 56944 531 634 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr1/DOWNSAMPLED/image/jpeg/9686b457b8d9c97f9385bda61eabf012/gr1.jpg gr1 gr1.jpg jpg 25940 232 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr10/DOWNSAMPLED/image/jpeg/fd6738285227ccb55a45d39ddc2cabd4/gr10.jpg gr10 gr10.jpg jpg 24388 214 685 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr11/DOWNSAMPLED/image/jpeg/eb850a4a24e35242ef3bae272c1ec437/gr11.jpg gr11 gr11.jpg jpg 106059 548 534 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr12/DOWNSAMPLED/image/jpeg/0deb1cde74168ffaa8b0c2e5c70cbadf/gr12.jpg gr12 gr12.jpg jpg 68384 546 711 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr13/DOWNSAMPLED/image/jpeg/a1e797865045acefbceb7c50384b3c44/gr13.jpg gr13 gr13.jpg jpg 107383 530 711 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr14/DOWNSAMPLED/image/jpeg/e6e349f932e562291d9e173f2d3cf0e6/gr14.jpg gr14 gr14.jpg jpg 44288 318 575 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr15/DOWNSAMPLED/image/jpeg/e4926638995cd55be3a9bbe7d4de1555/gr15.jpg gr15 gr15.jpg jpg 15469 212 202 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr2/DOWNSAMPLED/image/jpeg/207d74d722345ce574e4c4ea27993f3c/gr2.jpg gr2 gr2.jpg jpg 61817 359 756 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr3/DOWNSAMPLED/image/jpeg/068040d91ffef31119a5febb53b14a38/gr3.jpg gr3 gr3.jpg jpg 40372 238 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr4/DOWNSAMPLED/image/jpeg/62332a022ccb3856d0c85e49331814e1/gr4.jpg gr4 gr4.jpg jpg 40099 335 589 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr5/DOWNSAMPLED/image/jpeg/55e9977967dd9a63d9622af1e36c67a6/gr5.jpg gr5 gr5.jpg jpg 73069 481 667 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr6/DOWNSAMPLED/image/jpeg/a999c4eb33b8a9b202715b0ce3035bc2/gr6.jpg gr6 gr6.jpg jpg 27885 484 378 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr7/DOWNSAMPLED/image/jpeg/7b1cbf17afde54503d9aeebfa9e2145a/gr7.jpg gr7 gr7.jpg jpg 29792 235 667 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr8/DOWNSAMPLED/image/jpeg/a30822b14918ccf9f9769fdd51a2a0be/gr8.jpg gr8 gr8.jpg jpg 12914 234 223 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr9/DOWNSAMPLED/image/jpeg/d20a7ba29b0cf6991c15de6727930416/gr9.jpg gr9 gr9.jpg jpg 120005 969 714 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823000361-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/fx1/THUMBNAIL/image/gif/ab25ff399db16d21379158b19676b103/fx1.sml fx1 fx1.sml sml 6182 164 196 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr1/THUMBNAIL/image/gif/bc7bfad09b60f76f916ed331ce1e8e52/gr1.sml gr1 gr1.sml sml 4977 95 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr10/THUMBNAIL/image/gif/57ec4fa47dcdf841bb0003255b8e452f/gr10.sml gr10 gr10.sml sml 2671 68 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr11/THUMBNAIL/image/gif/2478dd2aa631bfd6f2e65f280915e386/gr11.sml gr11 gr11.sml sml 12808 164 160 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr12/THUMBNAIL/image/gif/d96012ff203c0d67af2700f468bd35a8/gr12.sml gr12 gr12.sml sml 9589 164 214 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr13/DOWNSAMPLED/image/gif/b4c5d22151042f9e9c3917089a99aba9/gr13.sml gr13 gr13.sml sml 14704 163 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr14/THUMBNAIL/image/gif/3bc7dad730c8d430f9a92a1a53ca2d1b/gr14.sml gr14 gr14.sml sml 6459 121 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr15/THUMBNAIL/image/gif/984330f20ec28969982e32b6a4fbc959/gr15.sml gr15 gr15.sml sml 9670 164 156 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr2/THUMBNAIL/image/gif/776bd29dcbadf41cc9e0772d0fc09c78/gr2.sml gr2 gr2.sml sml 6511 104 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr3/DOWNSAMPLED/image/gif/20af8b1b611b538a9eba0d4ada13791a/gr3.sml gr3 gr3.sml sml 8371 98 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr4/THUMBNAIL/image/gif/d5dc93ba7bb649d4670f88cc182d87f4/gr4.sml gr4 gr4.sml sml 6034 124 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr5/THUMBNAIL/image/gif/5142db6c2fa59c21cd61d4f98314e86c/gr5.sml gr5 gr5.sml sml 9281 158 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr6/THUMBNAIL/image/gif/7b5aa8aecaa470032f57c2e855df192f/gr6.sml gr6 gr6.sml sml 4138 164 128 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr7/HIGHRES/image/gif/5a0baf385b529124e9b4fc6e65a62a7f/gr7.sml gr7 gr7.sml sml 4025 77 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr8/THUMBNAIL/image/gif/766d1672b9c9df7bd91d5ce556a1fccd/gr8.sml gr8 gr8.sml sml 5840 164 156 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/gr9/THUMBNAIL/image/gif/36ed44274075adc9b76c73056da31f95/gr9.sml gr9 gr9.sml sml 4814 164 121 IMAGE-THUMBNAIL 1-s2.0-S0378778823000361-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/d073bff93a0aae16a6aef86e02014299/fx1_lrg.jpg fx1 fx1_lrg.jpg jpg 404954 2350 2808 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/MAIN/image/jpeg/4afe1e6f28e01705dd86bc1670cffcb8/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 171790 1026 2362 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/DOWNSAMPLED/image/jpeg/59487fb14406b229307bb022bb6fdcbe/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 145354 947 3035 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/f32668b2baaaf3fec51e2374ed82f2e3/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 740708 2427 2366 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/963e66d5045c4b01864ff793b83f0514/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 472542 2417 3150 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/a82877afdbc2f913d3773c8974628640/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 738307 2348 3150 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/cdbf9fa963581e5b591875732e3084e7/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 290295 1409 2548 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/2a623f9ccf0a4a9daf18721309fc5739/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 98928 943 898 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/31a72805cb382031f01733c93609945a/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 477354 1587 3346 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/03bab05f887a51335a30a18e91753893/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 213815 1053 2362 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/c18ab364d5ccc33c30e793acd8d52287/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 216109 1481 2607 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/9235b3eede6b0d1b7659a66cfd204f51/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 409567 2129 2953 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/THUMBNAIL/image/jpeg/613ec4dbe41954f19cf62803776db683/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 203744 2143 1673 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/MAIN/image/jpeg/c1a32ab6b2628539da90429b99483ea8/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 182148 1039 2953 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/ca541a074aac2409ee69b306c701ecc1/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 77055 1037 988 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/HIGHRES/image/jpeg/5e06e898cd9ce41caf9ea6f38d232eb3/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 668417 4292 3162 IMAGE-HIGH-RES 1-s2.0-S0378778823000361-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/4be60eb5c7d745f8f914e25cb1a0e96b/si1.svg si1 si1.svg svg 26752 ALTIMG 1-s2.0-S0378778823000361-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/ba438ed7627f5d24eb09fe7ffa796afc/si10.svg si10 si10.svg svg 1425 ALTIMG 1-s2.0-S0378778823000361-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/eaa3bf70a5144ead2dcd7422a7a71c49/si11.svg si11 si11.svg svg 2909 ALTIMG 1-s2.0-S0378778823000361-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/77a1cf530499c88033455364f74096bc/si12.svg si12 si12.svg svg 1770 ALTIMG 1-s2.0-S0378778823000361-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/46ae218b58c7b5463f66fa99bdcb1c38/si13.svg si13 si13.svg svg 27979 ALTIMG 1-s2.0-S0378778823000361-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/5ec7fe31cdcb95f05dcc3725f2a5e377/si14.svg si14 si14.svg svg 26501 ALTIMG 1-s2.0-S0378778823000361-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/82ec1c9b724b0f6c4b08093c024c4343/si15.svg si15 si15.svg svg 27728 ALTIMG 1-s2.0-S0378778823000361-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/ccc0a00c565f79862114467148c1fb84/si16.svg si16 si16.svg svg 8221 ALTIMG 1-s2.0-S0378778823000361-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/a7a9f3bdf15082f01c333a973ce89c0f/si17.svg si17 si17.svg svg 18647 ALTIMG 1-s2.0-S0378778823000361-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/31a62ae7e637d04179e7102baac9948e/si18.svg si18 si18.svg svg 26469 ALTIMG 1-s2.0-S0378778823000361-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/5dd74b63272821ec14f5701a7674f362/si19.svg si19 si19.svg svg 12036 ALTIMG 1-s2.0-S0378778823000361-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/b32982f9400d7a7986d7d2fda2e8edf3/si2.svg si2 si2.svg svg 21282 ALTIMG 1-s2.0-S0378778823000361-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/e58ecc70be3e5fa57d29e0e9aab03ea1/si20.svg si20 si20.svg svg 12178 ALTIMG 1-s2.0-S0378778823000361-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/e331478245de39cd4f647989912bed45/si21.svg si21 si21.svg svg 11002 ALTIMG 1-s2.0-S0378778823000361-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/03ad3ebc8ded17b7f4333e9715ebe98e/si22.svg si22 si22.svg svg 35640 ALTIMG 1-s2.0-S0378778823000361-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/57ffcad2662c4fbef5f907af98a4c49e/si23.svg si23 si23.svg svg 10630 ALTIMG 1-s2.0-S0378778823000361-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/9030340909111a20bfc2d45df85efbc3/si24.svg si24 si24.svg svg 12483 ALTIMG 1-s2.0-S0378778823000361-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/02de2641366e1796115d913a9b482f56/si25.svg si25 si25.svg svg 60839 ALTIMG 1-s2.0-S0378778823000361-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/d2dabc302ca9084582b1f3233170fd21/si26.svg si26 si26.svg svg 59467 ALTIMG 1-s2.0-S0378778823000361-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/c590c28280ddbc1af1f06e50b70f74b7/si27.svg si27 si27.svg svg 19925 ALTIMG 1-s2.0-S0378778823000361-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/1400c02b97e7d75261c63d0324cc793a/si28.svg si28 si28.svg svg 28799 ALTIMG 1-s2.0-S0378778823000361-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/1f59f79fa28e9854812e3fdd482e3300/si3.svg si3 si3.svg svg 2463 ALTIMG 1-s2.0-S0378778823000361-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/795ba01bdd1f04e3bdd55cc36a5597e6/si4.svg si4 si4.svg svg 2285 ALTIMG 1-s2.0-S0378778823000361-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/430bce4ce2df5b2662dce67a57381416/si5.svg si5 si5.svg svg 16728 ALTIMG 1-s2.0-S0378778823000361-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/9073524102610d42cd2ca6c827f631a5/si6.svg si6 si6.svg svg 12543 ALTIMG 1-s2.0-S0378778823000361-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/a9565aa39822a452c53817cc1cf0c07c/si7.svg si7 si7.svg svg 12179 ALTIMG 1-s2.0-S0378778823000361-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/aaeaf9014943d658e2a49bb8d189268c/si8.svg si8 si8.svg svg 12252 ALTIMG 1-s2.0-S0378778823000361-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823000361/STRIPIN/image/svg+xml/4629a1963c639fdc6467b7c82d5dc3a7/si9.svg si9 si9.svg svg 15689 ALTIMG 1-s2.0-S0378778823000361-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10RKQD9PKGB/MAIN/application/pdf/ed5b1ce51e8a6503972bd7112fb66721/am.pdf am am.pdf pdf false 7435088 AAM-PDF ENB 112806 112806 S0378-7788(23)00036-1 10.1016/j.enbuild.2023.112806 Fig. 1 High-level structure of inverse model-based virtual metering method for fault impact analysis. Fig. 2 A generic multiple zone VAV AHU system presenting the BAS trend data types used by the inverse model-based fault impact analysis tool except for T ma . T ma is included in the figure for reference, however it is not a required data type for the fault impact analysis tool. Fig. 3 Overview of energy model geometry. The dashed line represents an adiabatic boundary condition as these surfaces are in contact with other conditioned indoor spaces. Fig. 4 An example of a timestep when Q vav experiences a dramatic change when the perimeter heating devices are off. The red filled circle indicates the timestep of interest (t k ) used in estimating the thermal capacitance term C. Fig. 5 The red shaded region is an example of a period used to estimate the thermal resistance of a zone, which is a period when s prm and Q vav are both zero for several hours overnight. The red filled circle is an example of an instance used to estimate the capacity of the perimeter heater Q prm . Fig. 6 A schematic illustrating the interactions between the models and the controllers. The terms d, u, and y denote disturbances, controlled inputs, and controlled variables, respectively. Fig. 7 The behaviour of the fault-free (a) zone controller. The range of permissible SAT values. Fig. 8 Mixing box damper position to outdoor air fraction relationship for the BAS data synthetically generated by using EnergyPlus. The scatter points represent outdoor air fraction estimates computed using Eqn. (5). The solid red line represents the regression model for the scatter plot computed using Eqn. (7). The green shaded region indicates the expected range of behaviour for parallel blade dampers [54]. Fig. 9 Inverse modelling results for three representative zones (see Fig. 3 for room locations). The box-whisker plots present the distribution of C and Qprm estimates for each day conditions were suitable for parameter estimation. Each scatter point indicates the heat release rate from the thermal mass and the difference between Toa and Tin,i at time intervals suitable for estimating the R-value. Note the slope of the line-fit through the scatter plot is equal to the thermal transmittance (i.e., the reciprocal of the thermal resistance R). Fig. 10 The box-whisker plots presenting the distribution of C and R estimates for each of the 26 zones. Each scatter point indicates the actual Q prm (hard-sized EnergyPlus perimeter heating device capacity) and predicted Q prm (estimated via inverse modelling). Fig. 11 Comparison of inverse model-based virtual meters with the EnergyPlus meters. Black dotted lines are extracted from EnergyPlus, and the solid red lines are predicted by the fault impact analysis tool. Fig. 12 Heating and cooling loads of the 72-zone VAV AHU system without fault correction (the existing state) and with fault correction (the fault-free state). Fig. 13 An overview of the operational characteristics of the 72-zone VAV AHU system without fault correction (the existing state) and with fault correction (the fault-free state). Fig. 14 Outdoor air fraction to outdoor air temperature relationship of (left) the existing system and (right) the fault-free system. Fig. 15 Mixing box damper position to outdoor air fraction of the existing system. The scatter points represent outdoor air fraction estimates computed using Eqn. (5). The solid red line represents the regression model for the scatter plot computed using Eqn. (7). The green shaded region indicates the expected range of behaviour for parallel blade dampers [54]. The trained regression model is in the following functional form: f oa s mb , d p = 1.042 1 + exp - 3.747 ∙ s mb , d p + 3.063 and has an R 2 value of 0.57. Table 1 The sequential zone model parameter estimation process. Estimating energy savings from HVAC controls fault correction through inverse greybox model-based virtual metering Burak Gunay a \u204e Brodie W. Hobson b Darwish Darwazeh b Jayson Bursill c a Department of Civil and Environmental Engineering, Carleton University, Ottawa, Canada Department of Civil and Environmental Engineering Carleton University Ottawa Canada Department of Civil and Environmental Engineering, Carleton University, Ottawa, Canada b Construction Research Centre, National Research Council Canada, Ottawa, Canada Construction Research Centre National Research Council Canada Ottawa Canada Construction Research Centre, National Research Council Canada, Ottawa, Canada c Delta Controls, Surrey, Canada Delta Controls Surrey Canada Delta Controls, Surrey, Canada \u204e Corresponding author. Fault impact analysis is an important phase of fault detection and diagnosis (FDD), enabling prioritization of the faults detected and allocation of resources to procure services and materials. However, many existing fault impact analysis workflows rely on building performance simulation (BPS) models with high engineering cost, limiting their use in FDD software. To this end, this paper introduces an inverse greybox model-based fault impact analysis method using building automation system (BAS) trend data from variable air volume (VAV) air handling unit (AHU) systems to quantify the heating and cooling energy impact of control system faults. It trains inverse models of a VAV AHU system by employing a sequential parameter estimation algorithm, formulates virtual meters quantifying the sensible heat transfer rate from AHU heating and cooling coils and the perimeter heating devices, and employs the virtual meters to estimate heating and cooling energy use of an existing VAV AHU system and the same system after fault correction. The method was used with a synthetic BAS dataset generated by using an EnergyPlus model of a 26-zone VAV AHU system in Ottawa, Canada. The results indicate that the virtual meters could estimate the monthly energy use for heating and cooling at a coefficient of variation of the root mean squared error (CV(RMSE)) of 4\u20136%. The method was demonstrated with measured BAS data from a 72-zone VAV AHU system, revealing an energy savings potential of 43% for heating and 22% for cooling through fault correction. Keywords Fault detection and diagnosis Fault impact analysis HVAC controls Sequences of operation Inverse modelling Data availability Data will be made available on request. 1 Introduction Controls hardware and programming logic faults in HVAC systems are estimated to waste 5 % to 30 % of the energy used in commercial buildings [1]. The controls hardware faults (i.e., hard faults) emerge, accumulate, and affect performance, as sensors and actuators age during the service life of a building. On the other hand, programming logic faults (i.e., soft faults) arise due to human errors in the initial design and implementation of sequences of operation as well as due to ad hoc overrides during operation [2]. Notably, sequences of operation are often custom-designed and -implemented as unique controller programs for each large commercial building project. Design and implementation of these programs are seldom accompanied with rigorous quality control procedures [3]; and, commissioning is limited to ensuring that sensors and actuators are installed and respond correctly as individual entities \u2013 not collectively as a complete system [4]. As a result, aside from hard faults, programming logic faults are also widespread in existing buildings. They create suboptimal operating conditions such as simultaneous heating and cooling, improper economizer sequence, fan speed modulation errors, and equipment staging and control loop tuning issues [5]. In the last three decades, fault detection and diagnosis (FDD) for HVAC systems has emerged as a field of research broadly studying methods to optimize a building\u2019s operation by continuously correcting its faults. FDD algorithms have been classified into three categories as quantitative, qualitative, and process history-based methods [6,7]. Quantitative methods employ detailed physics-based models acting as performance benchmarks. Due to their relatively higher engineering cost, examples of quantitative FDD methods are rather sparse in the literature [8,9]. Qualitative methods are rulesets with expert defined thresholds. Schein et al. [10,11]\u2019s air handling unit (AHU) performance assessment rules and variable air volume (VAV) terminal unit performance assessment control charts are two well-known examples of qualitative FDD methods. Qualitative FDD methods have been criticized for generating too many false positives, while still missing some faults [12,13]. This is likely because these rules operate as independent entities without fully capturing system to zone level interactions. For example, AHU level faults may trigger zone level fault alarms. Similarly, zone level faults (e.g., rogue zones with faulty temperature sensors) may cause the whole VAV AHU system to operate inappropriately [14]. The difficulty to capture such hierarchical interactions with expert rulesets has been widely recognized [15]. Process history-based methods that utilize data-driven models (i.e., inverse models) enable systematic assimilation of building automation system (BAS) trend data. FDD rules derived upon these data-driven models are considered superior to qualitative rulesets with expert defined thresholds [16]. Currently, process history-based FDD methods represent the majority of papers in the FDD literature. In these papers, a wide range of data-driven modelling techniques have been employed, including blackbox (e.g., neural network, support vector machine, principal component analysis) and greybox (e.g., thermal resistance\u2013capacitance network) models [17]. Parallel to research to develop more accurate and robust FDD algorithms, commercialization efforts are well underway. In 2017, Granderson et al. [18] reviewed 14 different commercially available FDD software solutions. Of them, 12 employed qualitative FDD algorithms. A few FDD software vendors reported supplementing their qualitative rulesets with quantitative and process history-based methods. ASHRAE Guideline 36 [19] provides a list of faulty operating conditions, which is an important step towards the standardization of FDD methods employed by commercial FDD solutions. Another important related effort aims to standardize the BAS metadata mapping process [20,21]. Notably, deployment of FDD solutions requires correctly mapping many BAS data streams. Currently, this points mapping process is a tedious manual process, as most existing buildings do not follow a standard BAS data labelling schema [22]. Therefore, standardization of BAS data tagging is a critical step to reduce the deployment costs for commercial FDD solutions, ultimately making them a plug-and-play technology. A weakness reported by the users of FDD solutions is the lack of realistic estimates for the energy and cost savings potential [23]. Building owners need to triage the faults detected and allocate resources to procure services and materials from appropriate trades [17]. This situation highlights the necessity to conduct fault impact analysis. 1.1 Literature review One of the main areas of activity in developing fault impact analysis methods has been to formulate models representing the behaviour of HVAC systems, components, and devices in the presence of common faults in building energy models [24]. Examples include models for compressor valve leakages [25], coil fouling [26,27], coil valve failures [28], leaking mixing box dampers [29], and thermostats and humidistat biases [26]. These fault models were intended for use within building performance simulation (BPS) tools such as EnergyPlus, TRNSYS, Modelica, and HVACSIM+. At first, researchers incorporated these models into BPS models through custom codes. For example, Wang and Hong [30] incorporated custom fault models into EnergyPlus via its Energy Management System (EMS) application environment. Padilla and Choinière [31] incorporated fault models by using the Modelica buildings library [32]. Pourarian [33] and Khire and Marija [34] implemented fault models into the BPS tools HVACSIM+ and TRNSYS, respectively. Subsequently, some fault modelling capabilities were incorporated as native objects into prominent BPS tools. For example, EnergyPlus v22.1 contains many of the HVAC fault models from the literature. Further, advanced custom fault modelling capabilities have been enabled through EnergyPlus via its Python EMS environment. Li and O\u2019Neill [24] identified two main applications for having fault models in BPS tools. Firstly, BPS tools offer a sandbox environment for the development and testing of FDD algorithms. For example, both faults and FDD algorithms can be implemented into the EMS environment of EnergyPlus [35]. Doing so would enable finetuning parameters of an FDD algorithm before deployment in real-world. Secondly, BPS tools offer an environment to study the impact of faults on energy and comfort performance. For example, Zhang and Hong [26] demonstrated the energy impact of outdoor air temperature sensor bias, zone temperature and humidity sensor bias, and fouling air filter faults for five different climate zones using a generic EnergyPlus model. Li and O\u2019Neill [36] introduced a comprehensive fault impact analysis framework. They employed EnergyPlus simulations of the US DOE prototype medium office model involving 129 fault modes and 41 fault models in four US climate zones. The study ranked fault types in terms of their impact on energy use. Another study was conducted to quantify the impact of faults in secondary schools in the US [37]. More recently, Lu et al. [29] studied the energy impact of 359 unique fault scenarios on Guideline 36 [19] sequences of operation. They used the US DOE prototype medium office model implemented in Modelica. Representing faults in BPS models is critical to acquire a high-level understanding of the significance of various faults for different archetypes in different climates. However, it does not address FDD vendors\u2019 need for building-specific fault impact analysis. Developing custom BPS-models for each building is cumbersome and impractical for FDD software developers. Surrogate models for fault impact analysis trained from many BPS simulations could practically rectify this problem [38]. However, to date, a surrogate model tailored to this application has yet to be developed. A promising alternative to fault impact analysis through BPS models is virtual meters employing inverse greybox models trained with BAS data [39]. For example, Darwazeh et al. [40] demonstrated that even a simple resistor\u2013capacitor (1R1C) thermal network model acting as a virtual meter is capable of estimating the thermal energy transfer from hydronic perimeter heating devices. Darwazeh et al.\u2019s virtual meters were compared to physical submeters deployed at each perimeter heating device. It was concluded that virtual meters could estimate the daily thermal energy output from hydronic perimeter heating devices at a normalized root mean squared error (NRMSE) of 16\u201318 %. In other studies, virtual meters that can accurately estimate the thermal energy added/extracted by AHU heating and cooling coils [41], water flow rate in AHU heating and cooling coils [42], and electricity consumed by fans, pumps, and condensers [43] have been developed. Simply put, virtual meters have been employed to predict energy consumption of an existing HVAC system from inverse models trained with BAS trend data. The existing system may contain one or more faults. However, fault impact analysis requires inverse models behind these virtual meters to be simulated to find out what the system\u2019s energy use would be if it could follow fault-free sequences of operation. The ability to simulate an existing system\u2019s fault-free version with inverse greybox models, in lieu of BPS models, would eliminate the aforementioned scalability issues. However, inverse model-based virtual meters have not been used in fault impact analysis in the literature. 1.2 Motivation and objectives Inverse greybox modelling has been successfully employed in virtual meters for different end-uses. The inverse models also enable simulating the fault-free version of an existing system\u2019s operation. Therefore, inverse model-based virtual meters can help estimate the energy impact of faults in a specific HVAC system and prioritize and schedule operation and maintenance tasks. To this end, this paper brings together inverse greybox model-based virtual meters for multiple zone VAV AHU systems from the literature [40,41] as a framework to quantify the energy impact of hard and soft faults. The practical advantage of using virtual meters derived upon inverse greybox models for fault impact analysis in lieu of BPS models is that it largely eliminates the engineering cost to assemble a custom BPS model. The proposed method is entirely data-driven and has been compiled as a function which merely requires BAS data input in a certain format (the function is made available along with sample data [44]). In this regard, the proposed method differs from existing fault impact analysis approaches in the literature, which rely on operational faults implemented into EnergyPlus or other BPS environments. Inverse greybox model-based virtual metering techniques have yet to be commercially adopted for fault impact analysis. The novelty of this paper is in developing an entirely data-driven fault impact analysis approach largely eliminating the engineering time and knowledge required to build BPS models for each system studied. The main objective is to introduce a purely BAS trend data-driven method for building-specific fault impact analysis. The method is intended to be incorporated within FDD software tools to enhance their predictions for the energy savings potential through the correction of detected faults. The method is developed by using a synthetic BAS dataset generated from an EnergyPlus model of an academic office building served by a multi-zone VAV AHU system. The accuracy of the virtual meters is verified by comparing them to the EnergyPlus meters for heating and cooling rate for AHU heating and cooling coils, and perimeter heating devices. Simply put, EnergyPlus is merely used as a high-fidelity simulation environment and as a reference point for comparison for the heating and cooling load predictions of the method prior to application using real BAS data. It is then demonstrated with BAS trend data extracted from an actual 72-zone VAV AHU system located in Ottawa, Canada. The savings predicted through fault correction are associated with physical hard and soft faults detected in this system. The method is compiled as a standalone Matlab function and made available with sample data as supplementary files along with this publication [44]. The scope of this paper is limited to the use of inverse greybox model-based virtual meters for estimation of existing and corrected (i.e., fault-free) sensible heating and cooling loads in a multiple zone VAV AHU system. 2 Methodology Fig. 1 presents a high-level structure of the inverse model-based virtual metering method for fault impact analysis. The method inputs hourly weather data and BAS trend data from a multiple zone VAV AHU system and generates hourly heating and cooling load profiles of the existing system and a fault-free version of it. While faults have an impact on the fan electricity use as well, the scope of this work is limited to the impact of faults on heating and cooling end-uses. Details of the input data are provided in Subsection 2.1. First, inverse greybox models representing each VAV zone and the AHU are created, as explained in Subsection 2.2. Virtual meters for perimeter heating devices and AHU heating and cooling coils are formulated as explained in Subsection 2.3. These virtual meters are used to estimate the hourly sensible heating and cooling rate of an existing VAV AHU system. The inverse models are then coupled with fault-free controllers (modified from ASHRAE Guideline 36) to estimate the hourly sensible heating and cooling rate of the fault-free version of the same VAV AHU system. These controllers are explained in Subsection 2.4. In addition, inverse models are trained with BAS trend data from a VAV AHU system in which hard faults may be present (e.g., certain zones may have reheat coils with a stuck open valve, and some others may have a faulty VAV terminal unit damper). Thus, before simulating these inverse models with the fault-free controllers, a version of the inverse models free from hard faults needs to be created. This process is also explained in Subsection 2.4. The method is compiled into a standalone Matlab function [44] to execute the tasks encircled with the dashed line in Fig. 1 automatically. 2.1 Input data The function requires seven BAS trend data types at the AHU level: supply air temperature (Tsa ), return air temperature (Tra ), heating coil valve position (shc ), cooling coil valve position (scc ), mixing box damper position (smb,dp ), supply fan state (sfan ), and supply air pressure (Psa ). In addition, three BAS trend data types are required from each VAV zone: indoor temperature (Tin ), VAV discharge airflow rate (qvav ), and VAV discharge airflow setpoint (qvav,sp ). A fourth BAS trend data type is required from each zone with a perimeter heating device, representing the perimeter heating valve position (sprm ). Fig. 2 presents these points on a generic multiple zone VAV AHU system. The two types of weather inputs are also used: outside air temperature (Toa ) and global horizontal solar radiation (Qsol ). These two can be queried from different solar and meteorological data providers. Herein, the authors used the NASA Power API given the latitude, longitude, and time interval [45]. The function also requires a few user inputs: the minimum mixing box damper position setpoint (smb,dp, min -sp ), a binary seasonal availability indicator where zero means heating and cooling are available year-round and one means heating is available from October to April and cooling is available from May to September, scheduled start and stop times of the system, a binary weekend availability indicator where one means the system is available in the weekend and zero it is not, and default heating and cooling temperature setpoints during occupied and unoccupied operating modes. 2.1.1 Validation with data synthetically generated using an EnergyPlus model The accuracy of the inverse models and virtual meters was tested by comparing their ability to replicate a high fidelity VAV AHU system model built in EnergyPlus. Simply put, the EnergyPlus model was used to generate the synthetic BAS trend data, which is then used as input to the fault impact analysis function. The EnergyPlus meters for the sensible heat transfer rate from the AHU heating and cooling coils and the perimeter heating devices were then compared with the predictions of the fault impact analysis function to quantify accuracy. To this end, a model of a 26-zone VAV AHU system with hydronic perimeter heating was built in the BPS tool EnergyPlus (see Fig. 3 ). The VAV AHU system serves the top floor of an academic office building in Ottawa, Canada. The south and east walls, indicated with dashed lines in Fig. 3, and the floor were treated as adiabatic surfaces because they represent boundaries adjacent to other conditioned indoor spaces. The floor geometry, envelope, and HVAC system properties were taken from the design drawings. The cooling coil was available from May to September, and the heating coil was available from October to April. The AHU was scheduled available from 6 am to 6 pm on both weekdays and weekends. The zone temperature setpoint was 22 °C in the winter and 23.5 °C in the summer. Outside scheduled operating hours a temperature setpoint of 15 °C and 30 °C was maintained in the heating and cooling seasons, respectively. The minimum mixing box damper position setpoint was 43 % (as indicated in the design drawings). Occupant count data were generated using one-year of Wi-Fi device count and motion detector data and the sensor fusion approach described in Hobson et al. [46]. The lighting power density for each zone was set to 8 W/m2 [47] during occupied hours only. The plug-in equipment electricity use was set to 100 W per person during occupied hours, which was reduced to 75 W per person after-hours on workdays, and 50 W per person during weekends [48]. The EnergyPlus model was then used to generate the BAS data required for the method. In addition, the EnergyPlus model was utilized to generate hourly sensible heating and cooling energy transfer rates from the AHU heating and cooling coils, and the perimeter heating devices. The inverse model-based virtual metering results were compared to EnergyPlus meter outputs to quantify their accuracy. To this end, two statistical error metrics were used: the coefficient of variation of the root mean squared error (CV(RMSE)) and the normalized mean bias error (NBME). The CV(RMSE) is calculated as follows: (1) CV ( R M S E ) = ∑ i n y i - y ^ i 2 n y ¯ where y (kW) is the reference values for heating or cooling loads (herein acquired either through a high fidelity EnergyPlus model), y ^ (kW) is the predicted heating or cooling loads, i is the index number of heating or cooling load data, n is the number of data points in the dataset, and y ¯ (kW) is the mean of the reference heating or cooling load data record. The NMBE is calculated as follows: (2) NMBE = ∑ i n y i - y ^ i n y ¯ ASHRAE Guideline 14 [49] defines acceptable CV(RMSE) and NMBE thresholds as 15 % and 5 %, respectively, for monthly data and 30 % and 10 %, respectively, for hourly data. In this paper, we used these thresholds to interpret the accuracy of the virtual metering algorithms. 2.1.2 Demonstration of the method with data from a real VAV AHU system After validation with simulation data, the method was demonstrated with measured data from a 72-zone VAV AHU system located in an academic office building in Ottawa, Canada. The minimum mixing box damper position setpoint was 10 %. The heating and cooling temperature setpoints were 22 °C and 23.5 °C, respectively. The unoccupied heating and cooling temperature setpoints were 18 °C and 27 °C, respectively. The AHU was scheduled on between 8 am and 8 pm both weekdays and weekends. The system received hot water from a central heating plant from October to April, and chilled water from an on-site cooling plant between May and September. The points listed in Fig. 2 were downloaded from the cloud-based BAS data storage system at hourly intervals between June 1, 2017, and May 31, 2018. 2.2 Inverse model for the VAV AHU system The VAV AHU system is assembled from AHU and zone models previously developed [16,40,41]. The AHU model predicts the supply air temperature as follows: (3) T sa = T ma + Δ T hc + Δ T cc + Δ T fan where T (°C) is the air temperature and ΔT (°C) is the temperature change across an AHU component. The subscripts ma, hc, cc, and fan represent mixed air, heating coil, cooling coil, and the supply fan, respectively. If the humidity ratios of outdoor and return air are close, Tma can be approximated as follows: (4) T ma = f oa ∙ T oa + 1 - f oa ∙ T ra where foa is the outdoor air fraction. If Tma is not monitored by a dedicated sensor, at timesteps when heating and cooling coil valves are both closed (i.e., ΔThc/cc = 0 °C), foa can be approximated as follows: (5) f oa = T sa - Δ T fan - T ra T oa - T ra The temperature rise across the fan is represented as a linear function of Psa (Pa) as follows [41,50]: (6) Δ T fan = P sa ∙ 1 ρ ∙ c p ∙ η where ρ (kg/m3) and c p (J/kg°C) are the density and specific heat of air, respectively. The term η is the fan total efficiency if the motor is not in the airstream. If the motor and transmission are in the airstream, η is the product of motor, transmission, and fan efficiencies. The AHU fans considered in this paper maintain a maximum Psa of ∼ 500 Pa. Using fan and motor efficiencies, the pressure rise across the fan at different loads from design specifications, and sfan trend data, the temperature rise across the fan was estimated between 0.5 and 0.8 °C. Recall that foa in Eqn. 5 represents an approximation for the outdoor air fraction at timesteps when the heating and cooling coil valves are closed. However, a regression model is still needed between the outdoor air fraction and mixing box damper position data records in order to estimate the outdoor air fraction at any mixing box damper position. With the foa values computed at many timesteps and the trend data for mixing box damper command signal smb,dp , a regression model for the relationship between foa and smb,dp could be developed. In this paper, the following exponential model form was used [16]: (7) f oa s mb , d p = x 1 , m b 1 + exp x 2 , m b ∙ s mb , d p + x 3 , m b where x represents the unknown parameters and the subscript mb stands for the mixing box. This regression model will be used in the AHU heating and cooling coil virtual meters (see Subsection 2.3). Developing virtual meters for the heat supplied by each perimeter heating device with only air-side measurements requires an inverse greybox model characterizing the thermal mass and resistance of each zone [40]. The authors employed a simple one resistance and one capacitance (1R1C) thermal model for each thermal zone, as this model formulation has been found acceptable for controls-oriented applications [40,51]. A VAV AHU system with n thermal zones would then be represented by a network of n resistances and n capacitances. The 1R1C model is represented in the following mathematical form: (8) C i d T in , i dt = T oa - T in , i ∙ 1 R i + Q misc , i + Q hvac , i where C (kJ/°C) and R (°C/kW) are two unknown parameters representing the thermal capacitance and resistance of zone i. Qmisc,i (kW) and Qhvac,i (kW) represent uncontrollable (i.e., disturbance) and controllable (i.e., HVAC) heat sources, respectively. The sensible thermal loads added/extracted to/from zone i by the HVAC systems (Qhvac,i ) are calculated as follows: (9) Q hvac , i = s prm , i ∙ Q prm , i + ρ air ∙ c air ∙ q vav , i 1000 ∙ T sa - T in , i where ρair (kg/m3) and cair (kJ/kg°C) are the density and specific heat of air. Recall that sprm,i (%) is the state of the perimeter heater, Tsa (°C) is the supply air temperature, and qvav,i (L/s) is the VAV discharge airflow rate. The parameter Q prm , i (kW) is an unknown regression coefficient representing the effective capacity of perimeter heaters in zone i. Note that the term ρ air ∙ c air ∙ q vav , i 1000 ∙ T sa - T in , i represents the sensible heat added by the VAV terminal Qvav,i . 2.2.1 Parameter estimation A challenge in estimating parameters of interest R, C, Qprm is the time-variant and stochastic nature of the disturbances Qmisc , which represent typically unmeasured quantities such as solar and casual heat gains induced by the occupant behaviour (e.g., lighting, plug-in-equipment, operable shade use). While it is reasonable to assume a time-invariant R and C for controls-oriented applications, Qmisc is expected to exhibit a significant daily and seasonal variation. Thus, global parameter estimation approaches assigning constant or steady-periodic values to Qmisc suffer from loss of accuracy [13,40]. A second limitation of global parameter estimation approaches is to discern the parameter estimates R and C, as these two parameters are not independent and the time-constant (i.e., R × C) governs the general temperature response. The authors attempt to rectify these limitations by partitioning the solution space into different intervals of interest, which lends itself to the estimation of the parameters one at a time. Simply put, the dataset is first partitioned into periods that enable direct estimation of the parameter C (i.e., instances at which a VAV terminal unit switches on). By isolating each VAV switch on instance individually, we could assume that the outdoor temperature just before and just after each event is constant. Thus, the change in temperature slope before and after each event could be exclusively attributed to the change in the heat delivered by the VAV terminal. This enabled us to estimate the parameter C first. Then, the estimate for parameter C is used during free-floating periods to determine the parameter R. Similarly, the estimates for parameters C and R are used at instances of perimeter heating device state change to determine the parameter for the perimeter heater capacity Qprm . Lastly, Qmisc is determined using the time-invariant parameters estimated previously R, C, and Qprm . First, the timesteps in which the heat added by the VAV terminal Qvav,i changes more than 0.5 kW and the perimeter heating devices are off are identified. Notably, the magnitude of this 0.5 kW threshold can be increased for buildings with large VAV terminals. Increasing this threshold will reduce the number of eligible timesteps for parameter estimation and decreasing it may induce insignificant temperature slope changes governed primarily by measurement error in lieu of physical processes. Thus, this value should be selected carefully, after conducting a sensitivity analysis by incrementally increasing it and comparing the parameter estimate C acquired each time. In this paper, this condition is typically the first timestep each morning in the summer, when the VAV terminal begins receiving cool supply air. An illustrative example is highlighted with a red filled circle symbol in Fig. 4 . Given a small timestep size of one hour or less, it can be assumed that the disturbances and indoor and outdoor temperature differences just before and at timestep k are equal (i.e., Qmisc,i,k-1 ≈ Qmisc,i,k, Toa,k-1 - Tin,i,k-1 ≈ Toa,k - Tin,i,k ). This leaves only the change in the heat delivered by the VAV terminal between tk -1 and tk to explain the change in the indoor temperature change rate. Thus, the value of thermal capacitance at timestep k (Ck ) can then be estimated as follows: (10) C i , k = Q vav , i , k - Q vav , i , k - 1 T in , i , k + 1 - T in , i , k Δ t - T in , i , k - T in , i , k - 1 Δ t Note that the parenthetical terms in the denominator T in , i , k - T in , i , k - 1 Δ t and T in , i , k + 1 - T in , i , k Δ t represent the rate of change in the indoor temperature before and after the VAV switch on event at timestep k, respectively. These temperature slopes are illustrated in Fig. 4 with thick red lines extending before and after the event. The term in the numerator ( Q vav , i , k - Q vav , i , k - 1 ) represents the change in the cooling rate by the VAV terminal due to the switch on event at timestep k. The change in Qvav at timestep k is also illustrated with an example shown in Fig. 4. Note that Ci,k is estimated for each suitable timestep k (i.e., when Qvav,i changes more than 0.5 kW and the perimeter heating devices are off) for each zone i. Due to potential measurement and modelling error, C estimates for zone i at each suitable timestep k are expected to be somewhat different. Thus, the median value for individual Ci,k estimates will be used by the virtual metering algorithms (i.e., median of C values estimated at different timesteps). The authors selected the median, instead of mean, of this parameter to reduce the potential impact of outliers. We also defined a wide search range of 100 kJ/°C to 10,000 kJ/°C for the Ci,k values. For the ease of interpretation, this range corresponds to having a thermal mass equivalent to approximately 50 kg to 5000 kg of concrete actively participating to the primary thermal response of a zone. To eliminate the effect of outliers, timesteps yielding unreasonable Ci,k values are removed from further analysis. Once the thermal capacitance of a zone Ci is estimated, the thermal resistance Ri can be estimated by identifying time intervals when qvav,i and sprm,i are both zero, Toa is less than 0 °C, and Qsol is 0 W/m2 for at least four hours continuously. Cold outdoor temperatures when the solar irradiance is zero are selected to ensure that heat transfer through the envelope is the governing factor defining the temperature change rate. Fig. 5 presents an illustrative example for a period that fulfill these conditions. Note that the term Qhvac,i in Eqn. 8 is zero during these periods. Further, because these periods correspond to unoccupied hours after sunset in winter, Qmisc,i is assumed constant. Given Ci is known, Qhvac,i is zero, and Qmisc,i is constant over these periods, the unknown parameter Ri in Eqn. 8 can be solved by the least-squares method. The third step in zone model identification is to determine the perimeter heater capacity Qprm,i for each zone. To this end, time steps at which the perimeter heating devices switch on are identified. The effect of the thermal mass of a perimeter heating device itself is minimized by focussing on periods during which the heater is off for at least one hour and once it turns on, it stays on for at least an hour continuously. Fig. 5 presents an example of one such instance. Assuming that disturbances and temperature difference between indoors and outdoors do not change just before and after a timestep of interest (tk ) (i.e., Qmisc,i,k-1 = Qmisc,i,k, Toa,k-1 - Tin,i,k-1 = Toa,k - Tin,i,k ), the general model introduced in Eqns. (8\u20139) can be discretized and restructured to enable estimation of Qprm,i : (11) Q prm , i , k = C i , k ∙ T in , i , k + 1 - T in , i , k Δ t - T in , i , k - T in , i , k - 1 Δ t - Q vav , i , k - Q vav , i , k - 1 s prm , i , k - s prm , i , k - 1 Similar to the estimation of thermal capacitance, acknowledging potential measurement and modelling errors, Qprm estimate for zone i at each suitable timestep is expected to be different. Thus, the median value for individual Qprm estimates will be used by the virtual metering algorithms. Once the time-invariant parameters of the zone model defined in Eqn. (8) (i.e., R, C, Qprm ) are determined, the time-variant parameter Qmisc can be determined. Simply put, because the thermal energy stored/released by the capacitance term ( C i d T in , i dt ), the heat exchange between indoors and outdoors ( T oa - T in , i ∙ 1 R i ) , and heat added/removed by the VAV terminal and the perimeter heating devices (Qhvac,i ) can be calculated for every timestep, the remainder (Qmisc,i ) can be determined as the value sustaining the mathematical equality in Eqn. (8) at each timestep. Qmisc,i values that are more than three median absolute deviations from the median are considered as outliers. The outliers were replaced by linear interpolation of neighbouring, non-outlier values by using Matlab\u2019s filloutlier function. Notably, the sequential parameter estimation algorithm presented here differs from others using thermal network models (e.g., [13,40,51]) in that it yields a time-variant Qmisc term instead of a time-invariant one. Partitioning the dataset into unique short intervals where a constant Qmisc assumption holds true enabled estimation of time-invariant parameters C, R, and Qprm one by one without forcing an inappropriate constant or steady-periodic Qmisc parameter globally. Table 1 presents a pseudocode summarizing the sequential zone model parameter estimation process introduced in this paper. 2.3 Virtual meters Four virtual meters using four inverse model parameters (x 1-3 ,mb in Eqn. (7) and Qprm ,i in Eqn. (11)) are used to estimate the sensible heat injected by the AHU heating and cooling coils and the perimeter heating devices. The AHU heating coil virtual meter estimates the sensible heat transfer from an AHU heating coil as follows: (12) Q htg , a h u = T sa - x 1 , m b 1 + exp x 2 , m b ∙ s mb , d p + x 3 , m b ∙ T oa + 1 - x 1 , m b 1 + exp x 2 , m b ∙ s mb , d p + x 3 , m b ∙ T ra - Δ T fan ∙ ∑ i n q vav , i ∙ ρ air ∙ c air ∙ s hc > 0 Note that the first parenthetical term represents the temperature rise/drop between the supply and mixed air temperatures after removing the effect of temperature rise across the supply fan. The second parenthetical term is the total air mass flow rate received by the n VAV terminals multiplied by the specific heat of air. For simplicity, the density and the specific heat of air are assumed to be 1.2 kg/m3 and 1 kJ/kg°C. The third parenthetical term is a logical operator that yields zero if the heating coil valve is fully closed and otherwise one. Similarly, the AHU cooling coil virtual meter estimates the sensible heat transfer from an AHU cooling coil as follows: (13) Q clg , a h u = T sa - x 1 , m b 1 + exp x 2 , m b ∙ s mb , d p + x 3 , m b ∙ T oa + 1 - x 1 , m b 1 + exp x 2 , m b ∙ s mb , d p + x 3 , m b ∙ T ra - Δ T fan ∙ ∑ i n q vav , i ∙ ρ air ∙ c air ∙ s cc > 0 Eqn. (13) is identical to Eqn. (12) with the exception that the last parenthetical term is a logical operator using the cooling coil state instead of the heating coil state. The perimeter heater virtual meters provide an estimate of the sensible heat transfer from the perimeter heating device in a zone (Qhtg,prm ,i) as follows: (11) Q htg , p r m , i = Q prm , i ∙ s prm , i Recall that Qprm ,i (kW) is the perimeter heater capacity of zone i which was estimated as explained in Table 1. In addition to the four inverse model parameters (x 1-3 ,mb in Eqn. (7) and Qprm ,i in Eqn. (11)), the virtual meters presented in Eqns. (12 to 14) require the following inputs: Tsa , Tra , Toa , Psa , smb,dp , qvav ,i, sprm ,i, shc , and scc. The energy use of an existing VAV AHU system can be estimated by simply using the historical trend data for these variables. However, energy use of a fault-free system requires simulating the inverse models developed with best-practice sequences of operation. 2.4 Estimating fault-free system\u2019s energy use Zone and AHU controllers are defined to estimate the fault-free behaviour of the VAV AHU system represented by the inverse models introduced in Subsection 2.2. While simulating the fault-free behaviour, these controllers determine several of the input variables for the inverse models and the virtual meters. Fig. 6 provides an overview of the interactions between the controllers and the inverse models. The models input controlled inputs u and disturbances d, and emulate the controlled variables y. Zone and AHU controllers communicate to determine the trim & response behaviour for system-level controlled variables. Guideline 36 [19] definitions for state of operation, mode of operation, supply air temperature (SAT) setpoint and supply airflow setpoint reset formed the basis of the controllers used in the fault impact analysis function. The zone controller for zone i aims to maintain the user defined occupied and unoccupied mode temperature setpoints by modulating the VAV airflow rate for zone i between the minimum and maximum VAV airflow setpoints and the perimeter heating device valve between 0 % and 100 % (see Fig. 7 (a)). The minimum and maximum VAV airflow setpoint values are inferred from the input trend data qvav,sp ,i for each zone. If the control error of zone i is less than −1°C, a request to increase the SAT is sent to the AHU controller. If the control error of zone i exceeds 1 °C, a request to decrease the SAT is generated. If these 1 °C control error thresholds are violated outside scheduled operating hours, a wake-up request is sent to the AHU controller. As illustrated in Fig. 6, the model of zone i is invoked with the controlled variables uzn ,i (qvav,sp ,i and sprm ,i) and disturbance dzn ,i (Toa , Qmisc ,i, Tsa ). Note that while Tsa is a controlled variable for the AHU controller, it is treated as a disturbance for the zone controller. While the disturbances of a zone model remain constant for an hour, the zone model generates predictions of the zone temperature at one-minute intervals subject to varying uzn ,i. The process is repeated for all zones in a VAV AHU system. The AHU controller decreases the SAT value at a 0.5 °C/hour rate if the total number of SAT decrease requests exceeds the SAT increase requests. Similarly, the SAT value is increased at a 0.5 °C/hour rate if the total number of SAT increase requests exceeds the SAT decrease requests. The SAT values are confined by a lower and an upper limit at different outdoor temperatures (see Fig. 7(b) [52]). If a wake-up request persists over an hour for at least a single zone during unoccupied hours, the VAV AHU system enters the setup/setback mode and starts supplying conditioned air at SAT setpoint. The AHU supply airflow rate is set to the sum of the VAV discharge airflow setpoint values for all VAV terminals. The AHU controller also determines the state of operation. If the SAT setpoint is more than the mixed air temperature with smb,dp at its minimum position setpoint smb,dp, min -sp and the Toa is less than Tsa, the AHU operates in the heating state. In the heating state, Eqn. (12) calculates Qhtg,ahu . If the SAT setpoint is less than the mixed air temperature with smb,dp at smb,dp, min -s p and the Toa is less than Tsa, the AHU operates in the economizer state (Qhtg,ahu and Qclg,ahu are both zero). If Toa is less than Tra but more than the SAT setpoint, the AHU operates in the economizer with cooling state (Eqn. (13) calculates Qclg,ahu with smb,dp 100 % open). A maximum outdoor temperature of 20 °C is also introduced for the economizer with cooling state [53]. If Toa is more than both Tra and the SAT setpoint, the AHU operates in the cooling state (Eqn. (13) calculates Qclg,ahu with smb,dp at smb,dp, min -sp ). If the AHU mixing box damper to foa behaviour is outside the acceptable range for parallel blade dampers per AMCA [54] (i.e., faulty mixing box damper actuators), the faulty dampers are assumed to be replaced with a healthy damper following the authority 50 % curve to simulate the fault-free sequences of operation. 3 Results and discussion The results and discussion section first presents the analysis with synthetic BAS data generated from the EnergyPlus model described in Section 2.1.1. Because the perimeter heating devices are hard-sized, the simulation data enable us to verify the accuracy of the zone model parameters. Further, the virtual meter-based energy use estimates for heating and cooling are then compared with appropriate EnergyPlus meter outputs. Thus, the authors could quantify the accuracy of the virtual meters. Subsequently, the fault impact analysis tool is employed on the data from a real VAV AHU system (described in Section 2.1.2). Hourly heating and cooling end-uses for existing and fault-free operation of the system are presented. Existing and fault-free operating conditions are compared to interpret the changes in the heating and cooling energy use patterns. Lastly, unresolved issues regarding the fault impact analysis tool are identified, highlighting future research and development needs. 3.1 Analysis with the synthetic BAS data The results of the analysis with synthetic BAS data, which was generated from the EnergyPlus model presented in Section 2.1.1, are presented in two parts: inverse modelling results and verification of the virtual meters. 3.1.1 Inverse modelling results Fig. 8 presents the mixing box model (see Eqn. 7) trained with the synthetic BAS dataset. The results highlight that the relationship between the mixing box damper and outdoor air fraction is within the expected range for parallel blade dampers [54], which is indicated with the green shaded region in the figure. The model could also capture this behaviour accurately. The trained regression model, represented with a solid red line in the figure, was in the following functional form f oa s mb , d p = 1.338 1 + exp - 3.149 ∙ s mb , d p + 2.075 , and could fit the scatter points with an R2 value of 0.99. The figure presents mixing box damper position data equal or greater than 43 % because that is the minimum mixing box damper position setpoint for this VAV AHU system. Fig. 9 presents examples for the inverse modelling results for three of the 26 zones of the VAV AHU system simulated in EnergyPlus. The room IDs are annotated in the figure. The position and orientation of these rooms on the floor plate are shown in Fig. 3. Of them, zone 11 is a highly-glazed corner office with northwest- and southwest-facing facades, and zones 19 and 25 are two core spaces. Upon presenting the inverse modelling results in detail for these three representative spaces, an overview of the inverse modelling results for all 26 zones is provided in Fig. 10 . The boxplots of the top row shown in Fig. 9 present the distribution of thermal mass/capacitance parameter C at each timestep when the heat added by the zone\u2019s VAV terminal changed significantly in the summer (see Eqn. (10)). While the C estimates on different dates were tightly distributed in zones 11 and 25, there was a significant variation in zone 19. Further, the estimates for parameter C were significantly larger for zone 19 than for zones 11 and 25. This is expected because zone 19 is substantially larger than zones 11 and 25 (see Fig. 3). Each scatter point shown in the second row of Fig. 9 presents the heat release rate by the thermal mass and the temperature difference between indoors and outdoors at timesteps when the zone perimeter heating device and AHU fan were both off overnight in the winter. As explained in Subsection 2.2., the slope of the line-fit through the scatter points provides an estimate of the thermal transmittance (i.e., the reciprocal of the parameter R). Notably, the scatter plots for all three rooms were somewhat noisy, yielding line-fits with R 2 values between 0.43 and 0.58. Possible reasons include the choice of a relatively large timestep size of 60-min to address concerns of scalability to buildings, non-constant overnight Qmisc values varying throughout the year, and errors associated with the estimated C values. However, note that the timestep size was determined after a sensitivity analysis with the BAS trend data at 15-min and 60-min timesteps. After confirming that the results were in agreement, the fault impact analysis function was compiled to work with hourly data to ensure transferability to buildings where trend data are sampled at low temporal resolution. The boxplots of the third row of Fig. 9 present the distribution of perimeter heater capacity parameter Qprm at each timestep when the perimeter heater is switched on (see Eqn. (11)). The Qprm estimates exhibited a significant variation on some days, though the lower and upper quartiles were close in all three zones. The contributing factors to this variation are likely related to the thermal mass of perimeter heating devices and variations in the hot water temperature. Recall that the inverse models for each zone were comprised of three time-invariant parameters (C, R, and Qprm ), and a time-variant parameter Qmisc . Hence, the Qmisc term exhibited a day-to-day variation subject to day-to-day changes in solar and casual heat gains. The last row of Fig. 9 presents the Qmisc estimates for the 25th and 75th percentile weekday profiles. Notably, zones 19 and 25 do not have exterior windows, while zone 11 is a highly glazed corner office. Thus, the estimated Qmisc profiles are distinctively different in zone 11, whereby the behaviour is driven by the solar heat gains. Unlike zone 11, Qmisc behaviour can be attributed to the stochastic occupancy, lighting and plug load use patterns defined in the EnergyPlus model. Fig. 10 presents the distribution of the C and R estimates for each of the 26 zones (i.e., each box-whisker plot contains 26 values). The results indicate that the C values for individual zones range from 400 kJ/°C to 6500 kJ/°C. The outliers were the four largest zones (i.e., zone 12, 19, 21, and 26). The R estimates for individual zones ranged from 0.2 °C/W to 0.34 °C/W. Zones with large exterior window surface areas were identified as having smaller R estimates. More importantly, the scatter plot presents the actual and predicted Qprm values for each of the 26 zones. The actual values were extracted from the hard-sized EnergyPlus perimeter heater capacities for verification purposes. Notably, verification of the Qprm values is an important step because the process of estimating Qprm (explained in subsection 2.2) is dependent on having accurate R and C estimates. As shown in Fig. 10, the inverse modelling process was able to identify the Qprm values with an RMSE of 0.24 kW and a mean bias error (MBE) of 0.01 kW, meaning that the overall modelling process yields accurate and unbiased parameter estimates. 3.1.2 Verification of the virtual meters The accuracy of the virtual meters is quantified by comparing their predictions to the EnergyPlus meter outputs. To this end, sensible heat transfer rates from the AHU heating and cooling coils and the perimeter heating devices were extracted from the EnergyPlus model. Fig. 11 presents a comparison between these EnergyPlus meter outputs and those predicted by the virtual meters. For ease of interpretation, the figure presents data from July for the AHU cooling coil and from February for the AHU heating coil and perimeter heating devices. The figure also annotates the coefficient of variation of the RMSE (CV(RMSE)) and normalized mean bias error (NMBE) values for the monthly end-uses for the entire year. The results indicate that the CV(RMSE) and NMBE values were 4\u20136 % and 1\u20133 %, respectively. These metrics highlight that the inverse model-based virtual meters developed in this paper provide unbiased, accurate predictions of the major heating and cooling end-uses. Notably, CV(RMSE) and NMBE metrics both comply with ASHRAE Guideline 14 recommendations [49]. However, there were several visible differences between the AHU heating and cooling coils, which were concentrated at the beginning of the day. This is likely due to the fact that the virtual metering algorithms neglect the thermal mass of the heating and cooling coils. The effect of this simplification can be significant if the virtual meters are used to make subhourly load predictions while the heating and cooling coil valve positions are unstable between timesteps. However, as indicated by the low CV(RMSE) and NMBE values in Fig. 11, the virtual metering algorithms were able to attain accurate heating and cooling load predictions at lower temporal resolutions. Notably, these virtual meters are intended for fault impact analysis \u2013 i.e., for estimating the energy impact of faults over a year, not for estimating the subhourly heating and cooling loads. Thus, CV(RMSE) and NMBE metrics presented in the figure are computed in terms of the models\u2019 ability to estimate monthly heating and cooling energy use, not at hourly or subhourly resolutions. Simply put, as long as the virtual meters are capable of estimating the monthly heating and cooling energy use accurately, the inverse models are considered acceptable for fault impact analysis, despite occasionally over or under-estimating the hourly heating and cooling loads as shown in Fig. 11. 3.2 Demonstration with BAS data from a real VAV AHU system After the virtual meters\u2019 performance has been verified with synthetic BAS data generated from an EnergyPlus model, their use in fault impact analysis is demonstrated with data from a real VAV AHU system (the 72-zone VAV AHU system introduced in Subsection 2.1.2). The fault impact analysis function first estimates the inverse model parameters required by the virtual meters. The virtual meters presented in Subsection 2.3 are then used with existing trend data for Tsa , Tra , Toa , Psa , smb,dp , qvav ,i, sprm ,i, shc , and scc. This yields the heating and cooling load estimates for the existing system without fault correction (see Fig. 12 ). Subsequently, the trend data for the aforementioned variables are regenerated with fault-free sequences of operation as described in Subsection 2.4, and these variables are then used in the virtual meters to provide estimates for the heating and cooling loads after fault correction, also shown in Fig. 12. The results indicate that the AHU heating coils account for only about 4 % of the annual space heating needs for both existing and fault-free systems. However, a comparison between existing and fault-free states indicates that the total heating energy use was predicted to reduce by 43 % (from 67.4 MWh to 37.4 MWh) if the deficiencies in the sequences of operation were addressed. Fig. 13 provides an overview of the existing and fault-free operating conditions, respectively, to help interpret changes leading to this reduction in heating energy use. The results indicate that the existing system did not have an SAT setpoint reset logic and was maintaining the SAT at a constant 16 °C setpoint during the operating hours year-round. As a result, the VAV AHU system operated in the economizer state throughout the winter, when the average outdoor temperature was −7°C. This caused excessive outdoor airflow rates in the winter, leading to an increase in heating energy use. Similarly, the sensible heat transfer from the AHU cooling coil was predicted to reduce by 22 % (from 110 MWh to 85 MWh) after implementing fault-free sequences operation. This change can be partly attributed to a deficiency in the state of operation sequence. As shown in Fig. 14 , the existing VAV AHU system did not have the economizer with cooling state programmed correctly. The authors verified that the economizer was hardcoded to be available only when the outdoor air temperature was less than the SAT. In reality, this logic disregards the potential of outdoor air for free cooling when the outdoor temperature is above the SAT setpoint but still significantly less than the return air temperature. Simply put, the sequence did not take full advantage of the cool outdoor air to offset mechanical cooling needs. A second factor contributing to the reduction in space cooling loads is likely due to the anomalous behaviour of the mixing box dampers (see Fig. 15 ). Notably, the dampers could not sustain high outdoor air fractions and deviated outside the expected range of behaviour for parallel blade dampers [54], which is indicated by the green-shaded region in the figure. This factor also limits the VAV AHU system\u2019s ability to exploit outdoor air for free cooling, and increased reliance on mechanical cooling. Indoor temperature records in the winter indicate the outcomes of inappropriate zoning and VAV terminal sizing. The temperature responses of the zones were vastly different; a large number of zones were overheating, while many others required space heating. Combining zones of such diverse space heating/cooling needs under the same VAV AHU system introduces challenges in providing acceptable indoor temperatures. This is also evident with the minimal use of AHU heating coil. Traditionally, lowering SAT setpoints in the winter could eliminate overheating in the winter without creating overcooling. However, due to oversized VAV terminals with excessively high minimum airflow setpoints, lowering SAT setpoints led to overcooling in the existing system. Changes in the SAT setpoint reset scheme did not noticeably address this problem, as the underlying issue is related to inappropriate zoning and oversized VAV terminals. Such design faults are, however, beyond the scope of controls-oriented faults covered in this paper. 3.3 Unresolved issues The inverse greybox model-based fault impact analysis method introduced in this paper has several shortcomings. These shortcomings are listed here to highlight their potential practical implications and to develop future work recommendations. \u2022 The method enables studying the impact of HVAC faults on sensible heating and cooling energy use. Specifically, the latent portions of the heating and cooling energy are neglected. This was an outcome of an effort to minimize the number of BAS trend data types required to carry out a comprehensive fault impact analysis. VAV AHU systems in which relative humidity of return, outdoor, and supply air streams were monitored, the method could easily be modified to capture the latent portion of the heating and cooling energy use. The authors refrained from including these data types to maximize the transferability of the method to other building types. \u2022 The fault impact analysis method presented in this paper does not cover the impact of HVAC faults on electricity demand. For example, a faulty mode of operation sequence can cause fans to operate for longer hours and thus increase electricity consumption. Future work should expand the fault impact analysis to cover the impact on the fan and pump power. \u2022 While the general fault impact analysis approach is applicable to different VAV AHU configurations, the ones studied in this paper were limited to multiple-zone mixed-air single-duct VAV AHU systems without heat recovery. The authors focus on this configuration because of its widespread use in North America. However, future work should expand the fault impact analysis capabilities to other VAV AHU system configurations (e.g., dual-duct systems and systems with heat recovery). \u2022 The virtual meters developed in this paper have been validated through synthetic BAS data generated from EnergyPlus simulations. While the authors demonstrated the method with measured BAS data from a real VAV AHU system, the authors did not have access to high-resolution submeter data from this system for validation. A follow-up field study is needed to verify the method\u2019s accuracy on a real VAV AHU system. This field study should include a longitudinal measurement and verification stage to compare energy savings achieved to those predicted by the fault impact analysis tool. \u2022 The method developed in this study presents virtual meter-based heating and cooling energy use estimates of a VAV AHU system in its current state and if all its faults are addressed. In practice, the operational decision-makers may require the knowledge of savings achievable for addressing a subset of the faults. However, this need has not been considered in this paper and can be a topic for future research. \u2022 The fault impact analysis method has not been integrated into an FDD tool. Once this is done, the influence of fault impact analysis capabilities on the effectiveness of an FDD workflow can be examined. Future work is planned to conduct operator interviews to investigate the benefits of fault impact analysis in the fault correction process. 4 Conclusion and future work An inverse greybox model-based fault impact analysis method was developed to quantify the impact of multiple-zone single-duct VAV AHU control system faults on heating and cooling energy use. The method was compiled into a standalone Matlab function [44]. The function inputs several basic user inputs and commonly available BAS trend data types from multiple zone VAV AHU systems. It builds inverse models for each VAV zone and AHU. A novel sequential parameter estimation algorithm was introduced to estimate the known parameters of the zone models. The sequential parameter estimation algorithm presented here differs from the others in the literature in that it yields a time-variant disturbance term Qmisc , which represents the combined effect of the solar and casual heat gains, instead of a time-invariant one. The algorithm partitions the dataset into unique short intervals, which enable the estimation of time-invariant parameters (i.e., thermal mass and resistance, perimeter heater capacity) one by one without forcing an inappropriate constant or steady-periodic Qmisc parameter globally. By using the inverse model parameter estimates, the function then formulates virtual meters quantifying the sensible heat transfer rate from AHU heating and cooling coils, and the perimeter heating devices. It then employs the virtual meters to estimate heating and cooling energy use of the existing VAV AHU system and the same system after fault correction. To this end, it simulates a fault-free version of the VAV AHU system subject to ASHRAE Guideline 36 [19] compliant sequences of operation defining the mode of operation, state of operation, supply air temperature and airflow setpoint reset behaviour. The function was first used with a synthetic BAS dataset generated by using an EnergyPlus model of a 26-zone VAV AHU system in Ottawa, Canada. The accuracy was quantified by comparing inverse model-based virtual meter predictions with EnergyPlus meter outputs for the sensible heat transfer rate from AHU heating and cooling coils and perimeter heating devices. The results of this analysis indicate that the virtual meters can estimate the monthly energy use for these three end-uses at CV(RMSE) and NMBE values of less than 6 % and 3 %, respectively. Notably, these error values are significantly lower than those deemed acceptable in ASHRAE Guideline 14 [49]. Once the accuracy of the virtual meters was verified against simulation data, the fault impact analysis function was demonstrated with measured BAS data from a real 72-zone VAV AHU system. The analysis revealed an energy savings potential of 43 % for heating and 22 % for cooling through the implementation of fault-free sequences of operation. The reduction in heating energy use was largely attributed to maintaining a constant supply air temperature setpoint year-round. This issue caused excessive use of the economizer state, even at cold winter temperatures below −10 °C. The reduction in cooling energy use was explained by a mistake in the state of operation sequence and a fault in the mixing damper behaviour. For the studied system, the state of operation sequence limits the availability of free cooling to outdoor temperatures below the supply air temperature setpoint. As a result, the economizer with cooling state, one of the four states of operation defined in Guideline 36, was not available; thus, the system was not taking full advantage of the cool outdoor air to offset mechanical cooling needs. In addition, the studied system could not sustain high outdoor air fractions, even when the outdoor air damper is at a fully open position. This also limited the VAV AHU system\u2019s ability to exploit outdoor air for free cooling, and increased reliance on mechanical cooling. Future work will expand the capabilities of the fault impact analysis method for dual-duct VAV AHU systems as well as systems with heat recovery. Further, the fault impact analysis method will be used on a real VAV AHU system, and the energy savings achieved will be compared to those that are predicted by the fault impact analysis method through a longitudinal measurement and verification study. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This research is supported by a research contract with the National Research Council Canada (Contract number 996635). References [1] N. E. P. Fernandez, S. Katipamula, W. Wang, Y. Xie, M. Zhao, and C. D. Corbin, \u201cImpacts of Commercial Building Controls on Energy Savings and Peak Load Reduction,\u201d United States, 2017. [Online]. Available: https://www.osti.gov/biblio/1400347. [2] N. Torabi H.B. Gunay W. O\u2019Brien T. Barton Common human errors in design, installation, and operation of VAV AHU control systems\u2013A review and a practitioner interview Build. Environ. 2022 109333 N. Torabi, H. B. Gunay, W. O'Brien, and T. Barton, \u201cCommon human errors in design, installation, and operation of VAV AHU control systems\u2013A review and a practitioner interview,\u201d Building and Environment, p. 109333, 2022. [3] M. Pritoni et al., \u201cAdvanced control sequences and FDD technology. Just shiny objects, or ready for scale?,\u201d presented at the Conference: ACEEE Summer Study on Energy Efficiency in Buildings, Held Virtually (United States), 17-21 Aug 2020, United States, 2020. [Online]. Available: https://www.osti.gov/biblio/1713312. [4] H.B. Gunay N. Torabi S. Shillinglaw Classification of sequencing logic faults in multiple zone air handling units: A review and case study Science and Technology for the Built Environment 2022 1 18 10.1080/23744731.2022.2058262 B. Gunay, N. Torabi, and S. Schillinglaw, \u201cClassification of sequencing logic faults in multiple zone air handling units: A review and case study,\u201d Science and Technology for the Built Environment, pp. 1-18, 2022, doi: 10.1080/23744731.2022.2058262. [5] G. Paliaga et al., \u201cRe-Envisioning RCx: Achieving Max Potential HVAC Controls Retrofits through Modernized BAS Hardware and Software,\u201d presented at the Conference: ACEEE Summer Study on Energy Efficiency in Buildings, Held Virtually (United States), 17-21 Aug 2020, United States, 2020. [Online]. Available: https://www.osti.gov/biblio/1756399. [6] S. Katipamula M.R. Brambley Review Article: Methods for Fault Detection, Diagnostics, and Prognostics for Building Systems\u2014A Review, Part I Hvac&R Research 11 1 2005/01/01 2005, 3 25 10.1080/10789669.2005.10391123 S. Katipamula and M. R. Brambley, \u201cReview Article: Methods for Fault Detection, Diagnostics, and Prognostics for Building Systems\u2014A Review, Part I,\u201d Hvac&R Research, vol. 11, no. 1, pp. 3-25, 2005/01/01 2005, doi: 10.1080/10789669.2005.10391123. [7] S. Katipamula M.R. Brambley Review Article: Methods for Fault Detection, Diagnostics, and Prognostics for Building Systems\u2014A Review, Part II Hvac&R Research 11 2 2005/04/01 2005, 169 187 10.1080/10789669.2005.10391133 S. Katipamula and M. R. Brambley, \u201cReview Article: Methods for Fault Detection, Diagnostics, and Prognostics for Building Systems\u2014A Review, Part II,\u201d Hvac&R Research, vol. 11, no. 2, pp. 169-187, 2005/04/01 2005, doi: 10.1080/10789669.2005.10391133. [8] Z. O'Neill X. Pang M. Shashanka P. Haves T. Bailey Model-based real-time whole building energy performance monitoring and diagnostics J. Build. Perform. Simul. 7 2 2014 83 99 Z. O'Neill, X. Pang, M. Shashanka, P. Haves, and T. Bailey, \u201cModel-based real-time whole building energy performance monitoring and diagnostics,\u201d Journal of Building Performance Simulation, vol. 7, no. 2, pp. 83-99, 2014. [9] P. Haves M. Kim M. Najafi P. Xu A semi-automated commissioning tool for VAV air-handling units: functional test analyzer ASHRAE Trans. 113 2007 380 P. Haves, M. Kim, M. Najafi, and P. Xu, \u201cA semi-automated commissioning tool for VAV air-handling units: functional test analyzer,\u201d ASHRAE Transactions, vol. 113, p. 380, 2007. [10] J. Schein S.T. Bushby N.S. Castro J.M. House A rule-based fault detection method for air handling units Energ. Buildings 38 12 2006 1485 1492 10.1016/j.enbuild.2006.04.014 J. Schein, S. T. Bushby, N. S. Castro, and J. M. House, \u201cA rule-based fault detection method for air handling units,\u201d Energy and Buildings, vol. 38, no. 12, pp. 1485-1492, 2006/12/01/ 2006, doi: https://doi.org/10.1016/j.enbuild.2006.04.014. [11] J. Schein, \u201cNIST 7365 - Results from Field Testing of Embedded Air Handling Unit and Variable Air Volume Box Fault Detection Tools,\u201d NIST, Maryland, 2006. [12] K. Bruton D. Coakley P. Raftery D.O. Cusack M.M. Keane D. O\u2019Sullivan Comparative analysis of the AHU InFO fault detection and diagnostic expert tool for AHUs with APAR Energ. Effi. 8 2 2015 299 322 K. Bruton, D. Coakley, P. Raftery, D. O. Cusack, M. M. Keane, and D. O\u2019sullivan, \u201cComparative analysis of the AHU InFO fault detection and diagnostic expert tool for AHUs with APAR,\u201d Energy Efficiency, vol. 8, no. 2, pp. 299-322, 2015. [13] H.B. Gunay Z. Shi G.R. Newsham R. Moromisato Detection of zone sensor and actuator faults through inverse greybox modelling Build. Environ. 171 2020 106659 H. B. Gunay, Z. Shi, G. Newsham, and R. Moromisato, \u201cDetection of zone sensor and actuator faults through inverse greybox modelling,\u201d Building and Environment, vol. 171, p. 106659, 2020. [14] N. Torabi H.B. Gunay W. O\u2019Brien R. Moromisato A holistic sequential fault detection and diagnostics framework for multiple zone variable air volume air handling unit systems Build. Serv. Eng. Res. Technol. 2022 01436 N. Torabi, H. B. Gunay, W. O\u2019Brien, and R. Moromisato, \u201cA holistic sequential fault detection and diagnostics framework for multiple zone variable air volume air handling unit systems,\u201d Building Services Engineering Research and Technology, p. 01436244221097827, 2022. [15] M.S. Mirnaghi F. Haghighat Fault detection and diagnosis of large-scale HVAC systems in buildings using data-driven methods: A comprehensive review Energ. Buildings 229 2020 110492 10.1016/j.enbuild.2020.110492 M. S. Mirnaghi and F. Haghighat, \u201cFault detection and diagnosis of large-scale HVAC systems in buildings using data-driven methods: A comprehensive review,\u201d Energy and Buildings, vol. 229, p. 110492, 2020/12/15/ 2020, doi: https://doi.org/10.1016/j.enbuild.2020.110492. [16] H.B. Gunay J. Bursill B. Huchuk S. Shillinglaw Inverse model-based detection of programming logic faults in multiple zone VAV AHU systems Build. Environ. 2022 B. Gunay, J. Bursill, B. Huchuk, and S. Shillinglaw, \u201cInverse model-based detection of programming logic faults in multiple zone VAV AHU systems,\u201d Building and Environment, 2022. [17] Z. Shi W. O'Brien Development and implementation of automated fault detection and diagnostics for building systems: A review Autom. Constr. vol. 104 2019 215 229 10.1016/j.autcon.2019.04.002 Z. Shi and W. O'Brien, \u201cDevelopment and implementation of automated fault detection and diagnostics for building systems: A review,\u201d Automation in Construction, vol. 104, pp. 215-229, 2019/08/01/ 2019, doi: https://doi.org/10.1016/j.autcon.2019.04.002. [18] J. Granderson, R. Singla, E. Mayhorn, P. Ehrlich, D. Vrabie, and S. Frank, \u201cCharacterization and survey of automated fault detection and diagnostic tools,\u201d Report Number LBNL-2001075 (Lawrence Berkeley National Laboratory, 2017), 2017. [19] Guideline 36: High performance sequences of operation for HVAC systems, ASHRAE, Atlanta, 2018. [20] G. Fierro Formalizing Tag-Based Metadata With the Brick Ontology Front. Built Env 6 2020 558034 G. Fierro et al., \u201cFormalizing Tag-Based Metadata With the Brick Ontology,\u201d Front. Built Env, vol. 6, p. 558034, 2020. [21] N. Luo M. Pritoni T. Hong An overview of data tools for representing and managing building information and performance data Renew. Sustain. Energy Rev. 147 2021 111224 N. Luo, M. Pritoni, and T. Hong, \u201cAn overview of data tools for representing and managing building information and performance data,\u201d Renewable and Sustainable Energy Reviews, vol. 147, p. 111224, 2021. [22] L. Chen H.B. Gunay Z. Shi W. Shen X. Li A Metadata Inference Method for Building Automation Systems With Limited Semantic Information IEEE Trans. Autom. Sci. Eng. 17 4 2020 2107 2119 L. Chen, H. B. Gunay, Z. Shi, W. Shen, and X. Li, \u201cA Metadata Inference Method for Building Automation Systems With Limited Semantic Information,\u201d IEEE Transactions on Automation Science and Engineering, vol. 17, no. 4, pp. 2107-2119, 2020. [23] T. Abuimara B.W. Hobson H.B. Gunay W. O\u2019Brien M. Kane \u201cCurrent state and future challenges in building management: practitioner interviews and a literature review,\u201d Journal of Building Engineering 2021 102803 T. Abuimara, B. W. Hobson, B. Gunay, W. O\u2019Brien, and M. Kane, \u201cCurrent state and future challenges in building management: practitioner interviews and a literature review,\u201d Journal of Building Engineering, p. 102803, 2021. [24] Y. Li Z. O\u2019Neill A critical review of fault modeling of HVAC systems in buildings Build. Simul. 11 5 2018/10/01 2018, 953 975 10.1007/s12273-018-0458-4 Y. Li and Z. O\u2019Neill, \u201cA critical review of fault modeling of HVAC systems in buildings,\u201d Building Simulation, vol. 11, no. 5, pp. 953-975, 2018/10/01 2018, doi: 10.1007/s12273-018-0458-4. [25] H. Cheung J.E. Braun Simulation of fault impacts for vapor compression systems by inverse modeling. Part I: Component modeling and validation HVAC&R Research 19 7 2013 892 906 H. Cheung and J. E. Braun, \u201cSimulation of fault impacts for vapor compression systems by inverse modeling. Part I: Component modeling and validation,\u201d HVAC&R Research, vol. 19, no. 7, pp. 892-906, 2013. [26] R. Zhang T. Hong Modeling of HVAC operational faults in building performance simulation Appl. Energy 202 2017 178 188 R. Zhang and T. Hong, \u201cModeling of HVAC operational faults in building performance simulation,\u201d Applied Energy, vol. 202, pp. 178-188, 2017. [27] L. Yang J.E. Braun E.A. Groll The impact of fouling on the performance of filter\u2013evaporator combinations Int. J. Refrig 30 3 2007 489 498 L. Yang, J. E. Braun, and E. A. Groll, \u201cThe impact of fouling on the performance of filter\u2013evaporator combinations,\u201d International Journal of Refrigeration, vol. 30, no. 3, pp. 489-498, 2007. [28] S. Pourarian J. Wen D. Veronica A. Pertzborn X. Zhou R. Liu A tool for evaluating fault detection and diagnostic methods for fan coil units Energ. Buildings 136 2017 151 160 10.1016/j.enbuild.2016.12.018 S. Pourarian, J. Wen, D. Veronica, A. Pertzborn, X. Zhou, and R. Liu, \u201cA tool for evaluating fault detection and diagnostic methods for fan coil units,\u201d Energy and Buildings, vol. 136, pp. 151-160, 2017/02/01/ 2017, doi: https://doi.org/10.1016/j.enbuild.2016.12.018. [29] X. Lu Y. Fu Z. O'Neill J. Wen A holistic fault impact analysis of the high-performance sequences of operation for HVAC systems: Modelica-based case study in a medium-office building Energy. Build. 252 2021 111448 X. Lu, Y. Fu, Z. O'Neill, and J. Wen, \u201cA holistic fault impact analysis of the high-performance sequences of operation for HVAC systems: Modelica-based case study in a medium-office building,\u201d Energy and Buildings, vol. 252, p. 111448, 2021. [30] L. Wang and T. Hong, \u201cModeling and Simulation of HVAC Faulty Operations and Performance Degradation due to Maintenance Issues,\u201d presented at the Conference: ASim 2012 - 1st Asia conference of International Building Performance Simulation Association, Shanghai, China, 11/25/12-11/27/12, United States, 2013. [Online]. Available: https://www.osti.gov/biblio/1172116. [31] M. Padilla D. Choinière A combined passive-active sensor fault detection and isolation approach for air handling units Energ. Buildings 99 2015 214 219 10.1016/j.enbuild.2015.04.035 M. Padilla and D. Choinière, \u201cA combined passive-active sensor fault detection and isolation approach for air handling units,\u201d Energy and Buildings, vol. 99, pp. 214-219, 2015/07/15/ 2015, doi: https://doi.org/10.1016/j.enbuild.2015.04.035. [32] M. Wetter W. Zuo T.S. Nouidui X. Pang Modelica buildings library J. Build. Perform. Simul. 7 4 2014 253 270 M. Wetter, W. Zuo, T. S. Nouidui, and X. Pang, \u201cModelica buildings library,\u201d Journal of Building Performance Simulation, vol. 7, no. 4, pp. 253-270, 2014. [33] S. Pourarian \u201cTools for Evaluating Fault Detection and Diagnostic Methods for HVAC Secondary Systems,\u201d Ph.D., Drexel University, Ann Arbor 10001618 2015 S. Pourarian, \u201cTools for Evaluating Fault Detection and Diagnostic Methods for HVAC Secondary Systems,\u201d Ph.D., Drexel University, Ann Arbor, 10001618, 2015. [34] R. Khire and M. Trcka, \u201cModel based failure mode effect analysis on whole building energy performance,\u201d in 13th Conference of International Building Performance Simulation Association, Chambery, France.(2013, August 26-28), 2013. [35] H.B. Gunay W. Shen B. Huchuk C. Yang S. Bucking W. O\u2019Brien Energy and comfort performance benefits of early detection of building sensor and actuator faults Build. Serv. Eng. Res. Technol. 39 6 2018 652 666 B. Gunay, W. Shen, B. Huchuk, C. Yang, S. Bucking, and W. O\u2019Brien, \u201cEnergy and comfort performance benefits of early detection of building sensor and actuator faults,\u201d Building Services Engineering Research and Technology, vol. 39, no. 6, pp. 652-666, 2018. [36] Y. Li Z. O'Neill An innovative fault impact analysis framework for enhancing building operations Energ. Buildings 199 2019 311 331 10.1016/j.enbuild.2019.07.011 Y. Li and Z. O'Neill, \u201cAn innovative fault impact analysis framework for enhancing building operations,\u201d Energy and Buildings, vol. 199, pp. 311-331, 2019/09/15/ 2019, doi: https://doi.org/10.1016/j.enbuild.2019.07.011. [37] Y. Li Z. O\u2019Neill Simulation based Fault Impact Analysis for the Secondary School in the US ASHRAE Trans. 125 2 2019 Y. Li and Z. O\u2019Neill, \u201cSimulation based Fault Impact Analysis for the Secondary School in the US,\u201d ASHRAE Transactions, vol. 125, no. 2, 2019. [38] P. Westermann R. Evins Surrogate modelling for sustainable building design\u2013A review Energ. Buildings 198 2019 170 186 P. Westermann and R. Evins, \u201cSurrogate modelling for sustainable building design\u2013A review,\u201d Energy and Buildings, vol. 198, pp. 170-186, 2019. [39] N. Cotrufo R. Zmeureanu A. Athienitis \u201cVirtual measurement of the air properties in air-handling units (AHUs) or virtual re-calibration of sensors,\u201d Science and Technology for the Built Environ. 25 1 2019 21 33 10.1080/23744731.2018.1493309 N. Cotrufo, R. Zmeureanu, and A. Athienitis, \u201cVirtual measurement of the air properties in air-handling units (AHUs) or virtual re-calibration of sensors,\u201d Science and Technology for the Built Environment, vol. 25, no. 1, pp. 21-33, 2019/01/02 2019, doi: 10.1080/23744731.2018.1493309. [40] D. Darwazeh J. Duquette H.B. Gunay Virtual metering of heat supplied by zone-level perimeter heaters: An investigation with three inverse modelling approaches Energ. Buildings 240 2021 110867 10.1016/j.enbuild.2021.110867 D. Darwazeh, J. Duquette, and B. Gunay, \u201cVirtual metering of heat supplied by zone-level perimeter heaters: An investigation with three inverse modelling approaches,\u201d Energy and Buildings, vol. 240, p. 110867, 2021/06/01/ 2021, doi: https://doi.org/10.1016/j.enbuild.2021.110867. [41] D. Darwazeh H.B. Gunay J. Duquette Development of Inverse Greybox Model-Based Virtual Meters for Air Handling Units IEEE Trans. Autom. Sci. Eng. 18 1 2021 323 336 10.1109/TASE.2020.3005888 D. Darwazeh, B. Gunay, and J. Duquette, \u201cDevelopment of Inverse Greybox Model-Based Virtual Meters for Air Handling Units,\u201d IEEE Transactions on Automation Science and Engineering, vol. 18, no. 1, pp. 323-336, 2021, doi: 10.1109/TASE.2020.3005888. [42] L. Song G. Wang M.R. Brambley Uncertainty analysis for a virtual flow meter using an air-handling unit chilled water valve HVAC&R Research 19 3 2013/04/03 2013, 335 345 10.1080/10789669.2013.774890 L. Song, G. Wang, and M. R. Brambley, \u201cUncertainty analysis for a virtual flow meter using an air-handling unit chilled water valve,\u201d HVAC&R Research, vol. 19, no. 3, pp. 335-345, 2013/04/03 2013, doi: 10.1080/10789669.2013.774890. [43] I.S. Joo M. Liu G. Liu Application of Fan Airflow Stations In Air-Handling Units Energy Eng. 104 2 2007/03/01 2007, 66 80 10.1080/01998590709509494 I.-S. Joo, M. Liu, and G. Liu, \u201cApplication of Fan Airflow Stations In Air-Handling Units,\u201d Energy Engineering, vol. 104, no. 2, pp. 66-80, 2007/03/01 2007, doi: 10.1080/01998590709509494. [44] Fault impact analysis tool. (2022). Carleton University, Ottawa, Canada. [Online]. Available: https://github.com/Carleton-DBOM-Research-Group/FaultImpactAnalysisTool. [45] P. W. Stackhouse Jr, B. Macpherson, J. C. Mikovitz, and T. Zhang, \u201cProviding Long-term Solar and Meteorological Resource Information from NASA Research through the GIS-Enabled POWER Web Services Portal,\u201d in American Meteorological Society 101st Annual Meeting, 2021. [46] B.W. Hobson D. Lowcay H.B. Gunay A. Ashouri G.R. Newsham Opportunistic occupancy-count estimation using sensor fusion: A case study Build. Environ. 159 2019 106154 B. W. Hobson, D. Lowcay, H. B. Gunay, A. Ashouri, and G. R. Newsham, \u201cOpportunistic occupancy-count estimation using sensor fusion: A case study,\u201d Building and environment, vol. 159, p. 106154, 2019. [47] I.E. Bennet W. O\u2019Brien Office building plug and light loads: Comparison of a multi-tenant office tower to conventional assumptions Energ. Buildings 153 2017 461 475 I. E. Bennet and W. O\u2019Brien, \u201cOffice building plug and light loads: Comparison of a multi-tenant office tower to conventional assumptions,\u201d Energy and Buildings, vol. 153, pp. 461-475, 2017. [48] H.B. Gunay W. O\u2019Brien I. Beausoleil-Morrison S. Gilani Modeling plug-in equipment load patterns in private office spaces Energ. Buildings 121 2016 234 249 H. B. Gunay, W. O\u2019Brien, I. Beausoleil-Morrison, and S. Gilani, \u201cModeling plug-in equipment load patterns in private office spaces,\u201d Energy and Buildings, vol. 121, pp. 234-249, 2016. [49] ASHRAE Guideline 14: Measurement of energy, demand, and water savings 2014 ASHRAE Atlanta ASHRAE, \u201cGuideline 14: Measurement of energy, demand, and water savings,\u201d ASHRAE, Atlanta, 2014. [50] ASHRAE Handbook\u2014HVAC Systems and Equipment, ASHRAE, Atlanta, 2020. [51] H.B. Gunay W. O\u2019Brien I. Beausoleil-Morrison \u201cControl-oriented inverse modeling of the thermal characteristics in an office,\u201d Science and Technology for the Built Environ. 22 5 2016 586 605 10.1080/23744731.2016.1175893 H. B. Gunay, W. O\u2019Brien, and I. Beausoleil-Morrison, \u201cControl-oriented inverse modeling of the thermal characteristics in an office,\u201d Science and Technology for the Built Environment, vol. 22, no. 5, pp. 586-605, 2016/07/03 2016, doi: 10.1080/23744731.2016.1175893. [52] H.B. Gunay G.R. Newsham A. Ashouri I. Wilton Deriving sequences of operation for air handling units through building performance optimization J. Build. Perform. Simul. 13 5 2020 501 515 B. Gunay, G. Newsham, A. Ashouri, and I. Wilton, \u201cDeriving sequences of operation for air handling units through building performance optimization,\u201d Journal of Building Performance Simulation, vol. 13, no. 5, pp. 501-515, 2020. [53] ASHRAE Standard 90.1: Energy Standard for Buildings Except Low-Rise Residential Buildings, ASHRAE, Atlanta, 2019. [54] AMCA 502-06 Damper Application Manual For Heating, Ventilating, And Air Conditioning, AMCA, Arlington Heights, United States, 2009.",
+    "scopus-id": "85146700821",
+    "coredata": {
+        "eid": "1-s2.0-S0378778823000361",
+        "dc:description": "Fault impact analysis is an important phase of fault detection and diagnosis (FDD), enabling prioritization of the faults detected and allocation of resources to procure services and materials. However, many existing fault impact analysis workflows rely on building performance simulation (BPS) models with high engineering cost, limiting their use in FDD software. To this end, this paper introduces an inverse greybox model-based fault impact analysis method using building automation system (BAS) trend data from variable air volume (VAV) air handling unit (AHU) systems to quantify the heating and cooling energy impact of control system faults. It trains inverse models of a VAV AHU system by employing a sequential parameter estimation algorithm, formulates virtual meters quantifying the sensible heat transfer rate from AHU heating and cooling coils and the perimeter heating devices, and employs the virtual meters to estimate heating and cooling energy use of an existing VAV AHU system and the same system after fault correction. The method was used with a synthetic BAS dataset generated by using an EnergyPlus model of a 26-zone VAV AHU system in Ottawa, Canada. The results indicate that the virtual meters could estimate the monthly energy use for heating and cooling at a coefficient of variation of the root mean squared error (CV(RMSE)) of 4\u20136%. The method was demonstrated with measured BAS data from a 72-zone VAV AHU system, revealing an energy savings potential of 43% for heating and 22% for cooling through fault correction.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-03-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378778823000361",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Gunay, Burak"
+            },
+            {
+                "@_fa": "true",
+                "$": "Hobson, Brodie W."
+            },
+            {
+                "@_fa": "true",
+                "$": "Darwazeh, Darwish"
+            },
+            {
+                "@_fa": "true",
+                "$": "Bursill, Jayson"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0378778823000361"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0378778823000361"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0378-7788(23)00036-1",
+        "prism:volume": "282",
+        "articleNumber": "112806",
+        "prism:publisher": "Published by Elsevier B.V.",
+        "dc:title": "Estimating energy savings from HVAC controls fault correction through inverse greybox model-based virtual metering",
+        "prism:copyright": "Crown Copyright © 2023 Published by Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Fault detection and diagnosis"
+            },
+            {
+                "@_fa": "true",
+                "$": "Fault impact analysis"
+            },
+            {
+                "@_fa": "true",
+                "$": "HVAC controls"
+            },
+            {
+                "@_fa": "true",
+                "$": "Sequences of operation"
+            },
+            {
+                "@_fa": "true",
+                "$": "Inverse modelling"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "112806",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 March 2023",
+        "prism:doi": "10.1016/j.enbuild.2023.112806",
+        "prism:startingPage": "112806",
+        "dc:identifier": "doi:10.1016/j.enbuild.2023.112806",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "531",
+            "@width": "634",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "56944",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "232",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25940",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "214",
+            "@width": "685",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "24388",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "548",
+            "@width": "534",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "106059",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "546",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "68384",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "530",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "107383",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "318",
+            "@width": "575",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "44288",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "212",
+            "@width": "202",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "15469",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "359",
+            "@width": "756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "61817",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "238",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40372",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "335",
+            "@width": "589",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40099",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "481",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "73069",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "484",
+            "@width": "378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27885",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "235",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "29792",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "234",
+            "@width": "223",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "12914",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "969",
+            "@width": "714",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "120005",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "196",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6182",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "95",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4977",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "68",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2671",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "160",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12808",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "214",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9589",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14704",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "121",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6459",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "156",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9670",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "104",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6511",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "98",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8371",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "124",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6034",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9281",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "128",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4138",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "77",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4025",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "156",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5840",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "121",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4814",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "2350",
+            "@width": "2808",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "404954",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1026",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "171790",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "947",
+            "@width": "3035",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "145354",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2427",
+            "@width": "2366",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "740708",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2417",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "472542",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2348",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "738307",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1409",
+            "@width": "2548",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "290295",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "943",
+            "@width": "898",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "98928",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1587",
+            "@width": "3346",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "477354",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1053",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "213815",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1481",
+            "@width": "2607",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "216109",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2129",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "409567",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2143",
+            "@width": "1673",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "203744",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1039",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "182148",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1037",
+            "@width": "988",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "77055",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "4292",
+            "@width": "3162",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "668417",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26752",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1425",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2909",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1770",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27979",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26501",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27728",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8221",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18647",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26469",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12036",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21282",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12178",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11002",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "35640",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10630",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12483",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "60839",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "59467",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19925",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28799",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2463",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2285",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16728",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12543",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12179",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12252",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15689",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823000361-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "7435088",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85146700821"
+    }
+}}

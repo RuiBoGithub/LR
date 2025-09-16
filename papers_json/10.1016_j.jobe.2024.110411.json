@@ -1,0 +1,1234 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85201119203",
+    "originalText": "serial JL 312002 291210 291862 291881 31 Journal of Building Engineering JOURNALBUILDINGENGINEERING 2024-08-13 2024-08-13 2024-08-13 2024-08-13 2025-03-08T15:57:10 1-s2.0-S235271022401979X S2352-7102(24)01979-X S235271022401979X 10.1016/j.jobe.2024.110411 S300 S300.1 FULL-TEXT 1-s2.0-S2352710224X00133 2025-06-16T21:09:54.633534Z 0 0 20241101 2024 2024-08-13T18:34:36.577418Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantsponsor grantsponsorid highlightsabst orcid primabst ref 2352-7102 23527102 true 96 96 C Volume 96 41 110411 110411 110411 20241101 1 November 2024 2024-11-01 2024 article fla © 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. LEVERAGINGMULTIZONEBUILDINGDATAMACHINELEARNINGBASEDMODELSGENETICALGORITHMSOPTIMIZEAIRHANDLINGUNITS NISA E 1 Introduction 1.1 Research background 1.2 Literature reviews 1.2.1 Neural network in multi-zone building 1.2.2 Neural network in AHU 1.2.3 Clustering analysis in HVAC system 1.2.4 Genetic algorithm in HVAC optimization 1.3 Research gaps and objectives 2 The investigated building 3 Methods 3.1 Conceptual framework 3.2 Data collection 3.3 Data preprocessing 3.4 DNN model 3.5 Performance evaluations 3.6 K-means clustering analysis 3.7 Genetic algorithm 4 Results and discussion 4.1 Modeling 4.1.1 AHU\u2019 T s a ( j ) model 4.1.2 Chiller model 4.1.3 Model evaluations 4.2 K-means clustering 4.3 Optimization 4.4 Validation 4.5 Discussion 5 Conclusions and future works CRediT authorship contribution statement Acknowledgement Nomenclature References WOLKOFF 2021 113709 P LYMPEROPOULOS 2020 109825 G WANG 2019 261 274 L SAIDUR 2011 5233 5238 R SHA 2019 101698 H HUANG 2015 86 97 H AMIN 2020 122059 U CUI 2023 113499 B XING 2023 110388 T FU 2023 110546 Q GAO 2020 118411 Y DRGONA 2021 110992 J QAISAR 2023 2002 I IRANI 2023 107127 F MTIBAA 2021 102340 F HOSAMO 2022 111988 H NOROUZI 2023 1542 P SON 2019 3293 J SUKTHANKAR 2018 N VOLUME8BHEATTRANSFERTHERMALENGINEERING SUPPLYAIRTEMPERATUREPREDICTIONINAIRHANDLINGUNITUSINGARTIFICIALNEURALNETWORK YUN 2021 102111 W JEE 2023 113471 H ZOU 2020 106535 Z LEE 2023 66 D AN 2018 214 227 J DU 2014 1 11 Z WICKRAMASINGHE 2022 1 A ZHOU 2015 98 104 H KAMPELIS 2019 2177 N NASRUDDIN 2019 48 57 S NISA 2024 111553 E YANG 2015 706 713 J CHEN 2016 1 10 C PARHIZKAR 2020 101113 T LUO 2020 102283 X AVCIKARATAS 2022 1341 1358 C CHAERUNNISA 2021 744 E XIE 2022 117 124 J HE 2024 108345 K NISA 2021 6494 E LI 2012 1104 1109 Y JAIN 2010 651 666 A IKOTUN 2023 178 210 A ZHOU 2015 98 104 H LIU 2023 Y ILBEIGI 2020 102325 M NASRUDDIN 2019 48 57 S NISAX2024X110411 NISAX2024X110411XE 2026-08-13T00:00:00.000Z http://www.elsevier.com/open-access/userlicense/1.0/ https://vtw.elsevier.com/content/oragreement/10144 CHU_NSF publishAcceptedManuscriptIndexable 2026-08-13T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-09-03T12:14:02.042Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Ministry of Science and Technology of Taiwan MOST 111-2221-E-167-015 MOST Ministry of Science and Technology, Taiwan http://data.elsevier.com/vocabulary/SciValFunders/501100004663 http://sws.geonames.org/1668284/ Shangcheng Mechanical and Electrical Engineering Co. Ltd NSTC National Science and Technology Council http://data.elsevier.com/vocabulary/SciValFunders/100020595 http://sws.geonames.org/1668284 Shangcheng Mechanical and Electrical Engineering Co., Ltd. Genetic algorithms (GA) have been utilized in several HVAC optimization studies. Kampelis et al. [28] employed a genetic algorithm for operational optimization of an HVAC system, balancing the trade-off between minimum daily cost and thermal comfort. Nasruddin et al. [29] combined ANN and a genetic algorithm to optimize the two-chiller system operation in a building, minimizing annual energy consumption and maximizing thermal comfort. Nisa et al. [30] utilized a genetic algorithm to optimize HVAC operating parameters to prevent fogging in ice rink environment. Yang et al. [31] applied GA for optimal control of the condensing temperature set point, improving the coefficient of performance (COP) of air-cooled chillers under various operating conditions. Chen et al. [32] combined support vector machine (SVM) and GA to find operating parameters with the least air conditioning system power consumption.This work is supported by the Ministry of Science and Technology of Taiwan, grant number MOST 111-2221-E-167-015 and Shangcheng Mechanical and Electrical Engineering Co. Ltd. This work is supported by the Ministry of Science and Technology of Taiwan, grant number MOST 111-2221-E-167-015 and Shangcheng Mechanical and Electrical Engineering Co., Ltd. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2352-7102(24)01979-X S235271022401979X 1-s2.0-S235271022401979X 10.1016/j.jobe.2024.110411 312002 2025-03-09T07:11:43.120841Z 2024-11-01 1-s2.0-S235271022401979X-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/MAIN/application/pdf/c1c8d0fdc983f4ca0c556b0cb0d552b6/main.pdf main.pdf pdf true 10053792 MAIN 18 1-s2.0-S235271022401979X-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/PREVIEW/image/png/f55c36ed1ba186a17d7bb124df515fd0/main_1.png main_1.png png 53033 849 656 IMAGE-WEB-PDF 1 1-s2.0-S235271022401979X-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr7/DOWNSAMPLED/image/jpeg/18cd5d356776b3b0f766b1bfccecd7be/gr7.jpg gr7 gr7.jpg jpg 260851 926 674 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr6/DOWNSAMPLED/image/jpeg/5ee68f05a99bfc817b0318f636efba4f/gr6.jpg gr6 gr6.jpg jpg 104651 478 344 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr10/DOWNSAMPLED/image/jpeg/48ea63616d25e99169a955dee14713f8/gr10.jpg gr10 gr10.jpg jpg 112203 272 624 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr5/DOWNSAMPLED/image/jpeg/3de5a4d105d58247d1e5da1d00744532/gr5.jpg gr5 gr5.jpg jpg 111285 237 491 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr4/DOWNSAMPLED/image/jpeg/c743833c021a71350d8241045c88f47e/gr4.jpg gr4 gr4.jpg jpg 220995 759 624 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr3/DOWNSAMPLED/image/jpeg/c6cdcbf043d3c5792665c6d4a64b87d4/gr3.jpg gr3 gr3.jpg jpg 80721 138 344 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr2/DOWNSAMPLED/image/jpeg/c4ac5ea936420ec9a4e5c84c2ffee528/gr2.jpg gr2 gr2.jpg jpg 131999 345 491 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr1/DOWNSAMPLED/image/jpeg/1e9c30c79e7a37619029c42b40824ed8/gr1.jpg gr1 gr1.jpg jpg 119371 274 491 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr13/DOWNSAMPLED/image/jpeg/8aff8d78d92ac9ce75d2aaa14981888f/gr13.jpg gr13 gr13.jpg jpg 132173 314 491 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr11/DOWNSAMPLED/image/jpeg/9ef1a788bad9df2584a7c7d8ec4fcad0/gr11.jpg gr11 gr11.jpg jpg 162679 547 491 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr12/DOWNSAMPLED/image/jpeg/521576a7be6e6bb15bab91036fac63b3/gr12.jpg gr12 gr12.jpg jpg 177443 588 491 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr9/DOWNSAMPLED/image/jpeg/2aa4ebb972f1c6a51f1b6fef8da5c15b/gr9.jpg gr9 gr9.jpg jpg 112300 190 491 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr8/DOWNSAMPLED/image/jpeg/e4276951c8bee80eb7cbb64d92ed841e/gr8.jpg gr8 gr8.jpg jpg 125747 349 624 IMAGE-DOWNSAMPLED 1-s2.0-S235271022401979X-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr7/THUMBNAIL/image/gif/b160fd9d8c74f9e0cccc516826268b9f/gr7.sml gr7 gr7.sml sml 78251 163 119 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr6/THUMBNAIL/image/gif/f510b303aa61d7196aa9874b03abd508/gr6.sml gr6 gr6.sml sml 73444 164 118 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr10/THUMBNAIL/image/gif/8f9dacceeb6dbb9c4cf7cd526380fa50/gr10.sml gr10 gr10.sml sml 73152 95 219 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr5/THUMBNAIL/image/gif/7be56411b1ada7c367987360821cc39f/gr5.sml gr5 gr5.sml sml 75840 106 219 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr4/THUMBNAIL/image/gif/e0167535c801f44e8ed64cec9c0da74b/gr4.sml gr4 gr4.sml sml 81458 164 135 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr3/THUMBNAIL/image/gif/99e012da500375b4b047363ec84d7b1f/gr3.sml gr3 gr3.sml sml 72507 88 219 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr2/THUMBNAIL/image/gif/9b609bf166145a008ebf8c01c217be0f/gr2.sml gr2 gr2.sml sml 81640 154 219 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr1/THUMBNAIL/image/gif/c123de9c7d6322150ca5ef1802fe4b11/gr1.sml gr1 gr1.sml sml 79478 122 219 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr13/THUMBNAIL/image/gif/27d1eff74034a5a7a97de164074deb87/gr13.sml gr13 gr13.sml sml 80445 140 219 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr11/THUMBNAIL/image/gif/5d0ad0abedc48892121c708db34fd996/gr11.sml gr11 gr11.sml sml 76288 164 147 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr12/THUMBNAIL/image/gif/e50a44352dd71821a747b39cc0fa6fdd/gr12.sml gr12 gr12.sml sml 79466 164 137 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/gr9/THUMBNAIL/image/gif/aac38b13bba23a65d5b0c26ea77b0cf0/gr9.sml gr9 gr9.sml sml 74440 85 219 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0022326323020716/gr8/THUMBNAIL/image/gif/23527182ef9546f6ccb7f4a4f7c22955/gr8.sml gr8 gr8.sml sml 75763 122 219 IMAGE-THUMBNAIL 1-s2.0-S235271022401979X-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/fba57206d3108a47d8302ce6beba05dc/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 1254835 4102 2986 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/3fe49a578e66d48ed015f54b6ae99f8e/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 308645 2120 1525 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/6e1f273eb13845ff20adcd0302baf1a6/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 345833 1204 2763 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/72982d76274681d0b4a13570bc194580/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 367057 1050 2173 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/02bad8fecfb739fd8763f7c341469aff/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 1109292 3361 2764 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/124d5135e48f39dc08c671b9faec538d/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 151102 610 1525 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/bf20fb8c34994fce6464c1e67bf3ad0e/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 456726 1528 2173 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/bdda83e8b1346b01bb42e831e949b36e/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 336829 1211 2173 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/46a6a84c21f6870340afa5f467563be3/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 658511 1388 2173 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/b8f4a71c5eb683b3610cd0aac4a2fe97/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 664546 2421 2174 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/4c48cd4b1948f425a32daacfccb032f3/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 874140 2604 2173 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/HIGHRES/image/jpeg/387abb57d3f2ea028d357e98a1075eeb/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 329962 841 2173 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0022326323020716/HIGHRES/image/jpeg/c6f97c4691ca90ac3dbbb392b7402a16/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 371286 1545 2765 IMAGE-HIGH-RES 1-s2.0-S235271022401979X-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/d2a3e8634996eccd42794925712b45f0/si40.svg si40 si40.svg svg 5867 ALTIMG 1-s2.0-S235271022401979X-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/f75b77824d30bf3be81b3896782699f7/si26.svg si26 si26.svg svg 22752 ALTIMG 1-s2.0-S235271022401979X-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/143775e5a1d19cb40d8e55c793f02878/si54.svg si54 si54.svg svg 18949 ALTIMG 1-s2.0-S235271022401979X-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/a92a5e8059a4c7391ccc799baeef3daf/si11.svg si11 si11.svg svg 15839 ALTIMG 1-s2.0-S235271022401979X-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/ef242f51385a82c629234af4b1a0690c/si42.svg si42 si42.svg svg 9581 ALTIMG 1-s2.0-S235271022401979X-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/dde74bb7aa58ebb4e7666acbc5111a7b/si34.svg si34 si34.svg svg 56329 ALTIMG 1-s2.0-S235271022401979X-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/a215facff20e6fa05a1158b170cd08d5/si61.svg si61 si61.svg svg 31383 ALTIMG 1-s2.0-S235271022401979X-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/e9856adc5c7b3d188a92114abae16ba2/si63.svg si63 si63.svg svg 73621 ALTIMG 1-s2.0-S235271022401979X-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/ca687836e2902a0f57435bc85b2ac9f9/si55.svg si55 si55.svg svg 55098 ALTIMG 1-s2.0-S235271022401979X-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/349b2fb5734beed0fbf6f6abc8d529b7/si32.svg si32 si32.svg svg 42660 ALTIMG 1-s2.0-S235271022401979X-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/4998973749c80dcfb0064072cefbd459/si37.svg si37 si37.svg svg 11197 ALTIMG 1-s2.0-S235271022401979X-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/4560b0f30d84d316d6f776f8de9f9062/si44.svg si44 si44.svg svg 7187 ALTIMG 1-s2.0-S235271022401979X-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/764331b9d49dfd05084ccfba1fa022a0/si56.svg si56 si56.svg svg 26562 ALTIMG 1-s2.0-S235271022401979X-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/b7b8c2fab2ff008b968a65eabc0406af/si20.svg si20 si20.svg svg 19406 ALTIMG 1-s2.0-S235271022401979X-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/abe8ef5a97450718b94321311e11cf6e/si9.svg si9 si9.svg svg 24835 ALTIMG 1-s2.0-S235271022401979X-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/1dee2e3de5b1ab3dd5c673e45c8b0d0e/si1.svg si1 true si1.svg svg 16583 ALTIMG 1-s2.0-S235271022401979X-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/aec2a6958d22200773a23a1129c4831f/si15.svg si15 si15.svg svg 10866 ALTIMG 1-s2.0-S235271022401979X-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/0e81e828cca10efad8e5a74db129825e/si8.svg si8 si8.svg svg 5476 ALTIMG 1-s2.0-S235271022401979X-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/1eddab6b3c9a2e6356ccbf17c76764fb/si45.svg si45 si45.svg svg 11950 ALTIMG 1-s2.0-S235271022401979X-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/e3deb4e203887ae22fd422a7b4551466/si64.svg si64 si64.svg svg 15824 ALTIMG 1-s2.0-S235271022401979X-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/9c062be6bf9776dec9ef3cba53863691/si3.svg si3 true si3.svg svg 15892 ALTIMG 1-s2.0-S235271022401979X-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/b5bd84c0079f276c01029b1ec77fa8cc/si28.svg si28 si28.svg svg 11026 ALTIMG 1-s2.0-S235271022401979X-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/1b8e677cbda5560dabdbc6e63907b7b8/si13.svg si13 si13.svg svg 4548 ALTIMG 1-s2.0-S235271022401979X-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/03931b6f6433bb7471becdc35635a896/si17.svg si17 si17.svg svg 23386 ALTIMG 1-s2.0-S235271022401979X-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/c5fba3cb94477df46fda7583b928ba06/si66.svg si66 si66.svg svg 23255 ALTIMG 1-s2.0-S235271022401979X-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/cb2dca570955aa1a8212b4c744fbffd1/si5.svg si5 si5.svg svg 21584 ALTIMG 1-s2.0-S235271022401979X-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/ba2d3b48f25a3b9a09a58b613a10d29c/si25.svg si25 si25.svg svg 13715 ALTIMG 1-s2.0-S235271022401979X-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/f05613ca1b75ca0bf1755eefc4978ade/si33.svg si33 si33.svg svg 63643 ALTIMG 1-s2.0-S235271022401979X-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/08ce48bff814c59cea48177330cafddc/si62.svg si62 si62.svg svg 104565 ALTIMG 1-s2.0-S235271022401979X-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/c107c625f4cd8201f470b8803cbf317d/si12.svg si12 si12.svg svg 12704 ALTIMG 1-s2.0-S235271022401979X-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/4ea428304e194eea83ba46b206d658ec/si57.svg si57 si57.svg svg 13730 ALTIMG 1-s2.0-S235271022401979X-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/6c92a66e4ef368fe4754739e9ccf14fa/si38.svg si38 si38.svg svg 11019 ALTIMG 1-s2.0-S235271022401979X-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/4c598130bfa9b3537af1652528c259b2/si47.svg si47 si47.svg svg 66507 ALTIMG 1-s2.0-S235271022401979X-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/e00bd3c99a02829bfd23c4fd26c75c8e/si27.svg si27 si27.svg svg 24186 ALTIMG 1-s2.0-S235271022401979X-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/c27e006cd16894d026576746bf554e25/si49.svg si49 si49.svg svg 18240 ALTIMG 1-s2.0-S235271022401979X-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/fc1a359676a7cedac97eb9a53fb0cdd5/si24.svg si24 si24.svg svg 29159 ALTIMG 1-s2.0-S235271022401979X-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/006e7e89603d99f3b9645b166d96da2b/si22.svg si22 si22.svg svg 24852 ALTIMG 1-s2.0-S235271022401979X-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/2a21ce02d2e42f2fbf98ce38c8926ee7/si21.svg si21 si21.svg svg 14846 ALTIMG 1-s2.0-S235271022401979X-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/41647471abc0fb8dd0262f5bce2d5f10/si10.svg si10 si10.svg svg 24688 ALTIMG 1-s2.0-S235271022401979X-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/c714d3d531756214ea3b015e2f50c3a0/si52.svg si52 si52.svg svg 23373 ALTIMG 1-s2.0-S235271022401979X-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/95a9e77361b180449654f6d16c637f91/si19.svg si19 si19.svg svg 25511 ALTIMG 1-s2.0-S235271022401979X-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/f78a7c3efc64c2d224b5a480054af5b4/si35.svg si35 si35.svg svg 81236 ALTIMG 1-s2.0-S235271022401979X-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/26f3e66befec4e27c2434bf0921d14c7/si36.svg si36 si36.svg svg 55862 ALTIMG 1-s2.0-S235271022401979X-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/6b7ff151b538425e5c1d77269ec6c2b1/si51.svg si51 si51.svg svg 20334 ALTIMG 1-s2.0-S235271022401979X-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/d62ef8fca709bc1e44531639a40e1312/si58.svg si58 si58.svg svg 11170 ALTIMG 1-s2.0-S235271022401979X-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/d205dbc7a54b966cb7f714e10dc68f4f/si16.svg si16 si16.svg svg 4703 ALTIMG 1-s2.0-S235271022401979X-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/40fba75be61db3a5fbd907326cfd7cb4/si14.svg si14 si14.svg svg 22695 ALTIMG 1-s2.0-S235271022401979X-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/785a1212e7330662457cb25c445843e4/si4.svg si4 true si4.svg svg 19759 ALTIMG 1-s2.0-S235271022401979X-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/c060b1401cf674bef55eee021aeb6e0c/si41.svg si41 si41.svg svg 6092 ALTIMG 1-s2.0-S235271022401979X-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/e80a08dbdcf4bcf4bfd7a4be34e9811a/si18.svg si18 si18.svg svg 21229 ALTIMG 1-s2.0-S235271022401979X-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/8d69e4b6fff9bafccda979fded452df6/si59.svg si59 si59.svg svg 13000 ALTIMG 1-s2.0-S235271022401979X-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/0dd9f71a435297097b6e960dd9c6a504/si60.svg si60 si60.svg svg 117035 ALTIMG 1-s2.0-S235271022401979X-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/48584edccc0eac0e00d0e3a26be78ca3/si39.svg si39 si39.svg svg 8102 ALTIMG 1-s2.0-S235271022401979X-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/3dd3c8e6f37951a5a7a88472da03eff9/si29.svg si29 si29.svg svg 11091 ALTIMG 1-s2.0-S235271022401979X-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/68fcf497131d7da0f589da80fe1196c8/si30.svg si30 si30.svg svg 5769 ALTIMG 1-s2.0-S235271022401979X-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/f49c2906b0fff3139e8757d5dc41f8ad/si48.svg si48 si48.svg svg 79669 ALTIMG 1-s2.0-S235271022401979X-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/55bea3b3f7325dfe667fdc435abb2165/si23.svg si23 si23.svg svg 70668 ALTIMG 1-s2.0-S235271022401979X-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/06ff4b325cea7f27093524115ec08e82/si65.svg si65 si65.svg svg 8492 ALTIMG 1-s2.0-S235271022401979X-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/5e6754266fe47c5fb5cd0858cd65ba5a/si43.svg si43 si43.svg svg 10685 ALTIMG 1-s2.0-S235271022401979X-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/361302d83409c97f2a8b40fe41a69e03/si31.svg si31 si31.svg svg 6356 ALTIMG 1-s2.0-S235271022401979X-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/97848d9ada5e8832b3fbb3b47853c44a/si46.svg si46 si46.svg svg 23500 ALTIMG 1-s2.0-S235271022401979X-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/dc602f2f0d31163b115925b8f30bda37/si2.svg si2 true si2.svg svg 6506 ALTIMG 1-s2.0-S235271022401979X-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/bbb37910478b5a0ce3e34f90d886803f/si50.svg si50 si50.svg svg 9190 ALTIMG 1-s2.0-S235271022401979X-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/bd2c41af21e51e1f0b7c1e84e4130df0/si6.svg si6 si6.svg svg 15327 ALTIMG 1-s2.0-S235271022401979X-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/7f8c83f2a657b164a6bc9bc2c99e7549/si7.svg si7 si7.svg svg 8609 ALTIMG 1-s2.0-S235271022401979X-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S235271022401979X/image/svg+xml/4cac443802671528ec244ea97efc3d15/si53.svg si53 si53.svg svg 16385 ALTIMG 1-s2.0-S235271022401979X-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10CN7DR1FWT/MAIN/application/pdf/0eb8208107e174e49976c751f2150d57/am.pdf am am.pdf pdf false 1963371 AAM-PDF JOBE 110411 110411 S2352-7102(24)01979-X 10.1016/j.jobe.2024.110411 Elsevier Ltd Fig. 1 The schematic of the AHUs and zones on each floor. Fig. 1 Fig. 2 Dual-chiller system diagram. Fig. 2 Fig. 3 Air handling unit process. Fig. 3 Fig. 4 Workflow diagram. Fig. 4 Fig. 5 DNN architecture for predicting (a) T s a ( j ) and (b) P i . Fig. 5 Fig. 6 Genetic algorithm processes. Fig. 6 Fig. 7 The scatter plot of the T s a ( j ) for 18 AHUs between actual and predicted model. Fig. 7 Fig. 8 Scatter plot of the power consumption between actual and predicted model (a) CH1 and (b) CH2. Fig. 8 Fig. 9 AHU T r a ( j ) clustering results. Fig. 9 Fig. 10 Minimum fitness over generation for the G A 2 \u2019 (a) CH1 (b) CH2. Fig. 10 Fig. 11 Optimum AHU parameters under different T r a ( j ) (a) low; (b) medium; and (c) high. Fig. 11 Fig. 12 Optimization results for T s a ( j ) across all zones. Fig. 12 Fig. 13 Power consumption for the optimized model, the actual system, and the predicted values. Fig. 13 Table 1 The zones, operating time percentage, and data within T s e t percentage for AHUs. Table 1 Zones AHUs Operating time percentage (%) Data withing T s e t percentage (%) CH1 CH2 Total CH1 CH2 Total A (9 °C ∼12 °C) AHU111 55.63 43.8 99.43 33.54 22.23 55.77 AHU112 55.63 43.81 99.44 27.81 22.12 49.93 AHU221 29.40 12.65 42.05 69.92 30.05 99.97 AHU231 55.40 43.78 99.18 14.35 8.38 22.73 AHU321 55.63 43.81 99.44 25.92 22.17 48.09 AHU411 6.89 13.57 20.46 33.14 66.21 99.35 AHU412 53.35 42.69 96.04 44.34 28.88 73.22 AHU421 54.64 43.79 98.43 42.59 28.19 70.78 AHU431 55.63 43.81 99.44 28.13 22.22 50.35 AHU512 51.41 42.69 94.10 42.57 31.40 73.97 AHU521 55.58 43.05 98.63 12.14 15.88 28.02 AHU531 55.60 43.31 98.91 15.78 8.13 23.91 B (12.5 °C ∼15.5 °C) AHU312 55.62 43.81 99.43 24.16 17.99 42.15 C (15 °C ∼17 °C) AHU211 44.77 30.69 75.46 32.00 24.34 56.34 AHU212 16.08 11.24 27.32 10.68 12.45 23.13 AHU311 20.91 16.52 37.43 21.17 17.46 38.63 AHU331 17.43 12.01 29.44 42.48 35.27 77.75 D (16.5 °C ∼18.5 °C) AHU511 26.06 21.36 47.42 22.28 17.70 39.98 Table 2 GA setup information. Table 2 Setup information First round ( G A 1 i ) Second round ( G A 2 i ) Objective Minimize P i and Δ T Minimize Δ T Initial population 20 individuals ( T c h w , V c w , V O ( j ) , and f ( j ) ) 18 individuals ( V O ( j ) and f ( j ) ) Initial conditions \u2022 T o a = 24 °C \u2022 R H o a = 76 % \u2022 T r a ( j ) \u2022 T o a = 24 °C \u2022 R H o a = 76 % \u2022 T r a ( j ) \u2022 T c h w \u203e ( G A 1 i outputs) \u2022 V c w \u203e ( G A 1 i outputs) Variations 3 different T r a variations: low, medium, and high output The optimal T c h w and V c w values from these three runs are averaged for use as initial conditions in G A 2 i . The optimal V O ( j ) and f ( j ) values are obtained. Table 3 Model evaluation. Table 3 Models Train Test RMSE MAE R2 RMSE MAE R2 AHU111 0.164 0.119 0.996 0.181 0.125 0.995 AHU112 0.253 0.137 0.991 0.284 0.145 0.988 AHU221 0.170 0.115 0.997 0.166 0.117 0.997 AHU231 0.028 0.022 0.969 0.031 0.024 0.965 AHU321 0.128 0.093 0.998 0.129 0.096 0.998 AHU411 0.171 0.120 0.996 0.159 0.118 0.997 AHU412 0.098 0.074 0.999 0.196 0.080 0.996 AHU421 0.230 0.155 0.986 0.223 0.151 0.986 AHU431 0.155 0.120 0.989 0.156 0.123 0.989 AHU512 0.551 0.316 0.973 0.484 0.299 0.979 AHU521 0.078 0.058 0.994 0.090 0.062 0.992 AHU531 0.288 0.161 0.988 0.325 0.159 0.984 AHU312 0.113 0.079 0.323 0.113 0.079 0.329 AHU211 0.076 0.058 0.377 0.078 0.059 0.362 AHU212 0.105 0.067 0.995 0.146 0.071 0.991 AHU311 0.088 0.065 0.706 0.095 0.069 0.644 AHU331 0.141 0.101 0.652 0.150 0.105 0.615 AHU511 0.202 0.137 0.996 0.293 0.161 0.991 CH1_P 1.126 0.676 0.998 0.274 1.367 0.994 CH2_P 1.095 0.741 0.998 1.686 1.185 0.994 Table 4 Percentage of data within the temperature demand range across four zones. Table 4 Zones Percentage data within T s e t (%) Actual Prediction Optimization A 51.4 51.4 98.7 B 100 100 100 C 74.5 74.5 87.3 D 23.5 28.4 93.9 All 59.1 59.2 96.0 Table 5 Average power of chiller. Table 5 CH Average power (kW) Actual Predicted Optimization CH1 59.7 59.4 77.5 CH2 45.8 45.5 73.1 All 53.6 53.3 75.6 Leveraging multi-zone building data with machine learning-based models and genetic algorithms to optimize air handling units Elsa Chaerun Nisa Writing \u2013 original draft Visualization Validation Software Methodology Conceptualization a Yean-Der Kuan Writing \u2013 review & editing Supervision Resources Investigation Conceptualization b \u204e Cheng-Hsiang Lin Validation Resources Investigation Data curation b a Graduate Institute of Precision Manufacturing, National Chin-Yi University of Technology, Taichung 41170, Taiwan Graduate Institute of Precision Manufacturing National Chin-Yi University of Technology Taichung 41170 Taiwan Graduate Institute of Precision Manufacturing, National Chin-Yi University of Technology, Taichung 41170, Taiwan b Refrigeration, Air Conditioning and Energy Engineering Department, National Chin-Yi University of Technology, Taichung 41170, Taiwan Refrigeration Air Conditioning and Energy Engineering Department National Chin-Yi University of Technology Taichung 41170 Taiwan Refrigeration, Air Conditioning and Energy Engineering Department, National Chin-Yi University of Technology, Taichung 41170, Taiwan \u204e Corresponding author. Optimizing air handling units (AHUs) in multi-zone buildings presents significant challenges. As buildings become more complex, the demand for tailored temperature control across various zones becomes paramount. This study leverages multi-zone building data with machine learning-based models and optimization techniques to optimize AHUs by specifically integrating deep neural network (DNN) modeling, clustering analysis, and a genetic algorithm (GA). We developed 18 models to predict AHU supply air temperature ( T s a ) and 2 models to predict chiller power consumption ( P ) using DNN. Clustering analysis was applied to the return air temperature ( T r a ) of each AHU, serving as initial conditions for the GA. The clustering analysis provided insights into the AHU operational behavior, enhancing the optimization process precision. The GA's objective function maintained the AHUs' T s a and minimized P by adjusting parameters such as valve openings, fan frequencies, chilled water supply temperature, and cooling water flowrate. The results indicated that DNN models demonstrated high predictive accuracy, with 16 models showing an R2 higher than 0.96. The results suggested that AHU411 requires increased capacity during high T r a condition, while AHU212 needs an enhanced model with more diverse training data or the incorporation of additional influencing factors. Validation revealed that this approach improved temperature maintenance across zones, with 96 % of the data falling within demand temperature range ( T s e t ), and achieving T s e t required 41 % higher power input. Keywords Air handling unit Multi-zone building Machine learning Deep neural network Clustering analysis Genetic algorithm HVAC Data availability The authors do not have permission to share data. 1 Introduction 1.1 Research background Multi-zone buildings present significant challenges and complexities in optimizing the air handling unit (AHU) performance. AHUs play a significant role in regulating indoor air quality and temperature by supplying and circulating conditioned air throughout the building. Implementing a multi-zone system becomes imperative to address diverse needs such as ensuring thermal comfort for occupants [1], maintaining controlled environments for equipment, and meeting other specific requirements. As buildings become more complex, the demand for tailored temperature control across various zones becomes paramount [2]. Water-cooled chiller units are a crucial component of heating, ventilation, and air conditioning (HVAC) systems designed to produce chilled water for heat load removal [3]. This technology uses a cooling tower to transfer heat from the chiller's condenser to the surrounding atmosphere. The produced chilled water is then supplied to the AHUs. Chillers account for over 40 % of the total energy consumption in commercial and industrial buildings, highlighting that energy savings in these systems can have a significant impact [4]. For energy efficiency and sustainable building practices, optimizing AHUs is essential for occupant comfort and also crucial for minimizing overall energy consumption. Balancing optimal performance and energy consumption necessitates innovative solutions in the design and operation of multi-zone buildings. Buildings have been increasingly equipped with data-capturing capabilities for their HVAC systems, resulting in comprehensive chiller databases. Leveraging this recorded data offers an opportunity to construct models for AHU supply air temperature and chiller power consumption. Developing accurate AHU and chiller models is a critical phase in the optimization process, directly impacting energy efficiency and demand conditions. Various methods exist for constructing these models, including mathematical models, EnergyPlus, eQuest, artificial neural networks (ANN), and others [5]. Machine learning has gained popularity and is increasingly applied in buildings for modeling and optimization tasks, offering a data-driven approach to enhancing energy performance and operational efficiency. 1.2 Literature reviews 1.2.1 Neural network in multi-zone building Several studies have investigated neural networks applications in the multi-zone building modeling or control. Huang et al. [6] introduced an ANN-based system identification method to model multi-zone buildings, capturing thermal interactions between zones. Their model-based predictive control method demonstrated that comfortable temperatures could be maintained with reduced energy consumption. Amin et al. [7] developed an intelligent price-based demand response (PBDR) control strategy using ANN to optimize HVAC operation, accommodating diverse thermal preferences in different zones, and responding to real-time pricing (RTP) signals. Cui et al. [8] developed a recurrent neural network (RNN) model for predicting indoor temperatures in multi-zone buildings, offering higher computational efficiency compared to resistance-capacitance (RC) models. Xing et al. [9] proposed MITP-Net, a deep-learning framework for short-term indoor temperature prediction, utilizing multiple sensor information fusion to enhance accuracy. Fu et al. [10] introduced the event-driven deep Q network (ED-DQN) method for HVAC control in multi-zone residential buildings, achieving superior energy consumption control while maintaining thermal comfort compared to traditional reinforcement learning methods. Gao et al. [11] presented an optimal energy management strategy for the demand response of multi-thermal-zone buildings, using neural networks to minimize electricity costs and reduce energy consumption during peak load hours. Drgoňa et al. [12] utilized a real-world dataset to develop control-oriented models with a physics-constrained deep learning approach, incorporating physics-based knowledge into a structured recurrent neural architecture. Qaisar et al. [13] integrated data from multiple sensors into an occupancy prediction transformer network (OPTnet) for predicting future occupancy in multiple zones, outperforming other prediction methods like decision trees and long short-term memory (LSTM) networks. Irani et al. [14] introduced a data-driven approach for sensor fault detection and isolation in multi-zone HVAC systems, integrating the bilinear Koopman model realization, deep learning, and bilinear parity-space. The results show immediate and precise fault diagnosis for detectable faults. Mtibaa et al. [15] presented Model Predictive Control via Genetic algorithm (MPC-GA), a novel online data-driven control framework using Model Predictive Control via a Genetic Algorithm, for optimal HVAC operation. Validated in a multi-zone retail building, results showed MPC-GA reduces energy consumption by over 50 % and discomfort by over 80 % compared to rule-based controllers (RBC) systems. 1.2.2 Neural network in AHU Neural networks have also been extensively used for AHU model. Hosamo et al. [16] proposed a digital twin predictive AHU maintenance framework using various machine learning techniques to overcome the limitations of facility maintenance management (FMM) systems currently in use in buildings. Norouzi et al. [17] explored five suitable algorithms to predict indoor temperatures in a multi-zone HVAC system within an educational building. The proposed deep neural network (DNN) model achieved the highest accuracy, with an average RMSE of 0.16 °C. Son et al. [18] investigated an AHU to predict the operating dynamics without a static pressure sensor. The proposed method replaces the static pressure sensor with the DNN. Sukthankar et al. [19] employed an ANN to predict AHU\u2019 supply air temperature to overcome the limitations of computational fluid dynamics (CFD), such as high cost, the requirement for expertise, and extensive computation time. The model provides significantly faster predictions compared to full CFD simulations, maintaining good prediction accuracy. Yun et al. [20] proposed a fault detection and diagnosis (FDD) model based on a neural network. This model demonstrates the capability to perform reliable FDD on air handling unit (AHU) systems by considering undefined situations, thereby facilitating the maintenance of AHU systems. Optimization using neural networks has also been studied. Jee et al. [21] developed an artificial intelligence (AI) based real-time prediction and control model to optimize condenser water temperature and discharge air temperature set points in a water-cooled AHU system. Zou et al. [22] optimized AHU control by implementing LSTM to build deep reinforcement learning (DRL) training environments, achieving energy savings of 27%\u201330 % compared to actual consumption while keeping the predicted percentage of discomfort (PPD) at 10 %. Lee et al. [23] proposed an optimization strategy for AHU systems using an autotuned PID control method based on a virtual building simulator, reducing cooling energy consumption by up to 13.71 % on average daily. 1.2.3 Clustering analysis in HVAC system Clustering analysis has been applied in various studies of HVAC systems. An et al. [24] proposed clustering analysis to identify air-conditioning (AC) use patterns to explore AC operation characteristics using long-term metered cooling energy use data, aiming to understand thermal energy use and save energy cost through AC use behavior adjustment. Du et al. [25] used clustering analysis to classify various faulty conditions adaptively in buildings. The different faults can be separated into distinct zones in the data space. Besides the known faults in the library, new unknown faults can be recognized and implemented adaptively into the fault library. Wickramasinghe et al. [26] conducted clustering analysis to identify temperature clusters per building floor. Zhou et al. [27] applied clustering analysis to optimally partition an AC room into different zones, observing that the extreme learning machine (ELM) model assigns more weight to indoor air velocity for the thermal comfort index. 1.2.4 Genetic algorithm in HVAC optimization Genetic algorithms (GA) have been utilized in several HVAC optimization studies. Kampelis et al. [28] employed a genetic algorithm for operational optimization of an HVAC system, balancing the trade-off between minimum daily cost and thermal comfort. Nasruddin et al. [29] combined ANN and a genetic algorithm to optimize the two-chiller system operation in a building, minimizing annual energy consumption and maximizing thermal comfort. Nisa et al. [30] utilized a genetic algorithm to optimize HVAC operating parameters to prevent fogging in ice rink environment. Yang et al. [31] applied GA for optimal control of the condensing temperature set point, improving the coefficient of performance (COP) of air-cooled chillers under various operating conditions. Chen et al. [32] combined support vector machine (SVM) and GA to find operating parameters with the least air conditioning system power consumption. 1.3 Research gaps and objectives In the existing literature, neural networks have been utilized in AHUs or multi-zone buildings as described in section 1.2.1 and 1.2.2. However, the application of neural networks in AHUs within multi-zone buildings is very limited. Moreover, while clustering analysis has been used to identify patterns and classify conditions in HVAC systems (section 1.2.3), it has not been combined with advanced predictive modeling and optimization methods. Similarly, GAs have been employed for HVAC optimization (section 1.2.4), yet their application in multi-zone buildings is non-existent. While previous studies have achieved significant results in either predictive modeling or optimization independently, our study's novelty lies in this comprehensive integration specifically for AHUs in multi-zone buildings. Despite the advancements in utilizing these techniques, a significant gap persists. To the best of our knowledge, no studies have combined DNN, clustering analysis, and GA to optimize AHU supply air temperature ( T s a ) in multi-zone buildings. This combination presents a valuable opportunity, as the DNN can build precise models for AHU T s a and chiller power consumption ( P ), which can then be used as a basis for optimization using the GA to meet T s a requirements while minimizing P . To enhance scalability and practical application, clustering can be used to characterize each AHU, serving as the initial condition for the GA. This approach demonstrates strong potential and practical implementation capabilities, addressing real-world challenges in HVAC systems by leveraging multi-zone data. Moreover, this method can potentially be scaled and adapted to different systems, highlighting its versatility and effectiveness. The primary objective of this paper is to optimize the AHU by maintaining each zone's T s a while considering P . The specific study objectives are as follows: (1) Develop 18 models to predict T s a of AHUs, and 2 models to predict P using DNN. (2) Cluster the return air temperature ( T r a ) of each AHU to characterize each AHU, serving as the initial condition for GA optimization. (3) Utilize GA to maintain AHU T s a and minimize P by optimizing chiller operating parameters such as chilled water supply temperature ( T c h w ) and cooling water flowrate ( V c w ), along with AHU operating parameters like valve openings ( V O ) and fan frequency ( f ). (4) Validate the optimized operating parameters obtained from GA using the dataset. The structure of this paper is as follows. Section 2 presents the building investigation. Section 3 outlines the methodology, covering the conceptual framework, dataset description, and the algorithm utilized. In Section 4, we present the results and engage in a comprehensive discussion. The key conclusions and future works are summarized in Section 5. 2 The investigated building This study investigated a telecommunication equipment building in Taiwan, which has 5 floors. The first floor consists of 2 AHUs, while the second to fifth floors each have 4 AHUs, totaling 18 AHUs. Fig. 1 shows the schematic of the AHUs and zones on each floor. Overall, there are four zones. The building utilizes a dual-chiller system, as depicted in Fig. 2 . This system includes two chilled water units (CH), three chilled water pumps (CHP), three zone pumps (ZP), three cooling water pumps (CWP) and two cooling towers (CT). The blue pipes represent the chilled water loop, where the chilled water from chiller's evaporator is pumped to cooling coils within the AHUs. This process facilitates heat absorption from the ambient air inside the building. Afterward, the water cycles back to the evaporator for further cooling. The red pipes symbolize the condenser water loop, where condenser water from the chiller is pumped to the cooling tower to expel heat. Subsequently, the cooled condenser water returns to the chiller to complete the thermal exchange cycle. Although the building has a dual-chiller system, only one chiller operates at a time, alternating between the two units. AHUs serve as the primary mechanism for air circulation within the building, regulating temperature and humidity levels [33]. Fig. 3 illustrates the AHU process: return air (RA) and outdoor air (OA) enter the system, pass through a filter for purification, and proceed through the cooling coil to regulate temperature before being distributed into the rooms. For this study, the system is set to 100 % RA, meaning it only circulates indoor air. Table 1 provides information on the zones, operating time percentages, and the percentage of data within the demand temperature range ( T s e t ) range for AHUs. For each zone, the T s e t is defined by the minimum ( T min ) and maximum demand temperatures ( T max ). The building is divided into four zones, with the chiller typically operating as a single unit, either CH1 or CH2. Additionally, each AHU does not run continuously for 24 h and occasionally turns off. Regarding the total operating time percentage, 12 AHUs operate for more than 50 % of the time, while the remaining 6 AHUs operate for less than 50 %. For the total data within T s e t percentage, 9 AHUs have 50 % of their data within the T s e t range, indicating a limited amount of data achieving the T s e t . 3 Methods 3.1 Conceptual framework Fig. 4 illustrates the workflow diagram used in this study. The process begins with data collection, where the dataset is gathered from AHUs and chillers via the BMS. Weather data is obtained from the nearest weather station. The dataset undergoes preprocessing, which includes data cleaning to remove irrelevant information for each model. The cleaned data is then split into training, validation, and test sets, followed by data scaling. After preprocessing, we develop AHU and chiller models using DNN, resulting in a total of 20 models. Concurrently, T r a clustering is performed for each AHU using the k-means algorithm. These models are integrated into a GA, with the centroid of each cluster serving as the initial conditions. Upon executing the GA, we obtained optimum parameters such as T c h w , V c w , V O ( j ) , and f ( j ) , where j indicates the specific AHU. The GA results are then validated against the dataset based on the clustering. Finally, a comparison is made between the actual, predicted, and optimized values for T r a ( j ) and P i ,where i indicates either CH1 or CH2. 3.2 Data collection The dataset was collected at hourly intervals for a year and includes data from 18 AHUs and 2 chillers obtained from the BMS, along with weather data from the nearest weather station. Each AHU provides data on V O ( j ) , f ( j ) , T r a ( j ) , and T s a ( j ) . The AHU status data is manually categorized as either off or on, based on fan frequency and valve opening values s t a t ( j ) , where j indicates the specific AHU, such as AHU111, AHU112, \u2026, AHU511. Additionally, for each chiller, the collected data includes T c h w i , V c w i , and P i , with i denoting the chillers unit, either CH_1 or CH_2. The weather data collected includes outdoor air temperature ( T o a ) and outdoor air humidity ( R H o a ). 3.3 Data preprocessing The collected data undergoes preprocessing, which involves cleaning the data to remove missing or incorrect measurements. Each model has its own dataset corresponding to the specific data related to that model. Each AHU model uses the data when its AHU operated, regardless of whether it was using CH1 or CH2. Each chiller model uses the data when its chiller operated. For the DNN models, the data was split into three sets: 70 % for training, 15 % for validation, and 15 % for testing. A normalization technique, as described in equation (1), was applied to scale the data. (1) x n o r m i = x ( i ) − x min x max − x min Where x n o r m i , x ( i ) , x min , and x max , represent normalized value, observed value, the minimum value in the dataset, and the maximum value in the dataset, respectively. 3.4 DNN model The DNN model was developed to predict the T s a ( j ) of each AHU and the P i of each chiller. The DNN architecture for predicting (a) T s a ( j ) and (b) P i is illustrated in Fig. 5 . The T s a ( j ) model includes four input variables: T c h w , V O ( j ) , T r a ( j ) , and f ( j ) . These inputs are related to T s a ( j ) . These inputs are connected to three hidden layers, each with 10 hidden neurons. The final hidden layer is linked to the output layer, which represents the predicted T s a ( j ) . On the other hand, the P i model incorporates 94 inputs, including two chiller-related variables ( T c h w i & V c w i ), two weather-related variables ( T o a and R H o a ), and 90 AHU-related variables ( V O ( j ) , T r a ( j ) , T s a ( j ) , f ( j ) , and s t a t ( j ) from 18 AHUs). The input layer is connected to five hidden layers, each with 50 hidden neurons. Subsequently, the hidden layers are interconnected with the output layer representing the predicted P i [34] The output of a neuron is described by equation (2), where the input ( x i ), weight ( w i ), and bias ( b ) collectively contribute to the output ( y ) [35]. The activation function ( f ), represented by the rectifier linear unit (ReLU), introduces non-linearity to the neuron's output for capturing complex patterns in the data. The objective of a neural networks' training is to minimize the loss function, which quantifies the difference between the predicted and actual values [36]. Equation (3) demonstrates the mean squared error (MSE), a widely-used loss function in regression tasks. Grid-search hyperparameter tuning is employed to identify the optimal learning rate from the set [0.01, 0.005, 0.001, 0.0005], while the remaining hyperparameters are searched manually. (2) y = f ( ∑ i x i w i + b ) (3) M S E = 1 N ∑ i = 1 N ( Y i − P i ) 2 3.5 Performance evaluations The model performance is assessed using three metrics: mean absolute error (MAE), root mean square error (RMSE), and coefficient of determination (R2). These three metrics are formulated as in equations (4)\u2013(6): (4) M A E = 1 N ∑ i = 1 N | Y i − P i | (5) R M S E = 1 N ∑ i = 1 N ( Y i − P i ) 2 2 (6) R 2 = 1 − ∑ i = 1 N ( Y i − P i ) 2 ∑ i = 1 N ( Y i − Y \u203e ) 2 Where, N, Y i , P i , and Y \u203e , refer to the number of samples, measured value, predictive value, and average measured value, respectively. 3.6 K-means clustering analysis Clustering is one of the most important unsupervised machine learning techniques widely used in many fields. Clustering analysis groups objects into clusters so that within the same cluster they are similar to each other and dissimilar to objects in any other cluster [37\u201339]. The k-means algorithm is a clustering algorithm proposed by J.B.MacQueen [40]. The k-means algorithm partitions a dataset to minimize the squared error between data points and their clusters. Let X = { x i }( i = 1, \u2026., n ), represent a set of n d -dimensional points to be clustered into K clusters, C = { c k } ( k = 1, \u2026, K ). Equation (7) represents the objective function for a single cluster c k , where, μ k is the cluster centroid c k , and \u2016 x i − μ k \u2016 is the Euclidean distance between x i and μ k . (7) J ( c k ) = ∑ x i ∈ c k \u2016 x i − μ k \u2016 2 The goal of the k-means algorithm is to minimize the total sum of the squared error over all K clusters, as shown in equation (8) [41]. (8) J ( C ) = ∑ k = 1 K ∑ x i ∈ c k \u2016 x i − μ k \u2016 2 The k-means algorithm begins by randomly selecting K centroids from the dataset. Each data point's distance from all the selected centroids is evaluated using the Euclidean distance. Each data point is then assigned to the closest centroid. The centroids are then updated by recalculating each centroid as the mean of all data points assigned to it. Assigning data points to centroids and updating centroids are performed iteratively until the cluster membership stabilizes, typically when the centroids no longer change significantly between iterations [42,43]. In this study, the T r a ( j ) of each AHU is clustered into three categories: low, medium, and high. Using three clusters for all AHUs ensures consistency and effectively represents the full temperature range without being overly complex. This approach simplifies the clustering model used in the optimization process, making it manageable while still capturing the essential variations from low to high temperatures. 3.7 Genetic algorithm The genetic algorithm (GA) is a search heuristic inspired by the principles of natural selection and genetics. It is utilized to find optimal or near-optimal solutions for complex problems through iterative processes involving reproduction, selection, crossover, and mutation [44,45]. The essential steps of the GA optimization process are depicted in Fig. 6 . Initially, a random population of potential solutions is generated within specified upper and lower bounds. The fitness function, representing the objective function, is then evaluated for each individual. Based on these evaluations, the most suitable individuals are selected as parents to create the next generation. These parents undergo crossover to combine their genetic information and mutation to introduce diversity. This cycle repeats, generating new populations to replace old ones until the termination criteria are satisfied [46]. For each chiller operation, the building is assumed to exhibit three variations based on the clustering of T r a : low, medium and high. When using the low variation, all AHU T r a ( j ) in the building are set to the centroid of the low cluster obtained from clustering, and similarly for the medium and high variations. Therefore, the optimization process considers these three variations. The first genetic algorithm ( G A 1 i ) round involves multi-objective optimization to minimize both P i and temperature error ( Δ T ) for each of the three variations. The optimization parameters include two chiller parameters ( T c h w , and V c w ) and 18 AHU parameters ( V O ( j ) , and f ( j ) ). In practical scenarios, each AHU T r a ( j ) values in the building may vary and cluster into low, medium and high. Despite these variations, the chiller parameters must remain consistent. Consequently, the second round of the genetic algorithm ( G A 2 i ) is implemented, where the initial conditions for the chiller parameters are set to the average values derived from G A 1 i , specifically T c h w \u203e , and V c w \u203e . The G A 2 i focuses on single-objective optimization to minimize Δ T , with the optimization parameters being the 18 AHU parameters ( V O ( j ) , and f ( j ) ). The outputs T c h w \u203e , V c w \u203e , V O ( j ) , and f ( j ) from GA are then validated against the dataset. Table 2 presents the GA setup information for each round. Equation (9) defines the temperature error for each AHU ( Δ T ( j ) ) . A penalty of 0 is assigned when T min ( j ) ≤ T s a ( j ) ≤ T max ( j ) , otherwise the absolute error is assigned. In this equation, T s e t ( j ) represents the midpoint of the T s e t ( j ) range. The average Δ T is then computed as shown in equation (10). The fitness function for G A 1 , which scales the objective functions to the range [0, 1] to ensure balanced optimization, is given in equation (11). The weights applied are 0.7 for the scaled temperature error ( Δ T \u2032 ) and 0.3 for scaled chiller power ( P i \u2032 ). The fitness function of G A 2 i , focused on minimizing Δ T , is shown in equation (12). The upper and lower bounds for each variable are determined based on their respective minimum and maximum values utilized in model development. The genetic algorithm is configured with a population size of 100, a crossover rate of 0.8, a mutation rate of 0.2, a maximum of 200 generations, and a crowding factor of 10. (9) Δ T ( j ) = { 0 T min ( j ) ≤ T s a ( j ) ≤ T max ( j ) | T s e t ( j ) − T s a ( j ) | o t h e r w i s e (10) Δ T = 1 18 ∑ j = 1 18 Δ T ( j ) (11) G A 1 i Fitness function = min ( ( P i \u2032 x 0.3 ) + ( Δ T \u2032 x 0.7 ) ) (12) G A 2 i Fitness function = min ( Δ T ) 4 Results and discussion 4.1 Modeling 4.1.1 AHU\u2019 T s a ( j ) model Fig. 7 compares the actual and predicted T s a ( j ) values for 18 AHUs. The x-axis denotes actual T s a ( j ) values, while the y-axis denotes predicted T s a ( j ) values, with blue dots representing training data and green dots representing test data. All plots share a consistent scale ranging from 9 °C to 20 °C. The red line, indicative of perfect prediction, shows that most data points cluster closely around it, signifying high accuracy in the model's predictions. Notably, AHU211, AHU231, AHU311, AHU 312, and AHU331 exhibit minimal variation in T s a ( j ) , with differences not exceeding 2 °C; however, the models still accurately capture these values within this narrow range. Overall, the figure demonstrates that the predictive models exhibit robust performance and reliability across various AHUs, confirming their suitability for practical application. 4.1.2 Chiller model Fig. 8 illustrates scatter plots of the power consumption for actual and predicted models (a) CH1 and (b) CH2. The x-axis represents the actual power consumption, while the y-axis represents the predicted power consumption. Blue dots indicate training data, and the green dots represent the testing data. In both models, the data points align closely along the red diagonal line (y = x), signifying a high correlation between actual and predicted values. This alignment demonstrates that the models accurately predict power consumption with minimal error. 4.1.3 Model evaluations Table 3 evaluates chiller and AHU models using three key metrics: RMSE, MAE, and R2, assessed on both training and testing datasets. Most models exhibit high R2 values, greater than 0.96, close to 1, indicating a strong fit to the data. However, a few AHU models, such as AHU211, AHU311, AHU312, and AHU331, discussed in section 4.1.1, show lower R2 values. Despite this, their MAE and RMSE values remain below 0.2 °C, which is acceptable for our study. The power models demonstrate high R2 values, with RMSE and MAE values below 2 kW, indicating a good fit to the data. 4.2 K-means clustering Fig. 9 illustrates the AHU\u2019 T r a clustering results, categorized into low, medium, and high clusters across various AHU units. The horizontal axis represents the temperature for both T r a and range of T s e t , while the vertical axis lists the different AHU units. The plot uses different colored markers to denote various temperature ranges: blue, green, and red represent the low, medium, and high range of AHU\u2019 T r a , respectively. The yellow dots indicate the centroids of each cluster, representing the central value within each cluster across the AHUs. Black markers show the range of AHUs' T s e t . Including T s e t range in this figure illustrate the targeted supply air temperatures for each unit from each respective centroid. 4.3 Optimization The results obtained from G A 1 indicate that for CH1, the values for T c h w and V c w are 7.6 °C and 5,364 LPM, respectively, while for CH2, they are 7.7 °C and 4,121 LPM. These findings serve as the initial conditions for G A 2 . Fig. 10 illustrates the G A 2 \u2019 minimum fitness over generations for various T r a ( j ) in two cases: (a) CH1 and (b) CH2. The plots depict the convergence behavior of the genetic algorithm under three T r a ( j ) conditions: low, medium, and high. In both CH1 and CH2, the minimum fitness value decreases significantly during the initial generations, indicating rapid improvement in solution quality. As the number of generations increases, the rate of fitness improvement diminishes and eventually stabilizes. For both cases, the low variation of T r a ( j ) condition consistently achieves the lowest minimum fitness values, followed by medium and high T r a ( j ) . This indicates that the lower T r a ( j ) is more effective in minimizing the fitness value, thereby achieving the T s e t . Theoretically, when the return air temperature ( T r a ( j ) ) is higher, an increased valve opening (VO) is typically required to achieve the desired supply air temperature ( T s a ). For fan frequency ( f ), increasing it can raise the airflow rate, which reduces the contact time between the air and the cooling coil, leading to lower heat transfer and a smaller difference between T r a ( j ) and T s a . Fig. 11 illustrates the optimum AHU parameter under different T r a ( j ) conditions. The three sub-figures show the results for T r a ( j ) (a) low, (b) medium, and (c) high. These figures indicate that optimal settings for V O ( j ) and f ( j ) vary across different T r a ( j ) conditions. The upper and lower operating parameter boundaries for each AHU differ according to their respective minimum and maximum values utilized in model development. The optimal operating parameters generated by the GA do not exhibit a straightforward linear relationship. When T r a is higher, the V O does not consistently increase; it sometimes increases or decreases. This variability suggests that incorporating fan frequency (f) into the optimization process can adjust the conditions to achieve T s e t . The relationship between T r a ( j ) , V O , and f is non-linear in achieving T s e t due to several influencing factors that were not included in this analysis: \u2022 Airflow: The airflow is not constant and varies based on demand. \u2022 Chilled water flowrate: The chilled water flowrate is also variable, as this parameter was not included in the optimization. \u2022 Control strategy: The set points used during model training affect the behavior of the operating parameters. These factors contribute to the optimization process complexity and suggest that achieving the T s e t involves a nuanced balance of multiple interacting variables. The optimal operational parameters can be identified using the GA. It is important to noted that the GA results is based on the AHU and chiller model, which trained by the data collected according to their behavior. 4.4 Validation The operating parameter obtained is then validated using the whole collected data. Three data are compared, actual, predicted, and optimized. The actual data is the collected data, the prediction is the model output where all inputs use the actual data. The optimization is the model output where initialized with the same T o a , R H o a , and T r a as the actual conditions, and using the GA-derived parameters ( T c h w , V c w , V O ( j ) , and f ( j ) ), consistently achieves the range of T s e t . Fig. 12 depict the comparison between actual, prediction, and optimization T s a ( j ) across all zones. The red line represents the actual, and the blue line represents the prediction. A comparison between the actual and prediction values reveals that the model, when using the same input conditions as the actual system, accurately predict the T s a ( j ) . This suggests a high degree of reliability in the model's predictions. The optimization results are illustrated with the green line, where it mostly falls within the demand range of T s e t , as indicated by the orange dashed lines. This alignment indicates that the parameters derived from the GA successfully meet the T s e t across various scenarios. Fig. 12a illustrate the optimization results in Zone A, which T s e t range between 9 and 12 °C. Overall, it falls in the T s e t range except for AHU411. In the AHU411 optimization, we observed that its low and medium variations all achieve its T s e t . However, for high variation, 39 % of the data falls higher than its range, higher than 12 °C. The GA has difficulty meet the T s e t , even using the high V O ( j ) , therefore it can be concluded that the AHU411 need more capacity when high variation. Fig. 12b illustrates the Zone B optimization results, in which T s e t ranges between 12.5 and 15.5 °C. The existing parameter already achieves the T s e t , making the GA easy to achieve the T s e t . In this case, since the existing parameter is already optimal, the optimization results confirm their effectiveness. Fig. 12c illustrates the optimization results within Zone C, where the desired T s e t falls within the range of 15∼17 °C. The optimization aligns with the range of T s e t , with the AHU212 exception. Upon analyzing AHU212's optimization, it's noted that low variation consistently meets the T s e t , whereas medium and high variations occasionally deviate from the desired range. Specifically, medium variation shows 27 % of data points above the range and 37 % below, while high variation exhibits 38 % above. This error comes from the inherent challenge encountered by the GA in identifying optimal parameters. Subsequent analysis highlights the model sensitivity, even the AHU212 model accuracy was good, however, the variation when range of T s a ( j ) remains within the range of T s e t during the training process. Fig. 12d illustrates the Zone B optimization results, where T s e t ranges between 16.5 and 18.5 °C. Overall, the results fall within the T s e t range, demonstrating the effectiveness of the optimization process effectiveness. Table 4 presents the percentage of data within the T s e t across four zones (A, B, C, D). The actual and predicted data for zones A, B, and C show the same percentage falling within T s e t . However, zone D exhibits about a 5 % difference because much of the data in Zone 3 is close to maximum T s e t , so a slight error in Celsius significantly impacts this percentage. Overall, the optimization indicates improvement across all zones, demonstrating that our validated approach can maintain temperatures within T s e t , with 96 % of the data overall falling within this range. Fig. 13 illustrates the power consumption for the optimized model, the actual system, and the predicted values. The data reveals that the optimized power consumption is sometimes higher than both the actual and predicted values. This discrepancy is primarily due to the overall load being higher in the optimized scenarios, particularly when the T s a ( j ) reaches significantly lower levels than in the actual system. This indicates that the optimization process, while effective in achieving lower T s a ( j ) , sometimes results in increased P due to the higher cooling demands. The average chiller power is presented in Table 5 . Overall, the power consumption increased by 41 %. Increasing power consumption in this case is necessary to achieve the optimal T s a ( j ) . Although the GA parameters meet the temperature demands and already minimize power in the objective function, they also lead to higher energy consumption when cooling demands are higher. This suggests that further optimization process refinement may be necessary to balance the temperature control and energy efficiency more effectively. 4.5 Discussion When leveraging the existing data, it is acknowledged that datasets may occasionally lack certain critical parameters, affecting the optimization process accuracy. Although this approach may not achieve a high level of precision, it can still produce significant improvements and provide valuable suggestions or control mechanisms for the AHU. The close alignment between the predicted and actual data for T s a validates the neural network models reliability used. However, AHU411 and AHU212 indicate a need for further optimization, by improving their model. Enhancing these models with more diverse training data or incorporating additional influencing factors could improve prediction accuracy. The clustering analysis provided the AHU operational behavior, where the centroid represents the cluster range in GA's initial condition. By identifying distinct clusters, the optimization process could be more precisely targeted, thereby improving the AHU performance. The greater the number of clusters means that the more initial condition needed to be executed by the GA, resulting in more precisely targeted clustering, however, this more time consuming. This study clustered the T r a into 3 clusters. The GA successfully identified parameter sets that brought the T s a within the desired range across multiple zones. It is important to note that the optimization results were generated based on models where several AHU variables, such as chilled water flowrate, airflow, and original control strategy, were not included. By ignoring these variables, the resulting optimization has limitations, applicable only to the original behavior. Therefore, involving the missing AHU variables to the model would improve the DNN model and generate more reliable optimization results, serving as the initial conditions for the optimization. Overall, the T s e t is much lower than the actual T s a . Therefore, a low T c h w is required to achieve a low T s e t , and a high V c w is needed to release heat from the condenser, thereby minimizing power consumption. Even though minimizing power consumption has been incorporated into the GA objective function, it is almost impossible for the optimized value to be lower than the actual value, as a low T s a leads to an increased cooling load and higher power consumption. This indicates that while energy efficiency is a goal, meeting specific cooling demands may sometimes require higher energy input. This analysis shows that achieving the T s e t requires 41 % more power. Future research could explore balancing these requirements, such as installing the flowrate sensors for each AHU to analyze and compare their cooling loads. 5 Conclusions and future works This study leverages a one-year dataset from a multi-zone building with 18 AHUs and 2 chillers to optimizes the AHUs by integrating the DNN model, clustering analysis, and GA. The primary GA objective was to maintain the desired T s a while minimizing power consumption. (1) The DNN was used to develop 18 models for predicting AHU supply air temperatures and 2 models for predicting chiller power consumption. The models demonstrated high predictive accuracy, where 16 models showing an R2 higher than 0.96. Although 4 models had lower R2 values, their MAE and RMSE values remain below 0.2 °C, which is acceptable for our study. (2) Clustering analysis is applied to categorize the T r a data for each AHU into three clusters: low, medium, and high. The centroid of these clusters served as the initial conditions for the GA optimization process. (3) The GA optimization identified parameter sets, which are the V O , f , T c h w , and V c w , that brought T s a within the desired range for most AHUs. The results suggested that AHU411 requires more capacity during high T r a , and AHU212 needs enhanced model with more diverse training data or additional influencing factors could improve prediction accuracy. (4) The validation revealed that this approach demonstrated improvement across zones, maintaining temperatures within T s e t range, with 96 % of the data overall falling within this range. For the power consumption analysis, achieving T s e t required 41 % higher power input. The integration of the DNN models, clustering analysis, and GA offers a robust framework for optimizing HVAC systems in multi-zone buildings. The GA successfully identifies the optimum parameters, highlighting that improvements are needed for AHU411 and AHU212. Future work should focus on refining the models with more diverse training data, and implementing this approach to others HVAC systems. Additionally, installing chilled water flowrate and airflow sensors for each AHU will allow for detail analysis and comparison of cooling loads, further improving the optimization process. CRediT authorship contribution statement Elsa Chaerun Nisa: Writing \u2013 original draft, Visualization, Validation, Software, Methodology, Conceptualization. Yean-Der Kuan: Writing \u2013 review & editing, Supervision, Resources, Investigation, Conceptualization. Cheng-Hsiang Lin: Validation, Resources, Investigation, Data curation. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgement This work is supported by the Ministry of Science and Technology of Taiwan, grant number MOST 111-2221-E-167-015 and Shangcheng Mechanical and Electrical Engineering Co., Ltd. Nomenclature List of symbols f fan frequency G A 1 first genetic algorithm G A 2 Second genetic algorithm P chiller power consumption P \u2032 scaled chiller power R H o a outdoor air humidity T c h w water supply temperature T c h w \u203e average values of T c h w T max maximum demand temperature T min minimum demand temperature T o a outdoor air temperature T r a return air temperature T s a supply air temperature T s e t demand temperature range V O valve openings V c w cooling water flowrate V c w \u203e average values of V c w Δ T temperature error Δ T \u2032 scaled temperature error Subscript/Superscript (j) AHU j i chiller i References [1] P. Wolkoff K. Azuma P. Carrer Health, work performance, and risk of infection in office-like environments: the role of indoor temperature, air humidity, and ventilation Int. J. Hyg Environ. Health 233 2021 113709 10.1016/J.IJHEH.2021.113709 P. Wolkoff, K. Azuma, P. Carrer, Health, work performance, and risk of infection in office-like environments: The role of indoor temperature, air humidity, and ventilation, Int J Hyg Environ Health 233 (2021) 113709. https://doi.org/10.1016/J.IJHEH.2021.113709. [2] G. Lymperopoulos P. Ioannou Building temperature regulation in a multi-zone HVAC system using distributed adaptive control Energy Build. 215 2020 109825 10.1016/J.ENBUILD.2020.109825 G. Lymperopoulos, P. Ioannou, Building temperature regulation in a multi-zone HVAC system using distributed adaptive control, Energy Build 215 (2020) 109825. https://doi.org/10.1016/J.ENBUILD.2020.109825. [3] L. Wang E.W.M. Lee R.K.K. Yuen W. Feng Cooling load forecasting-based predictive optimisation for chiller plants Energy Build. 198 2019 261 274 10.1016/J.ENBUILD.2019.06.016 L. Wang, E.W.M. Lee, R.K.K. Yuen, W. Feng, Cooling load forecasting-based predictive optimisation for chiller plants, Energy Build 198 (2019) 261-274. https://doi.org/10.1016/J.ENBUILD.2019.06.016. [4] R. Saidur M. Hasanuzzaman T.M.I. Mahlia N.A. Rahim H.A. Mohammed Chillers energy consumption, energy savings and emission analysis in an institutional buildings Energy 36 2011 5233 5238 10.1016/J.ENERGY.2011.06.027 R. Saidur, M. Hasanuzzaman, T.M.I. Mahlia, N.A. Rahim, H.A. Mohammed, Chillers energy consumption, energy savings and emission analysis in an institutional buildings, Energy 36 (2011) 5233-5238. https://doi.org/10.1016/J.ENERGY.2011.06.027. [5] H. Sha P. Xu C. Hu Z. Li Y. Chen Z. Chen A simplified HVAC energy prediction method based on degree-day Sustain. Cities Soc. 51 2019 101698 10.1016/J.SCS.2019.101698 H. Sha, P. Xu, C. Hu, Z. Li, Y. Chen, Z. Chen, A simplified HVAC energy prediction method based on degree-day, Sustain Cities Soc 51 (2019) 101698. https://doi.org/10.1016/J.SCS.2019.101698. [6] H. Huang L. Chen E. Hu A neural network-based multi-zone modelling approach for predictive control system design in commercial buildings Energy Build. 97 2015 86 97 10.1016/J.ENBUILD.2015.03.045 H. Huang, L. Chen, E. Hu, A neural network-based multi-zone modelling approach for predictive control system design in commercial buildings, Energy Build 97 (2015) 86-97. https://doi.org/10.1016/J.ENBUILD.2015.03.045. [7] U. Amin M.J. Hossain E. Fernandez Optimal price based control of HVAC systems in multizone office buildings for demand response J. Clean. Prod. 270 2020 122059 10.1016/J.JCLEPRO.2020.122059 U. Amin, M.J. Hossain, E. Fernandez, Optimal price based control of HVAC systems in multizone office buildings for demand response, J Clean Prod 270 (2020) 122059. https://doi.org/10.1016/J.JCLEPRO.2020.122059. [8] B. Cui P. Im M. Bhandari S. Lee Performance analysis and comparison of data-driven models for predicting indoor temperature in multi-zone commercial buildings Energy Build. 298 2023 113499 10.1016/J.ENBUILD.2023.113499 B. Cui, P. Im, M. Bhandari, S. Lee, Performance analysis and comparison of data-driven models for predicting indoor temperature in multi-zone commercial buildings, Energy Build 298 (2023) 113499. https://doi.org/10.1016/J.ENBUILD.2023.113499. [9] T. Xing K. Sun Q. Zhao MITP-Net: a deep-learning framework for short-term indoor temperature predictions in multi-zone buildings Build. Environ. 239 2023 110388 10.1016/J.BUILDENV.2023.110388 T. Xing, K. Sun, Q. Zhao, MITP-Net: A deep-learning framework for short-term indoor temperature predictions in multi-zone buildings, Build Environ 239 (2023) 110388. https://doi.org/10.1016/J.BUILDENV.2023.110388. [10] Q. Fu Z. Li Z. Ding J. Chen J. Luo Y. Wang Y. Lu ED-DQN: an event-driven deep reinforcement learning control method for multi-zone residential buildings Build. Environ. 242 2023 110546 10.1016/J.BUILDENV.2023.110546 Q. Fu, Z. Li, Z. Ding, J. Chen, J. Luo, Y. Wang, Y. Lu, ED-DQN: An event-driven deep reinforcement learning control method for multi-zone residential buildings, Build Environ 242 (2023) 110546. https://doi.org/10.1016/J.BUILDENV.2023.110546. [11] Y. Gao S. Li X. Fu W. Dong B. Lu Z. Li Energy management and demand response with intelligent learning for multi-thermal-zone buildings Energy 210 2020 118411 10.1016/J.ENERGY.2020.118411 Y. Gao, S. Li, X. Fu, W. Dong, B. Lu, Z. Li, Energy management and demand response with intelligent learning for multi-thermal-zone buildings, Energy 210 (2020) 118411. https://doi.org/10.1016/J.ENERGY.2020.118411. [12] J. Drgoňa A.R. Tuor V. Chandan D.L. Vrabie Physics-constrained deep learning of multi-zone building thermal dynamics Energy Build. 243 2021 110992 10.1016/J.ENBUILD.2021.110992 J. Drgona, A.R. Tuor, V. Chandan, D.L. Vrabie, Physics-constrained deep learning of multi-zone building thermal dynamics, Energy Build 243 (2021) 110992. https://doi.org/10.1016/J.ENBUILD.2021.110992. [13] I. Qaisar K. Sun Q. Zhao T. Xing H. Yan Multi-sensor-based occupancy prediction in a multi-zone office building with transformer Buildings 13 2023 2002 10.3390/buildings13082002 I. Qaisar, K. Sun, Q. Zhao, T. Xing, H. Yan, Multi-Sensor-Based Occupancy Prediction in a Multi-Zone Office Building with Transformer, Buildings 13 (2023) 2002. https://doi.org/10.3390/buildings13082002. [14] F.N. Irani M. Bakhtiaridoust M. Yadegar N. Meskin A data-driven approach for fault diagnosis in multi-zone HVAC systems: deep neural bilinear Koopman parity J. Build. Eng. 76 2023 107127 10.1016/j.jobe.2023.107127 F.N. Irani, M. Bakhtiaridoust, M. Yadegar, N. Meskin, A data-driven approach for fault diagnosis in multi-zone HVAC systems: Deep neural bilinear Koopman parity, Journal of Building Engineering 76 (2023) 107127. https://doi.org/10.1016/j.jobe.2023.107127. [15] F. Mtibaa K.-K. Nguyen V. Dermardiros M. Cheriet Context-aware model predictive control framework for multi-zone buildings J. Build. Eng. 42 2021 102340 10.1016/j.jobe.2021.102340 F. Mtibaa, K.-K. Nguyen, V. Dermardiros, M. Cheriet, Context-aware Model Predictive Control framework for multi-zone buildings, Journal of Building Engineering 42 (2021) 102340. https://doi.org/10.1016/j.jobe.2021.102340. [16] H.H. Hosamo P.R. Svennevig K. Svidt D. Han H.K. Nielsen A Digital Twin predictive maintenance framework of air handling units based on automatic fault detection and diagnostics Energy Build. 261 2022 111988 10.1016/j.enbuild.2022.111988 H.H. Hosamo, P.R. Svennevig, K. Svidt, D. Han, H.K. Nielsen, A Digital Twin predictive maintenance framework of air handling units based on automatic fault detection and diagnostics, Energy Build 261 (2022) 111988. https://doi.org/10.1016/j.enbuild.2022.111988. [17] P. Norouzi S. Maalej R. Mora Applicability of deep learning algorithms for predicting indoor temperatures: towards the development of digital twin HVAC systems Buildings 13 2023 1542 10.3390/buildings13061542 P. Norouzi, S. Maalej, R. Mora, Applicability of Deep Learning Algorithms for Predicting Indoor Temperatures: Towards the Development of Digital Twin HVAC Systems, Buildings 13 (2023) 1542. https://doi.org/10.3390/buildings13061542. [18] J. Son H. Kim Sensorless air flow control in an HVAC system through deep learning Appl. Sci. 9 2019 3293 10.3390/app9163293 J. Son, H. Kim, Sensorless Air Flow Control in an HVAC System through Deep Learning, Applied Sciences 9 (2019) 3293. https://doi.org/10.3390/app9163293. [19] N. Sukthankar A. Walekar D. Agonafer Supply air temperature prediction in an air-handling unit using artificial neural network Volume 8B: Heat Transfer and Thermal Engineering 2018 American Society of Mechanical Engineers 10.1115/IMECE2018-88507 N. Sukthankar, A. Walekar, D. Agonafer, Supply Air Temperature Prediction in an Air-Handling Unit Using Artificial Neural Network, in: Volume 8B: Heat Transfer and Thermal Engineering, American Society of Mechanical Engineers, 2018. https://doi.org/10.1115/IMECE2018-88507. [20] W.-S. Yun W.-H. Hong H. Seo A data-driven fault detection and diagnosis scheme for air handling units in building HVAC systems considering undefined states J. Build. Eng. 35 2021 102111 10.1016/j.jobe.2020.102111 W.-S. Yun, W.-H. Hong, H. Seo, A data-driven fault detection and diagnosis scheme for air handling units in building HVAC systems considering undefined states, Journal of Building Engineering 35 (2021) 102111. https://doi.org/10.1016/j.jobe.2020.102111. [21] H.J. Jee S.H. Yeon J.W. Park Y. Yoon K.H. Lee Machine learning based simultaneous control of air handling unit discharge air and condenser water temperatures set-point for minimized cooling energy in an office building Energy Build. 297 2023 113471 10.1016/J.ENBUILD.2023.113471 H.J. Jee, S.H. Yeon, J.W. Park, Y. Yoon, K.H. Lee, Machine learning based simultaneous control of air handling unit discharge air and condenser water temperatures set-point for minimized cooling energy in an office building, Energy Build 297 (2023) 113471. https://doi.org/10.1016/J.ENBUILD.2023.113471. [22] Z. Zou X. Yu S. Ergan Towards optimal control of air handling units using deep reinforcement learning and recurrent neural network Build. Environ. 168 2020 106535 10.1016/J.BUILDENV.2019.106535 Z. Zou, X. Yu, S. Ergan, Towards optimal control of air handling units using deep reinforcement learning and recurrent neural network, Build Environ 168 (2020) 106535. https://doi.org/10.1016/J.BUILDENV.2019.106535. [23] D. Lee J. Jeong Y.T. Chae Application of deep reinforcement learning for proportional\u2013integral\u2013derivative controller tuning on air handling unit system in existing commercial building Buildings 14 2023 66 10.3390/buildings14010066 D. Lee, J. Jeong, Y.T. Chae, Application of Deep Reinforcement Learning for Proportional-Integral-Derivative Controller Tuning on Air Handling Unit System in Existing Commercial Building, Buildings 14 (2023) 66. https://doi.org/10.3390/buildings14010066. [24] J. An D. Yan T. Hong Clustering and statistical analyses of air-conditioning intensity and use patterns in residential buildings Energy Build. 174 2018 214 227 10.1016/J.ENBUILD.2018.06.035 J. An, D. Yan, T. Hong, Clustering and statistical analyses of air-conditioning intensity and use patterns in residential buildings, Energy Build 174 (2018) 214-227. https://doi.org/10.1016/J.ENBUILD.2018.06.035. [25] Z. Du B. Fan X. Jin J. Chi Fault detection and diagnosis for buildings and HVAC systems using combined neural networks and subtractive clustering analysis Build. Environ. 73 2014 1 11 10.1016/J.BUILDENV.2013.11.021 Z. Du, B. Fan, X. Jin, J. Chi, Fault detection and diagnosis for buildings and HVAC systems using combined neural networks and subtractive clustering analysis, Build Environ 73 (2014) 1-11. https://doi.org/10.1016/J.BUILDENV.2013.11.021. [26] A. Wickramasinghe S. Muthukumarana D. Loewen M. Schaubroeck Temperature clusters in commercial buildings using k-means and time series clustering Energy Informatics 5 2022 1 10.1186/s42162-022-00186-8 A. Wickramasinghe, S. Muthukumarana, D. Loewen, M. Schaubroeck, Temperature clusters in commercial buildings using k-means and time series clustering, Energy Informatics 5 (2022) 1. https://doi.org/10.1186/s42162-022-00186-8. [27] H. Zhou Y.C. Soh X. Wu Integrated analysis of CFD data with K-means clustering algorithm and extreme learning machine for localized HVAC control Appl. Therm. Eng. 76 2015 98 104 10.1016/J.APPLTHERMALENG.2014.10.004 H. Zhou, Y.C. Soh, X. Wu, Integrated analysis of CFD data with K-means clustering algorithm and extreme learning machine for localized HVAC control, Appl Therm Eng 76 (2015) 98-104. https://doi.org/10.1016/J.APPLTHERMALENG.2014.10.004. [28] N. Kampelis N. Sifakis D. Kolokotsa K. Gobakis K. Kalaitzakis D. Isidori C. Cristalli HVAC optimization genetic algorithm for industrial near-zero-energy building demand response Energies 12 2019 2177 10.3390/en12112177 N. Kampelis, N. Sifakis, D. Kolokotsa, K. Gobakis, K. Kalaitzakis, D. Isidori, C. Cristalli, HVAC Optimization Genetic Algorithm for Industrial Near-Zero-Energy Building Demand Response, Energies (Basel) 12 (2019) 2177. https://doi.org/10.3390/en12112177. [29] Sholahudin Nasruddin P. Satrio T.M.I. Mahlia N. Giannetti K. Saito Optimization of HVAC system energy consumption in a building using artificial neural network and multi-objective genetic algorithm Sustain. Energy Technol. Assessments 35 2019 48 57 10.1016/J.SETA.2019.06.002 Nasruddin, Sholahudin, P. Satrio, T.M.I. Mahlia, N. Giannetti, K. Saito, Optimization of HVAC system energy consumption in a building using artificial neural network and multi-objective genetic algorithm, Sustainable Energy Technologies and Assessments 35 (2019) 48-57. https://doi.org/10.1016/J.SETA.2019.06.002. [30] E.C. Nisa Y. Lee Y. Der Kuan Machine learning-based modeling and fogging prevention strategies for ice rink environments Build. Environ. 258 2024 111553 10.1016/J.BUILDENV.2024.111553 E.C. Nisa, Y. Lee, Y. Der Kuan, Machine learning-based modeling and fogging prevention strategies for ice rink environments, Build Environ 258 (2024) 111553. https://doi.org/10.1016/J.BUILDENV.2024.111553. [31] J. Yang K.T. Chan T. Dai F.W. Yu L. Chen Hybrid artificial neural Network−Genetic algorithm technique for condensing temperature control of air-cooled chillers Procedia Eng. 121 2015 706 713 10.1016/j.proeng.2015.09.012 J. Yang, K.T. Chan, T. Dai, F.W. Yu, L. Chen, Hybrid Artificial Neural Network−Genetic Algorithm Technique for Condensing Temperature Control of Air-Cooled Chillers, Procedia Eng 121 (2015) 706-713. https://doi.org/10.1016/j.proeng.2015.09.012. [32] C.-W. Chen Y.-C. Chang Support vector regression and genetic algorithm for HVAC optimal operation Math. Probl Eng. 2016 2016 1 10 10.1155/2016/6212951 C.-W. Chen, Y.-C. Chang, Support Vector Regression and Genetic Algorithm for HVAC Optimal Operation, Math Probl Eng 2016 (2016) 1-10. https://doi.org/10.1155/2016/6212951. [33] T. Parhizkar F. Aramoun Y. Saboohi Efficient health monitoring of buildings using failure modes and effects analysis case study: air handling unit system J. Build. Eng. 29 2020 101113 10.1016/j.jobe.2019.101113 T. Parhizkar, F. Aramoun, Y. Saboohi, Efficient health monitoring of buildings using failure modes and effects analysis case study: Air handling unit system, Journal of Building Engineering 29 (2020) 101113. https://doi.org/10.1016/j.jobe.2019.101113. [34] X.J. Luo L.O. Oyedele A.O. Ajayi O.O. Akinade Comparative study of machine learning-based multi-objective prediction framework for multiple building energy loads Sustain. Cities Soc. 61 2020 102283 10.1016/j.scs.2020.102283 X.J. Luo, L.O. Oyedele, A.O. Ajayi, O.O. Akinade, Comparative study of machine learning-based multi-objective prediction framework for multiple building energy loads, Sustain Cities Soc 61 (2020) 102283. https://doi.org/10.1016/j.scs.2020.102283. [35] C. Avci-Karatas Artificial neural network (ANN) based prediction of ultimate axial load capacity of concrete-filled steel tube columns (CFSTCs) International Journal of Steel Structures 22 2022 1341 1358 10.1007/s13296-022-00645-8 C. Avci-Karatas, Artificial Neural Network (ANN) Based Prediction of Ultimate Axial Load Capacity of Concrete-Filled Steel Tube Columns (CFSTCs), International Journal of Steel Structures 22 (2022) 1341-1358. https://doi.org/10.1007/s13296-022-00645-8. [36] E. Chaerun Nisa Y. Kuan Comparative assessment to predict and forecast water-cooled chiller power consumption using machine learning and deep learning algorithms Sustainability 13 2021 744 10.3390/su13020744 E. Chaerun Nisa, Y. Kuan, Comparative Assessment to Predict and Forecast Water-Cooled Chiller Power Consumption Using Machine Learning and Deep Learning Algorithms, Sustainability 13 (2021) 744. https://doi.org/10.3390/su13020744. [37] J. Xie M. Wang X. Lu X. Liu P.W. Grant DP-k-modes: a self-tuning k-modes clustering algorithm Pattern Recogn. Lett. 158 2022 117 124 10.1016/J.PATREC.2022.04.026 J. Xie, M. Wang, X. Lu, X. Liu, P.W. Grant, DP-k-modes: A self-tuning k-modes clustering algorithm, Pattern Recognit Lett 158 (2022) 117-124. https://doi.org/10.1016/J.PATREC.2022.04.026. [38] K. He Q. Fu Y. Lu J. Ma Y. Zheng Y. Wang J. Chen Efficient model-free control of chiller plants via cluster-based deep reinforcement learning J. Build. Eng. 82 2024 108345 10.1016/j.jobe.2023.108345 K. He, Q. Fu, Y. Lu, J. Ma, Y. Zheng, Y. Wang, J. Chen, Efficient model-free control of chiller plants via cluster-based deep reinforcement learning, Journal of Building Engineering 82 (2024) 108345. https://doi.org/10.1016/j.jobe.2023.108345. [39] E.C. Nisa Y.-D. Kuan C.-C. Lai Chiller optimization using data mining based on prediction model, clustering and association rule mining Energies 14 2021 6494 10.3390/en14206494 E.C. Nisa, Y.-D. Kuan, C.-C. Lai, Chiller Optimization Using Data Mining Based on Prediction Model, Clustering and Association Rule Mining, Energies (Basel) 14 (2021) 6494. https://doi.org/10.3390/en14206494. [40] Y. Li H. Wu A clustering method based on K-means algorithm Phys. Procedia 25 2012 1104 1109 10.1016/j.phpro.2012.03.206 Y. Li, H. Wu, A Clustering Method Based on K-Means Algorithm, Phys Procedia 25 (2012) 1104-1109. https://doi.org/10.1016/j.phpro.2012.03.206. [41] A.K. Jain Data clustering: 50 years beyond K-means Pattern Recogn. Lett. 31 2010 651 666 10.1016/j.patrec.2009.09.011 A.K. Jain, Data clustering: 50 years beyond K-means, Pattern Recognit Lett 31 (2010) 651-666. https://doi.org/10.1016/j.patrec.2009.09.011. [42] A.M. Ikotun A.E. Ezugwu L. Abualigah B. Abuhaija J. Heming K-means clustering algorithms: a comprehensive review, variants analysis, and advances in the era of big data Inf. Sci. 622 2023 178 210 10.1016/j.ins.2022.11.139 A.M. Ikotun, A.E. Ezugwu, L. Abualigah, B. Abuhaija, J. Heming, K-means clustering algorithms: A comprehensive review, variants analysis, and advances in the era of big data, Inf Sci (N Y) 622 (2023) 178-210. https://doi.org/10.1016/j.ins.2022.11.139. [43] H. Zhou Y.C. Soh X. Wu Integrated analysis of CFD data with K-means clustering algorithm and extreme learning machine for localized HVAC control Appl. Therm. Eng. 76 2015 98 104 10.1016/j.applthermaleng.2014.10.004 H. Zhou, Y.C. Soh, X. Wu, Integrated analysis of CFD data with K-means clustering algorithm and extreme learning machine for localized HVAC control, Appl Therm Eng 76 (2015) 98-104. https://doi.org/10.1016/j.applthermaleng.2014.10.004. [44] Y.L. Liu E.C. Nisa Y. Der Kuan W.J. Luo C.C. Feng Combining deep neural network with genetic algorithm for axial flow fan design and development Processes 11 2023 10.3390/pr11010122 Y.L. Liu, E.C. Nisa, Y. Der Kuan, W.J. Luo, C.C. Feng, Combining Deep Neural Network with Genetic Algorithm for Axial Flow Fan Design and Development, Processes 11 (2023). https://doi.org/10.3390/pr11010122. [45] M. Ilbeigi M. Ghomeishi A. Dehghanbanadaki Prediction and optimization of energy consumption in an office building using artificial neural network and a genetic algorithm Sustain. Cities Soc. 61 2020 102325 10.1016/j.scs.2020.102325 M. Ilbeigi, M. Ghomeishi, A. Dehghanbanadaki, Prediction and optimization of energy consumption in an office building using artificial neural network and a genetic algorithm, Sustain Cities Soc 61 (2020) 102325. https://doi.org/10.1016/j.scs.2020.102325. [46] Sholahudin Nasruddin P. Satrio T.M.I. Mahlia N. Giannetti K. Saito Optimization of HVAC system energy consumption in a building using artificial neural network and multi-objective genetic algorithm Sustain. Energy Technol. Assessments 35 2019 48 57 10.1016/j.seta.2019.06.002 Nasruddin, Sholahudin, P. Satrio, T.M.I. Mahlia, N. Giannetti, K. Saito, Optimization of HVAC system energy consumption in a building using artificial neural network and multi-objective genetic algorithm, Sustainable Energy Technologies and Assessments 35 (2019) 48-57. https://doi.org/10.1016/j.seta.2019.06.002.",
+    "scopus-id": "85201119203",
+    "coredata": {
+        "eid": "1-s2.0-S235271022401979X",
+        "dc:description": "Optimizing air handling units (AHUs) in multi-zone buildings presents significant challenges. As buildings become more complex, the demand for tailored temperature control across various zones becomes paramount. This study leverages multi-zone building data with machine learning-based models and optimization techniques to optimize AHUs by specifically integrating deep neural network (DNN) modeling, clustering analysis, and a genetic algorithm (GA). We developed 18 models to predict AHU supply air temperature ( T s a ) and 2 models to predict chiller power consumption ( P ) using DNN. Clustering analysis was applied to the return air temperature ( T r a ) of each AHU, serving as initial conditions for the GA. The clustering analysis provided insights into the AHU operational behavior, enhancing the optimization process precision. The GA's objective function maintained the AHUs' T s a and minimized P by adjusting parameters such as valve openings, fan frequencies, chilled water supply temperature, and cooling water flowrate. The results indicated that DNN models demonstrated high predictive accuracy, with 16 models showing an R2 higher than 0.96. The results suggested that AHU411 requires increased capacity during high T r a condition, while AHU212 needs an enhanced model with more diverse training data or the incorporation of additional influencing factors. Validation revealed that this approach improved temperature maintenance across zones, with 96 % of the data falling within demand temperature range ( T s e t ), and achieving T s e t required 41 % higher power input.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-11-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S235271022401979X",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Nisa, Elsa Chaerun"
+            },
+            {
+                "@_fa": "true",
+                "$": "Kuan, Yean-Der"
+            },
+            {
+                "@_fa": "true",
+                "$": "Lin, Cheng-Hsiang"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S235271022401979X"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S235271022401979X"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2352-7102(24)01979-X",
+        "prism:volume": "96",
+        "articleNumber": "110411",
+        "prism:publisher": "Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Leveraging multi-zone building data with machine learning-based models and genetic algorithms to optimize air handling units",
+        "prism:copyright": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "23527102",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Air handling unit"
+            },
+            {
+                "@_fa": "true",
+                "$": "Multi-zone building"
+            },
+            {
+                "@_fa": "true",
+                "$": "Machine learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Deep neural network"
+            },
+            {
+                "@_fa": "true",
+                "$": "Clustering analysis"
+            },
+            {
+                "@_fa": "true",
+                "$": "Genetic algorithm"
+            },
+            {
+                "@_fa": "true",
+                "$": "HVAC"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Building Engineering",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "110411",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 November 2024",
+        "prism:doi": "10.1016/j.jobe.2024.110411",
+        "prism:startingPage": "110411",
+        "dc:identifier": "doi:10.1016/j.jobe.2024.110411",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "926",
+            "@width": "674",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "260851",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "478",
+            "@width": "344",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "104651",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "272",
+            "@width": "624",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "112203",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "237",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "111285",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "759",
+            "@width": "624",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "220995",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "138",
+            "@width": "344",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "80721",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "345",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "131999",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "274",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "119371",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "314",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "132173",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "547",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "162679",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "588",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "177443",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "190",
+            "@width": "491",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "112300",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "349",
+            "@width": "624",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "125747",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "119",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "78251",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "118",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73444",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "95",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73152",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "106",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75840",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "135",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "81458",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "88",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72507",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "154",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "81640",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "122",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "79478",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "140",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "80445",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "147",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "76288",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "137",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "79466",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "85",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74440",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "122",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75763",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "4102",
+            "@width": "2986",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1254835",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2120",
+            "@width": "1525",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "308645",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1204",
+            "@width": "2763",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "345833",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1050",
+            "@width": "2173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "367057",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3361",
+            "@width": "2764",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1109292",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "610",
+            "@width": "1525",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "151102",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1528",
+            "@width": "2173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "456726",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1211",
+            "@width": "2173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "336829",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1388",
+            "@width": "2173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "658511",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2421",
+            "@width": "2174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "664546",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2604",
+            "@width": "2173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "874140",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "841",
+            "@width": "2173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "329962",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1545",
+            "@width": "2765",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "371286",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5867",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22752",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18949",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15839",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9581",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "56329",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "31383",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "73621",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "55098",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "42660",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11197",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7187",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26562",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19406",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24835",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16583",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10866",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5476",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11950",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15824",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15892",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11026",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4548",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23386",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23255",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21584",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13715",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "63643",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "104565",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12704",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13730",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11019",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "66507",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24186",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18240",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29159",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24852",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14846",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24688",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23373",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25511",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "81236",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "55862",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20334",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11170",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4703",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22695",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19759",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6092",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21229",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13000",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "117035",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8102",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11091",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5769",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "79669",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "70668",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8492",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10685",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6356",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23500",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6506",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9190",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15327",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8609",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16385",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S235271022401979X-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1963371",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85201119203"
+    }
+}}

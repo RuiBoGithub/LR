@@ -1,0 +1,730 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85196020203",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 90 Energy and Buildings ENERGYBUILDINGS 2024-06-02 2024-06-02 2024-06-15 2024-06-15 2024-06-25T18:57:35 1-s2.0-S0378778824004845 S0378-7788(24)00484-5 S0378778824004845 10.1016/j.enbuild.2024.114368 S300 S300.1 FULL-TEXT 1-s2.0-S0378778824X00122 2024-08-16T15:54:57.974096Z 0 0 20240815 2024 2024-06-02T14:29:16.609509Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid primabst ref 0378-7788 03787788 UNLIMITED CRKNHY2024 true 317 317 C Volume 317 24 114368 114368 114368 20240815 15 August 2024 2024-08-15 2024 Research Articles article fla © 2024 The Author(s). Published by Elsevier B.V. APPLYINGOPTICSWITHOUTPCAFORFAULTDETECTIONFANCOILUNITSUSINGBUILDINGAUTOMATIONSYSTEMDATA RAJABI F 1 Introduction 2 Literature review 2.1 FDD approaches 2.1.1 Knowledge-based FDD 2.1.2 Data-driven FDD 2.2 FDD for fan coil units (FCUs) 2.3 OPTICS 2.4 PCA 2.5 Metrics for assessing data-driven fault detection and diagnosis 3 Methodology 3.1 Data collection and categorization 3.1.1 Published dataset 3.1.2 Real-world data 3.2 Dimensionality reduction using PCA 3.3 Clustering analysis 4 Results 4.1 Published dataset: various labeled fault scenarios 4.2 Real-world time series data of a series of FCUs 4.2.1 FCU-XX 4.2.2 FCU-YY 4.2.3 FCU-ZZ 5 Discussion 5.1 Comparison between OPTICS and k-means 5.2 Effect of PCA 6 Conclusions CRediT authorship contribution statement Acknowledgments References KATIPAMULA 2005 3 25 S KATIPAMULA 2005 169 187 S MIRNAGHI 2020 110492 M HU 2021 663296 G CHEN 2022 112041 Y MOVAHED 2023 120948 P ROSATO 2022 6781 A YAN 2016 77 88 R CHEN 2022 112395 J MAILE 2012 241 251 T RANADE 2020 100955 A DONG 2014 197 211 B ZHAO 2017 1272 1286 Y LI 2010 45 S LI 2010 57 73 S VERBERT 2017 260 273 K CUI 2005 986 999 J LI 2007 369 395 H ZHAO 2019 85 101 Y PISCITELLI 2020 110369 M ESTER 1996 226 231 M TAN 2016 P INTRODUCTIONDATAMINING YAN 2016 37 45 R LI 2016 540 551 D HAN 2019 540 547 H SUN 2016 989 998 K ZHAO 2013 593 601 Y MIYATA 2020 52 60 S GUO 2017 1402 1413 Y EOM 2019 115877 Y LIU 2018 148 162 J ZHAO 2013 560 572 Y CHEN 2023 121030 Z YAN 2018 75 83 K FAN 2021 102874 C FAN 2021 110733 C DU 2014 1 11 Z NOVIKOVA 2020 547 552 E INTELLIGENTDISTRIBUTEDCOMPUTINGXIII VISUALIZATIONDRIVENAPPROACHANALYSISHVACDATA YU 2014 550 562 Y MATETIC 2022 1 I GRANDERSON 2023 342 J POURARIAN 2017 151 160 S LAURO 2014 411 420 F MATETIC 2023 6717 I SEEM 2007 52 58 J SRIVASTAV 2013 438 447 A CALINSKI 1974 1 27 T ANKERST 1999 49 60 M KRIEGEL 2011 231 240 H WANG 2004 147 160 S LIN 2020 106505 G PEDREGOSA 2011 2825 2830 F RAJABIX2024X114368 RAJABIX2024X114368XF Full 2024-06-01T22:49:46Z ElsevierWaived CRKN 2024: Hybrid journals http://creativecommons.org/licenses/by-nc/4.0/ 2026-06-15T00:00:00.000Z 2026-06-15T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the CC BY-NC license. © 2024 The Author(s). Published by Elsevier B.V. 2024-06-21T16:24:44.735Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined http://sws.geonames.org/6251999 Toronto Metropolitan University TMU Toronto Metropolitan University http://data.elsevier.com/vocabulary/SciValFunders/501100024256 http://sws.geonames.org/6251999/ NSERC 544569\\u201319 NSERC Natural Sciences and Engineering Research Council of Canada http://data.elsevier.com/vocabulary/SciValFunders/501100000038 http://sws.geonames.org/6251999/ This research has been funded by the Natural Science and Engineering Research Council ( NSERC ) Alliance Grant ( ALLRP- 544569\\u201319 ) and FuseForward. The first author is also supported by a Toronto Metropolitan University Graduate Scholarship. item S0378-7788(24)00484-5 S0378778824004845 1-s2.0-S0378778824004845 10.1016/j.enbuild.2024.114368 271089 2024-08-16T15:54:57.974096Z 2024-08-15 UNLIMITED CRKNHY2024 1-s2.0-S0378778824004845-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/MAIN/application/pdf/92b424ea5c410c6dfd6b050040a61a8f/main.pdf main.pdf pdf true 1900681 MAIN 14 1-s2.0-S0378778824004845-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/PREVIEW/image/png/ce16993a08def91a226ab4b2097f3891/main_1.png main_1.png png 58121 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0378778824004845-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004766/gr10/DOWNSAMPLED/image/jpeg/72ba9fa97f5ed81136e76c6dff71d446/gr10.jpg gr10 gr10.jpg jpg 46850 314 645 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr11/DOWNSAMPLED/image/jpeg/400038c9f2668aac0f7a9d46b85970a7/gr11.jpg gr11 gr11.jpg jpg 25210 209 593 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr8/DOWNSAMPLED/image/jpeg/55ee5fb307a0d725c72ab6c8c77fec66/gr8.jpg gr8 gr8.jpg jpg 47716 311 630 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr7/DOWNSAMPLED/image/jpeg/1fb2c74cbd7f2acc3ca333c179488e22/gr7.jpg gr7 gr7.jpg jpg 21256 207 606 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr9/DOWNSAMPLED/image/jpeg/afb6f4d6f7a27034be073ef4cd7a7954/gr9.jpg gr9 gr9.jpg jpg 28129 207 622 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr4/DOWNSAMPLED/image/jpeg/856896349d3c85204e2645e80dd834ee/gr4.jpg gr4 gr4.jpg jpg 60106 435 698 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr3/DOWNSAMPLED/image/jpeg/75eeff3652034dae5b3b3d0a5458198f/gr3.jpg gr3 gr3.jpg jpg 18930 294 383 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr6/DOWNSAMPLED/image/jpeg/a91b825e17edb564c837929217dcd810/gr6.jpg gr6 gr6.jpg jpg 27483 217 624 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr5/DOWNSAMPLED/image/jpeg/25b77e95ca850ca51d1a05992c7e52c2/gr5.jpg gr5 gr5.jpg jpg 19600 291 556 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr2/DOWNSAMPLED/image/jpeg/55aa50f6e3ecd5d6caee85ee7867a099/gr2.jpg gr2 gr2.jpg jpg 34321 267 717 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr12/DOWNSAMPLED/image/jpeg/f143f42308fd386a4b3033e0207021f8/gr12.jpg gr12 gr12.jpg jpg 57957 319 645 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr1/DOWNSAMPLED/image/jpeg/c541386671dfc11a26d0e0491bd4811c/gr1.jpg gr1 gr1.jpg jpg 21428 289 333 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824004845-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004766/gr10/THUMBNAIL/image/gif/9b7965b56534bfa2a91e1728b405cdba/gr10.sml gr10 gr10.sml sml 6060 107 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr11/THUMBNAIL/image/gif/c7155d7595d0072dd0765b034b0f0012/gr11.sml gr11 gr11.sml sml 3495 77 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr8/THUMBNAIL/image/gif/5704a79eb3e68de20032cf696a1dde6c/gr8.sml gr8 gr8.sml sml 6560 108 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr7/THUMBNAIL/image/gif/b883c9aa9e88c09a99d6580304916552/gr7.sml gr7 gr7.sml sml 3398 75 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr9/THUMBNAIL/image/gif/777e25f8d32a812d9ba36d8628ed8c56/gr9.sml gr9 gr9.sml sml 3547 73 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr4/THUMBNAIL/image/gif/c530cffc3ca0c27f284cc0b4f61ac134/gr4.sml gr4 gr4.sml sml 7930 137 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr3/THUMBNAIL/image/gif/0529b2e7d6ebc72dfddc4c926a6947d6/gr3.sml gr3 gr3.sml sml 7216 164 213 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr6/THUMBNAIL/image/gif/58126db27dbe622485c60815aced4eca/gr6.sml gr6 gr6.sml sml 3459 76 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr5/THUMBNAIL/image/gif/93407d00d6aaa4c3e0b55acd2a683a31/gr5.sml gr5 gr5.sml sml 2935 114 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr2/THUMBNAIL/image/gif/34a3a8c6835b4ca9f3e5517c48ab90c5/gr2.sml gr2 gr2.sml sml 3738 81 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr12/THUMBNAIL/image/gif/b6d3ea5ee62da7f903688c950bab77c4/gr12.sml gr12 gr12.sml sml 8385 108 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/gr1/THUMBNAIL/image/gif/0dcce87474da442bfb3643ec5e18ab58/gr1.sml gr1 gr1.sml sml 5194 164 189 IMAGE-THUMBNAIL 1-s2.0-S0378778824004845-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004766/HIGHRES/image/jpeg/8ff0553e971337a2cb3aa2b9bcdfc063/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 311982 1389 2854 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/HIGHRES/image/jpeg/beafb05750df9cb3b7ec115622dd93f8/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 171785 924 2626 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/HIGHRES/image/jpeg/0be7cca5a3114020c5f737401997ae08/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 310397 1377 2788 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/HIGHRES/image/jpeg/9eee880cfce066700adcf8bda6cbce9d/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 141912 918 2684 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/HIGHRES/image/jpeg/9d366c1112d660f5510f0104a3c5a753/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 199331 917 2756 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/HIGHRES/image/jpeg/9b05401d5cceb50b9d63372b16b06253/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 460846 1928 3092 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/HIGHRES/image/jpeg/97fd664f2026d9cac8b286d2b9923e4d/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 93050 1305 1699 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/HIGHRES/image/jpeg/eefa962a6a111046ac2e68172c938367/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 187218 963 2765 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/HIGHRES/image/jpeg/af5de70b2fd338a483097a157699f681/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 125154 1286 2461 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/HIGHRES/image/jpeg/62a5986682eb1417a6289cd84d53c6c2/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 222038 1181 3176 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400536X/HIGHRES/image/jpeg/72bb2959e8fd8a7ae20f90cb42d5fc00/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 394039 1412 2854 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S037877882400536X/HIGHRES/image/jpeg/70e05845ecbe9504d6331c6471d8bb1a/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 135548 1281 1476 IMAGE-HIGH-RES 1-s2.0-S0378778824004845-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/bfb68093681d6d385d609f5e24269a3b/si1.svg si1 si1.svg svg 3037 ALTIMG 1-s2.0-S0378778824004845-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/5db0c113f1d8384837e542fa00beb3cf/si10.svg si10 si10.svg svg 41800 ALTIMG 1-s2.0-S0378778824004845-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/7235ac3c7be3db39bf6b61e602e56d11/si11.svg si11 si11.svg svg 1750 ALTIMG 1-s2.0-S0378778824004845-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/9a3a764a1937dea127c6c2b8736e9cb6/si12.svg si12 si12.svg svg 1708 ALTIMG 1-s2.0-S0378778824004845-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/3af9044e8c0b68dc4a2eaeafe8d6b4d3/si13.svg si13 si13.svg svg 1585 ALTIMG 1-s2.0-S0378778824004845-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/40bf21fee5b073b65f993a3143836542/si14.svg si14 si14.svg svg 4311 ALTIMG 1-s2.0-S0378778824004845-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/3dcde3dd5085c363ba334a8312b0bafb/si15.svg si15 si15.svg svg 2252 ALTIMG 1-s2.0-S0378778824004845-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/b3509a2dfa4a417237af5e79b7a01466/si16.svg si16 si16.svg svg 12537 ALTIMG 1-s2.0-S0378778824004845-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/2181458f32ca4539cb8db6e0399d55d4/si17.svg si17 si17.svg svg 13263 ALTIMG 1-s2.0-S0378778824004845-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/f5b80dfecc08c60435a669b534e6d887/si18.svg si18 si18.svg svg 12250 ALTIMG 1-s2.0-S0378778824004845-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/099cbff47ad36bd9330fddd6d26beff8/si19.svg si19 si19.svg svg 24634 ALTIMG 1-s2.0-S0378778824004845-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/013852629c7c1f6d3b19fc5016dc48ad/si2.svg si2 si2.svg svg 6871 ALTIMG 1-s2.0-S0378778824004845-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/e662a7119c5d8eadee5bf735b3b1660d/si20.svg si20 si20.svg svg 15700 ALTIMG 1-s2.0-S0378778824004845-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/a198644f92d421cc7cdbc20f31f4583f/si3.svg si3 si3.svg svg 4351 ALTIMG 1-s2.0-S0378778824004845-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/8ade56e147fa8b71b4cfb2a384b9facd/si4.svg si4 si4.svg svg 1944 ALTIMG 1-s2.0-S0378778824004845-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/6e016ea665a7b6c841f10c29273fb5d4/si5.svg si5 si5.svg svg 1563 ALTIMG 1-s2.0-S0378778824004845-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/53751b87cfcaec5c200f20f52da228b1/si6.svg si6 si6.svg svg 20425 ALTIMG 1-s2.0-S0378778824004845-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/0f0ce39561dddfcbe40e6984a013f661/si7.svg si7 si7.svg svg 7512 ALTIMG 1-s2.0-S0378778824004845-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/6a1fb9482615b7026ba933d0e34db40d/si8.svg si8 si8.svg svg 1200 ALTIMG 1-s2.0-S0378778824004845-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824004845/image/svg+xml/04bbe78a454aa029f29c6122bdf0697e/si9.svg si9 si9.svg svg 55236 ALTIMG 1-s2.0-S0378778824004845-am.pdf am am.pdf pdf 1768234 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10G4685FH3W/MAIN/application/pdf/11b00d72ae0571c1545b2f1eebe8f0db/am.pdf ENB 114368 114368 S0378-7788(24)00484-5 10.1016/j.enbuild.2024.114368 The Author(s) Fig. 1 Depiction of the definition of the three types of distances, with \u201cc-d\u201d and \u201cr-d\u201d standing for core distance and reachability-distance, respectively. The point p_3 is directly density reachable from point o [9]. Fig. 2 OPTICS analysis results for a fault-free dataset (left) and a dataset with faulty data (right). Fig. 3 K-distance graph. Fig. 4 Flowchart of proposed method. Fig. 5 Schematic diagram of a Fan Coil Unit (FCU). Fig. 6 Reachability plots for FCU-XX in December (left) and June (right). Fig. 7 Principal component weights for FCU-XX. Fig. 8 Data from heating (left) and cooling (right) seasons for FCU-XX. Solid boxes represent faults detected by both the OPTICS-PCA and the OPTICS. The dashed boxes highlight faults detected exclusively by the standalone OPTICS method, which were not detected by OPTICS-PCA. Fig. 9 Reachability plots for FCU-YY in December (left) and June (right). Fig. 10 Data from heating (left) and cooling (right) seasons for FCU-YY. Solid boxes represent faults detected by both the OPTICS-PCA and the OPTICS, while dashed boxes highlight faults detected exclusively by the standalone OPTICS method and not by the OPTICS-PCA combined method. Fig. 11 Reachability plots for FCU-ZZ in December (left) and June (right). Fig. 12 Data from heating (left) and cooling (right) seasons for FCU-ZZ. Solid boxes represent faults detected by both the OPTICS-PCA and the OPTICS. The dashed boxes highlight faults detected exclusively by the standalone OPTICS method, which were not detected by OPTICS-PCA. Table 1 Published dataset test case description. Case no. Type of fault(s) Fault Simulation (from [44]) Fault insertion period Case 1 Cooling control reverse acting Common commissioning fault due to incorrect directional switch on the actuator causing it to close when it should open. August 7, 2018, 13:49 to August 31, 2018, 18:00 Case 2 Outdoor air inlet blockage Restricted airflow simulated by decreasing damper face area June 4, 2018, 09:29 to June 15, 2018, 17:08 Case 3 Cooling coil valve leaking A water flow rate when fully closed (20 %, 50 %, 80 % of the max flow) was assigned June 28, 2018, 13:24 to July 13, 2018, 15:47 Case 4 Outdoor air damper stuck The outdoor air damper was fixed at 80 % open for the fault duration July 17, 2018, 06:10 to July 20, 2018, 17:37 Cooling coil valve stuck The cooling coil was set at 50 % open for the fault duration July 31, 2018, 12:19 to August 3, 2018, 17:26 Case 5 Outdoor air damper stuck The outdoor air damper was fixed at 80 % open for the fault duration January 3, 2018, 17:22 to January 4, 2018, 06:01 Outdoor air inlet blockage Restricted airflow simulated by decreasing damper face area January 4, 2018, 06:19 to January 4, 2018, 06:27 Heating coil valve leaking A non-zero water flow rate was assigned when the valve was fully closed January 15, 2018, 09:49 to January 17, 2018, 17:02 &January 26, 2018, 08:54 to January 26, 2018, 17:54 Table 2 Real-world FCU properties. FCU Feeds Location FCU-XX 50 m2 entrance lobby Thermal zone 3 \u2013 level 01 FCU-YY 176 m2 open-plan student lounge Thermal zone 3 \u2013 level 01 FCU-ZZ 8 m2 study room Thermal zone 3 \u2013 level 02 Table 3 FCU components and description. FCU Component Description Cooling Coil Command (CLG-O): The cooling coil, is controlled by a valve labeled CLG-O (analog measurement of % open) and modulate the amount of chilled water through the coil. The valve is responsible for controlling the flow of chilled water to regulate the coil's cooling capacity as needed. Heating Coil Command (HTG-O) The heating coil, denoted as HTG-O (HTG −O represents an analog value ranging from 0 to 1, which indicates the degree to which (%) the valve is open), is supplied with hot water from the building's central heating plant. When heating is needed, this coil introduces warmth to the air drawing into it, effectively raising the temperature. The flow of hot water through the heating coil is regulated by a valve, allowing for precise control over the amount of heat added to the air. Supply Air (DA) Conditioned air to the space. The temperature of the supply air is indicated by the DA-T sensor. Zone Sensors (ZN-T, ZN-SP, ZN-Q) These are the sensors placed in the zone being conditioned. ZN-T measures the zone temperature, ZN-SP is the setpoint that is desired for the temperature, and ZN-Q refers to the CO 2 level of the room in ppm. Fan sensors (SF-C, SF-S) The fan draws air through the coils and then discharges it into the room. SF-C (Supply Fan Command): This is a control output which commands the operation of the supply fan. It is digital and it's turning the fan on or off. SF-S (Supply Fan Status is a digital signal indicating the status of the supply fan (on/off). Table 4 Benchmark test cases results. Bold values indicate best performance for each test. Case no. Type of Fault(s) Algorithm PCA TP FP FN TN Precision Recall F1-score Accuracy 1 Cooling control reverse-acting OPTICS ✓ 7219 0 9 19,547 1 0.999 0.999 0.999 X 7221 0 7 19,547 1 0.999 0.999 0.999 k-means ✓ 7221 0 7 19,547 1 0.999 0.999 0.999 X 7222 0 6 19,547 1 0.999 0.999 0.999 2 Outdoor air Inlet blockage OPTICS ✓ 0 46 4279 22,450 0 0 NaN 0.838 X 4277 0 2 22,496 1 0.999 0.999 0.999 k-means ✓ 2161 10,862 2118 11,634 0.165 0.505 0.249 0.515 X 2375 10,801 1904 11,695 0.180 0.555 0.272 0.525 3 Cooling coil valve leaking OPTICS ✓ 3843 228 134 22,520 0.944 0.966 0.955 0.986 X 3877 96 150 22,652 0.976 0.963 0.969 0.991 k-means ✓ 3443 0 584 22,748 1 0.854 0.921 0.978 X 3447 0 580 22,748 1 0.855 0.922 0.978 4 Cooling Coil Valve Stuck & Outdoor air damper stuck OPTICS ✓ 3831 30 0 22,914 0.992 1 0.996 0.999 X 3831 45 0 22,899 0.988 1 0.994 0.998 k-means ✓ 1995 0 1836 22,944 1 0.520 0.684 0.931 X 1995 0 1836 22,944 1 0.520 0.684 0.931 5 Outdoor air damper stuck, Outdoor air inlet blockage, Heating coil valve leaking OPTICS ✓ 1417 2 1029 9776 0.999 0.579 0.733 0.916 X 2446 46 0 9732 0.982 1 0.991 0.996 k-means ✓ 1200 0 1246 9778 1 0.491 0.658 0.898 X 1364 0 1082 9778 1 0.558 0.716 0.911 Table 5 Real-world test case results. Bold text indicates the best results for each seasonal test. FCU-XX Month Algorithm PCs TP FP FN TN Precision Recall F1-score Accuracy December OPTICS 3 987 17 0 85 0.983 1 0.991 0.984 − 987 16 0 86 0.984 1 0.992 0.985 k-means 3 987 13 0 89 0.987 1 0.993 0.988 − 987 13 0 89 0.987 1 0.993 0.988 June OPTICS 3 792 42 149 2720 0.945 0.841 0.892 0.948 − 941 48 0 2714 0.951 1 0.975 0.987 k-means 3 800 21 141 2741 0.974 0.850 0.908 0.956 − 810 17 131 2745 0.979 0.861 0.916 0.960 Applying OPTICS with and without PCA for fault detection of fan coil units using building automation system data Farivar Rajabi Writing \u2013 original draft Methodology Formal analysis Data curation Conceptualization J.J. McArthur Writing \u2013 review & editing Validation Supervision Project administration Funding acquisition \u204e Dept. Architectural Science, Toronto Metropolitan University, Canada Dept. Architectural Science Toronto Metropolitan University Canada Dept. Architectural Science, Toronto Metropolitan University, Canada \u204e Corresponding author. In building operations, Heating, Ventilation, and Air Conditioning (HVAC) system faults lead to substantial energy waste. Due to the rapid growth in the availability of sensing data and advancements in computational technology, AI-based methods have emerged as a powerful tool for Fault Detection and Diagnosis (FDD) of HVAC systems, significantly enhancing the efficiency of building operations. Several studies support supervised learning methods for FDD; however, these are limited in practice due to their reliance on labeled datasets, which are generally unavailable. In this context, unsupervised methods, notably those using cluster analysis, show great promise, particularly for analysing Building Automation System (BAS) data. This paper presents a methodology using OPTICS \u2013 an ordered clustering algorithm \u2013 for fault detection and explores the impact of PCA on its accuracy for fault detection, using both published and full-scale historical building data. While beneficial for reducing computational costs and enhancing noise reduction \u2014 thereby generally improving the clarity of cluster differentiation \u2014 PCA\u2019s dimensionality reduction may result in the loss of critical information, leading to some clusters being less discernible or entirely undetected. These overlooked clusters could be indicative of underlying faults, and their obscurity represents a significant limitation of PCA when identifying potential faults in complex data. Keywords Fault detection Building Automation System (BAS) Cluster analysis Ordering Points to Identify the Clustering Structure (OPTICS) Principal Component Analysis (PCA) Fan coil units Data availability The authors do not have permission to share data. 1 Introduction Building systems, especially HVAC systems, are often prone to faults. Such faults can result in higher energy usage, maintenance costs, and uncomfortable indoor environmental conditions. These faults typically arise from problems such as sensor errors, equipment failures, or errors in system operation. Recent studies indicate that faults in building systems can lead to energy waste ranging from 15 % to 30 % [1]. Consequently, the significance of Fault Detection and Diagnosis (FDD), also commonly termed as Automated Fault Detection and Diagnosis, is paramount and is essential for preserving consistent system performance and minimizing energy waste. Over the years, a diverse range of FDD strategies has been devised. Recent studies have employed methods anchored in physical models, rule-based techniques, and data-driven approaches specifically for HVAC system FDD. Comprehensive reviews on this topic can be found in [1\u20133]. As the field of data science evolves and the adoption of BAS along with other smart building technologies expands, data-driven FDD is gaining heightened attention. This is a marked departure from the traditional rule-based or expert knowledge methodologies. The attraction of data-driven FDD is its minimal dependence on prior knowledge and its capability to provide remarkable detection and diagnostic precision cost-effectively. These benefits are especially valuable in large-scale and complex HVAC systems [4], however its effectiveness relies on access to a large amount of high-quality operational data. Emerging techniques that extract such data from BAS are paving the way to overcome this limitation [5]. This study introduces a fault detection approach that relies exclusively on real-world process history data of the FCU. Compared to the hybrid approaches documented in the literature, for example [6\u20138], the proposed method, employing the Ordering Points to Identify the Clustering Structure (OPTICS) algorithm is computationally efficient and can be applied across various large-scale building HVAC systems. Previously, OPTICS has been used for detecting sensors but not equipment faults [9]. When paired with Principal Component Analysis (PCA), this methodology effectively distinguishes between normal and faulty operations. To evaluate the effectiveness of the proposed method, multiple simulation-based labeled datasets alongside real-world FCU faults (confirmed by facility management personnel) were examined and this approach was found to be highly effective, particularly compared with a simpler clustering approach such as k-means. 2 Literature review The timely and precise detection and diagnosis of faults in HVAC systems are vital. They prevent potential harm and guarantee the ongoing delivery of key services. Yet, the process of identifying and rectifying faults in building HVAC systems faces significant obstacles. HVAC operations are significantly influenced by fluctuating factors such as occupancy levels and weather conditions. This variability can lead to a mix of operational patterns, complicating detection of faults. Additionally, the complex network of connections within these systems, such as FCUs tied to central heating and cooling systems, can obscure faults. One fault may cover another, making it more challenging to diagnose faults within the wider system. The challenge of FDD is further intensified by the diverse range of building types, each with specific HVAC requirements, and the complex interactions among different HVAC components. Therefore, modern FDD methods must go beyond traditional techniques, adopting a comprehensive approach that considers both individual and systemic complexities [10]. Significant research has been conducted on FDD within HVAC systems. The subsequent sections will review various FDD methodologies, emphasizing data-driven FDD techniques, and examine recent studies focusing on FDD in FCUs. 2.1 FDD approaches According to Katipamula and Brambley's classification [2], FDD techniques for HVAC systems in buildings are categorized into three main types: qualitative, quantitative, and process history-based approaches. Quantitative model-based techniques employ physics-based models, either simplified or detailed, to identify discrepancies between the measured system conditions and expected operational norms. In contrast, qualitative model-based methods lean on expert-defined rules or foundational principles for the FDD process. On the other hand, process history-based methods adopt a data-driven approach, examining system sensor data to classify the operational state of HVAC systems. Basically, both quantitative and qualitative model-based FDD methods are grounded in physics or engineering knowledge, classifying them as knowledge-based approaches. Conversely, process history-based methods, which do not require an understanding of the underlying physical process and solely depend on system sensing data, are termed as data-driven approaches. The subsequent section provides an overview of recent studies on knowledge-based and data-driven FDD approaches. 2.1.1 Knowledge-based FDD Knowledge-based FDD methods utilize physical and engineering principles, often through white-box and grey-box modeling, to identify HVAC faults. By comparing the real-time operation of HVAC systems against established baselines from these models, any deviations indicate potential faults. This method of residual analysis is used at different levels, ranging from entire buildings to specific HVAC subsystems. For instance, at building level, Maile et al. [11] developed a comparison method for energy performance to spot energy usage anomalies in a campus building, comparing real data with design-goal simulations. Similarly, Lee et al. [12] explored the ASHRAE simplified energy analysis procedure for HVAC fault detection at the whole-building level. They calibrated simulated data with actual heating and cooling measurements, and predicted future consumption and compared to real data to identify deviations. At the system level, Ranade et al. [13] developed a grey-box model for diagnosing fan-coil units. They presented a simplified heat exchanger coil model based on polynomial regression for fault isolation. Dong et al. [14] utilized Building Information Modeling (BIM) to simplify the creation of physical models for the FDD procedure. Besides physics-based modeling techniques, another type of knowledge-based method is the analysis-driven approach, which leverages engineering insights into fault symptoms and system layouts for FDD. An exemplar of this is the Bayesian Network (BN), a probabilistic graphical model that delineates variable relationships using edges and nodes. As an example, Zhao et al. [15] utilized diagnostic BN to identify typical faults in AHUs, such as those in dampers, fans, filters, sensors, and coils, drawing from experimental data provided by ASHRAE Project RP-1312 [16,17]. In another study, to address both varied operating modes and component interconnections, Verbert et al. [18] developed a multi-model system-level methodology that utilizes a distinct BN for each mode. Another analysis-based method is the performance indicator approach. In such methods, system operation is monitored using measures developed from engineering evaluations of systems. This often involves using performance metrics, system operation breakdowns, and virtual sensors for FDD [19]. For example, Li and Braun [20] used a decoupling strategy to address multiple concurrent faults in vapor compression systems. Physics-based modeling methods typically do not rely on faulty data. These approaches primarily use fault-free data to set up and adjust their baseline models. Subsequently, these models are paired with predefined rules and thresholds for the FDD procedure. In BN-based methods, the construction of diagnostic networks relies on either fault-specific data or insights from engineering knowledge. It is important to note that the fault data used in these methods might not originate from the buildings targeted for FDD. Instead, they can be sourced from past records of other buildings, past experiments, expert insights, or previous experiences. A frequent limitation of physics-based modeling methods is their reliance on detailed building and system design. These requirements often make the development of knowledge-based FDD techniques more labor-intensive. 2.1.2 Data-driven FDD Beyond knowledge-based methods, data-driven approaches are a major focus in FDD. These approaches skip over physics-based models and engineering knowledge, focusing instead on analyzing sensor data from the system to detect and isolate malfunctions in HVAC systems. Specifically, based on the usage of sensing data in FDD, data-driven methods can be further divided into various categories. The literature offers numerous data-driven FDD techniques which fall under supervised classification, semi-supervised, and unsupervised learning [21]. Supervised learning methods Fault detection using supervised methods involves training with both fault-free operation and fault data to determine the status of incoming data. Depending on the output type, these supervised methods can be classified into either classification or regression techniques. Methods like Decision Tree (DT) [22] and Support Vector Machine (SVM) [23,24] are classification techniques utilized to determine if the incoming data falls under the fault or fault-free category. As instances, Yan et al. [25] introduced a data-driven diagnostic method for AHUs using a DT approach, employing the classification and regression tree algorithm for tree formation. Li et al. [26] explored a tree-structured fault dependence Kernel, for improved fault detection and diagnosis in building cooling systems, emphasizing fault severity levels and their inter-dependence. Han et al. [27] introduced an optimized least squares SVM model for fault detection and diagnosis of a centrifugal chiller. Sun et al. [28] introduced a hybrid model for diagnosing refrigerant charge amount faults in VRF systems, combining SVM, wavelet de-noising, and an improved max-relevance and min-redundancy algorithm. On the other hand, regression techniques like Support Vector Regressions (SVR) [29] and Artificial Neural Networks (ANN) [30] aim to predict continuous variables that depict the system's operational state. These predictions are then contrasted with a baseline to detect potential faults. For example, Guo et al. [31] explored an optimized back propagation neural network approach for diagnosing faults in heating-mode variable refrigerant flow systems, enhancing diagnostic accuracy through data mining-based feature selection. To improve the efficiency of neural network-driven FDD and the feature extraction procedure, Eom et al. [32] utilized a strategy centered on Convolutional Neural Networks (CNNs) for detecting refrigerant charge faults. Liu et al. [33] proposed an energy diagnosis method for VRF systems utilizing SVR along with data mining and statistical quality control. Zhao et al. [34] presented an FDD approach for centrifugal chillers using SVR, integrated with control charts. Supervised learning methods are commonly used to identify faults in HVAC systems. Yet, gathering enough labeled fault data for training models presents a challenge, frequently leading to class imbalance. Due to the hurdles and expenses in data labeling, these models might rely on data from older components or simulations, potentially reducing accuracy and increasing false alarms. Semi-supervised learning methods Alternatively, when there is a scarcity of labeled fault data, semi-supervised techniques may become a better choice [18]. These methods transfer unlabeled data into labeled classes by comparing the incoming data with normal operation, and updating the training set iteratively [35]. For example, Yan et al. [36] proposed a semi-supervised learning approach for FDD in AHUs, enhancing performance even with limited faulty training data. Similarly, Fan et al. [37] explored the potential of semi-supervised learning for detecting unseen AHU faults, highlighting the method's value in overcoming challenges posed by limited labeled data for efficient smart building management. In another study by Fan et al. [38], they presented a semi-supervised neural network method for AHU fault detection. While semi-supervised techniques excel in scenarios with scarce labeled fault data, they demand more computational resources compared to supervised learning. Unsupervised learning methods Lastly, unsupervised methods, which do not need fault labels, can uncover hidden patterns in operational data. Commonly used techniques include clustering algorithms and PCA, often paired with pattern recognition strategies. Unsupervised methods, which basically require unlabeled data, offer a more straightforward approach for developing and implementing fault detection methods. However, when faced with intricate fault scenarios, the accuracy and reliability of these methods may be compromised, potentially leading to misdiagnoses or missed faults. For example, Du et al. [39] applied subtractive clustering analysis to differentiate various faults in AHUs, especially emphasizing supply air temperature sensors, controller issues, and coil valve faults. This data mining technique, enhanced by features extracted using PCA, differentiated various fault categories and identified both known faults and previously unknown ones. Narayanaswamy et al. [40] introduced Model, Cluster and Compare (MCC) algorithm that adeptly identifies anomalies by autonomously modeling, clustering, and comparing HVAC system entities. Through this approach, they uncovered 78 anomalies from 237 VAV units. They also highlighted the crucial role of human involvement in refining fault detection in contemporary buildings. In another study, Novikova et al. [41] introduced a visualization-centric approach for real-time HVAC system log analysis, focusing on the clustering of stable operational patterns. By utilizing a modified density-based clustering technique, they expertly condensed vast BAS data of a three-story building into discernible patterns, represented via heat maps. Lastly, Yan et al. [9] through a combination of PCA and a density-based clustering algorithm, OPTICS, they devised an unsupervised learning approach for AHU sensor fault detection. Validated using TRNSYS simulation data, their method was able to detect both single and concurrent multiple sensor faults. 2.2 FDD for fan coil units (FCUs) In the body of literature related to HVAC systems, researchers have concentrated on exploring distinct subcategories including AHUs, air conditioners, heat pumps, and chillers, for example [3,42]. FCUs, on the other hand, have garnered less attention, representing merely around 6 % of the research endeavors [43]. While relatively simple equipment, consisting of a fan and heating and/or cooling coils, these units are complex in that their loads vary based on room occupancy, envelope losses and weather, and the operating characteristics of the ventilation, heating, and cooling systems serving them. Of the body of FCU fault detection research, five endeavours are notable. The first two were related to synthetic data creation to support FDD benchmarking, while the latter focused on various approaches to FDD. A significant dataset simulating 48 different faults with 29 features was created for a variety of equipment at LBNL [44,45], including fan coil units that extended previous work [6]. To date, this remains the most significant source of benchmarking data and has been used in multiple AHU FDD studies, for example [7,8]; the most recent dataset was used in the current paper. Another was developed by Pourarian et al. [46], who created a tool to simulate data from FCUs under both faulty and fault-free conditions and validated it with data obtained from a lab building. This dataset represents real FCU data covering different seasons and conditions. Although that paper proposed a tool able to predict FCU behavior under various control strategies, identify symptoms of different faults, and assess their impact on system performance and comfort, their methodology used simulation-based gray-box modeling, requiring experimental data. To detect the faults themselves, Lauro et al. [47] proposed a statistical methods analysis for electric consumption, identifying anomalies by comparing them to both neighboring and average fault-free values, and employing clustering techniques. After detecting faults, they apply a diagnostic analysis using fuzzy sets and fuzzy logic. This approach was tested on a one-month dataset of fan coil electric consumption from a real office building. While they presented a data-driven approach for FDD in FCUs, their analysis is confined to power consumption data, focusing solely on anomalies occurring in the electrical power consumption of fan coils. Other studies have employed hybrid approaches, merging real process data with simulation. For example, Ranade et al. [13] introduced a rule-based diagnostic approach for fan-coil units that utilizes a grey-box model and a decision tree. They employed a systematic method to model the heat exchanger coil using polynomial regression, which was used to produce residuals. In the third relevant study to this paper, Matetić et al. [48] created a deep learning approach to detect faults in hotel FCUs. They used real data from hotel sensors and environmental information, along with simulated faults from the TRNSYS model. Their research found that a hybrid model combining convolutional neural network (CNN) and gated recurrent unit (GRU) worked better than using just CNN or long short-term memory (LSTM) network alone. However, a challenge of these methods is the time-consuming nature of developing accurate simulation models for large-scale HVAC systems, which also risk not fully capturing all interconnections and varying seasonal conditions. Fault detection algorithms based on cluster analysis have been effectively utilized to identify anomalies in building energy consumption patterns. By examining meter data, these methods can discern deviations from typical energy use, offering a deeper insight into potential inefficiencies or issues within the building's energy systems [49\u201351]. However, their application with BAS data has been infrequent and not extensively explored. Lastly, unsupervised strategies prevalent in literature often fall short of providing contextual insights before the fault detection process. For instance, density-based clustering methods like k-means and DBSCAN necessitate the pre-assignment of a specific cluster number. Such an approach is limiting because it is more prudent to understand the data landscape before categorization. To tackle this challenge, some researchers choose to adjust the hyperparameters of clustering algorithms, like number of clusters, by employing cluster evaluation metrics, such as the Caliński-Harabasz index [52]. However, a notable issue arises when the process is fully automated and the cluster count increases, leading to a higher rate of false alarms. Moreover, with HVAC systems collecting large volumes of sensor data containing many features, relying on 2D plots through the PCA method for visualizing created clusters may not be sufficient. This approach risks missing potentially important data. The paucity of FCU-specific FDD studies highlights the need for further research in this area. To this end, this paper uses the OPTICS clustering algorithm \u2013 described in the next section \u2013 with real BAS data and further benchmarks it against the published dataset [44,45]. To enhance this work, the potential integration of PCA is discussed to identify its potential benefits and risks and thus explore how OPTICS implementation may be optimized. 2.3 OPTICS OPTICS algorithm [53] is a density-based clustering technique that builds on the foundational principles of the DBSCAN method. At its core, density-based clustering approaches aim to detect areas with a high concentration of data points, distinguished by regions with fewer data points. Unlike partitioning techniques such as k-means, density-based strategies like OPTICS can recognize clusters of varying shapes and are inherently resilient to noise in the data [24]. In density-based clustering methodologies, each data point within a specific cluster should have a predefined number of neighboring data points ( MinPts ) within a certain radius ( Eps ). This ensures that data points in dense areas are grouped together. Fig. 1 visually illustrates the definition of the concepts. The OPTICS algorithm formulation is as-follows [53]: For point p to be directly density-reachable from point q , it must meet the following conditions. (1) p ∈ N Eps q & N Eps q > M i n P t s where N Eps q refers to the set of data points within the radius Eps of point q . The reachability-distance between point p and o is expressed as follows. (2) R e a c h a b i l i t y - d i s t a n c e = Undefined , i f N Eps o < M i n P t s o t h e r w i s e max c o r e - d i s t a n c e o , d i s t a n c e o , p While, (3) Core - d i s t a n c e = Undefined , i f N Eps p < M i n P t s M i n P t s - d i s t a n c e p , o t h e r w i s e The OPTICS algorithm begins by selecting a randomly selected point, then moves to its directly density-connected neighbors. Points are then arranged based on their reachability-distance in increasing order on a reachability plot and the algorithm continues from the first point that hasn't been expanded in the sequence [53]. This approach essentially traverses the Minimum Spanning Tree [54] and this \u2013 not time-series ordering \u2013 defines the sequence in which the data points are ordered along the x-axis in the reachability plot. Fig. 2 presents a sample reachability plot for a fault-free (left) vs a faulty (right) dataset to illustrate how the threshold \u2013 the parameter that determines the minimum density required for cluster formation \u2013 is determined. A characteristic pattern of a sequence of low-reachability distance data followed by a significant peak [53], is observable in this figure for each cluster. The OPTICS algorithm\u2019s output for the fault-free dataset (left) generates a single significant cluster, signifying a singular operation mode of the system, and there is no threshold value required. Conversely, the application of OPTICS on the dataset containing two types of faults (right) results in three significant clusters, delineating three operational states: normal operation, fault A, and fault B, each defined by the characteristic pattern noted above. Threshold values are chosen to separate these clusters with points below the threshold line considered part of clusters, while points above represent noise or outliers. Different threshold values will result in clusters of different densities, for example lowering the threshold value enables the identification of denser, albeit potentially less significant clusters, which may represent a lower likelihood of fault presence or minor faults. This flexibility is valuable to extract most significant clusters and reduce false alarms. The MinPts and Eps values must also be set for OPTICS implementation. Setting a value for MinPts that is too low could incorrectly identify low-density areas with few noise points as clusters. On the other hand, choosing a MinPts value that is too high could lead to overlooking legitimate clusters that have fewer data points. Based on [53], a range of 10\u201320 is recommended for MinPts . Based on a specified MinPts , the Eps value can be ascertained following the approach outlined by Ester et al. [23] using the k-distance graph, illustrated in Fig. 3 , which displays the ordered k-distances for all relevant data points. The k-distance refers to the distance between a specific point and its k th closest neighboring point, with k being set to MinPts . The optimal Eps value is identified at the point where there is a notable increase in the k-distance. However, As indicated in [9], the performance of OPTICS is not heavily influenced by the specific choices of Eps and MinPts . Through examining the outcomes of the clustering and monitoring data traces from the system's operations, OPTICS thus permits fault periods to be detected. 2.4 PCA PCA is a widely-adopted technique for dealing with datasets with many interrelated variables. It transforms the original dataset into a series of Principal Components (PCs). For a dataset with ' n ' dimensions, there will be ' n ' PCs. Typically, only the first few PCs are required to capture the significant variations in the data. For a dataset X of dimensions m × n (with ' m ' being the sample data count and ' n ' the variable count), the PCs are derived from the eigenvectors and eigenvalues of its covariance matrix, as defined in Eq. (4) [9]. (4) C o v x = X T X ( m - 1 ) The primary PC corresponds to the largest eigenvalue, the next PC to the second largest, and so forth. Multiple techniques exist to decide how many PCs to retain. In this research, the scree diagram method, as outlined by Wang and Xiao [55], was employed. Once the PC count is established, the original data is transformed into this new PC space, leading to a condensed dataset that still captures the most critical data variations. An essential step is the standardization of sensor readings (i.e., each feature), given they might have different units and scales; thus, they're adjusted to have a mean of zero and a variance of one before applying PCA. 2.5 Metrics for assessing data-driven fault detection and diagnosis It is essential to assess and quantify the performance and efficacy of the proposed fault detection method through the use of specific metrics. Lin et al. [56] provided a summary of evaluation metrics for various FDD applications. The metrics for evaluating the performance of fault detection include Precision, Recall, F1-score, and Accuracy, as listed in Eqs. (5)\u2013(8). It is important to note that each metric targets a distinct dimension of the FDD problem, and relying exclusively on a single metric may not provide a comprehensive assessment. Thus, it is crucial to consider these metrics together in evaluations. (5) Precision = TP T P + F P (6) Recall = TP T P + F N (7) F 1 - s c o r e = 2 . Precision . R e c a l l Precision + R e c a l l (8) Accuracy = TP + T N TP + T N + F P + F N where TP (True Positives) represents the number of correctly identified positive cases (the number of faults correctly detected), TN (True Negatives) denotes the number of correctly identified negative cases (the number of non-faulty cases accurately identified), FP (False Positives) indicates the instances where negative cases are incorrectly classified as positive (the instances where non-faulty cases are incorrectly marked as faults), and FN (False Negatives) refers to the instances where positive cases are mistakenly classified as negative (the instances where actual faults are missed or not detected).\u201cPrecision\u201d denotes the ratio of accurately identified positive samples to the total number of positive predictions, whereas \u201cRecall\u201d signifies the ratio of accurately identified positive samples to the actual positive cases. The \u201cF1-score\u201d serves as a holistic measure for assessing a classifier's effectiveness, incorporating class-specific performance and varying between 0 and 1, with higher values indicating superior overall model performance. \u201cAccuracy\u201d measures the proportion of correct predictions out of all observations, offering a straightforward and comprehensible metric. However, its reliability may diminish in the context of classification tasks characterized by imbalanced class distributions. 3 Methodology The proposed fault detection approach for FCUs is depicted in Fig. 4 . The methodology mainly involves three phases: pre-processing the data, clustering the data, and assessing the results. The unsupervised approach operates on the foundational premise that normal and faulty data exhibit distinct characteristics. As a result, these two types of data will inherently manifest in spatially separate clusters. By leveraging clustering techniques, one can effectively identify and differentiate between these distinct data groupings, highlighting potential anomalies or faults. The proposed approach starts with pre-processing historical sensor data through PCA to reduce the number of dimensions. After this step, the data is grouped using the OPTICS clustering algorithm. The performance of proposed method is evaluated by applying it to various publicly available labeled datasets that represent different fault conditions, as well as real-world data from a multi-purpose building. These findings were then benchmarked against the outcomes from a conventional clustering method, k-means. The proposed approach was implemented in Python scikit-learn [57]. The subsequent sections will outline various components of the proposed methodology, including data collection and categorization, dimensionality reduction using PCA, and clustering analysis with OPTICS. 3.1 Data collection and categorization In this research, the proposed fault detection method was evaluated through separate analyses of a series of cases prepared from a publicly-available comprehensive simulation-based labeled dataset [44,45] as well as in a field study. This section provides an introduction to these two sources of data and their use in this research. 3.1.1 Published dataset As part of a larger multi-equipment fault simulation project, a series of 48 distinct faults, along with a fault-free dataset, were modeled for vertical four-pipe FCUs and published online [44] with extensive supporting documentation [45]. These FCUs systems contained a three-speed fan (low, medium, high), heating and cooling coils and mixed air dampers. Each fault or fault-free condition was simulated using HVACSIM+ in one-minute timesteps for the full 2018 year, and published as an independent CSV [44], allowing for their combination into custom datasets. Each of these CSVs included 29 features, representing all control commands and sensor measurements. As noted in [45], both the fault-free and faulty datasets were experimentally validated, with the latter validated by running two units side-by side \u2013 one operating normally, and one set to the faulty operation. To utilize this published data to test the OPTICS model, two periods were chosen to insert the faults for fault simulation: January (heating) and June to August (cooling). For each, the dataset was modified to limit the data points to times during occupied hours (Mon-Fri 6:00AM-6:00PM) and the device was operational; this avoided confounding from varying operational modes. Five different fault scenarios were developed based on this data, summarized in Table 1 indicates the type(s) of fault(s) used for each case, the description of how each was simulated in [45], and the time(s) they were inserted into the fault-free dataset to create the case. These cases were developed to test a diversity of fault types \u2013 those arising from commissioning errors (cooling coil reverse acting), or equipment faults (leaking or stuck coil valves) occurring \u2013 either individually or in combination. The insertion periods were determined based on the fault type, ensuring that cooling device faults were tested in cooling periods and heating device faults in heating periods. It is noteworthy that the dates for fault datasets match those of the fault-free data, and the insertion is based on time order. Among 48 faults generated in [44] for FCUs, the a diverse set was selected to showcase the performance of the proposed method. Case 1 is a significant fault with changes in most variables. Conversely, Case 2 involves just a few variable changes and is a good fit to showcase the impact of PCA. Case 3 is a fault with varying severity, while Case 4 includes faults with lower severities to demonstrate the method's sensitivity to different severities. Cases 4, along with Case 5, also contains a combination of faults, chosen because clustering algorithms are sensitive to the presence of different classes of data within the dataset. For instance, if a dataset contains normal data, fault A, and fault B data, it is possible for a less robust algorithm to group normal and fault A data in one cluster and fault B in another, increasing the false negative rate. 3.1.2 Real-world data In addition to testing the proposed fault detection technique against published labeled datasets, it was assessed using data from three different FCUs of a real-world building. These units, namely FCU-XX, FCU-YY, and FCU-ZZ, located in office areas of a multi-use building within the Toronto Metropolitan University campus. By examining FCUs across varied room sizes and occupancy levels, the goal was to emphasize the flexibility of the method under diverse conditions and environments. Table 2 details the characteristics of the selected FCUs, highlighting the spaces they serve and their related thermal zones. All of these units are connected to the same ventilation, chilled water, and heating hot water systems. The chosen units are typical of the majority found in the building, catering to the heating and cooling needs of offices situated on the first and second floors. Data was collected from FCU-XX, FCU-YY, and FCU-ZZ throughout the year, specifically during the heating season in December 2019 and cooling period in June 2020. Among these three FCUs, FCU-XX was chosen because it was known to have failed to provide the necessary cooling during separate periods in December 2019 and June 2020. These faults occurred while the unit was operating in cooling mode with the cooling coil valve fully open. Despite this, there was an increase in both the discharge air temperature and the zone temperature, which rose above the setpoint due to a loss of chilled water. These documented fault periods provide benchmarks for evaluating the accuracy of the fault detection algorithm applied in this study. Fig. 5 shows a schematic of an FCU, consisting of a heating coil, cooling coil, and fan. It is part of an HVAC system and is widely used in multi-unit residential, commercial, and industrial buildings. In this case study, the FCU is integrated with an in-slab heating system. The in-slab system and FCU work in sequence to maintain the zone temperature (ZN-T) at the setpoint, with the in-slab system serving as the initial stage of cooling or heating. If the in-slab system cannot keep the zone temperature within the desired range (typically between 22 °C and 24 °C), the fan coil valve (HTG-O or CLG-O, depending on the requirement for heating or cooling) will modulate to adjust the zone temperature. The FCU components and their function are described in Table 3 : For fault detection in the FCU, it is important to note that, in addition to the sensors listed in Table 3, data from additional sensors not directly integrated into the FCU system are employed. These include In-Slab Temperature (INSLAB-T), Supply Water Temperature (ST), Return Water Temperature (RT), and Outdoor Air Temperature (OA-T). From the historical data sourced from the BAS, an initial categorization is undertaken to divide the data based on FCU system operation modes, such as on/off status, heating, cooling, and natural ventilation. This step is essential as the presence of data from different operating modes might lead to the formation of distinct clusters, which could erroneously be perceived as indicative of faults, thereby causing inaccuracies in fault detection. With this data categorization, the presence of multiple clusters among the data points is attributed not to varying modes of operation, but rather to the existence of a fault. Therefore, the analysis included only operational data captured when the device was active (\u201cON\u201d), with selection criteria limiting to data where the control signal for the opening of the cooling coil control valve (CLG-O) is within the IQR; note that such data is highly skewed. The primary objective of this phase is to filter out data characterized by significant fluctuations and those obtained from scenarios of extreme operation. 3.2 Dimensionality reduction using PCA In the next stage, PCA is utilized. BAS data for HVAC system often contains many variables, resulting in high dimensionality. Utilizing PCA can optimize computational efficiency and potentially improve clustering outcomes. However, this study evaluates the impact of both incorporating and omitting PCA prior to clustering. By comparing the clustering outcomes from these two strategies, we will be able to ascertain whether PCA enhances or perhaps diminishes the clustering quality. There are primarily two ways to reduce dimensions: feature selection and feature extraction. While the former involves selecting a subset by removing irrelevant or noisy dimensions, the latter condenses the essential information from the original data into fewer dimensions. In this context, this research employs PCA as the feature extraction method. It's essential to highlight a distinction in this research: whereas many PCA-driven fault detection approaches use PCA for both dimensionality reduction and predicting residuals, here, PCA is solely employed for the former. 3.3 Clustering analysis Following the data pre-processing, the clustering analysis is performed using the OPTICS algorithm [53]. In this study we selected the threshold value for each test case based on the reachability plot to extract the most significant clusters. The MinPts value was set to 15, in line with recommendations from the literature and the Eps was calculated from the k-distance graph for each case, following the standard approach described in Section 2.3. The k-means algorithm was selected to provide a basis of comparison with OPTICS, as it is one of the most common unsupervised learning methods and is extensively used in fault detection approaches, either as the primary approach or as a basis of comparison [3]. K-means in this implementation assumed that the largest cluster is identified as representing normal operation, while the smaller ones indicate faults, and the total number of clusters was that yielding the highest Caliński-Harabasz index [52]. This index assesses the quality of the clustering by calculating the ratio of variances between clusters to variances within clusters, and includes a penalty for the number of clusters to avoid overfitting. 4 Results In order to evaluate the reliability of the proposed fault detection method, which utilizes OPTICS clustering and PCA, an initial test was conducted on five different fault scenarios generated from a published dataset. This assessment involved a comparison between results obtained with and without the application of PCA, to determine its effect on data clarity and cluster separation. Furthermore, this phase provided a benchmark by contrasting the method's performance with that of the k-means clustering technique. Progressing from simulated environments to actual operational contexts, a subsequent exploration applies the method to field data from a building's energy management system. Here, the aim is to verify the method's effectiveness and robustness when confronted with the complexities of live, multi-variate data streams. 4.1 Published dataset: various labeled fault scenarios To demonstrate the versatility of the proposed method across various fault types and situations, it was tested under multiple conditions. The outcomes were then compared with k-means, and the impact of PCA was explored for each scenario. The results are displayed in Table 4 . According to this table, in Case 1 it was clear that both the OPTICS algorithm and k-means effectively detected faults within the faulty data timeframe (July 8, 2018 to August 31, 2018), regardless of whether PCA was implemented with OPTICS. Variations in TP and FN were observed, which can be attributed to the sensitivity of OPTICS to its user-defined threshold value. This sensitivity particularly affects noise detection. For the purposes of this analysis, noise identified by OPTICS was classified as fault operation. In Case 2, a distinct variation in the performance of the OPTICS algorithm was observed when combined with PCA. Specifically, the application of OPTICS with PCA failed to detect the entire fault period from June 4, 2018, to June 15, 2018. In contrast, when PCA was not applied, OPTICS exhibited a markedly improved capability, identifying almost the entire duration of the fault. Comparatively, the sensitivity of k-means clustering to the presence or absence of PCA was less pronounced. However, its overall performance was somewhat enhanced when PCA was not utilized. Notably, when comparing OPTICS without PCA to k-means, OPTICS demonstrated superior fault detection accuracy. This is evidenced by the observation that k-means classified approximately half of the faulty period as normal operation and misidentified several intervals of normal operation as faults, leading to a significant increase in both false positives and false negatives. According to the results of case 2, it can be seen that OPTICS without PCA surpassed k-means without PCA by over 50 % in accuracy. This substantial difference underscores the effectiveness of the OPTICS algorithm in detecting HVAC system faults under the given conditions, particularly when PCA is not applied as a preprocessing step. In Case 3, a key finding was that all approaches successfully detected the cooling coil valve leaking fault. However, standalone OPTICS showed superior performance. In terms of recall, standalone OPTICS was approximately 11 % more effective than k-means. Regarding the influence of PCA, k-means demonstrated no significant sensitivity to the application of PCA. On the other hand, the application of PCA to OPTICS led to the algorithm labeling more data points as noise. Notably, a portion of these data points corresponded to normal operation, leading to a slight increase in the false positive rate for OPTICS with PCA. In Case 4, the dataset comprised multiple, non-simultaneous faults, presenting a complex scenario for fault detection. The application of PCA to OPTICS algorithm yielded a marginally improved performance. Notably, both variants of OPTICS (with and without PCA) demonstrated superior performance compared to the k-means clustering algorithm. A critical observation was the ability of OPTICS, in both its PCA-applied and non-PCA forms, to efficiently identify two distinct periods of faults: an outdoor air damper fault occurring from July 17 to 20, and a cooling coil valve fault from July 31 to August 3. However, a slight distinction was observed in the rate of FP. The OPTICS without PCA registered a higher count of data points labeled as noise, leading to a slight increase in false positives. Conversely, the k-means algorithm, while effectively identifying the cooling coil valve fault (July 31 to August 3), failed to detect the outdoor air damper fault (July 17 to 20). This resulted in a notable increase in FN for the k-means algorithm in both variant. Case 5 involved a dataset characterized by three distinct fault scenarios: an outdoor air damper stuck (January 3\u20134), an outdoor air inlet blockage (January 15\u201317), and a heating coil valve leak (briefly on January 26). A key observation was the effectiveness of all algorithmic configurations in detecting the outdoor air inlet blockage and heating coil valve leaking faults, particularly in the latter two periods of faulty operation. Notably, standalone OPTICS exhibited a marginally superior performance in identifying the outdoor air inlet blockage. However, the first fault scenario, the outdoor air damper stuck, presented a notable challenge. K-means, irrespective of PCA application, failed to detect this fault. In contrast, both OPTICS variants identified this fault period, albeit primarily as noise. Standalone OPTICS labeled more data points as noise compared to OPTICS with PCA, indicating a higher sensitivity to this particular fault type. In terms of overall performance metrics, standalone OPTICS demonstrated notably better results than OPTICS with PCA. The recall rate for standalone OPTICS was 42 % higher than that for OPTICS-PCA, and its F1 score was approximately 25 % better. However, it is important to note that standalone OPTICS, while showing better fault detection capability, also marked more points of normal operation as noise compared to its PCA-applied counterpart. This resulted in an increased false positive rate for standalone OPTICS. 4.2 Real-world time series data of a series of FCUs The results from the mixed-used building are discussed for each unit in the following sections. The reachability plots for both cases show no significant differences in appearance across three real case studies and the Eps value was consistently 0.61 for every FCU analyzed. For conciseness, only the reachability plots for the scenarios without PCA are included in this study. Overall, OPTICS was found to be extremely helpful \u2013 both with and without PCA \u2013 to distinguish noise from false positives, consistently outperforming k-means. However, some fault conditions were missed when PCA was applied, highlighting the risks of its use. 4.2.1 FCU-XX Confirmed by the facility's engineer and Certified Energy Manager (CEM), specific periods of malfunctions in the FCU-XX system have been identified. These malfunctions occurred during distinct intervals: from December 23, 2019, at 17:20 to December 28, 2019, at 05:20, followed by another from December 28, 2019, at 07:40 to December 31, 2019, at 12:50. The system also encountered operational faults from June 3, 2020, at 12:00 to 18:00, and a prolonged fault from June 12, 2020, at 03:20 to June 18, 2020, at 09:50. These documented fault periods provide critical benchmarks for evaluating the accuracy and reliability of the fault detection algorithms applied in this study. For FCU-XX, the threshold values were determined to be 4 in December (Fig. 6 , left) and 3 in June (Fig. 6, right). The comparative analysis of algorithms\u2019 performance, is delineated in Table 5 . According to the results, it can be found that in December, both the OPTICS and k-means algorithms demonstrated efficiency in detecting the specified faulty periods within the FCU-XX system. The application of PCA did not significantly influence the performance of either algorithm. Furthermore, all algorithms, in both their standard and PCA-applied forms, successfully detected the fault period spanning from December 23 at 17:20 to December 31 at 00:50. However, a period of normal operation (from December 28 at 17:20 to 19:10) within a larger faulty operations period (caused by a loss of chilled water to the building), was incorrectly detected as a fault by all algorithms. This misclassification contributed to a slight increase in the FP rate across all algorithms. In the June fault detection analysis, all algorithms successfully identified the fault that occurred on June 3, from 12:00 to 18:00. However, the performance varied significantly for the fault from June 12 at 3:20 to June 18 at 9:50. Standalone OPTICS demonstrated a notably superior performance in this instance, efficiently detecting the entire duration of this fault. It is noteworthy, however, that this algorithm incorrectly classified the period from June 12, 2:10 to 3:10, as a fault, indicating a minor increase in its FP rate. Additionally, both OPTICS and its PCA variant incorrectly identified the time span from June 18, 10:00 to 16:00, as noise. Furthermore, OPTICS with PCA failed to detect the initial part of the fault, specifically from June 12 at 3:20 to June 13 at 4:30. Regarding the k-means algorithm, the impact of PCA was less pronounced. Nonetheless, both variants of k-means missed the initial phase of the fault. The standard k-means algorithm failed to detect the fault from June 12 at 3:20 to June 13 at 1:20, while k-means with PCA extended this miss until June 13 at 2:40. In the December dataset, the results indicate no significant difference in the performance of the algorithms, whether standalone or with the application of PCA. Contrastingly, the June dataset presents a different scenario. Here, standalone OPTICS notably outperformed the other approaches. This superiority is particularly evident in terms of Recall, where OPTICS without PCA surpassed its PCA-applied variant by approximately 15 %. Moreover, standalone OPTICS also exhibited enhanced performance in Recall by about 14 % compared to k-means. Once fault detection using OPTICS done, in order to initiate a preliminary diagnosis of faults within the system, PCA was conducted on fault-free period of data to quantify the degrees of interdependency among various features. Fig. 7 shows the extracted weights for each feature on the first two principal components (PC1 and PC2). The loadings indicate how much each feature contributes to the first two principal components, providing insights into the underlying structure of the dataset. As observed in Fig. 7, under normal operational conditions, there is a high positive correlation between DA-T and HTG-O as they change in the same direction in both PCs and also there is a negative correlation between DA-T and CLG-O as they vary in opposite directions in both PCs. Therefore, the periods identified as faulty by OPTICS can be subject to further investigation, particularly regarding correlations and changes in direction of variables. This allows for the identification of deviations in sensor readings from the correlations observed during normal operation, which can be indicative of the cause of a fault. Fig. 8 illustrates the time-series data trace of FCU-XX over two months of observation, December and June. A deviation from the correlation observed in normal data is evident in the time periods identified as faulty; when CLG-O is at 100 %, DA-T is expected to decrease; however, an increase in DA-T is observed instead. According to the CEM, this suggests that the chilled water flow is insufficient to fulfill the cooling requirements. 4.2.2 FCU-YY To assess the efficacy of the proposed fault detection method in real-world scenarios, particularly in systems without pre-identified faults, the procedure was extended to two additional FCUs, designated as FCU-YY and FCU-ZZ, providing unlabeled datasets that represent typical operational environments. This application aimed to evaluate the robustness and adaptability of the method in detecting potential faults in real-time operational conditions, without the guidance of previously labeled fault data. In the analysis of the FCU-YY dataset, as illustrated in Fig. 9 , for the December dataset (shown in the left panel of Fig. 9), a threshold of 0.7 was selected. This threshold facilitated the distinction of two prominent clusters within the data. Similarly, for the June dataset (depicted in the right panel of Fig. 9), a threshold value of 2 was chosen. In the analysis of the December dataset for FCU-YY, all employed algorithms detected a fault occurring from December 23 at 13:30 to December 31 at 00:50. Notably, standalone OPTICS identified an additional fault period that was not detected by OPTICS-PCA. This period spanned from December 1 at 9:50 to December 3 at 11:30. However, the application of PCA on k-means showed no significant impact on its performance. K-means detected a portion of this fault, specifically from December 2 at 23:40 to December 3 at 11:30. Upon consultation with the CEM, the presence of these faults within the December dataset was confirmed to be a chiller shutdown. However, it was noted that the system was actually operating normally during part of the period identified by standalone OPTICS as a fault, specifically from December 1 at 9:50 to 11:30. This misclassification by OPTICS indicates a false positive detection, erroneously interpreting normal operation as a fault (noise). In the analysis of the June dataset for FCU-YY, standalone OPTICS demonstrated a notable detection capability by identifying a fault period from June 12 at 11:00 to June 18 at 13:30. In contrast, OPTICS with PCA detected only a portion of this fault, specifically from June 13 at 14:10 to June 18 at 13:30. The application of PCA on k-means did not show a significant impact, as k-means in both its standard and PCA-applied variants identified the fault from June 13 at 7:40 to June 18 at 10:00. Following consultation with the CEM, it was confirmed that a fault indeed occurred from June 12 at 11:00 to June 18 at 10:00. This confirmation underscores that while standalone OPTICS was the most effective in detecting the entire duration of the fault, it also erroneously classified a short time segment from June 18 at 10:10 to 13:30 as noise (fault). For fault diagnosis, the approach applied to FCU-XX was similarly employed for FCU-YY. The correlation and change in direction of variables observed for FCU-YY closely matched those seen in FCU-XX. Further investigation into the time periods identified as faulty showed an increase in DA-T despite CLG-O being at 100 %, as illustrated in Fig. 10 . 4.2.3 FCU-ZZ In the analysis of FCU-ZZ by examining reachability plots, thresholds were determined. As illustrated in Fig. 11 , for the December dataset (shown in the left panel of Fig. 11), a threshold value of 1 was chosen. Similarly, for the June dataset (depicted in the right panel of Fig. 11), a threshold of 4 was selected. The analysis of the December and June datasets are in Fig. 12 . In the December analysis of the FCU-ZZ dataset, all the algorithms consistently detected a fault occurring from December 23 at 14:40 to December 31 at 00:50. Upon consultation with the CEM, the occurrence of this fault during the specified period was confirmed. However, it was also brought to attention by the CEM that an additional fault occurred from December 2 at 14:00 to 21:00 that was not identified by any of the algorithms used in the study. In the analysis of the June dataset for FCU-ZZ, all algorithms successfully identified a fault occurring from June 1 at 9:20 to June 3 at 18:20. The CEM confirmed this to be a true fault where the heating and cooling coils were erroneously opened, validating the algorithms' detection accuracy for this period. However, standalone OPTICS identified an additional fault period from June 3 at 18:30 to 19:10, which was subsequently confirmed by the CEM to be a false detection, incorrectly categorizing this time as a fault (noise). Further, standalone OPTICS detected another fault from June 12 at 9:50 to June 18 at 10:00. OPTICS with PCA also detected a portion of this fault period, from June 13 at 16:40 to June 18 at 10:00. Similarly, k-means, both with and without PCA, identified a nearly similar fault period from June 13 at 10:50 to June 18 at 10:00. Consultation with the CEM revealed that standalone OPTICS accurately detected the entire duration of this fault, while the other algorithms missed the initial part of the fault period. As with previous cases, it can be observed that in faulty periods, DA-T was high even though CLG-O was at 100 %. 5 Discussion In this section, a comparative analysis is presented between the OPTICS and k-means clustering algorithms, focusing on their performance in various fault scenarios. The effect of PCA on these algorithms is also evaluated, aiming to ascertain its impact on detection capabilities. This analysis seeks to elucidate the relative strengths and limitations of each algorithm under different conditions. 5.1 Comparison between OPTICS and k-means A distinct advantage of OPTICS is its ability to offer users a compelling visualization tool in the form of a reachability plot. This visualization not only provides insights into the data structure but also empowers users to set thresholds intuitively. By examining the reachability plot, users can make informed decisions on where to draw thresholds, separating the most significant clusters based on the data's inherent characteristics rather than arbitrary decisions. This is especially advantageous when compared to algorithms like k-means that often rely on setting a numerical threshold for cluster separateness. Such thresholds can sometimes be arbitrary and not truly representative of the underlying data structure. For example, the k-means algorithm often uses the Caliński-Harabasz index to determine the optimal number of clusters, requiring users to set a threshold that might not always capture the nuances of the data. OPTICS, with its visually informed threshold-setting capability, offers a more grounded and reasonable approach, ensuring that the clustering genuinely reflects the intrinsic patterns and variances within the data. Further setting OPTICS apart from traditional algorithms like k-means is its ability to detect clusters of varying shapes, going beyond the conventional spherical or circular patterns typical of k-means. Its density-based nature also grants it a robustness against noise, ensuring that it remains less influenced by outliers which might skew cluster formation in other algorithms. 5.2 Effect of PCA Utilizing PCA offers advantages in processing multidimensional data. By reducing irrelevant dimensions, PCA enhances the identification of genuine clusters by both minimizing noise and amplifying the contrast between clusters. When PCA is not applied, increasing data dimensions can result in data sparsity. As the dimensions grow, similarity measures such as Euclidean distance may become less meaningful due to the increased dispersion of data points in the space. However, while PCA aids in simplifying and highlighting major data patterns, it is not without risks; specifically, PCA might inadvertently omit certain clusters. These missing clusters, in some scenarios, could represent pivotal features or potential faults, implying that PCA might not capture all changes in the data. According to the results of this study, in situations where faults induce significant deviations across a wide array of features, as exemplified by Case 1 (cooling reverse), Case 4 (cooling coil valve stuck and outdoor air damper stuck) in the published dataset, and in real-world systems in FCU-XX and FCU-ZZ during December, it is effective to reduce dimensionality without impeding fault detection capabilities was evident. The principal components, especially the first few, tend to encapsulate the majority of the variance in the data, which often includes the significant deviations caused by faults. However, in scenarios characterized by subtle, complex, or sparse deviations among features, such as Case 2 (outdoor air inlet blockage), Case 3 (cooling coil valve leaking), and Case 5 (outdoor air damper stuck, outdoor air inlet blockage, and heating coil valve leaking) in the published dataset, as well as in real-world systems FCU-XX, FCU-YY, and FCU-ZZ during June and FCU-YY in December, OPTICS performed better without PCA. The omission of PCA allowed for a finer resolution in detecting less pronounced feature variations; the tendency of PCA to prioritize variance can inadvertently marginalize features that, while not contributing substantially to overall variance, may be pivotal in detecting certain faults. This is particularly evident in scenarios involving multiple faults or complex fault patterns, where nuanced changes across various features may be diluted or lost post-PCA, thereby diminishing the fault detection capability of the model. 6 Conclusions In this paper an innovative approach to fault detection and preliminary diagnosis in FCUs, using OPTICS clustering algorithm was presented. The methodology relies on the spatial separation of monitored data for fault identification. The effectiveness of this strategy was demonstrated through the analysis of various published datasets, encompassing a range of fault scenarios, and its application in a real building equipped with fan coil units. In addition, the impact PCA as a dimensionality reduction tool on the clustering algorithm's performance was investigated. It was observed that PCA generally had a detrimental effect on the clustering outcomes, particularly in scenarios involving multiple or subtle faults. This influence, however, may vary with datasets characterized by different levels of noise and variation. One noted limitation of the proposed framework is the need to manually distinguish between faulty and normal data post-clustering. Commonly, smaller clusters are assumed to represent faulty data, given the relative rarity of faults in datasets. However, this assumption is not universally applicable and fails to hold in all instances, for example during the shoulder seasons where there may be cycling heating and cooling operations. Further research is recommended during such periods to expand this research. The current method has further not been optimized to detect minor faults and falls short in identifying simultaneous faults. The process of threshold adjustment, crucial for cluster detection, also requires careful consideration. Inconsistent data fluctuations can lead to false alarms by misidentifying significant clusters as faults. Future studies should focus on automating threshold adjustment and validating cluster extractions. Finally, it lacks the capability for automated fault diagnosis. By accumulating a limited dataset of known faults, this method could be extended to incorporate semi-supervised learning, enhancing fault detection within HVAC systems with unlabelled data. CRediT authorship contribution statement Farivar Rajabi: Writing \u2013 original draft, Methodology, Formal analysis, Data curation, Conceptualization. J.J. McArthur: Writing \u2013 review & editing, Validation, Supervision, Project administration, Funding acquisition. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This research has been funded by the Natural Science and Engineering Research Council (NSERC) Alliance Grant (ALLRP- 544569\u201319) and FuseForward. The first author is also supported by a Toronto Metropolitan University Graduate Scholarship. References [1] S. Katipamula M.R. Brambley Methods for fault detection, diagnostics, and prognostics for building systems\u2014a review, part I Hvac&r Research 11 1 2005 3 25 S. Katipamula and M. R. Brambley, \u201cMethods for fault detection, diagnostics, and prognostics for building systems\u2014a review, part I,\u201d Hvac&R Research, vol. 11, no. 1, pp. 3-25, 2005. [2] S. Katipamula M.R. Brambley Methods for fault detection, diagnostics, and prognostics for building systems\u2014A review, part II Hvac&r Research 11 2 2005 169 187 S. Katipamula and M. R. Brambley, \u201cMethods for fault detection, diagnostics, and prognostics for building systems\u2014A review, part II,\u201d Hvac&R Research, vol. 11, no. 2, pp. 169-187, 2005. [3] M.S. Mirnaghi F. Haghighat Fault detection and diagnosis of large-scale HVAC systems in buildings using data-driven methods: A comprehensive review Energ. Buildings 229 2020 110492 M. S. Mirnaghi and F. Haghighat, \u201cFault detection and diagnosis of large-scale HVAC systems in buildings using data-driven methods: A comprehensive review,\u201d Energy and Buildings, vol. 229, p. 110492, 2020. [4] G. Hu T. Zhou Q. Liu Data-driven machine learning for fault detection and diagnosis in nuclear power plants: A review Front. Energy Res. 9 2021 663296 G. Hu, T. Zhou, and Q. Liu, \u201cData-driven machine learning for fault detection and diagnosis in nuclear power plants: A review,\u201d Frontiers in Energy Research, vol. 9, p. 663296, 2021. [5] H. Yang, T. Zhang, H. Li, D. Woradechjumroen, and X. Liu, \u201cHVAC equipment, unitary: Fault detection and diagnosis,\u201d Encyclopedia of Energy Engineering and Technology, 2nd ed.; CRC Press: Boca Raton, FL, USA, pp. 854-864, 2014. [6] Y. Chen G. Lin Z. Chen J. Wen J. Granderson A simulation-based evaluation of fan coil unit fault effects Energ. Buildings 263 2022 112041 Y. Chen, G. Lin, Z. Chen, J. Wen, and J. Granderson, \u201cA simulation-based evaluation of fan coil unit fault effects,\u201d Energy and Buildings, vol. 263, p. 112041, 2022. [7] P. Movahed S. Taheri A. Razban A bi-level data-driven framework for fault-detection and diagnosis of HVAC systems Appl. Energy 339 2023 120948 P. Movahed, S. Taheri, and A. Razban, \u201cA bi-level data-driven framework for fault-detection and diagnosis of HVAC systems,\u201d Applied Energy, vol. 339, p. 120948, 2023. [8] A. Rosato F. Guarino M. El Youssef A. Capozzoli M. Masullo L. Maffei Faulty operation of coils\u2019 and humidifier valves in a typical air-handling unit: experimental impact assessment of indoor comfort and patterns of operating parameters under mediterranean climatic conditions Energies 15 18 2022 6781 A. Rosato, F. Guarino, M. El Youssef, A. Capozzoli, M. Masullo, and L. Maffei, \u201cFaulty Operation of Coils\u2019 and Humidifier Valves in a Typical Air-Handling Unit: Experimental Impact Assessment of Indoor Comfort and Patterns of Operating Parameters under Mediterranean Climatic Conditions,\u201d Energies, vol. 15, no. 18, p. 6781, 2022. [9] R. Yan Z. Ma G. Kokogiannakis Y. Zhao A sensor fault detection strategy for air handling units using cluster analysis Autom. Constr. 70 2016 77 88 R. Yan, Z. Ma, G. Kokogiannakis, and Y. Zhao, \u201cA sensor fault detection strategy for air handling units using cluster analysis,\u201d Automation in Construction, vol. 70, pp. 77-88, 2016. [10] J. Chen L. Zhang Y. Li Y. Shi X. Gao Y. Hu A review of computing-based automated fault detection and diagnosis of heating, ventilation and air conditioning systems Renew. Sustain. Energy Rev. 161 2022 112395 J. Chen, L. Zhang, Y. Li, Y. Shi, X. Gao, and Y. Hu, \u201cA review of computing-based automated fault detection and diagnosis of heating, ventilation and air conditioning systems,\u201d Renewable and Sustainable Energy Reviews, vol. 161, p. 112395, 2022. [11] T. Maile V. Bazjanac M. Fischer A method to compare simulated and measured data to assess building energy performance Build. Environ. 56 2012 241 251 T. Maile, V. Bazjanac, and M. Fischer, \u201cA method to compare simulated and measured data to assess building energy performance,\u201d Building and Environment, vol. 56, pp. 241-251, 2012. [12] S.U. Lee, F.L. Painter, D.E. Claridge, Whole-Building Commercial HVAC System Simulation for Use in Energy Consumption Fault Detection, Ashrae Trans., 113, 2, 2007. [13] A. Ranade G. Provan A.-E.-D. Mady D. O'Sullivan A computationally efficient method for fault diagnosis of fan-coil unit terminals in building Heating Ventilation and Air Conditioning systems J. Build. Eng. 27 2020 100955 A. Ranade, G. Provan, A. E.-D. Mady, and D. O'Sullivan, \u201cA computationally efficient method for fault diagnosis of fan-coil unit terminals in building Heating Ventilation and Air Conditioning systems,\u201d Journal of Building Engineering, vol. 27, p. 100955, 2020. [14] B. Dong Z. O'Neill Z. Li A BIM-enabled information infrastructure for building energy fault detection and diagnostics Autom. Constr. 44 2014 197 211 B. Dong, Z. O'Neill, and Z. Li, \u201cA BIM-enabled information infrastructure for building energy Fault Detection and Diagnostics,\u201d Automation in Construction, vol. 44, pp. 197-211, 2014. [15] Y. Zhao J. Wen F. Xiao X. Yang S. Wang Diagnostic Bayesian networks for diagnosing air handling units faults\u2013part I: Faults in dampers, fans, filters and sensors Appl. Therm. Eng. 111 2017 1272 1286 Y. Zhao, J. Wen, F. Xiao, X. Yang, and S. Wang, \u201cDiagnostic Bayesian networks for diagnosing air handling units faults\u2013part I: Faults in dampers, fans, filters and sensors,\u201d Applied Thermal Engineering, vol. 111, pp. 1272-1286, 2017. [16] S. Li Development and validation of a dynamic air handling unit model, Part I ASHRAE Trans. 116 2010 45 S. Li, \u201cDevelopment and validation of a dynamic air handling unit model, Part I,\u201d ASHRAE Transactions, vol. 116, p. 45, 2010. [17] S. Li J. Wen X. Zhou C.J. Klaassen Development and validation of a dynamic air handling unit model, Part 2 ASHRAE Trans. 116 1 2010 57 73 S. Li, J. Wen, X. Zhou, and C. J. Klaassen, \u201cDevelopment and validation of a dynamic air handling unit model, Part 2,\u201d ASHRAE Transactions, vol. 116, no. 1, pp. 57-73, 2010. [18] K. Verbert R. Babuška B. De Schutter Combining knowledge and historical data for system-level fault diagnosis of HVAC systems Eng. Appl. Artif. Intel. 59 2017 260 273 K. Verbert, R. Babuška, and B. De Schutter, \u201cCombining knowledge and historical data for system-level fault diagnosis of HVAC systems,\u201d Engineering Applications of Artificial Intelligence, vol. 59, pp. 260-273, 2017. [19] J. Cui S. Wang A model-based online fault detection and diagnosis strategy for centrifugal chiller systems Int. J. Therm. Sci. 44 10 2005 986 999 J. Cui and S. Wang, \u201cA model-based online fault detection and diagnosis strategy for centrifugal chiller systems,\u201d International Journal of Thermal Sciences, vol. 44, no. 10, pp. 986-999, 2005. [20] H. Li J.E. Braun A methodology for diagnosing multiple simultaneous faults in vapor-compression air conditioners HVAC&R Research 13 2 2007 369 395 H. Li and J. E. Braun, \u201cA methodology for diagnosing multiple simultaneous faults in vapor-compression air conditioners,\u201d HVAC&R Research, vol. 13, no. 2, pp. 369-395, 2007. [21] Y. Zhao T. Li X. Zhang C. Zhang Artificial intelligence-based fault detection and diagnosis methods for building energy systems: Advantages, challenges and the future Renew. Sustain. Energy Rev. 109 2019 85 101 Y. Zhao, T. Li, X. Zhang, and C. Zhang, \u201cArtificial intelligence-based fault detection and diagnosis methods for building energy systems: Advantages, challenges and the future,\u201d Renewable and Sustainable Energy Reviews, vol. 109, pp. 85-101, 2019. [22] M.S. Piscitelli D.M. Mazzarelli A. Capozzoli Enhancing operational performance of AHUs through an advanced fault detection and diagnosis process based on temporal association and decision rules Energ. Buildings 226 2020 110369 M. S. Piscitelli, D. M. Mazzarelli, and A. Capozzoli, \u201cEnhancing operational performance of AHUs through an advanced fault detection and diagnosis process based on temporal association and decision rules,\u201d Energy and Buildings, vol. 226, p. 110369, 2020. [23] M. Ester H.-P. Kriegel J. Sander X. Xu A density-based algorithm for discovering clusters in large spatial databases with noise Kdd 96 34 1996 226 231 M. Ester, H.-P. Kriegel, J. Sander, and X. Xu, \u201cA density-based algorithm for discovering clusters in large spatial databases with noise,\u201d in kdd, 1996, vol. 96, no. 34, pp. 226-231. [24] P.-N. Tan M. Steinbach V. Kumar Introduction to Data MINING 2016 Pearson Education India P.-N. Tan, M. Steinbach, and V. Kumar, Introduction to data mining. Pearson Education India, 2016. [25] R. Yan Z. Ma Y. Zhao G. Kokogiannakis A decision tree based data-driven diagnostic strategy for air handling units Energ. Buildings 133 2016 37 45 R. Yan, Z. Ma, Y. Zhao, and G. Kokogiannakis, \u201cA decision tree based data-driven diagnostic strategy for air handling units,\u201d Energy and Buildings, vol. 133, pp. 37-45, 2016. [26] D. Li Y. Zhou G. Hu C.J. Spanos Fault detection and diagnosis for building cooling system with a tree-structured learning method Energ. Buildings 127 2016 540 551 D. Li, Y. Zhou, G. Hu, and C. J. Spanos, \u201cFault detection and diagnosis for building cooling system with a tree-structured learning method,\u201d Energy and Buildings, vol. 127, pp. 540-551, 2016. [27] H. Han X. Cui Y. Fan H. Qing Least squares support vector machine (LS-SVM)-based chiller fault diagnosis using fault indicative features Appl. Therm. Eng. 154 2019 540 547 H. Han, X. Cui, Y. Fan, and H. Qing, \u201cLeast squares support vector machine (LS-SVM)-based chiller fault diagnosis using fault indicative features,\u201d Applied Thermal Engineering, vol. 154, pp. 540-547, 2019. [28] K. Sun G. Li H. Chen J. Liu J. Li W. Hu A novel efficient SVM-based fault diagnosis method for multi-split air conditioning system\u2019s refrigerant charge fault amount Appl. Therm. Eng. 108 2016 989 998 K. Sun, G. Li, H. Chen, J. Liu, J. Li, and W. Hu, \u201cA novel efficient SVM-based fault diagnosis method for multi-split air conditioning system\u2019s refrigerant charge fault amount,\u201d Applied Thermal Engineering, vol. 108, pp. 989-998, 2016. [29] Y. Zhao S. Wang F. Xiao A system-level incipient fault-detection method for HVAC systems HVAC&R Research 19 5 2013 593 601 Y. Zhao, S. Wang, and F. Xiao, \u201cA system-level incipient fault-detection method for HVAC systems,\u201d HVAC&R Research, vol. 19, no. 5, pp. 593-601, 2013. [30] S. Miyata J. Lim Y. Akashi Y. Kuwahara K. Tanaka Fault detection and diagnosis for heat source system using convolutional neural network with imaged faulty behavior data Sci. Technol. Built Environ. 26 1 2020 52 60 S. Miyata, J. Lim, Y. Akashi, Y. Kuwahara, and K. Tanaka, \u201cFault detection and diagnosis for heat source system using convolutional neural network with imaged faulty behavior data,\u201d Science and Technology for the Built Environment, vol. 26, no. 1, pp. 52-60, 2020. [31] Y. Guo Optimized neural network-based fault diagnosis strategy for VRF system in heating mode using data mining Appl. Therm. Eng. 125 2017 1402 1413 Y. Guo et al., \u201cOptimized neural network-based fault diagnosis strategy for VRF system in heating mode using data mining,\u201d Applied Thermal Engineering, vol. 125, pp. 1402-1413, 2017. [32] Y.H. Eom J.W. Yoo S.B. Hong M.S. Kim Refrigerant charge fault detection method of air source heat pump system using convolutional neural network for energy saving Energy 187 2019 115877 Y. H. Eom, J. W. Yoo, S. B. Hong, and M. S. Kim, \u201cRefrigerant charge fault detection method of air source heat pump system using convolutional neural network for energy saving,\u201d Energy, vol. 187, p. 115877, 2019. [33] J. Liu J. Liu H. Chen Y. Yuan Z. Li R. Huang Energy diagnosis of variable refrigerant flow (VRF) systems: Data mining technique and statistical quality control approach Energ. Buildings 175 2018 148 162 J. Liu, J. Liu, H. Chen, Y. Yuan, Z. Li, and R. Huang, \u201cEnergy diagnosis of variable refrigerant flow (VRF) systems: Data mining technique and statistical quality control approach,\u201d Energy and Buildings, vol. 175, pp. 148-162, 2018. [34] Y. Zhao S. Wang F. Xiao A statistical fault detection and diagnosis method for centrifugal chillers based on exponentially-weighted moving average control charts and support vector regression Appl. Therm. Eng. 51 1\u20132 2013 560 572 Y. Zhao, S. Wang, and F. Xiao, \u201cA statistical fault detection and diagnosis method for centrifugal chillers based on exponentially-weighted moving average control charts and support vector regression,\u201d Applied Thermal Engineering, vol. 51, no. 1-2, pp. 560-572, 2013. [35] Z. Chen A review of data-driven fault detection and diagnostics for building HVAC systems Appl. Energy 339 2023 121030 Z. Chen et al., \u201cA review of data-driven fault detection and diagnostics for building HVAC systems,\u201d Applied Energy, vol. 339, p. 121030, 2023. [36] K. Yan C. Zhong Z. Ji J. Huang Semi-supervised learning for early detection and diagnosis of various air handling unit faults Energ. Buildings 181 2018 75 83 K. Yan, C. Zhong, Z. Ji, and J. Huang, \u201cSemi-supervised learning for early detection and diagnosis of various air handling unit faults,\u201d Energy and Buildings, vol. 181, pp. 75-83, 2018. [37] C. Fan Y. Liu X. Liu Y. Sun J. Wang A study on semi-supervised learning in enhancing performance of AHU unseen fault detection with limited labeled data Sustain. Cities Soc. 70 2021 102874 C. Fan, Y. Liu, X. Liu, Y. Sun, and J. Wang, \u201cA study on semi-supervised learning in enhancing performance of AHU unseen fault detection with limited labeled data,\u201d Sustainable Cities and Society, vol. 70, p. 102874, 2021. [38] C. Fan X. Liu P. Xue J. Wang Statistical characterization of semi-supervised neural networks for fault detection and diagnosis of air handling units Energ. Buildings 234 2021 110733 C. Fan, X. Liu, P. Xue, and J. Wang, \u201cStatistical characterization of semi-supervised neural networks for fault detection and diagnosis of air handling units,\u201d Energy and Buildings, vol. 234, p. 110733, 2021. [39] Z. Du B. Fan X. Jin J. Chi Fault detection and diagnosis for buildings and HVAC systems using combined neural networks and subtractive clustering analysis Build. Environ. 73 2014 1 11 Z. Du, B. Fan, X. Jin, and J. Chi, \u201cFault detection and diagnosis for buildings and HVAC systems using combined neural networks and subtractive clustering analysis,\u201d Building and Environment, vol. 73, pp. 1-11, 2014. [40] B. Narayanaswamy, B. Balaji, R. Gupta, Y. Agarwal, Data driven investigation of faults in HVAC systems with model, cluster and compare (MCC), in Proceedings of the 1st ACM Conference on Embedded Systems for Energy-Efficient Buildings, 2014, pp. 50-59. [41] E. Novikova M. Bestuzhev A. Shorov The visualization-driven approach to the analysis of the HVAC data Intelligent Distributed Computing XIII 2020 Springer 547 552 E. Novikova, M. Bestuzhev, and A. Shorov, \u201cThe visualization-driven approach to the analysis of the HVAC data,\u201d in Intelligent Distributed Computing XIII, 2020: Springer, pp. 547-552. [42] Y. Yu D. Woradechjumroen D. Yu A review of fault detection and diagnosis methodologies on air-handling units Energ. Buildings 82 2014 550 562 Y. Yu, D. Woradechjumroen, and D. Yu, \u201cA review of fault detection and diagnosis methodologies on air-handling units,\u201d Energy and Buildings, vol. 82, pp. 550-562, 2014. [43] I. Matetić I. Štajduhar I. Wolf S. Ljubic A review of data-driven approaches and techniques for fault detection and diagnosis in HVAC systems Sensors 23 1 2022 1 I. Matetić, I. Štajduhar, I. Wolf, and S. Ljubic, \u201cA review of data-driven approaches and techniques for fault detection and diagnosis in HVAC systems,\u201d Sensors, vol. 23, no. 1, p. 1, 2022. [44] J. Granderson et al., \u201cLBNL fault detection and diagnostics datasets,\u201d DOE Open Energy Data Initiative (OEDI); Lawrence Berkeley National Lab.(LBNL), Berkeley, CA (United States), 2022. [45] J. Granderson A labeled dataset for building HVAC systems operating in faulted and fault-free states Sci. Data 10 1 2023 342 J. Granderson et al., \u201cA labeled dataset for building HVAC systems operating in faulted and fault-free states,\u201d Scientific Data, vol. 10, no. 1, p. 342, 2023. [46] S. Pourarian J. Wen D. Veronica A. Pertzborn X. Zhou R. Liu A tool for evaluating fault detection and diagnostic methods for fan coil units Energ. Buildings 136 2017 151 160 S. Pourarian, J. Wen, D. Veronica, A. Pertzborn, X. Zhou, and R. Liu, \u201cA tool for evaluating fault detection and diagnostic methods for fan coil units,\u201d Energy and Buildings, vol. 136, pp. 151-160, 2017. [47] F. Lauro Building fan coil electric consumption analysis with fuzzy approaches for fault detection and diagnosis Energy Procedia 62 2014 411 420 F. Lauro et al., \u201cBuilding fan coil electric consumption analysis with fuzzy approaches for fault detection and diagnosis,\u201d Energy Procedia, vol. 62, pp. 411-420, 2014. [48] I. Matetić I. Štajduhar I. Wolf S. Ljubic Improving the efficiency of fan coil units in hotel buildings through deep-learning-based fault detection Sensors 23 15 2023 6717 I. Matetić, I. Štajduhar, I. Wolf, and S. Ljubic, \u201cImproving the efficiency of fan coil units in hotel buildings through deep-learning-based fault detection,\u201d Sensors, vol. 23, no. 15, p. 6717, 2023. [49] J. Ploennigs, B. Chen, A. Schumann, N. Brady, Exploiting generalized additive models for diagnosing abnormal energy use in buildings, in Proceedings of the 5th ACM Workshop on Embedded Systems For Energy-Efficient Buildings, 2013, pp. 1-8. [50] J.E. Seem Using intelligent data analysis to detect abnormal energy consumption in buildings Energ. Buildings 39 1 2007 52 58 J. E. Seem, \u201cUsing intelligent data analysis to detect abnormal energy consumption in buildings,\u201d Energy and buildings, vol. 39, no. 1, pp. 52-58, 2007. [51] A. Srivastav A. Tewari B. Dong Baseline building energy modeling and localized uncertainty quantification using Gaussian mixture models Energ. Buildings 65 2013 438 447 A. Srivastav, A. Tewari, and B. Dong, \u201cBaseline building energy modeling and localized uncertainty quantification using Gaussian mixture models,\u201d Energy and Buildings, vol. 65, pp. 438-447, 2013. [52] T. Caliński J. Harabasz A dendrite method for cluster analysis Commun. Stat.-Theory Methods 3 1 1974 1 27 T. Caliński and J. Harabasz, \u201cA dendrite method for cluster analysis,\u201d Communications in Statistics-theory and Methods, vol. 3, no. 1, pp. 1-27, 1974. [53] M. Ankerst M.M. Breunig H.-P. Kriegel J. Sander OPTICS: Ordering points to identify the clustering structure ACM SIGMOD Rec. 28 2 1999 49 60 M. Ankerst, M. M. Breunig, H.-P. Kriegel, and J. Sander, \u201cOPTICS: Ordering points to identify the clustering structure,\u201d ACM Sigmod record, vol. 28, no. 2, pp. 49-60, 1999. [54] H.P. Kriegel P. Kröger J. Sander A. Zimek Density-based clustering Wiley Interdisc. Rev.: Data Mining and Knowledge Discovery 1 3 2011 231 240 H. P. Kriegel, P. Kröger, J. Sander, and A. Zimek, \u201cDensity\u2010based clustering,\u201d Wiley interdisciplinary reviews: data mining and knowledge discovery, vol. 1, no. 3, pp. 231-240, 2011. [55] S. Wang F. Xiao AHU sensor fault diagnosis using principal component analysis method Energ. Buildings 36 2 2004 147 160 S. Wang and F. Xiao, \u201cAHU sensor fault diagnosis using principal component analysis method,\u201d Energy and Buildings, vol. 36, no. 2, pp. 147-160, 2004. [56] G. Lin H. Kramer J. Granderson Building fault detection and diagnostics: Achieved savings, and methods to evaluate algorithm performance Build. Environ. 168 2020 106505 G. Lin, H. Kramer, and J. Granderson, \u201cBuilding fault detection and diagnostics: Achieved savings, and methods to evaluate algorithm performance,\u201d Building and Environment, vol. 168, p. 106505, 2020. [57] F. Pedregosa Scikit-learn: machine learning in Python J. Mach. Learn. Res. 12 2011 2825 2830 F. Pedregosa et al., \u201cScikit-learn: Machine learning in Python,\u201d the Journal of machine Learning research, vol. 12, pp. 2825-2830, 2011.",
+    "scopus-id": "85196020203",
+    "coredata": {
+        "eid": "1-s2.0-S0378778824004845",
+        "dc:description": "In building operations, Heating, Ventilation, and Air Conditioning (HVAC) system faults lead to substantial energy waste. Due to the rapid growth in the availability of sensing data and advancements in computational technology, AI-based methods have emerged as a powerful tool for Fault Detection and Diagnosis (FDD) of HVAC systems, significantly enhancing the efficiency of building operations. Several studies support supervised learning methods for FDD; however, these are limited in practice due to their reliance on labeled datasets, which are generally unavailable. In this context, unsupervised methods, notably those using cluster analysis, show great promise, particularly for analysing Building Automation System (BAS) data. This paper presents a methodology using OPTICS \u2013 an ordered clustering algorithm \u2013 for fault detection and explores the impact of PCA on its accuracy for fault detection, using both published and full-scale historical building data. While beneficial for reducing computational costs and enhancing noise reduction \u2014 thereby generally improving the clarity of cluster differentiation \u2014 PCA\u2019s dimensionality reduction may result in the loss of critical information, leading to some clusters being less discernible or entirely undetected. These overlooked clusters could be indicative of underlying faults, and their obscurity represents a significant limitation of PCA when identifying potential faults in complex data.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-08-15",
+        "openaccessUserLicense": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378778824004845",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Rajabi, Farivar"
+            },
+            {
+                "@_fa": "true",
+                "$": "McArthur, J.J."
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0378778824004845"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0378778824004845"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": "Full",
+        "pii": "S0378-7788(24)00484-5",
+        "prism:volume": "317",
+        "articleNumber": "114368",
+        "prism:publisher": "The Author(s). Published by Elsevier B.V.",
+        "dc:title": "Applying OPTICS with and without PCA for fault detection of fan coil units using building automation system data",
+        "prism:copyright": "© 2024 The Author(s). Published by Elsevier B.V.",
+        "openaccess": "1",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Fault detection"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building Automation System (BAS)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Cluster analysis"
+            },
+            {
+                "@_fa": "true",
+                "$": "Ordering Points to Identify the Clustering Structure (OPTICS)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Principal Component Analysis (PCA)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Fan coil units"
+            }
+        ],
+        "openaccessArticle": "true",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": "ElsevierWaived",
+        "prism:pageRange": "114368",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 August 2024",
+        "prism:doi": "10.1016/j.enbuild.2024.114368",
+        "prism:startingPage": "114368",
+        "dc:identifier": "doi:10.1016/j.enbuild.2024.114368",
+        "openaccessSponsorName": "CRKN 2024: Hybrid journals"
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "314",
+            "@width": "645",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46850",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "209",
+            "@width": "593",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "25210",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "311",
+            "@width": "630",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "47716",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "207",
+            "@width": "606",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21256",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "207",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28129",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "435",
+            "@width": "698",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "60106",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "294",
+            "@width": "383",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "18930",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "217",
+            "@width": "624",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27483",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "291",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "19600",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "267",
+            "@width": "717",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34321",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "319",
+            "@width": "645",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "57957",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "289",
+            "@width": "333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21428",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "107",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6060",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "77",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3495",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "108",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6560",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "75",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3398",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "73",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3547",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "137",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7930",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "213",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7216",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "76",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3459",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "114",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2935",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "81",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3738",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "108",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8385",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5194",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1389",
+            "@width": "2854",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "311982",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "924",
+            "@width": "2626",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "171785",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1377",
+            "@width": "2788",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "310397",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "918",
+            "@width": "2684",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "141912",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "917",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "199331",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1928",
+            "@width": "3092",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "460846",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1305",
+            "@width": "1699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "93050",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "963",
+            "@width": "2765",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "187218",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1286",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "125154",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1181",
+            "@width": "3176",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "222038",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1412",
+            "@width": "2854",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "394039",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1281",
+            "@width": "1476",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "135548",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3037",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "41800",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1750",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1708",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1585",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4311",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2252",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12537",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13263",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12250",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24634",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6871",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15700",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4351",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1944",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1563",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20425",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7512",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1200",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "55236",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824004845-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1768234",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85196020203"
+    }
+}}

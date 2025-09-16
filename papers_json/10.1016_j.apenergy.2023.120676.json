@@ -1,0 +1,1202 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85146571264",
+    "originalText": "serial JL 271429 291210 291702 291731 291787 291877 291878 291881 31 Applied Energy APPLIEDENERGY 2023-01-22 2023-01-22 2023-01-22 2023-01-22 2024-01-11T22:59:15 1-s2.0-S0306261923000405 S0306-2619(23)00040-5 S0306261923000405 10.1016/j.apenergy.2023.120676 S300 S300.1 FULL-TEXT 1-s2.0-S0306261923X00026 2024-01-11T23:31:45.81365Z 0 0 20230315 2023 2023-01-22T22:39:11.575569Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst nomenclature orcid primabst ref 0306-2619 03062619 true 334 334 C Volume 334 52 120676 120676 120676 20230315 15 March 2023 2023-03-15 2023 Research Papers article fla © 2023 Elsevier Ltd. All rights reserved. PANDEMICOCCUPANCYDRIVENPREDICTIVEVENTILATIONCONTROLMINIMIZEENERGYCONSUMPTIONINFECTIONRISK JIANG Z Nomenclature 1 Introduction 1.1 Background and literature review 1.2 Contributions and innovations 2 Methodology 2.1 Step 1: Data collection 2.2 Step 2: Model development 2.2.1 Development of the occupancy prediction model 2.2.1.1 Data preprocessing 2.2.1.2 Customized loss function 2.2.1.3 Model design 2.2.2 Model tuning and evaluation 2.2.3 Development of thermal dynamic model 2.3 Step 3: Demand ventilation 2.4 Step 4: Control optimization 2.4.1 MPC formulation 2.5 Uncertainty analysis 3 Results 3.1 Results of occupancy prediction 3.1.1 ARMA_MLP model 3.1.2 RNN/LSTM model 3.1.3 Non-homogeneous Markov model 3.1.4 Overall performance 3.2 Demand ventilation calculation and uncertainty evaluation 3.3 OB-MPC performance and uncertainty evaluation 4 Discussion 4.1 Occupancy prediction 4.2 OBMPC performance during the COVID-19 pandemic 4.3 Occupancy prediction uncertainty effect 4.4 Limitations 5 Conclusion CRediT authorship contribution statement Acknowledgment References QIAN 2021 639 645 H LI 2021 107788 Y MORAWSKA 2020 2311 2313 L ZHANG 2021 207 216 N MORAWSKA 2021 689 691 L BHAGAT 2020 R DESAI 2021 1585 1596 P GUO 2020 1586 Z CHEN 2020 106859 W HAMNER 2020 69 L HIGHSARSCOV2ATTACKRATEFOLLOWINGEXPOSUREACHOIRPRACTICESKAGITCOUNTYWASHINGTONMARCH2020 CHARLOTTE 2020 N LU 2020 1628 J DONG 2022 871 884 Y BLOCKEN 2020 107022 B SHAH 2021 073315 Y SALONEN 2020 1109 1129 H GUO 2021 107368 M MCKEEN 2022 249 264 P XU 2020 639 644 C SCHIBUOLA 2021 110882 L ZHENG 2021 100040 W MOKHTARI 2021 107561 R WANG 2021 110883 J SHA 2021 103256 H GUO 2022 111954 Y WANG 2022 103719 J YANG 2020 113920 S GANESH 2019 168 179 H YANG 2021 117112 S LI 2022 118297 B LI 2020 115371 W WANG 2022 X DRGONA 2020 190 232 J AFRAM 2014 343 355 A MARIANOHERNANDEZ 2021 101692 D YAO 2021 107952 Y KLEPEIS 2001 231 252 N MIRAKHORLI 2016 499 513 A DONG 2022 109195 B CLARK 2019 253 267 J RYU 2016 1 9 S GUNAY 2015 71 85 H SAMA 2016 1 8 S 2016IEEE7THANNUALUBIQUITOUSCOMPUTINGELECTRONICSMOBILECOMMUNICATIONCONFERENCEUEMCON ASTUDYCOMPRESSIONBASEDSEQUENTIALPREDICTIONMETHODSFOROCCUPANCYPREDICTIONINSMARTHOMES PENG 2018 1343 1358 Y SALIMI 2020 106729 S KLEIMINGER 2014 493 505 W HUANG 2019 109439 W HOBSON 2020 110179 B JIN 2021 111345 Y SALIMI 2019 1 16 S PEDERSEN 2018 485 498 T LI 2017 277 290 Z ALI 2020 1696 G DONG 2018 2427 J KIM 2019 216 222 S ZHUANG 2022 C NACER 2018 484 501 A KONG 2022 117987 M JIN 2021 111362 Y RILEY 1978 421 432 E FENG 2020 105585 Y SHEN 2021 1331 1367 J SUN 2020 102390 C DAVIES 2013 413 418 A BUONANNO 2020 105794 G JIANGX2023X120676 JIANGX2023X120676XZ CHU_DOE publishAcceptedManuscriptIndexable http://www.elsevier.com/open-access/userlicense/1.0/ 2024-01-22T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Elsevier Ltd. All rights reserved. 2023-01-27T08:09:10.102Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined SU Syracuse University http://data.elsevier.com/vocabulary/SciValFunders/100007126 http://sws.geonames.org/6252001 Syracuse University Campus U.S. Department of Energy USDOE U.S. Department of Energy http://data.elsevier.com/vocabulary/SciValFunders/100000015 http://sws.geonames.org/6252001/ Advanced Research Projects Agency-Energy DE-AR0001316 ARPA-E Advanced Research Projects Agency - Energy http://data.elsevier.com/vocabulary/SciValFunders/100006133 http://sws.geonames.org/6252001/ The research work presented in this paper was supported by the U.S. Department of Energy (DOE) Advanced Research Projects Agency-Energy (ARPA-E) under award number DE-AR0001316 and Syracuse University Campus as a Lab (CALS) grant. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0306-2619(23)00040-5 S0306261923000405 1-s2.0-S0306261923000405 10.1016/j.apenergy.2023.120676 271429 2024-01-11T23:31:45.81365Z 2023-03-15 1-s2.0-S0306261923000405-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/MAIN/application/pdf/69909b2c2a8d7b8da6263da32db01022/main.pdf main.pdf pdf true 9261121 MAIN 17 1-s2.0-S0306261923000405-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/PREVIEW/image/png/bfddec3cfd2ce5a541f6dbf351741181/main_1.png main_1.png png 49845 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0306261923000405-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr9/DOWNSAMPLED/image/jpeg/1e14463c4f9edc359fff4b479ec9d98c/gr9.jpg gr9 gr9.jpg jpg 107889 546 755 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr8/DOWNSAMPLED/image/jpeg/ed250cdeab6b8342acd74c185a7d8583/gr8.jpg gr8 gr8.jpg jpg 106926 551 758 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr7/DOWNSAMPLED/image/jpeg/90d97b228b04affbab4407c371876764/gr7.jpg gr7 gr7.jpg jpg 110835 554 765 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr6/DOWNSAMPLED/image/jpeg/027fe23504453d65124ad0e828a8d5ee/gr6.jpg gr6 gr6.jpg jpg 48718 424 667 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr5/DOWNSAMPLED/image/jpeg/cbe676a7aeed5bd4f7597ead62418378/gr5.jpg gr5 gr5.jpg jpg 32973 241 675 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr4/DOWNSAMPLED/image/jpeg/54f5ca345d676c29a89fac54183b292a/gr4.jpg gr4 gr4.jpg jpg 49527 269 776 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr3/DOWNSAMPLED/image/jpeg/cc0d2d5677c620891ddf7a1a69317940/gr3.jpg gr3 gr3.jpg jpg 21154 269 556 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr2/DOWNSAMPLED/image/jpeg/54ceaf39536473e534eb88e406401bcb/gr2.jpg gr2 gr2.jpg jpg 87050 563 756 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr11/DOWNSAMPLED/image/jpeg/2dc890a2bc0dcf30ff04f0f70c5abd18/gr11.jpg gr11 gr11.jpg jpg 99521 371 765 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr10/DOWNSAMPLED/image/jpeg/33167e1b218b655b318be7c3b637f5cb/gr10.jpg gr10 gr10.jpg jpg 62720 312 750 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr1/DOWNSAMPLED/image/jpeg/8fec9242e8d1685196ac0d3ef587fbe2/gr1.jpg gr1 gr1.jpg jpg 47291 314 712 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr14/DOWNSAMPLED/image/jpeg/c718863aee13811ec2968bb6c8605436/gr14.jpg gr14 gr14.jpg jpg 98096 659 712 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr13/DOWNSAMPLED/image/jpeg/0fbc2520bdd4dab81635d079867e47cf/gr13.jpg gr13 gr13.jpg jpg 123263 487 747 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr12/DOWNSAMPLED/image/jpeg/f4dfa20a310325a58d415108c9f445ba/gr12.jpg gr12 gr12.jpg jpg 92100 415 754 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000405-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr9/THUMBNAIL/image/gif/ef0858022b122fec839e9fd5a7747407/gr9.sml gr9 gr9.sml sml 12763 158 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr8/THUMBNAIL/image/gif/dba9999d8b335db36650b89f80562588/gr8.sml gr8 gr8.sml sml 12597 159 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr7/THUMBNAIL/image/gif/9253939278744bf1e9f343604254d8c0/gr7.sml gr7 gr7.sml sml 12769 159 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr6/THUMBNAIL/image/gif/ff3f99c27268f06e723869476ba73cc4/gr6.sml gr6 gr6.sml sml 7365 139 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr5/THUMBNAIL/image/gif/246817203acb688a5c1ac9d7f967fa5f/gr5.sml gr5 gr5.sml sml 5076 78 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr4/THUMBNAIL/image/gif/66e4219d2ad85849ec35b2ff323410eb/gr4.sml gr4 gr4.sml sml 5579 76 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr3/THUMBNAIL/image/gif/6fba72b6d2e2306e0eff588b88961c88/gr3.sml gr3 gr3.sml sml 3615 106 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr2/THUMBNAIL/image/gif/7f4bada6f89c4e757d915e877baea19d/gr2.sml gr2 gr2.sml sml 16423 163 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr11/THUMBNAIL/image/gif/2eebb01b463f13c0b1219867fb5d504e/gr11.sml gr11 gr11.sml sml 13104 106 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr10/THUMBNAIL/image/gif/ca578af9389540bea977afa5b2fd631b/gr10.sml gr10 gr10.sml sml 6926 91 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr1/THUMBNAIL/image/gif/16cbd31af81d7dd50d123b8b50cc07ee/gr1.sml gr1 gr1.sml sml 6593 97 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr14/THUMBNAIL/image/gif/ca677feb58a272a209c2b068f437f98b/gr14.sml gr14 gr14.sml sml 10124 164 177 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr13/THUMBNAIL/image/gif/14bf8d8f0ff54b35faba181bd1b835a9/gr13.sml gr13 gr13.sml sml 15454 143 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/gr12/THUMBNAIL/image/gif/dfd3a49c5f883bdb3b2da900a6d627fc/gr12.sml gr12 gr12.sml sml 12540 120 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000405-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/5b8e8b0810b69b7a1bc127688380adba/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 570821 2419 3344 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/54d301155b0a4e3e27da85dba9dc00ba/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 566074 2442 3357 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/de004a9af4970d57a4d53389dabcf953/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 588057 2451 3386 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/e2c9d8738c49c3df23367c3bcd0b0d10/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 350908 1879 2954 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/bf42a0a093f4fd914f84d9877c9590e9/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 205576 1070 2991 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/b849c2bcc3c386b333a01031458990b4/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 305673 1190 3438 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/ad827c71cf560e6781177a7bea0d8b4b/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 129273 1191 2461 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/8888487d2c7cbd1f4cae3e048c53432f/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 537192 2492 3346 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/29d12e3185d8ac4e8b59e76ba4b45a12/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 516363 1642 3386 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/9a10e3b24bcc47b3f2cd043bcc7838c8/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 340921 1381 3322 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/3f56226a6d521c508f102b3299967268/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 281123 1389 3151 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/27a72db17d719a12a3363982c5affd9e/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 559711 2916 3152 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/73a111792dd2557c95a6ce42a34cfdbd/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 689034 2157 3307 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/HIGHRES/image/jpeg/6dd428797403f3f9af9977702de2b4dc/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 572281 1836 3337 IMAGE-HIGH-RES 1-s2.0-S0306261923000405-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/48e914b80e7b13833d23fcdd43fe134e/si1.svg si1 si1.svg svg 2440 ALTIMG 1-s2.0-S0306261923000405-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/a52adf38e90d3e70b862976c5c0ae5f2/si10.svg si10 si10.svg svg 1694 ALTIMG 1-s2.0-S0306261923000405-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/124d2a0854e6a1cb05542324746e9ac9/si11.svg si11 si11.svg svg 9439 ALTIMG 1-s2.0-S0306261923000405-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/be5aec0cf4ebec678caa6cd0fdc5cf07/si12.svg si12 si12.svg svg 8653 ALTIMG 1-s2.0-S0306261923000405-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/1054d08119d25253e4c3d9cf83277e80/si13.svg si13 si13.svg svg 12416 ALTIMG 1-s2.0-S0306261923000405-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/60eb17313fbb35fbdb1029f9bbd3f9d6/si14.svg si14 si14.svg svg 4554 ALTIMG 1-s2.0-S0306261923000405-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/831104fe645b4e1bba6c9f474124ee5c/si15.svg si15 si15.svg svg 9357 ALTIMG 1-s2.0-S0306261923000405-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/bbbb85bf5fb16fc8f7406b3588b1734f/si16.svg si16 si16.svg svg 904 ALTIMG 1-s2.0-S0306261923000405-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/649df6580c497a6cfe3330ada6866bea/si17.svg si17 si17.svg svg 1422 ALTIMG 1-s2.0-S0306261923000405-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/9f9b2e6a9d25e90b2359c78f8c8c8ebf/si18.svg si18 si18.svg svg 822 ALTIMG 1-s2.0-S0306261923000405-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/6ab19ecb31dc9ffaa7611d202a12e917/si19.svg si19 si19.svg svg 37939 ALTIMG 1-s2.0-S0306261923000405-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/80987833396e84dee150070b51e57326/si2.svg si2 si2.svg svg 5452 ALTIMG 1-s2.0-S0306261923000405-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/e4c1d9d5f2568341c968fcda264f1ab4/si20.svg si20 si20.svg svg 6314 ALTIMG 1-s2.0-S0306261923000405-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/b3287a40d8d04bbd5732fd44452422a0/si21.svg si21 si21.svg svg 6872 ALTIMG 1-s2.0-S0306261923000405-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/72fb9d371bd8690b32c44e11eaeda307/si22.svg si22 si22.svg svg 13498 ALTIMG 1-s2.0-S0306261923000405-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/d5a1d49164f983153d1aa1739785ddec/si23.svg si23 si23.svg svg 1385 ALTIMG 1-s2.0-S0306261923000405-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/4c1e9f57b9e852c3332e8dd85db0d163/si24.svg si24 si24.svg svg 14215 ALTIMG 1-s2.0-S0306261923000405-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/0b8e21693e14fbd5d9b8eab8676518a1/si25.svg si25 si25.svg svg 1630 ALTIMG 1-s2.0-S0306261923000405-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/963f780d7330117f9e1aef939a87258e/si26.svg si26 si26.svg svg 1671 ALTIMG 1-s2.0-S0306261923000405-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/c2519f69fa425062f99c9e156761a33d/si27.svg si27 si27.svg svg 865 ALTIMG 1-s2.0-S0306261923000405-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/31cbacbf45d3d06fce95193c87975a7a/si28.svg si28 si28.svg svg 33276 ALTIMG 1-s2.0-S0306261923000405-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/2fcb126e8856ba88c2508b934a44f31b/si29.svg si29 si29.svg svg 2974 ALTIMG 1-s2.0-S0306261923000405-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/1b14fcfcf61a8a34c2340e355f4aeb98/si3.svg si3 si3.svg svg 5613 ALTIMG 1-s2.0-S0306261923000405-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/7bb4bcd922cfebd1ffabebbf87226a0f/si30.svg si30 si30.svg svg 3408 ALTIMG 1-s2.0-S0306261923000405-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/94a62d79e30bd0a0726a243db9426f03/si31.svg si31 si31.svg svg 22472 ALTIMG 1-s2.0-S0306261923000405-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/47e6f45eb89ac087c33c491046244919/si32.svg si32 si32.svg svg 27425 ALTIMG 1-s2.0-S0306261923000405-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/9e6240981d865ba3cee09016e14c72c3/si33.svg si33 si33.svg svg 20788 ALTIMG 1-s2.0-S0306261923000405-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/d30683a6e6039673f549440161c564df/si34.svg si34 si34.svg svg 3023 ALTIMG 1-s2.0-S0306261923000405-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/28496305d3840a5520da9b859f2b37ee/si35.svg si35 si35.svg svg 14470 ALTIMG 1-s2.0-S0306261923000405-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/7a1df79b4c1b9cbe0e74565f7504e8b1/si36.svg si36 si36.svg svg 3106 ALTIMG 1-s2.0-S0306261923000405-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/a97927253dffa883c221781d52ccb01f/si37.svg si37 si37.svg svg 10606 ALTIMG 1-s2.0-S0306261923000405-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/8c2b0980aa33abee140385faeea2898e/si38.svg si38 si38.svg svg 1690 ALTIMG 1-s2.0-S0306261923000405-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/0c9ee7f54ab502b123e7060df6549998/si39.svg si39 si39.svg svg 18504 ALTIMG 1-s2.0-S0306261923000405-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/383c15f7ca5e60873915fb4703b7ac51/si4.svg si4 si4.svg svg 5502 ALTIMG 1-s2.0-S0306261923000405-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/94b63e311f4c41f510ec66d9567da5a2/si40.svg si40 si40.svg svg 13081 ALTIMG 1-s2.0-S0306261923000405-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/24e34891453af63a7e03b5fcb561c702/si41.svg si41 si41.svg svg 10747 ALTIMG 1-s2.0-S0306261923000405-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/84167136eaa2424a06d2c503a431594f/si42.svg si42 si42.svg svg 15055 ALTIMG 1-s2.0-S0306261923000405-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/d62c3838901fccdc77ee294f722418e1/si43.svg si43 si43.svg svg 1271 ALTIMG 1-s2.0-S0306261923000405-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/f23a194bfde90208f2ce4e7189b0a668/si44.svg si44 si44.svg svg 23384 ALTIMG 1-s2.0-S0306261923000405-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/eb263847547c246a604b166440a84dee/si45.svg si45 si45.svg svg 2534 ALTIMG 1-s2.0-S0306261923000405-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/d8414fa1e98817f5032daee73734aaac/si46.svg si46 si46.svg svg 15141 ALTIMG 1-s2.0-S0306261923000405-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/88e29fcb06a66af330883104d3903e94/si47.svg si47 si47.svg svg 5950 ALTIMG 1-s2.0-S0306261923000405-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/8603bb21a8677a75b2376d2b80bce3e5/si48.svg si48 si48.svg svg 8069 ALTIMG 1-s2.0-S0306261923000405-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/4728982b0a7659d67668845c311a30ac/si49.svg si49 si49.svg svg 5024 ALTIMG 1-s2.0-S0306261923000405-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/53af8bd9a4620dfa0bd12e69983c45db/si5.svg si5 si5.svg svg 3975 ALTIMG 1-s2.0-S0306261923000405-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/238e76f28a00302e2ea8aa70b5d83462/si50.svg si50 si50.svg svg 4733 ALTIMG 1-s2.0-S0306261923000405-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/7d79c125b578e47ae707fc7669b9f9ac/si51.svg si51 si51.svg svg 4791 ALTIMG 1-s2.0-S0306261923000405-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/d33f17b9d048740a20fa710c826377e8/si52.svg si52 si52.svg svg 11902 ALTIMG 1-s2.0-S0306261923000405-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/b57947fd6cae0529bfe444024f4cd1e0/si53.svg si53 si53.svg svg 3814 ALTIMG 1-s2.0-S0306261923000405-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/d9bed7aef7fd610108da5115247410a9/si54.svg si54 si54.svg svg 21491 ALTIMG 1-s2.0-S0306261923000405-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/59fa2d5cb90c1704bf5f5cc4219e2a00/si55.svg si55 si55.svg svg 23770 ALTIMG 1-s2.0-S0306261923000405-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/6646fe81a16a25fe82b502d8e9767124/si56.svg si56 si56.svg svg 5709 ALTIMG 1-s2.0-S0306261923000405-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/4d9d2dec415c15604a73a705db0b1321/si57.svg si57 si57.svg svg 23653 ALTIMG 1-s2.0-S0306261923000405-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/b8b769d82dd8e567b888d5e0c00e6e19/si58.svg si58 si58.svg svg 5353 ALTIMG 1-s2.0-S0306261923000405-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/e2e6072bdd87ef0d7d675a3b136679d9/si59.svg si59 si59.svg svg 45448 ALTIMG 1-s2.0-S0306261923000405-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/54dd53cadf4e4d9cbb1ea9021ba5bfa4/si6.svg si6 si6.svg svg 3505 ALTIMG 1-s2.0-S0306261923000405-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/6848f60274267eafa04978ffe78d8b20/si60.svg si60 si60.svg svg 66898 ALTIMG 1-s2.0-S0306261923000405-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/95c25c4d043bf020f100d3395916bfbf/si7.svg si7 si7.svg svg 2379 ALTIMG 1-s2.0-S0306261923000405-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/51f933ffaf27361ec034104387291436/si8.svg si8 si8.svg svg 1917 ALTIMG 1-s2.0-S0306261923000405-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000405/image/svg+xml/f05666cde8ce28d85799a1b53cd203ba/si9.svg si9 si9.svg svg 1344 ALTIMG 1-s2.0-S0306261923000405-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10L1J7K1QBW/MAIN/application/pdf/f4f8c8cc4569135f6b6d76e6889c652e/am.pdf am am.pdf pdf false 3007323 AAM-PDF APEN 120676 120676 S0306-2619(23)00040-5 10.1016/j.apenergy.2023.120676 Elsevier Ltd Fig. 1 Framework for OBMPC. Fig. 2 (a) Testing bed in Link Hall. (b) HVAC system Diagram. (c) People Counting Sensor. (d) Occupancy distribution. Fig. 3 Flatten method for occupancy preprocessing. Fig. 4 ARMA_MLP model. Fig. 5 RNN model and LSTM model. Fig. 6 Development of the 3R2C model. Fig. 7 ARMA_ MLP model prediction results with 15-min, 1-h, 4-h, and 24-h ahead predictions in three days. Fig. 8 RNN model prediction results. Fig. 9 LSTM model prediction results. Fig. 10 NH Markov model prediction results. Fig. 11 Prediction error distribution. Fig. 12 Demand ventilation and infection risk level. Fig. 13 Overall occupancy prediction performance and infection risk calculation. Fig. 14 Results of occupancy number-based MPC. Table 1 The selected range of the hyperparameters. Hyperparameters Selected range Feature [Historical Data, Time of a day] Learning Rate [0.1, 0.01, 0.001,0.0001, 0.00001] Number of Hidden Layers [2\u20134] Number of Nodes [10\u2013100] Training Epochs [100\u20133000] Active Function [Relu] Optimizer [Adagrad, Adam, RMSprop] Table 2 Uncertainty analysis for different scenarios. 1.8 m social distance 3.1 m social distance 0 % mask-wearing ratio Upper Bound of OCC prediction Upper Bound of OCC prediction Lower Bound of OCC prediction Lower Bound of OCC prediction Idea OCC prediction Idea OCC prediction 50 % mask-wearing ratio Upper Bound of OCC prediction Upper Bound of OCC prediction Lower Bound of OCC prediction Lower Bound of OCC prediction Idea OCC prediction Idea OCC prediction 100 % mask-wearing ratio Upper Bound of OCC prediction Upper Bound of OCC prediction Lower Bound of OCC prediction Lower Bound of OCC prediction Idea OCC prediction Idea OCC prediction Table 3 Model performance with different prediction algorithms and horizons in one month. Model Evaluate index 15 min 1 h 4 h 24 h ARMA_MLP Mismatch 0.239 0.373 0.413 0.416 Mismatch_1 0.039 0.118 0.152 0.159 RNN Mismatch 0.367 0.481 0.476 0.482 Mismatch_1 0.084 0.197 0.215 0.209 LSTM Mismatch 0.305 0.437 0.455 0.466 Mismatch_1 0.046 0.14 0.184 0.195 HN_Markov Mismatch 0.271 0.429 \u2013 \u2013 Mismatch_1 0.071 0.185 \u2013 \u2013 Table 4 Occupancy prediction error distribution. Model Prediction Results 15 min 1 h 4 h 24 h ARMA_MLP Upper Bound N (0.52,0.88) N (0.53,1.19) N (0.52,1.22) N (0.36,1.06) Lower Bound N (-0.52,0.84) N (-0.55,1.17) N (-0.57,1.22) N (-0.69,1.18) RNN Upper Bound N (0.67,1.21) N (0.70,1.39) N (0.64,1.43) N (0.71,1.54) Lower Bound N (-0.19,2.62) N (-0.3,1.29) N (-0.36,1.39) N (-0.33,1.43) LSTM Upper Bound N (0.63,0.90) N (0.66,1.21) N (0.69,1.32) N (0.65,1.36) Lower Bound N (-0.40,0.85) N (-0.39,1.15) N (-0.36,1.24) N (-0.40,1.29) HN_Markov Upper Bound N (0.40,1.01) N (0.33,1.55) Lower Bound N (-0.57,0.99) N (-0.62,1.49) Table 5 Unconstraint time ratio calculated by upper and lower bound of occupancy prediction results. Model Prediction Results 15 min 1 h 4 h 24 h ARMA_MLP Upper Bound 0.108 0.175 0.189 0.210 Lower Bound 0.384 0.344 0.363 0.370 RNN Upper Bound 0.201 0.210 0.206 0.223 Lower Bound 0.380 0.336 0.344 0.327 LSTM Upper Bound 0.183 0.207 0.203 0.213 Lower Bound 0.411 0.375 0.367 0.365 HN_Markov Upper Bound 0.128 0.166 \u2013 \u2013 Lower Bound 0.362 0.288 \u2013 \u2013 PANDEMIC: Occupancy driven predictive ventilation control to minimize energy consumption and infection risk Zixin Jiang Conceptualization Investigation Resources Methodology Software Validation Visualization Writing \u2013 original draft Zhipeng Deng Methodology Xuezheng Wang Methodology Bing Dong Project administration Conceptualization Methodology Supervision Writing \u2013 review & editing \u204e Department of Mechanical & Aerospace Engineering, Syracuse University, Syracuse, NY 13244, United States Department of Mechanical & Aerospace Engineering Syracuse University Syracuse NY 13244 United States Department of Mechanical & Aerospace Engineering, Syracuse University, Syracuse, NY 13244, United States Built Environment Science and Technology (BEST) Lab, Syracuse University, Syracuse, NY 13244, United States Built Environment Science and Technology (BEST) Lab Syracuse University Syracuse NY 13244 United States Built Environment Science and Technology (BEST) Lab, Syracuse University, Syracuse, NY 13244, United States \u204e Corresponding author at: Department of Mechanical & Aerospace Engineering, Syracuse University, Syracuse, NY 13244, United States. Department of Mechanical & Aerospace Engineering Syracuse University Syracuse NY 13244 United States During the SARS-CoV-2 (COVID-19) pandemic, governments around the world have formulated policies requiring ventilation systems to operate at a higher outdoor fresh air flow rate for a sufficient time, which has led to a sharp increase in building energy consumption. Therefore, it is necessary to identify an energy-efficient ventilation strategy to reduce the risk of infection. In this study, we developed an occupant-number-based model predictive control (OBMPC) algorithm for building ventilation systems. First, we collected the occupancy and Heating, ventilation, and air conditioning system (HVAC) data from March to July 2021. Then, four different models (Auto regression moving average-based multilayer perceptron (ARMA_MLP), Recurrent neural networks (RNN), Long short-term memory networks (LSTM), and Nonhomogeneous Markov with change points detection (NH_Markov)) were used to predict the number of room occupants from 15 min to 24 h ahead with an interval output. We found that each model could predict the number of occupants with 85 % accuracy using a one-person offset. The accuracy of 15 min of the ahead prediction could reach 95 % with a one-person offset, but none of them could track abrupt changes. The occupancy prediction results were used to calculate the ventilation demand using the Wells-Riley equation, and the upper bound can maintain an infection risk lower than 2 % for 93 % of the day. This OBMPC model could reduce the coil load by 52.44 % and shift the peak load by 3 h up to 5 kW compared with 24 × 7 h full outdoor air (OA) system when people wear masks in the space. The occupancy prediction uncertainty could cause a 9 % to 26 % difference in demand ventilation, a 0.3 °C to 2.4 °C difference in zone temperature, a 28.5 % to 44.5 % difference in outdoor airflow rate, and a 10.7 % to 28.2 % difference in coil load. Keywords Occupancy prediction Model predictive control COVID-19 Demand ventilation Data availability The authors do not have permission to share data. Nomenclature OBMPC Occupant number-based model predictive control HVAC Heating, ventilation, and air conditioning ARMA_MLP Auto regression moving average-based multilayer perceptron RNN Recurrent neural networks LSTM Long short-term memory networks NH_Markov Nonhomogeneous Markov with change points detection model OA Outdoor air CVRMSE Coefficient of the Variation of the Root Mean Square Error MAPE Mean absolute percentage error λ forgetting factor α Smooth factor I n Characteristic function T ̇ wall Wall temperature T ̇ zone Zone temperature Q sol ̇ Solar radiation R Wall equivalent resistance C Wall equivalent capacitance V ( t ) ̇ demand ventilation flow rate EM Mask efficiency B Initial infection rate N ( t ) Occupant number prediction. P Pulmonary ventilation rate q Quanta generation rate P I Infection risk x State variable zone temperature. u Control variable, HVAC load w Disturbance, Solar, Ambient temperature, and internal heat gain T supply t Supply air temperature T return t return air temperature. T s e t p o i n t _ u p p e r Zone temperature setpoint d p t Damper position V supply ( t ) supply air flow rate ρ Air density c Air-specific heat D Social distance 1 Introduction 1.1 Background and literature review The SARS-CoV-2 infection has spread worldwide since December 2019. As of September 2022, there have been over half a billion (613,942,561) confirmed cases, including six million deaths, which are still growing [1]. Researchers have found that most infections occur in indoor spaces [2], and the primary route of transmission is airborne [345], which is highly related to indoor air distribution [678]. There is evidence showing that an insufficient ventilation rate might exacerbate virus transmission and increase infection risk [910111213]. In contrast, researchers also found that a large fresh air supply flow rate could reduce aerosol transmission [1415] and the probability of SARS-CoV-2 infection [161718]. Therefore, heating, ventilation, and air conditioning (HVAC) systems play an essential role in providing comfortable and healthy indoor environments. Meanwhile, a critical problem confronting engineers and building owners is how to better manage HVAC systems during the pandemic. Guo et al. [19] reviewed the HVAC system design guidelines during the pandemic in several major countries. As suggested by the ASHRAE/CDC in the U.S. [20], the HVAC system should run for a longer time, even 24 × 7 if possible. Simultaneously, it was necessary to increase the outdoor air ventilation rate and further open the minimum outdoor air dampers [21]. The European REHVA [22] suggested that the HVAC system should operate at a high air supply rate and exhaust ventilation rate, while adjusting the setpoint of the CO2 concentration to 400 ppm. The ventilation system should also start working at least 2 h before the initial occupancy and shut down 2 h after the last person leaves. The National Health Commission of China [23] recommended operating the HVAC system at the maximum outdoor air flow rates while switching on and off at least 1 h before and after the occupied time for large buildings. The World Health Organization [24] also suggested a similar 2-h early opening and late closing with a minimum mechanical ventilation rate of 10 L/s/person and an increase in the outdoor air flow rate. However, longer operating times and greater outdoor air flow rates exacerbated the energy usage of the building's HVAC systems [162526]. As shown in a previous study [27], the energy consumption of HVAC systems has skyrocketed by 128 % during the COVID-19 pandemic in China. Mokhtari et al. [28] indicated that energy consumption increased by 39.2 % in summer and 35.7 % in winter when the HVAC operation schedule was extended from 8 to 15 h. Consequently, there is an urgent need to design a better HVAC control system to reduce energy consumption while limiting the indoor infection risk of COVID-19. Researchers have attempted to develop algorithms for occupancy-based demand-controlled ventilation. For example, Wang et al. [29] proposed an intelligent ventilation control strategy that can calculate the demand ventilation rate based on the occupancy level in real-time. The case studies showed that 11.7 % of the energy could be saved, while controlling the probability of infection to 2 %. Mokhtari et al. [28] investigated the impact of occupancy pattern, air exchange rate, and class duration of a university building using multi-objective optimization. The results showed that a uniform population distribution could reduce infection cases by 56 % and energy consumption by 32 %. Schibuola et al. [26] designed a CO2-based air change hour (ACH) calculation method to trigger ventilation control and reduce the reproduction number and infection risk. The energy savings could reach 60 % and 72 % using a high-efficiency air handling unit with and without a thermal recovery system, respectively. Sha et al. [30] explored the operation of mechanical ventilation systems in high-rise buildings during the pandemic. The Wells-Riley model was used to determine the required ventilation rates, and it was found that the energy consumption could be reduced by 40 % with appropriate settings. Guo et al. [31] developed an occupancy-based infection risk-energy consumption model for different indoor environments. The optimized solution could reduce energy consumption by 13.7 % and 45.1 % on weekdays and weekends, respectively. Wang et al. [32] proposed a real-time metabolism-based ventilation control method that could reduce the infection probability to 4.3\u20136.3 % while saving 13 % of the energy compared with the fixed-air ventilation strategy. Although much research has been conducted on building ventilation strategies during the COVID-19 pandemic, most studies have focused on real-time or rule-based controls. These studies failed to consider the impact of future disturbances, such as solar radiation, ambient temperature, or occupancy, and ignored the effects of building thermal inertia. This can lead to energy wastage when the building is unoccupied or occupied only by a few occupants. To solve this issue, model predictive control (MPC), an advanced and powerful control method, can be used to find the optimal solution based on the predicted results of future building responses and disturbances [33]. They have been widely used for HVAC system control. For instance, Ganesh et al. [34] proposed a model-based indoor air quality(IAQ) MPC framework that can reduce the peak pollutant concentration by 31 % and shorten the exposure time by 48 % and 17.7 %, respectively. Yang et al. [35] designed a multi-objective MPC platform for energy efficiency, indoor thermal comfort, and visual comfort. This could save 15.1\u201320.7 % of electricity usage while providing a better indoor environment. Li et al. [36] proposed a data-driven MPC strategy to optimize the energy efficiency and indoor air quality of multizone demand-controlled ventilation systems, which could handle the issue of uncertainties in a real duct network system. Their experimental results showed a reduction in IAQ cost by 38 % and energy consumption by 30 %. Li et al. [37] proposed a multi-agent-based optimal control method for multi-zone ventilation systems to improve the IAQ and energy usage. Wang et al. [38] investigated MPC in different climate zones, and 20\u201340 % of the energy could be saved while maintaining good indoor air quality. In sum, several studies [39404142] have shown that MPC has significant energy-saving potential and a better indoor environment while handling constraints and uncertainties. Moreover, they mentioned that the occupancy-based MPC could lead to better HVAC operation. To save energy, it is necessary to supply fresh air based on room occupancy. People spend more than 80 % of their time in buildings [43]. Occupant behavior has become one of the most important factors influencing building energy consumption [44]. As shown in the latest published guidelines on the occupant behavior model in buildings [45], occupancy can be used to control the air temperature, lighting, shading, ventilation, and appliances. Occupancy can also be integrated with MPC to form constraints. However, occupancy can be used for demand ventilation control, saving energy while providing comfortable indoor air quality [46]. Dong et al. [47] designed a nonlinear MPC model based on occupancy prediction. The experiment showed a 30.1 % energy reduction during the warmer season and a 17.8 % reduction during the cooler season. Mirakhorliet et al. [44] reviewed the occupancy behavior-based MPC for building systems. The results showed that MPC could save 10 % of the energy compared with rule-based control, and occupancy-based MPC could save more than 20 %. Although occupancy-based MPC has demonstrated outstanding energy performance, the main challenge in the development of OB-based MPC is the accurate prediction of room occupancy [44]. Environmental parameters [4847], such as air temperature, CO2 level, humidity ratio, and people motion signal [495051], Bluetooth signal [52], mobile signal [53] and WIFI signal [5455] have been widely used for occupancy estimation. Many studies have also been conducted on occupancy prediction [56]. Markov chain [575859], machine learning-based [6061626364], and hybrid models [65] are commonly used for occupancy prediction, but most occupancy forecasting studies have focused on presence prediction, such as first arrival time and last departure time. Only a few studies have predicted the number of occupants and implemented occupant number-based model predictive control (OBMPC), and the impact of occupancy-prediction uncertainty has not been well analyzed. In summary, this study collected the occupancy and HVAC data of a lab office for five months, and four occupant number prediction models were developed based on a customized loss function that could predict the interval of the occupant number. The upper and lower bounds of the prediction results were used for the minimum ventilation calculation and were implemented using the MPC model. Finally, the effect of prediction uncertainty on MPC performance and infection risk was evaluated. The remainder of this paper is organized as follows. Section 2 describes the methodology framework, including data collection, data preprocessing, model development, model tuning, demand ventilation calculation, and MPC. Section 3 presents the occupancy prediction, demand ventilation calculation, MPC results, and uncertainty analysis. Sections 4 and 5 present the discussion and conclusions. 1.2 Contributions and innovations The main contributions and innovations of this study were included as the following: \u2022 Four occupant number prediction models were developed with interval outputs and the results were compared based on the mismatch rate. \u2022 This study combined occupant number prediction with the Wells-Riley model for demand ventilation calculation to discover the energy-saving potential of the OBMPC during the pandemic. \u2022 The impact of uncertainty in occupant number prediction on MPC performance, demand ventilation, and infection risk was evaluated under different social distances and mask factors. 2 Methodology The overall methodological framework for this study is shown in Fig. 1 and includes five steps. Step 1: Data Collection. The occupancy and HVAC data were collected and stored in a local database using Python. Step 2: Model Development. We built four occupant number forecasting models and one 3R2C thermal dynamical model, based on this dataset. Step 3: Demand Ventilation. The minimum outdoor airflow rate was calculated based on the predicted number of occupants using the Wells-Riley model. Step 4: Control Optimization. Demand ventilation was used as the boundary condition in the OBMPC. Step 5: Uncertainty Analysis. Finally, the occupancy prediction uncertainty and its effect on OBMPC were evaluated. 2.1 Step 1: Data collection This research was conducted at Link Hall 381A in Syracuse University, Upstate New York, United States, as shown in Fig. 2 (a). The climate type is DFB, and the climate zone is 5A (ASHRAE) with a mean ambient temperature of 82F(27.7 °C) in July. The testing bed, named Intelligent Control of Urban and Built Environments (ICUBE), is also a student office with up to 12 people. The area of this office is 6 m × 15 m served by an air handling unit with four VAV boxes, as shown in Fig. 2 (b). Each VAV box had three terminals, thus ensuring that every-one had sufficient ventilation. The HVAC data, such as the supply air temperature, return air temperature, damper position, relative humidity, and ventilation flow rate, were collected every 5 min via the BACnet system in the Python program from April to August 2021. For privacy protection, the occupancy data were collected by a depth-radar-based sensor that avoids the invasion of privacy. The sensor was installed on a door frame, as shown in Fig. 2 (c). It can detect whether a person enters or leaves the room by monitoring the occupant's motion trajectory using a radar signal. Occupant counting is then performed, and finally, the number of occupants in the room is determined in real-time. Occupancy data were collected every 15 min from March to July 2021. Fig. 2 (d) shows the overall occupancy distribution for the five months. There are approximately-six people in the space most of the time. Some outliers were caused by visitors or undergraduate students who met with a teaching assistant. Some early presences might have been cleaning staff. The sensor has been tested for one week in a previous study [67], and the experimental result proved that the sensor has a high accuracy (99.16 %). Consequently, this dataset was used as ground truth data for occupancy prediction. The ambient temperature and solar radiation data were downloaded from the weather STEM portal for Onondaga County, Syracuse University. 2.2 Step 2: Model development 2.2.1 Development of the occupancy prediction model Auto regression moving average-based multilayer perceptron (ARMA_MLP), Recurrent neural networks (RNN), Long short-term memory networks (LSTM), and Nonhomogeneous Markov with change points detection model (NH_Markov) were used for occupancy prediction in this case study. Among them, the ARMA_MLP model can forecast occupancy while eliminating temporal, sequential, and seasonal effects [5668]. The Markov Model is the most widely used statistics-based stochastic model for occupancy predictions [565759]. RNN/LSTM is commonly used for time series data prediction [566364]. In this study, we designed a customized loss function to replace the traditional mean squared error (MAE) for interval prediction instead of point prediction and combined this function with the above-mentioned popular method. All programs were completed in Python 3.9, and all deep learning-based models were completed using the Pytorch library. 2.2.1.1 Data preprocessing Because of the stochastic and complex characteristics of occupancy behaviors [66], it was difficult to predict the temporal occupant number change caused by a phone call, temporal meeting, or random visitor. For a HVAC system, it was unnecessary to respond to such small and temporary occupancy variations. Thus, in this case study, short-term (going out and returning in 15 min) and small (one-person) occupant variations will be neglected, as shown in Fig. 3 . 2.2.1.2 Customized loss function In most previous studies on occupancy prediction, the output was a point prediction, which was calculated by minimizing the squared error between the prediction result and ground truth data. However, considering the strong stochastic characteristics of occupancy behavior, an interval prediction was used in this study to provide more flexibility for control-signal decisions. The maximum occupancy level was 12 for our testing bed, which was approximately-six times the occupancy level. Therefore, in this study, we use interval one as our demand output range. The loss function between occupancy prediction and the ground truth data was customized, as shown in Eq. (1) : (1) loss = ( o u t p u t - y upper ) 2 , w h e n o u t p u t > y upper 0 , w h e n y lower < o u t p u t < y upper ( o u t p u t - y lower ) 2 , w h e n o u t p u t < y lower The loss function is a piecewise function: when the output is within the range, the loss is zero; when the output is larger than the upper bound or smaller than the lower bound, the loss is the squared error between the output and the bound. The prediction boundary can be customized by adjusting the interval length between y upper and y lower , which is relative to the maximum occupancy level. We used this customized loss function for the next four models to obtain an interval prediction. 2.2.1.3 Model design Model 1: ARMA MLP Model. As computing power increases, multilayer perceptron have been widely used in building fields, such as load forecasting, weather forecasting, and occupancy prediction. In this study, a shallow neural network with two hidden layers is used for occupancy prediction. The combination of a multilayer perceptron with activation functions can represent both linear and nonlinear functions. The nodes in the different layers were connected by different weights and biases, which could mimic the workflow of the human brain. Feature selection is vital for model performance [56]. Some previous studies assumed that the occupancy pattern had a Markov property, which means that the current occupancy data were only related to one time step ahead. However, several studies [68] have shown that occupancy is influenced by historical data in more than one time step, which is called a lagged variable. Therefore, in this study, we combined the ARMA model with shallow neural networks. The ARMA model is a statistical model that can be further divided into AR and MA models with q and p terms, respectively. The terms q and p were determined by autocorrelation factor (ACF) and partial autocorrelation factor (PACF) analyses. The terms q and p can be used for feature selection in the MLP model. As shown in Fig. 4 , the last two terms are the most relevant to the occupancy level of the next step. Therefore, in this case, the last two steps of occupancy were the inputs for the MLP model. The hours of the day and the day of the week were another two input features. Historical occupancy data were normalized into (-1,1), and time data were normalized by sine and cosine functions, which eliminated the sudden jump that occurred at 24:00 and Sunday. Model 2: RNN Model. Compared with the ARMA_MLP model, a recurrent neural network (RNN), as shown in Fig. 5 (a) could memorize the inputs from previous steps and share the parameters for different time steps. This characteristic makes the RNN perform better at predicting time-series data. Occupancy historical data and two time-relevant features (time of day and day of the week) were divided into sequences and labels and then fed to the neural network for training. However, the recurrent connection of the RNN model makes it very challenging to train, thus increasing the computational cost. Another disadvantage of the RNN model is gradient vanishing caused by long-for-loop sequences. Model 3: LSTM Model. Compared with an RNN, the long short-term memory (LSTM) model can control the input and output of the RNN using an input gate, an output gate, and a forget gate. These gates could determine how long and how much information might be retained in the cell, which could handle the gradient vanishment problem in RNN, as shown in Fig. 5 (b). It has three more gates to control the amount of data that would be stored in the memory compared with the RNN model. The input feature is the same as that of the RNN, and a clipping method was used in this study to stabilize the training process. Model 4: Non-homogeneous Markov Model. Occupancy patterns may vary at different times of the day; therefore, we also used a non-homogeneous Markov model with a change point detection method. First, an occupancy distribution is estimated using the weighted average of the data in the three previous days, as shown in Eq. (2) : (2) O ( T + 1 ) = ∑ n = 0 z λ n O ( T - n ) z where O is the occupant number for an entire day and λ is a forgetting factor less than 1. This factor can adjust the weights of the occupancy distribution estimation. z is the length of the learning days, which was three days in this case study. Pearson divergence was calculated to determine the possible change points based on this estimated occupancy pattern. The transition matrix within each change point is then calculated using Eq. (3) : (3) p ij = n ij + α ∑ k = 0 ( n ik + α ) where i is the number of occupants in the current step, j is the number of occupants in the next step, and α is a smoothing factor that is used to avoid vanishing the transfer matrix. The top two probabilities were used for range prediction. 2.2.2 Model tuning and evaluation The grid search method was used for hyperparameter tuning to build a prediction model with a good performance. Table 1 lists the selected ranges of hyperparameters. The rolling window method was used to calibrate the prediction model. For each step, we used 10 days with 960 data points for training and 1 d with 96 points for testing. After the grid search, the structure of the MLP model was 2 hidden layers with 24 modes and 36 nodes. The learning rate was 0.001 with 1200 training epochs. For the RNN/LSTM model, the hidden layer was one with six nodes and the learning rate was 0.001 with 100 training epochs. The clipping value was 0.5, and the optimizer was RMSprop with a momentum equal to 0.8. The training sequence for the RNN/LSTM was 4 h ahead of the prediction. After training, the mismatch rate was used to evaluate model performance. Compared with other commonly used evaluation matrices like CVRMSE, the Coefficient of the Variation of the Root Mean Square Error (CVRMSE), and mean absolute percentage error (MAPE), mismatch rates can not only reflect the overall prediction performance, but also display the mismatch points. The mismatched points represent the ground-truth point outliers of the prediction interval. The mismatch rate was calculated using the following Eq. (4) : 4 Mismatch ( k ) = ∑ n = 1 N I n N ; I n = 0 , i f Y n - Y ^ n ≤ k 1 , i f Y n - Y ^ n > k where N is the number of data points per day, which is 96 in this case study (four data points per hour). Y n is the ground truth data of the number of occupants, and Y ^ n is the prediction result. k is the offset threshold between the prediction and ground-truth results, which can be adjusted by the customer. In this study, we used k = 1 because the occupancy density was low. Fifteen min, 1 h, 4 h, and 24 h were the commonly used control horizons for MPC, so these four horizons were used for occupancy prediction in this study. 2.2.3 Development of thermal dynamic model The resistance\u2013capacity (RC) thermal network model has been widely used to represent the heat transfer and storage processes of a building. In this study, a simplified 3R2C thermal network model, shown in Fig. 6 (a) was constructed using Eq. (5) and Eq. (6) . As shown in Fig. 6 (b) the zone temperature was used as an indicator to calibrate the R, C, wall absorbance, window transmittance, HVAC efficiency, and internal heat gain adjustment factor. For example, the total irradiation Gt on a surface can be divided into direct irradiation GD, diffuse irradiation Gd, and reflected irradiation GR. In this case, the direct irradiation GD was Qsol. From the ASHRAE Clear Sky Model, the total irradiation Gt can be formulated as: Gt = GD + Gd + GR = [max(cosθ,0) + CFws + Fwgρg(sinβ + C)] × Qsol., where θ is the angle between the sun\u2019s rays and the normal to the surface, and β is the solar altitude, which reflects the changing geometric relationship between the sun and the building. We replaced [max(cosθ,0) + CFws + Fwgρg(sinβ + C)] with α, which was calibrated using the training data. We used rolling window methods to update these parameters adaptively, and for each rolling, the training data were four days, and the testing data were three days. By minimizing the difference between the temperature prediction results and measurement data, we obtained a calibrated model with a MAPE of 2.44 %, as shown in Fig. 6 (c). (5) T ̇ wall = T amb - T wall C R 1 + T zone - T wall C R 2 + Q sol ̇ C (6) T ̇ zone = T wall - T zone C zone R 2 + T amb - T zone C zone R win + Q ̇ int + Q ̇ HVAC C 2.3 Step 3: Demand ventilation After developing the occupancy prediction models, the minimum outdoor air (OA) flow rate was calculated using the Wells-Riley model [69] as shown in Eq. (7) : (7) V ( t ) ̇ = - P d E M B N ( t ) p q d ln ( 1 - P I ) where P d was the social distance index calculated by Eq. (8) , which can be 0.32 for a 1.8-m social distance or 0.23 for a 3.1-m social distance suggested by Feng, Y et al. [70]. d is social distance. (8) P d = - 0.182 l n d + 0.433 E M was the mask efficiency calculated by Eq. (9) : (9) E M = ( 1 - f I η I ) ( 1 - f t η t ) The mask index was assumed to be 0.25 if every-one was wearing a mask in the space. E M equal to 0.56 and 1 if 50 % or 100 % of the people inside are wearing a mask [73]. B is the initial infection rate, as previous studies [72] have shown that the B value varied from 0.01 to 0.1. N ( t ) is the number of occupants predicted using the previous algorithm. p is the pulmonary ventilation rate; for people staying for a long time, this value could be 0.5 m3/h; d is the exposure time, for this case study, d = 8 h; and q is the quanta generation rate. Shen et al. [71] and Sha et al. [30] conducted comprehensive reviews, which showed that q varied from 0 to 1000(/h) for a small office. Additionally, as recommended by Buonanno et al. [74], q should be 142/h for students working in the lab with light activity (such as working in front of a laptop). P I is the infection risk, which was calculated using Eq. (10) and we kept it below 2 % in this study. (10) P I = 1 - e - P d E M B N ( t ) p q d V ( t ) ̇ 2.4 Step 4: Control optimization 2.4.1 MPC formulation The two above differential Eq. (5) and Eq. (6) can be rewritten in state space form, as shown in Eq. (11) and Eq. (12) : (11) x ̇ t = A x t + B u t + E w ( t ) (12) y t = C x t + D u t where A, B, and E are the system dynamic matrices depending on the R and C values. x = T w a l l T z o n e is the state variable representing the building temperature. w was the disturbance of the ambient temperature, solar radiation, and internal heat gain as w = T a m b Q s o l ̇ Q i n t ̇ . Furthermore, after discretizing the state-space model with a suitable timestep T s (we used 15 min in this case study because the control horizon was 15 min), the state variable can be represented as Eq. (13) : (13) x t + 1 = A d x t + B d u t + E d w ( t ) where A d = e AT ; B d = A - 1 ( A d - I ) B ; with initial points x t 0 , u t 0 , w ( t 0 ) , and x further represented by Eq. (14) : (14) x ¯ = A ¯ x 0 ¯ + B ¯ u ¯ + E ¯ w ¯ u t was the load of the HVAC system calculated by Eq. (15) : (15) u t = [ T supply t - T return t ] × c × V supply ̇ × ρ Considering free cooling at night, T supply t was one of the control variables, which was greater than the minimum supply temperature 60°F (15.6 °C) and lower than space temperature. T return t was the return air temperature was assumed to be the same as the zone air temperature calculated using the RC thermal dynamic model. c is the specific heat of air and ρ is the density of air. The optimal control was to minimize the objective function and load of the cooling coil calculated using Eq. (16) : (16) P coil t = [ T supply t - T mix t ] × c × V supply ( t ) ̇ × ρ where T mix is the mixed air temperature of the zone air temperature and outdoor air temperature, calculated using Eq. (17) : (17) T mix t = T return t × 1 - d p ( t ) + T amb t × d p where dp ( t ) was the damper opening ratio used for controlling the outdoor air flow rate. So the overall objective function was shown in Eq. (18) : min T supply , V supply ̇ , dp ∑ r o l l i n g _ s t a r t rollin g start + 16 P coil t × T s subject to (18) T s e t p o i n t _ l o w e r t ≤ T return t ≤ T s e t p o i n t _ u p p e r t V t ̇ ≤ V supply t ̇ × d p t 0 ≤ V supply t ̇ ≤ V supply ̇ max 0 ≤ d p t ≤ 1 15.6 ≤ T supply t ≤ T return t , t ∈ U n o c c u p i e d T supply t = 15.6 , t ∈ O c c u p i e d The purpose of this objective function was trying to minimize the coil side energy consumption while maintaining thermal comfort and indoor air quality. The return air temperature was constrained by zone temperature setpoints, and the outdoor airflow rate was constrained by the minimal demand ventilation rate calculated by occupant number. In this study, the control horizon was 15 min and the prediction horizon was 4 h. A rolling window method was used to optimize the objective function for each window, and there were 16 points for each step (rolling_start to rolling_start + 16). First, 10 days (960 data points) of occupancy data were fed into the prediction model, and the prediction results were used for the demand ventilation calculation using Eq. (7) . The demand ventilation V ( t ) ̇ is the lower bound of the outdoor airflow rate, which is the constraint in Eq. (18) . Then, the 16-step initial values and disturbance for 1 h ahead of MPC were used to solve the optimization problem. The first step of optimal solution would be implemented in the HVAC system and the optimization window would move forward and the next 16-step disturbances are the new inputs for updating the optimization problem. 2.5 Uncertainty analysis The occupancy prediction results would determine the lower bound of the outdoor air intake for the MPC. Therefore, the accuracy of the occupancy prediction model directly influences the MPC performance. Considering the training time and the overall accuracy level, we will use the ARMA_MLP model to generate 4 h ahead of the occupancy data for MPC. As shown in Table 2 demand ventilation was calculated using the upper bound, lower bound, and the ideal case of occupancy prediction under 1.8 m, and 3.1 m social distance with 0 %, 50 %, and 100 % mask-wearing ratio. For the MPC performance, the peak load and total energy consumption were compared for 18 scenarios, as shown below. For infection risk, the sum of unbounded times (infection risk greater than 2 %) was compared. 3 Results 3.1 Results of occupancy prediction 3.1.1 ARMA_MLP model Fig. 7 shows the prediction results of the ARMA_MLP model with different prediction horizons over three days. For the 15-minute ahead prediction, the overall mismatch rate was 21.88 %. We found only 4.16 % of mismatch points for more than one person. The prediction errors for the first and last departure times were always less than 15 min. For the 1-h, 4-h, and 24-h ahead predictions, the overall mismatch rates were 36.11 %, 39.23 %, and 38.54 %, respectively. The mismatch rates with one-person tolerance were 12.5, 14.93, and 15.62 %, respectively. They all showed good performance for regular occupancy patterns, as shown on Wednesdays and Thursdays in Fig. 7. However, the model failed to predict temporal and sudden changes that occurred at noon on the first day. One possible reason could be that this kind of random change was not regular, and the machine learning model did not learn a similar trend before. For 15-min to 24-h ahead predictions, they all failed to predict the random presence that occurred in the early morning of Wednesday and Thursday. The possible reason was similar because this random early occupied pattern was not a common situation and would be considered noise, unless it happened several times and had a typical pattern; otherwise, this kind of change was unpredictable. 3.1.2 RNN/LSTM model As shown in Fig. 8 and Fig. 9 , for the RNN/LSTM model 15 min ahead prediction, LSTM performed slightly better with a 23.95 % mismatch rate compared with 32.29 % for RNN. If one-person tolerance is allowed, LSTM has an offset-one mismatch rate of 3.82 % compared to 6.25 % for RNN. LSTM and RNN performed similarly for 1-h, 4-h, and 24-h ahead prediction. The overall mismatch rates for RNN in these prediction horizons were 38.54 %, 39.58 %, and 36.81 %, respectively. The overall mismatch rates for LSTM are 34.02 %, 37.84 %, and 34.72 %, respectively. For the mismatch rate with a one-person offset, the RNN can correctly predict approximately 84 % of the data points of a day, which is slightly less than that of the LSTM with 90 %. Compared with the results of the ARMA_MLP model in Fig. 7, the output results of the RNN and LSTM were flatter for 1-hto 24-h ahead prediction, as shown in Fig. 8 and Fig. 9. The training cost for the RNN/LSTM was much higher than that of the ARMA_MLP model. In short, these three models worked well on regular days with a typical pattern, but they all failed to capture the trend for a sudden large-scale change that occurred on the first day. 3.1.3 Non-homogeneous Markov model The Markov model used in this case was nonhomogeneous. We use the change point detection method to split one day into different time ranges with a similar pattern. And for each time range, the transition matrix was learned from historical data. However, the maximum time range was less than two hours which means this method was only suitable for short-time prediction (15 min and 1 h ahead). Once the prediction horizon extended the changepoint range, the transformation probability cannot be learned, so only 15 min and 1 h ahead prediction results were analyzed. Fig. 10 shows the prediction results for the HN_Markov Model. For 15-minute ahead occupancy prediction, mismatch rates without and with one-person offset were 28.82 % and 5.9 %, respectively, and the model could capture the temporal change that occurred at noon on the first day and the early morning of Wednesday and Thursday. This was because of the Markov property, and the prediction results were significantly influenced by the last step. For the 1 h ahead prediction, the mismatch rates increased to 41.32 % and 16.32 %, respectively. There was a lag phenomenon in the Markov models when the prediction horizon exceeded the one-time step. This was because the current occupancy was only influenced by the last step, and the four-step prediction (1 h ahead) may lead to error accumulation. 3.1.4 Overall performance To test the robustness of the aforementioned four models, the rolling window method was used for one-month testing from June 15 to July 15, 2021. A summary of the overall performance for different prediction horizons is presented in Table 3 . As shown in Table 3, the ARMA_MLP model outperformed other models. For a one-month evaluation, the ARMA_MLP model predicted 15 min ahead of occupancy with 95 % accuracy with a one-person offset. The overall mismatch rate for 1 h to 24 h ahead prediction was 0.37 to 0.41, and the accuracy could reach 85 %-88 % if a one-person offset was allowed. We also noticed that the 24 h ahead prediction performed better than the 4 h ahead prediction in the ARMA_MLP model. One possible reason is that the correlation between two occupant numbers at the same time in two days is stronger than the number of occupants on the same day but at different times. LSTM worked better than the RNN model because the \u201cgates\u201d could determine which information was useful for occupancy prediction, but they did not perform as well as the ARMA_MLP model. A longer sequence not only adds noise to learning but also slows down the calculation speed. The HN_Markov model had a performance similar to that of the LSTM model, but it could only be used for short-term prediction. Fig. 11 illustrated the miscount error for the four proposed models with different prediction horizons. The miscount error was calculated by the miscount number between the ground truth occupancy and the upper bound, lower bound of the prediction interval. The analysis of the distributions showed that the miscount error was subjected to normal distribution. And for most cases, the mean of the error distribution was lower than 1. The miscount error distribution of ARMA_MLP model was more concentrated while HN_Markov model was more dispersed. When the prediction horizon was extended from 15 min to 24 h, the distribution width was more diffused, which indicates the prediction uncertainty was also increased. When the occupant number was lower than four people, the model was easier to overestimate the occupant number. And with the increase in occupancy level, the model tends to underestimate the occupant number. The most uncertainty occurred with the middle-level occupancy because there were more data points in this range. Detailed information for error distribution can be found in Table 4 . In this table, the error distribution of the upper and lower bounds was calculated separately. The error is the difference between the prediction interval's upper and lower bounds and the actual value. The positive error means that the prediction results overestimated the occupant number, and the negative error means the prediction results underestimated the occupant number. The mean value of the distribution reflected the overall discrepancy between the prediction results and the ground truth data. The standard deviation represented how dispersed the prediction error is around the mean value. A low standard deviation means that the model can work stable, and the errors are clustered around the mean, and a high standard deviation indicates the errors are more dispersed. For short term prediction, ARMA_MLP model and HN_Markov model outperformed other models. For longer prediction, the miscount value didn\u2019t show a big difference but the variance for ARMA_MLP was smaller than the other two models. With extended prediction horizons, the standard deviation increased from 0.85 to 2.6. When using lower bound as prediction results, the mean of error distribution for ARMA_MLP was approximately −0.5. And the mean of error distribution for upper bound prediction results was 0.5, which indicates that in most prediction results, the lower bound of prediction results was always 0.5 less than the actual data, and the upper bound was always 0.5 higher than the actual data, demonstrating good model performance. The mean of error distribution was around −0.4 to 0.6 for RNN and LSTM model, and 0.4 to −0.6 for HN_Markov model. Consequently, the mismatch range was always less than one person for these four models in most of the test period. The ARMA_MLP model was used for further analysis considering the overall performance, training complexity, and computation time. 3.2 Demand ventilation calculation and uncertainty evaluation In this section, we discuss the following questions. How will the mask-wearing ratio and social distance affect the demand for ventilation? How will occupancy prediction uncertainty affect ventilation demand and infection risk? Can an occupancy prediction-based ventilation model maintain an infection risk of < 2 %? As shown in Fig. 12 , the mask-wearing ratio had the most significant influence on demand ventilation: compared with the 0 % mask-wearing ratio in the space, the 50 % and 100 % mask-wearing ratios can reduce the demand ventilation by 43 % and 75 %, respectively. By increasing the social distance from 1.8 m to 3.1 m, the demand for ventilation is reduced by 28 %. The demand ventilation calculated by the upper bound of the prediction result is 100\u2013560 cfm higher than the ventilation calculated by the lower bound; the difference between them can increase by up to 26 % if the social distance is 1.8 m and nobody wears a mask. We also noticed that the infection risk would be highly correlated with the occupancy prediction error; if the occupancy is overestimated, higher ventilation will maintain an infection risk lower than 2 %. On the contrary, when occupancy is underestimated, the infection risk is higher than 2 %. In particular, when the space is occupied, the prediction result is unoccupied, as shown by the unbounded bar in Fig. 12. For the worst prediction case, if we use the upper bound of the occupancy prediction result to calculate ventilation demand, the infection risk can stay below 2 % for 88.6 % to 93 % of the time. If the demand ventilation is calculated by the lower bound of the occupancy prediction result, only 61.5 % to 68.8 % of the time can maintain an infection risk lower than 2 %. Compared with the 24 × 7 full OA supply system, occupancy-based ventilation control can reduce up to 80 % ventilation if people all wear masks and keep social distance for 3.1 m. However, if nobody wears a mask and stays closer than 1.8 m, the baseline full OA supply system can even not maintain the infection risk below 2 %, the supply flow rate needs to increase by 10 % to meet the demand ventilation requirement. One month calculation results were illustrated in Fig. 13 , the red box represented the upper bound of occupancy prediction results for one month and the green box was the lower bound of occupancy prediction results. The yellow line was the aggregated occupancy measurement data, which fell inside the predicted interval for the majority of the time. However, the upper bound of RNN model always overestimated the occupancy in the late afternoon, and the overall prediction results in the daytime were more flatten than other models. It was caused by the gradient vanishing problem. Because RNN could not have the ability to propagate useful gradient information from the output end of the model back to the layers near the input end of the model, especially for long term time series prediction. Meanwhile, as indicated by the purple box, the infection risk could be effectively reduced to 2 % when we apply the upper bound occupancy prediction results to calculate the ventilation demand. However, it should be noted in Table 5 that with the increase of prediction horizon, the unconstraint time (when infection risk > 2 %) was also increasing. The unconstrained time for ARMA_MLP model doubled from 10.8 % to 21 % for 15 min ahead prediction and 24 h ahead prediction. But the unconstrained time for RNN model did not change too much (20.1 % to 22.3 %), because the upper bound occupancy prediction for RNN model was similar with different prediction horizons. For short term (within 1 h) occupancy prediction based ventilation demand calculation, ARMA_MLP and HN_Markov worked slightly better than the other two models, which can decrease the unconstraint time for 4 % to 10 %. 3.3 OB-MPC performance and uncertainty evaluation Finally, the ventilation demand calculated by occupancy prediction was used as the constraint for MPC. As shown in Fig. 14 , the occupancy-number-based MPC worked well to maintain the space air temperature within the cooling setpoint range. The zone temperature was always close to the upper bound of the cooling setpoint, which meant that there was no overcooling, and the energy-saving potential was fully explored. For the baseline model, there was a short peak above the cooling set point sometime in the afternoon due to the high outside temperature, but the occupancy-number-based MPC could eliminate this effect by pre-cooling. We also noticed that when the MPC is solved by the upper and lower bounds of the occupancy prediction results, the zone temperature difference grows cumulatively to 2.4 °C if no people wear masks inside and the social distance is 1.8 m. Conversely, if people wear masks inside, no matter the social distance changes, there is no significant difference (less than 0.3 °C) between zone temperatures. For supply air temperature, MPC can use free cooling at the night by increasing the supply air temperature. As shown in the upper diagram of Fig. 14, the supply air temperature always tracked the ambient temperature. The supply air temperature increased slightly when the MPC was triggered by the upper bound of the occupancy prediction results. The reason for this is that the mixed air temperature will increase with higher demand ventilation. To minimize the coil load, the supply air temperature increases simultaneously with a higher supply air flow rate. A temperature setback of 5 °C was given when the room was unoccupied during the night; however, the ambient temperature was also cold (approximately 16 °C), so the occupancy-based temperature control failed to achieve energy savings in this case. The outdoor airflow rate always tracks the minimum ventilation demand during the daytime when the ambient temperature is warm and fluctuates during the free cooling period. The social distance and mask-wearing ratio have a significant effect on the outdoor air flow rate, 1.8 m social distance, and 0 % mask-wearing ratio requires 186 % more fresh air compared with a 3.1 m social distance and 100 % mask-wearing ratio. The occupancy prediction uncertainty caused a 28.5 % to 44.5 % outdoor air flow rate difference. For a 1.8 m social distance, a 100 % mask-wearing ratio can reduce the outdoor air flow rate by 39.4 % compared with baseline measurement data, and a 0 % mask-wearing ratio will require more than 32.1 % outdoor air flow rate compared with baseline data. For the MPC performance and uncertainty effects, the space load demand and coil load for the HVAC system are shown in the bottom diagram of Fig. 14. When the social distance was 1.8 m, the overall coil load reductions were 52.44 %, 61.7 %, and 68.4 % when the mask-wearing ratios were 0 %, 50 %, and 100 %, respectively. During the occupied time, the coil load reductions were 30.42 %, 44.7 %, and 56.1 % when the mask-wearing ratios were 0 %, 50 %, and 100 %, respectively. For a 0 % mask-wearing ratio, OB-MPC requires a 35.7 % higher outdoor flow rate than the baseline, but it can still save 30 % of the energy. The major reason is that there is a thermal lag in the baseline model; we can see the peak supply airflow and the peak load occurred 3 h later than the peak time of occupancy in the baseline. In addition, the cooling cost of the peak time is much higher than that of the occupancy-based ventilation control because the ambient air temperature is much higher in the afternoon. The 3 h load shift can also reduce the coil peak load by 52 % compared to the baseline. During the unoccupied time at night, the space load always fluctuates with the supply flow rate and supply air temperature, but the coil load is zero, which demonstrates the energy-saving potential of MPC because it can optimize the supply temperature for free cooling. The occupancy prediction uncertainty results in a 10.7 % to 28.2 % load difference, and the peak difference is from 2928 W to 5216 W when the mask-wearing ratio is 100 % and 0 %, respectively. Furthermore, the peak load difference and peak occupancy prediction errors did not occur simultaneously. For example, there was a sudden temporal change at 12:00PM on the first day, and the occupancy model failed to predict this change; the mismatch error was six people, but the load difference was only 1100 W. The peak difference always occurred in the afternoon at approximately 4:00 PM when the outdoor air temperature was warm, and there was a peak difference even if the occupancy prediction error was 2 people. 4 Discussion The OBMPC demonstrated great potential for energy savings in HVAC systems, particularly for indoor air quality control during the COVID-19 pandemic. Compared with state-based occupancy control, occupancy numbers can help engineers to better determine ventilation demand. 4.1 Occupancy prediction Because of the stochastic nature of occupant behavior, it is very difficult to predict the random temporal change in the number of occupants. Therefore, in this study, we suggested dividing the occupant pattern into a basic regular pattern and an unpredictive random noise, which could be removed by a suitable data-cleaning preprocess. The machine learning methods could track the majority pattern of the occupancy behavior, and the basic pattern could be used to achieve better indoor quality control with high energy efficiency. The input features, especially the lagged term, play a key role in occupancy prediction. A statistical process such as ARMA in this case is suggested to find a suitable lagged term, which can increase the prediction accuracy. As evaluated in the one-month prediction, the MLP model with ARMA analysis could predict occupancy patterns better than the RNN/LSTM model. Model performance is limited by stochastic noise, which cannot be avoided by simply increasing the data sample and increasing the complexity of the prediction model. We also found that an improper occupancy prediction model exhibited a significant lag. The model might have high accuracy, but the output result for each step is the measurement result for the last step, which means that the model did not learn anything from the data. This should be considered and solved by adjusting the training data size and fine-tuning the model. For short term occupancy prediction (within 1 h), the accuracy of machine learning models is similar with \u201csimple prediction\u201d (Using last measurement data as the prediction result for next step). Considering that randomness is a natural characteristic of occupancy behavior, interval prediction may further reflect the pattern of occupancy instead of predicting an exact occupancy value. And the upper bound of occupancy prediction results was suggested to use for ventilation control in order to keep the infection risk lower than 2 %. With the increase in occupancy capacity, the difference between the lower bound and upper bound of prediction results will increase as well. It is a tradeoff between energy consumption and the infection risk for the ventilation system. The ventilation rate calculated by the upper bound can maintain a lower infection risk but require more energy. On the contrary, using lower bound can save energy but may not control infection risk sufficiently. So our future work will focus on the prediction of occupancy distribution and implementation with stochastic MPC to improve the energy-saving potential of occupancy-based control while maintaining lower infection risk. 4.2 OBMPC performance during the COVID-19 pandemic Up to 39.4 % of outdoor airflow rate can be reduced by ventilation control as mentioned above, this amount of outdoor air accounts for a lot of coil load, especially in hot summer. When OBMPC solve the optimization problem, the objective function was to minimize the coil load which is impacted by the outdoor air flow rate. With the occupancy prediction, the HVAC plant can foresee the upcoming heat gain and can respond in advance. Thus we found that the OBMPC shifted and reduced the cooling load in summer. One reason was that the demand ventilation control could reduce the OA load compared with a full OA supplement system; another reason was that the baseline had a larger OA intake in the afternoon owing to the thermal lag, but the MPC could eliminate this effect by pre-cooling when the outdoor air temperature was cool. In some cases, the MPC has more OA but with less energy consumption, which demonstrates that the OA flow rate will influence the energy consumption, but it is also highly affected by the ambient temperature. Due to the pandemic, the government has formulated and published different policies for wearing masks, social distancing, and HVAC operation guidelines. The 24 × 7 full OA system causes a large amount of energy waste in the unoccupied night. MPC can adjust the supply temperature to reduce energy consumption while maintaining the supply flow rate using free cooling. We also found that mask-wearing and social distancing had a significant influence on ventilation demand and the load for the HVAC system. 4.3 Occupancy prediction uncertainty effect The uncertainty of occupancy prediction was comprehensively analyzed. Demand ventilation, calculated by the upper bound of occupancy prediction, can maintain an infection risk below 2 % for 93 % of the day. Care should be taken when the space is occupied and the prediction result is zero, which will cause an unbounded infection risk. The uncertainty effects for coil load, zone load, zone temperature, and demand ventilation will increase by up to 30 % if people do not wear masks and maintain a suitable social distance. The occupancy prediction range should decrease when the outdoor air temperature is high. 4.4 Limitations This research still has several limitations that could be addressed in future studies. The occupancy prediction model could not predict the number of positive cases, occupied duration time for each occupant, mask index, social distance, vaccine, and quanta generation rate. These are essential for the accurate calculation of infection risk. We did not fully explore the energy-saving potential for these subcases. Especially for the new variant virus such as Omicron, which has a higher infection risk. These subcases can be further analyzed by stochastic MPC. The Wells-Riley model used in this study did not consider the dynamic process of virus accumulation, which cannot fully take advantage of MPC for ventilation control. The prediction model has shown good performance for regular occupancy patterns, but there is still a risk that the model cannot perform well for unseen datasets, such as weekends and holidays. This can be solved by adding more features such as the calendar index. Buildings with larger occupancy capacities may have greater prediction uncertainty. It is necessary to understand how greater uncertainty affects MPC performance. Therefore, more datasets with a larger occupant capacity should be tested in future work to prove the scalability and robustness of the occupancy prediction model. Accurate occupant number prediction was also important for MPC in small spaces, where the air temperature was sensitive to the internal heat gain. This study did not fully investigate the relationship between occupant number and internal heat gain. More detailed internal heat gain uncertainty analysis should be considered in future work. This study was completed in Syracuse with a 5B climate (Dry); therefore, only sensible heat was considered in the cooling season, and latent heat should also be considered in a moist climate. Furthermore, this study only covered summer, and more winter day analysis could be completed by the rolling window method. The HVAC system in this study was an AHU with VAV boxes; therefore, the MPC was simulated in a continuous optimization problem. However, for other systems, such as the rooftop unit with discrete stages, the MPC problem should be reformulated into a mixed-integer optimization problem. More reliability and stability analyses should be completed during implementation. The sensor used in this case study has high accuracy (99.16 %) and the occupancy data was treated as ground truth data, so only occupancy prediction uncertainty was analyzed. However, sensor performance uncertainty should also be considered in future work, especially when the sensor has a large measurement error. 5 Conclusion In this study, four machine learning models with a customized loss function were used for 15 min to 24 h before occupancy interval prediction. The ARMA_MLP model outperformed the other models with an accuracy of 95 % with one person offset for 15 min ahead prediction and 85 %\u201388 % accuracy for 1\u201324 h ahead prediction. The HN_Markov model has a similar performance to that of the LSTM model, and they all perform better than the RNN model. The overall mismatch rate was approximately 36 %\u201345 %, with no significant difference for 1-h ahead to 24-h ahead prediction. The ventilation demand calculated by the upper bound of the occupancy prediction interval could always satisfy the minimum OA requirement of 93 % of the day. But only 61.5 %\u201368.8 % of a day can be satisfied if the minimum OA is calculated by the lower bound of occupancy prediction. If people keep a social distance of 3.1 m and all wear masks, up to 75 % supply airflow rate and up to 39.4 % outdoor airflow rate can be reduced, but if no one would wear masks in the space, 10 % more supply air flow rate and 32.1 % outdoor airflow rate should be increased. The overall load-saving ratio for OB-MPC was 52.44 % compared with the 24 × 7 full OA baseline model, and 16 % more energy could be saved by wearing a mask. There was a 3-h peak load shift of up to 5216 W by OB-MPC. If no one wears a mask in the space, OB-MPC requires a 35.7 % more outdoor air flow rate but can still save 30 % of the energy by pre-cooling when the outdoor side temperature is low. MPC can use free cooling at night, and occupancy-based temperature control cannot save energy because the outdoor temperature is low at night. The occupancy prediction uncertainty could cause a 9 % to 26 % difference in demand ventilation calculation, a 0.3 °C to 2.4 °C difference for zone temperature solved by MPC, a 28.5 % to 44.5 % difference in MPC outdoor airflow rate, and 10.7 % to 28.2 % difference in coil load solved by MPC. The uncertainty effects are highly related to the mask-wearing ratio and social index, and a strict policy would decrease these effects. Compared with the occupancy prediction uncertainty, the difference in the peak load was more correlated with the outdoor air temperature. CRediT authorship contribution statement Zixin Jiang: Conceptualization, Investigation, Resources, Methodology, Software, Validation, Visualization, Writing \u2013 original draft. Zhipeng Deng: Methodology. Xuezheng Wang: Methodology. Bing Dong: Project administration, Conceptualization, Methodology, Supervision, Writing \u2013 review & editing. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgment The research work presented in this paper was supported by the U.S. Department of Energy (DOE) Advanced Research Projects Agency-Energy (ARPA-E) under award number DE-AR0001316 and Syracuse University Campus as a Lab (CALS) grant. References [1] WHO, Coronavirus Disease (COVID-19) Dashboard, (2022). https://covid19.who.int. [2] H. Qian T. Miao L. Liu X. Zheng D. Luo Y. Li Indoor transmission of SARS-CoV-2 Indoor Air 31 3 2021 639 645 Qian, H., Miao, T., Liu, L., Zheng, X., Luo, D. and Li, Y., 2021. Indoor transmission of SARS\u2010CoV\u20102.Indoor Air,31(3), pp.639-645. [3] Y. Li H. Qian J. Hang X. Chen P. Cheng H. Ling Probable airborne transmission of SARS-CoV-2 in a poorly ventilated restaurant Build Environ 196 2021 107788 Li, Y., Qian, H., Hang, J., Chen, X., Cheng, P., Ling, H., Wang, S., Liang, P., Li, J., Xiao, S. and Wei, J., 2021. Probable airborne transmission of SARS-CoV-2 in a poorly ventilated restaurant.Building and Environment,196, p.107788. [4] L. Morawska D.K. Milton It is time to address airborne transmission of coronavirus disease 2019 (COVID-19) Clin Infect Dis 71 9 2020 2311 2313 Morawska, L. and Milton, D.K., 2020. It is time to address airborne transmission of coronavirus disease 2019 (COVID-19).Clinical Infectious Diseases,71(9), pp.2311-2313. [5] N. Zhang X. Chen W. Jia T. Jin S. Xiao W. Chen Evidence for lack of transmission by close contact and surface touch in a restaurant outbreak of COVID-19 J Infect 83 2 2021 207 216 Zhang, N., Chen, X., Jia, W., Jin, T., Xiao, S., Chen, W., Hang, J., Ou, C., Lei, H., Qian, H. and Su, B., 2021. Evidence for lack of transmission by close contact and surface touch in a restaurant outbreak of COVID-19.Journal of Infection,83(2), pp.207-216. [6] L. Morawska J. Allen W. Bahnfleth P.M. Bluyssen A. Boerstra G. Buonanno A paradigm shift to combat indoor respiratory infection Science 372 6543 2021 689 691 Morawska, L., Allen, J., Bahnfleth, W., Bluyssen, P.M., Boerstra, A., Buonanno, G., Cao, J., Dancer, S.J., Floto, A., Franchimon, F. and Greenhalgh, T., 2021. A paradigm shift to combat indoor respiratory infection.Science,372(6543), pp.689-691. [7] R.K. Bhagat M.D. Wykes S.B. Dalziel P.F. Linden Effects of ventilation on the indoor spread of COVID-19 J Fluid Mech 903 2020 Bhagat, R.K., Wykes, M.D., Dalziel, S.B. and Linden, P.F., 2020. Effects of ventilation on the indoor spread of COVID-19.Journal of Fluid Mechanics,903. [8] P.S. Desai N. Sawant A. Keene On COVID-19-safety ranking of seats in intercontinental commercial aircrafts: A preliminary multiphysics computational perspective Build Simul 14 6 2021 1585 1596 Desai, P.S., Sawant, N., Keene, A., 2021. On COVID-19-safety ranking of seats in intercontinental commercial aircrafts: A preliminary multiphysics computational perspective. Building Simulation, 14(6), pp. 1585-1596 [9] Z.D. Guo Z.Y. Wang S.F. Zhang X. Li L. Li C. Li Aerosol and surface distribution of severe acute respiratory syndrome coronavirus 2 in hospital wards, Wuhan, China, 2020 Emerg Infect Dis 26 7 2020 1586 Guo, Z.D., Wang, Z.Y., Zhang, S.F., Li, X., Li, L., Li, C., Cui, Y., Fu, R.B., Dong, Y.Z., Chi, X.Y. and Zhang, M.Y., 2020. Aerosol and surface distribution of severe acute respiratory syndrome coronavirus 2 in hospital wards, Wuhan, China, 2020.Emerging infectious diseases,26(7), p.1586. [10] W. Chen N. Zhang J. Wei H.L. Yen Y. Li Short-range airborne route dominates exposure of respiratory infection during close contact Build Environ 176 2020 106859 Chen, W., Zhang, N., Wei, J., Yen, H.L. and Li, Y., 2020. Short-range airborne route dominates exposure of respiratory infection during close contact.Building and Environment,176, p.106859. [11] L. Hamner High SARS-CoV-2 attack rate following exposure at a choir practice\u2014Skagit County, Washington, March 2020 2020 MMWR Morbidity and mortality weekly report 69 Hamner, L., 2020. High SARS-CoV-2 attack rate following exposure at a choir practice\u2014Skagit County, Washington, March 2020.MMWR. Morbidity and mortality weekly report,69. [12] N. Charlotte High rate of SARS-CoV-2 transmission due to choir practice in France at the beginning of the COVID-19 pandemic J Voice 2020 Charlotte, N., 2020. High rate of SARS-CoV-2 transmission due to choir practice in France at the beginning of the COVID-19 pandemic.Journal of Voice. [13] J. Lu J. Gu K. Li C. Xu W. Su Z. Lai COVID-19 outbreak associated with air conditioning in restaurant, Guangzhou, China, 2020 Emerg Infect Dis 26 7 2020 1628 Lu, J., Gu, J., Li, K., Xu, C., Su, W., Lai, Z., Zhou, D., Yu, C., Xu, B. and Yang, Z., 2020. COVID-19 outbreak associated with air conditioning in restaurant, Guangzhou, China, 2020.Emerging infectious diseases,26(7), p.1628. [14] Stewart EJ, Schoen LJ, Mead K, Olmsted RN, Sekhar C, Vernon W, Pantelic J, Li Y, Sultan ZM, Conlan W. ASHRAE position document on infectious aerosols. ASHRAE: Atlanta, GA, USA; 2020. [15] Y.X. Dong Z. Li S. Li M. Wollensak Optimal design of building openings to reduce the risk of indoor respiratory epidemic infections Build Simul 15 5 2022 871 884 Dong, Y.X., Li, Z., Li, S., Wollensak, M., 2022. Optimal design of building openings to reduce the risk of indoor respiratory epidemic infections. Building Simulation, 15(5), pp. 871-884. [16] B. Blocken T. Van Druenen T. Van Hooff P.A. Verstappen T. Marchal L.C. Marr Can indoor sports centers be allowed to re-open during the COVID-19 pandemic based on a certificate of equivalence? Build Environ 180 2020 107022 Blocken, B., Van Druenen, T., Van Hooff, T., Verstappen, P.A., Marchal, T. and Marr, L.C., 2020. Can indoor sports centers be allowed to re-open during the COVID-19 pandemic based on a certificate of equivalence?.Building and environment,180, p.107022. [17] Y. Shah J.W. Kurelek S.D. Peterson S. Yarusevych Experimental investigation of indoor aerosol dispersion and accumulation in the context of COVID-19: Effects of masks and ventilation Phys Fluids 33 7 2021 073315 Shah, Y., Kurelek, J.W., Peterson, S.D. and Yarusevych, S., 2021. Experimental investigation of indoor aerosol dispersion and accumulation in the context of COVID-19: Effects of masks and ventilation.Physics of Fluids,33(7), p.073315. [18] H. Salonen T. Salthammer L. Morawska Human exposure to air contaminants in sports environments Indoor Air 30 6 2020 1109 1129 Salonen, H., Salthammer, T. and Morawska, L., 2020. Human exposure to air contaminants in sports environments.Indoor Air,30(6), pp.1109-1129. [19] M. Guo P. Xu T. Xiao R. He M. Dai S.L. Miller Review and comparison of HVAC operation guidelines in different countries during the COVID-19 pandemic Build Environ 187 2021 107368 Guo, M., Xu, P., Xiao, T., He, R., Dai, M. and Miller, S.L., 2021. Review and comparison of HVAC operation guidelines in different countries during the COVID-19 pandemic.Building and Environment,187, p.107368. [20] ASHRAE, Ventilation for Industrial Settings during the COVID-19 Pandemic, 2021. [21] P. Mckeen Z.Y. Liao The influence of airtightness on contaminant spread in MURBs in cold climates Build Simul 15 2 2022 249 264 Mckeen, P., Liao, Z.Y., 2022. The influence of airtightness on contaminant spread in MURBs in cold climates. Building Simulation, 15(2), pp. 249-264. [22] REHAV, COVID 19 Guidance, https://www.rehva.eu/activities/covid-19-guidance. [23] National Health Commission of the PRC, http://en.nhc.gov.cn. [24] WHO, Coronavirus disease (COVID-19): Ventilation and air conditioning. [25] C. Xu X. Luo C. Yu S.J. Cao The 2019-nCoV epidemic control strategies and future challenges of building healthy smart cities Indoor Built Environ 29 5 2020 639 644 Xu, C., Luo, X., Yu, C. and Cao, S.J., 2020. The 2019-nCoV epidemic control strategies and future challenges of building healthy smart cities.Indoor and Built Environment,29(5), pp.639-644. [26] L. Schibuola C. Tambani High energy efficiency ventilation to limit COVID-19 contagion in school environments Energ Buildings 240 2021 110882 Schibuola, L. and Tambani, C., 2021. High energy efficiency ventilation to limit COVID-19 contagion in school environments.Energy and Buildings,240, p.110882. [27] W. Zheng J. Hu Z. Wang J. Li Z. Fu H. Li COVID-19 impact on operation and energy consumption of heating, ventilation and air-conditioning (HVAC) systems Advances in Applied Energy 3 2021 100040 Zheng, W., Hu, J., Wang, Z., Li, J., Fu, Z., Li, H., Jurasz, J., Chou, S.K. and Yan, J., 2021. COVID-19 impact on operation and energy consumption of heating, ventilation and air-conditioning (HVAC) systems.Advances in Applied Energy,3, p.100040. [28] R. Mokhtari M.H. Jahangir The effect of occupant distribution on energy consumption and COVID-19 infection in buildings: A case study of university building Build Environ 190 2021 107561 Mokhtari, R. and Jahangir, M.H., 2021. The effect of occupant distribution on energy consumption and COVID-19 infection in buildings: A case study of university building.Building and Environment,190, p.107561. [29] J. Wang J. Huang Z. Feng S.J. Cao F. Haghighat Occupant-density-detection based energy efficient ventilation system: Prevention of infection transmission Energ Buildings 240 2021 110883 Wang, J., Huang, J., Feng, Z., Cao, S.J. and Haghighat, F., 2021. Occupant-density-detection based energy efficient ventilation system: Prevention of infection transmission.Energy and Buildings,240, p.110883. [30] H. Sha X. Zhang D. Qi Optimal control of high-rise building mechanical ventilation system for achieving low risk of COVID-19 transmission and ventilative cooling Sustain Cities Soc 74 2021 103256 Sha, H., Zhang, X. and Qi, D., 2021. Optimal control of high-rise building mechanical ventilation system for achieving low risk of COVID-19 transmission and ventilative cooling.Sustainable cities and society,74, p.103256. [31] Y. Guo N. Zhang T. Hu Z. Wang Y. Zhang Optimization of energy efficiency and COVID-19 pandemic control in different indoor environments Energ Buildings 261 2022 111954 Guo, Y., Zhang, N., Hu, T., Wang, Z. and Zhang, Y., 2022. Optimization of energy efficiency and COVID-19 pandemic control in different indoor environments.Energy and buildings,261, p.111954. [32] J. Wang J. Huang Q. Fu E. Gao J. Chen Metabolism-based ventilation monitoring and control method for COVID-19 risk mitigation in gymnasiums and alike places Sustain Cities Soc 80 2022 103719 Wang, J., Huang, J., Fu, Q., Gao, E. and Chen, J., 2022. Metabolism-based ventilation monitoring and control method for COVID-19 risk mitigation in gymnasiums and alike places.Sustainable Cities and Society,80, p.103719. [33] S. Yang M.P. Wan B.F. Ng S. Dubey G.P. Henze W. Chen Experimental study of model predictive control for an air-conditioning system with dedicated outdoor air system Appl Energy 257 2020 113920 Yang, S., Wan, M.P., Ng, B.F., Dubey, S., Henze, G.P., Chen, W. and Baskaran, K., 2020. Experimental study of model predictive control for an air-conditioning system with dedicated outdoor air system.Applied Energy,257, p.113920. [34] H.S. Ganesh H.E. Fritz T.F. Edgar A. Novoselac M. Baldea A model-based dynamic optimization strategy for control of indoor air pollutants Energ Buildings 195 2019 168 179 Ganesh, H.S., Fritz, H.E., Edgar, T.F., Novoselac, A. and Baldea, M., 2019. A model-based dynamic optimization strategy for control of indoor air pollutants.Energy and Buildings,195, pp.168-179. [35] S. Yang M.P. Wan B.F. Ng S. Dubey G.P. Henze W. Chen Model predictive control for integrated control of air-conditioning and mechanical ventilation, lighting and shading systems Appl Energy 297 2021 117112 Yang, S., Wan, M.P., Ng, B.F., Dubey, S., Henze, G.P., Chen, W. and Baskaran, K., 2021. Model predictive control for integrated control of air-conditioning and mechanical ventilation, lighting and shading systems.Applied Energy,297, p.117112. [36] B. Li B. Wu Y. Peng W. Cai Tube-based robust model predictive control of multi-zone demand-controlled ventilation systems for energy saving and indoor air quality Appl Energy 307 2022 118297 Li, B., Wu, B., Peng, Y. and Cai, W., 2022. Tube-based robust model predictive control of multi-zone demand-controlled ventilation systems for energy saving and indoor air quality.Applied Energy,307, p.118297. [37] W. Li S. Wang A multi-agent based distributed approach for optimal control of multi-zone ventilation systems considering indoor air quality and energy use Appl Energy 275 2020 115371 Li, W. and Wang, S., 2020. A multi-agent based distributed approach for optimal control of multi-zone ventilation systems considering indoor air quality and energy use.Applied Energy,275, p.115371. [38] X. Wang B. Dong J. Zhang Nationwide evaluation of energy and indoor air quality predictive control and impact on infection risk for cooling season Build Simul 2022 Wang, X., Dong, B. & Zhang, J. Nationwide evaluation of energy and indoor air quality predictive control and impact on infection risk for cooling season. Build. Simul. (2022). [39] J. Drgoňa J. Arroyo I.C. Figueroa D. Blum K. Arendt D. Kim All you need to know about model predictive control for buildings Annu Rev Control 50 2020 190 232 Drgoňa, J., Arroyo, J., Figueroa, I.C., Blum, D., Arendt, K., Kim, D., Ollé, E.P., Oravec, J., Wetter, M., Vrabie, D.L. and Helsen, L., 2020. All you need to know about model predictive control for buildings.Annual Reviews in Control,50, pp.190-232. [40] A. Afram F. Janabi-Sharifi Theory and applications of HVAC control systems\u2013A review of model predictive control (MPC) Build Environ 72 2014 343 355 Afram, A. and Janabi-Sharifi, F., 2014. Theory and applications of HVAC control systems\u2013A review of model predictive control (MPC).Building and Environment,72, pp.343-355. [41] D. Mariano-Hernández L. Hernández-Callejo A. Zorita-Lamadrid O. Duque-Pérez F.S. García A review of strategies for building energy management system: Model predictive control, demand side management, optimization, and fault detect & diagnosis J Build Engneering 33 2021 101692 Mariano-Hernández, D., Hernández-Callejo, L., Zorita-Lamadrid, A., Duque-Pérez, O. and García, F.S., 2021. A review of strategies for building energy management system: Model predictive control, demand side management, optimization, and fault detect & diagnosis.Journal of Building Engineering,33, p.101692. [42] Y. Yao D.K. Shekhar State of the art review on model predictive control (MPC) in Heating Ventilation and Air-conditioning (HVAC) field Build Environ 200 2021 107952 Yao, Y. and Shekhar, D.K., 2021. State of the art review on model predictive control (MPC) in Heating Ventilation and Air-conditioning (HVAC) field.Building and Environment,200, p.107952. [43] N.E. Klepeis W.C. Nelson W.R. Ott J.P. Robinson A.M. Tsang P. Switzer The National Human Activity Pattern Survey (NHAPS): a resource for assessing exposure to environmental pollutants J Eposure Sci Environ Epidemiol 11 3 2001 231 252 Klepeis, N.E., Nelson, W.C., Ott, W.R., Robinson, J.P., Tsang, A.M., Switzer, P., Behar, J.V., Hern, S.C. and Engelmann, W.H., 2001. The National Human Activity Pattern Survey (NHAPS): a resource for assessing exposure to environmental pollutants.Journal of Exposure Science & Environmental Epidemiology,11(3), pp.231-252. [44] A. Mirakhorli B. Dong Occupancy behavior based model predictive control for building indoor climate\u2014A critical review Energ Build 129 2016 499 513 Mirakhorli, A. and Dong, B., 2016. Occupancy behavior based model predictive control for building indoor climate\u2014A critical review.Energy and Buildings,129, pp.499-513. [45] B. Dong R. Markovic S. Carlucci Y. Liu A. Wagner A. Liguori A guideline to document occupant behavior models for advanced building controls Build Environ 2022 109195 Dong, B., Markovic, R., Carlucci, S., Liu, Y., Wagner, A., Liguori, A., van Treeck, C., Oleynikov, D., Azar, E., Fajilla, G. and Drgoňa, J., 2022. A guideline to document occupant behavior models for advanced building controls.Building and Environment, p.109195. [46] J.D. Clark B.D. Less S.M. Dutton I.S. Walker M.H. Sherman Efficacy of occupancy-based smart ventilation control strategies in energy-efficient homes in the United States Build Environ 156 2019 253 267 Clark, J.D., Less, B.D., Dutton, S.M., Walker, I.S. and Sherman, M.H., 2019. Efficacy of occupancy-based smart ventilation control strategies in energy-efficient homes in the United States.Building and Environment,156, pp.253-267. [47] Dong B, Lam KP. A real-time model predictive control for building heating and cooling systems based on the occupancy behavior pattern detection and local weather forecasting. In: Building Simulation(Vol. 7, No. 1, pp. 89\u2013106). Springer Berlin Heidelberg; 2014, February. [48] S.H. Ryu H.J. Moon Development of an occupancy prediction model using indoor environmental data based on machine learning techniques Build Environ 107 2016 1 9 Ryu, S.H. and Moon, H.J., 2016. Development of an occupancy prediction model using indoor environmental data based on machine learning techniques.Building and Environment,107, pp.1-9. [49] H.B. Gunay W. O'Brien I. Beausoleil-Morrison Development of an occupancy learning algorithm for terminal heating and cooling units Build Environ 93 2015 71 85 Gunay, H.B., O'Brien, W. and Beausoleil-Morrison, I., 2015. Development of an occupancy learning algorithm for terminal heating and cooling units.Building and Environment,93, pp.71-85. [50] S.K. Sama M. Rahnamay-Naeini A study on compression-based sequential prediction methods for occupancy prediction in smart homes 2016 IEEE 7th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON) 2016, October. IEEE 1 8 Sama, S.K. and Rahnamay-Naeini, M., 2016, October. A study on compression-based sequential prediction methods for occupancy prediction in smart homes. In2016 IEEE 7th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON)(pp. 1-8). IEEE. [51] Y. Peng A. Rysanek Z. Nagy A. Schlüter Using machine learning techniques for occupancy-prediction-based cooling control in office buildings Appl Energy 211 2018 1343 1358 Peng, Y., Rysanek, A., Nagy, Z. and Schlüter, A., 2018. Using machine learning techniques for occupancy-prediction-based cooling control in office buildings.Applied energy,211, pp.1343-1358. [52] S. Salimi A. Hammad Sensitivity analysis of probabilistic occupancy prediction model using big data Build Environ 172 2020 106729 Salimi, S. and Hammad, A., 2020. Sensitivity analysis of probabilistic occupancy prediction model using big data.Building and Environment,172, p.106729. [53] W. Kleiminger F. Mattern S. Santini Predicting household occupancy for smart heating control: A comparative performance analysis of state-of-the-art approaches Energ Buildings 85 2014 493 505 Kleiminger, W., Mattern, F. and Santini, S., 2014. Predicting household occupancy for smart heating control: A comparative performance analysis of state-of-the-art approaches.Energy and Buildings,85, pp.493-505. [54] W. Huang Y. Lin B. Lin L. Zhao Modeling and predicting the occupancy in a China hub airport terminal using Wi-Fi data Energ Buildings 203 2019 109439 Huang, W., Lin, Y., Lin, B. and Zhao, L., 2019. Modeling and predicting the occupancy in a China hub airport terminal using Wi-Fi data.Energy and Buildings,203, p.109439. [55] B.W. Hobson H.B. Gunay A. Ashouri G.R. Newsham Clustering and motif identification for occupancy-centric control of an air handling unit Energ Buildings 223 2020 110179 Hobson, B.W., Gunay, H.B., Ashouri, A. and Newsham, G.R., 2020. Clustering and motif identification for occupancy-centric control of an air handling unit.Energy and Buildings,223, p.110179. [56] Y. Jin D. Yan A. Chong B. Dong J. An Building occupancy forecasting: A systematical and critical review Energ Buildings 251 2021 111345 Jin, Y., Yan, D., Chong, A., Dong, B. and An, J., 2021. Building occupancy forecasting: A systematical and critical review.Energy and Buildings,251, p.111345. [57] S. Salimi Z. Liu A. Hammad Occupancy prediction model for open-plan offices using real-time location system and inhomogeneous Markov chain Build Environ 152 2019 1 16 Salimi, S., Liu, Z. and Hammad, A., 2019. Occupancy prediction model for open-plan offices using real-time location system and inhomogeneous Markov chain.Building and Environment,152, pp.1-16. [58] T.H. Pedersen S. Petersen Investigating the performance of scenario-based model predictive control of space heating in residential buildings J Build Perform Simul 11 4 2018 485 498 Pedersen, T.H. and Petersen, S., 2018. Investigating the performance of scenario-based model predictive control of space heating in residential buildings.Journal of Building Performance Simulation,11(4), pp.485-498. [59] Z. Li B. Dong A new modeling approach for short-term prediction of occupancy in residential buildings Build Environ 121 2017 277 290 Li, Z., & Dong, B. (2017). A new modeling approach for short-term prediction of occupancy in residential buildings.Building and Environment,121, 277-290. [60] G. Ali T. Ali M. Irfan U. Draz M. Sohail A. Glowacz IoT based smart parking system using deep long short memory network Electronics 9 10 2020 1696 Ali, G., Ali, T., Irfan, M., Draz, U., Sohail, M., Glowacz, A., Sulowicz, M., Mielnik, R., Faheem, Z.B. and Martis, C., 2020. IoT based smart parking system using deep long short memory network.Electronics,9(10), p.1696. [61] Sangogboye FC, Kjærgaard MB. Occupancy count prediction for model predictive control in buildings. InProceedings of the 4th ACM International Conference on Systems for Energy-Efficient Built Environments, p. 1-2; 2017, November. [62] J. Dong C. Winstead J. Nutaro T. Kuruganti Occupancy-based HVAC control with short-term occupancy prediction algorithms for energy-efficient buildings Energies 11 9 2018 2427 Dong, J., Winstead, C., Nutaro, J. and Kuruganti, T., 2018. Occupancy-based HVAC control with short-term occupancy prediction algorithms for energy-efficient buildings.Energies,11(9), p.2427. [63] S. Kim S. Kang K.R. Ryu G. Song Real-time occupancy prediction in a large exhibition hall using deep learning approach Energ Buildings 199 2019 216 222 Kim, S., Kang, S., Ryu, K. R., & Song, G. (2019). Real-time occupancy prediction in a large exhibition hall using deep learning approach.Energy and Buildings,199, 216-222. [64] C. Zhuang R. Choudhary A. Mavrogianni Probabilistic occupancy forecasting for risk-aware optimal ventilation through autoencoder Bayesian deep neural networks Build Environ 109207 2022 Zhuang, C., Choudhary, R., & Mavrogianni, A. (2022). Probabilistic occupancy forecasting for risk-aware optimal ventilation through autoencoder Bayesian deep neural networks. Building and Environment, 109207. [65] A. Nacer B. Marhic L. Delahoche J.B. Masson ALOS: Automatic learning of an occupancy schedule based on a new prediction model for a smart heating management system Build Environ 142 2018 484 501 Nacer, A., Marhic, B., Delahoche, L. and Masson, J.B., 2018. ALOS: Automatic learning of an occupancy schedule based on a new prediction model for a smart heating management system.Building and Environment,142, pp.484-501. [66] Dong B, Yan D, Li Z, Jin Y, Feng X, Fontenot H. Modeling occupancy and behavior for better building design and operation\u2014A critical review. In: Building Simulation, Vol. 11, No. 5, p. 899\u201321. Springer Berlin Heidelberg; 2018, October. [67] M. Kong B. Dong R. Zhang Z. O'Neill HVAC energy savings, thermal comfort and air quality for occupant-centric control through a side-by-side experimental study Appl Energy 306 2022 117987 Kong, M., Dong, B., Zhang, R., & O'Neill, Z. (2022). HVAC energy savings, thermal comfort and air quality for occupant-centric control through a side-by-side experimental study. Applied Energy, 306, 117987. [68] Y. Jin D. Yan X. Kang A. Chong S. Zhan Forecasting building occupancy: A temporal-sequential analysis and machine learning integrated approach Energ Buildings 252 2021 111362 Jin, Y., Yan, D., Kang, X., Chong, A. and Zhan, S., 2021. Forecasting building occupancy: A temporal-sequential analysis and machine learning integrated approach.Energy and Buildings,252, p.111362. [69] E.C. Riley G. Murphy R.L. Riley Airborne spread of measles in a suburban elementary school Am J Epidemiol 107 5 1978 421 432 Riley, E.C., Murphy, G. and Riley, R.L., 1978. Airborne spread of measles in a suburban elementary school.American journal of epidemiology,107(5), pp.421-432. [70] Y. Feng T. Marchal T. Sperry H. Yi Influence of wind and relative humidity on the social distancing effectiveness to prevent COVID-19 airborne transmission: A numerical study J Aerosol Sci 147 2020 105585 Feng, Y., Marchal, T., Sperry, T. and Yi, H., 2020. Influence of wind and relative humidity on the social distancing effectiveness to prevent COVID-19 airborne transmission: A numerical study.Journal of aerosol science,147, p.105585. [71] J. Shen M. Kong B. Dong M.J. Birnkrant J. Zhang Airborne transmission of SARS-CoV-2 in indoor environments: A comprehensive review Sci Technol Built Environ 27 10 2021 1331 1367 Shen, J., Kong, M., Dong, B., Birnkrant, M.J. and Zhang, J., 2021. Airborne transmission of SARS-CoV-2 in indoor environments: A comprehensive review.Science and Technology for the Built Environment,27(10), pp.1331-1367. [72] C. Sun Z. Zhai The efficacy of social distance and ventilation effectiveness in preventing COVID-19 transmission Sustain Cities Soc 62 2020 102390 Sun, C. and Zhai, Z., 2020. The efficacy of social distance and ventilation effectiveness in preventing COVID-19 transmission.Sustainable cities and society,62, p.102390. [73] A. Davies K.A. Thompson K. Giri G. Kafatos J. Walker A. Bennett Testing the efficacy of homemade masks: would they protect in an influenza pandemic? Disaster Med Public Health Prep 7 4 2013 413 418 Davies, A., Thompson, K.A., Giri, K., Kafatos, G., Walker, J. and Bennett, A., 2013. Testing the efficacy of homemade masks: would they protect in an influenza pandemic?Disaster medicine and public health preparedness,7(4), pp.413-418. [74] G. Buonanno L. Stabile L. Morawska Estimation of airborne viral emission: Quanta emission rate of SARS-CoV-2 for infection risk assessment Environ Int 141 2020 105794 Buonanno, G., Stabile, L., & Morawska, L. (2020). Estimation of airborne viral emission: Quanta emission rate of SARS-CoV-2 for infection risk assessment.Environment international,141, 105794.",
+    "scopus-id": "85146571264",
+    "coredata": {
+        "eid": "1-s2.0-S0306261923000405",
+        "dc:description": "During the SARS-CoV-2 (COVID-19) pandemic, governments around the world have formulated policies requiring ventilation systems to operate at a higher outdoor fresh air flow rate for a sufficient time, which has led to a sharp increase in building energy consumption. Therefore, it is necessary to identify an energy-efficient ventilation strategy to reduce the risk of infection. In this study, we developed an occupant-number-based model predictive control (OBMPC) algorithm for building ventilation systems. First, we collected the occupancy and Heating, ventilation, and air conditioning system (HVAC) data from March to July 2021. Then, four different models (Auto regression moving average-based multilayer perceptron (ARMA_MLP), Recurrent neural networks (RNN), Long short-term memory networks (LSTM), and Nonhomogeneous Markov with change points detection (NH_Markov)) were used to predict the number of room occupants from 15 min to 24 h ahead with an interval output. We found that each model could predict the number of occupants with 85 % accuracy using a one-person offset. The accuracy of 15 min of the ahead prediction could reach 95 % with a one-person offset, but none of them could track abrupt changes. The occupancy prediction results were used to calculate the ventilation demand using the Wells-Riley equation, and the upper bound can maintain an infection risk lower than 2 % for 93 % of the day. This OBMPC model could reduce the coil load by 52.44 % and shift the peak load by 3 h up to 5 kW compared with 24 × 7 h full outdoor air (OA) system when people wear masks in the space. The occupancy prediction uncertainty could cause a 9 % to 26 % difference in demand ventilation, a 0.3 °C to 2.4 °C difference in zone temperature, a 28.5 % to 44.5 % difference in outdoor airflow rate, and a 10.7 % to 28.2 % difference in coil load.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-03-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0306261923000405",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Jiang, Zixin"
+            },
+            {
+                "@_fa": "true",
+                "$": "Deng, Zhipeng"
+            },
+            {
+                "@_fa": "true",
+                "$": "Wang, Xuezheng"
+            },
+            {
+                "@_fa": "true",
+                "$": "Dong, Bing"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0306261923000405"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0306261923000405"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0306-2619(23)00040-5",
+        "prism:volume": "334",
+        "articleNumber": "120676",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "PANDEMIC: Occupancy driven predictive ventilation control to minimize energy consumption and infection risk",
+        "prism:copyright": "© 2023 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03062619",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Occupancy prediction"
+            },
+            {
+                "@_fa": "true",
+                "$": "Model predictive control"
+            },
+            {
+                "@_fa": "true",
+                "$": "COVID-19"
+            },
+            {
+                "@_fa": "true",
+                "$": "Demand ventilation"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Energy",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "120676",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 March 2023",
+        "prism:doi": "10.1016/j.apenergy.2023.120676",
+        "prism:startingPage": "120676",
+        "dc:identifier": "doi:10.1016/j.apenergy.2023.120676",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "546",
+            "@width": "755",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "107889",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "551",
+            "@width": "758",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "106926",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "554",
+            "@width": "765",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "110835",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "424",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48718",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "241",
+            "@width": "675",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32973",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "269",
+            "@width": "776",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "49527",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "269",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21154",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "563",
+            "@width": "756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "87050",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "371",
+            "@width": "765",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "99521",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "312",
+            "@width": "750",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62720",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "314",
+            "@width": "712",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "47291",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "659",
+            "@width": "712",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "98096",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "487",
+            "@width": "747",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "123263",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "415",
+            "@width": "754",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "92100",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12763",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "159",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12597",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "159",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12769",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "139",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7365",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "78",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5076",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "76",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5579",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "106",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3615",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16423",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "106",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13104",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "91",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6926",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "97",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6593",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "177",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10124",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "143",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15454",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "120",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12540",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "2419",
+            "@width": "3344",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "570821",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2442",
+            "@width": "3357",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "566074",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2451",
+            "@width": "3386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "588057",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1879",
+            "@width": "2954",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "350908",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1070",
+            "@width": "2991",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "205576",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1190",
+            "@width": "3438",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "305673",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1191",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "129273",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2492",
+            "@width": "3346",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "537192",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1642",
+            "@width": "3386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "516363",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1381",
+            "@width": "3322",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "340921",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1389",
+            "@width": "3151",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "281123",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2916",
+            "@width": "3152",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "559711",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2157",
+            "@width": "3307",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "689034",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1836",
+            "@width": "3337",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "572281",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2440",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1694",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9439",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8653",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12416",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4554",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9357",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "904",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1422",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "822",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "37939",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5452",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6314",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6872",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13498",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1385",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14215",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1630",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1671",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "865",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "33276",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2974",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5613",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3408",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22472",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27425",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20788",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3023",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14470",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3106",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10606",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1690",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18504",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5502",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13081",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10747",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15055",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1271",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23384",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2534",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15141",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5950",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8069",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5024",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3975",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4733",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4791",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11902",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3814",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21491",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23770",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5709",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23653",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5353",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "45448",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3505",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "66898",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2379",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1917",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1344",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000405-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "3007323",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85146571264"
+    }
+}}

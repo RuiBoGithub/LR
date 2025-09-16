@@ -1,0 +1,1108 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85199865735",
+    "originalText": "serial JL 271429 291210 291702 291731 291787 291877 291878 291881 31 Applied Energy APPLIEDENERGY 2024-07-31 2024-07-31 2024-07-31 2024-07-31 2024-09-19T14:59:20 1-s2.0-S0306261924013862 S0306-2619(24)01386-2 S0306261924013862 10.1016/j.apenergy.2024.124003 S300 S300.1 FULL-TEXT 1-s2.0-S0306261924X00173 2024-09-27T07:37:48.704519Z 0 0 20241115 2024 2024-07-31T10:51:09.416919Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantsponsor grantsponsorid highlightsabst primabst ref 0306-2619 03062619 true 374 374 C Volume 374 39 124003 124003 124003 20241115 15 November 2024 2024-11-15 2024 Research Papers article fla © 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. CONTROLLABLECROSSBUILDINGMULTIOBJECTIVEOPTIMISATIONFORNZEBSAFRAMEWORKUTILISINGPARAMETRICGENERATIONINTELLIGENTALGORITHMS LIU R 1 Introduction 1.1 Optimisation of near-zero energy buildings 1.2 Multi-objective optimisation framework using intelligent algorithms 1.3 Cross-building challenges 1.4 Research gaps and aims 2 Methodology 2.1 Simulation 2.1.1 Physical model setting 2.1.1.1 Parametric space generation 2.1.1.2 Enclosure structure 2.1.1.3 Internal disturbance parameters and schedule 2.1.2 Dataset acquisition 2.1.2.1 Sampling 2.1.2.2 Climate conditions 2.1.2.3 Building energy consumption 2.1.2.4 Building thermal comfort time ratio 2.1.2.5 Initial investment cost 2.2 Surrogate model 2.2.1 Model training and hyperparameter optimisation 2.2.2 Model performance assessment metrics 2.3 Multi-objective optimisation and decision making 2.3.1 Multi-objective optimisation 2.3.1.1 High-controllability constraints 2.3.2 Multi-criteria decision making 2.4 Software integration 3 Case study 3.1 Building background 3.2 Measurement 3.3 Equivalent model 3.4 Verify simulation test setup 4 Results 4.1 Influence of design parameters on performance metrics 4.2 Surrogate model validation 4.3 Optimisation algorithm evaluation 4.4 Framework for optimising performance outcomes 4.4.1 Performance of constraint control and results of design parameter optimisation 4.4.2 Analysis of Pareto solution sets for performance objectives 4.4.3 TOPSIS decision-making outcomes 4.4.4 Future work 5 Conclusion Nomenclature CRediT authorship contribution statement Acknowledgements References INTERNATIONALENERGYAGENCYGLOBALALLIANCEFORBUILDINGSANDCONSTRUCTION 2019 AHLUWALIA 2021 M GETTINGNETZEROAPPROACHFORINDIACOP26 ECONOMIDOU 2020 110322 M DAGOSTINO 2019 200 212 D CHASTAS 2016 267 282 P DAVIS 2013 D MODELLEDSOFTWAREENGINEERINGFLEXIBLEPARAMETRICMODELSINPRACTICEARCHITECTURE MOUSAVI 2023 110578 S THALFELDT 2013 309 321 M GARCIAGAFARO 2022 111979 C HUO 2021 102401 H LU 2021 110763 F LI 2022 103641 E PIKAS 2014 30 42 E LIN 2022 111946 B TANG 2020 3008 3022 F ABOKERSH 2021 116091 M TALAEI 2024 111424 M LUO 2022 111749 Z WETTER 2016 M GENERICOPTIMISATIONPROGRAMUSERMANUALVERSION311LAWRENCEBERKELEYNATIONALLABORATORYBERKELEYCAUSA ZHANG 2009 27 30 Y KERDAN 2017 33 58 G CRAWLEY 2001 319 331 D ROUDSARI 2014 M CHOPSONP REINHART 2001 683 697 C LIU 2023 112601 C ZHAN 2023 106376 J SEYEDZADEH 2020 115908 S YIGIT 2021 102225 S ZEKICSUSAC 2021 223 233 M KONHAUSER 2022 112242 K YAN 2022 109081 H DESHWAL 2020 S FATIHA 2011 1 11 B GUO 2023 1 11 J GAO 2023 112910 Y LI 2023 112893 C WANG 2020 101450 Y HAN 2023 112793 Z ELBELTAGI 2021 2534 2545 E DAGOSTINO 2023 112841 D ABDOU 2022 105332 N KERDAN 2022 133500 I ZHAN 2024 122423 J FANG 2023 112968 X LI 2022 112461 G ALI 2024 113768 U PILECHIHA 2020 114356 P WAIBEL 2019 1661 1682 C ZHU 2020 106841 L RAZMI 2022 117828 A WU 2023 120934 X FERRARA 2021 590 605 M CENTER 2005 C CHINESEBUILDINGTHERMALENVIRONMENTANALYSISSPECIALIZEDMETEOROLOGICALDATACOLLECTION TARTARINI 2020 100578 F DEB 2002 182 197 K KHEIRI 2018 897 920 F REYESSIERRA 2006 287 308 M DEB 2014 577 601 K ZHANG 2007 712 731 Q LI 2019 303 315 K XU 2021 108142 Y SON 2018 403 410 H DEB 2005 105 145 K EVOLUTIONARYMULTIOBJECTIVEOPTIMISATIONTHEORETICALADVANCESAPPLICATIONS SCALABLETESTPROBLEMSFOREVOLUTIONARYMULTIOBJECTIVEOPTIMISATION LIU 2021 101930 Y BLANK 2020 89497 89509 J LIUX2024X124003 LIUX2024X124003XR 2026-07-31T00:00:00.000Z 2026-07-31T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-08-03T04:50:33.940Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science Foundation of Shandong Province ZR2022ME015 Natural Science Foundation of Shandong Province http://data.elsevier.com/vocabulary/SciValFunders/501100007129 http://sws.geonames.org/1814991/ http://sws.geonames.org/1814991 National Natural Science Foundation of China 52278024 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991 This research is supported by the National Natural Science Foundation of China (No. 52278024) and the Natural Science Foundation of Shandong Province, China (No. ZR2022ME015). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0306-2619(24)01386-2 S0306261924013862 1-s2.0-S0306261924013862 10.1016/j.apenergy.2024.124003 271429 2024-09-27T07:37:48.704519Z 2024-11-15 1-s2.0-S0306261924013862-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/MAIN/application/pdf/202aabd5c9da150b477938cdc2557a4d/main.pdf main.pdf pdf true 17343363 MAIN 20 1-s2.0-S0306261924013862-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/PREVIEW/image/png/3afc6874ee21436d46fe9a786987c0ea/main_1.png main_1.png png 50697 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0306261924013862-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr2/DOWNSAMPLED/image/jpeg/f6a3c9c60b9a7d911514f94179154c29/gr2.jpg gr2 gr2.jpg jpg 51046 451 759 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr15/DOWNSAMPLED/image/jpeg/0434418988619c09cf820a21aa4833b9/gr15.jpg gr15 gr15.jpg jpg 40458 225 734 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr1/DOWNSAMPLED/image/jpeg/f820fa98a7c34a026653a0925d84f5f7/gr1.jpg gr1 gr1.jpg jpg 100575 556 535 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr14/DOWNSAMPLED/image/jpeg/f9a40394a23acdaca99c7f471e1c4dce/gr14.jpg gr14 gr14.jpg jpg 43298 427 622 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr4/DOWNSAMPLED/image/jpeg/15ed2675ec9004a9344e2b57df19b841/gr4.jpg gr4 gr4.jpg jpg 43617 189 666 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr17.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr17/DOWNSAMPLED/image/jpeg/02e1ba3456ebe0c89f67d9d50d0568c4/gr17.jpg gr17 gr17.jpg jpg 113598 605 800 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr3/DOWNSAMPLED/image/jpeg/761b24f1c8883507074ce8bd3e7d1777/gr3.jpg gr3 gr3.jpg jpg 20717 268 383 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr16.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr16/DOWNSAMPLED/image/jpeg/870d54703abc8e6e0023c37ffb182e53/gr16.jpg gr16 gr16.jpg jpg 157869 600 802 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr6/DOWNSAMPLED/image/jpeg/3cb94c8dd9375622c3044585a1a7d1b0/gr6.jpg gr6 gr6.jpg jpg 80382 615 638 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr11/DOWNSAMPLED/image/jpeg/aaefe8ba491beaf0695885baa89a7a35/gr11.jpg gr11 gr11.jpg jpg 41994 470 382 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr5/DOWNSAMPLED/image/jpeg/8cbe0e27f1efda050961a6bf523a075c/gr5.jpg gr5 gr5.jpg jpg 36324 534 383 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr10/DOWNSAMPLED/image/jpeg/3d4836d22237c9913df127bbe6c631bc/gr10.jpg gr10 gr10.jpg jpg 32362 247 622 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr8/DOWNSAMPLED/image/jpeg/0499dad8cbcb3c5711b026c49f93288e/gr8.jpg gr8 gr8.jpg jpg 37297 293 535 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr13/DOWNSAMPLED/image/jpeg/ef09236d9e155e23be81c4356e381f9a/gr13.jpg gr13 gr13.jpg jpg 41188 349 800 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr7/DOWNSAMPLED/image/jpeg/49aa276aa167b02211f674ce17b526e9/gr7.jpg gr7 gr7.jpg jpg 114729 497 745 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr12/DOWNSAMPLED/image/jpeg/3fa15161d4ad0051edc6c9838f3fb5a1/gr12.jpg gr12 gr12.jpg jpg 47137 530 622 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr9/DOWNSAMPLED/image/jpeg/01259e3a83152558204bf79255091af0/gr9.jpg gr9 gr9.jpg jpg 118170 737 622 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924013862-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr2/THUMBNAIL/image/gif/19a9d64220fcef3517644f56524dc1fe/gr2.sml gr2 gr2.sml sml 8381 130 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr15/THUMBNAIL/image/gif/438241f0255d81cffc56e2e8673dcdf0/gr15.sml gr15 gr15.sml sml 4837 67 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr1/THUMBNAIL/image/gif/48c8d731eda4087ea61023bda113d9aa/gr1.sml gr1 gr1.sml sml 13148 163 157 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr14/THUMBNAIL/image/gif/567db77bfaf5382ed5dbbfaeb1c0e917/gr14.sml gr14 gr14.sml sml 7564 151 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr4/THUMBNAIL/image/gif/c54fd38bea36b8e79d8aa431b9171503/gr4.sml gr4 gr4.sml sml 10044 62 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr17.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr17/THUMBNAIL/image/gif/12e866d1bb0471f9559f150ed833c353/gr17.sml gr17 gr17.sml sml 11297 164 217 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr3/THUMBNAIL/image/gif/ee35605850df0cf4c60b428455504052/gr3.sml gr3 gr3.sml sml 6672 153 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr16.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr16/THUMBNAIL/image/gif/614b4f74d953ccb9cdb8a8c644e233ef/gr16.sml gr16 gr16.sml sml 16686 164 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr6/THUMBNAIL/image/gif/0aeddbc29aae1f167ce881fa4004d8a9/gr6.sml gr6 gr6.sml sml 7902 164 170 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr11/THUMBNAIL/image/gif/6cd4adc78b9d462e99e1f1fa8911ffae/gr11.sml gr11 gr11.sml sml 6687 164 133 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr5/THUMBNAIL/image/gif/23d8b11243dcaced42a38a76437c9d84/gr5.sml gr5 gr5.sml sml 5681 163 117 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr10/THUMBNAIL/image/gif/ad6371339abdd32af5868dc95a7369f1/gr10.sml gr10 gr10.sml sml 5320 87 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr8/THUMBNAIL/image/gif/8093decb4c7393d819d1a7fcada76e31/gr8.sml gr8 gr8.sml sml 7554 120 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr13/THUMBNAIL/image/gif/3fc34f151e6d4a1ec690df499c87fc35/gr13.sml gr13 gr13.sml sml 4621 95 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/gr7/THUMBNAIL/image/gif/cb7de0c85a5313f08aa3d855600ca43d/gr7.sml gr7 gr7.sml sml 22457 146 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013357/gr12/THUMBNAIL/image/gif/5ff80717d7de4c3a0fadb14db4d0cfc4/gr12.sml gr12 gr12.sml sml 5775 164 192 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013357/gr9/THUMBNAIL/image/gif/32551d0302616de518421d23cf69f684/gr9.sml gr9 gr9.sml sml 10230 163 138 IMAGE-THUMBNAIL 1-s2.0-S0306261924013862-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/a8ee56ea3d62dd746349caa6836341f5/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 377493 1994 3359 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/4e96372319fa4004d6913ec3212f7922/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 233862 997 3251 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/34a7d4754741d26f2abff8a855bc5a68/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 599941 2462 2368 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/729625ee92975d4360f793e12fa7ff66/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 252020 1894 2756 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/6e7c57601ffb17632d7fb56d3754d52b/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 337204 838 2950 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr17_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/0c33915707e943477d44e0ce5e8d149d/gr17_lrg.jpg gr17 gr17_lrg.jpg jpg 682872 2681 3544 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/5b57526fc5ef43c6e68fcfd70ccea555/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 125607 1188 1699 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr16_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/c2bc629c971fd36dd58b2cb7d0338aab/gr16_lrg.jpg gr16 gr16_lrg.jpg jpg 1343899 2653 3549 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/218d45a05ccbcbe2d37d52cc2c2bff00/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 326398 2178 2259 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/2156c48357f2b4c882694227a881b7f7/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 253283 2085 1693 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/99918315712e05df0759b549b3256372/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 199101 2371 1699 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/5be639b4afe03219cd5dc7630d640534/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 200444 1094 2756 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/b4ac5079da5b12507d5a848ccbbeca47/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 200323 1296 2368 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/a9698899208c66ac14327f6c037d9b89/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 257746 1545 3544 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/HIGHRES/image/jpeg/1045190aea40fdd01f3615f1f1f2697f/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 576773 1621 2429 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013357/HIGHRES/image/jpeg/f03f60fdf5d88297de01a36a6c25b60c/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 328027 2348 2756 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013357/HIGHRES/image/jpeg/a5e12a0759a256f691efee41bf346298/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 735277 3264 2756 IMAGE-HIGH-RES 1-s2.0-S0306261924013862-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/6615be8252c0fc69ad8333389b11f598/si1.svg si1 si1.svg svg 7318 ALTIMG 1-s2.0-S0306261924013862-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/ce8d0d89b533cff049ef2f6bcff41322/si10.svg si10 si10.svg svg 1481 ALTIMG 1-s2.0-S0306261924013862-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/34a1a0ea1c629d47a48290ef96b76bc5/si11.svg si11 si11.svg svg 1984 ALTIMG 1-s2.0-S0306261924013862-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/a9581cd26bb88ecfb4f2d70a9e07a4cf/si12.svg si12 si12.svg svg 1753 ALTIMG 1-s2.0-S0306261924013862-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/31e5d91dbdd5d37f6625c4ae60c4c652/si13.svg si13 si13.svg svg 1698 ALTIMG 1-s2.0-S0306261924013862-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/e7977820d0cd7e62da0e957ef204d83e/si14.svg si14 si14.svg svg 2038 ALTIMG 1-s2.0-S0306261924013862-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/3e85a9098cfb2edbf0ef989a99b8f13f/si15.svg si15 si15.svg svg 1807 ALTIMG 1-s2.0-S0306261924013862-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/a33dd25f997a1184aa5527dd8def1142/si16.svg si16 si16.svg svg 1689 ALTIMG 1-s2.0-S0306261924013862-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/bb0d09662e13e5c66d8cb96bebf2b209/si17.svg si17 si17.svg svg 2337 ALTIMG 1-s2.0-S0306261924013862-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/bd94d9b7ac96366015f3718ac4076d63/si18.svg si18 si18.svg svg 2107 ALTIMG 1-s2.0-S0306261924013862-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/b8a39343c3f70747e22639ba11018cce/si19.svg si19 si19.svg svg 2115 ALTIMG 1-s2.0-S0306261924013862-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/147e95b7bc3d00e1068c33396cdb869b/si2.svg si2 si2.svg svg 1935 ALTIMG 1-s2.0-S0306261924013862-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/f8217cf2784775b195888c0d427091fe/si20.svg si20 si20.svg svg 1882 ALTIMG 1-s2.0-S0306261924013862-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/88ac46bbb9a4c019fcf2486582512ea3/si22.svg si22 si22.svg svg 9580 ALTIMG 1-s2.0-S0306261924013862-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/c1da4605b010cdb7f035500e7f177b13/si23.svg si23 si23.svg svg 11067 ALTIMG 1-s2.0-S0306261924013862-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/7ef3406b355016df9908263f84c4149b/si24.svg si24 si24.svg svg 1901 ALTIMG 1-s2.0-S0306261924013862-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/82a5a553d351ac8a899f01f731527933/si25.svg si25 si25.svg svg 978 ALTIMG 1-s2.0-S0306261924013862-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/38b05d631d11696891e2269bf5650249/si26.svg si26 si26.svg svg 2243 ALTIMG 1-s2.0-S0306261924013862-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/cc30259bf5d22cb568a3f64f668342a8/si27.svg si27 si27.svg svg 1038 ALTIMG 1-s2.0-S0306261924013862-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/7b33b8baa78144efccc5a5490d0842b0/si28.svg si28 si28.svg svg 19394 ALTIMG 1-s2.0-S0306261924013862-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/a92f750cc28d1bf1ee4c23c2f576ac46/si29.svg si29 si29.svg svg 3464 ALTIMG 1-s2.0-S0306261924013862-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/e740d040e2f780b3f58bbe84ec918f65/si3.svg si3 si3.svg svg 2517 ALTIMG 1-s2.0-S0306261924013862-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/46f05303040e1c0e8ef221969a2f972a/si30.svg si30 si30.svg svg 3468 ALTIMG 1-s2.0-S0306261924013862-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/a306c1cd800f7b031fad8b07af364597/si31.svg si31 si31.svg svg 2471 ALTIMG 1-s2.0-S0306261924013862-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/4607d5b073cdcf899e32ebc49b4e9a43/si32.svg si32 si32.svg svg 9152 ALTIMG 1-s2.0-S0306261924013862-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/a96fc9421f6d8d046511b2a71dcc8d68/si33.svg si33 si33.svg svg 13150 ALTIMG 1-s2.0-S0306261924013862-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/2561872c0f4c4e95ab9e31a24f0c607b/si34.svg si34 si34.svg svg 2207 ALTIMG 1-s2.0-S0306261924013862-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/8346a63fdb42da0662cdb11d00f00bbc/si35.svg si35 si35.svg svg 2107 ALTIMG 1-s2.0-S0306261924013862-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/64fcafc1c475dd8124a739a337e49ee9/si36.svg si36 si36.svg svg 1664 ALTIMG 1-s2.0-S0306261924013862-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/81e6905db9b7580aca75d44e355ef944/si37.svg si37 si37.svg svg 1011 ALTIMG 1-s2.0-S0306261924013862-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/b1c27c61e0ddb89ba692c015358ae259/si38.svg si38 si38.svg svg 2422 ALTIMG 1-s2.0-S0306261924013862-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/9715cb449c6400fec64098f110d9ba78/si4.svg si4 si4.svg svg 1960 ALTIMG 1-s2.0-S0306261924013862-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/e66d4f32d160c80e546a2f473e09fcd8/si40.svg si40 si40.svg svg 5553 ALTIMG 1-s2.0-S0306261924013862-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/9286f52d803dbcffa3af98049081f8b6/si41.svg si41 si41.svg svg 1560 ALTIMG 1-s2.0-S0306261924013862-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/9a1a684fd5468ffbd8fc46a78a64ff13/si5.svg si5 si5.svg svg 1675 ALTIMG 1-s2.0-S0306261924013862-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/dbc064e4da189e0f9cde5973b26f61a8/si6.svg si6 si6.svg svg 4902 ALTIMG 1-s2.0-S0306261924013862-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/47451eb988870b5dc9517875a46ded0e/si7.svg si7 si7.svg svg 1041 ALTIMG 1-s2.0-S0306261924013862-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/dfaf3d8cf5e7fe9675e1bf967e628d0d/si8.svg si8 si8.svg svg 9388 ALTIMG 1-s2.0-S0306261924013862-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924013862/image/svg+xml/82ebdc53a5057eb8d89b3a994a5aba1f/si9.svg si9 si9.svg svg 3681 ALTIMG 1-s2.0-S0306261924013862-am.pdf am am.pdf pdf 6388754 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:1060RK5841C/MAIN/application/pdf/08633bf9589ef95c8e59b85833eb1520/am.pdf APEN 124003 124003 S0306-2619(24)01386-2 10.1016/j.apenergy.2024.124003 Elsevier Ltd Fig. 1 Framework workflow. Fig. 1 Fig. 2 Building space generation method: (a), internal corridor type (Form 1) and (b), atrium type (Form 2). Fig. 2 Fig. 3 Air-conditioning schedule setting. Fig. 3 Fig. 4 Annual TMY weather data in target area: (a), dry-bulb temperature and (b), solar radiation rose diagram. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 4 Fig. 5 MLP model architecture. Fig. 5 Fig. 6 NSGA-II algorithm procedure. Fig. 6 Fig. 7 Case study information and equivalent models. Fig. 7 Fig. 8 Case monthly energy consumption data. Fig. 8 Fig. 9 PMV-related measured data: (a), indoor temperature and (b), indoor relative humidity. Fig. 9 Fig. 10 Measured vs. equivalent model-based monthly energy consumption: (a), value (b), error. Fig. 10 Fig. 11 Measured vs. equivalent model-based PMV: (a), value (b), error. Fig. 11 Fig. 12 Importance of design parameters: (a), Form 1; (b), Form 2. Fig. 12 Fig. 13 Model evaluation metrics: (a), MSE; (b), MAPE. Fig. 13 Fig. 14 Error histograms for prediction residuals: (a), BEC; (b), CTR; (c), IIC. Fig. 14 Fig. 15 Algorithm performance: (a), hypervolume of NSGA-II, (b), BEC (c), CTR, (d), IIC. Fig. 15 Fig. 16 Parallel coordinate plot of Pareto scheme under three scenarios. Fig. 16 Fig. 17 Pareto optimisation results under different working conditions: (a), 3d space distribution, (b), BCE-IIC projection (c), IIC-CTR projection, (d), BCE-CTR projection. Fig. 17 Table 1 Recent research on optimisation of nearly zero energy buildings. Table 1 Authors Building Type Design attributes Performance objectives Data Source Algorithm Comments [8] Office Building Facade design Energy consumptionCost Simulation \u2013 Energy-saving and cost-oriented facade optimisation [9] Residential building PV-FVF Energy consumption Simulation \u2013 Optimisation of energy consumption with a novel PV-FVF [10] Residential building External Venetian blind shading shading performance Simulation \u2013 Sensitivity analysis of Venetian blind shading effectiveness [11] Office Building structural thermal capacityinternal heat gains cooling terminals. Building energy flexibility Simulation \u2013 Sensitivity analysis and optimisation of cooling system energy flexibility [12] Residential building architecture form design Energy consumption Simulation \u2013 Comparison of heating energy consumption using various building spatial form modelling approaches [13] Office Building Building envelope Cost Official Data \u2013 Cost estimation under near-zero energy consumption targets [14] Office Building Overall Parameters of the Case Energy consumption Measured \u2013 Optimisation recommendations based on real-case applications [15] Residential building Building envelopeHeating system Energy consumptionDTWCost(NPW) Simulation ISO Multi-objective optimisation for near-zero energy buildings [16] Residential building Building envelopeHVACOperating Schedule Energy consumptionindoor zone temperature MeasuredSimulation \u2013 Performance prediction tool based on RF model [40] Office Building Building envelopeHVAC Energy consumptionCarbon emissionsThermal comfort Simulation PSORFNSGA-III Multi-objective optimisation framework for near-zero energy buildings under diverse climatic conditions [51] Office Building Building envelopeEnergy SystemPhotovoltaic Panel Energy consumption Simulation GA(Improvement) Multi-objective optimisation workflow for near-zero energy buildings incorporating project robustness assessment [52] Residential building HVACrenewable system Energy consumption Simulation PSORNN Deep learning-based energy consumption prediction framework Table 2 Setting of architectural spatial parameters. Table 2 Parameter Range(Form1) Range (Form2) Room east-west length (m) [6,10] [6,10] Room north-south length (m) [6,10] [6,10] Number of rooms with east-west orientation change (−) [4,12](integer values) [4,12](integer values) Number of rooms with north-south orientation change (−) [1,4](integer values) \u2013 Number of floors of building (−) [3,6](integer values) [3,6](integer values) Building height (m) [3.3,4.2] [3.3,4.2] Table 3 Setting of enclosure structure. Table 3 External wall Ordinal(from the outside in) Material Thickness(mm) Conductivity of materials(W/m2K) Wall U-value(W/m2K) 1 Cement mortar 20 0.81 [0.17051,0.1124] 2 EPS [150,250] 0.033 3 Reinforced concrete 200 0.18 4 Mortar mix 15 0.76 Roof Ordinal(from the outside in) Material Thickness(mm) Conductivity of materials(W/m2K) Roof U-value (W/m2K) 1 Cement mortar 20 0.81 [0.2075,0.087] 2 XPS [100,300] 0.030 3 Reinforced concrete 100 0.18 4 Mortar mix 15 0.76 External window Number Glass type(mm) U-value (W/m2K) SHGC (−) Visibletransmittance (−) Unit area cost (yuan/m2) 1 5mmC + 12mmA + 5mmC + 12mmA+5 mm Low-E 1.424 0.619 0.691 350 2 5mmC + 12mmA + 5mmC + 12mmA+5 mm Low-E *2 1.385 0.583 0.65 370 3 5mmC + 12mmAr + 5mmC + 12mmAr+5 mm Low-E 1.321 0.621 0.691 370 4 5mmC + 12mmAr + 5mmC + 12mmAr+5 mm Low-E *2 1.287 0.587 0.65 390 5 5mmC + 12mmA + 5mmLow-E + 12mmA + 5mmLow-E 1.132 0.569 0.65 370 6 5mmC + 12mmA + 5mmLow-E *2+12mmA + 5mmLow-E *2 1.069 0.505 0.574 410 7 5mmC + 12mmAr + 5mmLow-E + 12mmAr + 5mmLow-E 0.981 0.57 0.65 390 8 5mmLow-E + 12mmA + 5mmLow-E + 12mmA + 5mmLow-E 0.65 0.532 0.611 390 9 5mmC + 12mmAr + 5mmLow-E *2+12mmAr + 5mmLow-E *2 0.916 0.505 0.547 430 10 5mmLow-E *2 + 12mmA + 5mmLow-E *2+12mmA + 5mmLow-E *2 0.878 0.442 0.508 450 11 5mmLow-E + 12mmAr + 5mmLow-E + 12mmAr + 5mmLow-E 0.784 0.535 0.611 410 12 5mmLow-E*2 + 12mmAr + 5mmLow-E *2+12mmAr + 5mmLow-E *2 0.714 0.446 0.508 470 Facade Generation logic Parameter East West South North Form1 WWR(−) \u2013 \u2013 [0.2,0.8] [0.2,0.8] WINw(m) \u2013 \u2013 [1,6] [1,6] WINh(m) \u2013 \u2013 [2,4.2] [2,4.2] WINs(m) [0,2] [0,2] Form2 WWR(−) [0.2,0.8] [0.2,0.8] [0.2,0.8] [0.2,0.8] WINw(m) [1,6] [1,6] [1,6] [1,6] WINh(m) [2,4.2] [2,4.2] [2,4.2] [2,4.2] WINs(m) [0,2] [0,2] [0,2] [0,2] EPS = Expanded polystyrene XPS = Extruded polystyrene. C=Clear glass Low-E = Low-Emissivity Glass Low-E*2 = Double Glazed Low-E Glass A = Air with warm edge spacer Ar = Argon with warm edge spacer. WWR = Window-to-wall ratio WINw = Window width WINh = Window height WINs = window sill height. Table 4 Performance parameters of the case study office building. Table 4 Name Standard Exterior wall thermal transmittance coefficient 0.14 W/m2K Roof thermal transmittance coefficient 0.14 W/m2K Exterior window (including transparent exterior doors and glass curtain walls) thermal transmittance coefficient 1.0 W/m2K Form factor A/V = 0.18 Building air tightness N ± 50 ≤ 0.6ACH Heat recovery efficiency of ventilation equipment ≥75% Power consumption of ventilation equipment <0.45 W·h/m3 Table 5 Comparison of results from performance model and surrogate model. Table 5 BEC(kWh/m2) CTR(−) IIC(yuan/m2) Performance model-1 29.66 0.802 260.77 Surrogate model-1 29.80 0.807 268.02 Performance model-2 27.90 0.812 280.84 Surrogate model-2 28.25 0.818 274.00 Performance model-3 31.18 0.824 309.44 Surrogate model-3 31.59 0.823 308.25 Table 6 Decision-making outcomes Design parameters. Table 6 Output Working condition 1 Working condition 2 Room east-west length (m) 7.80 9.72 Room north-south length (m) 7.34 9.99 Number of east-west changing rooms (−) 9 12 Number of north-south changing rooms (−) 1 1 Number of building stories (−) 6 3 Building story height (m) 3.30 3.30 External wall heat transfer coefficient (W/m2K) 0.170 0.168 Roof heat transfer coefficient (W/m2K) 0.159 0.207 Exterior window glass type (−) 11 1 South-facing window-to-wall ratio (−) 0.23 0.20 South-facing window width (m) 1.41 1.19 South-facing window height (m) 3.41 4.06 South-facing window sill height (m) 1.11 1.14 North-facing window-to-wall ratio (−) 0.20 0.20 North-facing window width (m) 2.20 4.50 North-facing window height (m) 4.02 2.17 North-facing window sill height (m) 1.16 0.30 East-facing window-to-wall ratio (−) 0.22 0.27 East -facing window width (m) 1.51 3.23 East -facing window height (m) 2.66 3.08 East -facing window sill height (m) 1.08 0.71 West -facing window-to-wall ratio (−) 0.20 0.20 West -facing window width (m) 5.18 5.92 West -facing window height (m) 2.05 2.17 West -facing window sill height (m) 0.51 1.06 Atrium skylight ratio (−) 0.20 0.20 Performance outcomes Scenarios BEC(kWh/m2) CTR(−) IIC(yuan/m2) Equivalent model 27.47 0.769 214.07 Working condition 1 25.71 0.787 172.17 Working condition 2 23.42 0.857 179.95 Controllable cross-building multi-objective optimisation for NZEBs: A framework Utilising parametric generation and intelligent algorithms Ruijie Liu Conceptualization Data curation Formal analysis Investigation Methodology Software Validation Visualization Writing \u2013 original draft a Tao Fang Funding acquisition Project administration Resources Supervision Writing \u2013 review & editing a \u204e Yuanlong Cui Resources Supervision Writing \u2013 review & editing a Yanzheng Wang Resources Supervision b a School of Architecture and Urban Planning, Shandong Jianzhu University, Jinan 250101, China School of Architecture and Urban Planning Shandong Jianzhu University Jinan 250101 China School of Architecture and Urban Planning, Shandong Jianzhu University, Jinan 250101, China b Shandong Quality Inspection and Testing Center of Construction Engineering Co., Ltd, Jinan 250100, China Shandong Quality Inspection and Testing Center of Construction Engineering Co., Ltd Jinan 250100 China Shandong Quality Inspection and Testing Center of Construction Engineering Co., Ltd, Jinan 250100, China \u204e Corresponding author. Balancing performance and cost are crucial in optimising nearly zero-energy buildings. This study proposes a method for efficient preliminary design tailored to diverse requirements. It starts with parametric modelling and performance simulation to compile a dataset of common spatial forms in almost zero-energy office buildings. Subsequently, a multilayer perceptron surrogate model is trained on this dataset to map the relationships between design parameters and performance objectives across various spatial forms. A controllable NSGA-II constraint method enables designers to manage design variables and performance objectives independently for cross-building optimisation. The framework integrates the surrogate model with the NSGA-II algorithm under precise constraints, using TOPSIS to finalise Pareto solutions, and includes visualisation software for architects. The framework is validated in a high-performance office building in northern China by measuring data and using an equivalent model under two constraints. The results indicated that the framework reduced the energy consumption of the building by 6.6% and 14.7%, increased the thermal comfort time ratios by 2.3% and 11.4%, and lowered the initial investment costs by 19.6% and 16%, respectively, under each condition. Keywords Near-zero-energy buildings Multi-objective optimisation Performance simulation Artificial neural networks Parametric modelling Building energy consumption Data availability Data will be made available on request. 1 Introduction Amid the global energy crisis, building performance issues have gained increasing attention, leading to significant research advancements [1]. Near-zero energy buildings, a type of high-performance structures, have seen a rise in construction in recent years. Several countries have developed specifications to guide their growth [2]. Related studies often highlight the importance of scientifically balancing various indicators when defining nearly zero energy buildings [3\u20135]. In practical construction projects, building performance involves multiple objectives, prompting designers to achieve consistent projects and resolve conflicts between them. It is challenging to optimise performance effectively in the early stages of building projects using only human effort [6]. Artificial intelligence and other data-driven methods have demonstrated significant potential for reducing emissions and energy demands in this field [7]. 1.1 Optimisation of near-zero energy buildings Table 1 summarises recent studies on the performance prediction and optimisation of nearly zero energy buildings. These studies primarily focused on optimising passive design parameters such as building envelopes and shading [8\u201310]. This focus is due to the close relationship between passive parameters and the buildings themselves, where early-stage optimisation can significantly enhance efficiency and profitability [11,12]. The optimisation targets discussed in this study are passive design parameters. The nearly zero energy standard reduces energy consumption and improves indoor comfort but requires high-cost investments, which pose a major barrier to the development of these buildings. Early research identified cost as a crucial objective [13]. However, due to limitations in building stock and optimisation methods, most studies have focused on isolated cases of residential or office buildings and limited performance optimisation to certain parameters. As construction volumes increase and algorithms advance, comprehensive multi-objective optimisation, including cost, has become viable [14\u201316]. 1.2 Multi-objective optimisation framework using intelligent algorithms Integrating building performance simulations with optimisation algorithms is an efficient method for tackling multi-objective optimisation challenges in architecture [17,18]. Tools such as Genopt [19], jEplus [20], and ExRET-Opt [21], which are based on the EnergyPlus engine [22], and Ladybug-Honeybee [23], which integrates EnergyPlus and Radiance [24] with plugins such as Octopus and Wallacei on the Grasshopper platform, demonstrate this integration. Their superior compatibility has spurred widespread adoption in recent studies. However, traditional performance model optimisations, which require multiple iterations due to complex physical coupling problems, are time-consuming. Advancements in algorithmic techniques have led to the emergence of machine-learning models as a new method for predicting building performance. These studies have been broadly categorised into two groups. The first group focused on predicting the overall building performance using large-scale measurement data. For example, Liu et al. [25] developed a deep learning model using a multitask learning (MTL) architecture to predict the electrical load of a commercial building in Taipei and achieved notable results. Acquiring substantial measured data for training is challenging, prompting another research approach that uses building performance simulations to generate training data, with the machine-learning model serving as a surrogate for the physical model. Algorithms such as artificial neural networks (ANN), support vector machines (SVM), and random forests (RF) have been used for performance prediction and acceleration, yielding numerous results [26\u201328]. Based on these developments, research on multi-objective optimisation frameworks that integrate physical simulations, surrogate models, and optimisation algorithms for building performance has increased. Generally, the framework process is divided into three steps: data acquisition (simulation), prediction (surrogate model), and optimisation (decision making). These frameworks significantly improve optimisation efficiency compared with methods that use physical models. The most common algorithms for surrogate models in the prediction stage are black-box models, whose internal workings are difficult to interpret. This lack of transparency affects their ability to predict buildings influenced by factors such as region and type, necessitating extensive experiments. For example, Zekić-Sušac et al. [29] compared ANN with two types of tree-structured regression models and tested three strategies combining these models to evaluate their prediction effectiveness and confirm the potential of hybrid machine-learning methods. Konhäuser et al. [30] assessed the prediction performance of 12 machine-learning models on a dataset of over 25,000 German residential buildings and integrated them to create an ensemble model. Yan et al. [31] used an extreme gradient boosting (XGBoost) algorithm to create a data-driven workflow for comprehensively evaluating and quickly predicting office building performance. They also used this algorithm to assess the impact of design variable characteristics in these buildings. Among these models, ANNs, which simulate human brain structures, have shown a strong capability to fit nonlinear targets in various fields [32,33] and are particularly effective for building performance optimisation [34\u201336]. During the optimisation and decision-making stages, commonly used methods include the Pareto optimal solution and multi-criteria decision-making. The Pareto optimal method utilises algorithms such as NSGA-II and NSGA-III to identify the Pareto frontier and generate solution sets. Conversely, the multi-criteria decision-making method, employing approaches such as technique for order of preference by similarity to ideal solution (TOPSIS) and VIKOR, selects solutions based on the importance and priority of different objectives. The Pareto method lacks specific criteria for final solution selection and faces challenges of subjectivity and uncertainty in the evaluation criteria and weights in the multi-criteria method. Initially, the Pareto method is used to identify a set of optimal solutions, followed by the multi-criteria method to select the final decision. Additionally, novel optimisation and decision-making methods are current research hotspots. For instance, Wang et al. [37] employed quantum genetic algorithms to address the issue of genetic algorithms falling into local optima. Han et al. [38] introduced an interactive multi-criteria decision-making method and used it to optimise an office building to achieve an optimal solution with enhanced performance. Furthermore, the complexity of factors influencing actual projects means that designers without algorithm development skills find it challenging to engage in framework adjustments, hindering their practical application. Many studies have examined the feasibility of applying these frameworks for development. For instance, Elbeltagi et al. [39] developed an artificial neural network-based method to enhance energy use prediction in early residential building designs and created a user-friendly interface for easier adoption. D'Agostino et al. [40] utilised open-source software to develop a workflow that integrates robustness assessment into the multi-objective optimisation of near-zero energy building designs. Practical software is crucial in the development of regional near-zero energy buildings. 1.3 Cross-building challenges The core objective of a surrogate model is to establish a function that approximates the complex behaviours of the physical model used for training. Continuously fitting data not used in training remains a challenge. Despite ongoing research across various regions, climates, and building types, most studies have relied on simulation data from single cases [41\u201343], which limits cross-building performance prediction. Although recent studies have addressed this issue, highly effective solutions are still lacking. One potential solution is the deep transfer learning (DTL) method. For example, Fang et al. [44] proposed a Sim2Real transfer learning framework and investigated the effects of various building types, climate zones, and data volumes on prediction performance from a simulation-to-reality perspective. Li et al. [45] analysed three DTL strategies and compared them with traditional LSTM models. Another approach is to expand the volume of training data. For instance, Ali et al. [46] created a synthetic dataset of one million buildings using parametric modelling of 19 key variables across four residential prototypes to train an integrated model. Introducing building generation methods as variables into training through parametric modelling is a viable solution. In multi-objective optimisation studies that utilise parametric modelling, most implementations occur within Grasshopper using optimisation plugins [47\u201349]. However, few studies integrating surrogate models have proposed complete cross-building control methods. For instance, Razmi et al. [50] rapidly enhanced performance using parametric modelling of dormitory building benchmark modules combined with ANN algorithms. Although highly accurate, this method is restricted by the logic of limited training inputs, making it ideal for uniform spatial forms, such as nearly zero energy buildings with low form factors. To be effective within a single-building framework, the parameters of the optimisation algorithm must align with the thresholds established by the surrogate model. However, incorporating spatial parameters predicted across buildings into the surrogate model necessitates more precise constraint methods to maintain practical optimisation. 1.4 Research gaps and aims In summary, most current architectural multi-objective optimisation frameworks lack the capability for cross-building performance prediction and optimisation. Although some studies have included architectural spatial forms as variables, the traditional optimisation algorithms used are too constrained to meet cross-building needs, necessitating more precise processes for subjective parameter control. Moreover, research on integrated optimisation frameworks for nearly zero energy buildings is scarce. Few existing studies have relied on single-case examples for their surrogate model data and have yet to address the cross-building capabilities of these frameworks [40,51,52]. To address the identified research gaps, this paper introduces a controllable cross-building multi-objective optimisation framework for nearly zero energy buildings designed to rapidly provide preliminary design guidance across the target area. The framework integrates parametric modelling with an ANN algorithm to predict and generate multimodal building data. Simultaneously, a precise and controllable method for constraint management that facilitates cross-building optimisation is proposed. 2 Methodology This study developed and assessed a controllable cross-building multi-objective optimisation framework for nearly zero energy office buildings by employing parametric performance simulations, ANN surrogate models, and the NSGA-II algorithm (Fig. 1 ). The study begins with a data acquisition process using parametric modelling and performance simulation to compile a dataset that details the relationships between design variables and performance objectives across various spatial forms in the target area. This method eliminates the cumbersome repetitive modelling common in traditional simulations, and the comprehensive dataset obtained can significantly aid related research. Subsequently, a high-precision ANN surrogate model incorporating spatial generation logic variables is developed to effectively address the slow simulation issues associated with physical models. To overcome the challenges of analysing ANN models, the XGBoost algorithm was employed to determine feature importance within the dataset. Additionally, a precise and controllable constraint process was proposed to address cross-building optimisation challenges. This enhancement enables designers to participate proactively in the optimisation process, effectively controlling the design parameters and performance objectives within a defined spatial logic. The analysis showed that the pre-decision attributes of this approach contribute to outcome stability. Finally, by integrating parametric performance simulations, surrogate models, and optimisation algorithms, a comprehensive prediction and optimisation framework was created and encapsulated into practical software for architects. Furthermore, performance measurements and equivalent modelling of an actual low-energy building validated the simulation settings and demonstrated the effectiveness of the framework under various conditions. 2.1 Simulation 2.1.1 Physical model setting 2.1.1.1 Parametric space generation Although research cautions against indiscriminately pursuing a low shape coefficient, near-zero energy buildings are still designed to minimise adverse thermal exchanges on the building surface. This study examined the spatial designs of 16 low-energy office buildings and identified two predominant layouts: the internal corridor type (Form1) and atrium type (Form2). The physical models were constructed based on these designs. Spatial parameters for the physical model were generated using Grasshopper and integrated into Rhino, with parameter thresholds set based on design experience. Considering wall diffuse reflection, the building layout is determined by adjusting the room size and number using sliders within preset thresholds, featuring two design logics: Form1 and Form2. Form1 features two rows of rooms on the north and south sides separated by a corridor that aligns with the room length and is consistently 2 m wide. Form2 consists of rooms along all four sides, enclosed by a uniform 2-m-wide corridor, cantering around a full-height atrium. The two-layout logic is illustrated in Fig. 2 . The layout of each floor was uniform, with the overall building dimensions defined by only two parameters: the building height and floor height. Table 2 lists the abbreviations and threshold values for each parameter. Additionally, these design logics serve as variables for training subsequent surrogate models. 2.1.1.2 Enclosure structure The building envelope parameters were managed using construction-related battery packs in Ladybug-Honeybee. Threshold values were set according to the \u201cEnergy-saving Design Standard for Public Buildings\u201d DB37/T5155\u20132019 and the \u201cTechnical Standard for Near-Zero Energy Buildings\u201d GB/T51350\u20132019 in Shandong Province, China, as detailed in Table 3 . The heat transfer coefficients of the external walls and roofs depend on the thickness of the insulation layer. The external windows were simulated using common glass types and air interlayers, with material parameters sourced from the International Glass Database (IGDB). Façade design thresholds are based on design experience and specifications. If the total width of the external windows exceeded that of the room, their number was automatically reduced to a maximum of three. The skylight-to-atrium roof area ratio varied from 0.2 to 0.9. The thermal parameters featured a heat transfer coefficient of 1.1 W/m2K, a solar heat gain coefficient of 0.57, and visible light transmittance of 65%. The floor slab has a heat transfer coefficient of 0.3 W/m2K and a surface reflectance of 0.3, while internal walls have a coefficient of 2.12 W/m2K and a reflectance of 0.5. 2.1.1.3 Internal disturbance parameters and schedule Internal use conditions significantly impact building performance. The personnel density in the office rooms was set at 10 m2 per person, with lighting and equipment power densities of 9 W/m2 and 13 W/m2, respectively. The air-conditioning system uses an ideal unit with cooling and heating coefficients of performance (COP) of 3.4 and 2, respectively. The fresh-air heat recovery system, operating only on working days from 7 AM to 7 PM, has a 70% recovery efficiency and utilises full heat exchange. The heating season runs from November 13 to March 14, and the cooling season from May 2 to September 24. Air-conditioning schedules, as shown in Fig. 3 , were activated only on working days. The auxiliary spaces did not receive air conditioning. Mechanical ventilation was provided from 7 AM to 7 PM on weekdays. The indoor illuminance standards were set at 300 lx for office rooms and 100 lx for corridors. Monitoring points are set at a height of 0.8 m in the centre of each room. If natural lighting is insufficient, artificial lighting is automatically activated to meet the illuminance standards, thereby reflecting the energy consumption. 2.1.2 Dataset acquisition After establishing the parametric physical information model, the proposed approach uses a performance simulation to create a dataset of various design variables and their corresponding optimisation objectives for training the surrogate model. The design variables comprised 27 elements, including building layout, room dimensions, window configurations, and thermal properties. The optimisation objectives, aligned with near-zero energy standards, include building energy consumption (BEC), thermal comfort time ratio (CTR), and initial investment cost (IIC). 2.1.2.1 Sampling Surrogate models leveraging machine learning are widely used for functional fitting in complex scenarios. Generally, more training data and broader coverage lead to more accurate predictions. Reasonable sampling ensures coverage of diverse situations and boundary conditions in the design space, thus enhancing both training efficiency and model robustness. Both Monte Carlo and Latin hypercube sampling have shown favourable outcomes in training surrogate models within the architectural domain [43]. Given the potential for overfitting with the limited data from Latin hypercube sampling, Monte Carlo sampling was used to gather 4000 sets of design variables for training and validation. After evaluation, the training-to-testing ratio was set to 80:20. 2.1.2.2 Climate conditions Located in northern China, the target area is within the temperate monsoon climate zone. The simulation utilised an EPW weather file from Jinan's local meteorological centre, situated at an altitude of approximately 39 m and coordinates of 117.0°E longitude and 36.6°N latitude. This weather file is accessible on the EnergyPlus website [53]. The file provides details on the daily average dry-bulb temperatures and a radiation rise diagram for a Typical Meteorological Year (TMY), as illustrated in Fig. 4 . The climate of the area is characterised by marked seasonal variations: cold, dry winters and hot, humid summers, heavily influenced by monsoons. 2.1.2.3 Building energy consumption In Grasshopper, 4000 sets of design variables sampled using parametric tools were used to generate physical information models. The simulation iteratively calls the EnergyPlus engine via Honeybee, yielding 4000 sets of energy consumption results. Because electrical appliances and transportation are largely unaffected by the design parameters of the simulation, only three energy types were considered: cooling, heating, and lighting. After normalising the units via a COP calculation, these energy types were summed to calculate the annual total energy consumption of the building. It is important to note that, unlike single-case studies, each dataset must include the calculated building area for the model generated by Grasshopper. The annual energy consumption of each set was divided by its respective building area to determine the energy consumption per unit area, which served as a key indicator for the BEC in further optimisation. (1) BEC = E C + E H + E L S 0 where E C represents the cooling energy consumption, E H denotes the heating energy consumption, E L represents the lighting energy consumption, and S 0 indicates the total building area. 2.1.2.4 Building thermal comfort time ratio The Predicted Mean Vote (PMV) index, introduced by Danish professor Fanger, remains the most comprehensive measure of the indoor thermal comfort of occupants. This index has been extensively used to assess indoor thermal comfort across various building types. This paper proposes two methods to calculate the PMV and determine the overall CTR of a building. For the simulation data, calculations were performed using Ladybug's built-in battery pack in Grasshopper. The process began by calculating the indoor temperature and humidity for each room based on meteorological data. A simplified model of office personnel was established, followed by a preliminary simulation to obtain the key parameters. These parameters, along with the hourly room temperature and humidity, were then fed into the battery pack to compute the annual PMV for each room over 8760 h. After excluding 6160 h of non-working time, the percentage of time each room's PMV lies within the range of −1 to +1 was calculated against the total working hours, indicating annual thermal comfort. The average thermal comfort per room was used to calculate the building's CTR to assess comfort under partial seasonal air conditioning. The CTR is calculated as follows: (2) CTR = T 2600 where T denotes the working hours within the PMV comfort threshold, as calculated by the software. For the measured data, once the necessary parameters were obtained, the PMV values were calculated using the Python comfort toolkit [54]. The parameters\u2014air temperature, indoor relative humidity, black-globe temperature, and wind speed\u2014were input into Excel. The activity level was set to \u201cTyping,\u201d and the attire was specified as \u201cSuit\u201d with a clothing insulation value of 0.75 clo. All other parameters were set to commonly used default values. 2.1.2.5 Initial investment cost This study examines how various design parameters influence the most cost-effective initial costs and future benefits throughout a building's lifecycle. Concerning future benefits, since a building's energy consumption level reflects its lifecycle energy costs and the annual electricity consumption per unit area correlates with future electricity costs, future energy costs are not treated as a separate variable. Assuming that construction, operation, and other costs are excluded, the one-time investment cost of the building envelope primarily depends on the construction area, building materials, and usage. The spatial variable parameters of the model were used to determine the exterior envelope usage area, and the research established the unit cost of different construction materials, allowing for the calculation of the building's per unit area one-time investment cost. The formula for calculating the cost is as follows: (3a) C 0 = M e S e T e + M r S r T r + M w S w + M s S s (3b) IIC = C 0 S 0 where C 0 represents the total incremental cost (yuan); M e denotes the unit area thickness cost of the external wall insulation layer (yuan·m−2·mm−1), S e is the external wall area (m2), T e indicates the thickness of the external wall insulation layer (yuan); M r represents the unit area thickness cost of the roof insulation layer (yuan·m−2·mm−1), S r is the roof area (m2), T r denotes the thickness of the roof insulation layer (yuan); M w signifies the unit area cost of the external windows (yuan/m2), S w indicates the external window area (m2); M s represents the unit area cost of the skylights (yuan/m2), S s denotes the skylight area (m2), and S 0 represents the total building area. The unit area cost of skylights is 600 yuan/m2, and the costs of the windows are listed in Table 3. Relevant cost data were gathered from surveys conducted in the target area and supplied by associated companies. The cost per unit area thickness for local insulation materials (EPS, XPS) is uniformly 1.5 yuan/(m2·mm). This rate was used to calculate the cost of insulation materials with non-integer thicknesses. 2.2 Surrogate model 2.2.1 Model training and hyperparameter optimisation Incorporating generation logic as a design variable increases the complexity and modelling difficulty of regression problems. Consequently, ANNs, known for their strong nonlinear modelling and generalisation capabilities, were chosen as the surrogate model. A multilayer perceptron (MLP) neural network model was employed for regression modelling. PyTorch was used in Python to construct the MLP neural network surrogate model. The input layer consisted of 27 neurons (design variables), the output layer had 3 neurons (performance objectives), and the activation function was a rectified linear unit (ReLU). The overall framework is illustrated in Fig. 5 . The Adam (Adaptive Moment Estimation) optimiser updates and calculates the network parameters, optimising both the model training and output. The ANN model utilised a gradient descent algorithm. To optimise the objective function and approach the global minimum of the loss value, the learning rate should be decreased, helping the model converge as closely as possible to this point. The model uses a cosine-annealing algorithm to optimise the learning rate (LR). The maximum and minimum LRs were mapped onto a cosine function based on the number of training steps. This approach aims to \u2018jump out\u2019 of local minima and find the global minimum by suddenly increasing the LR. The controlled learning rate varies with the number of epochs. The batch size of the model matched the sample size of the training set. It was configured with num_epoch set at 200,000. To balance the dimensions, the three objectives\u2014BEC, CTR, and IIC\u2014were weighted using mse_weights of [1, 1/0.05, 1/5]. A total of 3200 datasets from the performance simulations served as the training set. The model converged and ceased iterations when it reached 49,000 epochs. 2.2.2 Model performance assessment metrics Mean squared error (MSE) and mean absolute percentage error (MAPE) are popular evaluation metrics for regression models. Both metrics range from 0 to positive infinity (+∞). When the predicted values match the true values perfectly, the metrics are equal to zero, indicating a perfect model. As the errors increase, these metrics also increase. The calculation formulas are as follows: (4a) MSE = 1 n ∑ i = 1 n y ^ i − y i 2 (4b) MAPE = 100 % n ∑ i = 1 n ∣ y ^ i − y i y i ∣ where y i represents the actual value, which is the true observed value of the i th sample, while y ^ i denotes the predicted value, which is the model predicted value of the i th sample. 2.3 Multi-objective optimisation and decision making The ANN surrogate model served as the objective function input for the optimisation algorithm. This study combines the Pareto and multi-criteria decision-making approaches. First, a non-dominated solution set of the target building was established using a genetic algorithm. Subsequently, the TOPSIS was employed for secondary decision making on non-dominated solutions. The final optimisation scheme was determined in two steps. 2.3.1 Multi-objective optimisation NSGA-II, an evolutionary algorithm introduced by Deb et al. [55] in 2002, is the most widely used algorithm for multi-objective optimisation in architecture [56]. Recently, several studies have surpassed NSGA-II in terms of optimisation results using new algorithms such as MOPSO [57], NSGA-III [58], MOEA/D [59], and C-TAEA [60]. However, research indicates that no single algorithm consistently outperforms others across all building optimisation scenarios [61,62]. Enhancing optimisation using new algorithms involves selecting the correct tool. NSGA-II remains reliable for optimisation tasks with fewer than four dimensions [63] and was chosen for this study. The paper outlines the methods for calculating and acquiring performance targets in Section 2.1.2. The computational formula for this multi-objective optimisation problem is defined as follows: (5) min f BEC x 1 x 2 ⋯ x 27 max f CTR x 1 x 2 ⋯ x 27 min f IIC x 1 x 2 ⋯ x 27 where f BEC , f CTR , and f IIC are defined in Eqs. (1), (2), and (3b), respectively. 2.3.1.1 High-controllability constraints In multi-objective optimisation, constraints typically limit the design variable thresholds and define the problem boundaries. The parameterised cross-building approach used in this study mimicked the actual conditions of various buildings through precise parameter control, necessitating a more exact method of parameter constraints. In practical projects, factors such as site, budget, and design preferences limit some construction parameters, requiring manual control by designers to meet specific requirements. A more precise and flexible constraint method would facilitate designer intervention in the optimisation process and enhance the relevance of the results. Furthermore, owing to the varying sensitivities of the design variables and performance objectives, some variables may not interact predictably during optimisation, and standard constraints might skew the results toward extreme values for certain variables. Consequently, this study enhances constraint controllability during the optimisation process by selecting and controlling design variables and performance objectives according to actual construction requirements. This approach allows designers to actively shape optimisation outcomes, thereby boosting the robustness and practicality of the framework and increasing its flexibility for practical applications. Drawing on engineering experience, this study identified commonly controlled design variables and performance objectives for manageable constraints. These include the generation logic (plane type), building area, layout of rooms (east-west and north-south), room dimensions, number of floors, floor height, and minimum window-to-wall ratio in each direction. The thresholds were aligned with the simulation settings described in Section 2.1. The precise control of the design parameters allows the framework to simulate buildings that mimic actual cases, thereby facilitating cross-building predictions. For example, it can be applied under various conditions in renovations (controlling the spatial parameters) and new construction projects (with partial or no control). The performance objectives encompass maximum energy consumption, minimum comfort levels, and cost range. Designers can tailor their performance objectives to the specific conditions and expectations of various projects. Both the controllable constraints and NSGA-II algorithm were implemented in Python. Implementation involves integrating a validity check function into the algorithm to ensure that the population meets the specified constraints. Hard constraints, such as the east-west room length and number of changing rooms, are strictly enforced. The populations that failed to meet these criteria were excluded. The ANN reinputs and filters these to ensure that the design variables are aligned with the set values. Soft constraints such as building area and maximum cost allow for some fluctuations. For example, if the set building area is 9000, the actual output will vary around this figure. In each optimisation cycle, the algorithm calculates the building area using spatial parameters. Populations that deviated significantly from 9000 receive higher adverse scores and were culled during the selection. Users can adjust genetic algorithm settings, such as population size, iteration count, crossover, and mutation rates. Pre-decisions on the design variables and targets are also possible. This process is illustrated in Fig. 6 . 2.3.2 Multi-criteria decision making The TOPSIS is widely used in engineering for multi-objective decision making [64]. TOPSIS calculates the weighted Euclidean distance between each alternative and the ideal solution to determine its proximity to the optimal point. This closeness was used as a ranking criterion to evaluate the superiority of alternatives. The formulas are presented in Eqs. (6a) and (6b): (6a) C i ∗ = S i − S i ∗ + S i − , i = 1 , 2 , ⋯ , m (6b) S i + = ∑ j = 1 m ω j Z j + − z ij 2 S i − = ∑ j = 1 m ω j Z j − − z ij 2 where S i + and S i − denote the distances from each evaluated solution to the positive and negative ideal solutions, respectively. The weight ω j of the j th criterion reflects its importance in the decision-making process. C i ∗ represents the relative closeness of the jth alternative, ranging from 0 to 1. The closer the C i ∗ is to 1, the more favourable is the evaluated solution. In the TOPSIS formula, the weight of each indicator is assumed to be equal by default when calculating the distance between each solution and the optimal or worst solutions. To better align with the actual situation, it is necessary to assign weights to each objective that participates in the decision-making process. Therefore, this study employs two weighting methods: subjective and objective. Subjective weighting involves the equal-weight method, whereas objective weighting employs the entropy-weight method. The entropy-weight method was used to assess the influence of each indicator based on data dispersion. The formula is as follows: (7) p j = c j ∑ j = 1 m c j where c j represents the variability of the jth target. The greater the variability, the higher the weight assigned to the target. p denotes the weight assigned to the jth target, calculated by normalising the differences among the targets. 2.4 Software integration A designer-focused software tool was developed using Python's Tkinter library to simplify the control of constraints and framework utilisation. The software interface was split into two main modules: prediction and optimisation. The prediction module uses a surrogate model in which users input Excel data for 27 design variables across \u2018n\u2019 buildings to receive 30 outputs per building (including three objectives). The optimisation module allows designers to manage the constraints on the genetic algorithm, design variables, and performance objectives independently. The final output was an Excel spreadsheet detailing a non-dominated set of solutions, listing 30 factors (27 variables and three objectives) per solution. Additionally, a Grasshopper plugin for model visualisation was developed in Rhino, allowing for the rapid generation of building information and 3D models from the resulting spreadsheet. 3 Case study 3.1 Building background The proposed framework was implemented and tested on a low-energy campus office building in northern China, as shown in Fig. 7 . The local climate conditions of the building aligned with those detailed in Section 2.1.2.2. Completed in 2017, the building spanned 8913 m2. This Sino-German collaborative project demonstrated low-energy building technologies, including ground-source heat pumps, solar and wind power generation, thermal bridge treatment, heat recovery systems, and systems for controlling indoor comfort and independent temperature and humidity. Designed and constructed to meet China's near-zero energy standards, detailed building parameters are listed in Table 4 . 3.2 Measurement Energy consumption data were collected using an experimental building monitoring platform. Fig. 8 shows the monthly trends in air conditioning (AC-EC) and lighting energy consumption (L-EC) per unit area from 2021 to 2022. Annually, the building consumes 15.49 kWh/m2 for air conditioning and 12.83 kWh/m2 for lighting. The total annual energy consumption per unit area was 28.32 kWh/m2. Thermal comfort data were obtained from measurements conducted in the office rooms of the experimental building. The measurements included four variables: indoor air temperature, relative humidity, black-globe temperature, and wind speed. The testing equipment and environment are detailed in Fig. 7. Indoor measurements were conducted in two office rooms using two sets of equipment. The data included air temperature, black-globe temperature, wind speed, relative humidity, and average post-measurement. Outdoor measurements of dry-bulb temperature and relative humidity were performed using a meter housed in a ventilated aluminium tube on the building's shaded roof. Testing was conducted during the transitional season, without indoor heating or cooling, from 8:00 to 18:00, spanning March 27 to March 31, 2023, and April 3 to April 7, 2023, with data recorded every 15 min. The results are presented in Fig. 9 . and (c), black-globe temperature and (d), indoor wind velocity. 3.3 Equivalent model The experimental building was modelled in Grasshopper, as shown in Fig. 7, using the simulation settings described in Section 3.1. The BEC, CTR, and IIC were calculated and validated using measured data. The energy consumption results are shown in Fig. 10 . The measured data shows 28.32 kWh/m2, compared to the simulated 27.47 kWh/m2, a discrepancy of only 3%, indicating high consistency. This discrepancy may stem from differences between the actual weather and the typical annual data in the EPW file used for the simulations, potentially causing significant variations in weather conditions during the testing period compared to the simulated conditions. As direct PMV comparisons on the same dates and times were not feasible, PMV comparisons were conducted on simulated days that closely matched the actual outdoor climate. The simulated and measured PMV values in the same room location were compared to evaluate the indoor PMV agreement between the model and the actual building under comparable external conditions. The results, including hourly PMV values derived from 15-min measurements, are shown in Fig. 11 . Calculations reveal that the overall average simulated PMV is −0.641, whereas the measured PMV is −0.689. All daily average PMV differences were within 0.1, and the simulation errors were within acceptable limits. As costs are affected by time and market fluctuations, the actual construction price of the experimental building was not considered. The IIC of the equivalent model, calculated based on the actual material usage, adheres to the methods and prices detailed in Section 2.1.2.5. The calculated IIC amounts to 214.07 yuan/m2. 3.4 Verify simulation test setup The target case was optimised using a framework that precisely constrained and controlled design variables. Two working conditions were considered to assess the flexibility of the framework. The first working condition focused on optimising the renovation of an experimental building. Here, the spatial parameters of the surrogate model were adjusted to match those of the equivalent model, closely approximating its spatial form while focusing solely on optimising the envelope structure parameters. After selection, the envelope structure parameters of the optimal surrogate model were incorporated into the equivalent model for the performance simulation. This method tested the feasibility of the framework for optimising renovation projects and their cross-building prediction capabilities. The second working condition addresses the performance optimisation for a new experimental building, assuming that the project is yet to be constructed with specific construction area requirements. By applying soft constraints to the building area of the surrogate model to approximate the construction area of the experimental building, the framework yielded optimisation results in various spatial forms. The algorithm settings were consistent across both working conditions: a population size of 200 and 500 iterations, a crossover probability of 0.8, and a mutation probability of 0.2. 4 Results 4.1 Influence of design parameters on performance metrics Feature importance is commonly used to analyse the relationship between variables and objectives. Although this study selected the ANN model because of its superior predictive performance and potential, its interpretability was relatively limited. Therefore, this study employed XGBoost to perform a feature importance analysis on the dataset. XGBoost, an enhanced version of the gradient boosting decision tree (GBDT) model, is widely used for data feature mining [31]. In Python, XGBoost was used to perform separate regression modelling for each dataset objective. The feature importance is determined by calculating the split node loss and the number of splits. Due to the significant performance differences between the plane generation logics, Form1 and Form2 were analysed separately. The analysis showed that the design variables impact more than one performance objective because of their complex interrelationships. Fig. 12 illustrates the significant impacts of the design variables on various performance parameters. Spatial generation-related parameters notably influence performance objectives. For example, the number of building stories has a greater impact on the BEC and CTR in Form2 than in Form1, likely because of the atrium. The number of north-south changing rooms most significantly affects the IIC in Form2, likely because it expands the building area quickly in Form2's space generation logic with an atrium. Among transparent envelope structures, single-window shape parameters minimally impact the performance, mainly affecting the WWR. As a result, general studies usually exclude specific façade forms. However, this framework, which includes cross-building prediction and generation, still incorporates the façade form and WWR control as optimisation variables. The impact of the south-north WWR on the performance significantly exceeded that of the east-west WWR, which is consistent with the general understanding. The high cost of high-performance windows means that the window-wall ratio and selected window type significantly affect the IIC. Among the non-transparent envelope structures, while Wu had a lower impact on BEC than RFu, its effects on CTR and IIC were similar. 4.2 Surrogate model validation To confirm the accuracy of the surrogate model and check for overfitting, the trends of MSE and MAPE throughout the training and validation phases of the model were recorded using TensorBoard, as illustrated in Fig. 13 . The final MSE for the training set was 0.862, and the MAPE was 1.656. For the test set, the final MSE was 1.174 with a MAPE of 1.838. Both evaluation metrics indicated that the model performed satisfactorily. The use of the dropout process alleviates the overfitting problem common in this type of surrogate model, and the convergence of the two performance metrics is satisfactory. Fig. 14 depicts the error histogram for the validation set that did not participate in model training. The prediction residuals gauge the model's predictive accuracy across various performance parameters and delineate the differences among the spatial generation logics. The results indicated that the ANN algorithm provided accurate predictions, with all performance parameters falling within acceptable error ranges. Performance of Form 1 was significantly better than that of Form 2, likely due to more complex spatial composition of Form 2. For a more intuitive assessment of accuracy, the surrogate model's predictions for randomly selected samples outside the dataset were compared with the simulation results. Due to space limitations, only three groups are presented in Table 5 . 4.3 Optimisation algorithm evaluation The hypervolume is a pivotal metric for evaluating the performance of multi-objective optimisation algorithms, particularly when the Pareto frontier is unknown and the problem has fewer than four dimensions, making it well-suited for this study. Specifically, it measures the volume enclosed by the non-dominated solutions from the algorithm and a reference point in the objective space. A larger hypervolume indicates that the algorithm's solutions are more widely distributed and closer to the true Pareto frontier, indicating enhanced performance. The hypervolume of the algorithm is computed using the PyMoo library [65], and the results are depicted in Fig. 15 (a). The observations suggest that the algorithm stabilises after 50 generations. However, it is worth noting that factors such as constraints and reference points can influence the hypervolume value and its stability, primarily aiding in the comparison of different algorithms rather than providing an intuitive explanation of performance. To validate the effectiveness of the optimisation algorithm, the performance outcomes of 200 non-dominated solution sets obtained via optimisation were compared with those from a randomly sampled dataset. The optimisation process does not impose strict constraints on the variable parameters and objectives. The results indicated that the non-dominated solution set significantly outperformed the random set for every objective. As illustrated in Fig. 15 (b), (c), and (d), the BEC index decreased by an average of 13.05%, the CTR index increased by 7.88%, and the IIC index decreased by 25.52%. 4.4 Framework for optimising performance outcomes 4.4.1 Performance of constraint control and results of design parameter optimisation To investigate the impact of constraint control on the design parameters and performance objectives, a control group for Form2 was introduced without precise constraints, in addition to the two working conditions described in Section 3.4. Fig. 16 presents the parallel coordinate plot for the Pareto solutions of the three experimental groups, displaying 27 design variables, three performance objectives, and the final building area for the 200 non-dominated solutions derived from the optimisation. It is evident that varying the constraint conditions significantly influenced the optimisation trends of the design variables. Working Condition 1, with additional constraints, exhibited a more pronounced deviation in trends from the unconstrained group than Working Condition 2. The effects of the two constraint methods on the solution set also varied. In Working Condition 1, hard constraints were applied to all spatial parameters to closely match the spatial form of the experimental building while also precisely controlling the area. Working Condition 2 ensured the diversity of the spatial parameters by guiding the solution set toward the vicinity of the specified target area using a penalty function. For unconstrained design variables, the performance results are influenced by the population screening mechanism in the NSGA-II algorithm. As this study uses a typical black-box algorithm, such as the ANN, combined with a heuristic algorithm, such as NSGA-II, for optimisation, the impact of each factor on the performance results cannot specifically be explained. Because of the interactions between factors, traditional sensitivity analysis can also be used to determine the effects of these uncertainties on the results. Therefore, in Section 4.1, XGBoost was used to analyse the importance of these design variables on the results, as many influencing factors (27 items) were selected during the setting. These factors will be calculated and screened by NSGA-II to obtain a Pareto solution set when unconstrained. Notably, uncertain influencing factors outside the setting (such as special personnel activities and building structures with low impact) are ignored in this study because of their low impact. Additionally, certain design parameters in the solution set tended to converge toward specific values. For example, under all three constraint conditions, WWRn tended toward a preset minimum of 0.2, whereas the ratios of the other orientations fluctuated within a narrower range. Among the spatial parameters, the floor height consistently measured approximately 3.3 m across various forms, aligning with the region's typical design practices for low-energy buildings. Rew exhibited greater versatility, whereas Rns approached the set maximum, likely owing to the positive effects of increased room depth on air-conditioning energy efficiency outweighing its negative impacts on lighting. These stable values are recommended as the regional design standards. However, the implications of imposing additional constraints and performance objectives should be considered. For instance, although the skylight area ratio optimisation results fluctuated within a narrow range, a well-designed skylight can enhance the indoor lighting environment of a building. Designers should tailor their frameworks to satisfy specific requirements. 4.4.2 Analysis of Pareto solution sets for performance objectives Fig. 17 illustrates the spatial distributions of the three performance objectives across the three experimental groups and their two-dimensional projections. In comparison to the equivalent model, Working Condition 1 results in an average BEC of 25.47 kWh/m2, a 7.3% decrease; CTR of 0.85, an 11.0% increase; and IIC of 193.29 yuan/m2, a 9.7% decrease. For Working Condition 2, the average BEC is 25.36 kWh/m2, down by 7.7%; CTR is 0.88, up by 14.5%; and IIC is 191.12 yuan/m2, reduced by 10.7%. Under the stringent constraints of Condition 1, the performance objectives were significantly concentrated. This indicates that the solution set is generally closer to the ideal Pareto frontier. This is because precise constraint control effectively reduces data dimensionality, and the proposed subjective constraint application enhances the optimisation robustness, aligning with the designer's requirements. However, it is important to note that too many constraints may limit the potential for obtaining optimal solutions. Two-dimensional projection revealed that the BEC and CTR thresholds in Condition 1 were notably lower than those in the other groups. In practical applications, these constraints must be carefully considered and balanced. 4.4.3 TOPSIS decision-making outcomes The TOPSIS method implemented in Python is used to make secondary decisions for the Pareto solution set. The entropy-weight method analyses the non-dominated solution set for Working Condition 1. The non-dominated solutions are sorted based on the weighting results. For Working Condition 2, the equal-weight method was applied to subjective decision making. The decision results for the design parameters under the two working conditions are listed in Table 6 . The envelope structure parameters from Working Condition 1 were input into the equivalent model simulation to derive the final renovation model results. The model for Working Condition 2 was simulated using an equivalent model to derive the final results for this new condition. Performance comparisons of the optimisation results under both working conditions and the equivalent model are presented in Table 6. In the renovation scenario for Working Condition 1, BEC decreased by 6.6%, CTR increased by 2.3%, and IIC decreased by 19.6%. In the new construction scenario of Working Condition 2, with the same area index, the BEC decreased by 14.7%, the CTR increased by 11.4%, and the IIC decreased by 16%. Apart from the IIC, the other two performance indicators for the new construction project surpassed those for the renovation project. However, a new construction project results in a larger building footprint, which may not meet the actual project requirements, underscoring the need for precise constraints within the framework. Designers should tailor solutions to specific needs and align them with the framework's control constraints. This section provides a single decision-making example for each working condition. 4.4.4 Future work The proposed optimal preliminary design method for different construction requirements essentially converts limited parametric design samples and performance results into structured data, which are then input into the ANN surrogate model for equivalent regression. This method is relatively ineffective when dealing with building forms and parameters outside the dataset. Additionally, training on building types with complex spatial forms requires large datasets, rendering performance simulation time-consuming. Therefore, this study temporarily limits the research objects to nearly zero-energy buildings with relatively simple spatial forms and uses surveys to obtain two commonly used spatial organisation methods for simulation. Overall, this method requires further investigation before its expansion to other complex types of buildings, and has certain limitations. In the future, combining this research with another interesting topic in this field, building generation research, may provide further expansion possibilities. For example, rather than training the surrogate model with structured data, deep learning models such as convolutional neural networks and transformers could directly identify building plan information to facilitate the initial design generation of buildings with complex spatial forms and working conditions. 5 Conclusion This study introduced a highly controllable cross-building multi-objective prediction and optimisation framework that integrated performance simulation, measured data verification, machine-learning architecture, and multi-objective optimisation algorithms. This advanced research on intelligent algorithm frameworks for near-zero energy office buildings, a relatively underexplored area, addressing common challenges such as inadequate cross-building performance prediction, decision-making difficulties, and limited usability for designers. The main conclusions and achievements of this study are as follows: (1) Based on the survey results analysing the spatial forms of near-zero energy office buildings in Shandong Province, we selectively constructed parametric performance models with diverse building generation logics. Through performance simulation, we obtained a dataset for the target area comprising 27 design variables and three performance objectives: BEC, CTR, and IIC. We analysed the interactions between design variables and performance objectives of near-zero energy office buildings, focusing on the importance of features to understand the underlying mechanisms. (2) An ANN surrogate model was constructed and trained in Python using the dataset obtained from physical simulations. Following hyperparameter optimisation, we verified the model's high accuracy; it achieved an MSE of 0.000419 and a MAPE of 1.06 on the validation set. Testing showed that the model could produce 4000 sets of building performance results in just 12 s, dramatically reducing the two-week simulation period required by the traditional physical model in Grasshopper. (3) Compared with similar studies, our framework enhanced the controllability of the constraint stage within the optimisation algorithm. Utilising NSGA-II, our framework facilitated the precise screening of design variables and performance objectives, enabling designers to flexibly control the optimisation process based on actual construction conditions. Additionally, we developed and implemented software featuring a designer-friendly user interface to guide the construction of near-zero energy office buildings in the target area. The framework was assessed using measured data from a low-energy office building in northern China, and the TOPSIS method was employed to determine the Pareto solution set. The results indicated that controllable constraints effectively modified the optimisation trends of the design parameters and performance outcomes. When constrained to \u201capproach\u201d the spatial form parameters of the case study, compared to an equivalent model, the BEC decreased by 6.6%, the CTR increased by 2.3%, and the IIC decreased by 19.6%. With the sole constraint of area, BEC decreased by 14.7%, CTR increased by 11.4%, and IIC decreased by 16%. The framework simultaneously optimised the trade-offs among the three objectives (BEC, CTR, and IIC) under varying conditions. Additionally, this framework construction method can be adapted to various building types and energy consumption levels. However, this study has the scope for further expansion. For instance, additional design variables and performance objectives can be incorporated. In particular, in cross-building prediction, the study's reliance on just two generation methods, owing to the uniform spatial forms of near-zero energy buildings, complicates the optimisation of structures with significant spatial deviations. In the future, combining this study with building generation research, another popular topic in the field, could offer further possibilities for expansion. This approach also requires the construction and optimisation of models. Nomenclature ANN artificial neural network BEC building energy consumption Bew number of east-west changing rooms Bns number of north-south changing rooms CTR comfort time ratio C-TAEA two-archive evolutionary algorithm for constrained multi-objective optimisation DTW weighted discomfort time GA Genetic algorithm Gtype external window glass type HVAC heating, ventilation, and air conditioning IIC initial investment cost MOPSO multi-objective particle Swarm Optimisation MOEA/D multi-objective evolutionary algorithm based on decomposition MLP multilayer perceptron NPW net present worth NSGA-II fast non-dominated sorting genetic algorithm NSGA-III reference-point-based non-dominated sorting genetic algorithm PV-FVF photovoltaic forced ventilated façade RNN residual neural network Rsl atrium skylight ratio RF random forest Rew room east-west length Rns room north-south length RFu roof heat transfer coefficient ST number of building stories STh building story height SVM support vector machine Wu external wall heat transfer coefficient WWR window to wall ratio WWRs south-facing window-to-wall ratio WINsw south-facing window width WINsh south-facing window height WINss south-facing window sill height WWRn north-facing window-to-wall ratio WINnw north-facing window width WINnh north-facing window height WINns north-facing window sill height WWRe east-facing window-to-wall ratio WINew east-facing window width WINeh east-facing window height WINes east-facing window sill height WWRw west-facing window-to-wall ratio WINww west-facing window width WINwh west-facing window height WINws west-facing window sill height CRediT authorship contribution statement Ruijie Liu: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Software, Validation, Visualization, Writing \u2013 original draft. Tao Fang: Funding acquisition, Project administration, Resources, Supervision, Writing \u2013 review & editing. Yuanlong Cui: Resources, Supervision, Writing \u2013 review & editing. Yanzheng Wang: Resources, Supervision. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This research is supported by the National Natural Science Foundation of China (No. 52278024) and the Natural Science Foundation of Shandong Province, China (No. ZR2022ME015). References [1] International Energy Agency, Global Alliance for Buildings and Construction Global status report for buildings and construction Paris 2019 2019 International Energy Agency, Global Alliance for Buildings and Construction. 2019 Global Status Report for Buildings and Construction. Paris; 2019. [2] M.S. Ahluwalia U. Patel Getting to net zero: An approach for India at CoP-26 2021 Ahluwalia MS, Patel U. Getting to net zero: an approach for India at CoP-26. 2021. [3] M. Economidou V. Todeschi P. Bertoldi Review of 50 years of EU energy efficiency policies for buildings Energ Build 225 2020 110322 10.1016/j.enbuild.2020.110322 Economidou M, Todeschi V, Bertoldi P, et al. Review of 50 years of EU energy efficiency policies for buildings. Energy Build 2020;225:110322. doi:10.1016/j.enbuild.2020.110322. [4] D. D\u2019Agostino L. Mazzarella What is a nearly zero energy building? Overview, implementation and comparison of definitions J Build Eng 21 2019 200 212 10.1016/j.jobe.2018.10.019 D'Agostino D, Mazzarella L. What is a Nearly zero energy building? Overview, implementation and comparison of definitions. J Build Eng 2019;21:200\u201312. doi:10.1016/j.jobe.2018.10.019. [5] P. Chastas T. Theodosiou D. Bikas Embodied energy in residential buildings-towards the nearly zero energy building: a literature review Build Environ 105 2016 267 282 10.1016/j.buildenv.2016.05.040 Chastas P, Theodosiou T, Bikas D. Embodied energy in residential buildings-towards the nearly zero energy building: A literature review. Build Environ 2016;105:267\u201382. doi:10.1016/j.buildenv.2016.05.040. [6] D. Davis Modelled on software engineering: Flexible parametric models in the practice of architecture 2013 PhD Australia Davis D. Modelled on software engineering: Flexible parametric models in the practice of architecture. PhD, Australia; 2013. [7] S.N. Mousavi M.G. Villarreal-Marroquín M. Hajiaghaei-Keshteli N.R. Smith Data-driven prediction and optimisation toward net-zero and positive-energy buildings: a systematic review Build Environ 242 2023 110578 10.1016/j.buildenv.2023.110578 Mousavi SN, Villarreal-Marroquín MG, Hajiaghaei-Keshteli M, Smith NR. Data-driven prediction and optimisation toward net-zero and positive-energy buildings: A systematic review. Build Environ 2023;242:110578. doi:10.1016/j.buildenv.2023.110578. [8] M. Thalfeldt E. Pikas J. Kurnitski H. Voll Facade design principles for nearly zero energy buildings in a cold climate Energ Build 67 2013 309 321 10.1016/j.enbuild.2013.08.027 Thalfeldt M, Pikas E, Kurnitski J, Voll H. Facade design principles for nearly zero energy buildings in a cold climate. Energy Build 2013;67:309\u201321. doi:10.1016/j.enbuild.2013.08.027. [9] C. García-Gáfaro C. Escudero-Revilla I. Flores-Abascal J.M. Hidalgo-Betanzos A. Erkoreka-González A photovoltaic forced ventilated façade (PV-FVF) as heat source for a heat pump: assessing its energetical profit in nZEB buildings Energ Build 261 2022 111979 10.1016/j.enbuild.2022.111979 García-Gáfaro C, Escudero-Revilla C, Flores-Abascal I, Hidalgo-Betanzos JM, Erkoreka-González A. A photovoltaic forced ventilated façade (PV-FVF) as heat source for a heat pump: Assessing its energetical profit in nZEB buildings. Energy Build 2022;261:111979. doi:10.1016/j.enbuild.2022.111979. [10] H. Huo W. Xu A. Li J. Chu Y. Lv Sensitivity analysis and prediction of shading effect of external venetian blind for nearly zero-energy buildings in China J Build Eng 41 2021 102401 10.1016/j.jobe.2021.102401 Huo H, Xu W, Li A, Chu J, Lv Y. Sensitivity analysis and prediction of shading effect of external Venetian blind for nearly zero-energy buildings in China. J Build Eng 2021;41:102401. doi:10.1016/j.jobe.2021.102401. [11] F. Lu Z. Yu Y. Zou X. Yang Cooling system energy flexibility of a nearly zero-energy office building using building thermal mass: potential evaluation and parametric analysis Energ Build 236 2021 110763 10.1016/j.enbuild.2021.110763 Lu F, Yu Z, Zou Y, Yang X. Cooling system energy flexibility of a nearly zero-energy office building using building thermal mass: Potential evaluation and parametric analysis. Energy Build 2021;236:110763. doi:10.1016/j.enbuild.2021.110763. [12] E. Li L. Chen T. Zhang J. Zhu R. Hou A nearly zero energy building design method based on architecture form design for high solar exposure areas in China\u2019s severe cold and cold regions J Build Eng 45 2022 103641 10.1016/j.jobe.2021.103641 Li E, Chen L, Zhang T, Zhu J, Hou R. A nearly zero energy building design method based on architecture form design for high solar exposure areas in China's severe cold and cold regions. J Build Eng 2022;45:103641. doi:10.1016/j.jobe.2021.103641. [13] E. Pikas M. Thalfeldt J. Kurnitski Cost optimal and nearly zero energy building solutions for office buildings Energ Build 74 2014 30 42 10.1016/j.enbuild.2014.01.039 Pikas E, Thalfeldt M, Kurnitski J. Cost optimal and nearly zero energy building solutions for office buildings. Energy Build 2014;74:30\u201342. doi:10.1016/j.enbuild.2014.01.039. [14] B. Lin Z. Chen Net zero energy building evaluation, validation and reflection \u2013 a successful project application Energ Build 261 2022 111946 10.1016/j.enbuild.2022.111946 Lin B, Chen Z. Net zero energy building evaluation, validation and reflection \u2013 A successful project application. Energy Build 2022;261:111946. doi:10.1016/j.enbuild.2022.111946. [15] F. Tang J. Chen J. Li D. Rodriguez Energy saving actions toward NZEBs with multiple-criteria optimisation in current residential buildings Energy Rep 6 2020 3008 3022 10.1016/j.egyr.2020.10.069 Tang F, Chen J, Li J, Rodriguez D. Energy saving actions toward NZEBs with multiple-criteria optimisation in current residential buildings. Energy Rep 2020;6:3008\u201322. doi:10.1016/j.egyr.2020.10.069. [16] M.H. Abokersh M. Spiekman O. Vijlbrief T.A.J. van Goch M. Vallès D. Boer A real-time diagnostic tool for evaluating the thermal performance of nearly zero energy buildings Appl Energy 281 2021 116091 10.1016/j.apenergy.2020.116091 Abokersh MH, Spiekman M, Vijlbrief O, van Goch TAJ, Vallès M, Boer D. A real-time diagnostic tool for evaluating the thermal performance of nearly zero energy buildings. Appl Energy 2021;281:116091. doi:10.1016/j.apenergy.2020.116091. [17] M. Talaei H. Sangin Multi-objective optimisation of energy and daylight performance for school envelopes in desert, semi-arid, and mediterranean climates of Iran Build Environ 2024 111424 10.1016/j.buildenv.2024.111424 Talaei M, Sangin H. Multi-objective optimisation of energy and daylight performance for school envelopes in desert, semi-arid, and mediterranean climates of Iran. Build Environ 2024;111424. doi:10.1016/j.buildenv.2024.111424. [18] Z. Luo Y. Lu Y. Cang L. Yang Study on dual-objective optimisation method of life cycle energy consumption and economy of office building based on HypE genetic algorithm Energ Build 256 2022 111749 10.1016/j.enbuild.2021.111749 Luo Z, Lu Y, Cang Y, Yang L. Study on dual-objective optimisation method of life cycle energy consumption and economy of office building based on HypE genetic algorithm. Energy Build 2022;256:111749. doi:10.1016/j.enbuild.2021.111749. [19] M. Wetter Generic Optimisation Program User Manual, Version 3.1. 1. Lawrence Berkeley National Laboratory, Berkeley, CA, USA 2016 Wetter M. Generic Optimisation Program User Manual, Version 3.1. 1. Lawrence Berkeley National Laboratory, Berkeley, CA, USA; 2016. [20] Y. Zhang Parallel EnergyPlus and the development of a parametric analysis tool IBPSA BS2009 2009 27 30 Zhang Y. Parallel EnergyPlus and the development of a parametric analysis tool. IBPSA BS2009, 2009, p. 27\u201330. [21] Garcia Kerdan R. Raslan P. Ruyssevelt Galvez D. Morillon ExRET-opt: an automated exergy/exergoeconomic simulation framework for building energy retrofit analysis and design optimisation Appl Energy 192 2017 33 58 10.1016/j.apenergy.2017.02.006 Garcia Kerdan, Raslan R, Ruyssevelt P, Morillon Galvez D. ExRET-Opt: an automated exergy/exergoeconomic simulation framework for building energy retrofit analysis and design optimisation. Appl Energy 2017;192:33\u201358. doi:10.1016/j.apenergy.2017.02.006. [22] D.B. Crawley L.K. Lawrie F.C. Winkelmann W.F. Buhl Y.J. Huang C.O. Pedersen EnergyPlus: creating a new-generation building energy simulation program Energ Build 33 2001 319 331 10.1016/S0378-7788(00)00114-6 Crawley DB, Lawrie LK, Winkelmann FC, Buhl WF, Huang YJ, Pedersen CO, et al. EnergyPlus: creating a new-generation building energy simulation program. Energy Build 2001;33:319\u201331. doi:10.1016/S0378-7788(00)00114-6. [23] M. Roudsari C. Mackey A. Yezioro C. Harriman Chopson P 2014 Ahuja S Honeybee Roudsari M, Mackey C, Yezioro A, Harriman C, Chopson P, Ahuja S. Honeybee. 2014. [24] C.F. Reinhart O. Walkenhorst Validation of dynamic RADIANCE-based daylight simulations for a test office with external blinds Energ Build 33 2001 683 697 10.1016/S0378-7788(01)00058-5 Reinhart CF, Walkenhorst O. Validation of dynamic RADIANCE-based daylight simulations for a test office with external blinds. Energy Build 2001;33:683\u201397. doi:10.1016/S0378-7788(01)00058-5. [25] C.-L. Liu C.-J. Tseng T.-H. Huang J.-S. Yang K.-B. Huang A multi-task learning model for building electrical load prediction Energ Build 278 2023 112601 10.1016/j.enbuild.2022.112601 Liu C-L, Tseng C-J, Huang T-H, Yang J-S, Huang K-B. A multi-task learning model for building electrical load prediction. Energy Build 2023;278:112601. doi:10.1016/j.enbuild.2022.112601. [26] J. Zhan W. He J. Huang Dual-objective building retrofit optimisation under competing priorities using artificial neural network J Build Eng 70 2023 106376 10.1016/j.jobe.2023.106376 Zhan J, He W, Huang J. Dual-objective building retrofit optimisation under competing priorities using Artificial Neural Network. J Build Eng 2023;70:106376. doi:10.1016/j.jobe.2023.106376. [27] S. Seyedzadeh F. Pour Rahimian S. Oliver S. Rodriguez I. Glesk Machine learning modelling for predicting non-domestic buildings energy performance: a model to support deep energy retrofit decision-making Appl Energy 279 2020 115908 10.1016/j.apenergy.2020.115908 Seyedzadeh S, Pour Rahimian F, Oliver S, Rodriguez S, Glesk I. Machine learning modelling for predicting non-domestic buildings energy performance: a model to support deep energy retrofit decision-making. Appl Energy 2020;279:115908. doi:10.1016/j.apenergy.2020.115908. [28] S. Yigit A machine-learning-based method for thermal design optimisation of residential buildings in highly urbanized areas of Turkey J Build Eng 38 2021 102225 10.1016/j.jobe.2021.102225 Yigit S. A machine-learning-based method for thermal design optimisation of residential buildings in highly urbanized areas of Turkey. J Build Eng 2021;38:102225. doi:10.1016/j.jobe.2021.102225. [29] M. Zekić-Sušac A. Has M. Knežević Predicting energy cost of public buildings by artificial neural networks, CART, and random forest Neurocomputing 439 2021 223 233 Zekić-Sušac M, Has A, Knežević M. Predicting energy cost of public buildings by artificial neural networks, CART, and random forest. Neurocomputing 2021;439:223\u201333. [30] K. Konhäuser S. Wenninger T. Werner C. Wiethe Leveraging advanced ensemble models to increase building energy performance prediction accuracy in the residential building sector Energ Build 269 2022 112242 10.1016/j.enbuild.2022.112242 Konhäuser K, Wenninger S, Werner T, Wiethe C. Leveraging advanced ensemble models to increase building energy performance prediction accuracy in the residential building sector. Energy Build 2022;269:112242. doi:10.1016/j.enbuild.2022.112242. [31] H. Yan K. Yan G. Ji Optimisation and prediction in the early design stage of office buildings using genetic and XGBoost algorithms Build Environ 218 2022 109081 10.1016/j.buildenv.2022.109081 Yan H, Yan K, Ji G. Optimisation and prediction in the early design stage of office buildings using genetic and XGBoost algorithms. Build Environ 2022;218:109081. doi:10.1016/j.buildenv.2022.109081. [32] S. Deshwal A. Kumar D. Chhabra Exercising hybrid statistical tools GA-RSM, GA-ANN and GA-ANFIS to optimize FDM process parameters for tensile strength improvement CIRP J Manuf Sci Technol 2020 10.1016/j.cirpj.2020.04.002 Deshwal S, Kumar A, Chhabra D. Exercising hybrid statistical tools GA-RSM, GA-ANN and GA-ANFIS to optimize FDM process parameters for tensile strength improvement. CIRP J Manuf Sci Technol 2020. doi:10.1016/j.cirpj.2020.04.002. [33] B. Fatiha B. Sameh S. Youcef D. Zeineddine R. Nacer Comparison of artificial neural network (ANN) and response surface methodology (RSM) in optimisation of the immobilization conditions for lipase from Candida rugosa on AMBERJET® 4200-cl: preparative Biochem Biotechnol 43 2011 1 11 Fatiha B, Sameh B, Youcef S, Zeineddine D, Nacer R. Comparison of artificial neural network (ANN) and response surface methodology (RSM) in optimisation of the immobilization conditions for lipase from Candida rugosa on AMBERJET® 4200-Cl: Preparative. Biochem Biotechnol 2011;43:1\u201311. [34] J. Guo J. Zhou M. Li Based on ANN and many-objective optimisation to improve the performance and economy of village houses in Chinese cold regions J Build Perform Simul 2023 1 11 10.1080/19401493.2023.2183259 Guo J, Zhou J, Li M, et al. Based on ANN and many-objective optimisation to improve the performance and economy of village houses in Chinese cold regions. J Build Perform Simul 2023:1\u201311. doi:10.1080/19401493.2023.2183259. [35] Y. Gao S. Luo J. Jiang Environmental-thermal-economic performance trade-off for rural residence retrofitting in the Beijing\u2013Tianjin\u2013Hebei region, northern China: a multi-objective optimisation framework under different scenarios Energ Build 286 2023 112910 10.1016/j.enbuild.2023.112910 Gao Y, Luo S, Jiang J, et al. Environmental-thermal-economic performance trade-off for rural residence retrofitting in the Beijing\u2013Tianjin\u2013Hebei region, Northern China: A multi-objective optimisation framework under different scenarios. Energy Build 2023;286:112910. doi:10.1016/j.enbuild.2023.112910. [36] C. Li Y. Chen A multi-factor optimisation method based on thermal comfort for building energy performance with natural ventilation Energ Build 285 2023 112893 10.1016/j.enbuild.2023.112893 Li C, Chen Y. A multi-factor optimisation method based on thermal comfort for building energy performance with natural ventilation. Energy Build 2023;285:112893. doi:10.1016/j.enbuild.2023.112893. [37] Y. Wang C. Wei Design optimisation of office building envelope based on quantum genetic algorithm for energy conservation J Build Eng 32 2020 101450 10.1016/j.jobe.2020.101450 Wang Y, Wei C. Design optimisation of office building envelope based on quantum genetic algorithm for energy conservation. J Build Eng 2020;32:101450. doi:10.1016/j.jobe.2020.101450. [38] Z. Han X. Li J. Sun M. Wang G. Liu An interactive multi-criteria decision-making method for building performance design Energ Build 282 2023 112793 10.1016/j.enbuild.2023.112793 Han Z, Li X, Sun J, Wang M, Liu G. An interactive multi-criteria decision-making method for building performance design. Energy Build 2023;282:112793. doi:10.1016/j.enbuild.2023.112793. [39] E. Elbeltagi H. Wefki Predicting energy consumption for residential buildings using ANN through parametric modeling Energy Rep 7 2021 2534 2545 10.1016/j.egyr.2021.04.053 Elbeltagi E, Wefki H. Predicting energy consumption for residential buildings using ANN through parametric modeling. Energy Rep 2021;7:2534\u201345. doi:10.1016/j.egyr.2021.04.053. [40] D. D\u2019Agostino F. Minelli F. Minichiello New genetic algorithm-based workflow for multi-objective optimisation of net zero energy buildings integrating robustness assessment Energ Build 284 2023 112841 10.1016/j.enbuild.2023.112841 D'Agostino D, Minelli F, Minichiello F. New genetic algorithm-based workflow for multi-objective optimisation of Net Zero Energy Buildings integrating robustness assessment. Energy Build 2023;284:112841. doi:10.1016/j.enbuild.2023.112841. [41] N. Abdou Y. El Mghouchi K. Jraida Prediction and optimisation of heating and cooling loads for low energy buildings in Morocco: an application of hybrid machine learning methods J Build Eng 61 2022 105332 10.1016/j.jobe.2022.105332 Abdou N, El Mghouchi Y, Jraida K, et al. Prediction and optimisation of heating and cooling loads for low energy buildings in Morocco: An application of hybrid machine learning methods. J Build Eng 2022;61:105332. doi:10.1016/j.jobe.2022.105332. [42] I.G. Kerdan D.M. Gálvez ANNEXE: an open-source building energy design optimisation framework using artificial neural networks and genetic algorithms J Clean Prod 371 2022 133500 10.1016/j.jclepro.2022.133500 Kerdan IG, Gálvez DM. ANNEXE: An open-source building energy design optimisation framework using artificial neural networks and genetic algorithms. J Clean Prod 2022;371:133500. doi:10.1016/j.jclepro.2022.133500. [43] J. Zhan W. He J. Huang Comfort, carbon emissions, and cost of building envelope and photovoltaic arrangement optimisation through a two-stage model Appl Energy 356 2024 122423 10.1016/j.apenergy.2023.122423 Zhan J, He W, Huang J. Comfort, carbon emissions, and cost of building envelope and photovoltaic arrangement optimisation through a two-stage model. Appl Energy 2024;356:122423. doi:10.1016/j.apenergy.2023.122423. [44] X. Fang Transferability investigation of a Sim2Real deep transfer learning framework for cross-building energy prediction Energ Build 287 2023 112968 10.1016/j.enbuild.2023.112968 Fang X, et al. Transferability investigation of a Sim2Real deep transfer learning framework for cross-building energy prediction. Energy Build 2023;287:112968. doi:10.1016/j.enbuild.2023.112968. [45] G. Li Y. Wu J. Liu Performance evaluation of short-term cross-building energy predictions using deep transfer learning strategies Energ Build 275 2022 112461 10.1016/j.enbuild.2022.112461 Li G, Wu Y, Liu J, et al. Performance evaluation of short-term cross-building energy predictions using deep transfer learning strategies. Energy Build 2022;275:112461. doi:10.1016/j.enbuild.2022.112461. [46] U. Ali S. Bano M.H. Shamsi D. Sood C. Hoare W. Zuo Urban building energy performance prediction and retrofit analysis using data-driven machine learning approach Energ Build 303 2024 113768 10.1016/j.enbuild.2023.113768 Ali U, Bano S, Shamsi MH, Sood D, Hoare C, Zuo W, et al. Urban building energy performance prediction and retrofit analysis using data-driven machine learning approach. Energy Build 2024;303:113768. doi:10.1016/j.enbuild.2023.113768. [47] P. Pilechiha M.J. Mahdavinejad F. Pour Rahimian P. Carnemolla S. Seyedzadeh Multi-objective optimisation framework for designing office windows: quality of view, daylight and energy efficiency Appl Energy 261 2020 114356 10.1016/j.apenergy.2019.114356 Pilechiha P, Mahdavinejad M J, Pour Rahimian F, Carnemolla P, Seyedzadeh S. Multi-objective optimisation framework for designing office windows: quality of view, daylight and energy efficiency. Appl Energy 2020;261:114356. doi:10.1016/j.apenergy.2019.114356. [48] C. Waibel R. Evins J. Carmeliet Co-simulation and optimisation of building geometry and multi-energy systems: interdependencies in energy supply, energy demand and solar potentials Appl Energy 242 2019 1661 1682 10.1016/j.apenergy.2019.03.177 Waibel C, Evins R, Carmeliet J. Co-simulation and optimisation of building geometry and multi-energy systems: Interdependencies in energy supply, energy demand and solar potentials. Appl Energy 2019;242:1661-1682. doi:10.1016/j.apenergy.2019.03.177. [49] L. Zhu B. Wang Y. Sun Multi-objective optimisation for energy consumption, daylighting and thermal comfort performance of rural tourism buildings in North China Build Environ 176 2020 106841 10.1016/j.buildenv.2020.106841 Zhu L, Wang B, Sun Y. Multi-objective optimisation for energy consumption, daylighting and thermal comfort performance of rural tourism buildings in north China. Build Environ 2020;176:106841. doi:10.1016/j.buildenv.2020.106841. [50] A. Razmi M. Rahbar M. Bemanian PCA-ANN integrated NSGA-III framework for dormitory building design optimisation: energy efficiency, daylight, and thermal comfort Appl Energy 305 2022 117828 10.1016/j.apenergy.2021.117828 Razmi A, Rahbar M, Bemanian M. PCA-ANN integrated NSGA-III framework for dormitory building design optimisation: Energy efficiency, daylight, and thermal comfort. Appl Energy 2022;305:117828. doi:10.1016/j.apenergy.2021.117828. [51] X. Wu X. Li Y. Qin W. Xu Y. Liu Intelligent multiobjective optimisation design for NZEBs in China: four climatic regions Appl Energy 339 2023 120934 10.1016/j.apenergy.2023.120934 Wu X, Li X, Qin Y, Xu W, Liu Y. Intelligent multiobjective optimisation design for NZEBs in China: Four climatic regions. Appl Energy 2023;339:120934. doi:10.1016/j.apenergy.2023.120934. [52] M. Ferrara F. Della Santa M. Bilardo A. De Gregorio A. Mastropietro U. Fugacci Design optimisation of renewable energy systems for NZEBs based on deep residual learning Renew Energy 176 2021 590 605 10.1016/j.renene.2021.05.044 Ferrara M, Della Santa F, Bilardo M, De Gregorio A, Mastropietro A, Fugacci U, et al. Design optimisation of renewable energy systems for NZEBs based on deep residual learning. Renew Energy 2021;176:590\u2013605. doi:10.1016/j.renene.2021.05.044. [53] China Meteorological Information Center Chinese building thermal environment analysis of specialized meteorological data collection 2005 Chinese Architecture Industry Press Beijing China Meteorological Information Center. Chinese building thermal environment analysis of specialized meteorological data collection. Beijing: Chinese Architecture Industry Press; 2005. [54] F. Tartarini S. Schiavon Pythermalcomfort: a Python package for thermal comfort research SoftwareX 12 2020 100578 10.1016/j.softx.2020.100578 Tartarini F, Schiavon S. pythermalcomfort: A Python package for thermal comfort research. SoftwareX 2020;12:100578. doi:10.1016/j.softx.2020.100578. [55] K. Deb A. Pratap S. Agarwal T. Meyarivan A fast and elitist multiobjective genetic algorithm: NSGA-II IEEE Trans Evol Comput 6 2002 182 197 10.1109/4235.996017 Deb K, Pratap A, Agarwal S, Meyarivan T. A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE Trans Evol Comput 2002;6:182\u201397. doi:10.1109/4235.996017. [56] F. Kheiri A review on optimisation methods applied in energy-efficient building geometry and envelope design Renew Sust Energ Rev 92 2018 897 920 10.1016/j.rser.2018.04.080 Kheiri F. A review on optimisation methods applied in energy-efficient building geometry and envelope design. Renew Sustain Energy Rev 2018;92:897\u2013920. doi:10.1016/j.rser.2018.04.080. [57] M. Reyes-Sierra C.A. Coello Coello Multi-objective particle swarm optimizers: a survey of the state-of-the-art Int J Comput Intell Res 2 2006 287 308 Reyes-Sierra M, Coello Coello CA. Multi-objective particle swarm optimizers: A survey of the state-of-the-art. Int J Comput Intell Res 2006;2:287\u2013308. [58] K. Deb H. Jain An evolutionary many-objective optimisation algorithm using reference-point-based nondominated sorting approach, part I: solving problems with box constraints IEEE Trans Evol Comput 18 2014 577 601 10.1109/TEVC.2013.2281535 Deb K, Jain H. An evolutionary many-objective optimisation algorithm using reference-point-based nondominated sorting approach, part I: solving problems with box constraints. IEEE Trans Evol Comput 2014;18:577\u2013601. doi:10.1109/TEVC.2013.2281535. [59] Q. Zhang H. Li MOEA/D: a multiobjective evolutionary algorithm based on decomposition IEEE Trans Evol Comput 11 2007 712 731 10.1109/TEVC.2007.892759 Zhang Q, Li H. MOEA/D: a multiobjective evolutionary algorithm based on decomposition. IEEE Trans Evol Comput 2007;11:712\u201331. doi:10.1109/TEVC.2007.892759. [60] K. Li R. Chen G. Fu X. Yao Two-archive evolutionary algorithm for constrained multiobjective optimisation IEEE Trans Evol Comput 23 2019 303 315 10.1109/TEVC.2018.2855411 Li K, Chen R, Fu G, Yao X. Two-archive evolutionary algorithm for constrained multiobjective optimisation. IEEE Trans Evol Comput 2019;23:303\u201315. doi:10.1109/TEVC.2018.2855411. [61] Y. Xu G. Zhang C. Yan G. Wang Y. Jiang K. Zhao A two-stage multi-objective optimisation method for envelope and energy generation systems of primary and secondary school teaching buildings in China Build Environ 204 2021 108142 10.1016/j.buildenv.2021.108142 Xu Y, Zhang G, Yan C, Wang G, Jiang Y, Zhao K. A two-stage multi-objective optimisation method for envelope and energy generation systems of primary and secondary school teaching buildings in China. Build Environ 2021;204:108142. doi:10.1016/j.buildenv.2021.108142. [62] H. Son C. Kim Evolutionary many-objective optimisation for retrofit planning in public buildings: a comparative study J Clean Prod 190 2018 403 410 10.1016/j.jclepro.2018.04.102 Son H, Kim C. Evolutionary many-objective optimisation for retrofit planning in public buildings: a comparative study. J Clean Prod 2018;190:403\u201310. doi:10.1016/j.jclepro.2018.04.102. [63] K. Deb L. Thiele M. Laumanns E. Zitzler Scalable test problems for evolutionary multiobjective optimisation A. Abraham L. Jain R. Goldberg Evolutionary multiobjective optimisation: Theoretical advances and applications 2005 Springer London 105 145 10.1007/1-84628-137-7_6 Deb K, Thiele L, Laumanns M, Zitzler E. Scalable test problems for evolutionary multiobjective optimisation. In: Abraham A, Jain L, Goldberg R, editors. Evolutionary Multiobjective Optimisation: Theoretical Advances and Applications, London: Springer; 2005, p. 105\u201345. doi:10.1007/1-84628-137-7_6. [64] Y. Liu H.Y. Chen X.J. Wang Research on green renovations of existing public buildings based on a cloud model -TOPSIS method J Build Eng 34 2021 101930 10.1016/j.jobe.2020.101930 Liu Y, Chen HY, Wang XJ. Research on green renovations of existing public buildings based on a cloud model -TOPSIS method. J Build Eng 2021;34:101930. doi:10.1016/j.jobe.2020.101930. [65] J. Blank K. Deb Pymoo: multi-objective optimisation in python IEEE Access 8 2020 89497 89509 10.1109/ACCESS.2020.2990567 Blank J, Deb K. Pymoo: Multi-objective optimisation in python. IEEE Access 2020;8:89497\u2013509. doi:10.1109/ACCESS.2020.2990567.",
+    "scopus-id": "85199865735",
+    "coredata": {
+        "eid": "1-s2.0-S0306261924013862",
+        "dc:description": "Balancing performance and cost are crucial in optimising nearly zero-energy buildings. This study proposes a method for efficient preliminary design tailored to diverse requirements. It starts with parametric modelling and performance simulation to compile a dataset of common spatial forms in almost zero-energy office buildings. Subsequently, a multilayer perceptron surrogate model is trained on this dataset to map the relationships between design parameters and performance objectives across various spatial forms. A controllable NSGA-II constraint method enables designers to manage design variables and performance objectives independently for cross-building optimisation. The framework integrates the surrogate model with the NSGA-II algorithm under precise constraints, using TOPSIS to finalise Pareto solutions, and includes visualisation software for architects. The framework is validated in a high-performance office building in northern China by measuring data and using an equivalent model under two constraints. The results indicated that the framework reduced the energy consumption of the building by 6.6% and 14.7%, increased the thermal comfort time ratios by 2.3% and 11.4%, and lowered the initial investment costs by 19.6% and 16%, respectively, under each condition.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-11-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0306261924013862",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Liu, Ruijie"
+            },
+            {
+                "@_fa": "true",
+                "$": "Fang, Tao"
+            },
+            {
+                "@_fa": "true",
+                "$": "Cui, Yuanlong"
+            },
+            {
+                "@_fa": "true",
+                "$": "Wang, Yanzheng"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0306261924013862"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0306261924013862"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0306-2619(24)01386-2",
+        "prism:volume": "374",
+        "articleNumber": "124003",
+        "prism:publisher": "Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Controllable cross-building multi-objective optimisation for NZEBs: A framework Utilising parametric generation and intelligent algorithms",
+        "prism:copyright": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "03062619",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Near-zero-energy buildings"
+            },
+            {
+                "@_fa": "true",
+                "$": "Multi-objective optimisation"
+            },
+            {
+                "@_fa": "true",
+                "$": "Performance simulation"
+            },
+            {
+                "@_fa": "true",
+                "$": "Artificial neural networks"
+            },
+            {
+                "@_fa": "true",
+                "$": "Parametric modelling"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building energy consumption"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Energy",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "124003",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 November 2024",
+        "prism:doi": "10.1016/j.apenergy.2024.124003",
+        "prism:startingPage": "124003",
+        "dc:identifier": "doi:10.1016/j.apenergy.2024.124003",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "451",
+            "@width": "759",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "51046",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "225",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40458",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "556",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "100575",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "427",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43298",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "189",
+            "@width": "666",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43617",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "605",
+            "@width": "800",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr17.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "113598",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "268",
+            "@width": "383",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "20717",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "600",
+            "@width": "802",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr16.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "157869",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "615",
+            "@width": "638",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "80382",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "470",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41994",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "534",
+            "@width": "383",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36324",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "247",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32362",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "293",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37297",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "349",
+            "@width": "800",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41188",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "497",
+            "@width": "745",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "114729",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "530",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "47137",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "737",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "118170",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "130",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8381",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "67",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4837",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "157",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13148",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "151",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7564",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "62",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10044",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "217",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr17.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11297",
+            "@ref": "gr17",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "153",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6672",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr16.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16686",
+            "@ref": "gr16",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "170",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7902",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "133",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6687",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "117",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5681",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "87",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5320",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "120",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7554",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "95",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4621",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "146",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "22457",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "192",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5775",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "138",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10230",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1994",
+            "@width": "3359",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "377493",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "997",
+            "@width": "3251",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "233862",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2462",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "599941",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1894",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "252020",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "838",
+            "@width": "2950",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "337204",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2681",
+            "@width": "3544",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr17_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "682872",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1188",
+            "@width": "1699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "125607",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2653",
+            "@width": "3549",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr16_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1343899",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2178",
+            "@width": "2259",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "326398",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2085",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "253283",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2371",
+            "@width": "1699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "199101",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1094",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "200444",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1296",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "200323",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1545",
+            "@width": "3544",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "257746",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1621",
+            "@width": "2429",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "576773",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2348",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "328027",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3264",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "735277",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7318",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1481",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1984",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1753",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1698",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2038",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1807",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1689",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2337",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2107",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2115",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1935",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1882",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9580",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11067",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1901",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "978",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2243",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1038",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19394",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3464",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2517",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3468",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2471",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9152",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13150",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2207",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2107",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1664",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1011",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2422",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1960",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5553",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1560",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1675",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4902",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1041",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9388",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3681",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924013862-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "6388754",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85199865735"
+    }
+}}

@@ -837,17 +837,9 @@ def main():
 
         out_rows.append({
             "file": fname,
-
-
+            "scale": to_str(r["scale"]),
             "paradigms": to_str(r["paradigms"]),
             "model_hits": to_str(r["model_hits"]),
-            "scale": to_str(r["scale"]),
-            "data_types": to_str(r["data_types"]),
-            "applications": to_str(r["applications"]),
-            "kpis_all": to_str(r["kpis"]),
-            "kpi_primary": r["kpi_primary"] or "",
-            "collected_data_resolution": r["collected_data_resolution"] or "",
-            "sampling_mentions": to_str([f'{h["section"]}:{h["value"] or ""}{h["unit"]}' for h in r["sampling_mentions"]]),
             # Per-scale (paradigms + matched terms)
             "building_model_paradigms": bm_p,
             "building_model_paradigm_terms": bm_terms,
@@ -857,14 +849,7 @@ def main():
             "occupancy_model_paradigm_terms": om_terms,
             "climate_model_paradigms": cm_p,
             "climate_model_paradigm_terms": cm_terms,
-            # NEW: per-scale optimisation (methods + optional objectives)
-            "building_model_optim_methods": bm_meth,
-            "system_model_optim_methods": sm_meth,
-            "occupancy_model_optim_methods": om_meth,
-            "climate_model_optim_methods": cm_meth,
-
-            # (optional) objectives columns — include only if you added optimization_objectives in YAML
-
+            # per-scale optimisation (methods + optional objectives)
             "building_model_optim_methods": bm_meth,
             "building_model_optim_objectives": bm_obj,
             "building_model_optim_terms": bm_terms_opt,
@@ -880,27 +865,33 @@ def main():
             "climate_model_optim_methods": cm_meth,
             "climate_model_optim_objectives": cm_obj,
             "climate_model_optim_terms": cm_terms_opt,
-            # KPI/meta
+            # applications + KPIs
+            "applications": to_str(r["applications"]),
+            "kpis_all": to_str(r["kpis"]),
+            "kpi_primary": r["kpi_primary"] or "",
             "kpi_types": to_str(r.get("kpi_types")),
-            "model_development": to_str(r.get("model_development")),
-            "model_inputs": to_str(r.get("model_inputs")),
-            "input_resolutions_all": to_str(r.get("input_resolutions")),
-            "input_resolution_primary": r.get("input_resolution_primary") or "",
+
             # Concepts/tradeoffs
             "energy_waste_mentions": to_str(r.get("energy_waste_mentions")),
             "energy_waste_definition_found": str(bool(r.get("energy_waste_definition_found"))),
             "energy_waste_sentences": ew_sentences_flat,
             "energy_waste_definitions": ew_defns_flat,
-
-            # (optional concise tradeoff summary)
             "kpi_tradeoff_groups": to_str(r.get("kpi_tradeoff_groups")),
             "kpi_tradeoff_top_group": trade_top_group,
             "kpi_tradeoff_kpis_any": to_str(r.get("kpi_tradeoff_kpis_any")),
-
-
+            # data + sampling
+            "data_types": to_str(r["data_types"]),
+            "collected_data_resolution": r["collected_data_resolution"] or "",
+            "sampling_mentions": to_str([f'{h["section"]}:{h["value"] or ""}{h["unit"]}' for h in r["sampling_mentions"]]),
+            # model development + inputs
+            "model_development": to_str(r.get("model_development")),
+            "model_inputs": to_str(r.get("model_inputs")),
+            "input_resolutions_all": to_str(r.get("input_resolutions")),
+            "input_resolution_primary": r.get("input_resolution_primary") or "",
             # Online learning
             "online_learning_any": "yes" if r.get("online_learning") else "NM",
             "online_learning_components": nm_if_empty([k for k, v in (r.get("online_learning_per_scale") or {}).items() if v]),
+
         })
 
 

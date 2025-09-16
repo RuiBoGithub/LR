@@ -1,0 +1,1056 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85197779579",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 Energy and Buildings ENERGYBUILDINGS 2024-07-07 2024-07-07 2024-07-10 2024-07-10 2024-08-14T15:08:43 1-s2.0-S0378778824006443 S0378-7788(24)00644-3 S0378778824006443 10.1016/j.enbuild.2024.114528 S300 S300.1 FULL-TEXT 1-s2.0-S0378778824X00146 2024-09-05T11:29:07.558728Z 0 0 20240915 2024 2024-07-07T22:13:41.343784Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst orcid primabst ref 0378-7788 03787788 true 319 319 C Volume 319 17 114528 114528 114528 20240915 15 September 2024 2024-09-15 2024 Research Articles article fla © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. MODELBASEDCONTROLSTRATEGYLINEARPARAMETERVARYINGSTATESPACEMODELFORRACKBASEDCOOLINGDATACENTERS DENG W 1 Introduction 2 Methodology 2.1 System description and airflow modeling 2.2 Temperature field prediction model 2.3 Power model development 2.4 Cost function and constraints of EMPC 2.5 Simulation experiments settings 3 Results and discussion 3.1 Temperature prediction model performance analysis 3.2 EMPC performance analysis 3.3 Effect of workload level on control performance 3.4 Impact of the prediction horizon on control performance 4 Conclusions and future work CRediT authorship contribution statement Acknowledgment References WANG 2019 361 371 J TIAN 2023 105961 Y MASANET 2020 984 986 E JIN 2023 106645 S WANG 2024 111124 J QIAN 2013 579 585 X WANG 2023 113231 Y TONG 2023 120737 X WANG 2023 110601 J HABIBIKHALAJ 2017 1165 1188 A MOAZAMIGOODARZI 2020 100395 H GUPTA 2020 118485 R TERZI 2020 101043 E FANG 2022 5225 5240 Q TANG 2022 108741 Y ZHAO 2023 113486 R AFRAM 2014 343 355 A ZHAO 2021 110631 J PETERSEN 2019 611 616 J 2019IEEECONFERENCECONTROLTECHNOLOGYAPPLICATIONSCCTAIEEE NONLINEARMODELPREDICTIVECONTROLFORENERGYEFFICIENTCOOLINGINSHOPPINGCENTERHVAC PARK 2022 104167 B JIANG 2021 102633 K MIRHOSEININEJAD 2020 7 S FANG 2016 1557 1566 Q FANG 2017 2260 2269 Q SHI 2019 S RACKBASEDDATACENTERTEMPERATUREREGULATIONUSINGDATADRIVENMODELPREDICTIVECONTROL LI 2023 3657 3676 Z FANG 2019 202 212 Q CHOI 2022 108704 Y LIU 2022 105013 W ATHAVALE 2018 123 186 J HAN 2021 110599 X XIONG 2021 111287 X FULPAGARE 2018 381 394 Y FULPAGARE 2015 981 996 Y HU 2024 111036 B YAO 2019 9 23 Y FOULADI 2017 929 939 K TASHIRO 2016 656 661 S 2016IEEE9THINTERNATIONALCONFERENCECLOUDCOMPUTINGCLOUDIEEE APPLICATIONCONVOLUTIONALNEURALNETWORKPREDICTIONTEMPERATUREDISTRIBUTIONINDATACENTERS SAIYAD 2021 102397 A DELORENZI 2012 021005 F TARUTANI 2015 635 642 Y 2015IEEE7THINTERNATIONALCONFERENCECLOUDCOMPUTINGTECHNOLOGYSCIENCECLOUDCOMIEEE TEMPERATUREDISTRIBUTIONPREDICTIONINDATACENTERSFORDECREASINGPOWERCONSUMPTIONBYMACHINELEARNING MIRHOSEININEJAD 2019 1 6 S MOAZAMIGOODARZI 2018 890 900 H MIRHOSEININEJAD 2020 174 186 S DENGX2024X114528 DENGX2024X114528XW 2026-07-10T00:00:00.000Z 2026-07-10T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-07-14T04:56:40.572Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined International Science and Technology Cooperation Programme of China 2023YFE0120400 ISTCP International Science and Technology Cooperation Programme http://data.elsevier.com/vocabulary/SciValFunders/501100012326 http://sws.geonames.org/1814991 Chenzhou Municipal Science and Technology Bureau 2022sfq28 2022sfq27 Chenzhou Municipal Science and Technology Bureau http://data.elsevier.com/vocabulary/SciValFunders/501100016317 http://sws.geonames.org/1814991/ Opening Foundation of Anhui Province Key Laboratory of Intelligent Building & Building Energy Saving IBES2022KF05 National Natural Science Foundation of China 52208136 52108101 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991 The research work of this study was supported by the National Natural Science Foundation of China (No.52108101\\uFF0C52208136), the International Science and Technology Cooperation Programme of China (2023YFE0120400), the Chenzhou Municipal Science and Technology Bureau (No.2022sfq27, 2022sfq28), and the Opening Foundation of Anhui Province Key Laboratory of Intelligent Building & Building Energy Saving (IBES2022KF05). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0378-7788(24)00644-3 S0378778824006443 1-s2.0-S0378778824006443 10.1016/j.enbuild.2024.114528 271089 2024-09-05T11:29:07.558728Z 2024-09-15 1-s2.0-S0378778824006443-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/MAIN/application/pdf/b81b025156c5f1a94e92e63e4bde9cf2/main.pdf main.pdf pdf true 1959317 MAIN 13 1-s2.0-S0378778824006443-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/PREVIEW/image/png/d068fb64808f058afc920d88ea22813f/main_1.png main_1.png png 57487 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0378778824006443-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr9/DOWNSAMPLED/image/jpeg/509aca366f06ef8d88fd746163a48fc7/gr9.jpg gr9 gr9.jpg jpg 22956 292 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr7/DOWNSAMPLED/image/jpeg/9799fad846613ae59f9eb7cfd8137366/gr7.jpg gr7 gr7.jpg jpg 44412 187 622 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr8/DOWNSAMPLED/image/jpeg/0dc0c2362d18e36090402dd95f885c5f/gr8.jpg gr8 gr8.jpg jpg 52928 259 622 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr12/DOWNSAMPLED/image/jpeg/c3bdacc7f3fc175acd605b87bb977948/gr12.jpg gr12 gr12.jpg jpg 21871 294 382 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr1/DOWNSAMPLED/image/jpeg/02e905613883d823f5e4ce10d464dead/gr1.jpg gr1 gr1.jpg jpg 94663 455 649 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr2/DOWNSAMPLED/image/jpeg/03949af4a9a81b0d586c3169eac7b170/gr2.jpg gr2 gr2.jpg jpg 66616 399 622 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr13/DOWNSAMPLED/image/jpeg/1215995d913dd006e197b60c510b1de5/gr13.jpg gr13 gr13.jpg jpg 41581 357 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr5/DOWNSAMPLED/image/jpeg/7f5655e805c99a074b1d609d0e614d1d/gr5.jpg gr5 gr5.jpg jpg 16572 199 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr6/DOWNSAMPLED/image/jpeg/6b69b0474dc20a5425ef976abe359506/gr6.jpg gr6 gr6.jpg jpg 72619 565 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr3/DOWNSAMPLED/image/jpeg/0190cb6dcf2db6c7f020f196edb8c74a/gr3.jpg gr3 gr3.jpg jpg 60444 437 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr4/DOWNSAMPLED/image/jpeg/e407805a6fbe882c12721f6876de0859/gr4.jpg gr4 gr4.jpg jpg 32633 258 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr10/DOWNSAMPLED/image/jpeg/fe8b38e7e71cf744c1b24750c2e0c408/gr10.jpg gr10 gr10.jpg jpg 62733 428 552 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr11/DOWNSAMPLED/image/jpeg/6a6a5d63d023773d5b87b5970f4a5efd/gr11.jpg gr11 gr11.jpg jpg 56818 332 640 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824006443-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr9/THUMBNAIL/image/gif/c3f1480a22b3ae67de6ed6c273727064/gr9.sml gr9 gr9.sml sml 5004 120 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr7/THUMBNAIL/image/gif/89171dbcf70502d2c3f0e3c087604edd/gr7.sml gr7 gr7.sml sml 6619 66 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr8/THUMBNAIL/image/gif/2ce8ddca7f98c458d24e372cee447fe5/gr8.sml gr8 gr8.sml sml 6550 91 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr12/THUMBNAIL/image/gif/667e86387b8d3138d55c58c438879c10/gr12.sml gr12 gr12.sml sml 7269 164 213 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr1/THUMBNAIL/image/gif/14b796037ca6fe8e2758caf68b74937f/gr1.sml gr1 gr1.sml sml 13238 154 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr2/THUMBNAIL/image/gif/8e6b260476ad8bc86462c6b35789c1b1/gr2.sml gr2 gr2.sml sml 11699 140 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr13/THUMBNAIL/image/gif/e36fb1a4c640bb456a0ac8ed177a2f3d/gr13.sml gr13 gr13.sml sml 8356 147 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr5/THUMBNAIL/image/gif/a285dc2eaa25d3dede8571a71598f1ad/gr5.sml gr5 gr5.sml sml 3861 82 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr6/THUMBNAIL/image/gif/005a616bb3b02626cf0b46af5ba254b5/gr6.sml gr6 gr6.sml sml 10241 163 154 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr3/THUMBNAIL/image/gif/1eed343850715d5a62dcfda1d93d744f/gr3.sml gr3 gr3.sml sml 10149 164 200 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr4/THUMBNAIL/image/gif/51b4da26929a3f9bf3ec7d972c37f1e2/gr4.sml gr4 gr4.sml sml 7958 106 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr10/THUMBNAIL/image/gif/8ff90367318b1ec2f78c626904d39556/gr10.sml gr10 gr10.sml sml 11061 164 211 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/gr11/THUMBNAIL/image/gif/a6f1bc323be17434e1ebec3c3cc53a7f/gr11.sml gr11 gr11.sml sml 9056 114 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824006443-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/308117965150852cb437e191e90843dc/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 160592 1293 2362 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/9e6323d8f1d2db56cdd5fb8fa9cc70f0/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 332880 829 2756 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/ac3a8350999a7405e95f7c764e83d484/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 354898 1146 2756 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/93ff5e09de9822a966e1a9f1f92d577d/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 147027 1303 1693 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/ffd6000b87c55a4feacb94437e4c23cb/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 609859 2017 2874 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/fbdacaadfd3b2c2e873ab584f8b850af/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 482669 1768 2756 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/2fe99b6d312808af2de1d1e1dbbece6e/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 272406 1583 2362 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/75745ab8db46de9b3167759bd19a77e0/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 111575 883 2362 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/4b3858512a0e32f37ec94d08eb823b30/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 512728 2505 2362 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/cbebe06b06d7597421defa1fc10be2b7/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 371058 1937 2362 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/HIGHRES/image/jpeg/6f8c388dc84cf2b342d9dbf5a3fe74b9/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 269863 1142 2362 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2297176923006553/HIGHRES/image/jpeg/97995d949ff202c63ab2e5b8dc334fb9/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 511183 1896 2444 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2297176923006553/HIGHRES/image/jpeg/f392abadcadbdfa29b3f7f1a4178bbdc/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 434444 1471 2836 IMAGE-HIGH-RES 1-s2.0-S0378778824006443-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/8128ff641f1a4412154785fcf9ec3a82/si1.svg si1 si1.svg svg 4702 ALTIMG 1-s2.0-S0378778824006443-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/472076c1d1deb929807afa7b773e3937/si10.svg si10 si10.svg svg 19845 ALTIMG 1-s2.0-S0378778824006443-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/4a30f9926026ab4cbde78325d62c1c2e/si11.svg si11 si11.svg svg 22029 ALTIMG 1-s2.0-S0378778824006443-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/298b6fa85c2b794906b9cfdc55556478/si12.svg si12 si12.svg svg 16562 ALTIMG 1-s2.0-S0378778824006443-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/e9d6743f0379fc61f17dca9c66072c28/si13.svg si13 si13.svg svg 18047 ALTIMG 1-s2.0-S0378778824006443-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/24609703fa7adc7f8dcfe5e85b82b16b/si14.svg si14 si14.svg svg 42648 ALTIMG 1-s2.0-S0378778824006443-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/9c4c8229a66acf99149be38f93b06c8b/si15.svg si15 si15.svg svg 21475 ALTIMG 1-s2.0-S0378778824006443-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/2095f7378d654d3631c6c218bcd2804b/si16.svg si16 si16.svg svg 37755 ALTIMG 1-s2.0-S0378778824006443-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/a0062640e620dd8a213c462125e843af/si17.svg si17 si17.svg svg 11807 ALTIMG 1-s2.0-S0378778824006443-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/5bbaf727aa657bf2f60d4d9c6ad038c3/si18.svg si18 si18.svg svg 18467 ALTIMG 1-s2.0-S0378778824006443-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/8f4452a3d9c0ab8f6df6360e68d8f43c/si19.svg si19 si19.svg svg 15800 ALTIMG 1-s2.0-S0378778824006443-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/474d5916e6629b992fbc420015ed8d00/si2.svg si2 si2.svg svg 4662 ALTIMG 1-s2.0-S0378778824006443-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/d9bfadcabe69192512e1712f4bda265c/si20.svg si20 si20.svg svg 19066 ALTIMG 1-s2.0-S0378778824006443-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/0eb1bbce7fc9d04c46a258a3b85b53c3/si21.svg si21 si21.svg svg 23882 ALTIMG 1-s2.0-S0378778824006443-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/34d2c018e1c97843b83ae3833f3a6938/si22.svg si22 si22.svg svg 21041 ALTIMG 1-s2.0-S0378778824006443-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/f98646e12b1e5a0c6a04a39f0acd3e88/si23.svg si23 si23.svg svg 33949 ALTIMG 1-s2.0-S0378778824006443-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/cc923ab380a4d44111f7cf135b4a68cf/si24.svg si24 si24.svg svg 21554 ALTIMG 1-s2.0-S0378778824006443-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/24c245aa3a14d7e31496e4319319812e/si25.svg si25 si25.svg svg 2868 ALTIMG 1-s2.0-S0378778824006443-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/10ba8a1948d8c2c64dcbc86dcaa534a0/si26.svg si26 si26.svg svg 2710 ALTIMG 1-s2.0-S0378778824006443-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/a5e279501cd5cd6ff6ebb5b80a37a614/si27.svg si27 si27.svg svg 2815 ALTIMG 1-s2.0-S0378778824006443-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/00378dc18a6751ed9187aaced881f9f2/si28.svg si28 si28.svg svg 13664 ALTIMG 1-s2.0-S0378778824006443-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/0b2f2184cba63682208df1ca45278e6f/si29.svg si29 si29.svg svg 47326 ALTIMG 1-s2.0-S0378778824006443-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/3fbd643b762fcfaf758b1cd128ca6965/si3.svg si3 si3.svg svg 5407 ALTIMG 1-s2.0-S0378778824006443-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/3d201172c5e73ac07468e8a069977131/si30.svg si30 si30.svg svg 13549 ALTIMG 1-s2.0-S0378778824006443-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/4b3d43a7036af429e299208daaf8c6a3/si31.svg si31 si31.svg svg 11418 ALTIMG 1-s2.0-S0378778824006443-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/98e738adbe97f6f2174698a0b258fbcc/si32.svg si32 si32.svg svg 12125 ALTIMG 1-s2.0-S0378778824006443-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/36558a67ed7df3432404859e0103eca4/si33.svg si33 si33.svg svg 15531 ALTIMG 1-s2.0-S0378778824006443-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/c5d6520aa335eb5afee371c2b42bd0c5/si34.svg si34 si34.svg svg 14013 ALTIMG 1-s2.0-S0378778824006443-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/fbdfe464cb43d1ed9291cce29fbeadc2/si35.svg si35 si35.svg svg 4835 ALTIMG 1-s2.0-S0378778824006443-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/7f5035d4542969757ddbf332d7178385/si36.svg si36 si36.svg svg 5695 ALTIMG 1-s2.0-S0378778824006443-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/c30dd4ab1e89185ba2439d2c45fac355/si37.svg si37 si37.svg svg 13282 ALTIMG 1-s2.0-S0378778824006443-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/3506da801bbfafaa3d2d57f1ef9da1e2/si38.svg si38 si38.svg svg 11311 ALTIMG 1-s2.0-S0378778824006443-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/e5ea623fb4703fc0d5257e3ecb0ab96b/si39.svg si39 si39.svg svg 12176 ALTIMG 1-s2.0-S0378778824006443-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/09d1cf87bdff2f7c1de33f33c8dbc9c5/si4.svg si4 si4.svg svg 5520 ALTIMG 1-s2.0-S0378778824006443-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/240831dc7314afdb463a54520c5bfc74/si40.svg si40 si40.svg svg 8990 ALTIMG 1-s2.0-S0378778824006443-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/74f2f4fad3f4d76e68b0177dab79508f/si41.svg si41 si41.svg svg 8427 ALTIMG 1-s2.0-S0378778824006443-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/c6507b3aeb5c3ebd497527a2226c3e8d/si42.svg si42 si42.svg svg 11170 ALTIMG 1-s2.0-S0378778824006443-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/36a83625f0d2f1b23d1fc3491bffcb50/si43.svg si43 si43.svg svg 9214 ALTIMG 1-s2.0-S0378778824006443-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/946a422feb91228401dadad837af96d1/si44.svg si44 si44.svg svg 5481 ALTIMG 1-s2.0-S0378778824006443-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/b342b866f2e0b16c0c7e7432dc8093a8/si45.svg si45 si45.svg svg 5584 ALTIMG 1-s2.0-S0378778824006443-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/7848390ae8a3da5c5b3fee69e190d75d/si46.svg si46 si46.svg svg 21632 ALTIMG 1-s2.0-S0378778824006443-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/ffb77858cf91803d8f0b70b036257b72/si47.svg si47 si47.svg svg 9535 ALTIMG 1-s2.0-S0378778824006443-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/fcf17596fd0f80f51f1a50abcede87b9/si48.svg si48 si48.svg svg 11804 ALTIMG 1-s2.0-S0378778824006443-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/f7922d32062ac1a10a050339222d2771/si49.svg si49 si49.svg svg 9811 ALTIMG 1-s2.0-S0378778824006443-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/8b8f928c4afbc3b20b88410719e5fb8f/si5.svg si5 si5.svg svg 2220 ALTIMG 1-s2.0-S0378778824006443-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/af7eaf274fb4c68660cdce0104e9d142/si6.svg si6 si6.svg svg 4957 ALTIMG 1-s2.0-S0378778824006443-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/cdc68a1142be4f8e6c8c04d290fd528d/si7.svg si7 si7.svg svg 45919 ALTIMG 1-s2.0-S0378778824006443-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/8b2a1e36a15e4316942a9e7f9b4fa121/si8.svg si8 si8.svg svg 10268 ALTIMG 1-s2.0-S0378778824006443-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824006443/image/svg+xml/3485be027bafdf4437bc812d93b88a9f/si9.svg si9 si9.svg svg 29671 ALTIMG 1-s2.0-S0378778824006443-am.pdf am am.pdf pdf 822384 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:103QLK8VT55/MAIN/application/pdf/23e3532a1349f35f277103c8b2cf2718/am.pdf ENB 114528 114528 S0378-7788(24)00644-3 10.1016/j.enbuild.2024.114528 Elsevier B.V. Fig.1 The flowchart of the main processes. Fig.2 Schematic diagram of data center rack-based cooling structure. Fig.3 Schematic diagram of airflow distribution in the temperature calculation zone. Fig.4 The server workload rate variation in the data center. Fig.5 Schematic diagram of PID control. Fig.6 Model relative error: (a) Inlet zones. (b) Outlet zone. Fig.7 Comparison of temperature variation with time between the CFD simulation and model predictions: (a) Inlet zone of server 5. (b) Outlet zone of server 5. Fig.8 Average RMSE and MAE of inlet zones and outlet zones. Fig.9 The comparison of cooling system energy consumption and PUE under EMPC and PID: (a) Cooling system energy consumption. (b) PUE. Fig.10 Comparison of control parameters for different control strategies: (a) Supplied cold air temperature. (b) Supplied airflow rate. Fig.11 Maximum server inlet temperature and cooling unit return air temperature under EMPC and PID. Fig.12 The comparison of cooling system energy consumption of EMPC and PID under different workloads. Fig.13 Boxplots of supplied cold air temperature and airflow rate corresponding to different prediction horizons. Table 1 Parameters of the control algorithm. Notations Values Units TS 1 min Np 3 min T ̲ RCU 18 °C T ¯ RCU 27 °C Q ̲ RCU 0.02 m3/s Q ¯ RCU 0.2 m3/s T ¯ I 27 °C T ¯ c,in 35 °C Table 2 PID controller parameters. Initial value KP KI KD Supplied airflow rate 0.14 m3/s 0.1 0.3 0.1 Table 3 Characteristics of different server workloads. Workload Low load Medium load High load Time (h) 0\u20138 16\u201324 8\u201316 Average load (%) 16.16 25.87 50.33 Peak load (%) 48.13 70.63 88.75 Model-based control strategy with linear parameter-varying state-space model for rack-based cooling data centers Weiqi Deng Writing \u2013 original draft Investigation a c Jiaqiang Wang Writing \u2013 review & editing Methodology Conceptualization a b \u204e Chang Yue Software Formal analysis a Yang Guo Writing \u2013 review & editing Formal analysis a Quan Zhang Supervision d a School of Energy Science and Engineering, Central South University, Changsha, Hunan 410083, PR China School of Energy Science and Engineering Central South University Changsha Hunan 410083 PR China School of Energy Science and Engineering, Central South University, Changsha, Hunan 410083, PR China b Hunan Provincial Key Laboratory of Low Carbon Healthy Buildings, Changsha, Hunan 410083, PR China Hunan Provincial Key Laboratory of Low Carbon Healthy Buildings Changsha Hunan 410083 PR China Hunan Provincial Key Laboratory of Low Carbon Healthy Buildings, Changsha, Hunan 410083, PR China c Anhui Province Key Laboratory of Intelligent Building & Building Energy Saving, Anhui Jianzhu University, Hefei, Anhui 230022, PR China Anhui Province Key Laboratory of Intelligent Building & Building Energy Saving Anhui Jianzhu University Hefei Anhui 230022 PR China Anhui Province Key Laboratory of Intelligent Building & Building Energy Saving, Anhui Jianzhu University, Hefei, Anhui 230022, PR China d College of Civil Engineering, Hunan University, Changsha, Hunan 410082, PR China College of Civil Engineering Hunan University Changsha Hunan 410082 PR China College of Civil Engineering, Hunan University, Changsha, Hunan 410082, PR China \u204e Corresponding author at: School of Energy Science and Engineering, Central South University, Changsha, Hunan 410083, PR China. School of Energy Science and Engineering Central South University Changsha Hunan 410083 PR China Cooling system energy consumption occupies approximately 40% of the total energy consumption in data centers, and efficient control is crucial for improving cooling efficiency and reducing the operational costs of data centers. This paper introduced a novel economic model predictive control (EMPC) strategy based on a linear parameter-varying state-space model. The primary objective was to maintain the thermal environment of data centers while minimizing the energy consumption of the cooling system. Therein, a linear parameter-varying state-space model was developed based on the parameter identification method to precisely predict the temperature field of the rack-based cooling data center in real-time. The energy management and thermal regulation performance of the EMPC and the proportion integration differentiation (PID) controller were comparatively analyzed through simulation experiments. Moreover, the impacts of the server workload level and optimization time domain on the performance of EMPC were comprehensively investigated. The results show that, the proposed EMPC was able to minimize the energy consumption by optimizing the supplied cold air temperature and airflow rate simultaneously. In comparison with the PID controller, EMPC not only achieves a 9.7% energy saving by preventing server over-cooling but also diminishes server temperature fluctuations, promoting the safe and stable operation of the server. The research shows that the EMPC reveals excellent performance along with all server workload levels. In addition, the length of the prediction horizon has a notable impact and three minutes is suggested for the rack-based cooling system. Keywords Rack-based cooling data center Linear parameter-varying state space model Model predictive control Data availability The authors are unable or have chosen not to specify which data has been used. 1 Introduction The data center serves as a crucial infrastructure for the large-scale storage, processing, and management of data. In recent years, with the rapid development of information technology, the scale and number of data centers continue to climb, and the problem of energy consumption in these facilities has become increasingly prominent [1,2]. It is estimated that the energy consumption of data centers accounts for about 1 % of the world's total electricity consumption, and it is expected that the energy use of global data centers will triple or even quadruple in the next decade [3]. Energy consumption in data centers comes mainly from various sources, including information technology (IT) equipment, cooling systems, power supplies, etc., of which the cooling system accounts for about 40 % of the energy consumption [4,5]. Therefore, effective energy conservation measures for the cooling system are imperative to reduce the energy consumption of the data center. Optimizing the airflow organization of the data center is one of the most effective ways to reduce energy consumption and improve energy efficiency [6,7]. The conventional room-level cooling structure has low airflow organization efficiency, making it susceptible to phenomena such as hot air re-circulation and cold air bypass [8,9]. These issues lead to decreased cooling system efficiency and the simultaneous emergence of localized hotspots, posing a threat to the safety of the data center [10]. In contrast, the rack-based cooling structure, with its shorter airflow path, facilitates more efficient airflow distribution and reduces the possibility of hot and cold air mixing, thereby increasing the cooling system efficiency [11]. Efficient real-time optimal control of the cooling parameters is another effective way to reduce the energy consumption [12,13]. Generally, increasing the supplied cold air temperature or reducing supplied airflow rate can reduce the cooling energy consumption [14]. However, unreasonable adjustments will lead to a mismatch between cooling supply and demand, causing server over-heating or over-cooling. Therefore, achieving a balance between server thermal security and cooling system energy efficiency has emerged as a focal point in the entire data center cooling field. According to ASHRAE standards [15], maintaining the inlet and outlet temperatures of information technology equipment within safe thresholds is essential to ensure their reliability [16,17]. Currently, the PID control is a mature technology and widely employed to regulate the temperatures due to its simplicity [18]. However, the essence of PID control is a feedback regulation mechanism, i.e., it drives the actuator based on the deviation between the measurement and the set value. It cannot leverage the future prediction information of the control object, resulting in delayed control responses and sensitivity to the measurement noise, especially when dealing with control objects characterized by large time lags [19]. Since the temperature system of the data center is a large time-delay nonlinear system, the feedback-based PID controllers cannot achieve the designed performance. Moreover, PID controllers lack the capability to introduce optimization objectives, e.g., unable to achieve optimal energy consumption or temperature control accuracy in the control framework. Multivariate control is also beyond their capability range. To address these limitations, model predictive control (MPC) has emerged as a highly regarded alternative. As one of advanced control method, MPC incorporates multiple features, including the predictive modeling, roll-over optimization, and feedback correction. It was demonstrated that the MPC method outperforms existing the ON/OFF and PID control method in achieving precise control and minimizing energy consumption [20]. One of the main reasons is that MPC offers the flexibility to introduce various optimization objectives, such as using the deviation between the state value and the set value [21,22], as well as employing energy consumption as the optimization objective [23\u201325]. Shi et al. [26] conducted a comparison of the control performance between MPC and PID controller, applied to setpoint temperature tracking of IT racks. It indicates that compared to PID control, MPC has better control performance, exhibiting a shorter average time to reach the setpoint, as well as better performance in terms of maximum overshoot, maximum downshoot, and mean square error. Kheradmandi et al. [27] adopted the temperature control deviation and operating cost as the objective function for MPC, to effectively improve temperature control and reduce the operating cost of the data center. Therefore, the application of MPC to energy saving control and thermal management of data centers will have a broad development prospect. In data centers energy saving and thermal management field, the MPC method involves dynamically predicting the real-time temperature distribution of servers and employing optimized control algorithms to effectively adjust system inputs. The goal is to ensure that each server operates within its thermal thresholds while minimizing the energy consumption of the cooling system. Li et al. [28] proposed a data-driven subspace predictive control method for air-cooled data center thermal modeling and optimization. By regulating the power allocation of server racks and the supply temperature of cold air, they achieved a 17 % energy saving in the cooling system while maintaining temperature fluctuations near the setpoint. Fang et al. [29] designed an economic model predictive controller for room-based cooling data centers to adjust the cooling temperature predictively with the variation of rack power, achieving an 11.4 % energy saving while ensuring service quality. Choi et al. [30] developed an adaptive artificial neural network model and optimal control algorithm for a data center cyber-physical system, optimizing the chilled water flow to achieve stable tracking of the cold aisle temperature setpoint and saving cooling energy. Despite the above applications of MPC reducing cooling costs to some extent, these models are based on fixed airflow patterns. Adjusting the supplied airflow rate of the cooling units can significantly change the airflow distribution in the data center. Consequently, predefined airflow patterns may not always be optimal for varying IT workloads. Dynamically adjusting the airflow according to different workloads can maximize energy savings. Therefore, developing an MPC method for the coordinated control of the supplied cold air temperature and airflow rate is of great significance for energy-saving control and thermal management in data centers. However, MPC relies on the dynamic thermal model of the system. In the optimization process, the dynamic thermal model is used to obtain real-time temperature field information in the data center, and its prediction accuracy and timeliness are crucial for the effective operation of MPC [31]. The real-time dynamic prediction of the temperature field of servers poses significant challenges due to the multitude of server scattering points, each server having its fan, and the complexity of airflow organization [32]. The conventional method for predicting data center temperatures involves computational fluid dynamics (CFD) simulation [33,34]. Numerical calculations from CFD simulations can provide highly accurate and detailed temperature, flow, and pressure fields [35,36]. However, the complexity of airflow dynamics within a data center renders CFD models demanding in terms of computational resources and processing time, making them unsuitable for real-time control algorithm design or thermal management purposes [37]. Recognizing the limitations of CFD, researchers have introduced an alternative known as data-driven modeling for more effective thermal environment simulation. Machine learning methods used to train model parameters are categorized as black-box or gray-box models [38]. Common black-box models include proper orthogonal decomposition (POD) [39], neural network models [40\u201343], linear regression models [44,45], and autoregressive extrapolation (ARX) models [46]. These models have shown high accuracy in predicting steady-state and transient rack inlet temperature distributions, closely aligning with CFD simulations. However, black-box models tend to provide accurate interpolated predictions, while extrapolated predictions may reveal unacceptable errors. In contrast, gray-box models combine the laws of thermodynamics and flow physics with a data-driven approach to the prediction of temperature distributions, improving the extrapolation prediction performance of the model. Moazamigoodarzi et al. [47] developed a novel transient zonal model to obtain real-time temperature distributions within a typical data center IT rack. This model divides the target system into multiple characteristic zones, resolving the flow field using hydrodynamic principles based on mass and energy conservation relationships in each zone to obtain the temperature distribution. However, the temperature prediction performance of the model depends on acquiring precise physical parameters related to the target system, such as the layout, shape, size, and thermal mass of IT equipment, as well as flow information within the partitioned zones. Some of these physical parameters, particularly airflow within each zone, can be challenging to obtain directly, especially for large data centers [31]. Therefore, in response to the limitations of previous temperature prediction models in terms of computational resources, real-time performance, and practical applications, developing a low complexity temperature prediction model for fast and accurate prediction of temperature fields is crucial for efficient MPC. Motivated by the problems, as shown in Fig. 1 , this work proposed a novel economic predictive control strategy based on a control-oriented model, i.e, a linear parameter-varying state-space model. Efficient optimization algorithms (e.g, the programming algorithms) can be utilized using the control-oriented thermal prediction model. The zonal model methods coupled with a data driven strategy, was developed for the real-time dynamic temperature field prediction of a rack-based cooling data center. Therein, the prediction error method (PEM) was employed to estimate the time-invariant model parameters, such as the airflow distribution coefficients, to avoid the time-consuming process of extracting physical parameters. Both energy and thermal management were addressed by the EMPC strategy within the rack-based cooling data centers, with the goal of dynamically optimizing cooling parameters based on IT workloads. The cooling energy consumption, the fluctuation of control parameters, as well as the temperature constraint were introduced into the optimization function. Linear programming methods were adopted to achieve real-time solving of optimization problems. The performance of EMPC was verified through comparative simulation experiments with PID. In addition, to evaluate the performance of the EMPC in various server workload scenarios, the energy-saving effect of EMPC was tested using low, medium, and high server workload utilization. The impact of the prediction horizon on the control performance of EMPC was also investigated to determine the optimal parameters of the control algorithm and improve EMPC performance. In summary, the main contributions of this work are as follows: \u2022 Introducing a control-oriented model for the dynamic temperature field prediction of a rack-based cooling data center. The linear parameter-varying state-space model with low computational complexity was developed and validated using the CFD experiment data. \u2022 A novel predictive control strategy based on the linear parameter-varying state-space model was proposed. The supplied cold air temperature and airflow rate of the cooling system were optimized to minimize the energy consumption of the cooling system without sacrificing the requirement of the thermal safety. \u2022 The influences of the server workload level and the prediction horizon on the EMPC performance were investigated. Various server workload utilization scenarios were set to evaluated the its adaptive performance and the optimal prediction horizon was suggested in balancing the computing burden and the control performance. The remainder of the study is organized as follows. Section 2 describes the methodology of proposed novel study, involving the development of the dynamic thermal prediction model and the framework of the EMPC strategy. The performances of the temperature prediction model and the EMPC strategy were shown in Section 3. Finally, Section 4 provides the main conclusions of this study and further work. 2 Methodology 2.1 System description and airflow modeling Fig. 2 depicts a specific rack-based cooling data center system, mainly including a rack-based cooling unit (RCU) located at the bottom to cool the servers. Specifically, the RCU provides the cold air to the entry space of the servers (e.g., cold aisle), and the most of cold air is drew by the sever fans to cool the heat source (e.g., CPU/GPU, main board, etc.). Then, the heated air is exhausted to the hot aisle. Finally, it returns to the RCU and is cooled again. Wherein, the RCU can be a heat pipe or an air handling unit. It should be mentioned that, owing to the gap between servers and dozens of server fans working together, there are many airflow paths inside the rack. The hot air re-circulation and cold air bypass phenomenon should be modeled in heat and mass heat transfer. Since the data center rack-based cooling system operates as a closed structure, it is assumed that the heat or mass transfer between the rack and the external environment can be ignored. A low-complexity thermal network zonal modeling approach was adopted to establish a state-space modeling framework. This framework facilitates the rapid acquisition of information regarding the distribution of server temperatures. The physical quantities (e.g., the specific heat capacity, density and temperature) were assumed to be homogeneous within a specific zone. The heat and mass transfer processes within these zones were modeled based on the principles of mass conservation and the law of thermal equilibrium. The initial stage of the multi-node zonal modeling approach was to divide the zones. The inlet and outlet temperatures of the servers should be calculated to evaluate the thermal safety. Therefore, the volume in front of and behind each server was divided to a zone. Three types of the zones were defined for each server in this study: (1) Inlet zone, (2) Server exhaust zone, and (2) Outlet zone. As mentioned above, the airflow organization inside the rack is very complex. The mass transfer between each zone is not a fixed constant value and should be calculated before the temperature field prediction. As shown in Fig. 3 , the airflow rate between each zone can be calculated according to the following steps: (1) Obtaining the supplied airflow rate Q RCU from the cooling unit; (2) Determining the airflow rate QS , i through each server and then calculating the total airflow rate QS ,T through all servers; (3) Calculating the total leakage airflow rate QL ,T; (4) Determining the airflow distribution coefficients Di , Ei , and Fi ; (5) Calculating the airflow rate Di × Q RCU from the RCU into each server. (6) Computing the airflow rate Ei × QL ,T of hot air re-circulation and the airflow rate Fi × QL ,T of cold air bypass between the inlet zones and outlet zones; (7) Calculating the airflow rate QOC , i and QOH , i from each zone into the next zone separately based on the law of conservation of mass. The supplied airflow rate Q RCU of the cooling unit is typically determined by the control module within the cooling unit. The airflow rate of the servers is generally a function of the server workload utilization and their inlet temperatures. In this study, it can be calculated for each server using Eq. (1): (1) Q S , Nominal ( m 3 /s/kW ) = 0.05852 if T I , i ⩽ 27 ° C 0.05852 + ( T I , i - 27 ) × 0.00525 i f 27 ° C < T I , i < 35 ° C 0.01005 if T I , i ⩾ 35 ° C where QS ,Nominal is the airflow through the server per unit IT workload and TI,i denotes the server inlet air temperature. Based on the conservation of mass in the cold aisle, the total leakage airflow rate QL ,T can be calculated according to Eq. (2): (2) Q L , T = Q S , T - Q RCU where QL ,T denotes the total leakage airflow rate, a positive QL ,T denotes hot air from the hot aisle to the cold aisle and a negative value denotes cold air from the cold aisle to the hot aisle, QS ,T denotes the total airflow rate of all the servers, and Q RCU represents the supplied airflow rate of the cooling unit. The airflow distribution coefficients Di , Ei, and Fi are associated with the airflow distribution within the rack, and they have different values for various airflow distribution scenarios. This study defined three airflow mismatch scenarios (mismatch of airflow rates between RCU and servers) and assumed that Di , Ei, and Fi take constant values for the same scenarios: (3) Scenario 1 : Q S , T - Q RCU ⩾ S 1 Scenario 2 : S 1 > Q S , T - Q RCU > S 2 Scenario 3 : S 2 ⩾ Q S , T - Q RCU where S 1 and S 2 denote a normal number and a negative constant, respectively. Based on the provided information, the amount of hot air re-circulation and cold air bypass for each zone can be calculated using the airflow distribution coefficients. Then, other airflow distribution information can be determined based on Eqs. (4), (5), (6), and (7). According to the law of conservation of mass, the airflow relationship for the first inlet zone can be obtained: (4) Q OC , 1 = D 1 × Q RCU + E 1 Q L , T - F 1 × Q L , T - Q S , 1 The mass balance equations for other inlet zones are: (5) Q OC , i = Q OC , i - 1 + D i × Q RCU + E i × Q L , T - F i × Q L , T - Q S , i The airflow relationship in the outlet zone of the topmost server can be expressed as follows (assuming a total of N servers in the data center): (6) Q OH , N = F N × Q L , T - E N × Q L , T + Q S , N The mass balance equations for other outlet zones are: (7) Q OH , i = Q OH , i + 1 + F i × Q L , T - E i × Q L , T + Q S , i where QOC , i denotes the airflow from the inlet zone of the ith server, QOH , i denotes the airflow from the outlet zone of the ith server, QS , i denotes the airflow through the ith server, Di denotes the airflow distribution coefficient of supplied airflow from the RCU into the ith server, Ei and Fi denote the airflow distribution coefficient of the leakage airflow re-circulation and the leakage airflow bypass inside each gap, respectively. 2.2 Temperature field prediction model Based on the energy conservation, the heat balance equations for the inlet zones, the server exhaust zones, and the outlet zones can be established separately. Specifically, the energy balance equations for the inlet zones are: (8) ρ a c p , a V I d T I , i dt = D i Q RCU ρ a c p , a T RCU + E i Q L , T ρ a c p , a T O , i - F i Q L , T ρ a c p , a T I , i + Q OC , i - 1 ρ a c p , a T I , i - 1 - Q OC , i ρ a c p , a T I , i - Q S , i ρ a c p , a T I , i The energy balance equations for the server\u2019s exhaust zones are: (9) X d T S , i dt = Q S , i ρ a c p , a ( T I , i - T S , i ) + P S , i The energy balance equations for the outlet zones are: (10) ρ a c p , a V O d T O , i dt = F i Q L , T ρ a c p , a T I , i - E i Q L , T ρ a c p , a T O , i - Q OH , i ρ a c p , a T O , i + Q OH , i + 1 ρ a c p , a T O , i + 1 + Q S , i ρ a c p , a T S , i where ρa and cp,a denote the density and specific heat capacity of air, respectively, VI denotes the volume of the inlet zone, VO denotes the volume of the outlet zone, X denotes the thermal mass of the server\u2019s exhaust temperature, PS,i denotes the server workload, TI,i denotes the temperature of the inlet zone, TS,i denotes the temperature of the server\u2019s exhaust zone, TO,i denotes the temperature of the outlet zone, and T RCU denotes supplied cold air temperature of RCU. The energy conservation equations mentioned above (Eqs. (8), (9), and (10)) can be expressed in the form of state-space equations (Eq. (11)): (11) T ̇ ( t ) = A T ( t ) + B u ( t ) T ( t ) = C T ( t ) where A, B, and C denote the matrices. The system input vectors consist of supplied cold air temperature, supplied airflow rate, and server workload, denoted as: (12) u ( t ) = T RCU Q RCU P S , 1 P S , 2 . . . P S , N T The system output vector comprises the temperatures of different zones of the rack, denoted as: (13) T ( t ) = T I , 1 T I , 2 . . . T I , N T S , 1 T S , 2 . . . T S , N T O , 1 T O , 2 . . . T O , N T As previously mentioned, the dynamic thermal model is a state-space model with linear parameter-varying and contains several unknown parameters requiring identification. These parameters can be divided into three categories: (1) Known parameters: ρa , cp,a , QS,i , and Q RCU. (2) Time-invariant estimation parameters: Di , Ei , Fi , X, VI , and VO . (3) Parameter-varying calculation parameters: QL ,T, QOC , and QOH . Among the known parameters, ρa , cp,a can be obtained by referring to the physical properties of air, QS,i , Q RCU are linked to both the server and the cooling unit. The time-invariant estimation parameters are determined using the prediction error method (PEM), which identifies constant values for each of the three airflow adaptation scenarios. These parameters are assumed to remain constant within the same scenario. The time-invariant computational parameters can be calculated based on the mass conservation equation, utilizing the identified parameters. 2.3 Power model development The data center cooling system power consumption P cooling is a sum of the cold source energy consumption P c,source and the fan power consumption P c,fan: (14) P cooling ( t ) = P c,source ( t ) + P c,fan ( t ) The heat load of the RCU refers to the heat removed from the data center by the RCU during its operation, and it can be expressed as follows: (15) Δ Q C ( t ) = ρ a Q RCU ( t ) c p , a T c,in ( t ) - ρ a Q RCU ( t ) c p , a T c,out ( t ) where ΔQ C (t) denotes the heat extracted from the data center by the RCU at moment t, T c,in (t) denotes the return air temperature of the RCU at moment t, considered equal to the average temperature of the 10 outlet zones in this study. T c,out (t) denotes the supplied cold air temperature of the RCU at moment t, equal to T RCU, and Q RCU (t) denotes the supplied airflow rate of the RCU at moment t. The coefficient of performance (COP) of the RCU at moment t can be expressed as a function of T c,out (t) [47]: (16) COP T c,out ( t ) = 0.0068 T c,out 2 ( t ) + 0.0008 T c,out ( t ) + 0.458 The cold source energy consumption P c,source can be expressed as follows [28]: (17) P c,source ( t ) = Δ Q C ( t ) COP T c,out ( t ) = ρ a Q RCU ( t ) c p , a T c,in ( t ) - T c,out ( t ) COP T c,out ( t ) The higher supplied airflow rate of the RCU implies a higher fan speed, which will increase the energy consumption of the cooling system. The fan power consumption model is given by the following equation: (18) P c,fan ( t ) = β 0 Q RCU ( t ) + β 1 Q RCU 2 ( t ) + β 2 Q RCU 3 ( t ) where β 0 , β 1 , β 2 are constants. 2.4 Cost function and constraints of EMPC Discretizing Eq. (11) with sampling period Ts to obtain the following discrete-time model: (19) T ( k + 1 ) = A t T ( k ) + B t u ( k ) T ( k + 1 ) = C T ( k + 1 ) where At and Bt are parameter-varying model parameters related to the sample time TS The discrete model (19) will be used as a system model for the model predictive control algorithm. In this study, the optimization problem was formulated with the objective of minimizing the cooling power consumption in data centers while ensuring that the server inlet temperature and return air temperature remain within predefined thresholds. The settings of the supplied air temperature T RCU and airflow rate Q RCU of the RCU were adopted as the optimized variables. Additionally, to enhance the actual control performance and minimize frequent oscillations in control variables, a strategy for reducing input fluctuations was integrated into the cost function. This approach not only benefits the operational stability of the controller but also contributes to its longevity. Furthermore, the introduction of relaxation variables in the cost function converts the temperature constraints into soft constraints, which facilitates the practical solvability of the optimization problem. Therefore, the cost function associated with this optimization problem can be expressed as follows: (20) min T ^ RCU , R ^ RCU ∑ h = k k + N p - 1 P C \u2016 P ^ c o o l i n g h | k \u2016 1 + Q C 1 \u2016 Δ T ^ R C U h | k \u2016 2 + Q C 2 \u2016 Δ Q ^ R C U h | k \u2016 2 + R C 1 \u2016 Ψ ^ 1 h | k \u2016 2 + R C 2 \u2016 Ψ ^ 2 h | k \u2016 2 (21) subject to : T ( k k ) = T ( k ) (22) T ̲ RCU ⩽ T ̂ RCU ( h k ) ⩽ T ¯ RCU (23) Q ̲ RCU ⩽ Q ̂ RCU ( h k ) ⩽ Q ¯ RCU (24) T ̂ I,max ( h k ) ⩽ T ¯ I + Ψ ̂ 1 ( h ) (25) T ̂ c,in ( h k ) ⩽ T ¯ c,in + Ψ ̂ 2 ( h ) where T ̂ RCU and Q ̂ RCU denote the predicted values of the supplied cold air temperature and airflow rate, respectively. The first term of the cost function P ̂ coolin g ( h k ) 1 denotes the energy consumption of the cooling system, represented by the 1-norm to sum the energy consumption over the prediction horizon. The second term Δ T ̂ RCU ( h k ) 2 and the third term Δ Q ̂ RCU ( h k ) 2 are penalties associated with the fluctuation of input parameters, represented by the 2-norm to sum the squares of the changes in cooling system parameters over the prediction horizon, ensuring the cost of system input fluctuations is positive. The fourth term Ψ ̂ 1 ( h k ) 2 and the fifth term Ψ ̂ 2 ( h k ) 2 are penalties related to the server inlet temperature and return air temperature exceeding the predefined thresholds. Here, the 2-norm is used to sum the squares of the penalties for server temperatures exceeding the threshold over the prediction horizon. P C, Q C1, Q C2, R C1, R C2 are designated as the weight matrices, while Np represents the prediction horizon in MPC optimization problem. The constraint expressed in Eqs. (22) and (23) define the permissible range for the system inputs. Specifically, T ̲ RCU and T ¯ RCU denote the lower and upper bounds of the supplied cold air temperature, respectively. Similarly, Q ̲ RCU and Q ¯ RCU represent the lower and upper bounds of the supplied airflow rate, respectively. Further, Eqs. (24) and (25) are established to ensure thermal security of server operation. Here, T ̂ I,max ( h k ) and T ̂ c,in ( h k ) are the maximum predicted temperature among the inlet zones and the maximum predicted temperature among the return air zone, respectively. T ¯ I and T ¯ c,in serve as the upper thresholds for the temperature in the server's inlet zone and the return air zone, respectively. The values of Ψ ̂ 1 ( h ) and Ψ ̂ 2 ( h ) are determined by the difference between the current prediction temperature and its respective upper limit. In the optimization framework, a significant departure from the designated temperature thresholds leads to the imposition of a heavier penalty in the cost function. Specifically, when the temperature is below the upper limit, the penalty is zero, but when the temperature exceeds the upper limit, the value of penalty term will be large, increasing the cost function. Therefore, the optimization algorithm will adjust the supplied air temperature and airflow rate to ensure the temperatures do not exceed the threshold. This approach is strategically adopted to ensure adherence to the predefined safe operational temperature limits, thereby aligning the optimization process with the system's critical temperature maintenance objectives. 2.5 Simulation experiments settings In order to rigorously assess the control performance of the proposed EMPC, a extensive simulation was conducted on a rack-based cooling data center illustrated in Fig. 2. The configuration included ten servers (N = 10) and a RCU strategically positioned at the bottom of the rack, according to a real-world scenario. The parameters relevant to the EMPC algorithm employed in this study are outlined in Table 1 . And it should be mentioned that the optimization problem was solved using the sequential quadratic programming (SQP) method, implemented through the fmincon function in the optimization toolbox of Matlab R2018a software. To evaluate the effectiveness of the EMPC under dynamic workloads, the study utilized the number of requests per minute from proxy servers as an indicator for workload intensity, sourced from the EPA web trace [48]. The average request rate was transformed into server workload rate ranging from 0 to 1. Utilizing this method, a 24-hour server workload rate was constructed for conducting simulation tests. Assuming that the workload is evenly distributed among servers, the fluctuations in the utilization of a single server are shown in Fig. 4 . Additionally, a PID controller was used for comparative analysis, and the PID control principle is shown in Fig. 5 . Here, e(t) represents the error term, calculated as the difference between the measurement and setpoint. KP , KI , KD are the proportional, integral and derivative coefficients, respectively. u(t) denotes the supplied airflow rate of the cooling system. The general form of a mathematical model of a continuous control system is expressed as follows: (26) u ( t ) = K p e ( t ) + K i ∫ 0 t e ( t ) d τ + K d de ( t ) dt The PID controller utilized an identical sampling time as EMPC, set at one minute. To ensure fairness in comparison, this study strives to increase the set temperature close to the upper bound as much as possible in order to obtain the PID control strategy with the highest energy efficiency. Through a trial-and-error methodology, the PID parameters were fine-tuned to guarantee the alignment of the server\u2019s inlet and return air temperatures with the predefined criteria. Notably, the supplied cold air temperature was set to 25 °C, with meticulous attention to prevent the return air temperature from exceeding 35 °C. The specific PID control parameters are detailed in Table 2 . In this study, the cooling system energy consumption and power usage effectiveness (PUE) of the data center under two control strategies were compared. The PUE serves as a crucial indicator for evaluating the energy efficiency of the data center. A lower PUE indicates reduced energy consumption of the cooling system, reflecting a higher level of energy efficiency. It is calculated as the ratio of the total energy consumption of the data center P DC to the energy consumption of the IT equipment P IT: (27) PUE = P DC P IT The total data center power consumption, P DC, represents the sum of the power consumption of IT equipment, P IT, and the power consumption of the cooling system, P cooling: (28) P DC = P IT + P cooling The IT equipment power consumption P IT is mainly determined by the server. Therefore, P IT is assumed to be equal to the sum of the power consumption of all servers. The power consumption PS,i of server i can be described as follows [49]: (29) P S , i = c 1 + c 2 u i where ui the server utilization, c 1 is the power consumption of an idle server and c 1 + c 2 is the power consumption of a fully utilized server. This study assumes that all servers are isomorphic. 3 Results and discussion 3.1 Temperature prediction model performance analysis To evaluate the accuracy of the parameter-varying state-space model, a dedicated dataset spanning 1080 min of the temperature predictions was employed, with a prediction time interval of one minute. The prediction relative error percentage (λ) between the temperature predictions and CFD simulation results is shown in Fig. 6 . The results indicate that λ remains consistently below 9 % in the inlet zone and below 4 % in the outlet zone. Due to space limitations, this study focuses on the temperature variations and trends of the inlet and outlet zones of the centrally located server (server 5) using CFD simulation values and model predictions, as shown in Fig. 7 . The validation results reveal that the predicted data closely matches the simulation results. In addition, the difference between the predicted and simulated temperatures in the inlet area is consistently less than 2 °C, while the outlet area is consistently less than 1 °C. Thus, the model exhibits robust predictive accuracy even in the presence of dynamic changes in input parameters and extended prediction times. In addition, the assessment of temperature prediction accuracy incorporates the root mean square error (RMSE) and mean absolute error (MAE), as shown in Fig. 8 . The outcomes demonstrate that the RMSE consistently remains below 0.6 °C, and the MAE consistently remains below 0.5 °C across all zones. Hence, it can conclude that the proposed parameter-varying state-space model behaves excellent performance in predicting the dynamic temperature distribution for the rack-based cooling data centers. Notably, the entire temperature prediction process takes no more than five seconds, proving the model\u2019s remarkable timeliness in the context of advanced control techniques. In summary, the model proves well-suited for applications in model predictive control within the rack-based cooling data centers. 3.2 EMPC performance analysis The comparison of cooling system energy consumption and power usage effectiveness (PUE) under different control strategies are shown in Fig. 9 . The data reveals that using the PID controller to maintain a fixed supplied cold air temperature leads to serious server over-cooling problems. Therefore, the energy consumption of the PID controller significantly exceeds that of the EMPC. Specifically, the total power consumption over 24 h for the PID controller is 9.714 kW·h, yielding a PUE of 1.248. In contrast, the EMPC exhibits superior energy efficiency with a total power consumption of 7.870 kW·h over the same period, resulting in a lower PUE of 1.224. Compared to PID, EMPC strategy can achieve about 9.7 % of the cooling power reduction. EMPC optimally adjusts the supplied cold air temperature and airflow rate to meet the cooling requirements of the data center while minimizing energy consumption, while PID controls the supplied airflow rate alone. Fig. 10 shows the supplied cold air temperature and airflow rate of the cooling unit in a data center for different control strategies. It can be found that EMPC effectively coordinates the control of the supplied cold air temperature and airflow rate resulting in a maintained higher supplied cold air temperature (approximately 1.5 °C higher on average). A higher supplied cold air temperature increases the COP of the cooling system, contributing to reduced energy consumption. Additionally, the supplied cold air temperature exhibits minimal fluctuations with the varying workload, while the supplied airflow rate gradually increases with the workload to fulfill the cooling needs of the data center. In contrast, the PID controller maintains a slightly higher supplied airflow rate than the EMPC, leading to increased fan power consumption. The results show that the EMPC approach not only raises the supplied cold air temperature to diminish cold source energy consumption but also conserves fan energy by lowering the supplied airflow rate. It is noteworthy that all optimization results are grounded in the scenario of cold air bypass, where supplied airflow rate of the cooling system surpasses the total server airflow rate. This is because the occurrence of hot air re-circulation will lead to high server inlet air temperatures, and the server cooling demand must be met by further reducing the supplied cold air temperature, which will lead to more energy consumption. In EMPC, weight coefficients R C1 and R C2 in the objective function are set sufficiently large to ensure that the server inlet temperature and return air temperature remain below the threshold values. The maximum server inlet temperature and the cooling unit return air temperature are shown in Fig. 11 . It can be found that the return air temperature consistently stays below the upper threshold of 35 °C with the EMPC, fluctuating around it. Simultaneously, the maximum server inlet temperature fluctuates within a narrow range of around 27 °C. In contrast, the PID controller proves less effective in managing rapid fluctuations in server workload, resulting in a wide-ranging fluctuation of the return air temperature between 30 and 35 °C. Compared to EMPC, the PID controller has to set the supplied cold air temperature lower to maintain the server inlet and return air temperatures within the specified range, leading to over-cooling and energy wastage. This comparison highlights the superior performance of the EMPC in maintaining temperature thresholds and responding to workload variations efficiently. 3.3 Effect of workload level on control performance The workload data used for testing was divided into three phases based on the CPU workload rate of the data center, as shown in Table 3 . Specifically, the period from 0 to 8 h is regarded as low-load operation, 16 to 24 h as medium-load operation, and 8 to 16 h as high-load operation. Fig. 12 illustrates the cooling system energy consumption corresponding to the two control strategies under different workloads. It is evident that both the cooling power consumption and fan power consumption of the cooling system rise with increased workload. Compared to the PID controller, when the data center operates under low, medium, and high loads, the EMPC achieves energy savings of 10.16 %, 9.75 %, and 9.30 %, respectively. It suggests that the level of the server workload has no significant impact on the energy-saving effect of the EMPC strategy. EMPC can achieve high energy savings at various server workload levels. 3.4 Impact of the prediction horizon on control performance This study also explored the effect of the prediction horizon on the EMPC control performance. The boxplots of supplied cold air temperature and airflow rate corresponding to different optimization time domains are shown in Fig. 13 . It can be observed that the prediction horizon has a notable impact on the control variables. As Np increases from 1 to 3, there is a significant reduction in the dispersion of supplied cold air temperature and airflow rate. However, when Np further increases to 7, the decrease in dispersion is not significant. While extending the prediction horizon can reduce energy consumption and minimize input fluctuations, it comes at the cost of prolonging the solution time. Therefore, selecting an appropriate prediction horizon is crucial for enhancing the controller\u2019s performance and three minutes is recommended for the rack-based cooling system. 4 Conclusions and future work In this study, a predictive control strategy based on a linear parameter-varying state-space model was proposed for data center energy conservation control and thermal management. This strategy aims to optimize the cooling system supplied cold air temperature and airflow rate to minimize cooling power consumption while ensuring the safe and stable operation of the data center. The prediction accuracy of the temperature prediction model was verified by comparing it with CFD simulation results. The energy consumption management and thermal management performance were verified of EMPC through comparative analysis with PID. In addition, the impacts of workload level and prediction horizon range on EMPC performance were comprehensively investigated. The main conclusions of this paper are as follows: (1) The temperature prediction model shows sufficient accuracy, and the RMSE is less than 0.6 °C and the MAE is less than 0.5 °C for all zones. (2) Compared to the PID controller, the proposed EMPC can achieve a 9.7 % energy by effectively mitigating the server over-cooling. Even during periods of significant short-term server workload fluctuations, it can minimize input fluctuations to maintain stable server temperatures. (3) From the perspective of application scenarios, the proposed EMPC strategy exhibits excellent performance at various workload levels. (4) Considering the fluctuation of control variables and optimization time, selecting three minutes as the prediction horizon is suggested for the rack-based cooling system. In this work, we assume direct control over the supplied cold air temperature and airflow rate of the cooling units, thereby overlooking the impact of supplied airflow rate on supplied cold air temperature. In Addition, in modeling the energy consumption of the cooling system, we did not consider the influence of outdoor parameters on the COP. Therefore, in future research, we will consider detailed modeling of the cooling side to achieve more precise optimization and control of cooling parameters. CRediT authorship contribution statement Weiqi Deng: Writing \u2013 original draft, Investigation. Jiaqiang Wang: Writing \u2013 review & editing, Methodology, Conceptualization. Chang Yue: Software, Formal analysis. Yang Guo: Writing \u2013 review & editing, Formal analysis. Quan Zhang: Supervision. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgment The research work of this study was supported by the National Natural Science Foundation of China (No.52108101，52208136), the International Science and Technology Cooperation Programme of China (2023YFE0120400), the Chenzhou Municipal Science and Technology Bureau (No.2022sfq27, 2022sfq28), and the Opening Foundation of Anhui Province Key Laboratory of Intelligent Building & Building Energy Saving (IBES2022KF05). References [1] J. Wang Q. Zhang S. Yoon Y. Yu Impact of uncertainties on the supervisory control performance of a hybrid cooling system in data center Build. Environ. 148 2019 361 371 J. Wang, Q. Zhang, S. Yoon, Y. Yu, Impact of uncertainties on the supervisory control performance of a hybrid cooling system in data center, Build. Environ. 148 (2019) 361-371. [2] Y. Tian J. Wang Z. Qi C. Yue P. Wang S. Yoon Calibration method for sensor drifting bias in data center cooling system using Bayesian Inference coupling with Autoencoder J. Build. Eng. 67 2023 105961 Y. Tian, J. Wang, Z. Qi, C. Yue, P. Wang, S. Yoon, Calibration method for sensor drifting bias in data center cooling system using Bayesian Inference coupling with Autoencoder, J. Build. Eng. 67 (2023) 105961. [3] E. Masanet A. Shehabi N. Lei S. Smith J. Koomey Recalibrating global data center energy-use estimates Science 367 6481 2020 984 986 E. Masanet, A. Shehabi, N. Lei, S. Smith, J. Koomey, Recalibrating global data center energy-use estimates, Science 367(6481) (2020) 984-986. [4] S.-Q. Jin N. Li F. Bai Y.-J. Chen X.-Y. Feng H.-W. Li X.-M. Gong W.-Q. Tao Data-driven model reduction for fast temperature prediction in a multi-variable data center Int. Commun. Heat Mass Transf. 142 2023 106645 S.-Q. Jin, N. Li, F. Bai, Y.-J. Chen, X.-Y. Feng, H.-W. Li, X.-M. Gong, W.-Q. Tao, Data-driven model reduction for fast temperature prediction in a multi-variable data center, Int. Commun. Heat Mass Transf. 142 (2023) 106645. [5] J. Wang Y. Tian Z. Qi L. Zeng P. Wang S. Yoon Sensor fault diagnosis and correction for data center cooling system using hybrid multi-label random Forest and Bayesian Inference Build. Environ. 249 2024 111124 J. Wang, Y. Tian, Z. Qi, L. Zeng, P. Wang, S. Yoon, Sensor fault diagnosis and correction for data center cooling system using hybrid multi-label random Forest and Bayesian Inference, Build. Environ. 249 (2024) 111124. [6] X. Qian Z. Li Z. Li A thermal environmental analysis method for data centers Int. J. Heat Mass Transf. 62 2013 579 585 X. Qian, Z. Li, Z. Li, A thermal environmental analysis method for data centers, Int. J. Heat Mass Transf. 62 (2013) 579-585. [7] Y. Wang X. Bai Y. Fu Y. Tang C. Jin Z. Li Field experiment and numerical simulation for airflow evaluation in a data center with row-based cooling Energ. Buildings 294 2023 113231 Y. Wang, X. Bai, Y. Fu, Y. Tang, C. Jin, Z. Li, Field experiment and numerical simulation for airflow evaluation in a data center with row-based cooling, Energy Build. 294 (2023) 113231. [8] X. Tong J. Wang W. Liu H.-A. Samah Q. Zhang L. Zhang A time-varying state-space model for real-time temperature predictions in rack-based cooling data centers Appl. Therm. Eng. 230 2023 120737 X. Tong, J. Wang, W. Liu, H.-A. Samah, Q. Zhang, L. Zhang, A time-varying state-space model for real-time temperature predictions in rack-based cooling data centers, Appl. Therm. Eng. 230 (2023) 120737. [9] J. Wang X. Tong C. Yue W. Liu Q. Zhang L. Zeng G. Huang Real-time temperature distribution reconstruction via linear parameter-varying state-space model and Kalman filter in rack-based cooling data centers Build. Environ. 242 2023 110601 J. Wang, X. Tong, C. Yue, W. Liu, Q. Zhang, L. Zeng, G. Huang, Real-time temperature distribution reconstruction via linear parameter-varying state-space model and Kalman filter in rack-based cooling data centers, Build. Environ. 242 (2023) 110601. [10] A. Habibi Khalaj S.K. Halgamuge A Review on efficient thermal management of air- and liquid-cooled data centers: From chip to the cooling system Appl. Energy 205 2017 1165 1188 A. Habibi Khalaj, S.K. Halgamuge, A Review on efficient thermal management of air- and liquid-cooled data centers: From chip to the cooling system, Appl. Energy 205 (2017) 1165-1188. [11] H. Moazamigoodarzi S. Pal D. Down M. Esmalifalak I.K. Puri Performance of a rack mountable cooling unit in an IT server enclosure Therm. Sci. Eng. Prog. 17 2020 100395 H. Moazamigoodarzi, S. Pal, D. Down, M. Esmalifalak, I.K. Puri, Performance of a rack mountable cooling unit in an IT server enclosure, Therm. Sci. Eng. Prog. 17 (2020) 100395. [12] R. Gupta H. Moazamigoodarzi S. MirhoseiniNejad D.G. Down I.K. Puri Workload management for air-cooled data centers: An energy and exergy based approach Energy 209 2020 118485 R. Gupta, H. Moazamigoodarzi, S. MirhoseiniNejad, D.G. Down, I.K. Puri, Workload management for air-cooled data centers: An energy and exergy based approach, Energy 209 (2020) 118485. [13] E. Terzi L. Fagiano M. Farina R. Scattolini Structured modelling from data and optimal control of the cooling system of a large business center J. Build. Eng. 28 2020 101043 E. Terzi, L. Fagiano, M. Farina, R. Scattolini, Structured modelling from data and optimal control of the cooling system of a large business center, J. Build. Eng. 28 (2020) 101043. [14] Q. Fang J. Zhou S. Wang Y. Wang Control-oriented modeling and optimization for the temperature and airflow management in an air-cooled data-center Neural Comput. & Applic. 34 7 2022 5225 5240 Q. Fang, J. Zhou, S. Wang, Y. Wang, Control-oriented modeling and optimization for the temperature and airflow management in an air-cooled data-center, Neural Comput. Appl. 34(7) (2022) 5225-5240. [15] ASHRAE, Thermal Guidelines for Data Processing Environments, (fourth ed.) (2015). [16] Y. Tang X. Bai C. Jin Y. Fu W. Mao X. Xu Experimental and numerical study on the thermal environment of a data center Build. Environ. 212 2022 108741 Y. Tang, X. Bai, C. Jin, Y. Fu, W. Mao, X. Xu, Experimental and numerical study on the thermal environment of a data center, Build. Environ. 212 (2022) 108741. [17] R. Zhao Y. Du X. Yang Z. Zhou W. Wang X. Yang A critical review on the thermal management of data center for local hotspot elimination Energ. Buildings 297 2023 113486 R. Zhao, Y. Du, X. Yang, Z. Zhou, W. Wang, X. Yang, A critical review on the thermal management of data center for local hotspot elimination, Energy Build. 297 (2023) 113486. [18] A. Afram F. Janabi-Sharifi Theory and applications of HVAC control systems \u2013 A review of model predictive control (MPC) Build. Environ. 72 2014 343 355 A. Afram, F. Janabi-Sharifi, Theory and applications of HVAC control systems \u2013 A review of model predictive control (MPC), Build. Environ. 72 (2014) 343-355. [19] J. Zhao J. Li Y. Shan Research on a forecasted load-and time delay-based model predictive control (MPC) district energy system model Energ. Buildings 231 2021 110631 J. Zhao, J. Li, Y. Shan, Research on a forecasted load-and time delay-based model predictive control (MPC) district energy system model, Energy Build. 231 (2021) 110631. [20] J.B. Petersen J.D. Bendtsen J. Stoustrup Nonlinear Model Predictive Control for Energy Efficient Cooling in Shopping Center HVAC 2019 IEEE Conference on Control Technology and Applications (CCTA), IEEE 2019 611 616 J.B. Petersen, J.D. Bendtsen, J. Stoustrup, Nonlinear Model Predictive Control for Energy Efficient Cooling in Shopping Center HVAC, 2019 IEEE Conference on Control Technology and Applications (CCTA), IEEE (2019) 611-616. [21] B.R. Park Y.J. Choi E.J. Choi J.W. Moon Adaptive control algorithm with a retraining technique to predict the optimal amount of chilled water in a data center cooling system J. Build. Eng. 50 2022 104167 B.R. Park, Y.J. Choi, E.J. Choi, J.W. Moon, Adaptive control algorithm with a retraining technique to predict the optimal amount of chilled water in a data center cooling system, J. Build. Eng. 50 (2022) 104167. [22] K. Jiang M. Kheradmandi C. Hu S. Pal F. Yan Data-driven fault tolerant predictive control for temperature regulation in data center with rack-based cooling architecture Mechatronics 79 2021 102633 K. Jiang, M. Kheradmandi, C. Hu, S. Pal, F. Yan, Data-driven fault tolerant predictive control for temperature regulation in data center with rack-based cooling architecture, Mechatronics 79 (2021) 102633. [23] S. Mirhoseininejad G. Badawy D.G. Down A. Data-driven Multi-setpoint Model Predictive Thermal Control System for Data Centers J. Netw. Syst. Manag. 29 1 2020 7 S. Mirhoseininejad, G. Badawy, D.G. Down, A Data-driven, Multi-setpoint Model Predictive Thermal Control System for Data Centers, J. Netw. Syst. Manag. 29(1) (2020) 7. [24] Q. Fang J. Wang Q. Gong QoS-Driven Power Management of Data Centers via Model Predictive Control IEEE Trans. Autom. Sci. Eng. 13 4 2016 1557 1566 Q. Fang, J. Wang, Q. Gong, QoS-Driven Power Management of Data Centers via Model Predictive Control, IEEE Trans. Autom. Sci. Eng. 13(4) (2016) 1557-1566. [25] Q. Fang J. Wang Q. Gong M. Song Thermal-Aware Energy Management of an HPC Data Center via Two-Time-Scale Control IEEE Trans. Ind. Inform. 13 5 2017 2260 2269 Q. Fang, J. Wang, Q. Gong, M. Song, Thermal-Aware Energy Management of an HPC Data Center via Two-Time-Scale Control, IEEE Trans. Ind. Inform. 13(5) (2017) 2260-2269. [26] S. Shi Rack-based data center temperature regulation using data-driven model predictive control 2019 McMaster University [Master\u2019s thesis] S. Shi, Rack-based data center temperature regulation using data-driven model predictive control, [Master\u2019s thesis] McMaster University (2019). [27] M. Kheradmandi, D.G. Down, H. Moazamigoodarzi, Energy-Efficient Data-Based Zonal Control of Temperature for Data Centers, 2019 Tenth International Green and Sustainable Computing Conference (IGSC), IEEE (2019) 1-7. [28] Z. Li H. Wang Q. Fang Y. Wang A data-driven subspace predictive control method for air-cooled data center thermal modelling and optimization J. Frankl. Inst. 360 5 2023 3657 3676 Z. Li, H. Wang, Q. Fang, Y. Wang, A data-driven subspace predictive control method for air-cooled data center thermal modelling and optimization, J. Frankl. Inst. 360(5) (2023) 3657-3676. [29] Q. Fang Q. Gong J. Wang Y. Wang Optimization based resource and cooling management for a high performance computing data center ISA Trans. 90 2019 202 212 Q. Fang, Q. Gong, J. Wang, Y. Wang, Optimization based resource and cooling management for a high performance computing data center, ISA Trans. 90 (2019) 202-212. [30] Y.J. Choi B.R. Park J.Y. Hyun J.W. Moon Development of an adaptive artificial neural network model and optimal control algorithm for a data center cyber\u2013physical system Build. Environ. 210 2022 108704 Y.J. Choi, B.R. Park, J.Y. Hyun, J.W. Moon, Development of an adaptive artificial neural network model and optimal control algorithm for a data center cyber\u2013physical system, Build. Environ. 210 (2022) 108704. [31] W. Liu X. Tong J. Wang C. Yue Q. Zhang Real-time temperature predictions via state-space model and parameters identification within rack-based cooling data centers J. Build. Eng. 58 2022 105013 W. Liu, X. Tong, J. Wang, C. Yue, Q. Zhang, Real-time temperature predictions via state-space model and parameters identification within rack-based cooling data centers, J. Build. Eng. 58 (2022) 105013. [32] J. Athavale M. Yoda Y. Joshi Chapter Three - Thermal Modeling of Data Centers for Control and Energy Usage Optimization Adv Heat Transf. 50 2018 123 186 J. Athavale, M. Yoda, Y. Joshi, Chapter Three - Thermal Modeling of Data Centers for Control and Energy Usage Optimization, Adv Heat Transf. 50 (2018) 123-186. [33] X. Han W. Tian J. VanGilder W. Zuo C. Faulkner An open source fast fluid dynamics model for data center thermal management Energ. Buildings 230 2021 110599 X. Han, W. Tian, J. VanGilder, W. Zuo, C. Faulkner, An open source fast fluid dynamics model for data center thermal management, Energy Build. 230 (2021) 110599. [34] X. Xiong P.S. Lee Vortex-enhanced thermal environment for air-cooled data center: An experimental and numerical study Energ. Buildings 250 2021 111287 X. Xiong, P.S. Lee, Vortex-enhanced thermal environment for air-cooled data center: An experimental and numerical study, Energy Build. 250 (2021) 111287. [35] Y. Fulpagare Y. Joshi A. Bhargav Rack level transient CFD modeling of data center Int. J. Numer. Meth. Heat Fluid Flow 28 4 2018 381 394 Y. Fulpagare, Y. Joshi, A. Bhargav, Rack level transient CFD modeling of data center, Int. J. Numer. Methods Heat Fluid Flow 28(4) (2018) 381-394. [36] Y. Fulpagare A. Bhargav Advances in data center thermal management Renew. Sust. Energ. Rev. 43 2015 981 996 Y. Fulpagare, A. Bhargav, Advances in data center thermal management, Renew. Sust. Energ. Rev. 43 (2015) 981-996. [37] B. Hu Z. Yin A. Hamrani A. Leon D. McDaniel Super-resolution-assisted rapid high-fidelity CFD modeling of data centers Build. Environ. 247 2024 111036 B. Hu, Z. Yin, A. Hamrani, A. Leon, D. McDaniel, Super-resolution-assisted rapid high-fidelity CFD modeling of data centers, Build. Environ. 247 (2024) 111036. [38] Y. Yao J. Chen J. Feng S. Wang Modular modeling of air-conditioning system with state-space method and graph theory Int. J. Refrig 99 2019 9 23 Y. Yao, J. Chen, J. Feng, S. Wang, Modular modeling of air-conditioning system with state-space method and graph theory, Int. J. Refrig. 99 (2019) 9-23. [39] K. Fouladi A.P. Wemhoff L. Silva-Llanca K. Abbasi A. Ortega Optimization of data center cooling efficiency using reduced order flow modeling within a flow network modeling approach Appl. Therm. Eng. 124 2017 929 939 K. Fouladi, A.P. Wemhoff, L. Silva-Llanca, K. Abbasi, A. Ortega, Optimization of data center cooling efficiency using reduced order flow modeling within a flow network modeling approach, Appl. Therm. Eng. 124 (2017) 929-939. [40] S. Tashiro Y. Nakamura K. Matsuda M. Matsuoka Application of Convolutional Neural Network to Prediction of Temperature Distribution in Data Centers 2016 IEEE 9th International Conference on Cloud Computing (CLOUD), IEEE 2016 656 661 S. Tashiro, Y. Nakamura, K. Matsuda, M. Matsuoka, Application of Convolutional Neural Network to Prediction of Temperature Distribution in Data Centers, 2016 IEEE 9th International Conference on Cloud Computing (CLOUD), IEEE (2016) 656-661. [41] R. Lloyd, M. Rebow, Data Driven Prediction Model (DDPM) for Server Inlet Temperature Prediction in Raised-floor Data Centers, 2018 17th IEEE Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems (ITherm), IEEE (2018) 716-725. [42] A. Saiyad A. Patel Y. Fulpagare A. Bhargav Predictive modeling of thermal parameters inside the raised floor plenum data center using Artificial Neural Networks J. Build. Eng. 42 2021 102397 A. Saiyad, A. Patel, Y. Fulpagare, A. Bhargav, Predictive modeling of thermal parameters inside the raised floor plenum data center using Artificial Neural Networks, J. Build. Eng. 42 (2021) 102397. [43] F. de Lorenzi C. Vömel Neural Network-Based Prediction and Control of Air Flow in a Data Center J. Therm. Sci. Eng. Appl. 4 2 2012 021005 F. de Lorenzi, C. Vömel, Neural Network-Based Prediction and Control of Air Flow in a Data Center, J. Therm. Sci. Eng. Appl. 4(2) (2012) 021005. [44] J. Chen, R. Tan, Y. Wang, G. Xing, X. Wang, X. Wang, B. Punch, D. Colbry, A High-Fidelity Temperature Distribution Forecasting System for Data Centers, 2012 IEEE 33rd Real-Time Systems Symposium, IEEE (2012) 215-224. [45] Y. Tarutani K. Hashimoto G. Hasegawa Y. Nakamura T. Tamura K. Matsuda M. Matsuoka Temperature Distribution Prediction in Data Centers for Decreasing Power Consumption by Machine Learning 2015 IEEE 7th International Conference on Cloud Computing Technology and Science (CloudCom), IEEE 2015 635 642 Y. Tarutani, K. Hashimoto, G. Hasegawa, Y. Nakamura, T. Tamura, K. Matsuda, M. Matsuoka, Temperature Distribution Prediction in Data Centers for Decreasing Power Consumption by Machine Learning, 2015 IEEE 7th International Conference on Cloud Computing Technology and Science (CloudCom), IEEE (2015) 635-642. [46] S. MirhoseiniNejad F.M. García G. Badawy D.G. Down ALTM: Adaptive learning-based thermal model for temperature predictions in data centers IEEE Sustainability through ICT Summit (StICT) IEEE 2019 2019 1 6 S. MirhoseiniNejad, F.M. García, G. Badawy, D.G. Down, ALTM: Adaptive learning-based thermal model for temperature predictions in data centers, 2019 IEEE Sustainability through ICT Summit (StICT), IEEE (2019) 1-6. [47] H. Moazamigoodarzi S. Pal S. Ghosh I.K. Puri Real-time temperature predictions in IT server enclosures Int. J. Heat Mass Transf. 127 2018 890 900 H. Moazamigoodarzi, S. Pal, S. Ghosh, I.K. Puri, Real-time temperature predictions in IT server enclosures, Int. J. Heat Mass Transf. 127 (2018) 890-900. [48] The IRCache Project. http://www.ircache.net/. [49] S. MirhoseiniNejad H. Moazamigoodarzi G. Badawy D.G. Down Joint data center cooling and workload management: A thermal-aware approach Futur. Gener. Comp. Syst. 104 2020 174 186 S. MirhoseiniNejad, H. Moazamigoodarzi, G. Badawy, D.G. Down, Joint data center cooling and workload management: A thermal-aware approach, Futur. Gener. Comp. Syst. 104 (2020) 174-186.",
+    "scopus-id": "85197779579",
+    "coredata": {
+        "eid": "1-s2.0-S0378778824006443",
+        "dc:description": "Cooling system energy consumption occupies approximately 40% of the total energy consumption in data centers, and efficient control is crucial for improving cooling efficiency and reducing the operational costs of data centers. This paper introduced a novel economic model predictive control (EMPC) strategy based on a linear parameter-varying state-space model. The primary objective was to maintain the thermal environment of data centers while minimizing the energy consumption of the cooling system. Therein, a linear parameter-varying state-space model was developed based on the parameter identification method to precisely predict the temperature field of the rack-based cooling data center in real-time. The energy management and thermal regulation performance of the EMPC and the proportion integration differentiation (PID) controller were comparatively analyzed through simulation experiments. Moreover, the impacts of the server workload level and optimization time domain on the performance of EMPC were comprehensively investigated. The results show that, the proposed EMPC was able to minimize the energy consumption by optimizing the supplied cold air temperature and airflow rate simultaneously. In comparison with the PID controller, EMPC not only achieves a 9.7% energy saving by preventing server over-cooling but also diminishes server temperature fluctuations, promoting the safe and stable operation of the server. The research shows that the EMPC reveals excellent performance along with all server workload levels. In addition, the length of the prediction horizon has a notable impact and three minutes is suggested for the rack-based cooling system.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-09-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378778824006443",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Deng, Weiqi"
+            },
+            {
+                "@_fa": "true",
+                "$": "Wang, Jiaqiang"
+            },
+            {
+                "@_fa": "true",
+                "$": "Yue, Chang"
+            },
+            {
+                "@_fa": "true",
+                "$": "Guo, Yang"
+            },
+            {
+                "@_fa": "true",
+                "$": "Zhang, Quan"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0378778824006443"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0378778824006443"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0378-7788(24)00644-3",
+        "prism:volume": "319",
+        "articleNumber": "114528",
+        "prism:publisher": "Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Model-based control strategy with linear parameter-varying state-space model for rack-based cooling data centers",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Rack-based cooling data center"
+            },
+            {
+                "@_fa": "true",
+                "$": "Linear parameter-varying state space model"
+            },
+            {
+                "@_fa": "true",
+                "$": "Model predictive control"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114528",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 September 2024",
+        "prism:doi": "10.1016/j.enbuild.2024.114528",
+        "prism:startingPage": "114528",
+        "dc:identifier": "doi:10.1016/j.enbuild.2024.114528",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "292",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "22956",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "187",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "44412",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "259",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "52928",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "294",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21871",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "455",
+            "@width": "649",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94663",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "399",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "66616",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "357",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41581",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "199",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16572",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "565",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "72619",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "437",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "60444",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "258",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "32633",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "428",
+            "@width": "552",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62733",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "332",
+            "@width": "640",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "56818",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "120",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5004",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "66",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6619",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "91",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6550",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "213",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7269",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "154",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13238",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "140",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11699",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "147",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8356",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "82",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3861",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "154",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10241",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "200",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10149",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "106",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7958",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "211",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11061",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "114",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9056",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1293",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "160592",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "829",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "332880",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1146",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "354898",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1303",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "147027",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2017",
+            "@width": "2874",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "609859",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1768",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "482669",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1583",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "272406",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "883",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "111575",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2505",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "512728",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1937",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "371058",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1142",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "269863",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1896",
+            "@width": "2444",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "511183",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1471",
+            "@width": "2836",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "434444",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4702",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19845",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22029",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16562",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18047",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "42648",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21475",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "37755",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11807",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18467",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15800",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4662",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19066",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23882",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21041",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "33949",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21554",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2868",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2710",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2815",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13664",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "47326",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5407",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13549",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11418",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12125",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15531",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14013",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4835",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5695",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13282",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11311",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12176",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5520",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8990",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8427",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11170",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9214",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5481",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5584",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21632",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9535",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11804",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9811",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2220",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4957",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "45919",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10268",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29671",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824006443-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "822384",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85197779579"
+    }
+}}

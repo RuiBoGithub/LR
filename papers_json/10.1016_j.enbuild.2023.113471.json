@@ -1,0 +1,1028 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85168417510",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 Energy and Buildings ENERGYBUILDINGS 2023-08-17 2023-08-17 2023-08-21 2023-08-21 2023-09-10T18:30:17 1-s2.0-S0378778823007016 S0378-7788(23)00701-6 S0378778823007016 10.1016/j.enbuild.2023.113471 S300 S300.1 FULL-TEXT 1-s2.0-S0378778823X00176 2024-04-16T11:25:38.719385Z 0 0 20231015 2023 2023-08-17T07:34:00.487701Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast footnotes nomenclature primabst ref 0378-7788 03787788 true 297 297 C Volume 297 33 113471 113471 113471 20231015 15 October 2023 2023-10-15 2023 Research Articles article fla © 2023 Elsevier B.V. All rights reserved. MACHINELEARNINGBASEDSIMULTANEOUSCONTROLAIRHANDLINGUNITDISCHARGEAIRCONDENSERWATERTEMPERATURESSETPOINTFORMINIMIZEDCOOLINGENERGYINOFFICEBUILDING JEE H Nomenclature 1 Introduction 2 Research method 2.1 Overview of the study process 2.2 Simulation tools and programming language platform 2.3 Description of the simulation model 2.4 Co-simulation strategy 3 ANN model development 3.1 ANN model structure 3.2 Construction of the training dataset 3.3 Optimized ANN model 3.4 ECFT and AHU DAT set-point control algorithm 4 Analysis and discussion of the results 4.1 Preliminary results for the cooling energy variation according to the AHU DAT set-point 4.2 Preliminary results for the cooling energy variation according to the ECFT set-point 4.3 Comparison of ECFT set-point variation with ANN-based and fixed control 4.4 Analysis of the reduction effect on chiller energy according to the ECFT via ANN-based control 4.5 Comparative analysis of the supply airflow under ANN-based and fixed control 4.6 Analysis of the cooling coil rate according to the AHU DAT set-point 4.7 Comparative analysis of the evaporator cooling load under fixed and ANN-based control 4.8 Comparison of the total cooling energy consumption under conventional fixed and ANN-based control 5 Conclusion Acknowledgements References SATYAVADA 2016 262 273 H HUANG 2006 926 943 W HOMOD 2014 762 774 R YU 2012 264 273 Y MORADI 2016 123 135 H KHAN 2015 477 488 M KIM 2016 666 674 W GRUBER 2014 406 415 M LEE 2019 726 738 J MOSSOLLY 2009 58 66 M KANG 2021 110666 W HUANG 2017 33 46 S CHEN 2019 562 570 X YU 2013 2499 2514 F LI 2013 172 182 X CHUNG 2017 77 87 M HOSOZ 2007 1349 1359 M WETTER 2011 185 203 M DONGARE 2012 A MENDONCA 2006 735 740 L AKSU 2019 170 192 G SEO 2016 309 322 B JEEX2023X113471 JEEX2023X113471XH 2025-08-21T00:00:00.000Z 2025-08-21T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Elsevier B.V. All rights reserved. 2023-08-26T06:14:52.662Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Korea University K2220941 KU Korea University http://data.elsevier.com/vocabulary/SciValFunders/501100002642 http://sws.geonames.org/1835841/ MSIT 2022R1A2C2006469 MSIP Ministry of Science, ICT and Future Planning http://data.elsevier.com/vocabulary/SciValFunders/501100003621 http://sws.geonames.org/1835841/ National Research Foundation of Korea NRF National Research Foundation of Korea http://data.elsevier.com/vocabulary/SciValFunders/501100003725 http://sws.geonames.org/1835841/ This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2022R1A2C2006469). This work was supported by a Korea University Grant (No. K2220941). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0378-7788(23)00701-6 S0378778823007016 1-s2.0-S0378778823007016 10.1016/j.enbuild.2023.113471 271089 2023-09-10T17:56:31.878954Z 2023-10-15 1-s2.0-S0378778823007016-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/MAIN/application/pdf/b80020fedd595828664caf6d69284dbd/main.pdf main.pdf pdf true 11260108 MAIN 17 1-s2.0-S0378778823007016-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/PREVIEW/image/png/e3bc3254c73c2ac1e0b450a419d96ec8/main_1.png main_1.png png 56332 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0378778823007016-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr11/DOWNSAMPLED/image/jpeg/3cbb17007760a7a93823accca72d8b76/gr11.jpg gr11 gr11.jpg jpg 65424 301 689 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr10/DOWNSAMPLED/image/jpeg/1be8107888e9e9952045d3ca4eba0d6c/gr10.jpg gr10 gr10.jpg jpg 38875 431 688 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr8/DOWNSAMPLED/image/jpeg/cbfcd5e8fee9d541632746d70847a1df/gr8.jpg gr8 gr8.jpg jpg 62866 260 734 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr7/DOWNSAMPLED/image/jpeg/6f902b4eb88f6f9ede5985f904f9e87a/gr7.jpg gr7 gr7.jpg jpg 49591 280 786 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr9/DOWNSAMPLED/image/jpeg/cf5d2ac48d6a1535b2666ee5bff445a4/gr9.jpg gr9 gr9.jpg jpg 64829 318 677 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr4/DOWNSAMPLED/image/jpeg/b792909cc7e29341434782651ac226a3/gr4.jpg gr4 gr4.jpg jpg 113093 483 720 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr3/DOWNSAMPLED/image/jpeg/996d605257d816b92cc4339bdb822040/gr3.jpg gr3 gr3.jpg jpg 67321 503 535 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr6/DOWNSAMPLED/image/jpeg/d781b51d153796905cc4cf121e4390a6/gr6.jpg gr6 gr6.jpg jpg 37525 579 628 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr5/DOWNSAMPLED/image/jpeg/ed655898088f22e468a494775fda2f21/gr5.jpg gr5 gr5.jpg jpg 45403 272 628 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr2/DOWNSAMPLED/image/jpeg/6fc45d5412051ce82338acaf60173790/gr2.jpg gr2 gr2.jpg jpg 40739 479 535 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr1/DOWNSAMPLED/image/jpeg/e6094cbd4310c870e1583dadd13deea5/gr1.jpg gr1 gr1.jpg jpg 63878 481 720 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr18.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr18/DOWNSAMPLED/image/jpeg/29aef697fd93092cf6fc3b6b43468383/gr18.jpg gr18 gr18.jpg jpg 34799 319 784 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr17.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr17/DOWNSAMPLED/image/jpeg/3ac3db9b5fba0e7838af220b317821d2/gr17.jpg gr17 gr17.jpg jpg 56427 281 681 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr16.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr16/DOWNSAMPLED/image/jpeg/d566c509b4b06dc1cd348e406148551a/gr16.jpg gr16 gr16.jpg jpg 44710 254 678 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr15/DOWNSAMPLED/image/jpeg/92679c459b113e9a883a1cfc2c764937/gr15.jpg gr15 gr15.jpg jpg 59051 285 776 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr14/DOWNSAMPLED/image/jpeg/5ae0b47ddc762ca1606d37227b808b57/gr14.jpg gr14 gr14.jpg jpg 39984 235 628 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr13/DOWNSAMPLED/image/jpeg/c5c67e9ec9bd378bd41f2746fca23fd6/gr13.jpg gr13 gr13.jpg jpg 50010 248 679 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr12/DOWNSAMPLED/image/jpeg/68b85f448ca04878a4eabcf03d0fd7d3/gr12.jpg gr12 gr12.jpg jpg 47637 227 734 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823007016-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr11/THUMBNAIL/image/gif/822e391158acb0fe4935537d16728cd9/gr11.sml gr11 gr11.sml sml 11615 96 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr10/THUMBNAIL/image/gif/138c9a6703d396bde624326c1bb2ae03/gr10.sml gr10 gr10.sml sml 4534 137 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr8/THUMBNAIL/image/gif/8ad97229b5914e01426cd82e385f8bbf/gr8.sml gr8 gr8.sml sml 7414 78 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr7/THUMBNAIL/image/gif/3918d3aeaae27f62b5363c6ff50f1da5/gr7.sml gr7 gr7.sml sml 5145 78 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr9/THUMBNAIL/image/gif/7dfae5a87783e2f804e84cf3d7fc22fc/gr9.sml gr9 gr9.sml sml 9359 103 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr4/THUMBNAIL/image/gif/504cf5ee8ec41d50bfa8e383a70699c6/gr4.sml gr4 gr4.sml sml 17614 147 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr3/THUMBNAIL/image/gif/15b4f9b4f132a67749eab3cce741c327/gr3.sml gr3 gr3.sml sml 10447 164 174 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr6/THUMBNAIL/image/gif/964a196c7b37e11813aceb7fafe9dfd2/gr6.sml gr6 gr6.sml sml 3986 164 178 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr5/THUMBNAIL/image/gif/832ef0747982827cba7183bb7abf2ad3/gr5.sml gr5 gr5.sml sml 9619 95 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr2/THUMBNAIL/image/gif/912a622d69340734f1093917de323e33/gr2.sml gr2 gr2.sml sml 8263 164 183 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr1/THUMBNAIL/image/gif/8855a4abb0d6724a548e0077d49073d2/gr1.sml gr1 gr1.sml sml 6079 146 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr18.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr18/THUMBNAIL/image/gif/758e05572017f97ae29db037ac2c5d18/gr18.sml gr18 gr18.sml sml 3317 89 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr17.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr17/THUMBNAIL/image/gif/3ea002ace69b0885170b86712c9ba4eb/gr17.sml gr17 gr17.sml sml 8544 90 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr16.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr16/THUMBNAIL/image/gif/b4f549afe9cec87343e07a351a56d255/gr16.sml gr16 gr16.sml sml 8385 82 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr15/THUMBNAIL/image/gif/a98f173facc2ea7f73062dca1a0ef55f/gr15.sml gr15 gr15.sml sml 8154 81 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr14/THUMBNAIL/image/gif/e27c2c3dc927fa5d1e2c1d74d4baf48b/gr14.sml gr14 gr14.sml sml 4917 82 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr13/THUMBNAIL/image/gif/2e6ffd3b945483ff6b745520299c5769/gr13.sml gr13 gr13.sml sml 8636 80 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/gr12/THUMBNAIL/image/gif/4812a980666c38977b6a416e018c8e97/gr12.sml gr12 gr12.sml sml 6459 68 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823007016-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/2ba8ac25542709aa75671d7e03d7f0b7/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 467380 1331 3050 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/f80d7316e8c74ac1ac7052b55ce7c2a4/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 256008 1910 3046 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/19b2f8c405c3badb12e3ad0d29d79c2c/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 459011 1152 3248 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/71cd35a30a24ebbbe885da1299b9c575/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 358340 1239 3479 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/6df47b839c8849613e846756a816cf27/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 425844 1407 2998 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/123bbae672a09f6345868de42825f9eb/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 737364 2138 3189 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/eedd7285762ad34c1ea7f3047cc5db5d/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 381325 2227 2368 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/a590405b77ea1b9bd2dc23ca140d5a07/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 220113 2564 2782 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/41b70e26108915f61441bf02ba661cbd/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 342504 1206 2782 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/1ca12699bed3cc47da0488c8aa36ed77/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 219834 2119 2368 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/7d9704a3c01bed7c63c38041f2f4a4ba/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 356697 2129 3186 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr18_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/f21d2c2aaf92f3f2296fb5a90e357ffa/gr18_lrg.jpg gr18 gr18_lrg.jpg jpg 202830 1412 3473 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr17_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/bb749bb0e04604bcfeae6c4c1a5cfa51/gr17_lrg.jpg gr17 gr17_lrg.jpg jpg 373863 1243 3014 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr16_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/ce8cbf02b6729425bdd9aea118942669/gr16_lrg.jpg gr16 gr16_lrg.jpg jpg 363314 1126 3004 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/26769f003a7435c3adf187ac9979c5fb/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 415408 1264 3438 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/091d23fe41c36a78c19c19467026f392/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 227090 1042 2782 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/15c31dbb8076568ed58d7f97fbe34952/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 396691 1099 3008 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/HIGHRES/image/jpeg/13fd614861284d41c14fc84bfd94b37d/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 339304 1004 3249 IMAGE-HIGH-RES 1-s2.0-S0378778823007016-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/7e401020c2b6976cd1698d2391247141/si1.svg si1 si1.svg svg 27436 ALTIMG 1-s2.0-S0378778823007016-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/30dcd4b0fa50c59a6f0e9089464f6294/si10.svg si10 si10.svg svg 23163 ALTIMG 1-s2.0-S0378778823007016-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/f9a3e2836e87eb8f5e2e09faa730a1de/si11.svg si11 si11.svg svg 21674 ALTIMG 1-s2.0-S0378778823007016-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/4b9a559ef85d464b3ed025f218164494/si12.svg si12 si12.svg svg 11463 ALTIMG 1-s2.0-S0378778823007016-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/796208887b509fa817c99f92713a7975/si13.svg si13 si13.svg svg 15740 ALTIMG 1-s2.0-S0378778823007016-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/653e9950bfde5e38efc22d7af56b3c67/si14.svg si14 si14.svg svg 14853 ALTIMG 1-s2.0-S0378778823007016-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/d5da980021472f603edc2a43a44bed20/si15.svg si15 si15.svg svg 17026 ALTIMG 1-s2.0-S0378778823007016-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/79bd9416d61ca6f6706f3ddb96286271/si16.svg si16 si16.svg svg 17948 ALTIMG 1-s2.0-S0378778823007016-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/eb4bdb182ebb0b5ed0f76813b76dc30e/si17.svg si17 si17.svg svg 14367 ALTIMG 1-s2.0-S0378778823007016-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/e2e0533c2021a122c0e4bfb69a83ebf4/si18.svg si18 si18.svg svg 9764 ALTIMG 1-s2.0-S0378778823007016-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/0204f56110f12d2b4a715998b9fbedd2/si19.svg si19 si19.svg svg 21386 ALTIMG 1-s2.0-S0378778823007016-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/5b9aec8079202f5f3943b26d8a64ba5e/si2.svg si2 si2.svg svg 25151 ALTIMG 1-s2.0-S0378778823007016-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/b0498dd3b96d17bc0eae66764b726e79/si20.svg si20 si20.svg svg 22335 ALTIMG 1-s2.0-S0378778823007016-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/15a7288d66ba00480c891422477b8415/si21.svg si21 si21.svg svg 26426 ALTIMG 1-s2.0-S0378778823007016-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/cba55bcb0025b77cc2747ea6d067703e/si22.svg si22 si22.svg svg 21389 ALTIMG 1-s2.0-S0378778823007016-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/48b0a0b257ee7805b7cb6b2142380f2c/si23.svg si23 si23.svg svg 22337 ALTIMG 1-s2.0-S0378778823007016-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/c754739a2ba0e3cfc078feb86e8a75d9/si24.svg si24 si24.svg svg 27566 ALTIMG 1-s2.0-S0378778823007016-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/85f42367e199ca469135f53f5a495ac8/si25.svg si25 si25.svg svg 9254 ALTIMG 1-s2.0-S0378778823007016-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/d2d24a4325c1ba015212e4560e10e39c/si26.svg si26 si26.svg svg 12175 ALTIMG 1-s2.0-S0378778823007016-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/4deeee3076f07cf22f53997ab2a427e7/si27.svg si27 si27.svg svg 21217 ALTIMG 1-s2.0-S0378778823007016-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/3b9a4a72429a774ebb9cc10d0c2b63fc/si3.svg si3 si3.svg svg 17439 ALTIMG 1-s2.0-S0378778823007016-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/5da8eab0343a6316ea9fa018afc3c25c/si4.svg si4 si4.svg svg 21264 ALTIMG 1-s2.0-S0378778823007016-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/ef6b16f0c4aa2f2cb30b4ceec337fb20/si5.svg si5 si5.svg svg 18823 ALTIMG 1-s2.0-S0378778823007016-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/3ca2b4316947d81c14a88463a8b6e2a2/si6.svg si6 si6.svg svg 29044 ALTIMG 1-s2.0-S0378778823007016-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/465ce17f6c8b371a984cc9dbb8f7b7dc/si7.svg si7 si7.svg svg 29850 ALTIMG 1-s2.0-S0378778823007016-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/7971867353e29f8f1dc55f272b91acf9/si8.svg si8 si8.svg svg 16054 ALTIMG 1-s2.0-S0378778823007016-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823007016/image/svg+xml/e568e1378e5dc53678739ec4f4d0f8c6/si9.svg si9 si9.svg svg 17229 ALTIMG 1-s2.0-S0378778823007016-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10V1Q0NJCPJ/MAIN/application/pdf/49ab7a37730eabf1375b07f8f2dd45a4/am.pdf am am.pdf pdf false 3577710 AAM-PDF ENB 113471 113471 S0378-7788(23)00701-6 10.1016/j.enbuild.2023.113471 Elsevier B.V. Fig. 1 Flowchart of the analysis process used in the present study. Fig. 2 Co-simulation of EnergyPlus and MATLAB through BCVTB [15]. Fig. 3 Architecture of the initial ANN model. Fig. 4 Architecture of the optimized ANN model. Fig. 5 EnergyPlus vs. ANN model prediction for the total cooling energy. Fig. 6 Algorithm used to determine the ECFT and AHU DAT set-points. Fig. 7 Cooling energy consumption according to the AHU DAT set-point from June to September. Fig. 8 Cooling energy consumption according to the condenser water temperature set-point from June to September. Fig. 9 OWBT, AT, and ECFT set-points under fixed and ANN-based control. Fig. 10 Cumulative hours for the ECFT temperature set-point determined using ANN-based control. Fig. 11 CHTR according to the ECFT using fixed and ANN-based control. Fig. 12 ECF flow rate according to the ECFT using fixed and ANN-based control. Fig. 13 AHU supply fan airflow rate under fixed and ANN-based control. Fig. 14 AHU DAT set-point variation under fixed and ANN-based control. Fig. 15 Total cooling coil under fixed and ANN-based control. Fig. 16 Evaporator cooling load of the chiller under fixed and ANN-based control. Fig. 17 CWIT and CWFR under fixed and ANN-based control. Fig. 18 Total cooling energy consumption under ANN-based and fixed control. Table 1 Specifications for the materials. Group Materials U-Value [W/m2K] Exterior wall 10 mm wood sliding5 mm steel frame wall insulation12 mm gypsum 0.79 Raised floor 600 mm soil200 mm heavy weight concreteCarpet fiber pad 1.74 Ceiling slab Carpet fiber pad150 mm light weight concrete lw 1.88 Roof 9.5 mm roof membrane125 mm roof insulation1.5 mm metal decking 0.38 Window glazing Double glazing (clear 6 mm / air 13 mm / clear 6 mm) 1.0 Table 2 Specifications for the HVAC system input conditions. Group Specification Value HVAC AHU fan design static pressure 1,125 Pa AHU fan efficiency 63% Minimum outdoor airflow rate 4.2475 m3/s Interior/parameter zone reheat Yes AHU discharge air set-point temperature 12\u201318 ℃ Chillers 1 and 2 Reference COP 5.5 Reference capacity 200,000 W Chilled water set-point temperature 7 ℃ Cooling tower Condenser water set-point temperature 21\u201332 ℃ Table 3 Internal heat gain level. Type Value Fraction radiant Occupancy 9.3 m2/person 0.367 Light 9.1 W/m2 0.32 Equipment 14.4 W/m2 0.5 Table 4 Exchange of data between EnergyPlus and MATLAB in the BCVTB. From EnergyPlus to MATLAB From MATLAB to EnergyPlus Outdoor air dry-bulb temperature [℃] AHU discharge air temperature set-point [℃] Outdoor air relative humidity [%] Condenser water temperature set-point [℃] Out air wet-bulb temperature [℃] Diffuse solar radiation rate per area [w/m2] Direct solar radiation rate per area [w/m2] Cooling coil total cooling rate [w] Site day type index Schedule value Ahu supply fan electric energy [w] Relief fan electric energy [w] Chiller electric energy [w] Chiller2 electric energy [w] Colling tower fan electric energy [w] Chilled water pump electric energy [w] Condenser water pump electric energy [w] Table 5 ANN training data. Input data Target data Outdoor air dry-bulb temperature [℃] Total cooling energy consumption [kWh] Outdoor air relative humidity [%] Out air wet-bulb temperature [℃] Diffuse solar radiation rate per area [kW/m2] Direct solar radiation rate per area [kW/m2] Cooling coil total cooling rate [kWh] AHU discharge air set-point temperature [℃] Condenser water temperature set-point [℃] Table 6 Excluded data due to discrepancies between the set-point and output temperatures. AHUDAT12-ECFT21 AHUDAT12-ECFT22 AHUDAT12-ECFT23 AHUDAT12-ECFT24 AHUDAT12-ECFT25 AHUDAT12-ECFT26 AHUDAT12-ECFT27 AHUDAT12-ECFT28 AHUDAT12-ECFT29 AHUDAT12-ECFT30 AHUDAT12-ECFT31 AHUDAT12-ECFT32 Excluded 598 545 450 384 328 231 139 50 15 0 0 0 AHUDAT13-ECFT21 AHUDAT13-ECFT22 AHUDAT13-ECFT22 AHUDAT13-ECFT24 AHUDAT13-ECFT25 AHUDAT13-ECFT26 AHUDAT13-ECFT27 AHUDAT13-ECFT28 AHUDAT13-ECFT29 AHUDAT13-ECFT30 AHUDAT13-ECFT31 AHUDAT13-ECFT32 Excluded 570 519 440 378 303 223 138 49 15 0 0 0 AHUDAT12-ECFT21 AHUDAT12-ECFT22 AHUDAT12-ECFT23 AHUDAT12-ECFT24 AHUDAT12-ECFT25 AHUDAT12-ECFT26 AHUDAT12-ECFT27 AHUDAT12-ECFT28 AHUDAT12-ECFT29 AHUDAT12-ECFT30 AHUDAT12-ECFT31 AHUDAT12-ECFT32 Excluded 534 498 430 357 279 206 130 44 14 0 0 0 AHUDAT12-ECFT21 AHUDAT12-ECFT22 AHUDAT12-ECFT23 AHUDAT12-ECFT24 AHUDAT12-ECFT25 AHUDAT12-ECFT26 AHUDAT12-ECFT27 AHUDAT12-ECFT28 AHUDAT12-ECFT29 AHUDAT12-ECFT30 AHUDAT12-ECFT31 AHUDAT12-ECFT32 Excluded 518 475 418 349 270 196 120 41 13 0 0 0 AHUDAT12-ECFT21 AHUDAT12-ECFT22 AHUDAT12-ECFT23 AHUDAT12-ECFT24 AHUDAT12-ECFT25 AHUDAT12-ECFT26 AHUDAT12-ECFT27 AHUDAT12-ECFT28 AHUDAT12-ECFT29 AHUDAT12-ECFT30 AHUDAT12-ECFT31 AHUDAT12-ECFT32 Excluded 509 459 410 343 259 189 114 38 8 0 0 0 AHUDAT12-ECFT21 AHUDAT12-ECFT22 AHUDAT12-ECFT23 AHUDAT12-ECFT24 AHUDAT12-ECFT25 AHUDAT12-ECFT26 AHUDAT12-ECFT27 AHUDAT12-ECFT28 AHUDAT12-ECFT29 AHUDAT12-ECFT30 AHUDAT12-ECFT31 AHUDAT12-ECFT32 Excluded 497 443 399 337 253 184 111 36 6 0 0 0 AHUDAT12-ECFT21 AHUDAT12-ECFT22 AHUDAT12-ECFT23 AHUDAT12-ECFT24 AHUDAT12-ECFT25 AHUDAT12-ECFT26 AHUDAT12-ECFT27 AHUDAT12-ECFT28 AHUDAT12-ECFT29 AHUDAT12-ECFT30 AHUDAT12-ECFT31 AHUDAT12-ECFT32 Excluded 502 438 390 325 245 182 110 36 3 0 0 0 Table 7 Trainlm parameter settings. Parameters Value net.trainParam.epochs 1000 net.trainParam.goal 0.01 net.trainParam.max_fail 6 net.trainParam.min_grad 0.0000001 net.trainParam.mu 0.001 net.trainParam.mu_dec 0.1 net.trainParam.mu_inc 10 net.trainParam.mu_max 0.00000000001 Machine learning based simultaneous control of air handling unit discharge air and condenser water temperatures set-point for minimized cooling energy in an office building Hyeon Jin Jee a 1 Sang Hun Yeon a 1 Jiwon Park a Yeobeom Yoon b Kwang Ho Lee c \u204e a Graduate School, Department of Architecture, College of Engineering, Korea University, Seoul, South Korea Graduate School Department of Architecture College of Engineering Korea University Seoul South Korea Graduate School, Department of Architecture, College of Engineering, Korea University, Seoul, South Korea b Buildings and Transportation Science Division, Oak Ridge National Laboratory, USA Buildings and Transportation Science Division Oak Ridge National Laboratory USA Buildings and Transportation Science Division, Oak Ridge National Laboratory, USA c Department of Architecture, College of Engineering, Korea University, South Korea Department of Architecture College of Engineering Korea University South Korea Department of Architecture, College of Engineering, Korea University, South Korea \u204e Corresponding author. 1 These authors contributed equally to this work. In this study, an artificial intelligence based real-time prediction and control model to optimize condenser water temperature and discharge air temperature (DAT) set-points in water-cooled air handling unit (AHU) system has been developed. EnergyPlus-MATLAB co-simulation has been conducted to analyze the developed model's effectiveness. To develop artificial neural networks (ANN) model, embedded neural network objects in MATLAB was utilized. The developed model could decide an optimal temperature set-points based on outdoor air wet-bulb temperature to reflect the Korean climate context. As a result, the developed ANN prediction model showed the predictive performance of Cv(RMSE) of approximately 21%. Compared to the conventional fixed temperature algorithm, which fixes AHU DAT at 14℃ and condenser water temperature at 32℃, the ANN based optimized control showed a 22% total cooling energy reduction. These results show that significant energy savings can be achieved by simultaneously controlling condenser water temperature and AHU DAT set-points considering Korean climatic characteristics using AI technologies such as ANN models. Keywords ANN (artificial neural network) AHU (air handling unit) discharge air temperature Set-point control Condenser water temperature Co-simulation Cooling energy Data availability Data will be made available on request. Nomenclature AHU Air Handling Unit AHU DAT AHU Discharge Air Temperature ANN Artificial Neural Network AT Approach Temperature CapFT Cooling Capacity as a Function of Temperature CFT Condenser Fluid Temperature CHTR Condenser Heat Transfer Rate COP Coefficient of Performance Cv(RMSE) Coefficient of Variation of the Root Mean Squared Error CWFR Chilled Water Flow Rate CWIT Chilled Water Inlet Temperature ECFT Entering Condenser Fluid Temperature EIRFPLR Electric Input to Cooling Output Ratio Function of Part Load Ratio Curve EIRFT Electric Input to Cooling Output Ratio as a Function of Temperature GA Generation Algorithm HVAC Heating, Ventilation and Air-conditioning IAHU Integrated Air Handling Unit LCFT Leaving Condenser Fluid Temperature LCWT Leaving Chilled Water Temperature MAT Mixed Air Temperature ML Machine Learning MPC Model Predictive Control OARH Outdoor air relative humidity ODBT Outdoor Air Dry-bulb Temperature OWBT Outdoor Air Wet-bulb Temperature PLR Part Load Ratio VAV Variable Air Volume 1 Introduction According to an International Energy Agency (IEA) report, without measures to improve energy efficiency, the demand for cooling energy is expected to triple by 2050. Higher cooling demand has a significant impact on the electrical grid system in many countries and increases carbon emissions [1]. According to the U.S. Energy Information Administration (EIA), the housing and commercial sectors accounted for about 22% and 18% of total U.S. energy consumption in 2020, respectively [2]. It is estimated that electricity consumption for cooling inside U.S. residential and commercial buildings was about 389 million MWh or about 10% of the total U.S. electricity consumption in 2021 [3]. The residential sector used about 235 million MWh of electricity for cooling in 2021, equivalent to about 16% of the total electricity consumption for the residential sector and 6% of the total U.S. electricity consumption. The commercial sector, which includes commercial and institutional buildings, used about 153 million MWh of electrical energy for cooling in 2021, accounting for about 12% of the total electricity use for the commercial sector and 4% of total U.S. electricity consumption [3]. In Korea, cooling energy accounts for about 21% of greenhouse gas emissions in the building sector as of 2019. Minimizing energy consumption, maximizing the energy efficiency of buildings, and establishing low-carbon energy sources for buildings represent cost-effective methods to reduce both greenhouse gas emissions and building maintenance costs [4]. HVAC systems, which control the heating, ventilation, and air conditioning technology in indoor built and automotive environments, typically account for 39% of the total building energy consumption. Fans and cooling (e.g., cooling towers, chillers, and cooling coils) account for the largest proportion of the energy consumption of an HVAC system. In particular, supply and return fans account for 34% of total energy consumption, while direct expansion cooling systems and cooling through condenser water consume 27% [5]. Because cooling energy is a major contributor to building energy consumption, it is vital to efficiently operate cooling processes to ensure efficient building energy use. According to a report by the European Commission, cooling strategies are essential to the EU's policy for transitioning to a clean and carbon\u2013neutral economy by 2050. Because building and industrial cooling account for half of the EU's energy consumption, modern cooling technologies and innovative solutions are required to reduce the energy use and budget for companies and citizens, improve air quality, improve personal well-being, and transform society [6]. Similarly, South Korea's Ministry of Environment aims to become carbon neutral by 2050 as a long-term low-carbon power generation strategy. To this end, they are working to achieve synergy by combining green and digital technologies with the Korean version of the New Deal. In addition, bold investments and support for climate technology innovation have been introduced to achieve carbon neutrality in 2050 [4]. Air handling unit (AHU)-based variable air volume (VAV) systems are widely employed in office buildings. When an AHU is in operation, the AHU discharge air temperature (DAT) strongly affects the overall HVAC energy consumption. Simultaneously, the supply and discharge temperature of the condenser water in the cooling tower significantly impacts the overall cooling energy required. In terms of AHUs, cooling towers, and chillers, a number of studies have focused on control methods for and the optimization of the AHU. For example, Satyavada et al. conducted energy performance tests on HVAC control strategies using simulations in EnergyPlus and MATLAB. They presented a model using EnergyPlus that tracks the interactions within an HVAC system. The proposed model was modular, allowing users to add or remove HVAC components as desired for the building they were modeling. The optimal strategy achieved a 25% reduction in gas consumption and a 36% reduction in electricity compared to conventional strategies [7]. Huang et al. also evaluated the performance of VAV heating, ventilation, and air conditioning systems using five energy management control methods (economizer cycle, program start and stop time, reset, and occupancy-adaptive control strategies) via simulations. They reported energy savings of 17% with the use of the five energy management control methods compared with a conventional method [8]. Homod et al. evaluated the energy performance of HVAC systems based on objective optimization using a TSK fuzzy model to separate the controller inputs from a predicted mean vote (PMV) model. Energy performance was assessed for three cases: (1) adding a pre-cooling coil to the system, which reduced the coupling strength, (2) adding reheating coils and water-cooled coils to the AHU, and (3) the same as Case 1, but with an additional cooling coil and a PMV model to optimize the controller for the output variables (dry bulb temperature, radiant temperature, wind speed, indoor airflow rate, and relative humidity). As a result, the average power consumption was 32% lower for Case 3 compared with the conventional system, representing the best performance [9]. Yu et al. proposed an integrated AHU (IAHU) system to improve the energy efficiency of office buildings. Their IAHU system utilized the potential energy inherent in the air with a more simple implementation approach compared to more complex system configurations that recycle heat [10]. Moradi et al. proposed a multiple-input multiple-output (MIMO) nonlinear model of the control of the room temperature and relative humidity by adjusting the valve angle of the air and chilled water flow. Two models were proposed with different linear controls for the system centered around the operating point, one a decoupled model based on a PID-fuzzy, PD-type fuzzy controller and the second based on a PID-fuzzy and pole-placement controller [11]. Khan et al. proposed a genetic algorithm (GA)-based adaptive fuzzy logic controller (AFLC) design for the multivariable control of temperature and relative humidity in natural systems by manipulating valve positions to adjust water and steam flow rates in an AHU. The adjustment of the globe valves for cold water and steam was modeled according to their exact flow rates. In addition, a novel method for the adaptation of a fuzzy logic controller (FLC) was proposed by modifying a fuzzy rule matrix (FRM) based on a GA. The proposed adaptive controller outperformed the conventional FLC in terms of error, time, rise time, and simulation time [12]. Kim et al. developed an optimization model for IDHVAC systems using GA, artificial neural network (ANN), and design of experiments (DOE) methods. The modeling for IDHVAC systems was developed using artificial light regression models and ANN models, along with a database built using EnergyPlus simulations to predict building performance. The results for the conventional HVAC system and the GA-optimized HVAC and IDHVAC models were compared over three months from January to March. The results showed that the GA-optimized HVAC and IDHVAC models had an 11.7% and 13.7% lower energy consumption, respectively, than the conventional HVAC system [13]. Gruber et al. proposed a supply air temperature (SAT) control strategy to satisfy the desired indoor climate while reducing energy usage. It was based on an office building simulated in MATLAB Simulink. Its core consisted of three single-input, single-output (SISO) strategies based on building interior information through standard inputs. There were three systems, including a conventional outdoor air temperature (OAT)-based strategy and two strategies that vary the SAT according to the OAT [14]. Lee et al. used MATLAB and EnergyPlus simulation software through the Building Controls Virtual Test Bed (BCVTB) platform to analyze the reduction in the summer cooling energy consumption via the optimal control of the AHU discharge temperature using an ANN. The analysis period was from June 1 to August 31, and the data were analyzed from 5 am to 7 pm based on the HVAC system schedule. The total cooling energy consumption of the AHU supply fan, relief fan, two chillers, cooling tower, chilled water pump, and condenser water pump was compared and analyzed for seven cases from 12℃ to 18℃ with fixed and ANN-based control. As a result, the AHU DAT 12℃ setting had the largest energy reduction (18.2%), while the AHU DAT 17℃ setting only led to a minor energy reduction (2%) [15]. Another group of studies has investigated the optimization of cooling towers and chillers. Mossolly et al. presented an optimal control strategy for a VAV air conditioning system using Visual DOE 4.0. Two cases were selected for the proposed control strategy with different conditions and control variables, including the SAT, purified air volume, supply flow rate, and PMV. Comparing the data from June to September showed that the operating cost was lower than the conventional strategy by 11% and 30% for the two cases [16]. Kang et al. analyzed the control factors for an HVAC system to optimize its control settings. Based on this, they developed a model predictive control (MPC)-based real-time predictive control and optimization algorithm. JAVA was used to build the MPC model. As a target building, a 10-story office building was selected. To verify the energy-saving effect, the power consumption and coefficient of performance (COP) of the chiller and cooling tower with and without ANN control were compared. The building energy consumption prediction performance of the ANN model selected using an optimization process was high, with a CV(RMSE) of 4.9%. The reliability of the proposed model was also higher than 95%, the average energy saving rate was 24.7%, and the average increase in the COP was 28% [17]. Huang et al. proposed an MPC approach to optimize the CFT without changing the control system. The study was conducted based on a real legacy chiller plant in Washington D.C. and showed that the support system could reduce energy use by 9.67% a year for the chiller and cooling tower [18]. Chen et al. proposed a method to improve the performance of natural draft wet cooling towers (NDWCTs) by installing air ducts in rainfall areas. The study found that air ducts improved the aerodynamic field and cooling performance of NDWCTs, which was closely related to crosswind velocity [19]. Yu et al. proposed a method to adjust the condensing temperature set-point to improve the COP of air-cooled chillers. An algorithm adjusting the condensing temperature setpoint to determine the speed of the condenser fans based on the cooling capacity was employed. They demonstrated that applying a variable speed condenser fan and an optimal condensing temperature setpoint to a conventional air-cooled screw chiller increased the COP by 12.1\u2013110.4% depending on the operating conditions [20]. Li et al. proposed an extremum-seeking control (ESC) algorithm for the efficient operation of chilled water systems. To demonstrate the effectiveness of the proposed control strategy, they presented a Modelica-based dynamic simulation model. The simulated plant comprised a water-cooled screw chiller and a mechanical-draft counter-flow wet cooling tower. The ESC method used the total power consumption of the chiller compressor and tower fan as feedback and the fan speed setting as control input [21]. Chung et al. developed an ANN model to predict the cooling energy consumption of a variable refrigerant flow (VRF) cooling system based on various control variable settings. Data were collected via field measurements for model training and performance evaluation. The optimized model demonstrated its prediction accuracy within the recommended level, thus proving its potential for use as a control algorithm for the creation of a comfortable indoor thermal environment in an energy-efficient manner [22]. Hosoz et al. proposed the application of an ANN to predict the performance of cooling towers under a broad range of operating conditions. To collect training and testing data for the ANN model, a counterflow cooling tower was operated under steady-state conditions with variation in the dry-bulb temperature, relative humidity, and incoming hot water into the cooling tower. The model was used to predict various performance parameters including the heat rejection rate in the cooling tower, the rate of water evaporation into the air system, the temperature of the outgoing water stream, the dry bulb temperature, and the relative humidity. The predictions were in agreement with the experimental values with correlation coefficients of 0.975\u20130.994, a mean relative error in the range of 0.89\u20134.64%, and a low RMSE [23]. Despite this body of research on AHUs, cooling towers, and chillers, few studies have investigated real-time control strategies based on the predicted real-time outdoor air dry-bulb temperature (ODBT), outdoor air wet-bulb temperature (OWBT), outdoor air relative humidity (OARH), and part load ratio (PLR). There are two reasons for this. First, it is difficult to consider all of the variables and accurately implement them in real time in a building or simulations. The second reason is that it is challenging to employ ANN predictions in a multivariable control system in a way that allows adaptability to external changes and leads to accurate and efficient control based on these predictions. Therefore, in this study, an ANN-based control method was adopted to properly consider the ODBT, OWBT, OARH, and PLR. Three software programs were employed in this circumstance: MATLAB to optimize the ANN model in consideration of variables that change in real time through multivariable ANN predictive control, EnergyPlus to perform building energy simulations, and BCVTB to host real-time data exchange and the simulations of the other two programs. 2 Research method 2.1 Overview of the study process This study sought to predict and optimize the energy use of an HVAC system using an ANN. Fig. 1 shows the research process. Before developing the ANN model, cooling energy analysis during the cooling period (from June to August) was conducted using EnergyPlus. This research selected the AHU DAT and the entering condenser fluid temperature (ECFT) as control variables. The AHU DAT range was set at 12\u201318℃ and that for the ECFT was 21\u201332℃. A total of 84 simulation results from 05:00 to 19:00 based on the HVAC operating schedule during the cooling period (excluding weekends) were used as the learning dataset, with the simulations differing in their set-points of the control variables. The ANN model was developed using MATLAB, and the prediction performance was evaluated using the CV(RMSE), a performance indicator recommended by ASHRAE. The CV(RMSE) is considered reliable if it is less than 30% according to the standard for hourly data presented in ASHRAE Guideline 14. Equations 1 and 2 were used to calculate the CV(RMSE) and RMSE, respectively [24]. The ANN model developed using MATLAB and the EnergyPlus simulation model were combined in BCVTB for prediction and optimization. In the interlocking simulation, the prediction performance of the ANN was evaluated using the CV(RMSE). To further evaluate the performance of the proposed model, an energy performance comparison of fixed control at an AHU DAT of 14℃ and an entering condenser fluid temperature (ECFT) of 32℃ throughout the year and ANN-based dynamic control of the AHU DAT and ECFT for each time step was conducted. (1) C v R M S E % = RMSE Period A period × 100 (2) RMSE Period = ∑ ( S - M ) 2 interval N interval (3) A period = ∑ period M interval N interval where S = s i m u l a t i o n p r e d i c t e d v a l u e M = a c t u a l m e a s u r e d v a l u e N interval = n u m b e r o f a c t u a l m e a s u r e d v a l u e s A period = a v e r a g e f o r t h e m e a s u r e m e n t p e r i o d 2.2 Simulation tools and programming language platform EnergyPlus, a simulation program developed by the U.S. Department of Energy based on BLAST and DOE-2, was used to conduct the energy simulations in the present study. EnergyPlus enables co-simulation with external programs through the BCVTB program, which is based on PtolemyⅡ software and can expand its functions by defining models for control systems, communication systems, and post-processing using graphical modeling. This means that the BCVTB enables the co-simulation of EnergyPlus with the MATLAB/Simulink program, which is equipped with a neural network toolbox that enables the implementation of the ANN model used in the present study. MATLAB is a high-performance programming language for computing technology. It expresses problems and solutions in mathematical notation and integrates computation, visualization, and programming. It takes a fraction of the time to code a program in a scalar language such as C or Fortran. MATLAB provides application-specific solutions in toolboxes, which are designed to be user-friendly. These toolboxes are a comprehensive collection of MATLAB functions that extends the MATLAB environment to solve specific class problems. Areas where these toolboxes can be used include signal processing, control systems, neural networks, fuzzy logic, wavelets, and simulations [27]. 2.3 Description of the simulation model The present study used a large three-story office building prototype in the EnergyPlus simulations. The building was rectangular, with a floor area of 52 m × 35 m (1820 m2) and a floor height of 4 m, including the return plenum. The building's window-to-wall ratio (WWR) was set to 30% [34]. In general, perimeter zones have high, fluctuating loads because of the heat transfer with the outdoor environment and the influence of solar insolation. However, interior zones have a relatively constant indoor thermal load due to the buffering role of the perimeter zones. Therefore, in the present study, the floor zones were divided into four perimeter zones and one interior zone. The physical properties of the construction materials, which include the windows and comply with ASHRAE Standard 90.1, are summarized in Table 1 [28]. The HVAC system of the building consisted of a central AHU, including an economizer, cooling coil, heating coil, supply fan, and a VAV unit installed in each living space. The input conditions for each piece of equipment are presented in Table 2 . The central plant consisted of a pump and a chiller connected to a two-stage cooling tower. In addition, a VAV box with a built-in reheat coil was installed in each zone. The indoor cooling set-point was set at 26℃. The minimum outdoor air inflow was set to 4.247 m3/s, and the infiltration of each zone was set to 0.24 ACH. The internal heat gain conditions are shown in Table 3 . The weather data were taken for Incheon from EnergyPlus, and the HVAC operating schedule was set at 5:00 to 19:00 on weekdays. 2.4 Co-simulation strategy Fig. 2 presents a schematic overview of the co-simulation of EnergyPlus and MATLAB using the BCVTB. The building and system modeling was implemented using EnergyPlus, with the ExternalInterface group embedded in EnergyPlus, which enables the interlocking of the BCVTB and EnergyPlus. The building and HVAC system modeling was first conducted in EnergyPlus, and the control logic was developed in MATLAB. The simulation was then run via EnergyPlus\u2013BCVTB\u2013MATLAB to allow the exchange of data in real time. The ExternalInterface group consists of four objects. The ExternalInterface Object activates the external interface, the BCVTB, and FMUs. To use the BCVTB, PtolemyServe is required. The ExternalInterface:Schedule Object dynamically changes the schedule value at each time step using the control algorithm. This value is sent from the external program through ExternalInterface in real time at each time step. The ExternalInterface:Actuator Object receives the actuator value from the external program via ExternalInterface in real time for every time step. There is an input field for the initial value because the simulation is run with a user-specified initial value. The ExternalInterface:Variable Object receives the variable value from the external program via ExternalInterface in real time every time step. Of the four objects, the ExternalInterface and ExternalInterface:Schedule Objects control the schedule. The ANN model was developed using MATLAB's neural network toolbox function. In addition, the list of real-time data exchanges between EnergyPlus and MATLAB through the BCVTB is presented in Table 4 . The EnergyPlus simulation results were used as an input variable for the ANN model. The time step for all programs was set to 5 min. This is because the data is pushed back by 1 when exchanging data. If the time step is 1 h, the error will be substantial, so the prediction accuracy will be higher by reducing the time step. The initial purpose of the coupled simulation was to exchange real-time data between EnergyPlus and MATLAB, but when running the coupled simulation, EnergyPlus and MATLAB run separate simulations. After this, data exchange was performed through the BCVTB, which means that the initialization of EnergyPlus and the initialization of MATLAB were set. After the initialization of each simulation, the data before one time-step was exchanged through BCVTB [29]. 3 ANN model development 3.1 ANN model structure An ANN is a massively parallel computational model that mimics the functioning of the human brain. A typical ANN consists of several simple processors connected by weighted connections [30]. In this study, the trainlm algorithm embedded in a MATLAB toolbox was used to develop an ANN. Trainlm is a network training function that updates the weight and bias values according to Levenberg\u2013Marquart algorithm optimization. The Levenberg\u2013Marquart algorithm has the disadvantage of requiring more memory than other algorithms but has lower computational costs [31]. Furthermore, the Levenberg\u2013Marquardt algorithm was designed to speed up the secondary training process without using a Hesse matrix as in the quasi-Newton method. The network performance function used in the trainlm is the MSE. The MSE measures the network's performance based on the average of the squared error (Equation 5) [32]. It is sensitive to outliers because it utilizes squares, the difference between the predicted and target values. Therefore, if the predicted value differs from the correct answer, this difference will significantly affect the error value. The initial model consisted of an 8-neuron input layer, a 10-neuron hidden layer, and a 1-neuron output layer (Fig. 3 ). As mentioned in Section 2.1, the CV(RMSE) was used as the performance indicator for the ANN model during the co-simulation conducted in the present study. (5) M S E i = 1 N ∑ k = 1 N ( y i - y ^ i ) 2 where MSE i = m e a n s q u a r e e r r o r y i = p r e d i c t e d v a l u e f r o m t h e m o d e l y ^ i = t a r g e t v a l u e f o r t h e m o d e l (6) x \u2032 = x - x min x max - x min where x \u2032 = n o r m a l i z e d d a t a x i = i n p u t v a l u e m min = m i n i m u m v a l u e m max = m a x i m u m v a l u e 3.2 Construction of the training dataset The training dataset included an AHU DAT set-point range of 12\u201318℃ and an ECFT set-point range of 21\u201332℃, with 84 cases of hourly data used. The input and output data used to train the ANN model are presented in Table 5 . The training data were taken from 5:00 to 19:00 from June to August (excluding weekends) during the cooling period. If the difference between the ECFT set-point and the actual output ECFT was more than 0.5℃, it was excluded from the training dataset. The number of data points excluded for this reason is presented in Table 6 . The total number of training data points used in the present study was 66,070. To normalize this training data, min\u2013max normalization, which is widely adopted for this purpose, was employed to ensure that every data point had the same scale and that each feature was equally important. The minimum value for each feature was converted to 0, and the maximum value was converted to 1; all of the other values were subsequently converted to a decimal number between 0 and 1 (Equation 6) [33]. 3.3 Optimized ANN model Fig. 4 displays the architecture of the optimized ANN model used in the present study. All of the parameters for trainlm were set to their default values (Table 7 ). ANN optimization is processed by adjusting the number of hidden layers and the number of hidden neurons. As a result, the best performance was obtained with 13 hidden neurons and three hidden layers, with a CV(RMSE) of about 21%. Fig. 5 compares the predicted result from the ANN model and the results derived from the EnergyPlus-MATLAB co-simulation. The total cooling energy consumption data covered 990 h based on the HVAC operating hours of 5:00 to 19:00 on weekdays. At time steps from 1 to 110 h, the prediction performance of the developed ANN model was lower than the other time steps, which was the primary reason for the low overall performance of the ANN model. Because data from this period were collected in early June, the OWBT was generally 20℃ or less. There were 9,900 training data points with an OWBT of 20 degrees or less, representing only about 15% of the 66,070 total data points. Therefore, the poor prediction results during this period were believed to be due to the lack of training data. 3.4 ECFT and AHU DAT set-point control algorithm Fig. 6 presents a flowchart of the algorithm developed in this study. In the first step of the algorithm, the ANN predicts the cooling energy consumption according to the AHU DAT and ECFT set-points. The set-point with the lowest total cooling energy consumption is selected and saved. The set-points are saved in 1-h time steps only. Following this, if the determined ECFT set-point is lower than the OWBT, the minimum ECFT set-point is regarded as 3℃ above the wet-bulb temperature instead of 21℃. This resolves the error that occurs when the set-point and the actual ECFT do not match if the ANN predicts the total cooling energy consumption without considering the approach temperature (AT). This error can negatively affect ANN's prediction of total cooling energy consumption. Finally, the model predicts the total cooling energy consumption according to the range of AHU DAT and the range from the minimum ECFT set-point to the maximum ECFT set-point of 32℃ considering AT. As a result of this step, the model saves the AHU DAT and ECFT set-point, which derives the minimum total cooling energy consumption. 4 Analysis and discussion of the results As mentioned in Section 2.7, the performance of the ANN model developed in the present study was evaluated via co-simulation between EnergyPlus and MATLAB. The analyzed dataset contained 990 time-steps, which included the HVAC operating schedule from 5:00 to 19:00, excluding weekends, from June to August. The total cooling energy was compared between the conventional fixed control strategy and the ANN-based control strategy. The determinants of the AHU DAT and ECFT set-points in the ANN model was also analyzed. Chapter 4 is composed of 8 sub-sections. The first two sub-sections discuss the results of the sensitivity analysis of the cooling energy variations as functions of AHU DAT and ECFT, which are the two control variables selected in the present study, before implementing ANN based control algorithm. The sensitivity analysis was performed to get a better understanding of how cooling energy changes with regards to those two important control variables. Sub-section 4.3 describes how ECFT is determined by ANN control algorithm, as opposed to the conventional fixed control which constantly maintained ECFT at 32℃ all the time. Sub-section 4.4 assessed how the cooling load and energy of the chillers change as a function of ECFT change. Since chiller accounts for the largest portion of the total cooling energy and ECFT has significant impact on the chiller energy, it is worth investigating the impact of ECFT on chiller operation. Sub-sections 4.5 and 4.6 comparatively evaluated the impacts of AHU DAT on the AHU supply airflow rate and the cooling load of the cooling coil, between ANN based control and conventional fixed control. Since the difference in AHU DAT set-points between the two control strategies has noticeable influences on the economizer operation, AHU supply airflow, cooling load and coil operation, in turn, those consequences should thoroughly be investigated. Finally, the differences in the cooling load and cooling energy between the two control strategies having different AHU DAT and ECFT set-points need to be comparatively analyzed and the relevant discussions are provided in sub-sections 4.7 and 4.8, respectively. 4.1 Preliminary results for the cooling energy variation according to the AHU DAT set-point Before developing the ANN, a preliminary analysis of the change in the cooling energy due to changes in the control variables was conducted. For this purpose, the AHU DAT range was set at 12\u201318℃ while the LCFT was fixed at 32℃. Fig. 7 presents the total cooling energy consumption according to the AHU DAT. The chiller accounted for the largest proportion of the energy consumption, followed by the fan, pump, and cooling tower. The AHU DAT had a significant impact on the fan energy consumption. As the AHU DAT increased, the fan energy increased because the supply airflow rose to satisfy the zone cooling load. In contrast, the energy requirements for the chiller, cooling tower, and pump decreased with an increase in the AHU DAT. The decrease in the chiller energy consumption was likely because the cooling coil load decreased with a higher AHU DAT and the evaporator-processed heat of the chiller fell. Likewise, the pump energy consumption was lower due to a reduced flow rate of the LCWT due to the reduction in the processed heat from the chiller's evaporator. Cooling tower energy consumption also decreased due to a decline in the processed heat of the cooling tower for similar reasons to the pump energy. However, the pump and cooling tower accounted for only a small proportion of the total cooling energy consumption, so their importance was lower than that of the chiller and fan. 4.2 Preliminary results for the cooling energy variation according to the ECFT set-point The cooling capacity of a chiller depends on the LCWT supplied by the evaporator and the ECFT entering the condenser. To consider the changes in the cooling capacity and energy consumption due to changes in the LCWT, ECFT, and PLR, EnergyPlus requires three performance curves: CapFT, EIRFT, and EIRFPLR [25]. CapFT is a function that represents the ratio of the changing cooling capacity due to the chiller outlet temperature and chilled water inlet temperature to the reference capacity under rated conditions (Equation 4). EIRFT is a function that represents the ratio between the EIR induced by the inlet condenser water temperature and outlet chilled water temperature and the EIR under rated conditions (Equation 5). EIRFPLR is a function that represents the ratio of the EIR under full load conditions to the EIR under partial load conditions and takes the form of a quadratic (Equation 6) [26]. The cooling energy consumption according to changes in the ECFT (21\u201332℃) is presented in Fig. 8 . For this analysis, the AHU DAT was fixed at 14℃. The EIRFT revealed that the chiller energy consumption increased as the ECFT increased, while the cooling tower energy consumption decreased. The fan was not affected by the ECFT because it was part of an air loop. Although the pump energy consumption slightly increased with a higher ECFT due to the higher condenser water flow rate, this difference was negligible. Since the chiller energy consumption accounts for the largest proportion, the total cooling energy consumption tended to increase with higher ECFT.Fig. 9. (4) Z = C 1 + C 2 × x + C 3 × x 2 + C 4 × y + C 5 × y 2 + C 6 × x y where C = c o n s t a n t x = c h i l l e d w a t e r o u t l e t t e m p e r a t u r e y = c o n d e n s e r w a t e r i n l e t t e m p e r a t u r e Z = c o o l i n g c a p a c i t y f u n c t i o n o f t h e t e m p e r a t u r e c u r v e (5) Z = C 1 + C 2 × x + C 3 × x 2 + C 4 × y + C 5 × y 2 + C 6 × x y where C = c o n s t a n t x = c h i l l e d w a t e r o u t l e t t e m p e r a t u r e y = c o n d e n s e r w a t e r i n l e t t e m p e r a t u r e Z = e l e c t r i c i n p u t t o c o o l i n g o u t p u t r a t i o f u n c t i o n o f t h e t e m p e r a t u r e c u r v e . (6) Z = C 1 + C 2 × x + C 3 × x 2 where C = c o n s t a n t x = p a r t l o a d r a t i o Z = e l e c t r i c i n p u t t o c o o l i n g o u t p u t r a t i o f u n c t i o n o f t h e p a r t l o a d r a t i o c u r v e . 4.3 Comparison of ECFT set-point variation with ANN-based and fixed control The proposed algorithm adjusted the minimum ECFT set-point by considering the AT when the ECFT set-point determined using the ANN-based control was lower than the OWBT. However, at some time steps, the initially determined ECFT set-point was approximately 2℃ higher than the OWBT and smaller than the AT, which does not meet the minimum ECFT reset conditions. Therefore, at these time steps, the ECFT set-point was lower than the AT. Fig. 10 presents the frequency of each ECFT set-point determined using ANN-based control, showing that 21℃ and 25℃ were the most frequently selected (15% each), followed by 23℃ with 13%. The frequency of ECFT set-point selection decreased at 28℃ and above. This means that the ANN model predicted the total cooling energy well according to the configuration variables. Additionally, the chiller energy consumption, which was the main contributor to the total cooling energy consumption, decreased with a lower ECFT. Therefore, Fig. 10 shows that the ECFT set-points were often set to lower temperatures to minimize energy use for cooling. In June, the month with the lowest OWBT, the minimum ECFT set-point was not affected by the AT and was set to 21℃ in many cases. In contrast, in July and August, the minimum ECFT set-point was pinned to the AT. As a result, the minimum ECFT set-point was set to 25℃ in many cases. 4.4 Analysis of the reduction effect on chiller energy according to the ECFT via ANN-based control Fig. 11 presents a scatter plot and trend line for the chiller energy consumption and the condenser heat transfer rate (CHTR) as ECFT changes under ANN-based control. Both the chiller energy consumption and CHTR decreased as the ECFT fell. In the chiller, the ECFT is responsible for absorbing the heat of the refrigerant via contact with the refrigerant circuit. Therefore, the lower the ECFT, the lower the chiller energy in accordance with the CapFT and EIRFT curves. The ANN-based model thus set the ECFT at 21℃ for most of June and 25℃ for most of July and August (see Fig. 10). This demonstrates that the ANN model sets the ECFT to be lower in response to the chiller performance, which fluctuates in real time. A condenser uses the condenser water in a water-cooled chiller to absorb heat from the refrigerant and release it. In the present study, as the condenser water temperature increased, more heat from the refrigerant was absorbed (Fig. 12 ), meaning that a larger volume of refrigerant was required, and the mass flow rate of the condenser was higher. As the mass flow rate of the condenser increased, the CHTR increased, and the energy required to compress the refrigerant increased due to the high temperature and pressure of the refrigerant entering the compressor. Therefore, the energy consumption of the water-cooled chiller increased as the cooling water temperature increased (Fig. 13 ). 4.5 Comparative analysis of the supply airflow under ANN-based and fixed control The AHU supply airflow under ANN-based control was higher than under conventional fixed control. This can be observed in Fig. 14 , where the number of AHU DAT set-points indicates the control status. The AHU DAT set-point under ANN-based control was set at a higher temperature than the fixed control, which was fixed at 14℃ for the majority of the study period. Therefore, ANN-based control required a higher AHU supply airflow to handle the same zone cooling load. An increase in the AHU supply airflow can lead to an increase in fan energy, thus raising the total cooling energy consumption. However, a high AHU DAT set-point also results in a reduction in the cooling coil load, which reduces chiller energy consumption. As a result, a high AHU DAT set-point under ANN-based control can reduce the total cooling energy consumption by reducing the chiller energy at the expense of greater fan energy use. 4.6 Analysis of the cooling coil rate according to the AHU DAT set-point A cooling coil cools the air by receiving chilled water from the chiller's evaporator. The total cooling coil load Is affected by the AHU DAT set-point, dramatically affecting the chiller energy consumption. Therefore, the change in the total cooling coil load in response to the AHU DAT set-point determined using the proposed ANN-based model was analyzed (Fig. 15 ). The ANN-based model had a 35% lower total cooling coil load compared with the conventional fixed model in June. This is because the climate in June is milder than in the other two months, so it has a lower ODBT and thus a higher outdoor air inflow. Both models have a lower total cooling coil load because the mixed air temperature (MAT) in the economizer was lower than or similar to the AHU DAT set-point. Under the ANN-based model, the AHU DAT set-point was set at 16℃ to 18℃ for most hours, which was higher than that used by the fixed model. Therefore, ANN-based control was able to achieve the AHU DAT set-point using the outdoor air inlet even when the cooling coil was not in operation, thus reducing the total cooling coil load considerably. In July and August, the total cooling coil load reduction rate was 11% and 10%, respectively. The reason for the lower reduction rate compared to June is that, as shown in Fig. 12, the amount of time with a lower AHU DAT set-point under the ANN-based model increased in July and August. The temperature difference between the MAT and the AHU DAT set-point under the ANN-based model thus increased, resulting in a decrease in the reduction rate of the total cooling coil load. 4.7 Comparative analysis of the evaporator cooling load under fixed and ANN-based control Fig. 16 presents the evaporator cooling load under the conventional fixed control and ANN-based models. Because the evaporator supplies chilled water to the cooling coil, the cooling coil load directly affects the evaporator cooling load. The evaporator cooling load is also greatly affected by the chilled water temperature. However, the chilled water temperature set-point was fixed at 7 ℃ in this study. Therefore, the change in the evaporator cooling load according to the chilled water temperature set-point was not considered in this analysis. As mentioned in Section 4.2., the ANN-based model reduced the total cooling coil load with a higher AHU DAT set-point than the fixed control, significantly affecting the evaporator cooling load. The evaporator cooling load exhibited a similar tendency to the total cooling coil load, with the ANN-based model producing a 38%, 19%, and 17% reduction compared to the fixed control model in June, July, and August, respectively. This rate of reduction in the evaporator cooling load each month was proportional to that for the total cooling coil load. The decrease in the chilled water flow rate was thus a significant factor in reducing the evaporator cooling load. Fig. 17 displays the CWIT and CWFR flowing into the chiller from the cooling coil under conventional fixed control and ANN-based control. ANN-based control led to a higher CWIT and lower CWFR because the AHU DAT set-point was higher than under the fixed control. This is because the CWFR supplied to the cooling coil decreased as the total cooling coil decreased under ANN-based control. However, as the AHU DAT set-point increased, the temperature of the air loop passing through the cooling coil rose, and the amount of convective heat gain for a low CWFR increased. Hence, the CWIT was higher than under fixed control. Therefore, the ANN-based control model produced an approximately 1.8℃ higher average CWIT and a 40% lower CWFR than the fixed control model. Because the decrease in the CWFR was more significant than the increase in the CWIT, the ANN-based model generated a lower evaporator cooling load. 4.8 Comparison of the total cooling energy consumption under conventional fixed and ANN-based control Fig. 18 presents the total cooling energy consumption under ANN-based and conventional fixed control. Under ANN-based control, the chiller energy consumption was 29,480 kWh, the fan energy consumption was 6,790 kWh, the cooling tower energy consumption was 1,783 kWh, and the pump energy consumption was 1,739 kWh. The chiller accounted for the highest proportion of the total cooling energy consumption (74%). Under the fixed control model, the chiller energy consumption was 40,211 kWh, fan energy consumption was 4,746 kWh, pump energy consumption was 1,927 kWh, and the cooling tower energy consumption was 427 kWh. The chiller thus accounted for about 85% of the total cooling energy consumption under this control method. Comparing the energy consumption of the ANN-based and fixed control models, the chiller energy consumption as a proportion of the total cooling energy consumption was 11% lower under the ANN-based model. According to the previous analysis, the ANN-based control model reduced the chiller energy consumption, which is responsible for the greatest energy consumption, by setting a higher AHU DAT set-point and a lower ECFT set-point most of the time based on the prediction of the minimum total cooling energy consumption. In contrast, the fan energy and cooling tower consumption increased. However, the fan energy and cooling tower energy consumption is proportionally much lower than that of the chiller. In particular, while the chiller energy consumption decreased by 10,731 kWh, the fan energy and cooling tower increased by only 2,132 kWh. As a result, the total cooling energy consumption decreased to 7,519 kWh, representing an energy saving of approximately 16%. 5 Conclusion This study aimed to develop the ANN based predictive model and to evaluate the energy saving performance. For this purpose, a co-simulation between EnergyPlus model and ANN embedded MATLAB platform has been conducted. The control variables considered in this study are the AHU DAT set-point and ECFT set-point, and the prediction performance of the ANN model was evaluated using the Cv(RMSE) index. To evaluate the performance of the optimal control algorithm based on ANN, the energy performance of the conventional fixed control strategy and the ANN-based optimized control strategy was comparatively analyzed, and the main findings are summarized as follows. 1. In the ANN-based control strategy, the AHU DAT set-point dynamically changed between 12 and 18℃ in each time-step, as opposed to the conventional fixed control strategy where the AHU DAT set-point was constantly fixed at 14 ℃. The AHU DAT in ANN-based control strategy was mainly controlled at a higher set-point than the conventional fixed control model. Therefore, it was confirmed that the ANN-based control strategy had a higher AHU supply airflow and fan energy than the conventional fixed control strategy. 2. ANN-based control strategy showed a lower cooling coil load than the conventional fixed control algorithm. In detail, the total cooling coil load reduction by the ANN-based control strategy was 35% in June, 11% in July and 10% in August. In June, the reduction rate was the greatest because the MAT in the economizer was lower than the AHU DAT set-point determined by the ANN control. On the other hand, in July and August, the reduction rate of the total cooling coil load was attenuated because of the minimum outdoor air introduction due to the high ODBT during this period. As a result, the higher AHU DAT set-point induced by the ANN based control algorithm caused greater supply airflow rate, which attenuated the total cooling coil load reduction effect. 3. The ANN-based control model shows the tendency that the lower the ECFT, the lower the chiller energy and CHTR according to the CapFT and EIRFT curve characteristics. This is because as the temperature of the chilled water increases, greater of condenser water is needed, which increases the CHTR. In this regard, the energy consumption of water-cooled chillers increased with increasing condenser water temperature. 4. Fan energy consumption and cooling tower energy consumption increased as the ANN-based control strategy determined AHU DAT set-point higher and ECFT set-point lower than the conventional fixed control strategy most of the time. However, the total cooling energy consumption was reduced by 22.5% by reducing the chiller energy consumption, which accounts for the largest portion of the total energy consumption. In this study, the ANN-based optimal control of AHU DAT and ECFT in an office building during the summer season resulted in significant cooling energy savings compared to the conventional fixed control strategy. The limitation of the present study is that it focused on the office building having relatively regular operating hours and thus the findings of the present study may not be directly applied to other types of buildings. The future research that should be done based on the present research include the assessment of higher cooling energy savings through optimal control of other system control variables in addition to AHU DAT and ECFT, such as chilled water temperature and PLR for dynamic load response, directly affecting the cooling energy consumption. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2022R1A2C2006469). This work was supported by a Korea University Grant (No. K2220941). References [1] The Future of Cooling, International Energy Agency. (2018) Paris, https://www.iea.org/reports/the-future-of-cooling. [2] Frequently Asked Questions - U.S. Energy Information Administration. [3] How Much Electricity is used for Cooling in the United States? Frequently Asked Questions - U.S. Energy Information Administration. [4] Submission by the Republic of Korea. (2015) Intended Nationally Determined Contribution, United Nations Framework Convention on Climate Change. [5] HVAC Energy Breakdown HVAC-Factsheet-Energy-Breakdown.pdf (Environment.gov.au). [6] European Commission (2016), Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions. An EU Strategy on Heating and Cooling. [7] H. Satyavada S. Baldi An integrated control-oriented modelling for HVAC performance benchmarking J. Build. Eng. 6 2016 262 273 10.1016/j.jobe.2016.04.005 Satyavada, H., & Baldi, S. (2016) An Integrated Control-oriented Modelling for HVAC Performance Benchmarking. Journal of Building Engineering, 6, 262-273. https://doi.org/10.1016/j.jobe.2016.04.005. [8] W.Z. Huang M. Zaheeruddin S.H. Cho Dynamic simulation of energy management control functions for HVAC systems in buildings Energ. Conver. Manage. 47 7\u20138 2006 926 943 10.1016/j.enconman.2005.06.011 Huang, W.Z., Zaheeruddin, M. & Cho, S.H. (2006) Dynamic Simulation of Energy Management Control Functions for HVAC Systems in Buildings. Energy Conversion and Management, 47(7-8), 926-943. https://doi.org/10.1016/j.enconman.2005.06.011 [9] R.Z. Homod Assessment regarding energy saving and decoupling for different AHU and control strategies in the hot-humid climatic region of Iraq Energy 74 2014 762 774 10.1016/j.energy.2014.07.047 Homod, R.Z. (2014) Assessment Regarding Energy Saving and Decoupling for Different AHU and Control Strategies in the Hot-humid Climatic Region of Iraq. Energy, 74, 762-774. https://doi.org/10.1016/j.energy.2014.07.047 [10] Y. Yu M. Liu H. Li D. Yu V. Loftness Synergization of air handling units for high energy efficiency in office buildings: the theory and analysis Energ. Build. 45 2012 264 273 10.1016/j.enbuild.2011.11.015 Yu, Y., Liu, M., Li, H., Yu, D. & Loftness, V. (2012) Synergization of Air Handling Units for High Energy Efficiency in Office Buildings: The Theory and Analysis. Energy and Buildings, 45, 264-273. https://doi.org/10.1016/j.enbuild.2011.11.015 [11] H. Moradi H. Setayesh A. Alasty PID-fuzzy control of air handling units in the presence of uncertainty Int. J. Therm. Sci. 109 2016 123 135 10.1016/j.ijthermalsci.2016.05.024 Moradi, H., Setayesh, H. & Alasty A. (2016) PID-fuzzy Control of Air Handling Units in The Presence of Uncertainty. International Journal of Thermal Sciences. International Journal of Thermal Sciences, 109, 123-135. https://doi.org/10.1016/j.ijthermalsci.2016.05.024 [12] M.W. Khan M.A. Choudhry M. Zeeshan A. Ali Adaptive fuzzy multivariable controller design based on genetic algorithm for an air handling unit Energy 81 2015 477 488 10.1016/j.energy.2014.12.061 Khan, M.W, Choudhry, M.A., Zeeshan, M. & Ali, A. (2015). Adaptive Fuzzy Multivariable Controller Design Based on Genetic Algorithm for an Air Handling Unit. Energy, 81, 477-488. https://doi.org/10.1016/j.energy.2014.12.061 [13] W.U. Kim Y.S. Jeon Y.C. Kim Simulation-based optimization of an integrated daylighting and HVAC system sing the design of experiments method Appl. Energy 162 2016 666 674 10.1016/j.apenergy.2015.10.153 Kim, W.U, Jeon, Y.S, & Kim, Y.C. (2016) Simulation-based Optimization of an Integrated Daylighting and HVAC System sing the Design of Experiments Method. Applied Energy, 162, 666-674. https://doi.org/10.1016/j.apenergy.2015.10.153 [14] M. Gruber A. Trüschel J.-O. Dalenbäck Alternative strategies for supply air temperature control in office buildings Energ. Build. 82 2014 406 415 10.1016/j.enbuild.2014.06.056 Gruber, M., Trüschel, A., & Dalenbäck, J.-O. Alternative Strategies for Supply Air Temperature Control in Office Buildings. (2014). Energy and Buildings, 82, 406-415. https://doi.org/10.1016/j.enbuild.2014.06.056 [15] J.M. Lee S.H. Hong B.M. Seo K.H. Lee Application of artificial neural networks for optimized AHU discharge air temperature set-point and minimized cooling energy in VAV system Appl. Therm. Eng. 153 2019 726 738 10.1016/j.applthermaleng.2019.03.061 Lee, J. M., Hong, S. H., Seo, B. M. & Lee, K. H. (2019). Application of Artificial Neural Networks for Optimized AHU Discharge Air Temperature Set-point and Minimized Cooling Energy in VAV System. Applied Thermal Engineering, 153, 726-738. https://doi.org/10.1016/j.applthermaleng.2019.03.061 [16] M. Mossolly K. Ghali N. Ghaddar Optimal control strategy for a multi-zone air conditioning system using a genetic algorithm Energy 34 1 2009 58 66 10.1016/j.energy.2008.10.001 Mossolly, M., Ghali, K. & Ghaddar, N. (2009) Optimal Control Strategy for a Multi-zone Air Conditioning System using a Genetic Algorithm. Energy, 34(1), 58-66. https://doi.org/10.1016/j.energy.2008.10.001 [17] W.H. Kang Y.B. Yoon J.H. Lee K.W. Song Y.T. Chae K.H. Lee In-situ Application of an ANN algorithm for optimized chilled and condenser water temperatures set-point during cooling operation Energ. Buildings 233 2021 110666 10.1016/j.enbuild.2020.110666 Kang, W. H., Yoon, Y. B., Lee, J. H., Song K. W., Chae, Y. T. & Lee, K. H. In-situ Application of an ANN Algorithm for Optimized Chilled and Condenser Water Temperatures Set-point During Cooling Operation. (2021). Energy and Buildings, 233, 110666. https://doi.org/10.1016/j.enbuild.2020.110666. [18] S. Huang W. Zuo M.D. Sohn Improved cooling tower control of legacy chiller plants by optimizing the condenser water set-point Build. Environ. 111 2017 33 46 10.1016/j.buildenv.2016.10.011 Huang, S., Zuo. W., & Sohn, M. D. (2017). Improved Cooling Tower Control of legacy Chiller Plants by Optimizing the Condenser Water Set-point. Building and Environment. Building and Environment, 111, 33-46. https://doi.org/10.1016/j.buildenv.2016.10.011. [19] X. Chen F. Sun Y. Chen M. Gao Novel method for improving the cooling performance of natural draft wet cooling towers Appl. Therm. Eng. 147 2019 562 570 10.1016/j.applthermaleng.2018.10.076 Chen, X., Sun, F., Chen. Y., & Gao, M. (2019). Novel Method for Improving the Cooling Performance of Natural Draft Wet Cooling Towers. Applied Thermal Engineering, 147, 562-570. https://doi.org/10.1016/j.applthermaleng.2018.10.076. [20] F.W. Yu K.T. Chan Tune up of the set-point of condensing temperature for more energy efficient air cooled chillers Energ. Conver. Manage. 47 2013 2499 2514 10.1016/j.enconman.2005.10.030 Yu, F. W., & Chan, K. T., (2013) Tune up of the Set-point of Condensing Temperature for more Energy Efficient Air Cooled Chillers. Energy Conversion and Management, 47, 2499-2514. https://doi.org/10.1016/j.enconman.2005.10.030. [21] X. Li Y. Li J.E. Seem P. Li Dynamic modeling and self-optimizing operation of chilled water systems using extremum seeking control Energ. Buildings 58 2013 172 182 10.1016/j.enbuild.2012.12.010 Li, X., Li, Y., Seem, J. E., & Li, P. (2013) Dynamic Modeling and Self-optimizing Operation of Chilled Water Systems using Extremum Seeking Control. Energy and Buildings, 58, 172-182. https://doi.org/10.1016/j.enbuild.2012.12.010. [22] M.H. Chung Y.K. Yang K.H. Lee J.H. Lee J.W. Moon Application of artificial Neural networks for determining energy-efficient operating set-points of the VRF cooling system Build. Environ. 125 2017 77 87 10.1016/j.buildenv.2017.08.044 Chung, M. H., Yang, Y. K., Lee, K. H., Lee, J. H., & Moon, J. W. (2017) Application of Artificial Neural Networks for Determining Energy-efficient Operating Set-points of the VRF Cooling System. Building and Environment, 125, 77-87. https://doi.org/10.1016/j.buildenv.2017.08.044. [23] M. Hosoz H.M. Ertunc H. Bulgurcu Performance prediction of a cooling tower using artificial neural network Energ. Conver. Manage. 48 2007 1349 1359 10.1016/j.enconman.2006.06.024 Hosoz, M., Ertunc, H. M., & Bulgurcu, H. (2007) Performance Prediction of a Cooling Tower using Artificial Neural Network. Energy Conversion and Management, 48, 1349-1359. https://doi.org/10.1016/j.enconman.2006.06.024. [24] ASHRAE Guideline 14-2014., Measurement of Energy and Demand, and Water Savings, American Society of Heating Refrigerating and Air-conditioning Engineers, Inc (2014). [25] The U. S. Department of Energy, 2010, Engineering Reference, The reference to EnergyPlus calculation. [26] K.H. Lee. Modeling Techniques in Conjunction with Air Conditioning. Hansol academy, 2018. [27] MATLAB and Statistics toolbox release 2012b, The MathWorks, Inc., Natick, Massachusetts, United States. [28] ANSI/ASHRAE/IES (2016). ANSI/ASHRAE/IES 90.1-2016, Energy Standard for Buildings Except low-rise Residential Buildings. American Society of Heating, Refrigerating and air-conditioning engineers, Atlanta, Georgia. [29] M. Wetter W. Zuo T.S. Nouidui X. Pang Co-simulation of building energy and control systems with the building controls virtual test bed J. Build. Perform. Simul. 4 2011 185 203 10.1080/19401493.2010.518631 Wetter, M., Zuo, W., Nouidui, T. S. & Pang, X. Co-simulation of Building Energy and Control Systems with the Building Controls Virtual Test Bed. (2011). Journal of Building Performance Simulation, 4, 185-203. https://doi.org/10.1080/19401493.2010.518631 [30] A.D. Dongare R.R. Kharde A.D. Kachare Introduction to artificial neural network Int. J. Eng. Innov. Technol. 2 1 2012 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1082.1323&rep=rep1&type=pdf Dongare, A. D., Kharde, R. R., & Kachare, A. D. (2012). Introduction to Artificial Neural Network. International Journal of Engineering and Innovative Technology, 2(1), http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1082.1323&rep=rep1&type=pdf [31] D. Sarajlić, L. Abdel-Ilah, A. Fojnica, A. Osmanović, Prediction of the size of nanoparticles and microspore surface area using artificial neural network. Genetics & Appl., 1(1), 65-70. https://doi.org/10.31383/ga.vol1iss1pp65-70. [32] L.F. Mendonça J.M.C. Sousa J.M.G. Sá da Costa Fault isolation using fuzzy model-based observers IFAC Proc. Volumes 39 13 2006 735 740 10.3182/20060829-4-CN-2909.00122 Mendonça, L. F., Sousa, J. M. C., & Sá da Costa, J. M. G. (2006). Fault Isolation using Fuzzy Model-based Observers. IFAC Proceedings Volumes, 39(13), 735-740. https://doi.org/10.3182/20060829-4-CN-2909.00122 [33] G. Aksu C.O. Güzeller M.T. Eser The effect of the normalization method used in different sample sizes on the success of artificial neural network modelthe effect of the normalization method used in different sample sizes on the success of artificial neural network model Int. J. Assessment Tools Educ. 6 2 2019 170 192 AKSU, G., GUZELLER, C. O., ESER, M. T. (2019). The Effect of the Normalization Method used in Different Sample Sizes on the Success of Artificial Neural Network Model. International Journal of Assessment Tools in Education, 6(2), 170-192. https://doi.org/10.21449/ijate.479404 [34] B.M. Seo K.H. Lee Detailed analysis on part load ratio characteristics and cooling energy saving of chiller staging in an office building Energ. Buildings 119 2016 309 322 Seo, B.M. & Lee, K.H. (2016), Detailed Analysis on Part Load Ratio Characteristics and Cooling Energy Saving of Chiller Staging in an Office Building, Energy Build. 119, 309\u2013322",
+    "scopus-id": "85168417510",
+    "coredata": {
+        "eid": "1-s2.0-S0378778823007016",
+        "dc:description": "In this study, an artificial intelligence based real-time prediction and control model to optimize condenser water temperature and discharge air temperature (DAT) set-points in water-cooled air handling unit (AHU) system has been developed. EnergyPlus-MATLAB co-simulation has been conducted to analyze the developed model's effectiveness. To develop artificial neural networks (ANN) model, embedded neural network objects in MATLAB was utilized. The developed model could decide an optimal temperature set-points based on outdoor air wet-bulb temperature to reflect the Korean climate context. As a result, the developed ANN prediction model showed the predictive performance of Cv(RMSE) of approximately 21%. Compared to the conventional fixed temperature algorithm, which fixes AHU DAT at 14℃ and condenser water temperature at 32℃, the ANN based optimized control showed a 22% total cooling energy reduction. These results show that significant energy savings can be achieved by simultaneously controlling condenser water temperature and AHU DAT set-points considering Korean climatic characteristics using AI technologies such as ANN models.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-10-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378778823007016",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Jee, Hyeon Jin"
+            },
+            {
+                "@_fa": "true",
+                "$": "Yeon, Sang Hun"
+            },
+            {
+                "@_fa": "true",
+                "$": "Park, Jiwon"
+            },
+            {
+                "@_fa": "true",
+                "$": "Yoon, Yeobeom"
+            },
+            {
+                "@_fa": "true",
+                "$": "Lee, Kwang Ho"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0378778823007016"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0378778823007016"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0378-7788(23)00701-6",
+        "prism:volume": "297",
+        "articleNumber": "113471",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Machine learning based simultaneous control of air handling unit discharge air and condenser water temperatures set-point for minimized cooling energy in an office building",
+        "prism:copyright": "© 2023 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "ANN (artificial neural network)"
+            },
+            {
+                "@_fa": "true",
+                "$": "AHU (air handling unit) discharge air temperature"
+            },
+            {
+                "@_fa": "true",
+                "$": "Set-point control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Condenser water temperature"
+            },
+            {
+                "@_fa": "true",
+                "$": "Co-simulation"
+            },
+            {
+                "@_fa": "true",
+                "$": "Cooling energy"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "113471",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 October 2023",
+        "prism:doi": "10.1016/j.enbuild.2023.113471",
+        "prism:startingPage": "113471",
+        "dc:identifier": "doi:10.1016/j.enbuild.2023.113471",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "301",
+            "@width": "689",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "65424",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "431",
+            "@width": "688",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38875",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "260",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62866",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "280",
+            "@width": "786",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "49591",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "318",
+            "@width": "677",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "64829",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "483",
+            "@width": "720",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "113093",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "503",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "67321",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "579",
+            "@width": "628",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37525",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "272",
+            "@width": "628",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45403",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "479",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40739",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "481",
+            "@width": "720",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "63878",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "319",
+            "@width": "784",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr18.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34799",
+            "@ref": "gr18",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "281",
+            "@width": "681",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr17.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "56427",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "254",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr16.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "44710",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "285",
+            "@width": "776",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59051",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "235",
+            "@width": "628",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "39984",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "248",
+            "@width": "679",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "50010",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "227",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "47637",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "96",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11615",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "137",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4534",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "78",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7414",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "78",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5145",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "103",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9359",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "147",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17614",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10447",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "178",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3986",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "95",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9619",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "183",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8263",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "146",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6079",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "89",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr18.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3317",
+            "@ref": "gr18",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "90",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr17.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8544",
+            "@ref": "gr17",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "82",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr16.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8385",
+            "@ref": "gr16",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "81",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8154",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "82",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4917",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8636",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "68",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6459",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1331",
+            "@width": "3050",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "467380",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1910",
+            "@width": "3046",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "256008",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1152",
+            "@width": "3248",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "459011",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1239",
+            "@width": "3479",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "358340",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1407",
+            "@width": "2998",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "425844",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2138",
+            "@width": "3189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "737364",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2227",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "381325",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2564",
+            "@width": "2782",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "220113",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1206",
+            "@width": "2782",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "342504",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2119",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "219834",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2129",
+            "@width": "3186",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "356697",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1412",
+            "@width": "3473",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr18_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "202830",
+            "@ref": "gr18",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1243",
+            "@width": "3014",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr17_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "373863",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1126",
+            "@width": "3004",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr16_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "363314",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1264",
+            "@width": "3438",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "415408",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1042",
+            "@width": "2782",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "227090",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1099",
+            "@width": "3008",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "396691",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1004",
+            "@width": "3249",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "339304",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27436",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23163",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21674",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11463",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15740",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14853",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17026",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17948",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14367",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9764",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21386",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25151",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22335",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26426",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21389",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22337",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27566",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9254",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12175",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21217",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17439",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21264",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18823",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29044",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29850",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16054",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17229",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823007016-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "3577710",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85168417510"
+    }
+}}
