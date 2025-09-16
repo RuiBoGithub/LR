@@ -1,0 +1,1392 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85196838065",
+    "originalText": "serial JL 271429 291210 291702 291731 291787 291877 291878 291881 31 Applied Energy APPLIEDENERGY 2024-06-25 2024-06-25 2024-06-25 2024-06-25 2024-10-22T02:57:06 1-s2.0-S030626192401136X S0306-2619(24)01136-X S030626192401136X 10.1016/j.apenergy.2024.123753 S300 S300.1 FULL-TEXT 1-s2.0-S0306261924X0015X 2024-10-22T02:12:28.485945Z 0 0 20241015 2024 2024-06-25T18:47:29.383129Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst nomenclature orcid primabst ref 0306-2619 03062619 true 372 372 C Volume 372 8 123753 123753 123753 20241015 15 October 2024 2024-10-15 2024 Research Papers article fla © 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. EXPERTGUIDEDIMITATIONLEARNINGFORENERGYMANAGEMENTEVALUATINGGAILSPERFORMANCEINBUILDINGCONTROLAPPLICATIONS LIU M Nomenclature 1 Introduction 1.1 Background 1.2 Literature review on DRL application in BEMS 1.3 Challenges in applications of DRL in buildings 1.4 Research gap and contribution of this paper 2 Methodology 2.1 Preliminaries 2.1.1 Deep reinforcement learning 2.1.2 Imitation learning 2.2 Generative adversarial imitation learning 3 Case study 3.1 Single zone variable air volume system 3.2 Problem formulation 3.2.1 Baseline 3.2.2 PPO agent 3.2.3 GAIL agent 3.2.4 MPC-based expert demonstration 3.2.5 MPC-based controller 3.2.6 Data augmentation 3.3 Virtual testbed 3.4 Training and deployment of control agents 3.5 Hyperparameter tuning of control agents 4 Results and discussions 4.1 Comparison of learning and convergence performance 4.2 Comparisons on control performance 4.3 Discussions 4.4 Limitations and future work 5 Conclusions CRediT authorship contribution statement Acknowledgments References PANG 2024 113752 Z CHEN 2022 103751 W GAO 2024 131863 Y LIU 2019 113359 M HWANG 2022 109434 R HU 2024 122709 Z CHEN 2024 111385 W LIU 2021 241 252 M RUAN 2023 105682 Y WANG 2024 123414 Z GAO 2024 122685 Y LU 2023 112854 X LI 2023 127627 Y LI 2015 721 732 P BLUM 2022 119104 D ZHAN 2021 110835 S FU 2023 127073 Y ZONG 2017 1476 1486 Y CORACI 2023 120598 D PINTO 2022 118497 G LUO 2022 J CONTROLLINGCOMMERCIALCOOLINGSYSTEMSUSINGREINFORCEMENTLEARNING DING 2020 50 59 X BUILDSYS20 MB2CMODELBASEDDEEPREINFORCEMENTLEARNINGFORMULTIZONEBUILDINGCONTROL WANG 2020 115036 Z AZUATALAM 2020 100020 D GAO 2024 130344 Y NAGY 2023 110435 Z BLUM 2021 586 610 D WANG 2023 120430 D ZHANG 2019 472 490 Z GAO 2020 8472 8484 G DEY 2023 112941 S ARORA 2021 103500 S CORACI 2023 117303 D DEY 2023 100255 S HUSSEIN 2017 1 35 A NIAN 2020 106886 R HO 2016 J ZHOU 2022 1 14 M ZOLNA 2021 247 263 K CONFERENCEROBOTLEARNING TASKRELEVANTADVERSARIALIMITATIONLEARNING SUTTON 2018 R ADAPTIVECOMPUTATIONMACHINELEARNINGSERIES REINFORCEMENTLEARNINGSECONDEDITIONINTRODUCTION GAVENSKI 2024 N IMITATIONLEARNINGASURVEYLEARNINGMETHODSENVIRONMENTSMETRICS FLORENCE 2022 158 168 P CONFERENCEROBOTLEARNING IMPLICITBEHAVIORALCLONING ZHENG 2022 B SCHULMAN 2015 J TRUSTREGIONPOLICYOPTIMIZATION JUDKOFF 1995 R INTERNATIONALENERGYAGENCYBUILDINGENERGYSIMULATIONTESTBESTESTDIAGNOSTICMETHOD WILCOX 2008 S USERSMANUALFORTMY3DATASETS SCHULMAN 2017 J PROXIMALPOLICYOPTIMIZATIONALGORITHMS ICARTE 2022 173 208 R DRGONA 2020 190 232 J ANDERSSON 2019 1 36 J ANTOTSIOU 2021 4724 4730 D 2021IEEEINTERNATIONALCONFERENCEROBOTICSAUTOMATION ADVERSARIALIMITATIONLEARNINGTRAJECTORIALAUGMENTATIONCORRECTION ZOLNA 2021 247 263 K PROCEEDINGS2020CONFERENCEROBOTLEARNING TASKRELEVANTADVERSARIALIMITATIONLEARNING BLOCHWITZ 2012 173 184 T 9THINTERNATIONALMODELICACONFERENCE FUNCTIONALMOCKUPINTERFACE20STANDARDFORTOOLINDEPENDENTEXCHANGESIMULATIONMODELS BROCKMAN 2016 G OPENAIGYM LIAW 2018 R TUNEARESEARCHPLATFORMFORDISTRIBUTEDMODELSELECTIONTRAINING ORSINI 2021 14656 14668 M COHEN 2023 110684 M LIUX2024X123753 LIUX2024X123753XM CHU_NSF publishAcceptedManuscriptIndexable http://www.elsevier.com/open-access/userlicense/1.0/ 2025-06-25T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 2024-06-29T12:22:16.592Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined US National Science Foundation 2243931 NSF National Science Foundation http://data.elsevier.com/vocabulary/SciValFunders/100000001 http://sws.geonames.org/6252001 This work is partially supported by the US National Science Foundation [Grant Number: 2243931]. Portions of this research were conducted with the advanced computational resources provided by Texas A&M High Performance Research Computing. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0306-2619(24)01136-X S030626192401136X 1-s2.0-S030626192401136X 10.1016/j.apenergy.2024.123753 271429 2024-10-22T02:12:28.485945Z 2024-10-15 1-s2.0-S030626192401136X-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/MAIN/application/pdf/da367ea413a07a04553e2e67b2717c3b/main.pdf main.pdf pdf true 2753100 MAIN 14 1-s2.0-S030626192401136X-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/PREVIEW/image/png/b066d8e60b31a9c0280a41fb24754ed2/main_1.png main_1.png png 58616 849 656 IMAGE-WEB-PDF 1 1-s2.0-S030626192401136X-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr3/DOWNSAMPLED/image/jpeg/5e89e8a25b6d5ae36b4e5183aaad1b36/gr3.jpg gr3 gr3.jpg jpg 65709 261 527 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr2/DOWNSAMPLED/image/jpeg/8730fc67e02b2f383c6786628a242d1d/gr2.jpg gr2 gr2.jpg jpg 39366 199 503 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr5/DOWNSAMPLED/image/jpeg/7a56374a2f2bdb2f9dd425c5006f6dd9/gr5.jpg gr5 gr5.jpg jpg 43593 256 377 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr4/DOWNSAMPLED/image/jpeg/cb2ab01d6c2ff541d139d10035b7cc31/gr4.jpg gr4 gr4.jpg jpg 27325 150 470 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr10/DOWNSAMPLED/image/jpeg/9d77ad789bed92766df9d57dc245825f/gr10.jpg gr10 gr10.jpg jpg 78982 395 535 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr1/DOWNSAMPLED/image/jpeg/733690379f62a8f3b687cdc959c2617e/gr1.jpg gr1 gr1.jpg jpg 21654 137 339 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr7/DOWNSAMPLED/image/jpeg/e0ed031033e2afb9bea14128e4f3534a/gr7.jpg gr7 gr7.jpg jpg 54558 129 522 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr6/DOWNSAMPLED/image/jpeg/4628f4078cb394c0175a4c518214c53f/gr6.jpg gr6 gr6.jpg jpg 37708 176 550 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr9/DOWNSAMPLED/image/jpeg/dbd9e78cc3bbeb5b8d99f5dc4fa7b34d/gr9.jpg gr9 gr9.jpg jpg 175452 406 565 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-fx1001.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/fx1001/DOWNSAMPLED/image/jpeg/5a01ba745b285b5ecbbcb83880cb7e7e/fx1001.jpg fx1001 fx1001.jpg jpg 43937 191 791 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr8/DOWNSAMPLED/image/jpeg/ad29fff7b4e98edb8a9318955137b59f/gr8.jpg gr8 gr8.jpg jpg 50823 291 485 IMAGE-DOWNSAMPLED 1-s2.0-S030626192401136X-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr3/THUMBNAIL/image/gif/ebe6bbbf0cfa6a4db9f61f6815edc4a8/gr3.sml gr3 gr3.sml sml 18618 109 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr2/THUMBNAIL/image/gif/8a65e1618955f0a84ec51645c628aa57/gr2.sml gr2 gr2.sml sml 13690 87 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr5/THUMBNAIL/image/gif/47c050842f003dd68d408d8c47d7f67f/gr5.sml gr5 gr5.sml sml 22443 149 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr4/THUMBNAIL/image/gif/9ffe61617cf6d35122c236e0cce7a350/gr4.sml gr4 gr4.sml sml 11759 70 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr10/THUMBNAIL/image/gif/29ce99e42eb781050804399bbf5c74b2/gr10.sml gr10 gr10.sml sml 21540 162 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr1/THUMBNAIL/image/gif/45ac75cf301f723b4a89c999332e4cc2/gr1.sml gr1 gr1.sml sml 11594 88 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr7/THUMBNAIL/image/gif/157aee8d8803f94008e492a1d78e26e2/gr7.sml gr7 gr7.sml sml 15842 54 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/gr6/THUMBNAIL/image/gif/48b4ef8ada46a329a032871feb9a3698/gr6.sml gr6 gr6.sml sml 12762 70 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924011930/gr9/THUMBNAIL/image/gif/769b8c88903eea1f0fe248519978821e/gr9.sml gr9 gr9.sml sml 85042 158 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-fx1001.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924011930/fx1001/THUMBNAIL/image/gif/147e152be54fe3bb0627d20b69025f28/fx1001.sml fx1001 fx1001.sml sml 11039 53 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924011930/gr8/THUMBNAIL/image/gif/c79f879a0bfd6fec3edc862a99128fd9/gr8.sml gr8 gr8.sml sml 17229 131 219 IMAGE-THUMBNAIL 1-s2.0-S030626192401136X-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/HIGHRES/image/jpeg/dd8ecd29ce96baf6dac25b5b61237de5/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 434945 1158 2334 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/HIGHRES/image/jpeg/04439bb8cd1587e7785dd63622ebad0a/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 212729 882 2227 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/HIGHRES/image/jpeg/f1e07587240672057f4b773f1fe5640c/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 208987 1137 1672 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/HIGHRES/image/jpeg/aed4e315f90ab99d6fe6c219246745e4/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 132958 664 2083 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/HIGHRES/image/jpeg/862f00fa18c8f8111a40501c7e7b0e4b/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 409974 1749 2370 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/HIGHRES/image/jpeg/b9d451f46c0b4b9f9c29c4f5c935a8c8/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 83068 605 1500 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/HIGHRES/image/jpeg/b922aae78f6a55606de29004756be680/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 352821 569 2310 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/HIGHRES/image/jpeg/375fe3f5a3710669548f5a20830238f7/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 250911 781 2437 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924011930/HIGHRES/image/jpeg/16aaca8d37ebb744f7e99c4dc497dde6/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 880594 1798 2500 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-fx1001_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924011930/HIGHRES/image/jpeg/5d130d1a9b5ebcb77c32192483295e17/fx1001_lrg.jpg fx1001 fx1001_lrg.jpg jpg 300495 847 3500 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924011930/HIGHRES/image/jpeg/004cc0484d68957cc703d98d5ba07a45/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 305845 1288 2149 IMAGE-HIGH-RES 1-s2.0-S030626192401136X-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/2d775c1603ab779b995c761f449f3803/si1.svg si1 si1.svg svg 2699 ALTIMG 1-s2.0-S030626192401136X-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/b2d51f186dd097d1ba5180a4bd420c71/si10.svg si10 si10.svg svg 1511 ALTIMG 1-s2.0-S030626192401136X-si100.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/24ebd90ab9eb081c263b6dbce82a8018/si100.svg si100 si100.svg svg 2334 ALTIMG 1-s2.0-S030626192401136X-si101.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/e1b7bbc3e6695bd5e874fb11198334a0/si101.svg si101 si101.svg svg 2439 ALTIMG 1-s2.0-S030626192401136X-si102.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/fc5bf8c268e25d9dc6add7bd35afbed7/si102.svg si102 si102.svg svg 2960 ALTIMG 1-s2.0-S030626192401136X-si106.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/fb8e06f062642d79cd7580d4d5abe6a1/si106.svg si106 si106.svg svg 18280 ALTIMG 1-s2.0-S030626192401136X-si107.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/538bae3a126407d06ea10129f71898f5/si107.svg si107 si107.svg svg 19271 ALTIMG 1-s2.0-S030626192401136X-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/2cf5dbf2fd7a4f1b6ad352aa991a6ab6/si11.svg si11 si11.svg svg 1148 ALTIMG 1-s2.0-S030626192401136X-si110.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/93dd8803c59c286c6da86bc9fe77db7c/si110.svg si110 si110.svg svg 27547 ALTIMG 1-s2.0-S030626192401136X-si111.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/336d6b1a905849948aab6c382197bda6/si111.svg si111 si111.svg svg 48420 ALTIMG 1-s2.0-S030626192401136X-si112.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/149b72caf13bb9c9129f80509821ce65/si112.svg si112 si112.svg svg 4856 ALTIMG 1-s2.0-S030626192401136X-si113.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/92576c6a329cae2f899e91f27efc94e8/si113.svg si113 si113.svg svg 3083 ALTIMG 1-s2.0-S030626192401136X-si114.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/b2599dc848dae6faf10045c4548d1b06/si114.svg si114 si114.svg svg 3021 ALTIMG 1-s2.0-S030626192401136X-si115.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/38b5c9abd7445bb2cf0c921cae961d54/si115.svg si115 si115.svg svg 1987 ALTIMG 1-s2.0-S030626192401136X-si116.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/598d12ee4f5ef599674021b235833aa5/si116.svg si116 si116.svg svg 1777 ALTIMG 1-s2.0-S030626192401136X-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/f32688d4ed852c972b2eab7259e055e8/si12.svg si12 si12.svg svg 4878 ALTIMG 1-s2.0-S030626192401136X-si123.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/b499996b2649ca980d47659991517ecd/si123.svg si123 si123.svg svg 4046 ALTIMG 1-s2.0-S030626192401136X-si125.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/54efce51dc6f87116babb25ce19fcb87/si125.svg si125 si125.svg svg 3870 ALTIMG 1-s2.0-S030626192401136X-si126.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/7009dbbd7fb7c78c61a9e85d592ab4ba/si126.svg si126 si126.svg svg 5819 ALTIMG 1-s2.0-S030626192401136X-si127.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/a802c84a4ae7ede641f6e32cb791d3a9/si127.svg si127 si127.svg svg 5303 ALTIMG 1-s2.0-S030626192401136X-si129.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/2752de772d79077151072dff71f2be86/si129.svg si129 si129.svg svg 5149 ALTIMG 1-s2.0-S030626192401136X-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/9e0f66af4368054d2652e805c596a3a8/si13.svg si13 si13.svg svg 3737 ALTIMG 1-s2.0-S030626192401136X-si130.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/29b70e70eec1b98d6453d401d458992d/si130.svg si130 si130.svg svg 7058 ALTIMG 1-s2.0-S030626192401136X-si131.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/6eb6950ddc820aa8a98b2d879059f10a/si131.svg si131 si131.svg svg 1363 ALTIMG 1-s2.0-S030626192401136X-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/ca4cd882fd31b97ebe1e03a45105a91a/si15.svg si15 si15.svg svg 1175 ALTIMG 1-s2.0-S030626192401136X-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/552001b293c35f471431f33a7b2385b6/si16.svg si16 si16.svg svg 2234 ALTIMG 1-s2.0-S030626192401136X-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/a60428c348cabeb8c06f69152ee2942b/si17.svg si17 si17.svg svg 1901 ALTIMG 1-s2.0-S030626192401136X-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/d7ffb4ded3b8a64ecfc59042d8bac692/si18.svg si18 si18.svg svg 14828 ALTIMG 1-s2.0-S030626192401136X-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/4f0b66fcf2be56857eb11a67e3c295d7/si19.svg si19 si19.svg svg 1552 ALTIMG 1-s2.0-S030626192401136X-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/8696114fadcb8581921bf40bf75784c2/si2.svg si2 si2.svg svg 1173 ALTIMG 1-s2.0-S030626192401136X-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/31282b598d39a5d919b13be0e61748f8/si20.svg si20 si20.svg svg 1298 ALTIMG 1-s2.0-S030626192401136X-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/db6b4dbaa5c4efc577598f4ca1147337/si21.svg si21 si21.svg svg 1426 ALTIMG 1-s2.0-S030626192401136X-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/e7fe2d4563c6366c5792a9f7354c0de3/si22.svg si22 si22.svg svg 1443 ALTIMG 1-s2.0-S030626192401136X-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/f97400a900c97eb6a75971547dae11ef/si23.svg si23 si23.svg svg 1448 ALTIMG 1-s2.0-S030626192401136X-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/d277c62fe8cb238a70ef806206597254/si24.svg si24 si24.svg svg 2500 ALTIMG 1-s2.0-S030626192401136X-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/9fbe34adda21be64621855cd2e1b6cd5/si25.svg si25 si25.svg svg 1137 ALTIMG 1-s2.0-S030626192401136X-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/48390f6f78117f4a12db2575de23ffae/si26.svg si26 si26.svg svg 1268 ALTIMG 1-s2.0-S030626192401136X-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/1c1b461c337ed7038001a8d386cdf7a5/si27.svg si27 si27.svg svg 1133 ALTIMG 1-s2.0-S030626192401136X-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/c377ecfed61717c5a2ceb2ee958eab38/si28.svg si28 si28.svg svg 1647 ALTIMG 1-s2.0-S030626192401136X-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/9f4aefba7f7e7f1779a52f1d70d89eed/si29.svg si29 si29.svg svg 1733 ALTIMG 1-s2.0-S030626192401136X-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/f102dba52ec4abbfd24a8a3658845e89/si3.svg si3 si3.svg svg 1226 ALTIMG 1-s2.0-S030626192401136X-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/d03c0977748a765130c7f0bd9538d08a/si30.svg si30 si30.svg svg 1200 ALTIMG 1-s2.0-S030626192401136X-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/0dd878099793a782df62a4a80f59d723/si31.svg si31 si31.svg svg 1200 ALTIMG 1-s2.0-S030626192401136X-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/2ee33facd6cd32abf0df3722b9f2053b/si32.svg si32 si32.svg svg 1201 ALTIMG 1-s2.0-S030626192401136X-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/869b745392f774492b68a476dd290a6a/si33.svg si33 si33.svg svg 1435 ALTIMG 1-s2.0-S030626192401136X-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/8c3f232d6329b55adc66c41ae9f541cf/si34.svg si34 si34.svg svg 1463 ALTIMG 1-s2.0-S030626192401136X-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/71c760db7d1f987f5b09b436b92b5d35/si35.svg si35 si35.svg svg 1343 ALTIMG 1-s2.0-S030626192401136X-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/14b7d604a83f3bba2582187c4a626566/si37.svg si37 si37.svg svg 2122 ALTIMG 1-s2.0-S030626192401136X-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/51b96f3bdf6b8c8c85f7306ca1be143e/si4.svg si4 si4.svg svg 2676 ALTIMG 1-s2.0-S030626192401136X-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/dd7158eaf7ca7b93c218f0508d3f131f/si40.svg si40 si40.svg svg 1286 ALTIMG 1-s2.0-S030626192401136X-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/1099417691fb518fcb36f0b2db6899ea/si41.svg si41 si41.svg svg 4459 ALTIMG 1-s2.0-S030626192401136X-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/bccea3b254870e43dcdfb468be8559c6/si43.svg si43 si43.svg svg 23547 ALTIMG 1-s2.0-S030626192401136X-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/ab784dc91395632a4f8e8ca040281374/si44.svg si44 si44.svg svg 25655 ALTIMG 1-s2.0-S030626192401136X-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/5fac4a91dd5fee649676bb358d40e4e1/si45.svg si45 si45.svg svg 10535 ALTIMG 1-s2.0-S030626192401136X-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/f4ba18f37d3b64aebfceed88c097853b/si47.svg si47 si47.svg svg 5423 ALTIMG 1-s2.0-S030626192401136X-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/199992b789889f2c8f328e631ad4ebc1/si48.svg si48 si48.svg svg 2445 ALTIMG 1-s2.0-S030626192401136X-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/683fdbab84abd8723dde85d3c06dcc35/si49.svg si49 si49.svg svg 2092 ALTIMG 1-s2.0-S030626192401136X-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/e789963634889cc765d55ea3abedf203/si5.svg si5 si5.svg svg 675 ALTIMG 1-s2.0-S030626192401136X-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/08c1284bf3e0f5685ff4badeb5566d99/si51.svg si51 si51.svg svg 2355 ALTIMG 1-s2.0-S030626192401136X-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/c559ab60f75d4913ef85bfca2ddebd7d/si52.svg si52 si52.svg svg 20048 ALTIMG 1-s2.0-S030626192401136X-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/531f0c5503168d3ab11ada4718d4360b/si53.svg si53 si53.svg svg 5470 ALTIMG 1-s2.0-S030626192401136X-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/b3c0c09dc7a220eeb66c4f2800eb8118/si54.svg si54 si54.svg svg 6727 ALTIMG 1-s2.0-S030626192401136X-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/27bc915930e4d641cf06f646779f9124/si55.svg si55 si55.svg svg 4661 ALTIMG 1-s2.0-S030626192401136X-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/37ef0a347b05f679119f2460569fe959/si58.svg si58 si58.svg svg 27858 ALTIMG 1-s2.0-S030626192401136X-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/fad3f79739fba3bc7a5e47a4c4d85a39/si59.svg si59 si59.svg svg 5168 ALTIMG 1-s2.0-S030626192401136X-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/c33cf83e0ca9a1a742d44c4f72fbddf8/si6.svg si6 si6.svg svg 1425 ALTIMG 1-s2.0-S030626192401136X-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/6aeccce050ba7c2c085488b3fbbc5042/si60.svg si60 si60.svg svg 4297 ALTIMG 1-s2.0-S030626192401136X-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/0c765a72ae5849e2c1b8c0d8d107ade2/si61.svg si61 si61.svg svg 1092 ALTIMG 1-s2.0-S030626192401136X-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/a0ef0d6948e6803a90c784b0b7aa1de1/si62.svg si62 si62.svg svg 3437 ALTIMG 1-s2.0-S030626192401136X-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/d97f657bd265b00395950613b30ed47d/si64.svg si64 si64.svg svg 993 ALTIMG 1-s2.0-S030626192401136X-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/594f9779f0bf4e543e59e48889dc65e9/si65.svg si65 si65.svg svg 4219 ALTIMG 1-s2.0-S030626192401136X-si68.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/c054fc0b83b343c8e332b3402f727213/si68.svg si68 si68.svg svg 4177 ALTIMG 1-s2.0-S030626192401136X-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/11da6a3a7f1a915d090e40e316e144a5/si7.svg si7 si7.svg svg 1149 ALTIMG 1-s2.0-S030626192401136X-si70.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/8249472cf493c5d77cb4bfe7aa4eb90f/si70.svg si70 si70.svg svg 1054 ALTIMG 1-s2.0-S030626192401136X-si71.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/4e41021731fc325f8958cb7361ca980e/si71.svg si71 si71.svg svg 2286 ALTIMG 1-s2.0-S030626192401136X-si73.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/2d51b5a048859ef9f7794514d11964f4/si73.svg si73 si73.svg svg 2302 ALTIMG 1-s2.0-S030626192401136X-si75.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/9ce0529f1559c7f8cf1c1306c62b19ad/si75.svg si75 si75.svg svg 7890 ALTIMG 1-s2.0-S030626192401136X-si76.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/556a4f918276ba20f83fc5b1d70ee473/si76.svg si76 si76.svg svg 1347 ALTIMG 1-s2.0-S030626192401136X-si79.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/91657ba44bd05a2722b271274d38cf2a/si79.svg si79 si79.svg svg 7850 ALTIMG 1-s2.0-S030626192401136X-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/55f640be46d5b1cea1894960bc5d3900/si8.svg si8 si8.svg svg 1955 ALTIMG 1-s2.0-S030626192401136X-si82.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/3f0fe592e438c38991de7ed4a45748f2/si82.svg si82 si82.svg svg 5912 ALTIMG 1-s2.0-S030626192401136X-si85.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/93433530ad0a417b903a115a1abc5492/si85.svg si85 si85.svg svg 7108 ALTIMG 1-s2.0-S030626192401136X-si89.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/254180bec2f2305f3649b6e5eb3226b6/si89.svg si89 si89.svg svg 5908 ALTIMG 1-s2.0-S030626192401136X-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/96a231393b5a0f17fef8621ea8955dc7/si9.svg si9 si9.svg svg 1211 ALTIMG 1-s2.0-S030626192401136X-si92.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/bc2564594b5678042d896ec7a2df5c2c/si92.svg si92 si92.svg svg 15670 ALTIMG 1-s2.0-S030626192401136X-si95.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/8650e338aad8351739ac990a529b7ab5/si95.svg si95 si95.svg svg 1393 ALTIMG 1-s2.0-S030626192401136X-si96.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/f67a91ec1e585da12736f7e1c44d0fd1/si96.svg si96 si96.svg svg 2862 ALTIMG 1-s2.0-S030626192401136X-si97.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/68e2e7b20b2ee64f5e747eff846ccdbc/si97.svg si97 si97.svg svg 2800 ALTIMG 1-s2.0-S030626192401136X-si99.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S030626192401136X/image/svg+xml/5a2734f231b67544ed5b45153f2fb935/si99.svg si99 si99.svg svg 3988 ALTIMG 1-s2.0-S030626192401136X-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105QCWK9CRD/MAIN/application/pdf/0e124212bc5c1fb46c89d3050b7770ac/am.pdf am am.pdf pdf false 3916467 AAM-PDF APEN 123753 123753 S0306-2619(24)01136-X 10.1016/j.apenergy.2024.123753 Elsevier Ltd Fig. 1 Markov Decision Processes for Reinforcement Learning. Fig. 2 Relationships between key modules in PPO, a typical DRL architecture, and GAIL. Solid and dotted arrows represent (forward) information flow and (backward) gradient flow, respectively. Fig. 3 Overview of the proposed workflow and structure of the GAIL algorithm for learning building energy management tasks from expert demonstrations. Expert demonstrations provide optimal trajectories that include state\u2013action pairs from expert performance, which serve as training benchmarks. The discriminator and generator networks are trained in a GAN fashion to produce the optimal policy π θ . Fig. 4 Time-of-Use Pricing schedule used in this case study. Fig. 5 The system diagram of a standard FCU consists of a cooling coil, a heating coil, a filter, and a variable speed drive to operate the fan motor. Only the cooling operation is considered in this case study, the cooling coil is provided with a constant chilled water supply temperature of 14 °C. Fig. 6 Random Gaussian noise with different standard deviations for data augmentation. Fig. 7 Training action sequences, one expert action sequence and three complementary sequences augmented with random Gaussian noise. Fig. 8 Cumulative reward for each control agent, curves are averages over 5 seeds with fine-tuned hyperparameters. GAIL with data augmentation shows a fast convergence and a near-expert performance, converging in about 100 epochs. Fig. 9 Comparisons of control performance between RBC, MPC, PPO, and GAIL during testing week. MPC and the GAIL agent demonstrate load-shifting strategies under the TOU electricity price, while PPO shows limited load-shifting capabilities. Fig. 10 Summary of metrics used to evaluate RBC, PPO, MPC, and GAIL performance during testing week. Table 1 State space design for learning-based controller. Symbol Range Description t [0, 86400] Current time index, [s] T z , t [12, 35] Zone air temperature at time t , [ ∘ C] T o a , t [0, 40] Outdoor air temperature at time t , [ ∘ C] q ̇ s , t [0, 1000] Solar radiation at time t , [W/m 2 ] P t [0, 1500] System power at time t , [W] p t [0, 1] Energy price at time t , [$/kWh] T o a , ( t + 1 . . . t + k ) [0, 40] Outdoor air temperature at the next k steps from t , [ ∘ C] q ̇ s , ( t + 1 . . . t + k ) [0, 1000] Solar radiation at next k steps from t , [W] p ( t + 1 . . . t + k ) [0, 1] Energy price at next k steps from t , [$/kWh] T z , ( t + 1 . . . t + k ) [12, 35] Zone air temperature at previous k steps from t , [ ∘ C] P ( t + 1 . . . t + k ) [0, 1500] System power at previous k steps from t , [W] Table 2 Hyperparameters for tuned PPO and GAIL agents. Hyperparameter PPO GAIL Learning rate 3e−04 Generator: 4e−03 Discriminator: 4e−04 Batch size 256 512 MLP hidden layers 256/256/256 Generator: 256/256/256/256 Discriminator: 256/256/256/256 Iterations per batch 10 Generator: 15 Discriminator: 5 Activation function Tanh Tanh GAE parameter 0.95 0.95 Clipping parameter 0.2 0.2 Horizon 672*4 672*4 VF coefficient 0.25 0.25 Entropy coefficient 0.001 0.001 Discount factor 0.99 0.97 State normalization True True Expert-guided imitation learning for energy management: Evaluating GAIL\u2019s performance in building control applications Mingzhe Liu Writing \u2013 original draft Supervision Methodology Investigation Formal analysis Conceptualization a Mingyue Guo Writing \u2013 review & editing Visualization Investigation Formal analysis Data curation a Yangyang Fu Writing \u2013 review & editing Software Investigation Conceptualization a Zheng O\u2019Neill Writing \u2013 review & editing Supervision Resources Project administration Funding acquisition Conceptualization a \u204e Yuan Gao Writing \u2013 review & editing Visualization Formal analysis Data curation b a J. Mike Walker\u201966, Department of Mechanical Engineering, Texas A&M University, College Station, TX 77843, United States J. Mike Walker\u201966, Department of Mechanical Engineering, Texas A&M University College Station TX 77843 United States J. Mike Walker \u201966, Department of Mechanical Engineering, Texas A&M University, College Station, TX 77843, United States b The Center for Energy Systems Design (CESD), International Institute for Carbon-Neutral Energy Research (WPI-I2CNER), Kyushu University, Japan The Center for Energy Systems Design (CESD), International Institute for Carbon-Neutral Energy Research (WPI-I2CNER), Kyushu University Japan The Center for Energy Systems Design (CESD), International Institute for Carbon-Neutral Energy Research (WPI-I2CNER) \u204e Corresponding author. The use of Deep Reinforcement Learning (DRL) in building energy management is often hampered by data efficiency and computational challenges. The long training time, unstable, and potentially harmful control performance limit DRL\u2019s adaptability and practicality in building control applications. To address these issues, this study introduces a new method, called Generative Adversarial Imitation Learning (GAIL), which effectively utilizes expert knowledge and demonstrations. Expert demonstrations range from fine-tuned rule-based controls to strategies inspired by optimization algorithms. By combining the capabilities of the generative adversarial network and imitation learning, GAIL is known for effectively learning the optimal strategy from expert demonstrations through an adversarial training process. We conducted a comprehensive evaluation comparing GAIL\u2019s performance with the DRL algorithm Proximal Policy Optimization (PPO) in the scenario of controlling a variable air volume system for load shifting in commercial buildings. Impressively, GAIL, guided by expert demonstrations based on model predictive control, achieved significantly improved computational efficiency and effectiveness. In terms of unified cumulative reward, GAIL with data augmentation achieved 95% expert performance, 22% higher than baseline rule-based control, in 100 training epochs; GAIL also outperformed PPO by 7%, resulting in 2% lower energy costs and notably improved thermal comfort. This improvement in thermal comfort is evidenced by a reduction of 18.65 unmet degree hours during the one-week operation. In comparison, PPO requires more training time and still lags behind GAIL in cumulative reward even after 500 epochs. These findings highlight the advantages of GAIL in enabling faster learning with fewer training samples, resulting in cost-effective solutions due to lower computational requirements. Overall, GAIL presents a promising approach to building energy management and provides a practical and flexible solution to the shortcomings of learning-based controllers that require extensive computational resources and training time. Keywords Building energy management Energy efficiency Deep reinforcement learning Generative adversarial network Artificial intelligence Data availability Data will be made available on request. Nomenclature Abbreviations KL Kullback\u2013Leibler divergence A3C Asynchronous Advantage Actor\u2013Critic ASHRAE American Society of Heating, Refrigerating and Air-Conditioning Engineers AutoML Automated Machine Learning BEMS Building Energy Management System BESTEST Building Energy Simulation Test Verification DDQN Double Deep Q Networks DRL Deep Reinforcement Learning FCU Fan Coil Unit FMI Functional Mock-up Interface FMU Functional Mock-up Unit GAIL Generative Adversarial Imitation Learning GAN Generative Adversarial Network HVAC Heating, Ventilation, and Air-Conditioning IR Imitation Learning IRL Inverse Reinforcement Learning LSTM Long Short-Term Memory MDP Markov Decision Process MPC Model Predictive Control PPO Proximal Policy Optimization QRDQN Quantile Regression Deep Q network RBC Rule-Based Control RL Reinforcement Learning SAC Soft Actor\u2013Critic TOU Time-of-Use TRPO Trust Region Policy Optimization Symbols ϵ Clipping range λ Entropy regularization coefficient E Expectation operator ∇ Gradient operator π Policy τ Sampled transitions ξ Slack variable A Estimated advantage function a Action c Energy cost D ( s , a ) Discriminator function outputting the probability H ( π ) Entropy of the policy π L Loss function \u2016 ⋅ \u2016 2 2 Squared l 2 -norm (Mean Squared Error) π θ ( a i expert | s i ) Probability of the expert action according to the policy M Number of state\u2013action pairs in the training dataset N Prediction horizon P Power p Energy price Q Action value function q s Solar radiation r Reward s State T Temperature u Control signal w Weight factor Subscripts θ Parameters of the stochastic policy φ Parameters of the discriminator D Discriminator E Expert G Generator i θ th o a Outdoor air t Time index t z Zone 1 Introduction 1.1 Background Buildings are one of the leading energy consumers in the world, making a significant contribution to global energy use and associated greenhouse gas emissions [1]. Improving the energy efficiency of buildings is not only an economic issue, but also a critical step towards environmental sustainability and energy security [2,3]. As the number of high-performance buildings increases, it becomes increasingly important to optimize the operation of building systems in response to changing environments [4,5]. This need has catalyzed the development of advanced building control and energy management systems. The genesis of advanced building control systems can be traced back to the need for more efficient energy management in the face of rising energy costs and environmental concerns [6,7]. Traditional Building Energy Management Systems (BEMS) are primarily rule-based, relying on predefined algorithms to control heating, ventilation, and air conditioning (HVAC), lighting, and other building systems [8]. However, these systems often fail to adapt to dynamic conditions and optimize energy use while maintaining occupant comfort [9,10]. The field of building control and energy management has evolved significantly in recent decades, with the integration of advanced computational techniques playing a key role [11\u201313]. Numerous advanced control strategies were proposed to achieve optimal control, especially model-based optimal control approaches, e.g., Model Predictive Control (MPC). For instance, Li et al. [14] applied MPC in a multi-zone medium-sized commercial building, achieving around 17.5% electricity energy consumption reduction in the simulation environment and over 20%electricity energy savings in the experimental study while improving the indoor thermal comfort. Blum et al. [15] demonstrated approximately 40% of HVAC energy savings by implementing MPC in an office building. Nevertheless, employing such a model-based control strategy demands intricate predictive models and high-quality data [16]. In practical situations, efficiency may be compromised due to the inherent trade-off between the model complexity and the difficulty of getting the feasible optimal solution [17,18]. Deep Reinforcement Learning (DRL), a subset of machine learning, has emerged as a promising tool to improve the energy efficiency and operational effectiveness of buildings [19,20]. DRL algorithms learn optimal policies through interactions with the environment, enabling them to make complex control decisions in real-time. Compared with model-based control, DRL control has advantages due to its model-free and learning-based nature. Besides, in the context of building energy management, DRL can dynamically adjust control strategies based on various factors, such as occupancy patterns, weather forecasts, and energy prices. This adaptability results in significant improvements in energy efficiency, cost savings, and occupant comfort. 1.2 Literature review on DRL application in BEMS DRL control in the building energy management field was widely studied. A DRL-based data-driven control algorithm was established and evaluated with three buildings modeled in EnergyPlus, showing significant energy cost reductions and temperature violation rate improvements for multiple zones [21]. Luo et al. [22] controlled commercial cooling systems on two real-world facilities using RL-based control, resulting in energy savings of approximately 9% and 13%, respectively. Ding et al. [23] proposed a novel DRL-based HVAC control system named M B 2 C and achieved 8.23% more energy savings compared with conventional DRL controllers while maintaining similar thermal comfort in a five-zone building model simulated using EnergyPlus. A precocial RL approach named Gnu-RL was utilized to enable the practical deployment of RL for HVAC control [24]. A simulation experiment and a real-world implementation were adopted to evaluate the performance of the Gnu-RL controller, demonstrating a 6.6% energy savings compared with the best published RL result for the same environment and a 16.7% cooling demand reduction compared to the existing controller while having a better track of indoor air temperatures. RL algorithms can be divided into model-based and model-free methods. The most commonly used RL algorithms for building controls are model-free algorithms, including policy gradient, value-based, and actor\u2013critic algorithms where value-based algorithms are the most popular ones [25]. Fu et al. [17] compared the performance of different DRL algorithms such as Double Deep Q-Networks (DDQN), Quantile Regression DQN (QRDQN), as well as MPC and Rule-Based Control (RBC) controllers for building control. The results showed that QRDQN achieved the highest reward, indicating a good balance between energy cost, thermal comfort, and control action oscillation. The PPO-Clip RL algorithm was utilized to control and schedule the HVAC system in a commercial building, aiming to investigate its potential for demand response [26]. The simulation results showed that the application of the RL controller reduced 22% energy consumption compared with RBC. A joint Gated Recurrent Unit (GRU)-RL algorithm based on SAC was applied in HVAC system control in an office building [27]. As reported in [27], GRU-RL leveraged predictive information for future scenarios, achieved a reduction of approximately 14. 5% in operation cost while increasing thermal comfort by 88.4%, and outperformed conventional RL controllers. More research and comprehensive review on DRL controllers can be found in [25,28]. 1.3 Challenges in applications of DRL in buildings A major drawback of DRL is its reliance on large and often difficult-to-obtain data sets for training [25]. This requirement is a significant barrier, especially in scenarios where extensive data collection is impractical or intrusive, such as in diverse building environments. Although the virtual building environment can be developed to generate training data [29,30], well-performed DRL controllers typically require significant computational resources and training time, which can be a limiting factor in terms of resource availability and efficiency [31]. For example, Zhang et al. proposed an Asynchronous Advantage Actor\u2013Critic (A3C) based control framework for building heating systems, an analysis of operating data shows that the proposed control method achieves a 16.7% reduction in heating demand compared to a conventional RBC [32]. However, converging to a good performance requires 33 years of the simulation time. Besides, more than 100 months of data was required to reach the convergence when training a Q-leaning-based RL agent [21,33] and 15,000 h of data was used to train the DDPG-based RL agent [34]. To date, limited efforts have been made to overcome this drawback of DRL in building control applications. For example, Dey et al. discussed the application of Inverse Reinforcement Learning (IRL) to pre-train the DRL controller [35]. This study used RBC-generated datasets as expert demonstrations of IRL, aiming to overcome the limitations of direct DRL training in building control applications, such as unstable control behavior in the early learning phase. However, IRL suffers from the computational complexity. Due to the iterative nature of inferring the reward function and then solving the reinforcement learning problem to evaluate it, the complexity of the IRL problem increases further when dealing with continuous spaces or more complex models. In addition, IRL faces the challenge of multiple reward functions explaining the same behavior. The inferred reward function may not uniquely or optimally represent the expert\u2019s actions, especially when the goals are multidimensional, such as optimal load shifting [36]. This uncertainty makes it difficult to accurately capture the expert\u2019s intentions and to learn continuously. Coraci et al. [37] proposed a strategy to pre-train and deploy a DRL controller using Long Short-Term Memory (LSTM) neural networks. The proposed approach aims to overcome the time-consuming convergence challenges in DRL; however, the choice of RBC as the training data set indicates a potential performance limitation. RBC control strategy may be less dynamic and adaptive than more advanced control methods; therefore, comparing DRL controllers with simple RBC control strategies cannot provide a robust assessment of their performance. Similarly, Dey et al. [38] used the behavioral cloning method for pretraining, where DRL agents start with policies inherited from the RBC strategy. The results showed a reduction in training time and early unstable behavior of DRL controllers by imitating a traditional RBC strategy. However, since behavioral cloning are trained in a supervised learning manner, there is a risk of overfitting and reduction of generalizability. A simple direct mapping of action-state pairs can result in a learned policy that is too closely tailored to the offline dataset and tends to overestimate the value function [39]. Therefore, the obtained model may not always result in a good estimation of the values for the given states. 1.4 Research gap and contribution of this paper While the discussion in the current literature often highlights DRL in building control applications, it is important to broaden our perspective to include various learning-based controllers. Although DRL has shown promise through various algorithms and case studies, the broader field of these types of learning-based control systems also needs to be considered for practical deployment and scalability, particularly in building energy management [40]. Furthermore, the potential costs associated with the deployment of learning-based controls, including DRL, should not be overlooked. To date, there has been insufficient exploration of solutions that are both robust and computationally feasible for real-world implementation within the broader scope of learning-based control systems. This suggests the need for more comprehensive research into cost-effective and scalable strategies for the practical application of these technologies. Therefore, we propose the Generative Adversarial Imitation Learning (GAIL) based control for building energy management. GAIL becomes a superior alternative to traditional IRL or supervised IL and can also be a promising approach to accelerate DRL deployment by mitigating the cold start problem [41]. GAIL is characterized by its ability to generalize from state\u2013action distributions (policy) rather than specific pairings, thus enhancing robustness and adaptability in diverse scenarios. GAIL\u2019s data-efficient nature requires fewer expert demonstrations for an effective learning, a significant advantage over IRL and supervised IL. In particular, it exhibits a greater resilience to imperfect demonstrations and is adapted at handling complex tasks where the explicit definition of the reward function is challenging. By learning complex behaviors based on adversarial imitation learning without requiring explicit definitions of reward functions, GAIL has attracted much attention in control applications. Despite the great success of GAIL in real-world applications such as autonomous driving [42] and robot\u2013human collaboration [43], there is still a distinct lack of literature and research focused on its application in building and HVAC systems. Based on this, we propose a new approach to reduce the training effort of learning-based controllers while maintaining high control performance using GAIL, thus increasing the possibility of actual deployment in practice. The novelty of this study lies in the application of GAIL in complex building energy management tasks. The reduction in computational costs while maintaining performance brought by GAIL reduces deployment costs and enhances the feasibility of learning-based controllers\u2019 practical applications. The proposed GAIL architecture enables the well-trained policy to be further deployed for continuous online learning for an improved scalability and adaptability. The main contributions of this study can be summarized as follows. \u2022 This study is the first attempt to propose and apply GAIL to building energy management. We demonstrate the effectiveness of GAIL in building domain and provide a viable solution to overcome the challenges associated with the practical application of learning-based control, as described in the Introduction. \u2022 We develop and demonstrate the entire GAIL training workflow through carefully designed experiments. This includes the augmentation of training data and extraction of decision strategies from expert demonstrations. This helps the researchers and practitioners to understand and further extend the proposed approach. \u2022 Through comparative numerical experiments with state-of-the-art DRL algorithms, we confirm the effectiveness of GAIL and highlight its promise for the application in building control scenarios. GAIL\u2019s ability to reduce computational costs while maintaining control performance reduces deployment costs and supports the practicality of learning-based controllers. \u2022 The proposed framework is not only capable of achieving a high level of training speed, but is also designed for subsequent deployment in a continuous online learning mode, similar to DRL approaches. This feature significantly enhances the scalability and adaptability of the system, paving the way for broader application and continuous improvement after the deployment. The remainder of this paper is structured as follows: Section 2 outlines the concepts of reinforcement learning and imitation learning, and explains the adversarial generative imitation learning method. Section 3 presents a comparative case study comparing different controllers to demonstrate the effectiveness of the proposed approach. Section 4 provides a detailed discussion and analysis of the results, along with directions for future work. Finally, Section 5 offers concluding remarks. 2 Methodology 2.1 Preliminaries 2.1.1 Deep reinforcement learning DRL combines reinforcement learning with deep learning and uses deep neural networks to approximate value functions and policy functions. This approach makes it possible to handle high-dimensional state and action spaces that traditional reinforcement learning techniques cannot effectively handle. Fundamentally, DRL is grounded in the concept of learning from delayed feedback, and is developed within the framework of a Markov Decision Process (MDP) [44]. Unlike supervised and unsupervised learning methods, DRL does not depend on a predetermined dataset. Instead, the agent learns through trial and error, exploring the environment, and receiving feedback in the form of rewards or punishments. As shown in 1, training an agent in DRL is an iterative process that can be summarized as the following steps: \u2022 Observation: The agent perceives the current environment state. \u2022 Decision: The agent selects an action based on its existing policy. \u2022 Action: This chosen action is carried out in the environment. \u2022 Feedback: The environment rewards the agent according to the action taken. \u2022 Policy Update: The agent updates its policy using the observed state and received reward. The goal of the iterative process is to find the optimal policy that maximizes the cumulative expected reward over time. For example, in the control of building HVAC systems, the reward function may include factors such as energy consumption and thermal comfort violations, resulting in the need to find the optimal control sequence for the HVAC system. 2.1.2 Imitation learning Imitation learning is a paradigm focused on enabling agents to learn to perform a task by observing and imitating the decision-making process of an expert or a set of experts [45]. This approach contrasts with traditional supervised learning, which relies on explicitly labeled data for the pattern recognition, and unsupervised learning, which discovers hidden patterns in data without such labels. Instead, imitation learning algorithms learn to mimic complex tasks by observing and replicating demonstrations, often provided by human experts. While imitation learning encompasses a variety of methods, a prominent example is behavioral cloning, which leverages supervised learning techniques [39]. In behavioral cloning, a policy π θ is trained on a dataset of state\u2013action pairs collected from expert demonstrations. This training process aims to directly map states to actions, effectively mimicking the expert\u2019s observed behavior. The objective functions to be minimized for continuous and discrete actions are shown in Eq. (1) and Eq. (2), respectively. (1) L ( θ ) = 1 M ∑ i = 1 M \u2016 a i expert − π θ ( s i ) \u2016 2 2 (2) L ( θ ) = − 1 M ∑ i = 1 M log π θ ( a i expert | s i ) Here, a i expert is the action taken by the expert in the i th state, π θ ( s i ) is the action predicted by the policy for state s i , \u2016 ⋅ \u2016 2 is the l 2 -norm. It is noted that the relationship between imitation learning and reinforcement learning is symbiotic. Although DRL optimizes decision-making processes by learning to achieve goals through trial and error and receiving rewards for desired outcomes, imitation learning can enhance this process. When a control agent of the imitation learning is provided with strategies generated by experts, the learning curve is significantly shortened. This synergistic combination enables models to quickly acquire complex policies that would otherwise take longer to learn through reinforcement learning alone. 2.2 Generative adversarial imitation learning As mentioned above, in conventional imitation learning methods, such as behavioral cloning, the learning algorithm typically involves a supervised learning approach in which the policy is trained to directly mimic the actions of the expert in specific states [46]. As a result, due to the use of a supervised learning approach, this method is prone to the overfitting problem, making it difficult to generalize to unseen states [47]. GAIL, on the other hand, takes a different approach by training a discriminator to distinguish between the actions produced by the expert and those produced by the generator (learned policy). The generator is trained to produce actions that are indistinguishable from those produced by the expert, as judged by the discriminator. Importantly, compared with behavioral cloning, GAIL focuses on matching the expert\u2019s state and action distributions rather than directly cloning specific actions [41]. For a better understanding, Fig. 2 highlights the flow of information between policy, environment, and other components specific to the GAIL and PPO algorithm. GAIL focuses on learning from an expert without explicit reward signals from the environment, while PPO learns from direct interaction with the environment and uses actual reward feedback to shape the policy. Fig. 3 shows a detailed schematic of the proposed GAIL framework, where GAIL is built on top of the GAN and PPO architecture. In this implementation, the policy network serves as the generator in GAIL, which is responsible for generating actions that attempt to learn expert decisions. The discriminator in GAIL is trained to distinguish between the actions of the policy and those of the expert. The policy network (generator) interacts with the environment, informed by feedback from the discriminator, to produce actions that are increasingly similar to those of the expert. The generator uses Trust Region Policy Optimization (TRPO) [48] to ensure stable and reliable policy updates. In particular, the PPO critic network is not active during GAIL training, emphasizing the adversarial imitation aspect of the learning process. However, the integration of the critic network allows for a subsequent continuous training using a DRL approach. Specifically, the objective function of the discriminator in GAIL is formulated to maximize the logarithmic probability of correctly classifying samples from both the policy and the expert distributions. At the same time, the policy is updated to minimize the probability that the discriminator will perform a correct classification, thereby encouraging the policy to generate behavior indistinguishable from that of the expert. The combined objective for training in the GAIL framework is represented by Eq. (3): (3) E π [ log ( D ( s , a ) ) ] + E π E [ log ( 1 − D ( s , a ) ) ] − λ H ( π ) Here, E π [ ⋅ ] and E π E [ ⋅ ] denote the expectations in the policy and expert distributions, respectively. The term λ H ( π ) introduces an entropy regularization component, weighted by λ , to encourage exploration of the policy\u2019s behavior. This approach allows GAIL to potentially learn policies that differ from the expert\u2019s behavior in terms of specific actions but achieve similar or even better performance on the task at hand [41]. The advantage of GAIL is its ability to learn robust policies that generalize well from state\u2013action distributions rather than specific pairings, including those not encountered in training demonstrations. This makes it particularly useful in complex environments where behavioral cloning might fail due to overfitting to the expert\u2019s specific actions. The pseudocode of the GAIL algorithm is shown below. 3 Case study To evaluate the feasibility and effectiveness of the proposed GAIL approach in building energy management, this section presents a case study on the optimal operation of a single zone with a variable air volume system. Furthermore, this case study includes the load-shifting scenario to evaluate the ability of these controllers to learn to handle complex tasks in buildings. The Time-of-Use pricing schedule used in this study is shown in Fig. 4, which includes three stages: off-peak, mid-peak and peak. In the case study, a baseline RBC controller and a PPO controller are selected to compare with GAIL in terms of training speed and control performance. For a fair comparison, the performance of these controllers is evaluated based on (1) the same building and HVAC system; (2) the same weights for energy cost, zone thermal comfort, and control action changes; (3) the expert demonstration consists of the control sequence generated by MPC using the same objective function and weights as DRL. Despite the possibility of suboptimal solutions, MPC has the ability to incorporate hard constraints, such as temperature limits, and to incorporate predictions, such as weather. This is consistent with the concept that human experts integrate domain knowledge and adjust operations over time based on new information. 3.1 Single zone variable air volume system The building used in this case study is referred to as case900FF in the Building Energy Simulation Test Verification (BESTEST) Suite [49] and features a heavy-weight single-zone structure. This building incorporates heavy-weight materials in its wall and floor construction. Its dimensions comprise a floor plan of 6 m by 8 m and a height from floor to ceiling of 2.7 m. The structure has four facades facing the cardinal directions and is topped by a flat roof, with the east\u2013west facing walls being relatively shorter. In particular, the south-facing wall contains two windows, each measuring 3 m in width and 2 m in height. The building is assumed to function as an office for two people with a low load density. Geographically, the building is located in Chicago, Illinois, United States. The environmental simulations are based on data from the Typical Meteorological Year 3 (TMY3) database [50]. Temperature control within the space is provided by a Fan Coil Unit (FCU); the schematic diagram of a typical FCU system is shown in Fig. 5. This FCU includes components such as fans, cooling and heating coils, and filters, as well as a variable-speed drive for the fan motor. The cooling coil is connected to a chilled water source, operates at a constant efficiency, and maintains a constant chilled water supply temperature. The heating coil is fed with hot water generated from a gas boiler. For simplicity, only the cooling operation is considered in this case study. 3.2 Problem formulation 3.2.1 Baseline The baseline is a RBC controller, which is a conventional thermostat that controls the supply air temperature and fan speed to maintain a specific zone air temperature setpoint. Room temperature setpoints are typically adjusted based on occupancy to maximize energy savings. For example, the cooling setpoint for zone air is set at 24 °C during occupied hours and increased to 30 °C during unoccupied hours. In the cooling scenario of this case study, the control of the system is simplified by setting a constant supply air temperature setpoint of 14 °C. The fan speed is controlled by a proportional\u2013integral controller that processes the deviation between the actual zone temperature and the target zone temperature setpoint. All controllers have their measurement sampling frequency set at 1 min and their control step set at 15 min. 3.2.2 PPO agent The Proximal Policy Optimization (PPO) is a policy gradient DRL algorithm proposed by OpenAI [51], in which the policy is parameterized in such a way that its parameters are differentiable. Its notable characteristics include its high efficiency and simple implementation, making it a popular and default choice in a wide range of applications. PPO aims to improve an agent\u2019s policy π θ in a way that is neither too aggressive nor too cautious, it does this by optimizing a \u201cclipped\u201d objective function, as shown below. (4) L C L I P ( θ ) = E ˆ t min ( r t ( θ ) A ˆ t , clip ( r t ( θ ) , 1 − ϵ , 1 + ϵ ) A ˆ t ) Here, the objective function takes the minimum of two terms: (1) the product of the probability ratio and the advantage estimate r t ( θ ) A ˆ t , and (2) A clipped version of this product, where the probability ratio is clipped within the range [ 1 − ϵ , 1 + ϵ ] , This clipping limits the change in the policy, preventing overly large updates that could destabilize training. Next, we formulate the key concepts in the Markov Decision Process (MDP) to facilitate the DRL-based control algorithm. Action space: In this case study, the normalized fan speed is considered as the action. The action space is assumed to be continuous, indicating that it can take any value in the range of [0, 1]. The ability to make fine-grained adjustments in temperature and airflow is essential because even small variations can have a significant impact on comfort and efficiency. This dual benefit of precision and smoothness makes continuous control essential in the built environment. State space: The training process for a DRL controller is based on interactions between the control agent and the environment. In this case, the environment consists of the HVAC system and the room. The concept of state space is critical because it determines the information available to the agent and has a direct impact on its learning and decision-making capabilities. The goal of state space design is to extract the representations of the environment that capture the most relevant information for the current task. Therefore, in this study, the state space of the environment includes historical measurements, current measurements, and future disturbances by prediction. Table 1 presents a comprehensive breakdown of the observations in this particular environment. The time index is represented by the elapsed seconds of a day, ranging from 0 to 86400 s. Various key measurements, such as zone air temperature, outdoor air temperature, solar radiation, and power consumption, are available through installed sensors at the current time step and in the past. Predictions of near-future disturbances, such as outdoor air temperature, solar radiation, and energy prices, are assumed to be accurately predicted. In this study, the prediction step length k is set to 4, indicating a time span of 1 h and resulting in a total of 26 observations for each time step. Reward function: The reward function plays a crucial role in training the agent and has a significant impact on the performance of the DRL controller. At present, designing the optimal reward function is a complex and crucial challenge in the field of control, and finding a universal solution remains an ongoing research endeavor [52]. Therefore, based on previous studies [30], the reward function used here is formulated as follows: (5) R t = − ( w 1 p t P t Δ t + w 2 ξ t 2 + w 3 Δ u t 2 ) In the above formulation, the reward function consists of three terms at each step: energy cost, zone air temperature violation, and slew rate of control signals. Energy cost is the product of the energy price p t , the power consumption P t , and the control interval Δ t . Temperature violations are quantified by the variable ξ t , which calculates the out-of-range excursion of the zone air temperature relative to the corresponding setpoint. The slew rate of the control signals Δ u t , is defined as the control oscillations at time t and calculated as u t − u t − 1 . w 1 , w 2 , w 3 are tunable weighting factors that are used to adjust the emphasis of the agent on each item. The weighting factors w 1 , w 2 , and w 3 are tuned by conducting multiple simulations. Changing the weight assignments produces different optimal solutions, but is not suitable for a direct comparison due to their representation on the Pareto front of the multi-objective optimization challenge. In this study, the weights assigned to energy cost, temperature violation penalty, and slew rate penalty are set to [100, 1, 10], respectively. This allocation emphasizes the priority of reducing energy costs and is consistent with the traditional focus of building operators. 3.2.3 GAIL agent The GAIL architecture implemented in this study leverages the integration of the GAN and PPO network structure, as shown in Fig. 3. There are three deep neural networks: discriminator, generator, and critic networks. During the training process, the generator update method follows the same method as PPO, using TRPO to ensure the stability and reliability of the policy update. The discriminator training is based on the loss function (Eq. (3)), and a gradient descent is performed to update the network parameters. The critic network is not used during training but is kept for scalability. Like PPO, MDP provides a mathematical framework for the GAIL decision-making process. For a fair and easy comparison in the same case study, the key concepts in the MDP for GAIL follow the same formulation as the PPO as provided below. Action space: The control action is a normalized fan speed with continuous values in the range [0, 1]. State space: The state space includes historical measurements, current measurements, and predicted future disturbances of the environment, as detailed in Table 1. Reward function: It is not necessary to define a reward function for the GAIL training process. Essentially, GAIL automates the reward design process by deriving reward signals from the quality of imitation of expert behavior, thus sidestepping an often challenging task in DRL approaches: formulating a suitable reward function. Specifically, the update of the discriminator is based on the loss function, Eq. (6) which is similar to that used in generative adversarial networks. (6) L D = − E π [ log ( D ( s , a ) ) ] − E π E [ log ( 1 − D ( s , a ) ) ] On the other hand, the generator is trained to maximize the probability that the discriminator makes a mistake. This is done by minimizing the negative log-probability that the discriminator assigns to the generator\u2019s actions being classified as the expert\u2019s, as shown in Eq. (7). (7) L G = − E π [ log ( D ( s , a ) ) ] + λ H ( π ) Where, λ H ( π ) is the entropy of the policy weighted by a factor λ that determines the strength of the entropy regularization. 3.2.4 MPC-based expert demonstration Since GAIL is fundamentally an imitation learning approach, the policy it learns is directly influenced by the behavior exhibited in the expert examples. In practical applications, the selection of expert demonstrations is versatile, ranging from well-tuned rule-based control sequences to policies inspired by optimization. The purpose of selecting high-quality demonstrations is to enable the controller to learn high-performance policies directly. This approach solves the typically long computation times and low data efficiency issues often associated with the trial-and-error process inherent in reinforcement learning. For this reason, we decided to use the control sequence generated by the MPC approach as an expert demonstration for training our GAIL agent, because it exemplifies a high-level policy rooted in optimization. Although MPC may obtain suboptimal solutions, it can incorporate hard constraints such as temperature limits and predictions such as weather into its optimization problem. This aligns with human experts prioritizing adherence to safety and adapt to new information over time. MPC is a control strategy that utilizes a dynamic model of a system to forecast future states and iteratively solves an optimization problem over a finite time horizon. In practice, MPC can manage complex multi-variable control problems where it is necessary to balance performance with stability and constraint satisfaction [53]. The MPC formulation in this case study has an objective function similar to that of DRL as follows: (8) min u t , \u2026 , u t + N − 1 ∑ k = t t + N − 1 w 1 \u2016 p k P k \u2016 1 Δ t + w 2 \u2016 ξ k \u2016 2 2 + w 3 \u2016 Δ u k \u2016 2 2 s.t. x t + k + 1 = f ( x t + k , u t + k , T o a , t + k , q s , t + k ) , k ∈ N 0 N − 1 P t + k + 1 = g ( x t + k , u t + k , T o a , t + k , q s , t + k ) , k ∈ N 0 N − 1 T ̲ z , t + k − ξ t + k ≤ T z , t + k ≤ T ¯ z , t + k + ξ t + k , k ∈ N 0 N − 1 u ̲ ≤ u t + k ≤ u ¯ , k ∈ N 0 N − 1 Δ u t = { u t + 1 − u t , \u2026 , u t + N − 1 − u t + N − 2 } In the above MPC problem formulation, the objective function is represented by Eq. (8), which is the sum of energy costs p k P k Δ t , temperature violations ξ k , and control action slew rates Δ u k within the prediction horizon N. \u2016 ⋅ \u2016 1 is the l 1 -norm and \u2016 ⋅ \u2016 2 is the l 2 -norm of the corresponding vectors. The energy cost is the product of energy price p t , power consumption P t , and control interval Δ t . Temperature violation is quantified by a slack variable ξ t , which is set in the range of [0, 0.5]°C to relax the zone air temperature constraint. The x t + k denotes system states x t + k , including zone air and wall temperatures; the P t + k denotes the HVAC power consumption. T o a , t + k and q s , t + k are the outdoor air temperature and solar radiation, respectively. The MPC problem is then implemented using the CasADi framework [54] and the same model as the target building system. This formulation leads to a nonlinear optimization problem; the receding N stage optimal control problem is repeatedly solved at each time step using the primal\u2013dual interior point algorithm. For weight factors w 1 , w 2 , w 3 , the same selection [100,1,10] as the PPO reward function is used to ensure the same optimization goal. 3.2.5 MPC-based controller In this case study, an MPC controller is also implemented following the formulation presented in Section 3.2.4 to serve as one of the benchmarks for the comparison during the testing phase. As described in the section above, the MPC controller\u2019s objective function is designed to be aligned closely with the DRL reward function, thereby ensuring a consistency in the optimization goals. The objective function aims to minimize the total energy cost, zone air temperature violations, and the slew rate of control actions over the prediction horizon. The constraints for the MPC problem include system dynamics, zone air temperature limits, control action bounds, and control action slew rates. Then, a finite-horizon optimal control problem is repeatedly solved at each time step in a receding horizon manner using the primal\u2013dual interior-point algorithm. To avoid unnecessary redundancy and repetition, the detailed formulas of the objective function and constraints can be found in Section 3.2.4. 3.2.6 Data augmentation Data augmentation has been shown to be effective in preventing overfitting and falling into local optima during GAIL training [55]. For the image detection task, data augmentation can be performed by randomly changing brightness, contrast, saturation, etc [56]. However, these methods are not suitable for building control sequence tasks. Therefore, we applied Gaussian noise with standard deviations of 0.03/0.05/0.07 to the original actions and generated supplementary trajectories based on these action sequences. Specifically, introducing noise at different levels allows the GAIL model to encounter and adapt to a variety of scenarios, which can help the model explore the action space more thoroughly. This expanded exploration can lead to a more robust policy as the agent learns to deal with a wider variety of situations. Fig. 6 shows the distribution of random Gaussian noise with different standard deviations for data augmentation. Fig. 7 shows examples of expert-generated control action sequences and supplementary trajectories augmented with random Gaussian noise with different standard deviations. 3.3 Virtual testbed For the implementation, a standardized building energy control framework was used, where the building environment and its controllers are implemented and deployed in Docker containers. First, this architecture facilitates the seamless integration of any model that can be exported as a Functional Mock-up Unit (FMU)-such as those developed in Modelica through the use of a customized data exchange interface, FMU-Gym. This interface is supported by the Functional Mock-up Interface (FMI) [57] and OpenAI Gym specifications [58], providing a consistent platform for the model integration. Secondly, the framework runs on the lightweight Ubuntu operating system and uses Python, a high-level programming language, to enhance the compatibility of FMU models with most state-of-the-art DRL algorithms; details of the virtual environment implementation can be found in the literature [30]. 3.4 Training and deployment of control agents The controller training and testing are performed under typical summer cooling conditions in Chicago, Illinois. The training period begins on June 21 and runs for one week, while the testing period also runs for one week. As a result, for our 7-day training process with a 15-minute control step, there are 7 × 24 × 60 ÷ 15 = 672 control steps in an episode. For GAIL and PPO controllers, the training period (episode) is repeated multiple times so that the agent can explore different control strategies to determine the best strategy. The learned control policy is then applied to the target building environment during the testing period, where the parameters of the learned control policy are fixed. This approach of offline training followed by online deployment utilizes the developed virtual testbed, effectively transforming the non-repetitive nature of the building control environment into a repeatable and episodic control problem. For GAIL, as formulated in Section 3, the MPC problem is solved with a prediction horizon of 24 h over the training period. The optimization results, such as the action sequence shown in Fig. 7, are then prepared as MDP transition pairs for GAIL training as expert trajectories. Additionally, an MPC controller following the same formulation presented in Section 3.2.5 is also implemented as one of the benchmarks for comparison during the testing phase. 3.5 Hyperparameter tuning of control agents Both PPO and GAIL are powerful algorithms commonly used to train agents in continuous action space problems. However, they are sensitive to the choice of hyperparameters, which are critical settings that control their learning process and performance. Although PPO primarily involves tuning parameters related to policy updates and exploration\u2013exploitation trade-offs, GAIL introduces an additional layer of complexity due to its GAN structure. The effective optimization of these hyperparameters is crucial to fully exploit their potential. However, tuning hyperparameters is a time-consuming and labor-intensive task. Therefore, we use the Automated Machine Learning (AutoML) approach to perform the tuning. Specifically, we use the scalable AutoML library called Ray [59] to optimize agent hyperparameters using the grid search method. Furthermore, we manually analyzed the test results of different combinations of optimized hyperparameters and added fine-tuning based on the literature [60]. Table 2 shows the main tunable parameters on which this paper is focused and the final parameters that we selected to provide a further analysis during the testing period. The optimizer is chosen as Adam for both the PPO and GAIL algorithms due to its stable performance. Hyperparameter tuning was performed on the university\u2019s high-performance computing cluster. The maximum number of training sets for all agents is set to 500. When the maximum episode is reached, the agent\u2019s training is terminated and the agent is moved to the test environment for evaluation. 4 Results and discussions 4.1 Comparison of learning and convergence performance As shown in Fig. 8, we conducted five seed experiments for each algorithm to observe the average performance of each agent due to the use of random operators. The learning curve for each control agent is shown in Fig. 8, which shows the episodic reward trajectories during the training period for PPO (green line), GAIL with data augmentation (blue line), GAIL without data augmentation (yellow line), juxtaposed against a benchmark performance established by an MPC-based demonstration (red dashed line) and a baseline represented by an RBC (black dashed line). Expert control performance is shown as a red dashed line, representing a constant, optimization-based policy as an upper bound for the learning algorithm. The RBC with the black dashed line maintains a constant episodic reward throughout, acting as a conservative and nonadaptive control strategy. In the early stages of training, it can be observed that GAIL, both with and without data augmentation, have a steeper learning curve than PPO, and the performance of GAIL quickly improves and converges to close to the expert level. This is indicative of GAIL\u2019s fundamental effectiveness and high efficiency in learning from expert data. However, both GAIL learning curves are accompanied by notable fluctuations, as shown by the variance represented by the shaded area around the episodic reward curve. The observed fluctuations in the learning curve are inherent in GAN\u2019s training dynamics, where the algorithm iteratively refines its policy through a dynamic that pits the policy against a discriminator. Therefore, improvements in one model can lead to temporary setbacks in the other, causing the observed fluctuations. In contrast, the PPO exhibits a learning curve characterized by a moderate increase to a performance plateau with reduced variance. This is because PPO\u2019s objective function incorporates a clipping mechanism that mitigates the risk of destructively large policy updates, thereby enforcing a conservative approach to the policy adjustment. Increasing episodic reward shows consistent and stable improvements in iterations, indicating that the learning process is working. Furthermore, the dynamics of the learning curve between 70 and 120 epochs highlights the period at which GAIL begins to consistently outperform PPO in terms of episodic reward. It can be seen that GAIL with augmentation gradually stabilizes around 100 epochs, while GAIL without augmentation does so around 150 epochs. While the subsequent continuous increase in rewards indicates that PPO is still in the exploratory stage. In addition, GAIL without augmentation converges to a lower reward level than its augmented version, highlighting the importance of data augmentation in improving the performance of GAIL. In this case study, the result shows that GAIL\u2019s learning framework uses the principle of adversarial imitation and can come very close to expert performance, as evidenced by its cumulative reward being very close to the expert benchmark. This result demonstrates the effectiveness of GAIL in scenarios where high-quality expert demonstrations are available. In contrast, although PPO\u2019s performance is slightly worse than GAIL, it shows a more cautious and stable learning strategy, and it may require more epochs to reach a policy with good performance. On the other hand, PPO\u2019s comparatively lower variance suggests that while its policy updates are more stable, they may lack the aggressiveness required to fully explore and exploit the potential of the policy space, resulting in suboptimal performance. It is also noted that we did not intentionally use the same hyperparameters for PPO and GAIL, recognizing that their inherent algorithmic characteristics might require different settings on specific problems. Instead, we employed AutoML [59] and manual fine-tuning to optimize the hyperparameters for each agent using the grid search method. This included optimizing hyperparameters that primarily affect exploration behavior, such as the learning rate, entropy coefficient, and clipping range (specific to PPO). This approach allowed us to systematically explore a wide range of hyperparameter combinations and identify the most effective settings for each method on a given specific problem. While we believe that this approach could lead to well-performing models, we acknowledge that determining the absolutely optimal hyperparameters is often impractical due to the vast search space and computational constraints. It is possible that the optimal hyperparameters for PPO in our case might lead to a less aggressive exploration strategy compared to GAIL. From the inherent characteristics of the algorithms, PPO\u2019s conservative policy updates, which are designed to maintain stability through clipping, may contribute to its less aggressive exploration. GAIL benefits from learning directly from diverse expert demonstrations and the adversarial training framework, which may result in more aggressive explorations. Since the final reward level achieved by the augmented GAIL is only slightly lower than that of the expert demonstration, but better than that of the unaugmented GAIL and other benchmarking algorithms, we use the augmented GAIL for the analysis in the following comparison and discussion sections. 4.2 Comparisons on control performance The detailed performance comparisons between the different controllers during the testing phase are shown in Fig. 9, based on the best results for each controller in seed experiments. The results span 168 h and include a full week of operational data. The top graph shows the electricity price and the outdoor temperature during the testing week. Typically, electricity prices fluctuate according to demand, which is often related to outdoor temperatures. Controllers are expected to minimize energy costs while maintaining comfort levels as reflected in room air temperatures. Because the RBC operates without regard to the TOU energy pricing structure, the fan speed under the RBC has a static response to the cooling load. Specifically, the RBC maintains a constant room temperature setpoint of 24 ° C during the occupied hours by modulating the fan speed in response to thermal loads. Although RBC can maintain comfort, it lacks the dynamic response required for energy cost management. In contrast, the MPC with a 24-hour prediction horizon has a lower peak power demand and can maintain room air temperatures within the comfort range, rarely exceeding the comfort limit. This control strategy reflects MPC\u2019s optimization-based approach, which incorporates predictions of future energy prices and temperature changes with constraints on comfort requirements. In particular, the MPC strategy shows a pronounced load-shifting operation, with lower fan speeds during high-price periods and higher speeds during low-price periods. This behavior is indicative of an active response to TOU pricing that optimizes for cost savings without significantly compromising comfort. For the PPO agent, a reduction in fan speed and peak power demand can be observed compared to the RBC, indicating that the control strategy takes energy pricing into account to some extent and incorporates it into the decision-making process. On the other hand, the room air temperatures under PPO control remains mostly within the comfort range, but with some violations, suggesting that the control strategy attempts to maintain a balance between comfort and energy cost. Although PPO makes some adjustments to fan speed in response to energy prices, it does not show significant load-shifting capabilities in response to TOU pricing. The control results for the GAIL agent are shown by the solid red line. GAIL\u2019s control strategy results in a lower peak power demand curve compared with RBC and PPO, where the fan speed adjustment shows that GAIL responds to the TOU energy price. Besides, GAIL closely adheres to the temperature comfort bounds with few violations. This result indicates that GAIL learned to maintain thermal comfort within bounds and shift loads to take advantage of lower energy prices, which is the objective defined in the expert data. Moreover, it is observed that GAIL\u2019s fan speed profile does not exactly match that of MPC, but still achieves a similar level of control performance. This difference suggests that GAIL learns the underlying decision-making strategies from expert data rather than directly replicating the behavior observed in a given state. Fig. 10 shows the metrics used for a quantitative comparison of the four controllers (RBC in blue, PPO in orange, MPC in green, and GAIL in red). These metrics evaluate the controller\u2019s performance in terms of cumulative reward, energy consumption, operation cost, temperature violations, and control stability. The cumulative reward reveals overall performance, taking into account the combined effects of running costs, temperature violations, and control smoothness. RBC serves as the baseline in this study, with a cumulative reward of −746.89, which is the lowest value among all controllers. MPC has the highest reward at −556.97, indicating a good balance between energy cost and comfort. In addition to being 22% higher than the baseline, GAIL\u2019s reward is slightly lower than MPC, at −582.50, which is 95% of MPC. In comparison, PPO\u2019s reward is −623.56, which is 89% of MPC and 93% of GAIL. From the perspective of total energy consumption, PPO has the lowest energy consumption, and GAIL and MPC have similarly higher energy consumption. In terms of on-peak energy consumption, MPC has the lowest energy consumption during peak hours, indicating effective load-shifting which avoids high energy costs. GAIL follows closely behind MPC, suggesting that it has learned to manage peak consumption effectively, although not to the same extent as MPC. RBC and PPO consume more energy during peak periods, indicating that they have no or less effective load-shifting capability. Energy costs are closely correlated with energy consumption, especially during peak periods. MPC and GAIL incur lower costs as a direct result of their efficient energy management and load-shifting capabilities. Thermal discomfort, in units of [Kh], defines the cumulative deviation of zone temperatures from the predefined upper and lower comfort limits [29]. PPO results in the highest total thermal discomfort, suggesting that while it prioritizes energy efficiency, it does not maintain comfort as effectively as the other controllers. Impressively, GAIL shows significantly lower levels of total discomfort, indicating its effectiveness in balancing energy savings and comfort. Additionally, the RBC has a maximum temperature violation, primarily because the PI controller is a feedback controller. Therefore, narrowing the temperature setpoint range immediately results in a large observed temperature deviation. In contrast, GAIL showed the fewest total temperature violations and outperformed MPC, suggesting that GAIL effectively learned the comfort control strategy from expert data. In addition, we use the quadratic sum of action change and maximum action change to evaluate the smoothness of control action changes. Lower values of PPO and MPC demonstrate fewer fluctuations in their control actions, suggesting smooth changes in actions. However, the high value of GAIL indicates more variability in its action, which could indicate a downside in terms of control stability. Interestingly, the different emphasis on temperature violation and control stability reveals the most obvious difference between GAIL and MPC. 4.3 Discussions In this study, we proposed the expert-guided GAIL approach for building energy management and demonstrated its implementation and use in a space cooling operation under a highly dynamic pricing structure. Compared to the baseline (i.e., RBC), GAIL reduced energy costs by 21% and total temperature violations by approximately 12%. Although GAIL performed less well than MPC \u2014 the expert demonstrations, it achieved comparable rewards, suggesting that GAIL has learned to balance the key objectives of minimizing energy costs while adhering to comfort constraints through load shifting. Moreover, GAIL and MPC place significantly different emphasis on action stability and comfort, suggesting that GAIL generalizes the strategies of experts rather than simply behavioral cloning. GAIL also outperforms the state-of-the-art DRL algorithm PPO in terms of control performance, resulting in a 2% reduction in energy costs and a 91% reduction in temperature violations. In particular, GAIL converges at around 100 epochs, outperforming PPO at 500 epochs, indicating at least five times faster convergence. This result demonstrates its potential to achieve high levels of performance while reducing the amount of computation required for training. The reduction of training and computational costs is critical to facilitate the application of learning-based controllers in building energy management, as conventional DRL methods may require extensive interaction with the environment to learn effective policies. Furthermore, GAIL makes an effective use of expert demonstrations by learning directly from the expert\u2019s actions within the same state space, which can implicitly represent decision-making processes without the need for explicit specifications of a reward function. By learning from expert demonstrations, GAIL can bypass the intricacies of designing a reward function that adequately captures the desired goals, which is often a significant challenge in traditional reinforcement learning approaches. Designing an appropriate reward function requires considerable expertise and trial and error, and there is always the risk of introducing unintended biases or behaviors through an improper reward design. GAIL mitigates this risk by using the expert\u2019s behavior as a direct learning signal, eliminating the need to formulate a reward function that captures the nuances of complex tasks. Additionally, GAIL can also warm-start DRL controllers in building control applications by providing an initial strategy based on expert knowledge. This approach is particularly practical and useful for real-world deployments. Starting from a policy that already understands effective control strategies minimizes the risk of exploring unsafe or costly actions during the initial phases of DRL training. GAIL\u2019s pre-trained policy generally requires fewer iterations to converge to a well-performed policy, thereby reducing the computational costs of the DRL training process. In short, GAIL can lead to a more efficient training process and overall improve the security and robustness of DRL controller deployment. In our implementation, GAIL preserves the structure of the PPO networks as shown in Fig. 3. This structure allows GAIL to continue to perform an online learning in a DRL manner after the deployment. 4.4 Limitations and future work While GAIL shows great potentials for application in complex building energy management, such as load shifting, some limitations or challenges deserve further investigations. A main limitation of this study is that these controllers were tested in a virtual environment. This developed virtual testbed provides high-fidelity models for building systems for offline training, effectively transforming the non-repetitive nature of the building control environment into a repeatable and episodic control problem. This approach is widely used to study the theoretical performance and capabilities of controllers for building control, which is the essential step before the field deployment. However, this virtual environment cannot fully address some common challenges in real-world applications, such as measurement noise, bias in data acquisition systems, network latency, etc. These uncertainties will impact the performance of these learning-based controllers [31]. Although the action noise was utilized for better explorations during the training phase, the observational uncertainties that arise in real-world applications are not yet considered in this study. Therefore, the performance of the controller under different measurement errors and uncertainties deserves further study. However, due to security and privacy considerations, in real building applications, learning-based controllers need to be trained in a virtual environment or using historical data, which is also the case in this study. Potential model differences between virtual and real buildings can affect the controller performance in real buildings. As mentioned in [61], how the differences between model representations and real buildings affect the performance of these controllers could be a future investigation. In addition to real-world testing, improving the performance and stability of GAIL will be another focus of our future work. GAIL\u2019s performance depends heavily on the quality of the expert representations. If the expert data is of poor quality, such as containing suboptimal or flawed control strategies, GAIL can learn and perpetuate these inefficiencies. In practice, the \u201cexpert\u201d could be an MPC, as in the case discussed, or it could be a more advanced rule-based control system like ASHRAE Guideline 36 [12], or even some ad-hoc control strategies based on engineering experience. Each of these expert resources has its own strengths and limitations. For example, the effectiveness of MPC will partially depend on the accuracy of the models and predictions used by MPC [53], while engineering experience may introduce subjectivity, since human experts may have different styles or preferences for control strategies. In this study, we assume that the expert dataset comes from the results generated by MPC. The main benefit of this approach is that it allows us to easily and objectively incorporate domain knowledge into the control design. This knowledge, expressed as cost functions and constraints, enriches the expert demonstration data and guides the learning process. Nonetheless, the challenge is to master this domain knowledge and develop robust, flexible datasets from which GAIL can learn effectively. Therefore, further investigations into the creation and curation of such datasets is imperative. Furthermore, we are also interested in exploring the integration of model-based control with DRL learning-based algorithms to further improve the performance and efficiency. Model-based approaches often perform well due to their ability to (1) improve sample efficiency by simulating interactions and learning policies with fewer environment interactions, (2) incorporate safety constraints and operational limits for ensuring safe control, optimizing long-term objectives by model-based planning, and (3) generalize better to new or unseen situations by leveraging a predictive model [62]. Therefore, our future work will explore the potential of model-based DRL control algorithms in building energy system applications and how to further accelerate their deployment via warm-starting based on the GAIL approach. 5 Conclusions The implementation of Deep Reinforcement Learning (DRL) in building energy management is often challenging due to the requirement for extensive data and significant computing power. These constraints can limit the flexibility and practicality of DRL applications in this field. To address these issues, this study introduces a building energy management approach based on Generative Adversarial Imitation Learning (GAIL). GAIL\u2019s ability to learn complex control behaviors through adversarial imitation learning, without the need for explicitly defined reward functions, has attracted widespread attention in control applications. Especially, GAIL has the advantage of reducing computational costs while maintaining effectiveness, which can reduce deployment costs. This paper presents a comprehensive evaluation and analysis of the control and convergence performance of GAIL for building control. A container-based open-source virtual testbed was developed for controller training and testing; using a single-zone variable air volume air conditioning system as a test case, the control performances of Rule-Based Control (RBC), Proximal Policy Optimization (PPO), Model Predictive Control (MPC), and GAIL were compared in the context of a time-of-use electricity pricing structure. The simulation results show that GAIL achieves significant improvements in computational efficiency and effectiveness under the guidance of expert demonstrations. Especially, data augmentation plays a crucial role in enhancing the learning and performance of GAIL. By providing a richer and more diverse set of training experiences, data augmentation enables GAIL to learn more effectively, converge to a higher reward level. After applying Gaussian noise-based data augmentation, GAIL learns a well-performing control policy that is 22% better than the baseline and achieves 95% of expert control performance in approximately 100 training epochs in terms of the cumulative reward. GAIL also outperforms the state-of-the-art DRL algorithm PPO, resulting in a 2% reduction in energy costs and a 91% reduction in total temperature violations during one-week operation. Compared to RBC, GAIL reduced energy costs by 21% and total temperature violations by approximately 12%. Moreover, GAIL converges in about 100 epochs, which is better than PPO at 500 epochs, indicating a convergence speed at least five times faster. In conclusion, GAIL offers a practical and flexible solution to the shortcomings of learning-based controllers, which require extensive computational resources and training time, and represents a promising approach to building energy management. Future work will focus on deploying and analyzing the GAIL controller in a real building environment. In particular, based on the warm start with GAIL, we will develop the workflow for continuous learning in a DRL manner after deployment in the field. We will also develop robust datasets from which GAIL can learn effectively, while improving the generative adversarial network structure to make the training process more stable. CRediT authorship contribution statement Mingzhe Liu: Writing \u2013 original draft, Supervision, Methodology, Investigation, Formal analysis, Conceptualization. Mingyue Guo: Writing \u2013 review & editing, Visualization, Investigation, Formal analysis, Data curation. Yangyang Fu: Writing \u2013 review & editing, Software, Investigation, Conceptualization. Zheng O\u2019Neill: Writing \u2013 review & editing, Supervision, Resources, Project administration, Funding acquisition, Conceptualization. Yuan Gao: Writing \u2013 review & editing, Visualization, Formal analysis, Data curation. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work is partially supported by the US National Science Foundation [Grant Number: 2243931]. Portions of this research were conducted with the advanced computational resources provided by Texas A&M High Performance Research Computing. References [1] Pang Z. Guo M. Smith-Cortez B. O\u2019Neill Z. Yang Z. Liu M. Quantification of HVAC energy savings through occupancy presence sensors in an apartment setting: Field testing and inverse modeling approach Energy Build 302 2024 113752 Z. Pang, M. Guo, B. Smith-Cortez, Z. O\u2019Neill, Z. Yang, M. Liu, B. Dong, Quantification of hvac energy savings through occupancy presence sensors in an apartment setting: Field testing and inverse modeling approach, Energy and Buildings 302 (2024) 113752. [2] Chen W.-A. Lim J. Miyata S. Akashi Y. Methodology of evaluating the sewage heat utilization potential by modelling the urban sewage state prediction model Sustainable Cities Soc 80 2022 103751 W.-A. Chen, J. Lim, S. Miyata, Y. Akashi, Methodology of evaluating the sewage heat utilization potential by modelling the urban sewage state prediction model, Sustainable Cities and Society 80 (2022) 103751. [3] Gao Y. Hu Z. Chen W.-A. Liu M. Solutions to the insufficiency of label data in renewable energy forecasting: A comparative and integrative analysis of domain adaptation and fine-tuning Energy 2024 131863 Gao Y, Hu Z, Chen W-A, Liu M. Solutions to the insufficiency of label data inrenewable energy forecasting: a comparative and integrative analysis of domainadaptation and fine-tuning. Energy 2024;131863 [4] Liu M. Ooka R. Choi W. Ikeda S. Experimental and numerical investigation of energy saving potential of centralized and decentralized pumping systems Appl Energy 251 2019 113359 M. Liu, R. Ooka, W. Choi, S. Ikeda, Experimental and numerical investigation of energy saving potential of centralized and decentralized pumping systems, Applied Energy 251 (2019) 113359. [5] Hwang R.-L. Liao W.-J. Chen W.-A. Optimization of energy use and academic performance for educational environments in hot-humid climates Build Environ 222 2022 109434 R.-L. Hwang, W.-J. Liao, W.-A. Chen, Optimization of energy use and academic performance for educational environments in hot-humid climates, Building and Environment 222 (2022) 109434. [6] Hu Z. Gao Y. Ji S. Mae M. Imaizumi T. Improved multistep ahead photovoltaic power prediction model based on LSTM and self-attention with weather forecast data Appl Energy 359 2024 122709 Z. Hu, Y. Gao, S. Ji, M. Mae, T. Imaizumi, Improved multistep ahead photovoltaic power prediction model based on lstm and self-attention with weather forecast data, Applied Energy 359 (2024) 122709. [7] Chen W.-A. Chen C.-f. Liu M. Rickard R. Unraveling the complexities: Impacts of energy burden on the built environment challenges among assistance-dependent populations in the United Kingdom Build. Environ. 2024 111385 Chen W-A, Chen C-f, Liu M, Rickard R. Unraveling the complexities: impacts ofenergy burden on the built environment challenges among assistance-dependentpopulations in the united kingdom. Building and Environment 2024;111385. [8] Liu M. Hino T. Ooka R. Wen K. Choi W. Lee D. Development of distributed multiple-source and multiple-use heat pump system using renewable energy: Outline of test building and experimental evaluation of cooling and heating performance Jpn Archit Rev 4 1 2021 241 252 M. Liu, T. Hino, R. Ooka, K. Wen, W. Choi, D. Lee, S. Ikeda, Development of distributed multiple-source and multiple-use heat pump system using renewable energy: Outline of test building and experimental evaluation of cooling and heating performance, Japan Architectural Review 4 (2021) 241\u2013252. [9] Ruan Y. Liang Z. Qian F. Meng H. Gao Y. Operation strategy optimization of combined cooling, heating, and power systems with energy storage and renewable energy based on deep reinforcement learning J Build Eng 65 2023 105682 Y. Ruan, Z. Liang, F. Qian, H. Meng, Y. Gao, Operation strategy optimization of combined cooling, heating, and power systems with energy storage and renewable energy based on deep reinforcement learning, Journal of Building Engineering 65 (2023) 105682. [10] Wang Z. Xiao F. Ran Y. Li Y. Xu Y. Scalable energy management approach of residential hybrid energy system using multi-agent deep reinforcement learning Appl. Energy 367 2024 123414 Wang Z, Xiao F, Ran Y, Li Y, Xu Y. Scalable energy management approach ofresidential hybrid energy system using multi-agent deep reinforcement learning.Applied Energy 2024;367:123414 [11] Gao Y. Hu Z. Shi S. Chen W.-A. Liu M. Adversarial discriminative domain adaptation for solar radiation prediction: A cross-regional study for zero-label transfer learning in Japan Appl Energy 359 2024 122685 Y. Gao, Z. Hu, S. Shi, W.-A. Chen, M. Liu, Adversarial discriminative domain adaptation for solar radiation prediction: A cross-regional study for zero-label transfer learning in japan, Applied Energy 359 (2024) 122685. [12] Lu X. Fu Y. O\u2019Neill Z. Benchmarking high performance HVAC rule-based controls with advanced intelligent controllers: A case study in a multi-zone system in modelica Energy Build 284 2023 112854 X. Lu, Y. Fu, Z. O\u2019Neill, Benchmarking high performance hvac rule-based controls with advanced intelligent controllers: A case study in a multi-zone system in modelica, Energy and Buildings 284 (2023) 112854. [13] Li Y. Wang Z. Xu W. Gao W. Xu Y. Xiao F. Modeling and energy dynamic control for a ZEH via hybrid model-based deep reinforcement learning Energy 277 2023 127627 Li Y, Wang Z, Xu W, Gao W, Xu Y, Xiao F. Modeling and energy dynamiccontrol for a zeh via hybrid model-based deep reinforcement learning. Energy2023;277:127627. [14] Li P. Vrabie D. Li D. Bengea S.C. Mijanovic S. O\u2019Neill Z.D. Simulation and experimental demonstration of model predictive control in a building HVAC system Sci Technol Built Environ 21 6 2015 721 732 P. Li, D. Vrabie, D. Li, S. C. Bengea, S. Mijanovic, Z. D. O\u2019Neill, Simulation and experimental demonstration of model predictive control in a building hvac system, Science and Technology for the Built Environment 21 (2015) 721\u2013732. [15] Blum D. Wang Z. Weyandt C. Kim D. Wetter M. Hong T. Field demonstration and implementation analysis of model predictive control in an office HVAC system Appl Energy 318 2022 119104 D. Blum, Z. Wang, C. Weyandt, D. Kim, M. Wetter, T. Hong, M. A. Piette, Field demonstration and implementation analysis of model predictive control in an office hvac system, Applied Energy 318 (2022) 119104. [16] Zhan S. Chong A. Data requirements and performance evaluation of model predictive control in buildings: A modeling perspective Renew Sustain Energy Rev 142 2021 110835 S. Zhan, A. Chong, Data requirements and performance evaluation of model predictive control in buildings: A modeling perspective, Renewable and Sustainable Energy Reviews 142 (2021) 110835. [17] Fu Y. Xu S. Zhu Q. O\u2019Neill Z. Adetola V. How good are learning-based control vs model-based control for load shifting? Investigations on a single zone building energy system Energy 273 2023 127073 Y. Fu, S. Xu, Q. Zhu, Z. O\u2019Neill, V. Adetola, How good are learning-based control vs model-based control for load shifting? investigations on a single zone building energy system, Energy 273 (2023) 127073. [18] Zong Y. Böning G.M. Santos R.M. You S. Hu J. Han X. Challenges of implementing economic model predictive control strategy for buildings interacting with smart energy systems Appl Therm Eng 13594311 114 2017 1476 1486 Y. Zong, G. M. Böning, R. M. Santos, S. You, J. Hu, X. Han, Challenges of implementing economic model predictive control strategy for buildings interacting with smart energy systems, Applied Thermal Engineering 114 (2017) 1476\u20131486. [19] Coraci D. Brandi S. Hong T. Capozzoli A. Online transfer learning strategy for enhancing the scalability and deployment of deep reinforcement learning control in smart buildings Appl Energy 333 2023 120598 D. Coraci, S. Brandi, T. Hong, A. Capozzoli, Online transfer learning strategy for enhancing the scalability and deployment of deep reinforcement learning control in smart buildings, Applied Energy 333 (2023) 120598. [20] Pinto G. Kathirgamanathan A. Mangina E. Finn D.P. Capozzoli A. Enhancing energy management in grid-interactive buildings: A comparison among cooperative and coordinated architectures Appl Energy 310 2022 118497 G. Pinto, A. Kathirgamanathan, E. Mangina, D. P. Finn, A. Capozzoli, Enhancing energy management in grid-interactive buildings: A comparison among cooperative and coordinated architectures, Applied Energy 310 (2022) 118497. [21] Wei T, Wang Y, Zhu Q. Deep reinforcement learning for building HVAC control. In: Proceedings of the 54th annual design automation conference 2017. 2017, p. 1\u20136. [22] Luo J. Paduraru C. Voicu O. Chervonyi Y. Munns S. Li J. Controlling commercial cooling systems using reinforcement learning 2022 arXiv preprint arXiv:2211.07357 J. Luo, C. Paduraru, O. Voicu, Y. Chervonyi, S. Munns, J. Li, C. Qian, P. Dutta, J. Q. Davis, N. Wu, et al., Controlling commercial cooling systems using reinforcement learning, arXiv preprint arXiv:2211.07357 (2022). [23] Ding X. Du W. Cerpa A.E. MB2C: Model-based deep reinforcement learning for multi-zone building control BuildSys \u201920 2020 Association for Computing Machinery New York, NY, USA 9781450380614 50 59 10.1145/3408308.3427986 X. Ding, W. Du, A. E. Cerpa, Mb2c: Model-based deep reinforcement learning for multi-zone building control, BuildSys \u201920, Association for Computing Machinery, New York, NY, USA, 2020, p. 50\u201359. URL: https://doi.org/10.1145/3408308.3427986. 10.1145/3408308.3427986. [24] Chen B, Cai Z, Bergés M. Gnu-RL: A precocial reinforcement learning solution for building hvac control using a differentiable mpc policy. In: Proceedings of the 6th ACM international conference on systems for energy-efficient buildings, cities, and transportation. 2019, p. 316\u201325. [25] Wang Z. Hong T. Reinforcement learning for building controls: The opportunities and challenges Appl Energy 269 2020 115036 Z. Wang, T. Hong, Reinforcement learning for building controls: The opportunities and challenges, Applied Energy 269 (2020) 115036. [26] Azuatalam D. Lee W.-L. de Nijs F. Liebman A. Reinforcement learning for whole-building HVAC control and demand response Energy AI 2 2020 100020 D. Azuatalam, W.-L. Lee, F. de Nijs, A. Liebman, Reinforcement learning for whole-building hvac control and demand response, Energy and AI 2 (2020) 100020. [27] Gao Y. Shi S. Miyata S. Akashi Y. Successful application of predictive information in deep reinforcement learning control: A case study based on an office building HVAC system Energy 2024 130344 Y. Gao, S. Shi, S. Miyata, Y. Akashi, Successful application of predictive information in deep reinforcement learning control: A case study based on an office building hvac system, Energy (2024) 130344. [28] Nagy Z. Henze G. Dey S. Arroyo J. Helsen L. Zhang X. Ten questions concerning reinforcement learning for building energy management Build Environ 2023 110435 Z. Nagy, G. Henze, S. Dey, J. Arroyo, L. Helsen, X. Zhang, B. Chen, K. Amasyali, K. Kurte, A. Zamzam, et al., Ten questions concerning reinforcement learning for building energy management, Building and Environment (2023) 110435. [29] Blum D. Arroyo J. Huang S. Drgoňa J. Jorissen F. Walnum H.T. Building optimization testing framework (BOPTEST) for simulation-based benchmarking of control strategies in buildings J Build Perform Simul 14 5 2021 586 610 D. Blum, J. Arroyo, S. Huang, J. Drgoňa, F. Jorissen, H. T. Walnum, Y. Chen, K. Benne, D. Vrabie, M. Wetter, et al., Building optimization testing framework (boptest) for simulation-based benchmarking of control strategies in buildings, Journal of Building Performance Simulation 14 (2021) 586\u2013610. [30] Fu Y, Xu S, Zhu Q, O\u2019Neill Z. Containerized framework for building control performance comparisons: model predictive control vs deep reinforcement learning control. In: Proceedings of the 8th ACM international conference on systems for energy-efficient buildings, cities, and transportation. 2021, p. 276\u201380. [31] Wang D. Zheng W. Wang Z. Wang Y. Pang X. Wang W. Comparison of reinforcement learning and model predictive control for building energy system optimization Appl Therm Eng 228 2023 120430 D. Wang, W. Zheng, Z. Wang, Y. Wang, X. Pang, W. Wang, Comparison of reinforcement learning and model predictive control for building energy system optimization, Applied Thermal Engineering 228 (2023) 120430. [32] Zhang Z. Chong A. Pan Y. Zhang C. Lam K.P. Whole building energy model for HVAC optimal control: A practical framework based on deep reinforcement learning Energy Build 199 2019 472 490 Z. Zhang, A. Chong, Y. Pan, C. Zhang, K. P. Lam, Whole building energy model for hvac optimal control: A practical framework based on deep reinforcement learning, Energy and Buildings 199 (2019) 472\u2013490. [33] Xu S, Fu Y, Wang Y, Yang Z, O\u2019Neill Z, Wang Z, et al. Accelerate online reinforcement learning for building HVAC control with heterogeneous expert guidances. In: Proceedings of the 9th ACM international conference on systems for energy-efficient buildings, cities, and transportation. 2022, p. 89\u201398. [34] Gao G. Li J. Wen Y. DeepComfort: Energy-efficient thermal comfort control in buildings via reinforcement learning IEEE Internet Things J 7 9 2020 8472 8484 G. Gao, J. Li, Y. Wen, Deepcomfort: Energy-efficient thermal comfort control in buildings via reinforcement learning, IEEE Internet of Things Journal 7 (2020) 8472\u20138484. [35] Dey S. Marzullo T. Henze G. Inverse reinforcement learning control for building energy management Energy Build 286 2023 112941 S. Dey, T. Marzullo, G. Henze, Inverse reinforcement learning control for building energy management, Energy and Buildings 286 (2023) 112941. [36] Arora S. Doshi P. A survey of inverse reinforcement learning: Challenges, methods and progress Artificial Intelligence 297 2021 103500 S. Arora, P. Doshi, A survey of inverse reinforcement learning: Challenges, methods and progress, Artificial Intelligence 297 (2021) 103500. [37] Coraci D. Brandi S. Capozzoli A. Effective pre-training of a deep reinforcement learning agent by means of long short-term memory models for thermal energy management in buildings Energy Convers Manage 291 2023 117303 D. Coraci, S. Brandi, A. Capozzoli, Effective pre-training of a deep reinforcement learning agent by means of long short-term memory models for thermal energy management in buildings, Energy Conversion and Management 291 (2023) 117303. [38] Dey S. Marzullo T. Zhang X. Henze G. Reinforcement learning building control approach harnessing imitation learning Energy AI 14 2023 100255 S. Dey, T. Marzullo, X. Zhang, G. Henze, Reinforcement learning building control approach harnessing imitation learning, Energy and AI 14 (2023) 100255. [39] Hussein A. Gaber M.M. Elyan E. Jayne C. Imitation learning: A survey of learning methods ACM Comput Surv 50 2 2017 1 35 A. Hussein, M. M. Gaber, E. Elyan, C. Jayne, Imitation learning: A survey of learning methods, ACM Computing Surveys (CSUR) 50 (2017) 1\u201335. [40] Nian R. Liu J. Huang B. A review on reinforcement learning: Introduction and applications in industrial process control Comput Chem Eng 139 2020 106886 R. Nian, J. Liu, B. Huang, A review on reinforcement learning: Introduction and applications in industrial process control, Computers & Chemical Engineering 139 (2020) 106886. [41] Ho J. Ermon S. Generative adversarial imitation learning Adv Neural Inf Process Syst 29 2016 J. Ho, S. Ermon, Generative adversarial imitation learning, Advances in neural information processing systems 29 (2016). [42] Zhou M. Huang J. Fu X. Zhao F. Hong D. Effective pan-sharpening by multiscale invertible neural network and heterogeneous task distilling IEEE Trans Geosci Remote Sens 60 2022 1 14 M. Zhou, J. Huang, X. Fu, F. Zhao, D. Hong, Effective pan-sharpening by multiscale invertible neural network and heterogeneous task distilling, IEEE Transactions on Geoscience and Remote Sensing 60 (2022) 1\u201314. [43] Zolna K. Reed S. Novikov A. Colmenarejo S.G. Budden D. Cabi S. Task-relevant adversarial imitation learning Conference on robot learning 2021 PMLR 247 263 K. Zolna, S. Reed, A. Novikov, S. G. Colmenarejo, D. Budden, S. Cabi, M. Denil, N. de Freitas, Z. Wang, Task-relevant adversarial imitation learning, in: Conference on Robot Learning, PMLR, 2021, pp. 247\u2013263. [44] Sutton R. Barto A. Reinforcement Learning, second edition: An Introduction Adaptive computation and machine learning series 2018 MIT Press 978-0-262-03924-6 URL https://books.google.com/books?id=5s-MEAAAQBAJ R. Sutton, A. Barto, Reinforcement Learning, second edition: An Introduction, Adaptive Computation and Machine Learning series, MIT Press, 2018. URL: https://books.google.com/books?id=5s-MEAAAQBAJ. [45] Gavenski N. Rodrigues O. Luck M. Imitation learning: A survey of learning methods, environments and metrics 2024 arXiv preprint arXiv:2404.19456 N. Gavenski, O. Rodrigues, M. Luck, Imitation learning: A survey of learning methods, environments and metrics, arXiv preprint arXiv:2404.19456 (2024). [46] Florence P. Lynch C. Zeng A. Ramirez O.A. Wahid A. Downs L. Implicit behavioral cloning Conference on robot learning 2022 PMLR 158 168 P. Florence, C. Lynch, A. Zeng, O. A. Ramirez, A. Wahid, L. Downs, A. Wong, J. Lee, I. Mordatch, J. Tompson, Implicit behavioral cloning, in: Conference on Robot Learning, PMLR, 2022, pp. 158\u2013168. [47] Zheng B. Verma S. Zhou J. Tsang I.W. Chen F. Imitation learning: Progress, taxonomies and challenges IEEE Trans Neural Netw Learn Syst 2022 B. Zheng, S. Verma, J. Zhou, I. W. Tsang, F. Chen, Imitation learning: Progress, taxonomies and challenges, IEEE Transactions on Neural Networks and Learning Systems (2022). [48] Schulman J. Levine S. Moritz P. Jordan M.I. Abbeel P. Trust region policy optimization 2015 CoRR abs/1502.05477. URL http://arxiv.org/abs/1502.05477 J. Schulman, S. Levine, P. Moritz, M. I. Jordan, P. Abbeel, Trust region policy optimization, CoRR abs/1502.05477 (2015). URL: http://arxiv.org/abs/1502.05477. http://arxiv.org/abs/1502.05477[ arXiv:1502.05477]. [49] Judkoff R. Neymark J. International energy agency building energy simulation test (BESTEST) and diagnostic method 1995 National Renewable Energy Lab.(NREL) Golden, CO (United States) R. Judkoff, J. Neymark, International Energy Agency building energy simulation test (BESTEST) and diagnostic method, Technical Report, National Renewable Energy Lab.(NREL), Golden, CO (United States), 1995. [50] Wilcox S. Marion W. Users manual for TMY3 data sets 2008 National Renewable Energy Laboratory Golden CO S. Wilcox, W. Marion, Users manual for tmy3 data sets (2008). [51] Schulman J. Wolski F. Dhariwal P. Radford A. Klimov O. Proximal policy optimization algorithms 2017 arXiv preprint arXiv:1707.06347 J. Schulman, F. Wolski, P. Dhariwal, A. Radford, O. Klimov, Proximal policy optimization algorithms, arXiv preprint arXiv:1707.06347 (2017). [52] Icarte R.T. Klassen T.Q. Valenzano R. McIlraith S.A. Reward machines: Exploiting reward function structure in reinforcement learning J Artificial Intelligence Res 73 2022 173 208 R. T. Icarte, T. Q. Klassen, R. Valenzano, S. A. McIlraith, Reward machines: Exploiting reward function structure in reinforcement learning, Journal of Artificial Intelligence Research 73 (2022) 173\u2013208. [53] Drgoňa J. Arroyo J. Figueroa I.C. Blum D. Arendt K. Kim D. All you need to know about model predictive control for buildings Annu Rev Control 50 2020 190 232 J. Drgoňa, J. Arroyo, I. C. Figueroa, D. Blum, K. Arendt, D. Kim, E. P. Ollé, J. Oravec, M. Wetter, D. L. Vrabie, et al., All you need to know about model predictive control for buildings, Annual Reviews in Control 50 (2020) 190\u2013232. [54] Andersson J.A. Gillis J. Horn G. Rawlings J.B. Diehl M. CasADi: a software framework for nonlinear optimization and optimal control Math Program Comput 11 2019 1 36 J. A. Andersson, J. Gillis, G. Horn, J. B. Rawlings, M. Diehl, Casadi: a software framework for nonlinear optimization and optimal control, Mathematical Programming Computation 11 (2019) 1\u201336. [55] Antotsiou D. Ciliberto C. Kim T.-K. Adversarial imitation learning with trajectorial augmentation and correction 2021 IEEE international conference on robotics and automation 2021 IEEE 4724 4730 D. Antotsiou, C. Ciliberto, T.-K. Kim, Adversarial imitation learning with trajectorial augmentation and correction, in: 2021 IEEE International Conference on Robotics and Automation (ICRA), IEEE, 2021, pp. 4724\u20134730. [56] Zolna K. Reed S. Novikov A. Colmenarejo S.G. Budden D. Cabi S. Task-relevant adversarial imitation learning Kober J. Ramos F. Tomlin C. Proceedings of the 2020 conference on robot learning Proceedings of machine learning research vol. 155 2021 PMLR 247 263 URL https://proceedings.mlr.press/v155/zolna21a.html K. Zolna, S. Reed, A. Novikov, S. G. Colmenarejo, D. Budden, S. Cabi, M. Denil, N. d. Freitas, Z. Wang, Task-relevant adversarial imitation learning, in: J. Kober, F. Ramos, C. Tomlin (Eds.), Proceedings of the 2020 Conference on Robot Learning, volume 155 of Proceedings of Machine Learning Research, PMLR, 2021, pp. 247\u2013263. URL: https://proceedings.mlr.press/v155/zolna21a.html. [57] Blochwitz T. Otter M. Åkesson J. Arnold M. Clauss C. Elmqvist H. Functional mockup interface 2.0: The standard for tool independent exchange of simulation models 9th international modelica conference 2012 The Modelica Association 173 184 T. Blochwitz, M. Otter, J. Åkesson, M. Arnold, C. Clauss, H. Elmqvist, M. Friedrich, A. Junghanns, J. Mauss, D. Neumerkel, et al., Functional mockup interface 2.0: The standard for tool independent exchange of simulation models, in: 9th international Modelica conference, The Modelica Association, 2012, pp. 173\u2013184. [58] Brockman G. Cheung V. Pettersson L. Schneider J. Schulman J. Tang J. Openai gym 2016 arXiv preprint arXiv:1606.01540 G. Brockman, V. Cheung, L. Pettersson, J. Schneider, J. Schulman, J. Tang, W. Zaremba, Openai gym, arXiv preprint arXiv:1606.01540 (2016). [59] Liaw R. Liang E. Nishihara R. Moritz P. Gonzalez J.E. Stoica I. Tune: A research platform for distributed model selection and training 2018 arXiv preprint arXiv:1807.05118 R. Liaw, E. Liang, R. Nishihara, P. Moritz, J. E. Gonzalez, I. Stoica, Tune: A research platform for distributed model selection and training, arXiv preprint arXiv:1807.05118 (2018). [60] Orsini M. Raichuk A. Hussenot L. Vincent D. Dadashi R. Girgin S. What matters for adversarial imitation learning? Adv Neural Inf Process Syst 34 2021 14656 14668 M. Orsini, A. Raichuk, L. Hussenot, D. Vincent, R. Dadashi, S. Girgin, M. Geist, O. Bachem, O. Pietquin, M. Andrychowicz, What matters for adversarial imitation learning?, Advances in Neural Information Processing Systems 34 (2021) 14656\u201314668. [61] Guo M, Yangyang F, Mingzhe L, Zheng O. Investigations on the influence of model accuracy in deep reinforcement learning control for HVAC applications. Chicago, ILLINOIS; 2024. [62] Cohen M.H. Belta C. Safe exploration in model-based reinforcement learning using control barrier functions Automatica 147 2023 110684 M. H. Cohen, C. Belta, Safe exploration in model-based reinforcement learning using control barrier functions, Automatica 147 (2023) 110684.",
+    "scopus-id": "85196838065",
+    "coredata": {
+        "eid": "1-s2.0-S030626192401136X",
+        "dc:description": "The use of Deep Reinforcement Learning (DRL) in building energy management is often hampered by data efficiency and computational challenges. The long training time, unstable, and potentially harmful control performance limit DRL\u2019s adaptability and practicality in building control applications. To address these issues, this study introduces a new method, called Generative Adversarial Imitation Learning (GAIL), which effectively utilizes expert knowledge and demonstrations. Expert demonstrations range from fine-tuned rule-based controls to strategies inspired by optimization algorithms. By combining the capabilities of the generative adversarial network and imitation learning, GAIL is known for effectively learning the optimal strategy from expert demonstrations through an adversarial training process. We conducted a comprehensive evaluation comparing GAIL\u2019s performance with the DRL algorithm Proximal Policy Optimization (PPO) in the scenario of controlling a variable air volume system for load shifting in commercial buildings. Impressively, GAIL, guided by expert demonstrations based on model predictive control, achieved significantly improved computational efficiency and effectiveness. In terms of unified cumulative reward, GAIL with data augmentation achieved 95% expert performance, 22% higher than baseline rule-based control, in 100 training epochs; GAIL also outperformed PPO by 7%, resulting in 2% lower energy costs and notably improved thermal comfort. This improvement in thermal comfort is evidenced by a reduction of 18.65 unmet degree hours during the one-week operation. In comparison, PPO requires more training time and still lags behind GAIL in cumulative reward even after 500 epochs. These findings highlight the advantages of GAIL in enabling faster learning with fewer training samples, resulting in cost-effective solutions due to lower computational requirements. Overall, GAIL presents a promising approach to building energy management and provides a practical and flexible solution to the shortcomings of learning-based controllers that require extensive computational resources and training time.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-10-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S030626192401136X",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Liu, Mingzhe"
+            },
+            {
+                "@_fa": "true",
+                "$": "Guo, Mingyue"
+            },
+            {
+                "@_fa": "true",
+                "$": "Fu, Yangyang"
+            },
+            {
+                "@_fa": "true",
+                "$": "O\u2019Neill, Zheng"
+            },
+            {
+                "@_fa": "true",
+                "$": "Gao, Yuan"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S030626192401136X"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S030626192401136X"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0306-2619(24)01136-X",
+        "prism:volume": "372",
+        "articleNumber": "123753",
+        "prism:publisher": "Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Expert-guided imitation learning for energy management: Evaluating GAIL\u2019s performance in building control applications",
+        "prism:copyright": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "03062619",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Building energy management"
+            },
+            {
+                "@_fa": "true",
+                "$": "Energy efficiency"
+            },
+            {
+                "@_fa": "true",
+                "$": "Deep reinforcement learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Generative adversarial network"
+            },
+            {
+                "@_fa": "true",
+                "$": "Artificial intelligence"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Energy",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "123753",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 October 2024",
+        "prism:doi": "10.1016/j.apenergy.2024.123753",
+        "prism:startingPage": "123753",
+        "dc:identifier": "doi:10.1016/j.apenergy.2024.123753",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "261",
+            "@width": "527",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "65709",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "199",
+            "@width": "503",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "39366",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "256",
+            "@width": "377",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43593",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "150",
+            "@width": "470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27325",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "395",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "78982",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "137",
+            "@width": "339",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "21654",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "129",
+            "@width": "522",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "54558",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "176",
+            "@width": "550",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37708",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "406",
+            "@width": "565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "175452",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "191",
+            "@width": "791",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-fx1001.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43937",
+            "@ref": "fx1001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "291",
+            "@width": "485",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "50823",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "109",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18618",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "87",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13690",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "149",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "22443",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "70",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11759",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "162",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "21540",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "88",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11594",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "54",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15842",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "70",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12762",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "158",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "85042",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "53",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-fx1001.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11039",
+            "@ref": "fx1001",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17229",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1158",
+            "@width": "2334",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "434945",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "882",
+            "@width": "2227",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "212729",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1137",
+            "@width": "1672",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "208987",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "664",
+            "@width": "2083",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "132958",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1749",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "409974",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "605",
+            "@width": "1500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "83068",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "569",
+            "@width": "2310",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "352821",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "781",
+            "@width": "2437",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "250911",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1798",
+            "@width": "2500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "880594",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "847",
+            "@width": "3500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-fx1001_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "300495",
+            "@ref": "fx1001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1288",
+            "@width": "2149",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "305845",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2699",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1511",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si100.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2334",
+            "@ref": "si100",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si101.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2439",
+            "@ref": "si101",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si102.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2960",
+            "@ref": "si102",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si106.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18280",
+            "@ref": "si106",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si107.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19271",
+            "@ref": "si107",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1148",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si110.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27547",
+            "@ref": "si110",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si111.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "48420",
+            "@ref": "si111",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si112.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4856",
+            "@ref": "si112",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si113.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3083",
+            "@ref": "si113",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si114.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3021",
+            "@ref": "si114",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si115.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1987",
+            "@ref": "si115",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si116.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1777",
+            "@ref": "si116",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4878",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si123.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4046",
+            "@ref": "si123",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si125.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3870",
+            "@ref": "si125",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si126.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5819",
+            "@ref": "si126",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si127.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5303",
+            "@ref": "si127",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si129.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5149",
+            "@ref": "si129",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3737",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si130.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7058",
+            "@ref": "si130",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si131.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1363",
+            "@ref": "si131",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1175",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2234",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1901",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14828",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1552",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1173",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1298",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1426",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1443",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1448",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2500",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1137",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1268",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1133",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1647",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1733",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1226",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1200",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1200",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1201",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1435",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1463",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1343",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2122",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2676",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1286",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4459",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23547",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25655",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10535",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5423",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2445",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2092",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "675",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2355",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20048",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5470",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6727",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4661",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27858",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5168",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1425",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4297",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1092",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3437",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "993",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4219",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si68.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4177",
+            "@ref": "si68",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1149",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si70.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1054",
+            "@ref": "si70",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si71.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2286",
+            "@ref": "si71",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si73.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2302",
+            "@ref": "si73",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si75.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7890",
+            "@ref": "si75",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si76.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1347",
+            "@ref": "si76",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si79.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7850",
+            "@ref": "si79",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1955",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si82.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5912",
+            "@ref": "si82",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si85.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7108",
+            "@ref": "si85",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si89.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5908",
+            "@ref": "si89",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1211",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si92.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15670",
+            "@ref": "si92",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si95.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1393",
+            "@ref": "si95",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si96.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2862",
+            "@ref": "si96",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si97.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2800",
+            "@ref": "si97",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-si99.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3988",
+            "@ref": "si99",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S030626192401136X-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "3916467",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85196838065"
+    }
+}}

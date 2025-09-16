@@ -1,0 +1,858 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85194695244",
+    "originalText": "serial JL 271429 291210 291702 291731 291787 291877 291878 291881 31 Applied Energy APPLIEDENERGY 2024-06-03 2024-06-03 2024-06-03 2024-06-03 2024-07-12T19:39:07 1-s2.0-S0306261924009644 S0306-2619(24)00964-4 S0306261924009644 10.1016/j.apenergy.2024.123581 S300 S300.1 FULL-TEXT 1-s2.0-S0306261924X00124 2024-07-31T17:46:39.386048Z 0 0 20240901 2024 2024-06-03T04:52:11.905002Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst misctext primabst ref 0306-2619 03062619 true 369 369 C Volume 369 33 123581 123581 123581 20240901 1 September 2024 2024-09-01 2024 Research Papers article fla © 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. DEMANDRESPONSEFORRESIDENTIALBUILDINGSUSINGHIERARCHICALNONLINEARMODELPREDICTIVECONTROLFORPLUGANDPLAY WANG C 1 Introduction 2 Design of hierarchical MPC framework 2.1 Overview of the hierarchical MPC framework 2.2 Description of the upper-layer controller 2.2.1 Prediction model 2.2.2 Optimization 2.3 Description of lower-level controller 2.4 Description of signal exchanger 3 Implement of the proposed HNLMPC framework 3.1 Development of simulation system 3.1.1 Introduction of room with inverter AC 3.1.2 Establishment of the emulator 3.2 Establishment of SMPC 3.3 Preparation of the input variables 3.3.1 Weather conditions 3.3.2 Electricity price modeling 3.3.3 Occupancy and internal thermal load 3.4 Control strategies 4 Results and discussion 4.1 Performance comparison between HNLMPC and rule-based controllers 4.2 Performance comparison between HNLMPC and HLMPC 4.3 Performance comparison between HNLMPC and CNLMPC 4.4 Discussion 5 Conclusion CRediT authorship contribution statement References TANG 2019 118 130 R HOPPING 2023 D ENERGYCRISISHOWBUILDINGSCANDRIVEENERGYTRANSITION AGENCYIE 2019 ENERGYEFFICIENCY2018 IEA 2018 FUTURECOOLINGOPPORTUNITIESFORENERGYEFFICIENTAIRCONDITIONINGFRANCE PENGXU 2020 Y BUILDINGDEMANDRESPONSECONTROLAPPLICATION CHEN 2020 Y WANG 2019 697 712 H HAO 2015 189 198 H ALTHAHER 2015 1874 1883 S WANG 2008 3 32 S ROYAPOOR 2018 453 465 M DRGONA 2020 190 232 J AVCI 2013 199 209 M HU 2019 92 106 M WANG 2022 C JAMSHIDI 1996 M LARGESCALESYSTEMSMODELINGCONTROLFUZZYLOGIC RESEARCH 2022 M AIRCONDITIONERSMARKETBYTYPEWINDOWSPLITVARIABLEREFRIGERANTFLOWCENTRALIZEDDUCTEDTONNAGETECHNOLOGYINVERTERNONINVERTERRATINGENDUSERRESIDENTIALCOMMERCIALINDUSTRIALGEOGRAPHYGLOBALFORECASTS2029 RASTEGARPOUR 2021 2175 2180 S 2021IEEE17THINTERNATIONALCONFERENCEAUTOMATIONSCIENCEENGINEERINGCASE HIERARCHICALNONLINEARMPCFORLARGEBUILDINGSHVACOPTIMIZATION DRGONA 2020 63 77 J LEFORT 2013 53 61 A CASTILLA 2014 703 713 M KIM 2022 D BUENO 2012 116 125 B HU 2018 151 164 M XIANGDONG 1995 H MODELINGVAPORCOMPRESSIONCYCLESFORADVANCEDCONTROLSINHVACSYSTEMS GAYESKI 2012 858 873 N BEMPORAD 2017 A MODELPREDICTIVECONTROLTOOLBOXUSERSGUIDEMATHWORKS SCATTOLINI 2009 723 731 R BEERENS 2019 483 492 R BLEVINS 2012 23 28 T DOCUMENTATION 2020 S SIMULATIONMODELBASEDDESIGNMATHWORKS 2020 SIMSCAPEUSERSGUIDEMATHWORKS ABARKAN 2014 522 531 M RESEARCHCAOB 2012 DESIGNSTANDARDFORENERGYEFFICIENCYRESIDENTIALBUILDINGSINHOTSUMMERWARMWINTERZONEJGJ752012 YAN 2008 95 110 D YINGXIN 2010 Z BUILTENVIRONMENT GUO 2020 H BIRDRWS 2002 513 536 L WANGX2024X123581 WANGX2024X123581XC 2026-06-03T00:00:00.000Z 2026-06-03T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0306-2619(24)00964-4 S0306261924009644 1-s2.0-S0306261924009644 10.1016/j.apenergy.2024.123581 271429 2024-07-31T17:46:39.386048Z 2024-09-01 1-s2.0-S0306261924009644-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/MAIN/application/pdf/8a84825851c49474f87dae8fb23cf976/main.pdf main.pdf pdf true 11080917 MAIN 14 1-s2.0-S0306261924009644-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/PREVIEW/image/png/135f01c3c5fa552c026e0502399d6af8/main_1.png main_1.png png 50439 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0306261924009644-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr12/DOWNSAMPLED/image/jpeg/0eff39ca4fe0bf96846f7d95738d9387/gr12.jpg gr12 gr12.jpg jpg 55579 232 802 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr1/DOWNSAMPLED/image/jpeg/a70b0cd79da0b8adfbecf9ebd78bb734/gr1.jpg gr1 gr1.jpg jpg 46096 210 597 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr7a.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr7a/DOWNSAMPLED/image/jpeg/488bd297b0e4371bfe4d8beb67cddb5c/gr7a.jpg gr7a gr7a.jpg jpg 184806 940 574 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr7b.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr7b/DOWNSAMPLED/image/jpeg/387d966c110ca67b4a2d863a3c1cc11d/gr7b.jpg gr7b gr7b.jpg jpg 28506 173 573 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr13/DOWNSAMPLED/image/jpeg/01b36a64f08ccb61003559a69a483949/gr13.jpg gr13 gr13.jpg jpg 134010 455 803 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr11/DOWNSAMPLED/image/jpeg/780905f03bc05c54b54b0904c6c64a56/gr11.jpg gr11 gr11.jpg jpg 50659 233 802 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr10/DOWNSAMPLED/image/jpeg/7517d78a5b42e91c7404d69d9135694b/gr10.jpg gr10 gr10.jpg jpg 125764 531 624 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr8/DOWNSAMPLED/image/jpeg/ef3a7a4af6c0c92d1c41da8c73e4821f/gr8.jpg gr8 gr8.jpg jpg 48522 211 724 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr9/DOWNSAMPLED/image/jpeg/e08d028bd3fc12d40874016a47bb5b73/gr9.jpg gr9 gr9.jpg jpg 110416 520 624 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr6/DOWNSAMPLED/image/jpeg/df9eb668b7d3fa6a634146223e4bbf93/gr6.jpg gr6 gr6.jpg jpg 43248 200 753 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr4/DOWNSAMPLED/image/jpeg/1cc9842e0c4d01a932618de9c5c02f5e/gr4.jpg gr4 gr4.jpg jpg 65889 317 812 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr5/DOWNSAMPLED/image/jpeg/37998600f64f005929aca95b68c16626/gr5.jpg gr5 gr5.jpg jpg 63281 273 535 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr2/DOWNSAMPLED/image/jpeg/08e2579934e94e03eecbf0e7520c0f60/gr2.jpg gr2 gr2.jpg jpg 45922 246 624 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr3/DOWNSAMPLED/image/jpeg/7aed452ac4c1159c4124a3f26bb40a0d/gr3.jpg gr3 gr3.jpg jpg 24029 184 536 IMAGE-DOWNSAMPLED 1-s2.0-S0306261924009644-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr12/THUMBNAIL/image/gif/ca39911ad3f9dbef9b2d149dd9a56049/gr12.sml gr12 gr12.sml sml 6461 63 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr1/THUMBNAIL/image/gif/bffab3bd916a01b4080ca123f5e554fc/gr1.sml gr1 gr1.sml sml 7558 77 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr7a.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr7a/THUMBNAIL/image/gif/2a83ecaf4ca6f3e9a8c19c74f356d9a4/gr7a.sml gr7a gr7a.sml sml 8404 164 100 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr7b.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr7b/THUMBNAIL/image/gif/eaa719ce0835a338d19795fd617d3342/gr7b.sml gr7b gr7b.sml sml 4962 66 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr13/THUMBNAIL/image/gif/ae7c8d5a1ca0f2b4ad6fb0e863ef3356/gr13.sml gr13 gr13.sml sml 12835 124 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr11/THUMBNAIL/image/gif/eee9849df116eefdca134ee2c60e2cab/gr11.sml gr11 gr11.sml sml 5242 64 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr10/THUMBNAIL/image/gif/7549729c3c325ba0a9d583bf62ae393a/gr10.sml gr10 gr10.sml sml 12860 164 193 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr8/THUMBNAIL/image/gif/f23eaf7cccf4b3a9f6fbf19ec6bae796/gr8.sml gr8 gr8.sml sml 5756 64 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr9/THUMBNAIL/image/gif/c59ba6c61583886d4ec52ecbd7edac4e/gr9.sml gr9 gr9.sml sml 13885 164 197 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr6/THUMBNAIL/image/gif/c5dc4817b28372e1dbb2da8027c186d3/gr6.sml gr6 gr6.sml sml 4419 58 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr4/THUMBNAIL/image/gif/1cdc7695f4cfbeae5677f13c331c2c74/gr4.sml gr4 gr4.sml sml 5867 85 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr5/THUMBNAIL/image/gif/6afca3fc374588dbe69de3956d3b161b/gr5.sml gr5 gr5.sml sml 8053 112 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr2/THUMBNAIL/image/gif/c8f93325cee2ddb89bbd20dfdd1a3855/gr2.sml gr2 gr2.sml sml 6870 86 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/gr3/THUMBNAIL/image/gif/80e31ddea5838a79bc51a123e93496c9/gr3.sml gr3 gr3.sml sml 5245 75 219 IMAGE-THUMBNAIL 1-s2.0-S0306261924009644-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/587770697be9095c732eefe8bfb12895/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 501978 1027 3549 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/371f80d892f60adc241159bd360434cf/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 320751 930 2645 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr7a_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/214e180d5dd8ee98f5b0bc71b9dbca34/gr7a_lrg.jpg gr7a gr7a_lrg.jpg jpg 1394133 4165 2542 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr7b_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/5b464ceecc2cc9f364c3ef2119c1f7f4/gr7b_lrg.jpg gr7b gr7b_lrg.jpg jpg 217062 768 2538 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/ea83c2da81b0988031830f1333610a48/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 687245 1468 2589 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/1edbe24fd5c9388f98c114feae492648/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 273887 717 2470 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/8e5204a9d149020f82cd6735c9a5d897/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 999045 2174 2555 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/dc2e3152edf3bffef702a57c1ce35228/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 348676 935 3207 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/7c9c42ecba387ce76f37a5fbff25b295/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 919296 2179 2614 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/76e5af4e072a2f55c2678c851e64d437/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 285356 886 3332 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/7e9c59c5eea07e21ceba699d1f5f29be/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 395597 1203 3085 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/b9471651c01bb8cfab348e49dd8d9803/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 427963 1208 2368 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/23a40ecce3ab22464ae09dfdfc53c4bd/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 336165 1090 2762 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/HIGHRES/image/jpeg/d15cf35dff6fcc1b18dda91237e3110d/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 126218 583 1699 IMAGE-HIGH-RES 1-s2.0-S0306261924009644-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/5dbf94792392d1247b104c8fd875bdad/si1.svg si1 si1.svg svg 11708 ALTIMG 1-s2.0-S0306261924009644-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/9a66bccccd8e9ec491d491fc3b29c6f1/si10.svg si10 si10.svg svg 1170 ALTIMG 1-s2.0-S0306261924009644-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/ad39791e2e1ba9936c31526c4faeef97/si11.svg si11 si11.svg svg 1446 ALTIMG 1-s2.0-S0306261924009644-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/fede3d1d1caf692a6a20ca33d43abf71/si12.svg si12 si12.svg svg 12396 ALTIMG 1-s2.0-S0306261924009644-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/dca71465076db5f7adcdae61668e9e20/si13.svg si13 si13.svg svg 5863 ALTIMG 1-s2.0-S0306261924009644-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/fabea321d716ba5a15fd0ec68a515845/si14.svg si14 si14.svg svg 18017 ALTIMG 1-s2.0-S0306261924009644-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/aa6011450db696b2bee7094e9e9fc6fb/si15.svg si15 si15.svg svg 8175 ALTIMG 1-s2.0-S0306261924009644-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/5c57a5e77bfd8d692377e23802b29d81/si16.svg si16 si16.svg svg 3458 ALTIMG 1-s2.0-S0306261924009644-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/850904b624df486e68cff4729e543cbb/si17.svg si17 si17.svg svg 900 ALTIMG 1-s2.0-S0306261924009644-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/055bcc7c927e2531b045e625a4035de6/si19.svg si19 si19.svg svg 14835 ALTIMG 1-s2.0-S0306261924009644-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/762fdda51cc93dae1aa2b3c6aa3b4b41/si2.svg si2 si2.svg svg 8029 ALTIMG 1-s2.0-S0306261924009644-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/39d99167181635aa4a410504e2c77b6c/si20.svg si20 si20.svg svg 4985 ALTIMG 1-s2.0-S0306261924009644-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/fc62d02fb2175d46b88cebb1894a8ae0/si21.svg si21 si21.svg svg 27289 ALTIMG 1-s2.0-S0306261924009644-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/d7441789ab15036064bd5e76dc487918/si22.svg si22 si22.svg svg 15905 ALTIMG 1-s2.0-S0306261924009644-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/3f7a3c2ad2ab45ed08d8def3e7877174/si23.svg si23 si23.svg svg 17504 ALTIMG 1-s2.0-S0306261924009644-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/38f665760cc768ddde1449212976239f/si24.svg si24 si24.svg svg 5075 ALTIMG 1-s2.0-S0306261924009644-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/e246886f29e5f8462beccc6ea016c95f/si25.svg si25 si25.svg svg 15228 ALTIMG 1-s2.0-S0306261924009644-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/9cdfcdd74ef11f938a8a9897973c1146/si26.svg si26 si26.svg svg 9564 ALTIMG 1-s2.0-S0306261924009644-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/70376efc3885efede37aaf16dc4840e2/si27.svg si27 si27.svg svg 2315 ALTIMG 1-s2.0-S0306261924009644-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/3e3f7f0690bd065df198504559ddb7bd/si3.svg si3 si3.svg svg 7008 ALTIMG 1-s2.0-S0306261924009644-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/e16f3bb401e77f0f462765d15949a733/si4.svg si4 si4.svg svg 3459 ALTIMG 1-s2.0-S0306261924009644-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/1ff3222f1ea65f9ac2384020d874968d/si5.svg si5 si5.svg svg 3554 ALTIMG 1-s2.0-S0306261924009644-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/d9a8bccb282a26d315339be9b8aae316/si6.svg si6 si6.svg svg 22758 ALTIMG 1-s2.0-S0306261924009644-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/cc97a6a7f83fcefafdd8d159d4980d7b/si7.svg si7 si7.svg svg 17434 ALTIMG 1-s2.0-S0306261924009644-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/49977f0507d56bd3c1bac94b720e22e0/si8.svg si8 si8.svg svg 22812 ALTIMG 1-s2.0-S0306261924009644-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261924009644/image/svg+xml/2c5f4500eb0fd363b28aede1c65eeb9b/si9.svg si9 si9.svg svg 21697 ALTIMG 1-s2.0-S0306261924009644-am.pdf am am.pdf pdf 4169815 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10TT4TH43XQ/MAIN/application/pdf/3c7be2c9331f2ec70cdf84b593275571/am.pdf APEN 123581 123581 S0306-2619(24)00964-4 10.1016/j.apenergy.2024.123581 Elsevier Ltd Fig. 1 Schematic diagram of the hierarchical MPC framework for residential buildings with inverter ACs considering the dynamic electricity price. Fig. 1 Fig. 2 Schematic diagram of the computing process and variable transmission of the upper controller. Fig. 2 Fig. 3 The simplified schematic for the signal exchanger between the upper and lower control layer. Fig. 3 Fig. 4 The tested building model in the Simulink + Simscape environment. Fig. 4 Fig. 5 Weather conditions for typical days (a) from June 14th to June 18th and (b) from August 23rd to August 27th. Fig. 5 Fig. 6 Daily RTP for typical days (a) from June 14th to June 18th and (b) from August 23rd to August 27th. Fig. 6 Fig. 7 Temporal system control results of the rule-based control methods and HNLMPC for typical days including from June 14th to June 18th (a) indoor air temperature, (b) power, and (c) electricity costs and from August 23rd to June 27th (d) indoor air temperature, (e) power, and (f) electricity costs. Fig. 7 Fig. 8 Comparison of daily profiles of total 1-h moving average inverter AC power between the rule-based control methods and HNLMPC for typical days (a) June 14th\u201318th and (b) August 23rd-27th. Fig. 8 Fig. 9 Daily system performances of the rule-based control methods and HNLMPC on typical days including from June 14th to June 18th (a) all-day energy, (c) peak-hour energy, and (e) all-day electricity costs and from August 23rd to August 27th (b) all-day energy, (d) peak-hour energy, and (f) all-day electricity costs. Fig. 9 Fig. 10 Temporal system control results for HNLMPC and HLMPC with different COP values for typical days from June 14th to June 18th (a) indoor air temperature, and typical day of June 16th (b) indoor air temperature, (c) actual dynamic COP of inverter AC (d) power, and (e) electricity costs. Fig. 10 Fig. 11 Comparison of daily profiles of total 1-h moving average inverter AC power between HNLMPC and HLMPC with different COP values for (a) typical days June 14th\u201318th and (b) cooling season. Fig. 11 Fig. 12 System performance results of the HNLMPC and HLMPC with different COP values for (a) typical days from June 14th to June 18th and (b) cooling season. Fig. 12 Fig. 13 Performance comparison with the variations of prediction horizons between HNLMPC and CNLMPC during the typical days including (a) energy consumption; (b) peak energy consumption; (c) electricity cost and (d) simulation time. Fig. 13 Table 1 Properties of the envelope and the internal thermal mass. Table 1 Description Parameter Value External wall Thermal resistance (m2\u2022K/W) 0.30 Convection heat transfer (W /(m2\u2022K)) External surface 20 Internal surface 9 Conversion coefficients for solar 0.3 Heat capacity(J/kg\u2022K) 875 Airflow rate Fresh air changes per hour (1/h) 0.5 Window Heat transfer coefficient (W /m2\u2022K) 3 Window wall ratio 0.13 Thermal mass Heat capacity (J/kg\u2022K) 1930 Convection heat transfer (W /m2\u2022K) 9 Conversion coefficients for solar 0.05 Table 2 The statistics of weather conditions on typical days. Table 2 June Average STD Range August Average STD Range 14th 30.4 7.1 [22.1, 42.7] 23rd 28.3 3.9 [24.7, 39.6] 15th 30.0 4.5 [24.1, 38.1] 24th 29.5 5.5 [24.6, 46.7] 16th 32.7 6.0 [26.2, 44.1] 25th 29.1 4.3 [24.3, 37.3] 17th 31.3 4.3 [26.1. 42.2] 26th 32.0 6.9 [24.5, 43.6] 18th 32.3 5.3 [26.9, 44.8] 27th 31.2 7.4 [24.7, 52.0] Table 3 Different control methods for inverter AC. Table 3 Upper controller Lower controller Prediction model Comfort range Indoor temperature setpoint Control methods HNLMPC Nonlinear [22,24], [22,26] \u2013 Optimal PID RBC Basic \u2013 \u2013 24, 23 PID Up \u2013 \u2013 26, 24 PID Uppre \u2013 \u2013 25, 24 PID HLMPC Linear [22,24], [22,26] \u2013 PID CNLMPC Nonlinear [22,24], [22,26] \u2013 \u2013 Table 4 Total system performances under the comparison between the rule-based control methods and HNLMPC. Table 4 Jun 14th -18th Aug 23rd -27th COP Saving COP Saving Peak-hour energy All-day energy All-day cost Peak-hour energy All-day energy All-day cost HNLMPC 6.3 \u2013 \u2013 \u2013 6.8 \u2013 \u2013 \u2013 Basic R-b 5.3 35.4% 15.4% 20.4% 5.9 38.0% 14.3% 17.5% Up R-b 5.2 30.1% 5.2% 11.7% 5.7 32.0% 2.5% 5.9% UppreR-b 5.8 26.1% −1.1% 5.5% 6.3 28.5% −3.4% 0.4% Demand response for residential buildings using hierarchical nonlinear model predictive control for plug-and-play Cuiling Wang Writing \u2013 original draft Methodology a Baolong Wang Writing \u2013 review & editing Supervision Methodology a \u204e Fengqi You Writing \u2013 review & editing Supervision Methodology b c a Beijing Key Laboratory of Indoor Air Quality Evaluation and Control, Department of Building Science, Tsinghua University, Beijing 100084, China Beijing Key Laboratory of Indoor Air Quality Evaluation and Control, Department of Building Science Tsinghua University Beijing 100084 China Beijing Key Laboratory of Indoor Air Quality Evaluation and Control, Department of Building Science, Tsinghua University, Beijing 100084, China b Systems Engineering, Cornell University, Ithaca, NY 14853, USA Systems Engineering Cornell University Ithaca NY 14853 USA Systems Engineering, Cornell University, Ithaca, New York 14853, USA c Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA Robert Frederick Smith School of Chemical and Biomolecular Engineering Cornell University Ithaca NY 14853 USA Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, New York 14853, USA \u204e Corresponding author at: Department of Building Science, School of Architecture, Tsinghua University, Beijing 100084, China. Department of Building Science School of Architecture Tsinghua University Beijing 100084 China Editor: Prof. S.K. Chou In the smart grid, residential inverter air conditioners (AC) with significant demand response (DR) potential due to their load flexibility and as the major contributors to peak electricity, need to be grid-responsive to relieve power supply-demand imbalance and ensure thermal comfort. Model predictive control (MPC) has strong capabilities for unlocking the flexibility of residential buildings to realize DR by responding to electricity prices. However, the high computational requirements and complex control system integration processes make the application of MPC a significant challenge. A hierarchical nonlinear MPC (HNLMPC) is developed to realize grid-responsive control for residential inverter ACs by responding to real-time electricity price signals. The controller consists of three parts: the upper-level supervisor MPC, the lower-level optimal PID controller, and the signal converter. The indoor air temperature is selected as the optimized setpoint sequence passed from the upper level to the lower level. A nonlinear prediction model is developed considering the dynamic performances of the inverter AC and the coupled thermal response of an air-conditioned room. A test platform is constructed using Simulink and Simscape to access the DR performance of HNLMPC by comparing it with different rule-based control methods, hierarchical linear MPC, and centralized MPC. The control results show that HNLMPC can achieve peak load shifting and peak shaving without sacrificing thermal comfort by adjusting the room temperature to charge and discharge cooling for the building's thermal mass. Additionally, it enables plug-and-play capability for practical applications, reducing the dependency on local computing power and the need for accurate models. Compared to basic rule-based control, HNLMPC reduces peak-hour energy consumption by 31.6% and total electricity costs by 14.3% over the entire cooling season. Keywords Demand response Hierarchical model predictive control Nonlinear model Plug-and-play Data availability Data will be made available on request. 1 Introduction Unlocking the DR potential in the building sector is a vital aspect of promoting the balance between electricity supply and demand and facilitating the integration of renewable energy sources [1], assisting in the low-carbon transformation of the energy system [2]. Buildings are the primary consumers of electric power and account for approximately 37% of global energy usage [3], primarily due to energy use in building operations. Among building energy consumption, space cooling has emerged as the fastest-growing segment, representing 16% of global electricity demand [4]. The air AC systems of residential buildings have a significant share of electricity consumption and serve as a major source of peak electricity demand in the summer, and has demonstrated immense DR potential [5]. By leveraging the thermal inertia of buildings [6], optimizing air conditioning systems, and coordinating with the power grid [7], the electricity demand for AC systems can be significantly reduced and shifted without compromising thermal comfort [8]. To realize DR in residential buildings, dynamic electricity pricing is an effective information exchange, and offers economic incentives for interaction with the grid, making it well-suited for large-scale small-capacity users. There are new requirements and challenges to exploit the full potential of DR for residential buildings with AC systems. The control method needs to address DR optimization problems that involve multi-objective optimization, such as peak-energy shifting and shaving, maintaining thermal comfort, and handling multiple disturbances like occupancy, dynamic electricity pricing, and weather conditions [9]. However, conventional control methods, such as PID control, fuzzy logic control, and expert-based methods, primarily rely on current feedback or historical information for control variables and fail to meet the aforementioned controlled requirements [10] and consider future dynamics of buildings and systems under dynamic disturbances [11]. Hence, an advanced control method is crucial to resolve the aforementioned requirements and challenges for buildings with AC systems. MPC is gaining popularity in the DR control of building sectors, which enables it to handle uncertainties from both the demand and supply sides, as well as the dynamics of the building, cooling system, and their coupling [12]. Considering the advantages of MPC in terms of control robustness and optimization, this method is preferable for addressing optimal DR control challenges in residential ACs. Several studies have applied MPC to residential ACs to achieve DR. Mesut et al. [13] developed a cost and energy-efficient MPC strategy for a single-speed AC and designed an algorithm that assigns temperature set-points to interact with the power grid using price-based DR. Compared to on/off control, MPC achieved a 6% peak-energy saving over two typical days. Hu et al. [14] designed a DR-enabled MPC to optimally control the operating frequency of an inverter AC using piecewise linear functions. Simulation results showed that, compared to a PID controller, the MPC method reduced average power consumption during peak demand periods by 17.31% to 38.86% on three typical summer days. Wang et al. [15] proposed a time-varying MPC for an inverter AC to shift peak energy consumption and reduce electricity costs. The results demonstrated that, compared to the PID control method, MPC could shift peak-hour energy consumption by 6.34% to 21.60% and reduce total electricity costs by 13.44% to 27.43% while maintaining indoor thermal comfort throughout the whole cooling season. These studies have demonstrated the effective DR performance of MPC in residential buildings. However, there are still several major research gaps that need to be filled to improve optimization performance and realize easier implementation. First, it is challenging for the developed centralized MPC (CMPC) in the previous studies to be integrated into residential ACs, especially into the existing installations, and operate efficiently and safely. The CMPC directly controls the operation states of each modulatable component (such as frequency of the compressor, opening of the expansion valve, speed of the fans, etc) of the ACs. However, the operation states of ACs are determined not only by energy-saving, DR, or comfort control objectives but also by safety and stability considerations. For instance, the compressor frequency may be regulated according to the superheating degree, subcooling degree, indoor humidity, and oil-returning cycle. Therefore, when integrating CMPC, the original internal control logic of the ACs needs to be completely overwritten, which seems impossible for the massive installed ACs; The limited local computing power of ACs makes it difficult to achieve efficient MPC operation [16]. Considering the number of ACs used globally will reach 882.1 million units by 2029 [17], it becomes essential to develop an MPC system with high stability, robustness, and plug-and-play control system integration capability. Second, previous studies have underutilization of cooling system DR flexibility. The performance of inverter AC, which has been widely used, is also affected by building load and has higher efficiency under part-load conditions. However, the dynamic performance is always simplified when the prediction model of MPC is built, resulting in suboptimal control results. Hierarchical MPC (HMPC) offers a systematic and flexible approach to control systems, enhancing their performance, robustness, and adaptability in complex and dynamic environments, in which the upper layer that is supervisory MPC (SMPC) computes optimal set points to realize the optimization control objective while the lower layers focus on set points tracking, which could be any kind of control method and there is almost no need to modify existing hardware and software [18]. This makes HMPC more feasible for being integrated to realize plug-and-play. HMPC can be combined with smart home technologies, enabling communication between the different levels through cloud-based infrastructure or the Internet of Things (IoT) [19]. This allows the operation of HMPC to not be limited by the local computing power. Several studies have reported the optimal performance of HMPC in building HVAC systems. Lefort et al. [20] proposed HMPC to minimize building energy costs for the residential-building heating system under the fluctuation of energy tariffs, resulting in reduced computation time and improved constraint satisfaction compared to CMPC. M. Castilla et al. [21] presented a hierarchical thermal comfort control system with two layers for the fan-coil unit, utilizing a nonlinear MPC in the upper layer for energy savings and high thermal comfort, and a PID controller in the lower layer. Rastegarpour et al. [18] applied nonlinear HMPC to a complex HVAC system in a large-scale university building, decoupling the different working frequencies of subsystems and making the overall control system more feasible. Kim and Braun [22] developed a grid-responsive HMPC for thermostats of single-stage rooftop units in a commercial building. The upper-level MPC is responsible for electrical-load shifting in response to an electricity price signal while the lower-level MPC is responsible for coordinating on /off stages of the compressor to track the indoor air temperature set points from the upper level. In the aforementioned studies, the tracking sequences provided from the upper layer to the lower layer mostly relate to the operational states of equipment or subsystems, such as heating power, fan speed, water loop valve position, or water flow rate. However, when dealing with inverter ACs that are more integrated and refined than central air conditioning systems, only the indoor air temperature set points are easily adjustable, allowing residents to change according to their needs (such as comfort or energy savings). The AC equipped with an embedded PID controller, will then track the desired setpoints. Therefore, if the temperature setpoint is used as the output sequence of the upper layer, it can achieve better plug-and-play functionality and always satisfy comfort constraints. To fill these research gaps, this paper develops an HMPC with the nonlinear model (HNLMPC) for inverter ACs of residential buildings under dynamic electricity to realize DR and keep thermal comfort, in which the upper layer is a nonlinear SMPC computing optimal indoor-air-temperature setpoint and the lower layer is an optimal PID controller focusing on fast setpoint tracking from the upper MPC. The reasonable selection of tracking sequences from the upper level and novel hierarchical framework enables easier plug-and-play implementation by avoiding local control structure modification and reducing the dependency on model accuracy. The optimal PID controller in the lower layer and signal exchanger are conducted to enable fast-tracking of the setpoint values and ensure the performance of HNLMPC. A comprehensive dynamic nonlinear model integrating the dynamic performances of inverter AC under weather and building load is developed to achieve continuously variable frequency optimization operation of the cooling system leading to improved energy efficiency and comfort. Simulation case studies based on a single-family home with inverter ACs are conducted to demonstrate the applicability of the proposed HNLMPC framework in comparison to different rule-basic control methods (RBCs), HLMPC, and CMPC with nonlinear model (CNLMPC) to explore the DR efficiency, performance sensitivity to model accuracy and the requirement of computational power. Such a study would contribute multiple novelties to help the practical application and promotion of MPC for inverter air conditioners, especially for the installed systems in residential buildings to fully unlock DR potential. The key novelties of this study include the following: (1) A novel hierarchical model predictive control framework tailored for inverter air conditioners to avoid challenging and complex control system integration processes and reduce dependency on local computing power in applying MPC for inverter air conditioners. (2) Incorporating the nonlinear inverter AC dynamics, omitted in previous studies, enabling the proposed MPC framework to perform precise demand-responsive AC control and indoor environment optimization. (3) New understandings into the impacts of control strategies and model accuracies on building demand response efficiency through a set of building control performance evaluations. 2 Design of hierarchical MPC framework 2.1 Overview of the hierarchical MPC framework The structure of the HMPC of the residential building with an inverter AC is shown in Fig. 1 . It consists of three main components: (1) upper optimal controller (SMPC) that calculates the optimal indoor air temperature set point as the referenced value using the prediction models of building and inverter AC and optimizer under different disturbances and constraints to realize DR and keep thermal comfort, (2) lower controller (PID/PI) that gives operating states of the inverter AC to make indoor-air temperature reach to the reference value and (3) signal exchanger that realizes the signal exchange between slow (upper layer) and fast (lower layer) dynamic layers. 2.2 Description of the upper-layer controller The upper controller is a nonlinear SMPC that considers the dynamic performance of the inverter AC and the coupling between the inverter AC and the building. First, it employs nonlinear prediction models and optimizer to obtain the optimal control outputs under the thermal comfort and power of inverter AC constraints, and then the optimal indoor air temperature setpoint (T ref) of next time would be calculated and transmitted to the lower controller. Obtaining a dynamic model that accurately maps indoor air temperature setpoints to the cooling load or power of the inverter AC is challenging due to the hysteresis of the thermal zone's state variable (indoor air temperature). To address this, an alternative approach is utilized. A prediction model is developed that maps the operating states (power) of the inverter AC to setpoints and electricity cost. In this model, the manipulated variable (MV) for MPC is the power of the inverter AC, while the output variables (OV) are the indoor air temperature and electricity cost. By minimizing the cost function, the optimal operating states can be determined, and the desired setpoint is back calculated from the optimal MV and the prediction model. This desired setpoint is then transmitted to the next layer as the referenced value, as depicted in Fig. 2 . 2.2.1 Prediction model As mentioned earlier, the relationship between the inputs and outputs of the prediction model is described in Eq. (1). To ensure the accuracy and computational efficiency of prediction, a nonlinear model is constructed, which includes three main components: (1) nonlinear static performance of inverter AC considering the non-linear behavior of the power demand of the inverter AC system to unlock the flexibility of equipment, (2) dynamic linear resistance-capacitance (RC) building model based on the state-space formulation [23] that predicts indoor air temperature after receiving cooling capacity from inverter AC model and (3) linear output model to calculate electricity cost, as shown by Fig. 2. This model mathematically can be represented by Eqs. (2)\u2013(5), in which Eqs. (2)\u2013(3) are the dynamic room model, Eq. (4) is the input model and also the inverter AC model, and Eq. (5) is the output model. (1) T in Cos t = F D load P EP where T is the temperature; Cost denotes the electricity cost; D load is the disturbances affecting the cooling/heating load of buildings; P and EP present power of inverter AC and electricity price, respectively. (2) x k + 1 = Ax k + B 1 u ˜ k + B 2 d k (3) y ˜ k + 1 = Cx k + 1 + D u k (4) u ˜ = f u (5) y = g y ˜ where x, u, d and y represent states, manipulated variables, disturbances and outputs, respectively; A, B 1 , B 2 , C and D are defined by the RC network model; the subscripts k and k + 1 denote that the variables are at time k or k + 1; the superscript tilde (∼) refers intermediate variables, for example the manipulated variable of the prediction model is the power of inverter AC, and the manipulated variable of the building is heat removed by the inverter ACs, which is intermediate variables obtained from the power of inverter AC; the outputs of the prediction model are indoor air temperature and electricity cost, which are calculated from the intermediate variables (indoor air temperature and power of inverter AC) using output model. Building model: Energy simulation tools such as TRNSYS and EnergyPlus can construct an accurate physical model of buildings to simulate the load and energy, but it is too complicated for real-time control and optimization. To ensure accuracy and calculation efficiency, a discrete RC network model based on the state-space model (SSM) is selected given by Eqs. (6)\u2013(9) [24], which is a linear dynamic model. (6) C wall T w . out k + 1 − T w . out k Δτ = T o k − T w . out k R w . out + T w . int k − T w . out k R wall + f solar . wall A wall I solar k (7) C wall T w . int k + 1 − T w . int k Δτ = T w . out k − T w . int k R wall + T in k − T w . int k R w . in (8) C in T in k + 1 − T in k Δτ = T m k − T in k R in . m + T w . in k − T in k R w . in + T o k − T in k R wind + f int . in Q int k + Q cool k (9) C m T m k + 1 − T m k Δτ = T in k − T m k R in . m + f solar . m A wind I solar k + f int . m Q int k where R and C are the heat resistance and capacitance of the building, respectively; A is the geometric area of the wall; f is the conversion coefficient of the heat gain; the subscripts wall, w.out, w.int, o, in, m, and wind represent the wall, external wall layer, internal wall layer, outdoor air, indoor air, internal mass, and window; Q int and Q cool are the internal heat gain and cooling capacity supplied by the inverter ACs, respectively; Δτ is the sampling time. I solar is the solar radiation. So in this building SSM, the system states T = [T w.out T w.int T in T m]T, and disturbance inputs d = [T o I solar Q inter]T, and the manipulated variable u ˜ = Q cool. Inverter AC model: The steady-state performances of the inverter AC is selected, which is suitable for the MPC design [25]. The flexibility of inverter AC is unlocked by introducing the nonlinear model shown by Eq. (10) [26]. (10) Q cool = P × C 1 + C 2 T o + C 3 P + C 4 T o 2 + C 5 P 2 + C 6 T o P where C1-C6 are the coefficients derived from the inverter AC experiments; P denotes the power of the inverter AC. Output model: The control outputs have cost and indoor air temperature, in which indoor air temperature can be obtained from the building model, and the cost is calculated by Eq. (11). (11) Cost = EP ⋅ P ⋅ Δτ 2.2.2 Optimization The upper MPC utilizes optimization techniques to achieve cost savings while maintaining the indoor air temperature within the thermal comfort range (as shown by Eq. (12) in a prediction horizon, N [27]. The temperature range of thermal comfort is shown in Eq. (13), and the power range of the inverter AC is shown in Eq. (14). Because of the nonlinear performance inverter AC, the MPC belongs to a nonlinear controller that solves a nonlinear programming problem using sequential quadratic programming (SQP), which requires Optimization Toolbox™ software [27]. (12) J = min w c ∑ k = 0 N − 1 cost t + k t + w ε ε T . up + ε T . low (13) T low − ε T . low ≤ T in ≤ T up + ε T . up (14) 0 ≤ P ≤ P up where w and ε are the penalty weighting factor and slack variable, respectively; N refers to the number of prediction horizons; the subscripts T, c, and ε represent the temperature, cost, and slack variable. The subscripts low and up denote the lower and upper indoor air temperature limits, respectively; the subscripts t is the time, and (t + k|t) denote that the variable of at time t + k is predicted at time t. On the right side of Eq. (12), the first term is the electricity cost, and the second term is the soft constraint cost that allows the variables to exceed the hard constraints to make the SQP always feasible. 2.3 Description of lower-level controller The lower controller in the HMPC system is a proportional-integral-derivative (PID) controller that controls the operation states of the inverter AC efficiently to make the indoor air temperature approach the setpoint. The PID controller is chosen for its simplicity, robustness, and reliability, making it a widely used local controller for inverter ACs. In scenarios where the temperature setpoints are dynamically changed, the traditional PID controller may require optimization and adjustment to ensure efficient and stable control. This is necessary to minimize any mismatch between the desired temperature setpoints from the higher-level system and the actual temperature provided by the lower-level system [28]. To achieve this, when the setpoint of the air temperature changes, the output of the PID controller needs to be reset. Additionally, the integral term of the PID controller is initialized based on the output of the previous step, which helps reduce settling times and improve control performance [29,30]. 2.4 Description of signal exchanger The dynamic speeds of the upper and lower layers in the HMPC system are different, which necessitates the use of a signal exchanger to handle and transmit the signals between the layers. The relationship between the variables from the two layers is depicted in Fig. 3 . In the upper layer, the main control objective is to compute the optimal conditions for a performance index representing economic and environmental criteria over a long-term predicted horizon H up, with a sampling period ∆τ up. Since the optimization time is significantly shorter than the sampling time, it can be ignored. At time k, the upper controller operates and calculates a series of optimal setpoints for the next N up time intervals. However, only the first optimal setpoint is transmitted to the lower layer as the setpoint for the interval [k, k + 1]. In the lower layer, the sampling time Δτ low must be smaller than Δτ up to ensure that the indoor air temperature approaches the setpoint before time k + 1 arrives. At time k + 1, the lower controller provides the average indoor air temperature back to the upper layer for the interval [k, k + 1] to compensate for any model errors. This compensation is calculated using Eq. (15) and helps improve the accuracy and performance of the HMPC system by accounting for any discrepancies between the predicted and actual indoor air temperature. (15) FVB k + 1 = T ¯ in = 1 N low ∑ i = 0 N low − 1 T k + i N low where N is the number time interval; the subscribe low denotes the lower layer; the superscript \u2013 represents the average value. 3 Implement of the proposed HNLMPC framework A simulation testbed is constructed to test the performances of the proposed HNLMPC in comparison with hierarchical linear MPC (HLMPC), which ignores the dynamic performance of the inverter AC, rule-based methods including fixed set points of air temperature and precooling, and the CNLMPC. The controllers are built in the Simulink [31] + Simscape [32] environment, chosen for their visualization, flexibility, and calculation efficiency. The emulator used to test the performances of different controllers consisted of two parts: the inverter AC implemented in MATLAB/Simulink and the thermal zone/building model constructed using Simscape. Simscape allows for the description of the system as a physical structure rather than relying on abstract mathematical equations [33]. 3.1 Development of simulation system 3.1.1 Introduction of room with inverter AC A prototype room in a residential building is designed as the controlled object for the study, situated in Guangzhou city with a hot climate. The residential room (L = 8 m, W = 6 m, H = 3 m) has one east-facing exterior wall (6 m × 3 m), one south-facing exterior wall (8 m × 3 m) and one west-facing exterior wall (6 m × 3 m). For simplicity, the furniture and equipment within the room are represented as an overall wooden block to simulate heat transfer and thermal mass storage. The model assumes the partition walls between the controlled room and the adjacent room to be adiabatic, considering the temperature differences between them to be negligible. The properties of the room's envelope and internal thermal mass are summarized in Table 1 , based on design standards [34]. The room is cooled by a split-type inverter AC with a rated cooling capacity of 2.5 kW. The power range of the inverter AC is specified as 50\u20131400 W. 3.1.2 Establishment of the emulator The emulator for testing the control strategies comprises two components: the inverter AC and the tested room. The model for the inverter AC is represented by Eq. (16), where the coefficient of performance (COP) is described by a nonlinear regression model with 20 coefficients, as shown in Eq. (17). This model is identified and validated using a dataset of 80 experimental measurements from Gayeski [26]. The mean absolute percentage error (MAPE) for the validated data is reported to be 5.4%. For the room model, Simscape is utilized to construct a discrete dynamic model that captures the nonlinear dynamics and energy consumption behavior of the building in real-time, considering various impact factors such as weather conditions and occupancy. This model serves as a testbed for evaluating different control strategies for buildings. The physical component model with Simscape is built based on physical connections that directly integrate with block diagrams, as shown in Fig. 4 . The tested room consists of different blocks including heat convection, heat conduction, thermal mass, temperature source, and heat flow rate source. The sampling time (Δτ low) is 180 s for the local control method to make the indoor air temperature approach the set point during the Δτ up. (16) Q cool = P ⋅ COP (17) COP = C 1 + C 2 T in + C 3 T o + C 4 P + C 5 T in 2 + C 6 T o 2 + C 7 P 2 + C 8 T in T o + C 9 T in P + C 10 T o P + C 11 T in 3 + C 12 T o 3 + C 13 P 3 + C 14 T in 2 T o + C 15 T in 2 P + C 16 T o 2 T in + C 17 T o 2 P + C 18 P 2 T in + C 19 P 2 T o + C 20 T in T o P 3.2 Establishment of SMPC The parameters in Eqs. (2)\u2013(3) can be obtained based on the operating date from the simulated or actual buildings or by using design parameters specific to the building. In this study, the parameter results of the discrete state-space equation are from Table 1. The system states are T = [T w.out T w.int T in T m]T with initial states [23.4 23.7 24.0 23.4]. The sampling time (Δτ up) for SMPC is set to 30 min to respond to the dynamics of the room and ensure the stable operation of the system, during which the local controller can realize the optimal set-point tracking. The prediction horizon (H up) is equal to 24 h by considering the computation time cost and optimization (N up = 48). The matrices A, [B 1 , B 2], C and D are as follows: A = 10 − 3 813.47 25.452 0.6619 0.1739 25.452 916.07 37.849 16.363 6.8922 394.09 224.72 334.137 0.2858 26.883 52.724 917.46 B 1 B 2 = 10 − 4 − 0.0044 1602.4 24.033 0.0031 − 0.4211 42.624 0.3616 0.2999 − 8.8373 401.65 0.2758 6.3622 − 0.5870 26.505 0.9209 1.1984 C = 0 0 0 0 ; D = 0 0 0 1 ; To analyze the flexibility of the energy system, the nonlinear performance model of the inverter AC was identified and validated based on the same experimental data from Gayeski [26], which is given by Eq. (18). The MAPE for this linear model for the validated data is 9.1%. (18) Q cool = P × 12.2 − 9.3 × 10 − 2 T o − 1.2 × 10 − 2 P − 1.3 × 10 − 3 T o 2 + 3.3 × 10 − 6 P 2 + 1.3 × 10 − 4 T o P 3.3 Preparation of the input variables 3.3.1 Weather conditions During the simulation process, it is necessary to obtain weather data at least one prediction horizon in advance, either through a prediction model or from an observatory. In this study, the focus is on evaluating the performance of the optimal control method, so it is assumed that the weather conditions are known in advance. The weather conditions during the cooling season in Guangzhou city are selected to investigate the performance of HNLMPC, assuming an accurate prediction of the weather data. Fig. 5 illustrates some typical daily weather patterns, including data from June 14th to 18th and August 23rd to 27th, sourced from DesT [35]. To provide a more comprehensive understanding of the weather conditions on a typical day, the concept of solar-air temperature is introduced, and its calculation formula is presented in Eq. (19) [36]. Table 2 presents the average value, standard deviation (STD), and range of solar-air temperatures for the selected weather data. (19) T z = T in + aI sola r α out where T z is the solar\u2013air temperature, α is the absorption factor of solar radiation and is equal to 0.3, and α out is the convective heat transfer coefficient of the exterior surface of the envelope and is equal to 20 W/(m2\u2022°C). 3.3.2 Electricity price modeling Price-based DR is well-suited for large-scale users with small capacities due to its flexibility and the end users can voluntarily adjust their consumption patterns in response to dynamic electricity prices. Real-time pricing (RTP) models offer the ability to modulate electricity prices in minutes, allowing for effective responses to fluctuations in the electricity market. RTP holds significant potential for real-time DR. While RTP has not been widely implemented in the Chinese electricity retail market, it is considered an important trend for the future [37]. In this simulation, a typical RTP at 15-min intervals is obtained from a mature real-time electricity price market, namely the Electric Reliability Council of Texas (ERCOT), specifically for the cooling season. The peak hours are from 15:00 to 18:00. The daily standard deviation (STD) of RTP for the periods of June 14th to 18th and August 23rd to 27th is shown in Fig. 6 . Compared with the daily RTP from June 14th to 18th, the patterns of RTP during August 23rd and 27th are different, in which the fluctuation of electricity prices is not obvious or the peak of RTP appears at a different time from the peak of load for some days. 3.3.3 Occupancy and internal thermal load Occupancy prediction plays a significant role in the operation of HNLMPC. It helps determine the control range of indoor-air temperature and the internal thermal load. In practical applications, the occupancy pattern can be obtained through a daily preset schedule or a prediction model. However, in this simulation, the occupancy is simplified and pre-specified. The daily occupancy pattern is divided into two parts: the rest time (from 24:00 to 8:00) and the activity time (from 8:00 to 24:00). During the rest time, the indoor thermal comfort range is set to be between 22 °C and 26 °C. When the occupants are active, the indoor thermal comfort range is narrowed to between 22 °C and 24 °C. The internal thermal load primarily comes from domestic appliances and the occupants themselves. To simplify the simulation, the internal load is preset as a constant value of 400 W throughout the day. 3.4 Control strategies To evaluate the performance of HNLMPC, it is compared with several control methods that have demonstrated good performance. These include hierarchical controllers, whose upper-layer controllers are RBC methods with different indoor-air temperature setting schedules, and HLMPC methods that do not consider the dynamic performance of the inverter AC. The control methods of the lower layer also are the optimal PID controller. CNLMPC is also constructed to analyze the performances of HNLMPC, which controls the power of inverter AC directly and does not have a lower controller. The sampling time of CMPC is 180 seconds, which is the same as that of the lower layer of hierarchical controllers. Table 3 gives the descriptions of the different control methods, in which the comfort ranges represent the range for the rest time and active time, respectively, and the Indoor temperature setpoints describe the setpoints for these two different periods. 4 Results and discussion 4.1 Performance comparison between HNLMPC and rule-based controllers To analyze the mechanisms by which HNLMPC achieves DR, several different rule-based control methods are constructed: (1) Basic RBC (Bacis R-b) whose indoor temperature setpoint is the middle value of the thermal comfort range is the basic method to assess the overall performance of HNLMPC; (2) RBC whose indoor temperature setpoint is set as the upper limit of the HNLMPC temperature fluctuation range (Up R-b) and building loads are always less than or equal to those of the HNLMPC is to demonstrate that in addition to sacrificing comfort, HNLMPC has excellent control ability to utilize building thermal inertia and improve the operation efficiency of inverter AC; (3) Precooling RBC will pre-cool (Uppre R-b) by lowering the nighttime temperature setpoint in advance to further demonstrate the optimization capabilities of HNLMPC. Fig. 7 (a) and (d) depict the temporal system control results for the four control methods. In the case of the rule-based control methods, the optimal PID controller at the lower layer demonstrates excellent tracking ability of the indoor air temperature setpoint. For HNLMPC, there is noticeable precooling before the start time of activities (8:00 AM). Considering the significant thermal inertia of walls and furniture, the building's pre-cooling duration is relatively long. This precooling takes advantage of cooler outdoor weather and lower RTP, allowing the inverter AC to efficiently cool the room at a lower cost. HNLMPC will also have a slight precooling before the high electricity price and cooling load period, and then during this period, the room temperature will reach the upper limit of the allowable control range. HNLMPC exhibits two precooling periods, which result in higher energy consumption during the night and morning compared to RBC while the energy consumption of HNLPMC is significantly reduced during peak periods, as shown in Fig. 7(b)(e). In the case of the Up R-b and Uppre R-b methods, the power consumption of the inverter AC is lower than that of the Basic R-b strategy because of the lower building cooling load. And compared with Up R-b, there is a slight peak-shaving effect for Uppre R-b. However, the peak-shaving effect is far inferior to HNLMPC. As a result, HNLMPC also spends less on electricity costs at peak times, as shown in Fig. 7(c)(f). Fig. 8 (a) and (b) show the daily profiles of 1-h moving average inverter AC power different control methods on typical days. According to the 1-h moving average power curves of the RBC methods, two obvious power peak periods occur at the beginning of the activity time and in the afternoon when the outdoor temperature is high, and two obvious power valley periods are before the peak time. Compared with Up R-b, Uppre R-b can reduce peak energy consumption, which indicates that utilizing the thermal inertia of the building has good potential for DR. Compared with these RBC methods, HNLMPC consumes more energy during these two off-peak periods to charge cooling for passive thermal energy storage. The stored cooling capacity is then utilized during the power consumption peak to achieve load shifting, effectively managing and optimizing power consumption. Daily system performance results of the RBC control methods and HNLMPC on typical days are shown in Fig. 9 , in which the percentage represents the savings of HNLMPC compared to other methods. Compared with Basic R-b, HNLMPC reduced the all-day energy consumption by 27.5%, 7.2%, 19.1%, 8.1%, and 14.9% from June 14th- June 18th. Compared with Up R-b, HNLMPC saves less energy consumption and even increases all-day energy consumption by 4.9% and 3.1% on June 15th and June 17th. Since HNLMPC always precools, which results in a lower average indoor air temperature, it consumes more energy at certain times. However, when the weather changes significantly throughout the day, which can be observed from the STD of solar-air temperature in Table 2, HNLMPC can store cooling during the efficient operation of the inverter AC, thereby achieving more obvious energy savings on June 14th, 16th and 18th. HNLMPC can achieve a significant peak power reduction. Compared with the Basic R-b method, on the two types of typical days, the range of peak energy-saving rate for HNLMPC is [21.5, 44.1] %. Compared with Uppre R-b, HNLMPC realizes peak energy-saving of [5, 36.4]%. HNLMPC achieved a remarkable peak energy-saving performance on June 14th and August 27th, both of which had significantly fluctuating outdoor weather conditions. There is also a notable peak-shifting effect on August 23rd when there is a significant fluctuation in RTP. Compared with Basic R-b, HNLMPC achieves a significant cost reduction rate of 12.7% to 32.4% from June 14th to June 18th. Moreover, from August 23rd to August 27th, the cost reduction rate ranged from 5.0% to 23.7%, and the cost reduction effect is lower than that of the days in June. Especially on August 25th, more electricity cost is used to cool the room, mainly due to the flat RTP fluctuations. Similarly, on August 27th, although there is significant weather fluctuation, the cost reduction effect is not obvious due to the inconsistent occurrence time of the building load peak and the electricity price peak. The pre-cooling control methods can also achieve energy cost savings and peak load shifting, but their optimization effects are much worse than that of HNLMPC. Table 4 shows the total peak energy reduction rate, energy saving rate, cost saving rate, and average COPs for the inverter AC of HNLMPC compared to other strategies for two types of typical days. The results demonstrate that HNLMPC achieves great DR performance, and the inverter AC operates in high-efficiency modes, as indicated by the COP. To conclude, the main reason that HNLMPC can achieve DR are to unlock the flexibility potential, which are from the thermal inertia of building thermal mass (including envelopes and furniture), the thermal inertia of indoor air (small for residential buildings), and the efficient operation of equipment. The way to unlock these flexibilities is by adjusting the temperature to charge cooling for the envelope, furniture and indoor air and discharge the cooling under efficient operation state of inverter AC. The controller needs to calculate the room temperature setpoint and pre-cooling time through optimization algorithms, which are mainly influenced by weather, dynamic electricity prices, and the thermal inertia of thermal mass [38]. As the weather changes more dramatically and the electricity price fluctuates more significantly, the DR potential that HNLMPC can unlock also increases. 4.2 Performance comparison between HNLMPC and HLMPC In this section, we conduct a detailed analysis of the performance improvement of the HMPC controller when considering the coupling between building and system dynamic performance using the nonlinear prediction model. For comparison, the HMPC controllers with different constant COP values are selected as the comparative control methods. The static COPs used are 3.5 (minimum COP), 10 (maximum COP), and 5 (average COP), which are obtained from the cooling-season control results of the basic RBC method. Fig. 10 shows the temporal system control results for typical days from June 14th to 18th. In Fig. 10 (a), it is evident that all the HMPCs satisfactorily maintain the indoor air temperature within the prescribed limits, ensuring thermal comfort. This means that even when there is a significant deviation between the performance model of the AC and the actual system, HMPC can still keep thermal comfort. To better analyze the influence of the prediction model on the control results, the control results of June 16th are further selected. There are mainly two stages: the temperature decrease stage to charge and the temperature increase stage to discharge. Throughout the day, the actual COPs exhibit a decreasing trend followed by an increasing trend, with a turning point occurring during the peak electricity consumption period, as depicted in Fig. 10 (c). When the COPs are set as constant values for HLMPC, the controllers fail to accurately predict the actual size and variation trend of the COP. Both of these errors will affect the results of the cost function that considers both thermal comfort keeping and cost savings, thereby obtaining suboptimal solutions. Consequently, if the COP for the prediction model is set too low (COP = 3.5), the MPC controller prioritizes cost savings more, leading to excessive pre-cooling for HLMPC (COP = 3.5), as shown in Fig. 10(c). Conversely, if the COP is set too high (COP = 10), it would reduce the degree of pre-cooling for HLMPC. As outdoor temperatures rise, high condensing temperatures and high cooling loads lead to a decreasing trend in the actual COP, as shown by Fig. 10(c). This means that over time, there is a greater emphasis on cost savings. Therefore, during the high-electricity-price period, the room temperature controlled by HNLMPC will be higher than that of HLMPCs. In contrast, the prediction model of HNLMPC, which incorporates the coupling between the inverter AC and the building, enables a more accurate prediction of the actual electricity costs. As a result, HNLMPC exhibits stronger capabilities in peak load-shaving and cost-saving, as shown in Fig. 10 (d) and Fig. 10 (e). Fig. 11 demonstrates the electrical load-shifting capability of the different HMPCs for typical days and the entire cooling season. The 1-h moving average power depicts the charging and discharging processes of the building's thermal mass. HNLMPC gradually increases the precooling rate during the night, reducing the peak load caused by the decrease of room temperature setpoint. It continues to provide significant cooling capacity to the rooms during the second peak period, effectively reducing high electricity costs resulting from peak electricity prices and high loads between 15:00\u201318:00. On the other hand, other HLMPCs resulted in either over-precooling, under-precooling, or inappropriate precooling timings. Fig. 12 compares the system performances of different HMPC control methods with the Basic R-b controller for typical days and the entire cooling season. For typical days, compared with the Basic R-b, HNLMPC, HLMPC(COP = 3.5), HLMPC(COP = 5), and HLMPC(COP = 10) achieved reductions in peak-hour energy of 35.4%, 30.8%, 30.7%, and 32.0%, and in total electricity cost of 20.4%, 10.4%,16.6%, and 17.0%, as shown in Fig. 12(a). For the entire cooling season, all controllers achieved substantial peak-hour energy savings. The total cost savings for HNLMPC, HLMPC(COP = 3.5), HLMPC(COP = 5), and HLMPC (COP = 10) are 14.3%, 5.1%, 10.8%, and 12.5%, respectively, as shown in Fig. 12(b). It is important to note that incorrect COP values can significantly degrade performance. Due to the hierarchical control method adopted in this study, where the upper-level controller sends the optimal indoor-air temperature setpoint to the lower-level controllers rather than the power of the equipment, the HMPC had strong robustness even when there are significant deviations for the performance prediction of inverter AC in the prediction model. If the dynamic performance of inverter AC affected by weather and building load variations could be considered in the prediction model, the HMPC method would have better DR performances. 4.3 Performance comparison between HNLMPC and CNLMPC This section will compare the performances between HNLMPC and existing CNLMPC, including economic performance and computational power requirements. Compared with CNLMPC, HNLMPC has a larger sampling time and is unable to capture more precise variations in disturbance parameters. A computer with Intel(R) Core(TM) i5\u201310,400 F (2.9 GHz) CPU and 24 GB memory is used for simulations. Fig. 13 (a)-(c) illustrate the performance of HNLMPC and CNLMPC compared to the Basic R-b control method. Performance metrics such as energy consumption, peak energy usage, and electricity costs vary with changes in the prediction horizon. With an increase in the prediction horizon, HNLMPC's performance improves, while CNLMPC's initially decreases before rebounding. It can be inferred that increasing the prediction horizon has both advantages and disadvantages on MPC performance. As the prediction horizon expands, it enhances the system's long-term planning and responsiveness, resulting in improved cost-effectiveness. This is the primary reason for the upward trend observed in CNPMPC's performance curve in the latter part. However, the accumulation of prediction errors and local optimization challenges associated with solving non-convex optimization problems degrade the performance of nonlinear MPC, contributing to the downward trend observed in CNPMPC's performance curve in the earlier part. Despite HNLMPC's longer sampling time, which reduces the controller's dynamic response capability, its enhanced optimization solving capability leads to consistently higher energy savings, cost-effectiveness, and peak energy reduction compared to CNLMPC under the same prediction horizon. Fig. 13 (d) shows the average simulation time for a single sampling time. Compared with CNLMPC, HNLMPC consumes less simulation time and requires fewer computational resources. HNLMPC is characterized by high-cost savings and peak load shifting performances, with lower computational power requirements, making it well-suited for the residential inverter AC to realize advanced DR control, especially for the massive installed ACs. 4.4 Discussion Through the analysis of the cooling-season power patterns of the inverter AC, it is observed that the actual maximum operational power decreases and the frequency of occurrence of different power levels changes due to the charging and discharging processes of the building's thermal mass. Selecting inverter ACs with suitable capacity and performance curves could help reduce installation and operating costs and improve DR performance. Therefore, in future work, more analysis of the time series power under advanced MPC methods for different climates and building types will be conducted to develop optimal selection methods for DR-oriented ACs. This study has demonstrated that selecting the optimal indoor-air temperatures as the setpoint for the lower-level controllers, rather than equipment power, ensures that actual indoor-air temperatures remain within the thermal comfort range. Additionally, cloud-based infrastructure or the Internet of Things (IoT) could be utilized to operate the MPC, making the control method developed in this work suitable for future practical applications and widespread implementation. Furthermore, experimental validation will be conducted to analyze its actual performance and determine the minimum sensor requirements in real-world applications. This will help promote the practical application of MPC control for inverter AC in residential buildings and unlock their flexibility. To ensure the performance of the hierarchical controller, the lower controller is required to achieve tracking of the optimal setpoints within the sampling time of the upper controller. Thus, it is very important to determine the appropriate sampling times for the upper and lower levels. The sampling time for the lower controller is determined first, which is based on the dynamic characteristics of the system; And then the upper-controller sampling time is determined. If the sampling time is too short, the lower controller may not have enough time to track the setpoints, resulting in poor performance. However, If the sampling time is too long, the performance can be poor due to neglecting disturbances and system dynamics. Therefore, it is important to optimize the sampling times for both the upper and lower controllers when implementing this control framework. In this study, the final parameters are determined through pre-simulation to ensure optimal selections. 5 Conclusion In this study, a novel hierarchical model predictive control framework was tailored for inverter ACs to avoid challenging and complex control system integration processes in applying MPC for inverter air conditioners. To improve energy efficiency and comfort, a comprehensive dynamic nonlinear model integrating the dynamic nonlinear performances of inverter AC and the building was developed to achieve continuously variable frequency optimization operation of the cooling system. Comparisons were made with various control strategies to thoroughly assess the effectiveness of the proposed approach by simulation. The findings of this study held the potential to enhance the performance of MPC and facilitate its application in real-world buildings, contributing to carbon neutrality policies. The main conclusions are as follows: (1) Compared with the basic rule-based controller, HNLMPC could reduce peak-hour energy consumption by 31.6% and the total electricity cost by 14.3% over the entire cooling season. (2) The developed HMPC had less dependency on model accuracy and always ensured thermal comfort in the building, even in the presence of significant model errors. (3) When the prediction model considered the dynamic characteristics of the inverter AC under different disturbances and interactions with the building, the HMPC could achieve more DR and cost savings with minimal energy sacrifice. (4) Compared with CMPC, the developed HMPC could realize higher demand response efficiency and require less calculation power. CRediT authorship contribution statement Cuiling Wang: Writing \u2013 original draft, Methodology. Baolong Wang: Writing \u2013 review & editing, Supervision, Methodology. Fengqi You: Writing \u2013 review & editing, Supervision, Methodology. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. References [1] R. Tang S. Wang H. Li Game theory based interactive demand side management responding to dynamic pricing in price-based demand response of smart grids Appl Energy 250 2019 118 130 10.1016/j.apenergy.2019.04.177 Tang R, Wang S, Li H. Game theory based interactive demand side management responding to dynamic pricing in price-based demand response of smart grids. Applied Energy. 2019;250:118-30. [2] D. Hopping Energy crisis: How buildings can drive the energy transition 2023 Hopping D. Energy crisis: how buildings can drive the energy transition. 2023. [3] Agency IE Energy Efficiency 2018 2019 10.1016/j.snb.2018.12.155 Agency IE. Energy Efficiency 2018. 2019. [4] IEA The future of cooling: Opportunities for energy-efficient air conditioning. France 2018 IEA. The future of cooling: opportunities for energy-efficient air conditioning. France2018. [5] Y.C. Peng Xu Weilin Li Building demand response control and application 2020 China Architecture & Building Press Beijing Peng Xu YC, Weilin Li. Building Demand Response Control and Application. Beijing: China Architecture & Building Press; 2020. [6] Y. Chen P. Xu Z. Chen H. Wang H. Sha Y. Ji Experimental investigation of demand response potential of buildings: combined passive thermal mass and active storage Appl Energy 280 2020 10.1016/j.apenergy.2020.115956 Chen Y, Xu P, Chen Z, Wang H, Sha H, Ji Y, et al. Experimental investigation of demand response potential of buildings: Combined passive thermal mass and active storage. Applied Energy. 2020;280. [7] H. Wang S. Wang R. Tang Development of grid-responsive buildings: opportunities, challenges, capabilities and applications of HVAC systems in non-residential buildings in providing ancillary services by fast demand responses to smart grids Appl Energy 250 2019 697 712 10.1016/j.apenergy.2019.04.159 Wang H, Wang S, Tang R. Development of grid-responsive buildings: Opportunities, challenges, capabilities and applications of HVAC systems in non-residential buildings in providing ancillary services by fast demand responses to smart grids. Applied Energy. 2019;250:697-712. [8] H. Hao B.M. Sanandaji K. Poolla T.L. Vincent Aggregate flexibility of thermostatically controlled loads IEEE Trans Power Syst 30 2015 189 198 10.1109/TPWRS.2014.2328865 Hao H, Sanandaji BM, Poolla K, Vincent TL. Aggregate Flexibility of Thermostatically Controlled Loads. Ieee T Power Syst. 2015;30:189-98. [9] S. Althaher P. Mancarella J. Mutale Automated demand response from home energy management system under dynamic pricing and power and comfort constraints IEEE Trans Smart Grid 6 2015 1874 1883 10.1109/TSG.2014.2388357 Althaher S, Mancarella P, Mutale J. Automated Demand Response From Home Energy Management System Under Dynamic Pricing and Power and Comfort Constraints. IEEE Transactions on Smart Grid. 2015;6:1874-83. [10] S.W. Wang Z.J. Ma Supervisory and optimal control of building HVAC systems: a review HVAC&R Res 14 2008 3 32 10.1080/10789669.2008.10390991 Wang SW, Ma ZJ. Supervisory and optimal control of building HVAC systems: A review. HVAC&R Res. 2008;14:3-32. [11] M. Royapoor A. Antony T. Roskilly A review of building climate and plant controls, and a survey of industry perspectives Energ Build 158 2018 453 465 10.1016/j.enbuild.2017.10.022 Royapoor M, Antony A, Roskilly T. A review of building climate and plant controls, and a survey of industry perspectives. Energy and Buildings. 2018;158:453-65. [12] J. Drgona J. Arroyo I. Cupeiro Figueroa D. Blum K. Arendt D. Kim All you need to know about model predictive control for buildings Annu Rev Control 50 2020 190 232 10.1016/j.arcontrol.2020.09.001 Drgona J, Arroyo J, Cupeiro Figueroa I, Blum D, Arendt K, Kim D, et al. All you need to know about model predictive control for buildings. Annual Reviews in Control. 2020;50:190-232. [13] M. Avci M. Erkoc A. Rahmani S. Asfour Model predictive HVAC load control in buildings using real-time electricity pricing Energ Build 60 2013 199 209 10.1016/j.enbuild.2013.01.008 Avci M, Erkoc M, Rahmani A, Asfour S. Model predictive HVAC load control in buildings using real-time electricity pricing. Energy and Buildings. 2013;60:199-209. [14] M. Hu F. Xiao J.B. Jørgensen S. Wang Frequency control of air conditioners in response to real-time dynamic electricity prices in smart grids Appl Energy 242 2019 92 106 10.1016/j.apenergy.2019.03.127 Hu M, Xiao F, Jørgensen JB, Wang S. Frequency control of air conditioners in response to real-time dynamic electricity prices in smart grids. Applied Energy. 2019;242:92-106. [15] C. Wang B. Wang M. Cui F. Wei Cooling seasonal performance of inverter air conditioner using model prediction control for demand response Energ Build 256 2022 10.1016/j.enbuild.2021.111708 Wang C, Wang B, Cui M, Wei F. Cooling seasonal performance of inverter air conditioner using model prediction control for demand response. Energy and Buildings. 2022;256. [16] M. Jamshidi Large-scale systems: Modeling, control, and fuzzy logic 1996 Prentice-Hall NJ, United States Jamshidi M. Large-scale systems: modeling, control, and fuzzy logic. NJ, United States: Prentice-Hall; 1996. [17] M. Research Air conditioners market by type (window, Split, variable refrigerant flow, centralized/ducted), tonnage, technology (Inverter & non-Inverter), rating, end user (residential, commercial, industrial), and geography - global forecasts to 2029 2022 Research M. Air Conditioners Market by Type (Window, Split, Variable Refrigerant Flow, Centralized/Ducted), Tonnage, Technology (Inverter & Non-Inverter), Rating, End User (Residential, Commercial, Industrial), and Geography - Global Forecasts to 2029. 2022. [18] S. Rastegarpour L. Ferrarini Hierarchical Nonlinear MPC for Large Buildings HVAC Optimization 2021 IEEE 17th International Conference on Automation Science and Engineering (CASE) 2021 2175 2180 Rastegarpour S, Ferrarini L. Hierarchical Nonlinear MPC for Large Buildings HVAC Optimization. 2021 IEEE 17th International Conference on Automation Science and Engineering (CASE)2021. p. 2175-80. [19] J. Drgona D. Picard L. Helsen Cloud-based implementation of white-box model predictive control for a GEOTABS office building: a field test demonstration J Process Control 88 2020 63 77 10.1016/j.jprocont.2020.02.007 Drgona J, Picard D, Helsen L. Cloud-based implementation of white-box model predictive control for a GEOTABS office building: A field test demonstration. Journal of Process Control. 2020;88:63-77. [20] A. Lefort R. Bourdais G. Ansanay-Alex H. Guéguen Hierarchical control method applied to energy management of a residential house Energ Build 64 2013 53 61 10.1016/j.enbuild.2013.04.010 Lefort A, Bourdais R, Ansanay-Alex G, Guéguen H. Hierarchical control method applied to energy management of a residential house. Energy and Buildings. 2013;64:53-61. [21] M. Castilla J.D. Álvarez J.E. Normey-Rico F. Rodríguez Thermal comfort control using a non-linear MPC strategy: a real case of study in a bioclimatic building J Process Control 24 2014 703 713 10.1016/j.jprocont.2013.08.009 Castilla M, Álvarez JD, Normey-Rico JE, Rodríguez F. Thermal comfort control using a non-linear MPC strategy: A real case of study in a bioclimatic building. Journal of Process Control. 2014;24:703-13. [22] D. Kim J.E. Braun MPC solution for optimal load shifting for buildings with ON/OFF staged packaged units: experimental demonstration, and lessons learned Energ Build 2022 10.1016/j.enbuild.2022.112118 Kim D, Braun JE. MPC Solution for Optimal Load Shifting for Buildings with ON/OFF Staged Packaged Units: Experimental Demonstration, and Lessons Learned. Energy and Buildings. 2022. [23] B. Bueno L. Norford G. Pigeon R. Britter A resistance-capacitance network model for the analysis of the interactions between the energy performance of buildings and the urban climate Build Environ 54 2012 116 125 10.1016/j.buildenv.2012.01.023 Bueno B, Norford L, Pigeon G, Britter R. A resistance-capacitance network model for the analysis of the interactions between the energy performance of buildings and the urban climate. Building and Environment. 2012;54:116-25. [24] M.M. Hu F. Xiao Price-responsive model-based optimal demand response control of inverter air conditioners using genetic algorithm Appl Energy 219 2018 151 164 10.1016/j.apenergy.2018.03.036 Hu MM, Xiao F. Price-responsive model-based optimal demand response control of inverter air conditioners using genetic algorithm. Applied Energy. 2018;219:151-64. [25] H. Xiangdong L. Sheng H. Asada Modeling of vapor compression cycles for advanced controls in HVAC systems 1995 Xiangdong H, Sheng L, Asada H. Modeling of vapor compression cycles for advanced controls in HVAC systems1995. [26] N.T. Gayeski P.R. Armstrong L.K. Norford Predictive pre-cooling of thermo-active building systems with low-lift chillers HVAC&R Res 18 2012 858 873 10.1080/10789669.2012.643752 Gayeski NT, Armstrong PR, Norford LK. Predictive pre-cooling of thermo-active building systems with low-lift chillers. HVAC&R Res. 2012;18:858-73. [27] A. Bemporad M. Morari Model predictive control toolbox User\u2019s guide: The MathWorks 2017 Bemporad A, Morari, M. Model Predictive Control Toolbox User'\u2019s Guide: The MathWorks; 2017. [28] R. Scattolini Architectures for distributed and hierarchical model predictive control \u2013 a review J Process Control 19 2009 723 731 10.1016/j.jprocont.2009.02.003 Scattolini R. Architectures for distributed and hierarchical Model Predictive Control \u2013 A review. Journal of Process Control. 2009;19:723-31. [29] R. Beerens A. Bisoffi L. Zaccarian W.P.M.H. Heemels H. Nijmeijer N. van de Wouw Reset integral control for improved settling of PID-based motion systems with friction Automatica 107 2019 483 492 10.1016/j.automatica.2019.06.017 Beerens R, Bisoffi A, Zaccarian L, Heemels WPMH, Nijmeijer H, van de Wouw N. Reset integral control for improved settling of PID-based motion systems with friction. Automatica. 2019;107:483-92. [30] T.L. Blevins PID advances in industrial control IFAC Proc Volumes 45 2012 23 28 10.3182/20120328-3-IT-3014.00004 Blevins TL. PID Advances in Industrial Control. IFAC Proceedings Volumes. 2012;45:23-8. [31] S. Documentation Simulation and model-based design: MathWorks 2020 Documentation S. Simulation and Model-Based Design: MathWorks; 2020. [32] Simscape User's Guide: The MathWorks 2020 Simscape User's Guide: The MathWorks; 2020. [33] M. Abarkan N.K. M\u2019Sirdi F. Errahimi Analysis and simulation of the energy behavior of a building equipped with RESin Simscape Energy Procedia 62 2014 522 531 10.1016/j.egypro.2014.12.414 Abarkan M, M'Sirdi NK, Errahimi F. Analysis and Simulation of the Energy Behavior of a Building Equipped with RESin Simscape. Energy Procedia. 2014;62:522-31. [34] Research CAoB Design standard for energy efficiency of residential buildings in hot summer and warm winter zone JGJ 75\u20132012 2012 China Architecture & Building Press Beijing Research CAoB. Design standard for energy efficiency of residential buildings in hot summer and warm winter zone JGJ 75-2012. Beijing: China Architecture & Building Press; 2012. [35] D. Yan J. Xia W. Tang F. Song X. Zhang Y. Jiang DeST \u2014 an integrated building simulation toolkit part I: fundamentals Build Simul 1 2008 95 110 10.1007/s12273-008-8118-8 Yan D, Xia J, Tang W, Song F, Zhang X, Jiang Y. DeST \u2014 An integrated building simulation toolkit Part I: Fundamentals. Building Simulation. 2008;1:95-110. [36] Z. Yingxin Built Environment 2010 China Architecture & Building Press Beijing Yingxin Z. Built Environment. Beijing: China Architecture & Building Press; 2010. [37] H. Guo M.R. Davidson Q. Chen D. Zhang N. Jiang Q. Xia Power market reform in China: motivations, progress, and recommendations Energy Policy 145 2020 10.1016/j.enpol.2020.111717 Guo H, Davidson MR, Chen Q, Zhang D, Jiang N, Xia Q, et al. Power market reform in China: Motivations, progress, and recommendations. Energy Policy. 2020;145. [38] L. Bird RWs R. Wustenhagen A review of international green power markets: recent experience, trends, and market drivers Renew Sust Energ Rev 2002 513 536 10.1016/S1364-0321(02)00033-3 L. Bird RWs, R. Wustenhagen. A review of international green power markets: recent experience, trends, and market drivers. Renewable and Sustainable Energy Reviews. 2002:513-36.",
+    "scopus-id": "85194695244",
+    "coredata": {
+        "eid": "1-s2.0-S0306261924009644",
+        "dc:description": "In the smart grid, residential inverter air conditioners (AC) with significant demand response (DR) potential due to their load flexibility and as the major contributors to peak electricity, need to be grid-responsive to relieve power supply-demand imbalance and ensure thermal comfort. Model predictive control (MPC) has strong capabilities for unlocking the flexibility of residential buildings to realize DR by responding to electricity prices. However, the high computational requirements and complex control system integration processes make the application of MPC a significant challenge. A hierarchical nonlinear MPC (HNLMPC) is developed to realize grid-responsive control for residential inverter ACs by responding to real-time electricity price signals. The controller consists of three parts: the upper-level supervisor MPC, the lower-level optimal PID controller, and the signal converter. The indoor air temperature is selected as the optimized setpoint sequence passed from the upper level to the lower level. A nonlinear prediction model is developed considering the dynamic performances of the inverter AC and the coupled thermal response of an air-conditioned room. A test platform is constructed using Simulink and Simscape to access the DR performance of HNLMPC by comparing it with different rule-based control methods, hierarchical linear MPC, and centralized MPC. The control results show that HNLMPC can achieve peak load shifting and peak shaving without sacrificing thermal comfort by adjusting the room temperature to charge and discharge cooling for the building's thermal mass. Additionally, it enables plug-and-play capability for practical applications, reducing the dependency on local computing power and the need for accurate models. Compared to basic rule-based control, HNLMPC reduces peak-hour energy consumption by 31.6% and total electricity costs by 14.3% over the entire cooling season.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-09-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0306261924009644",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Wang, Cuiling"
+            },
+            {
+                "@_fa": "true",
+                "$": "Wang, Baolong"
+            },
+            {
+                "@_fa": "true",
+                "$": "You, Fengqi"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0306261924009644"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0306261924009644"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0306-2619(24)00964-4",
+        "prism:volume": "369",
+        "articleNumber": "123581",
+        "prism:publisher": "Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "dc:title": "Demand response for residential buildings using hierarchical nonlinear model predictive control for plug-and-play",
+        "prism:copyright": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "openaccess": "0",
+        "prism:issn": "03062619",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Demand response"
+            },
+            {
+                "@_fa": "true",
+                "$": "Hierarchical model predictive control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Nonlinear model"
+            },
+            {
+                "@_fa": "true",
+                "$": "Plug-and-play"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Energy",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "123581",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 September 2024",
+        "prism:doi": "10.1016/j.apenergy.2024.123581",
+        "prism:startingPage": "123581",
+        "dc:identifier": "doi:10.1016/j.apenergy.2024.123581",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "232",
+            "@width": "802",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "55579",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "210",
+            "@width": "597",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46096",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "940",
+            "@width": "574",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr7a.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "184806",
+            "@ref": "gr7a",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "173",
+            "@width": "573",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr7b.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28506",
+            "@ref": "gr7b",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "455",
+            "@width": "803",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "134010",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "233",
+            "@width": "802",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "50659",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "531",
+            "@width": "624",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "125764",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "211",
+            "@width": "724",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48522",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "520",
+            "@width": "624",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "110416",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "753",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43248",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "317",
+            "@width": "812",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "65889",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "273",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "63281",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "246",
+            "@width": "624",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45922",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "184",
+            "@width": "536",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "24029",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "63",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6461",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "77",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7558",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "100",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr7a.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8404",
+            "@ref": "gr7a",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "66",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr7b.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4962",
+            "@ref": "gr7b",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "124",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12835",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "64",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5242",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "193",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12860",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "64",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5756",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "197",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13885",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "58",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4419",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "85",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5867",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8053",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "86",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6870",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "75",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5245",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1027",
+            "@width": "3549",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "501978",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "930",
+            "@width": "2645",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "320751",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "4165",
+            "@width": "2542",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr7a_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1394133",
+            "@ref": "gr7a",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "768",
+            "@width": "2538",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr7b_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "217062",
+            "@ref": "gr7b",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1468",
+            "@width": "2589",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "687245",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "717",
+            "@width": "2470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "273887",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2174",
+            "@width": "2555",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "999045",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "935",
+            "@width": "3207",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "348676",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2179",
+            "@width": "2614",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "919296",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "886",
+            "@width": "3332",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "285356",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1203",
+            "@width": "3085",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "395597",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1208",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "427963",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1090",
+            "@width": "2762",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "336165",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "583",
+            "@width": "1699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "126218",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11708",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1170",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1446",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12396",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5863",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18017",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8175",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3458",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "900",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14835",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8029",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4985",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27289",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15905",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17504",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5075",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15228",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9564",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2315",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7008",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3459",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3554",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22758",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17434",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22812",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21697",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261924009644-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "4169815",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85194695244"
+    }
+}}

@@ -1,0 +1,932 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85144026946",
+    "originalText": "serial JL 271090 291210 291702 291711 291731 291877 291878 31 Energy ENERGY 2022-12-06 2022-12-06 2022-12-14 2022-12-14 2024-04-03T11:01:29 1-s2.0-S0360544222032236 S0360-5442(22)03223-6 S0360544222032236 10.1016/j.energy.2022.126337 S300 S300.1 FULL-TEXT 1-s2.0-S0360544222X00340 2024-04-03T11:02:50.39575Z 0 0 20230215 2023 2022-12-06T11:42:12.116173Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst nomenclature orcid primabst ref 0360-5442 03605442 true 265 265 C Volume 265 85 126337 126337 126337 20230215 15 February 2023 2023-02-15 2023 Full Length Articles article fla © 2022 Elsevier Ltd. All rights reserved. EVOLVINGLEARNINGBASEDFAULTDETECTIONDIAGNOSISMETHODCASESTUDYFORAPASSIVECHILLEDBEAMSYSTEM WANG L Nomenclature 1 Introduction 2 Methodology 2.1 Evolving learning-based fault detection and diagnosis 2.2 Growing Gaussian mixture regression (GGMR) 3 Fault implementation 4 Baseline model 5 Fault symptom analysis 6 Feature selection 6.1 Fault signature matrix 6.2 Optimal set of parameters to detect and diagnose faults 6.3 Feature selection procedure 7 Fault detection and diagnostic results 7.1 Fault detection and diagnostic results for known faults 7.2 Detection and diagnosis of an unknown fault 8 Conclusion Credit author statement Acknowledgment References 2019 HOWMUCHENERGYCONSUMEDINRESIDENTIALCOMMERCIALBUILDINGS 2017 KATIPAMULA 2005 3 25 S ROSSI 1997 19 37 T NORFORD 2002 41 71 L JIN 2012 W TOOLSFOREVALUATINGFAULTDETECTIONDIAGNOSTICMETHODSFORAIRHANDLINGUNITS WANG 2014 L SCHEIN 2006 J RESULTSFIELDTESTINGEMBEDDEDAIRHANDLINGUNITVARIABLEAIRVOLUMEBOXFAULTDETECTIONTOOLS SUMMERS 2012 H FAULTDETECTIONDIAGNOSTICSOFTWARE CHEN 2015 71 79 C HU 2017 344 357 R WANG 2015 313 321 L MAYOSTENDORP 2013 602 615 P WANG 2022 268 L BOUCHACHIA 2011 H INCREMENTALLEARNINGBASEDGROWINGGAUSSIANMIXTUREMODELS SUNG 2004 H GAUSSIANMIXTUREREGRESSIONCLASSIFICATIONPHDTHESIS HERSHEY 2007 J IEEEINTERNATIONALCONFERENCEACOUSTICSSPEECHSIGNALPROCESSINGICASSP APPROXIMATINGKULLBACKLEIBLERDIVERGENCEBETWEENGAUSSIANMIXTUREMODELS FIJANY 2006 A NEWEFFICIENTALGORITHMFORANALYZINGOPTIMIZINGSYSTEMSENSORS NEJJARI 2010 F CONTROLAUTOMATIONMED OPTIMALSENSORPLACEMENTFORFUELCELLSYSTEMDIAGNOSISUSINGBILPFORMULATION BAGAJEWICZ 2004 1870 1880 M WANGX2023X126337 WANGX2023X126337XL CHU_NSF publishAcceptedManuscriptIndexable http://www.elsevier.com/open-access/userlicense/1.0/ 2023-12-14T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Elsevier Ltd. All rights reserved. 2022-12-21T09:58:41.672Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Science Foundation 1929209 NSF National Science Foundation http://data.elsevier.com/vocabulary/SciValFunders/100000001 http://sws.geonames.org/6252001/ This study was supported by the National Science Foundation EPSCoR Research Infrastructure program under Grant No. 1929209 . Any opinions, findings, and conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0360-5442(22)03223-6 S0360544222032236 1-s2.0-S0360544222032236 10.1016/j.energy.2022.126337 271090 2024-04-03T11:02:50.39575Z 2023-02-15 1-s2.0-S0360544222032236-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/MAIN/application/pdf/5c4590ad14d479d66c3c96027a1cb0c3/main.pdf main.pdf pdf true 3079073 MAIN 12 1-s2.0-S0360544222032236-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/PREVIEW/image/png/2af14e387d8cdfff4c15d42f4afab77c/main_1.png main_1.png png 54910 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0360544222032236-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr4/DOWNSAMPLED/image/jpeg/c3a5df8c95fc1186c160fd7fa78f2caf/gr4.jpg gr4 gr4.jpg jpg 110211 383 535 IMAGE-DOWNSAMPLED 1-s2.0-S0360544222032236-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr2/DOWNSAMPLED/image/jpeg/31ea3ecc5ddcbca7a1574036863ced49/gr2.jpg gr2 gr2.jpg jpg 113475 427 266 IMAGE-DOWNSAMPLED 1-s2.0-S0360544222032236-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr6/DOWNSAMPLED/image/jpeg/d2c66e437092cac8bfee46878b8b0638/gr6.jpg gr6 gr6.jpg jpg 31465 297 535 IMAGE-DOWNSAMPLED 1-s2.0-S0360544222032236-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr1/DOWNSAMPLED/image/jpeg/f8986b60d2ac1e608774295f98e048e5/gr1.jpg gr1 gr1.jpg jpg 135375 357 691 IMAGE-DOWNSAMPLED 1-s2.0-S0360544222032236-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr5/DOWNSAMPLED/image/jpeg/e8445a3ec88b4f6e96148817162eb54e/gr5.jpg gr5 gr5.jpg jpg 30502 297 535 IMAGE-DOWNSAMPLED 1-s2.0-S0360544222032236-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr3/DOWNSAMPLED/image/jpeg/ff606dbc653bf3c74ea797b3093f59f0/gr3.jpg gr3 gr3.jpg jpg 120077 224 533 IMAGE-DOWNSAMPLED 1-s2.0-S0360544222032236-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr8/DOWNSAMPLED/image/jpeg/0f1b06d2af78555ba19ade0bb865788d/gr8.jpg gr8 gr8.jpg jpg 93598 234 386 IMAGE-DOWNSAMPLED 1-s2.0-S0360544222032236-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr7/DOWNSAMPLED/image/jpeg/3e526a2cb95d1f87b3d7c1a741eb775d/gr7.jpg gr7 gr7.jpg jpg 93338 233 386 IMAGE-DOWNSAMPLED 1-s2.0-S0360544222032236-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr4/THUMBNAIL/image/gif/6babb5e5ad7716f14782206e30c0fe3d/gr4.sml gr4 gr4.sml sml 73651 157 219 IMAGE-THUMBNAIL 1-s2.0-S0360544222032236-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr2/THUMBNAIL/image/gif/83bc7ab302bbaa2c86aa1b99722019b5/gr2.sml gr2 gr2.sml sml 76304 164 102 IMAGE-THUMBNAIL 1-s2.0-S0360544222032236-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr6/THUMBNAIL/image/gif/fd7f49982c2ec58c1847a3f9a6694359/gr6.sml gr6 gr6.sml sml 9870 121 219 IMAGE-THUMBNAIL 1-s2.0-S0360544222032236-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr1/THUMBNAIL/image/gif/69bca4962bba0b1a9fdf13d0363550be/gr1.sml gr1 gr1.sml sml 74429 113 219 IMAGE-THUMBNAIL 1-s2.0-S0360544222032236-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr5/THUMBNAIL/image/gif/4cab318481f5585c8235f05a514ce530/gr5.sml gr5 gr5.sml sml 8842 122 219 IMAGE-THUMBNAIL 1-s2.0-S0360544222032236-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr3/THUMBNAIL/image/gif/f248dec3d0546294664562efe5c2a960/gr3.sml gr3 gr3.sml sml 74918 92 219 IMAGE-THUMBNAIL 1-s2.0-S0360544222032236-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr8/THUMBNAIL/image/gif/a8953ba7c10c01f2fcd0c6bb584292de/gr8.sml gr8 gr8.sml sml 72402 133 219 IMAGE-THUMBNAIL 1-s2.0-S0360544222032236-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/gr7/THUMBNAIL/image/gif/65a6d67c74d2cfadabd653a3fabf8f36/gr7.sml gr7 gr7.sml sml 72877 132 219 IMAGE-THUMBNAIL 1-s2.0-S0360544222032236-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/HIGHRES/image/jpeg/90b69b4e0184d9233efc421088bba2e6/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 331037 1697 2370 IMAGE-HIGH-RES 1-s2.0-S0360544222032236-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/HIGHRES/image/jpeg/020114c01cc5c88772a5184b16084b11/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 298036 1897 1181 IMAGE-HIGH-RES 1-s2.0-S0360544222032236-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/HIGHRES/image/jpeg/f2ad9f16b8a9c68fbfa8336a3b5d488a/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 166878 1315 2371 IMAGE-HIGH-RES 1-s2.0-S0360544222032236-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/HIGHRES/image/jpeg/f0bff492642c5ee1c99c156479b3174d/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 531900 1582 3059 IMAGE-HIGH-RES 1-s2.0-S0360544222032236-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/HIGHRES/image/jpeg/97996c4f1fb63cc5a70d5dbf0e720c16/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 169683 1316 2370 IMAGE-HIGH-RES 1-s2.0-S0360544222032236-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/HIGHRES/image/jpeg/974db71c6f637743175999ad106eeff5/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 459077 992 2362 IMAGE-HIGH-RES 1-s2.0-S0360544222032236-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/HIGHRES/image/jpeg/20dc82297f8d8ddba1dec512284420d2/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 229011 1039 1712 IMAGE-HIGH-RES 1-s2.0-S0360544222032236-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/HIGHRES/image/jpeg/29fce55d43e864089c2c2364a5cb2b7e/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 233922 1033 1712 IMAGE-HIGH-RES 1-s2.0-S0360544222032236-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/03f729e65afaf4c43322b1a1ce01fdbe/si14.svg si14 si14.svg svg 13927 ALTIMG 1-s2.0-S0360544222032236-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/ff7a723b544b3314693521a59e4505d4/si4.svg si4 si4.svg svg 5133 ALTIMG 1-s2.0-S0360544222032236-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/460469687913eb270fd9522e6d49ffdf/si33.svg si33 si33.svg svg 19142 ALTIMG 1-s2.0-S0360544222032236-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/f22d8f61fdd70ae018392bf8cc16132c/si38.svg si38 si38.svg svg 81557 ALTIMG 1-s2.0-S0360544222032236-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/8d3252d60ff85d10f7a7d3bc079abdba/si42.svg si42 si42.svg svg 75821 ALTIMG 1-s2.0-S0360544222032236-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/4e5b7fb3a06978b5efec4549f1ef6b68/si43.svg si43 si43.svg svg 25450 ALTIMG 1-s2.0-S0360544222032236-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/f79570cc38a12b335743c41e372a4ddd/si46.svg si46 si46.svg svg 20318 ALTIMG 1-s2.0-S0360544222032236-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/6f59846a98adb6ecb383dd3028ad660f/si7.svg si7 si7.svg svg 5421 ALTIMG 1-s2.0-S0360544222032236-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/59541af2e762928b89fd96a7556fd3ba/si31.svg si31 si31.svg svg 16275 ALTIMG 1-s2.0-S0360544222032236-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/52fc7f73595740ab96084807f79e5a0a/si8.svg si8 si8.svg svg 3887 ALTIMG 1-s2.0-S0360544222032236-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/90fab65bcc95be093871cca253d83856/si50.svg si50 si50.svg svg 12710 ALTIMG 1-s2.0-S0360544222032236-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/750367fcb3b1fc1b82cc05c44b3499d9/si34.svg si34 si34.svg svg 117562 ALTIMG 1-s2.0-S0360544222032236-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/2505c332be9818495cc7dbddaf411ff3/si6.svg si6 si6.svg svg 4738 ALTIMG 1-s2.0-S0360544222032236-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/e9fbafa7ca2712a7ad8b64ee545ab655/si13.svg si13 si13.svg svg 5221 ALTIMG 1-s2.0-S0360544222032236-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/a924e3d7b90981504fa3bdced714e410/si24.svg si24 si24.svg svg 31904 ALTIMG 1-s2.0-S0360544222032236-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/d59677fc178f3ae41351fdcbb2d53523/si55.svg si55 si55.svg svg 58194 ALTIMG 1-s2.0-S0360544222032236-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/e0cc59cb5ac865337491b4fa67d2406b/si48.svg si48 si48.svg svg 18715 ALTIMG 1-s2.0-S0360544222032236-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/49fd74a83a14d7e8c6feb35e0dc1b6e9/si26.svg si26 si26.svg svg 49645 ALTIMG 1-s2.0-S0360544222032236-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/5ced4539c3ceb30b6cc32dd818849271/si17.svg si17 si17.svg svg 9129 ALTIMG 1-s2.0-S0360544222032236-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/ddadd3dbb135351397c3fc354f6d6b1e/si44.svg si44 si44.svg svg 11282 ALTIMG 1-s2.0-S0360544222032236-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/69202b44cf4a03eec2360093e166bf6b/si23.svg si23 si23.svg svg 10238 ALTIMG 1-s2.0-S0360544222032236-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/4ec766009b41b80b56b663f0b3449851/si35.svg si35 si35.svg svg 96288 ALTIMG 1-s2.0-S0360544222032236-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/a8ab35b42d80df7c9863d7bc8f3a47e4/si54.svg si54 si54.svg svg 96643 ALTIMG 1-s2.0-S0360544222032236-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/84b22bafc4505baecdc4f5d8444cece1/si29.svg si29 si29.svg svg 4549 ALTIMG 1-s2.0-S0360544222032236-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/72c780b377c88e722c3dce9af36da28c/si28.svg si28 si28.svg svg 9525 ALTIMG 1-s2.0-S0360544222032236-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/c82168bdd82b1754e93f2d258e6f67f1/si40.svg si40 si40.svg svg 39963 ALTIMG 1-s2.0-S0360544222032236-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/c820ff1c0a81ab2efc6b8e1414e8509a/si1.svg si1 si1.svg svg 8924 ALTIMG 1-s2.0-S0360544222032236-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/ff565379178e42d46d9eac6496f5c561/si37.svg si37 si37.svg svg 21493 ALTIMG 1-s2.0-S0360544222032236-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/99b71df3542fec413fbae30112950fe5/si52.svg si52 si52.svg svg 25370 ALTIMG 1-s2.0-S0360544222032236-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/a5c326d15b034c91ad9e03e9b9756f14/si47.svg si47 si47.svg svg 10807 ALTIMG 1-s2.0-S0360544222032236-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/030e15ab337f9a1df78a1f5968966703/si56.svg si56 si56.svg svg 9593 ALTIMG 1-s2.0-S0360544222032236-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/ddbc7bc66b8014df8e93821ef15bc93c/si39.svg si39 si39.svg svg 11703 ALTIMG 1-s2.0-S0360544222032236-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/2001638d84a02bbf3fb9af48e5bba9d7/si21.svg si21 si21.svg svg 42896 ALTIMG 1-s2.0-S0360544222032236-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/c88d2b98d8bf41635488e54405e3fbb4/si32.svg si32 si32.svg svg 14169 ALTIMG 1-s2.0-S0360544222032236-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/dd21084ad5059b7ee9964fda6aabc370/si10.svg si10 si10.svg svg 5986 ALTIMG 1-s2.0-S0360544222032236-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/3e899da2bbe4cdcafb03581eb340c766/si12.svg si12 si12.svg svg 5998 ALTIMG 1-s2.0-S0360544222032236-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/34e3d54583794b0658e8dd0e2c141f01/si25.svg si25 si25.svg svg 37624 ALTIMG 1-s2.0-S0360544222032236-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/eaca82a4311341b289446dfa8a4776b9/si53.svg si53 si53.svg svg 29800 ALTIMG 1-s2.0-S0360544222032236-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/41083234d927fab577977ba9f4a2157c/si18.svg si18 si18.svg svg 10443 ALTIMG 1-s2.0-S0360544222032236-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/b80360831d34d73496d96c1696160170/si16.svg si16 si16.svg svg 80388 ALTIMG 1-s2.0-S0360544222032236-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/a9bf27b6bb1dba5c27f9e8f623d93d2d/si49.svg si49 si49.svg svg 12826 ALTIMG 1-s2.0-S0360544222032236-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/be223cc664246d421663547bdc77c884/si3.svg si3 si3.svg svg 6503 ALTIMG 1-s2.0-S0360544222032236-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/b1b6f2ba38cb9ef1fd0bc831e070772e/si36.svg si36 si36.svg svg 22927 ALTIMG 1-s2.0-S0360544222032236-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/3aea64b5328add3bf8e6cbabc56da39a/si2.svg si2 si2.svg svg 7181 ALTIMG 1-s2.0-S0360544222032236-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/ce17ce93825eb3e93fc6789ff55ec5ab/si45.svg si45 si45.svg svg 12849 ALTIMG 1-s2.0-S0360544222032236-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/c5493f67677e3ff495bff1c9ef64411a/si9.svg si9 si9.svg svg 6947 ALTIMG 1-s2.0-S0360544222032236-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/39bcf540c8ca47796c4fc1ffe711a647/si41.svg si41 si41.svg svg 43328 ALTIMG 1-s2.0-S0360544222032236-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/e626f3ff0de5d92130bb442f1fb2a70f/si19.svg si19 si19.svg svg 9301 ALTIMG 1-s2.0-S0360544222032236-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/1f731336c067149a5826d0dd5b7d1c52/si27.svg si27 si27.svg svg 27762 ALTIMG 1-s2.0-S0360544222032236-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/79f50deae5236747c72d0089ac4dc3be/si15.svg si15 si15.svg svg 28124 ALTIMG 1-s2.0-S0360544222032236-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/85ce2a4fc188ed5f0349a9ce50ee1fc8/si11.svg si11 si11.svg svg 8223 ALTIMG 1-s2.0-S0360544222032236-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/8e0bca6b9a281f7d3308fff73aca2c1e/si51.svg si51 si51.svg svg 23328 ALTIMG 1-s2.0-S0360544222032236-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/ffc0ece15424a987a62475258924c1cf/si5.svg si5 si5.svg svg 6586 ALTIMG 1-s2.0-S0360544222032236-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/025935c68e6685a984bed0f281af07b1/si20.svg si20 si20.svg svg 13638 ALTIMG 1-s2.0-S0360544222032236-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360544222032236/image/svg+xml/524b2dd4935e6dca4785a9c589f8a2c4/si30.svg si30 si30.svg svg 8279 ALTIMG 1-s2.0-S0360544222032236-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:1092BXZSZ6L/MAIN/application/pdf/192566531f1f9ef7f6c1e6d8491d7b2b/am.pdf am am.pdf pdf false 1961042 AAM-PDF EGY 126337 126337 S0360-5442(22)03223-6 10.1016/j.energy.2022.126337 Elsevier Ltd Fig. 1 Schematic diagram of evolving learning-based fault detection and diagnosis method. Fig. 1 Fig. 2 Flow chart of GGMR algorithm. Fig. 2 Fig. 3 The hourly PCB cooling rate prediction for testing data from Living Lab 1 measurement. Fig. 3 Fig. 4 The system diagram for Living Lab 1 passive chilled beam system with trended control and performance parameters. (VFD: supply water pump speeds; SWT: PCB supply water temperatures; RWT: PCB return water temperatures; CVN: control valve signals for north chilled beam bank; CVC: control valve signals for central chilled beam bank; CVS: control valve signals for south chilled beam bank; ΔP: differential pressure of the PCB loop; Flow: PCB system flow rates; CVHXC: chilled water control valve signals at the heat exchanger side; CVHXH: heating hot water control valve signals at the heat exchanger side; ZAT: zone air temperature). Fig. 4 Fig. 5 cusum_Δf for normal operation and faulty operations (CBV_0%: chilled beam control valve stuck at 0%; CBV_50%: chilled beam control valve stuck at 50%; CBV_100%: chilled beam control valve stuck at 100%; CHV_0%: chilled water control valve stuck at 0%; SWT+9F: supply water temperature sensor offset +9 °F; SWT-9F: supply water temperature sensor offset -9 °F; ZAT+5F: zone air temperature sensor offset +5 °F; ZAT-5F: zone air temperature sensor offset -5 °F; VFD_50%: pump stuck at a constant speed 50%.). Fig. 5 Fig. 6 Change rates of supply flow rates over 24 h for normal operation and faulty operations (CBV_0%: chilled beam control valve stuck at 0%; CBV_50%: chilled beam control valve stuck at 50%; CBV_100%: chilled beam control valve stuck at 100%; CHV_0%: chilled water control valve stuck at 0%; SWT+9F: supply water temperature sensor offset +9 °F; SWT-9F: supply water temperature sensor offset -9 °F; ZAT+5F: zone air temperature sensor offset +5 °F; ZAT-5F: zone air temperature sensor offset -5 °F; VFD_50%: pump stuck at a constant speed 50%.). Fig. 6 Fig. 7 The minimum Mahalanobis distance and best matching component for individual faults before evolving learning. (CBV_0%: chilled beam control valve stuck at 0%; CBV_50%: chilled beam control valve stuck at 50%; CBV_100%: chilled beam control valve stuck at 100%; CHV_0%: chilled water control valve stuck at 0%; SWT+9F: supply water temperature sensor offset +9 °F; SWT-9F: supply water temperature sensor offset -9 °F; ZAT+5F: zone air temperature sensor offset +5 °F; ZAT-5F: zone air temperature sensor offset -5 °F; VFD_50%: pump stuck at a constant speed 50%.) Fig. 7 Fig. 8 The minimum Mahalanobis distance and best matching component for individual faults after evolving learning. (CBV_0%: chilled beam control valve stuck at 0%; CBV_50%: chilled beam control valve stuck at 50%; CBV_100%: chilled beam control valve stuck at 100%; CHV_0%: chilled water control valve stuck at 0%; SWT+9F: supply water temperature sensor offset +9 °F; SWT-9F: supply water temperature sensor offset -9 °F; ZAT+5F: zone air temperature sensor offset +5 °F; ZAT-5F: zone air temperature sensor offset -5 °F; VFD_50%: pump stuck at a constant speed 50%.) Fig. 8 Table 1 Common faults of a passive chilled beam system. Table 1 # Fault Severity Level Component Fault Label 1 Stuck valve: 0% Chilled beam control valve CBV_0% 2 Stuck valve: 50% CBV_50% 3 Stuck valve: 100% CBV_100% 4 Stuck valve: 0% HX chilled water control valve CHV_0% 5 Temperature sensor offset: +9 °F Supply water temperature sensor SWT+9F 6 Temperature sensor offset: 9 °F SWT-9F 7 Temperature sensor offset: +5 °F Zone air temperature sensor ZAT+5F 8 Temperature sensor offset: 5 °F ZAT-5F 9 Stuck at a constant speed: 50% VFD for supply water pump VFD_50% Table 2 Characteristic table for performance indices of normal operation and faulty operation for PCB systems. (ΔC: deviations between predicted and actual cooling rates; Δf: deviations between predicted and actual flow rates; S f : change rates of supply water flow; Δp: deviations between loop pressure and its setpoint; ΔT ZAT : deviations between zone air temperature and its setpoint; ΔT r-s : temperature differences between supply and return water temperature; ΔT sZAT : temperature differences between supply water temperature and zone air temperature setpoints; cusum: cumulative sums of ΔC, Δf, Δp, ΔT ZAT , ΔT r-s, and ΔT sZAT over a 24-h moving window.) Table 2 ΔC cusum_ΔC Δf cusum_Δf Sf Δp cusum_Δp ΔTZAT cusum_ΔT ZAT ΔT r-s cusum_ΔT r-s cusum_ΔTZAT ΔTr-s cusum_ΔTr-s ΔTsZAT cusum_ΔTsZAT 1 Normal operation 0 0 0 0 abs(+) 0 0 0 0 0 0 0 0 2 Chilled beam control valve: stuck at 0% + + abs(0) 0 \u2013 0 0 0 \u2013 + 3 Chilled beam control valve: stuck at 50% 0 + abs(0) 0 + 0 0 0 0 0 4 Chilled beam control valve: stuck at 100% \u2013 \u2013 \u2013 abs(0) 0 \u2013 0 0 0 0 0 0 5 HX chilled water control valve: stuck at 0% + + abs(+) 0 \u2013 0 0 0 0 0 + 6 Supply water temperature sensor offset: +9 °F + 0 \u2013 abs(+) 0 0 0 0 0 \u2013 0 + 7 Supply water temperature sensor offset: 9 °F \u2013 0 \u2013 abs(+) 0 0 0 0 + 0 \u2013 8 Space temperature sensor offset: +5 °F 0 0 abs(+) 0 \u2013 0 0 0 \u2013 9 Space temperature sensor offset: 5 °F + \u2013 abs(+) 0 \u2013 0 0 0 + 10 Pump stuck at a constant speed: 50% 0 + + abs(+) 0 \u2013 0 \u2013 0 0 0 0 Table 3 List of 7 unique fault symptoms for chilled beam valve stuck at 50% (CBV_50%). (ΔC: deviations between predicted and actual cooling rates; Δf: deviations between predicted and actual flow rates; S f : change rates of supply water flow; Δp: deviations between loop pressure and its setpoint; ΔT ZAT : deviations between zone air temperature and its setpoint; ΔT r-s : temperature differences between supply and return water temperature; ΔT sZAT : temperature differences between supply water temperature and zone air temperature setpoints; cusum: cumulative sums of ΔC, Δf, Δp, ΔT ZAT , ΔT r-s, and ΔT sZAT over a 24-h moving window.). Table 3 ΔC cusum_ΔC Δf cusum_Δf S f Δp cusum_Δp ΔT ZAT cusum_ΔT ZAT ΔT r-s cusum_ΔT r-s ΔT sZAT cusum_ΔT sZAT 2 2 1 1 2 2 1 2 2 2 2 2 2 2 2 1 1 2 2 1 2 2 2 1 2 2 2 2 2 1 2 2 1 2 2 2 2 2 2 2 2 2 1 2 2 1 2 2 2 1 2 2 2 2 −1 1 2 2 1 2 2 2 2 2 2 2 2 −1 1 2 2 1 2 2 2 1 2 2 −1 2 2 1 2 2 1 2 2 2 2 2 2 Table 4 Performance signature for chilled beam valve stuck at 50% (CBV_50%)(ΔC: deviations between predicted and actual cooling rates; Δf: deviations between predicted and actual flow rates; S f : change rates of supply water flow; Δp: deviations between loop pressure and its setpoint; ΔT ZAT : deviations between zone air temperature and its setpoint; ΔT r-s : temperature differences between supply and return water temperature; ΔT sZAT : temperature differences between supply water temperature and zone air temperature setpoints; cusum: cumulative sums of ΔC, Δf, Δp, ΔT ZAT , ΔT r-s, and ΔT sZAT over a 24-h moving window.). Table 4 ΔC cusum_ΔC Δf cusum_Δf S f Δp cusum_Δp ΔT ZAT cusum_ΔT ZAT ΔT r-s cusum_ΔT r-s ΔT sZAT cusum_ΔT sZAT 0 2 0 1 2 2 1 2 2 2 0 2 2 Table 5 Key signatures of selected fault features with eight different known fault types. (Δf: deviations between predicted and actual flow rates; S f : change rates of supply water flow; Δp: deviations between loop pressure and its setpoint; ΔT sZAT : temperature differences between supply water temperature and zone air temperature setpoints; cusum: cumulative sums of Δf, Δp, and ΔT sZAT over a 24-h moving window.) Table 5 cusum_Δf S f cusum_Δp cusum_ΔT sZAT Normal operation 2 1 2 2 Chilled beam control valve: stuck at 0% 1 2 −1 1 Chilled beam control valve: stuck at 50% 1 2 1 2 Chilled beam control valve: stuck at 100% −1 2 −1 2 Supply water temperature sensor offset: +9 °F −1 1 2 1 Supply water temperature sensor offset: 9 °F −1 1 2 −1 Space temperature sensor offset: +5 °F 2 1 −1 −1 Space temperature sensor offset: 5 °F −1 1 −1 1 Pump stuck at a constant speed: 50% 1 1 −1 2 Table 6 Testing results for normal operation (1873 data points) for different thresholds. Table 6 α False Alarm Unknown Accuracy 0 14.8% 25.0% 60.2% 1.0 4.5% 8.3% 87.2% 2.0 1.3% 0.0% 98.7% Table 7 Fault diagnosis results of testing data under various faulty operations for the chilled beam system. Table 7 Testing Data Diagnosis Results CBV_0% (144 data points) CBV_50% (144 data points) CBV_100% (144 data points) CHV_0% (144 data points) SWT+9F (144 data points) SWT-9F (144 data points) ZAT+5F (144 data points) ZAT-5F (144 data points) VFD_50% (144 data points) CBV_0% 100% CBV_50% 100% CBV_100% 100% CHV_0% 0% SWT+9F 100% SWT-9F 100% ZAT+5F 100% ZAT-5F 100% VFD_50% 100% Unknown 100% Notes: Unknown: unknown/unseen state; CBV_0%: chilled beam control valve stuck at 0%; CBV_50%: chilled beam control valve stuck at 50%; CBV_100%: chilled beam control valve stuck at 100%; CHV_0%: chilled water control valve stuck at 0%; SWT+9F: supply water temperature sensor offset +9 °F; SWT-9F: supply water temperature sensor offset -9 °F; ZAT+5F: zone air temperature sensor offset +5 °F; ZAT-5F: zone air temperature sensor offset -5 °F; VFD_50%: pump stuck at a constant speed 50%. Table 8 Signature comparison of fault features with nine faults. (Δf: deviations between predicted and actual flow rates; S f : change rates of supply water flow; Δp: deviations between loop pressure and its setpoint; ΔT sZAT : temperature differences between supply water temperature and zone air temperature setpoints; cusum: cumulative sums of Δf, Δp, and ΔT sZAT over a 24-h moving window.) Table 8 cusum_Δf S f cusum_Δp cusum_ΔT sZAT Normal operation 2 1 2 2 Chilled beam control valve: stuck at 0% 1 2 −1 1 Chilled beam control valve: stuck at 50% 1 2 1 2 Chilled beam control valve: stuck at 100% −1 2 −1 2 Supply water temperature sensor offset: +9 °F −1 1 2 1 Supply water temperature sensor offset: 9 °F −1 1 2 −1 Space temperature sensor offset: +5 °F 2 1 −1 −1 Space temperature sensor offset: 5 °F −1 1 −1 1 Pump stuck at a constant speed: 50% 1 1 −1 2 HX chilled water control valve: stuck at 0% 1 1 −1 1 An evolving learning-based fault detection and diagnosis method: Case study for a passive chilled beam system Liping Wang a ∗ James Braun b c Sujit Dahal a a Civil and Architectural Engineering, University of Wyoming, 1000 E University Ave, Laramie, WY, 82071, USA Civil and Architectural Engineering University of Wyoming 1000 E University Ave Laramie WY 82071 USA Civil and Architectural Engineering, University of Wyoming, 1000 E University Ave, Laramie, WY, 82071 b School of Mechanical Engineering, Purdue University, 585 Purdue Mall, West Lafayette, IN, 47907, USA School of Mechanical Engineering Purdue University 585 Purdue Mall West Lafayette IN 47907 USA School of Mechanical Engineering, Purdue University, 585 Purdue Mall, West Lafayette, IN 47907, United States c Center for High Performance Buildings, Ray W. Herrick Laboratories, Purdue University, 177 S Russell St, West Lafayette, IN, 47907, USA Center for High Performance Buildings Ray W. Herrick Laboratories Purdue University 177 S Russell St West Lafayette IN 47907 USA Center for High Performance Buildings, Ray W. Herrick Laboratories, Purdue University, 177 S Russell St, West Lafayette, IN 47907, United States ∗ Corresponding author. Traditional fault detection and diagnosis (FDD) methods learn from training data obtained under limited operating conditions, after which they stop learning. In this study, we developed an evolving learning-based FDD method for HVAC systems, which learns as the performance of a building system and its components changes. Specifically, an evolving learning algorithm\u2014growing Gaussian mixture regression\u2014is used to construct both a data-driven model representing normal performance and a transfer function for fault diagnosis. The evolving learning-based FDD method was demonstrated for detecting and diagnosing common faults of passive chilled beam systems. We employ generalized performance indices, such as the deviations between predictions (expectations) and measurements, the differences between two parameters, and other features extracted from parameters. A novel feature selection method was developed for selecting fault signatures. An uncertainty threshold determining whether a performance index was within the range of normal operation influences false alarm rates. By increasing the uncertainty thresholds from zero to two standard deviations, false alarm rates for normal operations were reduced from 14.8% to 1.3% and the percentage of normal operation data categorized as an unknown operation was reduced from 25% to 0%. Eight known faults were detected and diagnosed with an accuracy of 100%. A new fault was first categorized as an unknown fault before evolving. After evolving the transfer function by updating the key parameters of the Gaussian components, the unknown fault was also accurately diagnosed. The evolving learning-based FDD method and novel feature selection method can be employed for detecting and diagnosing common faults of other systems or subsystems in the built environment. Keywords Evolving learning Fault detection and diagnosis Feature selection Passive chilled beam Data availability Data will be made available on request. Nomenclature Symbols E expectation operator [−] k number of components [−] N probability distribution function of a multi-variable Gaussian distribution [−] S f change rates of supply water flow [gpm/hr] t sample index [−] q expected posterior [−] w updated weight coefficient [−] π weight coefficient [−] β learning rate [−] ρ learning factor [−] Δ C deviations between predicted and actual cooling rates [kW] Δf deviations between predicted and actual flow rates [gpm] Δp: deviations between loop pressure and its setpoint [psi] ΔT temperature deviations between temperature and its setpoint, or temperature differences [°F] d multi-variable data [−] f ˆ fault diagnosis results [−] f individual faults [−] F fault matrix [−] H a transfer function for fault diagnosis [−] i a fault feature vector [−] P parameter matrix [−] S fault signature matrix [−] μ mean vector [−] δ covariance matrix [−]Prefix cusum cumulative sums over a 24-h moving window Subscripts j the j t h component in a Gaussian mixture model X independent variables Y dependent variable ZAT zone air temperature r-s: between supply and return water temperature sZAT between supply water temperature and zone air temperature setpoints 1 Introduction Buildings account for 40% of total energy consumption [1], 74% of electricity use [2], and 37% of greenhouse gas emissions in the U.S [3]. Therefore, environmental impacts and resource consumption associated with building operations are significant throughout the entire life cycle of buildings. Heating, ventilation and air conditioning (HVAC) systems account for about 67% of the total energy use in buildings. Despite national efforts toward improving system performance and sustainability, most HVAC systems in existing buildings do not operate close to their design efficiency due to equipment degradation, out-of-calibration sensors, or improper control operations. These issues can lead to high maintenance costs, occupant discomfort, and an energy use penalty of between 15% and 30% for commercial buildings [4]. Fault detection and diagnosis (FDD) for HVAC systems in buildings can enable early detection and identification of operational faults based on the analysis of measured behaviors. FDD is critical in achieving the goal of reducing energy waste in buildings caused by operational faults and ensuring the persistence of building commissioning. The FDD subject of conventional HVAC systems has been studied since the 1990s [5\u20138]. Traditional FDD approaches that are applied to existing buildings learn from training data obtained under limited operating conditions to detect and diagnose faults, after which they stop learning. The major challenge is that the training data available to create diagnostic algorithms do not include all possible operating conditions that the tested systems and components experience throughout their life cycles. It is expected that building system performance such as energy use changes over time due to natural wear, changing control sequences, equipment replacement or addition, or other external factors. This can lead to missed detections and false alarms when traditional FDD approaches are applied [9,10]. Performance indices such as energy use require that the baseline models for predicting energy use evolve along with the dynamic changes in building systems and components. Furthermore, fault severity levels and fault symptoms may change over time. Given that the training set for FDD does not cover all operating conditions and fault scenarios, FDD algorithms for building HVAC systems need to evolve over time. As opposed to FDD applied to conventional HVAC systems (e.g., variable air volume systems), FDD for high-performance HVAC systems has rarely been studied. To meet the goals of the net-zero energy building initiatives for commercial buildings, FDD technologies that can continuously ensure thermal comfort and energy efficiency are needed especially for the operation of high-performance HVAC systems that have the potential to achieve high indoor environmental quality and deep energy reduction through integrated system design and advanced operation for commercial buildings. These high-performance HVAC systems (such as chilled beam [11], radiant heating/cooling [12], and mixed-mode ventilation [13,14]) are complex in operation. To address the research gaps discussed above, the objective of the study is to develop an evolving learning-based FDD method for HVAC systems, which learns as the performance of a building system and its components changes. Specifically, an evolving learning algorithm\u2014growing Gaussian mixture regression\u2014is used to construct both a data-driven model representing normal performance and a transfer function for fault diagnosis. A novel feature selection method was also developed for selecting fault signatures to enhance the robustness and transferability of the FDD algorithm. The evolving learning-based FDD method as well as the feature selection method were demonstrated for detecting and diagnosing common faults of passive chilled beam systems in this study. The methodology of the evolving learning-based FDD and the dynamic updating mechanism for growing Gaussian mixture regression were presented in Section 2. A demonstration of the evolving learning-based FDD method is presented in Sections 4-7 for a passive chilled beam system. Section 3 describes fault implementation in the passive chilled beam system; Section 4 presents the development of an evolving learning-based GGMR model representing cooling rates of the PCB system under normal operation; Sections 5 and 6 present evaluation and selection of key performance indices for fault detection and diagnosis; Section 7 develops a GGMR model for fault diagnosis of the passive chilled beam system and presents diagnosis results for both known and unknown faults. 2 Methodology 2.1 Evolving learning-based fault detection and diagnosis A schematic diagram of an evolving learning-based FDD method is illustrated in Fig. 1 . The evolving learning-based approach is used to construct both a data-driven model representing normal performance and a transfer function H for fault diagnosis. The evolving learning-based FDD method includes two stages: \u201cdetection\u201d and \u201cdiagnosis.\u201d Detection : Performance indices for a system of interest were composed for the purpose of fault detection. These performance indices include the deviations between predictions (expectations) and measurements, the differences between two key parameters, and other features extracted from parameters (e.g., cumulative differences or changes of parameters over time). Furthermore, the performance indices are categorized into static (non-evolving) performance indices and evolving performance indices. Key performance parameters of HVAC systems such as cooling/heating energy rates and air/water flow rates evolve with the changes in HVAC operating environments, building systems, and components over their life cycles. These key performance parameters can be predicted using evolving learning-based models [15]. The evolving performance indices are created using the predictions from these evolving learning-based models and their corresponding measurements. One example of the evolving performance indices is the differences between cooling/heating energy rates predicted from evolving learning method-based models and their measurements. Traditional data-driven-based modeling is limited by the training data which do not include all possible operating conditions for the system of interests. The evolving learning-based models overcome this limitation of the traditional data-driven-based modeling approach by updating key parameters over time. The non-evolving performance indices do not include predictions from evolving learning-based models. Instead, they are built upon actual measurements and/or control operating parameters. An example of the non-evolving performance index could be the differences between supply water temperature and its setpoint. The expected ranges of non-evolving performance indices are static and should not change over time such as the acceptable deviations between controlled variables and setpoints. For detecting degradation faults such as coil fouling under which performance gradually changed over time, static performance indices should be used. For performance indices with the evolving feature, the baseline models for performance parameters such as predicted energy use would evolve along with the changes in building systems and components to represent normal operation over time. For non-evolving performance indices, the calculated index values are compared to the expected ranges under normal operation. If statistically significant deviations between the prediction (expected ranges) and the measurement of performance indices are observed, a fault, multiple faults, or an unseen normal operation is detected, and the diagnosis stage is initiated. Otherwise, the system is operating normally and the evolving learning-based model is updated with the measurement. Because the performance indices include both static (non-evolving) performance indices and evolving performance indices, the FDD method is applicable for different types of faults with either sudden or gradual performance changes. Diagnosis : Finding a diagnosis transfer function H is essential to enable fault diagnosis. An evolving learning-based transfer function H is used to relate the fault feature vector i comprising various performance indices to the fault vector f based on experimental data. Given H , faults can be identified based on the fault feature vector i by using f ˆ = H ( i ) , where f ˆ is the fault diagnosis results using integers representing individual faults. If no faults can be diagnosed for the measurements in the diagnosis state, the measurement is identified as a new state, which is either an unseen fault or an unseen normal operation. After a new state (either an unseen fault or unseen normal operation) is identified by the algorithm, a message about the new state will be sent to a building operator, and then the building operator will assess the new state and determine 1) whether the system is in a new normal operating mode or an unseen faulty operation, and 2) the root cause of the fault if it is an unseen faulty operation through measurement and verification. Once the new state is unveiled, the measurement of the new state is used to update the evolving learning-based model (normal operation) or the transfer function (faulty operation) based on the building operator's assessment. 2.2 Growing Gaussian mixture regression (GGMR) The growing Gaussian mixture regression (GGMR) was used in this study to construct a model representing normal operation and the transfer function H as the evolving learning-based data-driven method. GGMR integrates a growing Gaussian mixture model (GGMM) [16] with a Gaussian mixture regression (GMR) [17]. GGMM updates the parameters of the Gaussian components through a recursive procedure, merges Gaussian components, and creates a new Gaussian component based on new measurements. GMR is then used to predict the value of the dependent variable given the observations of independent variables and GGMM parameters. A flow chart of the GGMR algorithm is shown in Fig. 2 . A Gaussian mixture model (GMM) assumes that the observed data are made up of a mixture of multiple Gaussian distributions, and is thus a parametric probability density function represented as a weighted sum of Gaussian component densities, as shown in Eq. (1). (1) p r o b = ∑ j = 1 k π j N ( i , f | μ j , δ j ) where π j , μ j , and δ j denote the weight coefficient, mean vector, and covariance matrix of the j t h component, respectively. N ( i , f | μ j , δ j ) represents the probability distribution function of a multi-variable Gaussian distribution. A growing Gaussian mixture model (GGMM) offers the evolution of both the GMM model structure and the parameters in real-time. The learning mechanism includes updating the parameters of the GMR, adding a new component to the existing model, as well as splitting and merging the Gaussian mixture model components. First, GGMM identifies which Gaussian components will be updated based on the calculated probability density of each. The parameters of the component with the highest probability density (non-zero), including the weight coefficient π j , mean vector μ j , and covariance matrix δ j are updated using a recursive filtering approach, as shown in Eqs. (2)\u2013(4) [16]. (2) π j ( t ) = ( 1 − β ) π j ( t − 1 ) + β q j (3) μ j ( t ) = ( 1 − ρ j ) μ j ( t − 1 ) + ρ j d ( t ) (4) δ j ( t ) = ( 1 − ρ j ) δ j ( t − 1 ) + ρ j ( d ( t ) − μ j ( t ) ) ( d ( t ) − μ j ( t ) ) T where d ( t ) = [ i ( t ) , f ( t ) ] , q j is the expected posterior of the j th component, β is the learning rate, and ρ j is the learning factor corresponding to updating μ j and δ j . Second, if the calculated probability density of all Gaussian components based on the new data is zero, this indicates that there is no existing Gaussian mixture component matching the new data. The GGMM then generates a new component and initializes its parameters [16]. Third, after the GGMM model is updated, merging and splitting criteria are checked to ensure the health of the updated model structure. When the volume of a Gaussian component \u2014 the determinant of its covariance matrix \u2014 exceeds a maximum threshold, the Gaussian component is split into two. The distance between two Gaussian components is measured by the Kullback-Leibler divergence (KLD) [18]. If the KLD of any two Gaussian components is smaller than a minimum threshold, the two components are merged. Lastly, a Gaussian mixture regression (GMR) [17] is used to predict the dependent variable f ˆ ( i ) such as diagnosed faults represented by integers (0, 1, 2 \u2026) given the observed independent variables such as performance indices described in Section 5 and the GGMM parameters of the test data. f ˆ ( i ) represents the prediction of the fault labels f ( i ) . w j ( i ) is the updated weight coefficients given the observed independent variables for the j th component, as shown in Eqs. (5) and (6). (5) f ˆ k ( i ) = E ( Y | X = i ) = ∑ j = 1 k w j ( i ) ( μ j Y + δ j Y X δ j X X − 1 ( i − μ j X ) ) (6) w j ( i ) = π j N ( i ; μ j X , δ j X X ) ∑ j = 1 k π j N ( i ; μ j X , δ j X X ) 3 Fault implementation Living Lab 1 (W: 9.5 m × L:10.7 m) at Herrick Laboratories, Purdue University is an open office with a south-facing double-skin façade. The space can be served by a passive chilled beam system (PCB), a hydronic radiant slab system, and/or displacement ventilation from a variable air volume system (VAV). In this study, we implemented five types of common faults at different severity levels (nine individual faults in total) into the passive chilled beam (PCB) system of Living Lab 1 between September 15, 2021 and November 5, 2021. Trend data of the PCB system performance and environmental conditions under normal operation were recorded from April 1, 2021 to July 26, 2021. During the experiments, the radiant slab system was turned off, space heating was served by the VAV system, and space cooling was served by both PCB and VAV systems. Condensation is a common operating issue of chilled beam systems. However, it is avoidable by controlling the supply water temperature above space air dew point temperature via control sequences. To prevent any risk of condensation in Living Lab 1, the supply water temperature setpoint was set dynamically based on thermal loads but at least 1.7 °C (3 °F) above the dew point of the space air. In this study, we focused on mechanical faults associated with actuators and sensors. The five fault types include stuck chilled beam control valves, stuck chilled water control valves of the heat exchanger, supply water temperature sensor offset, zone air temperature sensor offset, and stuck VFD controller at a constant pump speed. These common faults implemented into the PCB system including severity level, associated components, and labels used in this paper were summarized in Table 1 . Under normal operation, chilled beam valves and the chilled water valve were controlled using PI feedback loops that compare measured control variables and setpoints. For the stuck valve faults, constant signals (e.g., 0%, 50%, or 100%) were used to override the PI loop outputs. In addition to the actual (override) control valve positions, the output signals from PI loops for the control valves were also trended and were used for predicting PCB performance under normal operation. For temperature sensor offset faults, a constant offset was added to the control sequence via the building control system to adjust readings from the temperature sensors such as supply water temperature or zone air temperature before the temperature variables were provided as inputs for various PI feedback controls. The supply water pump speed was controlled using a PI loop based on a differential pressure setpoint (10 psi). For the fault of the stuck pump VFD controller at a constant speed, a constant percentage of full pump speed was used to override the PI loop outputs. 4 Baseline model The baseline model for predicting cooling energy rates of the PCB system under normal operation was constructed for the development of evolving performance indices using the evolving learning-based algorithm\u2014GGMR for fault detection. The selection of input parameters and key performance parameters in GGMR was discussed in a recent study [15]. PCB flow rates were first predicted by the GMR model and were then fed into the GGMR model representing normal operation as one of the input parameters. We selected the set of inputs to include the zone air temperature (ZAT), average PCB control valve position, chilled water valve position, double façade temperature, and predicted flow rate. The Spearman's rank correlation coefficients were calculated between two independent variables. The maximum correlation coefficient is 0.197 between zone air temperature and flow rates and the other coefficients are in the range of 0 and 0.006. Three-month (April 1, 2021\u2013June 30, 2021) trend data for the normal operation were used to train the baseline GGMR model. The optimum number of components was 30. The learning rate was kept at a constant of 0.01. Trend data between July 1, 2021 and July 26, 2021 were used to test the GGMR model. Statistical analysis results for the prediction of cooling rates using the test data are a coefficient of variance of the root mean square error (CV-RMSE) of 20.7%, a mean bias error (MBE) of 0.5%, and an R-square of 0.909. A snapshot of the predicted and measured hourly PCB cooling rates for Living Lab 1 is shown in Fig. 3 . The predicted hourly cooling rates agree well with the measured PCB cooling rates although there were some significant fluctuations throughout the day for hourly cooling rates. 5 Fault symptom analysis In this section, various performance indices for capturing fault behaviors were created and analyzed for validating the implementation of each fault and for the preparation of feature selection in Section 6 Feature Selection. Symptoms or behaviors for each fault are presented in this section. Trend data (5-min intervals) for zone environmental conditions and PCB performance data of Living Lab 1 were collected through the building control system. The 15 trended parameters through the building control system illustrated in Fig. 4 include 1) supply water pump speeds (VFD), 2) PCB supply water temperatures (SWT), 3) PCB return water temperatures (RWT), 4\u20136) control valve signals for north (CVN), central (CVC), and south (CVS) chilled beam banks, 7) differential pressure of the PCB loop (ΔP), 8) PCB system flow rates (Flow), 9) chilled water control valve signals at the heat exchanger side (CVHXC), 10) heating hot water control valve signals at the heat exchanger side (CVHXH), 11) zone air temperature (ZAT), 12) zone air relative humidity, 13) façade space temperature, 14) outdoor air temperature, and 15) outdoor air relative humidity. In addition to the 15 trended parameters, two parameters including the predicted PCB cooling rates and the predicted flow rates from GGMR models were also taken into consideration. Various performance indices were constructed based on the deviations between baseline model predictions (expectations) and measurements, the relative differences between parameters, and/or extracted features of parameters such as cumulative differences or the change of parameters over time. They were evaluated and analyzed for various faults. The fault feature vector i is composed of the selected performance indices from Section 6 Feature Selection. They do not primarily rely on absolute values from a specific system. Therefore, these derived performance indices can improve the transferability of the FDD algorithms from one system to other. The specific performance indices include 1) deviations between predicted and actual cooling rates ΔC, 2) deviations between predicted and actual flow rates Δf, 3) deviations between loop pressure and its setpoint Δp, 4) deviations between zone air temperature and its setpoint ΔT ZAT , 5) temperature differences between supply and return water temperature ΔT r-s , 6) temperature differences between supply water temperature and zone air temperature setpoints ΔT sZAT , and 7) change rates of supply water flow S f (Eq. (7)). The parameter S f is defined as the difference between the maximum flow rate f max and minimum flow rate f min occurring over a 24-h moving window divided by the period (24 h). The cumulative sums (cusum) of ΔC, Δf, Δp, ΔT ZAT , ΔT r-s, and ΔT sZAT over a 24-h moving window were also considered as key performance indices. The cooling rates and flow rates of the PCB system were predicted on an hourly time interval. Thus, ΔC, Δf, cusum_ΔC, and cusum_Δf were calculated for each hour. These parameters were synchronized with other performance indices on a 5-min time interval assuming semi-steady state conditions of cooling rates and flow rates within each hour for feature selection, fault detection, and diagnosis. Among all the performance indices, ΔC, Δf, cusum_ΔC, and cusum_Δf have evolving features requiring baseline models for predicted energy use and flow rates evolve along with the changes in building systems and components over time. (7) S f = ( f max − f min ) t i m e p e r i o d The performance indices, including ΔC, Δf, Δp, ΔT ZAT , ΔT r-s and ΔT sZAT , characterize performance at a given time and are subject to short-term dynamic fluctuations, while the moving cumulative sums filter the shorter-term dynamics, and better represent performance trend over time. Under faulty operation, deviation of system performance from the normal operation may not be significant or even consistent for individual data points due to uncertainties in measurements and external factors while the cumulative sums show cumulative effects over time and amplify the effects of faulty operations. There were 25 days of measurement data for normal operation and about two days of measurement data for each fault at a 5-min interval. The data were divided into training and testing data sets. The training data included 3456 data points (12 days) of normal operation and 288 data points (1 day) for each of the implemented faults. The testing data included 3744 data points (13 days) of normal operation and 288 data points (1 day) for each fault type. For each data point, cumulative indices were calculated based on the sum of the deviation over a moving 24-h period (288 data points for 5-min data). The cumulative indices for each data point of the second day under a specific fault can be easily calculated. To calculate the cumulative indices for each data point of the first day of the same fault, the second day was treated as the day before the first day for cumulative indices calculation. In other words, the data of the deviation of each data point on the second day were used as the data before the first day for cumulative indices calculation of the first day. As an example, the cumulative sum performance index for flow rates (cusum_Δf) for all the operation scenarios is shown in Fig. 5 for all the training data including normal (3456 data points) and faulty operations (about 288 data points per fault). The 24-h cumulative sums for each operation scenario stayed within a relatively narrow range except for the faults of CBV_50% and CHV_0%. This performance index has consistent and clear characteristics for every operation scenario. cusum_Δf is close to zero under normal operation. CBV_0%, CBV_50%, CHV_0%, and VFD_50% have large positive values of cusum_Δf. CBV_100% and ZAT-5°F have large negative values of cusum_Δf. Fig. 6 shows the change rates of supply water flow rates for normal and faulty operation scenarios for all the training data including normal (3456 data points) and faulty operations (about 288 data points per fault). The larger the S f values, the more supply water flow rates fluctuate over time. It was found that S f was nearly zero for a stuck chilled beam valve fault (CBV_0%, CBV_50%, and CBV_100%). Table 2 presents a qualitative summary of the behavior of the performance indices for normal operation and each implemented fault. In Table 2, all the performance indices except the change rates of supply water flow rate S f were presented as positive (+), negative (−), or zero (0) relative to the range of normal operation with the consideration of uncertainties. The uncertainty thresholds were discussed in Section 6.3 Feature Selection Procedure. The change rates of supply water flow S f are presented in Table 2 as absolute values. If any performance index for a specific fault showed inconsistent characteristics\u2014sometimes positive (+), sometimes negative (−), or zero (0) in comparison with normal operation, the cell in Table 2 for the corresponding fault and performance index was left blank. A blank field indicates that the performance index should not be used as an indicator for diagnosing this specific fault because of the inconsistency of the behavior. It is also important to note that some performance indices, including Δp, ΔT ZAT , ΔT r-s , and ΔT sZAT , are all zeros and thus cannot be used to differentiate between normal operation and faulty operation. 6 Feature selection In this section, key performance indices created from Section 5 were selected and used to compose fault feature vector i . A fault signature matrix S describing relationships between a set of parameters and the capability for diagnosing specific faults was developed using an optimization approach. Finding the best set of parameters for detecting and diagnosing common faults in HVAC systems can be defined as an optimization problem [19\u201321] that maximizes the level of diagnosability with analytical redundancy taken into consideration. The feature selection method presented in this paper was inspired by Fijany and Vatan's study [19], but was customized for this application. 6.1 Fault signature matrix Fault signature matrix S is composed of two matrices: fault matrix F and parameter matrix P . Fault matrix F , parameter matrix P , and fault signature matrix S have the same number of rows, representing the collections of performance features for faulty operations. Fault signature matrix S establishes a relationship between faulty operation scenarios in F and parameters in P . Fault matrix F describes specific faulty operation scenario(s) with unsigned binary integers by assigning \u20181\u2019 to a specific column or columns representing specific faulty operation scenarios and \u20180\u2019 to the rest of columns in each row. The number of columns in fault matrix F represents the number of fault types to be diagnosed. Parameter matrix P describes combinations of sensors/performance indices which can be used to diagnose faults in HVAC systems. These parameters include deviations between predictions (expectations) and measurements of a set of parameters (e.g., cooling rates, flow rates, temperatures) and/or extracted features of parameters (e.g., cumulative sums of the deviations, the change of parameters over time). P is an integer matrix with elements of \u20180\u2019 or a signed integer \u2018-1/+1, −2/+2, \u2026\u2019 If characteristics of a performance index are important for a specific fault or faults, the element in the parameter matrix P is a non-zero integer \u2018-1/+1, −2/+2, \u2026\u2019 If characteristics of a performance index are inconsistent over time, the element of the performance index is \u20180.\u2019 For example, suppose we identified six parameters available for detecting common faults of one component in an HVAC system and there are five common faults. An example of the parameter matrix P , the fault matrix F , and the fault signature matrix S are shown as follows. P = [ 0 1 − 1 0 0 0 1 2 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 2 0 1 0 ] ; F = [ 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 ] S = [ P , F ] = [ 0 1 − 1 0 0 0 1 2 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 2 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 ] The first row of the fault signature matrix S indicates that a combination of the 2nd and 3rd parameters in the parameter matrix can be used to diagnose the first fault, a combination of the 1st and 2nd parameters in the parameter matrix are used to diagnose the second fault, the 6th parameter in the parameter matrix is used to diagnose the third fault, and a combination of the 2nd and 4th parameters in the parameter matrix is used to diagnose the fourth fault. 6.2 Optimal set of parameters to detect and diagnose faults Finding optimal sets of parameters for detecting and diagnosing specific faults in HVAC systems can be defined as an optimization problem that attempts to maximize the level of diagnosability. The optimization approach attempts to minimize the number of parameters in the parameter matrix\u2014with analytical redundancy taken into consideration\u2014while maintaining the same level of diagnosability as with all possible parameters. We can formulate the problem of finding the optimal sets of parameters into an integer programming problem [19] as defined in equation (8). The constraints of this integer programming optimization [19] include two conditions to be satisfied to keep the maximum level of diagnosability the same as with all possible parameters for the parameter matrix P : 1) there is no all-zero row and 2) all rows are distinct. Integer programming is used to find a vector x that minimizes a linear function subject to linear constraints. (8) min g T x S u b j e c t t o U ∙ x ≤ b In the defined integer programming problem, the element of a vector g is 1 if there are non-zero elements in the column of the parameter matrix P and otherwise 0; x is a binary vector to be found and determines the optimal sets of parameters; U = [ − M 1 − M 2 ] ; M 1 is the same as the parameter matrix P ; M 2 is the matrix composed of the difference between a pair of rows in M 1 . Each row in M 2 contains the absolute differences between each pair of rows R i j = | R i − R j | in matrix M 1 if the two rows R i , R j in matrix M 1 are distinct, or is equal to any of the two rows R i , R j if R i and R j in matrix M 1 are the same. To meet the two prerequisite conditions for the parameter matrix P : constraints M 1 ∙ x ≥ 1 (no all-zero rows) and M 2 ∙ x ≥ 1 (all rows are distinct) are required where 1 is an all-one vector and b is a linear inequality constraint vector. In this optimization task, b = -1 is an all negative-one vector. Therefore, the constraint for this linear programming problem is [ − M 1 − M 2 ] ∙ x ≤ − 1 . The linear programming solution can be further customized to select more favorable parameters/sensors with the consideration of other factors such as cost and high fidelity besides diagnosability. The elements of the vector g corresponding to less favorable parameters or sensors can be multiplied to a large weighting factor (greater than one). Then the specific elements in the vector g become the weighting factor multiplied by the number of non-zero elements in the corresponding columns of the parameter matrix P . Therefore, the parameters/sensors with large weighting factors have less chance to be selected. 6.3 Feature selection procedure The feature selection method described in Sections 6.1 and 6.2 was used to select features for detecting and diagnosing common faults of PCB systems. All the performance indices were considered in the feature selection with training data. The training data contained 3456 data points (12 days) of normal operation and 288 data points (1 day) for each implemented fault except the fault for the stuck chilled water control valve at a fully closed position (CHV_0%). The CHV_0% fault was used to test the evolving feature of the FDD algorithm as a new \u201cunknown\u201d fault and therefore data for this fault was not used for training. There are four key steps in feature selection. Step 1 The values of performance indices for different operation scenarios (either normal or faulty operations) are analyzed and used to create a signed integer matrix of fault \u201csymptoms\". The values of performance indices under different operation scenarios (either normal or faulty operation) are compared to the range of those based on the training data set for normal operation with the consideration of uncertainties. The normal operating range of a performance index was defined in Eq. (9) with the consideration of uncertainties. (9) z ∈ n o r m a l o p e r a t i o n w h e n min − α × s t d z ≤ z ≤ max + α × s t d z where z represents a performance index; min and max represent the minimum and maximum of the performance index under normal operation based on training data; std(z) is the standard deviation of the performance index under normal operation; α is a coefficient for adjusting the threshold. α×std(z) represents the uncertainties of the threshold. Different non-zero integers are used to differentiate characteristics for a performance index. For example, \u2018-1\u2019 is used for cases where the value of the performance index is smaller than the value of the minimum of the performance index for normal operation subtracting the uncertainty threshold; \u2018+1\u2019 is used for cases where the value of the performance index is larger than the value of the maximum of the performance index for normal operation with the addition of the uncertainty threshold; \u2018+2\u2019 is used to represent when the value of the performance index is in the range of the performance index for normal operation with the consideration of the uncertainty threshold. In contrast to Table 2, a non-zero integer \u2018+2\u2019 instead of \u20180\u2019 is used to represent the characteristics of the performance indices that fall within the normal operating range. A performance index can still be a useful signature when the performance index under a specific faulty operation consistently behaves similarly to normal operations. Such a performance index can be used to differentiate the specific fault from other faults under which the performance index is out of the normal operating range. In this study, the integer matrix was generated based on the performance indices for faulty operation relative to normal operation except for the performance index\u2014the change rates of supply water flow S f . Absolute values of S f were considered by assigning \u2018+2\u2019 for values smaller than 0.1 and \u20181\u2019 otherwise. The fault matrix was based on the ground truth of different operation scenarios (either faulty operation or normal operation). Step 2 Any duplicate fault symptoms for the same fault or any fault symptoms with limited occurrence (e.g., five times or less) should be removed so that unique fault symptoms with high frequency are left for each fault. In this context, a fault symptom represents a particular pattern of signed integers for performance indices established in step 1. For all the training data in the case study, 39 symptoms representing different operation behaviors for normal or faulty operations were left after this process. The 39 symptoms were grouped into nine operation scenarios (normal operation and eight faulty operations, with stuck chilled water valve 0% as a new unknown fault). For example, after the duplicated symptoms or symptoms with less occurrence were removed, the fault CBV_ 50% had seven different unique symptoms left as summarized in Table 3 . The highlighted performance indices are those having consistent characteristics for all seven symptoms. The characteristics of performance indices including ΔC, Δf, and ΔT r-s were inconsistent over time. Step 3 This step involves the construction of the parameter matrix P . Each row of the matrix P contains a performance \u201csignature\u201d for a particular fault or for normal operation. The rows are initialized using fault symptoms from step 2 and then evolve through the optimization process. In initializing a row for a particular fault scenario, a single signature is established using the fault symptom results from step 2 by replacing any inconsistent fault features with a \u20180\u2019. A \u20180\u2019 represents a performance index that should not be considered as a fault feature during optimization. Applying this logic to the example of Table 3, a unique performance signature for CBV_50% was determined and is given in Table 4 . Step 4 This step involves the application of linear programming to determine an optimal parameter matrix P as described in Section 6.2. The optimization process eliminates performance indices that have fault features assigned a \u201c0\" (i.e., leads to inconsistent performance) or that aren't needed in producing unique performance signatures that differentiate between fault cases (i.e., needed for unique fault diagnoses). However, in order to provide redundancy, any performance index that has non-zero and non-identical fault features across the different faults is added as additional columns to the final parameter matrix. For the PCB system case study, the selected performance indices determined through optimization using the training data were S f , cusum_Δp, and cusum_ΔT sZAT based on optimization. Then, cusum_Δf was added for redundancy since cusum_Δf was non-zero and non-identical across the different faults in the parameter matrix P . The key signatures of the selected performance indices for the eight different faults are summarized in Table 5 . The selected performance indices were used to compose fault feature vector i . 7 Fault detection and diagnostic results This section develops the transfer function H for fault diagnosis of the passive chilled beam system and presents diagnosed results for both known and unknown faults. The four fault features presented in Table 5 represent normal operation and the eight known fault scenarios as well as the normal operation. As described earlier, 5-min interval data for the case study system were divided into training and testing data sets. The training data included 3456 data points (12 days) of normal operation and 288 data points (1 day) for each of the implemented faults. For the chilled water control valve at a fully closed position (CHV_0%) fault, the 288 training data points were used for applying the evolving learning FDD training method. The testing data included 3744 data points (13 days) of normal operation and 288 data points (1 day) for each fault type. The testing data were evenly divided into two data sets with equal numbers of data points: testing data for FDD without evolving and testing data for evolving transfer function H . 7.1 Fault detection and diagnostic results for known faults The training data set for normal operation and the eight known faults were used to train a GMR model as the transfer function H . The testing data for the FDD algorithm without evolving covers normal operation (1873 data points) and nine faults including CHV_0% (144 data points for each fault). It is important to note that the uncertainty thresholds defined in Eq. (9), Section 6.3 for determining whether a performance index behaves normally or is out of normal operating range affect the testing results for normal operation. Testing results for normal operation at different thresholds are summarized in Table 6 . As shown in Eq. (9), α is a coefficient for adjusting the threshold. α = 2 represents that the uncertainties of performance indices are two standard deviations of the performance indices. As the uncertainties increase from zero to two standard deviations, the accuracy for testing results of normal operations improved; false alarm rates for normal operations were reduced from 14.8% to 1.3% and the percentage of normal operation data categorized as an unknown operation was reduced from 25% to 0%. However, if the uncertainties were increased substantially, individual faults lost their fault signatures and the diagnosis accuracy was reduced. Table 7 shows fault diagnosis results of testing data under various faulty operations for the chilled beam system. For each fault, there were 144 data points in this testing. Testing data of individual faults except for the fault for the chilled water valve stuck at 0% (CHV_0%) were diagnosed with 100% accuracy. The fault diagnosis results are consistent with the three different uncertainty thresholds (α = 0, 1.0, and 2.0). As shown in Table 7, the testing data for unknown fault CHV_0% were all diagnosed as unknown/unseen states. Table 8 compares signatures of fault features for the nine individual faults including the unknown fault CHV_0%. Built upon Table 5, Table 7 shows that the signature for the fault CHV_0% is unique in comparison with other faults and thus this fault was categorized as an unknown fault with the testing data. If a fault is unknown, the fault diagnostic algorithm returns an unknown ID (e.g. \u201c0\u201d) different from any ID for normal operation or existing faults which represents neither normal operation nor existing faults. 7.2 Detection and diagnosis of an unknown fault The fault chilled water valve stuck at 0% (CHV_0%) was used to test the evolving learning-based transfer function H for fault diagnosis. Based on the testing results, without evolving, the fault was diagnosed as an unknown fault. Then 288 data points for the fault CHV_0% were used for evolving learning FDD training to update the transfer function H . Another testing data set including normal operation (1871 data points) and nine faults including CHV_0% (144 data points for each fault) were used to test the evolving feature of the FDD algorithm. The best matching component and the minimum Mahalanobis distance of the Gaussian mixture regression were used to evaluate the effectiveness of the evolving learning feature of the FDD algorithm. The best matching component is defined as the Gaussian component corresponding to the maximum non-zero probability density of each data. Mahalanobis distance M d (Eq. (10)) measures the distance between multivariate data and a Gaussian distribution. (10) M d , j = ( d − μ j ) T δ j − 1 ( d − μ j ) where d is the multivariate data point, μ j represents the mean of the jth Gaussian component, δ j represents the covariance matrix of the jth component. Figs. 7 and 8 illustrate the minimum Mahalanobis distance and best matching component for individual faults before and after evolving learning for the FDD algorithm, respectively. Besides the unknown ID returned from the FDD algorithm, measurements of an unknown fault are featured with no matching component and a large minimum Mahalanobis distance. Before the evolving learning, the fault CHV_0% has no matching component and a large minimum Mahalanobis distance among Gaussian components (538.5). After the evolving learning, covariance matrices of Gaussian components were updated. The best matching component (component 9) was identified for the fault CHV_0% and the minimum Mahalanobis distance was less than 1.0. The accuracy of FDD testing results using the evolving test data set was 100% for all the individual faults. 8 Conclusion This study represents the first in creating and applying an evolving learning-based FDD method for detecting and diagnosing common faults for HVAC systems. We used a passive chilled beam system to demonstrate the evolving learning-based FDD method. The FDD algorithm presented in this work accurately detected and diagnosed known faults and successfully diagnosed a new unknown fault after evolving. The evolving learning-based FDD method overcomes the limitation of the traditional FDD methods\u2014that learn from training data obtained under limited operating conditions, after which they stop learning\u2014by updating key parameters of the baseline model and the transfer function over time. The case study application of the method involved nine common faults for a passive chilled beam system that was implemented by overriding controls within the building control system. The performance of various operation scenarios for this system with the normal and faulty operations was trended for developing and testing the evolving learning-based fault detection and diagnosis algorithm. Eight of the nine faults were trained and tested as known fault types. These known faults were detected and diagnosed with an accuracy of 100%. The new fault was first tested without evolving and categorized as an unknown fault type. Measurements of an unknown fault are featured with the unknown ID returned from the FDD algorithm, no matching component, and a large minimum Mahalanobis distance with a value of 538.5. After evolving the transfer function by updating the key parameters of the Gaussian components, the best matching component was identified for the unknown fault, the minimum Mahalanobis distance was less than 1.0, and the unknown fault was diagnosed with 100% accuracy. We developed a novel feature selection method for FDD that was demonstrated using the passive chilled beam system. To enhance the transferability of the FDD algorithm to other systems, we created and utilized generalized performance indices for fault discrimination, including deviations between predictions (expectations) and measurements, relative differences between parameters, and features extracted from other performance indices such as cumulative differences or changes of parameters over time. An uncertainty threshold determining whether a performance index was within the range of normal operation influences false alarm rates. By increasing the uncertainty thresholds from zero to two standard deviations, false alarm rates for the normal operation were reduced from 14.8% to 1.3% and the percentage of normal operation data categorized as an unknown operation was reduced from 25% to 0%. However, if the thresholds are increased substantially, fault diagnosis accuracy is compromised due to the fact that individual faults lose their key signatures. Based on testing results, two standard deviations were selected as the uncertainty threshold to categorize performance indices into normal or faulty operations. When a new state (either an unseen fault or unseen normal operation) is identified by the algorithm, the FDD algorithm requires interaction from an experienced building operator for the assessment and determination of the new state. The evolvement process needs external new input data. The algorithm requires sufficient data to evolve the transfer function and thus to successfully diagnose a new fault. In the future, both the evolving learning-based FDD method and the unique feature selection method can be applied for other high-performance HVAC system types as well as for conventional systems such as variable air volume systems and rooftop units. The approach of creating performance indices for the passive chilled beam system can also be adopted for other HVAC systems. However, the set of performance indices and selected fault features should be unique for each type of HVAC system. The new FDD method was tested in a living laboratory in this study. Field implementations and continuous evaluation of the new FDD method should be carried out for demonstration and verification. Credit author statement Liping Wang: Conceptualization, Methodology, Formal analysis, Writing \u2013 original draft, Funding acquisition, James E. Braun: Conceptualization, Methodology, Writing \u2013 original draft, Sujit Dahal: Data curation. Declaration of competing interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:Liping Wang reports financial support was provided by National Science Foundation. Acknowledgment This study was supported by the National Science Foundation EPSCoR Research Infrastructure program under Grant No. 1929209. Any opinions, findings, and conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation. References [1] EIA How much energy is consumed in U.S. residential and commercial buildings? 2019 Available from: https://www.eia.gov/tools/faqs/faq.php?id=86&t=1 EIA. How much energy is consumed in U.S. residential and commercial buildings? 2019; Available from: https://www.eia.gov/tools/faqs/faq.php?id=86&t=1. [2] 2017 EIA. Electricity-Data-Summary Available from: https://www.eia.gov/electricity/data.php#summary EIA. Electricity-Data-Summary. 2017; Available from: https://www.eia.gov/electricity/data.php#summary. [3] EIA. U.S. Energy-related carbon dioxide emissions Available from: https://www.eia.gov/environment/emissions/carbon/pdf/2015_co2analysis.pdf 2015 EIA. U.S. Energy-Related Carbon Dioxide Emissions. 2015; Available from: https://www.eia.gov/environment/emissions/carbon/pdf/2015_co2analysis.pdf. [4] S. Katipamula M.R. Brambley Review article: methods of fault detection, diagnostics, and prognostics for building systems--A review, Part 1 HVAC R Res 11 1 2005 3 25 Katipamula, S. and M.R. Brambley, Review Article: Methods of Fault Detection, Diagnostics, and Prognostics for Building Systems--A Review, Part 1. HVAC&R Research, 2005. 11(1): p. 3-25. [5] T.M. Rossi J.E. Braun A statistical, rule-based fault detection and diagnostic method for vapor compression air conditioners HVAC R Res 3 1 1997 19 37 Rossi, T.M. and J.E. Braun, A statistical, rule-based fault detection and diagnostic method for vapor compression air conditioners. HVAC&R Research, 1997. 3(1): p. 19-37. [6] L.K. Norford Demonstration of fault detection and diagnosis methods for air-handling units (ASHRAE 1020-RP) HVAC R Res 8 1 2002 41 71 Norford, L.K., et al., Demonstration of fault detection and diagnosis methods for air-handling units (ASHRAE 1020-RP). HVAC&R Research, 2002. 8(1): p. 41-71. [7] W. Jin S. Li Tools for evaluating fault detection and diagnostic methods for air-handling units 2012 ASHRAE RP-1312) Jin, W. and S. Li, Tools for evaluating fault detection and diagnostic methods for air-handling units (ASHRAE RP-1312), 2012. [8] L. Wang P. Haves Monte Carlo analysis of the effect of uncertainties on model-based HVAC fault detection and diagnostics HVAC R Res 20 6 2014 Wang, L. and P. Haves, Monte Carlo Analysis of the Effect of Uncertainties on Model-based HVAC Fault Detection and Diagnostics HVAC&R Research, 2014. 20(6). [9] J. Schein Results from field testing of embedded air handling unit and variable air volume box fault detection tools 2006 National Institute of Standards and Technology Gaithersburg, MD Schein, J., Results from Field Testing of Embedded Air Handling Unit and Variable Air Volume Box Fault Detection Tools, 2006, National Institute of Standards and Technology: Gaithersburg, MD. [10] H. Summers C. Hilger fault detection and diagnostic software 2012 Pacific Gas and Electric Company Summers, H. and C. Hilger, Fault Detection and Diagnostic Software, 2012, Pacific Gas and Electric Company. [11] C. Chen Operating characteristics and efficiencies of an active chilled beam terminal unit under variable air volume mode Appl Therm Eng 85 2015 71 79 Chen, C., et al., Operating characteristics and efficiencies of an active chilled beam terminal unit under variable air volume mode. Applied Thermal Engineering, 2015. 85: p. 71-79. [12] R. Hu J.L. Niu Operation dynamics of building with radiant cooling system based on Beijing weather Energy Build 151 2017 344 357 Hu, R. and J.L. Niu, Operation dynamics of building with radiant cooling system based on Beijing weather. Energy and Buildings, 2017. 151: p. 344-357. [13] L. Wang S. Greenberg Window operation and impacts on building energy consumption Energy Build 92 2015 313 321 Wang, L. and S. Greenberg, Window operation and impacts on building energy consumption. Energy and Buildings, 2015. 92(0): p. 313-321. [14] P.T. May-Ostendorp Experimental investigation of model predictive control-based rules for a radiantly cooled office HVAC R Res 19 5 2013 602 615 May-Ostendorp, P.T., et al., Experimental investigation of model predictive control-based rules for a radiantly cooled office. HVAC&R Research, 2013. 19(5): p. 602-615. [15] L. Wang J. Braun S. Dahal An evolving learning method \u2014growing Gaussian mixture regression\u2014for modeling passive chilled beam systems in buildings Energy Build 2022 268 Wang, L., J. Braun, and S. Dahal, An evolving learning method -growing Gaussian mixture regression-for modeling passive chilled beam systems in buildings. Energy and Buildings, 2022. 268. [16] H. Bouchachia C. Vanaret Incremental learning based on growing Gaussian mixture models vol. 2 2011 Bouchachia, H. and C. Vanaret, Incremental Learning Based on Growing Gaussian Mixture Models. Vol. 2. 2011. [17] H.G. Sung Gaussian mixture regression and classification. PhD thesis. 2004 Rice University Houston, Texas Sung, H.G., Gaussian mixture regression and classification. PhD thesis., 2004, Rice University: Houston, Texas. [18] J.R. Hershey P.A. Olsen Approximating the Kullback leibler divergence between Gaussian mixture models IEEE international conference on acoustics, speech and signal processing - icassp vol. 7 2007 2007 Hershey, J.R. and P.A. Olsen. Approximating the Kullback Leibler Divergence Between Gaussian Mixture Models. in 2007 IEEE International Conference on Acoustics, Speech and Signal Processing - ICASSP '07. 2007. [19] A. Fijany F. Vatan New efficient algorithm for analyzing and optimizing the system of sensors 2006 IEEE Fijany, A. and F. Vatan. New Efficient Algorithm for Analyzing and Optimizing the System of Sensors. in IEEE. 2006. [20] F. Nejjari R. Sarrate A. Rosich Optimal sensor placement for Fuel Cell System diagnosis using BILP formulation Control & automation (MED) 2010 2010 18th Mediterranean Conference on Nejjari, F., R. Sarrate, and A. Rosich. Optimal sensor placement For Fuel Cell System diagnosis using BILP formulation. in Control & Automation (MED), 2010 18th Mediterranean Conference on. 2010. [21] M. Bagajewicz A. Fuxman A. Uribe Instrumentation network design and upgrade for process monitoring and fault detection AIChE J 50 8 2004 1870 1880 Bagajewicz, M., A. Fuxman, and A. Uribe, Instrumentation network design and upgrade for process monitoring and fault detection. AIChE Journal, 2004. 50(8): p. 1870-1880.",
+    "scopus-id": "85144026946",
+    "coredata": {
+        "eid": "1-s2.0-S0360544222032236",
+        "dc:description": "Traditional fault detection and diagnosis (FDD) methods learn from training data obtained under limited operating conditions, after which they stop learning. In this study, we developed an evolving learning-based FDD method for HVAC systems, which learns as the performance of a building system and its components changes. Specifically, an evolving learning algorithm\u2014growing Gaussian mixture regression\u2014is used to construct both a data-driven model representing normal performance and a transfer function for fault diagnosis. The evolving learning-based FDD method was demonstrated for detecting and diagnosing common faults of passive chilled beam systems. We employ generalized performance indices, such as the deviations between predictions (expectations) and measurements, the differences between two parameters, and other features extracted from parameters. A novel feature selection method was developed for selecting fault signatures. An uncertainty threshold determining whether a performance index was within the range of normal operation influences false alarm rates. By increasing the uncertainty thresholds from zero to two standard deviations, false alarm rates for normal operations were reduced from 14.8% to 1.3% and the percentage of normal operation data categorized as an unknown operation was reduced from 25% to 0%. Eight known faults were detected and diagnosed with an accuracy of 100%. A new fault was first categorized as an unknown fault before evolving. After evolving the transfer function by updating the key parameters of the Gaussian components, the unknown fault was also accurately diagnosed. The evolving learning-based FDD method and novel feature selection method can be employed for detecting and diagnosing common faults of other systems or subsystems in the built environment.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-02-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0360544222032236",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Wang, Liping"
+            },
+            {
+                "@_fa": "true",
+                "$": "Braun, James"
+            },
+            {
+                "@_fa": "true",
+                "$": "Dahal, Sujit"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0360544222032236"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0360544222032236"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0360-5442(22)03223-6",
+        "prism:volume": "265",
+        "articleNumber": "126337",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "An evolving learning-based fault detection and diagnosis method: Case study for a passive chilled beam system",
+        "prism:copyright": "© 2022 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03605442",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Evolving learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Fault detection and diagnosis"
+            },
+            {
+                "@_fa": "true",
+                "$": "Feature selection"
+            },
+            {
+                "@_fa": "true",
+                "$": "Passive chilled beam"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Energy",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "126337",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 February 2023",
+        "prism:doi": "10.1016/j.energy.2022.126337",
+        "prism:startingPage": "126337",
+        "dc:identifier": "doi:10.1016/j.energy.2022.126337",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "383",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "110211",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "427",
+            "@width": "266",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "113475",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "297",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31465",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "357",
+            "@width": "691",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "135375",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "297",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30502",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "224",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "120077",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "234",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "93598",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "233",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "93338",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "157",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73651",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "102",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "76304",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "121",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9870",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74429",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "122",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8842",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "92",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74918",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "133",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72402",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "132",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72877",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1697",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "331037",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1897",
+            "@width": "1181",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "298036",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1315",
+            "@width": "2371",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "166878",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1582",
+            "@width": "3059",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "531900",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1316",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "169683",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "992",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "459077",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1039",
+            "@width": "1712",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "229011",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1033",
+            "@width": "1712",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "233922",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13927",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5133",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19142",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "81557",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "75821",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25450",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20318",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5421",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16275",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3887",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12710",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "117562",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4738",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5221",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "31904",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "58194",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18715",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "49645",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9129",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11282",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10238",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "96288",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "96643",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4549",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9525",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "39963",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8924",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21493",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25370",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10807",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9593",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11703",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "42896",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14169",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5986",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5998",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "37624",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29800",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10443",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "80388",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12826",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6503",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22927",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7181",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12849",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6947",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "43328",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9301",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27762",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28124",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8223",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23328",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6586",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13638",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8279",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360544222032236-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1961042",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85144026946"
+    }
+}}

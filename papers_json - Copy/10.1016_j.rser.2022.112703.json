@@ -1,0 +1,1550 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85133758277",
+    "originalText": "serial JL 271969 291210 291731 31 Renewable and Sustainable Energy Reviews RENEWABLESUSTAINABLEENERGYREVIEWS 2022-07-09 2022-07-09 2022-07-09 2022-07-09 2024-01-22T18:58:58 1-s2.0-S1364032122005925 S1364-0321(22)00592-5 S1364032122005925 10.1016/j.rser.2022.112703 S300 S300.1 FULL-TEXT 1-s2.0-S1364032122X00117 2024-01-22T19:25:03.946331Z 0 0 20221001 20221031 2022 2022-07-09T11:12:38.611334Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast footnotes grantnumber grantsponsor grantsponsorid highlightsabst nomenclature primabst ref 1364-0321 13640321 true 167 167 C Volume 167 11 112703 112703 112703 202210 October 2022 2022-10-01 2022-10-31 2022 Original Research papers article fla © 2022 Published by Elsevier Ltd. INTELLIGENTOPTIMIZATIONFRAMEWORKNEARZEROENERGYCONSUMPTIONBUILDINGPERFORMANCEBASEDAHYBRIDMACHINELEARNINGALGORITHM WU X Nomenclature 1 Introduction 2 Preliminaries 2.1 Random forest 2.2 NSGA-III 3 Methodology 3.1 NZEB performance simulation calculation 3.1.1 Building performance simulation based on BIM-DB 3.1.2 Data set acquisition based on the orthogonal test 3.2 RF prediction model 3.2.1 Parameter selection and optimization 3.2.2 RF prediction performance evaluation 3.3 RF-NSGA-III multiobjective optimization model 3.3.1 Establish objective function and constraints 3.3.2 NSGA-III 3.3.3 Ideal point method 4 Case study 4.1 Case background 4.2 Data set acquisition of NZEB based on BIM-DB 4.2.1 Importing BIM model into DB and parameter setting 4.2.2 Orthogonal experimental design 4.2.3 Calculation of the optimization objectives 4.2.4 BIM-DB simulation results 4.3 Prediction of NZEB performance based on RF 4.3.1 Model parameter selection 4.3.2 Prediction and accuracy analysis 4.4 Multiobjective optimization based on RF-NSGA-III 4.4.1 Objective function 4.4.2 Constraint processing 4.4.3 RF-NSGA-III optimal solution set 4.4.4 Pareto-optimal solution selection 5 Discussion 5.1 Comparison of prediction accuracy 5.2 Effect analysis of the multiobjective optimization scheme 5.3 Comparative analysis of objective optimization schemes 6 Conclusion and future work Credit author statement Acknowledgements References VALDES 2021 102090 J CHERP 2011 75 88 A TIAN 2018 285 301 W SHIRINBAKHSH 2021 111118 M NASROLLAHZADEH 2021 103418 N YU 2016 524 534 Z CHEN 2021 126153 B ZHOU 2016 716 728 Z SHORT 2018 899 930 C GHADERIAN 2021 102440 M MSAOURIELBAT 2021 100834 A DERUBEIS 2018 131 145 T ZHANG 2021 116452 L CHAI 2020 109937 Q BI 2020 2973 2983 X YAO 2020 105093 H SHAO 2020 139761 Y ANHDUC 2020 121082 P LIU 2021 5003 5012 Y YE 2021 117453 Z LEUNG 2018 159 206 B HOULIHANWIBERG 2014 101 110 A BECCHIO 2015 173 187 C MOSTAVI 2017 606 615 E NEMATCHOUA 2014 687 699 M MOON 2016 1135 1144 J LIZHU 2020 B MULTIOBJECTIVEOPTIMIZATIONFORENERGYCONSUMPTIONDAYLIGHTINGTHERMALCOMFORTPERFORMANCERURALTOURISMBUILDINGSINNORTHCHINA SALATA 2017 61 76 F ASCIONE 2019 359 374 F FAN 2017 327 335 Y RISHOLT 2013 217 224 B DELGARM 2016 552 560 N HARKOUSS 2018 57 71 F SHI 2016 872 884 X ZHAO 2020 997 1017 J CHIKUMBO 2012 O APPROXIMATINGAMULTIDIMENSIONALPARETOFRONTFORALANDUSEMANAGEMENTPROBLEMAMODIFIEDMOEAEPIGENETICSILENCINGMETAPHOR GASPARCUNHA 2008 75 96 A KIM 2004 M SPEA2IMPROVINGPERFORMANCESTRENGTHPARETOEVOLUTIONARYALGORITHM2 KALYANMOYDEB 2014 F EVOLUTIONARYMANYOBJECTIVEOPTIMIZATIONALGORITHMUSINGREFERENCEPOINTBASEDNONDOMINATEDSORTINGAPPROACHPARTISOLVINGPROBLEMSBOXCONSTRAINTS JAIN 2014 602 622 H DEB 2014 577 601 K ISHIBUCHI 2016 3045 3052 H 2016IEEECONGRESSEVOLUTIONARYCOMPUTATIONCEC PERFORMANCECOMPARISONNSGAIINSGAIIIVARIOUSMANYOBJECTIVETESTPROBLEMS CAO 2020 118810 X WANG 2019 46 56 Y MKAOUER 2015 1 45 W ZHAI 2019 1190 1199 Y NADERI 2020 106570 E LIN 2016 336 346 Y PRADA 2018 814 826 A PRASAD 2006 181 199 A CASANOVA 2014 e98587 R LOU 2014 e86703 W MALEKIPIRBAZARI 2015 4621 4631 M CARRANZA 2015 60 70 E LIN 2021 102555 Y DING 2020 120751 Y HARKOUSS 2018 57 71 F HARMATHY 2016 302 317 N IHARA 2015 422 432 T JIN 2020 101883 B GAO 2016 1 13 J ZHAO 2020 104594 B HAO 2020 137870 J FANGER 1972 137870 P PHAM 2020 260 A QIAO 2020 Q IEEEPESIASPOWERAFRICACONFERENCE20207THANNUALIEEEPESIASPOWERAFRICACONFERENCEPACSUSTAINABLESMARTENERGYREVOLUTIONSFORPOWERINGAFRICA PREDICTINGBUILDINGENERGYCONSUMPTIONBASEDMETEOROLOGICALDATA SADAUSKIENE 2016 31 39 J HWANG 2020 114725 R ANHDUC 2020 121082 P LIU 2021 5003 5012 Y ZHANG 2016 1007 1014 B 2016IEEECONGRESSEVOLUTIONARYCOMPUTATIONCEC HYBRIDKNOWLEDGEBASEDEVOLUTIONARYMANYOBJECTIVEOPTIMIZATION LIU 2019 185239 185249 Q WU 2022 127132 X WUX2022X112703 WUX2022X112703XX 2024-07-09T00:00:00.000Z 2024-07-09T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Published by Elsevier Ltd. 2022-07-15T01:58:57.521Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined National Key R&D Program of China 2016YFC0800208 NKRDPC National Key Research and Development Program of China http://data.elsevier.com/vocabulary/SciValFunders/501100012166 http://sws.geonames.org/1814991/ National Natural Science Foundation of China 51378235 51778262 71571078 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Funding: This work was supported by the National Natural Science Foundation of China [grant numbers 51378235 , 71571078 , 51778262 ]; National Key R&D Program of China [grant number 2016YFC0800208 ]. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S1364-0321(22)00592-5 S1364032122005925 1-s2.0-S1364032122005925 10.1016/j.rser.2022.112703 271969 2024-01-22T19:25:03.946331Z 2022-10-01 2022-10-31 1-s2.0-S1364032122005925-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/MAIN/application/pdf/4dcff55757a951a96056066de7f74f48/main.pdf main.pdf pdf true 7214284 MAIN 16 1-s2.0-S1364032122005925-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/PREVIEW/image/png/f68f9b779d1474a70d627f9292c9473b/main_1.png main_1.png png 59765 849 656 IMAGE-WEB-PDF 1 1-s2.0-S1364032122005925-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr6/DOWNSAMPLED/image/jpeg/6cfbacd4134ddf73efa7d98c26fad045/gr6.jpg gr6 gr6.jpg jpg 276342 1020 664 IMAGE-DOWNSAMPLED 1-s2.0-S1364032122005925-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr5/DOWNSAMPLED/image/jpeg/b5c8cf4db840a22f9e56ee33e05e32bc/gr5.jpg gr5 gr5.jpg jpg 124921 407 798 IMAGE-DOWNSAMPLED 1-s2.0-S1364032122005925-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr7/DOWNSAMPLED/image/jpeg/dffaeb8d5e38c8166ed3889063957765/gr7.jpg gr7 gr7.jpg jpg 215649 763 669 IMAGE-DOWNSAMPLED 1-s2.0-S1364032122005925-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr2/DOWNSAMPLED/image/jpeg/2fbc68a639fc3dc81286477527572d03/gr2.jpg gr2 gr2.jpg jpg 112664 399 533 IMAGE-DOWNSAMPLED 1-s2.0-S1364032122005925-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr1/DOWNSAMPLED/image/jpeg/0ca0fd591214d61829c4331664ff669f/gr1.jpg gr1 gr1.jpg jpg 166205 436 624 IMAGE-DOWNSAMPLED 1-s2.0-S1364032122005925-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr4/DOWNSAMPLED/image/jpeg/b6ef775250dd5a0c99668d131cbe916b/gr4.jpg gr4 gr4.jpg jpg 151346 404 793 IMAGE-DOWNSAMPLED 1-s2.0-S1364032122005925-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr3/DOWNSAMPLED/image/jpeg/2fd4331b2c466702983c52d5d76d900b/gr3.jpg gr3 gr3.jpg jpg 132542 234 389 IMAGE-DOWNSAMPLED 1-s2.0-S1364032122005925-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr6/THUMBNAIL/image/gif/fffa9cd50d177c02ab84801f6b33bcd7/gr6.sml gr6 gr6.sml sml 73891 163 106 IMAGE-THUMBNAIL 1-s2.0-S1364032122005925-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr5/THUMBNAIL/image/gif/9647fdca06205d66b5149393eb19d615/gr5.sml gr5 gr5.sml sml 74333 112 219 IMAGE-THUMBNAIL 1-s2.0-S1364032122005925-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr7/THUMBNAIL/image/gif/bf1261e9478881582be23095f5dd7591/gr7.sml gr7 gr7.sml sml 75935 164 144 IMAGE-THUMBNAIL 1-s2.0-S1364032122005925-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr2/THUMBNAIL/image/gif/ca1800b5f67542a53eeb424b62330b49/gr2.sml gr2 gr2.sml sml 75758 164 219 IMAGE-THUMBNAIL 1-s2.0-S1364032122005925-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr1/THUMBNAIL/image/gif/cd45739cd638cfd4f5c6ee78c98356bf/gr1.sml gr1 gr1.sml sml 80856 153 219 IMAGE-THUMBNAIL 1-s2.0-S1364032122005925-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr4/THUMBNAIL/image/gif/7bea91ed1dcaa5d5ef301efe03f32a27/gr4.sml gr4 gr4.sml sml 77293 112 219 IMAGE-THUMBNAIL 1-s2.0-S1364032122005925-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr3/THUMBNAIL/image/gif/34e7781cffe4489ac981043b8517d2bd/gr3.sml gr3 gr3.sml sml 100394 132 219 IMAGE-THUMBNAIL 1-s2.0-S1364032122005925-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr6/HIGHRES/image/jpeg/5f62b0c78f0146a667f5c469cec99ecc/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 1975277 4516 2940 IMAGE-HIGH-RES 1-s2.0-S1364032122005925-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr5/HIGHRES/image/jpeg/9baae27866da2f5008173f63aef878f7/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 490219 1802 3532 IMAGE-HIGH-RES 1-s2.0-S1364032122005925-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr7/HIGHRES/image/jpeg/4d33246579e5d1f1449671696245f995/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 1278762 3378 2962 IMAGE-HIGH-RES 1-s2.0-S1364032122005925-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr2/HIGHRES/image/jpeg/651f613bc7367f93a78ca15872ea22e2/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 366681 1767 2362 IMAGE-HIGH-RES 1-s2.0-S1364032122005925-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr1/HIGHRES/image/jpeg/bcf591588e2bfefa327810a90f0bfe20/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 713773 1930 2762 IMAGE-HIGH-RES 1-s2.0-S1364032122005925-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr4/HIGHRES/image/jpeg/5531bcc6e8cc1a744967e3c2b16b2799/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 780713 1788 3511 IMAGE-HIGH-RES 1-s2.0-S1364032122005925-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/gr3/HIGHRES/image/jpeg/e7a08d95ca991a200d6d96a28010b06c/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 596808 1034 1722 IMAGE-HIGH-RES 1-s2.0-S1364032122005925-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/f4db250e6aaf96285df82c6d8b82aa97/si14.svg si14 si14.svg svg 7965 ALTIMG 1-s2.0-S1364032122005925-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/2472ffc1d59df51a661f0e2456cbf536/si4.svg si4 si4.svg svg 8990 ALTIMG 1-s2.0-S1364032122005925-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/692307b55b69acd000d1f33629e8b3b7/si33.svg si33 si33.svg svg 129859 ALTIMG 1-s2.0-S1364032122005925-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/a9bd3970385f9ca703bd1bd5b41676cc/si38.svg si38 si38.svg svg 12496 ALTIMG 1-s2.0-S1364032122005925-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/7bb0151e465da4f77d21c5abe5d416cd/si42.svg si42 si42.svg svg 12135 ALTIMG 1-s2.0-S1364032122005925-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/ddf196af020ecfbe0e7d3916dfca0e3e/si43.svg si43 si43.svg svg 28056 ALTIMG 1-s2.0-S1364032122005925-si98.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/8d237c0b6d1dc8691292b8be588e6f78/si98.svg si98 si98.svg svg 17269 ALTIMG 1-s2.0-S1364032122005925-si70.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/e959f47387fd280528536ebfa6219390/si70.svg si70 si70.svg svg 77376 ALTIMG 1-s2.0-S1364032122005925-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/9d2901e45a25b43f858f9df2bbdabb2a/si46.svg si46 si46.svg svg 15310 ALTIMG 1-s2.0-S1364032122005925-si79.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/0c25d773f2cc0ee6b79f3ed2b5473143/si79.svg si79 si79.svg svg 19205 ALTIMG 1-s2.0-S1364032122005925-si87.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/5ff120fb235dffca3ae3c07f50b31f2a/si87.svg si87 si87.svg svg 6519 ALTIMG 1-s2.0-S1364032122005925-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/312f40a49ecd7d503242394e49d7fc75/si7.svg si7 si7.svg svg 10105 ALTIMG 1-s2.0-S1364032122005925-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/20c5fc9f61aefc68ab4799d0c2a1c008/si31.svg si31 si31.svg svg 43394 ALTIMG 1-s2.0-S1364032122005925-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/ead13eab5f27f0f8c554fc06a5471385/si8.svg si8 si8.svg svg 11624 ALTIMG 1-s2.0-S1364032122005925-si110.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/62e843f8f8452277267ddd10f80f438f/si110.svg si110 si110.svg svg 24116 ALTIMG 1-s2.0-S1364032122005925-si115.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/78e55c17e8113eb928961326de51d181/si115.svg si115 si115.svg svg 53073 ALTIMG 1-s2.0-S1364032122005925-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/19cb89162adad437e905acb16a8147c2/si65.svg si65 si65.svg svg 33095 ALTIMG 1-s2.0-S1364032122005925-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/811f34359af90ad5c0db4dbf466d212d/si50.svg si50 si50.svg svg 18311 ALTIMG 1-s2.0-S1364032122005925-si75.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/e7ef1b683bf48506167e22f7d4dde88a/si75.svg si75 si75.svg svg 19602 ALTIMG 1-s2.0-S1364032122005925-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/b80973270c3535dee98395a99517a5a3/si34.svg si34 si34.svg svg 87451 ALTIMG 1-s2.0-S1364032122005925-si105.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/78c4a0529385ca3c6151e66a2e0d4553/si105.svg si105 si105.svg svg 18678 ALTIMG 1-s2.0-S1364032122005925-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/48b3523702c3464486a1270895feccf9/si6.svg si6 si6.svg svg 10729 ALTIMG 1-s2.0-S1364032122005925-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/5f3fb0ed62fe535e4e6478bf7074eda0/si66.svg si66 si66.svg svg 13206 ALTIMG 1-s2.0-S1364032122005925-si82.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/ca5f428b491d448903e64dc6943c71b8/si82.svg si82 si82.svg svg 27211 ALTIMG 1-s2.0-S1364032122005925-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/c40216493a9283f594cae270792a6d6c/si13.svg si13 si13.svg svg 10432 ALTIMG 1-s2.0-S1364032122005925-si102.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/a4ee0dc6e0c1e846d2a68f28b1602836/si102.svg si102 si102.svg svg 31440 ALTIMG 1-s2.0-S1364032122005925-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/69a233b698ba727aae3f7e2d04de8627/si24.svg si24 si24.svg svg 13365 ALTIMG 1-s2.0-S1364032122005925-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/493089deff635df81d99f616ccb72c57/si58.svg si58 si58.svg svg 14418 ALTIMG 1-s2.0-S1364032122005925-si67.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/d7a10b765468cf38ade2a31239690e66/si67.svg si67 si67.svg svg 13002 ALTIMG 1-s2.0-S1364032122005925-si71.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/44cfb52b6080604ef3a9fa02ab646201/si71.svg si71 si71.svg svg 22226 ALTIMG 1-s2.0-S1364032122005925-si80.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/d14d64639ce06dcce9dabb5441744511/si80.svg si80 si80.svg svg 61697 ALTIMG 1-s2.0-S1364032122005925-si97.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/950bdb870730a77bd458312b239f1a5f/si97.svg si97 si97.svg svg 15222 ALTIMG 1-s2.0-S1364032122005925-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/c2e76fa747defbdf88b67a7022b8510c/si55.svg si55 si55.svg svg 105519 ALTIMG 1-s2.0-S1364032122005925-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/68d9a72693a3986ff6cf2ad3836959f6/si63.svg si63 si63.svg svg 16069 ALTIMG 1-s2.0-S1364032122005925-si116.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/89687b822185dfa0253f9e9257554924/si116.svg si116 si116.svg svg 17677 ALTIMG 1-s2.0-S1364032122005925-si81.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/359796f4b9ca5edd4eb8a359be8e2c9c/si81.svg si81 si81.svg svg 35995 ALTIMG 1-s2.0-S1364032122005925-si89.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/3df169168d6b76731155ad6cc845b1bc/si89.svg si89 si89.svg svg 4694 ALTIMG 1-s2.0-S1364032122005925-si99.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/0cb37f00b0755cfa25fce2cb746afbe6/si99.svg si99 si99.svg svg 28707 ALTIMG 1-s2.0-S1364032122005925-si74.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/2c0e1120d476fc252ef34b15d7e7ad1b/si74.svg si74 si74.svg svg 63899 ALTIMG 1-s2.0-S1364032122005925-si112.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/f6adff14e35bbf6d660d92157339a35e/si112.svg si112 si112.svg svg 11871 ALTIMG 1-s2.0-S1364032122005925-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/468cd0e9ade0336973e2176b63340a25/si48.svg si48 si48.svg svg 10898 ALTIMG 1-s2.0-S1364032122005925-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/a1403199db184f07b63d9ecb96081e9e/si26.svg si26 si26.svg svg 38747 ALTIMG 1-s2.0-S1364032122005925-si91.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/de45c7aea265ea5bb1a87fdccdf4a9d2/si91.svg si91 si91.svg svg 11429 ALTIMG 1-s2.0-S1364032122005925-si68.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/a637de9a5f28c25eaf397c47f5587295/si68.svg si68 si68.svg svg 19195 ALTIMG 1-s2.0-S1364032122005925-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/dc1ae3dd20ae3266f72e0dcfd2b7cdc6/si17.svg si17 si17.svg svg 14134 ALTIMG 1-s2.0-S1364032122005925-si117.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/4fbcb8abaf388a235a78a232e89c7cc0/si117.svg si117 si117.svg svg 17060 ALTIMG 1-s2.0-S1364032122005925-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/77c1d9d37cd927c911bca61a0cfd9aa7/si44.svg si44 si44.svg svg 11030 ALTIMG 1-s2.0-S1364032122005925-si72.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/fedbfc04cd7485af6c796762eda5e58c/si72.svg si72 si72.svg svg 17748 ALTIMG 1-s2.0-S1364032122005925-si111.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/1f93137c5d9ded41a8559f487934e36d/si111.svg si111 si111.svg svg 28748 ALTIMG 1-s2.0-S1364032122005925-si108.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/6d22f69ec926202b2c7b732769e2ad13/si108.svg si108 si108.svg svg 21866 ALTIMG 1-s2.0-S1364032122005925-si95.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/c0abf0bbcc54810a7beadbf7171c412c/si95.svg si95 si95.svg svg 27901 ALTIMG 1-s2.0-S1364032122005925-si104.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/0e582206012ae00fcbd760712feaa0f4/si104.svg si104 si104.svg svg 29734 ALTIMG 1-s2.0-S1364032122005925-si85.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/668c2822afb3dc418b2793cdf0188409/si85.svg si85 si85.svg svg 16221 ALTIMG 1-s2.0-S1364032122005925-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/11d86ed843336bf5a0b2812c15f149f4/si23.svg si23 si23.svg svg 27109 ALTIMG 1-s2.0-S1364032122005925-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/1d7cfd5428248da991a87925c088a2b3/si35.svg si35 si35.svg svg 60694 ALTIMG 1-s2.0-S1364032122005925-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/88618348adb28f126f367fcc5997e86b/si54.svg si54 si54.svg svg 21250 ALTIMG 1-s2.0-S1364032122005925-si83.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/7db2a6eaeb3fa14db09181a1ee4a4ee6/si83.svg si83 si83.svg svg 68660 ALTIMG 1-s2.0-S1364032122005925-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/424cc6a1ac17cedd2a307067d37f6d4e/si62.svg si62 si62.svg svg 9909 ALTIMG 1-s2.0-S1364032122005925-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/761d1774020d8c48526ae652a0ec941a/si29.svg si29 si29.svg svg 46990 ALTIMG 1-s2.0-S1364032122005925-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/7720c9fb0c772c51c47f8e6169b0eb02/si60.svg si60 si60.svg svg 20225 ALTIMG 1-s2.0-S1364032122005925-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/1c46b9a004053022621c544bd4ad2296/si28.svg si28 si28.svg svg 48286 ALTIMG 1-s2.0-S1364032122005925-si78.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/7dabfab1f0fcb4715ab2e8683c0a0db9/si78.svg si78 si78.svg svg 13095 ALTIMG 1-s2.0-S1364032122005925-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/81ca0e354210fb0c5c4b4373ff35ce9f/si40.svg si40 si40.svg svg 66304 ALTIMG 1-s2.0-S1364032122005925-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/316707f8b3472917a0d123d965118358/si1.svg si1 si1.svg svg 8794 ALTIMG 1-s2.0-S1364032122005925-si106.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/f32376dc3b3be963a0bfe3122e78f0e6/si106.svg si106 si106.svg svg 30380 ALTIMG 1-s2.0-S1364032122005925-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/32dd98ba0147095c834c6cb7ebd90ea6/si37.svg si37 si37.svg svg 11497 ALTIMG 1-s2.0-S1364032122005925-si118.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/9a5fe896306e3dd2966122c86602c2f7/si118.svg si118 si118.svg svg 9167 ALTIMG 1-s2.0-S1364032122005925-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/c772460a32a2a5ad62de76a8cc599b53/si52.svg si52 si52.svg svg 73704 ALTIMG 1-s2.0-S1364032122005925-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/c745fcdeb4899a894a67015c15c7343d/si47.svg si47 si47.svg svg 22497 ALTIMG 1-s2.0-S1364032122005925-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/af4e7274d3db5fbce709d0be36744387/si56.svg si56 si56.svg svg 28879 ALTIMG 1-s2.0-S1364032122005925-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/ac97a4a25b10bb3b457fa8ba918d0dfe/si61.svg si61 si61.svg svg 12842 ALTIMG 1-s2.0-S1364032122005925-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/f4b0e90f508ca64f0d7e1cc9b8facb2d/si39.svg si39 si39.svg svg 13026 ALTIMG 1-s2.0-S1364032122005925-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/7d9c33307817fb85be4f9f88c912a50d/si21.svg si21 si21.svg svg 43710 ALTIMG 1-s2.0-S1364032122005925-si101.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/cd8cbe9221a094bf0fa4293e09b46a75/si101.svg si101 si101.svg svg 92110 ALTIMG 1-s2.0-S1364032122005925-si103.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/1a035b0f76b093f72c20d4980c56769d/si103.svg si103 si103.svg svg 24582 ALTIMG 1-s2.0-S1364032122005925-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/7eb16034a96e77f772509e9f541aa392/si22.svg si22 si22.svg svg 14489 ALTIMG 1-s2.0-S1364032122005925-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/4584e14e6610acac698db2fe3c9683af/si32.svg si32 si32.svg svg 92599 ALTIMG 1-s2.0-S1364032122005925-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/cd620472118b284a7c78a122b746e062/si10.svg si10 si10.svg svg 12541 ALTIMG 1-s2.0-S1364032122005925-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/ceb643023d8ca2b04432fcfbc3ae9364/si69.svg si69 si69.svg svg 28998 ALTIMG 1-s2.0-S1364032122005925-si76.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/239ec745f31e7e273f12f98da62689f8/si76.svg si76 si76.svg svg 44097 ALTIMG 1-s2.0-S1364032122005925-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/7a2816e6ee8a6917564af0f3343840dd/si12.svg si12 si12.svg svg 9817 ALTIMG 1-s2.0-S1364032122005925-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/693bab368a12ad0fb1c4fb85d289b5b1/si25.svg si25 si25.svg svg 28916 ALTIMG 1-s2.0-S1364032122005925-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/5a0fd4be19c234cb7a58d4e385df97b8/si53.svg si53 si53.svg svg 44643 ALTIMG 1-s2.0-S1364032122005925-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/0012e8f7d442c6eb9a8b3750cbddda59/si18.svg si18 si18.svg svg 19030 ALTIMG 1-s2.0-S1364032122005925-si73.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/961a7a10520a4477419c5b85c109253f/si73.svg si73 si73.svg svg 62087 ALTIMG 1-s2.0-S1364032122005925-si77.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/7646ffbc11ba83966a514fc47b0bbc2d/si77.svg si77 si77.svg svg 31207 ALTIMG 1-s2.0-S1364032122005925-si113.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/b7fe99f181e644e2ee6e2f796537360c/si113.svg si113 si113.svg svg 14271 ALTIMG 1-s2.0-S1364032122005925-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/cdd39f35add920fceb43d98ffba59790/si16.svg si16 si16.svg svg 45377 ALTIMG 1-s2.0-S1364032122005925-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/5888380b2b10e45146383746e0532bf0/si49.svg si49 si49.svg svg 21356 ALTIMG 1-s2.0-S1364032122005925-si100.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/7e65f1590201d6b6e1d9dd1a13050ac3/si100.svg si100 si100.svg svg 27004 ALTIMG 1-s2.0-S1364032122005925-si88.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/5cd7e75de6f5eeaf0f309595ff3a4a93/si88.svg si88 si88.svg svg 4471 ALTIMG 1-s2.0-S1364032122005925-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/61d6e74c0130f7620af166fb25e21c0c/si3.svg si3 si3.svg svg 11457 ALTIMG 1-s2.0-S1364032122005925-si107.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/2ed555be3db8ceb348cb0590783475b3/si107.svg si107 si107.svg svg 30211 ALTIMG 1-s2.0-S1364032122005925-si114.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/9447d6e876b34cbda6dfad8985ba053a/si114.svg si114 si114.svg svg 28866 ALTIMG 1-s2.0-S1364032122005925-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/76eb91f80feaa187e887941d351e4426/si36.svg si36 si36.svg svg 5879 ALTIMG 1-s2.0-S1364032122005925-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/712a51fc01ba5fd1c24a64585a16bc41/si2.svg si2 si2.svg svg 10835 ALTIMG 1-s2.0-S1364032122005925-si96.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/a61edd855f86cd2a293d3722f8b57f76/si96.svg si96 si96.svg svg 13096 ALTIMG 1-s2.0-S1364032122005925-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/aa8116f2e4ecfdd6237431cb2d01acd8/si45.svg si45 si45.svg svg 13414 ALTIMG 1-s2.0-S1364032122005925-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/814ec417505ef676d60315532a74894c/si57.svg si57 si57.svg svg 16778 ALTIMG 1-s2.0-S1364032122005925-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/2cfcd9fd96ca15bbe248f27454d47224/si9.svg si9 si9.svg svg 11554 ALTIMG 1-s2.0-S1364032122005925-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/2292cc03bfda724b78ab948d63c892f7/si59.svg si59 si59.svg svg 9679 ALTIMG 1-s2.0-S1364032122005925-si86.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/d735a0f37170c8d433cb013832430ad7/si86.svg si86 si86.svg svg 23131 ALTIMG 1-s2.0-S1364032122005925-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/e345190ba63242e0adeb7232f0dfab02/si41.svg si41 si41.svg svg 12273 ALTIMG 1-s2.0-S1364032122005925-si90.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/30cefc739224b1472644c77fb62c450e/si90.svg si90 si90.svg svg 28813 ALTIMG 1-s2.0-S1364032122005925-si84.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/77312c941270be6e4ec80393a99068d2/si84.svg si84 si84.svg svg 57990 ALTIMG 1-s2.0-S1364032122005925-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/32cca3be81fa8a648bdaef724de9979a/si19.svg si19 si19.svg svg 26235 ALTIMG 1-s2.0-S1364032122005925-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/6a281a861cb368fb040d92df83c66e1f/si27.svg si27 si27.svg svg 13373 ALTIMG 1-s2.0-S1364032122005925-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/199a7d069474b209513f83568dcec50b/si15.svg si15 si15.svg svg 9719 ALTIMG 1-s2.0-S1364032122005925-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/abce3981caefb3af8ce98d003f4bd52a/si11.svg si11 si11.svg svg 7770 ALTIMG 1-s2.0-S1364032122005925-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/d50a38779b77a8925837e892ffd984ec/si64.svg si64 si64.svg svg 21801 ALTIMG 1-s2.0-S1364032122005925-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/a22344c978595d4b0a3fb7b132af91ae/si51.svg si51 si51.svg svg 72386 ALTIMG 1-s2.0-S1364032122005925-si109.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/1b268ca8ceb49ace77a3ad9815a38b9a/si109.svg si109 si109.svg svg 25059 ALTIMG 1-s2.0-S1364032122005925-si92.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/32da57e2335f99a8d935bf717a790154/si92.svg si92 si92.svg svg 7157 ALTIMG 1-s2.0-S1364032122005925-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/e069d72dbe83bb756f17c65f55a6c1a7/si5.svg si5 si5.svg svg 10898 ALTIMG 1-s2.0-S1364032122005925-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/3c343cc3e3d369f34f579b3db8ae61b7/si20.svg si20 si20.svg svg 18232 ALTIMG 1-s2.0-S1364032122005925-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/8b106ae09f3db5f018b69fc4a0ae9613/si30.svg si30 si30.svg svg 40285 ALTIMG 1-s2.0-S1364032122005925-si93.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/5cc056d76684f229674e0d33bfe494c5/si93.svg si93 si93.svg svg 22345 ALTIMG 1-s2.0-S1364032122005925-si94.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1364032122005925/STRIPIN/image/svg+xml/b05dca05ceb75cb7d182600b4230cf3f/si94.svg si94 si94.svg svg 43982 ALTIMG 1-s2.0-S1364032122005925-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10Q47L7V4RX/MAIN/application/pdf/f53890e06abc8fd356d3759e0530bf20/am.pdf am am.pdf pdf false 1095269 AAM-PDF RSER 112703 112703 S1364-0321(22)00592-5 10.1016/j.rser.2022.112703 Fig. 1 Multiobjective optimization method framework of NZEB based on BIM-DB and RF-NSGA-III. Fig. 1 Fig. 2 NSGA-III flow chart. Fig. 2 Fig. 3 Teaching building. Fig. 3 Fig. 4 BIM-DB teaching building model. Fig. 4 Fig. 5 Parameter selection of the RF model: (a) life cycle energy consumption; (b) life cycle air conditioning energy consumption; (c) life cycle cost; (d) life cycle carbon emissions; (e) annual average thermal comfort. Fig. 5 Fig. 6 Prediction results. Fig. 6 Fig. 7 Comparison of prediction accuracy. Fig. 7 Table 1 RF-NSGA-III pseudo code. Table 1 Algorithm 1: Normalize the operator in NSGA-III with RandomForest Input: S t , Z s (structured points) or Z a (supplied points) Output: f h , Z r (reference points in the normalized hyperplane) 1 for each objective m do 2 for each s ∈ S t do f m ( s ) = R a n d o m F o r e s t ( s ) ; 3 Compute ideal point: z j m i n = m i n s ∈ S t f m ( s ) 4 Translate objectives: f j \u2032 ( s ) = f j ( s ) − z j m i n , ∀ s ∈ S t 5 Compute extreme points z j , m a x = s : a r g m i n S ∈ S t A S F ( s , w j ), where w j = ( ∈ , \u2026 , ∈ ) T , ∈ = 10 − 6 , and w j j = 1 6 end 7 Compute intercepts a j for j = 1 , \u2026 , M 8 Normalize objectives ( f n ) 9 If Z a is given, then 10 Map each (aspiration) point in the normalized hyperplane, and save the points in the set Z r 11 else 12 Z r = Z s 13 end Algorithm 2: Associate individuals to reference points in NSGA-III with RandomForest Input: S t , Z r Output: π ( s ∈ S t ) , d ( s ∈ S t ) 1 foreach reference point z ∈ Z r do 2 Compute reference line w = z 3 end 4 foreach s ∈ S t do 5 foreach w ∈ Z r do 6 Compute d ⊥ ( s , w ) = s − w ⊥ s / | | w | | ) using the predicting value of s's fitness from RandomForest 7 end 8 Assign π ( s ) = w : a r g m i n w ∈ Z r d ⊥ ( s , w ) 9 Assign d ( s ) = d ⊥ ( s , π ( s ) ) 10 end Table 2 Model basic parameter setting. Table 2 Basic parameter Value Refrigeration starting temperature（°C） 28 Initial heating temperature (°C) 12 Personnel density（people/m2） 0.2 Teaching equipment power（W/m2） 5 Lighting power（W/m2） 9 Natural draft（ac/h） 3 Working hours（day） 256 Table 3 Value range of building design parameters of the NZEB code in hot summer and cold winter areas. Table 3 Building design parameters Recommended range of values Building design parameters Recommended range of values x 1 (/) 0.167\u20130.45 x 6 (/) 0.3\u20130.75 x 2 (W/(m2·K)) 0.15\u20130.40 x 7 (/) 0.1\u20130.44 x 3 (W/(m2·K)) 0.15\u20130.35 x 8 (ac/h) 0.1\u20130.6 x 4 (W/(m2·K)) 1.0\u20132.2 x 9 (°C) 16\u201321 x 5 (/) 0.3\u20130.75 x 10 (°C) 23\u201328 Table 4 Horizontal values of orthogonal design. Table 4 Design parameters Units Training set Test set x 1 / 0.17 0.23 0.29 0.35 0.40 0.45 0.20 0.33 0.45 x 2 W/(m2·K) 0.15 0.20 0.25 0.30 0.35 0.40 0.15 0.27 0.40 x 3 W/(m2·K) 0.15 0.19 0.23 0.27 0.31 0.35 0.15 0.25 0.35 x 4 W/(m2·K) 1.03 1.24 1.48 1.62 1.86 2.20 1.00 1.60 2.20 x 5 / 0.311 0.395 0.488 0.579 0.652 0.749 0.30 0.53 0.75 x 6 / 0.326 0.401 0.497 0.575 0.648 0.747 0.32 0.54 0.74 x 7 / 0.12 0.18 0.24 0.31 0.37 0.44 0.10 0.27 0.44 x 8 ac/h 0.1 0.2 0.3 0.4 0.5 0.6 0.1 0.35 0.60 x 9 °C 16 17 18 19 20 21 16 18 21 x 10 °C 23 24 25 26 27 28 23 26 28 Table 5 Simulation results of the orthogonal test of the training set. Table 5 Variables Scheme x 1 x 2 x 3 x 4 x 5 x 6 x 7 x 8 x 9 x 10 f 1 f 2 f 3 f 4 f 5 1 0.35 0.15 0.35 1.48 0.749 0.575 0.12 0.2 19 27 115.83 31.93 30.45 71.52 0.08 2 0.45 0.25 0.35 1.86 0.395 0.648 0.12 0.3 19 23 116.21 31.25 30.57 71.21 0.33 3 0.4 0.2 0.31 2.2 0.395 0.497 0.12 0.5 19 26 116.54 31.98 30.49 71.60 0.59 4 0.35 0.35 0.27 1.48 0.488 0.326 0.12 0.3 21 26 116.57 31.16 30.55 71.21 0.33 5 0.45 0.15 0.23 2.2 0.652 0.401 0.31 0.2 21 27 116.88 32.97 30.45 71.52 0.04 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 \u2026 66 0.4 0.3 0.35 1.62 0.488 0.401 0.37 0.1 17 24 120.91 35.69 30.77 73.78 0.17 67 0.45 0.4 0.19 1.24 0.579 0.326 0.37 0.2 20 23 120.96 35.41 30.82 73.66 0.06 68 0.17 0.4 0.35 2.2 0.749 0.747 0.44 0.6 21 28 121.04 36.49 30.76 74.26 0.49 69 0.23 0.2 0.27 1.03 0.488 0.747 0.37 0.2 16 26 121.30 36.73 30.63 74.34 0.18 70 0.45 0.35 0.15 1.03 0.488 0.401 0.44 0.1 21 24 121.92 38.91 30.80 75.67 0.37 Table 6 Simulation model results of the orthogonal test. Table 6 Variables Units Parameter types Training set Test set Min Max AVG Min Max AVG x 1 / Input 0.17 0.45 0.31 0.20 0.45 0.33 x 2 W/(m2·K) Input 0.15 0.40 0.28 0.15 0.40 0.26 x 3 W/(m2·K) Input 0.15 0.35 0.25 1.00 2.20 1.60 x 4 W/(m2·K) Input 1.03 2.20 1.56 0.15 0.35 0.24 x 5 / Input 0.31 0.75 0.53 0.30 0.75 0.51 x 6 / Input 0.33 0.75 0.52 0.32 0.74 0.53 x 7 / Input 0.12 0.44 0.27 0.10 0.44 0.29 x 8 ac/h Input 0.10 0.60 0.37 0.10 0.60 0.35 x 9 °C Input 16.00 21.00 18.39 16.00 21.00 18.33 x 10 °C Input 23.00 28.00 25.56 23.00 28.00 25.56 f 1 GWh Output 115.83 121.92 118.79 118.05 120.46 119.09 f 2 GWh Output 31.16 38.91 33.93 32.98 36.75 34.54 f 3 kw YUAN Output 30.43 30.82 30.63 30.53 30.72 30.62 f 4 kt Output 71.21 75.70 72.77 72.27 74.31 73.15 f 5 / Output 0.003 0.64 0.31 0.03 0.46 0.21 Table 7 Variable constraints. Table 7 Building design parameters Units Constraint condition Window wall ratio / 0.167 ≤ x 1 ≤ 0.45 External wall heat transfer coefficient W/(m2·K) 0.15 ≤ x 2 ≤ 0.5 Roof heat transfer coefficient W/(m2·K) 0.15 ≤ x 3 ≤ 0.35 Outer window heat transfer coefficient W/(m2·K) 1 ≤ x 4 ≤ 2.2 External wall solar radiation absorption coefficient / 0.3 ≤ x 5 ≤ 0.75 Roof solar radiation absorption coefficient / 0.3 ≤ x 6 ≤ 0.75 Outer window solar radiation absorption coefficient / 0.1 ≤ x 7 ≤ 0.44 Airtightness ac/h 0.1 ≤ x 8 ≤ 0.6 Air conditioning heating setting temperature °C 16 ≤ x 9 ≤ 21 Air conditioning cooling setting temperature °C 23 ≤ x 10 ≤ 28 Table 8 Pareto optimal solution set. Table 8 VariableSerial number x 1 x 2 x 3 x 4 x 5 x 6 x 7 x 8 x 9 x 10 f 1 f 2 f 3 f 4 f 5 1 0.34 0.18 0.18 1.92 0.51 0.50 0.13 0.17 20.95 25.58 102.59 17.95 29.93 63.39 0.14 2 0.45 0.20 0.34 2.12 0.43 0.68 0.15 0.52 20.68 26.15 102.19 17.76 29.91 63.21 1.03 3 0.28 0.15 0.18 1.70 0.44 0.43 0.19 0.16 20.83 26.71 102.84 18.20 29.91 63.52 0.12 4 0.38 0.16 0.26 1.48 0.51 0.48 0.14 0.23 20.89 26.69 102.63 18.06 29.89 63.41 0.17 5 0.38 0.17 0.34 2.12 0.65 0.68 0.13 0.32 20.53 23.00 102.24 17.75 29.91 63.10 0.41 6 0.28 0.16 0.30 1.59 0.42 0.42 0.13 0.20 17.50 27.30 102.45 17.24 29.72 63.16 0.14 7 0.44 0.20 0.18 1.70 0.38 0.52 0.13 0.17 20.43 25.97 102.62 17.86 29.93 63.33 0.16 8 0.35 0.28 0.17 2.07 0.34 0.39 0.24 0.19 20.99 25.55 103.14 18.03 30.01 63.45 0.12 9 0.38 0.16 0.26 1.48 0.51 0.51 0.14 0.23 20.93 26.69 102.61 18.06 29.89 63.40 0.17 10 0.44 0.15 0.30 1.98 0.42 0.70 0.15 0.24 18.70 26.15 102.20 17.82 29.89 63.17 0.23 Table 9 Building design scheme optimization. Table 9 Building design parameters Units Parameter types Initial scheme Optimization scheme Variation Percentage change x 1 / Input 0.550 0.275 0.275 50% x 2 W/(m2·K) Input 0.648 0.160 0.488 75% x 3 W/(m2·K) Input 0.428 0.297 0.131 31% x 4 W/(m2·K) Input 2.000 1.585 0.415 21% x 5 / Input 0.700 0.422 0.278 40% x 6 / Input 0.600 0.423 0.177 30% x 7 / Input 0.360 0.129 0.231 64% x 8 ac/h Input 1.000 0.204 0.796 80% x 9 °C Input 20.0 17.5 2.5 13% x 10 °C Input 24.0 27.3 3.3 14% f 1 GWh Output 123.21 102.45 20.75 17% f 2 GWh Output 37.28 17.24 20.04 54% f 3 kw YUAN Output 31.02 29.72 1.29 4% f 4 kt Output 74.74 63.155 11.59 16% f 5 / Output 0.810 0.140 0.67 83% Table 10 Comparison of the energy saving rate between the benchmark scheme and the multiobjective optimization scheme. Table 10 Building design parameters Unit Parameter types Benchmark building Optimized building x 1 / Input 0.25 0.275 x 2 W/(m2·K) Input 1.00 0.160 x 3 W/(m2·K) Input 0.50 0.297 x 4 W/(m2·K) Input 3.00 1.585 x 5 / Input 0.75 0.422 x 6 / Input 0.75 0.423 x 7 / Input 0.48 0.129 x 8 ac/h Input 1.00 0.204 x 9 °C Input 20 17.5 x 10 °C Input 24 27.3 f 1 GWh Output 128.83 102.45 f 2 GWh Output 42.68 17.240 f 3 kw yuan Output 30.96 29.72 f 4 kt Output 77.84 63.15 f 5 / Output 0.840 0.140 η e / / 21.250% Table 11 Objective optimization results of different optimization schemes. Table 11 Objective optimization Unit Parameter types Three objectives Four objectives Five objectives Original scheme f 1 + f 4 +| f 5 | f 1 + f 3 + f 4 +| f 5 | f 1 + f 2 + f 3 + f 4 +| f 5 | x 1 / Input 0.376 0.425 0.275 0.55 x 2 W/(m2·K) Input 0.191 0.178 0.16 0.648 x 3 W/(m2·K) Input 0.176 0.263 0.297 0.428 x 4 W/(m2·K) Input 1.525 1.088 1.585 2 x 5 / Input 0.385 0.387 0.422 0.7 x 6 / Input 0.684 0.679 0.423 0.6 x 7 / Input 0.133 0.15 0.129 0.36 x 8 ac/h Input 0.209 0.17 0.204 1 x 9 °C Input 17 17.8 17.5 20 x 10 °C Input 28 27.4 27.3 24 f 1 GWh Output 101.34 103.04 102.45 123.21 f 2 GWh Output 20.83 19.08 17.24 37.28 f 3 kw yuan Output 30.85 29.81 29.72 31.02 f 4 kt Output 62.97 63.99 63.15 74.74 f 5 / Output 0.05 0.2 0.14 0.81 Table 12 The proportion of each goal and comprehensive goal optimization. Table 12 Goal optimization Optimization percentage Comprehensive optimization percentage Energy- saving rate of body f 1 f 2 f 3 f 4 f 5 Three-objectives f 1 + f 4 +| f 5 | 100% 82% 13% 100% 100% 79.0% 21.34% Four-objectives f 1 + f 3 + f 4 +| f 5 | 92% 91% 93% 91% 80% 89.5% 20.02% Five-objectives f 1 + f 2 + f 3 + f 4 +| f 5 | 95% 100% 100% 98% 88% 96.3% 21.25% Intelligent optimization framework of near zero energy consumption building performance based on a hybrid machine learning algorithm Xianguo Wu a 1 Zongbao Feng a 1 Hongyu Chen b ∗ Yawei Qin a c ∗∗ Shiyi Zheng a Lei Wang a Yang Liu d e Miroslaw J. Skibniewski f a School of Civil Engineering & Mechanics, Huazhong University of Science and Technology, Wuhan, Hubei, 430074, China School of Civil Engineering & Mechanics Huazhong University of Science and Technology Wuhan Hubei 430074 China School of Civil Engineering & Mechanics, Huazhong University of Science and Technology, Wuhan, Hubei, 430074, China b School of Civil and Environmental Engineering, Nanyang Technological University, 50 Nanyang Avenue, 639798, Singapore School of Civil and Environmental Engineering Nanyang Technological University 50 Nanyang Avenue 639798 Singapore School of Civil and Environmental Engineering, Nanyang Technological University, 50 Nanyang Avenue, 639798, Singapore c Wuhan Huazhong University of Science and Technology Civil Engineering Testing Center, Wuhan, Hubei, 430074, China Wuhan Huazhong University of Science and Technology Civil Engineering Testing Center Wuhan Hubei 430074 China Wuhan Huazhong University of Science and Technology Civil Engineering Testing Center, Wuhan, Hubei, 430074, China d Wuhan Univ, Zhongnan Hosp of Wuhan University, Wuhan, 430071, PR China Wuhan Univ Zhongnan Hosp of Wuhan University Wuhan 430071 PR China .Wuhan Univ, Zhongnan Hosp of Wuhan University, Wuhan, 430071, PR China e School of Economics and Management, Wuhan University, Wuhan, 430072, PR China School of Economics and Management Wuhan University Wuhan 430072 PR China School of Economics and Management, Wuhan University, Wuhan, 430072, PR China f Department of Civil & Environmental Engineering, University of Maryland, College Park, MD, 20742-3021, USA Department of Civil & Environmental Engineering University of Maryland College Park MD 20742-3021 USA Department of Civil & Environmental Engineering, University of Maryland, College Park, MD, 20742-3021, USA ∗ Corresponding author. School of Civil and Environmental Engineering, Nanyang Technological University, 50 Nanyang Avenue, 639798, Singapore. School of Civil and Environmental Engineering Nanyang Technological University 50 Nanyang Avenue 639798 Singapore ∗∗ Corresponding author. School of Civil Engineering & Mechanics, Huazhong University of Science and Technology, Wuhan, Hubei, 430074, China. School of Civil Engineering & Mechanics Huazhong University of Science and Technology Wuhan Hubei 430074 China 1 Contributed to this work equally. The realization of a near zero energy consumption building (NZEB) is one of the important goals to promote the sustainable development of green buildings. To achieve the goal of NZEB and to allow for factors such as building comfort, environmental protection and cost, an intelligent optimization framework that combines Building Information Modeling DesignBuilder(BIM-DB) and random forest-nondominated sorting genetic algorithm-III (RF-NSGA-III) is proposed to study the multiobjective optimization of NZEB performance. The data in this paper are simulated by BIM-DB through orthogonal experimental design. RF is used to establish the complex relationship between building design parameters and NZEB performance. After the accuracy of the model is verified by the goodness of fit (R2) and the root mean square error (RMSE), the obtained nonlinear mapping relationship is taken as the fitness function of NSGA-III, and the multiobjective Pareto optimal solution set is obtained by using the proposed RF-NSGA-III intelligent optimization framework. Taking a teaching building in Wuhan as an example, the effectiveness of this method is verified. The results show that (1) the RF prediction accuracy is good, the RMSE range for the performance of NZEB is 0.015\u20130.035, and the R2 range is 0.91\u20130.93. (2) After optimization, the energy-saving rate of the building body is 21.25%, which meets the near zero energy consumption standard. (3) The proposed RF-NSGA-III intelligent optimization framework can achieve multiobjective optimization, and the comprehensive optimization rate of five objectives is the best compared with three and four objectives. Accordingly, this intelligent method that combines BIM-DB and RF-NSGA-III provides an effective idea for the design optimization of NZEB. Keywords Near zero energy consumption building(NZEB) Building information model DesignBuilder (BIM-DB) Random forest(RF) Nondominated sorting genetic algorithm-III(NSGA-III) Ultramultidimensional objective optimization Nomenclature x 1 Window wall ratio x 2 External wall heat transfer coefficient, W/(m2·K) x 3 Roof heat transfer coefficient, W/(m2·K) x 4 Outer window heat transfer coefficient, W/(m2·K) x 5 External wall solar radiation absorption coefficient x 6 Roof solar radiation absorption coefficient x 7 Outer window solar radiation absorption coefficient x 8 Airtightness, ac/h x 9 Air conditioning heating setting temperature, °C x 10 Air conditioning cooling setting temperature, °C f 1 Life cycle energy consumption, GWh f 2 Life cycle air conditioning energy consumption, GWh f 3 Life cycle cost, kwYUAN f 4 Life cycle carbon emissions, kt f 5 Annual average thermal comfort RF Random forest NSGA-III Nondominated sorting genetic algorithm-III NZEB Near zero energy consumption building 1 Introduction The overall situation of global energy is not optimistic [1], and as the proportion of urban population growth continues to expand, energy consumption will increase, which forces countries to carry out a structural reform of energy consumption [2]. In the global industry, the construction industry accounts for a large proportion of energy consumption, and annual carbon dioxide emissions exceed 30% of total emissions [3]. Building and developing energy-saving buildings and improving building efficiency have become the premise of the rapid growth of the world economy and the key point of environmental protection policy. With the stimulation of energy and environmental protection policies worldwide, the timely concept of NZEB has been proposed and developed as a practical and effective solution [4]. At present, there are three ways to achieve NZEB: passive technology, active design technology and the use of renewable energy to reduce building energy consumption. Optimizing the design parameters of the building envelope is the key to reducing the load [5]. In addition, in hot summer and cold winter areas, the cooling and heating load of air conditioning in summer and winter has become an important part of building energy consumption [6]. Therefore, in hot summer and cold winter areas, the reasonable optimization design of building envelope design parameters and air conditioning operation parameters is of great significance to reduce building energy consumption and develop NZEB. Obtaining accurate and effective data sets is the basis of research on building performance optimization [7]. Some studies obtain data by investigating or monitoring existing buildings. For example, Zhou obtained the energy consumption data of a ZEB office in Tianjin through investigation and compared it with the design energy consumption to analyze the performance difference [8]. Short obtained the air temperature and energy consumption data of the 23 story tower in Hangzhou, China, through monitoring and simulated it in EnergyPlus [9]. The data acquisition cycle of this approach is long, and a certain scale of data needs to be obtained to avoid accidental deviation. However, 3D simulation calculation software can quickly obtain a large amount of ideal target data. Ghaderian used EnergyPlus to calculate the experimental energy consumption results and optimized building energy consumption and thermal comfort through an agent model and advanced algorithm [10]. M'saouri used TRNSYS to calculate the building energy consumption of Moroccan Street buildings under solar radiation and analyzed the influence of the building surface size on absorbed radiation [11]. The data acquisition method is flexible and fast, which is very suitable for the design optimization of the proposed building. Therefore, 3D simulation calculation software is selected to obtain building optimization target data. After establishing the BIM model, it is imported into DesignBuilder [12]. A simulation analysis is carried out to obtain the output results of each optimization target and obtain effective data sample sets to provide support for subsequent building design optimization. However, the data acquisition method based on BIM-DB has a large workload and low efficiency when generating a large amount of data. A more intelligent method is needed to quickly obtain the complex nonlinear relationship between building design parameters and building energy consumption to efficiently and accurately predict the building performance under different parameter combinations. With the rapid development of computer technology, machine learning algorithms have been widely used in building prediction research and other fields in recent years [13]. Machine learning has excellent self-learning ability and can quickly find optimization solutions, so it can be used to solve complex nonlinear problems [14]. Among the commonly used machine learning algorithms, RF has the advantages of few parameters, a strong generalization ability and a strong anti-overfitting ability, and it has strong advantages in solving nonlinear problems. Therefore, RF is also used for prediction and analysis in fields such as medical treatment [15], climate research [16], and environmental science [17]. In the construction field, Pham compares the performance of RF, M5P and RT by establishing a prediction model of the building energy consumption mode. The results show that RF has better prediction performance [18]. Liu used RF to achieve a high-precision prediction of building energy consumption and proved that RF has obvious advantages in prediction through a model comparison [19]. Ye used RF to predict the hourly building energy, which verified the superiority of RF in building energy prediction [20]. Accordingly, RF is an effective and reliable building energy consumption prediction method. In this paper, RF is used to reflect the nonlinear mapping relationship between building design parameters and building performance, which provides a reference for the design optimization of NZEB. Although reducing energy consumption is the key to achieving NZEB, other objectives need to be considered in its application. The more prominent impacts include carbon emissions, human living experience and cost. (1) Carbon emissions. Existing studies show that existing buildings consume approximately 30% of energy and may lead to nearly 30% of carbon emissions [21]. Therefore, controlling carbon emissions is also one of the goals of NZEB. Wiberg discussed the possibility of achieving net zero carbon emissions in residential buildings with an all-electric energy supply in Norway [22]. In a case study of NZEB, Becchio found that carbon emissions were reduced by approximately 40% in the process of achieving zero energy consumption [23]. (2) People's living experience. Satisfactory comfort has gradually become an important inspection index of building design [24], and it embodies the feasibility of NZEBs [25]. Moon developed a control algorithm based on an artificial neural network adaptive model to improve the thermal comfort and building energy efficiency of residential buildings [26]. Li considered the interaction among energy consumption, indoor lighting and thermal comfort and obtained the building design scheme of residents in northern China with comprehensive performance improvement after optimization [27]. (3) Cost. The energy awareness of the construction industry is becoming increasingly stronger, but the implementation of a series of measures to improve energy efficiency may be limited by economic factors. The lack of a sufficient understanding of the cost leads to the weak acceptance willingness of investors, homeowners and customers [28]. To make an energy-saving strategy more convincing, it is necessary to take economic indicators into account [29]. San optimized the building structure to improve building energy efficiency and economic benefits at the same time [30]. Rihsolt weighed the performance of energy, economy and quality and proposed a reference transformation scheme for Norwegian residential buildings to achieve the goal of zero energy consumption buildings [31]. In general, to carry out effective and practical NZEB design while also considering energy consumption factors, carbon emissions, thermal comfort and cost are important indicators to measure the environmental, social and economic performance of buildings. The synchronous optimization of these properties is an important guarantee for the application and popularization of NZEB [32,33]. Therefore, five following objectives of near zero energy consumption are considered in this paper: building energy consumption, air conditioning energy consumption, cost, carbon emission and thermal comfort. However, based on existing research, it is difficult to move beyond the three basic building design optimization objectives, which is mainly caused by the performance limitation of the optimization algorithm. At present, the NSGA-II [34,35] is widely used to solve two-objective and three-objective optimization problems, but in many practical scenarios, there are usually four or more ultramultidimensional optimization objectives [36]. The increase in optimization objectives brings many challenges to the performance of the optimization algorithm. (1) The number of nondominated solutions increases exponentially, and the search process slows [37]. (2) The calculation index of maintaining diversity is too complex, and the calculation cost is high [38]. (3) It is difficult to visualize the super multidimensional frontier, and it is difficult to carry out subsequent decision-making and performance evaluations. Therefore, based on the framework of NSGA-II, Deb introduced widely distributed reference points instead of congestion to maintain population diversity and obtained the new generation of the NSGA-III algorithm, which can improve the first two problems to a certain extent [39]. Deb applied NSGA- III to existing and new test problems with three to 15 goals. It is proved that in all such problems, NSGA- III method can show better convergence and obtain the optimal solution set [40,41]. In addition, Ishibuchi used four completely different types of multiobjective test problems such as DTLZ1-4 to evaluate NSGA- III. The results show that for a distance minimization test problem of five or more targets, the advantage of NSGA- III is significantly higher than that of NSGA-II [42]. Accordingly, NSGA-III performs better in the optimization of three or more objectives. At present, the NSGA-III has been applied in many fields and has achieved certain results. For example, Cao used the NSGA-III to optimize the five objectives of energy conservation, emission reduction, SO2 emission reduction and cost, which proved the effectiveness of the NSGA-III in ultramultidimensional objective optimization in the field of industrial emission reduction [43]. Wang applied the NSGA-III to the iron and steel industry and optimized seven objectives, such as energy consumption and cost [44]. Mkaouer proposed a multiobjective search method based on NSGA-III, which was applied to the optimization of software systems [45]. This reflects the outstanding advantages of this method in the ultramultidimensional objective optimization problem. The algorithm has excellent performance, a fast search speed and a stable convergence process. Therefore, NSGA-III is used in this paper to study the ultramultidimensional objective optimization of NZEB. When performing multiobjective optimization for NZEB with NSGA-III, it is necessary to set objective functions to evaluate the fitness of individual samples, speeding up the convergence process to search for the optimal solution. Some research has adapted empirical functions or combined simulation software to set objective functions. Zhai took the empirical equations as the objective functions of NSGA-II to perform multiobjective optimization of an office [46]. Naderi performed multiobjective optimization for the control parameters of sunshade blinds with NSGA-II, whose objective functions were set by combining TRNSYS with empirical equations [47]. In this way, there were some obvious limitations: the empirical equation cannot be applied to different types of buildings, and the computational cost of simulation analysis software under large-scale samples is unacceptable. Using intelligent algorithms to establish a proxy model as the objective function could compensate for the former's shortcomings and improve optimization efficiency. Lin developed the office building envelope energy performance and configuration model as a proxy model, combined with tabu search to optimize the building envelope, saving nearly 41% of the budget [48]. Prada separately adapted GRFM, RBFN, MARS, and SVM to establish a proxy model in building design optimization, and all of them obtained considerable Pareto frontiers [49]. As shown in this research, proxy models based on intelligent algorithms, which are experts in mining the inherent characteristics of data, can accurately fit the mapping relationship between decision parameters and objectives, saving considerable calculation costs and improving efficiency. Among these existing intelligent algorithms, random forest (RF), as a relatively new machine learning model, has strong data-mining capabilities and improves the prediction accuracy of the machine learning model with little additional computational burden [50]. At present, RF has been applied in many fields, such as medical health [51], biological science [52], social governance [53], and mining [54], which indicates its outstanding performance in dealing with multidimensional variable problems. Therefore, to achieve the prediction of multiple objectives, the mapping relationship between decision parameters and objectives with RF is established, which will be used to set up the objective functions, and a multiobjective optimization method based on RF-NSGA-III is proposed. Several problems need to be considered in this research as follows: (1) How can an effective data set of objectives be obtained? (2) How can the mapping relationship between decision variables and objectives be established? (3) How can optimization be performed to obtain the optimal building design? To solve these problems, an intelligent multiobjective optimization framework based on BIM-DB and RF-NSGA-III is proposed, in which a data set of objectives is obtained with BIM-DB to train the RF model and establish the mapping relationship for objective functions of NSGA-III, performing the multiobjective optimization of building energy consumption. The novelties of this research are reflected in the following three aspects: (1) A multiobjective intelligent algorithm that can simultaneously optimize building energy consumption, carbon emission, cost and thermal comfort is proposed that improves the practicability of the building optimization scheme. (2) The establishment of the RF prediction model can realize the high-precision prediction of building energy consumption and other target results and can provide an accurate nonlinear mapping function for optimization. (3) An RF-NSGA-III hybrid intelligent method is developed that can predict and optimize multidimensional performance, such as building energy consumption. This study is an exploration of the application of the ultramultidimensional optimization method in the field of NZEB and has good guiding significance for the design, management and operation of NZEB. Overall, the structure of this research is organized as follows. Section 2 introduces related theories. Section 3 describes the process of obtaining data sets, predicting building energy consumption, and achieving the multiobjective optimization of building energy consumption. Section 4 shows practical engineering application. Section 5 discusses the advantages of this method. Section 6 summarizes this research and looks forward to future research. 2 Preliminaries 2.1 Random forest RF was proposed by Leo Breiman in 2001. It is a new combined classifier algorithm based on the bagging algorithm and cart algorithm. RF has a strong data mining ability and high prediction accuracy, is not prone to fitting problems, and has strong adaptability to data sample sets. It is praised by Iverson as one of the best algorithms at present [50]. RF uses bootstrap resampling technology to extract samples, establish K decision trees, and segment all decision trees. K decision trees constitute a random forest [73]. The RF algorithm has the following four steps. (1) The idea of bagging is used to conduct random sampling with replacement in the original data set to form multiple sample sets. (2) Assuming that the number of features in the sample is M, m features are randomly selected from all the features when training the decision tree, and the minimum Gini impurity principle is used for segmentation to establish the decision tree. The expression of the minimum Gini impurity principle is as follows: (1) x i = 1 − ∑ i = 1 m p （ i ） 2 where p ( i ) is the proportion of the number of class-i data samples in the training data set. (3) The above process is repeated K times until K decision trees are generated and combined to form an RF. (4) The output results of the RF are determined by majority vote or averaged. The prediction result h i ( x ) of predictor h ( x , θ k ) of each decision tree is recorded to obtain the prediction set. The final prediction results H ( x ) can be expressed as: (2) H ( x ) = 1 k ∑ i = 1 k h i ( x ) When extracting the training sample set, the unselected data are called out-of-bag data, and the error rate of the out-of-bag data of each decision tree is O O B i and i = 1,2,3 , \u2026 , k . A characteristic variable X j ， j = 1,2,3 , \u2026 , M is randomly replaced to form a new out-of-pocket data error rate O O B i \u2032 = 1,2,3 , \u2026 , k . The error rate of out-of-bag data before and after replacement is compared and the importance of the corresponding variables with the increase value of M j of the average error rate is measured: (3) M j = 1 N ∑ i = 1 N ( O O B i \u2032 − O O B i ) 2.2 NSGA-III NSGA-III has been improved based on the original NSGA and NSGA-II. It is an algorithm to optimize multiobjective problems by solving the Pareto optimal solution set. Different from the NSGA-II, the NSGA-III does not use the method of selecting remaining individuals through crowding distance but widely distributes reference points to maintain population diversity. Deb designed an elite retention strategy based on the reference point to retain those nondominated and close to the reference point, which improves the search efficiency of excellent individuals and maintains the diversity of the population so that the algorithm has a good ability to search the Pareto frontier in super multidimensional optimization [39]. The NSGA-III performs adaptive normalization before population member screening. First, an ideal point is constructed based on the values of all individuals in the target dimensions: (4) z - = ( z 1 m i n , z 2 m i n , \u2026 , z M m i n ) where z 1 min , z 2 min , \u2026 , z M min is the minimum value of each optimization function. Then, the value of the individual population in the target dimension is converted: (5) f i \u2032 ( X ) = f i ( X ) − z i m i n Afterward, the extreme point of each dimension is found through the ASF function operation: (6) A S F ( X , W ) = m a x i = 1 M f i \u2032 ( X ) / w i Finally, the m-dimensional hyperplane composed of M extreme value vectors is normalized according to the following formula: (7) f i n ( X ) = f i \u2032 ( X ) a i − z i m i n f i ( X ) − z i m i n a i − z i m i n , f o r i = 1,2 , \u2026 , M . 3 Methodology In this paper, an ultramultidimensional objective intelligent optimization framework for NZEB performance based on BIM-DB and RF-NSGA-III is proposed. First, the sample data set based on BIM-DB is obtained. In this paper, 10 input factors of building envelope parameters and air conditioning setting parameters are selected, and the orthogonal experimental scheme is established by using AllParis software. By establishing the BIM model and importing it into DB simulation software, the orthogonal experimental schemes are simulated one-by-one by using DB, and the required five output parameters are obtained to construct the sample data set of this paper. Second, an RF prediction model is established. After selecting the RF super parameters, the training set in the sample data set is used to train the RF model and establish the RF prediction model. Then R2 and RMSE are used to evaluate the prediction accuracy. Third, RF-NSGA-III is used for multiobjective optimization. The RF prediction model in step 2 is taken as the fitness function of NSGA-III. After constraining the input variables, the RF-NSGA-III multiobjective intelligent optimization model is established to obtain the Pareto optimal solution set. The detailed description is shown in Fig. 1 . 3.1 NZEB performance simulation calculation 3.1.1 Building performance simulation based on BIM-DB Using BIM to establish a building model is the basis of NZEB performance simulation calculations. DesignBuilder software developed on the basis of EnergyPlus is used for simulation calculation. The software can simulate and analyze the overall consumption of building heating, refrigeration, lighting, ventilation and daylighting and obtain the simulation and analysis results of thermal comfort, material cost and carbon emissions. Before simulation analysis, various factors affecting the analysis results need to be considered. For NZEB, the influence of building envelope design parameters on energy consumption is obvious [55]. The structure of the building envelope is an important factor affecting the energy exchange inside and outside the building [56]. An building envelope with high thermal performance is the key to minimizing the space heat load of NZEB residences [57]. The optimization of building envelope parameters can significantly improve the control of building energy consumption [58,59]. In hot summer and cold winter areas, heating in winter and cooling in summer and the setting of building air conditioning systems have a significant impact on building cooling and heating loads. Air conditioning energy consumption accounts for a high proportion of the annual primary energy consumption of buildings. Operating parameters and controllers are important factors affecting air conditioning energy consumption [60,61]. Therefore, the building envelope parameters and air conditioning system are selected as decision-making parameters in this paper. After preliminary research, they were determined to be the window wall ratio, external wall heat transfer coefficient, roof heat transfer coefficient, outer window heat transfer coefficient, external wall solar radiation absorption coefficient, roof solar radiation absorption coefficient, outer window solar radiation absorption coefficient, airtightness, air conditioning heating setting temperature, and air conditioning cooling setting temperature. After importing the BIM model into DesignBuilder, the simulation results of life cycle energy consumption, life cycle air conditioning energy consumption, life cycle cost, life cycle carbon emissions, and annual average thermal comfort are obtained. 3.1.2 Data set acquisition based on the orthogonal test Because the multifactor problem is studied in this paper, if a comprehensive test is carried out, then the workload is very large. According to the principle of balance, an orthogonal experimental design can select some typical and representative points from the comprehensive test points that are comparable with one other and that can reflect the overall situation. Compared with comprehensive tests, reliable results can be obtained through fewer tests, which greatly reduces the complexity of the test [62]. First, the value range of each selected parameter is determined according to various building design codes, and the parameter value range is divided into a reasonable level of appropriate numbers. Then, the orthogonal experimental design table of a building simulation is obtained through AllPairs software. According to the obtained orthogonal table, the index parameters in each test scheme are input into DesignBuilder for building simulation, and the building simulation results are output as the training set and test set of machine learning in subsequent prediction and optimization. 3.2 RF prediction model 3.2.1 Parameter selection and optimization The setting of parameters in RF will have a direct impact on the prediction performance of the model. A good prediction effect can be achieved only when the parameters of the model are adjusted to an appropriate value. N_ estimators is the maximum number of iterations of the weak learner, which represents the number of trees in the random forest and affects the prediction performance of the RF model. If there are too few trees in the model, that is, the n_estimators are too small, there will be underfitting. If there are too many trees, that is, the n_estimators are too large, not only will the amount of calculation be too large, but it is also easy to lead to overfitting. Max_features represent the maximum number of features to be considered when dividing. The smaller max_features are, the more different the trees in the random forest will be. However, if the max_features are too small (set to 1), it will be impossible to choose which feature to test when dividing. 3.2.2 RF prediction performance evaluation The prediction accuracy of the RF model is verified by the root mean square error (RMSE) and goodness of fit (R2). RMSE reflects the dispersion of samples. When the model fitting effect is better, its value is closer to 0. The value range of R2 is 0\u20131. When the model fitting effect is better, its value is closer to 1. Each index is calculated by using the following equation: (8) R M S E = ∑ i = 1 n ( y a − y p ) 2 n (9) R 2 = 1 − ∑ i = 1 n ( y a − y p ) 2 ∑ i = 1 n ( y a − y a \u203e ) 2 where n is the number of samples, y a is the actual value, y \u203e a is the average value of the actual value, and y p is the predicted value. 3.3 RF-NSGA-III multiobjective optimization model 3.3.1 Establish objective function and constraints During multiobjective optimization, it is necessary to set the objective function for each optimization objective. When predicting each optimization objective by using the RF algorithm in Section 3.2, the nonlinear mapping relationship between the established building envelope parameters and the air conditioning system settings to each optimization objective is used as the objective function. The objective function can be characterized by the output function of the RF algorithm: (10) min f m ( R F ( x 1 , x 2 , \u2026 , x n ) ) where f m is the output function of each optimization objective and x n is each decision variable. To obtain reasonable optimization results, it is necessary to set constraints for each building design parameter studied with reference to relevant specifications. The setting form of the general constraints is as follows: (11) b i l ≤ x i ≤ b i u where x i is the building design parameter and b i l and b i n are the upper and lower limits of the constraints, respectively. 3.3.2 NSGA-III NSGA-III is a new method based on the original NSGA and NSGA-II. It can be used for ultramultidimensional objective optimization and improve the performance of NZEB in multiple dimensions. The NSGA-III flow is briefly described as follows, and Fig. 2 is the NSGA-III flow chart. Table 1 shows the pseudocode of the key steps when RF and NSGA-III are combined. 3.3.3 Ideal point method NSGA-III obtains a set of optimal solutions consistent with Pareto optimal state decision variables rather than the unique optimal solution. To find the optimal solution, the ideal point method is used to calculate the distance. The ideal point refers to the point composed of the optimal value that corresponds to the optimal value of each target on the Pareto front. Taking the five-objective optimization as an example, the distance between each solution point and the ideal point in the Pareto front is calculated. The calculation formula is as follows: (12) U n = [ ( x p a r e t o − x E p o int ) x E p o int ] 2 + [ ( y p a r e t o − y E p o int ) y E p o int ] 2 + [ ( z p a r e t o − z E p o int ) z E p o int ] 2 + [ ( w p a r e t o − w E p o int ) w E p o int ] 2 + [ ( v p a r e t o − v E p o int ) v E p o int ] 2 where ( x p a r e t o , y p a r e t o , z p a r e t o , w p a r e t o , v p a r e t o ) is the coordinate that corresponds to the optimal Pareto front and ( x E p o int , y E p o int , z E p o int , w E p o int , v E p o int ) is the coordinate that corresponds to the ideal point. After calculating the distance between each point in the optimal solution set and the ideal point, the point with the minimum distance is the optimal solution U o p t : (13) U o p t = min ( U n ) 4 Case study 4.1 Case background In Wuhan, China, a teaching building of a university has five floors, 177 m long, 64.6 m wide, 24 m high, and 4.2 m high. The floor area of the building is 40318 square meters and the floor area ratio is 1.21. Completed in the shape of \u201cHui\u201d, it is hollow and divided into zone n in the north and zone s in the south. The classrooms are symmetrically arranged (See Fig. 3 ). It is planned to be equipped with 32 conventional classrooms and 80 ladder classrooms, including air conditioning, an HVAC system and multimedia equipment. The whole building uses electricity as the only energy source, regardless of coal, natural gas and other energy sources. A central air conditioning system is the only equipment for buildings to regulate indoor temperature. All room blocks are divided into classrooms, teachers' lounges, corridors and toilets. The classrooms and teachers\u2019 lounges are equipped with an air conditioning system, which adopts air conditioning refrigeration and heating. There is no air conditioning system in the corridor area and toilet area, and, thus there is no heating or cooling. 4.2 Data set acquisition of NZEB based on BIM-DB 4.2.1 Importing BIM model into DB and parameter setting The teaching building in Revit is modeled. The simplified model removes the design of the first underground floor and simplifies the staggered floor design of the teaching building to the same floor for modeling processing. The BIM model is imported into DesignBuilder to obtain a model that can be used for performance simulation calculations, such as building energy consumption. The parameters of components such as walls, windows and roofs and the layout of the room area in the model are the same as those in the BIM model in Revit (See Fig. 4 ). To consider the impact of regional climate conditions on building performance, the Wuhan area is selected when creating the import model of the teaching building project in DesignBuilder. Before calculation, the basic parameters that affect energy consumption are set according to the actual engineering needs and relevant specifications, including the refrigeration initial temperature, heating initial temperature, personnel density, teaching equipment power, lighting power, and natural ventilation. The specific settings are shown in Table 2 . The annual personnel activity schedule is consistent with the school calendar holiday arrangement, with a total of 100 days. The teaching building consumes less electricity during holidays, therefore the teaching building can be considered to be not in use during holidays. Working days and weekends are set according to the actual use time and proportion, and the use mode of the standard university classroom is built in DesignBuilder. According to the technical standard for nearly zero energy buildings GB/T 51350-2019, the technical guidelines for passive ultra-low energy consumption green buildings (Trial), the design standard for energy efficiency of public buildings GB50189-2015, the thermal code for civil buildings GB50176-2016, the design standard for building lighting GB50034-2004 and other relevant building codes, the value range of each building design parameter in hot summer and cold winter areas is shown in Table 3 : 4.2.2 Orthogonal experimental design The data sets at different levels are obtained by reasonably dividing 10 design parameters. For the training set, each variable is set at 6 levels within the value range. The orthogonal table is designed by AllPairs software to obtain 70 groups of experiments (L70 (106)). For the test set, a total of 18 groups of tests (L20 (103)) are generated by reasonably taking 3 levels of the value range of each design parameter. Table 4 shows the horizontal division of the training set and test set of the orthogonal experimental design. 4.2.3 Calculation of the optimization objectives For construction projects, energy consumption runs through the whole life cycle of the project. Therefore, the short cycle energy consumption results simulated and calculated are processed by DesignBuilder to obtain the energy consumption of the whole life cycle of the building, that is, the energy consumption within the service life of 50 years, including the five output indicators of life cycle energy consumption, life cycle air conditioning energy consumption, life cycle cost, life cycle carbon emissions, and annual average thermal comfort. These output indicators are used as subsequent optimization objectives. Building energy consumption refers to the total energy consumption of the building's air conditioning and HVAC system, lighting system and other electrical equipment. The building energy consumption in the whole life cycle is calculated according to the following formula: (14) E C = E C y × 50 where E C is the life cycle building energy consumption and E C y is the energy consumption of one year during the building operation period. Air conditioning energy consumption refers to the total electric energy consumed by the air conditioning system within the service life of the building. The air conditioning energy consumption in the whole life cycle is calculated according to the following formula: (15) E C H V A C = E C a c y × 50 where E C H V A C is the life cycle air conditioning energy consumption and E C a c y is the energy consumption of air conditioning during the operation period of the building for one year. The construction cost refers to the sum of the material cost in the construction stage and the power cost in the operation period. The construction cost in the whole life cycle is calculated according to the following formula: (16) L C C = C c o n + ∑ n = 1 50 ( C o p ) k × ( i + 1 ) − k (17) ( C o p ) k = E C y × P × ( 1 + e ) k where C c o n is the cost of materials used in the construction stage, ( C o p ) k is the operating cost in the first year of the operation period, E C y is the energy consumption for one year during the construction operation period, P is the unit electricity price, e is the growth rate of the energy price, i is the effective interest rate i = 1 + i k 1 + f − 1 , and i k is the nominal interest rate of year k . Building carbon emissions refer to the sum of carbon emissions in the production stage, construction stage, operation stage and recovery stage of building materials [63]. The carbon emissions in the construction stage and recovery stage have little impact. The building carbon emissions in the whole life cycle are calculated according to the following formula: (18) C E = C E 1 + C E 2 (19) C E 1 = C E e m b + C E e q u (20) C E 2 = E C × k where C E is the total carbon emissions of buildings in the whole life cycle, C E 1 is the total carbon emissions in the production stage, C E 2 is the total carbon emissions in the operation stage, C E e m b is the total carbon dioxide emissions in the production stage, C E e q u is the total equivalent carbon gas emission in the production stage, E C is the building energy consumption in the whole life cycle and k is the emission factor of the regional power grid baseline. The average indoor thermal comfort is an evaluation index proposed by Fanger to characterize the cold and heat sensation of most people in an environment [64]. Starting from the basic equation of human thermal balance and the grade of subjective thermal feeling in psychophysiology, it considers many relevant factors of human thermal comfort, which can well reflect people's subjective satisfaction with the surrounding thermal environment. When the value approaches 0, it indicates that the human body is more comfortable. 4.2.4 BIM-DB simulation results The design orthogonal table of 88 groups of experiments obtained in Section 4.2.2 is simulated with DesignBuilder to obtain 70 groups of training set data and 18 groups of test set data. Table 6 shows the distribution of the simulation results of the training set and test set, and Table 5 shows some simulation results of the training set. Comparing the obtained simulation data with the actual building data obtained according to the energy consumption bill, it is found that the deviation of the simulated total energy consumption is small compared with the actual energy consumption. It can be preliminarily determined that the simulation results of the model are consistent with the actual energy consumption of the building. From the life cycle energy consumption in the training set, it can be found that the simulation results of life cycle energy consumption that correspond to different design parameter combinations are quite different, in which the maximum value of building energy consumption is 121.92 GWh and the minimum value is 115.83 GWh, with a difference of 6.09 GWh. The influence of design parameters on the life cycle carbon emissions of buildings cannot be ignored. In the training set, the maximum life cycle carbon emissions are 75.67 kt, and the minimum are 71.52 kt, with a difference of 4.15 kt. If the life cycle carbon emissions are optimized from the maximum value to the minimum value, then the CO2 emissions will be reduced by 5.5%, which has great green potential. It also has different degrees of impact on the building life cycle cost and annual average thermal comfort. This shows that the building design parameters have a significant impact on the life cycle energy consumption of the building, they play an important role in the control of the building life cycle carbon emissions, and have an impact on the life cycle cost and annual average thermal comfort. 4.3 Prediction of NZEB performance based on RF 4.3.1 Model parameter selection To improve the accuracy of RF prediction, the maximum number of features and the number of decision trees of the model are set reasonably. Because the number of features input in this paper is small, it can be directly set to \u201cauto\u201d and then used as the training set for modeling to obtain the relationship between n_ estimators and R2, as shown in Fig. 5 . It can be seen from the figure that with the increase in n_ estimators, R2 first increases significantly and then gradually stabilizes. For life cycle energy consumption, when the n_estimators are 17, the maximum R2 is 0.945. For life cycle air conditioning energy consumption, when the n_estimators are 167, the maximum R2 is 0.951. For life cycle cost, when the n_estimators are 159, the maximum R2 is 0.938. For life cycle carbon emissions, when the n_estimators are 118, the maximum R2 is 0.955. For annual average thermal comfort, when the n_estimators are 66, the maximum R2 is 0.972. 4.3.2 Prediction and accuracy analysis The output results of the training set established in Section 4.2.4 are used to train the RF model; obtain the prediction results of five indicators including life cycle energy consumption are obtained, and the test set is used to verify the prediction performance of the model. The prediction results of the RF model of the training set and the test set are shown in Fig. 6 . The machine learning prediction model based on RF has excellent prediction accuracy and reliability. As seen from Fig. 6 (a), the life cycle energy consumption predicted value of NZEB on the RF training set is basically consistent with the simulation value, RMSE is 0.0156, and R2 is 0.934. RF establishes the nonlinear relationship between the design parameters and life cycle energy consumption. Fig. 6 (b) shows the life cycle energy consumption prediction results of the test set. RMSE is 0.0160 and R2 is 0.921. The fitting effect is good, indicating that the prediction model established by the RF algorithm has high accuracy and can be used for the prediction of building life cycle energy consumption. Similarly, Fig. 6 (c) to 6 (j) show the prediction results of the other four indicators, indicating that RF also has excellent prediction accuracy in the prediction of other targets, which can be used to predict the results of these targets. Other scholars have proved that the energy consumption of buildings can be well predicted, For example, Pham used RF to predict the short-term energy consumption of hourly resolution in multiple buildings, and proved the effectiveness of RF prediction of energy consumption [65]. Qiao compared four machine learning algorithms to verify that RF can more accurately predict building energy consumption [66]. 4.4 Multiobjective optimization based on RF-NSGA-III 4.4.1 Objective function In the process of using the RF algorithm to predict the output results of optimization objectives, the mapping relationship of 10 building design parameters to life cycle energy consumption, life cycle air conditioning energy consumption, the life cycle cost, life cycle carbon emissions, and annual average thermal comfort is established. The objective functions of the five optimization objectives are obtained according to formula (21): (21) { min f 1 ( R F ( x 1 , x 2 , \u2026 , x 10 ) ) min f 2 ( R F ( x 1 , x 2 , \u2026 , x 10 ) ) min f 3 ( R F ( x 1 , x 2 , \u2026 , x 10 ) ) min f 4 ( R F ( x 1 , x 2 , \u2026 , x 10 ) ) min | f 5 ( R F ( x 1 , x 2 , \u2026 , x 10 ) ) | where x 1 is the window wall ratio, x 2 is the external wall heat transfer coefficient, x 3 is the roof heat transfer coefficient, x 4 is the outer window heat transfer coefficient, x 5 is the external wall solar radiation absorption coefficient, x 6 is the roof solar radiation absorption coefficient, x 7 is the outer window solar radiation absorption coefficient, x 8 is the airtightness, x 9 is the air conditioning heating setting temperature, x 10 is the air conditioning cooling setting temperature, f 1 is the life cycle energy consumption, f 2 is the life cycle air conditioning energy consumption, f 3 is the life cycle cost, f 4 is the life cycle carbon emissions, and f 5 is the annual average thermal comfort, and the value takes the absolute value. 4.4.2 Constraint processing According to the technical standard for near zero energy consumption buildings GB/T 51350-2019 and other relevant building codes, the value range of each design parameter is determined in Section 4.2.2. The constraints for forming the multiobjective optimization model according to the value range in Table 7 are as follows: 4.4.3 RF-NSGA-III optimal solution set NSGA-III is also used to optimize five objectives. To achieve the best balance between Pareto frontier accuracy and computational complexity, after preliminary research, the algorithm parameters are set as follows: the population size is 100, the crossover probability parameter is 0.9 and mutation probability parameter is 0.01. After optimization, the Pareto front composed of 77 groups of optimal solutions is obtained, and some optimal solutions are shown in Table 8 . 4.4.4 Pareto-optimal solution selection After the ideal points are obtained from the results of the optimal solution set, 77 points in the optimal Pareto front are substituted into the target distance calculation formula (11) to obtain the distance between each point in the solution set and the ideal point. The Pareto optimal solution of the shortest distance obtained through calculation is the only optimal solution for this optimization. The data comparison between the optimized building design scheme and the original building scheme is shown in Table 9 . The following conclusions can be obtained through analysis. (1) The RF-NSGA-III intelligent optimization algorithm can effectively realize multiobjective optimization. After optimization, the life cycle air conditioning energy consumption is reduced by 54%, indicating that the model in this paper has a significant effect on the optimization of air conditioning setting parameters, while the life cycle energy consumption is only reduced by 17%, which is mainly due to the large proportion of building lighting in the total energy consumption. The life cycle carbon emissions are reduced by 16%, which is beneficial to the environment. The annual average thermal comfort decreases from 0.810 to 0.140, which is significantly close to the thermal neutral state, indicating that human comfort has been greatly improved. At the same time, the life cycle cost has also been reasonably controlled, and is reduced by 4% after optimization. Therefore, the RF-NSGA-III intelligent optimization algorithm realizes the simultaneous optimization of five objectives. (2) After the five-objective optimization, the airtightness, the external wall heat transfer coefficient, and the outer window solar radiation absorption coefficient transform greatly. Specifically, the change rates of airtightness, external wall heat transfer coefficient, and outer window solar radiation absorption coefficient are 80%, 75% and 64%, respectively. This conclusion has also been verified in previous studies. Sadauskiene proved that Airtightness has a great impact on building energy consumption [67]. Hwang proved that the solar heat gain coefficient of glass and the U value of exterior walls are important influencing factors of building thermal comfort [68]. 5 Discussion 5.1 Comparison of prediction accuracy To further verify the effectiveness of RF prediction, four common machine learning algorithms namely, the back Propagation Neural Network (BPNN), RF (unfiltered), Gradient Boosting Decision Tree (GBDT) and Support Vector Machines (SVM) are selected to predict the five objectives. The resulting Taylor diagram is shown in Fig. 7 . The Taylor chart graphically shows the correlation coefficient, root mean square error and standard deviation of the model. With the \u201cobserved\u201d point as the reference, when the model is to the point, it is better. Through the analysis of the Taylor diagram, it can be seen that RF has more accurate prediction accuracy than the four selected models. RF's prediction of five targets shows high R2 (all greater than 0.9) and low RMSE (all less than 0.05), and the RF model is closer to \u201cobserved\u201d. This conclusion has also been verified in previous studies. For example, Anh-Duc used the RF model to predict building energy consumption and proved that it is an effective prediction model in machine learning [69]. Liu compared the energy consumption prediction results of RF, BP artificial neural networks and SVM, and found that the RF model has significant advantages [70]. 5.2 Effect analysis of the multiobjective optimization scheme To verify the effectiveness of the building scheme optimized by the RF-NSGA-III intelligent optimization algorithm, the design parameters of a benchmark building are taken according to the relevant provisions of the technical standard for NZEBs, and the optimized building scheme is compared with the benchmark building. According to China's technical standard for NZEBs, the main evaluation indicators for NZEB are the energy-saving rate of the building itself ( η e ) , the comprehensive energy saving rate of buildings ( η P ) and renewable energy utilization ( R E P P ). The passive technology is mainly focused on in this paper to reduce building energy consumption to meet the NZEB standard, this paper selects the body energy-saving rate as the evaluation index for optimizing the building energy-saving effect, and the calculation formula is shown in formula (22). Table 10 shows the effect comparison between the benchmark building and the building optimized by the intelligent RF-NSGA-III. (22) η e = | E E − E R | E R × 100 % where E E is the comprehensive value of building energy consumption without renewable energy power generation in the building design and E R is the comprehensive value of building energy consumption of the benchmark building. The intelligent optimization algorithm based on RF-NSGA-III is effective, and the optimized building can meet the NZEB requirements. Table 10 shows that the energy-saving rate of the building body after optimization of the five-objective is higher than that of the benchmark building η e at 21.250% (≥20%), which meets the requirements of NZEB in hot summer and cold winter areas in China. (1) The RF-NSGA-III intelligent optimization algorithm can reduce energy consumption and control costs to ensure human comfort and realize multiobjective optimization. After the five-objective optimization, the energy consumption of life cycle energy consumption is significantly reduced compared with the benchmark building, especially life cycle air conditioning energy consumption, which is reduced by 59.6%. At this time, the annual average thermal comfort is 0.14, which is closer to the hot state, and the annual average thermal comfort is improved. The life cycle cost is 29.72 kwyuan, which is lower than that of the benchmark building. (2) The hybrid optimization algorithm based on NSGA-III has obvious advantages in solving multiobjective optimization problems. Zhang proposed using the NSGA-III hybrid method to solve multiobjective optimization problems and proved the advantages of the proposed hybrid method in solving multiobjective optimization problems [71]. Liu also proved that the combination of a machine learning algorithm and the NSGA-III can improve the optimization performance [72]. 5.3 Comparative analysis of objective optimization schemes To explore the advantages of the five objective optimization proposed in this paper, the results of this five-objective optimization are compared with those of the three-objective and four-objective optimizations. Since life cycle air conditioning energy consumption is a part of life cycle energy consumption, it is considered to optimize life cycle energy consumption, life cycle carbon emissions and annual average thermal comfort as three objectives. Economic factors are considered for the four objectives. The optimization results are shown in Table 11 . The energy-saving rate of each optimization scheme and the optimization percentage of each objective can be obtained through calculation, and then the comprehensive optimization rate can be obtained by taking the average of the optimization rates of the five objectives, as shown in Table 12 . (1) The RF-NSGA-III intelligent optimization algorithm has good effects on the three-objective, four-objective and five-objective optimization schemes. For example, in the three-objective optimization, the life cycle air conditioning energy consumption and life cycle cost of buildings are also reduced by 44.1% and 0.54%, respectively, compared with the initial scheme. Therefore, the RF-NSGA-III intelligent optimization algorithm can realize multiobjective optimization. (2) The comprehensive optimization results of the five-objectives are better than those of the other optimization schemes. The comprehensive optimization rate of the five-objectives is 96.3%, which is higher than those of the three-objective and four-objective optimization schemes. Therefore, the proposed RF-NSGA-III intelligent optimization algorithm can comprehensively improve the performance of NZEB from the aspects of energy conservation, environmental protection, cost and comfort. It can provide a strong basis for the design and transformation of buildings and can be applied to the performance optimization design of other types of public buildings or residential buildings. (3) The optimization scheme obtained by multiobjective optimization based on the RF-NSGA-III intelligent optimization algorithm is in line with the NZEB specification. The energy-saving rates of the three-objective, four-objective and five-objective optimization schemes are greater than 20%, which meets the requirements of NZEB in hot summer and cold winter areas in China. Therefore, the method proposed in this paper can provide a reasonable and reliable solution for the optimization design of NZEB reconstruction. 6 Conclusion and future work A multiobjective optimization method is presented that combines the BIM-DB and RF-NSGA-III algorithm can be applied to the optimization of an NZEB design scheme to improve the performance of NZEB in the natural, economic, environmental and social dimensions. The application process of this method mainly consists of three steps. (1) The BIM model of the target building is established and imported into DesignBuilder. Orthogonal experiments are designed to obtain multiple output target results and simulation calculation result samples to form a training set and a test set. (2) Using the training set to train the RF model, the nonlinear relationship between the output target and the studied building design parameters is established to predict the results of the output target. (3) Based on the RF model, the Pareto optimal solution set is obtained by NSGA-III, and the reliability of the optimization method is verified by analysis. In a teaching building project, the method is applied to optimize the building design scheme, and good optimization results are obtained to verify the effectiveness of the method. The main conclusions are as follows. (1) The prediction model constructed by the RF algorithm has good fitting accuracy, the RMSE of the training set and test set is less than 0.1, and the R2 is more than 0.9, which can effectively establish the nonlinear mapping relationship between the NZEB design parameters and output targets. (2) The RF-NSGA-III model can effectively optimize the 5-objectives of NZEB. Compared with the initial scheme, the five-objectives of the optimization scheme have been optimized to a certain extent. At the same time, the comprehensive optimization rate of five-objectives is higher than that of four-objectives and three-objectives schemes. (3) Compared with the benchmark building, the energy-saving rate of the optimized building is 21.25% (>20%), which meets the requirements of NZEB in hot summer and cold winter areas in China. The optimized scheme can provide a reference basis for the design and transformation of NZEB. Accordingly, the multiobjective optimization method based on RF-NSGA-III can effectively optimize the design scheme of NZEB and has good application prospects in the multiobjective optimization of NZEB. However, there are some limitations of this study. The project case object is located in Wuhan, a typical hot summer and cold winter area. Therefore, the value range of the building design parameters in this paper is limited to this type of area. In fact, the climate in various regions of the world is very different, which has a certain impact on building performance. In future research, the climate factors in different areas can be further taken into account, and the impact of building design parameters in different areas on building performance can be analyzed to optimize the building design scheme according to the area where the building is located. Credit author statement Xianguo Wu; Methodology, Investigation, Funding acquisition, Writing \u2013 original draft, Reversion; Zongbao Feng; Methodology, Writing \u2013 original draft, Reversion; Hongyu Chen: Conceptualization, Methodology, Writing \u2013 review & editing, Reversion; Yawei Qin: Funding acquisition, Writing \u2013 review & editing, Reversion; Shiyi Zheng: Methodology, Writing \u2013 review & editing, Reversion; Lei Wang: Methodology, Writing \u2013 review & editing, Revesion; Yang Liu: Writing \u2013 review & editing, Revesion; Miroslaw J. Skibniewski: Writing \u2013 review & editing; Revesion. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements Funding: This work was supported by the National Natural Science Foundation of China [grant numbers 51378235, 71571078, 51778262]; National Key R&D Program of China [grant number 2016YFC0800208]. References [1] J. Valdes Participation, equity and access in global energy security provision: towards a comprehensive perspective Energy Res Social Sci 78 2021 102090 Valdes, J., Participation, equity and access in global energy security provision: towards a comprehensive perspective. Energy Res Social Sci, 2021. 78: p. 102090. [2] A. Cherp J. Jewell A. Goldthau Governing global energy: systems, transitions, complexity Glob Pol 2 1 2011 75 88 Cherp, A., J. Jewell and A. Goldthau, Governing global energy: systems, transitions, complexity. Glob Pol, 2011. 2(1): p. 75-88. [3] W. Tian A review of uncertainty analysis in building energy assessment Renew Sustain Energy Rev 93 2018 285 301 Tian, W., et al., A review of uncertainty analysis in building energy assessment. Renew Sustain Energy Rev, 2018. 93: p. 285-301. [4] M. Shirinbakhsh L.D.D. Harvey Net-zero energy buildings: the influence of definition on greenhouse gas emissions Energy Build 247 2021 111118 Shirinbakhsh, M. and L.D.D. Harvey, Net-zero energy buildings: the influence of definition on greenhouse gas emissions. Energy Build, 2021. 247: p. 111118. [5] N. Nasrollahzadeh Comprehensive building envelope optimization: improving energy, daylight, and thermal comfort performance of the dwelling unit J Build Eng 44 2021 103418 Nasrollahzadeh, N., Comprehensive building envelope optimization: improving energy, daylight, and thermal comfort performance of the dwelling unit. J Build Eng, 2021. 44(103418). [6] Z.J. Yu A GA-based system sizing method for net-zero energy buildings considering multi-criteria performance requirements under parameter uncertainties Energy Build 129 2016 524 534 Yu, Z.J., et al., A GA-based system sizing method for net-zero energy buildings considering multi-criteria performance requirements under parameter uncertainties. Energy Build, 2016. 129: p. 524-534. [7] B. Chen Multiobjective optimization of building energy consumption based on BIM-DB and LSSVM-NSGA-II J Clean Prod 294 2021 126153 Chen, B., et al., Multiobjective optimization of building energy consumption based on BIM-DB and LSSVM-NSGA-II. J Clean Prod, 2021. 294: p. 126153. [8] Z. Zhou The operational performance of \u201cnet zero energy building\u201d: a study in China Appl Energy 177 2016 716 728 Zhou, Z., et al., The operational performance of \u201cnet zero energy building\u201d: a study in China. Appl Energy, 2016. 177: p. 716-728. [9] C.A. Short Challenges in the low-carbon adaptation of China's apartment towers Build Res Inf 46 8 2018 899 930 Short, C.A., et al., Challenges in the low-carbon adaptation of China's apartment towers. Build Res Inf, 2018. 46(8): p. 899-930. [10] M. Ghaderian F. Veysi Multi-objective optimization of energy efficiency and thermal comfort in an existing office building using NSGA-II with fitness approximation: a case study J Build Eng 41 2021 102440 Ghaderian, M. and F. Veysi, Multi-objective optimization of energy efficiency and thermal comfort in an existing office building using NSGA-II with fitness approximation: a case study. J Build Eng, 2021. 41: p. 102440. [11] A. M'Saouri El Bat Thermal impact of street canyon microclimate on building energy needs using TRNSYS: a case study of the city of Tangier in Morocco Case Stud Therm Eng 24 2021 100834 M'Saouri El Bat, A., et al., Thermal impact of street canyon microclimate on building energy needs using TRNSYS: a case study of the city of Tangier in Morocco. Case Stud Therm Eng, 2021. 24: p. 100834. [12] T. de Rubeis Is a self-sufficient building energy efficient? Lesson learned from a case study in Mediterranean climate Appl Energy 218 2018 131 145 de Rubeis, T., et al., Is a self-sufficient building energy efficient? Lesson learned from a case study in Mediterranean climate. Appl Energy, 2018. 218: p. 131-145. [13] L. Zhang A review of machine learning in building load prediction Appl Energy 285 2021 116452 Zhang, L., et al., A review of machine learning in building load prediction. Appl Energy, 2021. 285(116452). [14] Q. Chai Using machine learning algorithms to predict occupants' thermal comfort in naturally ventilated residential buildings Energy Build 217 2020 109937 Chai, Q., et al., Using machine learning algorithms to predict occupants' thermal comfort in naturally ventilated residential buildings. Energy Build, 2020. 217(109937). [15] X. Bi Multimodal data analysis of alzheimer's disease based on clustering evolutionary random forest IEEE J Biomed Health Inform 24 10 2020 2973 2983 Bi, X., et al., Multimodal data analysis of alzheimer's disease based on clustering evolutionary random forest. IEEE J Biomed Health Inform, 2020. 24(10): p. 2973-2983. [16] H. Yao Application of random forest algorithm in hail forecasting over Shandong Peninsula Atmos Res 244 2020 105093 Yao, H., et al., Application of random forest algorithm in hail forecasting over Shandong Peninsula. Atmos Res, 2020. 244(105093). [17] Y. Shao Estimating daily ground-level PM2.5 in China with random-forest-based spatiotemporal kriging Sci Total Environ 740 2020 139761 Shao, Y., et al., Estimating daily ground-level PM2.5 in China with random-forest-based spatiotemporal kriging. Sci Total Environ, 2020. 740(139761). [18] P. Anh-Duc Predicting energy consumption in multiple buildings using machine learning for improving energy efficiency and sustainability J Clean Prod 260 2020 121082 Anh-Duc, P., et al., Predicting energy consumption in multiple buildings using machine learning for improving energy efficiency and sustainability. J Clean Prod, 2020. 260(121082). [19] Y. Liu Enhancing building energy efficiency using a random forest model: a hybrid prediction approach Energy Rep 7 2021 5003 5012 Liu, Y., et al., Enhancing building energy efficiency using a random forest model: a hybrid prediction approach. Energy Rep, 2021. 7: p. 5003-5012. [20] Z. Ye Identifying critical building-oriented features in city-block-level building energy consumption: a data-driven machine learning approach Appl Energy 301 2021 117453 Ye, Z., et al., Identifying critical building-oriented features in city-block-level building energy consumption: a data-driven machine learning approach. Appl Energy, 2021. 301(117453). [21] B.C. Leung Greening existing buildings [GEB] strategies Energy Rep 4 2018 159 206 Leung, B.C., Greening existing buildings [GEB] strategies. Energy Rep, 2018. 4: p. 159-206. [22] A. Houlihan Wiberg A net zero emission concept analysis of a single-family house Energy Build 74 2014 101 110 Houlihan Wiberg, A., et al., A net zero emission concept analysis of a single-family house. Energy Build, 2014. 74: p. 101-110. [23] C. Becchio Cost optimality assessment of a single family house: building and technical systems solutions for the nZEB target Energy Build 90 2015 173 187 Becchio, C., et al., Cost optimality assessment of a single family house: building and technical systems solutions for the nZEB target. Energy Build, 2015. 90: p. 173-187. [24] E. Mostavi S. Asadi D. Boussaa Development of a new methodology to optimize building life cycle cost, environmental impacts, and occupant satisfaction Energy 121 2017 606 615 Mostavi, E., S. Asadi and D. Boussaa, Development of a new methodology to optimize building life cycle cost, environmental impacts, and occupant satisfaction. Energy, 2017. 121: p. 606-615. [25] M.K. Nematchoua R. Tchinda J.A. Orosa Thermal comfort and energy consumption in modern versus traditional buildings in Cameroon: a questionnaire-based statistical study Appl Energy 114 2014 687 699 Nematchoua, M.K., R. Tchinda and J.A. Orosa, Thermal comfort and energy consumption in modern versus traditional buildings in Cameroon: a questionnaire-based statistical study. Appl Energy, 2014. 114: p. 687-699. [26] J.W. Moon S.K. Jung Development of a thermal control algorithm using artificial neural network models for improved thermal comfort and energy efficiency in accommodation buildings Appl Therm Eng 103 2016 1135 1144 Moon, J.W. and S.K. Jung, Development of a thermal control algorithm using artificial neural network models for improved thermal comfort and energy efficiency in accommodation buildings. Appl Therm Eng, 2016. 103: p. 1135-1144. [27] B.W.Y.S. Li Zhu Multi-objective optimization for energy consumption, daylighting and thermal comfort performance of rural tourism buildings in north China 2020 Li Zhu, B.W.Y.S., Multi-objective optimization for energy consumption, daylighting and thermal comfort performance of rural tourism buildings in north China. 2020. [28] F. Salata Heading towards the nZEB through CHP+HP systems. A comparison between retrofit solutions able to increase the energy performance for the heating and domestic hot water production in residential buildings Energy Convers Manag 138 2017 61 76 Salata, F., et al., Heading towards the nZEB through CHP+HP systems. A comparison between retrofit solutions able to increase the energy performance for the heating and domestic hot water production in residential buildings. Energy Convers Manag, 2017. 138: p. 61-76. [29] F. Ascione Building envelope design: multi-objective optimization to minimize energy consumption, global cost and thermal discomfort. Application to different Italian climatic zones Energy 174 2019 359 374 Ascione, F., et al., Building envelope design: multi-objective optimization to minimize energy consumption, global cost and thermal discomfort. Application to different Italian climatic zones. Energy, 2019. 174: p. 359-374. [30] Y. Fan X. Xia A multi-objective optimization model for energy-efficiency building envelope retrofitting plan with rooftop PV system installation and maintenance Appl Energy 189 2017 327 335 Fan, Y. and X. Xia, A multi-objective optimization model for energy-efficiency building envelope retrofitting plan with rooftop PV system installation and maintenance. Appl Energy, 2017. 189: p. 327-335. [31] B. Risholt B. Time A.G. Hestnes Sustainability assessment of nearly zero energy renovation of dwellings based on energy, economy and home quality indicators Energy Build 60 2013 217 224 Risholt, B., B. Time and A.G. Hestnes, Sustainability assessment of nearly zero energy renovation of dwellings based on energy, economy and home quality indicators. Energy Build, 2013. 60: p. 217-224. [32] N. Delgarm A novel approach for the simulation-based optimization of the buildings energy consumption using NSGA-II: case study in Iran Energy Build 127 2016 552 560 Delgarm, N., et al., A novel approach for the simulation-based optimization of the buildings energy consumption using NSGA-II: case study in Iran. Energy Build, 2016. 127: p. 552-560. [33] F. Harkouss F. Fardoun P.H. Biwole Multi-objective optimization methodology for net zero energy buildings J Build Eng 16 2018 57 71 Harkouss, F., F. Fardoun and P.H. Biwole, Multi-objective optimization methodology for net zero energy buildings. J Build Eng, 2018. 16: p. 57-71. [34] X. Shi A review on building energy efficient design optimization rom the perspective of architects Renew Sustain Energy Rev 65 2016 872 884 Shi, X., et al., A review on building energy efficient design optimization rom the perspective of architects. Renew Sustain Energy Rev, 2016. 65: p. 872-884. [35] J. Zhao Y. Du Multi-objective optimization design for windows and shading configuration considering energy consumption and thermal comfort: a case study for office building in different climatic regions of China Sol Energy 206 2020 997 1017 Zhao, J. and Y. Du, Multi-objective optimization design for windows and shading configuration considering energy consumption and thermal comfort: a case study for office building in different climatic regions of China. Sol Energy, 2020. 206: p. 997-1017. [36] O. Chikumbo E. Goodman K. Deb Approximating a multi-dimensional Pareto front for a land use management problem: a modified MOEA with an epigenetic silencing metaphor 2012 IEEE Chikumbo, O., E. Goodman and K. Deb. Approximating a multi-dimensional Pareto front for a land use management problem: a modified MOEA with an epigenetic silencing metaphor. 2012: IEEE. [37] A. Gaspar-Cunha J.A. Covas Robustness in multi-objective optimization using evolutionary algorithms Comput Optim Appl 39 1 2008 75 96 Gaspar-Cunha, A. and J.A. Covas, Robustness in multi-objective optimization using evolutionary algorithms. Comput Optim Appl, 2008. 39(1): p. 75-96. [38] M. Kim SPEA2+: improving the performance of the strength pareto evolutionary algorithm 2 2004 Springer Berlin Kim, M., et al. SPEA2+: improving the performance of the strength pareto evolutionary algorithm 2. 2004. Berlin: Springer. [39] F.I.A.H. Kalyanmoy Deb An evolutionary many-objective optimization algorithm using reference-point based non-dominated sorting approach,Part I: solving problems with box constraints 2014 Kalyanmoy Deb, F.I.A.H., An evolutionary many-objective optimization algorithm using reference-point based non-dominated sorting approach,Part I: solving problems with box constraints. 2014. [40] H. Jain K. Deb An evolutionary many-objective optimization algorithm using reference-point based nondominated sorting approach, Part II: handling constraints and extending to an adaptive approach IEEE Trans Evol Comput 18 4 2014 602 622 Jain, H. and K. Deb, An evolutionary many-objective optimization algorithm using reference-point based nondominated sorting approach, Part II: handling constraints and extending to an adaptive approach. IEEE Trans Evol Comput, 2014. 18(4): p. 602-622. [41] K. Deb H. Jain An evolutionary many-objective optimization algorithm using reference-point-based nondominated sorting approach, Part I: solving problems with box constraints IEEE Trans Evol Comput 18 4 2014 577 601 Deb, K. and H. Jain, An evolutionary many-objective optimization algorithm using reference-point-based nondominated sorting approach, Part I: solving problems with box constraints. IEEE Trans Evol Comput, 2014. 18(4): p. 577-601. [42] H. Ishibuchi Performance comparison of NSGA-II and NSGA-III on various many-objective test problems 2016 IEEE congress on evolutionary computation (CEC) 2016 IEEE WCCI) 3045 3052 IEEE Congress on Evolutionary Computation (CEC) held as part of IEEE World Congress on Computational Intelligence Ishibuchi, H., et al., Performance comparison of NSGA-II and NSGA-III on various many-objective test problems, in 2016 IEEE congress on evolutionary computation (CEC). 2016: IEEE Congress on Evolutionary Computation (CEC) held as part of IEEE World Congress on Computational Intelligence (IEEE WCCI). p. 3045-3052. [43] X. Cao Many-objective optimization of technology implementation in the industrial symbiosis system based on a modified NSGA-III J Clean Prod 245 2020 118810 Cao, X., et al., Many-objective optimization of technology implementation in the industrial symbiosis system based on a modified NSGA-III. J Clean Prod, 2020. 245: p. 118810. [44] Y. Wang A many-objective optimization of industrial environmental management using NSGA-III: a case of China's iron and steel industry Appl Energy 242 2019 46 56 Wang, Y., et al., A many-objective optimization of industrial environmental management using NSGA-III: a case of China's iron and steel industry. Appl Energy, 2019. 242: p. 46-56. [45] W. Mkaouer Many-objective software remodularization using NSGA-III ACM Trans Software Eng Methodol 24 3 2015 1 45 Mkaouer, W., et al., Many-objective software remodularization using NSGA-III. ACM Trans Software Eng Methodol, 2015. 24(3): p. 1-45. [46] Y. Zhai A multi-objective optimization methodology for window design considering energy consumption, thermal environment and visual performance Renew Energy 134 2019 1190 1199 Zhai, Y., et al., A multi-objective optimization methodology for window design considering energy consumption, thermal environment and visual performance. Renew Energy, 2019. 134: p. 1190-1199. [47] E. Naderi Multi-objective simulation-based optimization of controlled blind specifications to reduce energy consumption, and thermal and visual discomfort: case studies in Iran Build Environ 169 2020 106570 Naderi, E., et al., Multi-objective simulation-based optimization of controlled blind specifications to reduce energy consumption, and thermal and visual discomfort: case studies in Iran. Build Environ, 2020. 169: p. 106570. [48] Y. Lin Design optimization of office building envelope configurations for energy conservation Appl Energy 171 2016 336 346 Lin, Y., et al., Design optimization of office building envelope configurations for energy conservation. Appl Energy, 2016. 171: p. 336-346. [49] A. Prada A. Gasparella P. Baggio On the performance of meta-models in building design optimization Appl Energy 225 2018 814 826 Prada, A., A. Gasparella and P. Baggio, On the performance of meta-models in building design optimization. Appl Energy, 2018. 225: p. 814-826. [50] A.M. Prasad L.R. Iverson A. Liaw Newer classification and regression tree techniques: bagging and random forests for ecological prediction Ecosystems 9 2 2006 181 199 Prasad, A.M., L.R. Iverson and A. Liaw, Newer classification and regression tree techniques: bagging and random forests for ecological prediction. Ecosystems, 2006. 9(2): p. 181-199. [51] R. Casanova Application of random forests methods to diabetic retinopathy classification analyses PLoS One 9 6 2014 e98587 Casanova, R., et al., Application of random forests methods to diabetic retinopathy classification analyses. PLoS One, 2014. 9(6): p. e98587. [52] W. Lou Sequence based prediction of DNA-binding proteins based on hybrid feature selection using random forest and Gaussian naive Bayes PLoS One 9 1 2014 e86703 Lou, W., et al., Sequence based prediction of DNA-binding proteins based on hybrid feature selection using random forest and Gaussian naive Bayes. PLoS One, 2014. 9(1): p. e86703. [53] M. Malekipirbazari V. Aksakalli Risk assessment in social lending via random forests Expert Syst Appl 42 10 2015 4621 4631 Malekipirbazari, M. and V. Aksakalli, Risk assessment in social lending via random forests. Expert Syst Appl, 2015. 42(10): p. 4621-4631. [54] E.J.M. Carranza A.G. Laborte Random forest predictive modeling of mineral prospectivity with small number of prospects and data with missing values in Abra (Philippines) Comput Geosci 74 2015 60 70 Carranza, E.J.M. and A.G. Laborte, Random forest predictive modeling of mineral prospectivity with small number of prospects and data with missing values in Abra (Philippines). Comput Geosci, 2015. 74: p. 60-70. [55] Y. Lin Multi-objective optimization design of green building envelopes and air conditioning systems for energy conservation and CO2 emission reduction Sustain Cities Soc 64 2021 102555 Lin, Y., et al., Multi-objective optimization design of green building envelopes and air conditioning systems for energy conservation and CO2 emission reduction. Sustain Cities Soc, 2021. 64: p. 102555. [56] Y. Ding X. Wei Q. Wang Optimization approach of passive cool skin technology application for the Building's exterior walls J Clean Prod 256 2020 120751 Ding, Y., X. Wei and Q. Wang, Optimization approach of passive cool skin technology application for the Building's exterior walls. J Clean Prod, 2020. 256: p. 120751. [57] F. Harkouss F. Fardoun P.H. Biwole Multi-objective optimization methodology for net zero energy buildings J Build Eng 16 2018 57 71 Harkouss, F., F. Fardoun and P.H. Biwole, Multi-objective optimization methodology for net zero energy buildings. J Build Eng, 2018. 16: p. 57-71. [58] N. Harmathy Z. Magyar R. Folić Multi-criterion optimization of building envelope in the function of indoor illumination quality towards overall energy performance improvement Energy 114 2016 302 317 Harmathy, N., Z. Magyar and R. Folic, Multi-criterion optimization of building envelope in the function of indoor illumination quality towards overall energy performance improvement. Energy, 2016. 114: p. 302-317. [59] T. Ihara A. Gustavsen B.P. Jelle Effect of facade components on energy efficiency in office buildings Appl Energy 158 2015 422 432 Ihara, T., A. Gustavsen and B.P. Jelle, Effect of facade components on energy efficiency in office buildings. Appl Energy, 2015. 158: p. 422-432. [60] B. Jin Energy-saving operation strategy of air conditioning system in tea brick fermentation room under different outdoor meteorological parameters Sustain Cities Soc 53 2020 101883 Jin, B., et al., Energy-saving operation strategy of air conditioning system in tea brick fermentation room under different outdoor meteorological parameters. Sustain Cities Soc, 2020. 53: p. 101883. [61] J. Gao G. Huang X. Xu An optimization strategy for the control of small capacity heat pump integrated air-conditioning system Energy Convers Manag 119 2016 1 13 Gao, J., G. Huang and X. Xu, An optimization strategy for the control of small capacity heat pump integrated air-conditioning system. Energy Convers Manag, 2016. 119: p. 1-13. [62] B. Zhao Structural integrity assessment of shield tunnel crossing of a Railway Bridge using orthogonal experimental design Eng Fail Anal 114 2020 104594 Zhao, B., et al., Structural integrity assessment of shield tunnel crossing of a Railway Bridge using orthogonal experimental design. Eng Fail Anal, 2020. 114: p. 104594. [63] J.L. Hao Carbon emission reduction in prefabrication construction during materialization stage: a BIM-based life-cycle assessment approach Sci Total Environ 723 2020 137870 Hao, J.L., et al., Carbon emission reduction in prefabrication construction during materialization stage: a BIM-based life-cycle assessment approach. Sci Total Environ, 2020. 723: p. 137870. [64] P.O. Fanger Thermal comfort analysis and applications in environmental engineering Therm Comfort Anal Appl Environ Eng 723 1972 137870 Fanger, P.O., Thermal comfort analysis and applications in environmental engineering. Therm Comfort Anal Appl Environ Eng, 1972. 723: p. 137870. [65] A.D. Pham Predicting energy consumption in multiple buildings using machine learning for improving energy efficiency and sustainability J Clean Prod 2020 260 Pham, A.D., et al., Predicting energy consumption in multiple buildings using machine learning for improving energy efficiency and sustainability. J Clean Prod, 2020. 260. [66] Q.Y. Qiao Predicting building energy consumption based on meteorological data IEEE PES & IAS POWERAFRICA conference. 2020: 7th annual IEEE PES/IAS PowerAfrica conference (PAC) - sustainable and smart energy revolutions for powering Africa 2020 Qiao, Q.Y., et al., Predicting building energy consumption based on meteorological data, in 2020 IEEE PES & IAS POWERAFRICA conference. 2020: 7th annual IEEE PES/IAS PowerAfrica conference (PAC) - sustainable and smart energy revolutions for powering Africa. [67] J. Sadauskiene The role of air tightness in assessment of building energy performance: case study of Lithuania Energy Sustain Dev 32 2016 31 39 Sadauskiene, J., et al., The role of air tightness in assessment of building energy performance: case study of Lithuania. Energy Sustain Dev, 2016. 32: p. 31-39. [68] R. Hwang W. Shih K. Huang Performance-rating-based approach to formulate a new envelope index for commercial buildings in perspective of energy efficiency and thermal comfort Appl Energy 264 2020 114725 Hwang, R., W. Shih and K. Huang, Performance-rating-based approach to formulate a new envelope index for commercial buildings in perspective of energy efficiency and thermal comfort. Appl Energy, 2020. 264(114725). [69] P. Anh-Duc Predicting energy consumption in multiple buildings using machine learning for improving energy efficiency and sustainability J Clean Prod 260 2020 121082 Anh-Duc, P., et al., Predicting energy consumption in multiple buildings using machine learning for improving energy efficiency and sustainability. J Clean Prod, 2020. 260(121082). [70] Y. Liu Enhancing building energy efficiency using a random forest model: a hybrid prediction approach Energy Rep 7 2021 5003 5012 Liu, Y., et al., Enhancing building energy efficiency using a random forest model: a hybrid prediction approach. Energy Rep, 2021. 7: p. 5003-5012. [71] B. Zhang K. Shafi H.A. Abbass Hybrid knowledge-based evolutionary many-objective optimization 2016 IEEE congress on evolutionary computation (CEC) 2016 1007 1014 Zhang, B., K. Shafi and H.A. Abbass, Hybrid knowledge-based evolutionary many-objective optimization. 2016 IEEE congress on evolutionary computation (CEC), 2016: p. 1007-1014. [72] Q. Liu An improved NSGA-III algorithm using genetic K-means clustering algorithm IEEE Access 7 2019 185239 185249 Liu, Q., et al., An improved NSGA-III algorithm using genetic K-means clustering algorithm. IEEE Access, 2019. 7: p. 185239-185249. [73] Xianguo Wu Shiyi Zheng Zongbao Feng Prediction of the frost resistance of high-performance concrete based on RF-REF: a hybrid prediction approach Construct. Build. Mater. 333 2022 127132 10.1016/j.conbuildmat.2022.127132 Wu Xianguo, Zheng Shiyi, Feng Zongbao, et al. Prediction of the frost resistance of high-performance concrete based on RF-REF: A hybrid prediction approach. Construction and Building Materials 2022;333:127132. doi:https://doi.org/10.1016/j.conbuildmat.2022.127132.",
+    "scopus-id": "85133758277",
+    "coredata": {
+        "eid": "1-s2.0-S1364032122005925",
+        "dc:description": "The realization of a near zero energy consumption building (NZEB) is one of the important goals to promote the sustainable development of green buildings. To achieve the goal of NZEB and to allow for factors such as building comfort, environmental protection and cost, an intelligent optimization framework that combines Building Information Modeling DesignBuilder(BIM-DB) and random forest-nondominated sorting genetic algorithm-III (RF-NSGA-III) is proposed to study the multiobjective optimization of NZEB performance. The data in this paper are simulated by BIM-DB through orthogonal experimental design. RF is used to establish the complex relationship between building design parameters and NZEB performance. After the accuracy of the model is verified by the goodness of fit (R2) and the root mean square error (RMSE), the obtained nonlinear mapping relationship is taken as the fitness function of NSGA-III, and the multiobjective Pareto optimal solution set is obtained by using the proposed RF-NSGA-III intelligent optimization framework. Taking a teaching building in Wuhan as an example, the effectiveness of this method is verified. The results show that (1) the RF prediction accuracy is good, the RMSE range for the performance of NZEB is 0.015\u20130.035, and the R2 range is 0.91\u20130.93. (2) After optimization, the energy-saving rate of the building body is 21.25%, which meets the near zero energy consumption standard. (3) The proposed RF-NSGA-III intelligent optimization framework can achieve multiobjective optimization, and the comprehensive optimization rate of five objectives is the best compared with three and four objectives. Accordingly, this intelligent method that combines BIM-DB and RF-NSGA-III provides an effective idea for the design optimization of NZEB.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2022-10-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1364032122005925",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Wu, Xianguo"
+            },
+            {
+                "@_fa": "true",
+                "$": "Feng, Zongbao"
+            },
+            {
+                "@_fa": "true",
+                "$": "Chen, Hongyu"
+            },
+            {
+                "@_fa": "true",
+                "$": "Qin, Yawei"
+            },
+            {
+                "@_fa": "true",
+                "$": "Zheng, Shiyi"
+            },
+            {
+                "@_fa": "true",
+                "$": "Wang, Lei"
+            },
+            {
+                "@_fa": "true",
+                "$": "Liu, Yang"
+            },
+            {
+                "@_fa": "true",
+                "$": "Skibniewski, Miroslaw J."
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S1364032122005925"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S1364032122005925"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S1364-0321(22)00592-5",
+        "prism:volume": "167",
+        "articleNumber": "112703",
+        "prism:publisher": "Published by Elsevier Ltd.",
+        "dc:title": "Intelligent optimization framework of near zero energy consumption building performance based on a hybrid machine learning algorithm",
+        "prism:copyright": "© 2022 Published by Elsevier Ltd.",
+        "openaccess": "0",
+        "prism:issn": "13640321",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Near zero energy consumption building(NZEB)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building information model DesignBuilder (BIM-DB)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Random forest(RF)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Nondominated sorting genetic algorithm-III(NSGA-III)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Ultramultidimensional objective optimization"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Renewable and Sustainable Energy Reviews",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "112703",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "October 2022",
+        "prism:doi": "10.1016/j.rser.2022.112703",
+        "prism:startingPage": "112703",
+        "dc:identifier": "doi:10.1016/j.rser.2022.112703",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "1020",
+            "@width": "664",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "276342",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "407",
+            "@width": "798",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "124921",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "763",
+            "@width": "669",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "215649",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "399",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "112664",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "436",
+            "@width": "624",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "166205",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "404",
+            "@width": "793",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "151346",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "234",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "132542",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "106",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73891",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74333",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "144",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75935",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75758",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "153",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "80856",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "77293",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "132",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "100394",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "4516",
+            "@width": "2940",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1975277",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1802",
+            "@width": "3532",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "490219",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3378",
+            "@width": "2962",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1278762",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1767",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "366681",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1930",
+            "@width": "2762",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "713773",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1788",
+            "@width": "3511",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "780713",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1034",
+            "@width": "1722",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "596808",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7965",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8990",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "129859",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12496",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12135",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28056",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si98.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17269",
+            "@ref": "si98",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si70.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "77376",
+            "@ref": "si70",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15310",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si79.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19205",
+            "@ref": "si79",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si87.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6519",
+            "@ref": "si87",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10105",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "43394",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11624",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si110.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24116",
+            "@ref": "si110",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si115.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "53073",
+            "@ref": "si115",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "33095",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18311",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si75.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19602",
+            "@ref": "si75",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "87451",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si105.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18678",
+            "@ref": "si105",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10729",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13206",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si82.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27211",
+            "@ref": "si82",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10432",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si102.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "31440",
+            "@ref": "si102",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13365",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14418",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si67.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13002",
+            "@ref": "si67",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si71.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22226",
+            "@ref": "si71",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si80.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "61697",
+            "@ref": "si80",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si97.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15222",
+            "@ref": "si97",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "105519",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16069",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si116.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17677",
+            "@ref": "si116",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si81.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "35995",
+            "@ref": "si81",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si89.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4694",
+            "@ref": "si89",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si99.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28707",
+            "@ref": "si99",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si74.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "63899",
+            "@ref": "si74",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si112.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11871",
+            "@ref": "si112",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10898",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "38747",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si91.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11429",
+            "@ref": "si91",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si68.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19195",
+            "@ref": "si68",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14134",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si117.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17060",
+            "@ref": "si117",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11030",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si72.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17748",
+            "@ref": "si72",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si111.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28748",
+            "@ref": "si111",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si108.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21866",
+            "@ref": "si108",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si95.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27901",
+            "@ref": "si95",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si104.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29734",
+            "@ref": "si104",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si85.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16221",
+            "@ref": "si85",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27109",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "60694",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21250",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si83.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "68660",
+            "@ref": "si83",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9909",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "46990",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20225",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "48286",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si78.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13095",
+            "@ref": "si78",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "66304",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8794",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si106.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30380",
+            "@ref": "si106",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11497",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si118.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9167",
+            "@ref": "si118",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "73704",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22497",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28879",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12842",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13026",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "43710",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si101.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "92110",
+            "@ref": "si101",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si103.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24582",
+            "@ref": "si103",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14489",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "92599",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12541",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28998",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si76.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "44097",
+            "@ref": "si76",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9817",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28916",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "44643",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19030",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si73.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "62087",
+            "@ref": "si73",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si77.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "31207",
+            "@ref": "si77",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si113.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14271",
+            "@ref": "si113",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "45377",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21356",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si100.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27004",
+            "@ref": "si100",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si88.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4471",
+            "@ref": "si88",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11457",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si107.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30211",
+            "@ref": "si107",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si114.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28866",
+            "@ref": "si114",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5879",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10835",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si96.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13096",
+            "@ref": "si96",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13414",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16778",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11554",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9679",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si86.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23131",
+            "@ref": "si86",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12273",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si90.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28813",
+            "@ref": "si90",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si84.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "57990",
+            "@ref": "si84",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26235",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13373",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9719",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7770",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21801",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "72386",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si109.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25059",
+            "@ref": "si109",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si92.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7157",
+            "@ref": "si92",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10898",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18232",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "40285",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si93.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22345",
+            "@ref": "si93",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-si94.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "43982",
+            "@ref": "si94",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1364032122005925-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1095269",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85133758277"
+    }
+}}

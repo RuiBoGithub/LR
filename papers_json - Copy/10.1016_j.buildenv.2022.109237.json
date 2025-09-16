@@ -1,0 +1,1518 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85131411152",
+    "originalText": "serial JL 271434 291210 291731 291800 291881 31 Building and Environment BUILDINGENVIRONMENT 2022-05-28 2022-05-28 2022-06-08 2022-06-08 2022-10-11T22:00:54 1-s2.0-S0360132322004735 S0360-1323(22)00473-5 S0360132322004735 10.1016/j.buildenv.2022.109237 S300 S300.1 FULL-TEXT 1-s2.0-S0360132322X00097 2022-12-12T15:58:08.135772Z 0 0 20220701 2022 2022-05-28T01:06:27.202124Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst nomenclature orcid primabst ref vitae 0360-1323 03601323 true 219 219 C Volume 219 23 109237 109237 109237 20220701 1 July 2022 2022-07-01 2022 Research Papers article fla © 2022 Elsevier Ltd. All rights reserved. BALANCINGTHERMALCOMFORTENERGYCONSERVATIONAMULTIOBJECTIVEOPTIMIZATIONMODELFORCONTROLLINGAIRCONDITIONMECHANICALVENTILATIONSYSTEMS LIN C Nomenclature 1 Introduction 2 Modeling of energy conservation and thermal comfort 2.1 Modeling of energy conservation 2.2 Modeling of thermal comfort 3 Proposed multi-objective optimization model 3.1 Modeling 3.2 Solution algorithm of the proposed optimization model 3.3 Implementation and experiment 3.3.1 Implementation setting 3.3.2 Data collection 3.3.3 ANN training 3.4 Model validation 4 Results and discussion 4.1 Individual operating variable effect on PMV and EC 4.1.1 Effect of indoor air temperature and relative humidity 4.1.2 Effect of airflow rate and supply air temperature 4.1.3 Effect of water flow rate 4.2 Synergetic effect of operating variables on PMV and EC 4.3 Multiple objective trade-off by Pareto frontier analysis 4.4 Comparison of solution algorithms 5 Conclusion CRediT authorship contribution statement Appendix 1 ANN models performance for PMV and EC References YANG 2019 51 67 S BUILDINGSIMULATION FEBRUARYNUMERICALSIMULATIONSTUDYBIPVTDOUBLESKINFACADEFORVARIOUSCLIMATEZONESINAUSTRALIAEFFECTSINDOORTHERMALCOMFORT YUAN 2022 103463 F ABDEEN 2019 524 536 A CHAUDHURI 2020 106615 T CHUA 2013 87 104 K ALLOUHI 2015 118 130 A HUIZENGA 2006 393 397 C PROCEEDINGHEALTHYBUILDINGS AIRQUALITYTHERMALCOMFORTINOFFICEBUILDINGSRESULTSALARGEINDOORENVIRONMENTALQUALITYSURVEY KARMELLOS 2015 131 150 M KIM 2016 682 695 J DENG 2018 154 163 Y ACOSTA 2016 59 68 A ZHAI 2017 129 142 D ZHAI 2017 1 6 D 2017ASIANCONFERENCEENERGYPOWERTRANSPORTATIONELECTRIFICATIONACEPT ENERGYEFFICIENCYIMPROVEMENTKMEANSAPPROACHTHERMALCOMFORTFORACMVSYSTEMSSMARTBUILDINGS ZHAI 2017 1 15 D ZHANG 2017 420 431 S ZHAI 2018 1 7 D 2018INTERNATIONALJOINTCONFERENCENEURALNETWORKSIJCNN IMPROVEMENTENERGYEFFICIENCYMARKOVACMVSYSTEMSBASEDPTSINFORMATIONOCCUPANTS WANG 2018 V002T23A006 W DYNAMICSYSTEMSCONTROLCONFERENCE HUCOMAMODELFORHUMANCOMFORTESTIMATIONINPERSONALIZEDHUMANROBOTCOLLABORATION ZHANG 2019 113378 S ZHANG 2019 39 47 S CHAUDHURI 2019 44 53 T DONG 2019 913 922 Z SATRIO 2019 48 57 P DENG 2020 109872 Z PALLADINO 2020 4500 D WU 2021 116531 B ZAHID 2021 103805 H AFROZ 2022 108681 Z ARYAL 2018 33 46 A KAUSHIK 2020 107021 A WANG 2019 5152 W TIAN 2018 1306 1316 Z CHUNG 2017 77 87 M ENGINEERINGTOOLBOX ENGINEERINGTOOLBOX ZHANG 2019 106318 S FANGER 1970 244 P THERMALCOMFORTANALYSISAPPLICATIONSINENVIRONMENTALENGINEERING ASHRAEHANBOOK DENG 2018 587 602 Z LI 2018 613 622 W DHAKA 2017 296 307 S BRODAY 2019 1 8 E KIM 2018 13 22 J OMIDVAR 2020 106868 A ASHRAESTANDARD 2010 STANDARD552010THERMALENVIRONMENTALCONDITIONSFORHUMANOCCUPANCY ZHAO 2020 30 Y LOPES 2018 4718 M ANAND 2019 1143 1161 P SADEGHI 2020 571 A KIM 2020 4361 J MIRJALILI 2016 51 67 S DEB 2002 182 197 K WANG 2019 106 111 K 2005 ERGONOMICSTHERMALENVIRONMENTANALYTICALDETERMINATIONINTERPRETATIONTHERMALCOMFORTUSINGCALCULATIONPMVPPDINDICESLOCALTHERMALCOMFORTCRITERIA ZHANG 2016 654 665 S LINX2022X109237 LINX2022X109237XC 2024-06-08T00:00:00.000Z 2024-06-08T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2022 Elsevier Ltd. All rights reserved. 0 https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0360-1323(22)00473-5 S0360132322004735 1-s2.0-S0360132322004735 10.1016/j.buildenv.2022.109237 271434 2022-11-27T02:32:14.048782Z 2022-07-01 1-s2.0-S0360132322004735-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/MAIN/application/pdf/6967800609231b7625ff1e5f9b8c8dc1/main.pdf main.pdf pdf true 6874400 MAIN 15 1-s2.0-S0360132322004735-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/PREVIEW/image/png/5a33f7506be08ce69046daea3da4015b/main_1.png main_1.png png 57980 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0360132322004735-fx2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/fx2/DOWNSAMPLED/image/jpeg/141926a0bf4b8f1973cc378d825c99dd/fx2.jpg fx2 fx2.jpg jpg 183435 845 533 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr9/DOWNSAMPLED/image/jpeg/5cd62aa109e9fe4dd5d3f26747b4199e/gr9.jpg gr9 gr9.jpg jpg 117340 268 691 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr6/DOWNSAMPLED/image/jpeg/0f2150a832c076a559494f6c85bdbf01/gr6.jpg gr6 gr6.jpg jpg 110776 264 691 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr13/DOWNSAMPLED/image/jpeg/563ba38a1409654716f171db9a2dc50b/gr13.jpg gr13 gr13.jpg jpg 98260 376 533 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr5/DOWNSAMPLED/image/jpeg/2ae20195525bb53ed30035c03bec26d3/gr5.jpg gr5 gr5.jpg jpg 146970 392 535 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr12/DOWNSAMPLED/image/jpeg/8c4c48ae8765bd82367ddefc95c7d6fa/gr12.jpg gr12 gr12.jpg jpg 28839 366 533 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr8/DOWNSAMPLED/image/jpeg/b19b056b6e28bdb5ae3c3bdf122e46ac/gr8.jpg gr8 gr8.jpg jpg 109929 237 691 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr11/DOWNSAMPLED/image/jpeg/1178abfeabf2b55bf4f957d39b5145d4/gr11.jpg gr11 gr11.jpg jpg 120896 298 691 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr7/DOWNSAMPLED/image/jpeg/5022437139c42cfb645b1b0fc2eea9b2/gr7.jpg gr7 gr7.jpg jpg 125079 276 691 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr10/DOWNSAMPLED/image/jpeg/16113a41141b8c08e16cccfea3ff94e4/gr10.jpg gr10 gr10.jpg jpg 95788 267 388 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr2/DOWNSAMPLED/image/jpeg/56d58d08df60a7c93d4a26fc58956ba3/gr2.jpg gr2 gr2.jpg jpg 128555 390 535 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr1/DOWNSAMPLED/image/jpeg/507f04cf8a0cd4b5ed781b3e30dfab2c/gr1.jpg gr1 gr1.jpg jpg 147741 706 535 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr4/DOWNSAMPLED/image/jpeg/e7aa3b90f649786fe2bb180921376c15/gr4.jpg gr4 gr4.jpg jpg 102988 391 386 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr3/DOWNSAMPLED/image/jpeg/400694a6f8de0da9cb33a643b9332d9e/gr3.jpg gr3 gr3.jpg jpg 151204 397 691 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-fx1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/fx1/DOWNSAMPLED/image/jpeg/4ab69e9dc7ece6b7257afd74b1db44b6/fx1.jpg fx1 fx1.jpg jpg 189666 909 533 IMAGE-DOWNSAMPLED 1-s2.0-S0360132322004735-fx2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/fx2/THUMBNAIL/image/gif/8bc09adcb57f45db82de0ffcdcb98068/fx2.sml fx2 fx2.sml sml 74854 163 103 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr9/THUMBNAIL/image/gif/122ae7feb9b0ea1e5ec8c426b2b932c5/gr9.sml gr9 gr9.sml sml 71703 85 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr6/THUMBNAIL/image/gif/f8f89da3c5074184749fb31d30681581/gr6.sml gr6 gr6.sml sml 79920 84 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr13/THUMBNAIL/image/gif/e3831f9b0d68c7ed615087489c3bfafc/gr13.sml gr13 gr13.sml sml 71260 154 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr5/THUMBNAIL/image/gif/cf2fc027304a4882e6e807b152cd7c2b/gr5.sml gr5 gr5.sml sml 92808 160 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr12/THUMBNAIL/image/gif/c6c5623c98d0098226d2829e1f1842ec/gr12.sml gr12 gr12.sml sml 9754 150 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr8/THUMBNAIL/image/gif/a8a55f89089c57308bcfda500a2c8626/gr8.sml gr8 gr8.sml sml 70962 75 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr11/THUMBNAIL/image/gif/1cc3f2786af4b6f95135d93084196bf8/gr11.sml gr11 gr11.sml sml 72605 95 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr7/THUMBNAIL/image/gif/eab019236d191b01c9c7afd35531011f/gr7.sml gr7 gr7.sml sml 72725 87 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr10/THUMBNAIL/image/gif/2f817be01b1dfe98f3158b4a69bcb95b/gr10.sml gr10 gr10.sml sml 73743 151 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr2/THUMBNAIL/image/gif/a5e32ffc7c379a7c5ce5613ddb141d09/gr2.sml gr2 gr2.sml sml 77882 160 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr1/THUMBNAIL/image/gif/815e9bf69c7e6b459226cb829b2ea331/gr1.sml gr1 gr1.sml sml 76404 164 124 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr4/THUMBNAIL/image/gif/ab8bffc2945251d90a515d99b157504a/gr4.sml gr4 gr4.sml sml 74013 164 162 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr3/THUMBNAIL/image/gif/14e99aaeff6167a8f3345289ee68dd50/gr3.sml gr3 gr3.sml sml 77615 126 219 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-fx1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/fx1/THUMBNAIL/image/gif/4881baa22c4b5ddb0e1895eb275743a4/fx1.sml fx1 fx1.sml sml 74539 164 96 IMAGE-THUMBNAIL 1-s2.0-S0360132322004735-fx2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/fx2/HIGHRES/image/jpeg/80b153bf7badc5813e062f57705e86fd/fx2_lrg.jpg fx2 fx2_lrg.jpg jpg 891933 3744 2362 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr9/HIGHRES/image/jpeg/ff7edd5507bad60e3cae6f8acf660962/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 405957 1188 3059 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr6/HIGHRES/image/jpeg/d74880e1cf51b8aff23a95cf3afc4a0a/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 437188 1171 3060 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr13/HIGHRES/image/jpeg/7d2733ab0083bce162f94838aaab2f88/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 290312 1666 2362 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr5/HIGHRES/image/jpeg/886680c640ac62f56114d8222e00460c/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 686990 1735 2370 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr12/HIGHRES/image/jpeg/ebabf3ff6479745c18369f2788ec10f0/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 162205 1620 2362 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr8/HIGHRES/image/jpeg/bb2d7bf0257f1c5f12de0e295e2553ae/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 376828 1050 3059 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr11/HIGHRES/image/jpeg/00615097f0a070ecf553b5b4b75acb5e/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 379243 1320 3058 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr7/HIGHRES/image/jpeg/407e2d7292fd9f9aa5454575f4698635/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 534476 1222 3060 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr10/HIGHRES/image/jpeg/c7b7d751f47e76f06b592a987ec7cc2d/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 230899 1183 1721 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr2/HIGHRES/image/jpeg/988abd462e0b4727f61afa8ef598d054/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 468340 1730 2371 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr1/HIGHRES/image/jpeg/9e71d9345d307a8690adec68aaed48ad/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 677670 3128 2370 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr4/HIGHRES/image/jpeg/bba2807e48ed5b6b2fde79dfebe7d69a/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 278546 1733 1712 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/gr3/HIGHRES/image/jpeg/57c0a63f9b32fd94ec2542791bf06fea/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 648521 1758 3059 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-fx1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/fx1/HIGHRES/image/jpeg/2654131ea2f9a27e20116dfa68049450/fx1_lrg.jpg fx1 fx1_lrg.jpg jpg 938666 4028 2362 IMAGE-HIGH-RES 1-s2.0-S0360132322004735-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/7f59736ae1255ff337717e68db87a407/si69.svg si69 si69.svg svg 66152 ALTIMG 1-s2.0-S0360132322004735-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/1bbc796e38554ec21a9ef7b2ee5cda6d/si33.svg si33 si33.svg svg 48371 ALTIMG 1-s2.0-S0360132322004735-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/2c15ebdf10843e99427f30f279f20c0d/si35.svg si35 si35.svg svg 67172 ALTIMG 1-s2.0-S0360132322004735-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/b08943c206526ae5e07b6e99da4a9241/si49.svg si49 si49.svg svg 25830 ALTIMG 1-s2.0-S0360132322004735-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/b3ad2897db99c0e73067c5f49ee2e659/si23.svg si23 si23.svg svg 13178 ALTIMG 1-s2.0-S0360132322004735-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/e084fa84de4177e87c520f75f6254431/si62.svg si62 si62.svg svg 45309 ALTIMG 1-s2.0-S0360132322004735-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/e5980e252d6f27246871941697766084/si51.svg si51 si51.svg svg 26465 ALTIMG 1-s2.0-S0360132322004735-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/0e0cf825dc6b157d980b5e23466594bf/si65.svg si65 si65.svg svg 42948 ALTIMG 1-s2.0-S0360132322004735-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/294d3ad2a3c8be3f716dd62259099f19/si37.svg si37 si37.svg svg 47673 ALTIMG 1-s2.0-S0360132322004735-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/2645719e23d8814eadb29d33a3b049a7/si50.svg si50 si50.svg svg 91619 ALTIMG 1-s2.0-S0360132322004735-si76.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/e5e038841403229bf2b19010652a07e6/si76.svg si76 si76.svg svg 10114 ALTIMG 1-s2.0-S0360132322004735-si67.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/e846420ee74ea08a72b52f83afb6a855/si67.svg si67 si67.svg svg 26654 ALTIMG 1-s2.0-S0360132322004735-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/ce37f03c120d7eba97379134bdf1d773/si39.svg si39 si39.svg svg 109291 ALTIMG 1-s2.0-S0360132322004735-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/88b717bfecbfeda6316721b97a80336f/si57.svg si57 si57.svg svg 99514 ALTIMG 1-s2.0-S0360132322004735-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/29cbf6163b3543e5639976f98bfe3655/si58.svg si58 si58.svg svg 6517 ALTIMG 1-s2.0-S0360132322004735-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/36f29db5646de04a6a4bc5d4b0d0e011/si56.svg si56 si56.svg svg 85240 ALTIMG 1-s2.0-S0360132322004735-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/5d06a73b8e7ff55a67f47365d10c205f/si25.svg si25 si25.svg svg 9929 ALTIMG 1-s2.0-S0360132322004735-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/555edcb8d8fa7f729eed13b38cb215aa/si19.svg si19 si19.svg svg 11631 ALTIMG 1-s2.0-S0360132322004735-si88.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/cfee1855099871d72a491d7ebeebf7f7/si88.svg si88 si88.svg svg 12630 ALTIMG 1-s2.0-S0360132322004735-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/aab234538ef77941b02a8c955c4dcfdd/si34.svg si34 si34.svg svg 59140 ALTIMG 1-s2.0-S0360132322004735-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/a36043fc35d18a2b9a75a7e2e0c139d7/si14.svg si14 si14.svg svg 24052 ALTIMG 1-s2.0-S0360132322004735-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/d952cfa1d1442119ddad587ae70ba934/si54.svg si54 si54.svg svg 16518 ALTIMG 1-s2.0-S0360132322004735-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/26b33d9d9c2a75a360a64ed45c6fe21d/si55.svg si55 si55.svg svg 18565 ALTIMG 1-s2.0-S0360132322004735-si73.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/2e4757b02748e3e339c2c1a289f601f8/si73.svg si73 si73.svg svg 9778 ALTIMG 1-s2.0-S0360132322004735-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/d1c40e90b8d86f685986cd579de7dfdd/si40.svg si40 si40.svg svg 6494 ALTIMG 1-s2.0-S0360132322004735-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/0ac187cc86d41ff1d260cbd07676a678/si9.svg si9 si9.svg svg 9488 ALTIMG 1-s2.0-S0360132322004735-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/1dc570bb437ab82335d4b1e0245e363c/si28.svg si28 si28.svg svg 10145 ALTIMG 1-s2.0-S0360132322004735-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/79a8d8ef1426035f87a290db5cac5435/si36.svg si36 si36.svg svg 44674 ALTIMG 1-s2.0-S0360132322004735-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/e3b4da9977387b10c6e2785c135a62b4/si16.svg si16 si16.svg svg 18658 ALTIMG 1-s2.0-S0360132322004735-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/241bc47c2d567707e1a43e3e04300aef/si7.svg si7 si7.svg svg 6208 ALTIMG 1-s2.0-S0360132322004735-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/97123c86fd4c66737fa391bfb9e0a853/si15.svg si15 si15.svg svg 19902 ALTIMG 1-s2.0-S0360132322004735-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/a21d3b4723a510e7a1df9737dd761c20/si17.svg si17 si17.svg svg 20068 ALTIMG 1-s2.0-S0360132322004735-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/9cd4c80753c679759186a81dfce063dc/si2.svg si2 si2.svg svg 10841 ALTIMG 1-s2.0-S0360132322004735-si72.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/3995dfbf576422f55abf394c8c18706b/si72.svg si72 si72.svg svg 4694 ALTIMG 1-s2.0-S0360132322004735-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/a03ba000215db117578da14f2c660972/si42.svg si42 si42.svg svg 28204 ALTIMG 1-s2.0-S0360132322004735-si75.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/578460a7f8e87ad1693b9f0959af27df/si75.svg si75 si75.svg svg 4545 ALTIMG 1-s2.0-S0360132322004735-si68.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/99cee0d9fc0654396ee7adcd3343d37c/si68.svg si68 si68.svg svg 81567 ALTIMG 1-s2.0-S0360132322004735-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/ea8451b07ae94ccbea85b2e5ccb4dcad/si21.svg si21 si21.svg svg 16568 ALTIMG 1-s2.0-S0360132322004735-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/1a7a7af11cc6a5241c5b2e2d494a9a75/si43.svg si43 si43.svg svg 77630 ALTIMG 1-s2.0-S0360132322004735-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/5351bda79d52eaeb6cb474c9a91958a8/si63.svg si63 si63.svg svg 43891 ALTIMG 1-s2.0-S0360132322004735-si79.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/99170439b221ea83eaf6c29a57f2303a/si79.svg si79 si79.svg svg 7063 ALTIMG 1-s2.0-S0360132322004735-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/bd673c7339708834d65e530faff90774/si59.svg si59 si59.svg svg 62668 ALTIMG 1-s2.0-S0360132322004735-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/888bb61822da8b3ab4a9c017383866e0/si44.svg si44 si44.svg svg 8819 ALTIMG 1-s2.0-S0360132322004735-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/1b795900e4cd60276112af2252e672ba/si29.svg si29 si29.svg svg 5451 ALTIMG 1-s2.0-S0360132322004735-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/bc7f2f4c5bd364eaa04f5724dfc5f355/si32.svg si32 si32.svg svg 53180 ALTIMG 1-s2.0-S0360132322004735-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/06991c33962c5266e88f85eef9cf750b/si22.svg si22 si22.svg svg 11933 ALTIMG 1-s2.0-S0360132322004735-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/f1a45da19be5d835cfcdfa9472c9fa51/si30.svg si30 si30.svg svg 2723 ALTIMG 1-s2.0-S0360132322004735-si85.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/591b0dd5d42b57de0e806a0fb63dc6f2/si85.svg si85 si85.svg svg 71978 ALTIMG 1-s2.0-S0360132322004735-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/0893d20cbe88ca60819b621f91293596/si31.svg si31 si31.svg svg 16572 ALTIMG 1-s2.0-S0360132322004735-si70.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/c7c7f8305cddf0ee02d39c26279ad692/si70.svg si70 si70.svg svg 79081 ALTIMG 1-s2.0-S0360132322004735-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/83d833a0153c29c37c1d231c1663eca7/si61.svg si61 si61.svg svg 39464 ALTIMG 1-s2.0-S0360132322004735-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/290f72534bb96cc15ace0a34a7d0a272/si47.svg si47 si47.svg svg 26600 ALTIMG 1-s2.0-S0360132322004735-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/c5a91ba2abed36d9850e67011606395c/si12.svg si12 si12.svg svg 20141 ALTIMG 1-s2.0-S0360132322004735-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/2fb9c7f7e3b835ede9e11ee69754302c/si45.svg si45 si45.svg svg 43686 ALTIMG 1-s2.0-S0360132322004735-si82.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/c5824066325afa2c1a835f03e27b3090/si82.svg si82 si82.svg svg 19831 ALTIMG 1-s2.0-S0360132322004735-si71.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/6c4cf91d9778d5cc374daaed02f283d3/si71.svg si71 si71.svg svg 16314 ALTIMG 1-s2.0-S0360132322004735-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/87d2a62b5672ef6605e56d39efa26072/si53.svg si53 si53.svg svg 66249 ALTIMG 1-s2.0-S0360132322004735-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/65b29204b5f73d0a3c4c6c611c4a43d9/si60.svg si60 si60.svg svg 44687 ALTIMG 1-s2.0-S0360132322004735-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/5c2a2c9e6507fac5a559b7221a1374a1/si66.svg si66 si66.svg svg 95078 ALTIMG 1-s2.0-S0360132322004735-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/b9314e70d7c28a937d7fd0ee9ba9570e/si24.svg si24 si24.svg svg 10319 ALTIMG 1-s2.0-S0360132322004735-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/cc3fa048dc8dc70cfeabac1c7c36c110/si6.svg si6 si6.svg svg 11163 ALTIMG 1-s2.0-S0360132322004735-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/750b8f8d78b3d9025f156dd6abeadbde/si64.svg si64 si64.svg svg 39249 ALTIMG 1-s2.0-S0360132322004735-si78.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/5abaa7ed687624c55d7c86e6f7b2bf0f/si78.svg si78 si78.svg svg 13421 ALTIMG 1-s2.0-S0360132322004735-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/184b0da01374f8423e92934f2a7d388e/si48.svg si48 si48.svg svg 26686 ALTIMG 1-s2.0-S0360132322004735-si86.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/005fc5d0341dd1423948bc3b4e0a1b81/si86.svg si86 si86.svg svg 22881 ALTIMG 1-s2.0-S0360132322004735-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/e37058276a0c4d203fb7687417f7e88e/si38.svg si38 si38.svg svg 25518 ALTIMG 1-s2.0-S0360132322004735-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/5c14feb5cbe2ce2d0556b88b8b573f69/si18.svg si18 si18.svg svg 7156 ALTIMG 1-s2.0-S0360132322004735-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/282101bc83840a81a9de7310b8f31029/si26.svg si26 si26.svg svg 9205 ALTIMG 1-s2.0-S0360132322004735-si80.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/7927926e0f9bd0d4b3932fecd3e528c6/si80.svg si80 si80.svg svg 29861 ALTIMG 1-s2.0-S0360132322004735-si81.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/189e66e2b5e55a2216b4d040da00e8e5/si81.svg si81 si81.svg svg 73343 ALTIMG 1-s2.0-S0360132322004735-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/9a921eb459a8f11b48b7edf27515fffd/si3.svg si3 si3.svg svg 9021 ALTIMG 1-s2.0-S0360132322004735-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/57efdd2d68836acdeefd3d34e95bbe68/si20.svg si20 si20.svg svg 12152 ALTIMG 1-s2.0-S0360132322004735-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/c1fdf51516ef89a0bbfc056d5753a3d6/si4.svg si4 si4.svg svg 10266 ALTIMG 1-s2.0-S0360132322004735-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/315172ec75766add5b6e565817d4d8ab/si41.svg si41 si41.svg svg 5646 ALTIMG 1-s2.0-S0360132322004735-si84.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/bc87988e85824da0a89cf40d95c4ed7f/si84.svg si84 si84.svg svg 64258 ALTIMG 1-s2.0-S0360132322004735-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/a107a2add94a870a8fc76c085b16712d/si46.svg si46 si46.svg svg 4349 ALTIMG 1-s2.0-S0360132322004735-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/7ca1536779429ad6fd24e75608cdcbc7/si52.svg si52 si52.svg svg 106460 ALTIMG 1-s2.0-S0360132322004735-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/8d0c88b2e24e46879aa0781bb27aa851/si27.svg si27 si27.svg svg 8615 ALTIMG 1-s2.0-S0360132322004735-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/e788d6c447ded03e3d8034e641f9a550/si1.svg si1 si1.svg svg 8800 ALTIMG 1-s2.0-S0360132322004735-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/f206e82c5add9008b511eddaf9542082/si5.svg si5 si5.svg svg 9115 ALTIMG 1-s2.0-S0360132322004735-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/3e98a8c66e43bee841aa47f65e892880/si13.svg si13 si13.svg svg 23418 ALTIMG 1-s2.0-S0360132322004735-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/15d1cee1504ae66e455daf2f05d87e50/si8.svg si8 si8.svg svg 16828 ALTIMG 1-s2.0-S0360132322004735-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/19a7fbc77e497a7d497281c1289229a9/si11.svg si11 si11.svg svg 13542 ALTIMG 1-s2.0-S0360132322004735-si74.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/c154a06716995ffb9e3b994b289831f5/si74.svg si74 si74.svg svg 15071 ALTIMG 1-s2.0-S0360132322004735-si87.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/d6851a9153fea765fa4bddf8258573af/si87.svg si87 si87.svg svg 13069 ALTIMG 1-s2.0-S0360132322004735-si83.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/b32303b734d059187662cd2594b1fa90/si83.svg si83 si83.svg svg 77823 ALTIMG 1-s2.0-S0360132322004735-si77.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/eeb0f9f23f6a2dffae0de34b99012cf0/si77.svg si77 si77.svg svg 5575 ALTIMG 1-s2.0-S0360132322004735-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0360132322004735/STRIPIN/image/svg+xml/311ef8ce612e43ff0c8a619d2b2b6847/si10.svg si10 si10.svg svg 10627 ALTIMG 1-s2.0-S0360132322004735-am.pdf am am.pdf pdf 1375784 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10DWDL3HJBS/MAIN/application/pdf/40459ae49b6288815daf934c329f2f92/am.pdf BAE 109237 109237 S0360-1323(22)00473-5 10.1016/j.buildenv.2022.109237 Elsevier Ltd Fig. 1 The outline of ACMV cooling system. Fig. 1 Fig. 2 Relationships of the robot speed, indoor air temperature, and PMV. Fig. 2 Fig. 3 Proposed multi-objective optimization framework. Fig. 3 Fig. 4 MOWOA computational flowchart. Fig. 4 Fig. 5 Experimental setup (a) Lab layout (b) GPU fan and picking area (c) assembly process (d) wearable sensor for physiological data. Fig. 5 Fig. 6 Device used for data collection: (a) humidity sensor, (b) temperature sensor (c) Nexus sensor. Fig. 6 Fig. 7 Comparison between the proposed and existing models (a) T a varies; (b) S r varies. Fig. 7 Fig. 8 Effect of (a) indoor air temperature (b) relative humidity on PMV and EC. Fig. 8 Fig. 9 Effect of (a) supply air temperature and (b) airflow rate on PMV and EC. Fig. 9 Fig. 10 Effect of water flow rate on PMV and EC. Fig. 10 Fig. 11 Synergic effect on PMV and EC by (a) water and airflow rates (b) supply and indoor air temperatures. Fig. 11 Fig. 12 Proposed Pareto frontier curve for PMV and EC using MOWOA. Fig. 12 Fig. 13 Non-dominated curves solving by MOWOA and NSGA-II algorithms. Fig. 13 Table 1 Summary of factors considered for TC and EC. Table 1 Literature Environmental Personal Operating HRC multi-objective optimization R H T a T r v a I c l M Acosta et al. [11] √ √ Zhai et al. [12,13] √ √ Zhai and Soh [14] √ √ √ √ √ √ √ Zhang et al. [15] √ √ Zhai et al. [16] √ √ √ Wang et al. [17] √ Zhang et al. [18,19] √ √ Chaudhuri et al. [20] √ √ √ √ Dong et al. [21] √ √ √ √ √ √ √ Satrio et al. [22] √ √ √ √ Deng and Chen [23] √ √ √ √ √ Palladino et al. [24] √ √ √ Wu et al. [25] √ √ √ √ √ √ √ √ Zahid et al. [26] √ √ √ √ √ √ Afroz et al. [27] √ √ √ This study √ √ √ √ √ √ √ √ √ Table 2 Thermal environment category (Adapted from ISO 7730). Table 2 Class PMV TC A − 0.2 < P M V < + 0.2 High satisfaction B − 0.5 < P M V < + 0.5 Moderate satisfaction C − 0.7 < P M V < + 0.7 Low satisfaction Table 3 Regression analysis for PMV. Table 3 Term Correlation coefficient Standard error coefficient T-Value P-Value Effect Constant −1.452 0.326 −4.45 0.000 T a 0.1267 0.0175 5.91 0.000 23.53 T r −0.0353 0.0109 −3.24 0.001 9.17 v a −0.0222 0.0876 −0.25 0.049 1.06 R H 0.051 0.000921 0.16 0.044 6.88 T s a −0.0136 0.00199 −0.68 0.039 1.03 S r 0.05349 0.000280 19.10 0.000 14.70 Table 4 Experiment settings. Table 4 (a) Statistical summary of measured parameters Parameters Minimum Maximum Mean ± S.D. Environmental Air temperature (oC) 21.0 28.0 24.5 ± 1.6 Relative humidity (%) 40.0 80.0 60 ± 1.6 Radiant temperature (oC) 14.3 26.1 19.9 ± 2.6 Personal Pulse rate (bpm) 47.1 95 71.4 ± 9.26 Metabolic rate (W/m2) 1.43 2.92 2.18 Cloth insulation (clo) 0.65 0.65 0.65 HRC Robot speed (%) 10 70 % of max. speed (b) Predefined parameters used for ACMV system [54] ACMV Components Parameter Value Unit Variable speed pump Max. water flow rate 9 m3/s Pump differential head 34 m Pump efficiency 0.8 Variable speed fan Max. air flow rate 14 m3/s Inlet temperature 25 oC Outlet temperature 21 oC Fan efficiency 0.8 Compressor Gravity 9.81 m/s2 Pressure P1 12.7 psi Pressure P2 13.2 psi Compressor efficiency 0.7 (c) Multi-objective optimization model constraints Constraints Minimum Maximum Air temperature ( o C) 21 28 Supply air temperature ( o C) 14 21 Airflow rate (m 3 /s) 0.011 0.091 Water flow rate (m 3 /s) 2 9 Robot speed (%) 10 70 Table 5 Performance of ANN training algorithms. Table 5 Training algorithm PMV EC MAE R2 MAE R2 Levenberg-Marquardt 0.22 0.98 0.24 0.98 Bayesian regularization 0.28 0.90 0.32 0.87 Resilient backpropagation 0.33 0.83 0.38 0.76 Conjugate gradient with Beale restarts 0.37 0.74 0.42 0.68 Scaled conjugate gradient 0.42 0.67 0.48 0.60 Table 6 Multiple-objective optimization result. Table 6 Decision variable Base case A B C Unit Indoor air temperature 27 21 23 25 oC Supply air temperature 20 14 16 19 oC Airflow rate 0.071 0.045 0.063 0.091 m3/s Water flow rate 6.5 9 7.5 4 m3/s Objective PMV 0.53 0.12 0.27 0.58 EC 463.94 1229.94 387.35 198.62 kWh Table 7 Performance comparison by solution algorithms. Table 7 Solution algorithms Mean energy consumption (kWh) MOWOA 392.0228 (765)* NAGA-II 457.1175 (976) Note: Computational time (sec.). Balancing thermal comfort and energy conservation\u2013 A multi-objective optimization model for controlling air-condition and mechanical ventilation systems Chiuhsiang Joe Lin Supervision Conceptualization a b Kung-Jeng Wang Writing \u2013 review & editing Supervision Methodology Conceptualization a b ∗ Teshome Bekele Dagne Writing \u2013 original draft Validation Formal analysis a Bereket Haile Woldegiorgis Supervision c a Department of Industrial Management, National Taiwan University of Science and Technology, Taipei, 108, Taiwan Department of Industrial Management National Taiwan University of Science and Technology Taipei 108 Taiwan Department of Industrial Management, National Taiwan University of Science and Technology, Taipei, 108, Taiwan b Artificial Intelligence for Operations Management Research Center, National Taiwan University of Science and Technology, Taiwan Artificial Intelligence for Operations Management Research Center National Taiwan University of Science and Technology Taiwan Artificial Intelligence for Operations Management Research Center, National Taiwan University of Science and Technology c Faculty of Mechanical and Industrial Engineering, Bahir Dar Institute of Technology, Bahir Dar University, Ethiopia Faculty of Mechanical and Industrial Engineering Bahir Dar Institute of Technology Bahir Dar University Ethiopia Faculty of Mechanical and Industrial Engineering, Bahir Dar Institute of Technology, Bahir Dar University, Ethiopia ∗ Corresponding author. Department of Industrial Management, National Taiwan University of Science and Technology, Taipei, 108, Taiwan. Department of Industrial Management National Taiwan University of Science and Technology Taipei 108 Taiwan Building air condition and mechanical ventilation (ACMV) systems which provide cooling operations suffers from the balance between thermal comfort (TC) and energy consumption (EC). This study presents a multi-objective optimization model that resolves the trade-off between TC and EC. Four operating variables are selected as decision variables because they significantly affect TC and EC. Firstly, the component power consumption pattern of the ACMV system (that is, fan, pump, and compressor) is built by a semi-empirical model. Then EC is modeled as a function of the component power consumption pattern and air temperature. Secondly, TC is modeled as a function of environmental, personal, and human-robot collaboration variables. Thirdly, an artificial neural network (ANN) was constructed as a prediction model of TC and EC. Then, ANN is coupled with multi-objective whale optimization algorithm for optimization of decision variables. Sensitivity analysis was carried out to examine the variation of decision variables. Experiment result shows that (1) the proposed ANN for TC and EC exhibits high performance with a goodness-of-fit of 98.83% and 98.25% respectively. (2) The optimization model reduces a 16.51% of EC and improves TC by 49.06% as compared to the reference operation. This study successfully builds a multi-objective optimization model of an ACMV system for TC and EC. Keywords Air condition and mechanical ventilation system Energy conservation Thermal comfort Multi-objective optimization Nomenclature Parameters P 1 Absolute initial atmospheric pressure (psi) P 2 Absolute final pressure after compression (psi) ρ a Air density (kg/m3) ρ w Water density (kg/m3) M Metabolic rate (met) T r Mean radiant temperature ( °C ) R H Relative humidity (%) v a Air velocity (m/s) S r Robot speed (m/s) P c l Power consumption (kW) η f a n Fan efficiency (dimensionless) η p u m p Pump efficiency (dimensionless) η c o m p Compressor efficiency (dimensionless) D w , p Differential head (m) D a , p Differential pressure (pa) P M V Predicted mean vote value (dimensionless) k Expansion coefficient (dimensionless) I c l Cloth insulation (clo) Decision variables T a Air temperature (°C) T s a Supply air temperature (°C) V ˙ a Airflow rate (m3/s) V ˙ w Water flow rate (m3/s) 1 Introduction Ensuring thermal comfort (TC) in the living environment is crucial for the health of building occupants [1]. Appropriate TC setting largely depends on the physiological situation of the residents as well as the type of their activities [2]. How to maintain indoor TC for people has increasingly got attention [3] as 90% of the daily time people spend indoors [4]. Air condition and mechanical ventilation (ACMV), which is commonly used for space cooling, account 40%\u201360% of entire building energy consumption to maintain TC [5,6]. Despite energy spent to ensure TC, building occupants\u2019 thermal dissatisfaction reports are widespread [1,7]. The discrepancy between TC and energy consumption (EC) due to the two conflicting objectives needs to be throughout deliberated. TC and EC are two major concerns of the ACMV system [8,9]. This situation needs to be effectively managed in the ACMV system operations [10]. Studies on the ACMV system can be divided into two categories (1) comfort-driven control (i.e., comfort prioritized over energy): and (2) energy-consumption control (i.e., energy prioritized over comfort). A summarized previous research on ACMV system and their considered factors are shown in Table 1 . In the first category, TC requirement is prioritized over EC, resulting EC objective left unmet (e.g., Refs. [15,18\u201320,23,24,26,28,29]). Zhang et al. [15] explored TC in terms of supply airflow rate and indoor air temperature to achieve preferred thermal conditions in occupied zone. Aryal and Becerik-Gerber [28] studied occupant thermal satisfaction using zone level temperature setpoint. They showed that a TC-driven zone temperature setpoint adjustment improves thermal satisfaction with reduced EC. Chaudhuri et al. [20] proposed a comfort-driven framework for indoor TC control. Their framework comprises of a TC prediction and an optimization algorithm for indoor air temperature control. Zhang et al. [18,19] studied TC for stratum ventilation using air flowrate, supply and exit air temperature. Deng and Chen [23] examined the overall TC in multi-occupant offices based on environmental and personal factors. Kaushik et al. [29] investigated TC using relative humidity, mean radiant temperature, indoor air temperature, air velocity, and clothing insulation. Palladino et al. [24] proposed an algorithm for TC estimation considering indoor air temperature, relative humidity and clothing insulation. They showed that the accuracy of the proposed TC is better than the conventional one. Zahid et al. [26] proposed a dynamic TC model by combining building information and modeling (BIM) with Internet of things (IoT) sensors. They demonstrated the integration advantage of BIM models for geometric and parametric information and IoT sensors for real-time streaming of environmental data (humidity, temperature, etc.) to optimize the indoor thermal comfort. In the second category, EC requirement is prioritized over TC. TC criterion is left unmet because few comfort factors are considered (e.g., Refs. [11\u201313,16,21,27]. Acosta et al. [11] predicted EC using cooling loads of air-conditioning system. Zhai et al. [12,13] explored energy efficiency improvement of ACMV system considering operating parameters, indoor air temperature and skin temperature. In another paper, Zhai et al. [16] examined EC of ACMV system by integrated predictive thermal state model with their proposed ACMV operating state algorithm. They showed that a 13.5% energy saving can be achieved by the prosed method. Dong et al. [21] explored EC potential at different control strategies for air pump system. Afroz et al. [27], presented a simulation-based modeling and optimization approach to explore EC by optimal control setting (i.e., indoor air temperature setpoint, supply air temperature setpoint, supply air duct static pressure set point of the air handling units (AHUs) without compromising indoor environmental condition. Table 1 also highlights some limitations of previous studies on integrating operating, environmental, personal, and human robot collaboration (HRC) factors to assess TC and EC as multi-objective optimization problem (e.g., Refs. [14,22,25]. Zhai and Soh [14] proposed a modeling and optimization approach for an ACMV system to locate global optimal operating points and predict energy-saving rate. According to their experimental evaluation result on the optimization algorithms, the sparse augmented firefly algorithm was found to be more efficient than the sparse firefly algorithm. Satrio et al. [22], used a multi-objective genetic algorithm for a two-chiller system considering operating and environmental factors. Wu et al. [25] proposed a multi-objective optimization model for an active chilled beam system using environmental and personal factors. The most common limitation of previously proposed models was that they did not consider HRC factors concerning TC modeling. Obviously, a trade-off control model that caters both TC and EC can be a remarkable solution remains a research gap to be resolved. Occupant TC is mainly influenced by environmental, personal, and facilities-related human factors such as HRC [30]. Notably, TC proposed by Wang et al. [17] was the only study considering HRC factors (i.e., robot speed, proximity, position of delivery, and robot arm). They estimated TC based on HRC factors when the robot assists the human partner in the assembly tasks. The result demonstrates that TC is significantly affected by robot performance. However, HRC factors are only considered for TC estimation. EC is influenced by the ACMV system operating parameters and indoor thermal conditions [20]. To attain the TC of occupant while minimizing EC of the ACMV system, the trade-off control strategy should incorporate all major driving factors. Consequently, to assess such a trade-off, it is necessary to not only explore the independent effects but also to elucidate synergistic effects. However, a trade-off control strategy as a multi-objective optimization problem by integrating those factors (i.e., operating, environmental, personal, and HRC factors) was not fully addressed yet [31]. Therefore, in this study a multi-objective optimization model as a trade-off control in a human-machine coexisting environment is proposed by considering operating, environmental, personal, and HRC factors. Built on the existing reviews towards the ACMV system, this article aims to present a multi-objective optimization model that can trade-off TC and EC. Particularly, the following research questions are addressed. (1) How to establish the nonlinear property in TC and EC mapping with influencing factors? (2) How to achieve the optimal solution set considering TC and EC simultaneously? (3) How to conduct the trade\u2013off decision under various decision variables? The novelty and originality of the present study lies in three parts: (1) developing a multi-objective optimization model to trade-off TC and EC of the ACMV system. As a result, first, the component power consumption pattern of the ACMV system is represented by a semi-empirical model. Then, an EC model is developed as a function of component power consumption pattern and indoor air temperature. Second, differing from conventional TC model where environmental and personal are major concerns, the proposed TC model considers environmental, personal along with HRC factors. (2) Artificial neural network (ANN) is adopted as a fitness function in the optimization model to offset low accuracy. The proposed ANN model replaces the conventional multi-objective mathematical function and enables the mapping relationship between output objectives with corresponding input factors. (3) ANN coupled with multi-objective whale optimization algorithm (MOWOA) is proposed for solving the optimization of TC and EC. Finally, we validate the efficacy of the proposed model using an HRC scenario and demonstrate the flexibility of the proposed model under various decision variable settings. The remainder of the paper is organized as follows. Section 2 presents TC and EC models. Section 3 develops the multi-objective optimization model for the ACMV system and describes HRC based experiment design, data collection, and ANN modeling. Section 4 presents the experiment results and discussion. Lastly, section 5 provides the conclusions. 2 Modeling of energy conservation and thermal comfort 2.1 Modeling of energy conservation In the ACMV system, Air Handling Unit (AHU) is used to condition the mixed inlet outside fresh air with return air according to cooling demand and then supplied into the room, as illustrated in Fig. 1 . The energy-consuming functions of the ACMV systems consist of chilled water circulation and refrigerant circulation for heat transferring within the AHU system. For chilled water circulation, the chiller uses the water pump to circulate the chilled water through the evaporator and cooling coil of AHU. When the chilled water passes through the evaporator, heat absorbed from the circulating water flows to the cooling coil unit. As the air blow over the cooling unit, the system transfers heat from circulating air to chilled water, and then the fan supplies air into the room. The refrigerant circulation loop includes high and low-pressure sides. At high pressure, the compressor helps provide appropriate pressure to increase the vapor refrigerant and continuous circulation of refrigerant in the compression cycle. The condenser changes the refrigerant from vapor into liquid form to release heat. At low pressure, the evaporator provides heat transferring between water and liquid form refrigerant to generate chilled water. Then the liquid form refrigerant that received the heat transferred from water becomes a vapor and returns to the compressor for the next circulation. The power consumption from AHU and water chiller unit (WCU) mainly depends on indoor thermal condition. Once the AHU start operating, the condenser operates at constant power rate. In this study, component power consumption pattern of the ACMV system (that is, fan, pump, and compressor) changes due to indoor thermal condition only. We used the component power consumed for cooling demand along with indoor thermal condition as input parameters for modeling EC in the ACMV system. The operating points of the ACMV system component which are selected as input parameters for EC modeling are principally based on the following reasons. Firstly, indoor air temperature is a key indicator of the indoor thermal environment. Secondly, the AHU fan is a major part that provides conditioned air into the room. The rate of supply air affects AHU fan power consumption [32]. Thirdly, the water pump for water-circulation and compressor for refrigerant-circulation is responsible for a cooling system. These main components are significant for EC for cooling operations. The power consumption of component ( P c l ) from fan, water pump, and compressor is calculated as stated in Eq (1). (1) P c l = P f a n + P p u m p + P c o m p where P f a n , P p u m p , P c o m p are the power consumed for fans, water pump and compressor. The fan and water pump power consumption for variable speed drive is defined as Eqs. (2) and (3) [33]. (2) P f a n = ( ρ a . V ˙ a . D a , p ) η f a n (3) P p u m p = ( ρ w . V ˙ w . g . D w , p ) η p u m p where ρ a , V ˙ a , D a , p , η f a n are the air density (kg/m3), volume of airflow rate (m3/s), and differential pressure (Pa), and fan efficiency respectively; ρ w , V ˙ w , D w , p , η p u m p are the water density (kg/m3), volume of water flow rate (m3/s), differential head (m), and pump efficiency respectively; g is the gravity (9.81 m/s2). The compressor power consumption for air compression ( P c o m p ) is calculated as Eq. (4) [34]. (4) P c o m p = [ 144 N P 1 V k / ( 3300 ( k − 1 ) ) ] [ ( P 2 P 1 ) ( k − 1 N k ) − 1 ] η c o m p where N is the number of compression stage (1 in this study), P 1 and P 2 are the pressures of the condenser and evaporator of the refrigeration cycle (psi), V is the volume of air at atmospheric pressure (ft3/min), k is the coefficient of adiabatic expansion (k = 1.41), and η c o m p is the compressor efficiency. In the formula P c o m p is in hp unit (1hp = 745.7 W). Therefore, the EC ( E C t o t a l ) model in an ACMV system is a function of its component power consumption, operating parameter setpoint, and indoor air temperature as defined by Eq. (5) [35]. (5) E C t o t a l = Y ˆ ( V ˙ a , V ˙ w , T s a , T a , P c l ) where Y ˆ represents an ANN model in the present study for Eq. (5) because a close form did not exist [20]. V ˙ a , V ˙ w , T s a , T a , P c l are the volume of airflow rate, volume of water flow rate, supply air temperature, indoor air temperature and power consumed for cooling operation respectively. 2.2 Modeling of thermal comfort Predictive mean vote (PMV) model, targeting minimization, is commonly used for estimating TC [36,37]. According to ISO 7730 [53], the TC categories based on PMV value is shown in Table 2 . PMV value closer to 0 indicating higher TC satisfaction. In previous research, a simplified PMV model considered personal (i.e., cloth insulation, metabolic rate) [38,39], and environmental factors (indoor air temperature, relative humidity, air velocity, supply air temperature) [15]. Additionally, personal TC is also affected by HRC factors (i.e., robot speed) that should be considered in PMV calculation [30]. Current field base studies reveal that the oversimplification of factors considered in original PMV model results in a bias between the predicted PMV and actual thermal sensation [40]. Another simplification made in the original PMV model is sweat rate calculation, which is assumed to only depend on metabolic rate and independence of environmental parameter, resulting in a deviation occur between the expected PMV value and actual thermal sensation [41]. By this simplification introduced in the original PMV, studies showed that the deficiency of estimating TC in a warm environment [42]. Consequently, several studies have been conducted to promote or adjust the model by incorporating factors such as adaptive coefficient [35], and modify the sweat rate calculation in the original PMV for enhancing TC prediction in warm climates [43]. In the present study, we proposed a PMV model for TC analysis by taking the advantages of existing PMV models along with HRC factors. In a human-machine coexisting environment, the human is an interactive participant rather than being simply a passive recipient of the thermal environment. The proposed PMV model for TC analysis based on a human-machine coexisting environment is evaluated as a function of environmental, personal and robot speed factors, expressed as Eq. (6). (6) P M V = Y ˆ ( M , I c l , R H , T a , T r , T s a , v a , S r ) where Y ˆ will be represented as an ANN model for Eq. (6), M is the metabolic rate (met), I c l is the cloth insulation (clo, 1clo = 0.155 m 2 . °C / w ), RH is the relative humidity (%), T r is the mean radiant temperature ( °C ), T a is the indoor air temperature ( °C ), v a is air velocity (m/s), and S r is the robot speed. To quantify the effect of environmental and HRC factors on PMV, a regression model is constructed using filed data, as shown in Eq. (7) and Table 3 . The p-value of less than 0.05 indicates a significant impact on the response variable. The results show that the indoor air temperature and robot speed have the highest impact (i.e., p-value = 0.00) on the response variable. When the indoor air temperature increases by 1 °C , PMV increases by 0.1267 unit. Similarly, when the robot speed increases by 1%, PMV increases by 0.05349 unit. It also produced an adjusted R-square of 98.98%, indicating a significant relationship between the response variable and independent factors. (7) P M V = − 1.452 + 0.1267 T a − 0.0353 T r − 0.0222 v a + 0.051 R H − 0.0136 T s a + 0.05349 S r By a field test, a relationship of robot speed, indoor air temperature, and PMV at 50% RH is illustrated in Fig. 2 . It shows that both indoor air temperature and robot speed significantly affect PMV. When indoor air temperature and robot speed increases, PMV goes up. Thereby, robot speed should be considered to improve occupant TC in addition to environmental factors. 3 Proposed multi-objective optimization model The proposed multi-objective optimization framework is depicted in Fig. 3 . Indoor air temperature, relative humidity, supply air temperature, volume of airflow rate and water flow rate are selected as control variables. Regarding indoor air temperature and relative humidity, Fanger [36] proposed the PMV model for estimating TC. It considers four environmental factors (indoor air temperature, relative humidity, radiant temperature and air velocity) and two personal factors (i.e., cloth insulation, metabolic rate) [36]. Amongst six thermal comfort factors, indoor air temperature and relative humidity have higher influence on thermal comfort [24]. Therefore, indoor air temperature and relative humidity are considered as control variables for examining their variation impact on the TC. Further, the ANN model is built as the estimation model of TC and EC. Constraints are imposed on control variables to achieve feasible solutions for the proposed model. Then, TC and EC objectives are optimized (trade-off) using a multi-objective whale optimization algorithm (MOWOA). 3.1 Modeling The multi-objective optimization model is expressed as Eq. (8). (8) Min V ˙ a , V ˙ w , T a , T s a [ g 1 ( x ) , g 2 ( x ) ] T where g 1 ( x ) is EC of the ACMV system, g 2 ( x ) is TC. g 1 ( x ) = E C t o t a l ( V ˙ a , V ˙ w , T s a , T a , P c l ) , g 2 ( x ) = | P M V ( M , I c l , R H , T a , T r , T s a , v a , S r ) | and x is the input variable vectors for EC and TC (i.e., for TC, x = [ M , I c l , R H , T a , T r , T s a , v a ] and for EC, x = [ V ˙ a , V ˙ w , T s a , T a , P c l ] ). Subject to: constraints Eqs. 9\u201313, as stated below. For each decision variables (control variables), their minimum and maximum values are considered as lower and upper bound for optimization model, respectively. To maintain the indoor thermal condition, a constraint is imposed on operating control variable according to ASHARE standard 62.1 [44]. Therefore, the optimization model constraint conditions expressed as: 1. Airflow rate constraint: the minimum and maximum volume of airflow rate is set based on the fan motor capacity. (9) V ˙ a , min ≤ V ˙ a ≤ V ˙ a , max 2. Water flow rate constraint: the lower and upper bound of water flow rate is set based on pump frequency. (10) V ˙ w , min ≤ V ˙ w ≤ V ˙ w , max 3. Supply air temperature constraint (11) T s a , min ≤ T s a ≤ T s a , max 4. Indoor air temperature constraint (12) T a , min ≤ T a ≤ T a , max 5. Robot speed constraint (13) S r , min ≤ S r ≤ S r , max 3.2 Solution algorithm of the proposed optimization model ANN is used for mapping a complex relationship between input factors and output objectives. Studies proved that ANN in a good position to estimate PMV [45] and EC [46\u201349]. Thus, PMV and EC models are built in the study by ANN. For the PMV-ANN model, assuming that X p m v k = [ M , I c l , R H , T a , T r , T s a , v a ] is the input vector and P M V k is the PMV output for kth vector of n sample set, the PMV-ANN model can be formulated as Eqs. 14\u201316. (14) V i k = φ ( ∑ j = 1 h w i j X p m v k − b i ) (15) P M V k = ( ∑ i = 1 h V i k W i − B i ) (16) M A E P M V = ∑ i = 1 n | P M V k − P M V k ˆ | n where V i k is the hidden neuron output i , φ ( . ) is the activation function, w i j is the weight of input neuron of j for hidden layer neuron i , b i is the hidden neuron bias i , h is the hidden neuron numbers, W i is the weight of hidden neuron output i , B is the output neuron bias, the mean absolute error (MAE) of PMV, P M V k is the measured value of PMV for kth vector and P M V k ˆ is the ANN output of value of the kth vector. For EC-ANN model, assume that X E C k = [ V ˙ a , V ˙ w , T s a , T a , P c l ] is input vector and E C k is the EC output for kth vector of n sample set, then the EC-ANN model can be formulated as Eqs. 17\u201319. (17) V i k = φ ( ∑ j = 1 h w i j X E C k − b i ) (18) E C k = ( ∑ i = 1 h V i k W i − B i ) (19) M A E E C = ∑ i = 1 n | E C k − E C k ˆ | n where V i k is the hidden neuron output i , φ ( . ) is the activation function, w i j is the weight of input neuron of j for hidden layer neuron i , b i is the hidden neuron bias i , h is the hidden neuron numbers, W i is the weight of hidden neuron output i , B is the output neuron bias and the mean absolute error (MAE) of EC, the mean absolute error (MAE) of EC, E C k is the measured value of EC for kth vector and E C k ˆ is the ANN output of value of the kth vector. After establishing the complex correlation between PMV and EC with corresponding driving factors by a well-trained ANN model, MOWOA is used for multi-objective optimization solution algorithm to improve PMV and reduce EC. As a result, the trained ANN models for PMV and EC are used as a fitness function in optimization to replace the unknown exact function between output objectives with their driving factors. The computational framework for MOWOA is shown in Fig. 4 . The MOWOA consists of initialization, MOWOA optimizer mechanism and finalization stages as described Mirjalili and Lewis [50]. 1. Set up the algorithm parameters and generate the initial population, then the first offspring population is obtained by utilizing the MOWOA optimizer mechanism namely, encircling prey, bubble-net attacking, prey search, and selection. 2. Calculate the fineness value and keep the current optimal solution. 3. Update the algorithm parameters and a new population is produced using the MOWOA optimizer mechanism. Then calculate the new population fitness value and keep the current optimal solution. 4. Steps 2 and 3 are repeated until the maximum number of generations and obtain a set of Pareto optimal solutions. 3.3 Implementation and experiment 3.3.1 Implementation setting To validate the optimization method, HRC based experiment and data measurement were carried out in a robotic laboratory of National Taiwan University of Science and Technology. The human acts as a partner with the robot in the smart assembly process of motherboard and graphics processing unit (GPU) fan. A measurement is carried out for human TC analysis in this HRC assembly process having two zones: picking and assembly areas. GPU fan components are located in picking area where the robot is able to access them. In assembly area, the assembly operation for motherboard and GPU fan component is performed by human and robot collaboratively, as illustrated in Fig. 5 . The experiment was designed on the basis of a controllable and observable situation. It is performed on the MiniBOT industrial robot with a standard 6-axis package built for education is presented in Fig. 5. The MiniBOT industrial robot has an operating range: 595 mm (maximum), repeatability: ± 0.12 mm, rated payload: 1 kg, degree of Freedom: 6, and driving system: EtherCAT close-loop stepper. We conduct 30 rounds of collaborative task to collect experimental data. Each round of experiment lasts for 40 min, where 10 min for room pre-conditioning and 30 min for subject thermal condition survey. According to our experiment observations, for those samples less than 10 min, the thermal sate is not usually stabilized and would lead to a wrong prediction. Further, before starting the experiment, we spend 1 min to introduce matters that needs attention to the subject. To avoid human bias on measurement, the human subject is also pre-conditioned before the experiment for 5 min. The human subject performs two tasks: (1) Handling the GPU fan and motherboard and then placed into picking area. (2) Screwing/assembling the motherboard with the GPU fan by collaborating with the robot. 3.3.2 Data collection A measurement of data from environmental and personal parameters were done using sensors, as illustrated in Fig. 6 and Table 4 (a). The ACMV system supplies fresh air to circulate the indoor thermal condition. The airflow rate is a key parameter that determine the cooling load and supply fresh air which varies along outside air condition. Thereby, the minimum required airflow rate should be set to ensure TC, indoor air quality (IAQ) and to minimize EC. According to ASHRAE standard 62.1\u20132010 [44], the ventilation rate requirement is determined by taking occupant or room area. The general airflow rate solution is set as 2.5 L/s/person for a given floor area of room 0.3 L/s/m2. The dimension of the lab room floor area is 5 m × 4 m = 20 m2. Therefore, the minimum required airflow rate for ventilation can be determined as 0.011 m3/s (=2.5 × 2 + 0.3 × 20) by assuming 2 people in the room. The minimum fresh airflow rate supplied from the ACMV system is set as 0.011 m3/s. The other predefined parameters used for the ACMV system are shown in Table 4(b). The multi-objective optimization model constraints are shown in Table 4(c). 3.3.3 ANN training ANN toolbox in MATLAB is used to build and train ANN models. The ANNs input parameters are the collected data of influencing factors, and outputs are PMV and EC objectives as described in Section 3.2. A total of 400 samples for PMV and EC were grouped into ratio 70%:15%:15% for training, validation and test datasets respectively. All computations are performed using MATLAB® software (version R2019) and Intel® Core™i5-7200 CPU @ 2.50 GHz computer with 8 GB RAM. Five training algorithms was tested to train the ANN model, the Levenberg-Marquardt over-performs than others and shows the least MAE and largest R 2 , as indicated in Table 5 . Therefore, Levenberg-Marquardt are selected for training ANN models of PMV and EC, as illustrated in Appendix 1. 3.4 Model validation For further validation, the proposed model is compared with the original PMV model [43] and experimental data (i.e. subject's actual TC self-reported in experiments), as shown in Fig. 7 . The red line presents the estimated TC based on the original PMV model which uses personal and environmental data. The blue line presents the estimated TC by the proposed model which uses personal, environmental, and robot speed data. The proposed model has a good alignment with the experimental data than the original PMV model. As shown in Fig. 7(a), when the indoor air temperature setpoint varies from 21 to 28 °C, the proposed model estimates better and closer to the experimental data than the original PMV model. As seen in Fig. 7(b), when the robot speed varies from 10 to 70% of maximum speed, the proposed model demonstrates better agreement with the experimental data than the original PMV model. This is because of the proposed model considers more associated factors and resolves the over-simplifications made in the original PMV model. 4 Results and discussion 4.1 Individual operating variable effect on PMV and EC 4.1.1 Effect of indoor air temperature and relative humidity Fig. 8 illustrates the indoor air temperature and relative humidity changing effect on PMV and EC. The variation of those parameters leads to PMV and EC fluctuation. The indoor air temperature and relative humidity varied from 21 to 28 °C and 40%\u201368% respectively while other parameter set at optimum value. When indoor air temperature and relative humidity increase, the energy demand to maintain indoor air temperature within the comfortable range decreased. This is because of when the temperature and relative humidity difference between their setpoint and indoor air temperature is small, the EC for ACMV system for cooling and dehumidification operation becomes less. Subsequently, a variation of setpoint in temperature and humidity results in PMV to increase. 4.1.2 Effect of airflow rate and supply air temperature Fig. 9 displays the volume of airflow rate and supply air temperature variation effect on PMV and EC. Also, the performance of the AHUs is highly affected by volume of airflow rate and supply air temperature. This is because of the amount of airflow rate of AHUs is a significant role in ensuring the indoor air quality (IAQ), indoor TC and EC. The variation of those key parameter creates to a variation in heat removal and EC of the AHUs system. As shown in Fig. 9(a), when supply air temperature setpoint varies from 14 to 21 °C by setting other parameter constant, the chiller energy required to maintain indoor air temperature decreases. This is because of chiller workload depends on the temperature gap between supply air temperature and indoor air temperature. The EC from the chiller is less, as the supply air temperature becomes higher resulting lower workload on chiller and vice versa. Moreover, when supply air temperature increase, PMV increases because of slowing cooling process. When the difference between supply air temperature and indoor air temperature setpoint is moderate, more time takes to achieve indoor air temperature comfort. Accordingly, if higher supply air temperature is provided, the air temperature moves further way from indoor air temperature comfort range which results in PMV to increase. Otherwise, a low supply air temperature results in PMV to decrease. As seen in Fig. 9(b), when the volume of airflow rate was varied from 0.011 to 0.091 m3/s, result a fluctuation of PMV and EC. However, the change observed in EC is very small as compared to PMV. Furthermore, AHUs fan EC for air circulation is not dominant as compared to other component EC of ACMV system. It can be noted the variation of volume of airflow rate has a significantly impact on PMV than EC. Conversely, if the volume of airflow rate is not optimal, AHUs fan will consume more EC and the room will have IAQ problem. 4.1.3 Effect of water flow rate Fig. 10 illustrates the effect of water flow rate of WCU variation on PMV and EC. The changing of velocity from 2 to 9 m3/s leads a fluctuation on PMV and EC. As the volume of water flow rate increases, pump EC for circulating the chilled water through evaporator and cooling coil of AHU is higher. However, an increase in the volume of water flowrate causes a negative impact on the indoor air temperature (i.e., PMV decreases). It is clear that when the volume of water flow rate increases, the temperature difference between supply air and indoor air temperature is low, then the time takes to achieve indoor air temperature comfort is less (i.e., there will be a fast cooling process). 4.2 Synergetic effect of operating variables on PMV and EC The operating variables investigated in the study include water and airflow rates and supply and indoor air temperatures. Fig. 11 (a) illustrates the combined variation effect of volume of water and airflow rates on PMV and EC. The volume of water and airflow rates varied from 2 to 9 m3/s and 0.011\u20130.091 m3/s respectively leads a fluctuation on PMV and EC. When the volume of water and airflow rates increases, the energy required to remove heat from the AHUs circulating air increases. However, an increase in volume of water and air flowrates causes PMV to decrease resulting more TC. This is because of when volume of water and airflow rates increases, there is a fast cooling process to achieve indoor air temperature. Since the volume of water and airflow rates mainly affects indoor air quality, indoor TC and EC, if those parameters are not optimal, it can cause thermal discomfort and excess EC. Fig. 11(b) elucidates the synergetic variation of supply air temperature and air temperature on PMV and EC. The supply air temperature varies from 14 to 21 °C while indoor air temperature variation changes 21\u201328 °C to which results in a shift of PMV and EC. When the supply air temperature and air temperatures increase, the AHUs fan energy required to maintain indoor TC decreases. This is because of AHUs fan workload depends on the temperature gap between supply air temperature and indoor air temperature. 4.3 Multiple objective trade-off by Pareto frontier analysis The optimization of the PMV and EC for the ACMV system using five control variables in the HRC process was done by MOWOA. Fig. 12 illustrates the non-dominated Pareto solution curve for the multi-objective optimization results for PMV and EC, indicating that the conflicting nature of the two objectives. An increase in PMV value from 0.1 to 0.6 led to a decrease in the EC from 1350 kW h to 200 kWh. The highest EC and minimum PMV value (i.e., maximum TC) is shown at point A. Conversely, the lowest EC and maximum PMV value (i.e., minimum TC) is shown at point C. If energy-saving is the target objective (i.e., EC prioritized over TC) point C solution would be chosen, while if TC is the priority objective (i.e., TC prioritized over EC), point A solution would be chosen. Point B is the trade-off solution with PMV and EC of 0.24 and 489 kWh respectively. Table 6 shows the resulting optimal control variables and the optimization results for PMV and EC. The base case is the existing room thermal condition (i.e., reference operation) before the experiment. According to ISO 7730 standards, the base case and point C conforms class C representing the lowest TC satisfaction level which is the least requirement for indoor thermal environment condition. Point A conforms class A representing a highest TC satisfaction towards thermal condition. Point B conforms class B representing a moderate satisfaction level for thermal condition. 4.4 Comparison of solution algorithms To validate the proposed optimization model for the trade-offs between the TC and EC, the proposed ANN-MOWOA compared with the well-known non-dominated genetic optimization algorithm (NSGA-II) to justify the performance. Likewise, NSGA-II was applied to the well-trained ANN models. To improve accuracy and reduce computation time, the considered algorithm parameter tuned are defined as follows: In NSGA-II set as [500, 200, 0.9, and 0.1] [51,52] are the maximum generation, population size, crossover rate, and mutation rate respectively. Population type: double vector and selection method: tournament. MOWOA set as [500, 200, 2, and 1] [50] are the maximum generation, search agent, convergence factor, and spiral shape constant respectively. The comparison of the non-dominated curve set for MOWOA and NSGA-II performance are shown in Fig. 13 and Table 7 . The non-dominated curve set obtained by the MOWOA is below than that of NSGA-II indicating the MOWOA provides best solution. 5 Conclusion In this study, a multi-objective optimization model to trade-off the TC and EC of the ACMV system was proposed to enrich the novity of ACMV control. Indoor air temperature, supply air temperature, airflow rate, and water flow rate were determined as decision variables to optimize TC and EC simultaneously. Owing to the inherent high complexity within the system, ANN models were developed to model the relationship between TC and EC with their influencing variables. Then, ANN models regarded as fitness function and MOWOA is applied for seeking decision variables to simultaneously optimize TC and EC. The optimization model achieves a good trade-off between TC and EC of the ACMV system. The main conclusion can be summarized as: 1) The R-square of ANN models Levenberg-Marquardt algorithm for TC and EC are 98.83% and 98.25% respectively presented better performance than others training algorithm. 2) The importance of coupling ANN with MOWOA as a solution methodology lies in understanding the robust interaction between operating variable settings with trade-off objectives. 3) A set of sensitivity analysis were carried out to quantify the effect of decision variables on PMV and EC. The indoor air temperature and water flow rate have significant impact on EC. 4) The proposed PMV model not only improves accuracy but also resolves the overestimation in original PMV model. It is noteworthy that the proposed PMV model by introducing HRC factors along original PMV model enlarges the applications of TC analysis. 5) The optimization model achieves a 16.51% of EC and improves TC by 49.06% as compared to the reference operation by controlling water and airflow rates and indoor air temperature. The proposed model can be used as alternative tool to effectively manage the ACMV system control strategy. Several interesting extensions may be incorporated into future research. In terms of influencing factors of TC and EC, building geometry is worthy to survey in the future investigation. The effect of the position of air conditioning in the room and the airflow direction controlled by the louver in the air conditioning can be further investigated. Other HRC factors such as proximity and position of delivery can be examined. In terms of methodology, bi-layer stochastic modeling to investigate a combined effect of outdoor and indoor environmental factors on the EC of ACMV systems is promising for future studies. Instead of the ANN-MOWOA solution methodology, using ANN coupled with strength Pareto evolutionary algorithm-II (ANN-SPEA-II), Pareto envelope based selection algorithm-II (ANN-PESA-II) is worthy of being studied further. CRediT authorship contribution statement Chiuhsiang Joe Lin: Supervision, Conceptualization. Kung-Jeng Wang: Writing \u2013 review & editing, Supervision, Methodology, Conceptualization. Teshome Bekele Dagne: Writing \u2013 original draft, Validation, Formal analysis. Bereket Haile Woldegiorgis: Supervision. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Appendix 1 ANN models performance for PMV and EC A1 ANN performance for PMV (a) Regression plot for training, test, validation and entire datasets, (b) Error histogram A1 A2 ANN performance for EC (a) Regression plot for training, test, validation and entire datasets, (b) Error histogram A2 References [1] S. Yang A. Cannavale D. Prasad A. Sproul F. Fiorito February). Numerical simulation study of BIPV/T double-skin facade for various climate zones in Australia: effects on indoor thermal comfort Building Simulation vol. 12 2019 Tsinghua University Press 51 67 1 Yang, S., Cannavale, A., Prasad, D., Sproul, A., & Fiorito, F. (2019, February). Numerical simulation study of BIPV/T double-skin facade for various climate zones in Australia: effects on indoor thermal comfort. In Building Simulation (Vol. 12, No. 1, pp. 51-67). Tsinghua University Press. [2] F. Yuan R. Yao S. Sadrizadeh B. Li G. Cao S. Zhang C.A. Short Thermal comfort in hospital buildings\u2013A literature review J. Build. Eng. 45 2022 103463 Yuan, F., Yao, R., Sadrizadeh, S., Li, B., Cao, G., Zhang, S., ... & Short, C. A. (2022). Thermal comfort in hospital buildings-A literature review. Journal of Building Engineering, 45, 103463. [3] A. Abdeen A.A. Serageldin M.G. Ibrahim A. El-Zafarany S. Ookawara R. Murata Solar chimney optimization for enhancing thermal comfort in Egypt: an experimental and numerical study Sol. Energy 180 2019 524 536 Abdeen, A., Serageldin, A. A., Ibrahim, M. G., El-Zafarany, A., Ookawara, S., & Murata, R. (2019). Solar chimney optimization for enhancing thermal comfort in Egypt: An experimental and numerical study. Solar Energy, 180, 524-536. [4] T. Chaudhuri Y.C. Soh H. Li L. Xie Machine learning driven personal comfort prediction by wearable sensing of pulse rate and skin temperature Build. Environ. 170 2020 106615 Chaudhuri, T., Soh, Y. C., Li, H., & Xie, L. (2020). Machine learning driven personal comfort prediction by wearable sensing of pulse rate and skin temperature. Building and Environment, 170, 106615. [5] K.J. Chua S.K. Chou W.M. Yang J. Yan Achieving better energy-efficient air conditioning\u2013a review of technologies and strategies Appl. Energy 104 2013 87 104 Chua, K. J., Chou, S. K., Yang, W. M., & Yan, J. (2013). Achieving better energy-efficient air conditioning-a review of technologies and strategies. Applied Energy, 104, 87-104. [6] A. Allouhi Y. El Fouih T. Kousksou A. Jamil Y. Zeraouli Y. Mourad Energy consumption and efficiency in buildings: current status and future trends J. Clean. Prod. 109 2015 118 130 Allouhi, A., El Fouih, Y., Kousksou, T., Jamil, A., Zeraouli, Y., & Mourad, Y. (2015). energy consumption and efficiency in buildings: current status and future trends. Journal of Cleaner Production, 109, 118-130. [7] C. Huizenga S. Abbaszadeh L. Zagreus E.A. Arens Air quality and thermal comfort in office buildings: results of a large indoor environmental quality survey Proceeding of Healthy Buildings 3 2006 393 397 Huizenga, C., Abbaszadeh, S., Zagreus, L., & Arens, E. A. (2006). Air quality and thermal comfort in office buildings: results of a large indoor environmental quality survey. Proceeding of Healthy Buildings, 3, 393-397. [8] M. Karmellos A. Kiprakis G. Mavrotas A multi-objective approach for optimal prioritization of energy efficiency measures in buildings: model, software and case studies Appl. Energy 139 2015 131 150 Karmellos, M., Kiprakis, A., & Mavrotas, G. (2015). A multi-objective approach for optimal prioritization of energy efficiency measures in buildings: Model, software and case studies. Applied Energy, 139, 131-150. [9] J. Kim T. Hong J. Jeong C. Koo K. Jeong An optimization model for selecting the optimal green systems by considering the thermal comfort and energy consumption Appl. Energy 169 2016 682 695 Kim, J., Hong, T., Jeong, J., Koo, C., & Jeong, K. (2016). An optimization model for selecting the optimal green systems by considering the thermal comfort and energy consumption. Applied Energy, 169, 682-695. [10] Y. Deng Z. Feng J. Fang S.J. Cao Impact of ventilation rates on indoor thermal comfort and energy efficiency of ground-source heat pump system Sustain. Cities Soc. 37 2018 154 163 Deng, Y., Feng, Z., Fang, J., & Cao, S. J. (2018). Impact of ventilation rates on indoor thermal comfort and energy efficiency of ground-source heat pump system. Sustainable Cities and Society, 37, 154-163. [11] A. Acosta A.I. González J.M. Zamarreno V. Alvarez Energy savings and guaranteed thermal comfort in hotel rooms through nonlinear model predictive controllers Energy Build. 129 2016 59 68 Acosta, A., Gonzalez, A. I., Zamarreno, J. M., & Alvarez, V. (2016). Energy savings and guaranteed thermal comfort in hotel rooms through nonlinear model predictive controllers. Energy and Buildings, 129, 59-68. [12] D. Zhai T. Chaudhuri Y.C. Soh Modeling and optimization of different sparse Augmented Firefly Algorithms for ACMV systems under two case studies Build. Environ. 125 2017 129 142 Zhai, D., Chaudhuri, T., & Soh, Y. C. (2017a). Modeling and optimization of different sparse Augmented Firefly Algorithms for ACMV systems under two case studies. Building and Environment, 125, 129-142. [13] D. Zhai T. Chaudhuri Y.C. Soh Energy efficiency improvement with k-means approach to thermal comfort for ACMV systems of smart buildings 2017 Asian Conference on Energy, Power and Transportation Electrification (ACEPT) 2017 IEEE 1 6 Zhai, D., Chaudhuri, T., & Soh, Y. C. (2017b). Energy efficiency improvement with k-means approach to thermal comfort for ACMV systems of smart buildings. In 2017 Asian Conference on Energy, Power and Transportation Electrification (ACEPT) (pp. 1-6). IEEE [14] D. Zhai Y.C. Soh Balancing indoor thermal comfort and energy consumption of ACMV systems via sparse swarm algorithms in optimizations Energy Build. 149 2017 1 15 Zhai, D., & Soh, Y. C. (2017). Balancing indoor thermal comfort and energy consumption of ACMV systems via sparse swarm algorithms in optimizations. Energy and Buildings, 149, 1-15. [15] S. Zhang Y. Cheng Z. Fang C. Huan Z. Lin Optimization of room air temperature in stratum-ventilated rooms for both thermal comfort and energy saving Appl. Energy 204 2017 420 431 Zhang, S., Cheng, Y., Fang, Z., Huan, C., & Lin, Z. (2017). Optimization of room air temperature in stratum-ventilated rooms for both thermal comfort and energy saving. Applied Energy, 204, 420-431. [16] D. Zhai T. Chaudhuri Y.C. Soh X. Ou C. Jiang Improvement of energy efficiency of Markov ACMV systems based on PTS information of occupants 2018 International Joint Conference on Neural Networks (IJCNN) 2018 IEEE 1 7 Zhai, D., Chaudhuri, T., Soh, Y. C., Ou, X., & Jiang, C. (2018). Improvement of Energy Efficiency of Markov ACMV Systems based on PTS Information of Occupants. In 2018 International Joint Conference on Neural Networks (IJCNN) (pp. 1-7). IEEE. [17] W. Wang N. Liu R. Li Y. Chen Y. Jia HuCoM: a model for human comfort estimation in personalized human-robot collaboration Dynamic Systems and Control Conference vol. 51906 2018 American Society of Mechanical Engineers V002T23A006 Wang, W., Liu, N., Li, R., Chen, Y., & Jia, Y. (2018). HuCoM: A Model for Human Comfort Estimation in Personalized Human-Robot Collaboration. In Dynamic Systems and Control Conference (Vol. 51906, p. V002T23A006). American Society of Mechanical Engineers. [18] S. Zhang Y. Cheng J. Liu Z. Lin Subzone control optimization of air distribution for thermal comfort and energy efficiency under cooling load uncertainty Appl. Energy 251 2019 113378 Zhang, S., Cheng, Y., Liu, J., & Lin, Z. (2019a). Subzone control optimization of air distribution for thermal comfort and energy efficiency under cooling load uncertainty. Applied Energy, 251, 113378. [19] S. Zhang Y. Cheng M.O. Oladokun Z. Lin Subzone control method of stratum ventilation for thermal comfort improvement Build. Environ. 149 2019 39 47 Zhang, S., Cheng, Y., Oladokun, M. O., & Lin, Z. (2019b). Subzone control method of stratum ventilation for thermal comfort improvement. Building and Environment, 149, 39-47. [20] T. Chaudhuri Y.C. Soh H. Li L. Xie A feedforward neural network based indoor-climate control framework for thermal comfort and energy saving in buildings Appl. Energy 248 2019 44 53 Chaudhuri, T., Soh, Y. C., Li, H., & Xie, L. (2019). A feedforward neural network based indoor-climate control framework for thermal comfort and energy saving in buildings. Applied Energy, 248, 44-53. [21] Z. Dong Q. Boyi W. Chunlong Energy-saving evaluation and control optimization of an ASHP heating system based on indoor thermal comfort Sol. Energy 194 2019 913 922 Dong, Z., Boyi, Q., & Chunlong, W. (2019). Energy-saving evaluation and control optimization of an ASHP heating system based on indoor thermal comfort. Solar Energy, 194, 913-922. [22] P. Satrio T.M.I. Mahlia N. Giannetti K. Saito Optimization of HVAC system energy consumption in a building using artificial neural network and multi-objective genetic algorithm Sustain. Energy Technol. Assessments 35 2019 48 57 Satrio, P., Mahlia, T. M. I., Giannetti, N., & Saito, K. (2019). Optimization of HVAC system energy consumption in a building using artificial neural network and multi-objective genetic algorithm. Sustainable Energy Technologies and Assessments, 35, 48-57. [23] Z. Deng Q. Chen Development and validation of a smart HVAC control system for multi-occupant offices by using occupants' personal signals from wristband Energy Build. 214 2020 109872 Deng, Z., & Chen, Q. (2020). Development and validation of a smart HVAC control system for multi-occupant offices by using occupants\u2019 personal signals from wristband. Energy and Buildings, 214, 109872. [24] D. Palladino I. Nardi C. Buratti Artificial neural network for the thermal comfort index prediction: development of a new simplified algorithm Energies 13 17 2020 4500 Palladino, D., Nardi, I., & Buratti, C. (2020). Artificial neural network for the thermal comfort index prediction: development of a new simplified algorithm. Energies, 13(17), 4500. [25] B. Wu W. Cai H. Chen A model-based multi-objective optimization of energy consumption and thermal comfort for active chilled beam systems Appl. Energy 287 2021 116531 Wu, B., Cai, W., & Chen, H. (2021). A model-based multi-objective optimization of energy consumption and thermal comfort for active chilled beam systems. Applied Energy, 287, 116531. [26] H. Zahid O. Elmansoury R. Yaagoubi Dynamic Predicted Mean Vote: an IoT-BIM integrated approach for indoor thermal comfort optimization Autom. ConStruct. 129 2021 103805 Zahid, H., Elmansoury, O., & Yaagoubi, R. (2021). Dynamic Predicted Mean Vote: An IoT-BIM integrated approach for indoor thermal comfort optimization. Automation in Construction, 129, 103805. [27] Z. Afroz G.M. Shafiullah T. Urmee M.A. Shoeb G. Higgins Predictive modelling and optimization of HVAC systems using neural network and particle swarm optimization algorithm Build. Environ. 209 2022 108681 Afroz, Z., Shafiullah, G. M., Urmee, T., Shoeb, M. A., & Higgins, G. (2022). Predictive modelling and optimization of HVAC systems using neural network and particle swarm optimization algorithm. Building and Environment, 209, 108681. [28] A. Aryal B. Becerik-Gerber Energy consequences of Comfort-driven temperature setpoints in office buildings Energy Build. 177 2018 33 46 Aryal, A., & Becerik-Gerber, B. (2018). Energy consequences of Comfort-driven temperature setpoints in office buildings. Energy and Buildings, 177, 33-46. [29] A. Kaushik M. Arif P. Tumula O.J. Ebohon Effect of thermal comfort on occupant productivity in office buildings: response surface analysis Build. Environ. 180 2020 107021 Kaushik, A., Arif, M., Tumula, P., & Ebohon, O. J. (2020). Effect of thermal comfort on occupant productivity in office buildings: Response surface analysis. Building and Environment, 180, 107021. [30] W. Wang Y. Chen R. Li Y. Jia Learning and comfort in human\u2013robot interaction: a review Appl. Sci. 9 23 2019 5152 Wang, W., Chen, Y., Li, R., & Jia, Y. (2019). Learning and comfort in human-robot interaction: A review. Applied Sciences, 9(23), 5152. [31] Z. Tian X. Zhang X. Jin X. Zhou B. Si X. Shi Towards adoption of building energy simulation and optimization for passive building design: a survey and a review Energy Build. 158 2018 1306 1316 Tian, Z., Zhang, X., Jin, X., Zhou, X., Si, B., & Shi, X. (2018). Towards adoption of building energy simulation and optimization for passive building design: A survey and a review. Energy and Buildings, 158, 1306-1316. [32] M.H. Chung Y.K. Yang K.H. Lee J.H. Lee J.W. Moon Application of artificial neural networks for determining energy-efficient operating set-points of the VRF cooling system Build. Environ. 125 2017 77 87 Chung, M. H., Yang, Y. K., Lee, K. H., Lee, J. H., & Moon, J. W. (2017). Application of artificial neural networks for determining energy-efficient operating set-points of the VRF cooling system. Building and Environment, 125, 77-87. [33] Engineering ToolBox Pump power calculator [online] Available at: https://www.engineeringtoolbox.com/pumps-power-d_505.html 2003 Engineering ToolBox, 2003. Pump power calculator [online] Available at: https://www.engineeringtoolbox.com/pumps-power-d_505.html. [34] Engineering ToolBox Horsepower required to compress air [online] Available at: https://www.engineeringtoolbox.com/horsepower-compressed air-d_1363.html 2008 Engineering ToolBox, 2008. Horsepower required to compress air [online] Available at: https://www.engineeringtoolbox.com/horsepower-compressed air-d_1363.html. [35] S. Zhang Y. Cheng Z. Fang Z. Lin Improved algorithm for adaptive coefficient of adaptive Predicted Mean Vote (aPMV) Build. Environ. 163 2019 106318 Zhang, S., Cheng, Y., Fang, Z., & Lin, Z. (2019). Improved algorithm for adaptive coefficient of adaptive Predicted Mean Vote (aPMV). Build. Environ., 163, 106318. [36] P.O. Fanger Thermal Comfort: Analysis and Applications in Environmental Engineering 1970 Danish Technical Press Copenhagen, Denmark 244 Danish Kr. 76, 50 Fanger, P. O. (1970). Thermal Comfort: analysis and applications in environmental engineering, pp. 244, Danish Technical Press. Copenhagen, Denmark, Danish Kr. 76, 50. [37] ASHRAE Hanbook Fundamentals Ch. 9 https://www.ashrae.org/technical-resources/ashrae-handbook 2017 ASHRAE Hanbook (2017). Fundamentals, Ch. 9. https://www.ashrae.org/technical-resources/ashrae-handbook. [38] Z. Deng Q. Chen Artificial neural network models using thermal sensations and occupants' behavior for predicting thermal comfort Energy Build. 174 2018 587 602 Deng, Z., & Chen, Q. (2018). Artificial neural network models using thermal sensations and occupants\u2019 behavior for predicting thermal comfort. Energy and Buildings, 174, 587-602. [39] W. Li J. Zhang T. Zhao R. Liang Experimental research of online monitoring and evaluation method of human thermal sensation in different active states based on wristband device Energy Build. 173 2018 613 622 Li, W., Zhang, J., Zhao, T., & Liang, R. (2018). Experimental research of online monitoring and evaluation method of human thermal sensation in different active states based on wristband device. Energy and Buildings, 173, 613-622. [40] S. Dhaka J. Mathur Quantification of thermal adaptation in air-conditioned buildings of composite climate, India Build. Environ. 112 2017 296 307 Dhaka, S., & Mathur, J. (2017). Quantification of thermal adaptation in air-conditioned buildings of composite climate, India. Building and Environment, 112, 296-307. [41] E.E. Broday J.A. Moreto A.A. de Paula Xavier R. de Oliveira The approximation between thermal sensation votes (TSV) and predicted mean vote (PMV): a comparative analysis Int. J. Ind. Ergon. 69 2019 1 8 Broday, E. E., Moreto, J. A., de Paula Xavier, A. A., & de Oliveira, R. (2019). The approximation between thermal sensation votes (TSV) and predicted mean vote (PMV): A comparative analysis. International Journal of Industrial Ergonomics, 69, 1-8. [42] J. Kim R. de Dear Thermal comfort expectations and adaptive behavioural characteristics of primary and secondary school students Build. Environ. 127 2018 13 22 Kim, J., & de Dear, R. (2018). Thermal comfort expectations and adaptive behavioural characteristics of primary and secondary school students. Building and Environment, 127, 13-22. [43] A. Omidvar J. Kim Modification of sweat evaporative heat loss in the PMV/PPD model to improve thermal comfort prediction in warm climates Build. Environ. 176 2020 106868 Omidvar, A., & Kim, J. (2020). Modification of sweat evaporative heat loss in the PMV/PPD model to improve thermal comfort prediction in warm climates. Building and Environment, 176, 106868. [44] ASHRAE Standard Standard 55-2010 Thermal Environmental Conditions for Human Occupancy 2010 ASHRAE Standard (2010). Standard 55-2010 Thermal environmental conditions for human occupancy. [45] Y. Zhao P.V. Genovese Z. Li Intelligent thermal comfort controlling system for buildings based on IoT and AI Future Internet 12 2 2020 30 Zhao, Y., Genovese, P. V., & Li, Z. (2020). Intelligent thermal comfort controlling system for buildings based on IoT and AI. Future Internet, 12(2), 30. [46] M.N. Lopes R. Lamberts Development of a metamodel to predict cooling energy consumption of HVAC systems in office buildings in different climates Sustainability 10 12 2018 4718 Lopes, M. N., & Lamberts, R. (2018). Development of a metamodel to predict cooling energy consumption of HVAC systems in office buildings in different climates. Sustainability, 10(12), 4718. [47] P. Anand D. Cheong C. Sekhar M. Santamouris S. Kondepudi Energy saving estimation for plug and lighting load using occupancy analysis Renew. Energy 143 2019 1143 1161 Anand, P., Cheong, D., Sekhar, C., Santamouris, M., & Kondepudi, S. (2019). Energy saving estimation for plug and lighting load using occupancy analysis. Renewable Energy, 143, 1143-1161. [48] A. Sadeghi R. Younes Sinaki W.A. Young G.R. Weckman An intelligent model to predict energy performances of residential buildings based on deep neural networks Energies 13 3 2020 571 Sadeghi, A., Younes Sinaki, R., Young, W. A., & Weckman, G. R. (2020). An intelligent model to predict energy performances of residential buildings based on deep neural networks. Energies, 13(3), 571. [49] J.H. Kim N.C. Seong W. Choi Forecasting the EC of an actual air handling unit and absorption chiller using ANN models Energies 13 17 2020 4361 Kim, J. H., Seong, N. C., & Choi, W. (2020). Forecasting the EC of an Actual Air Handling Unit and Absorption Chiller Using ANN Models. Energies, 13(17), 4361. [50] S. Mirjalili A. Lewis The whale optimization algorithm Adv. Eng. Software 95 2016 51 67 Mirjalili, S., & Lewis, A. (2016). The whale optimization algorithm. Advances in Engineering Software, 95, 51-67. [51] K. Deb A. Pratap S. Agarwal T.A.M.T. Meyarivan A fast and elitist multiobjective genetic algorithm: NSGA-II IEEE Trans. Evol. Comput. 6 2 2002 182 197 Deb, K., Pratap, A., Agarwal, S., & Meyarivan, T. A. M. T. (2002). A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE Transactions on Evolutionary Computation, 6(2), 182-197. [52] K.J. Wang L.D. Dao Resolving conflict objectives between environment impact and energy efficiency - an optimization modeling on multiple energies deployment Comput. Ind. Eng. 138 2019 106 111 Wang, K. J. and Dao L. D. (2019) Resolving conflict objectives between environment impact and energy efficiency - an optimization modeling on multiple energies deployment. Computers & Industrial Engineering, 138, 106-111. [53] ISO E. 7730-2005 Ergonomics of the Thermal Environment\u2013Analytical Determination and Interpretation of Thermal Comfort Using Calculation of the PMV and PPD Indices and Local Thermal Comfort Criteria 2005 International Organization for Standardization Geneva [53] ISO E. 7730-2005: Ergonomics of the thermal environment-Analytical determination and interpretation of thermal comfort using calculation of the PMV and PPD indices and local thermal comfort criteria. International Organization for Standardization, Geneva; 2005. [54] S. Zhang P. Huang Y. Sun A multi-criterion renewable energy system design optimization for net zero energy buildings under uncertainties Energy 94 2016 654 665 Zhang, S., Huang, P., Sun, Y., et al., A multi-criterion renewable energy system design optimization for net zero energy buildings under uncertainties. Energy 94 (2016) 654\u2013665. Dr. Chiuhsiang Joe Lin is a professor of the Department of Industrial Management, National Taiwan University of Science and Technology, Taiwan, ROC. His current research interests are in the areas of ergonomics and human-machine interface. Dr. Kung-Jeng Wang is a professor of the Department of Industrial Management, National Taiwan University of Science and Technology, Taiwan, ROC. Dr. Wang received his PhD in industrial engineering and MS in computer science from University of Wisconsin at Madison (USA). His current research interests are in the areas of operations management and intelligent energy management systems. Mr. Teshome Bekele Dagne is a PhD candidate in the Department of Industrial Management, National Taiwan University of Science and Technology. His current research interests are in the areas of energy management and stochastic optimization. Dr. Bereket Haile Woldegiorgis is an assistant professor in the Faculty of Mechanical and Industrial Engineering, Bahir Dar University. His current research interests are in the areas of ergonomics and optimal control.",
+    "scopus-id": "85131411152",
+    "coredata": {
+        "eid": "1-s2.0-S0360132322004735",
+        "dc:description": "Building air condition and mechanical ventilation (ACMV) systems which provide cooling operations suffers from the balance between thermal comfort (TC) and energy consumption (EC). This study presents a multi-objective optimization model that resolves the trade-off between TC and EC. Four operating variables are selected as decision variables because they significantly affect TC and EC. Firstly, the component power consumption pattern of the ACMV system (that is, fan, pump, and compressor) is built by a semi-empirical model. Then EC is modeled as a function of the component power consumption pattern and air temperature. Secondly, TC is modeled as a function of environmental, personal, and human-robot collaboration variables. Thirdly, an artificial neural network (ANN) was constructed as a prediction model of TC and EC. Then, ANN is coupled with multi-objective whale optimization algorithm for optimization of decision variables. Sensitivity analysis was carried out to examine the variation of decision variables. Experiment result shows that (1) the proposed ANN for TC and EC exhibits high performance with a goodness-of-fit of 98.83% and 98.25% respectively. (2) The optimization model reduces a 16.51% of EC and improves TC by 49.06% as compared to the reference operation. This study successfully builds a multi-objective optimization model of an ACMV system for TC and EC.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2022-07-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0360132322004735",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Lin, Chiuhsiang Joe"
+            },
+            {
+                "@_fa": "true",
+                "$": "Wang, Kung-Jeng"
+            },
+            {
+                "@_fa": "true",
+                "$": "Dagne, Teshome Bekele"
+            },
+            {
+                "@_fa": "true",
+                "$": "Woldegiorgis, Bereket Haile"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0360132322004735"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0360132322004735"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0360-1323(22)00473-5",
+        "prism:volume": "219",
+        "articleNumber": "109237",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "Balancing thermal comfort and energy conservation\u2013 A multi-objective optimization model for controlling air-condition and mechanical ventilation systems",
+        "prism:copyright": "© 2022 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03601323",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Air condition and mechanical ventilation system"
+            },
+            {
+                "@_fa": "true",
+                "$": "Energy conservation"
+            },
+            {
+                "@_fa": "true",
+                "$": "Thermal comfort"
+            },
+            {
+                "@_fa": "true",
+                "$": "Multi-objective optimization"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Building and Environment",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "109237",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 July 2022",
+        "prism:doi": "10.1016/j.buildenv.2022.109237",
+        "prism:startingPage": "109237",
+        "dc:identifier": "doi:10.1016/j.buildenv.2022.109237",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "845",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-fx2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "183435",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "268",
+            "@width": "691",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "117340",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "264",
+            "@width": "691",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "110776",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "376",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "98260",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "392",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "146970",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "366",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "28839",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "237",
+            "@width": "691",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "109929",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "298",
+            "@width": "691",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "120896",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "276",
+            "@width": "691",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "125079",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "267",
+            "@width": "388",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "95788",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "390",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "128555",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "706",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "147741",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "391",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "102988",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "397",
+            "@width": "691",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "151204",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "909",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-fx1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "189666",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "103",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-fx2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74854",
+            "@ref": "fx2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "85",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "71703",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "84",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "79920",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "154",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "71260",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "160",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "92808",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "150",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9754",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "75",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "70962",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "95",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72605",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "87",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72725",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "151",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73743",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "160",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "77882",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "124",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "76404",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "162",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74013",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "126",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "77615",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "96",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-fx1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74539",
+            "@ref": "fx1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "3744",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-fx2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "891933",
+            "@ref": "fx2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1188",
+            "@width": "3059",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "405957",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1171",
+            "@width": "3060",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "437188",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1666",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "290312",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1735",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "686990",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1620",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "162205",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1050",
+            "@width": "3059",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "376828",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1320",
+            "@width": "3058",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "379243",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1222",
+            "@width": "3060",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "534476",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1183",
+            "@width": "1721",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "230899",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1730",
+            "@width": "2371",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "468340",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3128",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "677670",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1733",
+            "@width": "1712",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "278546",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1758",
+            "@width": "3059",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "648521",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "4028",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-fx1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "938666",
+            "@ref": "fx1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "66152",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "48371",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "67172",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25830",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13178",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "45309",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26465",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "42948",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "47673",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "91619",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si76.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10114",
+            "@ref": "si76",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si67.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26654",
+            "@ref": "si67",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "109291",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "99514",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6517",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "85240",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9929",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11631",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si88.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12630",
+            "@ref": "si88",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "59140",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24052",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16518",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18565",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si73.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9778",
+            "@ref": "si73",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6494",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9488",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10145",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "44674",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18658",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6208",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19902",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20068",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10841",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si72.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4694",
+            "@ref": "si72",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28204",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si75.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4545",
+            "@ref": "si75",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si68.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "81567",
+            "@ref": "si68",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16568",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "77630",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "43891",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si79.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7063",
+            "@ref": "si79",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "62668",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8819",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5451",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "53180",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11933",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2723",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si85.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "71978",
+            "@ref": "si85",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16572",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si70.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "79081",
+            "@ref": "si70",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "39464",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26600",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20141",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "43686",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si82.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19831",
+            "@ref": "si82",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si71.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16314",
+            "@ref": "si71",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "66249",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "44687",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "95078",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10319",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11163",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "39249",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si78.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13421",
+            "@ref": "si78",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26686",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si86.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22881",
+            "@ref": "si86",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25518",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7156",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9205",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si80.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29861",
+            "@ref": "si80",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si81.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "73343",
+            "@ref": "si81",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9021",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12152",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10266",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5646",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si84.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "64258",
+            "@ref": "si84",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4349",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "106460",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8615",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8800",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9115",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23418",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16828",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13542",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si74.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15071",
+            "@ref": "si74",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si87.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13069",
+            "@ref": "si87",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si83.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "77823",
+            "@ref": "si83",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si77.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5575",
+            "@ref": "si77",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10627",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0360132322004735-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1375784",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85131411152"
+    }
+}}

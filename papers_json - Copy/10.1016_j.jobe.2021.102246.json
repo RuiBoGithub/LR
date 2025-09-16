@@ -1,0 +1,1306 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85100627834",
+    "originalText": "serial JL 312002 291210 291862 291881 31 Journal of Building Engineering JOURNALBUILDINGENGINEERING 2021-02-02 2021-02-02 2021-02-11 2021-02-11 2021-11-25T15:55:32 1-s2.0-S2352710221001029 S2352-7102(21)00102-9 S2352710221001029 10.1016/j.jobe.2021.102246 S300 S300.1 FULL-TEXT 1-s2.0-S2352710221X00046 2022-12-12T23:23:27.419931Z 0 0 20210701 20210731 2021 2021-02-02T06:53:38.741345Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst nomenclature orcid primabst ref 2352-7102 23527102 true 39 39 C Volume 39 6 102246 102246 102246 202107 July 2021 2021-07-01 2021-07-31 2021 article fla © 2021 Elsevier Ltd. All rights reserved. DATAMININGAPPROACHFORIMPROVINGOPTIMALCONTROLHVACSYSTEMSEVENTDRIVENSTRATEGY WANG J Nomenclature 1 Introduction 1.1 Motivation 1.2 HVAC optimal control 1.3 Data mining in building 1.4 Summary 2 Methodology 2.1 Framework of EDOC 2.2 Optimal control reward 2.2.1 Illustration of optimal control reward 2.2.2 Estimator of optimal control reward: decision vector distance 2.3 Identifying event state variables and event thresholds 2.3.1 Methodology overview 2.3.2 Evaluate variable importance by random forest 2.3.3 Specifying event thresholds 3 Case study and simulation set-up 3.1 Case system 3.2 Optimal control problem 3.3 Simulation set-up 4 Results and discussions 4.1 Operation data preparation and random forest algorithm 4.2 Identify state variables and event thresholds 4.3 Performance comparisons 4.4 Discussions 5 Conclusions Author statement Acknowledgment References LIAO 2019 101616 Y YU 2020 101044 J WANG 2019 228 239 J SENDRAARRANZ 2020 109952 R REN 2019 101673 C KUBBA 2017 S HANDBGREENBUILDDESCONSTR GREENPROJECTCOMMISSIONING FRIEDMAN 2010 H ANNEX47REPORT3COMMISSIONINGCOSTBENEFITPERSISTENCESAVINGS JRADI 2020 101464 M DING 2020 1195 1201 J ZHOU 2019 100870 X FAN 2018 296 308 C MILLER 2018 1365 1377 C YAN 2020 101197 L CHEN 2016 174 186 Y ASHRAE 2007 ASHRAEGUIDELINE132007SPECIFYINGDIRECTDIGITALCONTROLSYSTEMS LI 2019 192 199 X 2015 ASHRAEHANDBHVACAPPL ASHRAESUPERVISORYCONTROLSTRATEGIESOPTIMIZATION ASCIONE 2017 136 150 F SUN 2015 1396 1406 B MA 2011 198 211 Z WEIX 2015 294 306 Z HUANG 2017 33 46 S LING 2018 1440 1449 L WANG 2016 79 87 J LIU 2014 90 97 Q HUANG 2014 300 307 S OPTIMIZATIONWATERCOOLEDCHILLERPLANTSYSTEMOPERATION ASAD 2017 640 651 H CASSANDRAS 2009 C INTRODUCTIONDISCRETEEVENTSYSTEMS WU 2016 662 669 Z FAN 2016 W XU 2017 73 85 Z WANG 2018 839 849 J TIAN 2019 100796 Z MIRNAGHI 2020 110492 M YU 2019 113497 X ZHANG 2019 113492 C ZHANG 2020 C YU 2012 430 440 Z MAYOSTENDORP 2013 199 219 P DOMAHIDI 2014 763 772 A FAN 2015 75 89 C QIU 2019 195 205 S AHMAD 2016 359 398 M HOU 2020 378 390 J WEI 2013 411 419 T SVETNIK 2003 1947 1958 V HOSMER 2013 D APPLIEDLOGISTICREGRESSION BI 2012 87 101 J WANG 2018 495 507 W HASHEMPOUR 2020 101967 N WANG 2019 3863 J YU 2017 653 664 F BREIMAN 2001 5 32 L WANG 2020 115036 Z ZHOU 2014 532 540 P CAO 2020 102190 S LI 2021 101854 X REN 2020 101860 C WANGX2021X102246 WANGX2021X102246XJ 2023-02-11T00:00:00.000Z 2023-02-11T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2021 Elsevier Ltd. All rights reserved. 2021-05-28T20:44:17.965Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Jiangsu Key Laboratory of Intelligent Building Energy Efficiency 362011202 National Key Research & Development Project 2020YFC2006602 National Natural Science Foundation of China 62072324 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Natural Science Foundation of Jiangsu Province BK20190942 Natural Science Foundation of Jiangsu Province http://data.elsevier.com/vocabulary/SciValFunders/501100004608 http://sws.geonames.org/1814991/ Suzhou University of Science & Technology 331911204 342031201 Suzhou University of Science and Technology http://data.elsevier.com/vocabulary/SciValFunders/501100004716 http://sws.geonames.org/1814991/ Funding: This work was funded by Natural Science Foundation of Jiangsu Province ( BK20190942 ); National Natural Science Foundation of China ( 62072324 ); National Key Research & Development Project ( 2020YFC2006602 ); Suzhou University of Science & Technology research projects funding ( 331911204 , 342031201 ); Open research project from Jiangsu Key Laboratory of Intelligent Building Energy Efficiency ( 362011202 ). 0 https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2352-7102(21)00102-9 S2352710221001029 1-s2.0-S2352710221001029 10.1016/j.jobe.2021.102246 312002 2021-11-25T16:21:58.745865Z 2021-07-01 2021-07-31 1-s2.0-S2352710221001029-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/MAIN/application/pdf/c641142d8f07508c806fd00fb8ea3166/main.pdf main.pdf pdf true 4745983 MAIN 12 1-s2.0-S2352710221001029-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/PREVIEW/image/png/9ff123162ff26d344e573e3badb97a60/main_1.png main_1.png png 56754 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2352710221001029-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr2/DOWNSAMPLED/image/jpeg/a2479136f8d4b3fc8ab3dcf5ce5cb8f9/gr2.jpg gr2 gr2.jpg jpg 86415 125 390 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001029-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr1/DOWNSAMPLED/image/jpeg/535f450ad697ace281660821a9406410/gr1.jpg gr1 gr1.jpg jpg 142237 400 580 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001029-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr8/DOWNSAMPLED/image/jpeg/89775b04d4fe5063124d0e433713b233/gr8.jpg gr8 gr8.jpg jpg 96431 186 390 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001029-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr7/DOWNSAMPLED/image/jpeg/3f9186d336811f6fc35b36de3729a9a2/gr7.jpg gr7 gr7.jpg jpg 88537 236 390 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001029-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr9/DOWNSAMPLED/image/jpeg/8570a969168c799acfd543c323b1d194/gr9.jpg gr9 gr9.jpg jpg 110762 416 390 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001029-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr4/DOWNSAMPLED/image/jpeg/90462976c95d6700b12b96fe1645908e/gr4.jpg gr4 gr4.jpg jpg 138169 336 580 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001029-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr3/DOWNSAMPLED/image/jpeg/33c81d9bb92f9bd26e658ba738bec679/gr3.jpg gr3 gr3.jpg jpg 92023 216 558 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001029-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr6/DOWNSAMPLED/image/jpeg/d4959e96603bb925341054e437d7667a/gr6.jpg gr6 gr6.jpg jpg 84881 196 390 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001029-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr5/DOWNSAMPLED/image/jpeg/004fcf51f581c49e9c1ecf0fb3eb54d5/gr5.jpg gr5 gr5.jpg jpg 168789 833 580 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001029-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr2/THUMBNAIL/image/gif/91ec520c6658f3f0aa8a5c6f41fa9234/gr2.sml gr2 gr2.sml sml 70861 70 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001029-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr1/THUMBNAIL/image/gif/0aeff27fca3bf2487eeb6e1c1a824e53/gr1.sml gr1 gr1.sml sml 79349 151 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001029-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr8/THUMBNAIL/image/gif/cfd5ecdaa92cdbd6e34eeb9d0fdba5f0/gr8.sml gr8 gr8.sml sml 73416 105 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001029-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr7/THUMBNAIL/image/gif/d8d667f8fc53781cc8b161e45214fb17/gr7.sml gr7 gr7.sml sml 70642 133 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001029-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr9/THUMBNAIL/image/gif/268d004497c3cb3cdee81363e2ee03a9/gr9.sml gr9 gr9.sml sml 74002 163 153 IMAGE-THUMBNAIL 1-s2.0-S2352710221001029-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr4/THUMBNAIL/image/gif/db4fe9373dbe69483b1182cab97c981d/gr4.sml gr4 gr4.sml sml 76067 127 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001029-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr3/THUMBNAIL/image/gif/ccf0ebd93cf795266750415aafa859e1/gr3.sml gr3 gr3.sml sml 69451 85 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001029-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr6/THUMBNAIL/image/gif/66ae6ae881aa55a69ccb6c88b4163cfc/gr6.sml gr6 gr6.sml sml 69795 110 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001029-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr5/THUMBNAIL/image/gif/ed5f9f22e3a8ab8171aaf699f0d8fe3f/gr5.sml gr5 gr5.sml sml 75059 164 114 IMAGE-THUMBNAIL 1-s2.0-S2352710221001029-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr2/HIGHRES/image/jpeg/43bfb4c7a9c15d73c893e3ae6b383f91/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 193774 554 1728 IMAGE-HIGH-RES 1-s2.0-S2352710221001029-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr1/HIGHRES/image/jpeg/a49a5691cf41d4b7ab4b1fdf87890d72/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 548916 1769 2568 IMAGE-HIGH-RES 1-s2.0-S2352710221001029-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr8/HIGHRES/image/jpeg/c5cac4e34ab7f025549ca20c2c3a956f/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 253899 825 1728 IMAGE-HIGH-RES 1-s2.0-S2352710221001029-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr7/HIGHRES/image/jpeg/e70839921c4ec07f46140a2eeff3c58c/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 189469 1047 1728 IMAGE-HIGH-RES 1-s2.0-S2352710221001029-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr9/HIGHRES/image/jpeg/6a3681ac716cde1bc39da81f7f4e3648/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 346886 1844 1728 IMAGE-HIGH-RES 1-s2.0-S2352710221001029-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr4/HIGHRES/image/jpeg/0e51558dd6efacbf271e46ad0d7cf743/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 555557 1488 2568 IMAGE-HIGH-RES 1-s2.0-S2352710221001029-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr3/HIGHRES/image/jpeg/685a3e46c50620ba2e4d5dec99fb88b3/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 244086 958 2470 IMAGE-HIGH-RES 1-s2.0-S2352710221001029-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr6/HIGHRES/image/jpeg/108554306418681c9b467e513f09c62b/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 171156 870 1728 IMAGE-HIGH-RES 1-s2.0-S2352710221001029-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/gr5/HIGHRES/image/jpeg/f4cab0f70fd5c44234c8c5aaf95d14cf/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 714257 3688 2568 IMAGE-HIGH-RES 1-s2.0-S2352710221001029-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/b66f74eab44332dec9f98dd145a6f617/si69.svg si69 si69.svg svg 18857 ALTIMG 1-s2.0-S2352710221001029-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/6a24b27bc98b6cba6951ae398a41ebd1/si33.svg si33 si33.svg svg 16781 ALTIMG 1-s2.0-S2352710221001029-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/5856d27cb6fa1570bdf8cde885bb723c/si35.svg si35 si35.svg svg 9352 ALTIMG 1-s2.0-S2352710221001029-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/e712d9a09e4ec9df0874b5aac6230597/si49.svg si49 si49.svg svg 4023 ALTIMG 1-s2.0-S2352710221001029-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/bdcf529a67b2a6651dbe5fe7734459fa/si23.svg si23 si23.svg svg 12380 ALTIMG 1-s2.0-S2352710221001029-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/595d35a31ca486efae6121277ff6825d/si62.svg si62 si62.svg svg 73054 ALTIMG 1-s2.0-S2352710221001029-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/bdd934062862adbb7da7b7921631d6b1/si51.svg si51 si51.svg svg 45355 ALTIMG 1-s2.0-S2352710221001029-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/f061863d133658ddaecdf028acaeed04/si65.svg si65 si65.svg svg 18687 ALTIMG 1-s2.0-S2352710221001029-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/fa80656aa4a2d62251c4c4b4610cb605/si37.svg si37 si37.svg svg 20695 ALTIMG 1-s2.0-S2352710221001029-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/a2285bc5c08d5889881f3bca15afff63/si50.svg si50 si50.svg svg 46003 ALTIMG 1-s2.0-S2352710221001029-si76.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/653af94778019353904ebfce24837c5b/si76.svg si76 si76.svg svg 32305 ALTIMG 1-s2.0-S2352710221001029-si67.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/7d8f006fa9538137e01f98cbfd6675ef/si67.svg si67 si67.svg svg 30246 ALTIMG 1-s2.0-S2352710221001029-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/0fa98f9da4dbb11dd72fd84c47792b2d/si39.svg si39 si39.svg svg 29527 ALTIMG 1-s2.0-S2352710221001029-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/22d780fbcd0835a8a24cce102f3b4ce5/si57.svg si57 si57.svg svg 37978 ALTIMG 1-s2.0-S2352710221001029-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/6fa27dbc486b2e281f9da2a5f11f1077/si58.svg si58 si58.svg svg 14116 ALTIMG 1-s2.0-S2352710221001029-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/d1188a50bb3a6508ad690167d3dd4ea1/si56.svg si56 si56.svg svg 35017 ALTIMG 1-s2.0-S2352710221001029-si89.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/2ad542c4762710b1078b65a6e7a83973/si89.svg si89 si89.svg svg 8350 ALTIMG 1-s2.0-S2352710221001029-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/4e1787e16a828d8aa381d1df356d7ffd/si25.svg si25 si25.svg svg 16553 ALTIMG 1-s2.0-S2352710221001029-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/9d46d524ae1c77295f939818abf8e6f5/si19.svg si19 si19.svg svg 15224 ALTIMG 1-s2.0-S2352710221001029-si88.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/77da28c7e72faeb8f782c6959d05bef7/si88.svg si88 si88.svg svg 8229 ALTIMG 1-s2.0-S2352710221001029-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/4a992d76f014da7c59f5c96e28c2d440/si34.svg si34 si34.svg svg 24471 ALTIMG 1-s2.0-S2352710221001029-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/b4964eb95c4504ae0cb38e90ef918c3c/si14.svg si14 si14.svg svg 6635 ALTIMG 1-s2.0-S2352710221001029-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/2fb5bcc897e1e38aee993dde5f296201/si54.svg si54 si54.svg svg 35936 ALTIMG 1-s2.0-S2352710221001029-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/d70bf1db288b994c088dfd86345c8099/si55.svg si55 si55.svg svg 39776 ALTIMG 1-s2.0-S2352710221001029-si73.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/0e448ce400126b7b7dc5c112baee6c96/si73.svg si73 si73.svg svg 12461 ALTIMG 1-s2.0-S2352710221001029-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/b302de590591243bb6d49313b68fe819/si40.svg si40 si40.svg svg 7946 ALTIMG 1-s2.0-S2352710221001029-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/24bb7d3657750b08bdd2b9a981731294/si9.svg si9 si9.svg svg 24493 ALTIMG 1-s2.0-S2352710221001029-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/30363b5218e265ff52a2cecf07abd98f/si28.svg si28 si28.svg svg 51286 ALTIMG 1-s2.0-S2352710221001029-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/caacc0e45aba937615f24eaf71e70fa2/si36.svg si36 si36.svg svg 34905 ALTIMG 1-s2.0-S2352710221001029-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/1c278239a347d5d7f0e09768ab7f4d39/si16.svg si16 si16.svg svg 17083 ALTIMG 1-s2.0-S2352710221001029-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/6400c6a9466f614cde9c4c657a58e0e6/si7.svg si7 si7.svg svg 12676 ALTIMG 1-s2.0-S2352710221001029-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/2b33a7362c58d841a8fbbc9326d7df2c/si15.svg si15 si15.svg svg 17759 ALTIMG 1-s2.0-S2352710221001029-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/8408b29631bfcb7ca2803ac25132e1bf/si17.svg si17 si17.svg svg 46057 ALTIMG 1-s2.0-S2352710221001029-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/1d6f667c31ef2a4a3a855a50597c7963/si2.svg si2 si2.svg svg 15353 ALTIMG 1-s2.0-S2352710221001029-si72.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/4b541b34263c8f2227ed10ca62bd4ffa/si72.svg si72 si72.svg svg 6209 ALTIMG 1-s2.0-S2352710221001029-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/80e00a782fddaf6b1748eebc20e4c85c/si42.svg si42 si42.svg svg 90003 ALTIMG 1-s2.0-S2352710221001029-si75.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/2dee840125ea7429f76e95ed8eafe69e/si75.svg si75 si75.svg svg 38021 ALTIMG 1-s2.0-S2352710221001029-si68.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/a0f16909c7791d047de1a0b9672c5263/si68.svg si68 si68.svg svg 15024 ALTIMG 1-s2.0-S2352710221001029-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/ea7c2a339bc201cea797dbbe31deadeb/si21.svg si21 si21.svg svg 13216 ALTIMG 1-s2.0-S2352710221001029-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/fb064eb8d27f2bdd41bad0686270cc7d/si43.svg si43 si43.svg svg 18952 ALTIMG 1-s2.0-S2352710221001029-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/5aa544ae502fd450e87788bc8856b0a9/si63.svg si63 si63.svg svg 16516 ALTIMG 1-s2.0-S2352710221001029-si79.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/4f922b6c6a88cd492affce59037a0aeb/si79.svg si79 si79.svg svg 52034 ALTIMG 1-s2.0-S2352710221001029-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/8a0cfb6efb6110ba1545ba805a5ebffd/si59.svg si59 si59.svg svg 8226 ALTIMG 1-s2.0-S2352710221001029-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/5b9b4a95925fa44b4acd2d1443d13d2f/si44.svg si44 si44.svg svg 92849 ALTIMG 1-s2.0-S2352710221001029-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/a6644de5aee57c3dd5769c1989cbaab0/si29.svg si29 si29.svg svg 35144 ALTIMG 1-s2.0-S2352710221001029-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/b884f3a18c5680d8f70162e24b6acef6/si32.svg si32 si32.svg svg 61465 ALTIMG 1-s2.0-S2352710221001029-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/bfdf5159467ec7d531a55c01e5306a2f/si22.svg si22 si22.svg svg 103879 ALTIMG 1-s2.0-S2352710221001029-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/1716ecdf589e9801bd906307c239038e/si30.svg si30 si30.svg svg 70290 ALTIMG 1-s2.0-S2352710221001029-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/9aecf272d670ba06e45981146d77fb5b/si31.svg si31 si31.svg svg 48744 ALTIMG 1-s2.0-S2352710221001029-si70.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/74e9d9afb511cdca9500f2a47ce33921/si70.svg si70 si70.svg svg 11279 ALTIMG 1-s2.0-S2352710221001029-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/b490d7e58a6483537d3688105eef7a9c/si61.svg si61 si61.svg svg 117756 ALTIMG 1-s2.0-S2352710221001029-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/7c759be452d5875014da035c59eb41cd/si47.svg si47 si47.svg svg 102210 ALTIMG 1-s2.0-S2352710221001029-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/c4c0ee98f90f39fcdae422290c763de6/si12.svg si12 si12.svg svg 7156 ALTIMG 1-s2.0-S2352710221001029-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/248489b8b8e9df666ace2405088f11f8/si45.svg si45 si45.svg svg 96636 ALTIMG 1-s2.0-S2352710221001029-si82.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/4f080b825cb9e6e691bd55907660f513/si82.svg si82 si82.svg svg 70990 ALTIMG 1-s2.0-S2352710221001029-si71.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/371256f30f6058fdfbb3d9d8ddd1e534/si71.svg si71 si71.svg svg 14542 ALTIMG 1-s2.0-S2352710221001029-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/18f85285397fa200548db3316cf57bd9/si53.svg si53 si53.svg svg 39102 ALTIMG 1-s2.0-S2352710221001029-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/4ee0eea515fd95c6c21ab6ef4519dbc8/si60.svg si60 si60.svg svg 9437 ALTIMG 1-s2.0-S2352710221001029-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/e2fb6d56848da5662d3874a90d80adc5/si66.svg si66 si66.svg svg 33378 ALTIMG 1-s2.0-S2352710221001029-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/1670dcbf788bb304537fbd34ec647f50/si24.svg si24 si24.svg svg 38019 ALTIMG 1-s2.0-S2352710221001029-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/56e16297545db3b7819b811cd227a07d/si6.svg si6 si6.svg svg 16567 ALTIMG 1-s2.0-S2352710221001029-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/f31633f58bbba48ef734e566d0eceaf2/si64.svg si64 si64.svg svg 23478 ALTIMG 1-s2.0-S2352710221001029-si78.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/bf2d2ddf90c0bcf9671fef83d6b79c1d/si78.svg si78 si78.svg svg 61418 ALTIMG 1-s2.0-S2352710221001029-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/4c441c07280388db7356d81f46bc8358/si48.svg si48 si48.svg svg 4825 ALTIMG 1-s2.0-S2352710221001029-si86.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/fae6571490d1c3600243ca2ab9bea1b9/si86.svg si86 si86.svg svg 98926 ALTIMG 1-s2.0-S2352710221001029-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/b635db5ee8adad9d3eda8bf8441f04af/si38.svg si38 si38.svg svg 84920 ALTIMG 1-s2.0-S2352710221001029-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/f2aaa773168cee083f75e96170eebe85/si18.svg si18 si18.svg svg 19288 ALTIMG 1-s2.0-S2352710221001029-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/c12256db62e50f0797cf4fb85cfa2b2d/si26.svg si26 si26.svg svg 19398 ALTIMG 1-s2.0-S2352710221001029-si80.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/b3e1f2b259fb24ed9049e01220f9ac05/si80.svg si80 si80.svg svg 76482 ALTIMG 1-s2.0-S2352710221001029-si81.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/7154d4f375d77a3f446f5c65b7c5a429/si81.svg si81 si81.svg svg 39761 ALTIMG 1-s2.0-S2352710221001029-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/94de39a50740d7e56cd8848f3989a580/si3.svg si3 si3.svg svg 21110 ALTIMG 1-s2.0-S2352710221001029-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/0f37477b9b827ea347fe7db892a4c500/si20.svg si20 si20.svg svg 40777 ALTIMG 1-s2.0-S2352710221001029-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/759abf11d4117a8a2b3840acff392e5c/si4.svg si4 si4.svg svg 43987 ALTIMG 1-s2.0-S2352710221001029-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/eb7d0369c3596526c7cf0e57f75d7a70/si41.svg si41 si41.svg svg 11473 ALTIMG 1-s2.0-S2352710221001029-si84.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/f0f88b653e64e6dafe81069d5956ad06/si84.svg si84 si84.svg svg 65686 ALTIMG 1-s2.0-S2352710221001029-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/5929139f75748cf3cfb8259581de546d/si46.svg si46 si46.svg svg 57323 ALTIMG 1-s2.0-S2352710221001029-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/4566263f3e76916280dec6c0361a7b81/si52.svg si52 si52.svg svg 39085 ALTIMG 1-s2.0-S2352710221001029-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/052c7bdc1b4a235fe52e078a6c5358df/si27.svg si27 si27.svg svg 30466 ALTIMG 1-s2.0-S2352710221001029-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/0f10c0a45c1791e25343f7d99c93485f/si1.svg si1 si1.svg svg 5565 ALTIMG 1-s2.0-S2352710221001029-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/a0805de829c0f0866989ef893f604239/si5.svg si5 si5.svg svg 31572 ALTIMG 1-s2.0-S2352710221001029-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/26f742a6e86edd449e8097b8eee8a58b/si13.svg si13 si13.svg svg 5645 ALTIMG 1-s2.0-S2352710221001029-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/7c176edecae4edb8130a0aa10da48185/si8.svg si8 si8.svg svg 32439 ALTIMG 1-s2.0-S2352710221001029-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/51cc3fb7e139b565f2ba9fbbb3e1143f/si11.svg si11 si11.svg svg 23881 ALTIMG 1-s2.0-S2352710221001029-si74.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/11f317627770e1cb465c1f6091d52f76/si74.svg si74 si74.svg svg 23002 ALTIMG 1-s2.0-S2352710221001029-si87.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/a87718b992349520e19435c2a253fbd6/si87.svg si87 si87.svg svg 65355 ALTIMG 1-s2.0-S2352710221001029-si83.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/e3dc19b350f14bdb4ca047a3edcc5d22/si83.svg si83 si83.svg svg 122902 ALTIMG 1-s2.0-S2352710221001029-si77.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/280d718fc956764b33b4926fff65e6d5/si77.svg si77 si77.svg svg 20935 ALTIMG 1-s2.0-S2352710221001029-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001029/STRIPIN/image/svg+xml/c091b5a24634684ea1ab94e85b7551d1/si10.svg si10 si10.svg svg 42077 ALTIMG 1-s2.0-S2352710221001029-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10G9X66DHPB/MAIN/application/pdf/1163e4a2f5886640708c9535459892ae/am.pdf am am.pdf pdf false 974144 AAM-PDF JOBE 102246 102246 S2352-7102(21)00102-9 10.1016/j.jobe.2021.102246 Elsevier Ltd Fig. 1 The optimal control diagram of HVAC systems (the meanings of T c h w s a n d T c w s are shown in Nomenclature). Fig. 1 Fig. 2 The event-driven optimal control format. Fig. 2 Fig. 3 Illustration of optimal control reward. Fig. 3 Fig. 4 Schematic of the methodology. Note. S is the state vector which contains \" m \" state variables , S = s 1 , \u2026 , s m Fig. 4 Fig. 5 Schematic and TRNSYS model of the case HVAC system. (CT: cooling tower; CDWP: condenser water pump; CHWP: chilled water pump). Fig. 5 Fig. 6 Variable importance (%IncMSE) obtained from random forest algorithm. Fig. 6 Fig. 7 Histogram of F ct , fan corresponding to large decision vector distance. Fig. 7 Fig. 8 Energy saving percentage of EDOC and TDOC strategies (\u201cC1\u2013C10\u201d represent the load clusters as shown in Table 7). Fig. 8 Fig. 9 (a) Optimization triggering time of EDOC and TDOC strategies; (b) Load, dry-bulb (Tdb) and wet-bulb (Twb) temperature. Fig. 9 Table 1 Review of EDOC in building HVAC systems. Table 1 Authors Research problem Remark on event (publication year) Event state variable Event threshold Sun et al. (2015) [19] Control of room fan coil unit and fresh air unit. Select by expertise. Artificially specified. Wu et al. (2016) [29] On-off control of room HVAC system. Select by domain knowledge. Artificially specified. Wang et al. (2016) [24] Optimal control of central HVAC system. Select by domain knowledge (based on ASHRAE handbook). Select based on simulation tests. Fan et al. (2016) [30] Residential energy system management with photovoltaic equipment. Select by expertise. Select based on simulation tests. Xu et al. (2017) [31] Predictive control of energy consumption optimization of HVAC system. Select by expertise. Artificially specified. Wang et al. (2018) [32] Optimal control of central HVAC system. Select by extensive simulation tests. Select by extensive simulation tests. Table 2 DM related HVAC optimal control research. Table 2 Author Research summary Remarks on optimal control (publication year) Yu et al. (2012) [38] By using association rule mining algorithm to analyze the data, the energy waste phenomenon and equipment failure situation of HVAC system are identified. The fan operation data is analyzed manually. The control strategy of energy saving fan is obtained. Belongs to the improvement on the existing control strategy. May-Ostendorp et al. (2013) [39] The model predictive control strategy is adopted to obtain the optimal operation data through simulations, and the classification regression tree algorithm is used to obtain the simplified \u201cif-then-else\u201d control rules. Near optimal control strategy is constructed based on building performance simulation. Domahidi et al. (2014) [40] The hybrid model predictive control strategy is adopted, the optimal operation data is obtained through simulation, and the control strategy (\u201cif-then-else\u201d control rule) is constructed by SVM and Adaboost algorithm. Near optimal control strategy is constructed based on building performance simulation. Fan et al. (2015) [41] Based on the operation data of a super high-rise building, the temporal association rules and temporal sequence anomaly operation modes are identified by using data mining technology. Suggest that the discovered temporal association rule can be used to optimize control, but no method is provided. Qiu et al. (2018) [42] Based on the data of building sub-meter, three kinds of control strategies, i.e. on-off control, sequence control and coordination control, are found by classified regression tree and weighted association rule mining algorithm. Existing control strategies were identified, and no strategy improvement was provided. Table 3 Specifications of the major equipment. Table 3 Equipment Rated power Specifications Remark Water-cooled Chiller 1346 kW M w , e v = 345 L / S M w , c d = 410 L / s Total capacity: 7230 kW Cooling tower - type A 152 kW M w = 250 L / s M a = 157.2 L / s Total capacity: 5234 kW Cooling tower - type B 120 kW M w = 194 L / s M a = 127.0 L / s Total capacity: 4061 kW Cooling water pump 202 kW M w = 410 L / s Head = 41.6 m Constant speed Primary chilled water pump 126 kW M w = 345 L / s Head = 31.6 m Constant speed Secondary chilled water pump 163 kW M w = 345 L / s Head = 41.4 m Variable speed Note: M a is the air flow rate; M w is the water flow rate; e v and c d stand for evaporator and condenser respectively. Table 4 Operation ranges of decision variables. Table 4 Variable Name Meaning Value T c w s The set-point of cooling water supply temperature. [20, 28] °C (spring); [28, 35] °C (summer); [24, 30] °C (autumn) T c h w s , p r m The set-point of primary chilled water supply temperature. [5, 8] °C T c h w s , s e c The set-point of secondary chilled water supply temperature. [6.5, 11.5] °C T s a The set-point of supply air temperature. [12, 18] °C Table 5 Components of the EDOC. Table 5 Name Description Specifications Trigger of optimal control Pre-defined events with quantified parameters. Table 9 Objective Minimize the system total power requirement. Eqn. (9) Constraints Lower and upper bounds of decision variables. Table 4 Optimization algorithm Search the optimal set-points of decision variables. Exhaustive search method. Table 6 Component model description [51]. Table 6 Name Model type Description Chillers Grey-box model (dynamic) Verified by the measured data; Model accuracy: ± 10 % . Cooling towers Grey-box model (dynamic) Verified by the measured data; Model accuracy: ± 6.9 % for predicting the heat reject load and ± 1 % for predicting outlet water temperature. Variable-speed Pumps Polynomial model Verified by the measured data; Model accuracy: the pump model can predict exactly as the catalogue data. (steady-state) AHU Physical model TRNSYS Model: Type 508a (cooling coil) (dynamic) Heat exchanger Physical model TRNSYS Model: Type 699 (dynamic) PID Controller Physical model TRNSYS Model: Type 23; The PID settings: P = −0.95 and I = 35s (dynamic) Table 7 Typical load and weather data. Table 7 Load Cluster Load (kW) Tdb (°C) Twb (°C) mean max min mean max min mean max min C1 a 4833 6495 3268 21.5 23.5 20.6 18.8 19.7 17.4 C2 9072 13038 3954 23.7 25.2 22.1 22.9 23.6 21.5 C3 13998 22361 4212 29.7 32.9 27.6 26.6 28.1 25.9 C4 6164 8593 3437 29.2 32.5 27.3 26.2 27.4 25.3 C5 14492 22996 2923 29.7 33.1 27.4 26.1 27.9 24.9 C6 12646 21177 3367 28.2 31.0 26.4 25.3 26.0 24.4 C7 11465 17715 3740 27.8 29.7 26.8 24.0 25.1 22.8 C8 7037 10241 3355 29.2 31.9 27.2 26.1 27.1 25.1 C9 8067 18175 3475 31.2 34.2 28.4 25.1 26.8 23.5 C10 10628 15714 3487 24.8 27.3 22.9 21.5 22.5 19.5 a \u2018C1\u2019 means the load cluster 1; \u2018max\u2019 mean maximum; \u2018min\u2019 means minimum. Table 8 Range of state variables. Table 8 State variable Variable description Range of variable T wb Ambient air wet-bulb temperature. [17.4, 28.1] °C T db Ambient air dry-bulb temperature. [20.6, 34.2] °C PLR Part-load ratio of the chiller plant. (The cooling/heating load divided by the cooling/heating capacity.) [40.4%, 108%] F ct , fan The fan frequency of cooling tower. [0, 46.5] Hz M w , sec , pump Total water mass flow rate of the secondary pumps. [0, 2070] L/s M w , prm , pump Total water mass flow rate of the primary pumps. [0, 2070] L/s Table 9 Event definitions and thresholds. Table 9 Event name Definition Threshold PLR significant change { < P L R τ i , P L R τ j > | | P L R τ i − P L R τ j | ≥ σ P L R } σ P L R = 6.5 % M w , prm , pump significant change { < M τ i , M τ j > | | M τ i w , p r m , p u m p − M τ j w , p r m , p u m p | ≥ σ M w , s e c , p u m p } σ M w , p r m , p u m p = 3.75 L / s F ct , fan significant change { < F τ i , F τ j > | | F τ i c t , f a n − F τ j c t , f a n | ≥ σ F c t , f a n } σ F r e q c t , f a n = 1.72 H z (Note: τ j is the current decision time instant, τ i is the previous decision time instant.). Table 10 Details of control strategies used. Table 10 Name of control strategy Content Remark Baseline strategy No optimal control, set-points are constant during operation The base of energy saving calculation. TDOC Perform optimal control every 1 h Traditional optimal control strategy. EDOC Perform optimal control when predefined events happened. Event definitions are shown in Table 9. Proposed optimal control strategy. Data mining approach for improving the optimal control of HVAC systems: An event-driven strategy Junqi Wang a b c ∗ Jin Hou d Jianping Chen c Qiming Fu c Gongsheng Huang d a School of Environmental Science and Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China School of Environmental Science and Engineering Suzhou University of Science and Technology Suzhou 215009 China School of Environmental Science and Engineering, Suzhou University of Science and Technology, Suzhou, 215009, China b National and Local Joint Engineering Laboratory of Municipal Sewage Resource Utilization Technology, Suzhou University of Science and Technology, Suzhou, 215009, China National and Local Joint Engineering Laboratory of Municipal Sewage Resource Utilization Technology Suzhou University of Science and Technology Suzhou 215009 China National and Local Joint Engineering Laboratory of Municipal Sewage Resource Utilization Technology, Suzhou University of Science and Technology, Suzhou, 215009, China c Jiangsu Key Laboratory of Intelligent Building Energy Efficiency, Suzhou University of Science and Technology, Suzhou, 215009, China Jiangsu Key Laboratory of Intelligent Building Energy Efficiency Suzhou University of Science and Technology Suzhou 215009 China Jiangsu Key Laboratory of Intelligent Building Energy Efficiency, Suzhou University of Science and Technology, Suzhou, 215009, China d Department of Architecture and Civil Engineering, City University of Hong Kong, Hong Kong Department of Architecture and Civil Engineering City University of Hong Kong Hong Kong Department of Architecture and Civil Engineering, City University of Hong Kong, Hong Kong ∗ Corresponding author. Suzhou University of Science and Technology, No. 99 XueFu Road, Suzhou, 215009, China. Suzhou University of Science and Technology No. 99 XueFu Road Suzhou 215009 China Heating, ventilation and air conditioning (HVAC) systems contribute to a major portion of energy consumption in buildings. Real-time optimal control is an efficient tool to improve the HVAC system efficiency. The formulation of the optimal control strategy is, however, challenging due to the lack of quantitative approaches and unified control format. Many previous studies use domain knowledge or experts\u2019 interpretations to develop the optimal control strategy, which is qualitative, time-consuming and labor-intensive. This study proposes a data-mining-powered event-driven optimal control (EDOC) for improving HVAC operation efficiency. The main contributions are: (1) Provide a standard EDOC format to represent HVAC optimal control strategy; (2) Enable the automatic and quantitative formulation of optimal control strategies with minimal expert involvement. The random forest algorithm is adopted to discover event-driven relationships in the operation data. The effectiveness of the proposed approach is demonstrated through simulations. On average, the formulated EDOC strategy increases the energy saving by 0.9%\u20134.6% compared with a traditional time-driven optimal control. Meanwhile, events can be customized and can adapt to system renovations. The formulated EDOC is easy to use and can be easily understood by engineers and operators, which can be used to guide the optimal control of building HVAC systems. Keywords HVAC Real-time optimal control Event-driven strategy Data mining Nomenclature S state vector M w flow rate of water T c w s the set-point of cooling water supply temperature T c h w s , p r m the set-point of primary chilled water supply temperature T c h w s , s e c the set-point of secondary chilled water supply temperature T s a the set-point of supply air temperature d k decision vector distance d k , n o r m normalized Euclidean distance v n , n o r m normalized decision vector HVAC Heating, ventilation and air conditioning AHU air handling unit EDOC event-driven optimal control TDOC time-driven optimal control DM data mining SCOP system coefficient of performance CT cooling tower CDWP condenser water pump CHWP chilled water pump 1 Introduction 1.1 Motivation The energy consumption of existing buildings accounts for around 40% of total energy consumption [1\u20133], where heating, ventilation and air conditioning (HVAC) systems constitute the major energy consumption in buildings [4,5]. Retro commissioning of existing building HVAC systems discovered the deficiency problems are mainly caused by control and operation [6\u20139]. It is thus critical to enhance the building HVAC control and operation for energy saving. The real-time optimal control is an effective tool for improving the operation efficiency by revising the operation settings or modes in adaption to the ever-changing operational changes. In the case of an existing building HVAC system, identifying the energy saving opportunities and providing the energy saving measures are the essentials for retrofitting the HVAC operating efficiency. However, identifying and formulating optimal control measures to improve the energy efficiency is not easy, which typically requires detailed energy audit involving extensive expertise and manual analyses. In real applications, the manual analysis is inefficient, especially in the era that many industries began to embrace the \u201cbig data\u201d technologies. The manual analyses would not only miss important information, but may also consumes an increasing amount of time as the data size keeps growing, which in turn limits the proliferation of retrofitting the building HVAC optimal control strategies. With the growing amount of building operation data and the rapid development of data mining (DM) techniques, mining the building operation data can provide deeper understanding on the building HVAC operation [10], leading to more energy saving opportunities. Moreover, DM can provide rapid processing of data comparing with manual analyses. Currently, diverse patterns and hidden knowledge could be discovered using DM [11\u201313]. However, the DM-discovered knowledge still requires extensive analyses from experts to interpret and manually formulate the implementable optimal control strategy. This is also termed as \u201cknowledge transformation\u201d referring to transferring knowledge into implementable strategies for performance enhancement, which was pointed out as a critical issue to be solved in the DM of building operation data [11]. The fundamental reason behind is that the building control strategy lacks a clear format [14]. Although the ASHRAE Guideline 13\u20132007 [15] provides some references, there is no explicit and clear format to represent the building control strategy, which in turn causes the mixed use of different styles in applications. In fact, since the format of control strategy is not unified, the DM lacks a clear objective to guide its DM process. This is also the reason that makes interpretability of DM results \u201cpoor\u201d in terms of HVAC optimal control [11]. As a result, the DM results were difficult to be directly used in the HVAC optimal control. Therefore, it is critical to firstly establish a unified format of optimal control strategy that can supervise the DM process. This study selected an event-driven optimal control (EDOC) strategy which is a recently proposed strategy aiming for energy-efficient optimal control of HVAC systems. The EDOC has a clear \u201cevent-policy-action\u201d format, where \u201cevent\u201d is used to describe the system state transitions in operation, e.g. water flow changes, temperature variations, etc. During the operation of HVAC systems, the EDOC reacts to the event such that the system can adapt to the critical system state transitions. Targeting for constructing the EDOC strategy, the DM process is configured to automatically identify and quantify critical state transitions. 1.2 HVAC optimal control A common form of the HVAC system optimal control problem is to minimize the operation energy consumption under constraints such as thermal comfort and indoor air quality [16]. After years of development, the engineering industry has established a two-layer control structure for real-time HVAC optimal control [17], in which the upper layer is the optimal (or supervisory) control level and the lower layer is the local control level (as shown in Fig. 1 ). The implementation process is as follows: based on the real-time operation data input into the Building management system (BMS), the optimal control is triggered; according to the mathematical model of the HVAC system, the energy consumption of relevant equipment in the system is predicted online; with the objective function, the optimal settings of decision variables that minimizes the system energy consumption are obtained by optimization algorithms (e.g. genetic algorithm [18]). Finally, the operations of chillers, pumps, and cooling towers will be manipulated based on the optimal settings. In literature, most of the HVAC optimal control uses the so-called \u201ctime-driven\u201d strategy which conducts control optimization (i.e. optimizing operation set-points or modes) based on a fixed time frequency [19]. For instance, Ma and Wang conducted HVAC optimal control for a supertall building in Hong Kong [20]. Wei et al. did optimal control for the Iowa Energy Center (Iowa, U.S.A.) [21]. Huang, Zuo and Sohn optimized the condenser water set-points of a legacy chiller plant located in Washington U.S.A [22]. Ling et al. optimized the HVAC system in a data center located in Dongjiang lake (Chenzhou, Hunan, China) [23]. These studies all used 1 h as the optimization frequency (i.e. 1 h per optimal control), and provided considerable energy saving compared with the constant operation settings (i.e. without control resetting). However, the time-driven optimal control (TDOC) strategy has two major disadvantages. (1) The fixed periodic optimization triggering strategy cannot respond to the random changes of operating conditions (e.g. weather or occupancy) promptly [19]. It would easily miss the best control opportunity or delay the optimal control. Thus, it is difficult to ensure an efficient operation of the HVAC system under dynamic operation conditions with the time-driven strategy [24]. (2) When the system operation condition is stable, the time-driven strategy will still trigger the unnecessary optimization, which not only brings external disturbance to the stable operation, but also accelerates the aging of the equipment [25]. This is not beneficial to the long-term stable operation of the HVAC system. More importantly, there is no quantitative relationship between the optimization goal (e.g. operation efficiency) and \u201ctime\u201d [26]. Only a simple qualitative rule exists: the higher the optimization frequency is, the higher the operation efficiency of the system is. However, a significantly high optimization frequency will affect the operation stability [17,27], while a low optimization frequency cannot warrant a satisfactory operation efficiency. In engineering applications, designers can only choose an optimization frequency based on experience and the worst-case situation, which is difficult to ensure the optimal control performance. To overcome the limitations of time-triggered strategy, event-driven strategy was proposed to cater for the random operation conditions of HVAC systems. Indeed, many complex industrial systems have successfully applied the event-driven strategy, e.g. power grids, wireless communication networks and remote surgery systems [28]. A typical event-driven strategy is designed such that control actions are only performed when a certain event (describes a condition) happens [25]. By doing so, EDOC can react to the random operation condition in the most efficient and prompt manner, i.e. improving the efficiency of operation and resource utilization. In building HVAC systems, events can be defined based on critical operation changes. Several studies were conducted to investigate the EDOC in building HVAC systems (see Table 1 ). To construct an EDOC strategy, the main task is to identify the event state variable and the event threshold. As shown in Table 1, the methods to identify the event state variable and event threshold are generally based on acknowledged domain knowledge, expertise (also a kind of knowledge), and simulation tests. However, these methods have several limitations. First, the knowledge is qualitative, based on which the quantitative parameters (e.g. event thresholds) are difficult to define. Besides, using building performance simulation is similar to the trial-and-error method. When the HVAC system becomes complex, the simulation will be time-consuming and difficult to be applied. Thus, although the EDOC strategy has been proven to be efficient in building HVAC optimal control, there is a lack of quantitative method for the identification of events including event state variables and event thresholds, which limit its applications. 1.3 Data mining in building Nowadays, big data and DM technologies show powerful application potential in various aspects. For instance, Tian et al. investigated the Bayesian Network approach in the HVAC design problem [33]; Mirnaghi and Haghighat reviewed the recent developments on data-driven DM for Fault detection and diagnosis in HVAC [34]; using DM methods in improving the HVAC operation were also studied in Refs. [35,36]. The DM in HVAC problems typically involves the prediction, clustering, classification, finding associations, identification of normal and abnormal operation, etc [37]. DM can learn the operation patterns of HVAC systems and establish the correlation relationships, e.g. the relationships between state variables and operation efficiency, which can guide the construction of optimal control strategy. Therefore, it is promising to use DM-based approach to construct the optimal control strategy of building HVAC systems. However, very few researches can be found regarding DM-based optimal control in building HVAC field. Table 2 reviews the recent researches related to DM-based HVAC optimal control. From Table 2, it can be found that most of the existing research lies in the level of discovering problems, e.g. identifying energy wastage phenomenon based on the operation data. Some suggestions were given to improve the existing optimal control strategy, but most suggestions are qualitative, which is not suitable for the instant use in HVAC optimal control. Expertise is still required to define quantitative parameters in the optimal control strategy. Very few works can be found in literature regarding the directly implementable the HVAC optimal control strategy developed with DM. Given a powerful capability of DM, it is of great interest and importance to explore an automatic DM process for constructing the quantitative HVAC optimal control strategy. 1.4 Summary To sum up, the EDOC strategy is promising to improve the performance of HVAC optimal control. Previous applications of DM encounter difficulties in transferring DM results into quantitative optimal control strategy. The fundamental reason might be the lack of a suitable format to construct the optimal control strategy. Therefore, this study firstly proposes a suitable control format for HVAC optimal control, i.e. the EDOC formatted as \u201cevent-policy-action\u201d. Aiming at automating the formulation process of HVAC optimal control strategy with minimal expert involvement, this study then adopts a DM approach (using random forest algorithm) to identify critical events from the historical operation data of HVAC systems, based on which the EDOC control strategies are directly constructed. The rest of this paper is structured as follows: Section 2 presents the methodology, including the framework of EDOC and the method of identifying event state variables and event thresholds. Then, case study and simulation set-up are introduced in Section 3. Finally, results and conclusions are given. 2 Methodology This part firstly introduces the EDOC framework. Then, a DM approach is proposed to identify the event state variables and event thresholds. The \u201coptimal control reward\u201d is introduced for evaluating the relative importance of event candidates. Based on the commonly available HVAC operation data, the decision vector distance is defined to quantitatively estimate the optimal control reward. 2.1 Framework of EDOC An EDOC strategy is realized by the so-called \u201cevent-policy-action\u201d format (see Fig. 2) , and is briefly explained as follows: \u2022 if no event occurs, no action will be taken; \u2022 if certain events occur, actions will be taken accordingly based on the policy to achieve certain objectives (e.g. energy efficiency). An event is a well-defined condition that describes a set of system state transitions that happen instantly or continuously (in a time period). For instance, the outdoor wet-bulb temperature change, the equipment on/off status change or the indoor occupancy variation ([3]) can be used to define an event. Three basic event attributes, namely timestamp, descriptive state variables, and threshold, are used to mathematically construct an event definition [32] (see Fig. 2), where the critical part is to identify a suitable event state variable and an event threshold [32]. An event determines when (or in what condition) to trigger the control optimization. After the optimization is triggered, the event-driven policy determines which action to be taken based on the observed event, which is basically a mapping from the event space (the set of events) to the action space (the set of control actions). In HVAC optimal control, an action can be temperature re-setting or turning on/off an equipment. 2.2 Optimal control reward 2.2.1 Illustration of optimal control reward In building HVAC systems, there are numerous potential state variables that can be used to define events. Similarly, the threshold of a state transition also has numerous quantities (e.g. changing by 10%, 20%, or 90%). Only the state variable, varying at a certain extend that could cause a significant influence on the specific objectives (such as the system operation efficiency), will be selected and defined as the event. Deciding which state variables and thresholds to be used is basically a decision-making problem. This study develops the selection criteria (shown below) based on the notion of optimal control reward. \u2022 If the estimated optimal control reward associated with the event candidate is \u201csignificant\u201d#, the event candidate is selected; \u2022 If the estimated optimal control reward associated with the event candidate is \u201cnot significant\u201d, the event candidate will not be selected. # the significance of an event candidate can be estimated based on statistics. To illustrate the idea of optimal control reward, a simple example is presented in Fig. 3 . Suppose the system COP ( S C O P ∗ ) is the optimal control objective (which is a common objective in HVAC optimal control [43]). SCOP is equal to the cooling or heating output of plant (kw) divided by the plant power input (kw) which mainly consists of pumps, fans, cooling towers and chillers. k is the index of time. V is the decision vector which contains all the settings of decision variables. S is the system state vector which contains all the state variables. When control optimization is triggered, the optimal control settings are computed and reset. Following observations would be observed in system operations: (1) If the system state# (or operation condition) remains the same at time k-1 and time k (case a of Fig. 3, S k − 1 = S k ), the optimal decision vector remains unchanged (i.e. V k = V k − 1 ) and the SCOP remains the same as well (i.e. S C O P k V k = S C O P k − 1 V k − 1 ); (2) When the system state varies (case b of Fig. 3, S k − 1 ≠ S k ), if still using the previous operation setting V k − 1 , the S C O P k V k − 1 (SCOP at time k using V k − 1 ) would not be optimal since the previous setting V k − 1 is not optimal for the current system state S k . *: S C O P = c o o l i n g o r h e a t i n g o u t p u t o f p l a n t ( k w ) p l a n t p o w e r i n p u t ( k w ) where a plant typically consists of chillers, cooling towers, pumps and fans. #: system state are basically system operation variables that are related to the decision to be made, e.g. water/air flow rate, water/air temperature, pump/fan frequency, equipment power, ambient condition, etc. By optimizing the decision variable vector from V k − 1 to V k , the SCOP (at time k ) would be improved compared with the one using V k − 1 . The SCOP would be improved from S C O P k V k − 1 to S C O P k V k , and the SCOP gap is termed as optimal control reward (highlighted in Fig. 3). In summary, when the system state ( S k ) deviates from the previous one ( S k − 1 ) , the previous settings of decision vector ( V k − 1 ) will not be optimal. Thus, an action is necessary to be triggered to optimize the decision vector, i.e. resetting to V k for an optimal efficiency. Therefore, the correlation between the necessity of the optimization and a non-zero difference between the adjacent decision vectors can be established [44]. Moreover, the bigger the difference is, the higher the necessity of the optimization. Since the variation of decision vector is aroused by the system state transition, an event is thus defined to capture the system state transition, especially the critical ones. In this way, using the \u201cevent\u201d to drive optimization action will lead to a more efficient optimal control for the HVAC system operation comparing with using time to drive the optimization. 2.2.2 Estimator of optimal control reward: decision vector distance To estimate the optimal control reward (or the necessity of optimal control), the Euclidean distance between adjacent decision vectors is defined. As we know in data science, the deviation between objects is usually called \u201cdissimilarity\u201d [45], and the commonly used dissimilarity measure is the Euclidean distance. Suppose the decision vector contains \u201cn\u201d decision variables V k = v 1 , k , \u2026 , v n , k ; k is the index of time. The Euclidean distance between adjacent decision vectors is defined in Eqn. (1). (1) d k = ( v 1 , k − v 1 , k − 1 ) 2 + \u2026 + ( v n , k − v n , k − 1 ) 2 To eliminate the scale effect in the dataset, data normalization is always performed as shown in Eqn. (2). In this study, the normalized Euclidean distance ( d k , n o r m ) is used as an estimator of the optimal control reward. (2) d k , n o r m = ( v 1 , k , n o r m − v 1 , k − 1 , n o r m ) 2 + \u2026 + ( v n , k , n o r m − v n , k − 1 , n o r m ) 2 (3) v n , n o r m = ( v n − v n , m i n ) / ( v n , m a x − v n , m i n ) 2.3 Identifying event state variables and event thresholds 2.3.1 Methodology overview To construct an event (or an EDOC strategy), the major tasks are to identify the state variables and the event thresholds. The schematic of the methodology is shown in Fig. 4 and described as follows. Δ S k = ( Δ s 1 , k , \u2026 , Δ s m , k ) , Δ s i , k = | s i , k − s i , k − 1 | , i = 1 , \u2026 , m (1) Identify important state variable(s). First, input operation data and calculate Δ S k and d n o r m , based on which to establish the regression function by random forest algorithm. The variable importance will be evaluated accordingly (see section 2.3.2). Based on the evaluation result, important state variable(s) can be identified (denoted as s j ). (2) Identify event threshold(s). Then, compute the d n o r m for all the operation data. Record the time instance that the d k , n o r m is greater than the mean d n o r m , m e a n (which is considered as \u201csignificant\u201d). Identify the corresponding Δ s k , i , and continues the process until all the data is visited. Lastly, decide the event threshold based on the identified Δ s k , i . Note that the process in Fig. 4 is designed to run automatically, and thus each step is designed to be explicit and quantitative. The significant d n o r m is treated as the value greater than the population mean. This could be arbitrary and is for the demonstration purpose only. Other reasonable specifications are acceptable. 2.3.2 Evaluate variable importance by random forest In this study, random forest (RF) algorithm was used to evaluate the variable importance regarding the optimal control reward (estimated by the d k , n o r m ). RF is a regression method for global sensitivity analysis, which has an inherent measurement to evaluate the \u201cvariable importance\u201d. RF constructs multiple decision trees (a forest) based on selections of random features of the data. Variables are randomly picked at each node of the tree, which decreases the correlation between the trees in the forest, and thus decreasing the error rate. RF have been found to be excellent comparing with other machine learning algorithms [46] and traditional logistic regression models [47]. RF is also capable of handling highly correlated data [48]. Therefore, RF is suitable to be used in this study to evaluate the variable importance. In RF, the variable importance is computed based on the index %IncMSE as shown in Eqn. (4), where \u201c MSE ( − Δ s i ) \u201d stands for the mean squared error (MSE) if the variable s i is not used in the prediction. A small %IncMSE can be interpreted as: without certain variable s i , the MSE does not increase much, meaning that the contribution of Δ s i to the model output is not significant. On the contrary, a higher %IncMSE suggests that the variable s i is more important. (4) %IncMSE ( Δ s i ) = MSE ( − Δ s i ) − MSE MSE × 100 % 2.3.3 Specifying event thresholds The event threshold is a user-decided parameter. In order to select a suitable threshold value for the event state variables, a simple method is suggested based on the proposed decision vector distance. Since the event should associate with the \u201clarge\u201d optimal control reward (indicated by the \u201clarge\u201d d k , n o r m ), large d k , n o r m is firstly defined. Then, the state transitions associated with the large d k , n o r m are identified for selecting the event threshold. Eqn. (5) defines the \u201clarge\u201d d k , n o r m based on the common statistics that \u201clarge\u201d should at least be greater than the mean. Eqn. (6) identifies the time index k of \u201clarge\u201d d k , n o r m , which is denoted as I n d l . The corresponding state vector variations associated with the \u201clarge\u201d d k , n o r m can be identified using the I n d l , which are represented in Eqn. (7). Finally, the event threshold is calculated based on Eqn. (8) using the mean of the state vector variation. (5) d n o r m , l ∶ = { ∀ d k , n o r m > d n o r m , m e a n , k = { 1,2 , \u2026 , n } } (6) I n d l ∶ = { ∀ k , d k , n o r m > d n o r m , m e a n , k = { 1,2 , \u2026 , n } } (7) Δ S l ∶ = { Δ S k , k ∈ I n d l } (8) σ Δ S k ∶ = { ∑ Δ S k | I n d l | , k ∈ I n d l } ( | A | means the size of data set A .) 3 Case study and simulation set-up 3.1 Case system A case HVAC system is established in this section. The case HVAC system serves a skyscraper in subtropical region in China. The whole year weather and cooling load data were recorded. The daily average temperature ranges from 21.5 °C to 31.2 °C with an average 78% relative humidity and the cooling load data ranges from 3268 kW to 22996 kW. Fig. 5 (a) shows the schematic diagram of the HVAC system, which consists of a cooling water loop, a primary chilled water loop and a secondary chilled water loop. Four temperature set-points are dynamically reset to chase for an optimal operation performance, namely cooling water supply temperature, primary chilled water supply temperature, secondary chilled water supply temperature and supply air temperature. Fig. 5 (b) is a figure of the simulated TRNSYS project. Table 3 lists the specifications of the major equipment. Note that the air-side system is simplified as one cooling coil handling all the loads. The occupancy factor is also important, especially for the demand-oriented ventilation and outdoor air control. However, this constitutes a separate topic ([49]), and the occupancy factor is not separately considered in the current optimal control problem. 3.2 Optimal control problem As mentioned, the decision variables are four temperature set-points, while the control objective is to minimize the system total power requirement at each time instant. The optimal control problem is formulated as the minimization of system total power requirement at each time instance (see Eqns. 9 and 10). Each decision variable has its operation range (shown in Table 4 ). (9) ( T c w s o p , T c h w s , p r m o p , T c h w s , s e c o p , T s a o p ) = a r g m i n P s y s , t o t ( T c w s , T c h w s , p r m , T c h w s , s e c , T s a ) (10) P s y s , t o t = P c h , t o t + P c t , t o t + P p u m p , t o t + P f a n , t o t where T o p is the optimal set-point of the corresponding temperature; P c h , t o t , P c t , t o t , P p u m p , t o t , P f a n , t o t are total power requirement of chillers, cooling towers pumps, and fans. To obtain an optimal set-point, the optimization procedure of EDOC is shown in Table 5 , which consists of four components, namely triggering optimal control, calculating the objective function, applying constrains and optimization algorithm. Here, a simple but fast exhaustive search method was used. 3.3 Simulation set-up Since the simulation is an effective tool to test the optimal control performance [50], the TRNSYS was used as the simulation platform. Validated component models calibrated by field measured data were used to construct the component models of the HVAC system. The accuracy and details of component models are present in Table 6 . For simplicity, the AHU (air handling unit) model adopts the TRNSYS type 508, the heat exchanger model uses the TRNSYS type 699, and the PID model uses the TRNSYS type 23 (the PID settings: P = \u2013 0.95 and I = 35 s). Matlab was used to perform the control optimization and was linked with TRNSYS for the co-simulation to simulate the HVAC optimal control in operation. The TRNSYS simulation platform used verified component models including chillers, cooling towers, pumps, AHUs, and heat exchangers. Model details are presented in Table 3 of [51] and are not repeated here. Actual load and weather data were used in the simulation. The entire year has various load and weather data, but many load and weather profiles are similar. Thus, to speed up the computer simulation test, a K-means clustering approach was used to identify the typical load and weather data. The detailed K-means clustering approach can be found in Ref. [51]. The identified typical load and weather data are shown in Table 7 . The TRNSYS simulation duration for each load cluster was 24 h (i.e. one day) with a simulation time step of 30 s. During the simulation, the TRNSYS will mimic the actual operation, while the Matlab is responsible for the computation of optimal control set-points. Besides, the event definitions and event detection functions are also coded in Matlab. 4 Results and discussions This section firstly presents the data preparation and the implementation of RF algorithm. Then, the results of variable importance are presented with the defined events. These events are used to construct the EDOC strategy, and the corresponding control performance is demonstrated in section 4.3. Finally, the results and limitations are discussed. 4.1 Operation data preparation and random forest algorithm The data generated from the established simulation platform was used to demonstrate the effectiveness of the proposed DM approach. Based on a previous study [52], typical variables affecting the operation efficiency of HVAC systems were firstly identified to reduce the size of data to be investigated. These variables are associated with chilled water loop, cooling water loop, supply and return air loop, and the corresponding equipment. Based on the available data, six state variables were selected to be investigated, the range of the selected state variables are presented in Table 8 . The selected operation data was then processed using RF. RF algorithm was implemented in \u201cR\u201d which is an open platform for statistical computing and DM. The \u201crandomForest\u201d package (version 4.6\u201312) was used (documented in Ref. [53]), and the parameters were set as 500 trees with three variables at each split. 4.2 Identify state variables and event thresholds As shown in Fig. 6 , based on the \u201c%IncMSE\u201d value, the quantitative variable importance from high to low can be ranked as: PLR > M w , prm , pump > M w , sec , pump > F ct , fan > T db > T w b . It is noted that, when the variables describing the similar state change are used to define the events, there may exist duplication. To avoid the potential event duplication, less important variables in a similar state variable group were discarded. The \u201c M w , sec , pump \u201d was potentially duplicated with \u201c M w , prm , pump \u201d because they both reflect the chilled water flow. Thus, \u201c M w , sec , pump \u201d was not selected to avoid the potential frequent event triggering. \u201c T wb \u201d and \u201c T db \u201d were also discarded due to the low importance since the values of \u201c%IncMSE\u201d are less than 10%. Thus, PLR, M w , prm , pump and F ct , fan are selected as the critical state variables which will be used to define events. Then, the event thresholds should be specified to constitute a complete event definition. In this study, the thresholds were specified with the help of decision vector distance as presented in Eqn. (8). For instance, a histogram of F ct , fan significant change corresponding to large decision vector distance is shown in Fig. 7 , and the mean value (1.72 Hz) was used as the event threshold. Similarly, all the event thresholds are calculated and listed in Table 9. 4.3 Performance comparisons Based on the event definitions present above, the established event space consists of three events (see Table 9). This event space was tested regarding the energy saving performance and was compared with a traditional TDOC strategy. The energy saving percentage of a certain control strategy is calculated based on the baseline case in which no optimal control is done. Details of control strategies are listed in Table 10 . The time-driven strategy optimizing the system every 1 h was used as the benchmark. Compared with the benchmark, the EDOC strategy achieves higher energy saving percentages in the 10 typical load cases (see Fig. 8 ). The maximum and minimum energy saving improvement are 4.6% (case \u201cC4\u201d, a summer day) and 0.9% (case \u201cC1\u201d, a spring day) respectively. Overall speaking, the average energy saving in 10 load clusters is 10.2% which is higher than the benchmark 7.7%. It demonstrates that, by adopting the EDOC strategy using the proposed DM approach, the energy saving is superior to the traditional time-triggered strategy under a wide range of operation conditions. The optimization triggering time of EDOC and TDOC in one simulation run (i.e. 24 h or 2880 simulation steps) is shown in Fig. 9 (a), where x axis is the simulation time step and y axis is the cumulative optimization times. The cumulative optimization times increments by one when the optimization is triggered. The load cluster 6 (refer to \u201cC6\u201d in Table 6) is selected for this illustration. It can be seen that EDOC triggered the optimization in a non-periodic manner. When experienced rapid load changes (e.g. time step 721 to 1201 in Fig. 9 (b)), EDOC can allocate more optimizations than TDOC. When the operation condition is relatively stable (e.g. time step 1441 to 2401 in Fig. 9 (b)), EDOC can save unnecessary optimizations. For the load cluster C6, the EDOC obtained 9.5% of energy saving which is higher than the 8.2% of energy saving obtained by TDOC. Such performance improvement greatly benefit from the adaptive optimization mode of EDOC in response to the operation condition changes (e.g. load changes). 4.4 Discussions As discussed, most of the previous studies adopted domain knowledge to formulate the optimal control strategy for HVAC systems. However, using domain knowledge is difficult to quantify the parameters of the control, making it infeasible to automate the formulation of optimal control strategy. This study presents a DM approach to directly formulate the efficient optimal control strategy from DM results. A unified and easy-use EDOC format is proposed to guide the DM process. The RF algorithm is used to compute the variable importance in terms of the optimal control reward (which is estimated by the decision vector distance). In applications, when domain knowledge is limited (e.g. some newly developed HVAC systems may not have well-developed knowledge), the proposed DM approach can be a good supplement. More importantly, as the operation data is continuously fed into the DM engine, the proposed DM approach can customize the EDOC strategy for the targeted system in adaption to system and climatic changes. In this way, the formulated EDOC strategy can handle the HVAC optimal control more precisely and efficiently. Therefore, the formulated EDOC strategy (based on the operation data) achieves higher energy saving than the traditional TDOC strategy. Since a quantitative evaluation on variable importance is provided, it allows the automatic data processing. As the human expert intervention is minimized, the proposed DM approach can enable fast employment in applications, which indicates a good application potential. Recently, the reinforcement learning has also been investigated in HVAC optimal control [54], which has the appealing model-free feature. However, the construction of reinforcement learning still requires extensive expert involvements, e.g. establishing the reward function, gathering the training data and training the agent. Considering there are plenty data mining researches in HVAC field (not necessarily targeting for optimal control), it is beneficial to utilize and transfer the current research outcomes of data mining into efficient optimal control strategies, which is the primary target of the presented paper. It should be mentioned that the method of event threshold specification is simple (as presented in section 2.3.3). This study is mainly presented to illustrate the idea of adopting DM approach to directly formulate the EDOC strategy. Thus, the event threshold is selected based on simple equations (shown in Section 2.3.3). Basically, the threshold should not cause frequent event triggering (in this case, not too small) and should be reachable (in normal range). The presented threshold selection method satisfies both criterion. More advanced event threshold specification method can be investigated in the future. For example, DM technologies (e.g. association rule mining) can be used to identify the patterns between event thresholds and optimal control objective(s) and critical event thresholds could be identified with quantifications. The case study simplifies the indoor environment which is characterized by non-uniformly distributed parameters [55,56]. The prediction, control and management of the indoor environment are also essential in HVAC optimal control. As shown by literatures [57,58], the indoor environmental control could constitute a separate study and will be our future direction. The control performance verification is limited to a simulation-based study. The simulation platform was constructed based on validated models. However, field experimental verifications should also be pursued in the future. Besides, more operation data covering a wide range of operation conditions should be collected to enable a good applicability of the optimal control strategy. Since this study proposes a DM approach, new data can be continuously used in offline to update the EDOC optimal control strategy, e.g. updating the event thresholds or even the event definitions. Therefore, with the proliferation of data measurement infrastructures in buildings and the accumulation of time, the amount and diversity of data may not be a critical issue. 5 Conclusions To improve the operation of existing building HVAC systems, the system control and operation should be emphasized since they are the major contributor for the widely existed deficiency problems. Instead of using domain knowledge or simulation results, this study proposes a data mining approach to facilitate the formulation of efficient optimal control strategy in HVAC systems. The data mining algorithm, random forest, is used to discover useful information inside the operation data for HVAC optimal control. The effectiveness of the proposed approach is demonstrated through simulation case studies, which shows that the formulated event-driven optimal control strategy can improve the energy saving percentage by 0.9%\u20134.6% comparing with the traditionally used time-driven optimal control strategy. The contribution of the presented work can be summarized as follows: \u2022 Provide a standard event-driven optimal control format to represent air conditioning optimal control strategy. \u2022 Improve the energy saving by 0.9%\u20134.6% compared with the traditional time-driven optimal control strategy. \u2022 Enable the automatic and quantitative formulation of optimal control strategies with minimal expert involvement. Thus, the implementation of data mining approach can be fast. \u2022 Considering to the data driven feature, the proposed data-mining-powered event-driven optimal control is customizable for a specific building system and adaptable to system renovations. \u2022 The event-driven optimal control is easy to use and can be easily understood by designers, engineers, and building operators. The conclusions of this work can guide the optimal control of building HVAC plant systems. Since the proposed data mining approach can be fully quantified, automatic formulation of the HVAC optimal control strategy can be expected. Thus, the presented approach can enable the fast employment (with minimal expert involvement) in actual applications to improve the operation efficiency of HVAC systems. In the future, the experimental validation and the advanced event threshold specification method will be set as the future work. Author statement Junqi Wang: Roles/Writing - original draft, Methodology, Validation, Investigation, Funding acquisition. Jin Hou: Data curation, Formal analysis, Visualization. Jianping Chen: Writing - review & editing, Funding acquisition; Qiming Fu: Software; Gongsheng Huang:Conceptualization, Writing - review & editing. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgment Funding: This work was funded by Natural Science Foundation of Jiangsu Province (BK20190942); National Natural Science Foundation of China (62072324); National Key Research & Development Project (2020YFC2006602); Suzhou University of Science & Technology research projects funding (331911204, 342031201); Open research project from Jiangsu Key Laboratory of Intelligent Building Energy Efficiency (362011202). References [1] Y. Liao G. Huang A hybrid predictive sequencing control for multi-chiller plant with considerations of indoor environment control, energy conservation and economical operation cost Sustain. Cities Soc. 49 2019 101616 10.1016/j.scs.2019.101616 Y. Liao, G. Huang, A hybrid predictive sequencing control for multi-chiller plant with considerations of indoor environment control, energy conservation and economical operation cost, Sustain. Cities Soc. 49 (2019) 101616. https://doi.org/10.1016/j.scs.2019.101616. [2] J. Yu Q. Liu A. Zhao X. Qian R. Zhang Optimal chiller loading in HVAC system using a novel algorithm based on the distributed framework J. Build. Eng. 28 2020 101044 10.1016/j.jobe.2019.101044 J. Yu, Q. Liu, A. Zhao, X. Qian, R. Zhang, Optimal chiller loading in HVAC System Using a Novel Algorithm Based on the distributed framework, J. Build. Eng. 28 (2020) 101044. https://doi.org/10.1016/j.jobe.2019.101044. [3] J. Wang N.C.F. Tse J.Y.C. Chan Wi-Fi based occupancy detection in a complex indoor space under discontinuous wireless communication: a robust filtering based on event-triggered updating Build. Environ. 151 2019 228 239 10.1016/j.buildenv.2019.01.043 J. Wang, N.C.F. Tse, J.Y.C. Chan, Wi-Fi based occupancy detection in a complex indoor space under discontinuous wireless communication: A robust filtering based on event-triggered updating, Build. Environ. 151 (2019) 228-239. https://doi.org/10.1016/j.buildenv.2019.01.043. [4] R. Sendra-Arranz A. Gutiérrez A long short-term memory artificial neural network to predict daily HVAC consumption in buildings Energy Build. 216 2020 109952 10.1016/j.enbuild.2020.109952 R. Sendra-Arranz, A. Gutierrez, A long short-term memory artificial neural network to predict daily HVAC consumption in buildings, Energy Build. 216 (2020) 109952. https://doi.org/10.1016/j.enbuild.2020.109952. [5] C. Ren S.J. Cao Development and application of linear ventilation and temperature models for indoor environmental prediction and HVAC systems control Sustain. Cities Soc. 51 2019 101673 10.1016/j.scs.2019.101673 C. Ren, S.J. Cao, Development and application of linear ventilation and temperature models for indoor environmental prediction and HVAC systems control, Sustain. Cities Soc. 51 (2019) 101673. https://doi.org/10.1016/j.scs.2019.101673. [6] S. Kubba Green project commissioning Handb. Green Build. Des. Constr. second ed. 2017 Cambridge, MA 02139, United States S. Kubba, Green Project Commissioning, in: Handb. Green Build. Des. Constr., Second Edi, Cambridge, MA 02139, United States, 2017. [7] H. Friedman D. Claridge C. Toole M. Frank K. Heinemeier K. Crossman E. Crowe D. Choinière Annex 47 Report 3: Commissioning Cost-Benefit and Persistence of Savings 2010 H. Friedman, D. Claridge, C. Toole, M. Frank, K. Heinemeier, K. Crossman, E. Crowe, D. Choiniere, Annex 47 Report 3: Commissioning Cost-Benefit and Persistence of Savings, 2010. [8] M. Jradi N. Liu K. Arendt C.G. Mattera An automated framework for buildings continuous commissioning and performance testing \u2013 a university building case study J. Build. Eng. 31 2020 101464 10.1016/j.jobe.2020.101464 M. Jradi, N. Liu, K. Arendt, C.G. Mattera, An automated framework for buildings continuous commissioning and performance testing - A university building case study, J. Build. Eng. 31 (2020) 101464. https://doi.org/10.1016/j.jobe.2020.101464. [9] J. Ding C.W. Yu S.J. Cao HVAC systems for environmental control to minimize the COVID-19 infection Indoor Built Environ. 29 2020 1195 1201 10.1177/1420326X20951968 J. Ding, C.W. Yu, S.J. Cao, HVAC systems for environmental control to minimize the COVID-19 infection, Indoor Built Environ. 29 (2020) 1195-1201. https://doi.org/10.1177/1420326X20951968. [10] X. Zhou B. Wang L. Liang J. Yan D. Pan An operational parameter optimization method based on association rules mining for chiller plant J. Build. Eng. 26 2019 100870 10.1016/j.jobe.2019.100870 X. Zhou, B. Wang, L. Liang, J. Yan, D. Pan, An operational parameter optimization method based on association rules mining for chiller plant, J. Build. Eng. 26 (2019) 100870. https://doi.org/10.1016/j.jobe.2019.100870. [11] C. Fan F. Xiao Z. Li J. Wang Unsupervised data analytics in mining big building operational data for energy efficiency enhancement: a review Energy Build. 159 2018 296 308 10.1016/j.enbuild.2017.11.008 C. Fan, F. Xiao, Z. Li, J. Wang, Unsupervised data analytics in mining big building operational data for energy efficiency enhancement: A review, Energy Build. 159 (2018) 296-308. https://doi.org/10.1016/j.enbuild.2017.11.008. [12] C. Miller Z. Nagy A. Schlueter A review of unsupervised statistical learning and visual analytics techniques applied to performance analysis of non-residential buildings Renew. Sustain. Energy Rev. 81 2018 1365 1377 10.1016/j.rser.2017.05.124 C. Miller, Z. Nagy, A. Schlueter, A review of unsupervised statistical learning and visual analytics techniques applied to performance analysis of non-residential buildings, Renew. Sustain. Energy Rev. 81 (2018) 1365-1377. https://doi.org/10.1016/j.rser.2017.05.124. [13] L. Yan M. Liu K. Xue Z. Zhang A study on temperature-setting behavior for room air conditioners based on big data J. Build. Eng. 30 2020 101197 10.1016/j.jobe.2020.101197 L. Yan, M. Liu, K. Xue, Z. Zhang, A study on temperature-setting behavior for room air conditioners based on big data, J. Build. Eng. 30 (2020) 101197. https://doi.org/10.1016/j.jobe.2020.101197. [14] Y. Chen S.J. Treado J.I. Messner Building HVAC control knowledge data schema - towards a unified representation of control system knowledge Autom. ConStruct. 72 2016 174 186 10.1016/j.autcon.2016.08.036 Y. Chen, S.J. Treado, J.I. Messner, Building HVAC control knowledge data schema - Towards a unified representation of control system knowledge, Autom. Constr. 72 (2016) 174-186. https://doi.org/10.1016/j.autcon.2016.08.036. [15] Ashrae ASHRAE Guideline 13-2007: Specifying Direct Digital Control Systems 2007 ASHRAE, ASHRAE Guideline 13-2007: Specifying Direct Digital Control Systems, (2007). [16] X. Li T. Zhao P. Fan J. Zhang Rule-based fuzzy control method for static pressure reset using improved Mamdani model in VAV systems J. Build. Eng. 22 2019 192 199 10.1016/j.jobe.2018.12.005 X. Li, T. Zhao, P. Fan, J. Zhang, Rule-based fuzzy control method for static pressure reset using improved Mamdani model in VAV systems, J. Build. Eng. 22 (2019) 192-199. https://doi.org/10.1016/j.jobe.2018.12.005. [17] ASHRAE, supervisory control strategies and optimization ASHRAE Handb. - HVAC Appl. 2015 ASHRAE Inc. Atlanta: USA ASHRAE, SUPERVISORY CONTROL STRATEGIES AND OPTIMIZATION, in: ASHRAE Handb. - HVAC Appl., ASHRAE Inc., Atlanta: USA, 2015. [18] F. Ascione N. Bianco C. De Stasio G.M. Mauro G.P. Vanoli A new comprehensive approach for cost-optimal building design integrated with the multi-objective model predictive control of HVAC systems Sustain. Cities Soc. 31 2017 136 150 10.1016/j.scs.2017.02.010 F. Ascione, N. Bianco, C. De Stasio, G.M. Mauro, G.P. Vanoli, A new comprehensive approach for cost-optimal building design integrated with the multi-objective model predictive control of HVAC systems, Sustain. Cities Soc. 31 (2017) 136-150. https://doi.org/10.1016/j.scs.2017.02.010. [19] B. Sun P.B. Luh Q.S. Jia B. Yan Event-based optimization within the Lagrangian relaxation framework for energy savings in HVAC systems IEEE Trans. Autom. Sci. Eng. 12 2015 1396 1406 B. Sun, P.B. Luh, Q.S. Jia, B. Yan, Event-Based Optimization Within the Lagrangian Relaxation Framework for Energy Savings in HVAC Systems, IEEE Trans. Autom. Sci. Eng. 12 (2015) 1396-1406. [20] Z. Ma S. Wang Supervisory and optimal control of central chiller plants using simplified adaptive models and genetic algorithm Appl. Energy 88 2011 198 211 Z. Ma, S. Wang, Supervisory and optimal control of central chiller plants using simplified adaptive models and genetic algorithm, Appl. Energy. 88 (2011) 198-211. [21] Z.Y. Wei X A. Kusiak M. Li F. Tang Multi-objective optimization of the HVAC (heating, ventilation, and air conditioning) system performance Energy 83 2015 294 306 Z.Y. Wei X, Kusiak A, Li M, Tang F, Multi-objective optimization of the HVAC (heating, ventilation, and air conditioning) system performance, Energy. 83 (2015) 294-306. [22] S. Huang W. Zuo M.D. Sohn Improved cooling tower control of legacy chiller plants by optimizing the condenser water set point Build. Environ. 111 2017 33 46 S. Huang, W. Zuo, M.D. Sohn, Improved cooling tower control of legacy chiller plants by optimizing the condenser water set point, Build. Environ. 111 (2017) 33-46. [23] L. Ling Q. Zhang Y. Yu X. Ma S. Liao Energy saving analysis of the cooling plant using lake water source base on the optimized control strategy with set points change Appl. Therm. Eng. 130 2018 1440 1449 L. Ling, Q. Zhang, Y. Yu, X. Ma, S. Liao, Energy saving analysis of the cooling plant using lake water source base on the optimized control strategy with set points change, Appl. Therm. Eng. 130 (2018) 1440-1449. [24] J. Wang G. Huang Y. Sun X. Liu Event-driven optimization of complex HVAC systems Energy Build. 133 2016 79 87 10.1016/j.enbuild.2016.09.049 J. Wang, G. Huang, Y. Sun, X. Liu, Event-driven optimization of complex HVAC systems, Energy Build. 133 (2016) 79-87. https://doi.org/10.1016/j.enbuild.2016.09.049. [25] Q. Liu Z. Wang X. He D.H. Zhou A survey of event-based strategies on control and estimation Syst. Sci. Control Eng. 2 2014 90 97 Q. Liu, Z. Wang, X. He, D.H. Zhou, A survey of event-based strategies on control and estimation, Syst. Sci. Control Eng. 2 (2014) 90-97. [26] S. Huang W. Zuo Optimization of the water-cooled chiller plant system operation 2014 ASHRAE/IBPSA-USA Build. Simul. Conf. Atlanta, GA 300 307 2014 S. Huang, W. Zuo, Optimization of the water-cooled chiller plant system operation, in: 2014 ASHRAE/IBPSA-USA Build. Simul. Conf., Atlanta, GA, 2014: pp. 300-307. [27] H.S. Asad R.K.K. Yuen G. Huang Multiplexed real-time optimization of HVAC systems with enhanced control stability Appl. Energy 187 2017 640 651 H.S. Asad, R.K.K. Yuen, G. Huang, Multiplexed real-time optimization of HVAC systems with enhanced control stability, Appl. Energy. 187 (2017) 640-651. [28] C.G. Cassandras S. Lafortune Introduction to Discrete Event Systems second ed. 2009 C.G. Cassandras, S. Lafortune, Introduction to Discrete Event Systems, 2nd ed., 2009. [29] Z. Wu Q.S. Jia X. Guan Optimal control of multiroom HVAC system: an event-based approach IEEE Trans. Contr. Syst. Technol. 24 2016 662 669 Z. Wu, Q.S. Jia, X. Guan, Optimal Control of Multiroom HVAC System: An Event-Based Approach, IEEE Trans. Control Syst. Technol. 24 (2016) 662-669. [30] W. Fan N. Liu J. Zhang An event-triggered online energy management algorithm of smart home: lyapunov optimization approach Energies 9 2016 W. Fan, N. Liu, J. Zhang, An event-triggered online energy management algorithm of smart home: Lyapunov optimization approach, Energies. 9 (2016). [31] Z. Xu G. Hu C.J. Spanos S. Schiavon PMV-based event-triggered mechanism for building energy management under uncertainties Energy Build. 152 2017 73 85 Z. Xu, G. Hu, C.J. Spanos, S. Schiavon, PMV-based event-triggered mechanism for building energy management under uncertainties, Energy Build. 152 (2017) 73-85. [32] J. Wang Q.S. Jia G. Huang Y. Sun Event-driven optimal control of central air-conditioning systems: event-space establishment Sci. Technol. Built Environ. 24 2018 839 849 10.1080/23744731.2018.1457410 J. Wang, Q.S. Jia, G. Huang, Y. Sun, Event-driven optimal control of central air-conditioning systems: Event-space establishment, Sci. Technol. Built Environ. 24 (2018) 839-849. https://doi.org/10.1080/23744731.2018.1457410. [33] Z. Tian B. Si X. Shi Z. Fang An application of Bayesian Network approach for selecting energy efficient HVAC systems J. Build. Eng. 25 2019 100796 10.1016/j.jobe.2019.100796 Z. Tian, B. Si, X. Shi, Z. Fang, An application of Bayesian Network approach for selecting energy efficient HVAC systems, J. Build. Eng. 25 (2019) 100796. https://doi.org/10.1016/j.jobe.2019.100796. [34] M.S. Mirnaghi F. Haghighat Fault detection and diagnosis of large-scale HVAC systems in buildings using data-driven methods: a comprehensive review Energy Build. 229 2020 110492 10.1016/j.enbuild.2020.110492 M.S. Mirnaghi, F. Haghighat, Fault detection and diagnosis of large-scale HVAC systems in buildings using data-driven methods: A comprehensive review, Energy Build. 229 (2020) 110492. https://doi.org/10.1016/j.enbuild.2020.110492. [35] X. Yu S. Ergan G. Dedemen A data-driven approach to extract operational signatures of HVAC systems and analyze impact on electricity consumption Appl. Energy 253 2019 113497 10.1016/j.apenergy.2019.113497 X. Yu, S. Ergan, G. Dedemen, A data-driven approach to extract operational signatures of HVAC systems and analyze impact on electricity consumption, Appl. Energy. 253 (2019) 113497. https://doi.org/10.1016/j.apenergy.2019.113497. [36] C. Zhang X. Xue Y. Zhao X. Zhang T. Li An improved association rule mining-based method for revealing operational problems of building heating, ventilation and air conditioning (HVAC) systems Appl. Energy 253 2019 113492 10.1016/j.apenergy.2019.113492 C. Zhang, X. Xue, Y. Zhao, X. Zhang, T. Li, An improved association rule mining-based method for revealing operational problems of building heating, ventilation and air conditioning (HVAC) systems, Appl. Energy. 253 (2019) 113492. https://doi.org/10.1016/j.apenergy.2019.113492. [37] C. Zhang Y. Zhao T. Li X. Zhang A post mining method for extracting value from massive amounts of building operation data Energy Build. 223 2020 10.1016/j.enbuild.2020.110096 C. Zhang, Y. Zhao, T. Li, X. Zhang, A post mining method for extracting value from massive amounts of building operation data, Energy Build. 223 (2020). https://doi.org/10.1016/j.enbuild.2020.110096. [38] Z. Yu F. Haghighat B.C.M. Fung L. Zhou A novel methodology for knowledge discovery through mining associations between building operational data Energy Build. 47 2012 430 440 10.1016/j.enbuild.2011.12.018 Z. Yu, F. Haghighat, B.C.M. Fung, L. Zhou, A novel methodology for knowledge discovery through mining associations between building operational data, Energy Build. 47 (2012) 430-440. https://doi.org/10.1016/j.enbuild.2011.12.018. [39] P.T. May-Ostendorp G.P. Henze B. Rajagopalan C.D. Corbin Extraction of supervisory building control rules from model predictive control of windows in a mixed mode building J. Build. Perform. Simul. 6 2013 199 219 10.1080/19401493.2012.665481 P.T. May-Ostendorp, G.P. Henze, B. Rajagopalan, C.D. Corbin, Extraction of supervisory building control rules from model predictive control of windows in a mixed mode building, J. Build. Perform. Simul. 6 (2013) 199-219. https://doi.org/10.1080/19401493.2012.665481. [40] A. Domahidi F. Ullmann M. Morari C.N. Jones Learning decision rules for energy efficient building control J. Process Contr. 24 2014 763 772 A. Domahidi, F. Ullmann, M. Morari, C.N. Jones, Learning decision rules for energy efficient building control, J. Process Control. 24 (2014) 763-772. [41] C. Fan F. Xiao H. Madsen D. Wang Temporal knowledge discovery in big BAS data for building energy management Energy Build. 109 2015 75 89 10.1016/j.enbuild.2015.09.060 C. Fan, F. Xiao, H. Madsen, D. Wang, Temporal knowledge discovery in big BAS data for building energy management, Energy Build. 109 (2015) 75-89. https://doi.org/10.1016/j.enbuild.2015.09.060. [42] S. Qiu F. Feng Z. Li G. Yang P. Xu Z. Li Data mining based framework to identify rule based operation strategies for buildings with power metering system Build. Simul. 12 2019 195 205 10.1007/s12273-018-0472-6 S. Qiu, F. Feng, Z. Li, G. Yang, P. Xu, Z. Li, Data mining based framework to identify rule based operation strategies for buildings with power metering system, Build. Simul. 12 (2019) 195-205. https://doi.org/10.1007/s12273-018-0472-6. [43] M.W. Ahmad M. Mourshed B. Yuce Y. Rezgui Computational intelligence techniques for HVAC systems: a review Build. Simul. 9 2016 359 398 M.W. Ahmad, M. Mourshed, B. Yuce, Y. Rezgui, Computational intelligence techniques for HVAC systems: A review, Build. Simul. 9 (2016) 359-398. [44] J. Hou X. Luo G. Huang L. Zhang Z.J. Yu Development of event-driven optimal control for central air-conditioning systems J. Build. Perform. Simul. 13 2020 378 390 J. Hou, X. Luo, G. Huang, L. Zhang, Z.J. Yu, Development of event-driven optimal control for central air-conditioning systems, J. Build. Perform. Simul. 13 (2020) 378-390. [45] T. Wei A review of sensitivity analysis methods in building energy analysis Renew. Sustain. Energy Rev. 20 2013 411 419 10.1016/j.rser.2012.12.014 T. Wei, A review of sensitivity analysis methods in building energy analysis, Renew. Sustain. Energy Rev. 20 (2013) 411-419. https://doi.org/10.1016/j.rser.2012.12.014. [46] V. Svetnik A. Liaw C. Tong J.C. Culberson R.P. Sheridan B.P. Feuston Random forest: a classification and regression tool for compound classification and QSAR modeling J. Chem. Inf. Comput. Sci. 43 2003 1947 1958 V. Svetnik, A. Liaw, C. Tong, J.C. Culberson, R.P. Sheridan, B.P. Feuston, Random forest: a classification and regression tool for compound classification and QSAR modeling, J. Chem. Inf. Comput. Sci. 43 (2003) 1947-1958. [47] D.W. Hosmer Jr. S. Lemeshow R.X. Sturdivant Applied Logistic Regression third ed. 2013 John Wiley & Sons, Inc. Hoboken, New Jersey D.W. Hosmer Jr., S. Lemeshow, R.X. Sturdivant, Applied Logistic Regression, Third Edit, John Wiley & Sons, Inc., Hoboken, New Jersey, 2013. [48] J. Bi A review of statistical methods for determination of relative importance of correlated predictors and identification of drivers of consumer liking J. Sensory Stud. 27 2012 87 101 10.1111/j.1745-459X.2012.00370.x J. Bi, A review of statistical methods for determination of relative importance of correlated predictors and identification of drivers of consumer liking, J. Sens. Stud. 27 (2012) 87-101. https://doi.org/10.1111/j.1745-459X.2012.00370.x. [49] W. Wang J. Wang J. Chen G. Huang X. Guo Multi-zone outdoor air coordination through Wi-Fi probe-based occupancy sensing Energy Build. 159 2018 495 507 10.1016/j.enbuild.2017.11.041 W. Wang, J. Wang, J. Chen, G. Huang, X. Guo, Multi-zone outdoor air coordination through Wi-Fi probe-based occupancy sensing, Energy Build. 159 (2018) 495-507. https://doi.org/10.1016/j.enbuild.2017.11.041. [50] N. Hashempour R. Taherkhani M. Mahdikhani Energy performance optimization of existing buildings: a literature review Sustain. Cities Soc. 54 2020 101967 10.1016/j.scs.2019.101967 N. Hashempour, R. Taherkhani, M. Mahdikhani, Energy performance optimization of existing buildings: A literature review, Sustain. Cities Soc. 54 (2020) 101967. https://doi.org/10.1016/j.scs.2019.101967. [51] J. Wang R. Liu L. Zhang H. Syed Asad E. Meng Triggering optimal control of air conditioning systems by event-driven mechanism: comparing direct and indirect approaches Energies 12 2019 3863 10.3390/en12200000 J. Wang, R. Liu, L. Zhang, H. Syed ASAD, E. Meng, Triggering Optimal Control of Air Conditioning Systems by Event-Driven Mechanism: Comparing Direct and Indirect Approaches, Energies. 12 (2019) 3863. https://doi.org/10.3390/en12200000. [52] F.W. Yu W.T. Ho K.T. Chan R.K.Y. Sit Critique of operating variables importance on chiller energy performance using random forest Energy Build. 139 2017 653 664 10.1016/j.enbuild.2017.01.063 F.W. Yu, W.T. Ho, K.T. Chan, R.K.Y. Sit, Critique of operating variables importance on chiller energy performance using random forest, Energy Build. 139 (2017) 653-664. https://doi.org/10.1016/j.enbuild.2017.01.063. [53] L. Breiman Random forests Mach. Learn. 45 2001 5 32 L. BREIMAN, Random Forests, Mach. Learn. 45 (2001) 5-32. [54] Z. Wang T. Hong Reinforcement learning for building controls: the opportunities and challenges Appl. Energy 269 2020 115036 10.1016/j.apenergy.2020.115036 Z. Wang, T. Hong, Reinforcement learning for building controls: The opportunities and challenges, Appl. Energy. 269 (2020) 115036. https://doi.org/10.1016/j.apenergy.2020.115036. [55] P. Zhou G. Huang Z. Li Demand-based temperature control of large-scale rooms aided by wireless sensor network: energy saving potential analysis Energy Build. 68 2014 532 540 10.1016/j.enbuild.2013.10.005 P. Zhou, G. Huang, Z. Li, Demand-based temperature control of large-scale rooms aided by wireless sensor network: Energy saving potential analysis, Energy Build. 68 (2014) 532-540. https://doi.org/10.1016/j.enbuild.2013.10.005. [56] S.J. Cao J. Ding C. Ren Sensor deployment strategy using cluster analysis of Fuzzy C-Means Algorithm: towards online control of indoor environment's safety and health Sustain. Cities Soc. 59 2020 102190 10.1016/j.scs.2020.102190 S.J. Cao, J. Ding, C. Ren, Sensor deployment strategy using cluster analysis of Fuzzy C-Means Algorithm: Towards online control of indoor environment\u2019s safety and health, Sustain. Cities Soc. 59 (2020) 102190. https://doi.org/10.1016/j.scs.2020.102190. [57] X. Li Z. Han T. Zhao J. Zhang D. Xue Modeling for indoor temperature prediction based on time-delay and Elman neural network in air conditioning system J. Build. Eng. 33 2021 101854 10.1016/j.jobe.2020.101854 X. Li, Z. Han, T. Zhao, J. Zhang, D. Xue, Modeling for indoor temperature prediction based on time-delay and Elman neural network in air conditioning system, J. Build. Eng. 33 (2021) 101854. https://doi.org/10.1016/j.jobe.2020.101854. [58] C. Ren S.J. Cao Implementation and visualization of artificial intelligent ventilation control system using fast prediction models and limited monitoring data Sustain. Cities Soc. 52 2020 101860 10.1016/j.scs.2019.101860 C. Ren, S.J. Cao, Implementation and visualization of artificial intelligent ventilation control system using fast prediction models and limited monitoring data, Sustain. Cities Soc. 52 (2020) 101860. https://doi.org/10.1016/j.scs.2019.101860.",
+    "scopus-id": "85100627834",
+    "coredata": {
+        "eid": "1-s2.0-S2352710221001029",
+        "dc:description": "Heating, ventilation and air conditioning (HVAC) systems contribute to a major portion of energy consumption in buildings. Real-time optimal control is an efficient tool to improve the HVAC system efficiency. The formulation of the optimal control strategy is, however, challenging due to the lack of quantitative approaches and unified control format. Many previous studies use domain knowledge or experts\u2019 interpretations to develop the optimal control strategy, which is qualitative, time-consuming and labor-intensive. This study proposes a data-mining-powered event-driven optimal control (EDOC) for improving HVAC operation efficiency. The main contributions are: (1) Provide a standard EDOC format to represent HVAC optimal control strategy; (2) Enable the automatic and quantitative formulation of optimal control strategies with minimal expert involvement. The random forest algorithm is adopted to discover event-driven relationships in the operation data. The effectiveness of the proposed approach is demonstrated through simulations. On average, the formulated EDOC strategy increases the energy saving by 0.9%\u20134.6% compared with a traditional time-driven optimal control. Meanwhile, events can be customized and can adapt to system renovations. The formulated EDOC is easy to use and can be easily understood by engineers and operators, which can be used to guide the optimal control of building HVAC systems.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2021-07-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352710221001029",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Wang, Junqi"
+            },
+            {
+                "@_fa": "true",
+                "$": "Hou, Jin"
+            },
+            {
+                "@_fa": "true",
+                "$": "Chen, Jianping"
+            },
+            {
+                "@_fa": "true",
+                "$": "Fu, Qiming"
+            },
+            {
+                "@_fa": "true",
+                "$": "Huang, Gongsheng"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S2352710221001029"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S2352710221001029"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2352-7102(21)00102-9",
+        "prism:volume": "39",
+        "articleNumber": "102246",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "Data mining approach for improving the optimal control of HVAC systems: An event-driven strategy",
+        "prism:copyright": "© 2021 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "23527102",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "HVAC"
+            },
+            {
+                "@_fa": "true",
+                "$": "Real-time optimal control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Event-driven strategy"
+            },
+            {
+                "@_fa": "true",
+                "$": "Data mining"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Building Engineering",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "102246",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "July 2021",
+        "prism:doi": "10.1016/j.jobe.2021.102246",
+        "prism:startingPage": "102246",
+        "dc:identifier": "doi:10.1016/j.jobe.2021.102246",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "125",
+            "@width": "390",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "86415",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "400",
+            "@width": "580",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "142237",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "186",
+            "@width": "390",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "96431",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "236",
+            "@width": "390",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "88537",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "416",
+            "@width": "390",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "110762",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "336",
+            "@width": "580",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "138169",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "216",
+            "@width": "558",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "92023",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "196",
+            "@width": "390",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "84881",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "833",
+            "@width": "580",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "168789",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "70",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "70861",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "151",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "79349",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "105",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73416",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "133",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "70642",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "153",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74002",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "127",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "76067",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "85",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "69451",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "110",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "69795",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "114",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75059",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "554",
+            "@width": "1728",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "193774",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1769",
+            "@width": "2568",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "548916",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "825",
+            "@width": "1728",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "253899",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1047",
+            "@width": "1728",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "189469",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1844",
+            "@width": "1728",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "346886",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1488",
+            "@width": "2568",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "555557",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "958",
+            "@width": "2470",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "244086",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "870",
+            "@width": "1728",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "171156",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3688",
+            "@width": "2568",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "714257",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18857",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16781",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9352",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4023",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12380",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "73054",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "45355",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18687",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20695",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "46003",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si76.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "32305",
+            "@ref": "si76",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si67.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30246",
+            "@ref": "si67",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29527",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "37978",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14116",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "35017",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si89.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8350",
+            "@ref": "si89",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16553",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15224",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si88.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8229",
+            "@ref": "si88",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24471",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6635",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "35936",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "39776",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si73.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12461",
+            "@ref": "si73",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7946",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24493",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "51286",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "34905",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17083",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12676",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17759",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "46057",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15353",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si72.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6209",
+            "@ref": "si72",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "90003",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si75.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "38021",
+            "@ref": "si75",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si68.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15024",
+            "@ref": "si68",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13216",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18952",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16516",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si79.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "52034",
+            "@ref": "si79",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8226",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "92849",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "35144",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "61465",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "103879",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "70290",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "48744",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si70.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11279",
+            "@ref": "si70",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "117756",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "102210",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7156",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "96636",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si82.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "70990",
+            "@ref": "si82",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si71.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14542",
+            "@ref": "si71",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "39102",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9437",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "33378",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "38019",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16567",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23478",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si78.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "61418",
+            "@ref": "si78",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4825",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si86.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "98926",
+            "@ref": "si86",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "84920",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19288",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19398",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si80.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "76482",
+            "@ref": "si80",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si81.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "39761",
+            "@ref": "si81",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21110",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "40777",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "43987",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11473",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si84.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "65686",
+            "@ref": "si84",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "57323",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "39085",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30466",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5565",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "31572",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5645",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "32439",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23881",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si74.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23002",
+            "@ref": "si74",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si87.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "65355",
+            "@ref": "si87",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si83.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "122902",
+            "@ref": "si83",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si77.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20935",
+            "@ref": "si77",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "42077",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001029-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "974144",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85100627834"
+    }
+}}

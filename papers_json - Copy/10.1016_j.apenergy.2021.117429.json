@@ -1,0 +1,962 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85110479817",
+    "originalText": "serial JL 271429 291210 291702 291731 291787 291877 291878 291881 31 Applied Energy APPLIEDENERGY 2021-07-17 2021-07-17 2021-07-17 2021-07-17 2022-04-22T18:58:24 1-s2.0-S0306261921008229 S0306-2619(21)00822-9 S0306261921008229 10.1016/j.apenergy.2021.117429 S300 S300.1 FULL-TEXT 1-s2.0-S0306261921X00177 2024-01-01T13:26:00.965548Z 0 0 20211015 2021 2021-07-17T21:54:43.36836Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst nomenclature primabst ref specialabst 0306-2619 03062619 true 300 300 C Volume 300 43 117429 117429 117429 20211015 15 October 2021 2021-10-15 2021 Research Papers article fla © 2021 Elsevier Ltd. All rights reserved. THERMALLOADPREDICTIONOPERATIONOPTIMIZATIONOFFICEBUILDINGAZONELEVELARTIFICIALNEURALNETWORKRULEBASEDCONTROL HU J Nomenclature 1 Introduction 1.1 Background 1.2 Literature review 1.3 Problem description 2 Zone-level ANN model 2.1 Descriptions of the building and HVAC system 2.2 Principle and structure of ANN model 2.3 Inputs and outputs of ANN model 2.4 Parameters of ANN model 2.5 Training of ANN model 3 Rule-based control optimization model 4 Results and discussion 4.1 Effects of thermal zones division on prediction accuracy 4.2 Load pattern of representative days 4.3 Optimization of representative days 4.4 Optimization of the heating and cooling season 5 Conclusions CRediT authorship contribution statement References FAN 2019 700 710 C KUMAR 2013 352 358 R ABOELYOUSR 2018 495 F ENGVANG 2021 34 44 J MOHANDES 2019 55 75 S ALJANABI 2019 262 280 A REYNOLDS 2018 729 739 J WANG 2017 796 808 Z LUO 2020 102283 X AHMAD 2014 102 109 A KIM 2018 3433 S KAPETANAKIS 2017 13 26 D BISWAS 2016 84 92 M LI 2009 90 96 Q SHOLAHUDIN 2016 1672 1678 S DING 2018 225 234 Y NASRUDDIN 2019 48 57 NETO 2008 2169 2176 A WANG 2016 04016006 Z SONG 2017 121 133 K DENG 2019 216 227 Z CLAU 2019 500 518 J ELNOZAHY 2021 1166 1179 A CHAUDHURI 2019 44 53 T MOON 2019 1522 1531 J LEE 2019 726 738 J FERREIRA 2012 238 251 P LEE 2018 362 370 S MAGNIER 2010 739 746 L SALOUX 2020 1191 1201 E ALIMOHAMMADISAGVAND 2018 167 179 B ELNOZAHY 2021 127038 A DETTORRE 2019 F BRANDI 2020 110225 S LIU 2019 1426 1451 Z BURATTI 2016 176 183 C GANG 2013 1146 1153 W YUCE 2014 45 56 B DENG 2018 34 43 H CHAKRABORTY 2018 433 448 D SUN 2013 101 114 Y GREGOR 2003 111 127 P YU 2015 203 215 Z TAM 2019 99 111 A HUX2021X117429 HUX2021X117429XJ 2023-07-17T00:00:00.000Z 2023-07-17T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2021 Elsevier Ltd. All rights reserved. 0 https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0306-2619(21)00822-9 S0306261921008229 1-s2.0-S0306261921008229 10.1016/j.apenergy.2021.117429 271429 2024-01-01T13:26:00.965548Z 2021-10-15 1-s2.0-S0306261921008229-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/MAIN/application/pdf/1a0ac97ac50747ee58c9769423d01ca4/main.pdf main.pdf pdf true 21185617 MAIN 18 1-s2.0-S0306261921008229-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/PREVIEW/image/png/2aafcaf3dbd81aebdc8d81f8f74182ae/main_1.png main_1.png png 48872 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0306261921008229-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/ga1/DOWNSAMPLED/image/jpeg/bbea7c920b3ed80b8cd761d7e9fc1dec/ga1.jpg ga1 true ga1.jpg jpg 56338 197 500 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr17.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr17/DOWNSAMPLED/image/jpeg/7c0ffbd4408971e076ae76170e9bfb3b/gr17.jpg gr17 gr17.jpg jpg 40180 303 556 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr16.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr16/DOWNSAMPLED/image/jpeg/7de21e362a4080102b0a5d3a57691c1f/gr16.jpg gr16 gr16.jpg jpg 118338 853 556 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr15/DOWNSAMPLED/image/jpeg/9fcbfd3122b1fdcb930b7bf139a314aa/gr15.jpg gr15 gr15.jpg jpg 125492 843 556 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr14/DOWNSAMPLED/image/jpeg/8f05f8ee70ab29db541b42c46a1d93e8/gr14.jpg gr14 gr14.jpg jpg 36444 298 555 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr4/DOWNSAMPLED/image/jpeg/6a07e3079ea2afceb03756e173146e25/gr4.jpg gr4 gr4.jpg jpg 7984 161 364 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr3/DOWNSAMPLED/image/jpeg/c3187b9ddd714618da3d8cb4215f681c/gr3.jpg gr3 gr3.jpg jpg 38078 320 689 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr2/DOWNSAMPLED/image/jpeg/dbdf249fc9360592ffb0f78d27f2e620/gr2.jpg gr2 gr2.jpg jpg 91468 507 556 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr1/DOWNSAMPLED/image/jpeg/00100946dbc97ee203af4a6cd14bec4e/gr1.jpg gr1 gr1.jpg jpg 153314 699 600 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr13/DOWNSAMPLED/image/jpeg/1bfc09a5ff9282a1fd99b79164864d01/gr13.jpg gr13 gr13.jpg jpg 37061 301 556 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr12/DOWNSAMPLED/image/jpeg/e0c1119dd20d76bee6c3199eb061d6aa/gr12.jpg gr12 gr12.jpg jpg 65072 343 622 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr11/DOWNSAMPLED/image/jpeg/7aed7fc7106c40072c8b794ad8a39333/gr11.jpg gr11 gr11.jpg jpg 53671 359 622 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr9/DOWNSAMPLED/image/jpeg/774c7b3cf40eb3843106d01616ab26f1/gr9.jpg gr9 gr9.jpg jpg 41638 827 556 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr10/DOWNSAMPLED/image/jpeg/ee825b0739a1d2e27750b5b3ca7af4be/gr10.jpg gr10 gr10.jpg jpg 26150 667 364 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr8/DOWNSAMPLED/image/jpeg/d9339e8a6c97a839666e03f789d5fa5b/gr8.jpg gr8 gr8.jpg jpg 97666 698 562 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr7/DOWNSAMPLED/image/jpeg/7d7df31c916df01f7b1de1aad084e017/gr7.jpg gr7 gr7.jpg jpg 100073 702 564 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr6/DOWNSAMPLED/image/jpeg/a9f25a3ed2429c0b9e26e5f1c5af8060/gr6.jpg gr6 gr6.jpg jpg 17199 306 364 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr5/DOWNSAMPLED/image/jpeg/75597a1d5b24cbde709eda4082ad820b/gr5.jpg gr5 gr5.jpg jpg 54720 482 555 IMAGE-DOWNSAMPLED 1-s2.0-S0306261921008229-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/ga1/THUMBNAIL/image/gif/d739dfe0e3b508bbbd2c0ebc1e5909af/ga1.sml ga1 true ga1.sml sml 17765 86 219 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr17.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr17/THUMBNAIL/image/gif/7a1fb0b365fba3022905a23416991b03/gr17.sml gr17 gr17.sml sml 9227 119 219 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr16.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr16/THUMBNAIL/image/gif/8e08ab1e78c551c616452965d2e069b9/gr16.sml gr16 gr16.sml sml 7374 164 107 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr15/THUMBNAIL/image/gif/d266030800ee3f29ef2e2cffd06587bb/gr15.sml gr15 gr15.sml sml 8585 164 108 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr14/THUMBNAIL/image/gif/7abb448f93293740b555f90a3b886dce/gr14.sml gr14 gr14.sml sml 6028 118 219 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr4/THUMBNAIL/image/gif/809813b02d9a910c89efe0d0c97d2a44/gr4.sml gr4 gr4.sml sml 2924 97 219 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr3/THUMBNAIL/image/gif/5b2a0400f02dccab2fdc7e5eff59aa7c/gr3.sml gr3 gr3.sml sml 7297 102 219 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr2/THUMBNAIL/image/gif/173ad1d4cecd33ca9f9ee6881ed9c8fd/gr2.sml gr2 gr2.sml sml 24793 164 180 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr1/THUMBNAIL/image/gif/1b2a128b548072e8da16e7ffb47f8644/gr1.sml gr1 gr1.sml sml 11037 163 140 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr13/THUMBNAIL/image/gif/9045519dc215bfde94f3a7c51b7b2dfe/gr13.sml gr13 gr13.sml sml 6711 118 219 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr12/THUMBNAIL/image/gif/2d90260d9dfeb5a7634ae29086ea65a2/gr12.sml gr12 gr12.sml sml 10028 121 219 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr11/THUMBNAIL/image/gif/db74a9a77bb657e1e80cdb04fe384501/gr11.sml gr11 gr11.sml sml 8243 126 219 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr9/THUMBNAIL/image/gif/4ce2fa1ed46045a02ff6c185f7fa38c6/gr9.sml gr9 gr9.sml sml 2618 164 110 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr10/THUMBNAIL/image/gif/b1a0151496a0b762df7d6a7c4bc8e8e1/gr10.sml gr10 gr10.sml sml 2450 163 89 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr8/THUMBNAIL/image/gif/a2fe3736a934d5d9d2e347370a318e59/gr8.sml gr8 gr8.sml sml 9914 164 132 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr7/THUMBNAIL/image/gif/51cd2e48bc74e5e06ffb712447ddea6e/gr7.sml gr7 gr7.sml sml 9735 164 132 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr6/THUMBNAIL/image/gif/ae26dfc96030b5e97649755889d74912/gr6.sml gr6 gr6.sml sml 4937 164 195 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr5/THUMBNAIL/image/gif/e0a18bbd253ebba9d1f5257efa7a657d/gr5.sml gr5 gr5.sml sml 7739 164 189 IMAGE-THUMBNAIL 1-s2.0-S0306261921008229-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/ga1/HIGHRES/image/jpeg/763114e0e9b2fbd56e41085ec880c5d7/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 370955 873 2213 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr17_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr17/HIGHRES/image/jpeg/47b37ba8732491dba78624fa26333a21/gr17_lrg.jpg gr17 gr17_lrg.jpg jpg 486109 1340 2461 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr16_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr16/HIGHRES/image/jpeg/e4f31c493878138b8a764aab4ea5e2f4/gr16_lrg.jpg gr16 gr16_lrg.jpg jpg 1454324 3777 2461 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr15/HIGHRES/image/jpeg/3e910bbe934442667b9740d44a041733/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 1462466 3733 2461 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr14/HIGHRES/image/jpeg/3c7d709150baf3da81f52170112a6f04/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 491181 1321 2460 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr4/HIGHRES/image/jpeg/83e25ecf22dd6ad9f2856f193501306b/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 42839 716 1614 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr3/HIGHRES/image/jpeg/d84b43228985e2923c599e03ef60292d/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 237536 1417 3051 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr2/HIGHRES/image/jpeg/115e125e6fb6fbf9d5fb4c32b906ce76/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 645955 2244 2461 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr1/HIGHRES/image/jpeg/b54cd6340b5fd23af4c26bb431bc9b6e/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 949483 3097 2657 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr13/HIGHRES/image/jpeg/345f11307415b6b3e1c0f3cd01b39128/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 452587 1331 2461 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr12/HIGHRES/image/jpeg/286238fad6ce4a7b0f9881b57a4eccba/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 410383 1520 2756 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr11/HIGHRES/image/jpeg/d7f111e26673a6425241654a81a77f13/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 324031 1591 2756 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr9/HIGHRES/image/jpeg/801406baadba6f51191162d0a98cb73e/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 245713 3661 2461 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr10/HIGHRES/image/jpeg/2d28b2ed1fcc3a2156b3a56345fed983/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 148555 2956 1614 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr8/HIGHRES/image/jpeg/883afc28a9c5b09c07a8487eceb0cc77/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 1093187 3091 2488 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr7/HIGHRES/image/jpeg/2e8bd748a890ef7e24a5549cc180eddd/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 1125285 3106 2497 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr6/HIGHRES/image/jpeg/8bb63b2d2bde1c0ea40ec90c24243a39/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 102143 1357 1614 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/gr5/HIGHRES/image/jpeg/94adae1994c9f5fabb61304832a14c5d/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 380456 2135 2460 IMAGE-HIGH-RES 1-s2.0-S0306261921008229-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/d5f1f67fb0fec3fc4e2c8c7897bd90dc/si1.svg si1 si1.svg svg 1950 ALTIMG 1-s2.0-S0306261921008229-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/4b6fda4a0d19549872e4a0956d15a2eb/si10.svg si10 si10.svg svg 15553 ALTIMG 1-s2.0-S0306261921008229-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/a175dbd95aae9ae4528ce2b6f219eec8/si11.svg si11 si11.svg svg 17679 ALTIMG 1-s2.0-S0306261921008229-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/daa35af5d16fb947f27f143fad6c98d4/si12.svg si12 si12.svg svg 2100 ALTIMG 1-s2.0-S0306261921008229-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/bc7b71a5b14d3b301e19e5a14b4ac964/si13.svg si13 si13.svg svg 16737 ALTIMG 1-s2.0-S0306261921008229-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/3fffed77596d492507c91b55cc997201/si14.svg si14 si14.svg svg 11237 ALTIMG 1-s2.0-S0306261921008229-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/4b7e08d95779908c648861dad55c213e/si15.svg si15 si15.svg svg 11445 ALTIMG 1-s2.0-S0306261921008229-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/7274c56151fe693342f323c47a0d9814/si16.svg si16 si16.svg svg 18130 ALTIMG 1-s2.0-S0306261921008229-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/6bfee8b6916eb3f95557faeeaca6e346/si17.svg si17 si17.svg svg 10170 ALTIMG 1-s2.0-S0306261921008229-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/9d9d6a8b54069e38363d585f6a75699d/si18.svg si18 si18.svg svg 29942 ALTIMG 1-s2.0-S0306261921008229-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/a4c799ec1650e6ffda7c3df91f92d6ed/si19.svg si19 si19.svg svg 30711 ALTIMG 1-s2.0-S0306261921008229-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/ed2c302b12a19c8af927c7014f2bdfd4/si2.svg si2 si2.svg svg 15578 ALTIMG 1-s2.0-S0306261921008229-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/5c00ad2e2e881b7cc59f0c516420882d/si20.svg si20 si20.svg svg 36328 ALTIMG 1-s2.0-S0306261921008229-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/5764f7a5e1ac5a2f3d8a78da68661e13/si3.svg si3 si3.svg svg 9746 ALTIMG 1-s2.0-S0306261921008229-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/eef13f67fbf76d568ba92519aaff1d86/si4.svg si4 si4.svg svg 4489 ALTIMG 1-s2.0-S0306261921008229-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/b1977f7a96c2614066347b9659b540f0/si5.svg si5 si5.svg svg 12037 ALTIMG 1-s2.0-S0306261921008229-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/5516b079b1746adc3d209b1f5bdbbb06/si6.svg si6 si6.svg svg 19322 ALTIMG 1-s2.0-S0306261921008229-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/5e172ab0510f931cbd748d62fefb58ef/si7.svg si7 si7.svg svg 17506 ALTIMG 1-s2.0-S0306261921008229-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/9cb4dcf5c1b6539046b7a327992c2942/si8.svg si8 si8.svg svg 19286 ALTIMG 1-s2.0-S0306261921008229-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261921008229/STRIPIN/image/svg+xml/f33b3d99adea6ed790767d86320c6ae2/si9.svg si9 si9.svg svg 14587 ALTIMG 1-s2.0-S0306261921008229-am.pdf am am.pdf pdf 3413129 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10BQJ01DZDM/MAIN/application/pdf/5e590d25dc5967a6a11b2a997edfd113/am.pdf APEN 117429 117429 S0306-2619(21)00822-9 10.1016/j.apenergy.2021.117429 Elsevier Ltd Fig. 1 Approach framework of this study. Fig. 2 Photographs of the office building: (a) geometry. (b) typical thermal zones. (Fan coils and temperature recorders are highlighted with red boxes). (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 3 Schematic of the HVAC system: (1) heat pump; (2) circulating pump; (3) thermal storage tank; (4) plate heat exchanger; (5) fan coil; (6) ground heat exchanger. Fig. 4 Schematic of a single neuron. Fig. 5 Structure of ANN model. Fig. 6 Convergence process of ANN model. Fig. 7 Comparison between the predicted and measured heat pump energy consumption in the typical days of (a) winter and (b) summer. Fig. 8 Comparison between the predicted and measured load demand in the typical days of (a) winter and (b) summer. Fig. 9 Optimization procedure in the off-peak period. Fig. 10 Optimization procedure in the on-peak and flat period. Fig. 11 Regression results of ANN model with thermal zones division: (a) heat pump energy consumption, (b) load demand. Fig. 12 Regression results of ANN model without thermal zones division: (a) heat pump energy consumption, (b) load demand. Fig. 13 Pattern of the maximal load days in winter and summer. Fig. 14 Pattern of the part load days in winter and summer. Fig. 15 Optimized load distribution and comparison of heat pump energy consumption of the maximal load days in (a) winter and (b) summer. Fig. 16 Optimized load distribution and comparison of heat pump energy consumption of the part load days in (a) winter and (b) summer. Fig. 17 Load pattern in the heating and cooling season. Table 1 TOU electricity price of Tianjin. Period Electricity price (CNY/kWh) Off-peak period (23:00\u20137:00) 0.39 On-peak period (8:00\u201311:00, 18:00\u201323:00) 1.04 Flat period (7:00\u20138:00, 11:00\u201318:00) 0.68 Table 2 Features of inputs and outputs. Type Parameter Unit Range Inputs Outdoor temperature °C −17.9\u201339.9 Indoor temperature of thermal zones °C 11.8\u201330.2 Temperature difference at ground source side °C 0.0\u20137.5 Occupancy status \u2013 0.0, 1.0 Outputs Load demand kWh 0.0\u2013172.7 Energy consumption of heat pumps kWh 0.0\u201334.4 Table 3 Characteristics of ANN model. Parameters and functions setting Number of inputs 8 Number of outputs 2 Number of hidden layers 1 Number of hidden neurons 10 Learning rate 0.3 Transfer function for hidden layer Hyperbolic tangent sigmoid function Transfer function for output layer Pure linear function Training function Levenberg-Marquardt backpropagation Table 4 Performance evaluation of ANN model. Prediction variable R2 RMSE CV-RMSE EEP MAE \u2013 kWh % % kWh Heat pump energy consumption 0.99 0.84 10.76 2.48 0.34 Load demand 0.97 5.87 15.59 3.40 1.69 Table 5 Range of the decision variables. Decision variables Unit Range Total stored energy kJ 0\u20132.88 × 106 Charging rate of heat pumps kW 0\u2013176 Discharging rate of the thermal storage tank kW 0\u2013150 Cooling/heating capacity supplied by heat pumps kWh 0\u2013176 Table 6 Comparison of two ANN models. Model Prediction variable R2 RMSE CV-RMSE EEP MAE \u2013 kWh % % kWh ANN 1 Heat pump energy consumption 0.99 0.84 10.76 2.48 0.34 Load demand 0.97 5.87 15.59 3.40 1.69 ANN 2 Heat pump energy consumption 0.89 2.89 23.70 5.64 1.02 Load demand 0.91 12.37 29.21 8.41 4.78 Note: ANN 1 represents ANN model with thermal zones division, and ANN 2 represents ANN model without thermal zones division. Table 7 Comparison of the optimization results and baseline in the maximal load days. Type Period Operation cost (CNY) Cost saving (%) Baseline Optimization Maximal load day of winter Off-peak period 0.00 60.59 \u2013 On-peak period 187.05 25.99 86.11 Flat period 89.60 89.60 0.00 Total 276.65 176.18 36.32 Maximal load day of summer Off-peak period 0.00 49.58 \u2013 On-peak period 147.55 6.52 95.58 Flat period 99.44 99.44 0.00 Total 246.99 155.54 37.03 Table 8 Comparison of the optimization results and baseline in the part load days. Type Period Operation cost (CNY) Cost saving (%) Baseline Optimization Part load day of winter Off-peak period 0.00 60.59 \u2013 On-peak period 99.03 0.00 100.00 Flat period 60.99 22.34 63.37 Total 160.02 82.93 48.18 Part load day of summer Off-peak period 0.00 49.58 \u2013 On-peak period 79.94 0.00 100.00 Flat period 57.04 24.68 56.73 Total 136.98 74.26 45.79 Table 9 Comparison of the optimization results and baseline in the heating and cooling season. Season Period Operation cost (CNY) Cost saving (%) Baseline Optimization Heating season Off-peak period 0.00 7352.26 \u2013 On-peak period 14517.34 838.44 94.22 Flat period 13579.79 8885.77 34.57 Total 28097.13 17076.46 39.22 Cooling season Off-peak period 0.00 3982.82 \u2013 On-peak period 11065.55 266.57 97.59 Flat period 7302.36 5960.65 18.37 Total 18367.90 10210.05 44.41 Thermal load prediction and operation optimization of office building with a zone-level artificial neural network and rule-based control Jingfan Hu Conceptualization Methodology Formal analysis Writing \u2013 original draft a Wandong Zheng Writing \u2013 review & editing a \u204e Sirui Zhang Supervision b Hao Li Supervision b Zijian Liu Data curation c Guo Zhang Investigation c Xu Yang Visualization d a School of Environmental Science and Engineering, Tianjin University, Tianjin 300350, China School of Environmental Science and Engineering Tianjin University Tianjin 300350 China School of Environmental Science and Engineering, Tianjin University, Tianjin 300350, China b China Electric Power Research Institute, Beijing 100192, China China Electric Power Research Institute Beijing 100192 China China Electric Power Research Institute, Beijing 100192, China c State Grid Beijing Electric Power Company, Beijing 100031, China State Grid Beijing Electric Power Company Beijing 100031 China State Grid Beijing Electric Power Company, Beijing 100031, China d State Grid Integrated Energy Service Group Company, Beijing 100176, China State Grid Integrated Energy Service Group Company Beijing 100176 China State Grid Integrated Energy Service Group Company, Beijing 100176, China \u204e Corresponding author. Graphical abstract Precise and quick thermal load prediction for buildings is imperative in realizing the flexibility of building energy systems. Operation optimization based on the prediction results can effectively mitigate the energy consumption and operation cost. Here, an artificial neural network (ANN) model is built to predict the load demand and energy consumption of an office building. Thermal zones division is considered to improve the prediction accuracy. Measured data are collected to establish and validate the ANN model. The total number of samples for training, validation and testing are 13674, 3978 and 3977, respectively. A rule-based control optimization model is introduced and combined with ANN model to optimize the operation of heating, ventilation and air-conditioning system. Building energy flexibility is activated by optimization model in a time-of-use electricity price scenario. The results indicate that ANN model has high precision and the coefficient of variation of root mean squared errors corresponding to the load demand prediction and energy consumption prediction are 10.76% and 15.59%, respectively. Furthermore, the optimization results can reduce the operation cost by 39.22% and 44.41% in the heating and cooling season, respectively. Keywords Artificial neural network Operation optimization Thermal zones division Building energy flexibility Thermal storage tank Nomenclature E heat pump energy consumption (kWh) J objective function (CNY) Q load demand (kWh) SCAP storage capacity (kJ) SE stored energy (kJ) h cooling/heating capacity supplied by heat pump (kWh) m number of data samples p prediction value (kWh) t measured data (kWh) t ¯ mean value of the measured data (kWh) u c charging rate (kW) u d discharging rate (kW) x original value x\u2019 normalized value Abbreviations AHU air handing units ANN artificial neural network BAS building automation system COP coefficient of performance CV-RMSE coefficient of variation of root mean squared error EEP expected error percentage HP heat pump HVAC heating, ventilation and air-conditioning MAE mean absolute error MRE mean relative error MSE mean squared error R2 coefficient of determination RMSE root mean squared error TOU time of use Greek symbols α electricity price (CNY/kWh) Subscripts i i th sample j j th neuron k k th hour of a workday n n th hour of a workday (sort according to COP) 1 Introduction 1.1 Background The deterioration of energy crisis and environmental problems has arisen world concern. In order to ensure the sustainable development of China nation economy and achieve the goal of peaking CO2 emissions before 2030 as well as realizing carbon neutrality before 2060, it is necessary to take measures to conserve energy and reduce carbon emissions. According to the statistical results provided by the International Energy Agency (IEA), buildings account for 36% of global energy consumption [1], while more than 50% of building energy is consumed by heating, ventilation and air-conditioning (HVAC) systems. Furthermore, around 39% of greenhouse gas emissions are produced by buildings. Considering that HVAC systems are the major energy consumers in buildings, the operation optimization is helpful to improve the flexibility of building energy and save the operation cost. In order to mitigate the building energy consumption and operation cost, it is necessary to predict the load demand and energy consumption of buildings accurately and quickly [2]. Artificial intelligence is taken as a powerful prediction method [3]. Artificial intelligent regression models such as regression trees, artificial neural network (ANN) model and adaptive neuro-fuzzy have been widely used for prediction in engineering fields [4]. With the development of sensor technology, building automation systems (BAS) can be adopted to monitor and manage HVAC systems [5]. On the one hand, the operation data of HVAC systems collected by BAS can be utilized to establish the building energy database, which provides data for the model training of artificial intelligence algorithms. On the other hand, BAS can manage HVAC systems in real time, which provides technical support for the operation optimization of HVAC systems. As the hotspot of buildings, the conservation of building energy and operation cost attracts attention from scholars across the globe and a number of relevant researches have been carried out. 1.2 Literature review Prediction modeling methods are mainly divided into three categories, which are white box model, grey box model and black box model [6]. White box model uses the theory formula to build relationship between the load demand and various impact factors, which takes long time to calculate. Typical white box model includes building energy simulation software, such as EnergyPlus, TRNSYS and ESP-r [7]. Grey box model usually adopts model identification, and undetermined coefficients in the formula are identified by historical data. Typical grey box model includes resistance-capacitance model [8]. Black box model learns the rules of load demand through a considerable number of historical data, and maps the relationship between inputs and outputs without explaining mechanisms inside [9]. Typical black box model includes artificial neural network model [10] and support vector machine model [11]. Considering that the prediction of load demand and energy consumption is a complex nonlinear problem, it takes much time to establish white box model. Hence, black box model of ANN is widely investigated for load prediction. Predicting the load demand and energy consumption is beneficial to realize the match between supply side and demand side of HVAC systems [12]. Many scholars have established prediction models of HVAC systems with machine learning algorithms while the reasonable selection of inputs is crucial to improve the prediction accuracy. Various inputs are required to involve comprehensive information and improve prediction accuracy of the model. It is worth noting that too many inputs may exacerbate the complexity and training time of the model, so it is important to determine the appropriate inputs by correlation analysis such as Pearson correlation coefficient and Spelman correlation coefficient [13]. Biswas et al. [14] took outdoor temperature and solar radiation as inputs, and established ANN model based on Levenberg-Marquardt algorithm to predict the building energy consumption with the coefficient of determination (R2) as high as 0.878. Li et al. [15] used back-propagation ANN model to predict building cooling load demand with outdoor temperature, outdoor relative humidity and solar radiation as inputs. The mean relative error (MRE) of the model was 2.024%. Sholahudin et al. [16] found that the outdoor temperature and wind speed were the most important meteorological parameters to ANN model. However, only considering meteorological parameters as inputs of ANN model could not involve all the impact factors of building energy consumption and load demand. Ding et al. [17] studied impacts of various inputs on prediction accuracy of office building cooling load demand by K-means and hierarchical clustering method, and found that the supply and return chilled water temperature of previous one hour had great impacts on prediction accuracy. Nasruddin et al. [18] selected cooling set-points as well as supply airflow rate as inputs to predict the building energy consumption and the root mean squared error (RMSE) of ANN model was 0.3. In addition to the above impact factors, the uncertainty of occupant behavior also impacts the prediction accuracy of the model [19]. Wang et al. [20] studied impacts of occupant behavior on prediction accuracy of the heating energy consumption. The results proved that occupant behavior could increase the coefficient of variation of root mean squared error (CV-RMSE) from 13.12% to 36.74%. Occupant rate is an important character which represents the ratio of occupied rooms compared to the total number of rooms at a certain time. The presence and energy-use behavior of occupants in the rooms impact the energy consumption of HVAC systems. Occupant rate is an important indicator of occupant behavior. Taking occupant rate as an input can improve the prediction accuracy of ANN model. Song et al. [21] demonstrated that taking the occupant rate as an input could improve the prediction accuracy of the model. They established the occupant rate prediction model and combined ANN model to predict the building energy consumption, and the CV-RMSE of ANN model was 26%. Deng et al. [22] combined ANN model with EnergyPlus to simulate occupant behavior and predict the building energy consumption, the MRE was less than 13%. According to the above literature, scholars mainly focused on the occupant rate, while seldom considered the impact of personalized thermal comfort differences on the load demand and energy consumption. The variation of occupant thermal comfort demands lead to different indoor temperature. Rooms with similar indoor temperature can be divided into a single thermal zone and a building is comprised of multiple thermal zones. Thermal zones division is important to investigate the impact of occupant behavior on prediction accuracy. Furthermore, thermal zones division has a strong impact on the energy consumption and energy flexibility of a building [23]. However, existing researches usually assume the same indoor temperature for all the rooms in a building without considering thermal zones division, which is detrimental to the prediction accuracy. Therefore, it is imperative to establish a zone-level ANN model with high prediction accuracy for the load demand and energy consumption. The optimization of HVAC system operation based on ANN prediction model is necessary. The combination of ANN model with optimization control model can improve the energy system performance, and provide preferable optimization results compared with the classic proportional integral controller [24]. Many studies were carried out to optimize various control variables of HVAC systems. Chaudhuri et al. [25] optimized the operation frequency of HVAC equipment with ANN model combined with greedy search algorithm and saved energy consumption by 36.5%. Moon et al. [26] introduced ANN model into model predictive control algorithm to schedule the heating set-points of a variable refrigerant flow heating system and realized the cost saving of 7.93%. Lee et al. [27] optimized the supply air temperature of air handling units (AHU) in real time with ANN model and the results showed that the energy consumption of AHUs could be reduced by 10% when the supply air temperature was 17 °C. Ferreira et al. [28] applied radial basis ANN model combined with discrete branch and bound approach to optimize the operation of HVAC systems, and the energy saving was greater than 50%. In addition to the above optimization methods, the following studies combined ANN model with genetic algorithm (GA) to optimize the HVAC system operation and the energy conservation potential varied according to the control variables. Lee et al. [29] optimized the airflow rate of an air-to-air heat pump and the annual energy consumption could decrease by approximate 30% in the heating season. Magnier et al. [30] optimized the indoor relative humidity as well as thermostat delays, and reduced energy consumption by 13%. Reynolds et al. [8] optimized the indoor temperature in the time of use (TOU) electricity price scenario, the optimization model could precool or preheat the building to take advantage of the building thermal mass and saved operation cost by 27%. Furthermore, rule-based control is a widely used optimization method in HVAC systems. Rule-based control model is established based on a series of \u201cif-then\u201d rules defined by experienced building managers. Saloux et al. [31] developed a rule-based control strategy to control the flow rate of a solar heating system with thermal energy storage, and reduced operation cost by 43%. Jokisalo et al. [32] established the rule-based control algorithm for a heat pump coupled with a thermal storage tank system, and conserved operation cost by 15%. Rule-based control is practical and effective in the HVAC system with thermal storage tank, and it is adopted in this study. From the literature review above, it is important to predict the load demand and energy consumption of the HVAC system with high accuracy. ANN model has edge in self-learning and generalization ability, and it is predominant in nonlinear function fitting. Furthermore, ANN model can help to investigate impacts of occupant behavior on the load demand and energy consumption with thermal zones division. ANN model is a powerful method to address the uncertain factors for prediction [33]. Therefore, ANN model is adopted in this study for accurate prediction. Furthermore, optimization of HVAC system operation based on ANN prediction model is promising to reduce the energy consumption and operation cost of buildings. 1.3 Problem description This study dedicates to establish a practical methodology for operation cost conservation and energy flexibility improvement of buildings. However, occupant behavior increases the difficulty for the prediction of load demand and energy consumption, which is detrimental to operation cost mitigation and indoor thermal comfort. Furthermore, it is necessary to propose an effective optimization method to improve the HVAC system performance based on the ANN prediction results. On the basis of the above problems, this study combines a zone-level ANN model with rule-based control model to provide appropriate operation strategies for the HVAC system. The results of this study help to improve the HVAC system performance. Furthermore, this study offers practical methods for HVAC engineers and building managers to operate HVAC systems efficiently and economically. The approach framework is presented in Fig. 1 . 2 Zone-level ANN model 2.1 Descriptions of the building and HVAC system An office building located in Tianjin, China is selected as the study case. The building has five floors with the height of 19.2 m. The total conditioned space is 2852 m2 while the heat transfer coefficients of exterior walls, windows and roofs are 0.3 W/(m2·K), 2.3 W/(m2·K) and 0.46 W/(m2·K), respectively. The geometry of the office building is presented in Fig. 2 (a). The BAS is employed in the case building to monitor the HVAC system operation since 2015. Monitoring values include indoor temperature, inlet and outlet temperature of heat pumps at ground source side and demand side, water flow rate at ground source side and demand side, electricity consumption of heat pumps and circulating pumps, cooling/heating capacity supplied by heat pumps, etc. Temperature recorders are installed at workspaces, rest areas, waiting rooms, corridors and lobbies of the building. Photographs of typical thermal zones are shown in Fig. 2 (b). Occupants can adjust the air-conditioner in their workspace according to their personalized thermal comfort demand. The building is equipped with two ground source heat pumps combined with a thermal storage tank to provide cooling and heating for the air-conditioning area. The schematic of the HVAC system is shown in Fig. 3 . The nominal cooling and heating capacity of the heat pump are 88 kW and 72 kW, respectively. The volume of the thermal storage tank is 40 m3 and the maximal storage capacity (SCAP max) is 2.88 × 106 kJ. Furthermore, the maximal charging rate (u c,max) in summer and winter is 176 kW and 144 kW while the maximal discharging rate (u d,max) is 150 kW. The TOU electricity price of Tianjin in different periods is shown in Table 1 . The pattern of electricity price represents the grid demands for improving the efficiency of electric power utilization, while the peak shaving and valley filling at user side can play a major role. The thermal storage tank is helpful to shift HVAC load from the on-peak period to off-peak period, which responses to the demand of power grid. Furthermore, the thermal storage tank brings energy flexibility for the office building and building managers can operate the energy system in low electricity price period, which improves economic performance of the system. Operating the heat pumps and thermal storage tank with appropriate control strategies is promising to activate demand response and energy flexibility of the office building [34]. 2.2 Principle and structure of ANN model Precise and rapid prediction is beneficial to realize the match between supply side and demand side of the HVAC system. Considering complex relationships between inputs and outputs, ANN model is introduced to solve the nonlinear fitting problem. As a black box model with strong self-learning ability, ANN model is predominant in predicting with high accuracy and fast computation speed. Compared with white box model which requires laborious model construction and detailed parameters setting, ANN model greatly simplifies the modeling process. Furthermore, white box model usually adopts fixed operation schedules of HVAC systems which increases prediction error. While ANN model has edge in predicting load demand and energy consumption based on actual occupant behavior in the office building. ANN model costs less computation time than white box model and it is suitable for optimization control in a real scenario. Regard to the model development, MATLAB toolbox is used to train and test ANN model. ANN model is comprised of neurons to mimic the working mechanism of a human brain. As the basic elements of ANN model, the transfer of signals relies on the working of neurons. Schematic of a single neuron is shown in Fig. 4 , it can be seen as an information processing unit with several inputs and one output. All the inputs x j are summed up by weight w and added with bias b, then converted to output y by the transfer function f. The formula of neuron output is shown as follows: (1) y = f ( ∑ j = 1 n w j x j + b ) Hyperbolic tangent sigmoid and pure linear transfer function are used for hidden layer and output layer neurons, respectively. Hyperbolic tangent sigmoid function is continuously differentiable and it converts inputs from [−∞, +∞] to [−1, 1]. The inputs and outputs of pure linear function are equivalent. Pure linear function enables ANN model to output any values. Expressions of hyperbolic tangent sigmoid function and pure linear function are shown as follows [18]: (2) f ( z ) = 1 - e - 2 z 1 + e - 2 z (3) f ( z ) = z Structure of ANN model includes input layer, hidden layer and output layer. The number of neurons at input layer and output layer is determined by the number of inputs and outputs, respectively. While the number of neurons at hidden layer needs to be adjusted repeatedly to achieve the highest model accuracy. Input signal transports from input layer to hidden layer, and then to output layer. The parallel computation of multiple neurons greatly enhances the information processing ability and adaptive ability of ANN model, which makes it possible to solve nonlinear problems. 2.3 Inputs and outputs of ANN model Inputs are crucial to improve the prediction accuracy and they should be diverse to contain information as much as possible. Based on literature review, meteorological parameters, HVAC system operation parameters, occupant behavior parameters are most commonly used [35]. Inputs should meet the requirements of strong correlation with outputs, as well as easy-measured [36]. With the support of the monitoring platform, inputs of ANN model in this study are as follows: outdoor temperature, indoor temperature of thermal zones, temperature difference between inlet and outlet at ground source side of ground source heat pumps, occupancy status. It is worth noting that the indoor temperature of thermal zones indicates thermal comfort preferences of occupants in different zones. As for occupancy status, 1 represents the workspace is occupied while 0 means that there are no occupants. The outputs of ANN model are the load demand and energy consumption of the HVAC system. It is worth noting that the cooling/heating load demand is represented by cooling/heating capacity supplied by heat pumps. The hourly cooling/heating capacity can be obtained by the heat meter and the energy consumption of heat pumps is obtained by the electric meter. All the monitoring data are collected and counted by BAS. Overall, eight inputs and two outputs are adopted for ANN model. Considering that the objectives of ANN model are to predict hourly load demand and energy consumption in the next 24 h, the hourly inputs for the next day should be available [8]. Weather parameters are available from weather station with good accuracy. While indoor temperature [37], temperature difference between the inlet and outlet at ground source side of ground source heat pumps [38] can be achieved by ANN prediction, respectively. Furthermore, prediction of occupancy status is obtained according to statistic results of the last three years. The features of inputs and outputs are summarized in Table 2 . 2.4 Parameters of ANN model Hyperparameters of ANN model mainly includes: number of hidden layers, number of hidden neurons and learning rate etc. Single hidden layer feedforward ANN model is adopted in this study. According to the inputs and outputs, the number of neurons at input and output layer are defined as eight and two, respectively. With respect to hidden neurons, the method of trial and error is recommended [39]. Training results indicate that ANN model has the highest accuracy when the number of hidden neurons is 10. Structure of ANN model is shown in Fig. 5 . Learning rate determines the variation magnitude of weights in training epoch. High learning rate may lead to vibration during the training which is detrimental to the stability of ANN model, while low learning rate results in slow convergence rate and long training time. Similar to hidden neurons, the learning rate requires repeated training to obtain a proper value. Learning rate of 0.3 is adopted after training and comparison. In addition to hyperparameters and transfer functions described above, training parameters are set as follows: the maximum epoch is 1000, performance function is mean squared error (MSE), the training performance goal is 10-3, training function is trainlm and the maximum validation failures are 6. It is worth noting that the trainlm function updates weight and bias values according to Levenberg-Marquardt backpropagation algorithm [6]. The characteristics of the developed ANN model are summarized in Table 3 . 2.5 Training of ANN model Hourly data measured by a BAS of the office building from the year of 2017 to 2018 are collected to train ANN model while the data of 2019 are used to validate and test the model. Considering that the dimensions of different kinds of data are diverse, the dataset should be normalized between 0 and 1 to improve the accuracy and convergence rate [40]. The formula is as follows: (4) x \u2032 = x - min ( x ) max ( x ) - min ( x ) where x\u2019 is the normalized value, x is the original value. It is worth noting that overfitting is one of the common problems which occurs during the training process of ANN model. Overfitting means that ANN model shows high prediction accuracy for training samples, while the accuracy declines significantly when it comes to new data samples. ANN model with the overfitting problem shows weak generalization ability which is detrimental for its utilization in new situations. Cross validation is adopted to evaluate the performance of ANN model and solve the overfitting problem. The data samples are divided into three groups for training, validation and testing. Training samples are used to update the weight and bias values based on gradient descent. Validation samples are used to prevent the overfitting problem. The prediction errors for training samples and validation samples decrease simultaneously at the initial stage of ANN model training. However, the error for validation samples increases once the overfitting problem occurs while the error for training samples still decreases. The training process will stop when the error for validation rises to a specific number of times, and the weight and bias values are reserved for ANN model. Eventually, testing samples are used to test the prediction accuracy of the ANN model, and the structure and hyperparameters of the ANN model can be adjusted to improve the prediction accuracy. Building monitoring data from the year of 2017 and 2018 are used for training while data from the year of 2019 are used for validation and testing. The parameters for training, validation and testing data include: outdoor temperature, indoor temperature of different thermal zones, temperature difference at ground source side of heat pumps, occupant status, cooling/heating capacity supplied by heat pumps and energy consumption of heat pumps. Considering the contingency of data collection, the abnormal and vacancy values should be eliminated from data samples before model training, then data samples can be normalized by Eq. (4). After data preprocessing, the number of samples for training, validation and testing are 13674, 3978 and 3977, respectively. Training process of ANN model is adjusting the weight and bias constantly to minimize the error between the output and target. MSE is used as the performance function and the training goal of MSE is less than 10-3. The formula of MSE is shown as follows: (5) MSE = 1 m ∑ i = 1 m ( p i - t i ) 2 where m is the number of data samples, p is the prediction value, t represent the measured data, and subscript i is the i th sample. Convergence process of ANN model is shown in Fig. 6 . Five statistical indices are introduced to evaluate the prediction accuracy of ANN model comprehensively, which are R2, RMSE, CV-RMSE, expected error percentage (EEP) and mean absolute error (MAE). The five indices are as follows: (6) R 2 = 1 - ∑ i = 1 m ( p i - t i ) 2 ∑ i = 1 m ( p i - t i ) 2 + ∑ i = 1 m ( t i - t ¯ ) 2 (7) RMSE = ∑ i = 1 m ( p i - t i ) 2 m (8) CV - R M S E = RMSE t ¯ (9) EEP = RMSE max ( t i ) (10) MAE = 1 m ∑ i = 1 m p i - t i where t ¯ is the mean value of the measured data. Monitored data in 2019 are used to test the predication accuracy of ANN model and results are listed in Table 4 . In view of evaluation results, the R2 indicates that the inputs contain enough information for prediction [41]. CV-RMSEs for heat pump energy consumption and load demand are 10.76% and 15.59%, respectively. According to the requirement of ASHRAE Guideline 14 [42], the CV-RMSE should below 30% and ANN model in this study meets the standard well. Furthermore, calculation results of RMSE, EEP and MAE also show that ANN model can predict the heat pump energy consumption and load demand in high accuracy. To be intuitive, comparisons between the predicted and measured values are conducted in the typical days from January 7th to 20th in winter and July 1st to 14th in summer. Results are shown in Fig. 7 and Fig. 8 . It can be observed that the predicted values are in good agreement with the measured data. Furthermore, the accuracy of heat pump energy consumption prediction is higher than the load demand. It can be attributed to the energy consumption of heat pump is relative stable during the operation while the load demand fluctuates greatly. 3 Rule-based control optimization model To improve the efficiency and economic performance of the HVAC system, it is necessary to optimize its operation. An optimization model is established, which can provide appropriate operation strategies based on the prediction results of ANN model. Operation cost of the heat pumps is taken as the objective function, which is as follows [43]: (11) J = min ( ∑ k = 1 24 α k × E k ) where J is the objective function, α is the electricity price, E is the heat pump energy consumption, and subscript k is the k th hour of a workday. Decision variables include the stored energy SE total, charging rate of heat pumps u c,k, discharging rate of the thermal storage tank u d,k, and the cooling/heating capacity supplied by heat pumps h k. It is worth noting that the charging rate represents the energy delivered from heat pumps to the thermal storage tank, and the discharging rate represents the energy delivered from the thermal storage tank to the HVAC terminal equipment. Range of the decision variables are presented in Table 5 . To ensure stable operation of the thermal storage tank and feasibility of operation strategy, corresponding constraint conditions are given as follows: (12) 0 ⩽ u c,k ⩽ u c,max (13) 0 ⩽ u d,k ⩽ u d,max (14) ∑ k = 9 24 u d,k ⩽ S E total (15) u d,k + h k = Q k where Q is the load demand. It is worth noting that the load demand is predicted based on personalized thermal comfort needs of occupants, and it is assumed that satisfying the load demand leads to acceptable thermal comfort [44]. In general, four types of operation control strategies are commonly used for the thermal storage tank, which are chiller priority control, constant proportion control, storage priority control and rule-based control [45]. Compared with the former three control strategies, rule-based control can conserve operation cost by 30% in the TOU electricity price scenario [46]. Rule-based control makes full use of ANN prediction results to guarantee the match between supply side and demand side of the HVAC system. Furthermore, building managers can predefine operation rules based on their professional knowledge and requirements. Rule-based control facilitates building energy flexibility and improves economic performance of the system. Therefore, rule-based control is adopted to maximize the use of the thermal storage tank and reduce operation cost considering the electricity price policy of Tianjin. Control principle of optimization model in the off-peak period is shown as follows: (16) S E total = SCA P max i f S C A P max < Q total Q total i f S C A P max > Q total (17) u c,k = u c,max i f S E total - S E k ⩾ u c,max ( S E total - S E k ) i f 0 < S E total - S E k < u c,max 0 i f S E k = S E total Based on the predicted load demand, heat pump charges the thermal storage tank to reach SE total with the charging rate of u c,k, to match the supply side and demand side. Optimization procedure in the off-peak period is shown in Fig. 9 . As for the on-peak and flat period, the hourly COP of heat pump is calculated based on prediction results of ANN model. The thermal storage tank has priority to release energy when the COP is low and make full use of the heat pump to supply cooling/heating when the COP is high. The heat pump COP in the on-peak and flat period is labeled with n = 1, 2···8 according to the order of COP ascending, where n = 1 corresponds to the hours with the lowest COP while n = 8 is on the contrary. Control principle of optimization model in the on-peak and flat period is shown as follows: (18) u d,n = u d,max i f u d,max < Q n and S E n ⩾ u d,max Q n i f u d,max > Q n and S E n ⩾ Q n S E n i f 0 < S E n < u d,max or 0 < S E n < Q n 0 i f S E n = 0 Optimization procedure in the on-peak and flat period is shown in Fig. 10 . 4 Results and discussion In this section, the proposed zone-level ANN model is applied to predict the load demand and energy consumption of the HVAC system. Rule-based control model is adopted to optimize the HVAC system operation based on the prediction results. The effects of thermal zones division are investigated. Furthermore, the load pattern of representative days is analyzed and compared. Based on the prediction results, rule-based control optimization is implemented in the HVAC system operation. 4.1 Effects of thermal zones division on prediction accuracy Comparison of ANN models with and without thermal zones division is shown in Table 6 . By considering thermal zones division, the R2 for energy consumption and load demand is improved from 0.89 to 0.99 and from 0.91 to 0.97, while the CV-RMSEs decrease by 12.94% and 13.62%, respectively. Other evaluation indices also indicate the improvement for the prediction accuracy. It is worth noting that the inputs for ANN1 and ANN2 are different. The inputs for ANN1 are the indoor temperature of five thermal zones. While only indoor temperature of thermal zone 1 is used as the input of ANN2 to represent the whole office building. Apart from these, ANN1 and ANN2 share the same number of outputs, number of hidden layers, number of hidden neurons, learning rate, transfer function and training function. The detailed information can be found in Table 3. For further comparison, regression results of two ANN models are illustrated in Fig. 11 and Fig. 12 , respectively. It is obvious that the fitting degree of ANN model with thermal zones division is higher, and the distribution of predicted values is more concentrated and even. Conversely, regression results of ANN model without thermal zones division are dispersive and messy. Hence, considering thermal zones division is significant to improve the prediction accuracy. 4.2 Load pattern of representative days The maximal load days and part load days are picked for analysis and optimization according to load prediction results of ANN model. Load pattern of the maximal load days is shown in Fig. 13 . It indicates that the cooling load demand increases first and then decreases with the variation of outdoor dry-bulb temperature and solar irradiance. While the heating load demand presents the opposite trend. Furthermore, occupant behavior leads to the fluctuation of load pattern. The load demand maintains at high level in most of the on-peak as well as flat period, and the maximal load demand in summer is greater than that in winter. The long operation time of heat pumps in the on-peak period results in high operation cost although working at high load ratio can benefit the heat pump unit efficiency. Load shifting with the thermal storage tank from the on-peak period to off-peak period is essential. Load pattern of the part load days is shown in Fig. 14 . Compared with the maximal load days, the load demand level decreases by approximate 50% in the part load days. The thermal storage tank can undertake most of the load demand in the part load days which brings considerable economic benefits. Hence, it is crucial to shift the load in the on-peak and flat period to improve the heat pump performance and cut down the cost during the part load days. 4.3 Optimization of representative days In the TOU electricity price scenario, the heat pump system without thermal storage tank is taken as the baseline and the cost saving of the optimized operation strategy with thermal storage tank is analyzed. Based on the prediction results of ANN model, the optimization model is applied to improve the operation strategy in the maximal load days. The optimized load distribution as well as comparison between the optimization and baseline for heat pump energy consumption is shown in Fig. 15 . It can be observed that the heat pump charges the thermal storage tank to reach SCAP max in the off-peak period. All the stored energy discharges in the on-peak period while the load demand in the flat period is met by heat pumps due to the high load requirement during the on-peak period. It is worth noting that the thermal storage tank releases energy in 22:00\u201323:00 rather than in 21:00\u201322:00 due to the lower COP in 22:00\u201323:00 as presented in Fig. 15 (a). Comparison between the optimization results and baseline during the maximal load days is listed in Table 7 . The cost saving in the maximal load days of winter and summer reaches to 36.32% and 37.03% respectively, which indicates that the optimization model realizes the peak-load shifting and reduces the operation cost significantly. It should be noted that the optimized operation cost in the summer off-peak period is lower than that in the winter due to the higher COP of cooling. Furthermore, the cost saving in the winter on-peak period is lower than that in the summer due to the higher load demand during the on-peak period. Hence, it is challenging for the thermal storage tank to fully cut down the operation cost of heat pumps in the maximal load days of winter. Similarly, optimization is conducted in the part load days, and the load distribution as well as comparison between the optimization results and baseline for heat pump energy consumption is illustrated in Fig. 16 . The heat pump charges energy in the thermal storage tank during the off-peak period as the same in the maximal load days. Furthermore, there is energy left to release in the flat period owing to the reduction of load demand in the part load days. The energy stored in the thermal storage tank can cover most of the load demand, and the energy consumption of heat pumps is mitigated greatly in the on-peak as well as flat period. Comparison between the optimization results and baseline during the part load days is listed in Table 8 . The cost saving in the part load days of winter and summer reaches to 48.18% and 45.79% respectively, which shows greater cost reduction than the maximal load days. It can be attributed to the optimization model not only eliminates the operation cost in the on-peak period but also mitigates the cost in the flat period. The thermal storage tank is fully utilized and activates the building energy flexibility to shift load, and the cost saving potential is considerable due to heat pumps operate at the part load ratio rather than maximal load ratio in most of the time. 4.4 Optimization of the heating and cooling season Load pattern in the heating and cooling season is presented in Fig. 17 . Tianjin locates in the cold zone of China and the accumulated heating load is higher than cooling load. The optimization model is adopted to analyze the annual economic benefits. Comparison between the optimization results and baseline during the heating and cooling season is listed in Table 9 . The cost saving in the heating and cooling season are 39.22% and 44.41%, respectively. The optimized operation cost of heat pumps in the flat period is higher than that in the on-peak period due to the longer operation time. Furthermore, considering the high-level heating load demand, the cost saving potential in the heating season can be further exploited by expanding the capacity of the thermal storage tank. 5 Conclusions In this study, a zone-level ANN model is established and combined with the optimization model to predict the load demand and optimize the operation strategy. The main findings are summarized as follows: (1) Accuracy of ANN model is improved by considering thermal zones division. The R2 for energy consumption and load demand is improved from 0.89 to 0.99 and from 0.91 to 0.97, while the CV-RMSEs decrease by 12.94% and 13.62%, respectively. Furthermore, the accuracy of the proposed ANN model meets the requirement of ASHRAE Guideline 14. (2) The cost saving in the maximal load days of winter and summer are 36.32% and 37.03%, respectively. The optimized operation cost in the off-peak period of summer is lower than that of winter due to the higher system efficiency of cooling. Furthermore, it is challenging to mitigate the operation cost in the maximal load day of winter due to the higher heating load demand during the on-peak period. (3) The cost saving in the part load days of winter and summer are 48.18% and 45.79%, respectively. The cost saving in the part load days is greater than that in the maximal load days since the stored energy can cover most of the load demand during the part load days. Furthermore, the energy consumption of heat pump is greatly reduced. (4) The optimization model activates the flexibility of building energy and reduces the operation cost. The cost saving potential in the heating and cooling season are 39.22% and 44.41%, respectively. It is helpful for the optimization of HVAC system operation. CRediT authorship contribution statement Jingfan Hu: Conceptualization, Methodology, Formal analysis, Writing - original draft. Wandong Zheng: Writing - review & editing. Sirui Zhang: Supervision. Hao Li: Supervision. Zijian Liu: Data curation. Guo Zhang: Investigation. Xu Yang: Visualization. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements The authors are grateful for the financial support provided by the Science and technology project of state grid corporation- research and demonstration of municipal heating technology for power grid-heat network coupling. References [1] IEA. Global Status Report for Buildings and Construction 2019; 2019. [2] C. Fan J. Wang W. Gang S. Li Assessment of deep recurrent neural network-based strategies for short-term building energy predictions Appl Energy 236 2019 700 710 10.1016/j.apenergy.2018.12.004 Fan C., Wang J., Gang W., Li S. Assessment of deep recurrent neural network-based strategies for short-term building energy predictions. Applied Energy, 2019, 236: 700-710. http://doi.org/10.1016/j.apenergy.2018.12.004. [3] R. Kumar R. Aggarwal J. Sharma Energy analysis of a building using artificial neural network: A review Energy Build 65 2013 352 358 10.1016/j.enbuild.2013.06.007 Kumar R., Aggarwal R., Sharma J. Energy analysis of a building using artificial neural network: A review. Energy and Buildings, 2013, 65: 352-358. http://doi.org/10.1016/j.enbuild.2013.06.007. [4] F.K. Abo-Elyousr L.S. Nassrat Evaluation of flashover voltage levels of contaminated hydrophobic polymer insulators using regression trees, neural networks, and adaptive neuro-fuzzy TELKOMNIKA (Telecommunication Computing Electronics and Control) 16 2 2018 495 10.12928/telkomnika.v16i2.5103 Abo-Elyousr F., Nassrat L. Evaluation of Flashover Voltage Levels of Contaminated Hydrophobic Polymer Insulators Using Regression Trees, Neural Networks, and Adaptive Neuro-Fuzzy. TELKOMNIKA (Telecommunication Computing Electronics and Control), 2018, 16: http://doi.org/10.12928/telkomnika.v16i2.5103. [5] J.A. Engvang M. Jradi Auditing and design evaluation of building automation and control systems based on eu.bac system audit \u2013 Danish case study Energy Built Environ 2 1 2021 34 44 10.1016/j.enbenv.2020.06.002 Engvang J., Jradi M. Auditing and design evaluation of building automation and control systems based on eu.bac system audit \u2013 Danish case study. Energy and Built Environment, 2021, 2: 34-44. http://doi.org/10.1016/j.enbenv.2020.06.002. [6] S. Mohandes X. Zhang A. Mahdiyar A comprehensive review on the application of artificial neural networks in building energy analysis Neurocomputing 340 2019 55 75 10.1016/j.neucom.2019.02.040 Mohandes S., Zhang X., Mahdiyar A. A comprehensive review on the application of artificial neural networks in building energy analysis. Neurocomputing, 2019, 340: 55-75. http://doi.org/10.1016/j.neucom.2019.02.040. [7] A. Aljanabi M. Kavgic A. Mohammadzadeh A. Azzouz Comparison of EnergyPlus and IES to model a complex university building using three scenarios: Free-floating, ideal air load system, and detailed J Build Eng 22 2019 262 280 10.1016/j.jobe.2018.12.022 Aljanabi A., Kavgic M., Mohammadzadeh A., Azzouz A. Comparison of EnergyPlus and IES to model a complex university building using three scenarios: Free-floating, ideal air load system, and detailed. Journal of Building Engineering, 2019, 22: 262-280. http://doi.org/10.1016/j.jobe.2018.12.022. [8] J. Reynolds Y. Rezgui A. Kwan S. Piriou A zone-level, building energy optimisation combining an artificial neural network, a genetic algorithm, and model predictive control Energy 151 2018 729 739 10.1016/j.energy. 2018.03.113 Reynolds J., Rezgui Y., Kwan A., Piriou S. A zone-level, building energy optimisation combining an artificial neural network, a genetic algorithm, and model predictive control. Energy, 2018, 151: 729-739. http://doi.org/10.1016/j.energy. 2018.03.113. [9] Z. Wang R. Srinivasan A review of artificial intelligence based building energy use prediction: Contrasting the capabilities of single and ensemble prediction models Renew Sustain Energy Rev 75 2017 796 808 10.1016/j.rser.2016.10.079 Wang Z., Srinivasan R. A review of artificial intelligence based building energy use prediction: Contrasting the capabilities of single and ensemble prediction models. Renewable and Sustainable Energy Reviews, 2017, 75: 796-808. http://doi.org/10. 1016/j.rser.2016.10.079. [10] X. Luo L. Oyedele A. Ajayi O. Akinade Comparative study of machine learning-based multi-objective prediction framework for multiple building energy loads Sustain Cities Soc 61 2020 102283 10.1016/j.scs. 2020.102283 Luo X., Oyedele L., Ajayi A., Akinade O. Comparative study of machine learning-based multi-objective prediction framework for multiple building energy loads. Sustainable Cities and Society, 2020, 61: 102283. http://doi.org/10.1016/j.scs. 2020.102283. [11] A.S. Ahmad M.Y. Hassan M.P. Abdullah H.A. Rahman F. Hussin H. Abdullah A review on applications of ANN and SVM for building electrical energy consumption forecasting Renew Sustain Energy Rev 33 2014 102 109 10.1016/j.rser.2014.01.069 Ahmad A., Hassan M., Abdullah M., Rahman H., Hussin F., Abdullah H., et al. A review on applications of ANN and SVM for building electrical energy consumption forecasting. Renewable and Sustainable Energy Reviews, 2014, 33: 102-109. http://doi.org/10.1016/j.rser.2014.01.069. [12] S. Kim G. Lee G. Kwon D. Kim Y. Shin Deep learning based on multi-decomposition for short-term load forecasting Energies 11 2018 3433 10.3390/en11123433 Kim S., Lee G., Kwon G., Kim D., Shin Y. Deep Learning Based on Multi-Decomposition for Short-Term Load Forecasting. Energies, 2018, 11: 3433. http://doi.org/10.3390/en11123433. [13] D. Kapetanakis E. Mangina D. Finn Input variable selection for thermal load predictive models of commercial buildings Energy Build 137 2017 13 26 10.1016/j.enbuild.2016.12.016 Kapetanakis D., Mangina E., Finn D. Input variable selection for thermal load predictive models of commercial buildings. Energy and Buildings, 2017, 137: 13-26. http://doi.org/10.1016/j.enbuild.2016.12.016. [14] M. Biswas M. Robinson N. Fumo Prediction of residential building energy consumption: A neural network approach Energy 117 2016 84 92 10.1016/j.energy.2016.10.066 Biswas M., Robinson M., Fumo N. Prediction of residential building energy consumption: A neural network approach. Energy, 2016, 117: 84-92. http://doi.org/ 10.1016/j.energy.2016.10.066. [15] Q. Li Q. Meng J. Cai H. Yoshino A. Mochida Predicting hourly cooling load in the building: A comparison of support vector machine and different artificial neural networks Energy Convers Manage 50 2009 90 96 10.1016/j.enconman.2008.08.033 Li Q., Meng Q., Cai J., Yoshino H., Mochida A. Predicting hourly cooling load in the building: A comparison of support vector machine and different artificial neural networks. Energy Conversion and Management, 2009, 50: 90-96. http://doi.org/ 10.1016/j.enconman.2008.08.033. [16] S. Sholahudin H. Han Simplified dynamic neural network model to predict heating load of a building using Taguchi method Energy 115 2016 1672 1678 10.1016/j.energy.2016.03.057 Sholahudin S., Han H. Simplified dynamic neural network model to predict heating load of a building using Taguchi method. Energy, 2016, 115: 1672-1678. http://doi. org/10.1016/j.energy.2016.03.057. [17] Y. Ding Q. Zhang T. Yuan F. Yang Effect of input variables on cooling load prediction accuracy of an office building Appl Therm Eng 128 2018 225 234 10.1016/j.applthermaleng.2017.09.007 Ding Y., Zhang Q., Yuan T., Yang F. Effect of input variables on cooling load prediction accuracy of an office building. Applied Thermal Engineering, 2018, 128: 225-234. http://doi.org/10.1016/j.applthermaleng.2017.09.007. [18] Nasruddin Sholahudin P. Satrio T.M.I. Mahlia N. Giannetti K. Saito Optimization of HVAC system energy consumption in a building using artificial neural network and multi-objective genetic algorithm Sustainable Energy Technol Assess 35 2019 48 57 10.1016/j.seta.2019.06.002 Nasruddin, Sholahudin, Satrio P., Mahlia T., Giannetti N., Saito K. Optimization of HVAC system energy consumption in a building using artificial neural network and multi-objective genetic algorithm. Sustainable Energy Technologies and Assessments, 2019, 35: 48-57. http://doi.org/10.1016/j.seta.2019.06.002. [19] A.H. Neto F.A.S. Fiorelli Comparison between detailed model simulation and artificial neural network for forecasting building energy consumption Energy Build 40 12 2008 2169 2176 10.1016/j.enbuild.2008.06.013 Neto A., Fiorelli F. Comparison between detailed model simulation and artificial neural network for forecasting building energy consumption. Energy and Buildings, 2008, 40: 2169-2176. http://doi.org/10.1016/j.enbuild.2008.06.013. [20] Z. Wang R.S. Srinivasan J. Shi Artificial intelligent models for improved prediction of residential space heating J Energy Eng 142 4 2016 04016006 10.1061/(ASCE)EY.1943-7897.0000342 Wang Z., Srinivasan R., Shi J. Artificial Intelligent Models for Improved Prediction of Residential Space Heating. Journal of Energy Engineering, 2016, 142: http://doi. org/10.1061/(asce)ey.1943-7897.0000342. [21] K. Song N. Kwon K. Anderson M. Park H. Lee S. Lee Predicting hourly energy consumption in buildings using occupancy-related characteristics of end-user groups Energy Build 156 2017 121 133 10.1016/j. enbuild.2017.09.060 Song K., Kwon N., Anderson K., Park M., Lee H., Lee S. Predicting hourly energy consumption in buildings using occupancy-related characteristics of end-user groups. Energy and Buildings, 2017, 156: 121-133. http://doi.org/10.1016/j. enbuild.2017.09.060. [22] Z. Deng Q. Chen Simulating the impact of occupant behavior on energy use of HVAC systems by implementing a behavioral artificial neural network model Energy Build 198 2019 216 227 10.1016/j.enbuild.2019. 06.015 Deng Z., Chen Q. Simulating the impact of occupant behavior on energy use of HVAC systems by implementing a behavioral artificial neural network model. Energy and Buildings, 2019, 198: 216-227. http://doi.org/10.1016/j.enbuild.2019. 06.015. [23] J. Clauß S. Stinner I. Sartori L. Georges Predictive rule-based control to activate the energy flexibility of Norwegian residential buildings: Case of an air-source heat pump and direct electric heating Appl Energy 237 2019 500 518 10.1016/j.apenergy.2018.12.074 Clauß J., Stinner S., Sartori I., Georges L. Predictive rule-based control to activate the energy flexibility of Norwegian residential buildings: Case of an air-source heat pump and direct electric heating. Applied Energy, 2019, 237: 500-518. http://doi. org/10.1016/j.apenergy.2018.12.074. [24] A. Elnozahy A.M. Yousef F.K. Abo-Elyousr M. Mohamed S.A.M. Abdelwahab Performance improvement of hybrid renewable energy sources connected to the grid using artificial neural network and sliding mode control J Power Electron 21 8 2021 1166 1179 10.1007/s43236-021-00242-8 Elnozahy A., Yousef A., Abo-Elyousr F., Mohamed M., Abdelwahab S. Performance improvement of hybrid renewable energy sources connected to the grid using artificial neural network and sliding mode control. Journal of Power Electronics, 2021, http://doi.org/10.1007/s43236-021-00242-8. [25] T. Chaudhuri Y. Soh H. Li L. Xie A feedforward neural network based indoor-climate control framework for thermal comfort and energy saving in buildings Appl Energy 248 2019 44 53 10.1016/j.apenergy.2019.04.065 Chaudhuri T., Soh Y., Li H., Xie L. A feedforward neural network based indoor-climate control framework for thermal comfort and energy saving in buildings. Applied Energy, 2019, 248: 44-53. http://doi.org/10.1016/j.apenergy.2019.04.065. [26] J. Moon Y. Yang E. Choi Y. Choi K. Lee Y. Kim Development of a control algorithm aiming at cost-effective operation of a VRF heating system Appl Therm Eng 149 2019 1522 1531 10.1016/j. applthermaleng.2018.12.044 Moon J., Yang Y., Choi E., Choi Y., Lee K., Kim Y., et al. Development of a control algorithm aiming at cost-effective operation of a VRF heating system. Applied Thermal Engineering, 2019, 149: 1522-1531. http://doi.org/10.1016/j. applthermaleng.2018.12.044. [27] J. Lee S. Hong B. Seo K. Lee Application of artificial neural networks for optimized AHU discharge air temperature set-point and minimized cooling energy in VAV system Appl Therm Eng 153 2019 726 738 10.1016/j.applthermaleng.2019.03.061 Lee J., Hong S., Seo B., Lee K. Application of artificial neural networks for optimized AHU discharge air temperature set-point and minimized cooling energy in VAV system. Applied Thermal Engineering, 2019, 153: 726-738. http://doi.org/ 10.1016/j.applthermaleng.2019.03.061. [28] P. Ferreira A. Ruano S. Silva E. Conceição Neural networks based predictive control for thermal comfort and energy savings in public buildings Energy Build 55 2012 238 251 10.1016/j.enbuild.2012.08.002 Ferreira P., Ruano A., Silva S., Conceição E. Neural networks based predictive control for thermal comfort and energy savings in public buildings. Energy and Buildings, 2012, 55: 238-251. http://doi.org/10.1016/j.enbuild.2012.08.002. [29] S. Lee Y. Jeon H. Chung W. Cho Y. Kim Simulation-based optimization of heating and cooling seasonal performances of an air-to-air heat pump considering operating and design parameters using genetic algorithm Appl Therm Eng 144 2018 362 370 10.1016/j.applthermaleng.2018.08. 078 Lee S., Jeon Y., Chung H., Cho W., Kim Y. Simulation-based optimization of heating and cooling seasonal performances of an air-to-air heat pump considering operating and design parameters using genetic algorithm. Applied Thermal Engineering, 2018, 144: 362-370. http://doi.org/10.1016/j.applthermaleng.2018.08. 078. [30] L. Magnier F. Haghighat Multiobjective optimization of building design using TRNSYS simulations, genetic algorithm, and Artificial Neural Network Build Environ 45 2010 739 746 10.1016/j.buildenv.2009. 08.016 Magnier L., Haghighat F. Multiobjective optimization of building design using TRNSYS simulations, genetic algorithm, and Artificial Neural Network. Building and Environment, 2010, 45: 739-746. http://doi.org/10.1016/j.buildenv.2009. 08.016. [31] E. Saloux J. Candanedo Optimal rule-based control for the management of thermal energy storage in a Canadian solar district heating system Sol Energy 207 2020 1191 1201 10.1016/j.solener.2020.07.046 Saloux E., Candanedo J. Optimal rule-based control for the management of thermal energy storage in a Canadian solar district heating system. Solar Energy, 2020, 207: 1191-1201. http://doi.org/10.1016/j.solener.2020.07.046. [32] B. Alimohammadisagvand J. Jokisalo K. Sirén Comparison of four rule-based demand response control algorithms in an electrically and heat pump-heated residential building Appl Energy 209 2018 167 179 10.1016/j. apenergy.2017.10.088 Alimohammadisagvand B., Jokisalo J., Sirén K. Comparison of four rule-based demand response control algorithms in an electrically and heat pump-heated residential building. Applied Energy, 2018, 209: 167-179. http://doi.org/10.1016/j. apenergy.2017.10.088. [33] A. Elnozahy H.S. Ramadan F.K. Abo-Elyousr Efficient metaheuristic Utopia-based multi-objective solutions of optimal battery-mix storage for microgrids J Cleaner Prod 303 2021 127038 10.1016/j.jclepro.2021.127038 Elnozahy A., Ramadan H., Abo-Elyousr F. Efficient metaheuristic Utopia-based multi-objective solutions of optimal battery-mix storage for microgrids. Journal of Cleaner Production, 2021, 303: http://doi.org/10.1016/j.jclepro.2021.127038. [34] F. D\u2019Ettorre M. De Rosa P. Conti D. Testi D. Finn Mapping the energy flexibility potential of single buildings equipped with optimally-controlled heat pump, gas boilers and thermal storage Sustain Cities Soc 50 2019 10.1016/j.scs.2019.101689 D\u2019Ettorre F., De Rosa M., Conti P., Testi D., Finn D. Mapping the energy flexibility potential of single buildings equipped with optimally-controlled heat pump, gas boilers and thermal storage. Sustainable Cities and Society, 2019, 50: http://doi.org/ 10.1016/j.scs.2019.101689. [35] S. Brandi M. Piscitelli M. Martellacci A. Capozzoli Deep reinforcement learning to optimise indoor temperature control and heating energy consumption in buildings Energy Build 224 2020 110225 10.1016/j.enbuild.2020. 110225 Brandi S., Piscitelli M., Martellacci M., Capozzoli A. Deep reinforcement learning to optimise indoor temperature control and heating energy consumption in buildings. Energy and Buildings, 2020, 224: 110225. http://doi.org/10.1016/j.enbuild.2020. 110225. [36] Z. Liu D. Wu Y. Liu Z. Han L. Lun J. Gao Accuracy analyses and model comparison of machine learning adopted in building energy consumption prediction Energy Exploration Exploitation 37 2019 1426 1451 10.1177/0144598718822400 Liu Z., Wu D., Liu Y., Han Z., Lun L., Gao J., et al. Accuracy analyses and model comparison of machine learning adopted in building energy consumption prediction. Energy Exploration & Exploitation, 2019, 37: 1426-1451. http://doi.org/10. 1177/0144598718822400. [37] C. Buratti F. Orestano D. Palladino Comparison of the energy performance of existing buildings by means of dynamic simulations and artificial neural networks Energy Procedia 101 2016 176 183 10.1016/j.egypro. 2016.11.023 Buratti C., Orestano F., Palladino D. Comparison of the Energy Performance of Existing Buildings by Means of Dynamic Simulations and Artificial Neural Networks. Energy Procedia, 2016, 101: 176-183. http://doi.org/10.1016/j.egypro. 2016.11.023. [38] W. Gang J. Wang Predictive ANN models of ground heat exchanger for the control of hybrid ground source heat pump systems Appl Energy 112 2013 1146 1153 10.1016/j.apenergy.2012.12.031 Gang W., Wang J. Predictive ANN models of ground heat exchanger for the control of hybrid ground source heat pump systems. Applied Energy, 2013, 112: 1146-1153. http://doi.org/10.1016/j.apenergy.2012.12.031. [39] B. Yuce H. Li Y. Rezgui I. Petri B. Jayan C. Yang Utilizing artificial neural network to predict energy consumption and thermal comfort level: An indoor swimming pool case study Energy Build 80 2014 45 56 10.1016/j.enbuild.2014.04.052 Yuce B., Li H., Rezgui Y., Petri I., Jayan B., Yang C. Utilizing artificial neural network to predict energy consumption and thermal comfort level: An indoor swimming pool case study. Energy and Buildings, 2014, 80: 45-56. http://doi.org/10. 1016/j.enbuild.2014.04.052. [40] H. Deng D. Fannon M. Eckelman Predictive modeling for US commercial building energy use: A comparison of existing statistical and machine learning algorithms using CBECS microdata Energy Build 163 2018 34 43 10.1016/j.enbuild.2017.12.031 Deng H., Fannon D., Eckelman M. Predictive modeling for US commercial building energy use: A comparison of existing statistical and machine learning algorithms using CBECS microdata. Energy and Buildings, 2018, 163: 34-43. http://doi.org/10.1016/j.enbuild.2017.12.031. [41] D. Chakraborty H. Elzarka Performance testing of energy models: are we using the right statistical metrics? J Build Perform Simul 11 4 2018 433 448 10.1080/19401493.2017.1387607 Chakraborty D., Elzarka H. Performance testing of energy models: are we using the right statistical metrics? Journal of Building Performance Simulation, 2017, 11: 433-448. http://doi.org/10.1080/19401493.2017.1387607. [42] ASHRAE. Guideline 14-2014 Measurement of Energy, Demand, and Water Savings; 2014. [43] Y. Sun S. Wang F. Xiao D. Gao Peak load shifting control using different cold thermal energy storage facilities in commercial buildings: A review Energy Convers Manage 71 2013 101 114 10.1016/j. enconman.2013.03.026 Sun Y., Wang S., Xiao F., Gao D. Peak load shifting control using different cold thermal energy storage facilities in commercial buildings: A review. Energy Conversion and Management, 2013, 71: 101-114. http://doi.org/10.1016/j. enconman.2013.03.026. [44] P. Gregor K. Moncef J. Michael Guidelines for improved performance of ice storage systems Energy Build 35 2003 111 127 10.1016/S0378-7788(01)00140-2 Gregor P., Moncef K., Michael J. Guidelines for improved performance of ice storage systems. Energy and Buildings, 2003, 35: 111-127. http://doi.org/10.1016 /S0378-7788(01)00140-2. [45] Z. Yu G. Huang F. Haghighat H. Li G. Zhang Control strategies for integration of thermal energy storage into buildings: State-of-the-art review Energy Build 106 2015 203 215 10.1016/j.enbuild.2015.05.038 Yu Z., Huang G., Haghighat F., Li H., Zhang G. Control strategies for integration of thermal energy storage into buildings: State-of-the-art review. Energy and Buildings, 2015, 106: 203-215. http://doi.org/10.1016/j.enbuild.2015.05.038. [46] A. Tam D. Ziviani J. Braun N. Jain Development and evaluation of a generalized rule-based control strategy for residential ice storage systems Energy Build 197 2019 99 111 10.1016/j.enbuild.2019.05.040 Tam A., Ziviani D., Braun J., Jain N. Development and evaluation of a generalized rule-based control strategy for residential ice storage systems. Energy and Buildings, 2019, 197: 99-111. http://doi.org/10.1016/j.enbuild.2019.05.040.",
+    "scopus-id": "85110479817",
+    "coredata": {
+        "eid": "1-s2.0-S0306261921008229",
+        "dc:description": "Precise and quick thermal load prediction for buildings is imperative in realizing the flexibility of building energy systems. Operation optimization based on the prediction results can effectively mitigate the energy consumption and operation cost. Here, an artificial neural network (ANN) model is built to predict the load demand and energy consumption of an office building. Thermal zones division is considered to improve the prediction accuracy. Measured data are collected to establish and validate the ANN model. The total number of samples for training, validation and testing are 13674, 3978 and 3977, respectively. A rule-based control optimization model is introduced and combined with ANN model to optimize the operation of heating, ventilation and air-conditioning system. Building energy flexibility is activated by optimization model in a time-of-use electricity price scenario. The results indicate that ANN model has high precision and the coefficient of variation of root mean squared errors corresponding to the load demand prediction and energy consumption prediction are 10.76% and 15.59%, respectively. Furthermore, the optimization results can reduce the operation cost by 39.22% and 44.41% in the heating and cooling season, respectively.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2021-10-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0306261921008229",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Hu, Jingfan"
+            },
+            {
+                "@_fa": "true",
+                "$": "Zheng, Wandong"
+            },
+            {
+                "@_fa": "true",
+                "$": "Zhang, Sirui"
+            },
+            {
+                "@_fa": "true",
+                "$": "Li, Hao"
+            },
+            {
+                "@_fa": "true",
+                "$": "Liu, Zijian"
+            },
+            {
+                "@_fa": "true",
+                "$": "Zhang, Guo"
+            },
+            {
+                "@_fa": "true",
+                "$": "Yang, Xu"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0306261921008229"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0306261921008229"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0306-2619(21)00822-9",
+        "prism:volume": "300",
+        "articleNumber": "117429",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "Thermal load prediction and operation optimization of office building with a zone-level artificial neural network and rule-based control",
+        "prism:copyright": "© 2021 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03062619",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Artificial neural network"
+            },
+            {
+                "@_fa": "true",
+                "$": "Operation optimization"
+            },
+            {
+                "@_fa": "true",
+                "$": "Thermal zones division"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building energy flexibility"
+            },
+            {
+                "@_fa": "true",
+                "$": "Thermal storage tank"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Energy",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "117429",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 October 2021",
+        "prism:doi": "10.1016/j.apenergy.2021.117429",
+        "prism:startingPage": "117429",
+        "dc:identifier": "doi:10.1016/j.apenergy.2021.117429",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "197",
+            "@width": "500",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "56338",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "303",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr17.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40180",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "853",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr16.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "118338",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "843",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "125492",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "298",
+            "@width": "555",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36444",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "161",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "7984",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "320",
+            "@width": "689",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "38078",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "507",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "91468",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "699",
+            "@width": "600",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "153314",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "301",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37061",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "343",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "65072",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "359",
+            "@width": "622",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "53671",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "827",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41638",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "667",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "26150",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "698",
+            "@width": "562",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "97666",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "702",
+            "@width": "564",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "100073",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "306",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "17199",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "482",
+            "@width": "555",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "54720",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "86",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "17765",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "119",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr17.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9227",
+            "@ref": "gr17",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "107",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr16.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7374",
+            "@ref": "gr16",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "108",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8585",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6028",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "97",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2924",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "102",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7297",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "180",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "24793",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "140",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11037",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6711",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "121",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10028",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "126",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8243",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "110",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2618",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "89",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "2450",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "132",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9914",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "132",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9735",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "195",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4937",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "189",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7739",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "873",
+            "@width": "2213",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "370955",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1340",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr17_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "486109",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3777",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr16_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1454324",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3733",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1462466",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1321",
+            "@width": "2460",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "491181",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "716",
+            "@width": "1614",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "42839",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1417",
+            "@width": "3051",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "237536",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2244",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "645955",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3097",
+            "@width": "2657",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "949483",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1331",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "452587",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1520",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "410383",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1591",
+            "@width": "2756",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "324031",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3661",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "245713",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2956",
+            "@width": "1614",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "148555",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3091",
+            "@width": "2488",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1093187",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3106",
+            "@width": "2497",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1125285",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1357",
+            "@width": "1614",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "102143",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2135",
+            "@width": "2460",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "380456",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1950",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15553",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17679",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2100",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16737",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11237",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11445",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18130",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10170",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29942",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30711",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15578",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "36328",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9746",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4489",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12037",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19322",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17506",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19286",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14587",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261921008229-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "3413129",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85110479817"
+    }
+}}

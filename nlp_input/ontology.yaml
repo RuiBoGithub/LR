@@ -1,75 +1,220 @@
+concept_energy_waste:
+  energy_waste:
+    - "energy waste"
+    - "wasted energy"
+    - "avoidable energy use"
+    - "unnecessary energy use"
+kpi_tradeoff_concepts:
+  infection_risk:
+    - "infection risk"
+    - "pathogen transmission"
+    - "airborne infection"
+  thermal_comfort:
+    - "thermal comfort"
+    - "pmv"
+    - "ppd"
+  thermal_preference:
+    - "thermal preference"
+    - "preferred temperature"
+  user_requirement:
+    - "user requirement"
+    - "occupant requirement"
+  performance_requirement:
+    - "performance requirement"
+    - "operational requirement"
+  energy_use:
+    - "energy use"
+    - "energy consumption"
+    - "electricity use"
+
+tradeoff_keywords:
+  - "trade-off"
+  - "tradeoff"
+  - "balance"
+  - "balancing"
+  - "compromise"
+  - "pareto"
+  - "multiobjective"
+  - "multi-objective"
+  - "conflict"
+  - "tension"
+  - "competing"
+  - "jointly optimize"
+  - "simultaneously optimize"
+
 scale:
   building_model:
-    - "building energy modelling" 
+    - "building energy modelling"
     - "bem"
     - "building model"
-    - "whole-building"
-    - "building-level"
-    - "building energy model"
-    - "zone model"
-    - "thermal zone"
-    - "room model"
-    - "building cluster model"
+    - "whole-building model"
     - "ubem"
-    - "urban building energy modelling"    
+    - "bem" 
+    - "building model" 
+    - "whole-building" 
+    - "building energy model" 
+    - "zone model" 
+    - "room model" 
+    - "thermal model"
+    - "building cluster model" 
+    - "ubem" 
+    - "urban building energy modelling"
+
   system_model:
     - "system model"
     - "hvac model"
     - "chiller model"
     - "boiler model"
-    - "heat pump model"    
+    - "heat pump model"
     - "air handling unit model"
-    - "equipment model"
-    - "device model"
-    - "asset model"
+    - "component model"
   occupancy_model:
     - "occupancy model"
     - "occupant model"
+    - "occupant behavior model"
+    - "occupant behaviour model"
     - "occupancy estimation"
+    - "occupant estimation"
   climate_model:
     - "climate model"
     - "weather model"
     - "meteorological model"
     - "numerical weather prediction"
 
+# Paradigms (as you already have)
 model_paradigm:
   whitebox:
-    - 'energyplus'
-    - 'trnsys'
-    - 'ies-ve'
-    - 'modelica'
-    - 'ida-ice'
-    - 'physics-based'
-    - 'first-principles'
-    - 'calibrated simulation'
+    - "energyplus"
+    - "trnsys"
+    - "ies-ve"
+    - "modelica"
+    - "ida-ice"
+    - "physics-based"
+    - "first-principles"
+    - "calibrated simulation"
   greybox:
-    - grey-box'
-    - gray-box'
-    - state-space'
-    - kalman'
-    - parameter estimation'
-    - semi-empirical'
-    - hybrid'
-    - resistor-capacitor'
-    - RC model'
-    - RC model (ISO 52016)'
-    - degree-day'
-    - rc network'
+    - "grey-box"
+    - "gray-box"
+    - "state-space"
+    - "kalman"
+    - "semi-empirical"
+    - "hybrid"
+    - "resistor-capacitor"
+    - "rc model"
+    - "rc network"
   blackbox:
-    - 'data-driven'
-    - 'statistical'
-    - 'regression'
-    - 'black box'
-    - 'neural network'
-    - 'ann'
-    - 'lstm'
-    - 'gru'
-    - 'svm'
-    - 'svr'
-    - 'random forest'
-    - 'xgboost'
-    - 'deep learning'
-    - 'reinforcement learning'
+    - "machine learning"
+    - "statistical"
+    - "data-driven"
+    - "degree-day"
+    - "bin method"    
+    - "linear regression"
+    - "lasso"
+    - "ridge"
+    - "elastic net"
+    - "neural network"
+    - "ann"
+    - "lstm"
+    - "gru"
+    - "svm"
+    - "svr"
+    - "random forest"
+    - "xgboost"
+    - "bayesian network"
+    - "hmm"
+    - "kalman"
+    - "k-nn"
+    - "knn"
+    - "naive bayes"
+    - "gaussian process"
+    - "deep learning"
+
+# Optimization method families
+optimization_methods:
+  reinforcement_learning:
+    - "q-learning"
+    - "rl"
+    - "drl"
+    - "reinforcement learning"
+    - "policy gradient"
+    - "actor-critic"
+    - "dqn"
+    - "sarsa"
+  mathematical_programming:
+    - "milp"
+    - "mixed-integer"
+    - "linear programming"
+    - "quadratic programming"
+    - "convex optimization"
+  heuristic_metaheuristic:
+    - "genetic algorithm"
+    - "ga"
+    - "simulated annealing"
+    - "particle swarm"
+    - "pso"
+    - "ant colony"
+  bayesian_optimization:
+    - "bayesian optimization"
+    - "gaussian process optimization"
+  optimal_control:
+    - "pid"
+    - "pi controller"
+    - "optimization"
+    - "optimisation"
+    - "mpc"
+    - "stochastic mpc"
+    - "robust mpc"
+    - "economic mpc"
+    - "lqr"
+    - "fuzzy control"
+    - "multi-objective"
+    - "multiobjective"
+    - "pareto"
+    - "nsga-ii"
+    - "nsga2"
+
+optimization_objectives:
+  energy:
+    - "energy use"
+    - "energy consumption"
+    - "electricity use"
+    - "demand reduction"
+  comfort:
+    - "thermal comfort"
+    - "pmv"
+    - "ppd"
+  cost:
+    - "cost"
+    - "operational cost"
+    - "electricity price"
+    - "tariff"
+  carbon:
+    - "carbon"
+    - "co2"
+    - "emissions"
+  demand_response:
+    - "demand response"
+    - "load shifting"
+    - "peak shaving"
+  iaq_infection:
+    - "indoor air quality"
+    - "iaq"
+    - "infection risk"
+    - "pathogen transmission"
+online_learning:
+  online_learning:
+    - "online learning"
+    - "incremental learning"
+    - "adaptive learning"
+    - "continual learning"
+    - "lifelong learning"
+    - "streaming learning"
+    - "online training"
+    - "real-time update"
+    - "on-policy update"
+    - "adaptive control"
+    - "model update"
+    - "real-time"
 
 data_types:
   metering:
@@ -148,6 +293,43 @@ applications:
     - 'retrofit analysis'
     - 'energy conservation measure'
     - 'ecm'
+special_focus:
+  energy_storage:
+    - "energy storage"
+    - "battery"
+    - "batteries"
+    - "battery storage"
+    - "thermal storage"
+    - "electrical storage"
+    - "lithium-ion"
+    - "lithium ion"
+  renewable_integration:
+    - "renewable energy"
+    - "photovoltaic"
+    - "pv"
+    - "solar"
+    - "wind"
+    - "res"
+    - "der"
+    - "distributed energy resource"
+    - "renewables integration"
+  pricing_trading:
+    - "electricity pricing"
+    - "dynamic pricing"
+    - "real-time pricing"
+    - "electricity trading"
+    - "market participation"
+    - "demand response market"
+    - "day-ahead market"
+    - "spot market"
+  multi_energy:
+    - "multi-energy"
+    - "multi vector"
+    - "multi-energy system"
+    - "integrated energy system"
+    - "combined heat and power"
+    - "cogeneration"
+    - "trigeneration"
 
 kpi_resolution:
   subhourly:

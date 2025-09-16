@@ -1,0 +1,808 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85146456801",
+    "originalText": "serial JL 271429 291210 291702 291731 291787 291877 291878 291881 31 Applied Energy APPLIEDENERGY 2023-01-16 2023-01-16 2023-01-16 2023-01-16 2024-01-11T22:59:15 1-s2.0-S0306261923000144 S0306-2619(23)00014-4 S0306261923000144 10.1016/j.apenergy.2023.120650 S300 S300.1 FULL-TEXT 1-s2.0-S0306261923X00026 2024-01-11T23:31:45.775766Z 0 0 20230315 2023 2023-01-16T11:07:21.109108Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst nomenclature primabst ref 0306-2619 03062619 true 334 334 C Volume 334 3 120650 120650 120650 20230315 15 March 2023 2023-03-15 2023 Research Papers article fla © 2023 Elsevier Ltd. All rights reserved. AREINFORCEMENTLEARNINGENABLEDITERATIVELEARNINGCONTROLSTRATEGYAIRCONDITIONINGSYSTEMSFORBUILDINGENERGYSAVINGBYSHORTENINGMORNINGSTARTPERIOD DAI M Nomenclature 1 Introduction 1.1 Overview of conventional and learning-based controls for HVAC systems 1.2 Problems and challenges of HVAC system control under limited cooling supply 1.3 Objective and innovations of this research 2 Proposed iterative learning control strategy 2.1 Basic control mechanism 2.2 Control performance indicators 2.3 Operation procedure of iterative learning control strategy 2.4 Control parameter setting using Q-learning agent 3 Overview of the test commercial building, validation test platform and test arrangement 4 Test results and analysis 4.1 Control operation and control performance 4.1.1 Valve opening control outputs 4.1.2 Maximum return time among multiple zones 4.1.3 Cooling diversity 4.2 Reduction of precooling time 4.3 Energy saving using proposed control strategy 5 Conclusions CRediT authorship contribution statement Acknowledgement References DAI 2021 101499 M MA 2012 92 100 J TANG 2018 771 781 R WANG 2008 3 32 S GENG 1993 819 824 G MA 2011 198 211 Z LIANG 2015 256 268 W ALVAREZ 2013 361 372 J LU 2022 109455 X HONG 2020 109831 T WANG 2020 115036 Z ZHANG 2019 472 490 Z ZOU 2020 106535 Z HALHOULMERABET 2021 110969 G BRISTOW 2006 96 114 D ARIMOTO 1984 123 140 S TAYEBI 2004 1195 1203 A BARTON 2011 1223 1233 K MENG 2016 114 127 Q MINAKAIS 2019 1896 1906 M SUTTON 2018 R REINFORCEMENTLEARNINGSECONDEDITIONINTRODUCTION QIU 2020 110055 S HENZE 2003 259 275 G CHEN 2018 195 205 Y WANG 1998 1 20 S DAIX2023X120650 DAIX2023X120650XM 2025-01-16T00:00:00.000Z 2025-01-16T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Elsevier Ltd. All rights reserved. 2023-01-27T08:14:20.764Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined General Research Fund 152165/20E General Research Fund of Shanghai Normal University http://data.elsevier.com/vocabulary/SciValFunders/501100012479 http://sws.geonames.org/1814991/ Research Grant Council 研究資助局 University Grants Committee Research Grants Council http://data.elsevier.com/vocabulary/SciValFunders/501100002920 http://sws.geonames.org/1819730 The research presented in this paper is financially supported by a General Research Fund (No. 152165/20E) and the Hong Kong PhD Fellowship Scheme of the Research Grant Council (RGC) of the Hong Kong SAR. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0306-2619(23)00014-4 S0306261923000144 1-s2.0-S0306261923000144 10.1016/j.apenergy.2023.120650 271429 2024-01-11T23:31:45.775766Z 2023-03-15 1-s2.0-S0306261923000144-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/MAIN/application/pdf/583cbc8e602103082e70e3544fbf9f2c/main.pdf main.pdf pdf true 1898414 MAIN 14 1-s2.0-S0306261923000144-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/PREVIEW/image/png/0609f3770d98ab60d916fbac98b728e0/main_1.png main_1.png png 49243 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0306261923000144-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr15/DOWNSAMPLED/image/jpeg/6e80c8eb401fc48d2ceba52cb66b5611/gr15.jpg gr15 gr15.jpg jpg 43392 418 556 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr14/DOWNSAMPLED/image/jpeg/79e0826bf3652749bfbbde96b7b05d55/gr14.jpg gr14 gr14.jpg jpg 45067 409 556 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr13/DOWNSAMPLED/image/jpeg/1f15da1a96b579662d2ebc4af5b779f3/gr13.jpg gr13 gr13.jpg jpg 49879 320 711 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr12/DOWNSAMPLED/image/jpeg/d6692283d184299dd6d39a73081db91a/gr12.jpg gr12 gr12.jpg jpg 46916 278 578 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr11/DOWNSAMPLED/image/jpeg/16dbb441ba83f5697f265e110d0451f6/gr11.jpg gr11 gr11.jpg jpg 50000 272 579 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr10/DOWNSAMPLED/image/jpeg/6ee8f07b621f144cd815a3516b170b23/gr10.jpg gr10 gr10.jpg jpg 39885 293 687 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr1/DOWNSAMPLED/image/jpeg/edb57ef05bdc80e2b4fd6c46d519351e/gr1.jpg gr1 gr1.jpg jpg 33043 319 711 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr2/DOWNSAMPLED/image/jpeg/e23219224e59117005ca6506a8b0d011/gr2.jpg gr2 gr2.jpg jpg 94296 640 778 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr3/DOWNSAMPLED/image/jpeg/c30aff63c97103219f66fd9dad3e691a/gr3.jpg gr3 gr3.jpg jpg 11760 280 373 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr4/DOWNSAMPLED/image/jpeg/0a78fcdfa24b15a98e4e701be6f40fec/gr4.jpg gr4 gr4.jpg jpg 57101 482 578 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr5/DOWNSAMPLED/image/jpeg/593bf69961f785b895cb1c6d48f6c3b0/gr5.jpg gr5 gr5.jpg jpg 85207 513 600 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr6/DOWNSAMPLED/image/jpeg/b1beb231edca658d8b61f286c9c7f86d/gr6.jpg gr6 gr6.jpg jpg 22913 261 579 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr7/DOWNSAMPLED/image/jpeg/2231d991e97efd2aecf89c950d739736/gr7.jpg gr7 gr7.jpg jpg 34850 256 734 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr8/DOWNSAMPLED/image/jpeg/ff5812d825da3ac31f6d89a0ecfdef14/gr8.jpg gr8 gr8.jpg jpg 23970 353 556 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr9/DOWNSAMPLED/image/jpeg/009c067b0de99cc95ab6a870e7f12089/gr9.jpg gr9 gr9.jpg jpg 40410 409 559 IMAGE-DOWNSAMPLED 1-s2.0-S0306261923000144-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr15/THUMBNAIL/image/gif/39ccd7275c1c85fe01d3cc3c7477075e/gr15.sml gr15 gr15.sml sml 8907 164 218 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr14/THUMBNAIL/image/gif/2451c7895372a62bf3fe7535333c24ec/gr14.sml gr14 gr14.sml sml 9745 161 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr13/THUMBNAIL/image/gif/65a329dd839f5fc0e782bcb3accb4793/gr13.sml gr13 gr13.sml sml 5941 98 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr12/THUMBNAIL/image/gif/7d01975d898a5d21cfbe0352f4236a06/gr12.sml gr12 gr12.sml sml 8180 105 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr11/THUMBNAIL/image/gif/e8083aca0036b0e2b94b82fa2dccfbb9/gr11.sml gr11 gr11.sml sml 9291 103 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr10/THUMBNAIL/image/gif/06b50138ce81c564ed9433dc3a746efb/gr10.sml gr10 gr10.sml sml 4931 93 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr1/THUMBNAIL/image/gif/10ab2a49130fb8c94b288c598abda91b/gr1.sml gr1 gr1.sml sml 4989 98 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr2/THUMBNAIL/image/gif/9b72ec5b9448c6373cee88c6aeca6f16/gr2.sml gr2 gr2.sml sml 8705 164 199 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr3/THUMBNAIL/image/gif/ff1537348bc27220a4eea2c0dd0e65ec/gr3.sml gr3 gr3.sml sml 3880 164 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr4/THUMBNAIL/image/gif/3b22808cc5a82db1b6907c97bd25f2b3/gr4.sml gr4 gr4.sml sml 8761 164 197 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr5/THUMBNAIL/image/gif/dd825b1e1023d157bf52400db090d994/gr5.sml gr5 gr5.sml sml 10520 163 191 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr6/THUMBNAIL/image/gif/e404c94b634f9e2163942d754c682a7e/gr6.sml gr6 gr6.sml sml 4438 99 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr7/THUMBNAIL/image/gif/1bea74fe83bc47efb08ed37f775d1ea2/gr7.sml gr7 gr7.sml sml 4700 76 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr8/THUMBNAIL/image/gif/61fd1a2e70ba5bfe39188e8eb78e44f1/gr8.sml gr8 gr8.sml sml 4313 139 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/gr9/THUMBNAIL/image/gif/1361aca7125f0ce73d5875de23e00c95/gr9.sml gr9 gr9.sml sml 7174 160 219 IMAGE-THUMBNAIL 1-s2.0-S0306261923000144-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/100bae5be75d645d421138bfc39b20a9/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 289528 1849 2461 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/bc8f97c44408913ef32e7e1150f59382/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 296530 1810 2461 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/7081e2a6b15cb8a638dac33a1632c61c/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 369814 1416 3150 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/5def39dd989d4ffbf46e24fa9bbfea45/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 354053 1233 2560 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/d609c07a1643650bbf7f725b8e4eef69/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 408446 1206 2563 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/86064eb11118e9582fb9b4a899165898/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 306213 1298 3043 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/eb03b7fd690d26ca4aea1b90cd845425/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 243133 1413 3150 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/6f68874cc02a50a15aefe8da3e927bed/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 609402 2833 3445 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/1c5575dd696fae406a5885ce140cc369/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 93558 1240 1654 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/c8fa57d4c2cfb88df163d37f7474ab15/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 354519 2135 2561 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/8e5421219a8a1af72a8b52237ea433f2/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 648422 2275 2659 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/75ba6b6aa12653f1f5da402a9704c3e0/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 148691 1155 2565 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/35fc6c238a8e6a8af3ee2b57f38b65fa/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 217967 1132 3248 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/648cd976a739f8868e3130cfe5e3bed0/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 154446 1564 2462 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/HIGHRES/image/jpeg/315d5a5a52eaa4957f8333788c8e7d5b/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 264078 1809 2474 IMAGE-HIGH-RES 1-s2.0-S0306261923000144-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/bd13c8e4e377d3e711ebe540e393a809/si1.svg si1 si1.svg svg 17008 ALTIMG 1-s2.0-S0306261923000144-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/a06247db7df9c5ec60ebcb03baae0292/si10.svg si10 si10.svg svg 8031 ALTIMG 1-s2.0-S0306261923000144-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/7df9645b1f35a3726790b614ef5a8fe6/si11.svg si11 si11.svg svg 18625 ALTIMG 1-s2.0-S0306261923000144-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/db2df5ee60b1591f1e8dc7744d38d3a9/si12.svg si12 si12.svg svg 12128 ALTIMG 1-s2.0-S0306261923000144-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/8f93c74e4a5aaa0c0ea1074e0f472b3d/si13.svg si13 si13.svg svg 26835 ALTIMG 1-s2.0-S0306261923000144-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/8c993430a75c67dccde7b44a4baf9c7b/si14.svg si14 si14.svg svg 5306 ALTIMG 1-s2.0-S0306261923000144-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/a4c12f6a97f0147b7e9603ada823ae94/si15.svg si15 si15.svg svg 4773 ALTIMG 1-s2.0-S0306261923000144-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/af9215a18ba32741319f6cf47dc4da1b/si16.svg si16 si16.svg svg 3122 ALTIMG 1-s2.0-S0306261923000144-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/4eac40a4acea2e798c34f0d78cad73bc/si17.svg si17 si17.svg svg 738 ALTIMG 1-s2.0-S0306261923000144-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/4bcd25860d9016a580929d91ac6b32c4/si2.svg si2 si2.svg svg 11339 ALTIMG 1-s2.0-S0306261923000144-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/94c53fea839eec78f732890a53ed7437/si3.svg si3 si3.svg svg 22289 ALTIMG 1-s2.0-S0306261923000144-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/40eb5eae17c9cdb819ba42a3198102ba/si4.svg si4 si4.svg svg 9191 ALTIMG 1-s2.0-S0306261923000144-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/a20edc2e327a0211f542ef078e699740/si5.svg si5 si5.svg svg 8912 ALTIMG 1-s2.0-S0306261923000144-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/6f6b62ad19fab8c4bbdd3fed04304b9a/si6.svg si6 si6.svg svg 9345 ALTIMG 1-s2.0-S0306261923000144-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/7eaddb981fa0f0aa2b4bcbab0d5d9e23/si7.svg si7 si7.svg svg 12563 ALTIMG 1-s2.0-S0306261923000144-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/0552fc079df01b49f5e6d476f5332fce/si8.svg si8 si8.svg svg 16705 ALTIMG 1-s2.0-S0306261923000144-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261923000144/image/svg+xml/db01288eef30d05242187a18185d77ab/si9.svg si9 si9.svg svg 8047 ALTIMG 1-s2.0-S0306261923000144-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10JX4PNTNZ2/MAIN/application/pdf/aec3d64a41b4a991ac791d2edc893db9/am.pdf am am.pdf pdf false 574021 AAM-PDF APEN 120650 120650 S0306-2619(23)00014-4 10.1016/j.apenergy.2023.120650 Elsevier Ltd Fig. 1 Outline of the proposed iterative learning control strategy. Fig. 2 Basic principle of the proposed iterative learning control strategy. Fig. 3 Illustration of the return time from night setback for an individual building zone. Fig. 4 Schematic of the proposed control strategy. Fig. 5 Outline of the Q-learning agent workflow for control parameter setting. Fig. 6 Schematic of central air-conditioning system concerned. Fig. 7 Outline of TRNSYS-MATLAB co-simulation test platform. Fig. 8 Overview of the simulation studio file for the TRNSYS-MATLAB co-simulation. Fig. 9 AHU valve opening control outputs of the six building zones during morning start period. Fig. 10 Comparison of AHU valve openings under the conventional control and the proposed control on a typical summer day. Fig. 11 Maximum return time among multiple zones (tmax ) during the test period. Fig. 12 Cooling diversity indicator (cdi) during the test period. Fig. 13 Precooling time reduction evaluation of a typical summer day. Fig. 14 Reduction of precooling time during the test period. Fig. 15 Energy saving in the test period. Table 1 Format of the designed Q-table. Action (k, b) \\ State (cdi) [0,0.2) [0.2,0.4) [0.4,0.6) [0.6,0.8) [0.8,1] (0.5, 0.0125) Q (S1, A1) Q (S2, A1) Q (S3, A1) Q (S4, A1) Q (S5, A1) (1, 0.025) Q (S1, A2) Q (S2, A2) Q (S3, A2) Q (S4, A2) Q (S5, A2) (2, 0.05) Q (S1, A3) Q (S2, A3) Q (S3, A3) Q (S4, A3) Q (S5, A3) Table 2 Main parameters of central air-conditioning system. Chiller Cooling capacity (kW) Rated flow (evaporator)(L/S) Rated flow (condenser) (L/S) Rated power (kW) Number 4080 172.8 205.3 960 4 Pump Rated flow (L/S) Rated power (kW) Head (m) Efficiency (%) Number Primary pump 172.8 110 45.1 72.5% 4 Secondary pump 345 163 41.4 85.7% 2 Table 3 Maximum return time among multiple zones (tmax ) comparation of the four-week test period. Week 1 2 3 4 Accumulated tmax (hour) Conventional control 4.47 6.45 5.38 6.55 Proposed control 4.10 5.68 4.77 5.82 tmax reduction (%) 8.3 11.9 11.3 11.1 Table 4 Cooling diversity indicator (cdi) comparation of the four-week test period. Week 1 2 3 4 Average cdi Conventional control 0.57 0.52 0.53 0.52 Proposed control 0.29 0.15 0.14 0.14 cdi reduction (%) 49.1 71.2 73.6 73.1 Table 5 Reduction of precooling time during the test period. Day Daily potential precooling time reduction (hour) Daily potential precooling time reduction (%) Week 1 1 0.03 4.8 2 0.05 5.7 3 0.06 6.6 4 0.09 12.1 5 0.07 10.0 6 0.07 12.0 Week 2 7 0.16 10.7 8 0.15 11.9 9 0.13 12.2 10 0.12 13.3 11 0.13 13.2 12 0.07 10.2 Week 3 13 0.11 13.8 14 0.06 8.9 15 0.13 14.8 16 0.14 13.3 17 0.13 13.6 18 0.05 4.8 Week 4 19 0.19 12.1 20 0.18 13.6 21 0.04 4.7 22 0.12 15.6 23 0.15 15.6 24 0.05 5.1 Accumulated potential precooling time reduction (hour) 2.48 Table 6 Energy consumption comparation of a typical summer day. Overall(kWh) Chillers(kWh) Primary pumps(kWh) Secondary pumps(kWh) Conventional control 5415 4341 519 555 Proposed control 4720 3834 454 432 Reduction (kWh) 695 507 65 123 Reduction (%) 12.8 11.7 12.5 22.2 Table 7 Energy saving during the test period. Day Daily overall energy saving (kWh) Daily overall energy saving (%) Week 1 1 124 5.1 2 188 6.3 3 208 7.4 4 346 14.0 5 271 11.2 6 239 12.0 Week 2 7 573 11.0 8 548 12.8 9 501 13.5 10 469 15.2 11 492 15.0 12 310 13.1 Week 3 13 438 16.5 14 269 11.7 15 488 16.8 16 509 14.4 17 496 15.0 18 230 6.5 Week 4 19 695 12.8 20 664 14.9 21 268 8.3 22 459 17.5 23 579 17.8 24 251 7.6 Accumulated overall energy saving (kWh) 9615 A reinforcement learning-enabled iterative learning control strategy of air-conditioning systems for building energy saving by shortening the morning start period Mingkun Dai Data curation Investigation Methodology Software Writing \u2013 original draft Hangxin Li Supervision Writing \u2013 review & editing \u204e Shengwei Wang Funding acquisition Conceptualization Project administration Supervision Writing \u2013 review & editing \u204e Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Kowloon, Hong Kong Department of Building Environment and Energy Engineering The Hong Kong Polytechnic University Kowloon Hong Kong Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Kowloon, Hong Kong Research Institute for Smart Energy, The Hong Kong Polytechnic University, Kowloon, Hong Kong Research Institute for Smart Energy The Hong Kong Polytechnic University Kowloon Hong Kong Research Institute for Smart Energy, The Hong Kong Polytechnic University, Kowloon, Hong Kong \u204e Corresponding authors at: Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Kowloon, Hong Kong. Research Institute for Smart Energy, The Hong Kong Polytechnic University, Kowloon, Hong Kong. Department of Building Environment and Energy Engineering The Hong Kong Polytechnic University Kowloon Hong Kong Air-conditioning systems in commercial buildings are usually switched on in advance to precool the indoor spaces to create an acceptable working environment upon the office hour. However, the central cooling systems often fail to provide enough cooling supply capacity due to the high cooling demand at the morning start period especially in hot seasons. In this situation, the imbalanced cooling distribution in the air-conditioning systems often results in large difference of cooling-down speed among different building zones, so that the precooling time has to be extended, leading to significant energy waste. This study proposes a new iterative learning control strategy to properly manage the cooling distribution (i.e., water valve openings of air-handling units) for achieving uniform cooling (i.e., synchronously reaching the indoor dry-blub temperature setpoint) among building zones during the morning start period. A reinforcement learning method (Q-learning) is adopted for the control parameter setting of the developed iterative learning controller. Validation tests are conducted and results show that the proposed control strategy could reduce the daily precooling time up to 12.1% during typical days in Hong Kong by achieving uniform cooling. The daily energy consumption could be reduced between 5.1% and 17.8% by shortening morning start period, corresponding a weekly electrical energy saving between 1,376 kWh and 2,916 kWh in the test building. Keywords Iterative learning control Precooling control Reinforcement learning Building energy efficiency Indoor environment control Data availability Data will be made available on request. Nomenclature Symbols AHU Air handling unit AI Artificial intelligence ILC Iterative learning control ML Machine learning RL Reinforcement learning R Reward T Temperature t Return time from night setback Δt Time deviation u Valve opening Δu Valve opening correction cdi Cooling diversity indicator k Control parameter b Control parameter A, a Action of Q-learning agent S, s State of Q-learning agent Greek symbols α, γ Learning parameter of Q-learning agent ε Parameter of ε-greedy policy Subscripts ave Average max Maximum min Minimum i Control interval n Number of building zones 1 Introduction 1.1 Overview of conventional and learning-based controls for HVAC systems The building sector has become one of the largest energy consumers nowadays, accounting for more than 30% total energy use worldwide and over 90% electricity consumption in Hong Kong [1,2]. Improving the energy efficiency of buildings has become an urgent challenge. It is therefore necessary to monitor, control and manage the energy-consumers in buildings, such as the heating, ventilation and air-conditioning (HVAC) systems [3]. Besides, the buildings tend to have high electricity demand and it will cause significant peak load especially for commercial buildings, then concerns arise from both the electricity suppliers and customers due to the capacity and financial issues [4]. Therefore, reducing or limiting the building peak demand is essential and beneficial. On one hand, it could relieve the capacity stress of a power grid considering power generation. On the other hand, the energy consumers could reduce the electricity bill when the electrical peak demand is a charge factor, such as in Hong Kong. In Hong Kong, the electricity bills consist of the charge for the monthly electrical peak demand (kVA) and the charge for the monthly electricity consumption (kWh) [5]. The air-conditioning system is one of the highest energy-consumers in buildings, accounts for around 1/3 of the total electricity consumption in Hong Kong [2]. In this way, many control strategies have been developed for building HVAC systems to enhance the energy efficiency and reduce the peak demand. The building automation system (BAS) is a conventional and effective tool for efficient management of the building HVAC systems and the control functions can be divided into local control functions and supervisory control functions [6]. By using building automation systems, the control strategies developed can be applied in real buildings. For local control functions, one of the most commonly-used control strategies is the demand-based feedback control, where the PID (proportion-integration-differentiation) control is commonly used [5]. With the local PID control, a building zone can maintain the indoor temperature setpoint by controlling the terminal units such as the air handling units (AHUs) to modulate the cooling intake from central cooling systems when the cooling supply is enough. The demand-based feedback control with the PID controllers is a mature technology, it can track the control setpoint with acceptable accuracy, adaptiveness and simplicity, so it is widely used in building\u2019s local control functions and the research in PID control has never ceased [5,7]. For the supervisory control, also known as optimal control, it aims at choosing the best local control setpoints to minimize or maximize an objective function, such minimizing energy consumption, operating cost etc. [6]. Many studies have been conducted in the domain of optimal control for HVAC systems [8\u201311]. With the rapid development of big data, computing resources and advanced algorithms, machine learning has been explored to improve the building control performance [12]. Reinforcement Learning (RL), as a branch of machine learning specifically for control problems, is becoming a promising method to revolutionize building controls [13]. Zhang et al. [14] proposed a control strategy based on deep reinforcement learning for a radiant heating system and the results showed that, compared with the rule-based control, the proposed control strategy could achieve 16.7% heating demand reduction with more than 95% probability. Zou et al. [15] also implemented the deep reinforcement learning algorithms for optimal control over the AHUs, they revealed that the deep reinforcement learning agents could achieve 27%\u201330% energy saving comparing to the actual energy consumption. As a popular application of AI (Artificial Intelligence), machine learning has been studied widely for enhancing the building control performance, but it is worth mentioning that the implementation of AI-assisted control strategy in real application is still an ongoing research endeavour [16], mainly due to the data-demanding and time-consuming problems of the machine learning methods. In addition, the security of on-site application of such AI-assisted control strategy (e.g. RL controller) also needs to be addressed [13]. It can be concluded that integrating advanced AI algorithms into building automation systems is promising to formulate smart control strategies for building HVAC systems to enhance the energy efficiency. Moreover, the advanced control strategies should be convenient and reliable enough for real applications. Iterative learning control (ILC) is an intelligent learning-based control method for repetitive processes. It is developed based on the notion that the performance of a system that executes the same task multiple times can be improved by learning from previous executions [17]. The idea of iterative learning control is derived from the fact that human can learn much from previous experience to avoid making mistakes. This concept was first developed in publication by Arimoto et al. [18]. They proposed an iterative betterment process to improve the operation of a mechanical robot by using the updated data from previous operation. Iterative learning control has been widely used in repetitive processes such as robotic manipulators [19] and manufacturing systems [20]. Also, there are some studies adopting this method in the HVAC control domain. Meng et al. [21] used the iterative learning control to achieve the optimal control of secondary pump differential pressure and supply air temperature in a variable air volume (VAV) air-conditioning experiment system. Minakais et al. [22] adopted the iterative learning control to improve the room temperature tracking performance over time based on the assumption that outdoor weather patterns are somewhat repetitive. The advantage of iterative learning control in applications is that no mathematical model of the controlled plant is required for the controller design. Due to the nonlinearity of building HVAC systems, the iterative learning control could make use of the advantage and bring high effectiveness. 1.2 Problems and challenges of HVAC system control under limited cooling supply For commercial buildings, their air-conditioning systems are usually switched on before the office hour in the morning, known as precooling. It is an effective and essential means for creating an acceptable indoor environment at the beginning of the office hour [5]. However, extended precooling time would cause serious energy waste, so the length of precooling time is important for enhancing the energy efficiency especially for large commercial buildings. Therefore, the effective control strategy for building air-conditioning systems to shorten the morning start period is very important. For precooling control, previous studies mainly work on predicting the time required to cool down a building from the night setback condition by applying the optimal start algorithms. Seem et al. [23] made a comparison of 57 models for estimating the return time from a night setback condition and they recommended the room air temperature and the exponentially weighted moving averages (EWMA) of the normalized heating or cooling demand should be considered as predictor variables for the optimal start algorithms. Gunay et al. [24] developed a morning start algorithm using a data-driven method. They proposed a clustering-based method by using a dataset from a large office building and their results show that the potential saving by tuning daily start times was estimated 7% for cooling. It is obvious that the building precooling at morning start period is beneficial but the extended precooling time should be avoided. The cooling demand of commercial buildings is usually very high at morning start period, the indoor temperatures of individual building zones are much higher than their corresponding setpoints, but the cooling supply from central cooling plant is usually limited and each air-conditioned zone would compete for the limited cooling supply. At this state, all the terminal units such as water valves and air dampers would be fully open under the traditional PID feedback control, the cooling-down speeds between individual zones are often largely different due to the differences between hydraulic resistances and pressure losses associated to different terminal units. This imbalanced cooling distribution would result in extended precooling time to allow all the building zones reaching their temperature setpoints at the start of the office hour. This problem is well-illustrated through on-site data collected from a super-high-rise commercial building in Hong Kong by Tang et al. [5], and they proposed an optimal control strategy for morning start period to optimize the limited cooling supply distribution among the building zones. However, there are some limitations for the implementation of the presented method in [5]. First, the existing method requires a physical water flowmeter installed for each AHU, but the flowmeters are rarely installed in individual AHUs due to the high cost for practical real applications. In addition, this existing method requires additional experiment work for the thermodynamic characteristic parameter identification of individual building zones and it requests serious effort, especially for large commercial buildings. 1.3 Objective and innovations of this research To address the above problems and challenges, this study proposes an iterative learning control strategy for building air-conditioning systems under limited cooling supply in the morning start period. This simple control strategy can determine the AHU water valve openings at morning start period to achieve uniform cooling among building zones effectively, by updating the valve opening control values of individual AHUs using the iterative learning control. A key task and challenge for implementing this iterative learning control strategy is the setting or tuning of its parameters. A reinforcement learning approach is therefore developed for the setting of the control parameters by adopting a classical reinforcement learning method, namely Q-learning. This control strategy is novel and proposed the first time for proper cooling distribution to achieve even cooling in buildings. The proposed control strategy is model-free and does not require extra sensors nor additional experiment work for thermodynamic characteristic parameter identification. Its working mechanism and means of use have some similarity with that of PID controllers, and it can be implemented conveniently. This paper will present the proposed strategy including the basic control mechanism, the operation and the parameter setting method, as well as the test and validation of the proposed strategy. 2 Proposed iterative learning control strategy This study proposes an iterative learning control strategy for building air-conditioning systems for saving energy by shortening the morning start period, which is developed on the basis of the iterative learning control [17]. The daily precooling period is regarded as a repetitive process, the basic idea is to set the AHU valve openings corresponding to the actual cooling needs of individual zones during the precooling period. In this way, the conventional (PID) feedback control is taken over temporally in this period. And the fixed AHU valve opening control values are updated in daily basis. An outline of the proposed control strategy is shown in Fig. 1 . The iterative learning controller adopts the iterative learning control strategy, and the control outputs are the AHU water valve opening control signals corresponding to individual building zones. The environmental variable measurements from the building zones are sent back to the iterative learning controller and used directly for iterative learning control. Two control performance indicators are proposed for evaluating the control performance and setting the control parameters. The Q-learning agent selects the control parameters of the iterative learning controller based on the control performance indicators. 2.1 Basic control mechanism Fig. 2 illustrates the basic principle of the proposed control strategy. For building air-conditioning systems at morning start period, the cooling demand is very high and individual air-conditioned building zones would compete for the limited cooling supply from the chillers. The iterative learning controller is proposed for the chilled water side to manage the distribution of the limited chilled water among the building zones aiming at keeping indoor temperatures of all the building zones the same (approaching the temperature setpoint at the same time). The control objects are the AHU water valve openings corresponding to individual building zones. The control outputs (valve opening control signals) are updated on daily basis before the precooling start time, and keep the same during the precooling process. The iterative learning controller needs to collect data of two categories. The first category includes the control outputs at the last control interval (i.e., last day) and the control performance indicators at the last control interval. They are used to update first term of the iterative learning control function at the current interval. The second category includes the environmental information (i.e., initial temperatures) of the building zones at the current interval, which are used to update second term of the iterative learning control function at the current interval. As the time passes, the iterative learning controller can continuously track and approach the goal of consistent precooling lead time for different building zones at the morning start period. 2.2 Control performance indicators In order to evaluate the control performance, two control performance indicators are proposed based on the notion of consistent precooling lead time for different individual building zones. The first indicator is the maximum return time among multiple zones from night setback (tmax ), as shown in Eq. (1). Where, t n represents the return time from night setback for zone n. Fig. 3 illustrates the return time from night setback for an individual building zone. The precooling starts at time tA , when the indoor air temperature is relatively high because the air-conditioning systems in commercial buildings are generally not operating during the night. The indoor air temperature of the zone then decreases and reaches the cooling setpoint at time tB . The time difference between tA and tB (i.e., t B - t A) is defined as the return time from night setback. (1) t max = m a x t 1 , t 2 ⋯ t n The goal of the proposed control strategy is to minimize the precooling lead time of building zones considering the distribution of limited cooling supply in the morning start period. In order to achieve consistent precooling lead time for different building zones, the maximum return time among all zones from night setback should be considered as a performance indicator and it represents the required precooling operation time of the chillers. The second indicator is the cooling diversity indicator (cdi), as shown in Eq. (2). (2) cdi = Δ t max t max (3) Δ t max = m a x t 1 , t 2 ⋯ t n - m i n t 1 , t 2 ⋯ t n The maximum deviation between the return time among all building zones from night setback (Δtmax ) is defined in Eq. (3), which represents the largest precooling lead time deviation among the building zones at morning start period. As the control objective is to minimize the maximum precooling lead time deviation under the limited cooling supply, the cooling diversity among the building zones should be consistent. The cooling diversity indicator defined in Eq. (2) is used as a performance indicator and the its value is expected to be as low as possible. 2.3 Operation procedure of iterative learning control strategy The schematic of the proposed control strategy is shown in Fig. 4 . The iterative learning control proposed in this study is based on the daily operation data and measurements. The objects to be controlled are the AHU water valves corresponding to the building zones served. The control strategy attempts to continuously track the goal of consistent precooling lead time for different building zones at morning start period. The control time interval (iterative step) is set to be one day. The control outputs are updated according to the daily learning results. Initialization. At the start (i.e. the first day of the control operation), in order to accelerate the initial learning process, the initial control setting (u 1) is determined based on the previous operational data. At this step, the controller collects the following data information as defined from Eq. (4) to Eq. (6) during the morning start period, (1) return time (t 1) of the n building zones from night setback, (2) temperature (T 1) of the n building zones at the precooling start time, (3) AHU valve openings of the n building zones (u 1). These data are saved every day for next day\u2019s learning control. (4) t 1 = t 1 , 1 , t 2 , 1 , ⋯ t n , 1 (5) T 1 = T 1 , 1 , T 2 , 1 , ⋯ T n , 1 (6) u 1 = u 1 , 1 , u 2 , 1 , ⋯ u n , 1 Control updating at each control interval. In the day i, before the precooling start time, the proposed control algorithm is activated. The controller collects the zone temperatures (Ti ) of building zones and execute the iterative learning control strategy as illustrated below. o Calculate the average return time (t ave) of the n building zones from night setback using Eq. (7). (7) t ave = ∑ 1 n t n , i - 1 n o Calculate the AHU valve opening correction Δun,i , for each building zone n using Eq. (8). (8) Δ u n , i = k ∙ t ave - t n , i - 1 - b ∙ T n , i - T n , i - 1 where, k and b can be recognized as the control parameters of the learning function, and they need to be adjusted according to the specific system. o Calculate the corresponding AHU valve opening un,i , for each building zone n, using Eq. (9). (9) u n , i = u n , i - 1 - Δ u n , i According to the control algorithm above, the AHU valve opening control signals of the n building zones (ui ) at day i could be determined. With time passes, the controller can handle the environmental difference every day and repeat the iterative learning control strategy to update the control outputs. 2.4 Control parameter setting using Q-learning agent As illustrated in Eq. (8), the iterative learning control function has two key parameters (k, b) as the control parameters. The values of the two parameters have significant impacts on the overall control performance. If the values of k and b are high, the learning and correction process of the control strategy would be quick, but the system may be over tuned if they are too high. On the contrary, if the values of k and b are low, the system may avoid this problem. However, the learning process would be slow. For engineering practice, such control parameters could be manually determined by experienced engineers. To make the application of the proposed control strategy convenient and labor-saving, the tasks of selecting the control parameters can be formulated and treated as a basic reinforcement learning problem. Q-learning is a classical reinforcement learning method. This method is model-free and the algorithm is based on Q-table [25]. Compared with many network-based methods such as deep reinforcement learning, the Q-learning method is easier to converge and more feasible to be applied in engineering practice [26]. The applications adopting Q-learning have been proven to be effective by many previous studies in the HVAC domain [26\u201328]. In this study, this method is adopted for control parameter setting of the iterative learning controller. The parameter identification and adjustment of the iterative learning controller is performed using an online adaptive approach with the proposed Q-learning agent, as shown in Fig. 5 . The inputs of the Q-learning agent are the control performance indicators and the outputs are the control parameters. The detailed process of the Q-learning agent workflow for control parameter setting is elaborated below. By adopting the Q-learning method, the Q-learning agent can learn the process characteristics online and update in each control interval to select appropriate control parameters for the iterative learning controller, and therefore improve the control performance. Outline of Q-learning agent: For Q-learning agent design, the Q-table method is proposed as the policy to define the Q-learning agent\u2019s way of behaving at a given time. The control parameters (k, b) of the iterative learning controller are optimized by the Q-table in the Q-learning agent. For the Q-learning agent in this study, the Q-table provides a mapping from perceived states of the building zones to control parameter setting. Table 1 is the Q-table defined in this study for the iterative learning control strategy. The action (A) in this table represents the control parameters (k, b) to be determined and the state (S) represents the calculated cooling diversity indicator (cdi) as introduced in Section 2.2. Each Q-value (e.g. Q (S1, A1)) in Table 1 is updated through the Q-learning process, and its initial value is 0. All the Q-values formulate the Q-table, which is used to determine the control parameters (k, b). The learning process of Q-learning agent using the Q-table is illustrated in the following five subsections. Action: The action is defined as the combination of the control parameters (k, b), and determining the action is the task of the Q-learning agent in this study. Discretization, as a classical and convenient method for action setting in Q-learning, is used in this study. The setting of the discretization precision for the action is flexible. Higher precision setting could make the state identification more accurate and the action selection more precise. But it would also lead to a larger Q-table and thus require longer period and more data for the operation of the Q-learning agent. In order to make it easy for application, the action (k, b) is discretized into three combinations in this study, i.e., (0.5, 0.0125), (1, 0.025), and (2, 0.5). They are determined based on the expert judgement and the authors\u2019 experience. It is reasonable for such setting because the three combinations of the control parameters could represent low, medium and high learning rate respectively for the iterative learning controller. The mission of the Q-learning agent is to determine the appropriate learning rate for the iterative learning control strategy. State: The state in this study is defined as the cooling diversity indicator (cdi), because this control performance indicator can represent the consistence between the precooling lead times of different individual building zones. It reflects the iterative learning control performance of previous day, and the Q-learning agent should select the control parameters according to the state at current morning start period. The cooling diversity indicator is a continuous variable and for the convenience of application in Q-table, which is discretized into five intervals with equal length as shown in Table 1. Reward: The reward is calculated using Eq. (10), based on the maximum return time among multiple zones (tmax ) as described in Section 2.2. It is based on the notion that our expectation is to shorten the maximum return time among all building zones. For the Q-learning agent, the reward is higher when the maximum return time among all zones is lower. (10) R = - t max Q-agent learning process: During the learning process, the Q-learning agent accumulates the experience by updating the Q-table, and the updating principle is shown in Eq. (11) [25]. (11) Q s , a ← Q s , a + α R + γ max a ' Q s ' , a ' - Q s , a where, Q (s, a) represents the Q-value with state (s) and action (a) as shown in Table 1 and the initial Q-values are set to 0. At each iterative learning control interval, the Q-value of Q (s, a) corresponding to the previous step is updated according to this principle. R is the reward calculated using Eq. (10), as the result of the action (a). α is the learning rate of the Q-learning agent and γ is the impact of the reward at next iterative learning control interval on the decision of action at current step. In this study, the α and γ are set to 0.9 and 0.1 respectively. max α ' Q s ' , a ' is the max Q-value at state (s\u2032) with current Q-table. Principle of control parameters determination: For every control interval, the Q-learning agent determines the control parameters (k, b) based on the ε-greedy policy [25] in this study. The principle of the ε-greedy policy is shown in Eq. (12). (12) π a | s ← 1 - ε + ε m , i f a = max a Q s , a ε m , i f a ≠ max a Q s , a where, π a | s is the probability of the action (a) when it is chosen at the state (s). It means that, for each control step, the probability for Q-learning agent to choose the known best action is 1 - ε + ε m according to the Q-table, while the probability for Q-learning agent to choose another action is ε m . ε is a predefined parameter representing the balance between exploration and exploitation, and ε is set to 0.3 in this study. m is the number of available actions to be chosen, which is set to 3 in this study. In this way, the Q-learning agent would choose an action most of the time, which has maximal estimated action value for exploitation. But there is probability for the Q-learning agent to select another random action for exploration. 3 Overview of the test commercial building, validation test platform and test arrangement To test the applicability and performance of the proposed iterative learning control strategy, a virtual dynamic simulation platform is developed using TRNSYS [29]. The real-time simulation platform of the building and its air-conditioning system is constructed referring to the actual system of a super-high-rise commercial building (International Commerce Centre) in Hong Kong and the main parameters are presented in Table 2 [5]. To make it simple and clear for control performance evaluation and demonstration, the dynamic test platform is developed by simplifying the actual energy system of the International Commerce Centre. The air-conditioning system for six typical and standard floors are concerned only in this study. The area of each building floor is 1,600 m2.The detailed physical models of the air-conditioning system in this test platform are calibrated using real data [5,30]. The test platform is a typical primary constant-secondary variable chilled water system and the schematic is shown in Fig. 6 . It consists of four identical chillers and each chiller\u2019s rated capacity is 4080 kW. For the primary chilled water pump side, each chiller is interlocked with a water pump with the constant speed of 172.8 L/s. For the secondary chilled water loop, there employs two variable speed water pumps and the chilled water is circulating in the AHUs to provide cooling source. The building is simulated using a multizone model (Type 56) in TRNSYS. The six typical floors concerned are considered as six individual building zones respectively (i.e., each floor is considered as a building zone). These zones have different cooling loads since the heat gains (including occupants, electrical devices, etc.) in these zones are different. Each building zone is cooled by an individual AHU. Each of the six air-conditioned zones is cooled by the supply air temperature from its corresponding AHU to its zone temperature setpoint. Each AHU cools down the supply air temperature to the pre-defined setpoint. In this study, a TRNSYS-MATLAB co-simulation test platform is constructed as shown in Fig. 7 . The iterative learning controller and other models (i.e., the building models and the air-conditioning system models) are built on TRNSYS 18 (32-bit), while the Q-learning agent is built on MATLAB 2014a (32-bit). Fig. 8 shows the overview of the simulation studio file for the TRNSYS-MATLAB co-simulation. Type 155 (in the TRNSYS library) is used for calling the MATLAB component. The weather data of a typical year in Hong Kong is adopted in the test. The office hour of the building is from 08:00 to 18:00, from Monday to Saturday. The air-conditioning system is switched off during the non-office hours. Prior to the morning start period in each working day, the iterative learning controller is activated, which adopts the proposed method as introduced earlier in Section 2. For the validation tests, the number of building zones n is set to 6 and a hot month (July) in Hong Kong is selected as the experimental operation period. A test period of four weeks, i.e., from July 2nd to July 29th, is selected. The control parameters (k, b) are determined and updated online using the Q-learning agent as described in Section 2.4. 4 Test results and analysis The control performance, precooling time reduction and energy saving are tested and analyzed to evaluate the feasibility and performance of the proposed control strategy. Two proposed indicators (tmax and cdi) are used to evaluate the control performance of the proposed iterative learning control strategy at morning start period, and it is also compared with that using the conventional feedback control. The precooling period starts before the office hour (8:00) every working day, and the air-conditioning system is switched off after the office hour (18:00). And the indoor air temperature setpoints for all the six building zones are 24℃. The energy saving of the chilled water system (chillers, primary pumps and secondary pumps) by adopting the proposed control strategy is quantitatively analyzed in the following. 4.1 Control operation and control performance 4.1.1 Valve opening control outputs The AHU valve opening control outputs for the six zones were determined by the proposed iterative learning control strategy every day at morning start period and the results are shown in Fig. 9 . For Day 1 (02/July), the initial valve openings were manually determined based on the normal operation data of the six AHU valve openings before the test period. The initial valve openings for the six AHUs were 1, 0.87, 0.82, 0.76, 0.65 and 0.6 correspondingly. Fig. 10 compares the AHU valve openings under the conventional control and the proposed control on a typical summer day (23/July). Unlike the conventional feedback control, all the AHU valves are set to be fully open for competing for the limited chilled water supply. It can be seen from the results that, when using the proposed strategy, the AHU valve openings corresponding to the six building zones were adjusted and then remained unchanged every day at morning start period. It can be seen from Fig. 9 that the valve opening for AHU 1 was controlled at 1 during morning start period in all test days under the proposed control. It indicates that the zone 1 is at a disadvantage for chilled water distribution among the six building zones. On the contrary, the valve opening of AHU 6 was controlled to be the lowest among the six AHUs during morning start period in all the test days. It indicates that the zone 6 has the advantage over competing for the limited chilled water supply. In summary, using the proposed iterative learning control strategy, the control outputs could be updated at each control interval (everyday morning start period) to continuously track the goal of consistent precooling lead time for different building zones. 4.1.2 Maximum return time among multiple zones The maximum return time among multiple zones from night setback (tmax ) is defined as a control performance indicator as illustrated in Section 2.2. It indicates the required precooling time for allowing all the building zones to reach the zone temperature setpoint from night setback. The value of tmax is expected to be as lower as possible. Fig. 11 presents the tmax under the proposed iterative learning control and the conventional feedback control. It can be found that under the proposed iterative learning control, the tmax was lower than that under the conventional control for the four-week test period. Among the test results, the maximum reduction of tmax was 0.19 h on Day 19 (23/July) and the maximum reduction percentage of tmax was 15.6% on Day 23 (27/July). For the convenience of comparison, the daily tmax over a week were summed up and the accumulated tmax of four weeks in the test period are shown and compared in Table 3 . It can be seen from Table 3 that the tmax reduction in Week 1 was 8.3%, and for the following three weeks the tmax reduction effect was over 11%. The results show that the proposed iterative learning control strategy reduced the maximum return time among the six building zones. It means that the required precooling time under the conventional feedback control was reduced when applying the proposed iterative learning control. 4.1.3 Cooling diversity The cooling diversity indicator (cdi) is another control performance indicator as introduced in Section 2.2. It represents the cooling diversity among the building zones at morning start period and it is expected to be as lower as possible. The results of cdi under the conventional feedback control and the proposed iterative learning control are compared in Fig. 12 . It can be observed from Fig. 12 that the cdi under the proposed control strategy is much lower than that of the conventional control. The reduction of cdi was not very significant on Day 1 (02/July). But after the first three test days, the cdi was significantly lower under the proposed control strategy than that under the conventional control. During the test period, the maximum reduction of cdi by applying the proposed control strategy was on Day 17 (20/July), the reduction was 0.47. The percentage of maximum cdi reduction was 86.8% on Day 23 (27/July). For the convenience of comparison, the daily average cdi over a week of the four weeks in the test period are shown and compared in Table 4 . The results show that for the first week, the cdi reduction was 49.1%. And for the following three test weeks, the cdi reduction was over 70%. The test results indicate that the proposed iterative learning control strategy significantly reduced the cooling diversity indicator (cdi). By applying the proposed control strategy, the consistence of precooling lead time among the six building zones was improved significantly. 4.2 Reduction of precooling time Based on the above control performance analysis, it is obvious that the proposed iterative learning control strategy could achieve better control performance than conventional feedback control on distributing the limited chilled water supply at morning start period. By applying the proposed iterative learning control strategy, the maximum return time (tmax ) among different building zones and the cooling diversity indicator (cdi) of different building zones were reduced significantly. In this way, the consistence of precooling lead time among different building zones was achieved by adjusting the AHU valve openings corresponding to individual building zones. The precooling time reduction was therefore achieved. Fig. 13 presents the precooling time reduction using the proposed control strategy on a single day, i.e., Day 19 (23/July). Fig. 13 (a) shows the temperature profiles of the six building zones under the conventional feedback control, it is obvious that the cooling-down speeds of indoor air temperature among the six building zones were significantly different. The precooling starts at around 6:26 AM under the conventional feedback control. At 8:00 AM, all of the zones reach the temperature setpoint. The Zone 6 reached its temperature setpoint 0.75 h earlier than Zone 1. The tmax was 1.57 h and the cdi was 0.48 under the conventional feedback control and the conventional precooling took 1.57 h. When the proposed strategy was used at the same condition, the cooling-down speeds among different building zones were much more similar as shown in Fig. 13 (b). The precooling starts at around 6:38 AM under the proposed control. All of the zones reach the temperature setpoint almost synchronously at 8:00 AM. The tmax was 1.38 h and the cdi was 0.14 and the precooling time was reduced to 1.38 h. Compared with using the conventional control strategy, the precooling time was reduced by 0.19 h (from 1.57 h to 1.38 h). The potential precooling time is reduced by 12.1% on a typical summer day (23/July) in Hong Kong. The daily reductions of the precooling time over the test period of four-week are shown in Table 5 and Fig. 14 . It can be found that the maximum daily reduction was 0.19 h on Day 19 (23/July). And the average daily reduction of precooling time was 0.1 h (10.9%) and the accumulated precooling time reduction over test period was 2.48 h. 4.3 Energy saving using proposed control strategy Based on the reduction of the precooling time obtained from the tests, the energy saving of the proposed iterative learning control strategy can be quantified. In the system, the energy consumption of the main chilled water plant includes that of the chillers, primary pumps and secondary pumps. Table 6 shows the comparation between the energy consumptions using proposed iterative learning control and the conventional control on a typical summer day (23/July). The reduction of the precooling time was 0.19 h when adopting the proposed iterative learning control. As shown in Table 6, the major energy saving was from the chillers and the overall energy saving was 695 kWh (12.8%) by using the proposed control strategy. The energy saving during the whole four-week test is shown in Table 7 and Fig. 15 . It can be seen that the maximum daily overall energy saving was 695 kWh on Day 19 (23/July). The average daily overall energy saving was about 400 kWh (12.4% saving) and the accumulated overall energy saving over the test period (four weeks) was 9615 kWh. 5 Conclusions For commercial buildings, the precooling time is extended significantly due to the obvious different cooling-down speed of different building zones and it leads to significant energy waste. To deal with this typical operation problem, a new iterative learning control strategy is proposed to properly distribute the limited cooling supply at morning start period. The control outputs (valve openings) are updated every day. The iterative learning control strategy can continuously track the goal of consistent precooling lead time for different building zones at morning start period. A Q-learning agent is developed for selecting and tuning the parameters of the iterative learning controller based on the Q-table method. Based on the experiences and results of the validation tests, a few major findings are summarized as below. o The proposed iterative learning control strategy could update the control outputs at each control interval (each day) to continuously track the goal of consistent precooling lead time for different building zones. o The proposed iterative learning control strategy could reduce the maximum return time among multiple zones from night setback (tmax ) and the cooling diversity indicator (cdi). The average reduction of the daily precooling time was 0.1 h (10.9% reduction) and the accumulated reduction of the precooling time was 2.48 h during the test period of four weeks. o The proposed iterative learning control strategy could significantly achieve energy saving. The average overall daily energy saving of the chilled water plant was 400 kWh and the accumulated overall energy saving was 9615 kWh over the test period of four weeks. It is worth noting that the proposed iterative learning control strategy is novel and can be conveniently implemented in engineering practice. CRediT authorship contribution statement Mingkun Dai: Data curation, Investigation, Methodology, Software, Writing \u2013 original draft. Hangxin Li: Supervision, Writing \u2013 review & editing. Shengwei Wang: Funding acquisition, Conceptualization, Project administration, Supervision, Writing \u2013 review & editing. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgement The research presented in this paper is financially supported by a General Research Fund (No. 152165/20E) and the Hong Kong PhD Fellowship Scheme of the Research Grant Council (RGC) of the Hong Kong SAR. References [1] IEA. 2019 Global status report for buildings and construction. UN Environ Programme 2019. [2] Hong Kong Energy End-use Data 2021. https://www.emsd.gov.hk/filemanager/en/content_762/HKEEUD2021.pdf. [3] M. Dai X. Lu P. Xu Causes of low delta-T syndrome for chilled water systems in buildings J Build Eng 33 2021 101499 10.1016/j.jobe.2020.101499 Dai M, Lu X, Xu P. Causes of low delta-T syndrome for chilled water systems in buildings. J Build Eng 2021;33:101499. https://doi.org/10.1016/j.jobe.2020.101499. [4] J. Ma J. Qin T. Salsbury P. Xu Demand reduction in building energy systems based on economic model predictive control Chem Eng Sci 67 2012 92 100 10.1016/j.ces.2011.07.052 Ma J, Qin J, Salsbury T, Xu P. Demand reduction in building energy systems based on economic model predictive control. Chem Eng Sci 2012;67:92\u2013100. https://doi.org/10.1016/j.ces.2011.07.052. [5] R. Tang S. Wang K. Shan H. Cheung Optimal control strategy of central air-conditioning systems of buildings at morning start period for enhanced energy efficiency and peak demand limiting Energy 151 2018 771 781 10.1016/j.energy.2018.03.032 Tang R, Wang S, Shan K, Cheung H. Optimal control strategy of central air-conditioning systems of buildings at morning start period for enhanced energy efficiency and peak demand limiting. Energy 2018;151:771\u201381. https://doi.org/10.1016/j.energy.2018.03.032. [6] S. Wang Z. Ma Supervisory and Optimal Control of Building HVAC Systems: A Review HVACR Res 14 2008 3 32 10.1080/10789669.2008.10390991 Wang S, Ma Z. Supervisory and Optimal Control of Building HVAC Systems: A Review. HVACR Res 2008;14:3\u201332. https://doi.org/10.1080/10789669.2008.10390991. [7] G. Geng G.M. Geary On performance and tuning of PID controllers in HVAC systems Proc IEEE Int Conf Control Appl 2 1993 819 824 10.1109/CCA.1993.348229 Geng G, Geary GM. On performance and tuning of PID controllers in HVAC systems. Proc. IEEE Int. Conf. Control Appl., 1993, p. 819\u201324 vol.2. https://doi.org/10.1109/CCA.1993.348229. [8] Z. Ma S. Wang Supervisory and optimal control of central chiller plants using simplified adaptive models and genetic algorithm Appl Energy 88 2011 198 211 10.1016/j.apenergy.2010.07.036 Ma Z, Wang S. Supervisory and optimal control of central chiller plants using simplified adaptive models and genetic algorithm. Appl Energy 2011;88:198\u2013211. https://doi.org/10.1016/j.apenergy.2010.07.036. [9] W. Liang R. Quinte X. Jia J.-Q. Sun MPC control for improving energy efficiency of a building air handler for multi-zone VAVs Build Environ 92 2015 256 268 10.1016/j.buildenv.2015.04.033 Liang W, Quinte R, Jia X, Sun J-Q. MPC control for improving energy efficiency of a building air handler for multi-zone VAVs. Build Environ 2015;92:256\u201368. https://doi.org/10.1016/j.buildenv.2015.04.033. [10] J.D. Álvarez J.L. Redondo E. Camponogara J. Normey-Rico M. Berenguel P.M. Ortigosa Optimizing building comfort temperature regulation via model predictive control Energy Build 57 2013 361 372 10.1016/j.enbuild.2012.10.044 Álvarez JD, Redondo JL, Camponogara E, Normey-Rico J, Berenguel M, Ortigosa PM. Optimizing building comfort temperature regulation via model predictive control. Energy Build 2013;57:361\u201372. https://doi.org/10.1016/j.enbuild.2012.10.044. [11] X. Lu Z. Pang Y. Fu Z. O\u2019Neill Advances in research and applications of CO2-based demand-controlled ventilation in commercial buildings: A critical review of control strategies and performance evaluation Build Environ 223 2022 109455 10.1016/j.buildenv.2022.109455 Lu X, Pang Z, Fu Y, O\u2019Neill Z. Advances in research and applications of CO2-based demand-controlled ventilation in commercial buildings: A critical review of control strategies and performance evaluation. Build Environ 2022;223:109455. https://doi.org/10.1016/j.buildenv.2022.109455. [12] T. Hong Z. Wang X. Luo W. Zhang State-of-the-art on research and applications of machine learning in the building life cycle Energy Build 212 2020 109831 10.1016/j.enbuild.2020.109831 Hong T, Wang Z, Luo X, Zhang W. State-of-the-art on research and applications of machine learning in the building life cycle. Energy Build 2020;212:109831. https://doi.org/10.1016/j.enbuild.2020.109831. [13] Z. Wang T. Hong Reinforcement learning for building controls: The opportunities and challenges Appl Energy 269 2020 115036 10.1016/j.apenergy.2020.115036 Wang Z, Hong T. Reinforcement learning for building controls: The opportunities and challenges. Appl Energy 2020;269:115036. https://doi.org/10.1016/j.apenergy.2020.115036. [14] Z. Zhang A. Chong Y. Pan C. Zhang K.P. Lam Whole building energy model for HVAC optimal control: A practical framework based on deep reinforcement learning Energy Build 199 2019 472 490 10.1016/j.enbuild.2019.07.029 Zhang Z, Chong A, Pan Y, Zhang C, Lam KP. Whole building energy model for HVAC optimal control: A practical framework based on deep reinforcement learning. Energy Build 2019;199:472\u201390. https://doi.org/10.1016/j.enbuild.2019.07.029. [15] Z. Zou X. Yu S. Ergan Towards optimal control of air handling units using deep reinforcement learning and recurrent neural network Build Environ 168 2020 106535 10.1016/j.buildenv.2019.106535 Zou Z, Yu X, Ergan S. Towards optimal control of air handling units using deep reinforcement learning and recurrent neural network. Build Environ 2020;168:106535. https://doi.org/10.1016/j.buildenv.2019.106535. [16] G. Halhoul Merabet M. Essaaidi M. Ben Haddou B. Qolomany J. Qadir M. Anan Intelligent building control systems for thermal comfort and energy-efficiency: A systematic review of artificial intelligence-assisted techniques Renew Sustain Energy Rev 144 2021 110969 10.1016/j.rser.2021.110969 Halhoul Merabet G, Essaaidi M, Ben Haddou M, Qolomany B, Qadir J, Anan M, et al. Intelligent building control systems for thermal comfort and energy-efficiency: A systematic review of artificial intelligence-assisted techniques. Renew Sustain Energy Rev 2021;144:110969. https://doi.org/10.1016/j.rser.2021.110969. [17] D.A. Bristow M. Tharayil A.G. Alleyne A survey of iterative learning control IEEE Control Syst Mag 26 2006 96 114 10.1109/MCS.2006.1636313 Bristow DA, Tharayil M, Alleyne AG. A survey of iterative learning control. IEEE Control Syst Mag 2006;26:96\u2013114. https://doi.org/10.1109/MCS.2006.1636313. [18] S. Arimoto S. Kawamura F. Miyazaki Bettering operation of Robots by learning J Robot Syst 1 1984 123 140 10.1002/rob.4620010203 Arimoto S, Kawamura S, Miyazaki F. Bettering operation of Robots by learning. J Robot Syst 1984;1:123\u201340. https://doi.org/10.1002/rob.4620010203. [19] A. Tayebi Adaptive iterative learning control for robot manipulators Automatica 40 2004 1195 1203 10.1016/j.automatica.2004.01.026 Tayebi A. Adaptive iterative learning control for robot manipulators. Automatica 2004;40:1195\u2013203. https://doi.org/10.1016/j.automatica.2004.01.026. [20] K.L. Barton D.J. Hoelzle A.G. Alleyne A.J.W. Johnson Cross-coupled iterative learning control of systems with dissimilar dynamics: design and implementation Int J Control 84 2011 1223 1233 10.1080/00207179.2010.500334 Barton KL, Hoelzle DJ, Alleyne AG, Johnson AJW. Cross-coupled iterative learning control of systems with dissimilar dynamics: design and implementation. Int J Control 2011;84:1223\u201333. https://doi.org/10.1080/00207179.2010.500334. [21] Q. Meng X. Yan Q. Ren H. Adeli Variable air volume air-conditioning experiment system with advanced controls Indoor Built Environ 25 2016 114 127 10.1177/1420326X14540314 Meng Q, Yan X, Ren Q, Adeli H. Variable air volume air-conditioning experiment system with advanced controls. Indoor Built Environ 2016;25:114\u201327. https://doi.org/10.1177/1420326X14540314. [22] M. Minakais S. Mishra J.T. Wen Database-Driven Iterative Learning for Building Temperature Control IEEE Trans Autom Sci Eng 16 2019 1896 1906 10.1109/TASE.2019.2899377 Minakais M, Mishra S, Wen JT. Database-Driven Iterative Learning for Building Temperature Control. IEEE Trans Autom Sci Eng 2019;16:1896\u2013906. https://doi.org/10.1109/TASE.2019.2899377. [23] Seem JE, House JM, Alcala CF. Model Selection for Predicting the Return Time from Night Setback; 2016. [24] Gunay B, Shi Z, Ashouri A, Newsham G. Development of a clustering-based morning start time estimation algorithm for space heating and cooling. Proc. 6th ACM Int. Conf. Syst. Energy-Effic. Build. Cities Transp., New York NY USA: ACM; 2019, p. 297\u2013305. https://doi.org/10.1145/3360322.3360840. [25] R.S. Sutton A.G. Barto Reinforcement Learning, second edition: An Introduction 2018 MIT Press Sutton RS, Barto AG. Reinforcement Learning, second edition: An Introduction. MIT Press; 2018. [26] S. Qiu Z. Li Z. Li J. Li S. Long X. Li Model-free control method based on reinforcement learning for building cooling water systems: Validation by measured data-based simulation Energy Build 218 2020 110055 10.1016/j.enbuild.2020.110055 Qiu S, Li Z, Li Z, Li J, Long S, Li X. Model-free control method based on reinforcement learning for building cooling water systems: Validation by measured data-based simulation. Energy Build 2020;218:110055. https://doi.org/10.1016/j.enbuild.2020.110055. [27] G.P. Henze J. Schoenmann Evaluation of Reinforcement Learning Control for Thermal Energy Storage Systems HVACR Res 9 2003 259 275 10.1080/10789669.2003.10391069 Henze GP, Schoenmann J. Evaluation of Reinforcement Learning Control for Thermal Energy Storage Systems. HVACR Res 2003;9:259\u201375. https://doi.org/10.1080/10789669.2003.10391069. [28] Y. Chen L.K. Norford H.W. Samuelson A. Malkawi Optimal control of HVAC and window systems for natural ventilation through reinforcement learning Energy Build 169 2018 195 205 10.1016/j.enbuild.2018.03.051 Chen Y, Norford LK, Samuelson HW, Malkawi A. Optimal control of HVAC and window systems for natural ventilation through reinforcement learning. Energy Build 2018;169:195\u2013205. https://doi.org/10.1016/j.enbuild.2018.03.051. [29] TRNSYS 18, a transient simulation program. https://sel.me.wisc.edu/trnsys/features/trns ys18_0_updates.pdf. [30] S. Wang Dynamic simulation of a building central chilling system and evaluation of EMCS on-line control strategies Build Environ 33 1998 1 20 10.1016/S0360-1323(97)00019-X Wang S. Dynamic simulation of a building central chilling system and evaluation of EMCS on-line control strategies. Build Environ 1998;33:1\u201320. https://doi.org/10.1016/S0360-1323(97)00019-X.",
+    "scopus-id": "85146456801",
+    "coredata": {
+        "eid": "1-s2.0-S0306261923000144",
+        "dc:description": "Air-conditioning systems in commercial buildings are usually switched on in advance to precool the indoor spaces to create an acceptable working environment upon the office hour. However, the central cooling systems often fail to provide enough cooling supply capacity due to the high cooling demand at the morning start period especially in hot seasons. In this situation, the imbalanced cooling distribution in the air-conditioning systems often results in large difference of cooling-down speed among different building zones, so that the precooling time has to be extended, leading to significant energy waste. This study proposes a new iterative learning control strategy to properly manage the cooling distribution (i.e., water valve openings of air-handling units) for achieving uniform cooling (i.e., synchronously reaching the indoor dry-blub temperature setpoint) among building zones during the morning start period. A reinforcement learning method (Q-learning) is adopted for the control parameter setting of the developed iterative learning controller. Validation tests are conducted and results show that the proposed control strategy could reduce the daily precooling time up to 12.1% during typical days in Hong Kong by achieving uniform cooling. The daily energy consumption could be reduced between 5.1% and 17.8% by shortening morning start period, corresponding a weekly electrical energy saving between 1,376 kWh and 2,916 kWh in the test building.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-03-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0306261923000144",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Dai, Mingkun"
+            },
+            {
+                "@_fa": "true",
+                "$": "Li, Hangxin"
+            },
+            {
+                "@_fa": "true",
+                "$": "Wang, Shengwei"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0306261923000144"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0306261923000144"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0306-2619(23)00014-4",
+        "prism:volume": "334",
+        "articleNumber": "120650",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "A reinforcement learning-enabled iterative learning control strategy of air-conditioning systems for building energy saving by shortening the morning start period",
+        "prism:copyright": "© 2023 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03062619",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Iterative learning control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Precooling control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Reinforcement learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building energy efficiency"
+            },
+            {
+                "@_fa": "true",
+                "$": "Indoor environment control"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Energy",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "120650",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 March 2023",
+        "prism:doi": "10.1016/j.apenergy.2023.120650",
+        "prism:startingPage": "120650",
+        "dc:identifier": "doi:10.1016/j.apenergy.2023.120650",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "418",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43392",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "409",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "45067",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "320",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "49879",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "278",
+            "@width": "578",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46916",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "272",
+            "@width": "579",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "50000",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "293",
+            "@width": "687",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "39885",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "319",
+            "@width": "711",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33043",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "640",
+            "@width": "778",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94296",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "280",
+            "@width": "373",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "11760",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "482",
+            "@width": "578",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "57101",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "513",
+            "@width": "600",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "85207",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "261",
+            "@width": "579",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "22913",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "256",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34850",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "353",
+            "@width": "556",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23970",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "409",
+            "@width": "559",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40410",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "218",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8907",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "161",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9745",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "98",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5941",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "105",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8180",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "103",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9291",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "93",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4931",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "98",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4989",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "199",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8705",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3880",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "197",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8761",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "191",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10520",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "99",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4438",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "76",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4700",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "139",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4313",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "160",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7174",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1849",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "289528",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1810",
+            "@width": "2461",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "296530",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1416",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "369814",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1233",
+            "@width": "2560",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "354053",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1206",
+            "@width": "2563",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "408446",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1298",
+            "@width": "3043",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "306213",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1413",
+            "@width": "3150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "243133",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2833",
+            "@width": "3445",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "609402",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1240",
+            "@width": "1654",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "93558",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2135",
+            "@width": "2561",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "354519",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2275",
+            "@width": "2659",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "648422",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1155",
+            "@width": "2565",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "148691",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1132",
+            "@width": "3248",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "217967",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1564",
+            "@width": "2462",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "154446",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1809",
+            "@width": "2474",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "264078",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17008",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8031",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18625",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12128",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26835",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5306",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4773",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3122",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "738",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11339",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22289",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9191",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8912",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9345",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12563",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16705",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8047",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261923000144-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "574021",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85146456801"
+    }
+}}

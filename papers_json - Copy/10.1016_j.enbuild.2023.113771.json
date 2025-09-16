@@ -1,0 +1,1106 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85179049322",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 90 Energy and Buildings ENERGYBUILDINGS 2023-11-19 2023-11-19 2023-12-05 2023-12-05 2023-12-28T11:01:14 1-s2.0-S0378778823010010 S0378-7788(23)01001-0 S0378778823010010 10.1016/j.enbuild.2023.113771 S300 S300.1 FULL-TEXT 1-s2.0-S0378778823X00231 2024-01-05T19:25:33.457921Z 0 0 20240115 2024 2023-11-19T22:45:27.041386Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst nomenclature orcid primabst ref 0378-7788 03787788 UNLIMITED CRUI2023 true 303 303 C Volume 303 54 113771 113771 113771 20240115 15 January 2024 2024-01-15 2024 Special Issue on Occupant-centric control strategies for building systems article fla © 2023 The Authors. Published by Elsevier B.V. ENHANCINGENERGYEFFICIENCYCOMFORTAMULTIDOMAINAPPROACHDEVELOPMENTANOVELHUMANTHERMOREGULATORYMODELFOROCCUPANTCENTRICCONTROL BUONOMANO A Nomenclature 1 Introduction 1.1 The role of physiological response for human body comfort 1.2 Managing occupant-centric control through physiological information 1.3 Building energy performance tools implementing personal comfort models 2 Research objectives and contributions 3 Methodology 3.1 Building energy model 3.2 Human body thermal model 3.2.1 Human body discretization procedure 3.2.2 Heat transfer within the tissues 3.2.3 CO2 generation rates 3.3 MLNLP optimization for indoor setpoint evaluation 3.4 MPC for HVAC operation 3.4.1 MPC optimization problem 4 Experimental setup 4.1 NEXT.ROOM: targeting human-centric and multi-domain investigation 4.2 A study approach for assessing human physiological information 5 Proof-of-concept 6 Results 6.1 Accuracy of the physiological thermal model 6.2 Proposed HVAC control strategies 6.3 Results comparison 7 Discussion 8 Conclusions CRediT authorship contribution statement Acknowledgements References UNITED 2023 N UNPOPULATIONDIVISIONDATAPORTALINTERACTIVEACCESSGLOBALDEMOGRAPHICINDICATORS MARINRESTREPO 2020 235 247 L ROUMI 2023 109898 S HALHOULMERABET 2021 110969 G BALALI 2023 113496 Y HOPPE 2002 661 665 P NAGY 2023 110518 Z KIM 2018 114 124 J CHEN 2023 109919 K JUNG 2019 104 119 W BARONE 2023 113015 G ZHANG 2020 106489 Y FIALA 1999 1957 1972 D LIU 2008 361 366 W LIU 2008 361 366 W VESELA 2019 439 450 S YANG 2017 168 177 J LLOYD 2022 247 261 A MARTINSGNECCO 2023 576 V LI 2023 106805 W PARK 2019 106351 J OBRIEN 2020 106738 W WANG 2023 112899 Z PANG 2020 273 281 Z ONEILL 2020 257 281 Z HEYDARIAN 2020 106928 A SCHWEIKER 2020 106804 M PISELLO 2021 111359 A DONG 2022 369 B BERGER 2023 107196 C LI 2021 110859 X DENG 2020 109872 Z WU 2023 112873 Y AHAMED 2020 101114 M KARYONO 2020 100032 K DZYUBAN 2022 104496 Y WANG 2023 110290 L BUONOMANO 2016 361 386 A REWITZ 2022 109045 K CHEONG 2019 100936 K HABIBI 2017 S BUONOMANO 2019 20 36 A ANAND 2017 218 230 P BURATTI 2013 482 491 C HAWILA 2019 47 63 A LU 2019 S VALLADARES 2019 W LEI 2022 119742 Y VOSOUGHKHOSRAVI 2023 113245 S MALIK 2023 112756 J TIAN 2023 103422 X YANG 2022 104885 Z LI 2023 110235 L BUONOMANO 2014 788 807 A BUONOMANO 2016 301 A BUONOMANO 2017 263 285 A BARONE 2019 4107 G BARONE 2022 23 28 G 2022IEEEINTERNATIONALWORKSHOPMETROLOGYFORLIVINGENVIRONMENTMETROLIVEN MODELLINGTHERMALRESPONSEHUMANBODYFORTHERMALCOMFORTASSESSMENTININDOORSPACESEXPERIMENTALVALIDATION GONZALEZALONSO 2012 340 346 J NELSON 1974 1179 1189 R PERSILY 2017 868 879 A KAYNAKLI 2005 165 174 O PEI 2022 J FANG 1998 276 284 L FANG 1998 80 90 L MATURO 2023 117220 A VITTORI 2022 108744 F DOHERTY 1988 1371 1385 T LIU 2011 478 488 W FENG 2023 110047 Y DEDEAR 2002 549 561 R CUTORE 2023 116713 E DAVIES 1994 217 235 M OLESEN 2002 537 548 B LIU 2019 106281 S MAZZEI 1999 571 582 P BUONOMANOX2024X113771 BUONOMANOX2024X113771XA Full 2023-11-19T23:15:23Z ElsevierBranded CRUI: Hybrid journals 2023 http://creativecommons.org/licenses/by/4.0/ 2024-12-05T00:00:00.000Z 2024-12-05T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the CC BY license. © 2023 The Authors. Published by Elsevier B.V. 2023-12-12T08:58:46.300Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined 20172FSCH4 Governo Italiano Ministero dell'Istruzione dell'Universita e della Ricerca http://data.elsevier.com/vocabulary/SciValFunders/501100024370 http://sws.geonames.org/3175395 NEXT Politecnico di Torino POLITO Politecnico di Torino http://data.elsevier.com/vocabulary/SciValFunders/100013000 http://sws.geonames.org/3175395/ Marco Arnesano Italian Ministry of Research MIUR Ministero dell\u2019Istruzione, dell\u2019Università e della Ricerca http://data.elsevier.com/vocabulary/SciValFunders/501100003407 http://sws.geonames.org/3175395/ The research has been co-founded by the Italian Ministry of Research through the NEXT. COM (Prot. 20172FSCH4) \u201cTowards the NEXT generation of Multiphysics and multidomain environmental COMfort models: theory elaboration and validation experiment\u201d project, within the PRIN 2017 program. Finally, the authors sincerely thank all the project NEXT.COM partners, such as Enrico Fabrizio (Politecnico di Torino) and Marco Arnesano (Università eCAMPUS). item S0378-7788(23)01001-0 S0378778823010010 1-s2.0-S0378778823010010 10.1016/j.enbuild.2023.113771 271089 2024-01-05T19:25:33.457921Z 2024-01-15 UNLIMITED CRUI2023 1-s2.0-S0378778823010010-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/MAIN/application/pdf/d3d85c024a05fd4f4022766b31edaeea/main.pdf main.pdf pdf true 8709391 MAIN 22 1-s2.0-S0378778823010010-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/PREVIEW/image/png/83fee0b633ccbea7aff5dfd75a1ac128/main_1.png main_1.png png 56115 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0378778823010010-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr8/DOWNSAMPLED/image/jpeg/ab09eb9829ad2f2a4874c56af06378c8/gr8.jpg gr8 gr8.jpg jpg 48096 202 732 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr7/DOWNSAMPLED/image/jpeg/0d7681466a62d21e1a49afa76248f96a/gr7.jpg gr7 gr7.jpg jpg 30034 221 378 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr6/DOWNSAMPLED/image/jpeg/99651d23b71e2f84dc91209e70b73073/gr6.jpg gr6 gr6.jpg jpg 43991 215 799 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr5/DOWNSAMPLED/image/jpeg/e3783ebb3d844fcdc2e3dab0983d08dd/gr5.jpg gr5 gr5.jpg jpg 22113 263 668 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr9/DOWNSAMPLED/image/jpeg/37ffed0e9928fde2980be5550c209fb0/gr9.jpg gr9 gr9.jpg jpg 33803 190 701 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr15/DOWNSAMPLED/image/jpeg/0be1d6fa149ab7b87ac3a9f3de197b07/gr15.jpg gr15 gr15.jpg jpg 74474 572 658 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr14/DOWNSAMPLED/image/jpeg/8461eb01cca15067f3104f91c4b1f46c/gr14.jpg gr14 gr14.jpg jpg 74027 608 655 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr17.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr17/DOWNSAMPLED/image/jpeg/71b2f98a361f8b82a29d3f7cbf850174/gr17.jpg gr17 gr17.jpg jpg 40110 496 378 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr16.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr16/DOWNSAMPLED/image/jpeg/456980186ae0c48e21d8f4bd7aad70d0/gr16.jpg gr16 gr16.jpg jpg 41293 500 378 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr4/DOWNSAMPLED/image/jpeg/36deb61ee34dbf5b95ef67bd54d151df/gr4.jpg gr4 gr4.jpg jpg 30622 339 710 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr19.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr19/DOWNSAMPLED/image/jpeg/90122a100e103f1909e73f6fe8129abf/gr19.jpg gr19 gr19.jpg jpg 65186 476 535 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr3/DOWNSAMPLED/image/jpeg/8962d34af671a4381ea76b67da8b1bdb/gr3.jpg gr3 gr3.jpg jpg 43141 235 701 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr18.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr18/DOWNSAMPLED/image/jpeg/77a0518d6f991af71f76d143920dd635/gr18.jpg gr18 gr18.jpg jpg 90966 601 678 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr2/DOWNSAMPLED/image/jpeg/145c66b1b423c4c4aa6777ddcb09fe0f/gr2.jpg gr2 gr2.jpg jpg 37681 420 536 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr1/DOWNSAMPLED/image/jpeg/53497fca12005eb09e8d1f031098afdb/gr1.jpg gr1 gr1.jpg jpg 100522 630 747 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr11/DOWNSAMPLED/image/jpeg/48feecb07b750943b8acd3e916d7742f/gr11.jpg gr11 gr11.jpg jpg 36975 180 670 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr10/DOWNSAMPLED/image/jpeg/3d6c0ef64ccd1aa1fd9b26a56f6dae23/gr10.jpg gr10 gr10.jpg jpg 65010 404 716 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr13/DOWNSAMPLED/image/jpeg/0c8e532aa2c67f949d273d6970123365/gr13.jpg gr13 gr13.jpg jpg 43064 474 382 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr12/DOWNSAMPLED/image/jpeg/152ab035da7d6dbeb70eb146fc8104dc/gr12.jpg gr12 gr12.jpg jpg 99735 837 383 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823010010-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr8/THUMBNAIL/image/gif/6258b4550421fe9485b64a1cc7bf4920/gr8.sml gr8 gr8.sml sml 5879 61 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr7/THUMBNAIL/image/gif/11943bff4e59bbd57ea6cbfcbfc23b5d/gr7.sml gr7 gr7.sml sml 10549 128 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr6/THUMBNAIL/image/gif/efba84600e2f772f285eb9c67d48b8e7/gr6.sml gr6 gr6.sml sml 4907 59 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr5/THUMBNAIL/image/gif/3160c7758750824c90f161342736109c/gr5.sml gr5 gr5.sml sml 3913 86 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr9/THUMBNAIL/image/gif/727ac9716fe8eac1e080c351d7800a1a/gr9.sml gr9 gr9.sml sml 7542 59 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr15/THUMBNAIL/image/gif/413ab10bae7fd8b3f93bd21a6b98ef00/gr15.sml gr15 gr15.sml sml 10350 163 188 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr14/THUMBNAIL/image/gif/753929674c31bfb668172dcc487afbd6/gr14.sml gr14 gr14.sml sml 9660 163 176 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr17.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr17/THUMBNAIL/image/gif/360bd8a5ffec77248e2799995b7299e8/gr17.sml gr17 gr17.sml sml 7047 164 125 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr16.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr16/THUMBNAIL/image/gif/68a4de5f5ea9e31f8d5c53b6fb7dc535/gr16.sml gr16 gr16.sml sml 7066 164 124 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr4/THUMBNAIL/image/gif/94d65ba37048b7688fd0b9375426b459/gr4.sml gr4 gr4.sml sml 5096 105 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr19.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr19/THUMBNAIL/image/gif/5a62e8428eca20cf1ff2a7431ab47701/gr19.sml gr19 gr19.sml sml 10871 164 184 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr3/THUMBNAIL/image/gif/9b733982d02aacdf58593601abf73d4c/gr3.sml gr3 gr3.sml sml 6168 74 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr18.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr18/THUMBNAIL/image/gif/84788aba68824d6a532c555ab96a6ed1/gr18.sml gr18 gr18.sml sml 10470 164 185 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr2/THUMBNAIL/image/gif/33c816b2b44f62ca30e086c2c38ee1ba/gr2.sml gr2 gr2.sml sml 8610 164 209 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr1/THUMBNAIL/image/gif/e37f4df04f3a1ba75837b589c8dc946c/gr1.sml gr1 gr1.sml sml 10989 164 194 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr11/THUMBNAIL/image/gif/32e6a0ebcc3fb4e4455fe663fa9c4caf/gr11.sml gr11 gr11.sml sml 6182 59 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr10/THUMBNAIL/image/gif/0848c8e2e90b67b464b496e873194731/gr10.sml gr10 gr10.sml sml 7969 124 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr13/THUMBNAIL/image/gif/90c8635e40cf22af63c3911f0d686805/gr13.sml gr13 gr13.sml sml 7388 164 132 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/gr12/THUMBNAIL/image/gif/f3ac400938ff230a18fb27902d8de610/gr12.sml gr12 gr12.sml sml 7274 164 75 IMAGE-THUMBNAIL 1-s2.0-S0378778823010010-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/43aeda4ca26e377185c84cf3c8d04dc2/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 284084 896 3240 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/1a0f7448e1f5c4ee573f538740317285/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 177189 977 1673 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/722c2bf34e9eb4ae4f6e0c85ca086fd6/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 252676 953 3539 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/abcd483836d3f8b166bb71a451915402/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 115558 1165 2957 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/268ee61591e20eb076755416a9d5ddeb/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 210146 843 3104 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/d382365290a47af66bf5976861659e76/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 233903 1521 1749 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/65839d0e2c0e567bfe072355c83d13b3/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 235959 1615 1740 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr17_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/6afd1c65155756c99adddd6c107a5afc/gr17_lrg.jpg gr17 gr17_lrg.jpg jpg 128304 1318 1004 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr16_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/e1044d86337682bf791cc9fb20975976/gr16_lrg.jpg gr16 gr16_lrg.jpg jpg 128105 1328 1004 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/00382a29e3fde646b108e0d57fb17d0a/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 129493 901 1886 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr19_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/0213b0373a2731aba1da63de43c481f7/gr19_lrg.jpg gr19 gr19_lrg.jpg jpg 347186 2105 2368 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/88b620ac0b95d2d812fc9de8fe684c17/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 131040 625 1862 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr18_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/4ea5171e4b334f2fd04ccc5bc912f2e1/gr18_lrg.jpg gr18 gr18_lrg.jpg jpg 475396 2658 3001 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/936ac60a4474d3fe3907e923d83b3cf5/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 116232 1117 1425 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/3f6119ce5c7ed886dd169b5390aa10aa/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 289904 1673 1985 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/6e30162376c7e1fc84c0801f186d3d05/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 215153 798 2965 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/a5f0c46e7812685b29717c6634e2becc/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 410745 1791 3171 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/cfcf29f86c63b48b1ed7855d5e76e59e/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 285252 2100 1693 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/HIGHRES/image/jpeg/fce72f44e6a2a82baadf472f9f62af55/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 534179 3714 1699 IMAGE-HIGH-RES 1-s2.0-S0378778823010010-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/141e91f304a70fee184dcde92b0ef0cc/si1.svg si1 si1.svg svg 4343 ALTIMG 1-s2.0-S0378778823010010-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/751952e3c5479774dd1bbb557e2a90d8/si10.svg si10 si10.svg svg 47780 ALTIMG 1-s2.0-S0378778823010010-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/5a002d828dc0cf4b8ff6163b954a8463/si11.svg si11 si11.svg svg 36408 ALTIMG 1-s2.0-S0378778823010010-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/d6e5f6d599fa14df70dfdea474d4f473/si12.svg si12 si12.svg svg 58346 ALTIMG 1-s2.0-S0378778823010010-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/41c6900d5547952616fa00b5a2c1bd2f/si13.svg si13 si13.svg svg 4646 ALTIMG 1-s2.0-S0378778823010010-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/bc95c8e73e2dd9a48362b316fda8cd3c/si14.svg si14 si14.svg svg 38412 ALTIMG 1-s2.0-S0378778823010010-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/d121e379c1c32403c34ef1da81635054/si15.svg si15 si15.svg svg 3466 ALTIMG 1-s2.0-S0378778823010010-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/f1275dc3f0b1fe957e444332d5d37d4b/si16.svg si16 si16.svg svg 24312 ALTIMG 1-s2.0-S0378778823010010-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/2be0c070db7e75d640505792c39f9511/si17.svg si17 si17.svg svg 27721 ALTIMG 1-s2.0-S0378778823010010-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/866a0920ae55f072f66f22774c798d81/si18.svg si18 si18.svg svg 47412 ALTIMG 1-s2.0-S0378778823010010-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/1d153027c0daa289f7629ca207f6cd9e/si19.svg si19 si19.svg svg 5426 ALTIMG 1-s2.0-S0378778823010010-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/23f74676db3430bee8fce66d13ea207e/si2.svg si2 si2.svg svg 2776 ALTIMG 1-s2.0-S0378778823010010-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/5056ac4377221243cf986f8214719926/si20.svg si20 si20.svg svg 32201 ALTIMG 1-s2.0-S0378778823010010-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/d6ff963178e9084ae4c8781d0a2b4877/si21.svg si21 si21.svg svg 8398 ALTIMG 1-s2.0-S0378778823010010-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/6e80da38f5315a3f18248b391e4fc2c6/si22.svg si22 si22.svg svg 42170 ALTIMG 1-s2.0-S0378778823010010-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/78163ef76092b88cba25abf26fd96e96/si23.svg si23 si23.svg svg 71977 ALTIMG 1-s2.0-S0378778823010010-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/126210a04df567879ccd40f5241233b2/si24.svg si24 si24.svg svg 38996 ALTIMG 1-s2.0-S0378778823010010-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/07b33c1b7c1d4ccd6fbe0a0e4a687743/si25.svg si25 si25.svg svg 7189 ALTIMG 1-s2.0-S0378778823010010-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/24aee56745514a4fa7e6f5382b8df785/si26.svg si26 si26.svg svg 8164 ALTIMG 1-s2.0-S0378778823010010-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/9d1d84e47cf4cb9d6a0cd1b314e08c17/si27.svg si27 si27.svg svg 27185 ALTIMG 1-s2.0-S0378778823010010-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/87c8734a98fa8046bc3e3bcb4fdec477/si28.svg si28 si28.svg svg 38024 ALTIMG 1-s2.0-S0378778823010010-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/d81f064cd375860c629e1af0434ca27a/si29.svg si29 si29.svg svg 72419 ALTIMG 1-s2.0-S0378778823010010-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/9e5d48daa9427aa29e4b0197a762c148/si3.svg si3 si3.svg svg 2511 ALTIMG 1-s2.0-S0378778823010010-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/16d787e295b3966a769fe8476aa6edf2/si30.svg si30 si30.svg svg 76587 ALTIMG 1-s2.0-S0378778823010010-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/605a2e6cf9d6f6f4be2a54132b79845a/si4.svg si4 si4.svg svg 6291 ALTIMG 1-s2.0-S0378778823010010-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/e59ea0dc9df3c9ea5509ff02e9271718/si5.svg si5 si5.svg svg 43728 ALTIMG 1-s2.0-S0378778823010010-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/31e84db6afde67dc699c6b564e069988/si6.svg si6 si6.svg svg 12216 ALTIMG 1-s2.0-S0378778823010010-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/54c6ef7f1709df83893c74f278f20215/si7.svg si7 si7.svg svg 6863 ALTIMG 1-s2.0-S0378778823010010-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/410976144488088938fa6244d8e62a5a/si8.svg si8 si8.svg svg 10438 ALTIMG 1-s2.0-S0378778823010010-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823010010/image/svg+xml/7d44366593518ea770165f51d77e9a4a/si9.svg si9 si9.svg svg 10307 ALTIMG 1-s2.0-S0378778823010010-am.pdf am am.pdf pdf 2644551 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10QH4Q7NGQ1/MAIN/application/pdf/38f4559479719b9218777b6b2b9f8034/am.pdf ENB 113771 113771 S0378-7788(23)01001-0 10.1016/j.enbuild.2023.113771 The Authors Fig. 1 Research framework. Fig. 2 Discretisation procedure for human body simulation. Fig. 3 Optimization procedure of MLNLP problem. Fig. 4 Sensors\u2019 representation inside the NEXT.ROOM facility: (a) plan view with sensors and subject disposition in the test room, (b) 3D view. Fig. 5 First experimental path. Fig. 6 Second experimental path. Fig. 7 Room air temperature and velocity near the workstations of the two subjects. Fig. 8 Tskin comparison between measured and simulated for (left) subject 1 and (right) subject 2. Fig. 9 Temperature of the human body tissues vs. radius and time for (left) subject 1 and (right) subject 2. Fig. 10 Tskin temperature \u2013simulated versus measured for test subject 1 (a) and test subject 2 (b); boxplot for assessment of distribution of percentage relative error (c). Fig. 11 (left) CO2 and IAQ for test 2 and (right) CO2 emissions during test 2. Fig. 12 Optimization procedure to determine optimal indoor setpoints for test 1: (top) PMV* constraint space; (middle) PIAQ constraint space; (bottom) solution space of QHVAC. Fig. 13 MPC strategy for test 1: (top) manipulated variables prediction; (bottom) prediction of reference variable hair,ref of the system and cost function optimization. Fig. 14 Energy analysis for test 1: (top) optimized setpoints and cooling thermal needs; (bottom) optimized supply air thermal power and HVAC electricity needs. Fig. 15 Energy analysis for test 2: (top) optimized setpoints and heating thermal needs; (bottom) optimized supply air thermal power and HVAC electricity needs. Fig. 16 Comfort analysis for test 1: (top) thermal comfort; (bottom) perceived indoor air quality. Fig. 17 Comfort analysis for test 2: (top) thermal comfort; (bottom) perceived indoor air quality. Fig. 18 Comfort analysis comparison: reference versus proposed test #1 (top) and test #2 (bottom). Fig. 19 Energy analysis comparison: reference vs proposed test #1 (top) and test #2 (bottom). Table 1 Human body thermal properties. Parameter r K Ρ c unit m W/(m∙K) kg/m3 J/(kg∙K) core 0.059 0.504 1096 3304 muscle 0.081 0.504 1096 3304 fat 0.095 0.160 850 2300 skin 0.097 0.470 1085 3680 blood \u2013 \u2013 1069 3650 Table 2 NEXT.ROOM lighting and HVAC systems characteristics. Visualcharacteristics Illuminance on the desk plan (lx) Illuminance at the sight level (lx) Light Correlated Colour Temperature (CCT) [K] ∼500 ∼300 ∼4000 HVAC technical features Air velocity level Equipment\u2019s flow rate (m3/h) Flow rate in the air outlets (m3/h) Air exchange (vol/h) 2 (40 %) 128 87 0.7 4 (100 %) 320 230 1.8 Table 3 Body data and clothes \u2013 subject 1 and 2. Parameter Subject 1 Subject 2 Weight (kg) 78.4 55 Clothing level (clo) 0.41 0.61 Height (m) 1.80 1.57 Age (years) 23 26 Gender Male Female Drank water (kg) 0.125 No Test date 22/09/2021 17/10/2022 Table 4 Characteristics of investigated scenarios. Parameter Reference scenario Proposed scenario Test 1 Test 2 Test 1 Test 2 Tindoor 23 °C 25 °C f (occupant, PMV*, PD, QHVAC ) f (occupant, PMV*, PD, QHVAC ) HRindoor 40 % 50 % f (occupant, PMV*, PD, QHVAC ) f (occupant, PMV*, PD, QHVAC ) Air velocity fixed fixed f(occupant, V ̇ C O 2 ) f(occupant, V ̇ C O 2 ) Table 5 Comparison of energy and comfort analysis for proposed scenarios vs reference. Unit Reference Proposed Δ [%] Test #1 Cooling needs [kWh] 5.40 5.20 −3.7 Thermal discomfort a [h] 1.00 0.00 −40.0 b Indoor air quality discomfort a [h] 2.25 0.00 −90.0 b Electricity consumption [kWh] 2.60 2.27 −12.8 Test #2 Heating needs [kWh] 2.50 2.00 −20.0 Thermal discomfort a [h] 1.50 0.00 −60.0 b Indoor air quality discomfort a [h] 1.00 0.00 −40.0 b Electricity consumption [kWh] 1.77 1.63 −7.8 a Evaluated for occupancy time of 2.5 h. b Percentage result of the hours of discomfort avoided compared to the reference case. Enhancing energy efficiency and comfort with a multi-domain approach: Development of a novel human thermoregulatory model for occupant-centric control Annamaria Buonomano Conceptualization Methodology Supervision Investigation Writing \u2013 review & editing Funding acquisition Project administration a b Cesare Forzano Conceptualization Methodology Investigation Validation Supervision Formal analysis Writing \u2013 review & editing a Veronica Martins Gnecco Conceptualization Validation Methodology Investigation Formal analysis Data curation Writing \u2013 original draft Visualization c Ilaria Pigliautile Conceptualization Methodology Investigation Formal analysis Supervision Writing \u2013 original draft Visualization c d Anna Laura Pisello Conceptualization Methodology Investigation Supervision Writing \u2013 review & editing Funding acquisition Project administration c d Giuseppe Russo Conceptualization Validation Methodology Investigation Formal analysis Writing \u2013 review & editing Visualization a \u204e a Dept. of Industrial Engineering, University of Naples Federico II, P.le Tecchio, 80, 80125 Naples, Italy Dept. of Industrial Engineering University of Naples Federico II P.le Tecchio, 80 Naples 80125 Italy Dept. of Industrial Engineering, University of Naples Federico II, P.le Tecchio, 80, 80125 Naples, Italy b Dept. of Building, Civil and Environmental Engineering, Concordia University, 1455 De Maisonneuve Blvd. W., Montreal, Canada Dept. of Building, Civil and Environmental Engineering Concordia University 1455 De Maisonneuve Blvd. W. Montreal Canada Dept. of Building, Civil and Environmental Engineering, Concordia University, 1455 De Maisonneuve Blvd. W., Montreal, Canada c CIRIAF Interuniversity Research Center, University of Perugia Via G. Duranti 67, 06125 Perugia, Italy CIRIAF Interuniversity Research Center University of Perugia Via G. Duranti 67 Perugia 06125 Italy CIRIAF Interuniversity Research Center, University of Perugia Via G. Duranti 67, 06125 Perugia, Italy d Dept. of Engineering, University of Perugia, Via G. Duranti 93, 06125 Perugia, Italy Dept. of Engineering University of Perugia Via G. Duranti 93 Perugia 06125 Italy Dept. of Engineering, University of Perugia, Via G. Duranti 93, 06125 Perugia, Italy \u204e Corresponding author. Occupant Centric Control (OCC) strategies aims to achieve a more personalized and comfortable indoor environment, translating occupants' comfort requirements into real environmental conditions. This strategy relies on a multilevel non-linear programming optimization procedure to determine optimal thermo-hygrometric setpoints. The objective is to minimize space heating and cooling requirements while addressing multi-domain comfort concerns related to individual thermal sensations and perceived air quality. To facilitate this process, this study adopts a novel Personal Comfort Model (PCM), incorporating physiological factors to predict occupants' thermal sensations and CO2 intakes. The PCM's reliable predictive capabilities are confirmed through validation with real experimental data from a test room at the University of Perugia. For detailed energy analyses, considering occupants' subjective comfort preferences, the PCM is seamlessly integrated into DETECt, an in-house building energy performance simulation tool developed by the University of Naples Federico II, for the design of advanced control algorithms and energy efficiency strategies. To effectively manage the HVAC system, a model predictive control is implemented, using the determined setpoints to ensure mechanical ventilation and maximize cost savings. The proof of concept for the developed methodology involves simulating experimental tests using the thermal model of the human body and the new facility management system, to be simulated and optimized by means of the enhanced building energy performance simulation tool, exploited for the design and operation of more occupant-centric and sustainable buildings. The proposed study demonstrates that through the developed OCC strategy enables a significant reduction in thermal discomfort (40 % and 60 % less than the occupation time for test 1 and test 2, respectively) compared to reference scenarios. Additionally, energy analysis reveals high efficiency, achieving savings of 12.8 % and 7.8 % of electricity consumed for HVAC system operation. Keywords Physiological thermal comfort models Building energy performance simulation tools Human-body thermal sensation Occupant centric control Multi-level nonlinear programming MPC control for HVAC Multi-domain comfort model Perceived indoor air quality Data availability Data will be made available on request. Nomenclature Abbreviations ANN Artificial Neural Network BMR Baseline Metabolic Rate CNN Convolutional Neural Network GHG Greenhouse Gas IEQ Indoor Environmental Quality IoT Internet of Things HVAC Heating, Ventilation and Air Conditioning PCM Personal Comfort Models PIAQ Perceived Indoor Air Quality PMV Predicted Mean Vote PPD Percentage of People Dissatisfied OCC Occupant-Centric Control Acronymous A surface area [m2] ACC acceptability index [-] CE caloric equivalent [W/(kg/s)] CR core layer f enhancement factor of skin surface [-] F view factor [-] h enthalpy [kJ/kg] HR heart rate [bpm] I clothing resistance [clo] k thermal conductivity [W/(m∙K)] m ̇ flow rate [kg/s] M metabolism [W/kg] MR rate of metabolic heat accumulated [W/kg] p pressure [Pa] Q ̇ thermal power [W] r radius [m] R thermal resistance [K/W] SK skin t time [s] T temperature [°C] U internal energy [J] v velocity [m/s] V volume [m3] w moisture [-] W work of the human body [W/kg] x decision variables Greek letters Γ control horizon Δ variation ε emissivity [-] η energetic efficiency of human body [-] Λ prediction horizon ρ density [kg/m3] σ Boltzmann constant [W/(m2∙K4)] φ relative humidity [%] Subscripts b body c convective cl clothing dif diffusion ev evaporative f forced in indoor l latent heat mr mean radiant mv manipulated variables n natural op operative p pressure r radiative res respiration rsw regulatory sweating s sensible heat SIG signal sw sweating tot total va vapor air vap vaporization of water w wall 1 Introduction Almost 40 % of the global energy consumption and 28 % of the greenhouse gas (GHG) emissions are related to the operation of buildings [1]. Efforts are being made worldwide to understand the best practices that lead to a more sustainable use of the resources, while maintaining acceptable levels of comfort for occupants. However, the ongoing global population growth, which reached eight billion people in 2022 [2], claims for the development of innovative solutions to improve living conditions without compromising the environment and the ability of future generations to meet their needs. People typically spend about 90 % of their time indoors [3], that have a significant impact on their well-being and quality of life, and on the energy use. This has led to dedicated efforts to improve occupants\u2019 comfort perception, especially considering the narrow relationship between indoor environmental quality (IEQ) and people\u2019s health, well-being, productivity and social interactions [4]. Particularly, building active systems are being more demanded to maintain acceptable levels of satisfaction, which increases buildings\u2019 energy use even with the energy efficiency trends demonstrated in recent reports and standards [5]. Designers, architects, engineers, and construction managers must work together and set shared commitments to create healthier, sustainable and energy efficient indoor spaces by continuously improving the design, operation, and user engagement to achieve a harmonious equilibrium between energy consumption and occupants\u2019 comfort. Classical thermal comfort models were already largely explored in literature, introducing approaches that try to describe occupants\u2019 comfort perception with certain environmental conditions. Fanger introduced in the 60 s a fairly simple approach to predict the Predicted Mean Vote (PMV) and the Percentage of People Dissatisfied (PPD) based on key environmental parameters collected through experimental monitoring, and personal characteristics. As a result, the control and operation of buildings' heating, ventilation, and air conditioning (HVAC) systems have been based on constant setpoints, chosen conservatively by designers to accommodate worst-case scenarios; this practice frequently results in over sizing of system components and inefficient energy use. Occupant-centric control strategies approaches can be explored, since static comfort setpoints may not accurately reflect the actual dynamic nature of occupant behaviour and thermal comfort requirements [6,7]. Although the important contribution that classical models had added to the scientific discussion, occupants are still considered as passive to the thermal sensations and their adaptation potential, linked to physiological and cultural aspects, are often neglected [8]. Neglecting the adaptation potential of occupants can result in occupant dissatisfaction and suboptimal building performance, and increased energy costs. To address these issues, building professionals must recognize and consider occupants' adaptive behaviour in the design and operation of buildings. It is crucial to investigate the use of Building Energy Performance Simulations (BEPS), by implementing novel and adaptive comfort models. This will allow for accurately evaluating occupants' dynamic thermal comfort requirements and assessing how buildings perform in terms of energy use, thermal comfort, and other environmental factors [9] Ultimately, adaptive comfort models implemented in building energy performance simulations provide a powerful tool for designing and operating indoor spaces that prioritize occupant well-being while achieving energy efficiency and sustainability goals. 1.1 The role of physiological response for human body comfort Researchers are more recently switching from the general approaches, based on experimental steady-state conditions and general assumptions, to a more personalized perspective. Personal Comfort Models (PCM) are designed to address the individual variation in occupants\u2019 environmental preferences. PCMs moves away from the traditional one-size-fits-all approach and embraces a more personalized and precise methodology, incorporating indicators that provide deeper insights into the subjects\u2019 comfort requirements. These models utilize a range of indicators, such as physiological signals, environmental data, and personal characteristics, to develop data-driven approaches through advanced modelling algorithms [10]. Specifically, physiological data is able to overcome the lack of personal adaptation of models to suit occupants\u2019 particular preferences, as well as capturing thermal comfort under transient scenarios [11]. Therefore, by considering environmental conditions, PCMs ensure that the comfort predictions are tailored to the unique characteristics of each space [12]. Furthermore, PCMs recognize the significance of personal characteristics in determining comfort preferences including factors such as age, gender, clothing, and activity level which influence an individual\u2019s thermal comfort requirements. Specifically referring to the thermal environment, a PCM must consider that the thermal comfort sensation strongly depends on thermoregulatory mechanisms \u2013 which in turn activate dynamic responses of physiological parameters [13]. Metabolic rates, for example, can describe the body heat balance mechanism, depending on the human-environment energy exchanged, having thus an important effect on thermal sensation [14]. Indeed, to adopt constant and standardized values of metabolic rates may not represent realistic criteria to model thermal comfort perception and occupants\u2019 needs given the individual variability and the different activity level that people perform during the day. Basically, thermogenesis, i.e., metabolic heat production, is estimated through a basal value plus the additional heat production, derived from thermoregulation, shivering and exercising [15]. Physiological signals are particularly helpful to estimate this additional heat production, considering the thermoregulation processes. Human body targets maintaining physiological homeostasis during everyday activities, result of the interaction with the environment. When in discomfort, the autonomic nervous systems operate more intense activity [16] and the activation of the sympathetic nerve, indicated also by the heart rate variation (HRV), that may describe thermal comfort afterwards [17]. Fiala et al. [15] described human thermoregulation system using a dynamic model of the human body, applying physiological data to equation\u2019s determination. Model validation was carried out with experimental data and comparison with other models, obtaining satisfactory results to prediction of human thermal and regulatory response in different conditions. A more recent version, the Fiala\u2019s UTCI multi-node model, also includes the adaptive clothing model for outdoor climates and ultimate model\u2019s validation [18]. Some authors performed model validation to predict physiological signals in different activity levels [18], clothing combination [19] and demanding environmental conditions [20]. Efforts to reduce the complexity in modelling these phenomena aim to make their implementation in BEPS tools more feasible, while maintaining high levels of accuracy. Looking for facilitate also the data collection process, wearables sensors are suitable options to capture human response to different stimuli of comfort domains reducing subjects\u2019 fatigue, suitable for laboratory tests and real-world experiments, due to precision, commercial availability and non-intrusiveness [21]. Li et al. [22] used wearable devices to monitor skin temperature and heart rate, to later propose optimal temperature settings for reducing energy use and improving comfort, through reinforced learning algorithms. The authors found out that is possible to improve both metrics, in the early stages of HVAC system operation. 1.2 Managing occupant-centric control through physiological information Occupant-centric control (OCC) systems take advantage of monitoring data from occupants, indoor and outdoor environments, and human-building interaction to build operation patterns, such as occupancy schedules, shading configuration, and thermostat settings [23]. Basically, OCC is a process able to incorporate monitored data to a control method managed by algorithms, that seek to ensure occupant comfort and energy efficiency [24]. OCC strategies can deal with the conflicting occupant-systems relationship, considering the energy costs to maintain adequate comfort levels, hardly obtained on traditional manual control strategies [25]. Great energy saving opportunities can be found only by coordinating the HVAC systems accordingly to the occupants\u2019 presence, such as the study carried out by Pang et al. [26] found out by comparing different climate zones, building sizes and standards. O\u2019Neill et al. [27], on the other hand, presented a method that dynamically adjust the minimum air flow rate to guarantee adequate levels of CO2 concentration in each calculated zone thus also introducing the air quality dimension in addition to the thermal one. However, the scientific body of knowledge concerning multi-domain interaction in the indoor environment is still incipient, while the single-domain analysis presents already a considerable number of works [28]. This asymmetry rises probably because the difficulty to measure and analyse multi-domain data, leading to inconclusive or contradictory outcomes [29]. However, in the last years, researchers have been more engaged in explored multi-domain approaches, particularly focusing on two factors thermal conditions and indoor air quality [30]. In addition to these agents, occupants\u2019 behaviour is, in turn, a personal response, varying due to individual preferences and occasional influences. Furthermore, it is crucial to acknowledge that occupants play a significant role in shaping their own behaviour within a given environment. These variations in behaviour can be attributed to a range of factors, such as personal inclinations, cultural backgrounds, external influences, and occasional motivations [31]. It is challenging to fully identify tailored solutions and human-centric variables by means of general models fed by building-related sensors and targeting the average response. Personalised monitoring signals can overcome this challenge, by the proposal of data-driven models to the decision-making of conditioning systems setpoint, ventilation use, lighting adjustments etc. Despite its popularity in the last years among human-centric comfort researchers, OCC operation lacks real application with empirical data, obtained by clear experimental design and models capable of emulate the real human experience [23]. Experiences in test rooms can be a starting point to implement and test OCC techniques, bringing simulation suppositions to the real-world application, when new approaches are investigated [30]. Physiological data from the occupants can also assist in the determination of building operation metrics, minimising the subjective and randomness aspects of human\u2019 control [32]. Li and Chen [33] trained a convolutional neural network (CNN) capable of identify the mean facial skin temperature and relate to thermal sensation votes. From that, a system which controls the HVAC setpoint was proposed, obtaining more than 90 % of acceptability when implemented. Deng and Chen [34] measured skin temperature through wristbands and indoor environmental conditions achieving savings of 90 % for heating and 30 % for cooling systems. However, the adoption of black-box modelling for predicting skin temperature and thermal response can rise to several issues, such as a lack of interpretability in the mechanisms which influence the predictions. Moreover, black-box models may encounter difficulties in generalizing to different scenarios. These OCC strategies are capable to unravel people\u2019s comfort preferences based on analytical information, unlocking an uncertain point in human centred studios, the dependency on personal judgments of occupants. 1.3 Building energy performance tools implementing personal comfort models The integration of PCMs in BEPS tools was explored by researchers and software developers to incorporate more accurate comfort models into building simulation tools, better representing the physiological response of occupants, as well as to assess the impact of OCC strategies on the building energy use [35]. Commonly used commercial tools, such as EnergyPlus, IDA ICE, DesignBuilder, and OpenStudio, TRNSYS, incorporate personal comfort models to provide more realistic assessments of occupant comfort [36]. Most comfort models implemented in commercial BEPS are based on conventional Fanger\u2019s theory or on adaptive approaches implemented in standards [37]. The only exception is represented by Design Builder, which implements additional approaches, such as the Pierce and the KSU ones [38]. The integration of PCM in commercial BEPS tool may require additional development and customization. Moreover, PCM can be computationally demanding, particularly when considering dynamic occupant responses and real-time interactions with occupied building. This can result in longer simulation times and makes the models highly sensitive to assumptions, complexity and input data quality [39]. To address these issues, especially with respect to flexibility, PCM are now being developed and implemented into in-house BEPS tools. These tools offer greater flexibility and customization options compared to widely used commercial software, and they also allows for implementing custom or advanced control algorithms for specific application [40]. In-house BEPS tools allow researchers to tailor the simulation environment to their specific needs, to fine-tune the model to match specific research objective or indoor spaces scenarios, and to test and prototype new comfort models and update theme [13]. The PCM integration in BEPS tools, commercial or in-house, comes with several challenges basically linked to i) the way the dynamic response of the human body to environmental conditions is modelled [11], ii) the need for detailed occupant data, also necessary for calibration and validation purposes [41]. The first one can be approached integrating PCM in BEPS tools to add complexity to the simulation process. Specifically, diverse, simple, and complex, methods for the assessment of the modelling of the effective human body thermal adaptation and the actual perceived comfort can be available in the literature [42]. Among these, numerous studies have proposed different approaches to enhance comfort and energy efficiency in buildings through simulations and optimization methods, many still relying on Fanger\u2019s theory [43,44]. Some investigations have explored alternative methods to improve comfort and energy efficiency. Anand et al. [45] presents a simplified tool for designing building layouts based on thermal comfort simulations, yet it also depends on PMV as the decision variable. Another research effort proposes an enhancement to Rohles\u2019 equation to account for different clothing thermal insulation ranges [46], while a different study [47] develops a meta-data model for optimizing building envelope design with a balance between energy-savings and thermal comfort. Moreover, researchers have delved into data-driven models for thermal comfort and indoor air quality perception [48]. Additionally, a model-free reinforcement learning algorithm is employed in another study [49] to optimize HVAC systems based on the thermal sensation state and CO2 concentrations in indoor space. Lei et al. [50] developed a deep reinforcement learning model that integrates personalized thermal comfort and occupants\u2019 presence, followed by a pre-train in a virtual space and an online deployment in real office space. The model guarantee about 10 % improvement of thermal acceptability and around 15 % of reduction in cooling energy use. Despite the diversity of analyses conducted, all these works, including those with in-house developed BEPS, continue to rely on standard comfort approaches. A good BEPS tool integrating PCM must be capable to simulate the human comfort depending on various factors, physiological and environmental, including air temperature, humidity, air velocity, clothing insulation, metabolic rate, and radiant temperature. Capturing the interactions between these factors is essential for realistic comfort modelling and reliable results [51]. Simultaneously, as environmental conditions and occupant behaviour evolve, the human body\u2019s comfort perception also changes over time. To ensure accurate building energy performance simulations, it is crucial for advanced tools to capture the dynamic nature of thermal comfort. These tools should be capable of considering two essential factors: i) individual variability in human comfort perception, accounting for diverse needs and preferences based on factors such as age, sex, and culture, and ii) localized comfort, which allows for optimizing indoor air control strategies, system component sizing, and operation [52]. Concerning the second class of challenges, it is worth noticing that the need of data such as activity patterns, metabolic rates, etc., are often unknown and, additionally, considered as static assumptions / parameters for dynamic simulation purposes. For validation and calibration aims, extensive data collection and controlled experiments to ensure model\u2019s accuracy and reliability are not easily available [53]. Moreover, since the accuracy of PCM can vary based on the model\u2019s complexity and the quality of input data, developed models may not fully capture individual variations in comfort preferences and physiological responses due to low accuracy. Validating and calibrating personal comfort models against real-world data and human subject experiments is essential to ensure their accuracy and reliability, whereas gathering high quality data can be challenging and resource-intensive [15]. From this point of view, recent advances in sensing technologies, data analytics, and computational methods are facilitating more accurate and realistic representations of occupants\u2019 comfort [54]. Nevertheless, the research in this field continues and the integration of personal comfort models in building simulations is still an on-going research area, that clearly holds great promise for the energy-efficient building design and operation and for creating occupant-centric and comfortable indoor environments [55]. 2 Research objectives and contributions Several scientific literatures pointed out the dependency of the thermal comfort sensation on the action of thermoregulatory systems, which in turn influence on dynamic changes in physiological information. Considering the limitations presented in classical thermal comfort models, to merge physiological and environmental data for describing analytically thermal preferences and then controlling building systems can lead to energy savings and improvement of thermal comfort satisfaction. More than that, it is necessary to start to contemplate environmental domains not in an isolate approach, but in multi-domain analysis, appealing to the complexity of human sensation of their surroundings. Buildings\u2019 operation and management process is facilitated by the integration of different sensing technologies, promoted by the Internet of Things (IoT) connectivity, finding place in the new challenges rose for human liveability in urban environments. Based on the information presented above, the objective of this study is to develop an Occupant-Centric Control system that focuses on both thermal and air quality comfort domains. This system is based on a dynamic human body simulation model, which utilizes physiological signals from individuals and environmental data to simulate the body\u2019s response and understand thermal sensation under various conditions and metabolic rates. The collection of physiological signals is done using non-intrusive sensors, allowing occupants to freely engage in activities. To this aim, the developed simulation model addresses the limitations of traditional thermal comfort models, which rely on steady-state assumptions to define satisfaction guidelines. To ensure the reliability of the model, a validation process was conducted through a multi-domain experimental campaign taking place in the NEXT, a test room facility designed to realise highly controlled environmental conditions, at the University of Perugia. The developed model is implemented into an in-house BEPS tool to be used for the design of HVAC controls and setting strategies for more occupant centric and energy efficient buildings. The tool enables a comprehensive analysis of the interaction between humans and the built environment, facilitating the establishment of optimal setpoint values for the HVAC system in terms of temperature, relative humidity, and ventilation rate. Overall, the study aims to address the interaction between the indoor environment, the human body, and the HVAC system, as well as to bridge the gap between human demands and the built environment by turning occupant comfort criteria into actual environmental conditions. The primary contributions of this study can be outlined as follows: \u2022 Development of a highly flexible Personal Comfort Model (PCM) capable of predicting thermal sensations and CO2 intakes of occupants, with the ability to adapt to diverse individual characteristics. \u2022 Implementation of the PCM within DETECt, an in-house Building Energy Performance Simulation (BEPS) tool developed by the University of Naples Federico II [56,57]. This integration enables comprehensive energy analyses, taking into account the impact of occupants\u2019 subjective comfort preferences. \u2022 Introduction of a multi-level non-linear programming optimization procedure, aimed at determining optimal thermo-hygrometric setpoint conditions. The objective is to minimize space heating and cooling requirements, while addressing multi-domain comfort concerns related to thermal sensations, skin temperature, and perception of air quality. \u2022 Adoption of a Model Predictive Control (MPC) strategy for HVAC system management, designed to attain the determined setpoints and ensure mechanical ventilation while achieving economic savings. The MPC strategy involves a non-linearly constrained optimization problem, manipulating supply air enthalpy and mass flow variables while adhering to technological limitations and minimum air quality requirements. Overall, this study aims to enhance our understanding of occupant comfort by developing an advanced control system that considers both thermal and air quality factors. By utilizing a dynamic human body simulation model and real experimental data, this research contributes to the optimization of HVAC control strategies for smart buildings. 3 Methodology A holistic approach for the design and operation of building systems is developed to provide occupants\u2019 comfort and energy saving by considering the dynamics of indoor spaces conditions and the human perception and adaptation. To reach this goal, the proposed methodology follows several steps: i) development of a HVAC control logic based on a model predictive control (MPC) approach; it aims at regulating key system parameters such as mass flow, temperature, and humidity of the treated supply air. This will allow the achievement of desired reference conditions while ensuring energy savings. ii) implementation of a multi-level nonlinear programming (MLNLP) optimization process, within the MPC algorithm, used to determine the thermo-hygrometric setpoints for the occupied space. This optimization process seeks to maximize occupant comfort while minimizing energy consumption. iii) Implementation of previous algorithms in an in-house BEPS tool with an appropriate human body thermal model for estimating comfort requirements based on occupants\u2019 dynamic physiological response. Fig. 1 provides a detailed overview of the study framework, illustrating the various components and their interconnections. By employing this methodology, the performance of HVAC systems is enhanced by ensuring that occupants experience optimal thermal comfort and air quality and focusing on efficient building operations. Fig. 1 illustrates the workflow of the developed methodology which was developed in Matlab R2022b version. The optimization procedure for evaluating the setpoints is iterated at regular intervals, matching the control horizon of the MPC controller for the HVAC system. This iterative process generates outputs, specifically the optimal setpoint of indoor air temperature and relative humidity, for the entire prediction horizon. These outputs are then utilized to enhance the control of building systems. By incorporating both the thermal model of the human body and the energy model of the building, a comprehensive forecast of the variables that greatly impact the optimization problem under investigation is achieved. This approach enables a more precise and effective management of the building's environment. The physical model of the building enables the dynamic evaluation of thermodynamic quantities that impact the energy requirements ( Q ̇ HVAC ) of the internal space and occupant well-being. These quantities include the temperatures of the air node and envelope surfaces, as well as heat transfer resulting from transmission and radiative exchanges, such as solar and long-wave radiation. The physiological model of the occupants facilitates the prediction of their skin temperature (Tskin ), and CO2 generation rate which is influenced by thermal interactions with the surrounding environment and controlled by thermoregulatory mechanisms. After predicting the values of interest for the subsequent time interval, the optimization problem of the MLNLP type is performed to determine the optimal solutions for the decision variables. The resulting MLNLP outputs serve as reference values for the MPC regulation of the system. The primary objective of MPC is to minimize the costs associated with HVAC system operation by adjusting the manipulated variables, specifically the enthalpy and flow rate of the supply air. Therefore, by ensuring that these values comply with the energy balance of the conditioned space, overall costs related to the fan and heat pump are reduced. In this case as well, the energy model of the building is utilized as MPC predictor model to make forecasts of the system\u2019s state variables. Finally, this process is repeated at every control horizon, taking into account the updated state variables of the building-occupant-plant system based on the regulations made in the previous time step. 3.1 Building energy model DETECt, an in-house BEPS tool, was created to achieve flexibility in designing and optimizing custom or advanced control algorithms, new building envelope integrated technologies, new or not yet commercialized materials/technology, and novel operating energy saving techniques [56]. The tool, developed in-house by the Federico II University, it is meant to be used in this study to estimate the thermal demands of the indoor space and building state variables for the proposed HVAC control strategy. The model on which the tool is based relies on the finite difference method, by considering the thermal domain as one dimensional. More specifically, it implements a high order resistive-capacitive (RC) thermal network, obtained by distributed parameters, that enables the calculation of both the internal surfaces' temperatures as well as the mean radiant temperature Tmr . Equation (1) represents the differential equation of the RC thermal network used to assess the thermal load of the structure and the temporal evolution of the air node properties [56]: (1) C air d T air dt = ∑ i = 1 N T in , i - T air R in , i conv + Q ̇ gain , s e n s + m ̇ vent c p T out - T air ± Q ̇ HVAC , s e n s Where Cair is the internal air node's thermal capacity and the terms to the right of Eq. (1) stand for the thermal power fluxes that the air temperature node Tair exchanges with the surroundings. The first term describes the energy transmitted due to convection between the thermal nodes of Tin,i (i.e., the interior surface of the i-th wall of the building envelope) and Tair , and function of Rin,i convective thermal resistance. It can be noted that the radiative heat exchanges with the corresponding surrounding walls and the solar gains from transparent components were taken into consideration while calculating Tin,i [58]. The thermal sources of people, lights, and equipment are also regarded as Q ̇ gain , s e n s among the thermal inputs of the inside zone. The mass flow rate m ̇ vent of outside air and the outside temperature Tout affect the sensible ventilation heat load. Finally, Q ̇ HVAC , s e n s reflects the thermal power required to balance the flows that weigh on the thermal zone and cause the internal temperature Tin to deviate from the setpoint temperature. In addition, the latent thermal power Q ̇ HVAC , l a t is calculated in Eq. (2): (2) μ in d ω in dt = m ̇ w , g a i n + m ̇ vent ω out - ω in Q ̇ HVAC , l a t t = Δ h vs · μ in ω in t - ω sp t Where μin is the indoor dry air mass, ωout and ωin are the outdoor and indoor air specific humidity, respectively. The right side of the first equation represents the inlet water vapour mass flow rate due to occupants and ventilation. Consequently, the latent thermal power Q ̇ HVAC , l a t is evaluated as a function of water latent evaporation heat Δhvs and the difference between ωin and ωsp which is the setpoint value of specific humidity. The tool needs the following inputs to run energy simulations: the climate-relevant location, the shape and orientation of the building, the thermophysical characteristics of the materials, the internal heat gain schedules, the building air change profile, and the setpoint temperature and humidity. More details, also concerning the tool experimental validation, are reported in [59]. 3.2 Human body thermal model This section outlines the fundamental elements of the proposed human body thermal model, which employs a multi-node thermal approach [60], for the easily integration in DETECt. The model captures the dynamic physiological response and energetic interactions between the human body and the building, accommodating non-steady-state conditions. The human body is represented (Fig. 2 ) by a system of concentric cylindrical layers (core, muscle, fat, and skin [15]), interconnected by ducts simulating the circulatory system. Within this model, convective heat exchange occurs through blood flow within the organic tissues of the human body. The model implementation in the dynamic building energy performance simulation tool previously is described hereinafter. 3.2.1 Human body discretization procedure To achieve the objectives of the proposed methodology, a one-dimensional transient analysis is employed to resolve the temperature field distribution within the human body. This requires capturing the temporal variations of skin temperature, thermal sensation, and thermal heat gain. The geometrical and thermodynamic properties of the human body are derived from Fiala\u2019s [15] work, with specific values outlined in Table 1 . The radius of each cylindrical layers in the physiological thermal model (ri ) is calculated as a weighted average of the 16 cylinders considered in Fiala\u2019s model, described in Equation (3). (3) r i = ∑ i = 1 4 ∑ j = 1 s r i , j · V i , j V i , t o t / ∑ i = 1 4 ∑ j = 1 s V i , j V i , t o t h e i g h t = A s k i n 2 · π · r s k i n The height of the cylinder, determined by the skin surface area (Askin ) and the radius of the skin layer (rskin ), is crucial for accurately estimating the overall shape of the human body. While this simplified representation assumes a single cylinder, it is sufficient for the purposes of this study, as it does not significantly affect the accuracy of the results. 3.2.2 Heat transfer within the tissues The discretized human body is further modelled using a resistive-capacitive (RC) thermal network [61], as shown in Fig. 2. This network describes the heat dissipation mechanisms occurring within the human body. A bio-physiological partial differential equation governs the transfer of heat, considering parameters such as radial temperature gradients, metabolic heat production, blood circulation, and environmental heat exchange. (4) ρ body · c p , b o d y k body ∂ T ∂ t = 1 r d dr r dT dr + MR · ρ inside k inside × V inside V body + + Q ̇ ev k inside · V body + m ̇ blood · c p , b l o o d k inside · V body × T inside - T skin The differential equation incorporates diverse factors to determine space\u2013time temperature variation, including the radius (r), net metabolic rate (MR), densities (ρ), thermal conductivities (k), heat capacitance (cp ) and volumes (V) of the different layers. Additionally, it accounts for the heat exchanged due to convection with blood perfusion, and latent heat of vaporization Q ̇ ev related to sweating rate. Note that the core and muscle layers are merged into a single layer called inside characterized by the presence of thermal generation. The generation term of the differential equation is represented by MR. The rate of metabolic heat accumulated in core and muscle layers (MR) can be estimated as the difference between the production of metabolic energy (M) and mechanical work (W), as: (5) MR = M - W = C E O 2 · V ̇ O 2 mass × 1 - η V ̇ O 2 = 0.3 × H R - 16.44 × m a s s × 10 - 3 / 60 Where η is the energy efficiency of the human body [15]. The metabolic rate is proportional to the rate of oxygen consumption ( V ̇ O 2 ) and to the caloric equivalent per litre of oxygen consumed (CEO2 ). The volume of oxygen breathed by a person ( V ̇ O 2 ) is assessed with the formulation provided by Nelson\u2019s work [62] in function of body weight and heart rate (HR). The heat exchange through blood circulation is influenced by the temperature difference between adjacent bloodstreams, blood perfusion, and heat capacitance (see Table 1). In this model, the blood temperature is assumed to be equal to the temperature of the corresponding body layer. As a result, the thermoregulatory mechanisms of vasoconstriction, vasodilation, and sweating are incorporated through core and skin signals, as described in Equation (6): (6) C R SIG = T inside ( t ) - T inside ( t = 0 ) S K SIG = T skin ( t ) - T skin ( t = 0 ) Based on the above equation, warm or cold signals are triggered when the actual temperatures of the body (core, Tinside , and skin, Tskin ) deviate from the neutral temperatures at initial condition [63]. The blood perfusion rate is then determined using the following formula: (7) m ̇ blood = 6.3 + 200 · C R SIG 1 + 0.5 · ( - S K SIG ) × 1 3600 The evaporative heat loss from the skin depends on the difference between the water vapor pressure at the skin and the water vapor pressure in the indoor air, as well as the amount of moisture on the skin (w) and the evaporative resistance (Rev ). This relationship is given by Equation (8): (8) Q ̇ ev = w · p skin - p va / R ev R ev = 1 / k c · A skin m ̇ sw = 4.7 · 10 ( - 5 ) · B SIG · e ( S K SIG / 10.7 ) The evaporative resistance (Rev ) is determined by the evaporative exchange coefficient (kc ) and Askin . Here, the term w is evaluated in function of m ̇ sw that represents the sweat flow rate. It is determined based on the body signal (BSIG ) and the skin signal (SKSIG ) according to the reference work of Kaynakli and Kilic [64]. The boundary conditions to solve the differential equation are represented by the heat exchanged with the environment. (9) Q ̇ bound = γ global · f cl · A skin · T cl - T op T cl = T skin - I cl · 0.155 Q ̇ cl / A skin Where Tcl is the temperature of the clothing layer, and Icl is the clothing resistance according to ASHRAE standards [64]. Here, fcl is the enhancement factor of the skin surface of the human body due to clothing, Top is the operative temperature, and γglobal is the global heat transfer coefficient linked to the convection and radiation terms. Details about the heat transfer coefficients are reported in [13]. Once the boundary and initial conditions are defined, the implicit finite volume numerical method is adopted for solving the differential bio-physiological equation (Equation (4)). 3.2.3 CO2 generation rates In order to assess the impact of indoor air quality (IAQ) on human body response and HVAC operation, the generation rates of CO2 by occupants are considered, described in Equation (10): (10) V ̇ C O 2 = V ̇ O 2 × R Q CO2 concentrations serve as an indicator of IAQ and the adequacy of outdoor air ventilation. The rate of CO2 generation ( V ̇ C O 2 ) per person is determined by the respiratory quotient (RQ), which represents the ratio of CO2 production rate to oxygen consumption rate. In this model, an RQ value of 0.85 is assumed, considering a typical diet [63]. The simulation model assumes uniform CO2 distribution within indoor spaces. 3.3 MLNLP optimization for indoor setpoint evaluation For the determination of thermo-hygrometric setpoints in the occupied space, a multi-level nonlinear programming (MLNLP) optimization procedure was employed. Fig. 3 shows a schematization of the optimization problem investigated, identifying the constrained spaces and the search space for the optimal solution. The decision variables x, which are subject to optimization, include the temperature Tair,ref and relative humidity RHair,ref of the air within the indoor space. The optimization problem is defined as follows: (11) min x Q ̇ HVAC = f ( x ) s . t . x ( 1 ) = T air , r e f x ( 2 ) = R H air , r e f - 0.5 ≤ P M V ∗ ≤ 0.5 P I A Q ≤ 1 The main objective is to minimize the thermal energy demand for space heating and cooling, denoted as Q ̇ HVAC . To assess individual thermal sensation accurately, the comfort index PMV* (modified version of the Fanger comfort index [65]) takes into account the skin temperature Tskin as a significant parameter. This allows for the evaluation of the first constraint space for the decision variables, ensuring they fall within acceptable ranges. PMV* can be expressed as described in Equation (12): (12) PM V * = 0.0303 e 0.036 M + 0.028 × ( M W ) - 3 . 05 × 10 - 3 5733 - 6 . 99 ( M W ) - x ( 2 ) p v , s a t + - 0 . 42 [ ( M W ) - 58 . 15 ] - 1 . 7 × 10 - 5 M ( 5867 - x ( 2 ) p v , s a t ) + - 0 . 0014 M ( 34 - x ( 1 ) ) - 3 . 96 × 10 - 8 × × f c l [ ( T c l + 273 ) 4 - ( T m r + 273 ) 4 ] - f c l ( γ c , f + γ c , n ) ( T c l + x ( 1 ) ) Here, M and MW represent the energy quantity associated with the metabolic rate and mechanical work performed by the occupant. The clothing temperature Tcl is dependent on Tskin , while the heat exchange surface increase factor fcl estimates the influence of clothing on the occupant's heat exchange with the surrounding environment. The saturation pressure of vapour pv,sat , heat transfer coefficients γc,f and γc,n , and the mean radiant temperature Tmr are used to evaluate the rates of latent, convective, and radiative heat transfer, which impact the occupant's thermal perception. Subsequently, the PIAQ [66] is employed to define the second constraint space, linked to a new comfort domain. It quantifies the levels of air quality perception experienced by occupants in indoor environments. This perception is influenced by various environmental factors. Fanger [67,68] demonstrated a strong correlation between PIAQ and indoor air temperature and humidity. His experiments involved exposing occupants to a spectrum of indoor environments, ranging from clean to polluted (e.g., environments with factors such as wall paint, carpet, floor detergents, etc.). These experiments help to observe how air enthalpy can significantly impact the perception of air quality, even in settings with strong odors. This domain requires values of PIAQ lower than 1 decipol to ensure high acceptability (ACC) of air quality and a percentage of dissatisfied (PD) which is lower than 15 %. The ACC and PD can be evaluated as reported in Equation (13): (13) ACC = - 0.0143 h air , r e f + 0.895 P D = exp ( - 0.18 - 5.28 · A C C ) 1 + exp ( - 0.18 - 5.28 · A C C ) · 100 Here, hair,ref represents the enthalpy of the air setpoint, which is a function of the decision variables in the optimization problem. 3.4 MPC for HVAC operation The optimization of HVAC system operation is crucial to achieve the desired thermo-hygrometric conditions while minimizing operating costs. In this regard, a MPC strategy has been developed to optimize the manipulated variables xmv , specifically the supply air enthalpy ( h air , s ) and flow rate ( m ̇ air , s ). This allows for finding the optimal trade-off between fan energy consumption due to pressure drop balancing and the heat pump's cooling and heating requests. The use of MPC in HVAC systems offers several advantages over traditional control strategies. MPC considers the system dynamics and predicts future behaviour, enabling better response to changing environmental conditions and load variations, resulting in improved energy efficiency and occupant comfort [69]. The prediction of the building-occupant-plant system\u2019s state variables is obtained by means of the DETECt tool, by adopting the mathematical models described in the previous subsections. This includes the assessment of surface and air node temperatures, as well as the Q ̇ HVAC thermal load, while accounting for variations in external climatic conditions and internal energy inputs. Incorporating these models enhances the accuracy of predictions and enables proactive adjustment of setpoints and control actions. The selection of the control horizon Γ and prediction horizon Λ in MPC is crucial for achieving desired system performance. The control horizon determines the length of sample time ts over which control actions are computed, while the prediction horizon defines the duration for which future system behaviour is predicted. These horizons are carefully chosen based on system dynamics, time delays, and computational complexity considerations. The analysed HVAC system is an air handling unit equipped with cooling and heating coils respectively for dehumidification and relative humidity control of indoor space during the cooling season. In the heating season, heating coils and a liquid humidifier are used. The coefficient of performance (COP) for the heat pump is calculated using the UNI-TS 11300 method, considering partial load operation. (14) CO P PLR = C O P nom × 1 - C d · 1 - Q ̇ HVAC Q ̇ nom , H P Considering the Cd coefficient equal to 0.25 as referred to air/air heat pumps. To evaluate fan energy consumption, pressure drops are calculated based on flow properties (air velocity vair and density ρair ). (15) Δ p HVAC = f duct ρ air L duct v air 2 2 D h , d u c t + K coil ρ air v air 2 2 + K filter ρ air v air 2 2 Where the first term on the right of the equation represents the pressure drop distributed through the ducts and depends on its geometric (hydraulic diameter Dh,duct and length Lduct ) and construction characteristics which influence the friction factor fduct . The remaining two terms express the concentrated pressure drops due to the main components of the system, coils, and filters. Kcoil and Kfilter express the resistance coefficients that depend on the construction characteristics of the components. 3.4.1 MPC optimization problem For the MPC a constrained nonlinear optimization technique is used. The implemented algorithm is designed to iteratively search for the optimal control inputs while satisfying specified constraints. Specifically, an interior-point algorithm is implemented to find the solution within a feasible region defined by the constraints and to iteratively adjust the control inputs to minimize a cost function by taking into account both control objectives and system constraints. Thus, the algorithm is able to systematically optimize control inputs in real-time, while considering both current system states and future predictions, allowing us to make decisions that balance performance and constraints. Specifically, the cost function (JHVAC ) to be minimized is evaluated as follows. (16) m i n x m v J H V A C = ∫ t t + Λ x m v 1 x m v 2 - h a i r , e x t C O P P L R + ∫ t t + Λ x m v 1 / ρ a i r , s · Δ p H V A C η F A N · c e l s . t . x m v 1 = m ̇ a i r , s x m v 2 = h a i r , s The cost function equation represents the cumulative sum of costs over the prediction horizon Λ. It is influenced by the efficiencies of the heat pumps and fans (ηFAN and COPPLR ) as well as the unitary electrical costs (cel ). The manipulated variables, h air , s and m ̇ air , s , are determined subject to the following conditions: (17) x mv 1 · x mv 2 = x mv 1 · h air , i n + Q ̇ HVAC x mv 1 ∈ m ̇ air , min = f V ̇ C O 2 ; m ̇ air , max = f V ̇ fan , max x mv 2 ∈ h air , n o m , c c ; min h air , e x t ; h air , i n → c o o l i n g x mv 2 ∈ max h air , e x t ; h air , i n ; h air , n o m , h c → h e a t i n g The first nonlinear equation ensures the heat balance in the building's control volume. Q ̇ HVAC is assumed negative for cooling requests and positive for heating requests. The second condition defines lower and upper limits for the air mass flow processed by the air handling unit. The minimum value depends on the occupant's V ̇ C O 2 generation rate, estimated using the human body model. The upper limit is determined by the\u2019fan's maximum range constraints. The third and fourth conditions set the lower and upper limits for hair,s during cooling and heating requests. For cooling, hair,s falls between the minimum enthalpy from the cooling coil (hair,nom,cc ) and the minimum value between hair,in and hair,ext . Conversely, for heating, hair,s falls between the maximum value of the two previous quantities and the maximum achievable hair,nom,hc from the heating coil. The xmv variables are normalized to facilitate the search for the optimal solution since they have different orders of magnitude. Once the constrained optimization problem is solved, the xmv values that minimize the cost function for all prediction horizon moves are obtained. Only the moves within the control horizon will be implemented. By utilizing this control strategy, the HVAC system can optimize its operation and minimize costs while achieving the desired thermo-hygrometric conditions. 4 Experimental setup An experimental procedure was carried out to validate the proposed human-physiological simulation model. Tests were conducted in a test room facility to gather data of subjects in different activity levels and with different personal intrinsic characteristics, such as gender and Body Mass Index (BMI). The information collected was used as input for the model reliability verification. The subsequent sections provided comprehensive descriptions regarding the methodology, the test room, and the participants involved. 4.1 NEXT.ROOM: targeting human-centric and multi-domain investigation The NEXT.ROOM is a highly controlled environment located inside the Environmental Applied Physics Lab, at the Engineering campus of the University of Perugia, in central Italy [70]. The test room was constructed specifically to perform multi-disciplinary and multi-domain studies within the human well-being scope. To this end, the installed systems allow to reproduce different environmental conditions and stimuli, accordingly to the research purposes. The facility (Fig. 4) was built entirely with dry technologies, easily enabling adaptation if required. Regarding the technical systems, a radiant system serving all the NEXT.ROOM surfaces and a mechanical ventilation and air-conditioning (HVAC) system manage the thermal domain; the lighting system is composed of four LED panels and two RGB reflectors, providing different conditions of illuminance spatial distribution and correlated colour temperature (CCT). A detailed characterization of the design and decision process, materials dimensions technical specifications of the NEXT.ROOM was provided by Vittori et al. [70]. On the other hand, a monitoring system is dedicated to gather all environmental information in the different testing scenarios. The fixed sensors enable the continuous measurement of (i) air temperature in four different (and adjustable) heights; (ii) relative humidity; (iii) superficial temperature in different surface points; (iv) air velocity; (v) CO2 concentration; (vi) globe temperature; (vii) net radiation on the three main directions; (viii) heat flux through the envelope surfaces; (ix) illuminance level. Wearable sensors are also available to monitor physiological signals such as skin temperature, Electrodermal Activity (EDA), electrocardiogram (ECG) and electroencephalography (EEG). For this study, collect data of mean radiant temperature and indoor CO2 concentration are used for model verification [71]. In other words, the monitoring data was implemented as input in the simulation model with the aim at reducing the source of discrepancy and focusing on the proposed human-body thermal model. 4.2 A study approach for assessing human physiological information To reproduce different metabolism conditions, an experimental procedure was handled with two young subjects, one male and one female. Ten-points were selected to place skin temperature sensors, following the indications of Liu et al. [72], focused on human thermal comfort studies. The iButton Hygrochron was adopted to proceed with the measurements, using a time step of one minute. The heart-rate frequency was measured through the Empatica E4 wrist band, i.e. an equipment validated by many authors investigating physiological signals to human comfort preferences modelling [73], collecting data each second. Concerning the environmental sensors, the CO2 monitoring was executed by three sensors, positioned (1) near the top discharge outlet; (2) the bottom discharge outlet; (3) in the centre of the room at the desk height. Air temperature sensors were located in the centre of the room, in different heights: 10 cm, 50 cm, 110 cm, and 170 cm. Additionally, superficial temperature sensors were located in all walls, ceiling and floor. All environmental sensors gathered data using a one-minute timestep. Fig. 4 describe the position of the sensors inside the NEXT.ROOM. Two different experiment paths were adopted, focusing on the exposure of recruited subjects to different activity conditions in two operative phases of the HVAC system. The first one (Fig. 5 ) carried out a test with a male subject for 150 min, from 9:00 AM to 11:30 AM, with a subject performing sedentary activities in a seated position, such as studying. The air velocity was set at the 4th level (maximum) during the first hour of test, and then maintained constant at the 2nd level until the end. Table 2 describes technical specifications of the HVAC system. The temperature setpoint was 21 °C at the first test hour, 24 °C in the following hours, until the end of the experiment. The conditions changes allow the model to understand the body response because of environmental fluctuations in sedentary conditions. The second procedure (Fig. 6 ) involved a female subject, in different activity levels, for 150 min, starting at the 10:00 AM. Three operative phases were comprised in the experiment: acclimatization phase, consisting of 30 min of acclimatization stage, with the subject seated in neutral conditions, the first air flow condition, that maintain all the setpoint, visual and acoustics characteristics but specifying the 2nd level of HVAC system air velocity and the second air flow condition, also keeping the acclimatization characteristics, but changing HVAC system air velocity for the 4th level. Setpoint value was maintained constant at 24 °C during the whole test, searching to follow ASHRAE 55-2020 general comfort recommendations [74]. Two activity levels were established: the first condition (light) consists in walking in a treadmill at 1.2 km/h velocity; the second condition (moderate), uses a 4 km/h velocity in the treadmill. The systems characteristics were described in Table 2 , applicable for both experiment paths. The two subjects, despite their similar age, present very different body compositions. A summary of their personal characteristics considered in the model, i.e., weight, height, clothing level etc, is given in Table 3 . 5 Proof-of-concept The proposed study seeks to analyse the potentials of the proposed PCM implemented in a BEPS tool with the aim at addressing the interaction among indoor environment - human body \u2013 HVAC system. To this aim, the proof of concept for the developed methodology involves simulating the previously described experimental tests by exploiting the thermal model of the human body and the new facility management system. The simulation aimed to verify the accuracy of the physiological model by recreating the operating conditions of the HVAC system shown in Fig. 5 and Fig. 6, specifically to evaluate the predictive performance of the model in tracking the occupant\u2019s skin temperature. The simulation also demonstrated the flexibility of the model, as it successfully adapted to different subjects and various metabolic activity conditions in the two tests. After validation of the physiological model, the tests were further simulated using the proposed system management methodology to evaluate its impact on occupant comfort and energy consumption, and a comparison with the reference scenario was provided. The reference scenario is rooted in real-world, measured data from experimental tests, while the proposed scenario is evaluated with a simulation. However, the simulation aspect involves predicting how occupants' physiological properties would behave under different environmental conditions based on the same characteristics of the subjects from the reference scenario (e.g., body weight, skin surface, metabolic rate, etc.). As previously mentioned, the proposed scenario involved determining the thermo-hygrometric setpoints (Table 4 ) through an MLNLP optimization procedure, aimed at minimizing thermal energy demands for space heating and cooling while maximizing thermal comfort and air quality perception. The HVAC system was then managed through an MPC control strategy, optimizing its operation by manipulating the mass flow rate and thermodynamic properties of the air supplied to the room. The MPC controller's choice of mass flow rate ensured the minimum ventilation rate necessary for efficient CO2 removal in the room, estimated based on the occupant\u2019s CO2 generation rate. Meanwhile, the enthalpy of the air delivery flow was adjusted to comply with the technological limits of the HVAC system. For the MPC controller\u2019s characteristics, a control horizon of 15 min was chosen, considering the transient behaviour of the HVAC system, and a prediction horizon of 60 min (equal to 4 control horizons) was used (Table 4). To evaluate the JHVAC cost function, a unit cost of electricity (cel ) value of 0.22 cents [75] per electric kilowatt-hour was considered. This allowed the MPC controller to optimize the HVAC system\u2019s performance efficiently, balancing energy consumption and occupant comfort. The simulations demonstrated the potential effectiveness of the proposed methodology in achieving energy savings and enhancing indoor thermal comfort while considering occupants\u2019 specific needs and dynamic environmental conditions. After the simulations, the observed and simulated PMV* and PD percentages were compared, as well as the energy use for each scenario. 6 Results 6.1 Accuracy of the physiological thermal model The tests were carried out in 2022 on September 15th of 2021 for subject 1 and on October 17th of 2022 for subject 2, both with the same 150 min of duration. Table 3 provides data relative to the investigated subjects (weight, height, clothes); their consent for personal data was previously obtained. Fig. 7 shows the trends of the air temperature measured near the workstation of the investigated subjects, and the average radiant temperature Tmr measured by the globe-thermometer. Additionally, the trends of air velocities measured near the workstation are shown. Fig. 7 refers to a constant value of indoor air relative humidity within the room (equals to 50 %). To assess the accuracy of the model, the simulated skin temperature (Tskin,evaluated ) is compared with the measured skin temperature (Tskin,measured ) for both subjects (subject 1 and subject 2) during the test period. The comparison is reported in Fig. 8 left) for subject 1 and subject 2 Fig. 8 right). In the Fig. 8, the two green lines relative to Upper and Lower limits refer to a comparison band set between Tskin,measured + 0.7 °C and Tskin,measured \u2013 0.7 °C. This error band is related to a temperature deviation which involves error bands of ±3 %. Please note that the heart rate is equivalent to the average heart rate, which is measured over the same interval of skin temperature sampling. The results of both tests show a strong agreement between the simulation and experimental data, indicating that the developed model is reliable and suitable for conducting thermal comfort and building energy performance analyses based on the dynamic thermal sensation of occupants. It is worth mentioning that, in the case of subject 2 engaging in light and moderate activities, the model demonstrates improved performance when activity levels change. However, there is a slight delay in the simulation model\u2019s ability to capture the impact of activity levels at the beginning of the simulation. This delay occurs because the initial background data conditions, such as the environment and subjects, are essential for the training process. Despite this initial delay, the model maintains its accuracy throughout the main duration of the occupation. When considering longer occupation times, the initial conditions may have a negligible influence on the occupant\u2019 thermal sensation. Therefore, they can be safely disregarded without significantly affecting the overall validity of the model's predictions. It is important to note that the first phase of the experiment is typically an acclimatization phase. The findings therefore demonstrate the reliability and suitability of the developed model for analysing thermal comfort and building energy performance based on occupant' dynamic thermal sensation. The model's performance is particularly notable when activity levels change, and any initial delay in capturing the impact of activity levels is outweighed by the model's accuracy during the main duration of the occupation. Fig. 9 shows for each test (Fig. 9left for the 1st test, Fig. 9right for the 2nd test), the simulated temperatures of the organic tissues of the two subjects. Different temperatures are observed due to the dynamism of thermoregulatory system and diverse activity levels. Fig. 10 compares the investigated subjects\u2019 body surface temperature, Tskin , simulated (y-axis) and measured (x-axis), by considering their deviations for the considered sampling interval. Almost all simulation results are included into the error band range of ±3 % (red dashed lines) for both tests, whereas in test 2 a larger error is observed during the initial occupation time intervals. The 97 % and 84 % of simulation results (Tskin,evaluated ), respectively for test 1 and test 2, are included in the confidence interval ±2 % (green dashed lines) and the 66 % (test 1) and 79 % (test 2) in the narrower interval given by ±1 % (orange dashed lines). To assess the model's response more comprehensively, two statistical indices, namely the Pearson index (p) and the relative percentage error, were utilized. The Pearson index, which ranges from −1 to 1, provides a measure of the match between the simulated and experimental values. A value close to 1 indicates a strong agreement between the two datasets (see Fig. 10a and b). In Fig. 10c, a boxplot representation illustrates the distribution of relative percentage errors resulting from the comparison. The orange diamonds represent the average error, which is found to be approximately 1 % for both tests. For the first test, the boxplot shows that the median value aligns closely with the average value, and the Interquartile Range (IQR) is confined within 2 %. In contrast, for the second test, the relative percentage errors predominantly gather around negative values, indicating an underestimation of the simulated values. The median value for this case is 0 %, suggesting a reasonably accurate representation on average. The outliers in the boxplot refer to the few data points where the deviation exceeds the 3 % error band, indicating slight discrepancies in those instances. The IAQ within the test room is plotted in Fig. 11 , focusing on test 2, characterized by diverse activity levels of the human body. Fig. 11 left) shows i) the ppm of CO2 of outside the test cell (CO2,ext , measured near the inlet vents), and ii) the ppm of CO2 inside the room, including the occupant generation (CO2,room , measured near the discharge outlets). The right axis shows the survey conducted by the occupant that could rank the indoor air quality on a scale of 1 to 7. The coloured areas refer to the ASHRAE IAQ ranges as a function of the ppm of CO2 in the environment. Finally, Fig. 11 right shows the measured and simulated CO2 production of the human body for test 2, considering the different occupant activity levels. Overall, the results confirm the accuracy and reliability of the developed physiological thermal model, making it suitable for evaluating thermal comfort and building energy performance based on occupants' dynamic thermal sensations. The IAQ analysis also demonstrates the model's ability to capture indoor air quality variations under different conditions. 6.2 Proposed HVAC control strategies This section presents the results of the related proof-of-concept study, which aims to demonstrate the advantages of an optimized HVAC control strategy in terms of both occupant comfort and energy efficiency. In this section, the effects and potential benefits of the optimized OCC control strategies implementation are checked. Utilizing the developed simulation tool, the behaviour of the HVAC system was assessed under the optimized control strategy, considering various factors such as external climate conditions, thermal properties of the building, and occupancy patterns. The results related to the MLNLP optimization problem were reported in Fig. 12. The optimization procedure was iterated for each time step, equal to the control horizon, to provide the best setpoint values for the whole prediction horizon. This process relied on the forecasting capabilities of the developed model, which enabled precise assessment of the occupant's physiological features and the building's thermodynamic properties, ensuring accurate evaluation of the output variables for successive time steps. Fig. 12 illustrates the combined criteria evaluated to determine the thermo-hygrometric setpoints (Tair,ref and RHair,ref ) for the first test, with reference to the procedure performed after four steps of the control horizon, equivalent to 60 min of occupation. The Fig. 12 top shows all possible combinations of Tair and RHair that guarantee a PMV* within the acceptable range based on the predicted Tskin of the occupant at the analysed time instant. Additionally, Fig. 12 middle further investigates all those combinations which, in addition to the first constraint condition, also comply with the ones dictated by the ACC index of perceived indoor air quality. Furthermore, Fig. 12 bottom represents the solution space by analysing the values, shown in red, of the Q ̇ HVAC objective function assumed by the achievable combinations. The optimal combination that minimizes HVAC energy demands is highlighted in green. Once the reference setpoints were selected, an MPC-type control strategy was adopted to reduce operating costs associated with the HVAC system. Fig. 13 demonstrates the MPC controller operation using the proposed scenario of test 1 as reference. The results refer to a current time instant of two steps forward of the control horizon, which corresponds to 30 min from the start of occupation. In Fig. 13 top, the trend of the manipulated variables hair,s and m ̇ air , s is reported. The grey area depicts the values assumed in the actions passed to the current instant, while the next four steps (corresponding to the duration of the prediction horizon) show the actions envisaged to minimize the JHVAC cost function. Furthermore, the result reports the action that will be implemented by the controller in the next control horizon. The manipulated variables combinations presented are essential for validating the energy balance equation applied to the control volume of the air-conditioned environment. These results are consistent with the technological limitation of the specific plant, as well as the constraints imposed by external and internal thermodynamic conditions, and the minimum ventilation rate requirements. By examining the manipulated variables, we can ensure that the energy balance equation is accurately verified within the control volume. These combinations were carefully selected to comply with the technological limitations of the plant, as well as the various thermodynamic conditions both inside and outside the system. Additionally, they meet the minimum ventilation rate requirements necessary for optimal performance. It is crucial to consider the interplay between these manipulated variables and their impact on the energy balance equation. By doing so, we can guarantee that the air-conditioned environment operates within the prescribed limits, ensuring efficient and effective functioning of the system. These results not only demonstrate compliance with the technological limits of the plant but also reflect a comprehensive understanding of the external and internal thermodynamic conditions. By carefully considering these factors, we may optimize the performance of the air-conditioning system while maintaining the required minimum ventilation rates. Moreover, Fig. 13bottom displays the value of the reference enthalpy guaranteed in previous steps and those evaluated by the MLNLP optimization procedure for subsequent steps of the prediction horizon. Additionally, the value of the JHVAC objective function in the prediction horizon resulting from optimized actions of the manipulated variables is shown. Subsequently, an energy and comfort analysis are presented for the proposed scenarios of the two simulated tests. Fig. 14 and Fig. 15 show the energy results obtained from the simulation for both tests, focusing on energy savings while ensuring occupants' comfort requests. Fig. 14 top and Fig. 15 bottom illustrate the Q ̇ HVAC thermal power requests for cooling in test 1 and heating in test 2, respectively. The green dashed line shows the dynamic trend of indoor setpoints. The reference humidity (RHair,rif ) varied between 20 % and 40 % due to constraints imposed by the ACC index of perceived indoor air quality, suggesting low humidity levels for improved air quality perception. Fig. 14 bottom and Fig. 15 bottom show instead the results relating to the electrical power required by the plant and associated with the heat pump for the heating and cooling coils operation and with the fan to move the air flows and balance the drops in pressure. These electrical requests are conditioned by the convective flux supplied in the room and shown in black dashed lines, this quantity in turn is conditioned by the hair,s and m ̇ air , s determined by the optimization performed by the MPC controller. Lastly, a comfort analysis highlights the benefits of the OCC strategy, ensuring both thermal comfort and air quality for the occupants. Fig. 16 top and Fig. 17 top show the PMV* trend, demonstrating that PMV* values fall within the acceptable ranges imposed by the index for both tests. Test 1 has PMV* values close to the maximum limit, while test 2 has values close to the lower limit, reflecting the optimization procedure's goal to ensure comfort while minimizing energy requests. Fig. 16 bottom and Fig. 17 bottom demonstrate that the PD values remain below the threshold of 15 % at each plant control step, showcasing the effectiveness of the OCC strategy in maintaining air quality at desirable levels. 6.3 Results comparison To demonstrate the benefits of the developed methodology, a complete simulation analysis was performed by comparing the reference and proposed scenarios for both tests, with a focus on comfort and energy considerations. The reference scenario involves real experimental tests conducted on the two subjects, evaluating energy consumption and comfort analysis based on the HVAC system's operating conditions, occupants' physiological response, and the thermo-hygrometric setpoints reached during the tests. This approach provided valuable insights into the actual performance of the HVAC system and its impact on occupants' comfort under real-world conditions. On the other hand, the proposed scenario represents the simulation of the same tests, but with the OCC methodology described earlier. Initially, the comparison focused on occupants' comfort perceptions in the two scenarios. The results depicted in Fig. 18 revealed that in the reference scenario for both tests, occupants experienced partial thermal discomfort, as demonstrated in the trends not entirely falling within the PMV* acceptability band. For instance, in test 1, occupants experienced thermal discomfort for 40 % of the occupation time, equivalent to 60 min. Similarly, in test 2, the discomfort was experienced for 60 % of the occupancy time, equals 90 min. These findings underscored the importance of refining the HVAC control strategy to enhance occupants' thermal comfort experience. Furthermore, Fig. 18 top shows that the air quality perception discomfort levels, i.e., out of the +0.5 \u2013 −0.5 range, exceed the threshold value of 15 % for 90 % of the occupancy time in the same reference scenario. These findings reveal flaws in the reference HVAC operation, that needs to be addressed further. On the other hand, Fig. 18 bottom provides insight into the PD index percentages for the evaluation of air quality perception in test 2. In the reference scenario, the occupant experienced discomfort for only 40 % of the occupation time, showing that air quality was rather well-maintained. Overall, the proposed scenario ensured thermal comfort and air quality perception for both tests for the entire occupation time. The simulation findings demonstrate that, to maintain a comfortable indoor environment for the occupants, the HVAC control strategy could be optimized by using the developed OCC technique, The comparison analysis examined the thermal energy requests for heating and cooling in both scenarios, as depicted in Fig. 19. Notably, the proposed methodology achieved significant energy savings. In test 1, focused on cooling needs, the optimization strategy for determining thermo-hygrometric setpoints led to a 3.7 % reduction in thermal energy consumption (see Table 5). By suitably adjusting cooling setpoints based on occupants' requirements and predicted thermal dynamics, unnecessary energy usage was minimized while ensuring comfort. Furthermore, the MPC control strategy, as demonstrated in Fig. 19top, played a vital role in further reducing energy consumption. By dynamically optimizing HVAC parameters, such as fan speed and cooling/heating intensity, the MPC controller achieved a substantial 12.8 % reduction in total electricity consumed compared to the reference scenario, equivalent to 0.33 kWh (see Table 5). In test 2, Fig. 19bottom revealed that the OCC methodology resulted in 20 % thermal energy savings for heating compared to the reference scenario, accomplished by fine-tuning heating setpoints based on predicted thermal conditions and occupants' activities. Moreover, the HVAC control strategy, depicted in Fig. 19b, achieved a notable 7.8 % reduction in energy consumption compared to the reference scenario (see Table 5). This significant reduction highlighted the potential of the OCC approach for optimizing HVAC system performance and minimizing operational costs. In conclusion, the comparative analysis has emphasized the significant advantages of the developed OCC methodology in relation to occupant comfort and energy conservation. Through the efficient utilization of predictive models and intelligent control algorithms, the OCC strategy has enabled the HVAC system to dynamically respond to the needs of occupants, thereby creating an environment that is both comfortable and energy efficient. These promising results strongly advocate for the widespread implementation of advanced control strategies in HVAC systems, as they not only enhance the well-being of occupants but also promote sustainable practices within buildings. 7 Discussion International standards, based on classical comfort models, often establish fixed conditions to reach indoor comfort conditions, assuming steady-state conditions that do not contemplate people\u2019s thermal adaptation. Specifically, CIBSE [76], ASHRAE 55 [74] and EN ISO 7730 [77] determines 21\u201323 °C, 21.5\u201324 °C and 20\u201326 °C as comfortable temperatures, respectively. The physiological thermal model proposed in this study takes into consideration personal data in different conditions, collected through experimental testing and creating personalized settings to improve liveability in the built environment, investigating thermal and air quality domains, while reducing energy use. Simulation results concerning the reliability and performance of the proposed the physiological thermal model shows that the lower performance observed during the initial simulated steps highlights the importance of the acclimatization phase in test room experiments. Participants need to adapt to the indoor conditions and to adjust their physiological responses to the test settings. This acclimatization phase also gives initial information to properly train the model and establish a Baseline Metabolic Rate (BMR) [18], which can adapt to new conditions, even with varying activity levels and other physiological data as input. Moreover, the physiological data was gathered through non-invasive wearable sensors, allowing the collection of higher quantity of information and during different types of situations and conditions, expanding the model capacity. The high potential of wearable sensors to monitoring in experimental tests or in a long-term basis was explored in countless research works [78], indicated as a trend for research studies tools. By utilizing the proposed simulation and optimization tool, capable of capturing the relationships of the trinomen indoor environment - human body \u2013 HVAC system, simulation findings concerning the comparison of observed and predicted results revealed that it is indeed possible to reduce energy consumption while simultaneously improving occupant comfort. The MPC strategy efficiently managed the HVAC system, resulting in a more efficient energy use, and it demonstrated to be an important tool in the sustainable design of human-centric environments. However, since occupants frequently lack knowledge of the optimal settings and may not be familiar with the building's operations, it is crucial to explore the implementation of automatic and real-time adjustments in building facility systems. This is where Occupant-Centric Control and this study come into play, bridging the gap by understanding human needs and translating them into real-world environmental conditions, thereby bringing people closer to their built environment. The economic aspect and comfort profiles are intricately interconnected [79]. Often, meeting occupant comfort preferences involves higher energy consumption and, consequently, increased economic expenditure compared to standard operating conditions. As a result, this work is focused on the development of an OCC strategy that not only ensures occupant comfort but also takes into account the economic dimension. It is demonstrated that achieving economic savings is feasible by striking a balance between two comfort domains. Additionally, the efficacy of employing specialized HVAC control methodologies to manipulate the thermodynamic properties of the supply air flow, enable us to attain energy and economic savings. Nevertheless, it is important to address certain limitations of this study. Although the subjects had different body compositions and activity levels, they shared a similar lifestyle, performed the same job, and fell within a similar age range. In future tests, it is imperative to expand the sample size to include a more representative population. This will help determine whether the model performs better when specific boundaries and parameters are outlined. Additionally, future studies should explore the cross-effects of different domains, examining how the mutual adjustment of parameters can lead to an even more optimized building system solution. Other domains, such as the visual aspect, should also be investigated, finding a balance between lighting settings, comfort perception, and physiological responses. Moving forward, it is essential to implement the automated regulation of building systems in a real environment using the model outputs. This will allow for a comparison between the actual consequences on energy consumption and occupant comfort and the results obtained from the simulation. Furthermore, by exploiting the simulation tool, the proposed model could be enhanced by incorporating additional features to account for scenarios where multiple individuals occupy a room, such as shared offices. Despite the potential advancements that can be made, this study serves as a foundational starting point for the exploration of Occupant-Centric Control, addressing issues that have not yet been tackled by the scientific community. 8 Conclusions This paper proposes an Occupant-Centric Control technique for the design and operation of smart HVAC systems that takes into consideration the physiological response of the human body to optimize building energy performance and occupant comfort. The study aims to evaluate the potentials of the proposed PCM implemented in a BEPS tool with the goal of addressing the linkage between the indoor environment, the human body, and the HVAC system, as well as bridging the gap between human demands and the built environment by translating occupant comfort criteria into actual environmental conditions. A highly flexible Personal Comfort Model was, thus, developed for the accurately predicting thermal sensations and CO2 intakes of occupants; the model\u2019s accuracy was verified by means of an extensive multi-domain experimental campaign. The PCM based on the physiological response of the human body was modelled and implemented in a flexible dynamic simulation tool where a Model Predictive Control was developed for the design of a control strategy for HVAC systems that effectively addresses the occupants\u2019 thermal comfort and air quality requirements in indoor spaces. The developed strategy relies on a multilevel non-linear programming optimization procedure to determine optimal hygrothermal setpoints. The model's reliable predictive capabilities were effectively verified through a validation procedure conducted by using experimental data; results show that the skin temperature offset falls within the ±2 % error band 97 % and 84 % of the time for the all the experimental tests. In addition, the PCM exhibited flexibility in accommodating different subjects and levels of metabolic activity. The proposed OCC strategy employed an MLNLP optimization procedure to determine optimal hygrothermal setpoints, resulting in thermal energy savings of 3.7 % and 20 % for cooling and heating tests, respectively. Moreover, the strategy provided maximum comfort, with no hours of discomfort during the occupation time. The MPC strategy efficiently managed the HVAC system, resulting in operating cost savings of 12.8 % and 7.8 % for test 1 and test 2, respectively. The study emphasizes the significance of centralized HVAC system control to address the real and personalized comfort needs of occupants, while minimizing operating costs to achieve sustainability and building efficiency objectives. Overall, this research opens promising paths for creating energy-efficient and occupant-focused building environments. The study represents a significant advancement in the sustainable design of human-centric spaces toward energy efficiency and occupant comfort. Future work aims to implement this strategy in real-life tests to evaluate its effectiveness in occupied environments. Additionally, conducting this analysis in different climates will provide valuable guidelines for occupant-centric control, enabling the assessment of maximum achievable savings. CRediT authorship contribution statement Annamaria Buonomano: Conceptualization, Methodology, Supervision, Investigation, Writing \u2013 review & editing, Funding acquisition, Project administration. Cesare Forzano: Conceptualization, Methodology, Investigation, Validation, Supervision, Formal analysis, Writing \u2013 review & editing. Veronica Martins Gnecco: Conceptualization, Validation, Methodology, Investigation, Formal analysis, Data curation, Writing \u2013 original draft, Visualization. Ilaria Pigliautile: Conceptualization, Methodology, Investigation, Formal analysis, Supervision, Writing \u2013 original draft, Visualization. Anna Laura Pisello: Conceptualization, Methodology, Investigation, Supervision, Writing \u2013 review & editing, Funding acquisition, Project administration. Giuseppe Russo: Conceptualization, Validation, Methodology, Investigation, Formal analysis, Writing \u2013 review & editing, Visualization. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements The research has been co-founded by the Italian Ministry of Research through the NEXT. COM (Prot. 20172FSCH4) \u201cTowards the NEXT generation of Multiphysics and multidomain environmental COMfort models: theory elaboration and validation experiment\u201d project, within the PRIN 2017 program. Finally, the authors sincerely thank all the project NEXT.COM partners, such as Enrico Fabrizio (Politecnico di Torino) and Marco Arnesano (Università eCAMPUS). References [1] C. World Green Building, Bringing embodied carbon upfront, in World Green Building Council. 2023. [2] N. United UN Population Division Data Portal: Interactive Access to Global Demographic Indicators 2023 United Nations United, N., UN Population Division Data Portal: Interactive access to global demographic indicators, in United Nations. 2023. [3] American Society of Heating, R. and E. Air-Conditioning, ASHRAE, Guideline 10-2016 - Interactions Affecting the Achievement of Acceptable Indoor Environments. 2016. [4] L. Marín-Restrepo M. Trebilcock J.A. Porras-Salazar Adaptation by coexistence: contrasting thermal comfort perception among individual and shared office spaces Archit. Sci. Rev. 63 3\u20134 2020 235 247 Marín-Restrepo, L., M. Trebilcock, and J.A. Porras-Salazar, Adaptation by coexistence: contrasting thermal comfort perception among individual and shared office spaces. Architectural Science Review, 2020. 63(3-4): p. 235-247. [5] S. Roumi Weighting of indoor environment quality parameters for occupant satisfaction and energy efficiency Build. Environ. 228 2023 109898 Roumi, S., et al., Weighting of indoor environment quality parameters for occupant satisfaction and energy efficiency. Building and Environment, 2023. 228: p. 109898. [6] G. Halhoul Merabet Intelligent building control systems for thermal comfort and energy-efficiency: A systematic review of artificial intelligence-assisted techniques Renew. Sustain. Energy Rev. 144 2021 110969 Halhoul Merabet, G., et al., Intelligent building control systems for thermal comfort and energy-efficiency: A systematic review of artificial intelligence-assisted techniques. Renewable and Sustainable Energy Reviews, 2021. 144: p. 110969. [7] Y. Balali Energy modelling and control of building heating and cooling systems with data-driven and hybrid models\u2014A review Renew. Sustain. Energy Rev. 183 2023 113496 Balali, Y., et al., Energy modelling and control of building heating and cooling systems with data-driven and hybrid models\u2014A review. Renewable and Sustainable Energy Reviews, 2023. 183: p. 113496. [8] P. Höppe Different aspects of assessing indoor and outdoor thermal comfort Energ. Buildings 34 6 2002 661 665 Höppe, P., Different aspects of assessing indoor and outdoor thermal comfort. Energy and Buildings, 2002. 34(6): p. 661-665. [9] Z. Nagy Ten questions concerning occupant-centric control and operations Build. Environ. 242 2023 110518 Nagy, Z., et al., Ten questions concerning occupant-centric control and operations. Building and Environment, 2023. 242: p. 110518. [10] J. Kim S. Schiavon G. Brager Personal comfort models \u2013 A new paradigm in thermal comfort for occupant-centric environmental control Build. Environ. 132 2018 114 124 Kim, J., S. Schiavon, and G. Brager, Personal comfort models \u2013 A new paradigm in thermal comfort for occupant-centric environmental control. Building and Environment, 2018. 132: p. 114-124. [11] K. Chen Personal thermal comfort models based on physiological measurements \u2013 A design of experiments based review Build. Environ. 228 2023 109919 Chen, K., et al., Personal thermal comfort models based on physiological measurements \u2013 A design of experiments based review. Building and Environment, 2023. 228: p. 109919. [12] W. Jung F. Jazizadeh Comparative assessment of HVAC control strategies using personal thermal comfort and sensitivity models Build. Environ. 158 2019 104 119 Jung, W. and F. Jazizadeh, Comparative assessment of HVAC control strategies using personal thermal comfort and sensitivity models. Building and Environment, 2019. 158: p. 104-119. [13] G. Barone A new thermal comfort model based on physiological parameters for the smart design and control of energy-efficient HVAC systems Renew. Sustain. Energy Rev. 173 2023 113015 Barone, G., et al., A new thermal comfort model based on physiological parameters for the smart design and control of energy-efficient HVAC systems. Renewable and Sustainable Energy Reviews, 2023. 173: p. 113015. [14] Y. Zhang Experimental investigation into the effects of different metabolic rates of body movement on thermal comfort Build. Environ. 168 2020 106489 Zhang, Y., et al., Experimental investigation into the effects of different metabolic rates of body movement on thermal comfort. Building and Environment, 2020. 168: p. 106489. [15] D. Fiala K.J. Lomas M. Stohrer A computer model of human thermoregulation for a wide range of environmental conditions: the passive system J. Appl. Physiol. 87 5 1999 1957 1972 Fiala, D., K.J. Lomas, and M. Stohrer, A computer model of human thermoregulation for a wide range of environmental conditions: the passive system. Journal of Applied Physiology, 1999. 87(5): p. 1957-1972. [16] W. Liu Z. Lian Y. Liu Heart rate variability at different thermal comfort levels Eur. J. Appl. Physiol. 103 2008 361 366 Liu, W., Z. Lian, and Y. Liu, Heart rate variability at different thermal comfort levels. European journal of applied physiology, 2008. 103: p. 361-6. [17] W. Liu Z. Lian Y. Liu Heart rate variability at different thermal comfort levels Eur. J. Appl. Physiol. 103 3 2008 361 366 Liu, W., Z. Lian, and Y. Liu, Heart rate variability at different thermal comfort levels. European Journal of Applied Physiology, 2008. 103(3): p. 361-366. [18] S. Veselá Effect of local skin blood flow during light and medium activities on local skin temperature predictions J. Therm. Biol 84 2019 439 450 Veselá, S., et al., Effect of local skin blood flow during light and medium activities on local skin temperature predictions. Journal of Thermal Biology, 2019. 84: p. 439-450. [19] J. Yang Integrating a human thermoregulatory model with a clothing model to predict core and skin temperatures Appl. Ergon. 61 2017 168 177 Yang, J., et al., Integrating a human thermoregulatory model with a clothing model to predict core and skin temperatures. Applied Ergonomics, 2017. 61: p. 168-177. [20] A. Lloyd A mathematical model for predicting cardiovascular responses at rest and during exercise in demanding environmental conditions J. Appl. Physiol. 133 2 2022 247 261 Lloyd, A., et al., A mathematical model for predicting cardiovascular responses at rest and during exercise in demanding environmental conditions. Journal of Applied Physiology, 2022. 133(2): p. 247-261. [21] V. Martins Gnecco I. Pigliautile A.L. Pisello Long-term thermal comfort monitoring via wearable sensing techniques: correlation between environmental metrics and subjective perception Sensors 23 2 2023 576 V. Martins Gnecco, I. Pigliautile, A.L. Pisello, Long-term thermal comfort monitoring via wearable sensing techniques: correlation between environmental metrics and subjective perception. Sensors, 2023. 23, DOI: 10.3390/s23020576. [22] W. Li Indoor temperature preference setting control method for thermal comfort and energy saving based on reinforcement learning J. Build. Eng. 73 2023 106805 Li, W., et al., Indoor temperature preference setting control method for thermal comfort and energy saving based on reinforcement learning. Journal of Building Engineering, 2023. 73: p. 106805. [23] J.Y. Park A critical review of field implementations of occupant-centric building controls Build. Environ. 165 2019 106351 Park, J.Y., et al., A critical review of field implementations of occupant-centric building controls. Building and Environment, 2019. 165: p. 106351. [24] W. O'Brien Introducing IEA EBC annex 79: Key challenges and opportunities in the field of occupant-centric building design and operation Build. Environ. 178 2020 106738 O'Brien, W., et al., Introducing IEA EBC annex 79: Key challenges and opportunities in the field of occupant-centric building design and operation. Building and Environment, 2020. 178: p. 106738. [25] Z. Wang An occupant-centric control strategy for indoor thermal comfort, air quality and energy management Energ. Buildings 285 2023 112899 Wang, Z., et al., An occupant-centric control strategy for indoor thermal comfort, air quality and energy management. Energy and Buildings, 2023. 285: p. 112899. [26] Z. Pang Nationwide energy saving potential evaluation for office buildings with occupant-based building controls ASHRAE Trans. 126 2020 273 281 Pang, Z., et al., Nationwide Energy Saving Potential Evaluation for Office Buildings with Occupant-Based Building Controls. ASHRAE Transactions, 2020. 126: p. 273-281. [27] Z.D. O'Neill Energy savings and ventilation performance from CO2-based demand controlled ventilation: simulation results from ASHRAE RP-1747 (ASHRAE RP-1747) Sci. Technol. Built Environ. 26 2 2020 257 281 O'Neill, Z.D., et al., Energy savings and ventilation performance from CO2-based demand controlled ventilation: Simulation results from ASHRAE RP-1747 (ASHRAE RP-1747). Science and Technology for the Built Environment, 2020. 26(2): p. 257-281. [28] A. Heydarian What drives our behaviors in buildings? A review on occupant interactions with building systems from the lens of behavioral theories Build. Environ. 179 2020 106928 Heydarian, A., et al., What drives our behaviors in buildings? A review on occupant interactions with building systems from the lens of behavioral theories. Building and Environment, 2020. 179: p. 106928. [29] M. Schweiker Review of multi-domain approaches to indoor environmental perception and behaviour Build. Environ. 176 2020 106804 Schweiker, M., et al., Review of multi\u2010domain approaches to indoor environmental perception and behaviour. Building and Environment, 2020. 176: p. 106804. [30] A.L. Pisello Test rooms to study human comfort in buildings: A review of controlled experiments and facilities Renew. Sustain. Energy Rev. 149 2021 111359 Pisello, A.L., et al., Test rooms to study human comfort in buildings: A review of controlled experiments and facilities. Renewable and Sustainable Energy Reviews, 2021. 149: p. 111359. [31] B. Dong A global building occupant behavior database Sci. Data 9 1 2022 369 Dong, B., et al., A Global Building Occupant Behavior Database. Scientific Data, 2022. 9(1): p. 369. [32] C. Berger The role of user controls with respect to indoor environmental quality: From evidence to standards J. Build. Eng. 76 2023 107196 Berger, C., et al., The role of user controls with respect to indoor environmental quality: From evidence to standards. Journal of Building Engineering, 2023. 76: p. 107196. [33] X. Li Q. Chen Development of a novel method to detect clothing level and facial skin temperature for controlling HVAC systems Energ. Buildings 239 2021 110859 Li, X. and Q. Chen, Development of a novel method to detect clothing level and facial skin temperature for controlling HVAC systems. Energy and Buildings, 2021. 239: p. 110859. [34] Z. Deng Q. Chen Development and validation of a smart HVAC control system for multi-occupant offices by using occupants\u2019 physiological signals from wristband Energ. Buildings 214 2020 109872 Deng, Z. and Q. Chen, Development and validation of a smart HVAC control system for multi-occupant offices by using occupants\u2019 physiological signals from wristband. Energy and Buildings, 2020. 214: p. 109872. [35] Y. Wu J. Fan B. Cao Comparison among different modeling approaches for personalized thermal comfort prediction when using personal comfort systems Energ. Buildings 285 2023 112873 Wu, Y., J. Fan, and B. Cao, Comparison among different modeling approaches for personalized thermal comfort prediction when using personal comfort systems. Energy and Buildings, 2023. 285: p. 112873. [36] M.S. Ahamed H. Guo K. Tanino Modeling heating demands in a Chinese-style solar greenhouse using the transient building energy simulation model TRNSYS J. Build. Eng. 29 2020 101114 Ahamed, M.S., H. Guo, and K. Tanino, Modeling heating demands in a Chinese-style solar greenhouse using the transient building energy simulation model TRNSYS. Journal of Building Engineering, 2020. 29: p. 101114. [37] K. Karyono The adaptive thermal comfort review from the 1920s, the present, and the future Dev. Built Environ. 4 2020 100032 Karyono, K., et al., The adaptive thermal comfort review from the 1920s, the present, and the future. Developments in the Built Environment, 2020. 4: p. 100032. [38] Y. Dzyuban Outdoor thermal comfort research in transient conditions: A narrative literature review Landsc. Urban Plan. 226 2022 104496 Dzyuban, Y., et al., Outdoor thermal comfort research in transient conditions: A narrative literature review. Landscape and Urban Planning, 2022. 226: p. 104496. [39] L. Wang Physiological responses and data-driven thermal comfort models with personal conditioning devices (PCD) Build. Environ. 236 2023 110290 Wang, L., et al., Physiological responses and data-driven thermal comfort models with personal conditioning devices (PCD). Building and Environment, 2023. 236: p. 110290. [40] A. Buonomano Dynamic building energy performance analysis: A new adaptive control strategy for stringent thermohygrometric indoor air requirements Appl. Energy 163 2016 361 386 Buonomano, A., et al., Dynamic building energy performance analysis: A new adaptive control strategy for stringent thermohygrometric indoor air requirements. Applied Energy, 2016. 163: p. 361-386. [41] K. Rewitz D. Müller Influence of gender, age and BMI on human physiological response and thermal sensation for transient indoor environments with displacement ventilation Build. Environ. 219 2022 109045 Rewitz, K. and D. Müller, Influence of gender, age and BMI on human physiological response and thermal sensation for transient indoor environments with displacement ventilation. Building and Environment, 2022. 219: p. 109045. [42] K.H. Cheong A simulation-aided approach in improving thermal-visual comfort and power efficiency in buildings J. Build. Eng. 27 2019 100936 Cheong, K.H., et al., A simulation-aided approach in improving thermal-visual comfort and power efficiency in buildings. Journal of Building Engineering, 2019. 27: p. 100936. [43] S. Habibi The promise of BIM for improving building performance Energ. Buildings 153 2017 Habibi, S., The Promise of BIM for Improving Building Performance. Energy and Buildings, 2017. 153. [44] A. Buonomano Building-façade integrated solar thermal collectors: Energy-economic performance and indoor comfort simulation model of a water based prototype for heating, cooling, and DHW production Renew. Energy 137 2019 20 36 Buonomano, A., et al., Building-façade integrated solar thermal collectors: Energy-economic performance and indoor comfort simulation model of a water based prototype for heating, cooling, and DHW production. Renewable Energy, 2019. 137: p. 20-36. [45] P. Anand C. Deb R. Alur A simplified tool for building layout design based on thermal comfort simulations Front. Archit. Res. 6 2 2017 218 230 Anand, P., C. Deb, and R. Alur, A simplified tool for building layout design based on thermal comfort simulations. Frontiers of Architectural Research, 2017. 6(2): p. 218-230. [46] C. Buratti Unsteady simulation of energy performance and thermal comfort in non-residential buildings Build. Environ. 59 2013 482 491 Buratti, C., et al., Unsteady simulation of energy performance and thermal comfort in non-residential buildings. Building and Environment, 2013. 59: p. 482-491. [47] A.-A.-W. Hawila Combined use of dynamic building simulation and metamodeling to optimize glass facades for thermal comfort Build. Environ. 157 2019 47 63 Hawila, A.A.-W., et al., Combined use of dynamic building simulation and metamodeling to optimize glass facades for thermal comfort. Building and Environment, 2019. 157: p. 47-63. [48] S. Lu Data-driven simulation of a thermal comfort-based temperature set-point control with ASHRAE RP884 Build. Environ. 2019 Lu, S., et al., Data-driven simulation of a thermal comfort-based temperature set-point control with ASHRAE RP884. Building and Environment, 2019. [49] W. Valladares Energy optimization associated with thermal comfort and indoor air control via a deep reinforcement learning algorithm Build. Environ. 155 2019 Valladares, W., et al., Energy optimization associated with thermal comfort and indoor air control via a deep reinforcement learning algorithm. Building and Environment, 2019. 155. [50] Y. Lei A practical deep reinforcement learning framework for multivariate occupant-centric control in buildings Appl. Energy 324 2022 119742 Lei, Y., et al., A practical deep reinforcement learning framework for multivariate occupant-centric control in buildings. Applied Energy, 2022. 324: p. 119742. [51] S. Vosoughkhosravi A. Jafari Y. Zhu Application of American time use survey (ATUS) in modelling energy-related occupant-building interactions: A comprehensive review Energ. Buildings 294 2023 113245 Vosoughkhosravi, S., A. Jafari, and Y. Zhu, Application of American time use survey (ATUS) in modelling energy-related occupant-building interactions: A comprehensive review. Energy and Buildings, 2023. 294: p. 113245. [52] J. Malik R. Bardhan A localized adaptive comfort model for free-running low-income housing in Mumbai, India Energy Build. 281 2023 112756 Malik, J. and R. Bardhan, A localized adaptive comfort model for free-running low-income housing in Mumbai, India. Energy and Buildings, 2023. 281: p. 112756. [53] X. Tian R. Xu W. Liu Facial skin temperature and overall thermal sensation of sub-tropically acclimated Chinese subjects in summer J. Therm. Biol 112 2023 103422 Tian, X., R. Xu, and W. Liu, Facial skin temperature and overall thermal sensation of sub-tropically acclimated Chinese subjects in summer. Journal of Thermal Biology, 2023. 112: p. 103422. [54] Z. Yang A novel integrated index for simultaneous evaluation of the thermal comfort and energy efficiency of air-conditioning systems J. Build. Eng. 57 2022 104885 Yang, Z., et al., A novel integrated index for simultaneous evaluation of the thermal comfort and energy efficiency of air-conditioning systems. Journal of Building Engineering, 2022. 57: p. 104885. [55] L. Li Enhancing IAQ, thermal comfort, and energy efficiency through an adaptive multi-objective particle swarm optimizer-grey wolf optimization algorithm for smart environmental control Build. Environ. 235 2023 110235 Li, L., et al., Enhancing IAQ, thermal comfort, and energy efficiency through an adaptive multi-objective particle swarm optimizer-grey wolf optimization algorithm for smart environmental control. Building and Environment, 2023. 235: p. 110235. [56] A. Buonomano A. Palombo Building energy performance analysis by an in-house developed dynamic simulation code: An investigation for different case studies Appl. Energy 113 2014 788 807 Buonomano, A. and A. Palombo, Building energy performance analysis by an in-house developed dynamic simulation code: An investigation for different case studies. Applied Energy, 2014. 113: p. 788-807. [57] A. Buonomano Code-to-Code Validation and Application of a Dynamic Simulation Tool for the Building Energy Performance Analysis Energies 9 4 2016 301 A. Buonomano, Code-to-Code Validation and Application of a Dynamic Simulation Tool for the Building Energy Performance Analysis, Energies, 9(4), 2016. p. 301. [58] A. Buonomano Temperature and humidity adaptive control in multi-enclosed thermal zones under unexpected external disturbances Energ. Buildings 135 2017 263 285 Buonomano, A., et al., Temperature and humidity adaptive control in multi-enclosed thermal zones under unexpected external disturbances. Energy and Buildings, 2017. 135: p. 263-285. [59] G. Barone Building Energy Performance Analysis: An Experimental Validation of an In-House Dynamic Simulation Tool through a Real Test Room Energies 12 21 2019 4107 G. Barone, et al., Building Energy Performance Analysis: An Experimental Validation of an In-House Dynamic Simulation Tool through a Real Test Room. 2019. 12(21): p. 4107. [60] G. Barone Modelling the thermal response of the human body for thermal comfort assessment in indoor spaces: an experimental validation 2022 IEEE International Workshop on Metrology for Living Environment (MetroLivEn) 2022 Cosenza, Italy 23 28 G. Barone et al., Modelling the thermal response of the human body for thermal comfort assessment in indoor spaces: an experimental validation, 2022 IEEE International Workshop on Metrology for Living Environment (MetroLivEn), Cosenza, Italy, 2022, pp. 23-28, doi: 10.1109/MetroLivEnv54405.2022.9826971. [61] J. González-Alonso Human thermoregulation and the cardiovascular system Exp. Physiol. 97 3 2012 340 346 González-Alonso, J., Human thermoregulation and the cardiovascular system. Experimental Physiology, 2012. 97(3): p. 340-346. [62] R.R. Nelson Hemodynamic predictors of myocardial oxygen consumption during static and dynamic exercise Circulation 50 6 1974 1179 1189 Nelson, R.R., et al., Hemodynamic Predictors of Myocardial Oxygen Consumption During Static and Dynamic Exercise. Circulation, 1974. 50(6): p. 1179-1189. [63] A. Persily L. de Jonge Carbon dioxide generation rates for building occupants Indoor Air 27 5 2017 868 879 Persily, A. and L. de Jonge, Carbon dioxide generation rates for building occupants. Indoor Air, 2017. 27(5): p. 868-879. [64] O. Kaynakli M. Kilic Investigation of indoor thermal comfort under transient conditions Build. Environ. 40 2 2005 165 174 Kaynakli, O. and M. Kilic, Investigation of indoor thermal comfort under transient conditions. Building and Environment, 2005. 40(2): p. 165-174. [65] E.W. Shaw, Thermal Comfort: analysis and applications in environmental engineering, by P. O. Fanger. 244 pp. DANISH TECHNICAL PRESS. Copenhagen, Denmark, 1970. Danish Kr. 76, 50. Royal Society of Health Journal, 1972. 92(3): p. 164-164. [66] J. Pei The relationship between indoor air quality (IAQ) and perceived air quality (PAQ) \u2013 a review and case analysis of Chinese residential environment Energy Built. Environ. 2022 Pei, J., et al., The relationship between indoor air quality (IAQ) and perceived air quality (PAQ) \u2013 a review and case analysis of Chinese residential environment. Energy and Built Environment, 2022. [67] L. Fang G. Clausen P.O. Fanger Impact of temperature and humidity on perception of indoor air quality during immediate and longer whole-body exposures Indoor Air 8 4 1998 276 284 Fang, L., G. Clausen, and P.O. Fanger, Impact of Temperature and Humidity on Perception of Indoor Air Quality During Immediate and Longer Whole-Body Exposures. Indoor Air, 1998. 8(4): p. 276-284. [68] L. Fang G. Clausen P.O. Fanger Impact of temperature and humidity on the perception of indoor air quality Indoor Air 8 2 1998 80 90 Fang, L., G. Clausen, and P.O. Fanger, Impact of Temperature and Humidity on the Perception of Indoor Air Quality. Indoor Air, 1998. 8(2): p. 80-90. [69] A. Maturo A novel multi-level predictive management strategy to optimize phase-change energy storage and building-integrated renewable technologies operation under dynamic tariffs Energ. Conver. Manage. 291 2023 117220 Maturo, A., et al., A novel multi-level predictive management strategy to optimize phase-change energy storage and building-integrated renewable technologies operation under dynamic tariffs. Energy Conversion and Management, 2023. 291: p. 117220. [70] F. Vittori The NEXT.ROOM: Design principles and systems trials of a novel test room aimed at deepening our knowledge on human comfort Build. Environ. 211 2022 108744 Vittori, F., et al., The NEXT.ROOM: Design principles and systems trials of a novel test room aimed at deepening our knowledge on human comfort. Building and Environment, 2022. 211: p. 108744. [71] T.J. Doherty E. Arens Evaluation of the physiological bases of thermal comfort models ASHRAE Trans. 94 1988 1371 1385 Doherty, T.J. and E. Arens, Evaluation of the physiological bases of thermal comfort models. ASHRAE Transactions, 1988. 94: p. 1371-1385. [72] W. Liu Evaluation of calculation methods of mean skin temperature for use in thermal comfort study Build. Environ. 46 2 2011 478 488 Liu, W., et al., Evaluation of calculation methods of mean skin temperature for use in thermal comfort study. Building and Environment, 2011. 46(2): p. 478-488. [73] Y. Feng Alert-based wearable sensing system for individualized thermal preference prediction Build. Environ. 232 2023 110047 Feng, Y., et al., Alert-based wearable sensing system for individualized thermal preference prediction. Building and Environment, 2023. 232: p. 110047. [74] R.J. de Dear G.S. Brager Thermal comfort in naturally ventilated buildings: revisions to ASHRAE Standard 55 Energ. Buildings 34 6 2002 549 561 de Dear, R.J. and G.S. Brager, Thermal comfort in naturally ventilated buildings: revisions to ASHRAE Standard 55. Energy and Buildings, 2002. 34(6): p. 549-561. [75] E. Cutore Energy management and sustainability assessment of renewable energy communities: The Italian context Energ. Conver. Manage. 278 2023 116713 Cutore, E., et al., Energy management and sustainability assessment of renewable energy communities: The Italian context. Energy Conversion and Management, 2023. 278: p. 116713. [76] M.G. Davies The thermal response of an enclosure to periodic excitation: The CIBSE approach Build. Environ. 29 2 1994 217 235 Davies, M.G., The thermal response of an enclosure to periodic excitation: The CIBSE approach. Building and Environment, 1994. 29(2): p. 217-235. [77] B.W. Olesen K.C. Parsons Introduction to thermal comfort standards and to the proposed new version of EN ISO 7730 Energ. Buildings 34 6 2002 537 548 Olesen, B.W. and K.C. Parsons, Introduction to thermal comfort standards and to the proposed new version of EN ISO 7730. Energy and Buildings, 2002. 34(6): p. 537-548. [78] S. Liu Personal thermal comfort models with wearable sensors Build. Environ. 162 2019 106281 Liu, S., et al., Personal thermal comfort models with wearable sensors. Building and Environment, 2019. 162: p. 106281. [79] P. Mazzei A. Palombo Economic evaluation of hybrid evaporative technology implementation in Italy Build. Environ. 34 5 1999 571 582 P. Mazzei, A. Palombo, Economic evaluation of hybrid evaporative technology implementation in Italy, Building and Environment, 34(5), 1999, 571-582.",
+    "scopus-id": "85179049322",
+    "coredata": {
+        "eid": "1-s2.0-S0378778823010010",
+        "dc:description": "Occupant Centric Control (OCC) strategies aims to achieve a more personalized and comfortable indoor environment, translating occupants' comfort requirements into real environmental conditions. This strategy relies on a multilevel non-linear programming optimization procedure to determine optimal thermo-hygrometric setpoints. The objective is to minimize space heating and cooling requirements while addressing multi-domain comfort concerns related to individual thermal sensations and perceived air quality. To facilitate this process, this study adopts a novel Personal Comfort Model (PCM), incorporating physiological factors to predict occupants' thermal sensations and CO2 intakes. The PCM's reliable predictive capabilities are confirmed through validation with real experimental data from a test room at the University of Perugia. For detailed energy analyses, considering occupants' subjective comfort preferences, the PCM is seamlessly integrated into DETECt, an in-house building energy performance simulation tool developed by the University of Naples Federico II, for the design of advanced control algorithms and energy efficiency strategies. To effectively manage the HVAC system, a model predictive control is implemented, using the determined setpoints to ensure mechanical ventilation and maximize cost savings. The proof of concept for the developed methodology involves simulating experimental tests using the thermal model of the human body and the new facility management system, to be simulated and optimized by means of the enhanced building energy performance simulation tool, exploited for the design and operation of more occupant-centric and sustainable buildings. The proposed study demonstrates that through the developed OCC strategy enables a significant reduction in thermal discomfort (40 % and 60 % less than the occupation time for test 1 and test 2, respectively) compared to reference scenarios. Additionally, energy analysis reveals high efficiency, achieving savings of 12.8 % and 7.8 % of electricity consumed for HVAC system operation.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-01-15",
+        "openaccessUserLicense": "http://creativecommons.org/licenses/by/4.0/",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378778823010010",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Buonomano, Annamaria"
+            },
+            {
+                "@_fa": "true",
+                "$": "Forzano, Cesare"
+            },
+            {
+                "@_fa": "true",
+                "$": "Gnecco, Veronica Martins"
+            },
+            {
+                "@_fa": "true",
+                "$": "Pigliautile, Ilaria"
+            },
+            {
+                "@_fa": "true",
+                "$": "Pisello, Anna Laura"
+            },
+            {
+                "@_fa": "true",
+                "$": "Russo, Giuseppe"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0378778823010010"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0378778823010010"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": "Full",
+        "pii": "S0378-7788(23)01001-0",
+        "prism:volume": "303",
+        "articleNumber": "113771",
+        "prism:publisher": "The Authors. Published by Elsevier B.V.",
+        "dc:title": "Enhancing energy efficiency and comfort with a multi-domain approach: Development of a novel human thermoregulatory model for occupant-centric control",
+        "prism:copyright": "© 2023 The Authors. Published by Elsevier B.V.",
+        "openaccess": "1",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Physiological thermal comfort models"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building energy performance simulation tools"
+            },
+            {
+                "@_fa": "true",
+                "$": "Human-body thermal sensation"
+            },
+            {
+                "@_fa": "true",
+                "$": "Occupant centric control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Multi-level nonlinear programming"
+            },
+            {
+                "@_fa": "true",
+                "$": "MPC control for HVAC"
+            },
+            {
+                "@_fa": "true",
+                "$": "Multi-domain comfort model"
+            },
+            {
+                "@_fa": "true",
+                "$": "Perceived indoor air quality"
+            }
+        ],
+        "openaccessArticle": "true",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": "ElsevierBranded",
+        "prism:pageRange": "113771",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 January 2024",
+        "prism:doi": "10.1016/j.enbuild.2023.113771",
+        "prism:startingPage": "113771",
+        "dc:identifier": "doi:10.1016/j.enbuild.2023.113771",
+        "openaccessSponsorName": "CRUI: Hybrid journals 2023"
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "202",
+            "@width": "732",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48096",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "221",
+            "@width": "378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30034",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "215",
+            "@width": "799",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43991",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "263",
+            "@width": "668",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "22113",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "190",
+            "@width": "701",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33803",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "572",
+            "@width": "658",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "74474",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "608",
+            "@width": "655",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "74027",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "496",
+            "@width": "378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr17.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40110",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "500",
+            "@width": "378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr16.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41293",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "339",
+            "@width": "710",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30622",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "476",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr19.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "65186",
+            "@ref": "gr19",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "235",
+            "@width": "701",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43141",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "601",
+            "@width": "678",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr18.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "90966",
+            "@ref": "gr18",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "420",
+            "@width": "536",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37681",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "630",
+            "@width": "747",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "100522",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "180",
+            "@width": "670",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36975",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "404",
+            "@width": "716",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "65010",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "474",
+            "@width": "382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "43064",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "837",
+            "@width": "383",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "99735",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "61",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5879",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "128",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10549",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "59",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4907",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "86",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3913",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "59",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7542",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "188",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10350",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "176",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9660",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "125",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr17.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7047",
+            "@ref": "gr17",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "124",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr16.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7066",
+            "@ref": "gr16",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "105",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5096",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "184",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr19.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10871",
+            "@ref": "gr19",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "74",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6168",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "185",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr18.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10470",
+            "@ref": "gr18",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "209",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8610",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "194",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10989",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "59",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6182",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "124",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7969",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "132",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7388",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "75",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7274",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "896",
+            "@width": "3240",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "284084",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "977",
+            "@width": "1673",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "177189",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "953",
+            "@width": "3539",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "252676",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1165",
+            "@width": "2957",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "115558",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "843",
+            "@width": "3104",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "210146",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1521",
+            "@width": "1749",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "233903",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1615",
+            "@width": "1740",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "235959",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1318",
+            "@width": "1004",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr17_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "128304",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1328",
+            "@width": "1004",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr16_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "128105",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "901",
+            "@width": "1886",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "129493",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2105",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr19_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "347186",
+            "@ref": "gr19",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "625",
+            "@width": "1862",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "131040",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2658",
+            "@width": "3001",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr18_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "475396",
+            "@ref": "gr18",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1117",
+            "@width": "1425",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "116232",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1673",
+            "@width": "1985",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "289904",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "798",
+            "@width": "2965",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "215153",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1791",
+            "@width": "3171",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "410745",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2100",
+            "@width": "1693",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "285252",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3714",
+            "@width": "1699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "534179",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4343",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "47780",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "36408",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "58346",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4646",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "38412",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3466",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24312",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27721",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "47412",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5426",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2776",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "32201",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8398",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "42170",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "71977",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "38996",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7189",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8164",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "27185",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "38024",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "72419",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2511",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "76587",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6291",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "43728",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12216",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6863",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10438",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10307",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823010010-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2644551",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85179049322"
+    }
+}}

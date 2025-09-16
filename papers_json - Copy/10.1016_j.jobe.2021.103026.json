@@ -1,0 +1,828 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85111256678",
+    "originalText": "serial JL 312002 291210 291862 291881 31 Journal of Building Engineering JOURNALBUILDINGENGINEERING 2021-07-27 2021-07-27 2021-07-29 2021-07-29 2021-11-18T15:55:44 1-s2.0-S2352710221008846 S2352-7102(21)00884-6 S2352710221008846 10.1016/j.jobe.2021.103026 S300 S300.1 FULL-TEXT 1-s2.0-S2352710221X00083 2022-12-12T23:24:17.571397Z 0 0 20211101 20211130 2021 2021-07-27T08:05:49.79535Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast grantsponsor grantsponsorid highlightsabst nomenclature orcid primabst ref 2352-7102 23527102 true 43 43 C Volume 43 164 103026 103026 103026 202111 November 2021 2021-11-01 2021-11-30 2021 article fla © 2021 Elsevier Ltd. All rights reserved. DEVELOPMENTADVANCEDCONTROLLERSEXTENDPEAKSHIFTINGPOSSIBILITIESINRESIDENTIALBUILDINGS SUN Y Abbreviation 1 Introduction 1.1 Research gap 1.2 Objectives and uniqueness of the study 2 Experimental and modeling platform 2.1 Experimental house and HES details 2.2 TRNSYS - MATLAB model 3 Controller description 3.1 Advanced controllers 3.1.1 Advanced controller with upper bound for floor surface temperature 3.1.2 Advanced controller with HES operation 3.2 Existing control strategies 3.2.1 Constant set-point control 3.2.2 Rule-based control (RBC) 3.2.3 Self-learning predictive control 4 Analysis procedure 4.1 Selection of upper bound floor surface temperature 4.2 Comparison between controllers 5 Results and discussion 5.1 Selection of upper bound floor surface temperature 5.2 Comparison between controllers 5.2.1 Peak shifting potential 5.2.2 Thermal comfort 5.2.3 Heating cost-saving analysis 6 Discussion on advantages, limitations of the developed controllers and scope for future works 7 Conclusion Acknowledgement Nomenclature CRediT author statement References REYNOLDS 2019 699 713 J THIEBLEMONT 2018 442 458 H HUANG 2013 259 269 T HUANG 2011 119 124 T 2011INTERNATIONALJOINTCONFERENCENEURALNETWORKS RESIDENTIALENERGYSYSTEMCONTROLMANAGEMENTUSINGADAPTIVEDYNAMICPROGRAMMING MASSIE 2002 1121 1129 D NAJAFIAN 2015 59 64 A OLSTHOORN 2019 329 343 D DARDIR 2020 704 720 M REYNDERS 2013 187 199 G LIU 2018 281 294 Z SUN 2013 101 114 Y ZHU 2011 3197 3205 N REYNDERS 2015 1986 1993 G 14THINTERNATIONALCONFERENCEIBPSABUILDINGSIMULATION2015BS2015CONFERENCEPROCEEDINGS AGENERICQUANTIFICATIONMETHODFORACTIVEDEMANDRESPONSEPOTENTIALSTRUCTURALSTORAGEINBUILDINGS AFRAM 2014 343 355 A SALSBURY 2013 77 85 T LI 2016 1194 1206 X HU 2019 316 329 M FADEJEV 2017 39 44 J KLEIN 2015 579 584 K PROCEEDINGSINTERNATIONALCONFERENCECISBAT2015FUTUREBUILDINGSDISTRICTSSUSTAINABILITYNANOURBANSCALE GRIDIMPACTANETZEROENERGYBUILDINGBIPVUSINGDIFFERENTENERGYMANAGEMENTSTRATEGIES PAVLAK 2015 161 176 G TABARESVELASCO 2019 1346 1357 P LU 2019 137 146 S XUEMEI 2010 522 526 L 2010THIRDINTERNATIONALCONFERENCEKNOWLEDGEDISCOVERYDATAMINING ANOVELHYBRIDAPPROACHKPCASVMFORBUILDINGCOOLINGLOADPREDICTION XU 2019 180 195 L LEE 2019 726 738 J BEDI 2019 1312 1326 J AMASYALI 2017 466 474 K DEEPLEARNINGFORBUILDINGENERGYCONSUMPTIONPREDICTION MOCANU 2016 91 99 E SUN 2020 110022 Y JUNKER 2018 175 182 R KNUDSEN 2016 196 204 M PATTEEUW 2015 490 501 D KNUDSEN 2020 109661 M SOSSAN 2014 879 889 F TOM 2020 102285 J TOM 2020 101560 J SUN 2018 435 446 Y THIEBLEMONT 2016 7 H CANADA E PANDAY 2014 160510 A LEDREAU 2016 991 1002 J SCHIAVON 2014 321 334 S SUNX2021X103026 SUNX2021X103026XY 2023-07-29T00:00:00.000Z 2023-07-29T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2021 Elsevier Ltd. All rights reserved. 2021-08-02T04:26:34.616Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science and Engineering Research Council of Canada NSERC Natural Sciences and Engineering Research Council of Canada http://data.elsevier.com/vocabulary/SciValFunders/501100000038 http://sws.geonames.org/6251999/ The authors would like to acknowledge the financial support offered by the Natural Science and Engineering Research Council of Canada (NSERC) through a CRD grant. 0 https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2352-7102(21)00884-6 S2352710221008846 1-s2.0-S2352710221008846 10.1016/j.jobe.2021.103026 312002 2021-11-18T16:52:13.652006Z 2021-11-01 2021-11-30 1-s2.0-S2352710221008846-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/MAIN/application/pdf/f1ff5c7cd8ae012c67b9b456c33caba5/main.pdf main.pdf pdf true 5805763 MAIN 13 1-s2.0-S2352710221008846-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/PREVIEW/image/png/18ade37e6dffb7c674adbf04264350c5/main_1.png main_1.png png 59339 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2352710221008846-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr10/DOWNSAMPLED/image/jpeg/3984ec99e04324dafb1678e7e62d82cf/gr10.jpg gr10 gr10.jpg jpg 101787 250 535 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr11/DOWNSAMPLED/image/jpeg/3cbfca07822b7a65ac694a55e374fb12/gr11.jpg gr11 gr11.jpg jpg 118203 330 535 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr2/DOWNSAMPLED/image/jpeg/620a3516644fef40d97a61ed6aa1001e/gr2.jpg gr2 gr2.jpg jpg 94606 318 389 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr14/DOWNSAMPLED/image/jpeg/72b88edc28b7f01cbd0396d0ebde3bf7/gr14.jpg gr14 gr14.jpg jpg 109330 305 535 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr1/DOWNSAMPLED/image/jpeg/20c1a8c757fd0766267d2a16f646893b/gr1.jpg gr1 gr1.jpg jpg 105760 283 389 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr15/DOWNSAMPLED/image/jpeg/e620a0db52114bbeff088f2b4e7d4789/gr15.jpg gr15 gr15.jpg jpg 93634 305 533 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr12/DOWNSAMPLED/image/jpeg/943bbdb512fa09c7acbcccfba4db0c04/gr12.jpg gr12 gr12.jpg jpg 96997 320 535 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr13/DOWNSAMPLED/image/jpeg/05908910cf3da4a7f975c0ce887b4894/gr13.jpg gr13 gr13.jpg jpg 113143 280 535 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr6/DOWNSAMPLED/image/jpeg/738890b8f271d00c545ad516dc76b98a/gr6.jpg gr6 gr6.jpg jpg 135327 330 535 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr18.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr18/DOWNSAMPLED/image/jpeg/ae79d6cea4c28af5d7c7f92c188ca3bf/gr18.jpg gr18 gr18.jpg jpg 94507 315 533 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr5/DOWNSAMPLED/image/jpeg/5677b03e25ec66b133d0b0dab36a2a02/gr5.jpg gr5 gr5.jpg jpg 113940 322 535 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr4/DOWNSAMPLED/image/jpeg/3d20d5e586a0fa1fd2e4b0656b883c5b/gr4.jpg gr4 gr4.jpg jpg 74830 97 389 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr16.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr16/DOWNSAMPLED/image/jpeg/380585b4771d269afaf98db2e5ac309e/gr16.jpg gr16 gr16.jpg jpg 93745 241 557 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr3/DOWNSAMPLED/image/jpeg/24de0f6595230b214cd3fb72f415b8e2/gr3.jpg gr3 gr3.jpg jpg 82691 106 389 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr17.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr17/DOWNSAMPLED/image/jpeg/d4ccc3d1c5ff3a7cf49d2ea5495f50c6/gr17.jpg gr17 gr17.jpg jpg 94261 315 533 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr9/DOWNSAMPLED/image/jpeg/e2ab748007629a5fd28cf7c3ccb5913b/gr9.jpg gr9 gr9.jpg jpg 110790 343 389 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr8/DOWNSAMPLED/image/jpeg/e0136160138a55a90d4f3919a37dd273/gr8.jpg gr8 gr8.jpg jpg 107258 376 389 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr7/DOWNSAMPLED/image/jpeg/90179719efa654bbbf3f32d5a5083b23/gr7.jpg gr7 gr7.jpg jpg 130167 273 535 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221008846-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr10/THUMBNAIL/image/gif/6f2a85a447a35ee79995e6c91ba73e82/gr10.sml gr10 gr10.sml sml 72600 102 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr11/THUMBNAIL/image/gif/57d5b2e4c1f726aaeaaf5d822055427b/gr11.sml gr11 gr11.sml sml 73687 135 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr2/THUMBNAIL/image/gif/3dbfef61521726590b0483582b30077e/gr2.sml gr2 gr2.sml sml 75597 164 200 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr14/THUMBNAIL/image/gif/8ce6fbd9e7dffa2fe84a6b6ac6b41619/gr14.sml gr14 gr14.sml sml 75429 125 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr1/THUMBNAIL/image/gif/01b65f2d0636c07ffc666332ce0c7fbe/gr1.sml gr1 gr1.sml sml 88354 159 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr15/THUMBNAIL/image/gif/f6dab3713447d48ab000e2aa59241067/gr15.sml gr15 gr15.sml sml 71825 125 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr12/THUMBNAIL/image/gif/2b57e1edec973cd2b6c1294cb3ef52b2/gr12.sml gr12 gr12.sml sml 71668 131 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr13/THUMBNAIL/image/gif/8398059df3c23ebc05fa840dcb67c028/gr13.sml gr13 gr13.sml sml 75840 115 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr6/THUMBNAIL/image/gif/86b3fa5c2a66a9ae3bc87ce9a906dc49/gr6.sml gr6 gr6.sml sml 76810 135 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr18.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr18/THUMBNAIL/image/gif/3462a435621268bddafb0d78ace20da3/gr18.sml gr18 gr18.sml sml 72470 129 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr5/THUMBNAIL/image/gif/42f204d0ea58cc6f048ab5e6ad9c3a1f/gr5.sml gr5 gr5.sml sml 76615 132 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr4/THUMBNAIL/image/gif/91d5f57834360d72868e96fa22cb4576/gr4.sml gr4 gr4.sml sml 67842 55 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr16.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr16/THUMBNAIL/image/gif/f96aa66503750afc688cf18b8429e99f/gr16.sml gr16 gr16.sml sml 70360 95 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr3/THUMBNAIL/image/gif/33d2a021942a348c4851577c12c90ab7/gr3.sml gr3 gr3.sml sml 70041 60 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr17.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr17/THUMBNAIL/image/gif/281bfc6f6cf777b0b0a07c4f0d50d702/gr17.sml gr17 gr17.sml sml 71901 129 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr9/THUMBNAIL/image/gif/e03efd6a3265ab05d8a7b6ea785f46a0/gr9.sml gr9 gr9.sml sml 75769 164 186 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr8/THUMBNAIL/image/gif/2356ff52eb2c6fc776af84204412089d/gr8.sml gr8 gr8.sml sml 75344 164 169 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr7/THUMBNAIL/image/gif/eb0243dce34e757f673f5356a784a393/gr7.sml gr7 gr7.sml sml 78655 112 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221008846-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr10/HIGHRES/image/jpeg/40c42e075652168214c5466d423bc135/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 293786 1108 2370 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr11/HIGHRES/image/jpeg/2e9dbc1e1ff58d51843b18be2dcbfe4d/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 368173 1463 2370 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr2/HIGHRES/image/jpeg/e96c6878f3693b16fbd32f5bb44db9a8/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 216339 1409 1722 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr14/HIGHRES/image/jpeg/de12ef0fbe5400ac7cb78f52d3917959/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 310585 1349 2370 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr1/HIGHRES/image/jpeg/4eb81767e8c72c3d39377c3a7fca6eeb/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 333717 1254 1722 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr15/HIGHRES/image/jpeg/dec9a3aadeffcd2b993bb1806c6d28dd/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 244004 1350 2362 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr12/HIGHRES/image/jpeg/798c10df168b88f38d636530b90d6e1b/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 246688 1416 2370 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr13/HIGHRES/image/jpeg/9522f2d52bf0f7f35fd3b25e4b1f0f3a/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 320083 1241 2370 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr6/HIGHRES/image/jpeg/5ce5bd91b8f215a5b916cd4dd5fd3404/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 620726 1461 2370 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr18_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr18/HIGHRES/image/jpeg/36ef8277df7ecc38f97f5dd2b9ba4b0b/gr18_lrg.jpg gr18 gr18_lrg.jpg jpg 240169 1394 2362 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr5/HIGHRES/image/jpeg/acbea79bd2827eb73f3e8086e133af4b/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 430217 1427 2370 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr4/HIGHRES/image/jpeg/7940ce646d65043b03d4f6f3df1a99ac/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 112958 429 1722 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr16_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr16/HIGHRES/image/jpeg/0146daa32bf883acc0e90988ce336947/gr16_lrg.jpg gr16 gr16_lrg.jpg jpg 285502 1067 2469 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr3/HIGHRES/image/jpeg/8390f25aecccdbf1242e024e5afd27a3/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 190761 468 1722 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr17_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr17/HIGHRES/image/jpeg/0c718665045ca7ec02651dc33d6f6151/gr17_lrg.jpg gr17 gr17_lrg.jpg jpg 234596 1394 2362 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr9/HIGHRES/image/jpeg/b0e5651cc1640b998c95607c829e7064/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 316444 1520 1722 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr8/HIGHRES/image/jpeg/3ada4b9122d9705596b95e79f916a4a2/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 324047 1666 1722 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/gr7/HIGHRES/image/jpeg/b946f20df15ba37ce5b869d6121a2912/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 487932 1211 2370 IMAGE-HIGH-RES 1-s2.0-S2352710221008846-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/STRIPIN/image/svg+xml/3a982fce688c9db72ddfb95ebef07848/si7.svg si7 si7.svg svg 3886 ALTIMG 1-s2.0-S2352710221008846-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/STRIPIN/image/svg+xml/8f8426a2f19825710a2eb7f35a89e1f9/si2.svg si2 si2.svg svg 21145 ALTIMG 1-s2.0-S2352710221008846-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/STRIPIN/image/svg+xml/43db72f18536505f97386fb5aa2a9db5/si6.svg si6 si6.svg svg 19534 ALTIMG 1-s2.0-S2352710221008846-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/STRIPIN/image/svg+xml/6e59990cc9451fee83f509b86a7778ae/si3.svg si3 si3.svg svg 21479 ALTIMG 1-s2.0-S2352710221008846-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/STRIPIN/image/svg+xml/20bffbf8a69ba77c85af80bbc9cd1cc5/si4.svg si4 si4.svg svg 100182 ALTIMG 1-s2.0-S2352710221008846-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/STRIPIN/image/svg+xml/ec8afbb2acfa04043cdb3761de18e6ae/si1.svg si1 si1.svg svg 23912 ALTIMG 1-s2.0-S2352710221008846-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221008846/STRIPIN/image/svg+xml/a0dfdb3b830de353460bd4a2f80f70a7/si5.svg si5 si5.svg svg 57759 ALTIMG 1-s2.0-S2352710221008846-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:1040FCLWMLW/MAIN/application/pdf/1a2c9599146ad601916483c640a0a49f/am.pdf am am.pdf pdf false 1700981 AAM-PDF JOBE 103026 103026 S2352-7102(21)00884-6 10.1016/j.jobe.2021.103026 Elsevier Ltd Fig. 1 Schematic of the studied two-story residential building integrated with an HES [38]. Fig. 1 Fig. 2 Floor plan of the house (a) basement, (b) ground floor and (c) second floor [38]. Fig. 2 Fig. 3 Schematic representation of the buried EHF in the basement. Fig. 3 Fig. 4 Peak period (white blocks) and off-peak period (black blocks) of the CPP tariff. Fig. 4 Fig. 5 Simplified schematic of the TRNSYS - MATLAB model. Fig. 5 Fig. 6 Structure of the advanced controllers. Fig. 6 Fig. 7 Schematic of the learning process for energy prediction model (high-level controller) in the advanced controllers. Fig. 7 Fig. 8 Low-level controller operation principle for advanced controller with upper bound for floor surface temperature. Fig. 8 Fig. 9 Low-level controller operation principle for the advanced controller with HES operation. Fig. 9 Fig. 10 Set-point temperature schedule for rule-based control. Fig. 10 Fig. 11 Structure of the self-learning predictive control [3]. Fig. 11 Fig. 12 Frequency of the PTC for different floor surface upper bound temperatures. Fig. 12 Fig. 13 Comparison of average power among the cases. Fig. 13 Fig. 14 Peak shifting potential of Case 1\u20136 compared with the Reference case. Fig. 14 Fig. 15 Energy shifting potential in the second off-peak period. Fig. 15 Fig. 16 Average indoor air temperature in (a) the basement and (b) the second floor. Fig. 16 Fig. 17 Comparison of thermal comfort potential among the cases. Fig. 17 Fig. 18 Comparison of the total heating cost among these cases. Fig. 18 Table 1 Thermo-physical propertis of the buried EHF in the basement [40]. Table 1 Thermal conductivity (W/m. K) Specific heat (kJ/kg. K) Density (kg/m3) Concrete 2.25 0.99 2200 Insulation (Extruded polystyrene (XPS)) 0.04 1.5 35 Plywood 0.164 1.63 670 Table 2 Performance characteristics of the fan in HES. Table 2 Level Volumetric airflow rate (m3/s) Power (W) 1 0.117 158 2 0.260 297 3 0.379 410 Table 3 CPP in quebec [41]. Table 3 Periods Condition Peak period Off-peak period Electricity price (¢/kWh) <40 kWh/per day 50 3.98 Electricity price (¢/kWh) >40 kWh/per day 50 7.03 Subscription fee (¢/day) \u2013 40.64 Table 4 Summary of various cases with different control strategies. Table 4 Case name Control strategies Reference case Basement Constant set-point control (21.5 °C) Second floor HES control OFF Case 1 Basement Rule-based control Second floor HES control OFF Case 2 Basement Self-learning predictive control Second floor Constant set-point control (21.5 °C) HES control OFF Case 3 Basement Self-learning predictive control Second floor Rule-based control HES control OFF Case 4 Basement Self-learning predictive control Second floor Constant set-point control (21.5 °C) HES control Peak period: ON; off-peak period: OFF Case 5 Basement Advanced controller with upper bound for floor surface temperature Second floor Constant set-point control (21.5 °C) HES control Advanced controller with upper bound for floor surface temperature Case 6 Basement Advanced controller with HES operation Second floor Constant set-point control (21.5 °C) HES control Advanced controller with HES operation Development of advanced controllers to extend the peak shifting possibilities in the residential buildings Ying Sun a Karthik Panchabikesan a Fariborz Haghighat a ∗ Jianing (Tom) Luo a Alain Moreau b Miguel Robichaud c a Energy and Environment Group, Department of Building, Civil and Environmental Engineering, Concordia University, Montreal, Canada Energy and Environment Group Department of Building Civil and Environmental Engineering Concordia University Montreal Canada Energy and Environment Group, Department of Building, Civil and Environmental Engineering, Concordia University, Montreal, Canada b Laboratoire des Technologies de L\u2019énergie D\u2019Hydro-Québec, Shawinigan, Canada Laboratoire des Technologies de L\u2019énergie D\u2019Hydro-Québec Shawinigan Canada Laboratoire des technologies de l\u2019energie d\u2019Hydro-Quebec, Shawinigan, Canada c Ouellet Canada Inc., L'Islet, G0R 2B0, Canada Ouellet Canada Inc. L'Islet G0R 2B0 Canada Ouellet Canada Inc., L\u2019Islet, G0R 2B0, Canada ∗ Corresponding author. To reduce the stress on the electrical grids during peak periods, pre-charging the building envelops with high thermal mass during off-peak periods and utilizing the stored energy during peak periods is an effective approach. However, most of the residential buildings in North America are generally built with lightweight materials, and the concrete slabs in the basement are the only option for energy storage. This means, heat storage is possible only in the basement, and achieving the peak shifting in the entire house is a challenge. To extend the peak shifting to the entire building, an automated heat extraction system (HES) that transfers the stored heat from the basement to the other parts of the house is desirable. Accordingly, this study developed two advanced controllers, which controls both electrically heated floor (EHF) (for energy storage in the basement) and HES (for transferring the stored heat to other parts of the house), to achieve peak shifting and heating cost-saving while guaranteeing the occupants\u2019 thermal comfort. The performance of the developed controllers was compared with other control strategies (i.e., constant set-point control, rule-based control and self-learning predictive control). The results showed that the developed advanced controllers effectively shift the energy consumption from the peak period (97 % for the basement and ~87 % for the second floor) and decrease the heating cost by ~33 %. Keywords Energy storage Advanced control Peak shifting Heating cost savings Thermal comfort Abbreviation BITES Building-integrated thermal energy storage CPP Critical peak pricing CSPC Constant set-point control EBH Electrical baseboard heaters EHF Electrically heated floor HCS Hybrid control strategies MFC Model-free control MPC Model predictive control PCM Phase-change material PTC Poor Thermal Comfort RBC Rule-based control RC Resistance\u2013capacitance SLC Self-learning control TES Thermal energy storage 1 Introduction The building sector consumed 36 % of the final global energy and contributed to ~40 % of total CO2 emission in 2018 [1], and these percentages are expected to increase in the near future. To meet the increasing energy demand in buildings and reduce its effect on the environment, various renewable energy sources are used to meet the buildings' energy requirements. However, due to intermittent nature of renewable energy sources, bridging the gap between energy generation and consumption becomes a challenge [2]. Besides, due to occupant living habits and climatic factors, energy consumption in a building usually follow specific patterns and high energy demand could happen in certain periods of the day [3]. For instance, peak energy consumption in a residential building might occur in the morning or late afternoon in winter due to space heating and occupants\u2019 activities. The peak demand could increase the stress on the grid and result in an additional electricity bill for consumers if time-of-use tariffs or critical peak pricing (CPP) are adopted. To resolve the mismatch between energy generation and consumption and to ease the peak demand of a building, various energy storage systems (e.g., battery [4,5], water/ice storage tank [6,7], or building envelopes [8\u201311]) are widely used to store the energy during off-peak periods and utilize it later during peak periods. Among these systems, building envelopes (i.e., walls, ceilings, and floors) constructed with high thermal mass materials, known as building-integrated thermal energy storage (BITES) systems, are commonly used for thermal storage considering that there is no additional space or cost involved. In recent years, many researchers proposed effective control strategies for the BITES system to shift the peak load in buildings. These control strategies could be classified into two main types: non-predictive control and predictive control [12]. Non-predictive control strategies, which do not contain prediction ability, generally set different indoor set-point temperatures for the HVAC system during different periods. Rule-based control (RBC), which sets indoor set-point temperature based on rules defined by the users, is one of the simplest and easy-to-use non-predictive control strategies. Zhu et al. [13] proposed an RBC for a cooling system to store energy in a building envelope integrated with phase change material (PCM). The proposed RBC strategy achieved a 20 % peak load reduction in an office building. Reynders et al. [14] applied an RBC to store energy in the building envelope thermal mass which was able to shift up to 75 % peak load. Although the RBC is widely used, it is still limited by some drawbacks: unable to accurately predict the load and cannot provide the optimal control signal. To overcome the limitations of non-predictive control strategies, model predictive control (MPC) can be utilized. MPC predicts the building energy demand using a predictive model, and then it solves an optimization function formulated based on the predictive results to get the optimal control schedule [15]. The predictive models in MPC could be classified as physical models, hybrid models, and data-driven models. Physical models predict the energy demand of a building by numerical equations that consider detailed physical properties of building materials and characteristics. In contrast, data-driven models discover statistical patterns of a building's thermal behavior from the available historical operation data. The hybrid model is a combination of physical models and data-driven approaches. To develop a physical building model for a MPC, software such as EnergyPlus [16,17], TRNSYS [18], IDA ICE [19], Modelica [20] could be utilized. For instance, Pavlak et al. [21] developed a resistance-capacitance (RC) model-based MPC and implemented it in an office building to reduce peak demand. The experimental results showed that the peak load could be shifted by 1.2\u201318.1 %. On the other hand, to develop data-driven models, a variety of approaches could be selected, such as linear regression [22], support vector machine [23,24], artificial neural network [25,26], deep learning [27\u201329], etc. A detailed review of data-driven approaches has been summarized by Sun et al. [30]. In the literature, data-driven based MPC has been suggested as an effective method to control the BITES to shift the peak load in buildings [22]. Besides, due to the ability to solve constraint optimization problems, the MPC could achieve optimal peak shifting [30], cost-saving [31,32], and CO2 emission reduction [31,33], considering thermal comfort. Furthermore, MPC could also be utilized to integrate BITES and other systems, such as shading [34], power generation [35]. However, besides its advantages, challenges in developing MPC for peak shifting in buildings should be considered: (1) developing predictive models could be time-consuming. Because each building has its unique thermodynamic, the predictive model(s) in the MPC should be constructed from scratch when implementing it to other buildings; (2) the predictive performance of the model should be guaranteed. Because the optimization process of MPC utilizes the output of the predictive model, the predictive model's accuracy could affect the performance of the MPC; (3) the optimization process could be complicated when using MPC to integrate the operation of BITES and other systems. 1.1 Research gap To decrease the time required for developing a specific predictive model and solving an optimization problem, Thieblemont et al. [3] developed a self-learning predictive controller for the operation of electrically heated floor (EHF) in a residential building. This study showed that the self-learning predictive controller could shift the heating load in the basement by 98 %. The self-learning predictive controller's performance was further investigated and proved in Refs. [36,37] with some modifications. However, they mentioned that in North America, most residential houses are wood structured and only the floor in the basement is constructed with high thermal mass material (concrete). This means that energy storage during the off-peak period is possible only in the basement, and achieving the peak shifting in the entire house is a challenge. To extend the peak shifting potential of partially installed EHF, Sun et al. [38] introduced a heat extraction system composed of a fan and ducts to transfer the stored heat from zones with high thermal mass (basement) to the other zones without BITES. However, in their study, the effectiveness of HES has only been studied with manual control. Limitations of previous related works are (1) the developed self-learning predictive control strategy only worked on EHF to store the heat energy in the basement, and hence, only rooms with high thermal mass could store energy and shift the peak load [3], [36], [37]; (2) the HES was operated manually without any link to EHS and the integrated performance of the EHF and HES control system needs to be investigated to ensure the maximum peak shifting in the entire house without compromising the occupant's thermal comfort [38]. 1.2 Objectives and uniqueness of the study This study's main objective is to develop two new advanced controllers that could automate the peak shifting process by simultaneously controlling the operation of EHS and HES to enable the peak shifting and heating cost-saving in the entire building without compromising the occupant thermal comfort. To demonstrate the advantages of the developed advanced controllers, its performance (in terms of peak shaving potential, occupant thermal comfort and heating cost-saving analysis) was compared with the existing control strategies (constant set-point control, rule-based control and previously developed self-learning predictive control) and the results are presented. The uniqueness of the proposed advanced controllers are: (1) it can automate and integrate the operation of EHF and HES to extend the peak shifting ability of a building with partially installed high thermal mass envelopes compared to the previously works [3], [8], [38]; (2) it can be implemented in a building without requiring historical data or building characteristics. The proposed controllers could predict the next day's demand by an energy prediction model that is trained by a self-learning process: the energy consumption of the building for certain weather conditions are stored in the energy prediction model and the next time, the same weather condition occurs, the controller refers to the previously stored energy consumption data. The more the similar weather condition occurs, higher the accuracy of energy prediction model. Then, the controller self-learns the energy consumption trend of the building and updates the energy consumption profile, if there is any change. The entire process is automatic and makes it easier for the users to implement the controller in their building without much of any intervention. The paper is organized as follows: Section 2 introduces the details of the experimental house and the TRNSYS - MATLAB model. Section 3 presents the proposed advanced controllers and other existing controllers (i.e., constant set-point control, rule-based control, and self-learning predictive control). Then, in Section 4, the analysis procedure for selecting proper upper bound floor surface temperature and comparison between controllers have been explained. Section 5 summarizes the results and discussion of this study. Section 6 presents the conclusions. 2 Experimental and modeling platform In this section, the detailed description of the experimental house and the HES, and the TRNSYS-MATLAB model are presented. 2.1 Experimental house and HES details The schematic of the studied two-story residential building integrated with a HES is shown in Fig. 1 , while the floor plan of the experimental house is presented in Fig. 2 . The considered building is in Quebec, Canada, and its building area is 144 m2 per floor. Note that the building is built with a wooden-frame structure without any considerable thermal mass. It shows similar characteristics to around 1.6 million typical detached houses in Quebec, Canada [39]. Two main types of heating systems are used in the experimental building: electrical baseboard heaters (EBHs) and electrically heated floor (EHF) system. EBHs are utilized on the ground floor and the second floor, while surface EHFs are mainly located at the ground floor and buried EHFs are installed at the basement. Among the EHFs, the surface EHF installs the electrical heating wires below the floor surface (ceramic) and above a 60 mm-thick concrete slab, while the buried EHF places the electrical heating wires in the middle of a 152 mm-thick concrete slab (as shown in Fig. 3 ). The buried EHFs in the basement act as the sensible heat storage system. The thermo-physical properties of the burried EHF in the basement is presented in Table 1 . Note that EHF and EBH are controlled by the thermostats in each room (shown as red blocks in Fig. 2). As mentioned in Section 2.1, the floors above the ground have a lower thermal mass. To exploit the heat stored in the concrete slab of the basement, the HES was used to transfer warm air from the basement to the second floor. The HES consists of a fan and ducts (see Fig. 1). Table 2 shows the measured performance characteristics of the installed fan of HES in the investigated residential building. In this study, critical peak pricing (CPP, as shown in Table 3 ) is implemented to encourage consumers to shift their electricity demand and ease the press of the grid [41]. The peak period and off-peak period for the CPP are presented as white and black portions, respectively, in Fig. 4 . Note that although the electricity price of the second off-peak (9 a.m.\u2013 4 p.m.) is the same as the first off-peak period (8 p.m.\u2013 6 a.m.) in CPP, the stress on the grid is higher during the second off-peak period. Therefore, shifting the load from the second off-peak period should be considered in this study to avoid creating a new peak. 2.2 TRNSYS - MATLAB model The performance of the advanced controllers was investigated using the TRNSYS-MATLAB model developed based on the experimental house mentioned in section 2.1. It is to be mentioned that the same experimental house was used in the previous works of the authors [8,38] and hence, previously developed TRNSYS model was used in this study. The novelty of the paper lies in the development of advanced controllers using MATLAB, its integration with TRNSYS model and the performance of the developed controller (in terms of peak shifting ability, heating cost savings and thermal comfort) was compared with the other control strategies (explained later in section 3.2). The major components of the developed TRNSYS - MATLAB model is shown in Fig. 5 . The detailed description of each component is given below: Exterior condition: Type 15 imports the weather information from the weather data file. The weather data file was obtained from Jean Lesage International Airport, Quebec City, Canada, the closest weather station to the experimental building [42]. The weather information includes ambient temperature, wind speed, solar radiation, and air pressure. These parameters could be utilized to calculate the air infiltration by multi-zone airflow part (explained later in this section) and simulate the building's energy demand and indoor air temperature by multi-zone building part (explained later in this section). The imported information is also utilized to calculate the exterior soil temperature, which impacts the heat transfer between the building envelopes below the ground and the soil. Multi-zone building: Type 56 simulates the zonal air temperature, floor surface temperature, and zonal energy demand of the multi-zone building based on the building characteristics and inputs from other components (i.e., exterior condition, multi-zone air flow, HES, and controller). Multi-zone air flow: Type 97 (an integrated CONTAM model [38]) simulates air infiltration and inter-zonal air flow, based on the exterior condition, internal air temperature of different zones (provided by multi-zone building part), and the parameters of HES. HES: The HES is modeled using a variable speed fan (Type 111a). The HES is controlled by the controller (explained later in this section) to transfer the air from the basement to the second floor. The input air temperature of HES is the same as the indoor air temperature of the zone in the basement from where the hot air is extracted, while its output temperature is calculated based on the temperature increased by the fan and temperature decreased through heat loss through the duct. Controller: The controllers are programmed using MATLAB and integrated into the TRNSYS model using type 155 (as shown in Fig. 5 with red box). It should be mentioned that the TRNSYS model was developed by the authors in their previous studies [8,38] using the controller (Type 108) as setpoint control strategy. However, the advanced controllers could not be implemented in TRNSYS due to their complexity. Therefore, the Type 155 (MATLAB) replaced the TRNSYS model's controller (Type 108) to formulate the developed advanced controllers that control the building energy consumption and indoor temperature. Therefore, in the TRNSYS-MATLAB model developed in this study, the control strategies are programmed in MATLAB while the indoor conditions are simulated in TRNSYS. Note that the validation of the developed TRNSYS model shall be found in previous research works of the authors [8,36,38]. The present study aims to investigate the performance of developed controllers instead of model development and validation. Therefore, model validation details were not repeated in this paper. 3 Controller description In this study, two advanced controllers were proposed (advanced controller with upper bound for floor surface temperature and advanced controller with HES operation) to integrate and automate the operation of EHF, HES to extend the peak shifting possibilities in a building (with partially installed high thermal mass envelops) while maintaining thermal comfort. The proposed controllers were compared with three types of existing control strategies (i.e., constant set-point control, rule-based control, and self-learning predictive control) through an analysis procedure that is presented in Section 4. In this section, a detailed description of the studied control strategies is presented. 3.1 Advanced controllers Fig. 6 depicts the working process of the advanced controllers; 1) Advanced controller with upper bound for floor surface temperature and 2) Advanced controller with HES operation. As shown in the figure, the proposed controllers contain two main components: the high-level controller and the low-level controller. The high-level controller predicts the next day's heating demand based on the self-learning process and then provides an energy consumption schedule to operate the EHF for the following day. Then, the low-level controller acts as a supervisory controller, which decides whether to apply the control signal from the high-level controller by considering the required thermal comfort. Note that the two proposed advanced controllers have the same high-level controller, while the main difference between the two advanced controllers exists in the low-level controller. A detailed explanation for these two advanced controllers is given in the following subsections. 3.1.1 Advanced controller with upper bound for floor surface temperature In this section, the explanation would be given in the order of high-level controller and low-level controller: High-level controller: The high-level controller's role is to forecast the energy to be stored in the EHF and accordingly determines the heating schedule for the following day. The proposed high-level controller includes three models (i.e., weather prediction model, energy prediction model, and scheduling model) and two analysis procedures (i.e., building response analysis and HES operation response analysis). (1) The weather prediction model obtains the next day's hourly weather forecasting information (exterior temperature and weather conditions, such as \u2018sunny\u2019, \u2018cloudy\u2019 or \u2018rain\u2019, etc.) and converts it to half-daily ambient temperature and solar radiation categories [Ti, Si], where Ti is the half-daily temperature category, and Si is the half-daily solar category. Note that the half-daily categories could be further classified as [Ti, Si]morning and [Ti, Si]afternoon, representing the category for the first half day and the second half-day, respectively. In this study, fourteen temperature categories are interval grouped by taking −40 °C as the minimum temperature, 30 °C as the maximal temperature, and 5 °C as the interval. For instance, if the minimal half-daily ambient temperature is −2 °C, then its Ti would be [-5 °C, 0 °C]. Similarly, three solar categories (i.e., sunny, mild, and cloudy) are created. (2) Based on the half-daily temperature-solar categories, the energy prediction model predicts the next day's energy demand (E_Con in Fig. 6). The detailed prediction process is shown in Fig. 7 : if the controller is implemented to a building for the first time, E_Con would be equal to a default initial value E_ini. Otherwise, E_Con would be set as the minimal value of the modified historical energy consumption (E_Modified) for the corresponding weather category. Note that this prediction model is trained by the building response analysis and HES operation response analysis modules. The process of training the energy prediction model by modifying corresponding energy consumption for each temperature-solar category is called the learning process, see Fig. 7. The learning process works by the following steps: At the end of a day, in the HES operation response module, the amount of energy transferred by the HES during the off-peak period for each half-day (E_HES_Mod) is calculated. Then, in the building response analysis module, an adjusted energy consumption (E_adjust) for each half day is calculated through the applied energy by EHF (E_app) minus E_HES_Mod. Then, the expected energy consumption (E_Modified) for the corresponding weather category would be modified. Finally, E_Modified is stored in the database of the corresponding weather category in the energy prediction model. (3) Finally, the scheduling model calculates the next day's power level and heating duration for EHF: To charge the concrete in the basement, the heating power is fixed to 80 W/m2 for the first off-peak period (8 p.m.\u2013 6 a.m.) and 10 W/m2 for the second off-peak period (9 a.m.\u2013 4 p.m.). The heating duration is calculated through dividing half-daily E_Con by this power. If the duration exceeds the off-peak periods, the power would be increased to 120 W/m2, and the heating duration would be calculated accordingly to avoid heating during peak periods. To maintain thermal comfort during the entire peak period, after the off-peak period the heating period is scheduled to stop heating at the end of the off-peak period. For instance, if the first half day's heating duration is 4 h, the EHF would be turned ON at 2 a.m. Low-level controller: The low-level controller is proposed to achieve timely supervision and to ensure thermal comfort. The low-level controller principle for the advanced controller with an upper bound for floor surface temperature is shown in Fig. 8 . It maintains thermal comfort by setting the upper bound for the floor surface temperature ( T f l o o r \u203e ), lower bound ( T a i r \u203e ) and upper bound ( T a i r \u203e ) of acceptable indoor temperature. Fig. 8 shows that the advanced controller with an upper bound for floor surface temperature operates the HES at the highest speed during peak periods to transfer the stored energy to rooms without significant thermal energy capacity. Besides, for all times of the day, if the floor surface temperature exceeds T f l o o r \u203e , EHF is turned OFF immediately to avoid the occupants\u2019 thermal discomfort caused by overheating/overshooting. On the other hand, if the indoor air temperature of the basement Tair drops below T a i r \u203e , the EHF is turned ON immediately, and the EHF is turned OFF if Tair is higher than T a i r \u203e . If the indoor air temperature is kept within the acceptable range [ T a i r \u203e , T a i r \u203e ], the low-level controller will implement the control signal received from the high-level controller. Note that properly selected T f l o o r \u203e could ensure thermal comfort and complete charge of EHF during off-peak periods. Therefore, this study does a case study (see Section 4.1) for setting proper T f l o o r \u203e . Besides, the appropriate setting of T a i r \u203e and T a i r \u203e could shorten the initial period required for the advanced controllers to become stable. Thus, T a i r \u203e and T a i r \u203e are set at 21 °C and 23 °C, respectively, based on the parametric study of Thieblemont et al., [3]. 3.1.2 Advanced controller with HES operation The major difference between the advanced controller with HES operation and the advanced controller with an upper bound for floor surface temperature is in the low-level controller. The low-level controller of the advanced controller with HES operation is shown in Fig. 9 . To ensure complete charging of EHF without compromising the thermal comfort, it operates the HES at different levels (i.e., fan speeds) during the off-peak period to transfer energy from the potential overheated area to other areas. Note that this strategy also helps preheating other rooms during the off-peak period. In the figure, levels 1, 2, and 3 are the HES fan speeds, which are explained in Table 2. 3.2 Existing control strategies 3.2.1 Constant set-point control Constant set-point control, which implements constant set-point temperature to all periods, is the most used control strategy in practice. In this study, 21.5 °C is selected as the constant set-point. This simple control strategy can maintain thermal comfort; however, it cannot meet peak shifting requirements. 3.2.2 Rule-based control (RBC) RBC strategies are static controllers that set operation modes based on human intelligence, heuristics, or mathematical models [43]. Commonly used RBC to achieve peak shifting for heating is to set higher set-point temperature for off-peak periods and lower set-point temperature for peak periods. Therefore, this strategy could pre-charge the thermal storage system during off-peak periods and discharge during peak periods without using the building load prediction model. Considering the building's thermal mass and the variation of external temperatures, an indoor air temperature span of ±2 °C is recommended to prevent thermal discomfort [44]. Thus, in this study, the peak and off-peak set-point of the rule-based control is defined at 21.5 °C and 23.5 °C, respectively. Detailed information is shown in Fig. 10 . 3.2.3 Self-learning predictive control The principle of self-learning predictive control is shown in Fig. 11 . The difference between the previously developed self-learning predictive control [3] and the developed advanced controllers in this study is that the self-learning predictive control does not consider the operation of HES. Subsequently, the HES operation response analysis module was not included in the learning process. Besides, in the low-level controller of self-learning predictive control, the HES operation and upper bound for floor surface temperature are not considered. More details on the working algorithm of the self-learning predictive control can be found in Ref. [3]. 4 Analysis procedure In this study, two case studies are investigated through simulation on the experimental house's TRNSYS model: The first study is to select proper upper bound floor surface temperature for the advanced controller. The second study is to compare the developed advanced controllers to other existing control strategies. Note that all cases are simulated from January 1, 2018 to March 1, 2018, with 5 min time interval. 4.1 Selection of upper bound floor surface temperature As described in Section 3.1.1, for the advanced controller with upper bound floor temperature, if the measured floor surface temperature exceeds T f l o o r \u203e , the EHF in the basement would turn OFF. However, temperature overshoot in the basement could still occur because there is a time delay between turning OFF the EHF and decrease of the indoor temperature. Additionally, another disadvantage of unsuited T f l o o r \u203e is that intermittent operation of EHF during the off-peak period cannot guarantee complete charging, which means the stored energy might be insufficient to cover the peak load. Thus, determining the appropriate T f l o o r \u203e in the low-level controller is essential for the advanced controller with an upper bound for floor surface temperature. In this regard, the effect of T f l o o r \u203e (from 26 °C to 28 °C with 0.5 °C intervals) on the frequency of low thermal comfort (PTC, calculated by Equation (1)) in the basement is studied. (1) Frequency ⋅ of ⋅ P T C ( % ) = ∑ k t k w k D × 100 where \u2018t\u2019 is the duration of poor thermal comfort (indoor air temperature lower than 21 °C or higher than 25 °C [45]), \u2018k\u2019 is the room number, \u2018w\u2019 is the volumetric weight ratio of the rooms and \u2018D\u2019 is the duration of the simulation. 4.2 Comparison between controllers To compare the performance of the advanced control strategies, seven cases (as shown in Table 4 ) are considered. Note that for all the cases mentioned in Table 4, the ground floor is heated by constant set-point control (21.5 °C), because the living room and kitchen are located on this floor, and smaller temperature fluctuation in these rooms are generally expected by occupant activities. In Table 4, the Reference case implements a constant set-point control strategy to both the basement and the second floor to simulate the commonly used heating strategy in practice. Case 1 studies the effect of RBC on the rooms heated by EBH or buried EHF, while Case 2 investigates the performance of implementing RBC in rooms heated through the buried EHF. Case 3 shifts the basement and the second floor's peak load by self-learning predictive control strategy and RBC, respectively. Compared with Case 3, Case 4 uses the manually controlled HES strategy to shift the second floor's peak load. Case 5 integrates the operation of buried EHF and HES by the advanced controller with an upper bound for floor surface temperature to shift the basement and the second floor's peak load, while Case 6 implements the advanced controller with HES operation. The peak shifting potential, thermal comfort maintenance, and heating cost-saving potential of Case 1\u20136 are compared to the Reference case. Note that the thermal comfort maintenance performance is estimated by the average indoor air temperature and thermal comfort potential (TCP, calculated by Equation (2)). (2) T C P = ∑ k ( D − t k ) w k D × 100 where \u2018t\u2019 is the duration of poor thermal comfort, \u2018k\u2019 is the number of rooms, \u2018w\u2019 is the volumetric weight ratio of the room and \u2018D\u2019 is the duration of the simulation. 5 Results and discussion In this section, the result of the selection of T f l o o r \u203e for the advanced controller with upper bound for floor surface temperature is presented in Section 5.1, while the result for comparison between controllers are shown in Section 5.2. Finally, a discussion would be given in Section 6. 5.1 Selection of upper bound floor surface temperature The effect of T f l o o r \u203e in the low-level controller of the advanced controller with upper bound for floor surface temperature on the frequency of PTC is shown in Fig. 12 . It indicates that 27 °C is the most suitable T f l o o r \u203e in terms maintaining thermal comfort. The reason for poor thermal comfort (PTC) when the upper bound is less than 27 °C is that the amount of energy stored during the off-peak period is insufficient to heat the rooms during peak periods. On the other hand, an upper bound higher than 27 °C could result in thermal discomfort due to an overshoot after the charging period. Therefore, T f l o o r \u203e with 27 °C is used for the advanced controller with upper bound for floor surface temperature in the case study for controller comparison. 5.2 Comparison between controllers The comparison results between the existing control strategies and the developed advanced controllers are presented in terms of peak shifting potential, thermal comfort, and cost-saving, respectively. 5.2.1 Peak shifting potential Fig. 13 compares the studied cases in terms of average power consumption during each period per day. It illustrates that peak shifting control strategies (i.e., Cases 1\u20136) can significantly decrease the power about 4 \u2013 4.5 kW during peak periods (i.e., morning and evening peak) compared to the Reference case because of energy storage during off-peak periods. Among these cases, Case 1 consumed more energy during the second off-peak period than the Reference case because the energy stored during the first off-peak period is insufficient to meet the heating demand during the daytime. To avoid creating a new peak period during the daytime, Cases 2- 6 store more energy during the first off-peak based on the predicted next day's energy consumption to cover the heating demand during the daytime. Furthermore, compared with self-learning predictive control (Case 4) and advanced controller with upper bound for floor surface temperature (Case 5), advanced controller with HES operation (Case 6) shifts more energy from peak periods to off-peak periods through storing more energy during the first off-peak period. This is because that during the off-peak period, turning ON the HES could decrease the indoor air temperature of the basement to be lower than T a i r \u203e , and thus, the EHF would not be turned OFF by the low-level controller. Fig. 14 presents the peak shifting potential of Case 1\u2013 6 compared with the Reference case for different floors. For the basement, all peak shifting control strategies shows significant peak shifting potential (higher than 97 %) through storing energy in buried EHF. For the second floor, Case 2 did not shift any peak load because no peak shifting control strategy has been applied. Case 1 and Case 3 shifted 45 % peak load through applying the RBC strategy to store energy by thermal mass during off-peak periods. Compared to rule-based control, Cases 4\u20136 show better peak shifting potential (more than 86 %). Among them, Case 6 shows a slightly higher peak shifting potential for both floors because operating HES during off-peak periods enables EHF to ease the interruption of charging and store enough energy during off-peak periods. Fig. 15 shows the energy shifting potential during the second off-peak period for Cases 1\u20136 compared to the Reference case. This figure shows that Case 1, which applied RBC consumed more energy (45.41 %) than the Reference case. Besides, Case 3, which utilized RBC on the second floor, shows less energy shifting potential than cases that utilized other peak shifting strategies. Case 2 has the second better performance in terms of load shifting potential during the second off-peak period, but it only focused on the basement. Case 6 shows the best energy shifting ability during the second off-peak period due to enough energy storage during the first off-peak period. Overall, the advanced controller with HES operation (Case 6) could be regarded as the best control strategy to achieve more load shifting for a more extended period (including peak periods and the second off-peak period) for this type of residential building construction. 5.2.2 Thermal comfort Fig. 16 shows the variation of volumetric weighted average temperature in the basement and second floor for different cases. Case 1, controlled by RBC, shows lesser temperature swing in the basement than Cases 2\u2013 6. However, it has a wider temperature range on the second floor. A similar result for the second floor presents in Case 3, which utilizes the same RBC strategy to heat the second floor. This indicates that RBC would not result in a great temperature fluctuation in the area with high thermal mass, while significant temperature swing would occur in the area without considerable thermal mass. On the other hand, compared with Case 5, Case 6 has a slightly higher indoor air temperature in the second floor due to warm air transferred from the basement to the second floor during the off peak-hours for preheating. To further analyze the effect of different control strategies on thermal comfort, TCP under different cases is shown in Fig. 17 . In all cases, the thermal comfort percentage is higher than 97.5 %. Thus, all peak shifting control strategies studied in this paper could maintain thermal comfort. Among them, RBC and advanced controller with HES operation are the top two options in terms of thermal comfort. 5.2.3 Heating cost-saving analysis Heating cost-saving based on CPP for different cases compared with the Reference case is shown in Fig. 18 . According to this figure, Case 2 that only applies peak shifting strategy to the basement, saves lesser cost than other cases. Besides, Cases 4\u2013 6 utilize HES for peak shifting achieves more cost-saving than Case 1 and Case 3. Therefore, HES can enhance the peak shifting capacity of a building with partially installed high thermal mass envelopes. Furthermore, Case 6 presents the highest cost saving due to the better peak shifting ability. 6 Discussion on advantages, limitations of the developed controllers and scope for future works It is obvious from the results that the proposed advanced controllers could effectively shift the peak load and achieve cost saving with maintaining the occupants\u2019 thermal comfort. This is because that the low-level controller would ensure that the advanced controllers work fine at the beginning stage of implementation through setting thresholds for indoor air temperature and floor surface. Besides, the proposed advanced controllers have a significant advantage that they could be directly implemented to a new place without requiring historical data or building characteristics to develop an accurate model. However, performance of the controllers could be further improved through optimal selection of parameters (e.g., T a i r \u203e , T a i r \u203e , T f l o o r \u203e , Tmin_learning, and Tmax_learning, etc.). At present, the advanced controllers lack flexibility in modifying the energy prediction model (high-level controller) based on user requirements. For instance, user may want to change T a i r and T a i r \u203e based on their thermal comfort preferences. However, once these parameters are modified, the learning process of high-level controller will start over. To avoid the repetitive learning process, improving the flexibility of these advanced controllers could be a valuable topic. Also, the advanced controllers predict the next day's energy demand based on the predicted weather category, thus, the identification and numbers of weather categories would also affect the control performance. Therefore, further work on studying the effect of modifying the advanced controllers' parameters would be an interesting topic. In terms of the HES, the influence of the fan characteristics (i.e., flowrate, power, and efficiency) over the peak shifting ability and heating cost savings shall be investigated. Furthermore, in this study, the aim of the advanced controllers is peak shifting. However, it could also be utilized to achieve optimal cost-saving or thermal comfort through a minor modification in the energy prediction model: it could select the E_Modified, which could meet the objective of minimal cost or maximal thermal comfort. 7 Conclusion In this study, two advanced controllers that integrates the self-learning predictive controller with the HES, were developed using TRNSYS - MATLAB model. The study's objective was to analyze the peak shifting ability of the developed controllers from the room (i.e., basement) with TES to rooms without a heat storage facility. In this regard, seven cases were considered to compare the performance of the proposed advanced controllers (in terms of peak shifting ability, heating cost savings and thermal comfort) with other peak shifting strategies (i.e., rule-based control and self-learning predictive control). Among the considered cases, the proposed advanced controllers showed better peak shifting potential and heating cost-saving for the whole building while guaranteeing thermal comfort. The developed advanced controllers shifted ~97 % peak load in the basement and up to 87 % peak load on the second floor. Besides, they saved 33 % heating cost based on the CPP tariff. The advanced controller with HES operation showed better results than the advanced controller with an upper bound for floor surface temperature in terms of peak shifting potential, thermal comfort, and cost-saving. Also, it could effectively avoid creating a new peak during the second off-peak period. The better performance of the advanced controller is caused by complete charging of the EHF during the first peak period. Furthermore, RBC which is easy-to-use with simple control strategy had the best performance in maintaining thermal comfort. However, as for peak shifting potential and heating cost saving, the advanced controllers showed superior performance than RBC. Advanced controller (SLC with EHF + HES) could provide the solution for completed charging in SLC to extend the peak shifting potential for the whole building (second floor up to 88 %) while the RBC can achieve the peak shifting around 45 % for the second floor. Meanwhile, advanced controller can avoid creating the new peak in the second off-peak period and could achieve higher cost saving 35.23 %. Overall, the developed advanced controllers showed better performance in terms of peak shifting, thermal comfort, and cost-saving, and the second off-peak shifting compared to the other control strategies considered in this study. Besides, the implementation of the developed controllers could be an effective method to decrease the stress of the electrical grid during peak periods. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgement The authors would like to acknowledge the financial support offered by the Natural Science and Engineering Research Council of Canada (NSERC) through a CRD grant. Nomenclature C Heat capacity of the air (kJ/kg. K) D Duration of simulation (hr) E_adjust Adjusted energy consumption E_app Applied/Recorded energy consumption of the EHF E_Con Predicted half-day energy consumption E_HES_Mod Energy transferred by the HES during the off-peak period E_ini Initial energy consumption for a weather category E_Modified Modified historical energy consumption for a weather category I Time interval (s) K Room number n Number of steps t Duration of poor thermal comfort (hr) V Volumetric flowrate (m3/s) W Volumetric weight ratio ρ Air density (kg/m3) Si Half-daily solar category Ti Half-daily ambient temperature category T a i r \u203e Lower bound for indoor air temperature in the low-level controller T a i r \u203e Upper bound for indoor air temperature in the low-level controller T f l o o r \u203e Upper bound for floor surface temperature in the low-level controller Tmax Maximum half-day indoor temperature Tmax_learning Upper bound temperature of the learning process Tmin Minimum half-day indoor temperature Tmin_learning Lower bound temperature of the learning process CRediT author statement Ying Sun: Software, Model development, Simulation analysis, Writing \u2013 Original draft, Writing - Review & editing. Karthik Panchabikesan: Conceptualization, Methodology, Investigation, Visualization, Writing \u2013 Original draft, Writing - Review & editing. Fariborz Haghighat: Project administration, Funding acquisition, Conceptualization, Investigation, Methodology, Supervision, Writing - Review & editing. Jianing (Tom) Luo: Software, Model development, Simulation analysis, Visualization. Alain Moreau: Project administration, Resources. Miguel Robichaud: Data curation, Resources. References [1] IEA Energy efficiency: buildings Sep. 12, 2019 https://www.iea.org/topics/energyefficiency/buildings/ IEA, \u201cEnergy Efficiency: Buildings.\u201d https://www.iea.org/topics/energyefficiency/buildings/ (accessed Sep. 12, 2019). [2] J. Reynolds M.W. Ahmad Y. Rezgui J.-L. Hippolyte Operational supply and demand optimisation of a multi-vector district energy system using artificial neural networks and a genetic algorithm Appl. Energy 235 Feb. 2019 699 713 10.1016/j.apenergy.2018.11.001 J. Reynolds, M. W. Ahmad, Y. Rezgui, and J.-L. Hippolyte, \u201cOperational supply and demand optimisation of a multi-vector district energy system using artificial neural networks and a genetic algorithm,\u201d Appl. Energy, vol. 235, pp. 699-713, Feb. 2019, doi: 10.1016/j.apenergy.2018.11.001. [3] H. Thieblemont F. Haghighat A. Moreau G. Lacroix Control of electrically heated floor for building load management: a simplified self-learning predictive control approach Energy Build. 172 Aug. 2018 442 458 10.1016/j.enbuild.2018.04.042 H. Thieblemont, F. Haghighat, A. Moreau, and G. Lacroix, \u201cControl of electrically heated floor for building load management: A simplified self-learning predictive control approach,\u201d Energy Build., vol. 172, pp. 442-458, Aug. 2018, doi: 10.1016/j.enbuild.2018.04.042. [4] T. Huang D. Liu A self-learning scheme for residential energy system control and management Neural Comput. Appl. 22 2 2013 259 269 T. Huang and D. Liu, \u201cA self-learning scheme for residential energy system control and management,\u201d Neural Comput. Appl., vol. 22, no. 2, pp. 259-269, 2013. [5] T. Huang D. Liu Residential energy system control and management using adaptive dynamic programming The 2011 International Joint Conference on Neural Networks 2011 119 124 T. Huang and D. Liu, \u201cResidential energy system control and management using adaptive dynamic programming,\u201d in The 2011 International Joint Conference on Neural Networks, 2011, pp. 119-124. [6] D.D. Massie \u201cOptimization of a building's cooling plant for operating cost and energy use Int. J. Therm. Sci. 41 12 2002 1121 1129 D. D. Massie, \u201cOptimization of a building\u2019s cooling plant for operating cost and energy use,\u201d Int. J. Therm. Sci., vol. 41, no. 12, pp. 1121-1129, 2002. [7] A. Najafian F. Haghighat A. Moreau Integration of PCM in domestic hot water tanks: optimization for shifting peak demand Energy Build. 106 Nov. 2015 59 64 10.1016/j.enbuild.2015.05.036 A. Najafian, F. Haghighat, and A. Moreau, \u201cIntegration of PCM in domestic hot water tanks: Optimization for shifting peak demand,\u201d Energy Build., vol. 106, pp. 59-64, Nov. 2015, doi: 10.1016/j.enbuild.2015.05.036. [8] D. Olsthoorn F. Haghighat A. Moreau M.M. Joybari M. Robichaud \u201cIntegration of electrically activated concrete slab for peak shifting in a light-weight residential building\u2014determining key parameters J. Energy Storage 23 Jun. 2019 329 343 10.1016/j.est.2019.03.023 D. Olsthoorn, F. Haghighat, A. Moreau, M. M. Joybari, and M. Robichaud, \u201cIntegration of electrically activated concrete slab for peak shifting in a light-weight residential building-Determining key parameters,\u201d J. Energy Storage, vol. 23, pp. 329-343, Jun. 2019, doi: 10.1016/j.est.2019.03.023. [9] M. Dardir L. Roccamena M.E. Mankibi F. Haghighat \u201cPerformance analysis of an improved PCM-to-air heat exchanger for building envelope applications \u2013 an experimental study Sol. Energy 199 Mar. 2020 704 720 10.1016/j.solener.2020.02.072 M. Dardir, L. Roccamena, M. E. Mankibi, and F. Haghighat, \u201cPerformance analysis of an improved PCM-to-air heat exchanger for building envelope applications - An experimental study,\u201d Sol. Energy, vol. 199, pp. 704-720, Mar. 2020, doi: 10.1016/j.solener.2020.02.072. [10] G. Reynders T. Nuytten D. Saelens Potential of structural thermal mass for demand-side management in dwellings Build. Environ. 64 2013 187 199 G. Reynders, T. Nuytten, and D. Saelens, \u201cPotential of structural thermal mass for demand-side management in dwellings,\u201d Build. Environ., vol. 64, pp. 187-199, 2013. [11] Z. Liu A review on macro-encapsulated phase change material for building envelope applications Build. Environ. 144 2018 281 294 Z. Liu et al., \u201cA review on macro-encapsulated phase change material for building envelope applications,\u201d Build. Environ., vol. 144, pp. 281-294, 2018. [12] Y. Sun S. Wang F. Xiao D. Gao Peak load shifting control using different cold thermal energy storage facilities in commercial buildings: a review Energy Convers. Manag. 71 2013 101 114 Y. Sun, S. Wang, F. Xiao, and D. Gao, \u201cPeak load shifting control using different cold thermal energy storage facilities in commercial buildings: A review,\u201d Energy Convers. Manag., vol. 71, pp. 101-114, 2013. [13] N. Zhu S. Wang Z. Ma Y. Sun Energy performance and optimal control of air-conditioned buildings with envelopes enhanced by phase change materials Energy Convers. Manag. 52 10 2011 3197 3205 N. Zhu, S. Wang, Z. Ma, and Y. Sun, \u201cEnergy performance and optimal control of air-conditioned buildings with envelopes enhanced by phase change materials,\u201d Energy Convers. Manag., vol. 52, no. 10, pp. 3197-3205, 2011. [14] G. Reynders J. Diriken D. Saelens A generic quantification method for the active demand response potential of structural storage in buildings 14th International Conference of IBPSA-Building Simulation 2015, BS 2015, Conference Proceedings 2015 1986 1993 G. Reynders, J. Diriken, and D. Saelens, \u201cA generic quantification method for the active demand response potential of structural storage in buildings,\u201d in 14th International Conference of IBPSA-Building Simulation 2015, BS 2015, Conference Proceedings, 2015, pp. 1986-1993. [15] A. Afram F. Janabi-Sharifi \u201cTheory and applications of HVAC control systems\u2013A review of model predictive control (MPC) Build. Environ. 72 2014 343 355 A. Afram and F. Janabi-Sharifi, \u201cTheory and applications of HVAC control systems-A review of model predictive control (MPC),\u201d Build. Environ., vol. 72, pp. 343-355, 2014. [16] T. Salsbury P. Mhaskar S.J. Qin Predictive control methods to improve energy efficiency and reduce demand in buildings Comput. Chem. Eng. 51 2013 77 85 T. Salsbury, P. Mhaskar, and S. J. Qin, \u201cPredictive control methods to improve energy efficiency and reduce demand in buildings,\u201d Comput. Chem. Eng., vol. 51, pp. 77-85, 2013. [17] X. Li A. Malkawi Multi-objective optimization for thermal mass model predictive control in small and medium size commercial buildings under summer weather conditions Energy 112 2016 1194 1206 X. Li and A. Malkawi, \u201cMulti-objective optimization for thermal mass model predictive control in small and medium size commercial buildings under summer weather conditions,\u201d Energy, vol. 112, pp. 1194-1206, 2016. [18] M. Hu F. Xiao J.B. Jørgensen R. Li Price-responsive model predictive control of floor heating systems for demand response using building thermal mass Appl. Therm. Eng. 153 2019 316 329 M. Hu, F. Xiao, J. B. Joergensen, and R. Li, \u201cPrice-responsive model predictive control of floor heating systems for demand response using building thermal mass,\u201d Appl. Therm. Eng., vol. 153, pp. 316-329, 2019. [19] J. Fadejev R. Simson J. Kurnitski M. Bomberg Thermal mass and energy recovery utilization for peak load reduction Energy Procedia 132 2017 39 44 J. Fadejev, R. Simson, J. Kurnitski, and M. Bomberg, \u201cThermal mass and energy recovery utilization for peak load reduction,\u201d Energy Procedia, vol. 132, pp. 39-44, 2017. [20] K. Klein D. Kalz S. Herkel Grid impact of a net zero energy building with BiPV using different energy management strategies Proceedings of International Conference CISBAT 2015 Future Buildings and Districts Sustainability from Nano to Urban Scale 2015 579 584 K. KLEIN, D. KALZ, and S. HERKEL, \u201cGrid impact of a net zero energy building with BiPV using different energy management strategies,\u201d in Proceedings of International Conference CISBAT 2015 Future Buildings and Districts Sustainability from Nano to Urban Scale, 2015, pp. 579-584. [21] G.S. Pavlak G.P. Henze V.J. Cushing Evaluating synergistic effect of optimally controlling commercial building thermal mass portfolios Energy 84 2015 161 176 G. S. Pavlak, G. P. Henze, and V. J. Cushing, \u201cEvaluating synergistic effect of optimally controlling commercial building thermal mass portfolios,\u201d Energy, vol. 84, pp. 161-176, 2015. [22] P.C. Tabares-Velasco A. Speake M. Harris A. Newman T. Vincent M. Lanahan A modeling framework for optimization-based control of a residential building thermostat for time-of-use pricing Appl. Energy 242 May 2019 1346 1357 10.1016/j.apenergy.2019.01.241 P. C. Tabares-Velasco, A. Speake, M. Harris, A. Newman, T. Vincent, and M. Lanahan, \u201cA modeling framework for optimization-based control of a residential building thermostat for time-of-use pricing,\u201d Appl. Energy, vol. 242, pp. 1346-1357, May 2019, doi: 10.1016/j.apenergy.2019.01.241. [23] S. Lu W. Wang C. Lin E.C. Hameen Data-driven simulation of a thermal comfort-based temperature set-point control with ASHRAE RP884 Build. Environ. 156 Jun. 2019 137 146 10.1016/j.buildenv.2019.03.010 S. Lu, W. Wang, C. Lin, and E. C. Hameen, \u201cData-driven simulation of a thermal comfort-based temperature set-point control with ASHRAE RP884,\u201d Build. Environ., vol. 156, pp. 137-146, Jun. 2019, doi: 10.1016/j.buildenv.2019.03.010. [24] L. Xuemei D. Lixing L. Jinhu X. Gang L. Jibin A novel hybrid approach of KPCA and SVM for building cooling load prediction 2010 Third International Conference on Knowledge Discovery and Data Mining Jan. 2010 522 526 10.1109/WKDD.2010.137 L. Xuemei, D. Lixing, L. Jinhu, X. Gang, and L. Jibin, \u201cA Novel Hybrid Approach of KPCA and SVM for Building Cooling Load Prediction,\u201d in 2010 Third International Conference on Knowledge Discovery and Data Mining, Jan. 2010, pp. 522-526. doi: 10.1109/WKDD.2010.137. [25] L. Xu S. Wang R. Tang Probabilistic load forecasting for buildings considering weather forecasting uncertainty and uncertain peak load Appl. Energy 237 Mar. 2019 180 195 10.1016/j.apenergy.2019.01.022 L. Xu, S. Wang, and R. Tang, \u201cProbabilistic load forecasting for buildings considering weather forecasting uncertainty and uncertain peak load,\u201d Appl. Energy, vol. 237, pp. 180-195, Mar. 2019, doi: 10.1016/j.apenergy.2019.01.022. [26] J.M. Lee S.H. Hong B.M. Seo K.H. Lee Application of artificial neural networks for optimized AHU discharge air temperature set-point and minimized cooling energy in VAV system Appl. Therm. Eng. 153 May 2019 726 738 10.1016/j.applthermaleng.2019.03.061 J. M. Lee, S. H. Hong, B. M. Seo, and K. H. Lee, \u201cApplication of artificial neural networks for optimized AHU discharge air temperature set-point and minimized cooling energy in VAV system,\u201d Appl. Therm. Eng., vol. 153, pp. 726-738, May 2019, doi: 10.1016/j.applthermaleng.2019.03.061. [27] J. Bedi D. Toshniwal Deep learning framework to forecast electricity demand Appl. Energy 238 Mar. 2019 1312 1326 10.1016/j.apenergy.2019.01.113 J. Bedi and D. Toshniwal, \u201cDeep learning framework to forecast electricity demand,\u201d Appl. Energy, vol. 238, pp. 1312-1326, Mar. 2019, doi: 10.1016/j.apenergy.2019.01.113. [28] K. Amasyali N. El-Gohary Deep Learning for Building Energy Consumption Prediction 2017 466 474 K. Amasyali and N. El-Gohary, \u201cDeep Learning for Building Energy Consumption Prediction,\u201d 2017, pp. 466-474. [29] E. Mocanu P.H. Nguyen M. Gibescu W.L. Kling Deep learning for estimating building energy consumption Sustain. Energy Grids Netw. 6 2016 91 99 10.1016/j.segan.2016.02.005 E. Mocanu, P. H. Nguyen, M. Gibescu, and W. L. Kling, \u201cDeep learning for estimating building energy consumption,\u201d Sustain. Energy Grids Netw., vol. 6, no. Journal Article, pp. 91-99, 2016, doi: 10.1016/j.segan.2016.02.005. [30] Y. Sun F. Haghighat B.C.M. Fung A review of the-state-of-the-art in data-driven approaches for building energy prediction Energy Build. 221 Aug. 2020 110022 10.1016/j.enbuild.2020.110022 Y. Sun, F. Haghighat, and B. C. M. Fung, \u201cA review of the-state-of-the-art in data-driven approaches for building energy prediction,\u201d Energy Build., vol. 221, p. 110022, Aug. 2020, doi: 10.1016/j.enbuild.2020.110022. [31] R.G. Junker Characterizing the energy flexibility of buildings and districts Appl. Energy 225 2018 175 182 R. G. Junker et al., \u201cCharacterizing the energy flexibility of buildings and districts,\u201d Appl. Energy, vol. 225, pp. 175-182, 2018. [32] M.D. Knudsen S. Petersen Demand response potential of model predictive control of space heating based on price and carbon dioxide intensity signals Energy Build. 125 2016 196 204 M. D. Knudsen and S. Petersen, \u201cDemand response potential of model predictive control of space heating based on price and carbon dioxide intensity signals,\u201d Energy Build., vol. 125, pp. 196-204, 2016. [33] D. Patteeuw CO2-abatement cost of residential heat pumps with active demand response: demand-and supply-side effects Appl. Energy 156 2015 490 501 D. Patteeuw et al., \u201cCO2-abatement cost of residential heat pumps with active demand response: demand-and supply-side effects,\u201d Appl. Energy, vol. 156, pp. 490-501, 2015. [34] M.D. Knudsen S. Petersen Economic model predictive control of space heating and dynamic solar shading Energy Build. 209 2020 109661 M. D. Knudsen and S. Petersen, \u201cEconomic model predictive control of space heating and dynamic solar shading,\u201d Energy Build., vol. 209, p. 109661, 2020. [35] F. Sossan H. Bindner H. Madsen D. Torregrossa L.R. Chamorro M. Paolone A model predictive control strategy for the space heating of a smart building including cogeneration of a fuel cell-electrolyzer system Int. J. Electr. Power Energy Syst. 62 2014 879 889 F. Sossan, H. Bindner, H. Madsen, D. Torregrossa, L. R. Chamorro, and M. Paolone, \u201cA model predictive control strategy for the space heating of a smart building including cogeneration of a fuel cell-electrolyzer system,\u201d Int. J. Electr. Power Energy Syst., vol. 62, pp. 879-889, 2014. [36] J. (Tom Luo Performance of a self-learning predictive controller for peak shifting in a building integrated with energy storage Sustain. Cities Soc. 60 Sep. 2020 102285 10.1016/j.scs.2020.102285 J. (Tom) Luo et al., \u201cPerformance of a self-learning predictive controller for peak shifting in a building integrated with energy storage,\u201d Sustain. Cities Soc., vol. 60, p. 102285, Sep. 2020, doi: 10.1016/j.scs.2020.102285. [37] J. (Tom) Luo M.M. Joybari K. Panchabikesan F. Haghighat A. Moreau M. Robichaud Parametric study to maximize the peak load shifting and thermal comfort in residential buildings located in cold climates J. Energy Storage 30 Aug. 2020 101560 10.1016/j.est.2020.101560 J. (Tom) Luo, M. M. Joybari, K. Panchabikesan, F. Haghighat, A. Moreau, and M. Robichaud, \u201cParametric study to maximize the peak load shifting and thermal comfort in residential buildings located in cold climates,\u201d J. Energy Storage, vol. 30, p. 101560, Aug. 2020, doi: 10.1016/j.est.2020.101560. [38] Y. Sun Enhancement in peak shifting and shaving potential of electrically heated floor residential buildings using heat extraction system J. Energy Storage 18 2018 435 446 Y. Sun et al., \u201cEnhancement in peak shifting and shaving potential of electrically heated floor residential buildings using heat extraction system,\u201d J. Energy Storage, vol. 18, pp. 435-446, 2018. [39] S. C. Gouvernement du Canada Série « Perspective géographique », Recensement de 2016 - province du Québec Mar. 11, 2020 https://www12.statcan.gc.ca/census-recensement/2016/as-sa/fogs-spg/Facts-PR-Fra.cfm?TOPIC=3&LANG=Fra&GK=PR&GC=24 Feb. 08, 2017 S. C. Gouvernement du Canada, \u201cSerie « Perspective geographique », Recensement de 2016 - Province du Quebec,\u201d Feb. 08, 2017. https://www12.statcan.gc.ca/census-recensement/2016/as-sa/fogs-spg/Facts-PR-Fra.cfm?TOPIC=3&LANG=Fra&GK=PR&GC=24 (accessed Mar. 11, 2020). [40] H. Thieblemont F. Haghighat A. Moreau Thermal energy storage for building load management: application to electrically heated floor Appl. Sci. 6 7 Jul. 2016 7 10.3390/app6070194 H. Thieblemont, F. Haghighat, and A. Moreau, \u201cThermal Energy Storage for Building Load Management: Application to Electrically Heated Floor,\u201d Appl. Sci., vol. 6, no. 7, Art. no. 7, Jul. 2016, doi: 10.3390/app6070194. [41] Rate flex D | hydro-québec http://www.hydroquebec.com/residentiel/espace-clients/tarifs/tarif-flex-d.html \u201cRate Flex D | Hydro-Quebec.\u201d http://www.hydroquebec.com/residentiel/espace-clients/tarifs/tarif-flex-d.html (accessed Mar. 13, 2020). [42] E. Canada Québec, QC - hourly forecast - environment Canada https://weather.gc.ca/forecast/hourly/qc-133_metric_e.html Apr. 16, 2013 E. Canada, \u201cQuebec, QC - Hourly Forecast - Environment Canada,\u201d Apr. 16, 2013. https://weather.gc.ca/forecast/hourly/qc-133_metric_e.html (accessed Mar. 11, 2020). [43] A. Panday H.O. Bansal A review of optimal energy management strategies for hybrid electric vehicle Int. J. Veh. Technol. 2014 160510 https://doi.org/10.1155/2014/160510 (accessed Mar. 26, 2020) A. Panday and H. O. Bansal, \u201cA Review of Optimal Energy Management Strategies for Hybrid Electric Vehicle,\u201d International Journal of Vehicular Technology, 2014. https://www.hindawi.com/journals/ijvt/2014/160510/ (accessed Mar. 26, 2020). [44] J. Le Dreau P. Heiselberg Energy flexibility of residential buildings using short term heat storage in the thermal mass Energy 111 2016 991 1002 J. Le Dreau and P. Heiselberg, \u201cEnergy flexibility of residential buildings using short term heat storage in the thermal mass,\u201d Energy, vol. 111, pp. 991-1002, 2016. [45] S. Schiavon T. Hoyt A. Piccioli Web application for thermal comfort visualization and calculation according to ASHRAE Standard 55 Build. Simul. 7 4 Aug. 2014 321 334 10.1007/s12273-013-0162-3 S. Schiavon, T. Hoyt, and A. Piccioli, \u201cWeb application for thermal comfort visualization and calculation according to ASHRAE Standard 55,\u201d Build. Simul., vol. 7, no. 4, pp. 321-334, Aug. 2014, doi: 10.1007/s12273-013-0162-3.",
+    "scopus-id": "85111256678",
+    "coredata": {
+        "eid": "1-s2.0-S2352710221008846",
+        "dc:description": "To reduce the stress on the electrical grids during peak periods, pre-charging the building envelops with high thermal mass during off-peak periods and utilizing the stored energy during peak periods is an effective approach. However, most of the residential buildings in North America are generally built with lightweight materials, and the concrete slabs in the basement are the only option for energy storage. This means, heat storage is possible only in the basement, and achieving the peak shifting in the entire house is a challenge. To extend the peak shifting to the entire building, an automated heat extraction system (HES) that transfers the stored heat from the basement to the other parts of the house is desirable. Accordingly, this study developed two advanced controllers, which controls both electrically heated floor (EHF) (for energy storage in the basement) and HES (for transferring the stored heat to other parts of the house), to achieve peak shifting and heating cost-saving while guaranteeing the occupants\u2019 thermal comfort. The performance of the developed controllers was compared with other control strategies (i.e., constant set-point control, rule-based control and self-learning predictive control). The results showed that the developed advanced controllers effectively shift the energy consumption from the peak period (97 % for the basement and ~87 % for the second floor) and decrease the heating cost by ~33 %.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2021-11-30",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352710221008846",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Sun, Ying"
+            },
+            {
+                "@_fa": "true",
+                "$": "Panchabikesan, Karthik"
+            },
+            {
+                "@_fa": "true",
+                "$": "Haghighat, Fariborz"
+            },
+            {
+                "@_fa": "true",
+                "$": "Luo, Jianing (Tom)"
+            },
+            {
+                "@_fa": "true",
+                "$": "Moreau, Alain"
+            },
+            {
+                "@_fa": "true",
+                "$": "Robichaud, Miguel"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S2352710221008846"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S2352710221008846"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2352-7102(21)00884-6",
+        "prism:volume": "43",
+        "articleNumber": "103026",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "Development of advanced controllers to extend the peak shifting possibilities in the residential buildings",
+        "prism:copyright": "© 2021 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "23527102",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Energy storage"
+            },
+            {
+                "@_fa": "true",
+                "$": "Advanced control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Peak shifting"
+            },
+            {
+                "@_fa": "true",
+                "$": "Heating cost savings"
+            },
+            {
+                "@_fa": "true",
+                "$": "Thermal comfort"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Building Engineering",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "103026",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "November 2021",
+        "prism:doi": "10.1016/j.jobe.2021.103026",
+        "prism:startingPage": "103026",
+        "dc:identifier": "doi:10.1016/j.jobe.2021.103026",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "250",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "101787",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "330",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "118203",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "318",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94606",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "305",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "109330",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "283",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "105760",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "305",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "93634",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "320",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "96997",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "280",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "113143",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "330",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "135327",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "315",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr18.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94507",
+            "@ref": "gr18",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "322",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "113940",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "97",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "74830",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "241",
+            "@width": "557",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr16.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "93745",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "106",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "82691",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "315",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr17.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "94261",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "343",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "110790",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "376",
+            "@width": "389",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "107258",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "273",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "130167",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "102",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72600",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "135",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "73687",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "200",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75597",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "125",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75429",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "159",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "88354",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "125",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "71825",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "71668",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "115",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75840",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "135",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "76810",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "129",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr18.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72470",
+            "@ref": "gr18",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "132",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "76615",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "55",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "67842",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "95",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr16.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "70360",
+            "@ref": "gr16",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "60",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "70041",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "129",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr17.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "71901",
+            "@ref": "gr17",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "186",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75769",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "169",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75344",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "112",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "78655",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1108",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "293786",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1463",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "368173",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1409",
+            "@width": "1722",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "216339",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1349",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "310585",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1254",
+            "@width": "1722",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "333717",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1350",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "244004",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1416",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "246688",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1241",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "320083",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1461",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "620726",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1394",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr18_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "240169",
+            "@ref": "gr18",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1427",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "430217",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "429",
+            "@width": "1722",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "112958",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1067",
+            "@width": "2469",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr16_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "285502",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "468",
+            "@width": "1722",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "190761",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1394",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr17_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "234596",
+            "@ref": "gr17",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1520",
+            "@width": "1722",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "316444",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1666",
+            "@width": "1722",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "324047",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1211",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "487932",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3886",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21145",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19534",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21479",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "100182",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23912",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "57759",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221008846-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1700981",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85111256678"
+    }
+}}

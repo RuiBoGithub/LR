@@ -1,0 +1,890 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85187789672",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 Energy and Buildings ENERGYBUILDINGS 2024-03-08 2024-03-08 2024-03-15 2024-03-15 2024-04-05T22:57:14 1-s2.0-S0378778824001816 S0378-7788(24)00181-6 S0378778824001816 10.1016/j.enbuild.2024.114065 S300 S300.1 FULL-TEXT 1-s2.0-S0378778824X00055 2024-04-27T14:54:00.741776Z 0 0 20240501 2024 2024-03-08T20:56:52.472687Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst ref 0378-7788 03787788 true 310 310 C Volume 310 6 114065 114065 114065 20240501 1 May 2024 2024-05-01 2024 Research Articles article fla © 2024 Elsevier B.V. All rights reserved. MODELLINGBUILDINGHVACCONTROLSTRATEGIESUSINGADEEPREINFORCEMENTLEARNINGAPPROACH NGUYEN A 1 Introduction 2 Literature review 2.1 Rule-based control 2.2 Model predictive control 2.3 Reinforcement learning and deep learning 3 Deep reinforcement learning 3.1 Reinforcement learning (RL) 3.2 Proximal policy optimization 3.3 Phasic policy gradient 4 Model and system integration 4.1 Control framework 4.2 States 4.3 Actions 4.4 Rewards 4.5 Evaluation 4.5.1 Model evaluation 4.5.2 Performance evaluation 4.6 Building energy modelling and control systems framework 4.7 Baselines methods implementation 4.7.1 Rule-based controller (RBC) 4.7.2 Model predictive control (MPC) 5 Experiment settings 5.1 Weather variability 5.2 Simulated building environment 5.2.1 Virtual case study 1 - single-storey building 5.2.2 Virtual case study 2 - multi-storey building 5.2.3 Weather profile 5.3 Implementation 6 Results 6.1 Virtual case study 1 - single-storey building 6.1.1 Experiment results 6.1.2 Policy sample reuse 6.1.3 Value sample reuse 6.1.4 Auxiliary phase frequency 6.2 Virtual case study 2 - multi-storey building 7 Conclusions CRediT authorship contribution statement Acknowledgements References GONZALEZTORRES 2022 626 637 M COSTA 2013 310 316 A PEREZLOMBARD 2008 394 398 L HUANG 2016 137 153 J HSU 2014 263 272 D DEPARTMENTOFCLIMATECHANGEANDENERGYEFFICIENCY SHAIKH 2014 409 429 P CHEN 2020 118530 Y DENG 2022 108680 X WANG 2008 3 32 S GWERDER 2013 1723 1732 M CLIMA2013 INTEGRATEDPREDICTIVERULEBASEDCONTROLASWISSOFFICEBUILDING STAVROPOULOS 2015 1 23 T BALALI 2023 113496 Y YU 2018 5103 5113 L GAO 2020 8472 8484 G VIROTE 2012 183 193 J FRONTCZAK 2011 922 937 M YANG 2014 164 173 L BOURDEAU 2019 101533 M WEI 2018 1027 1047 Y BEHROOZ 2018 495 F LEE 2015 2106 2111 Y DRGONA 2020 190 232 J RAJASEKHAR 2020 555 570 B PARISIO 2014 599 605 A AFRAM 2014 343 355 A WANG 2020 8145 8178 H ALZUBAIDI 2021 1 74 L ARULKUMARAN 2017 26 38 K HAN 2019 101748 M LEITAO 2020 5699 5722 J MASON 2019 300 312 K WANG 2020 115036 Z YU 2021 12046 12063 L NAGABANDI A CHEN 2022 19160 19173 L LORK 2020 115426 C NAUG A BIEMANN 2021 117164 M ZHANG 2019 472 490 Z WEI 2017 1 6 T PROCEEDINGS54THANNUALDESIGNAUTOMATIONCONFERENCE2017 DEEPREINFORCEMENTLEARNINGFORBUILDINGHVACCONTROL BERNER C VINYALS 2019 350 354 O AKKAYA I GRONDMAN 2012 1291 1307 I SUTTON 2018 R REINFORCEMENTLEARNINGINTRODUCTION MNIH 2016 1928 1937 V INTERNATIONALCONFERENCEMACHINELEARNINGPMLR ASYNCHRONOUSMETHODSFORDEEPREINFORCEMENTLEARNING SCHULMAN J COBBE 2021 2020 2027 K INTERNATIONALCONFERENCEMACHINELEARNINGPMLR PHASICPOLICYGRADIENT SCHULMAN J PEREZCRUZ 2008 1666 1670 F 2008IEEEINTERNATIONALSYMPOSIUMINFORMATIONTHEORY KULLBACKLEIBLERDIVERGENCEESTIMATIONCONTINUOUSDISTRIBUTIONS ZHANG 2019 C PROCEEDINGS6THACMINTERNATIONALCONFERENCESYSTEMSFORENERGYEFFICIENTBUILDINGSCITIESTRANSPORTATION BUILDINGHVACSCHEDULINGUSINGREINFORCEMENTLEARNINGVIANEURALNETWORKBASEDMODELAPPROXIMATION MALLER 2009 421 437 R HANDBOOKFINANCIALTIMESERIES ORNSTEINUHLENBECKPROCESSESEXTENSIONS DEPARTMENTOFENERGY WILCOX S ENERGYPLUS BROCKMAN G WETTER 2008 M BUILDINGCONTROLSVIRTUALTESTBED KINGMA D COBBE 2020 2048 2056 K INTERNATIONALCONFERENCEMACHINELEARNINGPMLR LEVERAGINGPROCEDURALGENERATIONBENCHMARKREINFORCEMENTLEARNING NGUYENX2024X114065 NGUYENX2024X114065XA 2026-03-15T00:00:00.000Z 2026-03-15T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2024 Elsevier B.V. All rights reserved. 2024-03-20T03:21:25.012Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined NRF National Research Foundation of Korea http://data.elsevier.com/vocabulary/SciValFunders/501100003725 http://sws.geonames.org/1835841 MSIT RS-2023-00217322 MSIP Ministry of Science, ICT and Future Planning http://data.elsevier.com/vocabulary/SciValFunders/501100003621 http://sws.geonames.org/1835841/ This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. RS-2023-00217322). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0378-7788(24)00181-6 S0378778824001816 1-s2.0-S0378778824001816 10.1016/j.enbuild.2024.114065 271089 2024-04-27T14:54:00.741776Z 2024-05-01 1-s2.0-S0378778824001816-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/MAIN/application/pdf/e1639115c6aab620d240dd918d415815/main.pdf main.pdf pdf true 6309204 MAIN 16 1-s2.0-S0378778824001816-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/PREVIEW/image/png/3fc416916311becf4a3b6ead63b9b6ad/main_1.png main_1.png png 56528 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0378778824001816-gr004.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr004/DOWNSAMPLED/image/jpeg/338b9d5db65a72f4eacc0447e48f74ce/gr004.jpg gr004 gr004.jpg jpg 27303 459 353 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr005.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr005/DOWNSAMPLED/image/jpeg/465313b4b0ff23b2730c11782a682798/gr005.jpg gr005 gr005.jpg jpg 127388 993 746 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr006.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr006/DOWNSAMPLED/image/jpeg/bd3c09c3dd1bc676e4295b806a3b2f74/gr006.jpg gr006 gr006.jpg jpg 130884 992 746 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr007.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr007/DOWNSAMPLED/image/jpeg/3adbba5d887917e35bce7c5ac31b1429/gr007.jpg gr007 gr007.jpg jpg 15171 224 313 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr011.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr011/DOWNSAMPLED/image/jpeg/32f071c71d3434a76d10150407cd0860/gr011.jpg gr011 gr011.jpg jpg 137666 1016 742 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr001.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr001/DOWNSAMPLED/image/jpeg/f2aa37e30e7640020c66578e624e00b4/gr001.jpg gr001 gr001.jpg jpg 8684 123 336 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr002.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr002/DOWNSAMPLED/image/jpeg/63bd1687b08aef56484740490b220d84/gr002.jpg gr002 gr002.jpg jpg 48681 345 806 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr003.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr003/DOWNSAMPLED/image/jpeg/74b7767bb981267c469b971d0d2ec488/gr003.jpg gr003 gr003.jpg jpg 31365 476 353 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr010.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr010/DOWNSAMPLED/image/jpeg/e28857a41ae7156c9fb87bef0df4a3a1/gr010.jpg gr010 gr010.jpg jpg 130417 1017 742 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr008.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr008/DOWNSAMPLED/image/jpeg/66769b972825305cd671369db7048c00/gr008.jpg gr008 gr008.jpg jpg 15296 224 313 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr009.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr009/DOWNSAMPLED/image/jpeg/8de7eb781969d40c4c3e4f8ece5f7aee/gr009.jpg gr009 gr009.jpg jpg 14967 224 313 IMAGE-DOWNSAMPLED 1-s2.0-S0378778824001816-gr004.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr004/THUMBNAIL/image/gif/815f6d630e9bd4d087c807997dd24665/gr004.sml gr004 gr004.sml sml 6833 164 126 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr005.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr005/THUMBNAIL/image/gif/796c9e8b096964f0c26d6044e2090fd7/gr005.sml gr005 gr005.sml sml 5103 164 123 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr006.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr006/THUMBNAIL/image/gif/730593f07321c4464a0dad221cdbc703/gr006.sml gr006 gr006.sml sml 5233 164 123 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr007.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr007/THUMBNAIL/image/gif/da175e80a780f32bf2af3f7a00a614bc/gr007.sml gr007 gr007.sml sml 6768 157 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr011.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr011/THUMBNAIL/image/gif/58c113902f90e3a1db8510611985d394/gr011.sml gr011 gr011.sml sml 5663 163 119 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr001.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr001/THUMBNAIL/image/gif/ca38c0fa40804cf0d6aa5a14ed65dacf/gr001.sml gr001 gr001.sml sml 4091 80 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr002.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr002/THUMBNAIL/image/gif/4a4c80a31b99b596e28282350e8ca0c5/gr002.sml gr002 gr002.sml sml 6721 94 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr003.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr003/THUMBNAIL/image/gif/37c6ef647f2834076b2715251f0678d3/gr003.sml gr003 gr003.sml sml 6526 163 121 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr010.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr010/THUMBNAIL/image/gif/8f86dd62f015c1b21bd58869a76585ed/gr010.sml gr010 gr010.sml sml 5230 163 119 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr008.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr008/THUMBNAIL/image/gif/eecee0cdecdb260db816eb57e3401258/gr008.sml gr008 gr008.sml sml 6837 157 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr009.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/gr009/THUMBNAIL/image/gif/8727d5beb6915997bd31543a1ca75696/gr009.sml gr009 gr009.sml sml 6531 156 219 IMAGE-THUMBNAIL 1-s2.0-S0378778824001816-gr004_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/eaedbe1e0d3b85148c4e22ebb4d354b3/gr004_lrg.jpg gr004 gr004_lrg.jpg jpg 340779 2037 1566 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-gr005_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/6d1bae04eabfe03e1194b045b17c90b7/gr005_lrg.jpg gr005 gr005_lrg.jpg jpg 956919 4398 3305 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-gr006_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/cdc03049801ed2d3e210c66241c7ebb6/gr006_lrg.jpg gr006 gr006_lrg.jpg jpg 976701 4397 3305 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-gr007_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/527e0eba9c2fe3307618ba0f205259c1/gr007_lrg.jpg gr007 gr007_lrg.jpg jpg 61123 595 832 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-gr011_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/3b9120a2ca4dffe7efb29fbbd58fca51/gr011_lrg.jpg gr011 gr011_lrg.jpg jpg 1076073 4500 3286 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-gr001_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/9f38ff0e9f87c98d9c98efb339b18eb5/gr001_lrg.jpg gr001 gr001_lrg.jpg jpg 29801 326 893 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-gr002_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/ed78cedc7736fddb05fb98e01bc4d2aa/gr002_lrg.jpg gr002 gr002_lrg.jpg jpg 201571 918 2142 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-gr003_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/bbe61ae9124c517d05248a181dad361f/gr003_lrg.jpg gr003 gr003_lrg.jpg jpg 388717 2112 1566 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-gr010_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/c41544d474041d1342234d75b9554cde/gr010_lrg.jpg gr010 gr010_lrg.jpg jpg 998853 4501 3284 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-gr008_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/5986d28c7dd1f373860a32510c4ddb21/gr008_lrg.jpg gr008 gr008_lrg.jpg jpg 61808 595 831 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-gr009_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/HIGHRES/image/jpeg/c1cd97b0d5a3415f67407560ea14c691/gr009_lrg.jpg gr009 gr009_lrg.jpg jpg 58474 595 833 IMAGE-HIGH-RES 1-s2.0-S0378778824001816-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/ba0aed823357bcf78de6b0d7bb085aad/si1.svg si1 si1.svg svg 6849 ALTIMG 1-s2.0-S0378778824001816-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/a2bfb73c77f8daf5951e0cc264bda3d8/si10.svg si10 si10.svg svg 3824 ALTIMG 1-s2.0-S0378778824001816-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/bcdb441cd88fd624c11a822b2b057320/si11.svg si11 si11.svg svg 1729 ALTIMG 1-s2.0-S0378778824001816-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/f1aff0070c520886f9fe23c6e3856d32/si12.svg si12 si12.svg svg 1969 ALTIMG 1-s2.0-S0378778824001816-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/15b93b03bc338c356ec3bf6f7df8310a/si13.svg si13 si13.svg svg 9397 ALTIMG 1-s2.0-S0378778824001816-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/68ae0a351a041dbdf74570b05bb5a9b6/si14.svg si14 si14.svg svg 7218 ALTIMG 1-s2.0-S0378778824001816-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/1677f31400a1b7f0957f6c4f5e6e2844/si15.svg si15 si15.svg svg 6562 ALTIMG 1-s2.0-S0378778824001816-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/336ec57de66ad816b80225cd12052f1f/si16.svg si16 si16.svg svg 6038 ALTIMG 1-s2.0-S0378778824001816-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/7edda46599a54223ed8f9ae270915995/si17.svg si17 si17.svg svg 35619 ALTIMG 1-s2.0-S0378778824001816-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/a83e96a50bf288d4edc71e84ca7479ee/si18.svg si18 si18.svg svg 46589 ALTIMG 1-s2.0-S0378778824001816-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/01b28431762158fb336669236af1c736/si19.svg si19 si19.svg svg 3803 ALTIMG 1-s2.0-S0378778824001816-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/35ed91ca71a67bd3459f9bce49ac2847/si2.svg si2 si2.svg svg 3658 ALTIMG 1-s2.0-S0378778824001816-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/d13f5d835af1719e6d8791b862919054/si20.svg si20 si20.svg svg 1750 ALTIMG 1-s2.0-S0378778824001816-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/1320ccd6e9bb76cfb2504eee33e074aa/si21.svg si21 si21.svg svg 3036 ALTIMG 1-s2.0-S0378778824001816-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/9dd61ef738f93968e10ba2786199103a/si22.svg si22 si22.svg svg 3104 ALTIMG 1-s2.0-S0378778824001816-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/a9185d92c96555d962ef498e7cc55b4d/si23.svg si23 si23.svg svg 4035 ALTIMG 1-s2.0-S0378778824001816-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/776c2e79be5efa049a7b46c4deed3412/si24.svg si24 si24.svg svg 9395 ALTIMG 1-s2.0-S0378778824001816-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/7da529ccd053b4dc4ccf540787617d6c/si25.svg si25 si25.svg svg 2923 ALTIMG 1-s2.0-S0378778824001816-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/3c8cc25d0dc2b81194d430eee95eae7b/si26.svg si26 si26.svg svg 3883 ALTIMG 1-s2.0-S0378778824001816-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/c716832725af87e8879ca662efa567e3/si27.svg si27 si27.svg svg 4763 ALTIMG 1-s2.0-S0378778824001816-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/06c515d33ce08b490928913a8d3ade5e/si28.svg si28 si28.svg svg 3150 ALTIMG 1-s2.0-S0378778824001816-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/714edb75cc690eb3f9f3095a704c32f2/si29.svg si29 si29.svg svg 2756 ALTIMG 1-s2.0-S0378778824001816-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/48b9a6306d3f7e6fd6768a8480ebc0cd/si3.svg si3 si3.svg svg 3705 ALTIMG 1-s2.0-S0378778824001816-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/409b3a18acdefee9c16763e73da8a08c/si30.svg si30 si30.svg svg 2171 ALTIMG 1-s2.0-S0378778824001816-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/a7ed9366c32e666c9cdf37ad3fc7af34/si31.svg si31 si31.svg svg 4124 ALTIMG 1-s2.0-S0378778824001816-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/78bf38e2c028b9445c702ab714fe7f78/si32.svg si32 si32.svg svg 3822 ALTIMG 1-s2.0-S0378778824001816-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/7f4b6b801da26cfd6a2eed3383e8688d/si33.svg si33 si33.svg svg 5527 ALTIMG 1-s2.0-S0378778824001816-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/9173c49c133e4af40f0f82a445614153/si34.svg si34 si34.svg svg 2947 ALTIMG 1-s2.0-S0378778824001816-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/9891244e9343ad26f31f61b3ac080ca1/si35.svg si35 si35.svg svg 1269 ALTIMG 1-s2.0-S0378778824001816-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/44a74961fce94a8af94559e001d89742/si36.svg si36 si36.svg svg 2538 ALTIMG 1-s2.0-S0378778824001816-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/a56556eec0bc794b80d05386d454f08d/si37.svg si37 si37.svg svg 1670 ALTIMG 1-s2.0-S0378778824001816-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/ac16aa2e3506b603c144a70e727b9398/si38.svg si38 si38.svg svg 1770 ALTIMG 1-s2.0-S0378778824001816-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/181139b1258c1a583f8375e99c0c8b93/si4.svg si4 si4.svg svg 24929 ALTIMG 1-s2.0-S0378778824001816-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/f90298f0f45843863e33d7620eac3fe2/si5.svg si5 si5.svg svg 19774 ALTIMG 1-s2.0-S0378778824001816-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/8a2f76d860f31968218e2acf92bfaf49/si6.svg si6 si6.svg svg 10538 ALTIMG 1-s2.0-S0378778824001816-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/8513bfcae93cc00e924376fccc4a80e1/si7.svg si7 si7.svg svg 2100 ALTIMG 1-s2.0-S0378778824001816-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/21b149c590b8e3dc9327b6a3269ad334/si8.svg si8 si8.svg svg 1904 ALTIMG 1-s2.0-S0378778824001816-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778824001816/image/svg+xml/cc0696bac1feec4968e287b970399f0b/si9.svg si9 si9.svg svg 28507 ALTIMG 1-s2.0-S0378778824001816-am.pdf am am.pdf pdf 6851350 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:101JWM0DN4J/MAIN/application/pdf/04b6a45ea897916aa40e44539e56eb8b/am.pdf ENB 114065 114065 S0378-7788(24)00181-6 10.1016/j.enbuild.2024.114065 Elsevier B.V. Fig. 1 General control framework between agent and building environment. Fig. 1 Fig. 2 High-level diagram deep reinforcement learning (DRL) based framework for HVAC control and evaluation in the present study. Fig. 2 Fig. 3 Typical simulation building. Fig. 3 Fig. 4 Office simulation building. Fig. 4 Fig. 5 Sample efficiency of various methods in continue stochastic environment and Linear Reward. (For interpretation of the colours in the figure(s), the reader is referred to the web version of this article.) Fig. 5 Fig. 6 Sample efficiency of various methods in a continue stochastic environment and Conditional Linear Reward. Fig. 6 Fig. 7 Performance with varying levels of policy sample reuse. Fig. 7 Fig. 8 Performance with varying levels of value function sample reuse. Fig. 8 Fig. 9 Performance with varying auxiliary phase frequency. Fig. 9 Fig. 10 Sample efficiency of various methods in office building and Linear Reward. Fig. 10 Fig. 11 Sample efficiency of various methods in office building and Conditional Linear Reward. Fig. 11 Table 1 All variables are available by input and simulation in EnergyPlus. Table 1 Type Variable names Unit Environment Day of the week - Environment Hour of the day - Environment Month of year - Environment Outdoor air temperature °C Environment Outdoor air relative humidity % Environment Wind speed m/s Environment Wind direction degree from north Environment Diffuse solar radiation W/m2 Environment Direct solar radiation W/m2 Environment People Occupant - Environment HVAC electric demand rate kW System Total HVAC electricity kW System Air Humidity % System Heating setpoint °C System Cooling setpoint °C System Indoor air temperature °C System Temperature Violation °C System Comfort penalty - System Energy Penalty - System Temperature Deviation Frequency % Table 2 PPG Specific Hyperparameters. Table 2 Policy iterations per auxiliary phase N π 32 Policy epochs per policy iteration E π 1 Value epochs per policy iteration E V 6 Auxiliary epochs in auxiliary phase E aux 2 β 1 Mini-batches per auxiliary epoch per N π 32 γ 0.99 λ 0.95 Time steps per rollout 2048 Mini batches per epoch 64 Entropy bonus coefficient c 0.01 PPO clip range ϵ 0.2 Learning rate 3e-4 Modelling building HVAC control strategies using a deep reinforcement learning approach Anh Tuan Nguyen Writing \u2013 original draft Visualization Validation Software Methodology Investigation Formal analysis Data curation Conceptualization a Duy Hoang Pham Writing \u2013 review & editing a Bee Lan Oo Writing \u2013 review & editing b Mattheos Santamouris Writing \u2013 review & editing b Yonghan Ahn Supervision Funding acquisition a \u204e Benson T.H. Lim Writing \u2013 review & editing Resources Investigation Conceptualization b a Hanyang University ERICA Campus, 55 Hanyangdeahak-ro, Sangnok-gu, Ansan, Gyeonggi-do, 15588, Korea Hanyang University ERICA Campus 55 Hanyangdeahak-ro Sangnok-gu Ansan Gyeonggi-do 15588 Korea Hanyang University ERICA Campus, 55 Hanyangdeahak-ro, Sangnok-gu, Ansan, Gyeonggi-do, 15588, Korea b University of New South Wales, Kensington, Sydney, New South Wales, 2052, Australia University of New South Wales Kensington Sydney New South Wales 2052 Australia University of New South Wales, Kensington, Sydney, New South Wales, 2052, Australia \u204e Corresponding author. Heating, ventilation, and air-conditioning (HVAC) systems are responsible for a considerable proportion of total building energy consumption but are also vital for improved indoor temperature comfort, indoor air quality and well-being of building occupants. Thus, developing control strategies for HVAC systems is critical for the total life cycle of any building projects. Particularly, HVAC and building operations are not stationary but are filled with fuelled by environmental dynamisms and unexpected disruptions such as users' activities, weather conditions, occupancy rate, and operation of machinery and systems. This research aims to develop and propose a strategic control learning framework for HVAC systems using the deep reinforcement learning (DRL) approach. The results show that the proposed Phasic Policy Gradient (PPG) based method is more adaptive to changes in real building's environments. Notably, PPG performs better and more reliable than the conventional method for HVAC control optimization with about 2-14% in energy consumption reduction and indoor temperature comfort enhancement, along with a 66% faster convergence rate. Overall, our findings demonstrate that our proposed DRL approach is less resource intensive and much easier than the conventional approach in deriving solutions for HVAC control optimization driven by energy efficiency and indoor temperature comfort. Keywords Deep reinforcement learning Constrained learning HVAC control Building energy modelling Human comfort Energy efficiency Data availability Data will be made available on request. 1 Introduction Over the past two decades, evidence has shown that there is a substantial increase in global energy consumption, which mainly due to rapid urbanization, population and wealth growth, increasing needs and expectations of building occupants and owners [1], and that buildings have accounted for 40% and 30% of the global primary energy use and CO2 emissions [2], respectively. As González-Torres et al. [1] highlighted, building energy consumption in emerging nations (such as Brazil and India) has risen considerably after their economic expansion and industrialization to approximately 45% over the past decade. To this, a considerable amount of research has documented the amount of building energy consumption across different building types and usages [3], climates [4] and different building elements and services [5]. Of the latter, Heating, ventilation and air conditioning (HVAC) systems are one of the key culprits driving the increase in energy consumption [1,6]. For example, in the USA, HVAC systems are responsible for 50% of the building energy consumption and contribute to 20% of the overall growth in energy consumption [3]. In Australia, the Department of Climate Change and Energy Efficiency [6] also revealed that HVAC systems could account for about 40% and 70% of the total and base building energy consumption, respectively. These might help explaining why there are increasing attentions and discussions concerning the design and implementation of energy-efficient HVAC systems and their control strategies throughout the life cycle of buildings, as well as the retrofit strategies of ageing buildings. Conceptually, the efficient operation of a HVAC system, through a building's life cycle, is pivotal in providing and maintaining good indoor air quality, and reducing the total building energy consumption and operational carbons. Hitherto, studies have documented the benefits of deploying advanced climate control algorithms towards managing, controlling and optimizing the performance of HVAC systems [7\u20139]. Most of these studies adopted the rule-based approaches and set conservative points that tend to prioritize thermal comfort and indoor air quality over energy consumption without any optimization algorithms. Furthermore, studies have adopted the deterministic model assumptions that a building's HVAC control systems would operate deterministically over its lifecycle, conceptualizing that conditions and control actions would remain constant, and that the building's environment will evolve consistently [10\u201312]. However, this school of thought has been criticized of its simplicity, with researchers arguing that, in reality, HVAC systems and their operation should be designed to cope with fluctuating degree of randomness, fuelled by internal and external factors, and operational issues [13,14]. The internal environmental factors of a building refer to the human activities that take place within the building, as well as the thermal environment, which includes the temperature, humidity, and airflow [15]. The external environment, on the other hand, refers to all of the factors outside of the building that can affect its performance and comfort which includes weather conditions, building physical structures [16]. The latter refers to unexpected operational events such as equipment and machinery malfunction, sensor issues, system glitches, etc. As a result, the concepts of stochastic and non-stationary have gained increasing attention among researchers who argued the importance of estimations and approximations in the design and deployment of control algorithms models. For example, Chen et al.'s [8] research has shown that there is a considerable improvement prediction accuracy of HVAC energy consumption with non-stationary pattern. This tends to also add weight to Deng et al.'s [9] conclusion that, by factorizing non-stationary environments in the energy modelling of HVAC systems, this will offer a more realistic predication and more importantly, this will bring about considerable improvement in energy savings and thermal comfort within buildings. From the above, it seems that the dynamic nature of building operations poses a significant obstacle to advance HVAC control techniques to optimizing energy performance and indoor temperature comfort. We have identified certain constraints in addressing this non-stationarity. On the one hand, incorporating stochastic into building models could introduce complexity and reduce the efficiency of control strategies. Conversely, passive adaptation, without the use of modelling, is ineffective in managing highly stochastic building's environment. In addressing these issues, this research aims to develop and propose a strategic control learning framework for HVAC systems using the deep reinforcement learning (DRL) by specifically formulating HVAC control as Markov decision process (MDP) in stochastic environments and create a Phasic Policy Gradient (PPG) based algorithm procedures focusing on optimizing HVAC control strategies with equal emphasis on energy efficiency and indoor temperature comfort. The main contributions of this study are summarized as follows: \u2022 We develop a novel method based on PPG algorithms. To our best knowledge, it is the first method to directly explore of the stochastic building environments and exploit this information in HVAC control optimization. Meanwhile, it is a model-free DRL method which is time-saving and can avoid errors from inaccurate modelling than the Proximal Policy Optimization (PPO), which seems to be most stable and accurate algorithms recently. \u2022 We conduct a thorough simulation-based comparison between DRL algorithms optimal fine-tuned hyperparameters. Indoor temperature comfort and energy consumption are adopted as key metrics to demonstrate the effectiveness of the proposed method in eliminating the effects of stochastic environments. \u2022 We test the stability of our proposed method by seeing how well it can recover from a large disturbance. We also test the generalization of our method by seeing how well it works in stochastic building environments. 2 Literature review Hitherto, a considerable amount of HVAC control research has documented on the application, and benefits and drawbacks of the following approaches: 2.1 Rule-based control Rule-based control (RBC) is a fundamental method employed in various fields, including engineering, computer science, and artificial intelligence, to automate decision-making processes. RBC methods are widely used in HVAC systems [10\u201312], which rely on a set of predefined rules or conditional statements that guide the systems' behaviour in response to different input conditions. To maintain comfortable indoor environment as well as human comfort, climate change (e.g., temperature variations) and stochastic occupancy schedules [17,18] are considered in control rules. Additionally, data driven techniques are applied for modelling, forecasting the setpoints [19] for building energy consumption and benchmarking the performance [20]. As HVAC systems and building environments are becoming more complex and unpredictable, it becomes increasingly difficult and time-consuming to create a comprehensive list of control rules that cover all possible situations. Additionally, studies have shown that artificial rules are not flexible enough to adapt to changing HVAC system information in real time [21]. For example, Behrooz et al. [22] showed that it is not proper for controlling non-linear moving processes with time delays, complex system with uncertain information system; and not capable of implementing dynamic information/input [23]. 2.2 Model predictive control Model Predictive Control (MPC) is suitable for developing HVAC control strategies, based on system process optimization processes, by using HVAC system model to predict future behaviour and then calculating the control inputs that will achieve the desired performance [24]. As Rajasekhar et al. [25] explained, the modelling methods can be categorized into: (i) the white-box model developed by physical laws; (ii) the black-box model based on data-driven methods; and (iii) the gray-box model fitting load data into a physical model. In supporting this, Parisio et al. [26] added that scenario-based MPC controllers, which take into account the dynamics of buildings, performed better than vanilla MPC controllers in terms of both robustness and energy efficiency. However, the performance of MPC controllers is highly dependent on the accuracy of the system models used. If the model is not accurate, the controller might not be able to perform as expected in real-world applications. For example, Afram and Janabi-Sharifi [27] explained that MPC is not appropriate for systems, building envelopes, and technical elements that need to be able to maintain a stable temperature. Moreover, it is incapable to interact with the outside world (e.g., user, grid, district, city) or accurately regulate/adjust input variables (e.g., setpoints, schedules, working modes). 2.3 Reinforcement learning and deep learning Reinforcement Learning (RL) and Deep Learning (DL) are touted to be more advanced techniques to develop more effective and better targeted HVAC control strategies than the traditional techniques. The former refers to a continuous learning approach by adjusting control actions or strategies based on continuous feedback to maximize a reward [28]. The latter refers to an approach whereby the initial phase of learning is gained from a training dataset and then that learning is applied to a new data set for re-learning [29]. With the advancement in the deep learning domain, there is a recent increasing application of Deep Reinforcement Learning (DRL) techniques to improve model complexity and decision efficiency. According to Arulkumaran et al. [30], DRL is a type of machine learning that allows agents to learn how to behave in an environment by trial and error and DRL agents could either be rewarded for taking actions that lead to desired outcomes or be penalized for taking actions that lead to undesired outcomes. There are many surveys on building energy systems related to applications of RL (e.g., [31\u201334]) or other artificial intelligence methods (e.g., [25,35]). In terms of RL, it comprises model-based and model-free approaches. Of these, model-based RL is similar to MPC that it uses a model of the system to plan actions. However, MPC is typically used in real-time applications, while model-based RL can be used for planning both in real-time and offline. Model-based RL can be more robust to changes in the environment, as its agents can adapt to different scenarios and plan accordingly [36]. Recently, Chen et al. [37] proposed the use of a hybrid modelling approach by integrating the model-based RL and MPC techniques for the HVAC system of a data centre, and it achieves tenfold reduction in environment data samples while maintaining higher rewards. Also, Lork et al. [38] developed an uncertainty aware DRL framework to model the air-conditioning and room temperature of residential apartments with the use of Bayesian Convolutional Neural Network (BCNN). They found that the Q-learning agents trained with an uncertainty-aware reward function have shown potential in reducing energy consumption of ACs while preserving human comfort, with flexibility towards energy savings or discomfort reduction. To this, Naug et al. [39] points to the importance of using a re-learning approach to RL, allowing controllers to adapt to and handle changes in building environments by updating their models of the environmental control policies. However, they acknowledged that this approach can be time-consuming and reduce the convergence speed at which the controller can select actions, and that there is no practical way to explicitly tell the controllers what the specific changes in the environment are and when they occur. On the other end, model-free reinforcement learning (RL) does not need a model of the building environments to learn how to control it. Instead, it learns by trial and error, interacting with the real building environments. This means that it is less time-consuming to implement, and can be more easily scaled up to different buildings [34]. Additionally, model-free RL can generalize to new situations better since it does not rely on a specific model of the environments [40]. According to Zhang et al. [41], the deployment of DRL algorithm Asynchronous Advantage Actor-Critic (A3C) based control method for a radiant heating system in an office building could help achieving considerable heat demand savings. Likewise, Wei et al. [42] implemented DRL for building HVAC control and evaluate the performance of DRL algorithm through simulations using the widely-adopted EnergyPlus tool which saved up to 11% of energy consumption. Research has shown that model-free DRL has a lot of potential. Some researchers believe that model-free DRL algorithms can passively adapt to changes in building environments by updating their models with new data. This is a significant advantage of model-free DRL over model-based DRL algorithms. Model-based DRL algorithms require a pre-defined model of an environment to learn how to act. If the environment changes, the model-based DRL algorithm will need to be retrained with new data. However, this may only work in theory or in idealized experimental environments where there is enough time and data for training. Additionally, passive adaptation means that DRL controllers are constantly having to learn new policies to adapt to changes in the building environments, without explicitly understanding the optimal policies for different situations. This can be inefficient, costly and may not lead to the best possible performance. 3 Deep reinforcement learning This section focuses on the operationalization and explanation how our DRL algorithms were formulated and their core principles. For ease of understanding, DRL could be defined as is a type of reinforcement learning that uses deep neural networks to learn policies and value functions whereby the deep neural networks will learn complex relationships between the agent's state, actions, and rewards, which in turn allow DRL agents to solve more complex problems than traditional RL agents. 3.1 Reinforcement learning (RL) Model-free reinforcement learning (RL) is a type of machine learning that allows agents to learn how to behave in an environment by trial and error. RL has been used to undertake challenging tasks, such as playing video games [43,44] and controlling robots [45]. One of the most important components of RL is the actor-critic framework. This framework uses two key quantities to drive learning: (i) the policy and (ii) the value functions [46]. The policy function determines what action the agents should take in a given state, while the value function estimates how good it is for the agents to be in a given state. According to Sutton and Barto [47], at each time step, the agents and the environment will interact with each other. This interaction can be represented as a tuple ( S t , A t , S t + 1 , R t + 1 ) which are state, action, next state and reward of the environment, respectively. The goal of reinforcement learning is to learn an optimal policy π: S t → A t , which maximizes the expected cumulative future reward, which is the sum of all rewards the agent expects to receive. The standard RL problem is a Markov decision process (MDP) if it follows the Markov property. Despite this, RL algorithms can still be successfully applied to non-MDP problems. This is because RL algorithms can learn from experience and adapt to an environment. In RL, we have adopted the three important procedures shown below: \u2022 State value function: This function estimates the expected value of being in a given state, regardless of the action taken. \u2022 Action value function: This function estimates the expected value of taking a given action in a given state. \u2022 Advantage function: This function measures how much better it is to take a given action in a given state than to take the average action. 3.2 Proximal policy optimization As Mnih et al. [48] suggested, the Advantage Actor Critic (A2C) is a hybrid architecture combining value and policy-based methods that helps to stabilize training by reducing the variance with an Actor that controls how our agent behaves (policy-based method) and a critic that measures how good the action taken is (value-based method). From A2C, a Proximal Policy Optimization (PPO) architecture could be established to improve the stability of agent training by reducing the number of unnecessary policy updates that could slow the optimization process [49]. In this research, a ratio will be indicated to show the difference between our current and old policies and clip that ratio from a specific range [ 1 − ϵ , 1 + ϵ ] . By doing this, our policy updating process will not be too overwhelming for the system and the training will become more stable. Empirically, small policy updates during training are more likely to converge to an optimal solution. On the contrary, having too big a policy update results in a bad policy or even no possibility of recovery. Also, in PPO, policy update with a new objective function called the clipped surrogate objective function will constrain the policy update in a small range using a clip [49]. 3.3 Phasic policy gradient Many different DRL algorithms have been proposed, but all of them rely on the actor-critic framework [46]. An important decision when implementing a DRL algorithm is whether or not to share parameters between the policy and the value function networks. Sharing parameters can be beneficial because features learned by one goal can be used to improve the optimization of the other. For the Phasic Policy Gradient (PPG), training proceeded in two alternating phases [50]: a policy phase, following by an auxiliary phase. During the policy phase, same objective from PPO was optimized using two disjoint networks to represent the policy and value functions, respectively as shown below: (1) max θ \u2061 J ( θ ) = E ˆ t [ m i n ( r t ( θ ) A ˆ t , c l i p ( r t ( θ ) , 1 − ϵ , 1 + ϵ ) A ˆ t ) + c H ( π θ ( . | s t ) ] (2) min θ \u2061 L v a l u e ( ϕ ) = E ˆ t [ 1 / 2 ( V ϕ V ( s t ) − V ˆ t t a r g ) 2 ] where r t ( θ ) = π θ ( a t | s t ) π θ o l d ( a t | s t ) same as PPO, A ˆ t and V ˆ t are computed with Generalized Advantage Estimate (GAE) [51], θ and ϕ are the parameters of the policy and value networks, respectively. The use of disjoint parameters ensures two objective functions do not interfere each other. To retain the benefits of joint training, we trained an auxiliary loss during the auxiliary phase. Specifically, we trained an additional value head under the constraint of preserving the original policy. This is achieved by the following loss function: (3) min θ \u2061 L j o i n t ( θ ) = E ˆ t [ 1 / 2 ( V ϕ V ( s t ) − V ˆ t t a r g ) 2 ] + β E ˆ t [ D K L ( π θ o l d ( . | s t ) \u2016 π θ ( . | s t ) ] where π π o l d is the policy right before the auxiliary phase begins, V θ is an auxiliary value head of the policy network. The KL term [52] penalizes the deviation of the policy caused by training the value function, ensuring that the auxiliary training does not corrupt the policy we learned. 4 Model and system integration In the model design we have considered the building environment and HVAC system which is described more detail in Section 5.2. 4.1 Control framework This study used a self-learning control system driven by the DRL algorithms described in Section 3.2 and 3.3 to achieve promising indoor temperature comfort and energy saving performance. Specifically, these DRL algorithm is implemented to determine the optimal indoor setpoint temperature based on simulation-based energy building modelling and stochastic weather environment. The problem is formulated as a Markov decision process (MDP), which consists of a reward signal, an action space, and a state space explained in the Sections 4.2-4.4. Fig. 1 shows how states, rewards, and actions are related in a MDP framework. In the first step, the agent observes its environment and determines its current state, s t . This state contains all the relevant information about the current situation. Based on its current state, the agent selects an action from its available set of actions, guided by its learned policy. The chosen action is the agent's way of interacting with its environment. After the agent took an action, the environment changes to a new state, and the agent receives a reward. The reward is a feedback signal that tells the agent how well it did. The agent uses this feedback to learn how to make better decisions in the future. The new state and the received reward form a feedback loop that helps the agent learn more about the environment. The next sections will explain the states, actions, and rewards in more detail, and focus on how to use them to design the control framework. 4.2 States The state is the input for our RL agent controller. In the multi-zone problem, the state vector includes many variables listed in Table 1 . Moreover, two conditions below must be fulfilled: \u2022 HVAC system states: This can be changed by the RL controller's actions. Heating and Cooling setpoints are included in system states. \u2022 Environmental states: This cannot be change with the RL controller's actions but can influence the HVAC systems dynamics to satisfy the controller's purpose. It is proper to model HVAC system problem as MDP with state space for our RL controller. The transition function of a MDP is: P ( s \u2032 | s , a ) = P r ( s t + 1 = s \u2032 | s t = s , a t = a ) where s is the state in the HVAC system dynamics environment, a is the action of our RL controller. 4.3 Actions The control actions of the agents are continuous and are designed as the adjustment to the setpoints of air temperature heating and cooling in the controlled zone of the last time step. In a continuous action control scenario, the heating and cooling setpoints can be adjusted to any value within a specified range. Setting the same setpoints throughout the year may lead to energy waste. For example, maintaining a low cooling setpoint during the winter would result in unnecessary cooling, while maintaining a high heating setpoint during the summer would result in excessive heating. Seasonal adjustments prevent these inefficiencies. Smaller temperature differential reduces the workload on the cooling system and heating system in contrast, leading to lower energy consumption and operating costs. In this study, we separate the comfort range in different seasons, specifically, comfort temperature range 23.0 − 26.0 ° C in the summer and 20.0 − 23.0 ° C in the winter. Implementing continuous action control may require more advanced control algorithms because continuous action spaces are more complex, difficult to explore, require more precise control and more susceptible to noise as well as disturbances. In addition, it requires careful consideration of the system dynamics and potential delays in response time to prevent overshooting or undershooting the setpoints. In continuous action control, the action space is typically infinite or very large, as actions can take on a continuous range of values. This will result in a significantly higher dimensionality of the action space compared to discrete action spaces, which have a finite and often much smaller set of possible actions. Managing and exploring such a vast action space can be computationally demanding and requires specialized algorithms. As such the stability, adaptability, and sample efficiency of PPO make it a popular choice for tackling challenging continuous action control problems. Therefore, this algorithm is the baseline to be compared with PPG. 4.4 Rewards We designed the reward based on the combination of minimizing the HVAC energy consumption and thermal discomfort based on the following functions: (4) R ( t ) = r 1 ( t ) + r 2 ( t ) (5) r 1 ( t ) = − γ ⋅ Energy consumption (6) r 2 ( t ) = { 0 No Occupancy − ( 1 − γ ) ⋅ λ t ⋅ Comfort Otherwise Energy consumption is taken from state and thermal is calculated as the absolute difference between current temperature and comfort range (if the temperature is inside that range, discomfort would be 0). These rewards are always negative, meaning that perfect behaviour has a cumulative reward of 0. There are two types of temperature comfort range defined, for the summer and winter periods, respectively. The weight of each term in the reward allows us to adjust the importance of each aspect when evaluating the environments. γ is the energy weight considered the relative importance of HVAC energy efficiency and indoor temperature comfort, γ ∈ [ 0 , 1 ] λ t is the constant for removing dimensions from temperature (1/C). There are two scenarios for reward function: 1) Linear Reward: The reward considers the whole training process with the energy weight to the comfort is 0.5. 2) Conditional Linear Reward: The reward considers the whole training processes but the weight given to the comfort will depend on the hour of the day. If the current hour of the simulation is in the working hours (from 8 AM to 10 PM) both comfort and energy consumption have equal weights. Otherwise, only energy is considered. 4.5 Evaluation 4.5.1 Model evaluation Reinforcement learning (RL) algorithms rely on a continuous trial-and-error process to learn optimal policies for sequential decision-making tasks. During training, RL agents interact with their environment, and their policies are updated based on the observed outcomes. However, evaluating the performance of RL agents during training is a crucial aspect of the learning process. Evaluation callbacks play a pivotal role in this context by providing mechanisms for periodically assessing an agent's performance and making informed decisions about its training trajectory. Evaluation callbacks enable comparisons between different RL algorithms. In our reinforcement learning framework, we have established a structured training and evaluation cycle to gauge the performance of our RL agent. After completing two training episodes, we temporarily paused the training process and entered the evaluation phase. In this phase, the RL agent is temporarily taken out of the training loop, and its best current policy was evaluated. The agent's policy was then applied to the environment for two evaluation episodes, during which it makes decisions and interacts with the environment just as it does in training. 4.5.2 Performance evaluation The proposed control framework essentially sought to provide superior performance to justify the added complications, compared to conventional algorithms. Some metrics are employed to quantify the performance: Mean and Cumulative Rewards: This criterion evaluates the total rewards and the mean rewards over the training period or the evaluation period. As discussed in Section 4.4, the reward is calculated by combining two objectives together, which can make it easier to optimize for both objectives simultaneously and reduce the complexity of the analysis. An agent can gain more rewards by starting with higher performance in the initial step, by learning faster, and by converging to higher performance. Mean and Cumulative Energy Penalty: Energy penalty measures how effective the energy was used. It is calculated based on the reward function but only for the energy objective r 1 ( t ) described in Section 4.4. Mean energy penalty is calculated by dividing the total energy penalty over the total number of timesteps. Cumulative energy penalty is the total energy penalty over the entire evaluation period. These metrics can be used to evaluate or to track the performance of energy control systems over time. A lower mean or cumulative energy penalty indicates that the control system is performing better. Mean and Cumulative Comfort Penalty: Similar to the energy penalty, the comfort penalty is used to evaluate the performance of a system in terms of how well it maintains indoor temperature comfort for occupants. It is the result of the r 2 ( t ) function described in Section 4.4. Mean energy penalty calculated by dividing the total comfort penalty over the total number of timesteps. Cumulative comfort penalty is the total comfort penalty for the entire evaluation period. These metrics can be used to improve the performance of comfort control systems. If the mean comfort penalty is high, agent can investigate and make changes to the system to improve their comfort. Temperature Deviation Frequency: In contrast to the previous metrics that were defined as a function of the reward, this criterion provides a more practical quantification by considering indoor temperature comfort. This metric for temperature is a measure of the frequency the actual temperature deviates from the comfort temperature. For example, in each time step, if the human comfort is not satisfied, this metric will be increased by 1 as the penalty. The total temperature deviation frequency is calculated by averaging the penalties over the total number of episodes required for convergence. It can be used to assess the performance of a temperature control system, in which, a system with a lower temperature deviation frequency could deem to be performing better than a system with a higher temperature deviation frequency. Mean and Cumulative Temperature Violation: Temperature violation is a measure of how much the actual temperature deviates from the comfort temperature, which is typically calculated as the absolute difference between the two temperatures. In this study, if the measured temperature exceeded the comfort temperature at a given timestep, then the temperature violation equal to the difference between the two temperatures. It should be noted that the temperature difference takes a value of zero for those periods when the occupants are not present in conditional linear reward, no thermal discomfort can be caused. Mean Power Consumption: Besides keeping people comfortable, the control system also tries to save energy in the building. To achieve this goal, we measured and compared the energy consumption of control systems. The mean energy consumption metric is calculated by averaging the amount of power used over a control time step (15 minutes in this study). 4.6 Building energy modelling and control systems framework The interaction of HVAC control system and the building modelling based on the state space, action space and reward functions summarized in Sections 4.2, 4.3, 4.4, respectively. Fig. 2 illustrates our DRL-based framework for HVAC control and evaluation. During building operation, it learns an effective control policy based on sensing data input, without relying on any thermal dynamics model. At the beginning, the required variables, which are defined in Section 4.2, are given to the agent as the observations so the agent can define the control actions (temperature setpoints). The diagram shows a chain diagram of a learning loop for building energy modelling with a control loop. The control loop is responsible for taking the current state of the building environment and selecting control actions to take. The learning loop is responsible for learning from the experience of the control loop and improving its performance and policy over time. In the control loop, it stores historical transitions from the control loop in the sample memory. These transitions consist of the current state of building, the action taken by the control loop, the reward received for that action and the next state of the building environment. The learning loop includes two main components: (i) the actor network and (ii) the critic network. The actor network is responsible for selecting actions for the agent to take in the environment, while the critic network is responsible for estimating the value of states. The agent model is trained in an online scheme, meaning that it learns from experience as it interacts with the environment. At each time step, the actor network selects an action based on the current state of the environment. The agent then takes the selected action and observes the resulting reward and next state, which is being monitored and analysis by engineers. The critic network is used to update the actor network's policy parameters, and calculates an advantage function, which is the difference between the expected reward for the state-action pair and the value estimate for the state-action pair. The advantage function is used to update the actor network's policy parameters in the direction of actions that lead to higher rewards. The policy updated is clipped to a certain range, which helps to prevent the policy from being unstable. 4.7 Baselines methods implementation 4.7.1 Rule-based controller (RBC) RBC operates on a series of predefined rules or heuristics, making a simple method for managing HVAC systems. To implement this rule, HVAC systems must be integrated with the observations (indoor temperature sensors) that provide real-time data in the simulation. The control system continuously monitors the sensor data to detect when the indoor temperature is outside the comfort range. Upon detecting these conditions, the system automatically adjusts the cooling and heating setpoint upwards or downwards by 1 ° C to bring the temperature back within the desired range [10]. 4.7.2 Model predictive control (MPC) MPC is a constrained optimization-based control strategy that determines the optimal sequence of control inputs over a finite prediction horizon by minimizing a predefined objective function. The predictive capability of MPC enables HVAC systems to anticipate and respond to changes before they occur, ensuring optimal environmental conditions are maintained with energy efficiency. Key components in this design include: \u2022 Dynamic System Model: The controller uses building dynamic development based on [53] to predict future states based on current states and control inputs. This model incorporates environmental type factors in Table 1. \u2022 Optimization Problem Formulation: At the core of MPC is the formulation of an optimization problem that minimizes the deviation from desired temperature targets while also minimizing the energy consumption of HVAC system. The objective function is the same as Section 4.4. \u2022 Constraints Handling: The controller operates within practical bounds, enforcing limits on the control inputs to ensure the system's actions are feasible and safe. \u2022 Basic MPC: Focuses on a straightforward implementation, using a simplified model for outdoor temperature effects on the system's energy consumption. We use MPC horizon equals 5 steps [53]. 5 Experiment settings 5.1 Weather variability The Ornstein\u2013Uhlenbeck (OU) process [54] is a continuous time stochastic process that is often used to model systems that are constantly being pulled back to a mean state. This makes it a good fit for modelling the weather, which is constantly fluctuating but tends to return to a mean state over time. To use the OU process to model the weather stochastic environment around a building, we have identified the following parameters: Mean value: The mean value of the weather variable of interest, temperature is considered in this paper. Reversion speed: The rate at which the weather variable tends to return to its mean value. Noise intensity: The intensity of the random fluctuations in the weather variable. The following equations are used to model the weather stochastic environment around the building: (7) d X ( t ) = − α ( X ( t ) − θ ) d t + σ d W ( t ) where X ( t ) is the weather variable of interest at time t. θ is the mean value of the weather variable. α is the reversion speed. σ is the noise intensity. d W ( t ) is a Wiener increment, which is a type of random noise. This equation states that the change in the weather variable at time t is proportional to the difference between the current value of the weather variable and the mean value, plus a random noise term. The reversion speed parameter controls how quickly the weather variable tends to return to its mean value. The noise intensity parameter controls the intensity of random fluctuations in the weather variable. 5.2 Simulated building environment In this research, we considered reference building models designed by the United States Department of Energy (US. DOE), see [55]. To comprehensively assess the strengths and limitations of our simulation method, we evaluated it against two distinct case studies. This allows us to observe its performance in diverse scenarios, uncovering potential weaknesses in specific situations while highlighting its broad applicability across various contexts. For the initial building simulation, a single-story structure was chosen as a representative example. The next case study employed a three-story office building to investigate a more comprehensive and realistic environment. The increased complexity arising from the multi-story setting, with its numerous interacting variables and the inherent challenges of multi-level optimization, presented a unique opportunity to demonstrate the efficacy and adaptability of DRL. Its ability to learn and evolve enabled the development of control strategies that may not have been readily apparent through traditional, rule-based methods or human expertise. Through analysis of DRL's effectiveness in contrasting settings of two case studies, a comprehensive understanding of its capabilities was acquired, informing targeted adjustments for improved accuracy and adaptability. 5.2.1 Virtual case study 1 - single-storey building The building comprises a one-story structure spanning 463 square meters, which is separated into four exterior sections, one interior conditioned area, and a return plenum (see Fig. 3 ). It features electrical fixtures and lighting in various zones, with the heat generated by the lighting, electrical equipment, and occupants contributing to the internal temperature. The building's climate control is managed through a packaged variable air volume (VAV) system featuring a DX cooling coil and gas heating coils. Outdoor air is brought in by air handling units and can be cooled by the main electric cooling coil or heated by the main electric heating coil, which includes an evaporative condenser pump and a basin heater. The conditioned air is then distributed to various zones via the supply fan. Each zone adjusts the temperature of the air supplied according to its thermostat settings. Consequently, the total electrical power demand for the HVAC system comprises the cumulative demand from all HVAC components, encompassing the main electric heating coil, electric heating coils, the supply fan, the main electric cooling coil, the cooling coil evaporative condenser pump, and the cooling coil basin heater. 5.2.2 Virtual case study 2 - multi-storey building The test case study represented a three-story office building with 4978.6 m2 (50 m x 32.5 m) of conditioned floor area, as described in the set of the DOE Commercial Building Benchmark for new construction [55] and shown in Fig. 4 . Each floor has five zones, with four perimeter zones and one core zone. Each perimeter zone has a window-to-wall ratio of 33%, the ribbon windows are evenly distributed along four facades and the height of windows is 1.3 m. The height of each zone is 2.74 m and the areas are as follows. \u2022 North and South: 207.33 m2 \u2022 East and West: 131.26 m2 \u2022 Core: 983.54 m2 The construction of the exterior walls and roof are steel-framed walls, and built-up roof (i.e., roof membrane + roof insulation + metal decking), respectively. The type of foundation is unheated slab-on-grade with 0.2 m concrete slab poured directly onto the earth. The building HVAC system is a packaged DX air conditioning unit with gas furnace, and VAV terminal box with electric reheating coil provides conditioned air to each zone. The building has thermostat setpoint temperatures are the same with the typical simulation building. Further details regarding the office building prototype building can be found in Building Energy Codes Programs [56]. 5.2.3 Weather profile Supposing that the building locates at Kenedy, New York, USA, the yearly Typical Meteorological Year 3 (TMY3) weather profile for local profile is used for training RL agent. TMY3 is the weather data set of hourly values of solar radiation and meteorological elements for one year, which represent typical weather conditions [57]. 5.3 Implementation The simulation framework [41] comprises Python scripts that enact control methods and a simulation environment that encapsulates the EnergyPlus [58] model within an OpenAI Gym [59] interface. This simulation environment encompasses EnergyPlus and utilizes BCVTB (building control virtual test bed) [60] as a bridge to enable co-simulation among various simulation programs. In a simulation run, an EnergyPlus instance is initiated using an input definition file and a data exchange file. The input definition file outlines the physical characteristics of the building, the details of the HVAC system, and the simulation parameters. Meanwhile, the data exchange file specifies the variables for observation and control. During the data-exchange phase, Python scripts can read and modify these variables for control purposes. The processor then transforms the raw observations into state and reward information for the controllers. Each simulation run commences at midnight on January 1st and concludes at midnight on December 31st, spanning a nonleap year of 365 days. The EnergyPlus simulation operates with a 15-minute time granularity. In the context of training reinforcement learning agents, such a simulation run is referred to as a training episode. In this study, all experiments had 20 training episodes and evaluations were undertaken after two training episodes, of which, one iterative training episode took average 90 s to complete. The hyperparameters used for PPG algorithms are described in Table 2 as the optimal hyperparameters which are evaluated and analytical procedures are discussed in Sections 6.1.2, 6.1.3 and 6.1.4 6 Results We used Adam optimizer [61] in all experiments and compared our implementation to highly tuned implementation of PPO [62]. This PPO implementation used nearly optimal level of sample reuse and a near optimal relative weight for the value and policy losses, as determined by a hyperparameter sweep. 6.1 Virtual case study 1 - single-storey building 6.1.1 Experiment results Figs. 5 and 6 shows different important evaluation parameters: temperature deviation frequency, mean comfort penalty, mean energy penalty, mean power consumption, mean temperature violation, mean reward, cumulative energy penalty, cumulative comfort penalty, cumulative temperature violation, cumulative in continuous stochastic environment for linear reward and conditional linear reward, respectively. The highest impact of the PPG on the system is the convergence speed in both reward situations, towards obtaining a optimal policy after few episodes. In contrast, PPO based algorithms struggled to find the best policy and only became stable after 20 episodes. Hence, it suggests that although PPG can accelerate the learning process and helpful to find a superior optimal policy. When the PPG was employed, the method improved the mean and cumulative reward with an almost 5% and 2% increase in performance compared to PPO, 27% and 21% compared to MPC, 50% and 30% compared to RBC for the linear reward and conditional linear rewards, respectively. Two reward cases experience a temperature violation of less than 0.07 ° C when the PPG method was applied. Enhancing human comfort comes at the cost of increased energy usage. The conventional PPG method demonstrated a slight edge over the PPO approach in terms of energy consumption. The PPG agent consumed a median of 1.050 and 1.065 kWh energy per each time interval (i.e., 15-minute periods) for two types of reward, which is 0.02 kWh lower than that of the PPO method, 0.25 kWh lower than RBC and 0.3 kWh lower than MPC. Consequently, the PPG method substantially improves comfort metric more than 2% while reduces the energy consumption by more than 2% in most cases compared to PPO. For most situations, the evaluation shows that PPG outperforms PPO, MPC and RBC in high dimensional continuous spaces. Therefore, this points to the importance of sharing presentations between the policy and value functions for sample efficiency. When comparing results between two different reward functions, designing reward function for deep reinforcement learning is also important to improve agent performance. The highest impact of the conditional linear reward and linear reward on the control system is the observed rewards at the jumpstart and the end of the evaluation. This method improves the cumulative reward from -14130 to -11950, which denotes an improvement in performance of at least 18%. Interestingly, not only the results show that for the total energy consumption of our PPG controller for conditional linear reward is lower than conventional linear reward (with a 16% decrease), but also the mean temperature violation and temperature deviation frequency is found to be much lower (with a 46% decrease) and more effective to find the optimal solution. Constrained learning allows us to train models that satisfy certain constraints. In this case, the constraints are that the model must maximize energy efficiency and satisfy temperature constraints. By using constrained learning, we avoided the need to tune the reward function, which can be a difficult and time-consuming task. Instead, we can simply specify the constraints that we wanted the model to satisfy, and the learning algorithm could automatically find a policy that satisfies those constraints. We found that using a condition linear reward function resulted in better energy savings while maintaining the same level of human comfort. Therefore, we chose to use a conditional linear reward function for our agent model, and we fine-tuned the hyperparameters to get the best results compared to the PPO algorithm. The specific hyperparameters we used and the reasons for choosing them are described in the next section. 6.1.2 Policy sample reuse In PPG, policy and value function training are decoupled, and we can train each with different levels of sample reuse (see [50]). In order to better understand the impact of policy sample reuse, we choose to vary the number of policy epochs ( E π ) without changing the number of value function epochs ( E V ) . As evidenced by our observations in Fig. 7 , conducting a solitary policy epoch consistently results in near-optimal performance within PPG. This implies that the additional value gained from increasing sample reuse in the PPO baseline primarily stems from the added value function training provided by extra epochs. When we effectively segregate value function and policy training, there is limited advantage in extending policy training beyond a single epoch. It is important to note that various hyperparameters may influence this outcome. For instance, employing an artificially low learning rate may necessitate an increase in policy sample reuse for advantages. Collectively, our current finding suggests that, with well-tuned hyperparameters, a single policy epoch is nearly optimal. 6.1.3 Value sample reuse Assessing the influence of conducting extra epochs on performance in the supplementary phase is important. We anticipate encountering a balance between the two extremes: (i) employing an excessive number of epochs may result in overfitting to recent data and obtain a bad evaluation; and (ii) employing fewer epochs will result in a slower training process. We experimented the model with the number of supplementary epochs, ranging from 1 to 9, and the findings are presented in Fig. 8 . Notably, we found that training with additional auxiliary epochs is generally beneficial, with performance tapering off around six auxiliary epochs. 6.1.4 Auxiliary phase frequency We explored the variation in the frequency of switching between policy and auxiliary phases, which is regulated by the hyperparameter N π varying from 2 to 32 (see Fig. 9 ). The impact on performance becomes evident when auxiliary phases are conducted too frequently. We hypothesize that each instance of the auxiliary phase hinders policy optimization, and conducting these phases at high frequency intensifies this detrimental effect. Therefore, we use N π = 32 6.2 Virtual case study 2 - multi-storey building Similar to the Section 6.1.1, Figs. 10 and 11 shows different important evaluation parameters. In contrast to case study 1, we recognized that in case study 2, the agent was struggling to identify the optimal policy even after 20 episodes. As a result, we have decided to extend the number of episodes to 50, with the aim of enhancing the agent's training and testing its performance more effectively. In this testing environment, the most significant influence of the PPG was observed in its ability to quickly converge in various metrics evaluation scenarios, achieving an optimal policy after few episodes. This indicates that PPG has the potential to expedite the learning process, aiding in the discovery of a more effective optimal policy. In the linear reward scenario, it was observed that PPG's reward outperformed PPO by 35%, MPC by 38%, and RBC by 41%. Regarding comfort penalty, PPG demonstrated a performance improvement of 45% over PPO, 49% over MPC, and 52% over RBC. In terms of energy penalty, PPG showed a 37% improvement compared to MPC and a 30% improvement over RBC, but experienced a 19% decrease compared to PPO. Additionally, PPG reduced power consumption by 2% relative to PPO, 3% compared to MPC, and 5% compared to RBC. While both PPG and PP0 maintained a temperature violation of only 7 ° C , in contrast to the 8 − 9 ° C observed in MPC and RBC, PPG also showed more stability in temperature deviation frequency, maintaining a consistent 15% compared to 27% for PPO, 24% for MPC, and 40% for RBC. In the conditional linear reward scenario, the performance of PPG surpasses its counterparts. Specifically, PPG's reward outperforms PPO by 4%, MPC by 6%, and RBC by 9%. When evaluating comfort penalty, PPG demonstrates a 6% improvement over PPO, a 12% advantage over MPC, and a 16% lead compared to RBC. Regarding energy penalty, PPG exhibits a marginal improvement of 2% over PPO, a significant 29% over RBC, and an even more pronounced 37% over MPC. In terms of power consumption reduction, PPG achieves a nearly 2% decrease compared to PPO, 13% compared to MPC, and 14% in relation to RBC. In the context of mean temperature violation, PPG maintains temperatures between 6.5 ° C to 7 ° C, compared to PPO's 7 ° C to 7.5 ° C, and the 7.7 ° C to 9 ° C range observed in both MPC and RBC. Finally, in temperature deviation frequency, PPG remains stable at 15%. In contrast, PPO shows a significant 16% improvement with a change in reward function design, while MPC and RBC remain unchanged at 24% and 40%, respectively, when compared to the linear reward scenario. 7 Conclusions In this study, we developed a novel method based on PPG algorithms. PPG is able to reduce interference between the policy and value function, while still maintaining the benefits of sharing representations between the two networks. Additionally, PPG provides a framework for optimizing arbitrarily auxiliary losses alongside reinforcement learning training in a stable manner. In this research, we focused on using the error of the value function as an auxiliary loss, but we believe that it is a promising area of future research to explore other auxiliary losses that can be used with PPG. It can train policy and value functions more effectively and can also be used to optimize other objective functions alongside reinforcement learning training in the building science domain. We performed a comprehensive evaluation through simulation, comparing different Deep Reinforcement Learning (DRL) algorithms with their best-tuned hyperparameters. We used human comfort and energy consumption as primary measures to demonstrate how our method effectively mitigates the impact of unpredictable environments of building operation. The case study simulation results prove the effectiveness of our proposed method by demonstrating: (i) higher episode cumulative reward and time efficiency, (ii) diminution in HVAC energy consumption and temperature deviation frequency; and (iii) its ability to adapt to changes in the environment and work well in new building environments. In most cases, PPG has been shown to outperform PPO and other similar algorithms in high-dimensional continuous spaces. The PPG method significantly enhances temperature comfort metrics by over 6%-52%, while simultaneously reducing power consumption by over 2%-14% in the office case study. The observed rewards at the start and finish of the evaluation are the most significant indicators of the impact of the conditional linear reward over the linear reward on the control system, with an considerable improvement of at least 18% in performance. It is noteworthy that our PPG controller for conditional linear reward outperforms conventional linear reward in terms of energy consumption, mean temperature violation, temperature deviation frequency, and solution optimization. The energy consumption of our controller is almost 16% lower and the mean temperature violation and temperature deviation frequency are significantly over 46% lower, and the solution optimization is more effective. Also, we assessed the robustness of our proposed approach by evaluating its ability to recover from significant disturbance. PPG significantly outperforms PPO in terms of convergence speed, achieving optimal policy within a few episodes compared to PPO's 20 episodes. This further suggests PPG's superior ability to accelerate learning and policy discovery. Additionally, we examined the adaptability of our method in a novel building setting with unpredictable operating schedules to gauge its performance. We acknowledged that the superior performance of the DRL method in the simple single-storey building scenario, in terms of both comfort and energy criteria, may not directly translate to more complex building types. In the three-storey office building scenario, the difference in performance between MPC and DRL, as well as RBC, was marginal for comfort criteria. This suggests that the advantage of DRL may be more pronounced in simpler scenarios, potentially due to its ability to operate effectively without a detailed model of the building. The parameter selection such as MPC horizon was chosen, and the effects of weather variability factor was not counted in previous studies that would be some reasons make MPC's less effective. However, we also recognize that this does not diminish the value of MPC in scenarios where a detailed and accurate model can provide significant benefits. The application of our DRL method in both the single-storey and three-storey buildings demonstrates its initial promise and flexibility within the scope of our study. While these results are encouraging, it is important to recognize that the study focused on buildings with similar typologies and did not encompass a wide variety of architectural complexities. Consequently, our observations are indicative but not conclusive, towards showing the potentials of using the DRL method to different buildings sizes, types and complexities. The effectiveness and practical applicability of this method in real-world scenarios across diverse building types remain to be fully explored and validated. Furthermore, we also acknowledged that PPG has its own limitations. First, there are more hyperparameters to tune, for example the β coefficient that controls how strongly the current policy is pulled towards the previous policy. The inclusion has made it more difficult to tune PPG compared to simpler algorithms. Second, PPG requires two separate networks to represent the policy and value functions, which increase the memory requirements of training, especially for complex environments. Third, PPG can be sensitive to the order in which the policy and value functions are trained. If the policy is trained too much before the value function, it could lead to instability. Finally, the performance of PPG can be unstable when the reward function is sparse or difficult to learn. In addressing these limitations, future studies could consider the following in exploring the possible ways to enhance the proposed method to better handle complex situations in the real world: \u2022 Study the trade-off between energy savings and comfort by adjusting the weights of the two objectives with the use of Multi-objective multi-agent reinforcement learning (MOMARL). \u2022 Design a more efficient sensor system and develop methods for reducing sensor errors such as Meta reinforcement learning to reduce error and boost the efficiency. \u2022 Investigate the use of distributed learning to improve learning efficiency in large and complex HVAC systems. Multi-agents reinforcement learning can handle multi controller and shared its network to the main network. \u2022 Develop methods for RL agents to make coordinated decisions in district operation management scenarios, such as electric power peak load shifting or demand response. \u2022 Design and conduct real life building experiments in a controlling environment to validate the effectiveness of the proposed DRL algorithms. Continuous monitoring and evaluation of the DRL algorithms during these experiments are crucial, allowing for adjustments to optimize performance and maintain long-term functionality. CRediT authorship contribution statement Anh Tuan Nguyen: Writing \u2013 original draft, Visualization, Validation, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Duy Hoang Pham: Writing \u2013 review & editing. Bee Lan Oo: Writing \u2013 review & editing. Mattheos Santamouris: Writing \u2013 review & editing. Yonghan Ahn: Supervision, Funding acquisition. Benson T.H. Lim: Writing \u2013 review & editing, Resources, Investigation, Conceptualization. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. RS-2023-00217322). References [1] M. González-Torres L. Pérez-Lombard J.F. Coronel I.R. Maestre D. Yan A review on buildings energy information: trends, end-uses, fuels and drivers Energy Rep. 8 2022 626 637 10.1016/j.egyr.2021.11.280 M. González-Torres, L. Pérez-Lombard, J. F. Coronel, I. R. Maestre, D. Yan, A review on buildings energy information: Trends, end-uses, fuels and drivers, Energy Reports 8 (2022) 626\u2013637. doi:https://doi.org/10.1016/j.egyr.2021.11.280. [2] A. Costa M.M. Keane J.I. Torrens E. Corry Building operation and energy performance: monitoring, analysis and optimisation toolkit Appl. Energy 101 2013 310 316 10.1016/j.apenergy.2011.10.037 A. Costa, M. M. Keane, J. I. Torrens, E. Corry, Building operation and energy performance: Monitoring, analysis and optimisation toolkit, Applied energy 101 (2013) 310\u2013316. doi:https://doi.org/10.1016/j.apenergy.2011.10.037. [3] L. Pérez-Lombard J. Ortiz C. Pout A review on buildings energy consumption information Energy Build. 40 3 2008 394 398 10.1016/j.enbuild.2007.03.007 L. Pérez-Lombard, J. Ortiz, C. Pout, A review on buildings energy consumption information, Energy and buildings 40 (3) (2008) 394\u2013398. doi:https://doi.org/10.1016/j.enbuild.2007.03.007. [4] J. Huang K.R. Gurney The variation of climate change impact on building energy consumption to building type and spatiotemporal scale Energy 111 2016 137 153 10.1016/j.energy.2016.05.118 J. Huang, K. R. Gurney, The variation of climate change impact on building energy consumption to building type and spatiotemporal scale, Energy 111 (2016) 137\u2013153. doi:https://doi.org/10.1016/j.energy.2016.05.118. [5] D. Hsu How much information disclosure of building energy performance is necessary? Energy Policy 64 2014 263 272 10.1016/j.enpol.2013.08.094 D. Hsu, How much information disclosure of building energy performance is necessary? Energy Policy 64 (2014) 263\u2013272. doi:https://doi.org/10.1016/j.enpol.2013.08.094. [6] Department of Climate Change and Energy Efficiency National inventory report 2013 https://www.dcceew.gov.au/climate-change/publications/national-inventory-report-2013 2013 Department of Climate Change and Energy Efficiency, National Inventory Report 2013, [Accessed on October 30, 2023] (2013). URL https://www.dcceew.gov.au/climate-change/publications/national-inventory-report-2013 [7] P.H. Shaikh N.B.M. Nor P. Nallagownden I. Elamvazuthi T. Ibrahim A review on optimized control systems for building energy and comfort management of smart sustainable buildings Renew. Sustain. Energy Rev. 34 2014 409 429 10.1016/j.rser.2014.03.027 P. H. Shaikh, N. B. M. Nor, P. Nallagownden, I. Elamvazuthi, T. Ibrahim, A review on optimized control systems for building energy and comfort management of smart sustainable buildings, Renewable and Sustainable Energy Reviews 34 (2014) 409\u2013429. doi:https://doi.org/10.1016/j.rser.2014.03.027. [8] Y. Chen F. Zhang U. Berardi Day-ahead prediction of hourly subentry energy consumption in the building sector using pattern recognition algorithms Energy 211 2020 118530 10.1016/j.energy.2020.118530 Y. Chen, F. Zhang, U. Berardi, Day-ahead prediction of hourly subentry energy consumption in the building sector using pattern recognition algorithms, Energy 211 (2020) 118530. doi:https://doi.org/10.1016/j.energy.2020.118530. [9] X. Deng Y. Zhang H. Qi Towards optimal HVAC control in non-stationary building environments combining active change detection and deep reinforcement learning Build. Environ. 211 2022 108680 10.1016/j.buildenv.2021.108680 X. Deng, Y. Zhang, H. Qi, Towards optimal hvac control in non-stationary building environments combining active change detection and deep reinforcement learning, Building and environment 211 (2022) 108680. doi:https://doi.org/10.1016/j.buildenv.2021.108680. [10] S. Wang Z. Ma Supervisory and optimal control of building HVAC systems: a review HVAC & R Res. 14 1 2008 3 32 10.1080/10789669.2008.10390991 S. Wang, Z. Ma, Supervisory and optimal control of building hvac systems: A review, Hvac&R Research 14 (1) (2008) 3\u201332. doi:https://doi.org/10.1080/10789669.2008.10390991. [11] M. Gwerder S. Boetschi D. Gyalistras C. Sagerschnig D. Sturzenegger R. Smith B. Illi Integrated predictive rule-based control of a Swiss office building Clima 2013 2013 1723 1732 10.3929/ethz-b-000078379 M. Gwerder, S. Boetschi, D. Gyalistras, C. Sagerschnig, D. Sturzenegger, R. Smith, B. Illi, Integrated predictive rule-based control of a swiss office building, Clima 2013 (2013) 1723\u20131732 doi:https://doi.org/10.3929/ethz-b-000078379. [12] T.G. Stavropoulos E. Kontopoulos N. Bassiliades J. Argyriou A. Bikakis D. Vrakas I. Vlahavas Rule-based approaches for energy savings in an ambient intelligence environment Pervasive Mob. Comput. 19 2015 1 23 10.1016/j.pmcj.2014.05.001 T. G. Stavropoulos, E. Kontopoulos, N. Bassiliades, J. Argyriou, A. Bikakis, D. Vrakas, I. Vlahavas, Rule-based approaches for energy savings in an ambient intelligence environment, Pervasive and Mobile Computing 19 (2015) 1\u201323. doi:https://doi.org/10.1016/j.pmcj.2014.05.001. [13] Y. Balali A. Chong A. Busch S. O'Keefe Energy modelling and control of building heating and cooling systems with data-driven and hybrid models\u2014a review Renew. Sustain. Energy Rev. 183 2023 113496 10.1016/j.rser.2023.113496 Y. Balali, A. Chong, A. Busch, S. O'Keefe, Energy modelling and control of building heating and cooling systems with data-driven and hybrid models\u2014a review, Renewable and Sustainable Energy Reviews 183 (2023) 113496. doi:https://doi.org/10.1016/j.rser.2023.113496. [14] L. Yu D. Xie C. Huang T. Jiang Y. Zou Energy optimization of HVAC systems in commercial buildings considering indoor air quality management IEEE Trans. Smart Grid 10 5 2018 5103 5113 10.1109/TSG.2018.2875727 L. Yu, D. Xie, C. Huang, T. Jiang, Y. Zou, Energy optimization of hvac systems in commercial buildings considering indoor air quality management, IEEE Transactions on Smart Grid 10 (5) (2018) 5103\u20135113. doi:10.1109/TSG.2018.2875727. [15] G. Gao J. Li Y. Wen DeepComfort: energy-efficient thermal comfort control in buildings via reinforcement learning IEEE Int. Things J. 7 9 2020 8472 8484 10.1109/JIOT.2020.2992117 G. Gao, J. Li, Y. Wen, Deepcomfort: Energy-efficient thermal comfort control in buildings via reinforcement learning, IEEE Internet of Things Journal 7 (9) (2020) 8472\u20138484. doi:10.1109/JIOT.2020.2992117. [16] J. Virote R. Neves-Silva Stochastic models for building energy prediction based on occupant behavior assessment Energy Build. 53 2012 183 193 10.1016/j.enbuild.2012.06.001 J. Virote, R. Neves-Silva, Stochastic models for building energy prediction based on occupant behavior assessment, Energy and buildings 53 (2012) 183\u2013193. doi:https://doi.org/10.1016/j.enbuild.2012.06.001. [17] M. Frontczak P. Wargocki Literature survey on how different factors influence human comfort in indoor environments Build. Environ. 46 4 2011 922 937 M. Frontczak, P. Wargocki, Literature survey on how different factors influence human comfort in indoor environments, Building and environment 46 (4) (2011) 922\u2013937. [18] L. Yang H. Yan J.C. Lam Thermal comfort and building energy consumption implications\u2013a review Appl. Energy 115 2014 164 173 10.1016/j.apenergy.2013.10.062 L. Yang, H. Yan, J. C. Lam, Thermal comfort and building energy consumption implications\u2013a review, Applied energy 115 (2014) 164\u2013173. doi:https://doi.org/10.1016/j.apenergy.2013.10.062. [19] M. Bourdeau X. Zhai E. Nefzaoui X. Guo P. Chatellier Modeling and forecasting building energy consumption: a review of data-driven techniques Sustain. Cities Soc. 48 2019 101533 10.1016/j.scs.2019.101533 M. Bourdeau, X. qiang Zhai, E. Nefzaoui, X. Guo, P. Chatellier, Modeling and forecasting building energy consumption: A review of data-driven techniques, Sustainable Cities and Society 48 (2019) 101533. doi:https://doi.org/10.1016/j.scs.2019.101533. [20] Y. Wei X. Zhang Y. Shi L. Xia S. Pan J. Wu M. Han X. Zhao A review of data-driven approaches for prediction and classification of building energy consumption Renew. Sustain. Energy Rev. 82 2018 1027 1047 10.1016/j.rser.2017.09.108 Y. Wei, X. Zhang, Y. Shi, L. Xia, S. Pan, J. Wu, M. Han, X. Zhao, A review of data-driven approaches for prediction and classification of building energy consumption, Renewable and Sustainable Energy Reviews 82 (2018) 1027\u20131047. doi:https://doi.org/10.1016/j.rser.2017.09.108. [21] C.F. Pfeiffer, N.-O. Skeie, D.W.U. Perera, Control of temperature and energy consumption in buildings-a review, 2014. [22] F. Behrooz N. Mariun M.H. Marhaban M.A. Mohd Radzi A.R. Ramli Review of control techniques for HVAC systems\u2014nonlinearity approaches based on fuzzy cognitive maps Energies 11 3 2018 495 10.3390/en11030495 F. Behrooz, N. Mariun, M. H. Marhaban, M. A. Mohd Radzi, A. R. Ramli, Review of control techniques for hvac systems\u2014nonlinearity approaches based on fuzzy cognitive maps, Energies 11 (3) (2018) 495. doi:https://doi.org/10.3390/en11030495. [23] Y.M. Lee R. Horesh L. Liberti Optimal HVAC control as demand response with on-site energy storage and generation system Energy Proc. 78 2015 2106 2111 10.1016/j.egypro.2015.11.253 Y. M. Lee, R. Horesh, L. Liberti, Optimal hvac control as demand response with on-site energy storage and generation system, Energy Procedia 78 (2015) 2106\u20132111. doi:https://doi.org/10.1016/j.egypro.2015.11.253. [24] J. Drgoňa J. Arroyo I.C. Figueroa D. Blum K. Arendt D. Kim E.P. Ollé J. Oravec M. Wetter D.L. Vrabie All you need to know about model predictive control for buildings Annu. Rev. Control 50 2020 190 232 10.1016/j.arcontrol.2020.09.001 J. Drgoňa, J. Arroyo, I. C. Figueroa, D. Blum, K. Arendt, D. Kim, E. P. Ollé, J. Oravec, M. Wetter, D. L. Vrabie, et al., All you need to know about model predictive control for buildings, Annual Reviews in Control 50 (2020) 190\u2013232. doi:https://doi.org/10.1016/j.arcontrol.2020.09.001. [25] B. Rajasekhar W. Tushar C. Lork Y. Zhou C. Yuen N.M. Pindoriya K.L. Wood A survey of computational intelligence techniques for air-conditioners energy management IEEE Trans. Emerg. Top. Comput. Intell. 4 4 2020 555 570 10.1109/TETCI.2020.2991728 B. Rajasekhar, W. Tushar, C. Lork, Y. Zhou, C. Yuen, N. M. Pindoriya, K. L. Wood, A survey of computational intelligence techniques for air-conditioners energy management, IEEE Transactions on Emerging Topics in Computational Intelligence 4 (4) (2020) 555\u2013570. doi:10.1109/TETCI.2020.2991728. [26] A. Parisio D. Varagnolo M. Molinari G. Pattarello L. Fabietti K.H. Johansson Implementation of a scenario-based MPC for HVAC systems: an experimental case study IFAC Proc. Vol. 47 3 2014 599 605 10.3182/20140824-6-ZA-1003.02629 A. Parisio, D. Varagnolo, M. Molinari, G. Pattarello, L. Fabietti, K. H. Johansson, Implementation of a scenario-based mpc for hvac systems: an experimental case study, IFAC Proceedings Volumes 47 (3) (2014) 599\u2013605. doi:https://doi.org/10.3182/20140824-6-ZA-1003.02629. [27] A. Afram F. Janabi-Sharifi Theory and applications of HVAC control systems \u2013 a review of model predictive control (MPC) Build. Environ. 72 2014 343 355 10.1016/j.buildenv.2013.11.016 A. Afram, F. Janabi-Sharifi, Theory and applications of hvac control systems \u2013 a review of model predictive control (mpc), Building and Environment 72 (2014) 343\u2013355. doi:https://doi.org/10.1016/j.buildenv.2013.11.016. [28] H. Wang T. Zariphopoulou X.Y. Zhou Reinforcement learning in continuous time and space: a stochastic control approach J. Mach. Learn. Res. 21 1 2020 8145 8178 H. Wang, T. Zariphopoulou, X. Y. Zhou, Reinforcement learning in continuous time and space: A stochastic control approach, The Journal of Machine Learning Research 21 (1) (2020) 8145\u20138178. [29] L. Alzubaidi J. Zhang A.J. Humaidi A. Al-Dujaili Y. Duan O. Al-Shamma J. Santamaría M.A. Fadhel M. Al-Amidie L. Farhan Review of deep learning: concepts, CNN architectures, challenges, applications, future directions J. Big Data 8 2021 1 74 10.1186/s40537-021-00444-8 L. Alzubaidi, J. Zhang, A. J. Humaidi, A. Al-Dujaili, Y. Duan, O. Al-Shamma, J. Santamaría, M. A. Fadhel, M. Al-Amidie, L. Farhan, Review of deep learning: Concepts, cnn architectures, challenges, applications, future directions, Journal of big Data 8 (2021) 1\u201374. doi:https://doi.org/10.1186/s40537-021-00444-8. [30] K. Arulkumaran M.P. Deisenroth M. Brundage A.A. Bharath Deep reinforcement learning: a brief survey IEEE Signal Process. Mag. 34 6 2017 26 38 10.1109/MSP.2017.2743240 K. Arulkumaran, M. P. Deisenroth, M. Brundage, A. A. Bharath, Deep reinforcement learning: A brief survey, IEEE Signal Processing Magazine 34 (6) (2017) 26\u201338. doi:10.1109/MSP.2017.2743240. [31] M. Han R. May X. Zhang X. Wang S. Pan D. Yan Y. Jin L. Xu A review of reinforcement learning methodologies for controlling occupant comfort in buildings Sustain. Cities Soc. 51 2019 101748 10.1016/j.scs.2019.101748 https://www.sciencedirect.com/science/article/pii/S2210670719307589 M. Han, R. May, X. Zhang, X. Wang, S. Pan, D. Yan, Y. Jin, L. Xu, A review of reinforcement learning methodologies for controlling occupant comfort in buildings, Sustainable Cities and Society 51 (2019) 101748. doi:https://doi.org/10.1016/j.scs.2019.101748. URL https://www.sciencedirect.com/science/article/pii/S2210670719307589 [32] J. Leitão P. Gil B. Ribeiro A. Cardoso A survey on home energy management IEEE Access 8 2020 5699 5722 10.1109/ACCESS.2019.2963502 J. Leitão, P. Gil, B. Ribeiro, A. Cardoso, A survey on home energy management, IEEE Access 8 (2020) 5699\u20135722. doi:10.1109/ACCESS.2019.2963502. [33] K. Mason S. Grijalva A review of reinforcement learning for autonomous building energy management Comput. Electr. Eng. 78 2019 300 312 10.1016/j.compeleceng.2019.07.019 https://www.sciencedirect.com/science/article/pii/S0045790618333421 K. Mason, S. Grijalva, A review of reinforcement learning for autonomous building energy management, Computers and Electrical Engineering 78 (2019) 300\u2013312. doi:https://doi.org/10.1016/j.compeleceng.2019.07.019. URL https://www.sciencedirect.com/science/article/pii/S0045790618333421 [34] Z. Wang T. Hong Reinforcement learning for building controls: the opportunities and challenges Appl. Energy 269 2020 115036 10.1016/j.apenergy.2020.115036 Z. Wang, T. Hong, Reinforcement learning for building controls: The opportunities and challenges, Applied Energy 269 (2020) 115036. doi:https://doi.org/10.1016/j.apenergy.2020.115036. [35] L. Yu S. Qin M. Zhang C. Shen T. Jiang X. Guan A review of deep reinforcement learning for smart building energy management IEEE Int. Things J. 8 15 2021 12046 12063 10.1109/JIOT.2021.3078462 L. Yu, S. Qin, M. Zhang, C. Shen, T. Jiang, X. Guan, A review of deep reinforcement learning for smart building energy management, IEEE Internet of Things Journal 8 (15) (2021) 12046\u201312063. doi:10.1109/JIOT.2021.3078462. [36] A. Nagabandi I. Clavera S. Liu R.S. Fearing P. Abbeel S. Levine C. Finn Learning to adapt in dynamic, real-world environments through meta-reinforcement learning arXiv preprint arXiv:1803.11347 2018 A. Nagabandi, I. Clavera, S. Liu, R. S. Fearing, P. Abbeel, S. Levine, C. Finn, Learning to adapt in dynamic, real-world environments through meta-reinforcement learning, arXiv preprint arXiv:1803.11347 (2018). doi:https://doi.org/10.48550/arXiv.1803.11347. [37] L. Chen F. Meng Y. Zhang MBRL-MC: an HVAC control approach via combining model-based deep reinforcement learning and model predictive control IEEE Int. Things J. 9 19 2022 19160 19173 10.1109/JIOT.2022.3164023 L. Chen, F. Meng, Y. Zhang, Mbrl-mc: An hvac control approach via combining model-based deep reinforcement learning and model predictive control, IEEE Internet of Things Journal 9 (19) (2022) 19160\u201319173. doi:10.1109/JIOT.2022.3164023. [38] C. Lork W.-T. Li Y. Qin Y. Zhou C. Yuen W. Tushar T.K. Saha An uncertainty-aware deep reinforcement learning framework for residential air conditioning energy management Appl. Energy 276 2020 115426 10.1016/j.apenergy.2020.115426 C. Lork, W.-T. Li, Y. Qin, Y. Zhou, C. Yuen, W. Tushar, T. K. Saha, An uncertainty-aware deep reinforcement learning framework for residential air conditioning energy management, Applied Energy 276 (2020) 115426. doi:https://doi.org/10.1016/j.apenergy.2020.115426. [39] A. Naug M. Quinones-Grueiro G. Biswas A relearning approach to reinforcement learning for control of smart buildings arXiv preprint arXiv:2008.01879 2020 A. Naug, M. Quinones-Grueiro, G. Biswas, A relearning approach to reinforcement learning for control of smart buildings, arXiv preprint arXiv:2008.01879 (2020). doi:https://doi.org/10.48550/arXiv.2008.01879. [40] M. Biemann F. Scheller X. Liu L. Huang Experimental evaluation of model-free reinforcement learning algorithms for continuous HVAC control Appl. Energy 298 2021 117164 M. Biemann, F. Scheller, X. Liu, L. Huang, Experimental evaluation of model-free reinforcement learning algorithms for continuous hvac control, Applied Energy 298 (2021) 117164. [41] Z. Zhang A. Chong Y. Pan C. Zhang K.P. Lam Whole building energy model for HVAC optimal control: a practical framework based on deep reinforcement learning Energy Build. 199 2019 472 490 10.1016/j.apenergy.2021.117164 Z. Zhang, A. Chong, Y. Pan, C. Zhang, K. P. Lam, Whole building energy model for hvac optimal control: A practical framework based on deep reinforcement learning, Energy and Buildings 199 (2019) 472\u2013490. doi:https://doi.org/10.1016/j.apenergy.2021.117164. [42] T. Wei Y. Wang Q. Zhu Deep reinforcement learning for building HVAC control Proceedings of the 54th Annual Design Automation Conference 2017 2017 1 6 10.1145/3061639.3062224 T. Wei, Y. Wang, Q. Zhu, Deep reinforcement learning for building hvac control, in: Proceedings of the 54th annual design automation conference 2017, 2017, pp. 1\u20136. doi:10.1145/3061639.3062224. [43] C. Berner G. Brockman B. Chan V. Cheung P. Dębiak C. Dennison D. Farhi Q. Fischer S. Hashme C. Hesse Dota 2 with large scale deep reinforcement learning arXiv preprint arXiv:1912.06680 2019 C. Berner, G. Brockman, B. Chan, V. Cheung, P. Dębiak, C. Dennison, D. Farhi, Q. Fischer, S. Hashme, C. Hesse, et al., Dota 2 with large scale deep reinforcement learning, arXiv preprint arXiv:1912.06680 (2019). doi:https://doi.org/10.48550/arXiv.1912.06680. [44] O. Vinyals I. Babuschkin W.M. Czarnecki M. Mathieu A. Dudzik J. Chung D.H. Choi R. Powell T. Ewalds P. Georgiev Grandmaster level in StarCraft II using multi-agent reinforcement learning Nature 575 7782 2019 350 354 10.1038/s41586-019-1724-z O. Vinyals, I. Babuschkin, W. M. Czarnecki, M. Mathieu, A. Dudzik, J. Chung, D. H. Choi, R. Powell, T. Ewalds, P. Georgiev, et al., Grandmaster level in starcraft ii using multi-agent reinforcement learning, Nature 575 (7782) (2019) 350\u2013354. doi:https://doi.org/10.1038/s41586-019-1724-z. [45] I. Akkaya M. Andrychowicz M. Chociej M. Litwin B. McGrew A. Petron A. Paino M. Plappert G. Powell R. Ribas Solving Rubik's Cube with a robot hand arXiv preprint arXiv:1910.07113 2019 I. Akkaya, M. Andrychowicz, M. Chociej, M. Litwin, B. McGrew, A. Petron, A. Paino, M. Plappert, G. Powell, R. Ribas, et al., Solving rubik's cube with a robot hand, arXiv preprint arXiv:1910.07113 (2019). doi:https://doi.org/10.48550/arXiv.1910.07113. [46] I. Grondman L. Busoniu G.A.D. Lopes R. Babuska A survey of actor-critic reinforcement learning: standard and natural policy gradients IEEE Trans. Syst. Man Cybern., Part C, Appl. Rev. 42 6 2012 1291 1307 10.1109/TSMCC.2012.2218595 I. Grondman, L. Busoniu, G. A. D. Lopes, R. Babuska, A survey of actor-critic reinforcement learning: Standard and natural policy gradients, IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews) 42 (6) (2012) 1291\u20131307. doi:10.1109/TSMCC.2012.2218595. [47] R.S. Sutton A.G. Barto Reinforcement Learning: An Introduction 2018 MIT Press R. S. Sutton, A. G. Barto, Reinforcement learning: An introduction, MIT press, 2018. [48] V. Mnih A.P. Badia M. Mirza A. Graves T. Lillicrap T. Harley D. Silver K. Kavukcuoglu Asynchronous methods for deep reinforcement learning International Conference on Machine Learning, PMLR 2016 1928 1937 V. Mnih, A. P. Badia, M. Mirza, A. Graves, T. Lillicrap, T. Harley, D. Silver, K. Kavukcuoglu, Asynchronous methods for deep reinforcement learning, in: International conference on machine learning, PMLR, 2016, pp. 1928\u20131937. [49] J. Schulman F. Wolski P. Dhariwal A. Radford O. Klimov Proximal policy optimization algorithms arXiv preprint arXiv:1707.06347 2017 J. Schulman, F. Wolski, P. Dhariwal, A. Radford, O. Klimov, Proximal policy optimization algorithms, arXiv preprint arXiv:1707.06347 (2017). doi:https://doi.org/10.48550/arXiv.1707.06347. [50] K.W. Cobbe J. Hilton O. Klimov J. Schulman Phasic policy gradient International Conference on Machine Learning, PMLR 2021 2020 2027 K. W. Cobbe, J. Hilton, O. Klimov, J. Schulman, Phasic policy gradient, in: International Conference on Machine Learning, PMLR, 2021, pp. 2020\u20132027. [51] J. Schulman P. Moritz S. Levine M. Jordan P. Abbeel High-dimensional continuous control using generalized advantage estimation arXiv preprint arXiv:1506.02438 2015 J. Schulman, P. Moritz, S. Levine, M. Jordan, P. Abbeel, High-dimensional continuous control using generalized advantage estimation, arXiv preprint arXiv:1506.02438 (2015). doi:https://doi.org/10.48550/arXiv.1506.02438. [52] F. Pérez-Cruz Kullback-Leibler divergence estimation of continuous distributions 2008 IEEE International Symposium on Information Theory 2008 IEEE 1666 1670 10.1109/TSG.2018.2875727 F. Pérez-Cruz, Kullback-leibler divergence estimation of continuous distributions, in: 2008 IEEE international symposium on information theory, IEEE, 2008, pp. 1666\u20131670. doi:10.1109/TSG.2018.2875727. [53] C. Zhang S.R. Kuppannagari R. Kannan V.K. Prasanna Building HVAC scheduling using reinforcement learning via neural network based model approximation Proceedings of the 6th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation 2019 ACM 10.1145/3360322.3360861 C. Zhang, S. R. Kuppannagari, R. Kannan, V. K. Prasanna, Building hvac scheduling using reinforcement learning via neural network based model approximation, in: Proceedings of the 6th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, ACM, 2019. doi:10.1145/3360322.3360861. URL http://dx.doi.org/10.1145/3360322.3360861 [54] R.A. Maller G. Müller A. Szimayer Ornstein\u2013Uhlenbeck processes and extensions Handbook of Financial Time Series 2009 421 437 R. A. Maller, G. Müller, A. Szimayer, Ornstein\u2013uhlenbeck processes and extensions, Handbook of financial time series (2009) 421\u2013437. [55] Department of energy Commercial reference buildings https://www.energy.gov/eere/buildings/commercial-reference-buildings 2022 Department of energy, commercial reference buildings, https://www.energy.gov/eere/buildings/commercial-reference-buildings, accessed: 2022. [56] Building energy codes program https://www.energy.gov/eere/buildings/building-energy-codes-program Building energy codes program. URL https://www.energy.gov/eere/buildings/building-energy-codes-program [57] S. Wilcox W. Marion Users manual for TMY3 data sets revised https://doi.org/10.2172/928611 2008 https://www.osti.gov/biblio/928611 S. Wilcox, W. Marion, Users manual for tmy3 data sets (revised) (5 2008). doi:10.2172/928611. URL https://www.osti.gov/biblio/928611 [58] Energyplus https://www.energy.gov/eere/buildings/commercial-reference-buildings 2022 Energyplus, 2022, https://www.energy.gov/eere/buildings/commercial-reference-buildings. [59] G. Brockman V. Cheung L. Pettersson J. Schneider J. Schulman J. Tang W. Zaremba OpenAI Gym arXiv preprint arXiv:1606.01540 2016 G. Brockman, V. Cheung, L. Pettersson, J. Schneider, J. Schulman, J. Tang, W. Zaremba, Openai gym, arXiv preprint arXiv:1606.01540 (2016). doi:https://doi.org/10.48550/arXiv.1606.01540. [60] M. Wetter P. Haves B. Coffey Building controls virtual test bed Tech. rep. 2008 Lawrence Berkeley National Lab. (LBNL) Berkeley, CA (United States) M. Wetter, P. Haves, B. Coffey, Building controls virtual test bed, Tech. rep., Lawrence Berkeley National Lab.(LBNL), Berkeley, CA (United States) (2008). [61] D.P. Kingma J. Ba Adam: a method for stochastic optimization arXiv preprint arXiv:1412.6980 2014 D. P. Kingma, J. Ba, Adam: A method for stochastic optimization, arXiv preprint arXiv:1412.6980 (2014). [62] K. Cobbe C. Hesse J. Hilton J. Schulman Leveraging procedural generation to benchmark reinforcement learning International Conference on Machine Learning, PMLR 2020 2048 2056 K. Cobbe, C. Hesse, J. Hilton, J. Schulman, Leveraging procedural generation to benchmark reinforcement learning, in: International conference on machine learning, PMLR, 2020, pp. 2048\u20132056.",
+    "scopus-id": "85187789672",
+    "coredata": {
+        "eid": "1-s2.0-S0378778824001816",
+        "dc:description": "Heating, ventilation, and air-conditioning (HVAC) systems are responsible for a considerable proportion of total building energy consumption but are also vital for improved indoor temperature comfort, indoor air quality and well-being of building occupants. Thus, developing control strategies for HVAC systems is critical for the total life cycle of any building projects. Particularly, HVAC and building operations are not stationary but are filled with fuelled by environmental dynamisms and unexpected disruptions such as users' activities, weather conditions, occupancy rate, and operation of machinery and systems. This research aims to develop and propose a strategic control learning framework for HVAC systems using the deep reinforcement learning (DRL) approach. The results show that the proposed Phasic Policy Gradient (PPG) based method is more adaptive to changes in real building's environments. Notably, PPG performs better and more reliable than the conventional method for HVAC control optimization with about 2-14% in energy consumption reduction and indoor temperature comfort enhancement, along with a 66% faster convergence rate. Overall, our findings demonstrate that our proposed DRL approach is less resource intensive and much easier than the conventional approach in deriving solutions for HVAC control optimization driven by energy efficiency and indoor temperature comfort.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-05-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378778824001816",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Nguyen, Anh Tuan"
+            },
+            {
+                "@_fa": "true",
+                "$": "Pham, Duy Hoang"
+            },
+            {
+                "@_fa": "true",
+                "$": "Oo, Bee Lan"
+            },
+            {
+                "@_fa": "true",
+                "$": "Santamouris, Mattheos"
+            },
+            {
+                "@_fa": "true",
+                "$": "Ahn, Yonghan"
+            },
+            {
+                "@_fa": "true",
+                "$": "Lim, Benson T.H."
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0378778824001816"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0378778824001816"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0378-7788(24)00181-6",
+        "prism:volume": "310",
+        "articleNumber": "114065",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Modelling building HVAC control strategies using a deep reinforcement learning approach",
+        "prism:copyright": "© 2024 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Deep reinforcement learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Constrained learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "HVAC control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building energy modelling"
+            },
+            {
+                "@_fa": "true",
+                "$": "Human comfort"
+            },
+            {
+                "@_fa": "true",
+                "$": "Energy efficiency"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114065",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 May 2024",
+        "prism:doi": "10.1016/j.enbuild.2024.114065",
+        "prism:startingPage": "114065",
+        "dc:identifier": "doi:10.1016/j.enbuild.2024.114065",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "459",
+            "@width": "353",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr004.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27303",
+            "@ref": "gr004",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "993",
+            "@width": "746",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr005.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "127388",
+            "@ref": "gr005",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "992",
+            "@width": "746",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr006.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "130884",
+            "@ref": "gr006",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "224",
+            "@width": "313",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr007.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "15171",
+            "@ref": "gr007",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "1016",
+            "@width": "742",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr011.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "137666",
+            "@ref": "gr011",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "123",
+            "@width": "336",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr001.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "8684",
+            "@ref": "gr001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "345",
+            "@width": "806",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr002.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48681",
+            "@ref": "gr002",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "476",
+            "@width": "353",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr003.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31365",
+            "@ref": "gr003",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "1017",
+            "@width": "742",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr010.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "130417",
+            "@ref": "gr010",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "224",
+            "@width": "313",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr008.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "15296",
+            "@ref": "gr008",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "224",
+            "@width": "313",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr009.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "14967",
+            "@ref": "gr009",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "126",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr004.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6833",
+            "@ref": "gr004",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "123",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr005.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5103",
+            "@ref": "gr005",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "123",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr006.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5233",
+            "@ref": "gr006",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "157",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr007.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6768",
+            "@ref": "gr007",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "119",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr011.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5663",
+            "@ref": "gr011",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr001.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4091",
+            "@ref": "gr001",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "94",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr002.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6721",
+            "@ref": "gr002",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "121",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr003.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6526",
+            "@ref": "gr003",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "119",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr010.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5230",
+            "@ref": "gr010",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "157",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr008.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6837",
+            "@ref": "gr008",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "156",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr009.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6531",
+            "@ref": "gr009",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "2037",
+            "@width": "1566",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr004_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "340779",
+            "@ref": "gr004",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "4398",
+            "@width": "3305",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr005_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "956919",
+            "@ref": "gr005",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "4397",
+            "@width": "3305",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr006_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "976701",
+            "@ref": "gr006",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "595",
+            "@width": "832",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr007_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "61123",
+            "@ref": "gr007",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "4500",
+            "@width": "3286",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr011_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1076073",
+            "@ref": "gr011",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "326",
+            "@width": "893",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr001_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "29801",
+            "@ref": "gr001",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "918",
+            "@width": "2142",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr002_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "201571",
+            "@ref": "gr002",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2112",
+            "@width": "1566",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr003_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "388717",
+            "@ref": "gr003",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "4501",
+            "@width": "3284",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr010_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "998853",
+            "@ref": "gr010",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "595",
+            "@width": "831",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr008_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "61808",
+            "@ref": "gr008",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "595",
+            "@width": "833",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-gr009_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "58474",
+            "@ref": "gr009",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6849",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3824",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1729",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1969",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9397",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7218",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6562",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6038",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "35619",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "46589",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3803",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3658",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1750",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3036",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3104",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4035",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9395",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2923",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3883",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4763",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3150",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2756",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3705",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2171",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4124",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3822",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5527",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2947",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1269",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2538",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1670",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1770",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24929",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19774",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10538",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2100",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1904",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "28507",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778824001816-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "6851350",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85187789672"
+    }
+}}

@@ -1,0 +1,1938 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85085764960",
+    "originalText": "serial JL 271429 291210 291702 291731 291787 291877 291878 291881 31 Applied Energy APPLIEDENERGY 2020-06-03 2020-06-03 2020-06-03 2020-06-03 2020-06-09T15:06:26 1-s2.0-S0306261920304578 S0306-2619(20)30457-8 S0306261920304578 10.1016/j.apenergy.2020.114945 S300 S300.1 FULL-TEXT 1-s2.0-S0306261920X00110 2024-01-01T13:23:58.349315Z 0 0 20200801 2020 2020-06-03T16:35:43.525615Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst primabst ref 0306-2619 03062619 true 271 271 C Volume 271 7 114945 114945 114945 20200801 1 August 2020 2020-08-01 2020 Research Papers article fla © 2020 Elsevier Ltd. All rights reserved. ONLINEPRICINGDEMANDRESPONSEBASEDLONGSHORTTERMMEMORYREINFORCEMENTLEARNING KONG X 1 Introduction 2 Problem formulating and model building 2.1 A detailed description of the problem 2.2 Service provider model 3 Online pricing based on LSTM and reinforcement learning 3.1 The main process of online pricing 3.2 Predicting customers\u2019 response using LSTM networks 3.2.1 The principle of LSTM 3.2.2 Formulate time series forms of inputs and outputs 3.2.3 Training and prediction process of LSTM networks 3.3 Online pricing using reinforcement learning algorithm 3.3.1 Formulating the Markov decision process 3.3.2 The Q-learning algorithm implementation process 3.4 Online pricing process combined with LSTM networks and reinforcement learning 4 Numerical simulation 4.1 Simulation scene and algorithm settings 4.1.1 Simulation scene setting 4.1.2 Algorithm parameters setting 4.2 Results and discussion 4.2.1 Predictive performance of LSTM networks 4.2.2 Virtual exploration using LSTM networks and Q-learning 4.2.3 Comparison with myopic optimization 4.2.4 Run time analysis 4.2.5 Discussions 5 Conclusions CRediT authorship contribution statement Acknowledgments References ZHOU 2017 456 465 Y OKUR 2019 426 437 O PARIZY 2019 3259 3268 E ALASSERI 2018 44 62 R BEHBOODI 2018 1310 1320 S WANG 2018 6387 6396 S JORDEHI 2019 308 319 A SUBRAMANIAN 2019 105869 V LI 2019 350 360 P KIM 2016 2187 2198 B VALLES 2018 296 310 M RAHMANIANDEBILI 2016 115 124 M AALAMI 2019 223 231 H LUO 2019 549 559 Z ASADINEJAD 2018 26 36 A SARKER 2015 1341 1352 M KHEZELI 2018 6000 6007 K EISSA 2018 607 621 M AMPIMAH 2018 1299 1309 B ZHOU 2018 1 6 Y 2018IEEEINTERNATIONALCONFERENCECOMMUNICATIONSICC DESIGNINGPRICINGINCENTIVEMECHANISMFORPROACTIVEDEMANDRESPONSEINSMARTGRID VU 2018 3764 3771 D GADHAM 2016 363 367 K DESIGNINCENTIVEPRICEFORVOLUNTARYDEMANDRESPONSEPROGRAMSUSINGFUZZYSYSTEM ALASSERI 2020 109490 R SHAHRYARI 2018 205 214 E ALIZADEH 2014 1111 1126 M YOUSEFI 2011 5716 5727 S VAZQUEZCANTELI 2019 1072 1089 J RUELENS 2018 3792 3800 F KAZMI 2019 1022 1035 H WEN 2015 2312 2324 Z RUELENS 2017 2149 2159 F DU 2019 113388 G CHIS 2017 3674 3684 A VANDAEL 2015 1795 1805 S LIU 2017 1497 1507 T KOFINAS 2018 53 67 P HUA 2019 598 609 H LU 2018 220 230 R LU 2019 937 949 R DU 2019 Y SAGHEER 2019 203 213 A WANG 2019 470 479 S HOCHREITER 1997 1735 1780 S SUTTON 2018 63 R LABANDEIRA 2012 627 633 X KONGX2020X114945 KONGX2020X114945XX 2022-06-03T00:00:00.000Z 2022-06-03T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2020 Elsevier Ltd. All rights reserved. 2020-04-13T05:36:46.538Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/eoas NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991 item S0306-2619(20)30457-8 S0306261920304578 1-s2.0-S0306261920304578 10.1016/j.apenergy.2020.114945 271429 2024-01-01T13:23:58.349315Z 2020-08-01 1-s2.0-S0306261920304578-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/MAIN/application/pdf/d87886ace4d7aec9c6efb35fdc17d831/main.pdf main.pdf pdf true 3324371 MAIN 12 1-s2.0-S0306261920304578-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/PREVIEW/image/png/05b6c1523a037baf8d9634795a469ed3/main_1.png main_1.png png 46289 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0306261920304578-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr1/DOWNSAMPLED/image/jpeg/8763b8cf28c805e8473c3445adf64a57/gr1.jpg gr1 gr1.jpg jpg 33865 323 364 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr10/DOWNSAMPLED/image/jpeg/b397ea1577c4839347052045a306b68b/gr10.jpg gr10 gr10.jpg jpg 18659 183 365 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr11/DOWNSAMPLED/image/jpeg/4a0f126d31cc219fe9ba6558398fef18/gr11.jpg gr11 gr11.jpg jpg 58222 639 313 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr12/DOWNSAMPLED/image/jpeg/7553f2644d308da41909cab312fe178d/gr12.jpg gr12 gr12.jpg jpg 59595 394 364 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr13/DOWNSAMPLED/image/jpeg/c3f3350fc4fffa669864b1e727756bab/gr13.jpg gr13 gr13.jpg jpg 55272 395 364 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr14/DOWNSAMPLED/image/jpeg/acce25ee2f0476cb5fac60b5002e47d4/gr14.jpg gr14 gr14.jpg jpg 22195 210 364 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr15.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr15/DOWNSAMPLED/image/jpeg/23af35a35ed3b8762dc89eb381f647fb/gr15.jpg gr15 gr15.jpg jpg 31737 213 364 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr16.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr16/DOWNSAMPLED/image/jpeg/3692e9bc37f9e6bd2ecc78532ffa055d/gr16.jpg gr16 gr16.jpg jpg 19731 136 364 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr2/DOWNSAMPLED/image/jpeg/1cc61b40db80091b4113f0c8e879fa9f/gr2.jpg gr2 gr2.jpg jpg 24184 181 365 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr3/DOWNSAMPLED/image/jpeg/f0fca7985821dc0f6fd3ef3861c67335/gr3.jpg gr3 gr3.jpg jpg 41233 536 373 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr4/DOWNSAMPLED/image/jpeg/c11504d9483216e31ee260c7d6328423/gr4.jpg gr4 gr4.jpg jpg 13143 188 365 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr5/DOWNSAMPLED/image/jpeg/b658c8d99a3b0b164419cfa4e7a8ff75/gr5.jpg gr5 gr5.jpg jpg 37040 190 365 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr6/DOWNSAMPLED/image/jpeg/c2cc33513260ef19be43a4d6b77a0801/gr6.jpg gr6 gr6.jpg jpg 6758 103 267 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr7/DOWNSAMPLED/image/jpeg/611dbb77d146da3ae3b4ce5e8422ae94/gr7.jpg gr7 gr7.jpg jpg 48838 434 365 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr8/DOWNSAMPLED/image/jpeg/11444007bae272602789fe1ec38e7985/gr8.jpg gr8 gr8.jpg jpg 20374 260 364 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr9/DOWNSAMPLED/image/jpeg/391b988cd1ae9c9a4dd68f060344d0d2/gr9.jpg gr9 gr9.jpg jpg 14952 154 289 IMAGE-DOWNSAMPLED 1-s2.0-S0306261920304578-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr1/THUMBNAIL/image/gif/25ee5bc9764ccf495fdc6b37031cda25/gr1.sml gr1 gr1.sml sml 8574 164 185 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr10/THUMBNAIL/image/gif/4900e22d0b6e6dff90609ba47d222ea1/gr10.sml gr10 gr10.sml sml 7046 110 219 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr11/THUMBNAIL/image/gif/d3881f5f63d63cb4e1b47a582de37b52/gr11.sml gr11 gr11.sml sml 5742 163 80 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr12/THUMBNAIL/image/gif/b639858593a5235638afdb3a5ce99c5b/gr12.sml gr12 gr12.sml sml 14477 163 151 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr13/THUMBNAIL/image/gif/b554256ef550c18c9ec640658af5e90c/gr13.sml gr13 gr13.sml sml 12521 164 151 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr14/THUMBNAIL/image/gif/bb7b185d719ab31c164597b55c672f76/gr14.sml gr14 gr14.sml sml 8164 126 219 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr15.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr15/THUMBNAIL/image/gif/800ebf68e1de9103ad0e224914f144e5/gr15.sml gr15 gr15.sml sml 13426 128 219 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr16.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr16/THUMBNAIL/image/gif/d0130ddfc5186baaea3602c85469d430/gr16.sml gr16 gr16.sml sml 8618 82 219 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr2/THUMBNAIL/image/gif/8ed4713c077b6e876b8428bb35e16a01/gr2.sml gr2 gr2.sml sml 8377 109 219 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr3/THUMBNAIL/image/gif/bde60a6db3004ad46068b08991a7091b/gr3.sml gr3 gr3.sml sml 6783 164 114 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr4/THUMBNAIL/image/gif/921b3de962fdae8bb598eabfe59f66a3/gr4.sml gr4 gr4.sml sml 5968 113 219 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr5/THUMBNAIL/image/gif/7955ec92ddffae89bba84d7447787e48/gr5.sml gr5 gr5.sml sml 13185 114 219 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr6/THUMBNAIL/image/gif/2d8c5f39b259dc96e6db9d821379cd00/gr6.sml gr6 gr6.sml sml 4729 84 219 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr7/THUMBNAIL/image/gif/2dc7c433d5a1eafd967b8dbb8f4fcaf5/gr7.sml gr7 gr7.sml sml 9471 164 138 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr8/THUMBNAIL/image/gif/3094148d7a9f2f3d333785e369d77647/gr8.sml gr8 gr8.sml sml 9556 157 219 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr9/THUMBNAIL/image/gif/e6f0aaaf76be102d1e3634fe2993cd3a/gr9.sml gr9 gr9.sml sml 8511 117 219 IMAGE-THUMBNAIL 1-s2.0-S0306261920304578-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr1/HIGHRES/image/jpeg/df1b66136dc9ee84c94a8956f580d178/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 234205 1431 1615 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr10/HIGHRES/image/jpeg/5babe1cc67d54438c323f8cf70270e64/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 135496 811 1617 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr11/HIGHRES/image/jpeg/935d90e427bb2c880700569128450acb/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 448918 2829 1385 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr12/HIGHRES/image/jpeg/f8c9dfcd3c28e77e1d058fc24af58803/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 541094 1748 1615 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr13/HIGHRES/image/jpeg/95916340e15a5782312b61a62c70a7a9/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 509139 1753 1615 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr14/HIGHRES/image/jpeg/fb842fa7e13a393164ce7105510afc08/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 157376 929 1614 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr15_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr15/HIGHRES/image/jpeg/ad858af294e1cadc89ac612c515aae0d/gr15_lrg.jpg gr15 gr15_lrg.jpg jpg 298635 943 1615 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr16_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr16/HIGHRES/image/jpeg/276f4e644339bb3797b301c377594fed/gr16_lrg.jpg gr16 gr16_lrg.jpg jpg 162592 603 1615 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr2/HIGHRES/image/jpeg/63c1b2c9f60df8bb651166d50d684bba/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 206823 802 1617 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr3/HIGHRES/image/jpeg/8bc608e0d8fb1300e9f5bca702e0d57a/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 129740 1425 992 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr4/HIGHRES/image/jpeg/b43c3746fd739651ab0c97d39d917d13/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 94316 833 1619 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr5/HIGHRES/image/jpeg/e69bb781d3b0ad8436d3c1f7d8929ec1/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 286603 844 1618 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr6/HIGHRES/image/jpeg/f8c6ab9a633205dd7622ce90aca9b4e4/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 42589 455 1184 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr7/HIGHRES/image/jpeg/8c8825c0d2458594ee5f88572ca68a8b/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 402393 1920 1616 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr8/HIGHRES/image/jpeg/69e93b182cbbcbe4109876dff72d13b5/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 156255 1155 1614 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/gr9/HIGHRES/image/jpeg/ccb7f558e9c42cd89d8dece9de8f2595/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 102253 682 1281 IMAGE-HIGH-RES 1-s2.0-S0306261920304578-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/61a7c16249601612ba6d417f5d5743ba/si1.svg si1 si1.svg svg 2546 ALTIMG 1-s2.0-S0306261920304578-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/0479a05d1e11a10c9384e0477bdcd2e1/si10.svg si10 si10.svg svg 9548 ALTIMG 1-s2.0-S0306261920304578-si100.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/12911162b13f7383407038384ec806a9/si100.svg si100 si100.svg svg 2985 ALTIMG 1-s2.0-S0306261920304578-si101.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/2e0dc702e1e5d351f0a1b8ac12aa1881/si101.svg si101 si101.svg svg 16577 ALTIMG 1-s2.0-S0306261920304578-si102.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/5dc6c6c49b07ae28bc36fddb07deac5c/si102.svg si102 si102.svg svg 7772 ALTIMG 1-s2.0-S0306261920304578-si103.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/dccfb5edaa9416ec6b8b170c9720cbdb/si103.svg si103 si103.svg svg 20835 ALTIMG 1-s2.0-S0306261920304578-si104.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/aed5f8b166e70027f003fa5fe402b15b/si104.svg si104 si104.svg svg 9403 ALTIMG 1-s2.0-S0306261920304578-si105.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/75e646005d5842299433f4ef94bc9752/si105.svg si105 si105.svg svg 23599 ALTIMG 1-s2.0-S0306261920304578-si106.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/0d44b8310128816f2f61cc9a9b0641d4/si106.svg si106 si106.svg svg 5187 ALTIMG 1-s2.0-S0306261920304578-si107.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/6563128f6468adc6cd564b2a0c14dde2/si107.svg si107 si107.svg svg 10703 ALTIMG 1-s2.0-S0306261920304578-si108.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/088b24365ecfc57f7a9a6b740e7f1bcd/si108.svg si108 si108.svg svg 15141 ALTIMG 1-s2.0-S0306261920304578-si109.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/a7c1bc8aa5fd62053259d2473237fffd/si109.svg si109 si109.svg svg 9763 ALTIMG 1-s2.0-S0306261920304578-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/eb35b36b7cf9b34d1815cc28962bcfc3/si11.svg si11 si11.svg svg 3271 ALTIMG 1-s2.0-S0306261920304578-si110.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/2f8ffbbcf9995aa861f89f45518c381d/si110.svg si110 si110.svg svg 7369 ALTIMG 1-s2.0-S0306261920304578-si111.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/ba46e269a39390f0fe73ec6027ca2190/si111.svg si111 si111.svg svg 14884 ALTIMG 1-s2.0-S0306261920304578-si112.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/56f7dea0a156ebe5bc6366da4c3cfaa4/si112.svg si112 si112.svg svg 6074 ALTIMG 1-s2.0-S0306261920304578-si113.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/efbefee572da1238858793016dc65a1a/si113.svg si113 si113.svg svg 6321 ALTIMG 1-s2.0-S0306261920304578-si114.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/28027a89aa215503b539fe885d430bf8/si114.svg si114 si114.svg svg 18105 ALTIMG 1-s2.0-S0306261920304578-si115.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/58dc0fe51485a7ed57fcd29913e9d5dd/si115.svg si115 si115.svg svg 18447 ALTIMG 1-s2.0-S0306261920304578-si116.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/e368bd031ab52cdb8ab2dee839cd760f/si116.svg si116 si116.svg svg 1538 ALTIMG 1-s2.0-S0306261920304578-si117.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/68ae35df84469936a155d923c1f29b33/si117.svg si117 si117.svg svg 5149 ALTIMG 1-s2.0-S0306261920304578-si118.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/b176d7f92432c6f1fafb1a0f4c3fde1f/si118.svg si118 si118.svg svg 9287 ALTIMG 1-s2.0-S0306261920304578-si119.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/b8bd37a211dce794ed2f5654758b2481/si119.svg si119 si119.svg svg 4816 ALTIMG 1-s2.0-S0306261920304578-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/f50702bcfe55a87c918d501991db70c0/si12.svg si12 si12.svg svg 6841 ALTIMG 1-s2.0-S0306261920304578-si120.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/8e05504a33d8ccc3d19331c91bd0571f/si120.svg si120 si120.svg svg 4853 ALTIMG 1-s2.0-S0306261920304578-si121.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/120ee60222c008cf7d694fad37f8850d/si121.svg si121 si121.svg svg 1712 ALTIMG 1-s2.0-S0306261920304578-si122.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/1101dfd40403e68ad795777b1538935f/si122.svg si122 si122.svg svg 2998 ALTIMG 1-s2.0-S0306261920304578-si123.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/c2f7a789cc76dff4baa9ea3527e4a3c7/si123.svg si123 si123.svg svg 16184 ALTIMG 1-s2.0-S0306261920304578-si124.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/17dd905f83b0db463c909370d0048698/si124.svg si124 si124.svg svg 6890 ALTIMG 1-s2.0-S0306261920304578-si125.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/ccb1344c3201630f07f7e2481be60b50/si125.svg si125 si125.svg svg 11027 ALTIMG 1-s2.0-S0306261920304578-si126.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/8c175c21c6a7ca37c8978fd67f4f7c71/si126.svg si126 si126.svg svg 3263 ALTIMG 1-s2.0-S0306261920304578-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/7b88f7b677a1ad4ffabce5b2aa72353d/si13.svg si13 si13.svg svg 6774 ALTIMG 1-s2.0-S0306261920304578-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/ab4cb9f64208df0e2bff39346cf63ef1/si14.svg si14 si14.svg svg 14624 ALTIMG 1-s2.0-S0306261920304578-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/c839932cc6d8e0e1ffdbdfe53e9c5931/si15.svg si15 si15.svg svg 19797 ALTIMG 1-s2.0-S0306261920304578-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/0c084c0b342f7db2e8ddd3c1b9297adf/si16.svg si16 si16.svg svg 7146 ALTIMG 1-s2.0-S0306261920304578-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/09d20db990e4b3c49b8a30625571b21b/si17.svg si17 si17.svg svg 4586 ALTIMG 1-s2.0-S0306261920304578-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/75da331f5b30ffaef46cd34f6553da35/si18.svg si18 si18.svg svg 11509 ALTIMG 1-s2.0-S0306261920304578-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/7be594aa6eb72a0942010c08960297f8/si19.svg si19 si19.svg svg 5148 ALTIMG 1-s2.0-S0306261920304578-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/378ee7189ec9f12f8b46ad5d3201064e/si2.svg si2 si2.svg svg 4756 ALTIMG 1-s2.0-S0306261920304578-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/0da8f17074cd3d1744dd240f8b1a5860/si20.svg si20 si20.svg svg 16875 ALTIMG 1-s2.0-S0306261920304578-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/9288346ef75b93be73881f97ed972763/si21.svg si21 si21.svg svg 10430 ALTIMG 1-s2.0-S0306261920304578-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/87f340cd8bd8cad170aec2f8bf3d6d08/si22.svg si22 si22.svg svg 21147 ALTIMG 1-s2.0-S0306261920304578-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/f666137d04784bc6186d2392900224ef/si23.svg si23 si23.svg svg 4898 ALTIMG 1-s2.0-S0306261920304578-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/8c98e8b4dc44ff712d84ad93c5b2e429/si24.svg si24 si24.svg svg 13225 ALTIMG 1-s2.0-S0306261920304578-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/07f2bf5a111af06805f4c5d4bcb5fcd1/si25.svg si25 si25.svg svg 5752 ALTIMG 1-s2.0-S0306261920304578-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/973346540410aab41ebc1bcc8c645148/si26.svg si26 si26.svg svg 3668 ALTIMG 1-s2.0-S0306261920304578-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/3f6c8d55ad4452ab46013fece93fc16e/si27.svg si27 si27.svg svg 3529 ALTIMG 1-s2.0-S0306261920304578-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/4006c416616d65d4eb50ada2e9a66c41/si28.svg si28 si28.svg svg 2652 ALTIMG 1-s2.0-S0306261920304578-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/85cd9c527391e6eab3438ce5a08870a9/si29.svg si29 si29.svg svg 15716 ALTIMG 1-s2.0-S0306261920304578-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/5b0ca94fc9de230b504d18bc5596859f/si3.svg si3 si3.svg svg 4867 ALTIMG 1-s2.0-S0306261920304578-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/78bdd3e60bc0c751ca078cbbf329a235/si30.svg si30 si30.svg svg 18686 ALTIMG 1-s2.0-S0306261920304578-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/85b5502ef1de2d9b12c261e29ca9f17c/si31.svg si31 si31.svg svg 16432 ALTIMG 1-s2.0-S0306261920304578-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/3a84f4a4e4071ea2a86fed75342c8c78/si32.svg si32 si32.svg svg 9165 ALTIMG 1-s2.0-S0306261920304578-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/e99284b6c435cdfa809dc62496c66220/si33.svg si33 si33.svg svg 15810 ALTIMG 1-s2.0-S0306261920304578-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/1216fc2b176e95956e520b797f752139/si34.svg si34 si34.svg svg 10293 ALTIMG 1-s2.0-S0306261920304578-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/91d297cdfd13dad647e9fe18b3f3a3f8/si35.svg si35 si35.svg svg 3201 ALTIMG 1-s2.0-S0306261920304578-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/e00b9edb948ed3dc0ea99ba3879e7cdb/si36.svg si36 si36.svg svg 6553 ALTIMG 1-s2.0-S0306261920304578-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/a3aafb4d1ae3f286da4defb90423eccf/si37.svg si37 si37.svg svg 2972 ALTIMG 1-s2.0-S0306261920304578-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/e68c089cab091b7e7e5111d0e189e091/si38.svg si38 si38.svg svg 2717 ALTIMG 1-s2.0-S0306261920304578-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/4aab998cfd8d4d283b4919ad9abaff5f/si39.svg si39 si39.svg svg 2858 ALTIMG 1-s2.0-S0306261920304578-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/c111b4f30050e6ad4bb3b383244f1d0e/si4.svg si4 si4.svg svg 6465 ALTIMG 1-s2.0-S0306261920304578-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/f70dac88ea041273cf24c9d9094034cb/si40.svg si40 si40.svg svg 2510 ALTIMG 1-s2.0-S0306261920304578-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/50b07a02a8bb0fe13c9196a61754e3dd/si41.svg si41 si41.svg svg 2994 ALTIMG 1-s2.0-S0306261920304578-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/0f0e0255243a75741692472d37903800/si42.svg si42 si42.svg svg 2724 ALTIMG 1-s2.0-S0306261920304578-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/2e17e7574cf6c73702baa2b6447b5273/si43.svg si43 si43.svg svg 2867 ALTIMG 1-s2.0-S0306261920304578-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/005cd4e0defe2d999a7b93fd17f0ea91/si44.svg si44 si44.svg svg 2521 ALTIMG 1-s2.0-S0306261920304578-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/016fea8f33c882fe71f62473586ec61d/si45.svg si45 si45.svg svg 2447 ALTIMG 1-s2.0-S0306261920304578-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/919ebce28722a96653387066c5b4fb1e/si46.svg si46 si46.svg svg 14195 ALTIMG 1-s2.0-S0306261920304578-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/d6c023f06d4a958f3532156305ed2862/si47.svg si47 si47.svg svg 7033 ALTIMG 1-s2.0-S0306261920304578-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/e60d4a2116049cb8d4ed2779df823749/si48.svg si48 si48.svg svg 8735 ALTIMG 1-s2.0-S0306261920304578-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/3a9c46bc9445107fb8d1fe1ec2dfdb8a/si49.svg si49 si49.svg svg 13245 ALTIMG 1-s2.0-S0306261920304578-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/4316850b1d41d90028decabbef7ac2e8/si5.svg si5 si5.svg svg 6745 ALTIMG 1-s2.0-S0306261920304578-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/72888b7775f172ac4763a5448ae4e419/si50.svg si50 si50.svg svg 2326 ALTIMG 1-s2.0-S0306261920304578-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/b693698863fdd4d3bb18cfc5eb100925/si51.svg si51 si51.svg svg 13412 ALTIMG 1-s2.0-S0306261920304578-si52.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/9a35f0be32e14ff2c4ab03a869f18395/si52.svg si52 si52.svg svg 6513 ALTIMG 1-s2.0-S0306261920304578-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/96bbfa10c871ae8a777e5110e54d8676/si53.svg si53 si53.svg svg 6842 ALTIMG 1-s2.0-S0306261920304578-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/75590b88bb818d9a3063ae9f2727427a/si54.svg si54 si54.svg svg 3743 ALTIMG 1-s2.0-S0306261920304578-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/c1b4d99b5f1e589b69e695c89e36c813/si55.svg si55 si55.svg svg 4069 ALTIMG 1-s2.0-S0306261920304578-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/a46ee5de34a753b21f72cab983bb7ed0/si56.svg si56 si56.svg svg 2789 ALTIMG 1-s2.0-S0306261920304578-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/53c6b6e0691061e9b8cea6395dffe070/si57.svg si57 si57.svg svg 3857 ALTIMG 1-s2.0-S0306261920304578-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/d63574b91db3ca8c907ba1991891393c/si58.svg si58 si58.svg svg 4249 ALTIMG 1-s2.0-S0306261920304578-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/f924391829d44097c0dcdd847b60ab56/si59.svg si59 si59.svg svg 2571 ALTIMG 1-s2.0-S0306261920304578-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/f7e8d61e1c3c1d8a92ca2d66708ed144/si6.svg si6 si6.svg svg 6365 ALTIMG 1-s2.0-S0306261920304578-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/0d78f403d13c501b20e6d1798550ef3b/si60.svg si60 si60.svg svg 2971 ALTIMG 1-s2.0-S0306261920304578-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/a6e2ee5ffeb55b36f25c974d7c98fce0/si61.svg si61 si61.svg svg 12575 ALTIMG 1-s2.0-S0306261920304578-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/e384b93e88fbadbe513ddc69dba1c817/si62.svg si62 si62.svg svg 5814 ALTIMG 1-s2.0-S0306261920304578-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/b44d8ed6b2b44637a1cb3fe84eb9895b/si63.svg si63 si63.svg svg 5007 ALTIMG 1-s2.0-S0306261920304578-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/505caf3ddaa4ed05937bebfc065f12cd/si64.svg si64 si64.svg svg 2660 ALTIMG 1-s2.0-S0306261920304578-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/ead37eea33501c56645669c3d96c07be/si65.svg si65 si65.svg svg 4400 ALTIMG 1-s2.0-S0306261920304578-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/ca80d3487ab25b86556ba49196278a1d/si66.svg si66 si66.svg svg 18313 ALTIMG 1-s2.0-S0306261920304578-si67.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/45ba217ae340b2c50d2e86de5d81115c/si67.svg si67 si67.svg svg 3082 ALTIMG 1-s2.0-S0306261920304578-si68.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/ccae20530bc66952369695357e53acbc/si68.svg si68 si68.svg svg 18108 ALTIMG 1-s2.0-S0306261920304578-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/a9dda7496c7bcab441eae9ddc9b56432/si69.svg si69 si69.svg svg 2952 ALTIMG 1-s2.0-S0306261920304578-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/164a9e67d09c2e8c178250a29cd1824e/si7.svg si7 si7.svg svg 4484 ALTIMG 1-s2.0-S0306261920304578-si70.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/9fd19a971a2e962745ae676063361ee9/si70.svg si70 si70.svg svg 3018 ALTIMG 1-s2.0-S0306261920304578-si71.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/839f9abff04fd7d4784c610b91c54687/si71.svg si71 si71.svg svg 2590 ALTIMG 1-s2.0-S0306261920304578-si72.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/cf2fcb1db323db67022950bf6281602f/si72.svg si72 si72.svg svg 9085 ALTIMG 1-s2.0-S0306261920304578-si73.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/b872bb9f7065e09870ac04a6c93899e2/si73.svg si73 si73.svg svg 4445 ALTIMG 1-s2.0-S0306261920304578-si74.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/3f85d2088d26566b3e291ed34890c796/si74.svg si74 si74.svg svg 16141 ALTIMG 1-s2.0-S0306261920304578-si75.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/a189139fa9a02453fdf181bcdc9187a5/si75.svg si75 si75.svg svg 5868 ALTIMG 1-s2.0-S0306261920304578-si76.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/7c036c1a11556e30b0247fb18055906b/si76.svg si76 si76.svg svg 4093 ALTIMG 1-s2.0-S0306261920304578-si77.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/0e3ec39289f774452c1ab1f5f3323080/si77.svg si77 si77.svg svg 24010 ALTIMG 1-s2.0-S0306261920304578-si78.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/969e93d5ac10056e8a8ab93e5f1c74d2/si78.svg si78 si78.svg svg 2291 ALTIMG 1-s2.0-S0306261920304578-si79.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/36656551b1a9f581f33d67b6875ba478/si79.svg si79 si79.svg svg 5071 ALTIMG 1-s2.0-S0306261920304578-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/a37241e7c0092f93c8049afb3848fb46/si8.svg si8 si8.svg svg 5492 ALTIMG 1-s2.0-S0306261920304578-si80.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/9df95419a19d8d8654bb5b4c4d73b487/si80.svg si80 si80.svg svg 5149 ALTIMG 1-s2.0-S0306261920304578-si81.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/2ed084d9c56ca6aaba21a151a10edb81/si81.svg si81 si81.svg svg 7745 ALTIMG 1-s2.0-S0306261920304578-si82.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/05d98bf65bffed34a200db93cfbaab0a/si82.svg si82 si82.svg svg 19378 ALTIMG 1-s2.0-S0306261920304578-si83.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/cc902fc720b158cd6ae9dc3fa84660c0/si83.svg si83 si83.svg svg 3533 ALTIMG 1-s2.0-S0306261920304578-si84.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/844330d6805ba7f5cb59fdfda2c35b7f/si84.svg si84 si84.svg svg 24253 ALTIMG 1-s2.0-S0306261920304578-si85.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/1ce84302d98d4b2680524a073e911476/si85.svg si85 si85.svg svg 2457 ALTIMG 1-s2.0-S0306261920304578-si86.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/019d2c5af19a75500649798370b99214/si86.svg si86 si86.svg svg 29068 ALTIMG 1-s2.0-S0306261920304578-si87.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/efced963c6ee1d94f7530a3a34adaab1/si87.svg si87 si87.svg svg 22539 ALTIMG 1-s2.0-S0306261920304578-si88.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/ecfbed21bb4be69aa7aacb411243e7f7/si88.svg si88 si88.svg svg 5914 ALTIMG 1-s2.0-S0306261920304578-si89.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/6d0d6baf3b01512603f3e3fb68a7ea2c/si89.svg si89 si89.svg svg 1748 ALTIMG 1-s2.0-S0306261920304578-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/c4ece086650685485e00903dc27585ee/si9.svg si9 si9.svg svg 5807 ALTIMG 1-s2.0-S0306261920304578-si90.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/38cf5960015f3f9c3b9272266798b87f/si90.svg si90 si90.svg svg 1758 ALTIMG 1-s2.0-S0306261920304578-si91.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/b194fca845b3c030087d28560f7d3321/si91.svg si91 si91.svg svg 5549 ALTIMG 1-s2.0-S0306261920304578-si92.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/af1c0185ca0d5349f115d9ae4e487ffa/si92.svg si92 si92.svg svg 6181 ALTIMG 1-s2.0-S0306261920304578-si93.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/4bf3853a3128be096458ff93bb8b605e/si93.svg si93 si93.svg svg 17203 ALTIMG 1-s2.0-S0306261920304578-si94.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/5e2da443edea14a6287339c2ce046b08/si94.svg si94 si94.svg svg 3013 ALTIMG 1-s2.0-S0306261920304578-si95.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/c337d0859f2277bb4446b44dc535d447/si95.svg si95 si95.svg svg 7848 ALTIMG 1-s2.0-S0306261920304578-si96.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/48e59b4761e2a472a4cddc7c1af50555/si96.svg si96 si96.svg svg 8534 ALTIMG 1-s2.0-S0306261920304578-si97.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/ce738c71da18c4fde67af4f93dbb7356/si97.svg si97 si97.svg svg 2878 ALTIMG 1-s2.0-S0306261920304578-si98.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/8d23251eb372101f3aed77e567ef1652/si98.svg si98 si98.svg svg 8299 ALTIMG 1-s2.0-S0306261920304578-si99.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0306261920304578/STRIPIN/image/svg+xml/12e80302919aaae513ffa5936e349632/si99.svg si99 si99.svg svg 9142 ALTIMG 1-s2.0-S0306261920304578-am.pdf am am.pdf pdf 1132784 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10M7XMCCGK1/MAIN/application/pdf/c57bc2fa9333458a9c9ac16cd0d49bcc/am.pdf APEN 114945 114945 S0306-2619(20)30457-8 10.1016/j.apenergy.2020.114945 Elsevier Ltd Fig. 1 Hierarchical electricity market architecture for this paper. Fig. 2 Incentive price and corresponding load reduction. Fig. 3 The main process of online pricing. Fig. 4 The cell structure of standard RNN and LSTM. Fig. 5 Input and output forms of the LSTM networks. Fig. 6 LSTM networks in time-expanded form. Fig. 7 The training and prediction process of LSTM networks. Fig. 8 Definition of Markov decision process in this paper. Fig. 9 The process of online optimization. Fig. 10 Real application flow of Algorithm 2. Fig. 11 The generation process of the historical dataset H 2 . Fig. 12 The process of actual exploration using Q-learning. Fig. 13 The process of virtual exploration using Q-learning combined with LSTM networks on day 300. Fig. 14 Incentive price and customers\u2019 response for each time slot obtained by actual exploration and virtual exploration on day 300. Fig. 15 Profits of actual exploration and virtual exploration on day 300. Fig. 16 Profit comparison between our method and myopic optimization method on day 300. Table 1 Parameters setting of the customers\u2019 response model. b i , t k i , t ε i , t , t - j ε i , t , t - s [0, 0.1] [0.04, 0.20] [0.01, 0.04] [0.03, 0.08] Table 2 Load reduction parameters setting. D bid , t λ r , t [100, 150] kWh [1.2, 1.8] $/kWh Table 3 Hyperparameters setting of LSTM networks. Parameter name Setting Optimizer Adam Learning rate 0.0001 Number of hidden layer nodes 20 Batch size All training set data Table 4 Prediction errors of different algorithms on different days and different time slots (%). Day t = 1 t = 2 t = 3 t = 4 t = 5 LSTM RNN SVR LSTM RNN SVR LSTM RNN SVR LSTM RNN SVR LSTM RNN SVR 3 24.67 19.01 14.27 11.40 27.55 23.39 21.94 15.27 15.03 15.29 14.02 5.41 17.12 23.92 19.59 5 9.53 4.37 8.31 17.47 19.70 11.44 5.24 13.58 14.47 9.44 7.85 13.26 11.21 19.35 11.38 10 13.63 15.32 8.61 3.18 11.37 7.57 7.46 6.23 5.80 4.17 4.96 9.92 7.31 9.44 15.73 20 2.92 6.70 13.05 5.47 2.79 7.23 4.40 5.18 0.39 1.34 3.14 8.22 0.70 1.82 5.96 30 1.48 1.99 7.66 1.24 1.03 5.67 0.75 2.25 7.87 2.62 0.69 3.43 1.12 3.14 6.27 50 2.41 2.70 4.10 3.60 0.57 4.21 1.29 1.07 2.97 0.70 2.93 1.35 0.75 0.54 1.50 70 1.25 3.21 7.68 0.75 0.93 1.19 1.64 0.60 3.58 1.52 1.06 3.68 0.73 1.19 7.13 100 4.83 1.99 1.38 2.61 0.31 4.57 1.03 3.43 1.76 0.64 1.85 6.97 1.28 2.85 0.92 200 2.01 0.17 4.89 0.91 1.69 3.35 0.76 1.26 3.53 0.92 2.76 4.12 0.36 0.52 3.18 300 0.88 1.35 5.28 1.30 3.10 5.40 0.83 1.60 4.87 0.58 1.52 2.34 1.53 1.12 4.91 Table 5 Prediction errors ( δ MAPE ) of different algorithms on different days (%). Day LSTM RNN SVR 3 18.08 19.95 15.54 5 10.58 12.97 11.77 10 7.15 9.46 9.53 20 2.97 3.93 6.97 30 1.44 1.82 6.18 50 1.75 1.56 2.83 70 1.18 1.40 4.65 100 2.08 2.09 3.12 200 0.99 1.28 3.81 300 1.02 1.74 4.56 Table 6 Profits for actual exploration and virtual exploration on different days ($). Day Actual exploration Virtual exploration 3 304.2 353.6 5 97.3 278.4 10 259.3 336.5 20 233.1 421.8 30 215.9 417.3 50 212.4 380.4 70 235.8 279.4 100 338.2 350.2 200 377.6 389.7 300 279.3 416.5 Table 7 Profit comparison between our method and myopic optimization method on different days ($). Day Myopic optimization Our method 3 347.4 353.6 5 289.7 278.4 10 332.1 336.5 20 414.8 421.8 30 401.9 417.3 50 367.4 380.4 70 286.5 279.4 100 348.2 350.2 200 383.4 389.7 300 405.3 416.5 Online pricing of demand response based on long short-term memory and reinforcement learning Xiangyu Kong Conceptualization Methodology a \u204e Deqian Kong Software Validation Writing - original draft a Jingtao Yao Data curation a Linquan Bai Methodology Writing - review & editing b \u204e Jie Xiao Visualization a a Key Laboratory of Smart Grid of Ministry of Education (Tianjin University), Nankai District, Tianjin 300072, China Key Laboratory of Smart Grid of Ministry of Education (Tianjin University) Nankai District Tianjin 300072 China Key Laboratory of Smart Grid of Ministry of Education (Tianjin University), Nankai District, Tianjin 300072, China b Department of Systems Engineering and Engineering Management, University of North Carolina at Charlotte, Charlotte, NC 28223, USA Department of Systems Engineering and Engineering Management University of North Carolina at Charlotte Charlotte NC 28223 USA Department of Systems Engineering and Engineering Management, University of North Carolina at Charlotte, Charlotte, NC 28223, USA \u204e Corresponding authors. Incentive-based demand response is playing an increasingly important role in ensuring the safe operation of the power grid and reducing system costs, and advances in information and communications technology have made it possible to implement it online. However, in regions where incentive-based demand response has never been implemented, the response behavior of customers is unknown, in this case, how to quickly and accurately set the incentive price is a challenge for service providers. This paper proposes a pricing method that combines long short-term memory networks and reinforcement learning to solve the pricing problem of service providers when the customers\u2019 response behavior is unknown. Taking the total profit of all response time slots in one day as the optimization goal, long and short-term memory networks are used to learn the relationship between customers\u2019 response behavior and incentive price, and reinforcement learning is used to explore and determine the optimal price. The results show that the combination of these two methods can perform virtual exploration of the optimal price, which solves the disadvantage that reinforcement learning can only rely on delayed rewards to perform exploration in the real scene, thereby speeding up the process of setting the optimal price. In addition, because the influence of the incentive prices combination of different time slots on the profit of the service provider is considered, the negative effect of myopia optimization is avoided. Keywords Demand response Online pricing Reinforcement learning Long short-term memory 1 Introduction In recent decades, the renewable energy penetration rate in power systems keeps increasing [1], which increases the uncertainty of the grid and causes the difference between the power supply and demand [2]. Many additional costs may be incurred to ensure the smooth operation of the power grid and meet customers\u2019 power demand, such as abandoning wind and solar resources or using more generating units. An effective solution is to involve power customers in the shaping process of the load to reduce operating expenses [3]. The reduction in electricity demand is equal to producing the same electricity [4], and demand response (DR) is a valuable resource for a utility company that allows customers to adjust electricity usage based on changes in energy prices or incentive amounts [5]. As a mechanism for electricity customers to adjust electricity consumption, DR has been widely studied and applied [6], and it is playing an increasingly important role in improving system reliability, reducing peak load of the power grid, and reducing customers\u2019 electricity costs, etc. The incentive-based demand response (IBDR) is to guide customers to change the way of electricity consumption through cash compensation [7], and the degree of customers\u2019 acceptance and willingness is higher. In recent years, with the continuous improvement of the informatization degree of the power grid, more and more regions have begun to implement IBDR projects. As an intermediary between the utility company and customers, service providers participate in DR projects organized by utility companies by aggregating response resources of a large number of customers and broadcast appropriate incentive prices to customers. The establishment of advanced metering infrastructure and information and communications technology will enhance the timely communication of utilities, customers and service providers, which will provide a facility foundation for implementing online pricing and increasing DR engagement [8]. Regions that have never implemented a DR project generally lack customers\u2019 response characteristics and model information [9,10]. In this case, how service providers can set incentive prices is an urgent problem to solve. This paper conducts research on this problem. Knowing that how customers respond to prices is a prerequisite for setting incentive prices, but it is often a big challenge to know it. In [11], the actual DR pilot program in Spain was studied, where quantile regression is used for the probabilistic representation of demand flexibility and customers are classified according to flexibility. The studies [12,13] established a nonlinear model of the DR program and verified the reliability of the model, where the study [12] analyzed the error values caused by the impractical modeling of the response load behavior, the study [13] concludes that the power structure of the nonlinear model is more conservative than the linear model. The authors in [14] use data mining techniques to classify them into different categories based on customers\u2019 quotations and provide different incentive strategies to different categories of customers, which can reduce virtual plant operating costs and increase customers\u2019 profits. In [15], data from two surveys of Amazon\u2019s Mechanical Turk and a detailed residential load model were used to estimate customers\u2019 resilience, where customers\u2019 elasticity is calculated at a single device level, and a constrained non-negative matrix decomposition method is proposed to decompose the load signal of each device. In [16], a specific mathematical model was established for household appliances and electric vehicles of residents, and customers tried to minimize the cost of electricity purchase based on time-varying prices. The study [9] developed a joint online learning and pricing algorithm that estimates the customers\u2019 cost function based on the customers\u2019 noise response and uses linear regression to estimate the customers\u2019 overall response. The study [17] proposed an online learning method that uses a linear demand function to simulate the customers\u2019 response at a given price and continuously learns the parameters of the demand function. The above studies have developed the methods to estimate the customers\u2019 response behavior, but most studies ignore the difference in response behavior in different time periods. In fact, the response of customers in different time periods is different, and the uniform consideration of all time periods may lead to bias. In addition, some studies presuppose the form of the customers\u2019 response model, such as nonlinear [12,13] or linear [9,17]. In fact, the customers\u2019 model does not strictly follow this mathematical model and is likely to deviate from the actual response behavior of the customers. In terms of price-setting based on IBDR, the study [18] proposes a detailed real-time IBDR process, in which power companies will use very accurate payment rules to reward customers based on monthly peak hours. In [19], the customer\u2019s loads are divided into non-sheddable, sheddable and shiftable loads, a nonlinear programming model is established and the credit mechanism is used to adjust it. The study [20] considers customers who use different electrical appliances and proposes a DR method based on utility maximization. In [21], the objective function of the customers\u2019 rewards program is established and the optimal incentive price is derived from it. In [22], the authors considered the impact of various influencing factors on incentive price, including socio-economic conditions, expected reductions, probability of reduction and notice period. In [23], the relationship between establishing incentives and reducing load is mentioned. The authors in [24] use the exponential function to establish the relationship between the customers\u2019 load reduction and the incentive price, and by fitting the historical data to determine the amount of elasticity in the exponential function. The work in [25] is to use novel clustering methods to describe device load and slack, allowing incentives to dynamically change over time and device clusters, and allowing customers to schedule their consumption each time they want to use a qualified device. In addition, the study [26] combines price-based and incentive-based demand response to develop a comprehensive DR model based on a composite demand function and dynamic price elasticity. The above studies propose different strategies or methods for pricing based on IBDR, but some studies [18\u201321] ignore the potential relationship between customers\u2019 response behavior and price. Other studies [22\u201326] have established the relationship between customers\u2019 response behavior and price but did not consider the impact of price on the response in different time periods. In recent years, artificial intelligence technology has received more and more attention, and the reinforcement learning algorithm has been applied to the field of DR. Recently, the study [27] summarizes the application of intensive learning in DR in recent years. The application of reinforcement learning in DR is more used for energy management and optimization of household appliances, such as electric water heaters [28], thermostatically controlled loads [29], equipment clusters [30] or other household appliances [31]. It is also used for charging management of electric vehicles, such as energy management of hybrid electric vehicles [32], charging strategies of plug-in electric vehicles [33], charging strategies of electric vehicles in the day-ahead market [34] and energy optimization for a parallel hybrid electric vehicle [35]. In the field of power dispatching, reinforcement learning is also used for energy management in microgrids [36] and the energy Internet [37]. Although reinforcement learning has been studied in these fields, there is still little research in the field of dynamic pricing for customers. In addition, a few recent studies [10,38\u201340] apply reinforcement learning directly to customers\u2019 response learning and energy scheduling without involving specific equipment, the scenario that this paper is oriented to also does not involve specific equipment. The authors in [10] developed a reinforcement learning decision algorithm for the microgrid system, established a model of the service provider and customers\u2019 response, and accelerated learning using virtual experiences. In [38], the dynamic pricing problem is formulated as a discrete finite Markov decision process, and Q-learning is used to solve the decision-making problem. In [39], deep learning is used to predict energy prices and loads, and the reinforcement learning algorithm is used to make optimal incentive rate decisions. The authors in [40] proposed a data-driven method for energy management of multi-microgrid systems, where, neural networks are used to simulate the operation of microgrids, and reinforcement learning is used to optimize retail electricity prices for distribution system operators. Although there have been the above studies using reinforcement learning in demand response that does not involve specific equipment, there are still some challenges. For example, In [10], the authors assume that the service provider knows in advance the priori transition probability of the cost function. However, it is difficult to know the probability when the customers\u2019 power demand is not known. In [38,39], the authors set the customers\u2019 elasticity coefficient to be fixed, which does not correspond to the dynamic changes of customers\u2019 response behavior in the real application. In addition, only using reinforcement learning to explore the customers\u2019 response in the real scene, the exploration cost will be too high making it difficult to adopt in the real applications. In fact, in the absence of any prior knowledge of the customer, the process of exploration using only reinforcement learning is slow. Reinforcement learning should be said to be still in a preliminary research stage in terms of DR pricing. Although there has been a lot of research on price setting based on IBDR, there are still some limitations in some aspects. In order to solve the above problems, this paper proposes a method combining long short-term memory (LSTM) with reinforcement learning. LSTM is a kind of neural network in the form of time series, which can be used to remember the relationship between the price in the previous period and the response behavior of customers in the current period. In the absence of customer prior knowledge, with the accumulation of data, LSTM is used to predict the customers\u2019 response, thereby realizing virtual exploration of reinforcement learning and overcoming its disadvantages of slow exploration in practice. The main contributions of this paper are as follows: (1) A novel stratified power market incentive pricing method for service providers is proposed to solve the problem of unknown customers\u2019 response behavior. (2) LSTM algorithm is used to predict customers\u2019 response and reinforcement learning is used as a price decision framework. The combination of the two realizes the virtual exploration of reinforcement learning and solves the drawbacks of practical exploration that only through reinforcement learning. (3) The price and response of the historical time slots are also used as the influencing factors of the current time slot response, rather than just considering the influencing factors of the current time slot. At the same time, different response models are trained at different time slots to consider the difference in response of customers at different time slots. (4) Reinforcement learning is used to explore response over multiple time slots, thereby avoiding the negative effects of myopic optimization and increasing the profitability of service providers. (5) The dataset is updated online to predict customers\u2019 response and set prices online, avoiding deviations and uncertainties offline pricing. The rest of the paper is organized as follows: Section 2 details the problem that needs to be addressed and builds the model for the problem. In Section 3, the model is transformed into a Markov decision process problem, and the reinforcement learning and LSTM networks are detailed to illustrate how to solve this problem. Section 4 carries out numerical simulations to illustrate the effectiveness of the proposed method. Finally, the conclusions of this paper are given in Section 5. 2 Problem formulating and model building 2.1 A detailed description of the problem In this paper, we consider the problem that before the peak load periods of the power networks, the utility company issues load reduction information on demand response, including the response period, capacity and price, to maintain the energy supply and demand balance during peak load periods. The service provider obtains the load that needs to be reduced during the peak hours of the day, the corresponding compensation price and the deviation penalty price from the utility company through negotiation or bidding. During peak load periods, the service provider sets the incentive price online and broadcasts it in real-time, the customers receive the broadcast information in real-time and respond autonomously according to the incentive price, and the compensation obtained is determined by the incentive price and the load reduction of the customers. Service providers need to set the right price so that the aggregated response of customers is close to the pre-specified load reduction, otherwise, they will face certain penalties. The scenario targeted in this paper is shown in Fig. 1 . Assume that the service provider needs to reduce the load during multiple load peak time slots in a day, as shown in Fig. 2 . Before the load reduction period begins, the service provider obtains relevant load reduction information, and then formulates and broadcasts the incentive price online during each load reduction time slots. Since the load that needs to be reduced at different times and the characteristics of the customers\u2019 electricity consumption are different, the incentive price that the service provider needs to set during each load reduction time slots is also different. In addition, when formulating the current time price, it is also necessary to consider the interaction between prices in different time periods. The formulation of the current time slot price may affect the response of customers in the subsequent time slots, thereby affecting the profit obtained by itself. Therefore, in each load reduction time slot, the service provider\u2019s goal is to consider how to set the price of the current time slot, so that the total profit of the current time slot and its subsequent time slots is maximized, not just the profit of the current time slot. The service provider faces two challenges when setting the incentive price for the current time slot. First, the service provider does not know in advance the customers\u2019 response to the set price. Second, even if they know the exact response of customers, how to set the incentive price to maximize the total profit of the current time slot and subsequent time slots is also a problem to be solved. For the first challenge, our idea is to find a suitable forecasting method to learn the customers\u2019 response behavior model based on the customers\u2019 historical response information, so as to predict the customers\u2019 response to a given price. For the second challenge, we first need to establish a profit maximization model for the service provider and then use the reinforcement learning algorithm to continuously give the price to explore the customers\u2019 response while getting the corresponding profit, and finally, find out the price combination corresponding to the maximum profit. Therefore, the problem of this paper is formulated as a process of learning and optimization at the same time. In Section 2.2, we established a profit maximization model for service providers. In Section 3, we introduced how to use LSTM networks and reinforcement learning to learn and make decisions. 2.2 Service provider model We assume that the service provider needs to broadcast the incentive price over multiple peak time slots over a period of time, and the price of the different time slots will change dynamically to accommodate the change in load. Because of price changes, customers will respond differently to different prices, namely the price elasticity of demand, which is very common in economics. We assume that rational customers will compare the price of different time slots to determine if their load needs to be reduced, when, and by how much. Since the customers may respond to the prices of different time slots, if the service provider only takes into account the profit of the current time slot, it may have a negative impact on the profit of the subsequent time slots. Therefore, the service provider wants to set an incentive price that maximizes the total profit of the current time slot and its subsequent time slots, rather than just the current time slot. Set the profit of the service provider at time slot t as f ( x t ) , as shown in (1). (1) f ( x t ) = f r ( x t ) - f p ( x t ) where x t is the broadcast incentive price that the service provider needs to set in the time slot t. f r ( x t ) represents the net income of the service provider at time slot t, and f p ( x t ) represents the penalty fee of the service provider in the time slot t due to the deviation of the aggregate response, as shown in (2) and (3), respectively. (2) f r ( x t ) = ( λ r , t - x t ) D total , t (3) f p ( x t ) = λ p , t D total , t - D bid , t in Eq. (2), λ r , t represents the unit reward price obtained by the service provider from the utility company in the time slot t, and D total , t represents the total load reduction amount of all the customers participating in the DR in the time slot t. In Eq. (3), λ p , t and D bid , t respectively represent the unit penalty price and load reduction amount obtained by the service provider from the utility company in the time slot t, and D total , t - D bid , t represents the deviation between the actual load reduction amount provided by the service provider in the time slot t and the load reduction amount obtained from the utility company. The service provider\u2019s goal is to set an appropriate price x t for each current time slot t, maximizing its profit f ( X T ) for the day. Set the objective function of the service provider\u2019s profit model as follows. (4) max f ( X T ) = ∑ t = 1 T ( f r ( x t ) - f p ( x t ) ) where T represents the number of peak hours during the day and X T = x 1 , x 2 , ⋯ , x T represents the set of incentive prices that the service provider needs to set during the peak hours of the day. The constraints are expressed as (5) s .t . D total , t = ∑ i = 1 N d i , t x ¯ t ⩽ x t ⩽ x ¯ t where d i , t indicates the load reduction of the customer i in the time slot t, and D total , t = ∑ i = 1 N d i , t indicates the balance of the load reduction, that is, the total load reduction obtained by the utility company is equal to the sum of the load reductions of the customers included in the service provider. N is the number of customers. x ¯ t ⩽ x t ⩽ x ¯ t represents the range constraint of the incentive price set by the service provider, x ¯ t and x ¯ t respectively represent the upper and lower limits of the incentive price. We do not consider the response cost or dissatisfaction cost of customers, because customers will respond voluntarily according to the incentive price of broadcasting, which reflects customers\u2019 trade-offs between price and their own response costs. We do not need to know the trade-off process of customers. 3 Online pricing based on LSTM and reinforcement learning 3.1 The main process of online pricing The difficulty in solving the Eq. (4) is that the service provider needs to know the customers\u2019 response D total , t to the price x t when setting this price of the current time slot t. However, the customers\u2019 response D total , t is in turn related to the price x t of the current time slot t and the price and response of the previous time slot. So we use historical response information to train the relationship between customers\u2019 response and price, and then continue to give the price to explore the customers\u2019 response until the optimal price sequence is found. In this process, the LSTM networks are used to train the relationship between the customers\u2019 response and price, and then enter the price of the current time slot into the newly trained LSTM networks to predict the corresponding response from the customers. According to the predicted customers\u2019 response, use reinforcement learning to continuously explore the profit corresponding to different prices. Fig. 3 shows the main process of online pricing, where reinforcement learning is the framework, D t is used to represent the actual total response of customers. Before each DR time slot begins, reinforcement learning and LSTM are used to perform virtual exploration of the optimal price series. The first price of the optimal price series to be explored is taken as the incentive price of the current time slot and broadcast to customers. Customers then respond to the price of the broadcast. After the current time slot ends, the next time slot is entered and the above operation is repeated. After the end of all response time slots of the day, the price of each time slot and the customers\u2019 response are added to the historical dataset, and the LSTM networks are retrained to make the prediction more accurate. The following first describes how to use LSTM to predict customers\u2019 response behavior, then introduces the decision-making process of reinforcement learning, and finally introduces the process of combining LSTM and reinforcement learning to make optimal pricing decisions. 3.2 Predicting customers\u2019 response using LSTM networks 3.2.1 The principle of LSTM LSTM is a form of the recurrent neural network, which can consider the correlation before and after time and is widely used in the prediction of time series [41\u201342]. Unlike load forecasting with obvious periodicity, the main influencing factor of customers\u2019 response behavior is the price of the current time slot and in addition, it has a certain relationship with the prices and response of the previous time slots. Therefore, classic time series prediction methods such as ARIMA are not suitable for solving this problem. In the case where the customers\u2019 response behavior is unknown, the method of establishing a response model in advance and then performing parameter estimation may have a large deviation from the actual customers\u2019 response behavior. The problem in this paper can use the LSTM networks to learn the customers\u2019 response model to avoid the bias caused by the response model defined in advance and at the same time, the effects of the current time slot and the previous time slots can be considered comprehensively. The cell structure of standard RNN has only a simple tanh layer, which is shown in Fig. 4 (a). Compared with the standard RNN, LSTM controls the state of the neural network by adding the structure of forget gate, input gate and output gate. The cell structure of LSTM is shown in Fig. 4(b). By designing the gate structure, LSTM can solve the problem of gradient disappearance and gradient explosion during the standard RNN training process, so that it can make better use of historical information. The update process [43] of the LSTM loop body is as shown in Eq. (6)\u2013(11). (6) f t = σ ( W f [ h t - 1 , x t ] + b f ) (7) z t = tanh ( W z [ h t - 1 , x t ] + b z ) (8) i t = σ ( W i [ h t - 1 , x t ] + b i ) (9) c t = f t · c t - 1 + i t · z t (10) o t = σ ( W o [ h t - 1 , x t ] + b o ) (11) h t = o t · tanh c t where σ ( · ) and tanh( · ) are activation functions, W f , W z , W i and W o are weight matrix, and b f , b z , b i and b o are bias term. The training process of the LSTM networks is the process of training the above parameters. 3.2.2 Formulate time series forms of inputs and outputs Before using the LSTM networks, we first need to make the data into a time series form of inputs and outputs. In regions where initial DR is being implemented, customers\u2019 response data is increasing. In order to preserve the historical actual response information of customers, a historical dataset of customers\u2019 responses is established, denoted by H 1 . (12) H 1 = ( x 1 , D 1 ) T , ( x 2 , D 2 ) T , ⋯ , ( x t , D t ) T where ( x t , D t ) T is a data of a response time slot, which is represented as M t = ( x t , D t ) T . As we mentioned earlier, the response of customers in a time slot may not only be related to the price of the current time slot but also compare the price of different time slots to determine the degree of response. Therefore, we extend the historical response dataset H 1 to include information about past time slots, denoted by H 2 . (13) H 2 = ( I 1 , D 1 ) T , ( I 2 , D 2 ) T , ⋯ , ( I t , D t ) T where I t represents a feature quantity that may be related to the response of the current time slot, including not only the price of the current time slot but also the price and response of the previous time slots, as shown in Eq. (14). (14) I t = ( x t - L , D t - L , ⋯ , x t - 2 , D t - 2 , x t - 1 , D t - 1 , x t ) where L is the time step. Since the characteristics of each time slot are different, network parameters of different time slots need to be separately trained. The input and output forms of the LSTM networks are as shown in Fig. 5 , where the marked lines are data of the same time slot of different days. When training the LSTM networks, the feature quantity I 1 , I 2 , ⋯ , I t in the historical dataset H 2 is used as the input of the networks, and the corresponding aggregate response D 1 , D 2 , ⋯ , D t is used as the output of the networks. At the time of prediction, by inputting the feature quantity I t + 1 of the t + 1 time slot to the trained LSTM networks, the corresponding response D t + 1 can be predicted. The time expansion form of the LSTM cell is shown in Fig. 6 , where A is an LSTM cell. At each time slot t, A accepts the input M t of the current time slot and the state c t - 1 and output h t - 1 of the previous time slot and then calculates the new state c t and output h t at the current time slot. 3.2.3 Training and prediction process of LSTM networks Before using the LSTM networks for training and prediction, it is first necessary to normalize historical prices and customers\u2019 response, using the normalization method as shown in Eq. (15). (15) z i ∗ = z i - z min z max - z min where z max and z min represent the maximum and minimum values of the dataset z, z i and z i ∗ are the data before and after normalization, respectively. Using the root mean square error (RMSE) as the loss function of the LSTM networks, the formula is (16) δ RMSE = 1 n ∑ t = 1 n ( D t - D ̂ t ) 2 where D t and D ̂ t respectively represent the actual value and the predicted value of the customers\u2019 response, and n represents the total number of data. The average absolute percentage error (MAPE) is used to evaluate the prediction effect of LSTM. The calculation formula is (17) δ MAPE = 1 T ∑ t = 1 T D t - D ̂ t D t × 100 % The training and prediction process of the LSTM networks is shown in Fig. 7 . 3.3 Online pricing using reinforcement learning algorithm 3.3.1 Formulating the Markov decision process Reinforcement learning is a method based on Markov decision process. The goal is that Agent continuously selects actions to act on the environment, and gradually learns a process of optimal action through feedback from the environment. The service provider sets the incentive price in each current time slot and then the customers transfer from the previous state to the next state based on the broadcasted incentive price. This transfer process mainly depends on the action of the current time slot and the customer\u2019s state of the previous time slot, so that this process can be approximated as having Markov properties. In addition, the service provider expects that the action of the current time slot in each time slot will maximize the total profit of the current time slot and subsequent time slots, which is consistent with the goal of Markov decision, that is, focusing on the cumulative return of the action. Therefore, we can formulate the incentive pricing problem of the service provider as a Markov decision process, that is, the optimal price setting process is the optimal action selection process, so we consider using reinforcement learning algorithms to solve this problem. First, the problem is formulated into a Markov decision process, as shown in Fig. 8 . The incentive price x t is regarded as action a t . The aggregate response D total , t of all customers is considered to be the environmental state S t . The profit f ( x t ) is seen as an environmental reward r t . P ( S t , a t , S t + 1 ) is expressed as the probability that action a t is taken to shift the environmental state to S t + 1 when in the environmental state S t . Above we have defined the four elements of reinforcement learning. In each time slot, the service provider expects that the total profit of the current time slot and the subsequent time slots is the largest, that is, the cumulative discount return (18) R t = r t + γ r t + 2 + γ 2 r t + 3 + ⋯ = r t + ∑ k = 1 ∞ γ k r t + k + 1 where γ ∈ ( 0 , 1 ] is a discount factor, which indicates the importance of the current reward and the future reward. After performing action a in state s, continue to interact with the environment according to a certain policy π ( s ) . The expected return obtained, that is, the action value function is (19) Q π ( s , a ) = E π [ R t s t = s , a t = a ] = E π [ r t + ∑ k = 1 ∞ γ k r t + k + 1 s t = s , a t = a ] Define the probability and return of taking action a from state s to state s \u2032 as P s s \u2032 a and R s s \u2032 a , respectively. The Bellman equation of the action value function Q π ( s , a ) can be derived (see the literature [44] for the detailed process) (20) Q π ( s , a ) = ∑ s \u2032 P s s \u2032 a [ R s s \u2032 a + γ ∑ a \u2032 Q π ( s \u2032 , a \u2032 ) ] Therefore, the optimal Bellman equation under the optimal policy π ∗ can be obtained as (21) Q π ∗ ( s , a ) = max ∑ s \u2032 P s s \u2032 a [ R s s \u2032 a + γ ∑ a \u2032 Q ( s \u2032 , a \u2032 ) ] where a \u2032 is the action taken in state s \u2032 . The optimal strategy can be obtained based on the action value function (22) π ∗ ( a s ) = 1 i f a = arg max a ∈ A Q π ( s , a ) 0 else This optimal strategy π ∗ is the solution to the reinforcement learning problem. It can be seen from the optimal Bellman equation that, due to the introduction of the max function, a closed-form solution cannot be obtained like the Bellman equation, and it can only be solved by iteration. Q-learning is an iterative solution algorithm, which is one of the most widely used methods in reinforcement learning algorithms. The basic idea is to estimate the next action based on the reward of the current time slot and the incremental value of the Q value function. The update rule of the Q-learning algorithm is as shown in (23). (23) Q ( s t , a t ) = Q ( s t , a t ) + α r t + γ max Q ( s t + 1 , a t + 1 ) - Q ( s t , a t ) where α ∈ [ 0 , 1 ] is the learning rate. We use the Q-learning algorithm to solve the Markov decision process described above. The pseudocode of the Q-learning algorithm is shown in Algorithm 1. Algorithm 1. Pseudocode of Q-learning algorithm [45]. 1: Require: discount factor γ , learning parameter α . 2: initialize Q arbitrarily 3: for each episode do 4: s is initialized as the starting state 5: repeat 6: choose an action a ∈ A ( s ) based on Q and an exploration strategy 7: perform action a 8: observe the new state s \u2032 and received reward r 9: choose an action a \u2032 ∈ A ( s \u2032 ) based on Q and an exploration strategy 10: Q ( s , a ) = Q ( s , a ) + α ( r + γ max Q ( s \u2032 , a \u2032 ) - Q ( s , a ) ) 11: s = s \u2032 12: Until s \u2032 is a goal state 3.3.2 The Q-learning algorithm implementation process According to the model established earlier, at the beginning of the day, our goal is to maximize the total reward for all response time slots of the day. After the end of the first time slot, the target is converted to the total reward for the remaining time slots. By analogy, at the end of each time slot, we hope that the reward for the remaining time slots of the day is the largest. The Q-learning algorithm is set to run online, and virtual exploration is performed at the beginning of each time slot. By continuously giving the price to explore the reward (The reward is calculated from the response predicted by the LSTM networks) of current and remaining time slots of the day, the price series with the total reward maximum is taken as the optimal price sequence. The first price of the optimal price series is then broadcast to the customers as the actual incentive price for the current time slot because according to the exploration and prediction of our algorithm, this price appears to maximize the total profit for a day in the current time slot. In order to express the above content more clearly, here we detail the process of optimal price setting. In the first peak time slot of the day, the Q-learning algorithm is used to explore the reward sequence r 1 , r 2 , · · · , r T of the T time slots of the day, the price sequence x 1 , x 2 , · · · , x T corresponding to the maximum reward is obtained, and then the first price x 1 is taken as the incentive price for the initial time slot of the day. At the end of the first time slot, that is, at the beginning of the second time slot, we have obtained the actual response D t of the first time slot. At this time we update the historical dataset H 1 and H 2 and continue to explore the reward sequence r 2 , r 3 , · · · , r T of the remaining T-1 time slots, obtain the price series x 2 , x 3 , · · · , x T corresponding to the maximum reward, and then use x 2 as the incentive price of the second time slot. By analogy, as the peak time slots for which prices have been determined continue to increase, fewer time slots need to be explored later. So that in the last time slot, it is only necessary to determine the price that will maximize the current time slot reward. Fig. 9 shows the process of online optimization, where each row represents the price sequence that the current time slot needs to explore, and the dark blue is the actual broadcast price established for the current time slot. 3.4 Online pricing process combined with LSTM networks and reinforcement learning Based on the above introduction, an online pricing process including LSTM networks and Q-learning is developed. The pseudocode is shown in Algorithm 2. Algorithm 2. Pseudocode of online pricing process based on LSTM networks and Q-learning. 1: Require: load reduction information T , D bid , t , λ r , t , λ p , t , [ x ¯ t , x ¯ t ] and the last trained LSTM networks 2: For each response time slot t do: 3:Set the discount factor γ and learning rate α 4:Initialize Q to 0 5: For each episode i do: (virtual exploration beginning) 6: For each response time slot t do: 7: Use the ε -greedy strategy based on Q to choose a price x t from all possible prices in current time slot t 8: Formulate x t and the latest historical dataset H 2 in time series and then input to the LSTM networks 9: Predict the corresponding response D total , t of price x t 10: Calculate reward: f ( x t ) = ( λ r , t - x t ) D total , t - λ p , t D total , t - D bid , t 11: Use price x t to reach the next time slot t + 1 12: Get the maximum value of Q ( s t + 1 , a t + 1 ) based on all its possible prices 13: Update Q: Q ( s t , a t ) = Q ( s t , a t ) + α f ( x t ) + γ max Q ( s t + 1 , a t + 1 ) - Q ( s t , a t ) 14: Set s t = s t + 1 15: When t = T, calculate the total reward f ( X T ) = ∑ t = 1 T f ( x t ) 16: End For 17: End For (Virtual exploration ending) 18:Get the price x t of the current time slot t when the total reward f ( X T ) is maximum 19:Broadcast price x t to customers 20:Get the actual response D t of the customers 21:Add ( x t , D t ) T to the historical dataset H 2 22:Enter the next time slot t + 1 23: End For 24: Retrain the LSTM networks based on the latest dataset H 2 at the end of the day The flow of Algorithm 2 in real applications is shown in Fig. 10 . Before the load reduction time slots, the utility company broadcasts the load reduction information and then the service provider sends application information to it through bidding or negotiation. After receiving the feedback from the utility company, information such as the time slots and prices of the load reduction is determined. The main part of Algorithm 2 is executed at the beginning of the response time slot. 4 Numerical simulation 4.1 Simulation scene and algorithm settings 4.1.1 Simulation scene setting (a) Customers' response model setting We simulate the response of each customer at a given price in different time slots t. According to the principle of microeconomics, the price elasticity of demand for load reduction by customers i at different time slots is established, as shown in Eq. (24). (24) ε i , t , t - j = ( d i , t - d i , t - j ) / d i , t - j ( x t - x t - j ) / x t - j where ( d i , t - d i , t - j ) / d i , t - j is the load reduction change rate of the customer i in the time slot t compared to the time slot t-j, and ( x t - x t - j ) / x t - j is the price change rate of the time slot t compared to the time slot t-j. We set the response of each customer i at time slot t to d i , t , given by Eq. (25). (25) d i , t = b i , t + k i , t x t + d i , t , c + d i , t , s where b i , t is a constant term, which indicates the correlation between the response of customer i at time slot t and this time slot. k i , t is a coefficient term indicating the relationship between the response of the customer i and the price x t at the time slot t. d i , t , c represents the response of customer i changes by comparing the price of the previous time slot with the current time slot in the current day. d i , t , s represents the response of customer i changes by comparing with the price of the same time slot in the previous few days. d i , t , c and d i , t , s are respectively shown by Eq. (26) and Eq. (27). (26) d i , t , c = ∑ j = 1 t - 1 ( d i , t - j + ε i , t , t - j ( x t - x t - j ) d i , t - j / x t - j ) (27) d i , t , s = ∑ s = 1 S ( d i , t - s + ε i , t , t - s ( x t - x t - s ) d i , t - s / x t - s ) where ε i , t , t - j is the elasticity coefficient of the customer i in the time slot t compared to the time slot t-j, which reflects the customers\u2019 comparison of the price of different time slots on the same day. ε i , t , t - s is the elasticity coefficient of the customer i in the time slot t compared to the time slot t-s, and s represents the number of days previously associated. For example, when s = 1, t-1 represents the same time slot before the day, reflecting the customers\u2019 comparison of the prices for the same time slot on different days. Setting the parameters of the customers in different time slots are uniformly distributed, and the range of the mean μ is as shown in Table 1 , and all customers in the same time slot follow a normal distribution with the standard deviation set to σ = 0.1 μ . The settings of b i , t and k i , t refer to the literature [17], and the settings of ε i , t , t - j and ε i , t , t - s refer to the literature [46], setting S = 2. (b) Load reduction parameters setting We assume that there are 1000 resident customers involved in the DR, assuming that the time slot in which the service provider broadcasts the incentive price per day is deterministic and limited, and sets this limited number of time slots to T = 5. For the penalty price λ p , t of the service provider at different time slots, we set it to λ p , t = 0.75 λ r , t . The reduction load D bid , t and the bonus price λ r , t of different time slots obtained by the service provider in advance are randomly selected within a certain range, as shown in Table 2 , the parameters of the same time slot of different days are set to a normal distribution, where σ = 0.1 μ is Standard deviation. The range of the incentive price x t is set to [0.6, 1.0] $/kWh with an interval of 0.01 $/kWh. Where λ r , t and x t settings refer to the literature [17]. (c) Dataset generation In a real scene, the historical dataset H 2 is the customers\u2019 actual response data, including the incentive price x t and the customers\u2019 aggregated response D t . The dataset is updated after each response time slot ends. According to the simulation scene setting in this paper, we provide the generation process of the dataset H 2 , that is, the process in lines 19 to 21 in Algorithm 2, which is shown in Fig. 11 . 4.1.2 Algorithm parameters setting (a) LSTM networks parameters settings Each time the training is performed, the first 90% of the historical dataset is used as the training set, the last 10% of the data is used as the verification set, and the data of the subsequent day is used as the test set. The hyperparameters setting of the LSTM networks is shown in Table 3 . (b) Parameters setting of Q-learning The learning rate of Q-learning is set to α = 0.2 , and the discount factor is set to γ = 0.8 . The exploration strategy is set to the ε -greedy strategy, that is, during the running of the algorithm, the probability of ε is used to explore the unknown price, and the probability of 1 - ε is used to utilize the previous experience. And ε is set to gradually increase as the number of times the algorithm runs, that is, the initial time slot is mainly used to explore different prices, and after a certain amount of accumulation, the previous experience is mainly utilized. ε is set as (28) ε = 0.8 - i episode *0.6 where episode represents the total iteration times, i represents the current iteration times and i ∈ [ 0 , e p i s o d e ] . 4.2 Results and discussion 4.2.1 Predictive performance of LSTM networks To verify LSTM\u2019s ability to learn and predict customers\u2019 response behavior, we randomly sample prices by uniform distribution according to the process in Fig. 11 to generate a series of historical data pairs of prices and responses. Table 4 shows the prediction errors on different days and different time slots using the LSTM networks, standard RNN and support vector regression (SVR). Table 5 shows the average absolute percentage error of the LSTM networks on different days. It can be seen from Table 4 and Table 5 that in the initial period, the prediction errors of various methods are relatively large. This is due to the small amount of data in the initial period, which cannot accurately reflect the law of the data. As the number of data increases, the prediction errors of various algorithms generally show a downward trend. When the amount of data reaches 30 days, the prediction errors of various algorithms have reached a relatively stable level. In most cases, the prediction errors of LSTM are lower than the other two algorithms, which is due to its strong nonlinear fitting ability and selective memory of previous time slots. It can be seen from Table 5 that after the amount of data exceeds 30 days, the prediction error of the LSTM networks for load reduction is small, showing that the LSTM networks have a good ability to predict the load reduction of customers. In regions where the customers\u2019 response model is unknown, due to the increase in data, it is impossible to determine which model will work best in the next prediction. Normally, the model that performs better in historical prediction is selected. In the simulation of this paper, the prediction performance of LSTM is better than other algorithm models in most cases, so this paper uses the LSTM algorithm to predict the customers\u2019 response. 4.2.2 Virtual exploration using LSTM networks and Q-learning In order to show the performance of our proposed algorithm for virtual exploration using Q-learning combined with LSTM networks, we compare it with the process of using only Q-learning for actual exploration. Fig. 12 and Fig. 13 respectively show the actual exploration process and the virtual exploration process of Q-learning. Fig. 12 shows the actual exploration process of Q-learning within 300 days and Fig. 13 shows the virtual exploration process of Q-learning on day 300. From top to bottom are the daily cumulative reward Q-values, the published incentive price for each time slot of the service provider, the actual response of each time slot of the customer, and the daily profit change of the service provider. It can be seen from Fig. 12 that Q-values tend to increase volatilely and the changes in incentive prices and customers\u2019 responses gradually show certain rules. The overall profit of service providers shows a trend of growth, but the growth is very slow and fluctuates greatly. The main reason lies in two aspects. First, the daily load reduction information is not the same, so the accumulated experience cannot be effectively utilized. Secondly, the actual number of implementations of demand response is ultimately small and limited, so the number of Q-learning explorations is too small to learn an optimal level. In the virtual exploration process, since the LSTM can be used to predict the customers\u2019 response, it is theoretically possible to perform an infinite number of explorations. However, from Fig. 13 we can see that after the number of explorations has reached about 2000, the maximum profit has been explored so that the corresponding optimal prices can be found. In order to show this process more clearly, we performed a limited 3,000 virtual explorations. It can also be seen from Fig. 13 that due to a large number of virtual explorations, after the service provider\u2019s profit reaches the highest level, the incentive prices and customers\u2019 response also tend to be obvious regularity. In order to more clearly compare the difference between the actual exploration and the virtual exploration in each time slot, we compare the incentive price and the customers\u2019 response of each time slot on day 300 in Fig. 14 . The profit for the day is shown in Fig. 15 . The above chart shows the actual exploration process, with a profit of 279.3 $ on day 300. The figure below shows the virtual exploration process, and the maximum profit from the exploration is 416.5 $. It shows that the profit of the service provider can be significantly improved through virtual exploration. Table 6 shows the profit comparison between actual exploration and virtual exploration on different days. The comparison of multiple days also shows that virtual exploration can significantly improve the profit of service providers. This is because virtual exploration can make effective use of historical information and allow more explorations. It demonstrates the effectiveness of using LSTM networks to predict customers\u2019 response behavior and then use reinforcement learning for virtual exploration. From the comparison results, it can be seen that in practice, it is reckless to use only reinforcement learning for exploration and the actual situation does not allow such an inefficient exploration behavior. The virtual exploration using the prediction method can effectively use historical information, thereby avoiding the disadvantages of too little actual data and low exploration efficiency caused by fluctuations. Therefore, in practice, it is necessary to make full use of historical information to learn the customers\u2019 response model, so as to perform virtual exploration of the optimal price. 4.2.3 Comparison with myopic optimization We compare our method to the myopic optimization method. When the discount factor γ = 0 , the reward function only pays attention to the reward of the current time slot, regardless of the reward of the future time slot, that is, only considers the profit of the current time slot is the largest and does not consider the influence on other time slots, which can be considered as a myopic optimization. The profit exploration process and maximum value of our method and myopic optimization on day 300 are shown in Fig. 16 . The profit pairs of the proposed method and myopic optimization method on different days are shown in Table 7 . As can be seen from Fig. 16 and Table 7, our method makes the profit earned by the service provider higher than the myopic optimization method in most cases. This is because our method considers the impact of price on different time slots on customers' response, and our goal is to optimize the profit for the day, not just the profit of the current time slot. This also shows that considering only the profit of the current time slot is likely to have a negative effect. Therefore, service providers must consider the impact of prices in the current time slot on future time slots and not just the immediate benefits when setting incentive prices in practice. 4.2.4 Run time analysis We use the python language to write programs, run programs on PCs, which are configured as 8G RAM, Intel(R) Core(TM) i5-7200U CPU, 2.50 GHz, 64-bit operating system. Running the program multiple times, the time to train the LSTM networks once is 5.23 min, and the time to run the online pricing algorithm once is 3.78 min. Since training the LSTM networks is performed at the end of all response time slots in the day, this does not affect online pricing. In general, the service provider\u2019s computer configuration will be better, so the time to run the online pricing algorithm once will less than 3.78 min, which has little impact on the online pricing. 4.2.5 Discussions We constructed the customers\u2019 response behavior model by simulating the actual scene and used the LSTM networks to learn and predict the customers\u2019 response behavior. The results show the good predictive performance of the LSTM networks. By comparing the effects of actual exploration and virtual exploration, it can be found that using reinforcement learning combined with LSTM networks for virtual exploration can effectively utilize historical response information and improve the profit of service providers. At the same time, compared with the myopic optimization method, it shows that the price of different time slots will affect the customers\u2019 response, indicating that our method can avoid the negative impact when only optimizing the profit of a single time slot, and thus can improve the total profits of service providers. 5 Conclusions In this paper, we study the problem of online pricing for service providers in the regions where DR is initially implemented. Reinforcement learning can solve the problem of dynamic price setting, but in practice, the daily load reduction information is not the same. Using Reinforcement learning to explore blindly, the efficiency will be low, and it is difficult for service providers to accept this risky approach. In response to this problem, we propose to use the LSTM networks to learn the relationship between customers\u2019 response and price. When using reinforcement learning for dynamic price setting, we can use the prediction results of LSTM networks to virtually explore the response behavior of customers. It effectively utilizes the historical information of customers\u2019 response behavior, making the exploration process of reinforcement learning more efficient. According to the simulation results, the following conclusions can be drawn: 1) LSTM has a good forecasting ability; 2) the use of virtual exploration can significantly improve the profit of service providers; 3) considering the impact of price on customers\u2019 response in different time slots can improve the profit of service providers to avoid the negative impact of myopic optimization. Therefore, the proposed method can make full use of the existing historical response information and can solve the problem of setting incentive price online in regions where DR is initially implemented and provide a solution for the service provider to quickly achieve the best profit. CRediT authorship contribution statement Xiangyu Kong: Conceptualization, Methodology. Deqian Kong: Software, Validation, Writing - original draft. Jingtao Yao: Data curation. Linquan Bai: Methodology, Writing - review & editing. Jie Xiao: Visualization. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This work was supported by the National Key Research and Development Program of China (2016YFB0901104). References [1] Y. Zhou C. Wang J. Wu J. Wang M. Cheng G. Li Optimal scheduling of aggregated thermostatically controlled loads with renewable generation in the intraday electricity market Appl Energ 188 2017 456 465 Zhou Y, Wang C, Wu J, Wang J, Cheng M, Li G. Optimal scheduling of aggregated thermostatically controlled loads with renewable generation in the intraday electricity market. APPL ENERG. 2017;188:456-465. [2] Ö. Okur N. Voulis P. Heijnen Z. Lukszo Aggregator-mediated demand response: Minimizing imbalances caused by uncertainty of solar generation Appl Energ 247 2019 426 437 Okur Ö, Voulis N, Heijnen P, Lukszo Z. Aggregator-mediated demand response: Minimizing imbalances caused by uncertainty of solar generation. APPL ENERG. 2019;247:426-437. [3] E.S. Parizy H.R. Bahrami S. Choi A low complexity and secure demand response technique for peak load reduction IEEE Trans Smart Grid 10 2019 3259 3268 Parizy ES, Bahrami HR, Choi S. A Low Complexity and Secure Demand Response Technique for Peak Load Reduction. IEEE Transactions on Smart Grid. 2019;10:3259-3268. [4] R. Alasseri T.J. Rao K.J. Sreekanth Conceptual framework for introducing incentive-based demand response programs for retail electricity markets Energy Strateg Rev 19 2018 44 62 Alasseri R, Rao TJ, Sreekanth KJ. Conceptual framework for introducing incentive-based demand response programs for retail electricity markets. ENERGY STRATEG REV. 2018;19:44-62. [5] S. Behboodi D.P. Chassin N. Djilali C. Crawford Transactive control of fast-acting demand response based on thermostatic loads in real-time retail electricity markets APPL ENERG. 210 2018 1310 1320 Behboodi S, Chassin DP, Djilali N, Crawford C. Transactive control of fast-acting demand response based on thermostatic loads in real-time retail electricity markets. APPL ENERG. 2018;210:1310-1320. [6] S. Wang S. Bi Y.A. Zhang Demand response management for profit maximizing energy loads in real-time electricity market IEEE Trans Power Syst 33 2018 6387 6396 Wang S, Bi S, Zhang YA. Demand Response Management for Profit Maximizing Energy Loads in Real-Time Electricity Market. IEEE Transactions on Power Systems. 2018;33:6387-6396. [7] A.R. Jordehi Optimisation of demand response in electric power systems, a review Renew Sustain Energy Rev 103 2019 308 319 Jordehi AR. Optimisation of demand response in electric power systems, a review. Renewable and Sustainable Energy Reviews. 2019;103:308-319. [8] V. Subramanian T.K. Das C. Kwon A. Gosavi A data-driven methodology for dynamic pricing and demand response in electric power networks Electr Pow Syst Res 174 2019 105869 Subramanian V, Das TK, Kwon C, Gosavi A. A data-driven methodology for dynamic pricing and demand response in electric power networks. ELECTR POW SYST RES. 2019;174:105869. [9] P. Li H. Wang B. Zhang A distributed online pricing strategy for demand response programs IEEE Trans Smart Grid 10 2019 350 360 Li P, Wang H, Zhang B. A Distributed Online Pricing Strategy for Demand Response Programs. IEEE Transactions on Smart Grid. 2019;10:350-360. [10] B. Kim Y. Zhang M. van der Schaar J. Lee Dynamic pricing and energy consumption scheduling with reinforcement learning IEEE Trans Smart Grid 7 2016 2187 2198 Kim B, Zhang Y, van der Schaar M, Lee J. Dynamic Pricing and Energy Consumption Scheduling With Reinforcement Learning. IEEE Transactions on Smart Grid. 2016;7:2187-2198. [11] M. Vallés A. Bello J. Reneses P. Frías Probabilistic characterization of electricity consumer responsiveness to economic incentives APPL ENERG. 216 2018 296 310 Vallés M, Bello A, Reneses J, Frías P. Probabilistic characterization of electricity consumer responsiveness to economic incentives. APPL ENERG. 2018;216:296-310. [12] M. Rahmani-andebili Modeling nonlinear incentive-based and price-based demand response programs and implementing on real power markets Electr Pow Syst Res 132 2016 115 124 Rahmani-andebili M. Modeling nonlinear incentive-based and price-based demand response programs and implementing on real power markets. ELECTR POW SYST RES. 2016;132:115-124. [13] H.A. Aalami H. Pashaei-Didani S. Nojavan Deriving nonlinear models for incentive-based demand response programs Int J Elec Power 106 2019 223 231 Aalami HA, Pashaei-Didani H, Nojavan S. Deriving nonlinear models for incentive-based demand response programs. INT J ELEC POWER. 2019;106:223-231. [14] Z. Luo S. Hong Y. Ding A data mining-driven incentive-based demand response scheme for a virtual power plant Appl Energ 239 2019 549 559 Luo Z, Hong S, Ding Y. A data mining-driven incentive-based demand response scheme for a virtual power plant. APPL ENERG. 2019;239:549-559. [15] A. Asadinejad A. Rahimpour K. Tomsovic H. Qi C. Chen Evaluation of residential customer elasticity for incentive based demand response programs Electr Pow Syst Res 158 2018 26 36 Asadinejad A, Rahimpour A, Tomsovic K, Qi H, Chen C. Evaluation of residential customer elasticity for incentive based demand response programs. ELECTR POW SYST RES. 2018;158:26-36. [16] M.R. Sarker M.A. Ortega-Vazquez D.S. Kirschen Optimal coordination and scheduling of demand response via monetary incentives IEEE Trans Smart Grid 6 2015 1341 1352 Sarker MR, Ortega-Vazquez MA, Kirschen DS. Optimal Coordination and Scheduling of Demand Response via Monetary Incentives. IEEE Transactions on Smart Grid. 2015;6:1341-1352. [17] K. Khezeli E. Bitar Risk-sensitive learning and pricing for demand response IEEE Trans Smart Grid 9 2018 6000 6007 Khezeli K, Bitar E. Risk-Sensitive Learning and Pricing for Demand Response. IEEE Transactions on Smart Grid. 2018;9:6000-6007. [18] M.M. Eissa First time real time incentive demand response program in smart grid with \u201ci-Energy\u201d management system with different resources Appl Energ 212 2018 607 621 Eissa MM. First time real time incentive demand response program in smart grid with \u201ci-Energy\u201d management system with different resources. APPL ENERG. 2018;212:607-621. [19] B.C. Ampimah M. Sun D. Han X. Wang Optimizing sheddable and shiftable residential electricity consumption by incentivized peak and off-peak credit function approach Appl Energ 210 2018 1299 1309 Ampimah BC, Sun M, Han D, Wang X. Optimizing sheddable and shiftable residential electricity consumption by incentivized peak and off-peak credit function approach. APPL ENERG. 2018;210:1299-1309. [20] Y. Zhou S. Ci H. Li Y. Yang Designing Pricing Incentive Mechanism for Proactive Demand Response in Smart Grid 2018 IEEE International Conference on Communications (ICC) 2018 1 6 Zhou Y, Ci S, Li H, Yang Y. Designing Pricing Incentive Mechanism for Proactive Demand Response in Smart Grid. 2018 IEEE International Conference on Communications (ICC) 2018. p. 1-6. [21] D.H. Vu K.M. Muttaqi A.P. Agalgaonkar A. Bouzerdoum Customer reward-based demand response program to improve demand elasticity and minimise financial risk during price spikes IET Gener Transm Dis 12 2018 3764 3771 Vu DH, Muttaqi KM, Agalgaonkar AP, Bouzerdoum A. Customer reward-based demand response program to improve demand elasticity and minimise financial risk during price spikes. IET GENER TRANSM DIS. 2018;12:3764-3771. [22] K.R. Gadham T. Ghose Design of Incentive price for Voluntary Demand Response Programs using Fuzzy System 2016 IEEE New York 363 367 Gadham KR, Ghose T. Design of Incentive price for Voluntary Demand Response Programs using Fuzzy System. NEW YORK: IEEE; 2016. p. 363-367. [23] R. Alasseri T.J. Rao K.J. Sreekanth Institution of incentive-based demand response programs and prospective policy assessments for a subsidized electricity market Renew Sustain Energy Rev 117 2020 109490 Alasseri R, Rao TJ, Sreekanth KJ. Institution of incentive-based demand response programs and prospective policy assessments for a subsidized electricity market. Renewable and Sustainable Energy Reviews. 2020;117:109490. [24] E. Shahryari H. Shayeghi B. Mohammadi-ivatloo M. Moradzadeh An improved incentive-based demand response program in day-ahead and intra-day electricity markets Energy 155 2018 205 214 Shahryari E, Shayeghi H, Mohammadi-ivatloo B, Moradzadeh M. An improved incentive-based demand response program in day-ahead and intra-day electricity markets. ENERGY. 2018;155:205-214. [25] M. Alizadeh Y. Xiao A. Scaglione M. van der Schaar Dynamic incentive design for participation in direct load scheduling programs IEEE J Sel Top Signal Process 8 2014 1111 1126 Alizadeh M, Xiao Y, Scaglione A, van der Schaar M. Dynamic Incentive Design for Participation in Direct Load Scheduling Programs. IEEE Journal of Selected Topics in Signal Processing 2014;8:1111-1126. [26] S. Yousefi M.P. Moghaddam V.J. Majd Optimal real time pricing in an agent-based retail market using a comprehensive demand response model Energy 36 2011 5716 5727 Yousefi S, Moghaddam MP, Majd VJ. Optimal real time pricing in an agent-based retail market using a comprehensive demand response model. ENERGY. 2011;36:5716-5727. [27] J.R. Vázquez-Canteli Z. Nagy Reinforcement learning for demand response: a review of algorithms and modeling techniques Appl Energ 235 2019 1072 1089 Vázquez-Canteli JR, Nagy Z. Reinforcement learning for demand response: A review of algorithms and modeling techniques. APPL ENERG. 2019;235:1072-1089. [28] F. Ruelens B.J. Claessens S. Quaiyum B. De Schutter R. Babuška R. Belmans Reinforcement learning applied to an electric water heater: from theory to practice IEEE Trans Smart Grid 9 2018 3792 3800 Ruelens F, Claessens BJ, Quaiyum S, De Schutter B, Babuška R, Belmans R. Reinforcement Learning Applied to an Electric Water Heater: From Theory to Practice. IEEE Transactions on Smart Grid. 2018;9:3792-3800. [29] H. Kazmi J. Suykens A. Balint J. Driesen Multi-agent reinforcement learning for modeling and control of thermostatically controlled loads Appl Energ 238 2019 1022 1035 Kazmi H, Suykens J, Balint A, Driesen J. Multi-agent reinforcement learning for modeling and control of thermostatically controlled loads. APPL ENERG. 2019;238:1022-1035. [30] Z. Wen D.O. Neill H. Maei Optimal demand response using device-based reinforcement learning IEEE Trans Smart Grid 6 2015 2312 2324 Wen Z, Neill D O, Maei H. Optimal Demand Response Using Device-Based Reinforcement Learning. IEEE Transactions on Smart Grid. 2015;6:2312-2324. [31] F. Ruelens B.J. Claessens S. Vandael B. De Schutter R. Babuška R. Belmans Residential demand response of thermostatically controlled loads using batch reinforcement learning IEEE Trans Smart Grid 8 2017 2149 2159 Ruelens F, Claessens BJ, Vandael S, De Schutter B, Babuška R, Belmans R. Residential Demand Response of Thermostatically Controlled Loads Using Batch Reinforcement Learning. IEEE Transactions on Smart Grid. 2017;8:2149-2159. [32] G. Du Y. Zou X. Zhang Z. Kong J. Wu D. He Intelligent energy management for hybrid electric tracked vehicles using online reinforcement learning Appl Energ 251 2019 113388 Du G, Zou Y, Zhang X, Kong Z, Wu J, He D. Intelligent energy management for hybrid electric tracked vehicles using online reinforcement learning. APPL ENERG. 2019;251:113388. [33] A. Chiş J. Lundén V. Koivunen Reinforcement learning-based plug-in electric vehicle charging with forecasted price IEEE Trans Veh Technol 66 2017 3674 3684 Chiş A, Lundén J, Koivunen V. Reinforcement Learning-Based Plug-in Electric Vehicle Charging With Forecasted Price. IEEE Transactions on Vehicular Technology. 2017;66:3674-3684. [34] S. Vandael B. Claessens D. Ernst T. Holvoet G. Deconinck Reinforcement learning of heuristic EV fleet charging in a day-ahead electricity market IEEE Trans Smart Grid 6 2015 1795 1805 Vandael S, Claessens B, Ernst D, Holvoet T, Deconinck G. Reinforcement Learning of Heuristic EV Fleet Charging in a Day-Ahead Electricity Market. IEEE Transactions on Smart Grid, 2015;6:1795-1805. [35] T. Liu X. Hu S.E. Li D. Cao Reinforcement learning optimized look-ahead energy management of a parallel hybrid electric vehicle IEEE/ASME Trans Mechatron 22 2017 1497 1507 Liu T, Hu X, Li SE, Cao D. Reinforcement Learning Optimized Look-Ahead Energy Management of a Parallel Hybrid Electric Vehicle. IEEE/ASME Transactions on Mechatronics. 2017;22:1497-1507. [36] P. Kofinas A.I. Dounis G.A. Vouros Fuzzy Q-Learning for multi-agent decentralized energy management in microgrids Appl Energ 219 2018 53 67 Kofinas P, Dounis AI, Vouros GA. Fuzzy Q-Learning for multi-agent decentralized energy management in microgrids. APPL ENERG. 2018;219:53-67. [37] H. Hua Y. Qin C. Hao J. Cao Optimal energy management strategies for energy Internet via deep reinforcement learning approach Appl Energ 239 2019 598 609 Hua H, Qin Y, Hao C, Cao J. Optimal energy management strategies for energy Internet via deep reinforcement learning approach. APPL ENERG. 2019;239:598-609. [38] R. Lu S.H. Hong X. Zhang A Dynamic pricing demand response algorithm for smart grid: Reinforcement learning approach Appl Energ 220 2018 220 230 Lu R, Hong S H, Zhang X. A Dynamic pricing demand response algorithm for smart grid: Reinforcement learning approach. APPL ENERG. 2018;220:220-230. [39] R. Lu S.H. Hong Incentive-based demand response for smart grid with reinforcement learning and deep neural network Appl Energ 236 2019 937 949 Lu R, Hong SH. Incentive-based demand response for smart grid with reinforcement learning and deep neural network. APPL ENERG. 2019;236:937-949. [40] Y. Du F. Li Intelligent multi-microgrid energy management based on deep neural network and model-free reinforcement learning IEEE Trans Smart Grid 1 2019 Du Y, Li F. Intelligent Multi-microgrid Energy Management based on Deep Neural Network and Model-free Reinforcement Learning. IEEE Transactions on Smart Grid. 2019:1. [41] A. Sagheer M. Kotb Time series forecasting of petroleum production using deep LSTM recurrent networks Neurocomputing 323 2019 203 213 Sagheer A, Kotb M. Time series forecasting of petroleum production using deep LSTM recurrent networks. NEUROCOMPUTING. 2019;323:203-213. [42] S. Wang X. Wang S. Wang D. Wang Bi-directional long short-term memory method based on attention mechanism and rolling update for short-term load forecasting Int J Elec Power 109 2019 470 479 Wang S, Wang X, Wang S, Wang D. Bi-directional long short-term memory method based on attention mechanism and rolling update for short-term load forecasting. INT J ELEC POWER. 2019;109:470-479. [43] S. Hochreiter J. Schmudhuber Long short-term memory Neural Comput 9 1997 1735 1780 Hochreiter S, Schmudhuber J. Long short-term memory. Neural computation. 1997;9:1735-1780. [44] Richard S. Sutton Andrew G. Barto Reinforcement Learning: An introduction second version The MIT Press 2018 63 Richard S. Sutton, Andrew G. Barto. Reinforcement Learning: An introduction second version. The MIT Press, 2018:63. [45] Watkin CJCH, Dayan P. Q-learning. Machine learning, vol. 8, no. 3/4; 1992. Special issue on reinforcement learning. [46] X. Labandeira J.M. Labeaga X. López-Otero Estimation of elasticity price of electricity with incomplete information Energ Econ 34 2012 627 633 Labandeira X, Labeaga JM, López-Otero X. Estimation of elasticity price of electricity with incomplete information. ENERG ECON. 2012;34:627-633.",
+    "scopus-id": "85085764960",
+    "coredata": {
+        "eid": "1-s2.0-S0306261920304578",
+        "dc:description": "Incentive-based demand response is playing an increasingly important role in ensuring the safe operation of the power grid and reducing system costs, and advances in information and communications technology have made it possible to implement it online. However, in regions where incentive-based demand response has never been implemented, the response behavior of customers is unknown, in this case, how to quickly and accurately set the incentive price is a challenge for service providers. This paper proposes a pricing method that combines long short-term memory networks and reinforcement learning to solve the pricing problem of service providers when the customers\u2019 response behavior is unknown. Taking the total profit of all response time slots in one day as the optimization goal, long and short-term memory networks are used to learn the relationship between customers\u2019 response behavior and incentive price, and reinforcement learning is used to explore and determine the optimal price. The results show that the combination of these two methods can perform virtual exploration of the optimal price, which solves the disadvantage that reinforcement learning can only rely on delayed rewards to perform exploration in the real scene, thereby speeding up the process of setting the optimal price. In addition, because the influence of the incentive prices combination of different time slots on the profit of the service provider is considered, the negative effect of myopia optimization is avoided.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2020-08-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0306261920304578",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Kong, Xiangyu"
+            },
+            {
+                "@_fa": "true",
+                "$": "Kong, Deqian"
+            },
+            {
+                "@_fa": "true",
+                "$": "Yao, Jingtao"
+            },
+            {
+                "@_fa": "true",
+                "$": "Bai, Linquan"
+            },
+            {
+                "@_fa": "true",
+                "$": "Xiao, Jie"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0306261920304578"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0306261920304578"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0306-2619(20)30457-8",
+        "prism:volume": "271",
+        "articleNumber": "114945",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "Online pricing of demand response based on long short-term memory and reinforcement learning",
+        "prism:copyright": "© 2020 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03062619",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Demand response"
+            },
+            {
+                "@_fa": "true",
+                "$": "Online pricing"
+            },
+            {
+                "@_fa": "true",
+                "$": "Reinforcement learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Long short-term memory"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Energy",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "114945",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 August 2020",
+        "prism:doi": "10.1016/j.apenergy.2020.114945",
+        "prism:startingPage": "114945",
+        "dc:identifier": "doi:10.1016/j.apenergy.2020.114945",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "323",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "33865",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "183",
+            "@width": "365",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "18659",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "639",
+            "@width": "313",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "58222",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "394",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "59595",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "395",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "55272",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "210",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "22195",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "213",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr15.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "31737",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "136",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr16.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "19731",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "181",
+            "@width": "365",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "24184",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "536",
+            "@width": "373",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41233",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "188",
+            "@width": "365",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "13143",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "190",
+            "@width": "365",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "37040",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "103",
+            "@width": "267",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "6758",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "434",
+            "@width": "365",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "48838",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "260",
+            "@width": "364",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "20374",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "154",
+            "@width": "289",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "14952",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "185",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8574",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "110",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7046",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "80",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5742",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "151",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "14477",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "151",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12521",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "126",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8164",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "128",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr15.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13426",
+            "@ref": "gr15",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "82",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr16.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8618",
+            "@ref": "gr16",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "109",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8377",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "114",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6783",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5968",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "114",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13185",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "84",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4729",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "138",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9471",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "157",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9556",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "117",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8511",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1431",
+            "@width": "1615",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "234205",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "811",
+            "@width": "1617",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "135496",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2829",
+            "@width": "1385",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "448918",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1748",
+            "@width": "1615",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "541094",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1753",
+            "@width": "1615",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "509139",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "929",
+            "@width": "1614",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "157376",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "943",
+            "@width": "1615",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr15_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "298635",
+            "@ref": "gr15",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "603",
+            "@width": "1615",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr16_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "162592",
+            "@ref": "gr16",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "802",
+            "@width": "1617",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "206823",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1425",
+            "@width": "992",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "129740",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "833",
+            "@width": "1619",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "94316",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "844",
+            "@width": "1618",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "286603",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "455",
+            "@width": "1184",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "42589",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1920",
+            "@width": "1616",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "402393",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1155",
+            "@width": "1614",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "156255",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "682",
+            "@width": "1281",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "102253",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2546",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9548",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si100.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2985",
+            "@ref": "si100",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si101.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16577",
+            "@ref": "si101",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si102.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7772",
+            "@ref": "si102",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si103.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20835",
+            "@ref": "si103",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si104.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9403",
+            "@ref": "si104",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si105.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23599",
+            "@ref": "si105",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si106.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5187",
+            "@ref": "si106",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si107.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10703",
+            "@ref": "si107",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si108.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15141",
+            "@ref": "si108",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si109.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9763",
+            "@ref": "si109",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3271",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si110.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7369",
+            "@ref": "si110",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si111.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14884",
+            "@ref": "si111",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si112.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6074",
+            "@ref": "si112",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si113.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6321",
+            "@ref": "si113",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si114.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18105",
+            "@ref": "si114",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si115.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18447",
+            "@ref": "si115",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si116.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1538",
+            "@ref": "si116",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si117.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5149",
+            "@ref": "si117",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si118.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9287",
+            "@ref": "si118",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si119.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4816",
+            "@ref": "si119",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6841",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si120.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4853",
+            "@ref": "si120",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si121.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1712",
+            "@ref": "si121",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si122.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2998",
+            "@ref": "si122",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si123.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16184",
+            "@ref": "si123",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si124.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6890",
+            "@ref": "si124",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si125.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11027",
+            "@ref": "si125",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si126.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3263",
+            "@ref": "si126",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6774",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14624",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19797",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7146",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4586",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11509",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5148",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4756",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16875",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10430",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21147",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4898",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13225",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5752",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3668",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3529",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2652",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15716",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4867",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18686",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16432",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9165",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15810",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10293",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3201",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6553",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2972",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2717",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2858",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6465",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2510",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2994",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2724",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2867",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2521",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2447",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14195",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7033",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8735",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13245",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6745",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2326",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13412",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si52.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6513",
+            "@ref": "si52",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6842",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3743",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4069",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2789",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3857",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4249",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2571",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6365",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2971",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12575",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5814",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5007",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2660",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4400",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18313",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si67.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3082",
+            "@ref": "si67",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si68.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18108",
+            "@ref": "si68",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2952",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4484",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si70.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3018",
+            "@ref": "si70",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si71.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2590",
+            "@ref": "si71",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si72.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9085",
+            "@ref": "si72",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si73.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4445",
+            "@ref": "si73",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si74.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16141",
+            "@ref": "si74",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si75.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5868",
+            "@ref": "si75",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si76.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4093",
+            "@ref": "si76",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si77.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24010",
+            "@ref": "si77",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si78.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2291",
+            "@ref": "si78",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si79.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5071",
+            "@ref": "si79",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5492",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si80.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5149",
+            "@ref": "si80",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si81.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7745",
+            "@ref": "si81",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si82.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19378",
+            "@ref": "si82",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si83.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3533",
+            "@ref": "si83",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si84.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24253",
+            "@ref": "si84",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si85.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2457",
+            "@ref": "si85",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si86.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "29068",
+            "@ref": "si86",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si87.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "22539",
+            "@ref": "si87",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si88.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5914",
+            "@ref": "si88",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si89.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1748",
+            "@ref": "si89",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5807",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si90.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1758",
+            "@ref": "si90",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si91.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5549",
+            "@ref": "si91",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si92.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6181",
+            "@ref": "si92",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si93.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17203",
+            "@ref": "si93",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si94.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3013",
+            "@ref": "si94",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si95.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7848",
+            "@ref": "si95",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si96.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8534",
+            "@ref": "si96",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si97.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2878",
+            "@ref": "si97",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si98.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8299",
+            "@ref": "si98",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-si99.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9142",
+            "@ref": "si99",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0306261920304578-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1132784",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85085764960"
+    }
+}}

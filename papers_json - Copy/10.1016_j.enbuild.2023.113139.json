@@ -1,0 +1,738 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85159183067",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 Energy and Buildings ENERGYBUILDINGS 2023-05-09 2023-05-09 2023-05-12 2023-05-12 2024-01-21T18:55:52 1-s2.0-S0378778823003699 S0378-7788(23)00369-9 S0378778823003699 10.1016/j.enbuild.2023.113139 S300 S300.1 FULL-TEXT 1-s2.0-S0378778823X00127 2024-01-21T19:21:40.304639Z 0 0 20230801 2023 2023-05-10T00:41:23.868465Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst nomenclature orcid primabst ref specialabst 0378-7788 03787788 true 292 292 C Volume 292 35 113139 113139 113139 20230801 1 August 2023 2023-08-01 2023 Virtual Special Issue Articles article fla © 2023 Elsevier B.V. All rights reserved. OPTIMIZINGHEATINGOPERATIONVIAGAANNBASEDMODELPREDICTIVECONTROLCONCEPTFORAREALNEARLYZEROENERGYBUILDING ARUTA G Nomenclature 1 Introduction 1.1 State of the art 2 Case study 3 Materials and methods 3.1 Artificial neural networks 3.2 Optimization through a genetic algorithm 3.3 MPC based on GA with NARX network 4 Results and discussion 5 Conclusions CRediT authorship contribution statement Acknowledgements References OLDEWURTEL 2012 15 27 F STURZENEGGER 2016 1 12 D BIANCHINI 2019 327 340 G VANCUTSEM 2019 O PEETERS 2008 1446 1455 L WETTER 2005 603 612 M PICARD 2017 739 751 D AFRAM 2014 507 519 A YANG 2020 115147 S YANG 2022 118041 S TAMASHIRO 2023 112616 K AFRAM 2017 268 282 A BIRD 2022 112269 M ASCIONE 2016 131 144 F ASCIONE 2019 F ASCIONE 2016 26 37 F ASCIONE 2019 F MUSTAPA 2020 109899 R KOSCHWITZ 2018 134 142 D ARUTA 2022 012137 G NGUYEN 2014 1043 1058 A ASCIONE 2016 37 68 F ARUTAX2023X113139 ARUTAX2023X113139XG 2025-05-12T00:00:00.000Z 2025-05-12T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Elsevier B.V. All rights reserved. 2023-05-18T15:01:11.309Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined ERC 20174RTL7W_007 ERC European Research Council http://data.elsevier.com/vocabulary/SciValFunders/501100000781 http://sws.geonames.org/6695072/ Italian Ministry of Education, University and Research MIUR Ministero dell\u2019Istruzione, dell\u2019Università e della Ricerca http://data.elsevier.com/vocabulary/SciValFunders/501100003407 http://sws.geonames.org/3175395/ MUR Ministero dell'Università e della Ricerca http://data.elsevier.com/vocabulary/SciValFunders/501100021856 http://sws.geonames.org/3175395 The authors thank the Italian Ministry of Education, University and Research, for the funding of the PRIN Project \u201cSUSTAIN/ABLE\u201d ERC Sector PE8, ID 20174RTL7W_007. In addition, the authors specify that a short version of this paper has been presented at the International Conference SpliTech 2022. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0378-7788(23)00369-9 S0378778823003699 1-s2.0-S0378778823003699 10.1016/j.enbuild.2023.113139 271089 2024-01-21T19:21:40.304639Z 2023-08-01 1-s2.0-S0378778823003699-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/MAIN/application/pdf/3acf129acf31f9fe46a42ddcab163ba8/main.pdf main.pdf pdf true 11019132 MAIN 14 1-s2.0-S0378778823003699-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/PREVIEW/image/png/ba9c7054635bb071de2aceeba06b3d06/main_1.png main_1.png png 56385 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0378778823003699-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/ga1/DOWNSAMPLED/image/jpeg/0683c860fc31e398ddfca3e63be17be4/ga1.jpg ga1 true ga1.jpg jpg 36376 200 450 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr8/DOWNSAMPLED/image/jpeg/0388a544d79968202ed3ab74336802c0/gr8.jpg gr8 gr8.jpg jpg 134652 740 783 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr13/DOWNSAMPLED/image/jpeg/25e1f249aef993f5075d6d10f8b7e2a6/gr13.jpg gr13 gr13.jpg jpg 66372 373 749 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr9/DOWNSAMPLED/image/jpeg/b3434c0f448ecba802d2403da52309d4/gr9.jpg gr9 gr9.jpg jpg 64967 376 754 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr6/DOWNSAMPLED/image/jpeg/3f96aa8a295393ce59b24e92908c9237/gr6.jpg gr6 gr6.jpg jpg 97988 980 341 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr7/DOWNSAMPLED/image/jpeg/23a5062c10150b3b250a044ee7176028/gr7.jpg gr7 gr7.jpg jpg 41330 360 383 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr4/DOWNSAMPLED/image/jpeg/495ab46c432d475ff5d03ebaa6287f85/gr4.jpg gr4 gr4.jpg jpg 18051 245 535 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr5/DOWNSAMPLED/image/jpeg/2f336ca047504b4e86ad098caff62f95/gr5.jpg gr5 gr5.jpg jpg 75010 327 734 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr10/DOWNSAMPLED/image/jpeg/974a717796e73d62fbd608d273f3e96c/gr10.jpg gr10 gr10.jpg jpg 71220 390 783 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr2/DOWNSAMPLED/image/jpeg/2a353c549d1029493ccea5a1ba8792a4/gr2.jpg gr2 gr2.jpg jpg 27108 146 534 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr11/DOWNSAMPLED/image/jpeg/b3139a6516c221295b6f96343935eddf/gr11.jpg gr11 gr11.jpg jpg 121569 713 754 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr3/DOWNSAMPLED/image/jpeg/cebf5ede791490c67b869500ffff2704/gr3.jpg gr3 gr3.jpg jpg 19083 195 535 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr12/DOWNSAMPLED/image/jpeg/8612fb1531a67da64f544814155462dd/gr12.jpg gr12 gr12.jpg jpg 64629 373 749 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr1/DOWNSAMPLED/image/jpeg/8401e56cb5a30bbe3d7bb3508524af3a/gr1.jpg gr1 gr1.jpg jpg 44967 275 533 IMAGE-DOWNSAMPLED 1-s2.0-S0378778823003699-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/ga1/THUMBNAIL/image/gif/65eda232f4c252d3a9541e192963730a/ga1.sml ga1 true ga1.sml sml 8703 97 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr8/THUMBNAIL/image/gif/c5ab23c7a73203a6f8e4d55bf03a5713/gr8.sml gr8 gr8.sml sml 9281 164 173 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr13/THUMBNAIL/image/gif/835825849951e875efefcdbb5c213cb3/gr13.sml gr13 gr13.sml sml 7507 109 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr9/THUMBNAIL/image/gif/ae425a88e3d38b05076e1e644dbd6e9f/gr9.sml gr9 gr9.sml sml 7699 109 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr6/THUMBNAIL/image/gif/419160b8926fb2ed3ee2007c48acfd65/gr6.sml gr6 gr6.sml sml 6989 164 57 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr7/THUMBNAIL/image/gif/5eff226bc411410ee2382c445c9d7026/gr7.sml gr7 gr7.sml sml 11053 164 174 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr4/THUMBNAIL/image/gif/d0db328312bd110d6cf7a339a4c1bc2b/gr4.sml gr4 gr4.sml sml 4370 100 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr5/THUMBNAIL/image/gif/9dc56db78b3a0122d0525cd7267ea102/gr5.sml gr5 gr5.sml sml 8664 97 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr10/THUMBNAIL/image/gif/d1f2a5965d5ed77f3991dd3e600a839e/gr10.sml gr10 gr10.sml sml 7321 109 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr2/THUMBNAIL/image/gif/0e77c65de301444e921b2f496449ff57/gr2.sml gr2 gr2.sml sml 10648 60 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr11/THUMBNAIL/image/gif/61992799756ae092be0e3d51ae8280ae/gr11.sml gr11 gr11.sml sml 9700 164 173 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr3/THUMBNAIL/image/gif/2f7f454448d5346c3759f6bc04d77b77/gr3.sml gr3 gr3.sml sml 4524 80 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr12/THUMBNAIL/image/gif/d1b10c336029d71b01c84b36c7f52285/gr12.sml gr12 gr12.sml sml 7667 109 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/gr1/THUMBNAIL/image/gif/9a617af001bb5614b3254b0c8cdf3bf2/gr1.sml gr1 gr1.sml sml 19902 113 219 IMAGE-THUMBNAIL 1-s2.0-S0378778823003699-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/b22285ec24bdc8f196d81af3c1c12481/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 258236 886 1995 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/8b29dfb8ff79defed794f65f696d4469/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 700961 3276 3466 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/e708a94a50cfebfc2535cfe531019212/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 376674 1651 3315 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/26a16cb0a93563cf2dafc6037713aef9/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 353865 1665 3340 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/32c0dd7e7ee69df6b21920344b9ea9a5/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 642505 4337 1509 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/8fb3e2ce48f876ba75c3e2efeb542386/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 241510 1599 1699 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/65ce1990eb2b0d1d66937eddb6f07326/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 99954 1085 2368 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/6995641778f41a121d6a8c58577a3c22/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 443327 1446 3248 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/964a64d6b8de0d9d4c9b277ac13d4302/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 373835 1726 3467 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/08ba84d2ffe18b25be39056dd5207b04/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 114434 403 1472 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/ae7c61607a336bc93cb2cb724c864db4/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 646904 3157 3340 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/b6a0f5f3d67a73a3ea268a0310e4e6aa/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 108172 861 2368 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/c6e90efb4713827592540511f6b53e9e/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 373537 1650 3315 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/HIGHRES/image/jpeg/e8466849816a49a74a1a390988b68000/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 141187 732 1417 IMAGE-HIGH-RES 1-s2.0-S0378778823003699-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/b450288ff7fee103f74ae9fcd2203a9f/si1.svg si1 si1.svg svg 3247 ALTIMG 1-s2.0-S0378778823003699-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/f0d756efe8112e12d49259518aaebb5c/si10.svg si10 si10.svg svg 3182 ALTIMG 1-s2.0-S0378778823003699-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/ef4cba4b811aabbf69f6a69cb2c13cab/si11.svg si11 si11.svg svg 2164 ALTIMG 1-s2.0-S0378778823003699-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/81487f12ac6d3b1ed0c6d90d4d07a6bb/si12.svg si12 si12.svg svg 10597 ALTIMG 1-s2.0-S0378778823003699-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/642d8dec832bd840a1d498ac9a8cb829/si2.svg si2 si2.svg svg 2506 ALTIMG 1-s2.0-S0378778823003699-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/581162eaae6728bcd4a883d12ac6a042/si3.svg si3 si3.svg svg 4265 ALTIMG 1-s2.0-S0378778823003699-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/c71ba99dbe67dc8d29b2346486904ce8/si4.svg si4 si4.svg svg 1736 ALTIMG 1-s2.0-S0378778823003699-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/ea7f910782c705c2403781a70710aba7/si5.svg si5 si5.svg svg 18394 ALTIMG 1-s2.0-S0378778823003699-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/039dfd3e22f6e61a02f05e48d359d0d4/si6.svg si6 si6.svg svg 13360 ALTIMG 1-s2.0-S0378778823003699-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/e7ff7ac4fd138a37da012489a633e8e3/si7.svg si7 si7.svg svg 17944 ALTIMG 1-s2.0-S0378778823003699-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/a6c7c170be1ac3c10d679cd23bcb0350/si8.svg si8 si8.svg svg 3268 ALTIMG 1-s2.0-S0378778823003699-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778823003699/image/svg+xml/5beb853bd3090bd73500ef13ece5bd7d/si9.svg si9 si9.svg svg 1891 ALTIMG 1-s2.0-S0378778823003699-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10BXTPT6RLT/MAIN/application/pdf/96ac15186dccb2d887f341807b6e0d7c/am.pdf am am.pdf pdf false 1713604 AAM-PDF ENB 113139 113139 S0378-7788(23)00369-9 10.1016/j.enbuild.2023.113139 Elsevier B.V. Fig. 1 Case study: nearly-zero energy building \u2013 living lab of Università degli Studi del Sannio (BnZEB). Fig. 2 Energy model of the BnZEB in DesignBuilder®. Fig. 3 Typical architecture of a NARX network. Fig. 4 NARX network operating logic. Fig. 5 Simulation and optimization based MPC method description. Fig. 6 Example of the prediction, for the heating load NARX networks, with regard to a part of the testing set for three different setpoint temperature, i.e., 20 °C (HL20), 21 °C (HL21), 22 °C (HL22). Fig. 7 Example of the prediction, for the indoor temperature NARX network, with regard to a part of the testing set. Fig. 8 a) Pareto front obtained considering a c el equal to 0.25 \u20ac/kWh per day examined (January 31); b) Optimal control strategies for the heating system for two possible solutions: up the one that respects the constraint on the CP while down the one that minimizes the HC. Fig. 9 a) Pareto front obtained considering a c el equal to 0.40 \u20ac/kWh per day examined (January 31); b) Optimal control strategy for the heating system in the chosen solution. Fig. 10 a) Pareto front obtained considering a c el equal to 0.25 \u20ac/kWh per day examined (February 14); b) Optimal control strategy for the heating system in the chosen solution. Fig. 11 a) Pareto front obtained considering a c el equal to 0.40 \u20ac/kWh per day examined (February 14); b) Optimal control strategies for the heating system for two possible solutions: up the one that respects the constraint on the CP while down the one that minimizes the HC. Fig. 12 a) Pareto front obtained considering a c el equal to 0.25 \u20ac/kWh per day examined (February 28); b) Optimal control strategy for the heating system in the chosen solution. Fig. 13 a) Pareto front obtained considering a c el equal to 0.40 \u20ac/kWh per day examined (February 28); b) Optimal control strategy for the heating system in the chosen solution. Table 1 Indicators of the networks performance on the testing set. RMSE MAE T i (°C) 0.70 0.54 HL20 (kW) 0.31 0.23 HL21 (kW) 0.28 0.21 HL22 (kW) 0.26 0.20 Table 2 Objective functions values for the 3 days considered referred to the BnZEB. Objective functions day c el (\u20ac/kWh) CP: comfort penalty (°C h) HC: heating cost (c\u20ac/m2day) reference chosen % reference chosen % 31 January 0.25 21.68 21.75 + 0.3 1.16 1.02 − 12.1 0.25 21.68 21.11 − 2.6 1.16 1.17 + 0.8 0.40 21.68 20.98 − 3.2 1.85 1.83 − 1.1 14 February 0.25 17.83 17.27 − 3.1 1.08 0.96 − 11.1 0.40 17.83 18.07 + 1.3 1.73 1.68 − 2.9 0.40 17.83 17.76 − 0.4 1.73 1.77 + 2.3 28 February 0.25 16.10 15.05 − 6.5 1.20 1.09 − 9.2 0.40 16.10 15.98 − 0.7 1.92 1.42 − 26.0 Table 3 HC for the 3 days considered referred to the BnZEB and considering 120 days like these for the whole season. HC reference day c el (\u20ac/kWh) (c\u20ac/m2day) for the building (\u20ac/day) for the building per season(\u20ac/120 days) reference chosen reference chosen reference chosen gain 31 January 0.25 1.16 1.02 0.80 0.70 94.43 84.08 + 10.35 0.25 1.16 1.17 0.80 0.81 94.43 96.46 − 2.03 0.40 1.85 1.83 1.27 1.26 152.52 150.86 + 1.66 14 February 0.25 1.08 0.96 0.74 0.66 89.04 79.14 + 9.90 0.40 1.73 1.68 1.19 1.15 142.62 138.50 + 4.12 0.40 1.73 1.77 1.19 1.22 142.62 145.92 − 3.30 28 February 0.25 1.20 1.09 0.82 0.75 98.93 89.86 + 9.07 0.40 1.92 1.42 1.32 0.98 158.28 117.06 + 41.22 *Ac for the BnZEB is considered equal to 68.70 m2. Optimizing heating operation via GA- and ANN-based model predictive control: Concept for a real nearly-zero energy building Giuseppe Aruta Conceptualization Methodology Software Data curation Investigation Writing \u2013 review & editing a Fabrizio Ascione Conceptualization Methodology Software Data curation Investigation Writing \u2013 review & editing a \u204e Nicola Bianco Conceptualization Methodology Software Data curation Investigation Writing \u2013 review & editing a Gerardo Maria Mauro Conceptualization Methodology Software Data curation Investigation Writing \u2013 review & editing b Giuseppe Peter Vanoli Conceptualization Methodology Software Data curation Investigation Writing \u2013 review & editing c a Università degli Studi di Napoli Federico II, Department of Industrial Engineering, Piazzale Tecchio 80, 82125 Napoli, Italy Università degli Studi di Napoli Federico II Department of Industrial Engineering Piazzale Tecchio 80 82125 Napoli Italy Università degli Studi di Napoli Federico II, Department of Industrial Engineering, Piazzale Tecchio 80, 82125 Napoli, Italy b Università degli Studi del Sannio, Department of Engineering, Piazza Roma 21, 82100 Benevento, Italy Università degli Studi del Sannio Department of Engineering Piazza Roma 21 82100 Benevento Italy Università degli Studi del Sannio, Department of Engineering, Piazza Roma 21, 82100 Benevento, Italy c Università degli Studi del Molise, Department of Medicine and Health Sciences, Via Francesco De Sanctis 1, 86100 Campobasso, Italy Università degli Studi del Molise Department of Medicine and Health Sciences Via Francesco De Sanctis 1 86100 Campobasso Italy Università degli Studi del Molise, Department of Medicine and Health Sciences, Via Francesco De Sanctis 1, 86100 Campobasso, Italy \u204e Corresponding author. Graphical abstract Using a simulation- and optimization-based framework that leverages artificial neural networks for the model predictive control of space heating operation, machine learning techniques are explored to predict the energy performance of a real nearly zero energy building located in Benevento (Southern Italy, Mediterranean climate). The framework's goal is to minimize heating energy costs and thermal discomfort by providing optimal values of setpoint temperatures on a day-ahead planning horizon based on weather forecasts. To achieve this, a Pareto multi-objective approach is applied, which considers thermal comfort via the adaptive theory of ASHRAE 55, assessing a comfort penalty function. The optimization problem is solved using a genetic algorithm in the MATLAB® environment. Objective functions are evaluated using the coupling between MATLAB® and EnergyPlus, which is used as building performance simulation tool. Multi-criteria decision-making is performed to select an optimal solution from the Pareto front while setting a limit to the comfort penalty. To test the framework, EnergyPlus weather data is used to simulate weather forecasts for typical days of the winter season. Two different economic scenarios are simulated in order to be able to analyze both conditions and given the variability of the electricity price. For the different days tested, the best results in terms of savings achieved through the proposed solution are on Feb. 28, corresponding to the coldest day and the highest energy cost, with daily savings of 26% compared to a reference control with a fixed setpoint of 21 °C, while maintaining similar comfort performance. The results suggest that optimized control is a crucial aspect of sustainable building design, and the proposed framework can be virtually implemented or integrated into automation systems for real-time model predictive control. Keywords Energy efficiency Zero energy buildings Model predictive control Thermal comfort Genetic algorithm HVAC systems Multi-objective optimization Data availability No data was used for the research described in the article. Nomenclature Symbols Ac conditioned area (m2) c energy cost (\u20ac/kWh) COP coefficient of performance (-) CP comfort penalty (°C h) EER energy efficiency ratio (-) HC heating cost (c\u20ac/m2day) HL heating load (kW) T temperature (°C) U U-value, i.e., thermal transmittance (W/m2 K) Subscripts c (referred to) space cooling el electricity h space heating p primary energy sc space conditioning Acronyms ANN artificial neural network BMS building management system BPO building performance optimization GA genetic algorithm HVAC heating, ventilating and air conditioning MAE mean absolute error MCDM multi criteria decision making MOGA multi-objective genetic algorithm MPC model predictive control NARX nonlinear autoregressive network with exogenous outputs OF objective function RMSE root mean squared error 1 Introduction Building operations accounted for 27% of all energy sector emissions and 30% of the world's final energy consumption in 2021, with 8% of those emissions coming directly from buildings and 19% coming indirectly from the generation of heat and electricity used in buildings, according to International Energy Agency (IEA) [1]. Following the decline in 2020 induced by COVID-19 regulations, both energy consumption and emissions increased to levels above 2019. The deployment of more efficient and renewable energy technology in buildings is accelerating while the electricity industry continues to decarbonize, and minimum performance standards and building energy regulations are becoming more comprehensive and stringent. However, for the building sector to keep up with Net Zero Emissions by 2050 Scenario [2], transformation must happen more quickly. The following decade will be important for putting the necessary measures in place, especially if all future constructions and 20% of the current building stock are to be zero-carbon by 2030 [3]. A substantial percentage of energy is used for heating, cooling, ventilating and air conditioning (HVAC). As a result, energy efficiency becomes a key factor in the design and operation of modern HVAC systems. With estimated energy savings ranging from 13% to 28%, advanced HVAC control has been proven in multiple studies to dramatically cut energy use and greenhouse gas emissions [4,5]. If it is technically and economically feasible, major buildings should incorporate building automation and control systems by 2025, according to the updated EU policy on the energy performance of buildings [6]. Currently, the majority of buildings still employ simple rule-based control strategies, which offer limited potential for energy savings. The prospect of the digital age provides an opportunity for the adoption of cutting-edge control approaches like model predictive control as computing and sensing costs decline (MPC). Over the past ten years, MPC has become a top control strategy in research on the operation of intelligent buildings. As demonstrated in numerous simulations and numerous pilot case studies [7,8] the main benefit of MPC is a systematic increase in thermal comfort while saving energy. It also offers grid flexibility services via price responsiveness as well as active demand response capabilities [9,10]. The advantage of MPC is that it uses a mathematical model of the building to predict how it will operate. These forecasts enable MPC to choose the best control actions flexibly and methodically for a specific aim while accounting for user comfort, technological constraints, and weather forecasts. The introduction of this technology to the building market is still in its early stages, despite the abundance of research papers and numerous pilot installations. Building management systems (BMS) engineers lack advanced training in contemporary optimal control techniques and tools, unlike control engineers in other industries that have effectively applied MPC, such as the process industry, which is the root of the building sector challenges. Also, the design and manufacture of buildings and their HVAC systems are not standardized, in contrast to the production of automobiles or consumer electronics. Every building is a unique system that necessitates customized modeling and control design, adding more time and money to the engineering process, especially for complex control techniques. All of this underlines the necessity of enhancing the building control practitioners' theoretical education and practical skill set in order to facilitate the setup, maintenance, and implementation of improved MPC technologies. Optimizing the control and operation of HVAC systems is essential because it can result in significant energy savings while maintaining thermal comfort. If these are not adequately controlled, efficient devices will not be enough to achieve high energy performance [11]. Notably, designing low- or zero-energy structures is necessary but insufficient to reduce the energy use and greenhouse gas emissions of the construction sector to achieve sustainability and carbon neutrality. It is important to reach an optimum control to obtain an optimal design. Actually, the most common control strategies used are on/off and proportional-integral-derivatives, which cannot consider the building's dynamics and are frequently associated with low efficiency. 1.1 State of the art The construction of the controller model is the main challenge to the actual deployment of MPC. Clearly, the model accuracy determines how well the MPC solution performs, but the whole MPC implementation is also impacted by the modeling strategy of choice in a variety of ways. Certain model properties, such as linearity, continuity, or known derivatives, are used by effective optimization methods. Yet, because phenomena and processes in buildings are frequently nonlinear and discontinuous, the accurate modeling of such processes requires the use of complex data-driven models or complex physical models. On the other hand, more complicated models increase the overall computational burden of MPC due to increased simulation time as well as to the necessity of using gradient-free techniques, because they are often inefficient for usage with optimization algorithms. It is necessary to make a wise trade-off between the model accuracy and simplicity. Three modeling paradigms are applicable to MPC and can be employed in building modeling. White-box models use physical information to describe the dynamics of buildings. They are founded on the ideas of mass and energy conservation as well as heat transfer. These models' physical-meaningful parameters come from the building's technical documentation, which includes information on the geometry, material characteristics, and equipment specifications. The key difficulty in white box modeling is the extensive time needed to define a building's properties. On the other hand, when the white-box models' parameters are accurate, it is possible to have an extremely proper prediction. Building energy simulation (BES) software can model the flow of energy, mass, and contaminants through structures. The interaction of the building envelope with its surroundings (e.g., weather, heat losses, etc.), internal loads (i.e., occupancy, lighting, equipment), and HVAC systems are all included. However, as these tools are frequently used to create digital twins of existingbuildings,they may also be used to generate white-box models for MPC. The models produced by BES programs are frequently too complicated to be applied to future optimization problems [12]. One barrier to the widespread use of MPC in practice is the difficulty in obtaining models that are accurate while also being simple enough for optimal control. The grey-box category includes a wide range of simplified physical relationship models that also need parameter estimation based on measurable data. Even with significant simplifications, model order reduction for buildings has shown to be able to maintain the same level of accuracy [13]. As a result, it is possible to use better models for optimization without seeing any projected decline in controller model performance. The grey-box technique is frequently asserted to be able to address the limitations of both white-box and black-box concepts. Black-box models do not make any prior assumption about physical relationships before learning the dynamics of the buildings from the collected data. The key benefits of the black-box technique over the grey- and white-box approaches are that they typically result in lower development costs and that since there is no physics involved, any signal can be utilized as an input or an output. However, black-box models need more training data than grey-box ones [14] and are inaccurate outside of the training range [15]. MPC has enormous potential, and there is large room and need for research in this area. In fact, the most current scientific literature suggests a wide range of studies that reveal the benefits of MPC in construction applications, as demonstrated by Yao and Shekhar's thorough review [16]. Yet, when it comes to developing controllers for heating and cooling systems, particularly as regards MPC, which requires predicting building performance, the assessment of energy loads is a crucial challenge. Due to the growing options for collecting and evaluating building data made possible by the digital transformation, machine/deep learning can be a solution. The modern revolutions known as the energy and digital transitions can be coupled using model predictive controllers. For automation and control applications, Yang et al. [17] proposed an MPC framework with adaptive machine learning-based building models. To maximize both energy performance and thermal comfort, the framework combined multi-objective optimization and artificial neural networks with a nonlinear autoregressive exogenous structure. It was recently upgraded by integrating instantaneous linearization (IL) and applied to a mechanical ventilation and air-conditioning system [18], demonstrating that IL can drastically shorten calculation times without compromising performance. In order to lower operating expenses and carbon emissions by the application of extremely effective operation techniques, Tamashiro et al. [19] presented a smart apartment building concept in which various distributed power sources are shared by several consumers. When compared to the original scenario, an MPC-based optimization technique has been created to achieve extremely efficient operation, successfully reducing the two objectives by 44.4% for operating costs and 54.7% for carbon dioxide emissions. An MPC-based supervisory controller was proposed by Afram and Janabi-Sharifi [20] to move a home's heating and cooling load to off-peak times. When compared to fixed zone temperature setpoints at 25 °C, using the supervisory controller with variable setpoints resulted in cost savings of 16%. When the MPC-based centralized controller had been compared with the fixed zone temperature setpoints of 24 °C, more significant savings of nearly 50% were seen. Bird et al. [21] presented an MPC framework of a food-retail building case study in the United Kingdom for its HVAC system. The MPC method determines the ideal temperature setpoint necessary for each air-handling unit in order to save costs or carbon footprint while maintaining occupant thermal comfort. The results of this study showedthat MPC techniques have the potential to improve building performance, but that theimprovement will rely on certain building characteristics. As shown by the studies examined, the proposal of MPC optimization algorithms aimed at minimizing both energy consumption and costs of HVAC systems is of great interest. However, as per the authors' knowledge, there are research gaps in this area concerning the lack of model predictive controllers for HVAC systems that are simultaneously smart, based on the \u201cInternet of Things\u201d (IoT), designed to address the minimization of energy consumption/cost and the maximization of thermal comfort, based on weather and occupancy estimates, adaptable for multiple users and destinations, and useful for large-scale deployment. In earlier research, some of the authors investigated MPC [22] for HVAC systems and offered a theoretical framework for simulation-based MPC through the multi-objective optimization of energy efficiency and thermal comfort [23], and already tried to use artificial neural networks for MPC [24]. The main objectives that the authors aim to achieve in this work are the following: \u2022 demonstrating the reliability of artificial neural networks (and in particular of NARX networks) with simulation software such as EnergyPlus; \u2022 demonstrating the possible reduction of the computational time achievable using an artificial neural network compared to traditional simulation tools; \u2022 showing the possible coupling with an optimization algorithm, such as a genetic algorithm, in an MPC logic, thanks to the reduced computational time; \u2022 demonstrating the potential energy/cost savings and thermal comfort improvement achievable through an MPC logic for space heating when compared to a reference control strategy. By presenting and evaluating a simulation- and optimization-based MPC framework using ANNs to enhance space heating systems, this study attempts to contribute to filling such research gaps. 2 Case study The conceptual application of the proposed methodology for model predictive control (MPC) addresses a real nearly-zero energy building, located in Benevento, a middle-size city of Southern Italy, with a balanced Mediterranean climate, characterized by 1316 heating degree days at baseline 20 °C (Italian climatic zone C). The building is named BnZEB, and it is a fully monitored living lab of Università degli Studi del Sannio, used as the residence of selected students. Accordingly, it is equipped with different tools, sensors, and actuators to monitor indoor and outdoor climatic conditions, energy consumption by all installed systems, and energy provided by renewable energy source systems. Precisely because of these characteristics, the building lends itself perfectly to this type of study, since, being a lab building, and therefore having any type of data available, it is possible to calibrate and validate the models with high accuracy. Furthermore, one of the purposes of this work is also to ascertain how much the performance of a building with very high design performance can be increased even more. Lastly, being a building also used as a laboratory to test different operating conditions, it is possible to study the replicability of this study in real conditions and the related savings (energy/economic) as well as improvements in indoor conditions. A detailed description of the building, as concerns the design and operation of both envelope and energy systems, is reported in [25,26], and it is summarized below. The building (see Fig. 1 ) is a small villa, with a net conditioned area of around 70 m2, a window-to-wall ratio of around 22% and a shape factor equal to 1 m−1. The structure is wooden-based in cross-laminated panels (X-Lam), combined with a double layer of fiber-wood insulation, with an overall insulation thickness of 19 cm. The envelope features the following values of thermal transmittance (U): 0.19 W/m2K for the external walls, 0.23 W/m2K for the roof, 0.04 W/m2K for the ground floor, 0.79 W/m2K for the internal partitions. Several types of windows are installed, all double-glazed with low-emissivity coatings and PVC frames, resulting in U values lower than 1.5 W/m2K. There are two different heating, ventilating, and air conditioning (HVAC) systems, because of testing purposes: a) an efficient electric air-source multi-split system, with a nominal heating/cooling capacity of 3.50 kW, coefficient of performance (COP) equal to 3.45 in heating operation, and energy efficiency ratio (EER); b) a packaged air system, with an electric air-to-air reversible heat pump, which can be used for heating, cooling, dehumidification, and mechanical ventilation; in this case, the nominal heating capacity is 3.18 kW with COP of 3.83, while the nominal cooling capacity is 2.14 kW with EER of 2.95. Furthermore, horizontal geothermal probes \u2013 100 m long at a depth of 2.0 m \u2013 are used for the pre-heating or pre-cooling of the conditioned air, increasing the system's efficiency. The BnZEB is here handled as a typical residential villa. Therefore, the use of HVAC system a) is assumed since it is more common for residential buildings. There are also other renewable energy source systems, i.e., photovoltaic panels and a solar collector with thermal storage, as detailed in [25,26], but these are not considered here because this study focuses on space heating energy demand. Fig. 2 shows the energy model of the building, which has been developed in [26] by using the software DesignBuilder® [27], and then exported in EnergyPlus [28] for the conceptual implementation of the MPC methodology. Such a model has been calibrated and validated against monitored data in [26]. 3 Materials and methods 3.1 Artificial neural networks Many thorough building performance simulation systems, e.g., DesignBuilder®/EnergyPlus, IDA ICE, TRNSYS®, and ESP-r, can make accurate predictions of major indices of comfort and energy use. Yet, to obtain sufficient reliability and accuracy, there is typically a significant computational cost. To solve this problem an artificial intelligence system based on artificial neural networks is utilized by giving a tool to evaluate building energy performance with quick computation times and high accuracy levels. An artificial neural network (ANN) can be thought of as a \u201cblack box\u201d that can produce an output in response to one or more inputs. This system's strength comes from its capacity to express and simulate intricate connections between incoming and outgoing variables that other analytical functions are unable to do. In order to train an ANN, a simple physical model is required. With the support of many carefully chosen input variables and the outputs provided by the physical model under investigation, an artificial neural network can typically trace the intricate connections between these latter during the training phase. Then, the outputs of other exogenous input values, those not included in the training samples, can be predicted using this method. The building energy balance calculated by EnergyPlus is used as the study's reference physical model, while artificial neural networks are created using MATLAB® [29]. A nonlinear autoregressive network with exogenous inputs (NARX), one of the several known network architectures, has been selected since it demonstrated exceptional performance in predicting building energy loads [30,31]. This recurrent dynamic neural network has feedback connections that enclose various network levels. Fig. 3 shows the two architectures that characterize this artificial neural network. A NARX is trained using the series\u2013parallel architecture to simulate a dynamic system. Following that, the series\u2013parallel configuration of the NARX network, which is used for training, is changed to the parallel configuration, which is useful for multi-step-ahead prediction. The linear ARX model, which is frequently employed in time-series modeling, is the basis of the NARX model. The next value of the dependent output signal y t is regressed on preceding values of the output signal and previous values of an independent (exogenous) input signal as shown by Eq. (1), which is the defining equation for the NARX model. A feedforward neural network can be used to approximate the function f in a NARX model. (1) y t = f ( y t - 1 , y t - 2 , ⋯ , y t - n y , y t - 1 , y t - 1 , ⋯ , y t - n u ) Fig. 4 illustrates a schematic two-layer feedforward network that is employed for the approximation. The neural network's purpose, and in this case the NARX objective is to forecast the thermal power to be supplied throughout the year and the indoor temperature. So, with the aim of predicting several operational conditions, different NARX networks are created: \u2022 a NARX network used to forecast the hourly indoor air-dry bulb temperature ( T i ) as output; \u2022 three distinct NARX networks to predict, for different setpoint temperatures, i.e., 20 °C, 21 °C, and 22 °C, the hourly heating load (HL). Several setpoint temperatures were chosen because they provide enough coverage for a wide range of heating system activities. Indeed, temperatures below 20 °C would induce considerable thermal discomfort, whereas temperatures above 22 °C are prohibited in Italy [32]. In order to calculate the comfort penalty (CP), one of the objective functions minimized throughout the optimization process, it was essential to evaluate the BnZEB's indoor air temperature an hour ahead of time. The following inputs are selected to create the networks: \u2022 outdoor air-dry bulb temperature of the site in the prediction hour (°C); \u2022 site global solar radiation rate per area in the prediction hour (Wh/m2); \u2022 indoor air-dry bulb temperature in the hour prior to the predicted hour (°C). These are not the only variables that affect a building's performance, of course. The inputs concerning occupancy, lighting, and equipment are set to zero in the performance simulations so that the network's performance may be evaluated using only three decision variables. It represents a first limitation, as it does not take into account the free contributions linked to the dynamics of the building internally. Mainly the occupancy, in the case of residential, and therefore knowing the number of people or at least having an estimate of what the average hour-by-hour occupancy of the building might be, is critical to account for the endogenous heat that results and thus to have a better estimate in terms of the heating load. For example, in the case of an office, in addition to the occupancy-related contribution, of course, the one related to both equipment and lighting also becomes more critical. Based on the limitations just described a possible starting point for future research could be to also to consider different types of artificial neural networks that can perhaps return accurate results, even with a greater number of inputs. Another strong limitation is related to the application and the possible replicability in different climates. In fact, as already experienced by some of the authors, the predictive behavior of the network is strongly affected by the training set and therefore must be closely linked in terms of prediction to the climate of which the dataset is composed [33]. Importing input and output data, produced by EnergyPlus simulations, into the MATLAB® environment is the initial stage in the development of the NARX in order to train the artificial neural networks. Several operation schedules are utilized for NARX training to make the network as adaptable as possible. In order to create a dataset that could encompass as many possibilities from the point of view of turning the system on and off, a dataset is created that includes the system being turned on and off under different conditions, i.e., always on, on/off/on at alternate hours, on/off/off/on, on/off/off/off/on, on/off/off/off/off/on. All these situations are contemplated in a 2-month range, i.e., January 1 to February 28, for each hour of the year, determining a sample of 59 days, then 1416 h, which considering all the situations analyzed, brings the data set to 7080 constituents. The chosen weather data file comes from the IWEC (International Weather for Energy Calculation [34])and relates to the city of Naples. The climate of Naples is chosen because it has the most similarities to the one of Benevento (the cityof the case study) among the locations of EnergyPlus weather files, and it is also the place that is closest. A heuristic technique is used to determine the precise design of each artificial neural network, and it produces several values for the hyperparameter nodes in the hidden layer, input delays, and feedback delays. The Levenberg-Marquardt technique is used to train all artificial neural networks, and the mean square error value is used as an indicator of the quality of the network created. Due to varying initial weight and bias settings, as well as several ways of dividing the data into training, validation, and test sets, a different solution may be discovered each time a neural network is trained. Several neural networks trained on the same problem can therefore produce various results from the same input. It is crucial to repeatedly train a neural network to make sure one with good accuracy has been developed. A value of 200,000 is selected for the number of eras, i.e., the maximum number of iterations. Moreover, a gradient of 10-9 is chosen as a further stop criterion in the creation of the network, which represents the square of the error function. Root mean squared error (RMSE) and mean absolute error (MAE) are used to assess the performance of the NARX networks created. These indicators tell us how accurate our predictions are and what is the amount of deviation from the actual values. The RMSE is certainly the most used indicator for the evaluations between observed values and values predicted by a neural network. The MAE is a linear score which means that all the individual differences are weighted equally in the average, while the RMSE is a quadratic scoring rule which measures the average magnitude of the error. Eq. (2) and Eq. (3) show, respectively, how these indicators, i.e., MAE and RMSE, are estimated: (2) MAE = 1 n ∑ i = 1 n | y i - y | (3) RMSE = 1 n ∑ i = 1 n ( y i - y ) 2 where n is the sample size, y i is the predicted value and y is the actual value. Since RMSE squares the differences between predicted and actual values, it ismore sensitive to outliers than MAE. This implies that larger errors have heavier penalties than smaller ones. 3.2 Optimization through a genetic algorithm It is possible to use a variety of optimization algorithms for building performance optimization (BPO), but the most common ones are derivative-free methods because differentiable objective functions are typically absent [35]. By employing iterative processes that drive the gradual improvement of the solution until a convergence condition is achieved, these methods carry out simulation-based optimization algorithms. The most often employed semi-stochastic population-based algorithms in BPO are genetic algorithms (GAs), particle swarm optimization, ant or bee colony algorithms, and evolutionary programming because they can guarantee, with a reasonable computationaltime, accurate suboptimal results [36]. Genetic algorithms are the most used because they allow for multi-objective optimization, handling a large solution domain, and avoiding local minima [20]. For this reason, the suggested methodology incorporates an optimization technique called NSGA II (Non-dominated Sorting Genetic Algorithm II) [36]. The \u201cDarwinian\u201d evolution of a population of individuals over several generations (iterations) is provided by this algorithm. Each one of the individuals, i.e., a combination of the design variables, represents a solution. Through processes of crossover and mutation of the best individuals (parents), identified based on the objective functions (ranking) and on the average crowding distance, the population improves iteratively from generation to generation. A certain number (elite count) of these best individuals survive to each generation. The evolution stops in two cases, i.e., if the maximum number of generations is reached, or if, between two generations, the change of the Pareto front\u2019s spread is lower than a fixed tolerance value. 3.3 MPC based on GA with NARX network The BnZEB is subjected to model predictive control (MPC) using all the previously developed NARX to minimize, through the GA, the objective functions. In order to minimize the computational effort, the NARX networks are integrated into the method to perform the multi-objective genetic algorithm. Fig. 5 summarizes the logic considered in this study. A day-to-day MPC is specifically carried out by addressing a multi-objective optimization problem. Two competing objective functions (OFs), related to thermal comfort and to the economic cost of micro-climate control, are investigated. The OFs that have to be both minimized are as follows: \u2022 comfort penalty (CP), which aims to give an indication, related to the occupants, of discomfort, and which is expressed in °C h; \u2022 heating cost (HC), which represents the daily operating cost for space heating, and is expressed in c\u20ac/m2day. The optimization procedure must be run properly for the objective functions to be minimized. The sum of the positive discrepancies between the optimal comfort temperature ( T ot ) and hourly indoor temperatures is the comfort penalty function, which is evaluated using the adaptive comfort theory. In order to avoid penalizing the usage of the building's thermal inertia, only the positive differences (and not the absolute values of the negative differences) are considered. As shown in Eq. (4), to determine the T ot , we used the monthly mean outdoor air dry-bulb temperature T o , which is the simple running average of the previous thirty daily average outdoor air temperatures (ANSI/ASHRAE Standard 55-2010 [37]). (4) T ot = 0.31 T o + 17.8 T ot is the operating temperature, which is calculated as the arithmetic mean between the average radiative temperature and the indoor air temperature [37]. Due to the building's high thermal insulation, the two temperatures are so close to one another, and therefore in this framework the operating temperature is considered equivalent to the indoor air one. The setpoint temperatures, in the building thermal zones, for each hour of the examined day, are chosen as decision variables, i.e., 24 decision variables, and can assume four different fixed setpoint values, i.e., 12 °C, 20 °C, 21 °C, and 22 °C. The following GA settings are used, in accordance with previous studies, e.g., [36]: \u2022 number of generations fixed with a maximum value equal to 400; \u2022 population size of 240; \u2022 tolerance value is set at 10-5. A solution must be chosen after the Pareto front is identified via the GA. This process is known as multi-criteria decision-making (MCDM), and it is a procedure that can be carried out according to different methods. In the suggested methodology, the MCDM is done by the user based on CP (so based on comfort requirements) and/or HC (if the user is interested in fixing economic limits). More in detail, in this work, the priority is to guarantee the base indoor comfort conditions, so it is supposed that the user sets a maximum acceptable value of CP and selects from the Pareto front the solution that fulfills this comfort constraint and minimizes the HC. Thus, as emphasized the main objective is not to worsen the comfort conditions resulting from the baseline approach, taking into account, however, and thus not neglecting the economic aspect as well, that if the optimum point found by the GA results in an increase in HC, solutions that minimize costs for a minimum percentage value of CP change are also evaluated. 4 Results and discussion Subsequent to a trial-and-error investigation, the following settings are used to create all artificial neural networks in order to achieve the best NARX performance: 18 neurons in the hidden layer, 1 input delay, and 2 output delays. Table 1 reports the prediction performance of the constructed NARX networks with respect to the testing set and demonstrates strong dependability with simulated data. An example of the prediction of the different NARX networks is reported in Fig. 6 and Fig. 7 with regard to a part of the testing set. In particular, Fig. 6 illustrates the NARX network created to predict the heating load with a fixed setpoint temperature of, respectively, 20 °C (HL20), 21 °C (HL21), and 22 °C (HL22), while Fig. 7 shows the NARX network trained to predict the indoor temperature ( T i ). The sample shown in Fig. 6 and Fig. 7, i.e., the 150 h of example network prediction for heating load and the approximately 170 h for indoor temperature, represent a small part of the dataset used for the testing of the NARX networks. After that, the problem of multi-objective optimization is addressed. This means identifying the decision variables that minimize the objective functions \u2014 heating cost (HC) and comfort penalty (CP) \u2014 by combining them in the best possible way. For the optimization procedure, three different winter days, i.e., January 31, February 14, and February 28, are evaluated to simulate various potentials of a typical winter day. As already explained in Section 3, for each day two different optimization are performed, for two different scenarios of electricity cost ( c el ), i.e., considering c el equal to 0.25 \u20ac/kWh or 0.40 \u20ac/kWh. These two economic scenarios are considered in order to take into account also the possibility of an increase/decrease in the electricity cost due to different reasons. Actually, the price of electricity, in Europe, is fluctuating and in particular is increasing due to the war as reported by Eurostat [38]. Fig. 8 is referred to January 31 considering a c el equal to 0.25 \u20ac/kWh and shows in part (a) the achieved Pareto front, with the reference solution (star), which represents a typical residential schedule strategy and the chosen solution (square). For a residential heating system, typical scheduling is set to start from 5:00 to 8:00 to heat the house at the beginning of the day, then from 14:00 to 16:00, and finally from 19:00 to 23:00. For multi-criteria decision-making (MCDM), the CP value limited is set equal to the reference solution one, i.e., 21.68 °C h, while the HC value in the reference point is 1.16c\u20ac/m2day. As can be seen in Fig. 8, two optimal points are chosen, the first respecting the constraint on CP and the second respecting the constraint on HC, to underline that the main objective is of course to not worsen the comfort conditions resulting from the baseline approach, but it is also important to not neglect the economic aspect as well and that, therefore, in the case where the optimal solution found by the GA does not respect both constraints evaluations must be made as in this case. Table 2 shows the values of the objective functions and demonstrates how with only a 0.3% deterioration on comfort penalty a 12.1% cost saving can be achieved. Fig. 8 (b), instead, outlines the new optimized space heating control strategy obtained from the genetic algorithm compared to the reference. The findings in relation to the setpoint temperature assumptions made by the heating system are interesting and in line with thermophysical observations. Both proposed solutions overlap, compared with the reference solution, only a few setpoints, showing how it is necessary to follow the daily trend of external conditions, i.e., external temperature and solar radiation, and not rely on fixed scheduling. As expected, the configuration that improves the comfort penalty (by decreasing it) involves a greater number of setpoints at a higher temperature at the expense of heating costs. Unlike the second proposal that improves heating cost by 12% at the expense of superfluous impact on comfort penalty, i.e., only 0.3%. Fig. 9 , shows for the same day, i.e., January 31, the same study, but considering an electricity cost of 0.40 \u20ac/kWh more in line with the current electricity market in Italy [38]. In this case, as shown in part (a) of the figure there is only one point that meets both constraints and, in this case, results in a reduction in CP and HC of 3.2% and 1.1%, respectively. In order to analyze even more reliable results, 3 different days are examined. In fact, Fig. 10 and Fig. 11 refer to February 14, while Fig. 12 and Fig. 13 refer to February 28. Fig. 10 and Fig. 11, then, analyze February 14 in the two possible economic scenarios envisioned. In the case where the cost of electricity is 0.25 \u20ac/kWh, then with reference to Fig. 10, there is only one point, on the Pareto front, that verifies both comfort and economic constraints and brings their value for CP and HC, respectively, to a reduction of 3.1% and 11.1%. Instead, as can be seen in Fig. 11 , for the scenario of the c el equal to 0.40 \u20ac/kWh, there is no point, on the Pareto front, that simultaneously verifies both constraints and that therefore as in the case of January 31 for a c el equal to 0.25 \u20ac/kWh it is necessary to make a choice on one of two constraints. Fig. 12 and Fig. 13, however, thus refer to the last day analyzed in this study, which appears to be the coldest. The optimal solution setpoint temperatures, denoted in Fig. 12 by a yellow square, are in line with the dotted trend of outdoor air temperature. The ideal solution has an HC of 1.1c\u20ac/m2day and a CP of 15 °C h. This results in a 9% heating cost savings and a 7% reduction in the discomfort penalty. The ideal design calls for a higher setpoint temperature between 5:00 and 7:00 because these hours are marked by comparatively low outdoor temperatures. The setpoint temperatures instead drop to a lower value in the evening when the outdoor temperature rises. Fig. 13 illustrates the last Pareto front achieved for February 28, considering a c el equal to 0.40 \u20ac/kWh and shows the best result in terms of HC with a reduction, referring to the reference solution of 1.92c\u20ac/m2day, of 0.50c\u20ac/m2day. The final results, as also shown in Table 2, are better on days with colder weather conditions, i.e., lower outdoor temperature, as on February 28. In fact, on this day, it is possible to obtain, the most consistent improvement, having the case of c el equal to 0.25 \u20ac/kWh a point of optimum that allows an improvement in CP and HC of 6.5% and 9.2%, respectively, and, considering c el equivalent to 0.40, an improvement in CP of 0.7% and even in HC of 26%. Table 2 resumes all the results, in terms of objective functions, obtained by applying this method. In particular, Table 2 illustrates, for both reference and chosen solutions, the value and the comparison (in percentage), for the two objective functions, i.e., comfort penalty and the heating cost. Talking about euro cents per square meter makes sense up to a certain point, i.e., if the percentage difference, between the reference solution and the proposed one, are analyzed. Table 3 reports the heating cost results, for the BnZEB in \u20ac/day, considering a space heating area of 68.70 m2, and a seasonal result, for the BnZEB, considering a season composed of 120 days like the reference one, obtained by applying this method. It is of particular interest the result obtained for February 28, where there is a 41.22 \u20ac/120 days saving. Downstream of all this, it is important to stress the fact that the BnZEB is a nearly zero-energy building and that therefore its request for space heating is already the minimum possible. It is important to underline this in order to understand how the results obtained in this study, when compared with buildings that do not have the same characteristics in terms of envelope and generation system, can lead to substantial economic benefits, as well as considering those obtainable from the improvement of indoor conditions going to decrease the comfort penalty. 5 Conclusions This study demonstrates the potential of a simulation- and optimization-based framework using a NARX network and a genetic algorithm for the model predictive control (MPC) of space heating systems. The case study, a nearly-zero energy building in a Mediterranean climate, shows that the NARX networks are reliable and can be further optimized to improve their performance. The proposed framework, which aims to enhance the heating efficiency through GA- and ANN-based MPC, is tested on three typical days of the heating season demonstrating potential energy cost savings, e.g., up to 26%, and improved thermal comfort compared to a reference control strategy. The main goals achieved in this work are as follows: \u2022 The reliability of the NARX networks with simulated EnergyPlus targets. \u2022 The possibility of also improving their performance by optimizing the data sets and parameters. \u2022 The computational time reduction using an artificial neural network if compared to traditional simulation tools such as EnergyPlus. \u2022 The possible coupling of the ANNs with an optimization algorithm, such as a genetic algorithm, in an MPC logic. \u2022 The potential energy cost savings, e.g., up to 26%, and improved thermal comfort of the applied space heating MPC if compared to a reference control strategy. In practical applications, the developed MPC procedure can be integrated into a building automation system, and with inputs of actual occupancy profiles and weather conditions, it provides smart real-time optimized regulation of the HVAC system while being subordinated to the user's requirements. Furthermore, the use of artificial neural networks for MPC in building energy management systems has the potential to significantly reduce the calculation time compared to traditional simulation tools such as EnergyPlus. This time efficiency could lead to increased productivity and more frequent optimization of the HVAC system, enabling greater energy savings and improved thermal comfort for building occupants. Therefore, the integration of devices that allow all of this inside a building could lead to significant reductions from an energy point of view and above all to economic savings based on the control strategies that the user wants to implement. One of the main limitations is related to network training, in fact, the accuracy of NARX networks, and not only that, is influenced by both size and complexity of the data set used to train them. In order to have a good prediction, it is necessary to use a sample of data that is quite large and all-inclusive but which at the same time is also representative of both the case study and the place where the building is located. Precisely regarding to the last point and therefore different climates, a further limitation is linked to the fact that it is necessary to create a different network for each different climate to make the prediction as best as possible. Therefore, even for similar buildings, but which are located in different climatic conditions, it is necessary to build a different artificial neural network. Future studies can focus on further improving the reliability of ANN, also considering different ANNs, and incorporating measured data for training the networks. Another possible point could be to analyze the same type of approach, but in the summer season, considering the ever-increasing demand for cooling. These advancements could lead to even greater energy savings and improved thermal comfort in buildings, contributing to the global effort to reduce energy consumption and to mitigate climate change. Overall, the findings of this study have significant implications for the optimization of building energy management and HVAC control systems in terms of both performance and time efficiency. CRediT authorship contribution statement Giuseppe Aruta: Conceptualization, Methodology, Software, Data curation, Investigation, Writing \u2013 review & editing. Fabrizio Ascione: Conceptualization, Methodology, Software, Data curation, Investigation, Writing \u2013 review & editing. Nicola Bianco: Conceptualization, Methodology, Software, Data curation, Investigation, Writing \u2013 review & editing. Gerardo Maria Mauro: Conceptualization, Methodology, Software, Data curation, Investigation, Writing \u2013 review & editing. Giuseppe Peter Vanoli: Conceptualization, Methodology, Software, Data curation, Investigation, Writing \u2013 review & editing. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgements The authors thank the Italian Ministry of University and Research, for the funding of the PRIN Project \u201cSUSTAIN/ABLE\u201d ERC Sector PE8, ID 20174RTL7W_007. In addition, the authors specify that a short version of this paper has been presented at the International Conference SpliTech 2022. References [1] IEA (International Energy Agency), \u201cIEA (2022), Buildings, IEA, Paris,\u201d vol. Buildings, 2022, [Online]. Available: https://www.iea.org/reports/buildings. [2] \u201cEuropean Commission 2050 targets.\u201d [Online]. Available: https://ec.europa.eu/info/energy-climate-change-environment/overall-targets-and-reporting/2050-targets_en. [3] E. Commission, \u201cEnergy efficiency in buildings,\u201d no. February, 2020. [4] D. Gyalistras et al., \u201cAnalysis of Energy Savings Potentials for Integrated Room Automation,\u201d 10th REHVA World Congr. Clima, p. 8, 2010, [Online]. Available: http://www.sysecol2.ethz.ch/OptiControl/Lit/Gyal_10_Proc-Clima2010.pdf. [5] N. Luo, Y. Vidal, and L. Acho, Advances in Industrial Control Control. 2014. [6] \u201cDIRECTIVE (EU) 2018, 844 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 30 May, Online Available 2018\u201d. https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018L0844&from=IT#d1e635-75-1. [7] F. Oldewurtel A. Parisio C.N. Jones D. Gyalistras M. Gwerder V. Stauch B. Lehmann M. Morari Use of model predictive control and weather forecasts for energy efficient building climate control Energy Build. 45 2012 15 27 F. Oldewurtel et al., \u201cUse of model predictive control and weather forecasts for energy efficient building climate control,\u201d Energy Build, vol. 45, pp. 15\u201327, 2012, doi: 10.1016/j.enbuild.2011.09.022. [8] D. Sturzenegger D. Gyalistras M. Morari R.S. Smith Model Predictive Climate Control of a Swiss Office Building: Implementation, Results, and Cost-Benefit Analysis IEEE Trans. Control Syst. Technol. 24 1 2016 1 12 10.1109/TCST.2015.2415411 D. Sturzenegger, D. Gyalistras, M. Morari, and R. S. Smith, \u201cModel Predictive Climate Control of a Swiss Office Building: Implementation, Results, and Cost-Benefit Analysis,\u201d IEEE Transactions on Control Systems Technology, vol. 24, no. 1, pp. 1\u201312, 2016, doi: 10.1109/TCST.2015.2415411. [9] G. Bianchini M. Casini D. Pepe A. Vicino G.G. Zanvettor An integrated model predictive control approach for optimal HVAC and energy storage operation in large-scale buildings Appl. Energy vol. 240, no. Cdc 2019 327 340 10.1016/j.apenergy.2019.01.187 G. Bianchini, M. Casini, D. Pepe, A. Vicino, and G. G. Zanvettor, \u201cAn integrated model predictive control approach for optimal HVAC and energy storage operation in large-scale buildings,\u201d Appl Energy, vol. 240, no. Cdc, pp. 327\u2013340, 2019, doi: 10.1016/j.apenergy.2019.01.187. [10] O. Van Cutsem M. Kayal D. Blum M. Pritoni \u201cComparison of MPC formulations for building control under commercial time-of-use tariffs\u201d, 2019 IEEE Milan PowerTech PowerTech 2019 2019 10.1109/PTC.2019.8810854 O. Van Cutsem, M. Kayal, D. Blum, and M. Pritoni, \u201cComparison of MPC formulations for building control under commercial time-of-use tariffs,\u201d 2019 IEEE Milan PowerTech, PowerTech 2019, 2019, doi: 10.1109/PTC.2019.8810854. [11] L. Peeters J. Van der Veken H. Hens L. Helsen W. D\u2019haeseleer, Control of heating systems in residential buildings: Current practice Energy Build. 40 8 2008 1446 1455 10.1016/j.enbuild.2008.02.016 L. Peeters, J. Van der Veken, H. Hens, L. Helsen, and W. D\u2019haeseleer, \u201cControl of heating systems in residential buildings: Current practice,\u201d Energy Build, vol. 40, no. 8, pp. 1446\u20131455, 2008, doi: 10.1016/j.enbuild.2008.02.016. [12] M. Wetter E. Polak Building design optimization using a convergent pattern search algorithm with adaptive precision simulations Energy Build. 37 6 2005 603 612 10.1016/j.enbuild.2004.09.005 M. Wetter and E. Polak, \u201cBuilding design optimization using a convergent pattern search algorithm with adaptive precision simulations,\u201d Energy Build, vol. 37, no. 6, pp. 603\u2013612, 2005, doi: 10.1016/j.enbuild.2004.09.005. [13] D. Picard J. Drgoňa M. Kvasnica L. Helsen Impact of the controller model complexity on model predictive control performance for buildings Energy Build. 152 2017 739 751 10.1016/j.enbuild.2017.07.027 D. Picard, J. Drgoňa, M. Kvasnica, and L. Helsen, \u201cImpact of the controller model complexity on model predictive control performance for buildings,\u201d Energy Build, vol. 152, pp. 739\u2013751, 2017, doi: 10.1016/j.enbuild.2017.07.027. [14] Z. Afroz, G. M. Shafiullah, T. Urmee, and G. Higgins, \u201cModeling techniques used in building HVAC control systems: A review,\u201d Renewable and Sustainable Energy Reviews, vol. 83, no. October 2017, pp. 64\u201384, 2018, doi: 10.1016/j.rser.2017.10.044. [15] A. Afram F. Janabi-Sharifi Review of modeling methods for HVAC systems Appl. Therm. Eng. 67 1\u20132 2014 507 519 10.1016/j.applthermaleng.2014.03.055 A. Afram and F. Janabi-Sharifi, \u201cReview of modeling methods for HVAC systems,\u201d Appl Therm Eng, vol. 67, no. 1\u20132, pp. 507\u2013519, 2014, doi: 10.1016/j.applthermaleng.2014.03.055. [16] Y. Yao and D. K. Shekhar, \u201cState of the art review on model predictive control (MPC) in Heating Ventilation and Air-conditioning (HVAC) field,\u201d Build. Environ., vol. 200, no. April, p. 107952, 2021, doi: 10.1016/j.buildenv.2021.107952. [17] S. Yang M. Pun W. Chen B. Feng S. Dubey Model predictive control with adaptive machine-learning-based model for building energy efficiency and comfort optimization Appl. Energy vol. 271, no. January 2020 115147 10.1016/j.apenergy.2020.115147 S. Yang, M. Pun, W. Chen, B. Feng, and S. Dubey, \u201cModel predictive control with adaptive machine-learning-based model for building energy efficiency and comfort optimization,\u201d Appl Energy, vol. 271, no. January, p. 115147, 2020, doi: 10.1016/j.apenergy.2020.115147. [18] S. Yang M. Pun Machine-learning-based model predictive control with instantaneous linearization \u2013 A case study on an air-conditioning and mechanical ventilation system primary Air Handling Unit Appl. Energy vol. 306, no. PB 2022 118041 10.1016/j.apenergy.2021.118041 S. Yang and M. Pun, \u201cMachine-learning-based model predictive control with instantaneous linearization \u2013 A case study on an air-conditioning and mechanical ventilation system primary Air Handling Unit,\u201d Appl Energy, vol. 306, no. PB, p. 118041, 2022, doi: 10.1016/j.apenergy.2021.118041. [19] K. Tamashiro E. Omine N. Krishnan A. Mikhaylov A.M. Hemeida T. Senjyu Optimal components capacity based multi-objective optimization and optimal scheduling based MPC-optimization algorithm in smart apartment buildings Energy Build. 278 2023 112616 10.1016/j.enbuild.2022.112616 K. Tamashiro, E. Omine, N. Krishnan, A. Mikhaylov, A. M. Hemeida, and T. Senjyu, \u201cOptimal components capacity based multi-objective optimization and optimal scheduling based MPC-optimization algorithm in smart apartment buildings,\u201d Energy Build, vol. 278, p. 112616, 2023, doi: 10.1016/j.enbuild.2022.112616. [20] A. Afram F. Janabi-Sharifi Supervisory model predictive controller (MPC) for residential HVAC systems: Implementation and experimentation on archetype sustainable house in Toronto Energy Build. 154 2017 268 282 10.1016/j.enbuild.2017.08.060 A. Afram and F. Janabi-Sharifi, \u201cSupervisory model predictive controller (MPC) for residential HVAC systems: Implementation and experimentation on archetype sustainable house in Toronto,\u201d Energy Build, vol. 154, pp. 268\u2013282, 2017, doi: 10.1016/j.enbuild.2017.08.060. [21] M. Bird C. Daveau E.O. Dwyer S. Acha N. Shah Energy & Buildings Real-world implementation and cost of a cloud-based MPC retrofit for HVAC control systems in commercial buildings Energy Build. 270 2022 112269 10.1016/j.enbuild.2022.112269 M. Bird, C. Daveau, E. O. Dwyer, S. Acha, and N. Shah, \u201cEnergy & Buildings Real-world implementation and cost of a cloud-based MPC retrofit for HVAC control systems in commercial buildings,\u201d Energy Build, vol. 270, p. 112269, 2022, doi: 10.1016/j.enbuild.2022.112269. [22] F. Ascione N. Bianco C. De Stasio G.M. Mauro G.P. Vanoli Simulation-based model predictive control by the multi-objective optimization of building energy performance and thermal comfort Energy Build. 111 2016 131 144 10.1016/j.enbuild.2015.11.033 F. Ascione, N. Bianco, C. De Stasio, G. M. Mauro, and G. P. Vanoli, \u201cSimulation-based model predictive control by the multi-objective optimization of building energy performance and thermal comfort,\u201d Energy Build, vol. 111, pp. 131\u2013144, 2016, doi: 10.1016/j.enbuild.2015.11.033. [23] F. Ascione N. Bianco G.M. Mauro D.F. Napolitano G.P. Vanoli Weather-data-based control of space heating operation via multi-objective optimization: Application to Italian residential buildings Appl. Therm. Eng. 163 November 2019 10.1016/j.applthermaleng.2019.114384 F. Ascione, N. Bianco, G. M. Mauro, D. F. Napolitano, and G. P. Vanoli, \u201cWeather-data-based control of space heating operation via multi-objective optimization: Application to Italian residential buildings,\u201d Appl Therm Eng, vol. 163, no. November 2018, p. 114384, 2019, doi: 10.1016/j.applthermaleng.2019.114384. [24] G. Aruta, F. Ascione, N. Bianco, R. F. De Masi, G. M. Mauro, and G. P. Vanoli, \u201cModel predictive control based on genetic algorithm and neural networks to optimize heating operation of a real low-energy building,\u201d 2022 7th International Conference on Smart and Sustainable Technologies, SpliTech 2022, 2022, doi: 10.23919/SpliTech55088.2022.9854312. [25] F. Ascione N. Bianco F. De Rossi R.F. De Masi G.P. Vanoli Concept, Design and Energy Performance of a Net Zero-Energy Building in Mediterranean Climate Procedia Eng. 169 2016 26 37 10.1016/j.proeng.2016.10.004 F. Ascione, N. Bianco, F. De Rossi, R. F. De Masi, and G. P. Vanoli, \u201cConcept, Design and Energy Performance of a Net Zero-Energy Building in Mediterranean Climate,\u201d Procedia Eng, vol. 169, pp. 26\u201337, 2016, doi: 10.1016/j.proeng.2016.10.004. [26] F. Ascione M. Borrelli R.F. De Masi F. de Rossi G.P. Vanoli A framework for NZEB design in Mediterranean climate: Design, building and set-up monitoring of a lab-small villa Solar Energy 184 January 2019 10.1016/j.solener.2019.03.083 F. Ascione, M. Borrelli, R. F. De Masi, F. de Rossi, and G. P. Vanoli, \u201cA framework for NZEB design in Mediterranean climate: Design, building and set-up monitoring of a lab-small villa,\u201d Solar Energy, vol. 184, no. January 2019, pp. 11\u201329, 2019, doi: 10.1016/j.solener.2019.03.083. [27] \u201cDesignBuilder.\u201d DesignBuilder Software Ltd, Gloucestershire, UK, 2013. [28] \u201cEnergyPlus simulation software.\u201d U.S. Department of Energy, Washington, DC, USA, 2012. [29] \u201cMathWorks, MATLAB \u2013 MATrixLABoratory.\u201d [Online]. Available: https://it.mathworks.com/products/matlab.html. [30] R.F. Mustapa N.Y. Dahlan A.I.M. Yassin A.H.M. Nordin Quantification of energy savings from an awareness program using NARX-ANN in an educational building Energy Build. 215 2020 109899 10.1016/j.enbuild.2020.109899 R. F. Mustapa, N. Y. Dahlan, A. I. M. Yassin, and A. H. M. Nordin, \u201cQuantification of energy savings from an awareness program using NARX-ANN in an educational building,\u201d Energy Build, vol. 215, p. 109899, 2020, doi: 10.1016/j.enbuild.2020.109899. [31] D. Koschwitz J. Frisch C. van Treeck Data-driven heating and cooling load predictions for non-residential buildings based on support vector machine regression and NARX Recurrent Neural Network: A comparative study on district scale Energy 165 2018 134 142 10.1016/j.energy.2018.09.068 D. Koschwitz, J. Frisch, and C. van Treeck, \u201cData-driven heating and cooling load predictions for non-residential buildings based on support vector machine regression and NARX Recurrent Neural Network: A comparative study on district scale,\u201d Energy, vol. 165, pp. 134\u2013142, 2018, doi: 10.1016/j.energy.2018.09.068. [32] \u201cD.P.R. (Decree of the President of the Republic) 26 agosto 1993. n. 412, Regolamento recante norme per la progettazione, l\u2019installazione, l\u2019esercizio e la manutenzione degli impianti termici degli edifici.\u201d. [33] G. Aruta F. Ascione O. Boettcher R.F. De Masi G.M. Mauro G.P. Vanoli Machine learning to predict building energy performance in different climates IOP Conf. Ser. Earth Environ. Sci. 1078 1 2022 012137 G. Aruta, F. Ascione, O. Boettcher, R. F. De Masi, G. M. Mauro, and G. P. Vanoli, \u201cMachine learning to predict building energy performance in different climates,\u201d IOP Conf Ser Earth Environ Sci, 2022, doi: 10.1088/1755-1315/1078/1/012137. [34] \u201cASHRAE, International Weather for Energy Calculations.\u201d. [35] A.T. Nguyen S. Reiter P. Rigo A review on simulation-based optimization methods applied to building performance analysis Appl. Energy 113 2014 1043 1058 10.1016/j.apenergy.2013.08.061 A. T. Nguyen, S. Reiter, and P. Rigo, \u201cA review on simulation-based optimization methods applied to building performance analysis,\u201d Appl Energy, vol. 113, pp. 1043\u20131058, 2014, doi: 10.1016/j.apenergy.2013.08.061. [36] F. Ascione N. Bianco C. De Stasio G.M. Mauro G.P. Vanoli Multi-stage and multi-objective optimization for energy retrofitting a developed hospital reference building: A new approach to assess cost-optimality Appl. Energy 174 2016 37 68 10.1016/j.apenergy.2016.04.078 F. Ascione, N. Bianco, C. De Stasio, G. M. Mauro, and G. P. Vanoli, \u201cMulti-stage and multi-objective optimization for energy retrofitting a developed hospital reference building: A new approach to assess cost-optimality,\u201d Appl Energy, vol. 174, pp. 37\u201368, 2016, doi: 10.1016/j.apenergy.2016.04.078. [37] S. A. Fard et al., \u201cANSI/ASHRAE 55:2010 Addendum a to ANSI/ASHRAE Standard 55:2010,\u201d Ashrae Standard, 2011. [38] Eurostat, \u201cElectricity price statistics,\u201d European Commission, no. April, pp. 1\u201310, 2022, [Online]. Available: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Electricity_price_statistics.",
+    "scopus-id": "85159183067",
+    "coredata": {
+        "eid": "1-s2.0-S0378778823003699",
+        "dc:description": "Using a simulation- and optimization-based framework that leverages artificial neural networks for the model predictive control of space heating operation, machine learning techniques are explored to predict the energy performance of a real nearly zero energy building located in Benevento (Southern Italy, Mediterranean climate). The framework's goal is to minimize heating energy costs and thermal discomfort by providing optimal values of setpoint temperatures on a day-ahead planning horizon based on weather forecasts. To achieve this, a Pareto multi-objective approach is applied, which considers thermal comfort via the adaptive theory of ASHRAE 55, assessing a comfort penalty function. The optimization problem is solved using a genetic algorithm in the MATLAB® environment. Objective functions are evaluated using the coupling between MATLAB® and EnergyPlus, which is used as building performance simulation tool. Multi-criteria decision-making is performed to select an optimal solution from the Pareto front while setting a limit to the comfort penalty. To test the framework, EnergyPlus weather data is used to simulate weather forecasts for typical days of the winter season. Two different economic scenarios are simulated in order to be able to analyze both conditions and given the variability of the electricity price. For the different days tested, the best results in terms of savings achieved through the proposed solution are on Feb. 28, corresponding to the coldest day and the highest energy cost, with daily savings of 26% compared to a reference control with a fixed setpoint of 21 °C, while maintaining similar comfort performance. The results suggest that optimized control is a crucial aspect of sustainable building design, and the proposed framework can be virtually implemented or integrated into automation systems for real-time model predictive control.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2023-08-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378778823003699",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Aruta, Giuseppe"
+            },
+            {
+                "@_fa": "true",
+                "$": "Ascione, Fabrizio"
+            },
+            {
+                "@_fa": "true",
+                "$": "Bianco, Nicola"
+            },
+            {
+                "@_fa": "true",
+                "$": "Mauro, Gerardo Maria"
+            },
+            {
+                "@_fa": "true",
+                "$": "Vanoli, Giuseppe Peter"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0378778823003699"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0378778823003699"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0378-7788(23)00369-9",
+        "prism:volume": "292",
+        "articleNumber": "113139",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Optimizing heating operation via GA- and ANN-based model predictive control: Concept for a real nearly-zero energy building",
+        "prism:copyright": "© 2023 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Energy efficiency"
+            },
+            {
+                "@_fa": "true",
+                "$": "Zero energy buildings"
+            },
+            {
+                "@_fa": "true",
+                "$": "Model predictive control"
+            },
+            {
+                "@_fa": "true",
+                "$": "Thermal comfort"
+            },
+            {
+                "@_fa": "true",
+                "$": "Genetic algorithm"
+            },
+            {
+                "@_fa": "true",
+                "$": "HVAC systems"
+            },
+            {
+                "@_fa": "true",
+                "$": "Multi-objective optimization"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "113139",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 August 2023",
+        "prism:doi": "10.1016/j.enbuild.2023.113139",
+        "prism:startingPage": "113139",
+        "dc:identifier": "doi:10.1016/j.enbuild.2023.113139",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "450",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36376",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "740",
+            "@width": "783",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "134652",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "373",
+            "@width": "749",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "66372",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "376",
+            "@width": "754",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "64967",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "980",
+            "@width": "341",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "97988",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "360",
+            "@width": "383",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41330",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "245",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "18051",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "327",
+            "@width": "734",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "75010",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "390",
+            "@width": "783",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "71220",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "146",
+            "@width": "534",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27108",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "713",
+            "@width": "754",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "121569",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "195",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "19083",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "373",
+            "@width": "749",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "64629",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "275",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "44967",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "97",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8703",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9281",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "109",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7507",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "109",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7699",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "57",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6989",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "174",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11053",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "100",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4370",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "97",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8664",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "109",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7321",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "60",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "10648",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "173",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9700",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "80",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4524",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "109",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7667",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "113",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "19902",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1995",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "258236",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3276",
+            "@width": "3466",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "700961",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1651",
+            "@width": "3315",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "376674",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1665",
+            "@width": "3340",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "353865",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "4337",
+            "@width": "1509",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "642505",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1599",
+            "@width": "1699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "241510",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1085",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "99954",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1446",
+            "@width": "3248",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "443327",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1726",
+            "@width": "3467",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "373835",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "403",
+            "@width": "1472",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "114434",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3157",
+            "@width": "3340",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "646904",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "861",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "108172",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1650",
+            "@width": "3315",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "373537",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "732",
+            "@width": "1417",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "141187",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3247",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3182",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2164",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10597",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2506",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4265",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1736",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18394",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13360",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17944",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3268",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1891",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778823003699-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1713604",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85159183067"
+    }
+}}

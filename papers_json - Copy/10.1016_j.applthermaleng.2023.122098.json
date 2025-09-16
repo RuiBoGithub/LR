@@ -1,0 +1,896 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85179447278",
+    "originalText": "serial JL 271641 291210 291787 291811 291877 31 Applied Thermal Engineering APPLIEDTHERMALENGINEERING 2023-11-26 2023-11-26 2023-12-05 2023-12-05 2023-12-30T18:56:33 1-s2.0-S1359431123021270 S1359-4311(23)02127-0 S1359431123021270 10.1016/j.applthermaleng.2023.122098 S300 S300.1 FULL-TEXT 1-s2.0-S1359431123X00234 2024-01-08T07:50:25.304278Z 0 0 20240215 2024 2023-11-26T07:13:30.756494Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst nomenclature orcid primabst pubtype ref 1359-4311 13594311 true 239 239 C Volume 239 17 122098 122098 122098 20240215 15 February 2024 2024-02-15 2024 Special Issue: Alternative Energy Sources, Materials & Technologies, 2023 (ATE) article fla © 2023 Elsevier Ltd. All rights reserved. DEVELOPMENTADYNAMICDEMANDRESPONSEQUANTIFICATIONCONTROLFRAMEWORKFORFANCOILAIRCONDITIONINGSYSTEMSBASEDPREDICTIONMODELS CAO J Nomenclature 1 Introduction 2 Methodology 2.1 DR quantification and control framework 2.2 Building model 2.3 DR performance dynamic evaluation toolkit 2.4 Establishment of prediction model 2.4.1 Model training 2.4.2 Hyper-parameter determination 2.4.3 Prediction accuracy evaluation method 3 Case study 3.1 Typical building parameter determination 3.2 Retrofit building parameter determination 3.2.1 Procedure of sensitivity analysis 3.2.2 Morris method 3.2.3 Input parameters for sensitivity analysis 3.2.4 Output variables for sensitivity analysis 4 Results and discussions 4.1 Sensitivity analysis results and retrofit building determination 4.2 DR performance calculation in the DR evaluation toolkit 4.2.1 DR performance calculation results 4.2.2 Advantages and limitations of the toolkit 4.3 Effectiveness of DR prediction models 4.3.1 Analysis of load shedding prediction model 4.3.2 Analysis of setpoint adjustment prediction model 5 Conclusions Acknowledgments References LI 2023 120213 R AN 2023 J DELAC 2022 B TWAHA 2018 320 331 S LI 2016 981 994 W CHEN 2021 120042 Y XIONG 2023 120935 C SAFFARI 2022 119092 M CHRISTANTONI 2016 76 86 D DA 2023 J LU 2022 104214 F CHEN 2021 117324 Y ZHU 2022 119796 J TANG 2018 74 83 R LI 2017 383 395 W LI 2019 19 29 W LI 2018 2999 3003 Y YIN 2016 149 164 R CHEN 2017 659 670 Y LUO 2022 118372 N YIN 2010 967 975 R SHA 2021 116652 H SONG 2023 120721 J LI 2021 100054 H LIU 2020 267 280 J LANGEVIN 2021 2102 2128 J ZHOU 2021 Z MACHINELEARNING TARANTOLA 2017 1979 1999 S SIMLABSOFTWAREFORUNCERTAINTYSENSITIVITYANALYSIS JINGXUAN 2020 W INFLUENCEDIFFERENTFACTORSMETEOROLOGICALDATAHVAC PANG 2020 109659 Z LI 2018 1280 1291 H ZEFERINA 2021 110703 V KRISTENSEN 2016 166 176 M MAVROMATIDIS 2018 219 238 G FU 2022 118133 Y CAOX2024X122098 CAOX2024X122098XJ 2025-12-05T00:00:00.000Z 2025-12-05T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2023 Elsevier Ltd. All rights reserved. 2023-12-16T09:14:12.419Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Ministry of Housing and Urban-Rural Development of the People\u2019s Republic of China 2020-K-165 MOHURD Ministry of Housing and Urban-Rural Development http://data.elsevier.com/vocabulary/SciValFunders/501100005316 http://sws.geonames.org/1814991/ Ministry of Housing and Urban-Rural Development of the People's Republic of China Xiaohe Sci-Tech Talents Special Funding under Hunan Provincial Sci-Tech Talents Sponsorship Program 2023TJ-X79 National Natural Science Foundation of China 52208105 52278104 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ Hunan Provincial Natural Science Foundation of China 2022JJ40057 Natural Science Foundation of Hunan Province http://data.elsevier.com/vocabulary/SciValFunders/501100004735 http://sws.geonames.org/1814991/ Natural Science Foundation of Chongqing, China CSTB2022NSCQ-MSX1215 Natural Science Foundation of Chongqing Municipality http://data.elsevier.com/vocabulary/SciValFunders/501100005230 http://sws.geonames.org/1814991/ This study was sponsored by the National Natural Science Foundation of China (No. 52278104 and No. 52208105), 2020 Science and Technology Project Plan of the Ministry of Housing and Urban-Rural Development of the People's Republic of China (2020-K-165), Xiaohe Sci-Tech Talents Special Funding under Hunan Provincial Sci-Tech Talents Sponsorship Program (2023TJ-X79), Hunan Provincial Natural Science Foundation of China (2022JJ40057), Natural Science Foundation of Chongqing, China (CSTB2022NSCQ-MSX1215). This study was sponsored by the National Natural Science Foundation of China (No. 52278104 and No. 52208105 ), 2020 Science and Technology Project Plan of the Ministry of Housing and Urban-Rural Development of the People\u2019s Republic of China ( 2020-K-165 ), Xiaohe Sci-Tech Talents Special Funding under Hunan Provincial Sci-Tech Talents Sponsorship Program ( 2023TJ-X79 ), Hunan Provincial Natural Science Foundation of China ( 2022JJ40057 ), Natural Science Foundation of Chongqing, China ( CSTB2022NSCQ-MSX1215 ). https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S1359-4311(23)02127-0 S1359431123021270 1-s2.0-S1359431123021270 10.1016/j.applthermaleng.2023.122098 271641 2024-01-08T07:50:25.304278Z 2024-02-15 1-s2.0-S1359431123021270-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/MAIN/application/pdf/991359d4ef0ff4d42bd1f11a08f6ca77/main.pdf main.pdf pdf true 10711601 MAIN 16 1-s2.0-S1359431123021270-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/PREVIEW/image/png/1ce4989af47b22b5a050a10845d3fcab/main_1.png main_1.png png 61572 849 656 IMAGE-WEB-PDF 1 1-s2.0-S1359431123021270-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr12/DOWNSAMPLED/image/jpeg/d0c1b7b4d0b86e9f45ec71f1dad829fd/gr12.jpg gr12 gr12.jpg jpg 102936 536 692 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr11/DOWNSAMPLED/image/jpeg/da596e6e4aa74c0f1c3a57b8db8e18db/gr11.jpg gr11 gr11.jpg jpg 57098 307 765 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr14/DOWNSAMPLED/image/jpeg/6fa928d7ac504c29e5e4c44ddf010d81/gr14.jpg gr14 gr14.jpg jpg 188385 664 802 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr13/DOWNSAMPLED/image/jpeg/e237dc0c9abc7b9a5182499533dfdda4/gr13.jpg gr13 gr13.jpg jpg 214052 713 802 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr9/DOWNSAMPLED/image/jpeg/e79f77ec3de85df044c9120daee15e2f/gr9.jpg gr9 gr9.jpg jpg 87616 675 802 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr8/DOWNSAMPLED/image/jpeg/8327082a2d4a32b3dce755096f972afa/gr8.jpg gr8 gr8.jpg jpg 41976 443 535 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr3/DOWNSAMPLED/image/jpeg/4cdf3aee34be74b17dd4d90c1907cf45/gr3.jpg gr3 gr3.jpg jpg 78110 422 703 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr2/DOWNSAMPLED/image/jpeg/e8a0181cc8ccc099faed282801777ddb/gr2.jpg gr2 gr2.jpg jpg 41628 262 533 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr10/DOWNSAMPLED/image/jpeg/1293cc0d13cc91562397579be42ae41b/gr10.jpg gr10 gr10.jpg jpg 129578 980 683 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr1/DOWNSAMPLED/image/jpeg/ccf220d31b662318b1f0dc61d004d363/gr1.jpg gr1 gr1.jpg jpg 46565 511 383 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr7/DOWNSAMPLED/image/jpeg/63b49b32543ae399cdaf776ea0c9e3aa/gr7.jpg gr7 gr7.jpg jpg 23335 140 677 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr6/DOWNSAMPLED/image/jpeg/cbc9524f46a9626929342a51ddf63b89/gr6.jpg gr6 gr6.jpg jpg 30555 273 383 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr5/DOWNSAMPLED/image/jpeg/a38f3018cdcafad9fddf879af96e5daf/gr5.jpg gr5 gr5.jpg jpg 91729 470 802 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr4/DOWNSAMPLED/image/jpeg/b1cdfb00c418e7194f0491b6b8cf6a9b/gr4.jpg gr4 gr4.jpg jpg 40943 376 595 IMAGE-DOWNSAMPLED 1-s2.0-S1359431123021270-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr12/THUMBNAIL/image/gif/c46972626f0b2d0441ca4b6ad7eae0f4/gr12.sml gr12 gr12.sml sml 13195 164 211 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr11/THUMBNAIL/image/gif/f04b1c09e6898adee6ed7456cc1109b0/gr11.sml gr11 gr11.sml sml 6702 88 219 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr14/THUMBNAIL/image/gif/cb60824d5b39a1ac27fd6b05ee3c0489/gr14.sml gr14 gr14.sml sml 16453 164 198 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr13/THUMBNAIL/image/gif/b7b9eae7d6148bba7e898ca604675f89/gr13.sml gr13 gr13.sml sml 16826 164 184 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr9/THUMBNAIL/image/gif/ce84e0058ad81800c88380770764dd26/gr9.sml gr9 gr9.sml sml 9998 164 195 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr8/THUMBNAIL/image/gif/5101aed6dbdc92367bc19b792a440b00/gr8.sml gr8 gr8.sml sml 7902 164 198 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr3/THUMBNAIL/image/gif/c997310cee055437d2656850585d5e3f/gr3.sml gr3 gr3.sml sml 9176 131 219 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr2/THUMBNAIL/image/gif/860a0111dd06c7060059bd27ea07b04c/gr2.sml gr2 gr2.sml sml 12392 108 219 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr10/THUMBNAIL/image/gif/f21a52d8f1544c096a609b198b8b119e/gr10.sml gr10 gr10.sml sml 5766 164 114 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr1/THUMBNAIL/image/gif/402bba17bd1583630b7bce83e0992f19/gr1.sml gr1 gr1.sml sml 7914 164 123 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr7/THUMBNAIL/image/gif/14654cb98b457d23848f42ac498ce078/gr7.sml gr7 gr7.sml sml 3146 45 219 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr6/THUMBNAIL/image/gif/99894204557fe2623a42db5b360e715c/gr6.sml gr6 gr6.sml sml 9338 156 219 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr5/THUMBNAIL/image/gif/9de673f6c1464020f96768897de373f8/gr5.sml gr5 gr5.sml sml 11488 128 219 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/gr4/THUMBNAIL/image/gif/bc57948abc26609d5f28df369422f47e/gr4.sml gr4 gr4.sml sml 5955 138 219 IMAGE-THUMBNAIL 1-s2.0-S1359431123021270-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/43d8a6a7e52efade030af83f3b7cbea6/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 792443 2375 3064 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/a75124ea091e6c14b68fc72fec4d8e0b/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 348545 1359 3388 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/c57f2966cb68c0fcd4697257d958eb60/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 1147630 2937 3549 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/0cffb1693655e2ebe92bae1488cbd6c4/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 1287700 3157 3549 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/8fc8e980f85ad86955d6fb038b302fc5/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 503178 2988 3549 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/5d0162f76b46a6dec2ac3de1b7bae784/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 254959 1963 2368 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/03da2f11ea34fc0f5a108b7a61ef313a/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 445728 1868 3111 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/fb6fa55c4f0cba8341c2c52c37d8bffb/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 124556 696 1417 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/342acfe83acd1ccdb2b615f7fc86fa5d/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 843972 4337 3023 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/626d9546a406c6c42b32a02e0e7ed21a/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 264059 2267 1699 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/136eb05aa1f2a3e44b65e12329b62b03/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 166352 622 2999 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/f029b648fcc8183fc6b72db3f0db8ab5/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 168204 1211 1699 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/38a2d978176a97aecd047b54e345ca20/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 568229 2078 3549 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/HIGHRES/image/jpeg/b2ddea923df8de9d2083c6048de81496/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 244228 1663 2635 IMAGE-HIGH-RES 1-s2.0-S1359431123021270-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/a5bb86e5168d6c60ee26df26307b898c/si1.svg si1 si1.svg svg 3073 ALTIMG 1-s2.0-S1359431123021270-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/91af7dccaee5e12db8c02f9909053a04/si10.svg si10 si10.svg svg 12711 ALTIMG 1-s2.0-S1359431123021270-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/664947c3c769ce0a2f2d4f5d0629c0a8/si11.svg si11 si11.svg svg 6673 ALTIMG 1-s2.0-S1359431123021270-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/414bdfec8bd7e59bf4ffe5ea501f34f8/si12.svg si12 si12.svg svg 6186 ALTIMG 1-s2.0-S1359431123021270-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/263f1a06c7c12dbfad40f79bc581a653/si13.svg si13 si13.svg svg 20890 ALTIMG 1-s2.0-S1359431123021270-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/513de808eed9831e06ed2badbbc22db5/si14.svg si14 si14.svg svg 26205 ALTIMG 1-s2.0-S1359431123021270-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/140a8dc5e83d1e3d4e85f7c3f52aceb1/si15.svg si15 si15.svg svg 18558 ALTIMG 1-s2.0-S1359431123021270-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/c83704d7ddd8c7bf72b5a03f5704148d/si16.svg si16 si16.svg svg 7619 ALTIMG 1-s2.0-S1359431123021270-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/8d90eae3c7c931846b0e3e32e1586862/si17.svg si17 si17.svg svg 14098 ALTIMG 1-s2.0-S1359431123021270-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/264e9840f559d515ab7674bb2c89f3cc/si18.svg si18 si18.svg svg 14484 ALTIMG 1-s2.0-S1359431123021270-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/962892a02798aabd27cdc8a03eebd327/si19.svg si19 si19.svg svg 18950 ALTIMG 1-s2.0-S1359431123021270-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/b8a72d9c9ed22b8c2eb79a6ce0a9744a/si2.svg si2 si2.svg svg 1640 ALTIMG 1-s2.0-S1359431123021270-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/2f34e1d43032efdff82b0a78cd4cea1c/si20.svg si20 si20.svg svg 15843 ALTIMG 1-s2.0-S1359431123021270-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/28b13ff30a3040a15766d7400723403c/si21.svg si21 si21.svg svg 15769 ALTIMG 1-s2.0-S1359431123021270-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/5793c92dac944583b9e8eaa4c7c71962/si22.svg si22 si22.svg svg 18262 ALTIMG 1-s2.0-S1359431123021270-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/16f6832bb8005bfb26c2a4b31500e5ab/si23.svg si23 si23.svg svg 13084 ALTIMG 1-s2.0-S1359431123021270-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/483e65d72ad590adabb2f3156ed593e5/si24.svg si24 si24.svg svg 19153 ALTIMG 1-s2.0-S1359431123021270-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/62d52798bc9d75c80701b2355cd9b813/si25.svg si25 si25.svg svg 23604 ALTIMG 1-s2.0-S1359431123021270-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/783237cc6fc799483820bf72475d7b07/si26.svg si26 si26.svg svg 3681 ALTIMG 1-s2.0-S1359431123021270-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/ac36a337502cc38e65ad9a8be4d4a45c/si27.svg si27 si27.svg svg 15939 ALTIMG 1-s2.0-S1359431123021270-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/849b1fb42d7aea145a69e68063fa2de2/si28.svg si28 si28.svg svg 14058 ALTIMG 1-s2.0-S1359431123021270-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/1ae546204999e74a6670111102d676d2/si29.svg si29 si29.svg svg 15405 ALTIMG 1-s2.0-S1359431123021270-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/85701144f210f089775361b9ad8e8bdc/si3.svg si3 si3.svg svg 26585 ALTIMG 1-s2.0-S1359431123021270-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/5b87706ad0effe562cb9a230bcc2e299/si4.svg si4 si4.svg svg 25520 ALTIMG 1-s2.0-S1359431123021270-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/b9c9fda0471379b1213318833844e6f1/si5.svg si5 si5.svg svg 30452 ALTIMG 1-s2.0-S1359431123021270-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/caf83221cf76c308c143ddf3a7bc8406/si6.svg si6 si6.svg svg 10001 ALTIMG 1-s2.0-S1359431123021270-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/032e2e557a91dee16a3ad05e6bbe0f2f/si7.svg si7 si7.svg svg 20681 ALTIMG 1-s2.0-S1359431123021270-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/03ad108c2803c4cf28fb3cb2ce95fa94/si8.svg si8 si8.svg svg 17613 ALTIMG 1-s2.0-S1359431123021270-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1359431123021270/image/svg+xml/1a7905dd2911474df49caf75c28694bc/si9.svg si9 si9.svg svg 12066 ALTIMG 1-s2.0-S1359431123021270-am.pdf am am.pdf pdf 6992244 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10RZ1C6S1CK/MAIN/application/pdf/a1cfdfb2d000333fed93dd3a757b1993/am.pdf ATE 122098 122098 S1359-4311(23)02127-0 10.1016/j.applthermaleng.2023.122098 Elsevier Ltd Fig. 1 Two grid supply\u2013demand management modes. Fig. 2 Typical medium-sized office building. Fig. 3 Schematic diagram of the typical fan-coil air-conditioning system. [29]. Fig. 4 Calculation process in the DR dynamic evaluation toolkit. Fig. 5 User interface and operation process of the dynamic DR evaluation toolkit. Fig. 6 Schematic diagram of multilayer perceptron algorithm. Fig. 7 The construction of prediction models. Fig. 8 The outdoor temperature of Changsha city. Fig. 9 Procedures of sensitivity analysis. Fig. 10 Results of sensitivity analysis. Fig. 11 Demand response performance for buildings for different buildings. Fig. 12 Building load with different demand response strategies. Fig. 13 Accuracy of load shedding prediction. Fig. 14 Accuracy of setpoint adjustment prediction. Table 1 Characteristic parameters for prediction model. Parameters Range Unit Probability Distributions Outdoor dry bulb temperature \\ °C \\ Outdoor relative humidity \\ % \\ People per floor area 0\u20130.12 P/m2 Uniform Equipment power density per floor area 0\u201318 W/m2 Uniform Lighting power density per floor area 0\u201310.8 W/m2 Uniform Initial setpoint temperature 22\u201328 °C Uniform Fresh air volume per person 0.00833\u20130.01 m3/(h·p) Uniform Setpoint adjustment in DR program 0.5\u20136.0 °C Uniform Starting time of DR program 8:00\u201317:00 \\ Uniform DR duration 0.5\u20136 h Uniform Table 2 Main building and air conditioning parameters for different energy levels. Parameters Energy level Low Medium High Unit Value Value Value Thermal conductivity of exterior wall W/(m2·K) 1 0.52 0.15 Thermal conductivity of roof W/(m2·K) 0.7 0.38 0.15 Thermal conductivity of window W/(m2·K) 3 2.3 1.5 Solar heat gain coefficient of window \u2014\u2014 0.5 0.24 0.15 Coefficient of performance of chiller \u2014\u2014 3.6 5.0 7 Table 3 Input building parameters for sensitivity analysis. Category Sequence Parameter Abbreviation Range Units Building envelope thermal characteristics P0 Building orientation BO 0\u2013360 deg P1 Window-wall ratio WWR 0.20\u20130.69 \u2013 P2 Exterior-wall U value (thermal conductivity) WAU 0.15\u20130.60 W/(m2·K) P3 Exterior-wall solar absorptance WSA 0.10\u20130.90 \u2013 P4 Exterior-wall specific heat WSH 800\u20132000 J/(kg·K) P5 Roof U value RU 0.15\u20131.00 W/(m2·K) P6 Roof solar absorptance RSA 0.10\u20130.90 \u2013 P7 Roof specific heat RSH 450\u20131400 J/(kg·K) P8 Floor concrete U value FU 0.10\u20132.00 W/(m2·K) P9 Floor concrete Specific heat FSH 800\u20132000 J/(kg·K) P10 Window U value WIU 0.8\u20135.00 W/(m2·K) P11 Solar heat gain coefficient SHGC 0.10\u20130.60 \u2013 P12 Window visible transmittance WVT 0.40\u20130.60 \u2013 Building internal load P13 Equipment power density EPD 8.0\u201322.0 W/m2 P14 Lighting power density LPD 5.0\u201315.0 W/m2 P15 Occupied area per capita PCO 8.0\u201320.0 m2/ p P16 People activity PA 90\u2013150 W P17 Internal thermal mass per unit floor area ITM 0.5\u20132.0 / P18 Indoor ambient cooling setpoint temperature IAT 22.0\u201326.0 °C Heating Ventilation and Air conditioning P19 Outdoor fresh air volume per person OAP 0.008\u20130.018 m3/(h·p) P20 Coefficient of performance of chiller COP 3.6\u20137.0 / P21 Minimum unloading ratio of chiller MUR 0.1\u20130.3 \u2013 P22 Infiltration INF 0.0001\u20130.0005 m3/(s·m2) Table 4 Output variables for sensitivity analysis. Sequence Output variable Unit Abbreviation 1 Total building energy use MW·h TBE 2 Total air-conditioning energy use MW·h ACE 3 Peak load kW PE 4 Load during peak period kW HE 5 Load shedding intensity W/m2 DSI 6 Demand response potential % DRflex Table 5 Parameters of typical and retrofit buildings. Parameters Unit Low Medium High Retrofit 1 Retrofit 2 Window-wall ratio \u2014\u2014 0.33 0.33 0.33 0.33 0.33 Thermal conductivity of exterior wall W/(m2·k) 1 0.52 0.15 1 1 Thermal conductivity of roof W/(m2·k) 0.7 0.38 0.15 0.7 0.7 Thermal conductivity of floor W/(m2·k) 0.314 0.314 0.314 0.314 0.314 Thermal conductivity of window W/(m2·k) 3 2.3 1.5 1.32 (High performance window) Solar heat gain coefficient of window \u2014\u2014 0.5 0.24 0.15 0.39 (High performance window) Equipment power density W/m2 15 15 15 15 15 Lighting power density W/m2 9 9 9 8 (Energy-efficient lighting) PCM wall thickness mm \u2014\u2014 \u2014\u2014 \u2014\u2014 \u2014\u2014 20(PCM wall) Occupied area per capita m2/ P 10 10 10 10 10 Outdoor fresh air volume per capita m3/(h·p) 30 30 30 30 30 Energy recovery ventilator \u2014\u2014 Not used Not used Not used Used Indoor temperature setpoint °C 24 24 24 24 24 Coefficient of performance of chiller \u2014\u2014 3.6 5 7 6 (High performance chiller) Minimum unloading ratio of chiller \u2014\u2014 0.1 0.1 0.1 0.1 0.1 Table 6 Demand response strategies for building load. Number Strategy 1 2 °C global temperature adjustment 2 Fan-coil on/off cycle 3 50 % fan speed reduction 4 2 °C chilled water increase 5 2 °C global temperature adjustment + 2 ℃ chilled water increase 6 50 % fan speed reduction + 2 ℃ chilled water increase 7 Fan-coil on/off cycle + 2 ℃ chilled water increase 8 2 °C global temperature adjustment + fan-coil on/off cycle+2 °C chilled water increase 9 2 °C global temperature adjustment + 50 % fan speed reduction+2 °C chilled water increase Table 7 Prediction errors of the highest load shedding performance. Energy Level DR indicators R2 MSE RMSE MAE MAPE SMAPE Low DRflex 0.901 10.571 3.251 2.232 11.758 10.981 DSI 0.944 1.486 1.219 0.838 11.401 10.287 Medium DRflex 0.901 9.963 3.156 2.099 11.961 10.463 DSI 0.933 0.779 0.882 0.602 11.436 10.035 High DRflex 0.917 4.252 2.062 1.353 14.447 9.803 DSI 0.959 0.242 0.492 0.321 12.597 8.210 Retrofit 1 DRflex 0.9113 0.535 0.7314 0.5153 12.1979 10.8369 DSI 0.9002 5.9689 2.4431 1.7573 12.4932 11.1231 Retrofit 2 DRflex 0.9091 0.4266 0.6532 0.4269 8.6246 8.5014 DSI 0.9348 3.0551 1.7479 1.1803 7.5096 7.1735 Table 8 Prediction errors of the setpoint adjustments. Energy Level DR indicators R2 MSE RMSE MAE MAPE SMAPE Low DRflex 0.9985 0.0025 0.0502 0.0244 1.5887 1.5574 DSI 0.9976 0.0040 0.0630 0.0338 2.0618 2.0247 Medium DRflex 0.9996 0.0006 0.0245 0.0172 0.9317 0.9224 DSI 0.9996 0.0005 0.0230 0.0170 0.9174 0.9155 High DRflex 0.9987 0.0022 0.0468 0.0304 1.8247 1.8360 DSI 0.9986 0.0023 0.0479 0.0318 1.9649 1.9568 Retrofit 1 DSI 0.9996 0.0006 0.0252 0.0163 0.9264 0.9179 DRflex 0.9997 0.0005 0.0229 0.0164 0.9239 0.9217 Retrofit 1 DSI 0.9991 0.0015 0.0384 0.0177 1.0063 0.9965 DRflex 0.9985 0.0025 0.0501 0.0224 1.2817 1.2445 Research Paper Development of a dynamic demand response quantification and control framework for fan-coil air-conditioning systems based on prediction models Jingyu Cao a b Wanfang Zhao a Jiaming Song a Jinqing Peng a b \u204e Rongxin Yin a a College of Civil Engineering, Hunan University, Changsha 410082, China College of Civil Engineering Hunan University Changsha 410082 China College of Civil Engineering, Hunan University, Changsha 410082, China b Key Laboratory of Building Safety and Energy Efficiency of Ministry of Education, Hunan University, Changsha, Hunan, China Key Laboratory of Building Safety and Energy Efficiency of Ministry of Education Hunan University Changsha Hunan China Key Laboratory of Building Safety and Energy Efficiency of Ministry of Education, Hunan University, Changsha, Hunan, China \u204e Corresponding author. The air-conditioning demand response has gradually become an effective approach to reduce peak load of the national grid. However, with the increasing penetration of renewable energy generation sources, static performance evaluation of demand response that only fits one certain scenario cannot meet the demandsofthe times. To address this issue, a novel dynamic demand response quantification and control framework was built based on the secondary development of building energy simulation software and multilayer perceptron algorithm. In this framework, the demand response evaluation method can be used for different global temperature adjustment strategies under different external disturbances and internal loads, and the dynamic demand response control method could be further adopted for load reduction prediction and setpoint adjustment recommendation. The performance prediction model based on artificial neural network can predict the maximum load shedding during demand response period with an average absolute percentage error of 15 %, and the prediction error of load shedding intensity is ± 1 W/m2 for over 80 % of samples. Besides, the setpoint adjustment prediction model achieved an average absolute percentage error of 3 % while its prediction error is ± 0.25 °C for over 99 % of samples. The results prove that this research can provide reasonable suggestions for customers and load aggregators to achieve accurate control of setpoint adjustment in dynamic demand response conditions. Keywords Demand response Fan-coil unit Sensitivity analysis Multilayer perceptron Data availability Data will be made available on request. Nomenclature ACE total air-conditioning energy use [MW·h] BO building orientation [o] b bias CAPFT cooling capacity function of temperature [W] COP coefficient of performance of chiller DSI load shedding intensity [W/m2] DR demand response DRflex demand response potential [%] d number of input neutron EEi elementary effect in Morris method EPD equipment power density [W/m2] EIRFT energy input ratio function of temperature curve [%] EIRFPLR energy input ratio function of part load ratio [%] FU floor concrete U value [W/(m2·K)] FSH floor concrete Specific heat [J/(kg·K)] f activation function which adopts ReLU HE load during peak period [kW] h output value of the multilayer perceptron model IAT indoor ambient cooling setpoint temperature [°C] ITM internal thermal mass per unit floor area INF infiltration [m3/(s·m2)] k numbers of input parameters in Morris method LPD lighting power density [W/m2] l number of output neutron MAE mean absolute error MAPE mean absolute percentage error MLP multilayer perceptron MSE mean squared error MUR minimum unloading ratio of chiller n number of samplings OAP outdoor fresh air volume per person [m3/(h·p)] P power consumption [W] PA People activity [W] PCO occupied area per capita [m2/p] PE peak load [kW] PLR part load ratio [%] ΔP average load reduction P introduced predictive variables RMSE root mean square error RU roof U value [W/(m2·K)] RSA roof solar absorptance RSH roof specific heat [J/(kg·K)] R2 determination coefficient r numbers of trajectories in Morris method SHGC solar heat gain coefficient SMAPE symmetric Mean Absolute Percentage Error TBE total building energy use [MW·h] W weight vector WAU exterior-wall U value (thermal conductivity) [W/(m2·K)] WSA exterior-wall solar absorptance WSH exterior-wall specific heat [J/(kg·K)] WVT window visible transmittance WWR window-wall ratio WIU window U value [W/(m2·K)] X value vector of neurons x input variable y output neuron or actual value y ^ i prediction values Greek letters β L1 norm term λ tuning parameter controlling the strength of the penalty μ* impacts of input parameters on output variables σ interaction or non-linear effects between different input parameters Δ changes of the ith input parameters Superscripts d number of input neutron l number of output neutron Subscripts Base,i baseline case i cw,ls chilled water setpoint on leaving evaporator side cw,l chilled water leaving on evaporator side cond,e chilled water leaving on condenser side chiller variable of the chiller DR,i demand response case i max maximum min minimum ref reference parameter 1 Introduction Carbon neutrality has been identified by many countries as an important goal of social development [1], in line with the Paris Agreement\u2019s goal of limiting the global warming to 1.5 °C [2]. To achieve this goal, clean energy, such as solar and wind energy, is being used to replace coal and effectively reduce carbon footprint. Since building sector accounts for approximately 30 % of global final energy consumption [3], distributed renewable energy sources generated for building, like rooftop Photovoltaic (PV), can help achieve self-sufficiency on the demand side and reduce the demand from the grid [4]. However, variability and intermittency of distributed renewable energy generation would result in low PV utilization and imbalances between the supply and demand side [5], which could cause grid voltage fluctuation and lower the grid stability. Thus, demand response (DR) is being increasingly implemented to reduce peak load and enhance building load flexibility [6,7], which involves voluntary shedding and shifting of electricity usage in response to electricity prices, renewable energy generation, or other incentives [8]. Air-conditioning system accounts for the largest share of seasonal peak loads in cities, thus have become the top choice in building DR. However, insufficient flexibility quantification and prediction in air-conditioning DR impacts its wider implementation. To assess DR performance, dynamic quantification is necessary to determine the flexibility brought by demand response in different contexts. Accurate load shedding and shifting prediction is also required for successfully reshape the electricity curve by controlling air-conditioning systems. Conventionally, demand flexibility is evaluated by quantifying the difference between measured loads with and without demand response events. When field tests are not available, it is also common to adopt energy simulation software for DR performance evaluation and prediction, such as EnergyPlus [9,10], TRNSYS[11,12], Dymola [13,14], etc. For example, a three-story office building was simulated in EnergyPlus to study the demand response performance of fan-coil units through four control strategies by Tai et al. [15], including global temperature adjustment, fan speed control, fan-coil cycling control, and comprehensive control strategies, and a dynamic DR characteristic evaluation framework was established. Wang et al. [16] simulated the shutdown of chiller as a demand response event by using TRNSYS and quantified the power reduction in the demand response period. Xu et al. [17,18] established a coupled thermal inertia model of the air-conditioning system and building for more accurate load flexibility characterization in energy simulation. Though simulating DR performance in single or multiple cases, the normal quantifying and prediction method is unavailable for dynamic DR evaluation which means evaluations in different demand response conditions, since it is unfeasible to carry out a large number of energy simulations or field tests for each building under the impact of different influencing factors. Considering the time and labor cost of numerous energy simulations, considerable attempts have been made to adopt statistical models, such as regression models, for the description of the DR performance. These models help to quantify and predict DR performance in a more intuitive and rapid manner, while making the strategy prediction easier with these fitting models between key parameters and DR performance. For example, Li and Yin et al. [19,20] used simple and three-stage linear regression models to characterize the relationship between DR potential and outdoor temperature of typical buildings, and the errors of most data is within an acceptable engineering range. Xu et al. [21] proposed a support vector regression model for flexibility quantification with an average absolute error of 1.57 %. Luo et al. [22] trained a regression-based surrogate model based on simulations under multiple load flexibility strategies and different settings, enabling load-shedding performance prediction even when the temperature setpoint changes. The given empirical formula can also determine optimal DR strategies according to the required load shedding. Currently, most proposed fitting models are linear-regression models that only consider a few crucial parameters and fix the rest, making them only suitable for specified conditions. To comprehensively analyze the effects of various influencing factors on the DR performance, a large simulation result database for similar buildings under multiple DR contexts is necessary. In essence, sufficient amount of data is the foundation of simplifying models. To simplified statistical models, the rapid and dynamic assessment of DR performance were also achieved through secondary development of energy simulation software without changing its calculation mechanism. For example, Yin et al. [23,24] developed the Demand Response Quick Assessment Tool (DRQAT) and showed errors within 10 % through field test in 11 buildings in California. Sha et al. [25] developed a baseline quantification toolkit that generates quantification results by inputting meteorological data and historical energy data, with the predicted root mean square error less than 8 %. DLAT (Demand-Limiting Assessment Tool) [26] achieved assessment of load shedding, operation cost, and indoor thermal comfort in typical small commercial buildings. Second development of simulation software enables DR quantification with different setpoints and is simpler than model fitting which still needs a large amount of data. However, it is mainly used for performance calculation, and the recommended strategy cannot be calculated. Thus it is difficult to achieve stable load shedding required by the power supply side. In summary, the following points can be identified: 1) Conventional energy simulation outputs detailed DR performance assessment, but a quick assessment cannot be achieved, especially for dynamic performance assessment in complex conditions. 2) DR quantification using simplified models show clear empirical formulas between performance and strategies, which is beneficial to obtaining recommended DR strategy under required DR performance, however, it is of high cost for large database establishment as the foundation of model fitting. 3) The secondary development of building energy software achieves convenient and fast DR quantification, but an optimal strategy has yet to be recommended for more stable DR performance in this way. To comprehensively solve the above issues, a dynamic DR performance quantification and control framework was proposed in this paper. It is composed of a novel dynamic DR performance evaluation toolkit and two prediction models, namely the DR performance evaluation and control strategy prediction models, which were developed using multilayer perceptron algorithm. On this basis, this framework fits buildings with different locations, vintage, and sizes, i.e., dynamic performance quantification and control. To evaluate its effectiveness, cases studies based on a medium-sized office building in Changsha, China, were conducted by using this novel framework. Besides typical buildings with low, medium, and high energy levels, two retrofitted building models were proposed in the case studies considering the future trend of energy-saving and load flexible buildings. Multiple indicators and medium-sized office with different energy levels were adopted to verify the accuracy and robustness of the prediction models. The presented work provides an important reference for dynamic DR performance assessment and strategy adjustment of both single office building and building aggregations. 2 Methodology 2.1 DR quantification and control framework The DR performance quantification and control framework in this paper was proposed considering two smart grid modes to balance the supply and demand: regulation-based and stability-base modes, as shown in Fig. 1 . The regulation-based mode sends dynamic electricity pricing to consumers based on real-time supply and demand conditions. This prompts consumers to respond proactively, resulting in load shedding or shifting to reduce electricity prices. To determine the DR performance, a novel dynamic DR performance evaluation toolkit has been developed (which is further discussed in Section 2.3). Aggregators can use this toolkit to calculate cost savings in advance and adjust their strategies accordingly if necessary. In stability-based mode, consumers are informed of expected load shedding or shifting and the responding incentive payment before DR event. Generally, 90 % to 110 % of the expected load shedding or shifting is an allowable response range, and those exceeding or below the range will not be incentivized or will be penalized. To meet the required response range, predication models were developed by using multilayer perceptron algorithm for the DR shedding (or shifting) and strategy prediction. For instance, in the setpoint temperature adjustment event, as shown in Fig. 1, aggregators use a shedding prediction model to determine the maximum shedding which occurs when the temperature setpoint is increased to the upper boundary of the thermal comfort zone (namely 28 °C). If the maximum shedding exceeds the required, the strategy prediction model (such as setpoint adjustment prediction model) is then used to predict the appropriate setpoint adjustment range according to allowable load-shedding range. The final setpoint adjustment is based on the temperature setpoint adjustment step. When the maximum shedding is required, aggregators only need to set the temperature to the upper boundary of thermal comfort for the maximum DR performance. In this paper, global temperature adjustment event was taken as an example to build and analyze the prediction models. In the following subsections, the methodology of framework establishment is introduced, which composes the building thermal model, DR performance evaluation toolkit, and DR prediction models. The evaluation indicators for DR prediction models are also presented. 2.2 Building model EnergyPlus, as a free, open-source, and cross-platform building energy simulation program, is widely used for modelling of building energy consumption. The heating, cooling, and ventilation energy consumption simulation of air-conditioning in building is its forte. Thus, the current work analyzes a medium-sized office building (with a total area of 4982 m2) located in Changsha, China, using EnergyPlus, as shown in Fig. 2 . The building has four perimeter zones and one core zone on each floor as well as external windows in all directions of the building. Its air-conditioning system is a typical fan-coil air-conditioning systems in China, mainly contains water-cooled chillers, fan-coil terminals, and fresh air systems. Variable and fixed speed pumps are equipped for chilled water pumps and cooling water pumps, respectively. Building internal loads were set referring to national standard of Design Standard for Energy Efficiency of Public Buildings [27]. A schematic diagram of the typical air conditioning system is shown in Fig. 3 . More details of the building model can be found in some published works [28]. For the established air-conditioning system, the chiller accounts for the largest share of energy consumption. The chiller model used in EnergyPlus simulates its thermal performance based on the following three performance curves: (1) CAPFT = a 0 + a 1 T cw , l s + a 2 T cw , l s 2 + a 3 T cond , e + a 4 T cond , e 2 + a 5 T cw , l s T cond , e where T cw,ls is the leaving chilled water setpoint temperature (℃), and T cond,e is the leaving chilled water setpoint temperature (℃). (2) EIRFT = b 0 + b 1 T cw , l + b 2 T cw , l 2 + b 3 T cond , e + b 4 T cond , e 2 + b 5 T cw , l T cond , e where T cw,l is the leaving chilled water temperature (℃). (3) EIRFPLR = c 0 + c 1 P L R + c 2 P L R 2 = P chiller P ref ( C A P F T ) ( E I R F T ) where PLR is the part-load ratio, which equals to cooling load divided by chiller\u2019s available cooling capacity, P chiller is the chiller power at specific PLR, and P ref is the rated power of the chiller. The model of office building along with its fan-coil air-conditioning system established in EnergyPlus is mainly used for the real-time energy consumption simulation, which could provide a solid basis for the previously mentioned DR quantification and control framework. In other words, EnergyPlus serves as a computing kernel for quantifying flexibility in air-conditioning demand response, and the similar method has been verified by the Demand Response Quick Assessment Tool (DRQAT) built by the Lawrence Berkeley National Laboratory [23]. In the EnergyPlus model, the specific building parameters, such as thermal conductivity, solar heat gain coefficient of window, and coefficient of performance of chiller are determined in Section 3 refer to the relevant national and industry standards. 2.3 DR performance dynamic evaluation toolkit The DR dynamic evaluation toolkit utilizes EnergyPlus as its calculation kernel. As illustrated in Fig. 4 , the toolkit was created using Python and integrated with two third-party libraries: eppy for input parameter modification and generation [30], and energyplus_wrapper for securely importing weather and model files from EnergyPlus [31]. The user interface and operation process of the toolkit are shown in Fig. 5 and described as follows: Step 1 Model case import. The toolkit imports and saves the standard building model file and the weather file in a certain location for dynamic evaluation. Step 2 Baseline case establishment. Building internal loads and air-conditioner operating parameters without DR event are estimated and input, and then replace the regarding parameters in the standard model file by using the eppy library, creating a baseline load case. Step 3: DR case establishment. DR users determine a DR strategy, and regarding parameters are then modified to generate a DR case. Step 4: Energy Simulation. energyplus_wrapper library was imported to simulate both baseline case and DR case in EnergyPlus. Step 5 Data post-process. DR performance are assessed based on the simulation results. Two commonly used DR performance indicators [32\u201334], load shedding intensity (DSI) and DR potential (DR flex), are adopted in this toolkit, and are calculated by Eq. (4)\u2013(6) [20,22]: (4) DSI = Δ P Area (5) DR flex = Δ P ∑ i = 0 n P Base , i / n (6) Δ P = ∑ i = 0 n ( P Base , i - P DR , i ) n where ΔP is the average load reduction. P Base,i and P DR,i are the power consumption in baseline and DR cases, respectively. n is the number of samplings, and the time step for sampling is 5 min. Area is the floor area. 2.4 Establishment of prediction model 2.4.1 Model training This subsection introduces the dynamic prediction models for load shedding and setpoint adjustments. Multilayer perceptron (MLP) is a commonly used feed-forward neural network which owns considerable advantages in stability, efficiency, accuracy, and characterization capability, and thus was adopted for prediction in this paper. Concretely speaking, it can learn nonlinear functions by training weight parameters, be trained to achieve high accuracy, be adapt to new data well, and be trained using different optimization algorithms and loss functions, which allows it to be effectively applied to the practical prediction scenario of load shedding and setpoint adjustments of building and fan-coil air-conditioning system. The selected supervised learning algorithm consists of input, hidden, and output layers, and the layers are fully connected to each other, as shown schematically in Fig. 6 [35]. The MLP Regressor provided by Sklearn toolkit for Python was used to develop the multilayer perceptual machine model, and the development process is shown in Fig. 7 . Simulation cases generated from sampling of combined characteristic parameters were adopted to train the artificial neural network models. A total of 5,000 combinations of parameters were obtained through the Latin hypercube sampling method in Simlab, a software for uncertainty analysis [36]. Cases with undesirable DR events, such as ending past 17:00, were excluded from the samples. According to the samples, JePlus, an open-source tool for parametric EnergyPlus simulation [37], modified the input parameters of standard cases, and energy consumption for each case could then be calculated. This process was repeated to generate totally 140,000 samples in the whole cooling season. The training dataset consists of 70 % of the samples while the remaining 30 % is used as the test dataset. Characteristic parameters in Table 1 were selected for the load shedding prediction model. Dry bulb temperature and relative humidity has been proven critical parameters of disturbance in building energy consumption [38]. Parameters regarding internal loads, such as lighting power intensity, and DR strategies such as DR duration, have also been proven as importance parameters in DR programs [15]. For setpoint adjustment prediction model, the input parameters are similar, with the setpoint adjustment replaced by the DR performance indicators of load shedding intensity (DSI) and demand response potential (DR flex). 2.4.2 Hyper-parameter determination The input layer of the MLP has a total of k input variable (x 1, x 2,\u2026, x k). A Random Search optimization algorithm available on the Sklearn platform is employed for hyperparameter tuning across multiple hidden layers, thereby determining the quantity of neurons in each hidden layer (L(1): p neurons, L(2): q neurons,\u2026, L(n): r neurons). The output layer consists of one neuron (y), and except for the output layer, each layer incorporates a bias term (b). The steps for establishing the MLP regression algorithm are as follows: Step 1: Input setting. The training set is D = X k , y k k = 1 m , X k = x 1 , x 2 , ⋯ , x i k , x i ∈ R d , y i ∈ R l , where d is the number of input neutron, l is the number of output neutron. Step 2: Normalization. The data was transformed to fall between −1 and 1 using a linear normalization function, as shown in Eq. (7). (7) y = y max - y min × x - x min x max - x min + y min where x is sample data. x max and x max are the maximum value and minimum value of sample data, respectively. y is normalized sample data. y max and y max are the maximum value and minimum value of normalized sample data, respectively. Step 3 L2 Regularization. L2 regularization introduces a penalty term of L2 norm based on the minimization of squared residuals, enabling the estimation of certain coefficients to be zero. By employing dropout, the risk of overfitting can be reduced. The specific calculation formula is shown in Eq. (8). (8) ∑ I = 1 N y i - β 0 - ∑ j = 1 p β j x ij 2 λ ∑ J = 1 P β j 2 = R S S + λ ∑ J = 1 P β j 2 where p represents the introduced predictive variables; ∑ I = 1 N y i - β 0 - ∑ j = 1 p β j x ij 2 is the objective function of the least squares method (i.e., minimizing the sum of squared residuals); ∑ J = 1 P β j 2 represents the L1 norm term; λ is the tuning parameter controlling the strength of the penalty. λ = 0 means no penalty term is introduced, and the coefficient estimation is the result of the least squares method. Conversely, when the λ is sufficiently large, some coefficients will be suppressed to 0, achieving the purpose of variable selection. Step 4: Iterative Traversal. Iterative Traversal computes each node from the input layer through the hidden layers to the output layer in sequence. Each node can be calculated using Eq. (9) and Eq. (10) as follows: (9) x ij = f W i X i - 1 + b i - 1 (10) f x = R e L U x = m a x 0 , x where the x ij is the j th neuron in the i th layer, W i is the weight vector from the (i-1)th layer to the j th neuron of the i th layer, X i-1 is the value vector of all neurons in the (i-1)th layer, b i-1 is the bias in the i th layer, and f is the activation function which adopts ReLU. Step 5: Parameter Estimation. The optimal parameters were determined using the Random Search algorithm to stop the calculation when the loss function of the multilayer perceptron algorithm reaches its minimum. The definition of the loss function is shown in Eq. (11) as follows: (11) f w , b ; x , y = 1 2 \u2016 h w , b x - y \u2016 2 where h is the output value of the multilayer perceptron model, y is the actual value, and ||||2 denotes the norm of distance 2. Step 6: De-normalization. After de-regularization and de-normalization, the predicted values were obtained. These values were then compared with the simulated results from EnergyPlus, and various prediction accuracy indicators were adopted to test the effectiveness of the prediction models. 2.4.3 Prediction accuracy evaluation method Multiple error measuring indicators were adopted to evaluate the prediction accuracy of the MLP model, which are the coefficient of determination (R2 ), Mean Squared Error (MSE), Root Mean Square Error (RMSE), Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), and Symmetric Mean Absolute Percentage Error (SMAPE) as expressed in Eq. (12)\u2013(17) [35]. (12) R 2 = 1 - ∑ i = 0 n - 1 y ^ i - y i 2 ∑ i = 0 n - 1 y i - y ¯ 2 2 (13) MSE = 1 n ∑ i = 1 n y ^ i - y i 2 (14) RMSE = 1 n ∑ i = 1 n y ^ i - y i 2 (15) MAE = 1 n ∑ n 1 y ^ i - y i (16) MAPE = 100 % N ∑ I = 1 N y ^ i - y i y i (17) SMAPE = 100 % N ∑ I = 1 N y ^ i - y i y ^ i - y i 2 where y ^ i is the prediction values, which is the maximum load shedding or setpoint temperature adjustment, y i is the counterpart simulated results in EnergyPlus. The prediction model has higher accuracy when the R2 is closer to 1 and the other indicators are lower than 0. The value of MAPE or SMAPE equal to zero indicates perfect fit of the prediction model, while SMAPE > 100 % means the prediction is greater than the actual value. SMAPE cannot be used when y ^ i = y i = 0. 3 Case study 3.1 Typical building parameter determination An office building in Changsha, China, was taken as an example to analyze the effectiveness of the quantification and control framework. The outdoor dry bulb temperature of Changsha city is shown in Fig. 8 . Office buildings with low, medium, and high energy levels were established refer to the parameter ranges from national and industry standards, namely Technical code for the retrofitting of public building on energy efficiency [39], Design Standard for Energy Efficiency of Public Buildings [27], and Technical standard for nearly zero energy buildings [40] , respectively, as shown in Table 2 . It is worth mentioned that the selection of the coefficient of performance of the chillers in office buildings with high energy level considers the future technological updating of chillers and the characteristic gap in three building energy levels. 3.2 Retrofit building parameter determination Apart from the typical building models, two novel retrofitted building models, respectively considering building retrofit in terms of energy efficiency and load flexibility improving, were proposed to meet the trend of low-carbon and high flexibility building in the future. Parameter values of the retrofitting models were determined using sensitivity analysis method. In this subsection, the influential parameters for energy consumption and load flexibility were selected by Morris method, a typical sensitivity analysis method. Subsequently, typical low energy level building, introduced in Section 3.1, was retrofitted based on the results of sensitivity analysis. Then, Energy efficiency retrofit model and Energy efficiency plus load flexibility retrofit model were developed, respectively. 3.2.1 Procedure of sensitivity analysis The workflow of the sensitivity analysis is shown in Fig. 9 and is described in the following stages: (1) A model of a medium-sized office building equipped with a fan-coil air-conditioning system was created using SketchUp, OpenStudio and EnergyPlus. (2) The ranges or uncertain distributions of input parameters were defined in SimLab [36]. (3) The Morris sampling method was adopted to generate simulation cases by taking 240 sets of samples from the combinations of the investigated parameters. JePlus 2.0 was used to rewrite the sample files in EnergyPlus [37]. (4) After the batch simulation in EnergyPlus, Python was run for data postprocessing for different output variables. In this research, multiple output variables depict different building energy-saving and load flexibility performances were analyzed. (5) The calculated results and sample files were returned to SimLab to display the sensitivity analysis results, and the key parameters for building retrofit can finally be obtained. 3.2.2 Morris method The Morris method is used to calculate the average effects of incremental trajectory changes in different input parameters on the output variables. It can effectively differentiate non-influential parameters even in cases of small sample sizes, serving as an efficient method to reduce computational time [41]. The Morris method is suitable for models that involve a large number of input parameters and that are computationally intensive [42,43]. The evaluation indicators of Morris method are μ* and σ. μ* represents the impacts of input parameters on output variables, and σ is used to assess the interaction or non-linear effects between different input parameters. Higher σ and μ* represent higher sensitivity of the input parameter. The sensitivity analysis results using Morris method are generally depicted by plots that involve three lines of σ/μ*=1, σ/μ*=0.5, and σ/μ*=0.1 to represent the monotonicity and linearity of each input parameter\u2019s effect. Specifically, σ/μ* approaching 0.1 suggests that the input parameters and output variables have a linear relation, σ/μ*>0.5 suggests a non-linear relation or strong interaction between the input parameter and other inputs, and σ/μ*<1 suggests a monotonic relation between the inputs and the output. The calculation procedures using Morris method is expressed in Eq. (18)\u2013(20) [44,45]. The number of samplings is r×(k + 1), where k and r are the numbers of input parameters and trajectories, respectively. In this study, k and r are defined as 10 and 33, respectively. (18) E E i = Y x 1 , ⋯ , x i - 1 , x i ± Δ , ⋯ , x k - Y x 1 , ⋯ , x k Δ (19) μ i ∗ = 1 m ∑ j = 1 m EE i j (20) σ i 2 = 1 m - 1 ∑ j = 1 m EE i j - μ 2 where EEi represents the elementary effect, Y(x 1,\u2026, x k) is the output of the model, Δ denotes the changes of the i th input parameters. 3.2.3 Input parameters for sensitivity analysis As shown in Table 3 23 building parameters were selected as the input parameters for sensitivity analysis. The ranges of parameters were defined according to parameters of existed old buildings and nearly zero-energy buildings in aforementioned Chinese standards, and the ranges follow uniform distributions, which enables comprehensive parametric analysis of building performance. 3.2.4 Output variables for sensitivity analysis To comprehensively analysis the building performance in terms of energy saving and building load flexibility, 6 output variables were considered as shown in Table 4 . Specifically, the total energy use of building and air-conditioning system in the whole cooling season (from May 15th to October 15th) were adopted to analyze the inputs\u2019 impacts on energy consumption over an extended period. Peak load and load in peak period depict short-time (namely peak time) influence of inputs on building baseline load, where peak load denotes the peak value of load during June and July, and load during peak period is the average baseline load in DR events. Load shedding intensity and demand response potential were adopted to study the influence on load flexibility in DR period. The DR events were defined to occur on 13:00\u201316:00 in 15 days with the highest building load. 2 ℃ increase of indoor setpoint temperature was adopted as DR strategy. 4 Results and discussions 4.1 Sensitivity analysis results and retrofit building determination The results of sensitivity analysis are shown in Fig. 10 , in which σ/μ* approaching 0.1, σ/μ*>0.5, and σ/μ*<1 suggest a linear relation, a non-linear relation or strong interaction, and a monotonic relation, respectively. Results indicate that the external windows (WU, SHGC), internal thermal mass (ITM), lighting power (LPD), chiller (COP) and fresh air volume (OAP, PCO) are key factors for energy use, peak load, and load flexibility of buildings. Therefore, two retrofit schemes were determined, named Retrofit 1 and Retrofit 2 as shown in Table. 5 . Both Retrofits adopted high performance chiller and energy recovery ventilator for air-conditioning system and used energy-saving lighting and triple insulating glass for buildings to improve its energy efficiency. To enhance building load flexibility, Retrofit 2 adopted a 20 cm-thick phase change material (PCM) wall for buildings. 4.2 DR performance calculation in the DR evaluation toolkit 4.2.1 DR performance calculation results The DR performance evaluation toolkit was used to simulate the effects of 2 °C global temperature adjustment as a DR event on building loads during 13:00\u201316:00 for three typical summer days. Fig. 11 presents the simulation results for typical and retrofitted buildings, which show obvious load shedding during DR period in each case, indicating effective DR program simulation in the toolkit. Moreover, buildings with lower energy saving performance shows better DR performance, as demonstrated by the average DR potential for buildings with low, medium, and high levels of 12.4 %, 11.2 %, and 9.4 %, respectively. This is because of the high baseline load of the low-level building. It also highlights the feasibility of the toolkit in dynamic evaluation. Furthermore, building load with different DR strategies during 13:00\u201316:00 were simulated using the toolkit, as shown in Fig. 12 . Nine strategies were adopted, as shown in Table 6 . Results indicate that a 2 °C global temperature adjustment has the most efficient DR performance, offering an impressive 11.83 % DR potential. Strategies integrating global temperature adjustment also outperform other integrated strategies. This is due to the reduction in cooling demand when the zone setpoint increases, resulting in a significant drop in the cooling and building load. The results also show the effectiveness of toolkit in the evaluation of different DR contexts. 4.2.2 Advantages and limitations of the toolkit The main contribution of the toolkit lies in simplifying the DR evaluation for building managers. By using the toolkit, it is only needed to input basic operating conditions and internal loads to obtain DR evaluation results, and thus the extensive simulation knowledge is not required. Fast generation and calculation of DR cases in the toolkit are achieved, allowing for quick import of multiple DR strategies [46]. This toolkit is effective for building managers to determine a DR strategy. However, although parameter can be quickly modified by using this toolkit, computational time by using EnergyPlus is still not negligible with energy simulation as the kernel. Furthermore, a valid building thermal model is the key factor for the calculation accuracy. The toolkit runs simulation based on the building models provided by users, and great errors may be brought without fine calibration of the provided models. Therefore, the toolkit is more suitable for comparison between different DR strategies instead of accurate prediction of DR behaviors when the model is not validated. 4.3 Effectiveness of DR prediction models 4.3.1 Analysis of load shedding prediction model It is well-known that the accurate prediction of the maximum load shedding is significant, and thus the effectiveness of the load shedding prediction model is preferentially analyzed as a representative. As long as the required load reduction can be achieved through DR and the prediction is accurate, it is advisable to then proceed with predicting setpoint adjustments. Table 7 shows prediction accuracy of the maximum load shedding. The prediction model shows satisfactory fit between actual and predicted values within acceptable error range, as indicated by MAPE values below 15 %. These results confirm the validity of the prediction model for estimating the DR performance. Fig. 13 shows the comparison between actual and predicted values, uses absolute errors, i.e., the differences between the predicted and actual values, to intuitively show the prediction accuracy. Taking medium-level building as an example, over 80 % of data has a prediction error below ± 1 W/m2 in demand shedding intensity, and the absolute errors for DR potential prediction are also below ± 2 %, which further demonstrates the accuracy of the MLP model in load shedding prediction. 4.3.2 Analysis of setpoint adjustment prediction model Precise and swift prediction of setpoint adjustment before DR programs is needed when the maximum load reduction is adequate to bridge the supply gap. Table 8 shows prediction errors of setpoint adjustments, with demand potential and demand shedding intensity as model input. For buildings with three energy levels, desirable adjustment predictions through the model can be observed, with R2 > 0.99 and MAPE < 3 %, reflecting the feasibility of the prediction model. Fig. 14 shows comparisons and the absolute errors between actual and predicted setpoint adjustments. A range of ± 0.25 °C was considered acceptable for absolute errors, given the practical air-conditioner setpoint adjustment step of 0.5 °C. Any errors within this range are not considered to significantly affect the deviation from the correct response, meaning that the prediction model can be applied with confidence. Almost all of the data in Fig. 14 are within the acceptable error range, exceeding 99 %, which proves that the prediction model can achieve dynamic and precise control in DR programs. 5 Conclusions To realize efficient evaluation of the demand response of fan-coil air-conditioning systems in increasingly different scenarios, a novel dynamic demand response quantification and control framework was proposed in this paper by introducing a novel demand response performance evaluation toolkit and predictive models for demand response performance and strategy prediction. A typical retrofitted office building in Changsha, China, was taken as an example to evaluate the performance of the framework. Multiple error measuring indicators were adopted to validate the prediction models. The main conclusions are as follows: 1. The demand response performance evaluation toolkit achieves quick and dynamic performance assessment. It provides an effective front-end basis for operators or smart control platforms as reasonable strategies in respond to real-time regulations could be formed based on extensive calculations of typical demand response cases. 2. The performance prediction model based on artificial neural network was able to predict the maximum load shedding during demand response period with an average absolute percentage error of 15 %. Over 80 % of the samples had an absolute error range within ± 1 W/m2 of load shedding density and ± 2 % of demand response potential. 3. The setpoint adjustment prediction model based on artificial neural network achieved an average absolute percentage error of 3 %. In addition, over 99 % of the samples had absolute errors within the acceptable error range of ± 0.25 °C, ensuring accurate response in the setpoint adjustment event. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments This study was sponsored by the National Natural Science Foundation of China (No. 52278104 and No. 52208105), 2020 Science and Technology Project Plan of the Ministry of Housing and Urban-Rural Development of the People\u2019s Republic of China (2020-K-165), Xiaohe Sci-Tech Talents Special Funding under Hunan Provincial Sci-Tech Talents Sponsorship Program (2023TJ-X79), Hunan Provincial Natural Science Foundation of China (2022JJ40057), Natural Science Foundation of Chongqing, China (CSTB2022NSCQ-MSX1215). References [1] R. Li Z. Yang Y. Duan Multi-objective optimization and decision for the IGCC system under the carbon trade market Appl. Therm. Eng. 225 2023 120213 10.1016/j.applthermaleng.2023.120213 R. Li, Z. Yang, Y. Duan, Multi-objective optimization and decision for the IGCC system under the carbon trade market, Appl. Therm. Eng. 225 (2023) 120213. https://doi.org/10.1016/j.applthermaleng.2023.120213. [2] the United Nation, The Paris Agreement | UNFCCC, (n.d.). https://unfccc.int/process-and-meetings/the-paris-agreement?gclid=EAIaIQobChMIo9HS7s6__wIV_MRMAh1RuQzqEAAYASAAEgLW8vD_BwE (accessed August 4, 2023). [3] J. An Y. Wu C. Gui D. Yan Chinese prototype building models for simulating the energy performance of the nationwide building stock Build. Simul. 2023 10.1007/s12273-023-1058-5 J. An, Y. Wu, C. Gui, D. Yan, Chinese prototype building models for simulating the energy performance of the nationwide building stock, Build. Simul. (2023). https://doi.org/10.1007/s12273-023-1058-5. [4] B. Delač B. Pavković K. Lenić D. Mađerić Integrated optimization of the building envelope and the HVAC system in nZEB refurbishment Appl. Therm. Eng. 211 2022 10.1016/j.applthermaleng.2022.118442 B. Delač, B. Pavković, K. Lenić, D. Mađerić, Integrated optimization of the building envelope and the HVAC system in nZEB refurbishment, Appl. Therm. Eng. 211 (2022). https://doi.org/10.1016/j.applthermaleng.2022.118442. [5] S. Twaha M.A.M. Ramli A review of optimization approaches for hybrid distributed energy generation systems: Off-grid and grid-connected systems Sustain. Cities Soc. 41 2018 320 331 10.1016/j.scs.2018.05.027 S. Twaha, M.A.M. Ramli, A review of optimization approaches for hybrid distributed energy generation systems: Off-grid and grid-connected systems, Sustain. Cities Soc. 41 (2018) 320\u2013331. https://doi.org/10.1016/j.scs.2018.05.027. [6] W. Li P. Xu X. Lu H. Wang Z. Pang Electricity demand response in China: Status, feasible market schemes and pilots Energy. 114 2016 981 994 10.1016/J.ENERGY.2016.08.081 W. Li, P. Xu, X. Lu, H. Wang, Z. Pang, Electricity demand response in China: Status, feasible market schemes and pilots, Energy. 114 (2016) 981\u2013994. https://doi.org/10.1016/J.ENERGY.2016.08.081. [7] Y. Chen L. Zhang P. Xu A. Di Gangi Electricity demand response schemes in China: Pilot study and future outlook Energy. 224 2021 120042 10.1016/J.ENERGY.2021.120042 Y. Chen, L. Zhang, P. Xu, A. Di Gangi, Electricity demand response schemes in China: Pilot study and future outlook, Energy. 224 (2021) 120042. https://doi.org/10.1016/J.ENERGY.2021.120042. [8] C. Xiong Q. Meng Y. Wei H. Luo Y. Lei J. Liu X. Yan A demand response method for an active thermal energy storage air-conditioning system using improved transactive control: On-site experiments Appl. Energy. 339 2023 120935 10.1016/J.APENERGY.2023.120935 C. Xiong, Q. Meng, Y. Wei, H. Luo, Y. Lei, J. Liu, X. Yan, A demand response method for an active thermal energy storage air-conditioning system using improved transactive control: On-site experiments, Appl. Energy. 339 (2023) 120935. https://doi.org/10.1016/J.APENERGY.2023.120935. [9] M. Saffari C. Roe D.P. Finn Improving the building energy flexibility using PCM-enhanced envelopes Appl. Therm. Eng. 217 2022 119092 10.1016/J.APPLTHERMALENG.2022.119092 M. Saffari, C. Roe, D.P. Finn, Improving the building energy flexibility using PCM-enhanced envelopes, Appl. Therm. Eng. 217 (2022) 119092. https://doi.org/10.1016/J.APPLTHERMALENG.2022.119092. [10] D. Christantoni S. Oxizidis D. Flynn D.P. Finn Implementation of demand response strategies in a multi-purpose commercial building using a whole-building simulation model approach Energy Build. 131 2016 76 86 10.1016/J.ENBUILD.2016.09.017 D. Christantoni, S. Oxizidis, D. Flynn, D.P. Finn, Implementation of demand response strategies in a multi-purpose commercial building using a whole-building simulation model approach, Energy Build. 131 (2016) 76\u201386. https://doi.org/10.1016/J.ENBUILD.2016.09.017. [11] J. Da M. Li G. Li Y. Wang Y. Zhang Simulation and experiment of a photovoltaic\u2014air source heat pump system with thermal energy storage for heating and domestic hot water supply Build. Simul. 2023 10.1007/s12273-022-0960-6 J. Da, M. Li, G. Li, Y. Wang, Y. Zhang, Simulation and experiment of a photovoltaic\u2014air source heat pump system with thermal energy storage for heating and domestic hot water supply, Build. Simul. (2023). https://doi.org/10.1007/s12273-022-0960-6. [12] F. Lu Z. Yu Y. Zou X. Yang Energy flexibility assessment of a zero-energy office building with building thermal mass in short-term demand-side management J. Build. Eng. 50 2022 104214 10.1016/J.JOBE.2022.104214 F. Lu, Z. Yu, Y. Zou, X. Yang, Energy flexibility assessment of a zero-energy office building with building thermal mass in short-term demand-side management, J. Build. Eng. 50 (2022) 104214. https://doi.org/10.1016/J.JOBE.2022.104214. [13] Y. Chen Z. Chen Z. Chen X. Yuan Dynamic modeling of solar-assisted ground source heat pump using Modelica Appl. Therm. Eng. 196 2021 117324 10.1016/J.APPLTHERMALENG.2021.117324 Y. Chen, Z. Chen, Z. Chen, X. Yuan, Dynamic modeling of solar-assisted ground source heat pump using Modelica, Appl. Therm. Eng. 196 (2021) 117324. https://doi.org/10.1016/J.APPLTHERMALENG.2021.117324. [14] J. Zhu J. Niu Z. Tian R. Zhou C. Ye Rapid quantification of demand response potential of building HAVC system via data-driven model Appl. Energy. 325 2022 119796 10.1016/J.APENERGY.2022.119796 J. Zhu, J. Niu, Z. Tian, R. Zhou, C. Ye, Rapid quantification of demand response potential of building HAVC system via data-driven model, Appl. Energy. 325 (2022) 119796. https://doi.org/10.1016/J.APENERGY.2022.119796. [15] T. Yingying, Simulation Research on Dynamic Demand Response Mechanism and Characteristics of Air-Conditioning System, Hunan University, 2021. https://doi.org/10.27135/d.cnki.ghudu.2021.003135. [16] R. Tang S. Wang C. Yan A direct load control strategy of centralized air-conditioning systems for building fast demand response to urgent requests of smart grids Autom. Constr. 87 2018 74 83 10.1016/J.AUTCON.2017.12.012 R. Tang, S. Wang, C. Yan, A direct load control strategy of centralized air-conditioning systems for building fast demand response to urgent requests of smart grids, Autom. Constr. 87 (2018) 74\u201383. https://doi.org/10.1016/J.AUTCON.2017.12.012. [17] W. Li Y. Chu P. Xu Z. Yang Y. Ji L. Ni Y. Bao K. Wang A transient model for the thermal inertia of chilled-water systems during demand response Energy Build. 150 2017 383 395 10.1016/J.ENBUILD.2017.05.078 W. Li, Y. Chu, P. Xu, Z. Yang, Y. Ji, L. Ni, Y. Bao, K. Wang, A transient model for the thermal inertia of chilled-water systems during demand response, Energy Build. 150 (2017) 383\u2013395. https://doi.org/10.1016/J.ENBUILD.2017.05.078. [18] W. Li L. Yang Y. Ji P. Xu Estimating demand response potential under coupled thermal inertia of building and air-conditioning system Energy Build. 182 2019 19 29 10.1016/J.ENBUILD.2018.10.022 W. Li, L. Yang, Y. Ji, P. Xu, Estimating demand response potential under coupled thermal inertia of building and air-conditioning system, Energy Build. 182 (2019) 19\u201329. https://doi.org/10.1016/J.ENBUILD.2018.10.022. [19] Y. Li J. Zuo T. Qian X. Guo Demand response potential estimation for commercial buildings, China Int Conf. Electr. Distrib. CICED. 2018 2999 3003 10.1109/CICED.2018.8592602 Y. Li, J. Zuo, T. Qian, X. Guo, Demand response potential estimation for commercial buildings, China Int. Conf. Electr. Distrib. CICED. (2018) 2999\u20133003. https://doi.org/10.1109/CICED.2018.8592602. [20] R. Yin E.C. Kara Y. Li N. DeForest K. Wang T. Yong M. Stadler Quantifying flexibility of commercial and residential loads for demand response using setpoint changes Appl. Energy. 177 2016 149 164 10.1016/J.APENERGY.2016.05.090 R. Yin, E.C. Kara, Y. Li, N. DeForest, K. Wang, T. Yong, M. Stadler, Quantifying flexibility of commercial and residential loads for demand response using setpoint changes, Appl. Energy. 177 (2016) 149\u2013164. https://doi.org/10.1016/J.APENERGY.2016.05.090. [21] Y. Chen P. Xu Y. Chu W. Li Y. Wu L. Ni Y. Bao K. Wang Short-term electrical load forecasting using the Support Vector Regression (SVR) model to calculate the demand response baseline for office buildings Appl. Energy. 195 2017 659 670 10.1016/J.APENERGY.2017.03.034 Y. Chen, P. Xu, Y. Chu, W. Li, Y. Wu, L. Ni, Y. Bao, K. Wang, Short-term electrical load forecasting using the Support Vector Regression (SVR) model to calculate the demand response baseline for office buildings, Appl. Energy. 195 (2017) 659\u2013670. https://doi.org/10.1016/J.APENERGY.2017.03.034. [22] N. Luo J. Langevin H. Chandra-Putra S.H. Lee Quantifying the effect of multiple load flexibility strategies on commercial building electricity demand and services via surrogate modeling Appl. Energy. 309 2022 118372 10.1016/J.APENERGY.2021.118372 N. Luo, J. Langevin, H. Chandra-Putra, S.H. Lee, Quantifying the effect of multiple load flexibility strategies on commercial building electricity demand and services via surrogate modeling, Appl. Energy. 309 (2022) 118372. https://doi.org/10.1016/J.APENERGY.2021.118372. [23] R. Yin, D. Black, Improvement of demand response quick assessment tool (DRQAT) and tool validation case studies., Lawrence Berkeley Natl. Lab. (2015). https://eta-publications.lbl.gov/sites/default/files/lbnl-1003751.pdf (accessed November 19, 2022). [24] R. Yin P. Xu M.A. Piette S. Kiliccote Study on Auto-DR and pre-cooling of commercial buildings with thermal mass in California Energy Build. 42 2010 967 975 10.1016/J.ENBUILD.2010.01.008 R. Yin, P. Xu, M.A. Piette, S. Kiliccote, Study on Auto-DR and pre-cooling of commercial buildings with thermal mass in California, Energy Build. 42 (2010) 967\u2013975. https://doi.org/10.1016/J.ENBUILD.2010.01.008. [25] H. Sha P. Xu M. Lin C. Peng Q. Dou Development of a multi-granularity energy forecasting toolkit for demand response baseline calculation Appl. Energy. 289 2021 116652 10.1016/J.APENERGY.2021.116652 H. Sha, P. Xu, M. Lin, C. Peng, Q. Dou, Development of a multi-granularity energy forecasting toolkit for demand response baseline calculation, Appl. Energy. 289 (2021) 116652. https://doi.org/10.1016/J.APENERGY.2021.116652. [26] R. W, Demand-Limiting Assessment Tool., Herrick Lab. Purdue Univ. (n.d.). https://engineering.purdue.edu/DLAT/ (accessed November 19, 2022). [27] The Ministry of Housing and Urban-Rural Development of the People\u2019s Republic of China, Design standard for energy efficiency of public buildings (GB 50189-2015), China Architecture & Building Press, Beijing, 2015. [28] Y. Tai, J. Peng, N. Li, X. Pang, Research on the adaptability of demand response for coil air-conditioning system, Build. Sci. 38 (2022) 195-201+208. [29] J. Song J. Peng J. Cao R. Yin Y. He B. Zou W. Zhao Global sensitivity analysis of fan coil air conditioning demand response\u2014A case study of medium-sized office buildings Appl. Therm. Eng. 230 2023 120721 10.1016/J.APPLTHERMALENG.2023.120721 J. Song, J. Peng, J. Cao, R. Yin, Y. He, B. Zou, W. Zhao, Global sensitivity analysis of fan coil air conditioning demand response\u2014A case study of medium-sized office buildings, Appl. Therm. Eng. 230 (2023) 120721. https://doi.org/10.1016/J.APPLTHERMALENG.2023.120721. [30] S. Philip, L. Tanjuatco, eppy 0.5.44 documentation, (n.d.). https://pythonhosted.org/eppy/index.html (accessed April 17, 2023). [31] Python Package Index, energyplus-wrapper 0.8.0, (n.d.). https://pypi.org/project/energyplus-wrapper/0.8.0/#description (accessed April 17, 2023). [32] H. Li Z. Wang T. Hong M.A. Piette Energy flexibility of residential buildings: A systematic review of characterization and quantification methods and applications Adv. Appl. Energy. 3 2021 100054 10.1016/J.ADAPEN.2021.100054 H. Li, Z. Wang, T. Hong, M.A. Piette, Energy flexibility of residential buildings: A systematic review of characterization and quantification methods and applications, Adv. Appl. Energy. 3 (2021) 100054. https://doi.org/10.1016/J.ADAPEN.2021.100054. [33] J. Liu R. Yin M. Pritoni M.A. Piette Developing and Evaluating Metrics for Demand Flexibility in Buildings : Comparing Simulations and Field Data, ACEEE Summer Study Energy Effic Build. 2020 2020 267 280 https://doi.org/10.20357/B7WW34 J. Liu, R. Yin, M. Pritoni, M.A. Piette, Developing and Evaluating Metrics for Demand Flexibility in Buildings : Comparing Simulations and Field Data, ACEEE 2020 Summer Study Energy Effic. Build. (2020) 267\u2013280. https://doi.org/10.20357/B7WW34. [34] J. Langevin C.B. Harris A. Satre-Meloy H. Chandra-Putra A. Speake E. Present R. Adhikari E.J.H. Wilson A.J. Satchwell US building energy efficiency and flexibility as an electric grid resource Joule. 5 2021 2102 2128 10.1016/J.JOULE.2021.06.002 J. Langevin, C.B. Harris, A. Satre-Meloy, H. Chandra-Putra, A. Speake, E. Present, R. Adhikari, E.J.H. Wilson, A.J. Satchwell, US building energy efficiency and flexibility as an electric grid resource, Joule. 5 (2021) 2102\u20132128. https://doi.org/10.1016/J.JOULE.2021.06.002. [35] Z.-H. Zhou Machine learning 2021 Springer Nature Z.-H. Zhou, Machine learning, Springer Nature, 2021. [36] S. Tarantola W. Becker SIMLAB software for uncertainty and sensitivity analysis 2017 Handb. Uncertain. Quantif., Springer in 1979 1999 S. Tarantola, W. Becker, SIMLAB software for uncertainty and sensitivity analysis, in: Handb. Uncertain. Quantif., Springer, 2017: pp. 1979\u20131999. [37] Y. Zhang, jEPlus User\u2019s Manual, JEPlus. (n.d.). http://www.jeplus.org/wiki/doku.php?id=docs:manual (accessed April 17, 2023). [38] W. Jingxuan Influence of different factors on meteorological data of HVAC 2020 Xi\u2019an University of Architecture and Technology W. Jingxuan, Influence of different factors on meteorological data of HVAC, Xi\u2019an University of Architecture and Technology, 2020. https://doi.org/10.27393/d.cnki.gxazu.2020.000623. [39] The Ministry of Housing and Urban-Rural Development of the People\u2019s Republic of China, Technical code for the retrofitting of public building on energy efficiency. (JGJ 176-2009), China Architecture & Building Press, Beijing, 2009. [40] The Ministry of Housing and Urban-Rural Development of the People\u2019s Republic of China, Technical standard for nearly zero energy buildings. (GB/T 51350-2019), China Architecture & Building Press, Beijing, 2019. [41] Z. Pang Z. O\u2019Neill Y. Li F. Niu The role of sensitivity analysis in the building performance analysis: A critical review Energy Build. 209 2020 109659 10.1016/J.ENBUILD.2019.109659 Z. Pang, Z. O\u2019Neill, Y. Li, F. Niu, The role of sensitivity analysis in the building performance analysis: A critical review, Energy Build. 209 (2020) 109659. https://doi.org/10.1016/J.ENBUILD.2019.109659. [42] H. Li S. Wang H. Cheung Sensitivity analysis of design parameters and optimal design for zero/low energy buildings in subtropical regions Appl. Energy. 228 2018 1280 1291 10.1016/J.APENERGY.2018.07.023 H. Li, S. Wang, H. Cheung, Sensitivity analysis of design parameters and optimal design for zero/low energy buildings in subtropical regions, Appl. Energy. 228 (2018) 1280\u20131291. https://doi.org/10.1016/J.APENERGY.2018.07.023. [43] V. Zeferina F.R. Wood R. Edwards W. Tian Sensitivity analysis of cooling demand applied to a large office building Energy Build. 235 2021 110703 10.1016/J.ENBUILD.2020.110703 V. Zeferina, F.R. Wood, R. Edwards, W. Tian, Sensitivity analysis of cooling demand applied to a large office building, Energy Build. 235 (2021) 110703. https://doi.org/10.1016/J.ENBUILD.2020.110703. [44] M.H. Kristensen S. Petersen Choosing the appropriate sensitivity analysis method for building energy model-based investigations Energy Build. 130 2016 166 176 10.1016/J.ENBUILD.2016.08.038 M.H. Kristensen, S. Petersen, Choosing the appropriate sensitivity analysis method for building energy model-based investigations, Energy Build. 130 (2016) 166\u2013176. https://doi.org/10.1016/J.ENBUILD.2016.08.038. [45] G. Mavromatidis K. Orehounig J. Carmeliet Uncertainty and global sensitivity analysis for the optimal design of distributed energy systems Appl. Energy. 214 2018 219 238 10.1016/j.apenergy.2018.01.062 G. Mavromatidis, K. Orehounig, J. Carmeliet, Uncertainty and global sensitivity analysis for the optimal design of distributed energy systems, Appl. Energy. 214 (2018) 219\u2013238. https://doi.org/10.1016/j.apenergy.2018.01.062. [46] Y. Fu Z. O\u2019Neill J. Wen A. Pertzborn S.T. Bushby Utilizing commercial heating, ventilating, and air conditioning systems to provide grid services: A review Appl. Energy. 307 2022 118133 10.1016/J.APENERGY.2021.118133 Y. Fu, Z. O\u2019Neill, J. Wen, A. Pertzborn, S.T. Bushby, Utilizing commercial heating, ventilating, and air conditioning systems to provide grid services: A review, Appl. Energy. 307 (2022) 118133. https://doi.org/10.1016/J.APENERGY.2021.118133.",
+    "scopus-id": "85179447278",
+    "coredata": {
+        "eid": "1-s2.0-S1359431123021270",
+        "dc:description": "The air-conditioning demand response has gradually become an effective approach to reduce peak load of the national grid. However, with the increasing penetration of renewable energy generation sources, static performance evaluation of demand response that only fits one certain scenario cannot meet the demandsofthe times. To address this issue, a novel dynamic demand response quantification and control framework was built based on the secondary development of building energy simulation software and multilayer perceptron algorithm. In this framework, the demand response evaluation method can be used for different global temperature adjustment strategies under different external disturbances and internal loads, and the dynamic demand response control method could be further adopted for load reduction prediction and setpoint adjustment recommendation. The performance prediction model based on artificial neural network can predict the maximum load shedding during demand response period with an average absolute percentage error of 15 %, and the prediction error of load shedding intensity is ± 1 W/m2 for over 80 % of samples. Besides, the setpoint adjustment prediction model achieved an average absolute percentage error of 3 % while its prediction error is ± 0.25 °C for over 99 % of samples. The results prove that this research can provide reasonable suggestions for customers and load aggregators to achieve accurate control of setpoint adjustment in dynamic demand response conditions.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2024-02-15",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S1359431123021270",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Cao, Jingyu"
+            },
+            {
+                "@_fa": "true",
+                "$": "Zhao, Wanfang"
+            },
+            {
+                "@_fa": "true",
+                "$": "Song, Jiaming"
+            },
+            {
+                "@_fa": "true",
+                "$": "Peng, Jinqing"
+            },
+            {
+                "@_fa": "true",
+                "$": "Yin, Rongxin"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S1359431123021270"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S1359431123021270"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S1359-4311(23)02127-0",
+        "prism:volume": "239",
+        "articleNumber": "122098",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "Development of a dynamic demand response quantification and control framework for fan-coil air-conditioning systems based on prediction models",
+        "prism:copyright": "© 2023 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "13594311",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Demand response"
+            },
+            {
+                "@_fa": "true",
+                "$": "Fan-coil unit"
+            },
+            {
+                "@_fa": "true",
+                "$": "Sensitivity analysis"
+            },
+            {
+                "@_fa": "true",
+                "$": "Multilayer perceptron"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Applied Thermal Engineering",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "122098",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "15 February 2024",
+        "prism:doi": "10.1016/j.applthermaleng.2023.122098",
+        "prism:startingPage": "122098",
+        "dc:identifier": "doi:10.1016/j.applthermaleng.2023.122098",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "536",
+            "@width": "692",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "102936",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "307",
+            "@width": "765",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "57098",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "664",
+            "@width": "802",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "188385",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "713",
+            "@width": "802",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "214052",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "675",
+            "@width": "802",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "87616",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "443",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41976",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "422",
+            "@width": "703",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "78110",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "262",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "41628",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "980",
+            "@width": "683",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "129578",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "511",
+            "@width": "383",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "46565",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "140",
+            "@width": "677",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "23335",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "273",
+            "@width": "383",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "30555",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "470",
+            "@width": "802",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "91729",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "376",
+            "@width": "595",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40943",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "211",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13195",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "88",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6702",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "198",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16453",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "184",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "16826",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "195",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9998",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "198",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7902",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9176",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "108",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "12392",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "114",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5766",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "123",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7914",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "45",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3146",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "156",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9338",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "128",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "11488",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "138",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5955",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "2375",
+            "@width": "3064",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "792443",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1359",
+            "@width": "3388",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "348545",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2937",
+            "@width": "3549",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1147630",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "3157",
+            "@width": "3549",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1287700",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2988",
+            "@width": "3549",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "503178",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1963",
+            "@width": "2368",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "254959",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1868",
+            "@width": "3111",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "445728",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "696",
+            "@width": "1417",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "124556",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "4337",
+            "@width": "3023",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "843972",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2267",
+            "@width": "1699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "264059",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "622",
+            "@width": "2999",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "166352",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1211",
+            "@width": "1699",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "168204",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2078",
+            "@width": "3549",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "568229",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1663",
+            "@width": "2635",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "244228",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3073",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12711",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6673",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6186",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20890",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26205",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18558",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7619",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14098",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14484",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18950",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1640",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15843",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15769",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18262",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13084",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19153",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23604",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3681",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15939",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14058",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15405",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26585",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25520",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30452",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10001",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20681",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17613",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12066",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S1359431123021270-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "6992244",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85179447278"
+    }
+}}

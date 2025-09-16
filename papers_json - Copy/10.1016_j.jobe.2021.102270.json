@@ -1,0 +1,1182 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85101037710",
+    "originalText": "serial JL 312002 291210 291862 291881 31 Journal of Building Engineering JOURNALBUILDINGENGINEERING 2021-02-11 2021-02-11 2021-02-16 2021-02-16 2021-11-25T15:55:32 1-s2.0-S2352710221001261 S2352-7102(21)00126-1 S2352710221001261 10.1016/j.jobe.2021.102270 S300 S300.1 FULL-TEXT 1-s2.0-S2352710221X00046 2022-12-12T23:23:27.419931Z 0 0 20210701 20210731 2021 2021-02-11T09:00:06.013917Z articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst nomenclature orcid primabst ref 2352-7102 23527102 true 39 39 C Volume 39 36 102270 102270 102270 202107 July 2021 2021-07-01 2021-07-31 2021 article fla © 2021 Elsevier Ltd. All rights reserved. ONLINEMODELFORINDOORTEMPERATURECONTROLBASEDBUILDINGTHERMALPROCESSAIRCONDITIONINGSYSTEM LI X Nomenclature 1 Introduction 2 Methods and theory 2.1 Physical model of indoor temperature regulation characteristic 2.2 State-space representation of indoor temperature regulation characteristic 2.3 Model reduction and parameter identification 2.3.1 Model reduction 2.3.2 Parameter identification based on MLR 3 Implementation of simulation and experiment 3.1 Experimental system description 3.2 Training parameter determination 3.2.1 Acquisition and description of training data 3.2.2 Selection of training data length 3.3 Implementation of proposed identification method 3.4 Result and analysis 3.4.1 Off-line result and analysis 3.4.2 On-line result and analysis 4 Summary and conclusion Author statement Acknowledgements References OKOCHI 2016 784 817 G ULUSOY 2020 101647 S SAVRAN 2014 280 288 A TAN 2001 17 29 K ASHTIANI 2014 597 604 A MUSTAFARAJ 2011 1452 1460 G HOMOD 2013 1 10 R AFRAM 2014 507 519 A AFROZ 2018 64 84 Z REN 2019 101673 C LI 2021 107432 W LI 2019 57 67 W PENG 1998 197 203 X HUANG 2009 503 511 G YAO 2013 26 37 Y XING 2018 134 146 T KORKAS 2015 194 203 C BALDI 2015 352 363 S IOANNOU 2018 229 241 A IOANNOU 2017 487 505 A KUSIAK 2012 241 250 A AFROZ 2018 29 53 Z CHATTERJEE 1986 379 393 S BILOUS 2018 327 336 I QIANG 2015 445 455 G BURATTI 2013 117 127 C LI 2019 100839 X LI 2021 101854 X LU 2020 101223 D MURAD 2020 101225 Y LIX2021X102270 LIX2021X102270XX 2023-02-16T00:00:00.000Z 2023-02-16T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2021 Elsevier Ltd. All rights reserved. 2021-06-03T17:55:35.806Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined Natural Science Foundation of China 51778115 52078096 NSFC National Natural Science Foundation of China http://data.elsevier.com/vocabulary/SciValFunders/501100001809 http://sws.geonames.org/1814991/ The authors gratefully acknowledge the support from the Natural Science Foundation of China (grant No. 51778115 , 52078096 ). 0 https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S2352-7102(21)00126-1 S2352710221001261 1-s2.0-S2352710221001261 10.1016/j.jobe.2021.102270 312002 2021-11-25T16:21:58.751069Z 2021-07-01 2021-07-31 1-s2.0-S2352710221001261-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/MAIN/application/pdf/aa020625a6284f1279d97a4ac1e60edf/main.pdf main.pdf pdf true 3735334 MAIN 9 1-s2.0-S2352710221001261-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/PREVIEW/image/png/9f1f7cba8e12ca6dac210b0380354d23/main_1.png main_1.png png 60287 849 656 IMAGE-WEB-PDF 1 1-s2.0-S2352710221001261-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr6/DOWNSAMPLED/image/jpeg/59f49c339bdd2e88aaa44435e9339744/gr6.jpg gr6 gr6.jpg jpg 112616 423 386 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001261-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr5/DOWNSAMPLED/image/jpeg/8b2b949bb61c26fac17f135b708832b8/gr5.jpg gr5 gr5.jpg jpg 98603 135 388 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001261-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr8/DOWNSAMPLED/image/jpeg/a0f0141dc7473d16adf5bcedb4f5e010/gr8.jpg gr8 gr8.jpg jpg 93151 154 388 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001261-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr7/DOWNSAMPLED/image/jpeg/4f7f0e3a0a1ebb9d4c6c62e73394c83f/gr7.jpg gr7 gr7.jpg jpg 106549 162 533 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001261-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr9/DOWNSAMPLED/image/jpeg/38c3ec1ec07936c26415ba6e176dfaf2/gr9.jpg gr9 gr9.jpg jpg 89306 157 388 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001261-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr10/DOWNSAMPLED/image/jpeg/43facae8f547c4a40f9190f2920ca3de/gr10.jpg gr10 gr10.jpg jpg 238824 1024 687 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001261-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr2/DOWNSAMPLED/image/jpeg/7b8bbf44ab97e9a6a59fddf6a7ab2a04/gr2.jpg gr2 gr2.jpg jpg 105699 242 388 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001261-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr1/DOWNSAMPLED/image/jpeg/fc57569efd549fbe3a1fa6b95be24366/gr1.jpg gr1 gr1.jpg jpg 104778 245 386 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001261-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr4/DOWNSAMPLED/image/jpeg/5eda44384b17da6a89007b12e5184810/gr4.jpg gr4 gr4.jpg jpg 82545 150 388 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001261-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr3/DOWNSAMPLED/image/jpeg/599418ca397e9cf684a5f4da9a3b9750/gr3.jpg gr3 gr3.jpg jpg 118073 177 535 IMAGE-DOWNSAMPLED 1-s2.0-S2352710221001261-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr6/THUMBNAIL/image/gif/7173e30b216f2726f36a7e6cf8ead797/gr6.sml gr6 gr6.sml sml 74101 164 150 IMAGE-THUMBNAIL 1-s2.0-S2352710221001261-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr5/THUMBNAIL/image/gif/736859a6ac8ce09f6152f02e895b5ac9/gr5.sml gr5 gr5.sml sml 75492 76 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001261-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr8/THUMBNAIL/image/gif/3866d676fb2951f1f098bb8762ce3af9/gr8.sml gr8 gr8.sml sml 72261 87 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001261-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr7/THUMBNAIL/image/gif/910b16c34fef1b270dfd9c352841a835/gr7.sml gr7 gr7.sml sml 72481 67 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001261-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr9/THUMBNAIL/image/gif/81b2b533c983d0c98106e8ed373086b3/gr9.sml gr9 gr9.sml sml 71701 89 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001261-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr10/THUMBNAIL/image/gif/ce2d2bfe2f728858f5bce3c84250483f/gr10.sml gr10 gr10.sml sml 74171 164 110 IMAGE-THUMBNAIL 1-s2.0-S2352710221001261-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr2/THUMBNAIL/image/gif/22a763c8561a0ef62c715299f7642c03/gr2.sml gr2 gr2.sml sml 80841 137 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001261-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr1/THUMBNAIL/image/gif/96c9944dc0fe5c65b477ba9fe22eca30/gr1.sml gr1 gr1.sml sml 77325 139 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001261-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr4/THUMBNAIL/image/gif/4d222d7d22c4b428a038cef35d34420d/gr4.sml gr4 gr4.sml sml 69629 85 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001261-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr3/THUMBNAIL/image/gif/f3271fcf69c9d89f5b7289358908eaca/gr3.sml gr3 gr3.sml sml 72891 73 219 IMAGE-THUMBNAIL 1-s2.0-S2352710221001261-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr6/HIGHRES/image/jpeg/f61d461f72214a9d21b0f5de2a92c0cb/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 386194 1874 1712 IMAGE-HIGH-RES 1-s2.0-S2352710221001261-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr5/HIGHRES/image/jpeg/c8704bd57604724375320bbbb2337c6c/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 294193 600 1721 IMAGE-HIGH-RES 1-s2.0-S2352710221001261-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr8/HIGHRES/image/jpeg/8a88e303d53b42e7522f2c9d9698edc8/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 203354 683 1721 IMAGE-HIGH-RES 1-s2.0-S2352710221001261-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr7/HIGHRES/image/jpeg/07b095b278d1ca679cbbf37135626119/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 286186 719 2362 IMAGE-HIGH-RES 1-s2.0-S2352710221001261-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr9/HIGHRES/image/jpeg/1d0d80a12982dc17629b2ce8ce191ea5/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 172471 697 1720 IMAGE-HIGH-RES 1-s2.0-S2352710221001261-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr10/HIGHRES/image/jpeg/7980438df57278d7416a5fad26f4e818/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 1158888 4535 3044 IMAGE-HIGH-RES 1-s2.0-S2352710221001261-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr2/HIGHRES/image/jpeg/43d755f6394ee8df23e774741029e8ed/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 348601 1075 1721 IMAGE-HIGH-RES 1-s2.0-S2352710221001261-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr1/HIGHRES/image/jpeg/2457c8d4d466595f3ae7e0c6e6730326/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 297186 1087 1712 IMAGE-HIGH-RES 1-s2.0-S2352710221001261-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr4/HIGHRES/image/jpeg/16743dc9e47532d761c2100100a42fcb/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 154152 664 1720 IMAGE-HIGH-RES 1-s2.0-S2352710221001261-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/gr3/HIGHRES/image/jpeg/3227c29b0faae1d5c534007f2ba4dfe1/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 358894 786 2370 IMAGE-HIGH-RES 1-s2.0-S2352710221001261-si69.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/4252df9ff7d43e2c199922dfc55e21e0/si69.svg si69 si69.svg svg 32763 ALTIMG 1-s2.0-S2352710221001261-si33.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/fb004f997264bb381fa8b35e971252f0/si33.svg si33 si33.svg svg 129239 ALTIMG 1-s2.0-S2352710221001261-si35.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/e698b9b10c49152a9db716394dc6b521/si35.svg si35 si35.svg svg 17748 ALTIMG 1-s2.0-S2352710221001261-si49.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/14c3686e72465e789843166195e57c3d/si49.svg si49 si49.svg svg 25133 ALTIMG 1-s2.0-S2352710221001261-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/a977cc98f0a3b90d7f1b35272d04b46e/si23.svg si23 si23.svg svg 66394 ALTIMG 1-s2.0-S2352710221001261-si62.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/ea6b8830ad6820ad5eacd5e0dd1ecf6b/si62.svg si62 si62.svg svg 9613 ALTIMG 1-s2.0-S2352710221001261-si51.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/1e61adcb2a88b379819afe4142cb201c/si51.svg si51 si51.svg svg 181986 ALTIMG 1-s2.0-S2352710221001261-si65.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/b0b8d2434e8b6d471948c7066d515596/si65.svg si65 si65.svg svg 51977 ALTIMG 1-s2.0-S2352710221001261-si37.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/9f782f4c349f716757a07e1627df14dc/si37.svg si37 si37.svg svg 20172 ALTIMG 1-s2.0-S2352710221001261-si50.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/138f23bc5f9a4bc934b67d3a11ca3e88/si50.svg si50 si50.svg svg 17161 ALTIMG 1-s2.0-S2352710221001261-si67.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/2222f1b015f891fdeb248c5ba60f3eba/si67.svg si67 si67.svg svg 6712 ALTIMG 1-s2.0-S2352710221001261-si39.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/7b6b57a6949ace66e7f417d1df69b5de/si39.svg si39 si39.svg svg 112182 ALTIMG 1-s2.0-S2352710221001261-si57.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/0f6c94661deda153dc4af6b5b268ce18/si57.svg si57 si57.svg svg 19437 ALTIMG 1-s2.0-S2352710221001261-si58.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/00383c6cd0a61bfcf483dc125044944d/si58.svg si58 si58.svg svg 15097 ALTIMG 1-s2.0-S2352710221001261-si56.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/c7e2dd4ad191a7804b60bc26f09494e2/si56.svg si56 si56.svg svg 26014 ALTIMG 1-s2.0-S2352710221001261-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/f95b2da9d8a73ccd80bd307f06162cd5/si19.svg si19 si19.svg svg 5286 ALTIMG 1-s2.0-S2352710221001261-si34.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/618ab90a41229a93ed10af5a9e602243/si34.svg si34 si34.svg svg 110433 ALTIMG 1-s2.0-S2352710221001261-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/49a123e3af5e0b6d7c07e6d0e7007284/si14.svg si14 si14.svg svg 12306 ALTIMG 1-s2.0-S2352710221001261-si54.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/46b8a41648463e760bebe2a50d5f1c50/si54.svg si54 si54.svg svg 9769 ALTIMG 1-s2.0-S2352710221001261-si55.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/6ba3a8c6aed5e23ca20169c64874935a/si55.svg si55 si55.svg svg 17141 ALTIMG 1-s2.0-S2352710221001261-si73.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/0662e1995258572e192df26889f7df30/si73.svg si73 si73.svg svg 24281 ALTIMG 1-s2.0-S2352710221001261-si40.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/9518ba69101eb8e0d5f70d020f28774c/si40.svg si40 si40.svg svg 137481 ALTIMG 1-s2.0-S2352710221001261-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/30127a018b2d30a8b2dfdd73b6e0559f/si9.svg si9 si9.svg svg 20195 ALTIMG 1-s2.0-S2352710221001261-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/68daa3071e571675f7bfe96f3c1e20b6/si28.svg si28 si28.svg svg 3908 ALTIMG 1-s2.0-S2352710221001261-si36.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/f1d29bb8b364f6f949959f18c2a664cf/si36.svg si36 si36.svg svg 32049 ALTIMG 1-s2.0-S2352710221001261-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/59b62daed0e732a3957d60d7fe33856c/si16.svg si16 si16.svg svg 15759 ALTIMG 1-s2.0-S2352710221001261-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/c27e2c8a8ee0384afd33f4fcbad2a919/si7.svg si7 si7.svg svg 9791 ALTIMG 1-s2.0-S2352710221001261-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/86631b0d24fbb6d9309dc708071de695/si15.svg si15 si15.svg svg 17944 ALTIMG 1-s2.0-S2352710221001261-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/2541580b283fcf7a9b4a4d9bcdf77a7e/si17.svg si17 si17.svg svg 2505 ALTIMG 1-s2.0-S2352710221001261-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/60a3e60f3f344ace7f4538b7e6cb97a8/si2.svg si2 si2.svg svg 20036 ALTIMG 1-s2.0-S2352710221001261-si72.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/af418f8f893fa513926b74743a983189/si72.svg si72 si72.svg svg 30206 ALTIMG 1-s2.0-S2352710221001261-si42.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/b1fd581eac63cc5fd93578c10f42d9e2/si42.svg si42 si42.svg svg 41732 ALTIMG 1-s2.0-S2352710221001261-si75.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/2406bcbd4e8934ede1e8292170c012dd/si75.svg si75 si75.svg svg 54845 ALTIMG 1-s2.0-S2352710221001261-si68.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/d13afd633ac8fff8b2a1cee0434c3f28/si68.svg si68 si68.svg svg 68733 ALTIMG 1-s2.0-S2352710221001261-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/89c834bfaa987b0489f4aa64fd5d2363/si21.svg si21 si21.svg svg 5879 ALTIMG 1-s2.0-S2352710221001261-si43.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/aaf7221c8954b6af174f994a15f4da3a/si43.svg si43 si43.svg svg 25597 ALTIMG 1-s2.0-S2352710221001261-si63.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/e075472636c0cc0d960a612f47800a07/si63.svg si63 si63.svg svg 10228 ALTIMG 1-s2.0-S2352710221001261-si59.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/2bb366ca7b5486210158ff59c19ed9c2/si59.svg si59 si59.svg svg 34434 ALTIMG 1-s2.0-S2352710221001261-si44.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/42674eee2630212200f9d635492f9605/si44.svg si44 si44.svg svg 21474 ALTIMG 1-s2.0-S2352710221001261-si29.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/de76a73ae3f30f44f30ebe17148c2049/si29.svg si29 si29.svg svg 104753 ALTIMG 1-s2.0-S2352710221001261-si32.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/468efc4c51c56d5a70bcb1e7a55f8ebe/si32.svg si32 si32.svg svg 38934 ALTIMG 1-s2.0-S2352710221001261-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/c26c98d818d9fde88b885eecb672fc86/si22.svg si22 si22.svg svg 5195 ALTIMG 1-s2.0-S2352710221001261-si30.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/28aee6e63fd73b3311e5bda4e3d15a59/si30.svg si30 si30.svg svg 33448 ALTIMG 1-s2.0-S2352710221001261-si31.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/d19abeb737468090d4354c0ae300348d/si31.svg si31 si31.svg svg 38183 ALTIMG 1-s2.0-S2352710221001261-si70.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/494f0fd1b02b0b3d6450f580e687cfad/si70.svg si70 si70.svg svg 25207 ALTIMG 1-s2.0-S2352710221001261-si61.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/fc977ed2cc3994af22a8113eec339623/si61.svg si61 si61.svg svg 7566 ALTIMG 1-s2.0-S2352710221001261-si47.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/f652b47624049cdce76fce967518ee34/si47.svg si47 si47.svg svg 4782 ALTIMG 1-s2.0-S2352710221001261-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/f7d927251bdd51192326b0370351c3f3/si12.svg si12 si12.svg svg 18951 ALTIMG 1-s2.0-S2352710221001261-si45.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/614129b9323a418c61e3fb2c4f4734d6/si45.svg si45 si45.svg svg 159184 ALTIMG 1-s2.0-S2352710221001261-si71.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/5a4ab4c5672903f7e11b8a50060f8ea2/si71.svg si71 si71.svg svg 13177 ALTIMG 1-s2.0-S2352710221001261-si53.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/e56cfd5d5a4c543c598090076610f516/si53.svg si53 si53.svg svg 45354 ALTIMG 1-s2.0-S2352710221001261-si60.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/5c5dee687239a9458bc67e4386e15126/si60.svg si60 si60.svg svg 9458 ALTIMG 1-s2.0-S2352710221001261-si66.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/ebb5afa9af3d3fd78880d103c82c72a3/si66.svg si66 si66.svg svg 33505 ALTIMG 1-s2.0-S2352710221001261-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/ab948ac8de5fb0c52371c73b9841119a/si24.svg si24 si24.svg svg 18445 ALTIMG 1-s2.0-S2352710221001261-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/351014371939a131acb5934e9ca20862/si6.svg si6 si6.svg svg 10959 ALTIMG 1-s2.0-S2352710221001261-si64.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/306396f560f26de581e963b52ccdfd15/si64.svg si64 si64.svg svg 164002 ALTIMG 1-s2.0-S2352710221001261-si48.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/af8d09686df965d4dc892a4f7a34a40d/si48.svg si48 si48.svg svg 9904 ALTIMG 1-s2.0-S2352710221001261-si38.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/250c9f5b614e897f377ff00c4f39714d/si38.svg si38 si38.svg svg 59430 ALTIMG 1-s2.0-S2352710221001261-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/f2cedfc2c2c7e798c48a3bbd6eb907e4/si18.svg si18 si18.svg svg 4680 ALTIMG 1-s2.0-S2352710221001261-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/cd269615e4c5b20b2ee3c20f4f878278/si26.svg si26 si26.svg svg 103185 ALTIMG 1-s2.0-S2352710221001261-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/4a202dd6359c8566c371fffdede43042/si3.svg si3 si3.svg svg 9921 ALTIMG 1-s2.0-S2352710221001261-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/b63c74b1e0c1f214b1dcfe7682264b37/si20.svg si20 si20.svg svg 5756 ALTIMG 1-s2.0-S2352710221001261-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/c2766f20c5c9eeb2d06e3e10c13ae1f9/si4.svg si4 si4.svg svg 24386 ALTIMG 1-s2.0-S2352710221001261-si41.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/eef362ac189f8e721133dda8a0fbfe36/si41.svg si41 si41.svg svg 45505 ALTIMG 1-s2.0-S2352710221001261-si46.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/5d537555a4b6a00491b3ee3df0c7a473/si46.svg si46 si46.svg svg 45789 ALTIMG 1-s2.0-S2352710221001261-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/362bf29318c4a5f1391d6594a7b808b4/si27.svg si27 si27.svg svg 32875 ALTIMG 1-s2.0-S2352710221001261-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/e4d3a257fc5530c5a8d862b41eb85be2/si1.svg si1 si1.svg svg 13620 ALTIMG 1-s2.0-S2352710221001261-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/6f7efcff2938bdcd6ed1dc3edd40f039/si5.svg si5 si5.svg svg 8032 ALTIMG 1-s2.0-S2352710221001261-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/935b16d773f26d9bd4827b09d797cdab/si13.svg si13 si13.svg svg 23176 ALTIMG 1-s2.0-S2352710221001261-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/a5422b0b18fbcda2be15846ad11509d6/si8.svg si8 si8.svg svg 11163 ALTIMG 1-s2.0-S2352710221001261-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/c90fa1d8032ea8d43e44f39f5f3243d4/si11.svg si11 si11.svg svg 23039 ALTIMG 1-s2.0-S2352710221001261-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352710221001261/STRIPIN/image/svg+xml/43397a832456ef2430b1490d715855e3/si10.svg si10 si10.svg svg 16262 ALTIMG 1-s2.0-S2352710221001261-am.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10T8PBKW3C9/MAIN/application/pdf/b6dc6f7f6926a61d1ac1f3848f633635/am.pdf am am.pdf pdf false 1114170 AAM-PDF JOBE 102270 102270 S2352-7102(21)00126-1 10.1016/j.jobe.2021.102270 Elsevier Ltd Fig. 1 Indoor temperature regulation schematic of air conditioning system. Fig. 1 Fig. 2 Plan graph of networked control platform for VAV air conditioning system. Fig. 2 Fig. 3 Profiles of sampling data derived from actual operating process. Fig. 3 Fig. 4 Number of R-Square under different training data length. Fig. 4 Fig. 5 R-Squared under training data length of 3. Fig. 5 Fig. 6 Implementation flow chart of proposed identification method. Fig. 6 Fig. 7 Corresponding relationship between inputs and outputs in progressive mode. Fig. 7 Fig. 8 Simulation identification using the actual operating data. Fig. 8 Fig. 9 Absolute error distribution using actual operating data. Fig. 9 Fig. 10 Profiles of online identification in three rooms. Fig. 10 Table 1 Air conditioning room information. Table 1 Area Volume Window-wall ratio Design air flow rate Room 1 33 m2 132 m3 0.11 1200 m3/h Room 2 37 m2 148 m3 0.19 1500 m3/h Room 3 50 m2 200 m3 0.25 2100 m3/h Table 2 Experiment condition parameters. Table 2 Type Description Value Unit Working condition Supply air temperature 37 °C Supply air static pressure 60 Pa 1# indoor temperature setting 22.5 °C 2# indoor temperature setting 22.5 °C 3# indoor temperature setting 22.5 °C season winter \u2013 sampling time 1 min MLR confidence interval 95% \u2013 training data length 3 \u2013 1# maximum absolute error 0.8 °C 1# mean error 0.2 °C 2# maximum absolute error 0.3 °C 2# mean error 0.1 °C 3# maximum absolute error 0.3 °C 3# mean error 0.1 °C Online model for indoor temperature control based on building thermal process of air conditioning system Xiuming Li a Zongwei Han a Tianyi Zhao b ∗ Jiajia Gao c a SEP Key Laboratory of Eco-Industry, School of Metallurgy, Northeastern University, Shenyang, 110819, China SEP Key Laboratory of Eco-Industry School of Metallurgy Northeastern University Shenyang 110819 China SEP Key Laboratory of Eco-Industry, School of Metallurgy, Northeastern University, Shenyang, 110819, China b Institute of Building Energy, Dalian University of Technology, Dalian, 116024, China Institute of Building Energy Dalian University of Technology Dalian 116024 China Institute of Building Energy, Dalian University of Technology, Dalian, 116024, China c Department of Building Environment & Energy Engineering, Huazhong University of Science & Technology, Wuhan, 430074, China Department of Building Environment & Energy Engineering Huazhong University of Science & Technology Wuhan 430074 China Department of Building Environment & Energy Engineering, Huazhong University of Science & Technology, Wuhan, 430074, China ∗ Corresponding author. Since there are lots of influencing factors in indoor temperature regulation process of air conditioning system in the large-public building, it is difficult to establish an accurate mathematical model and to implement model-based online control. This paper proposes an online modeling method for indoor temperature regulation characteristic according to building thermal process. A physical-data driven model, which takes the state-space equation solution representation form as the reference structure, is proposed, and the model parameters are identified based on the multiple linear regression analysis. Then, experimental and simulation studies in online and offline have been carried out to validate the proposed modeling method. The contribution of this study is to provide an online model, which can not only retain system physical property but also be updated online simply. The proposed model with building thermal process property will be benefit for terminal controller design for indoor temperature regulation in the air conditioning system. Keywords Air conditioning system Indoor temperature Online model Parameter identification Building thermal process Nomenclature y ( t ) System output of present time f ( x , t ) Expression of system input at present time β i Coefficient of present output to previous output d ( e x , t ) System external input of present time ρ r Room air density C P Specific heat at constant pressure of air V r Volume of air-conditioned room T r Indoor temperature ρ s u p Density of supply air ρ o u t Density of return air G s u p Airflow volume of supply air G o u t Airflow volume of return air T s u p Supply air temperature Q L Apparent heat generated inside room T s p Indoor temperature setting value t s p Time when indoor temperature is stable Δ Variable quantity t Time a Mathematical expression of system regulation variable b Mathematical expression of system regulation variable n Pure lag time μ Random error MLR Multiple linear regression MISO Multiple-inputs-single-output PLC Programmable logic controller IDE Integrated development environment 1 Introduction Indoor temperature regulation process of air conditioning system has the characteristic of multi-variables, strong coupling and large lag [1], so it is difficult to build an accurate model based on the physical law. As a result, existing prevalent control methods based on accurate model (such as adaptive PID [2], fuzzy PID [3], PID plus Smith compensation [4]) fails to achieve the expected effect in aspects of energy efficiency and stable operation. Meanwhile, the data-driven black-box model (such as artificial neural network [5] and multivariate regression analysis [6]) depends too much on real-time operating data of controlled object, and it is lack of commonality. Actually, aiming at the modeling problem for HVAC systems, many scholars have already carried out a series of studies [7\u20139], especially for indoor temperature [10\u201312]. Physical-empirical hybrid model, which can not only represent system physical property but also identify model parameters with the operational data, is considered as an effective way. It is commonly believed that the physical model based on the heat balance equation is an effective reference structure for gray-box model because it can retain physical properties of the controlled object. For example, Peng has proposed a zonal model derived from computational fluid dynamics, and the zonal model is transformed into state-space equation representation form in order to design better control systems [13]; Using the discrete state space equation, Huang and Wang proposed an uncertainty polytope to describe time-delay uncertainty [14]; Yao et al. presents a three-zone dynamic model to describe the dynamic behaviors of indoor air temperature and humidity, by transforming the dynamic thermal behaviors model into a state-space equation form [15]; the author's team proposes a simulation model based on the analytical solution of heat balance equation by transforming it into state-space equation [16]. Studies indicate that the model utilizing state-space equation representation form has ability to establish relationship between real-time operating data and physical law. However, it is still worth to further study on combining with the actual operation data and simplifying online computing complexity. In fact, both online-based and co-simulation-based approaches rely on the model to evaluate the control effect, and online control needs simplified (often linearized) models so as to address the real-time requirements of the control problem, especially for closed-loop feedback control process, such as joint energy demand and thermal comfort optimization in the regulation of HVAC systems [17,18] and in-situ real time measurements of thermal comfort [19,20]. For the parameter identification of gray-box model, many optimization techniques such as neural network based on gradient descent [21], nonlinear auto-regression with exogenous neural network [22] and regression analysis are used. Relative to other methods, multiple linear regression (MLR) analysis, which represents the relationship between dependent variable and independent variables accurately [23], has been widely used in the modeling of building energy and environment, such as energy consumption model [24], cooling load model [25], thermal comfort model [26], etc. The author and his partners have carried out researches on the modeling methods based on the conventional hysteresis relay feedback control [27] and two network neural [28]. As stated above, significant achievement has been made, which offers a referable thought. However, limitations still exist for controller design and system commissioning online, and thus the potential key issues for this issue need to be solved as follows. ● Establishment of indoor temperature regulation characteristic model based on physical laws of building thermal process. ● Transform the physical model into the reference structure utilizing state-space equation that is suitable for parameter identification ● Build the physical-data driven model which can be updated online using the operational data Variable air volume (VAV) air conditioning system, which is considered as a kind of complicated air conditioning system, depends on control system highly. It is well known that the dynamic regulation process of VAV system is a typical nonlinear process, which has characteristics of multi-variables, strong coupling, large lag and large inertia. Taking VAV air conditioning system as the study object has great significance for solving online modeling problem of indoor temperature regulation characteristic [29]. Therefore, this paper firstly presents the physical model of indoor temperature regulation characteristic based on the conservation laws of mass and energy, the heat balance equation. Secondly, the proposed physical model is transformed into the state-space equation solution representation form as the reference structure, which is suitable for parameter identification using multiple linear regression analysis. Finally, simulation and experimental studies are implemented in a networked control platform of VAV air conditioning system. This paper is organized as follows: Section 2.1 and 2.2 presents physical model and the state-space equation of indoor temperature regulation characteristic, respectively. In Section 2.3, the state-space equation solution representation form as the reference structure is proposed and corresponding parameter identification method is demonstrated based on multiple linear regression analysis. Subsequently, simulation and experiment results are presented and discussed in Section 3. Finally, Section 4 concludes with a description of results and addresses possible future work. 2 Methods and theory 2.1 Physical model of indoor temperature regulation characteristic The indoor temperature regulation schematic of air conditioning system is shown in Fig. 1 . The common control strategy is to change supply air volume or supply air temperature by regulating the terminal device (such as damper, fan, valve of heat exchanger, etc.), so as to maintain indoor temperature within the range of its setting value. Generally, the dynamic regulation process of variable air volume (VAV) systems is a typical nonlinear process, which has characteristics of multi-variable, strong coupling, and large lag. The indoor temperature lag response characteristic is a very important factor, however, it is difficult to describe the lag characteristic using of the laws of mass and energy conservation. To be benefit for modeling, the dynamical model is firstly built without consideration of indoor temperature lag response characteristic in this paper, and then the corresponding lag response description is added using the following form. (1) y ( t ) = f ( x , t ) + d ( e x , t ) + ∑ i = 1 n β i y ( t − i ) Where, y ( t ) represents the system output of present time; f ( x , t ) represents the expression of system input at present time, in this paper this expression is the equation based on the laws of mass and energy conservation; y ( t − i ) and β i represent the system output of previous time and corresponding coefficient respectively, in this paper this expression is indoor temperature measured value of previous time; d ( e x , t ) represents the system external input of present time, in this paper this expression is the apparent heat generated inside room. Therefore, without consideration of indoor temperature lag response characteristic, the dynamical model of indoor temperature in the air conditioning system is described in Equation (2), which reflects the dynamic response relationship of multiple-inputs-single-output (MISO) between the change of indoor temperature, system regulation variables and instantaneous cooling load. (2) ρ r C P V r d T r ( t ) d t = ρ s u p C P G s u p ( t ) T s u p ( t ) − ρ o u t C P G o u t ( t ) T r ( t ) + Q L ( t ) Where, ρ r represents room air density, 1.29 kg/m3; C P represents specific heat at constant pressure of air, 1.0 kJ/kg⋅°C; V r represents the volume of air-conditioned room, m3; T r represents indoor temperature, °C; ρ s u p and ρ o u t represent the density of supply air and return air respectively, kg/m3; G s u p and G o u t represent the airflow volume of supply air and return air respectively, m3/s; T s u p represents supply air temperature, °C; Q L represents the apparent heat generated inside room, which is generated from outdoor hot air, solar radiation, indoor heat source, building envelope and indoor storage heat thing. To be convenient for derivation, the following assumptions are made: 1) The airflow in the air conditioning system can be considered as the incompressible fluid, and there is no phase transition in the regulation process of indoor temperature. Therefore, air temperature barely impacts on air density, the influence of air temperature on air density can be ignored, that is to say ρ s u p = ρ o u t = ρ r . 2) The common control strategy of VAV systems is to remain supply air temperature unchanged and to control indoor temperature by changing supply air volume. Therefore, supply air temperature T s u p remain unchanged, and only the air supply volume is changed in this study. 3) Considering room positive pressure and the penetration through doors and windows, the air volume flowing out of the room is equal to 0.9\u20130.95 ratio ( γ =0.9\u20130.95) of that flowing into the room. It can be known from Equation (2), the mathematical model under the condition of variable air volume regulation is described as below. (3) ρ r C P V r d T r ( t ) d t = ρ r C P G s u p ( t ) ( T s u p − γ T r ( t ) ) + Q L ( t ) In the dynamic regulation process, the change of supply air volume will cause the change of indoor temperature. It is assumed that indoor temperature at previous time is stable and is equal to its setting value, and then the change of indoor temperature at present time can be considered as the deviation between the measured value of indoor temperature and its setting value. Corresponding change of supply air volume in air conditioning room and the change of sensible heat generated within room can be described below. (4) Δ T r ( t ) = T r ( t ) − T s p (5) Δ Q L ( t ) = Q L ( t ) − Q L ( t s p ) (6) Δ G s u p ( t ) = G s u p ( t ) − G s u p ( t s p ) Where, T s p represents the indoor temperature setting value of air conditioning room; t s p represents the time when indoor temperature is stable. It is noted that the stable-state t s p does not exist in reality. In the purpose of practical application, when indoor temperature reaches acceptable error range (for example ±0.2 °C or ±0.5 °C) within its setting value, it is considered that indoor temperature is in stable state and the begin time of this stable-state is recorded as t s p . Substitute Equation (4) ~ (6) into Equation (3). (7) ρ r C P V r d ( T s p + Δ T r ( t ) ) d t = ρ r C P ( G s u p ( t s p ) + Δ G s u p ( t ) ) [ T s u p − γ ( T s p + Δ T r ( t ) ) ] + Q L ( t s p ) + Δ Q L ( t ) In particular, when indoor temperature fluctuates near its setting value, it can be considered that supply cooling capacity of VAV terminal room is equal to the instantaneous cooling load at this time. Therefore, Equation (3) can be expressed as follows. (8) ρ r C P V r d T s p d t = ρ r C P G s u p ( t s p ) [ T s u p − γ T s p ] + Q L ( t s p ) = 0 In this way, substitute Equation (8) into Equation (7), and it can be obtained as follows. (9) ρ r C P V r d Δ T r ( t ) d t = ρ r C P ( G s u p ( t s p ) + Δ G s u p ( t ) ) [ T s u p − γ ( T s p + Δ T r ( t ) ) ] + Q L ( t s p ) + Δ Q L ( t ) = − ρ r C P G s u p ( t s p ) ⋅ γ Δ T r + ρ r C P Δ G s u p ( t ) ( T s u p − γ T s p ) − ρ r C P γ Δ G s u p ( t ) Δ T r ( t ) + Δ Q L ( t ) 2.2 State-space representation of indoor temperature regulation characteristic Equation (9) gives the differential equation of indoor temperature under the condition of variable air volume regulation based on the conservation laws of energy and mass. However, it is too complicated to directly describe the relationship between the indoor temperature change and regulation variables (the change of supply air volume, the change of supply air temperature) and the change of instantaneous cooling load, and it is not convenient for online application. Therefore, this section will further carry out the study on given a differential equation in order to further develop the model that is suitable for online identification and application. When the system is under the stable operating condition, the change of indoor temperature or supply air volume is very small. As a result, the product between Δ G s u p ( t ) and Δ T r ( t ) is very small, and the term of ρ r C P γ Δ G s u p ( t ) Δ T r ( t ) can be ignored. Thus, Equation (9) can be approximated as follows. (10) ρ r C P V r d Δ T r ( t ) d t = − ρ r C P G s u p ( t s p ) ⋅ γ Δ T r ( t ) + ρ r C P Δ G s u p ( t ) ( T s u p − γ T s p ) + Δ Q L ( t ) Equation (10) can be transformed into the state-space equation representation form. (11) d Δ T r ( t ) d t = − γ G s u p ( t s p ) V r Δ T r ( t ) + ( T s u p − γ T s p ) V r Δ G s u p ( t ) + 1 ρ r C P V r Δ Q L ( t ) Equation (11) is the state-space equation of indoor temperature dynamical response characteristic under the condition of constant supply air temperature and variable supply air volume. Where, − γ G s u p ( t s p ) V r is regarded as system coefficient; Δ T r ( t ) is regarded as status variable; ( T s u p − γ T s p ) V r is regarded as control variable coefficient; Δ G s u p ( t ) is regarded as control variable; 1 ρ r C P V r is regarded as disturbance coefficient; Δ Q L ( t ) is regarded as disturbance variable. It can be seen that the proposed model with the state-space equation representation form can realize indoor temperature prediction. Considering that the state-space equation could be converted into first-order plus time-delay link transfer function, the proposed model may be useful for obtaining controller regulation parameters (such as PID algorithm). 2.3 Model reduction and parameter identification 2.3.1 Model reduction To be convenient for online application, the model will be simplified, and corresponding identification method will be proposed based on MLR [23]. Generally, the variable quantity of supply air volume Δ G s u p ( t ) and the indoor heat gain cooling load Δ Q L ( t ) can be calculated in real time directly. Thus, Equation (11) can be simplified as a first-order linear nonhomogeneous differential equation with constant coefficients. (12) { d Δ T r ( t ) d t + a Δ T r ( t ) = b a = γ G s u p ( t s p ) V r b = ( T s u p − γ T s p ) V r Δ G s u p ( t ) + 1 ρ r C P V r Δ Q L ( t ) It is obvious that a and b are both time variables. But, in a certain control period, Δ G s u p ( t ) and Δ Q L ( t ) can be considered as constant. Thus, the general solution of given differential equation is as follows. (13) Δ T r ( t ) = C e − a t + b a Where, C is an arbitrary constant. It can be noted that indoor temperature at present time is stable and is equal to its setting value when t = 0 , that is to say Δ T r ( t ) = 0 when t = 0 . Substitute this condition into Equation (12), and it can be obtained as follows. (14) C = − b a When indoor temperature is in the stable status, the indoor temperature change of present time is not only related to supply air volume, return air volume and supply air temperature of present time, but also related to indoor temperature of previous time. Combining Equations (13) and (14), the indoor temperature model can be simplified as Equation (15). (15) Δ T r ( t ) = − b a e − a t + b a + ∑ i = 1 n β i T r ( t − i ) a = γ G s u p ( t s p ) V r b = ( T s u p − γ T s p ) V r Δ G s u p ( t ) + 1 ρ r C P V r Δ Q L ( t ) C = − b a Where, Δ T r ( t ) represents the indoor temperature change of air conditioning room; a and b represent the mathematical expression of system regulation variables, which are related to Δ T r ( t ) . Meanwhile, the proposed model brings ∑ i = 1 n β i T r ( t − i ) in to describe the effect of indoor temperature status of previous time versus indoor temperature status of present time. Where, β i represents the effect coefficient of indoor temperature at t − i time against indoor temperature at t time ( i = 1 , \u2026 , n ); n depends on pure lag time of indoor temperature against system regulation variables. Sampling points at previous time \u201c t − 1 , t − 2 , t − 3 , \u2026 , t − n \u201d are determined according to the sample period of discrete control system. It can be seen that the proposed state-space equation solution representation form describes the relationship between change of indoor temperature and system regulation variables, which offers an effective way to prediction future indoor temperature. 2.3.2 Parameter identification based on MLR Equation (15) gives the linear relationship between the change of indoor temperature and system regulation variables directly, and then model coefficients can be calculated by the least-square approximation. To be convenient for online application, the following process need to be done as follows. 1) In the adjacent control period, it can be considered approximately that the sensible heat generated inside room remains unchanged, that is to say Δ Q L = 0 . At the same time, constant coefficient is introduced to compensate the model. 2) In consideration that the time-delay response characteristic of indoor temperature against regulation variables, which means indoor temperature of present time is related to supply air volume and supply air temperature of n -th time, in this paper, the indoor temperature change of present time is just related to indoor temperature of n t h time, and then ∑ i = 1 n β i T r ( t − i ) can be simplified as β n T r ( t − n ) . In this way, taking the mathematical form of multiple regression model as the reference, Equation (14) can be converted into the representation form of Equation (16) directly. Where, a 0 , a 1 , a 2 and a 3 represent regression model coefficients. (16) Δ T r ( t ) = a 0 + a 1 ∗ − b a e − a t + a 2 ∗ b a + a 3 ∗ T r ( t − n ) a = γ ∗ G s u p ( t s p ) V r b = ( T s u p − γ ∗ T s p ) V r Δ G s u p a 3 = β n Considering room positive pressure and the penetration through doors and windows, the air volume flowing out of room is equal to 0.9\u20130.95 ratio of that flowing into room, γ is considered as 0.9 in this study. MLR analysis takes given values of multiple explanatory variables as the condition of regression analysis, and it is a research method on identifying linear relationship between one dependent variable and several independent variables. Therefore, model parameters can be determined by using MLR analysis method. The general form of a MLR model is described in Equation (17). (17) Y = ω 0 + ω 1 X 1 + ω 2 X 2 + \u2026 + ω j X j + \u2026 + ω k X k + μ Where, k represents the number of independent variables; ω j ( j = 1 , 2 , \u2026 , k ) represents regression coefficient; μ represents the random error without considering the effect of the k-th independent variable against Y . Matrix expression of the n-th stochastic equation, which is converted from Equation (17), is given as follows. (18) Y = X ω + μ = [ 1 , X 1 , X 2 , \u2026 X j , \u2026 X K ] [ ω 0 ω 1 ω 2 \u2026 ω j \u2026 ω k ] + μ (19) ω ˆ = ( X \u2019 X ) − 1 X \u2019 Y For the matrix expression of MLR model shown in Equation (18), the least square method can be used for parameter estimation, and the result is shown as Equation (19). After parameters of MLR model are estimated (model coefficients have been solved according to the sampling data), the fitting degree (between sampling regression values and sampling observation values) need be observed by statistics in order to judge the accuracy of identified model parameters. 3 Implementation of simulation and experiment 3.1 Experimental system description The experimental work is completed in a networked control platform for VAV air conditioning system located in Dalian University of Technology. The experimental platform is single floor building as shown in Fig. 2 , including three rooms with the area of 120 m2 and the height of 4 m. Main parameters of three rooms are listed in Table 1 . The materials of exterior and interior walls of Room 2 are plaster and brick. The interior wall materials the between Room 1 and 3 are two-layer color steel plates with polystyrene foam. The AHU are installed in the equipment room, the rated supply air volume and the cooling capacity are 5000 m3/h and 30 kW, respectively. The exhaust fan is installed to balance the room pressure. A damper is installed on each duct branch to control terminal supply air volume. Supply air volume is measured according to the calibrated result of airflow rate sensor. This networked control platform is equipped with advanced automatic control system, which includes a Siemens S7-1200 programmable logic controller (PLC), a self-developed process server software, sensors and actuators. The self-developed process server software, which is achieved based on Python language in Pycharm IDE (integrated development environment), could communicate with PLC based on Modbus-TCP protocol. The self-developed control system provides the advantage for online application with good communication performance. 3.2 Training parameter determination 3.2.1 Acquisition and description of training data According to Equation (16), system real-time operating data including supply air temperature T s u p , indoor temperature setting value T s p , the variation quantity of supply air volume Δ G s u p , the variation quantity of indoor temperature Δ T r between present time and previous time, supply air volume when indoor temperature reaches its setting value at close time G s u p ( t s p ) and indoor temperature of t-n time T r ( t − n ) , need to obtained to calculate MLR model coefficients ( a 0 , a 1 , a 2 a 3 ). It is noted that n depends on pure lag time of indoor temperature against system regulation variables, which can be calculate by the step-response test and hysteresis relay feedback control. Where, supply air volume G s u p , supply air temperature T s u p , indoor temperature of present time T r and indoor temperature setting value T s p could be directly acquired from PLC, others need to be indirectly calculated in the process server software with self-developed. Detailed data acquirement and interaction process are described as below. 1) Process server reads and stores G s u p , T s u p and T r in real time based on Modbus-TCP protocol. 2) Calculate G s u p ( t s p ) , Δ G s u p and Δ T r according to the real-time acquisition and storage data. 3) Take the acquired and calculated data into the input-output array for MLR model coefficient identification. 4) Calculate MLR model coefficients using the least-square parameter estimation method. In this section, the actual operating data is used to validate the effect of the proposed MLR model based on the state-space equation solution. The data sets, which include the profiles of supply air temperature, supply air volume and indoor temperature, are derived from terminal control process of 3# Room in winter. Considering that the execution time of terminal damper from 0 to 100% is 60 s in actual control process, the sampling time interval is selected as 1 min and it can satisfy indoor temperature control requirement. Corresponding 445 sets training data are shown in Fig. 3 . 3.2.2 Selection of training data length In the identification process of MLR model coefficients, the data length of single training is an issue for accuracy of MLR model. If the training data length is too small or too large, the model accuracy may not be guaranteed. Therefore, it is necessary to optimize the data length of single training for the model accuracy. To obtain the appropriate training data length, a criterion needs to be determined. In this study, R-Square is selected to achieve acceptable model accuracy by using appropriate training data length. R-Square is a determination coefficient, which determines the fitness of the model. If the model is worse than this constant model, then the R-Square is negative. It is desirable that R-Square is close to 1. Generally, if R-Squared is between 0.8 and 1, it indicates that the independent variable and the dependent variable have stronger linear correlation [30]. The equation of R-Square is described as follow. (20) R 2 = 1 − ∑ j = 1 n ( y j ∗ − y j ) ∑ j = 1 n y j 2 The selection process for appropriate training data length is repeated by adding the length of the training data set and judging corresponding R-Square incrementally. The first trial uses 1 min input-output training data; the second trial uses 2 min input-output training data; the n t h trial uses training data of n minutes. For the first trial, by applying 445-min actual operating data one-by-one, a total number of 445 sets input-output data are obtained, one set for data of each minute is collected at 1-min interval. For the second trial, training data of two consecutive minutes are applied to training appropriate training data length for each set, and a total of 444 [445 (total number of samples)-2 (data length in a single training) + 1] sets input-output data are obtained. The process continued by adding 1 min to increase the training data length per trial, and 30 sets trial in all are implemented with the training data length from 1 to 30. Because it's difficult to ensure that R-Square must be between 0.8 and 1 in each training process, the number of R-Square between 0.8 and 1 under different training data length is used to evaluate the performance of MLR model instead of R-Square. The number of R-Square above 0.8 under different training data lengths and R-Square under training data length of 4 are shown in Figs. 4 and 5 , respectively. Fig. 4 records the number of R-Square between 0.8 and 1 under different training data length. It can be seen that when the training data length is equal to 3, corresponding number of R-Square above 0.8 is larger than that under other training data length. Meanwhile, Fig. 5 shows the curve of R-Square under the training data length of 3. It can be seen that the number of R-Square above 0.8 is 300, which accounts for 72% (300/420 = 72%) of total training times. Results indicate that the number of R-Square above 0.8 can be considered as an evaluation index to determine appropriate training data length. In this study, the optimal training data length is 3. 3.3 Implementation of proposed identification method The optimal training data length has been determined in previous section. However, it also shows that it is difficult to ensure that R-Square is always above 0.8 in every training. To be convenient for online application, a recursive selection algorithm for MLR model coefficient identification is proposed, and corresponding implementation flow chart is demonstrated in Fig. 6 . Detailed implementation process is below. Step 1 According to Equation (16), G s u p ( t s p ) should be captured when indoor temperature reaches its set-point firstly. Step 2 Save a certain amount of data to calculate optimal training data length, and the calculation process has been demonstrated in Section 3.2.2. In this study, the data of half an hour is enough. Step 3 Acquire the training input-output data in real-time according the result of optimal training data length, and then calculate the model coefficient and corresponding R-Square. Step 4 See whether the R-Square satisfies the requirement. If R-Square is above 0.8, record and save the model coefficient for model identification. Step 5 If R-Square is under 0.8, do not save the model coefficient and return Step 3. 3.4 Result and analysis 3.4.1 Off-line result and analysis In this section, a progressive training mode is adopted based on simulation sampling dataset, and the corresponding relationship between inputs and outputs is shown in Fig. 7 . In a single training, 3 sets of previous system inputs are considered as the model input together, and system output of present time is considered as model output. The training data length is 4 (3 + 1) in a single training. This progressive mode is suitable for online application. The simulation identification result using the actual operating data is shown in Fig. 8 , which shows that the model output value matches the actual value well under the condition that the optimal training data length is 3. In the initial operation process of the system, indoor temperature does not reach its set-point, so G s u p ( t s p ) cannot be obtained in this process. Thus, consideration of the actual operation condition, 1\u201345 sets of training data are used for preliminary training to calculate the initial values of operation parameters, such as G s u p ( t s p ) , Δ G s u p and Δ T r . Then, the 46\u2013445 sets of training data are used as the effective simulation identification results. Corresponding absolute error distribution is shown in Fig. 9 . Fig. 9 shows the histogram of absolute error distribution. The absolute error distribution is mainly within the range of [-0.4, 0.3], and it indicates that the proposed model is effective on capturing indoor temperature dynamics regulation characteristic. 3.4.2 On-line result and analysis In this section, the real-time result of 1#, 2# and 3# Room including the operating process of continuous 4 h in winter, is used to validate the online identification effect of the proposed method. During experimental process, indoor temperature control loop adopts conventional PI algorithm, which regulates the damper to keep indoor temperature within the range of its setting value. The terminals in the same room are controlled in the same way, and supply air volume in Fig. 10 is the sum of all terminals in single room. Meanwhile, supply air fan control loop adopts conventional constant static pressure method, which regulates supply fan to keep supply air pressure within the range of its setting value. Detailed experimental condition parameters are described in Table 2 . Considering that the execution time of terminal damper from 0 to 100% is 60 s in the actual control process, the sampling time interval is 1 min and it can satisfy indoor temperature control requirement. Online training also adopts a progressive training mode, which is shown in Fig. 7. Fig. 10 (a), (b) and (c) show the online identification results, respectively. It indicates that the model output value matches the actual value well in three rooms. The maximum absolute error and mean error in three rooms are (0.8, 0.2), (0.3, 0.1) and (0.3, 0.1), respectively. The online identification results also indicate that the proposed model is effective on capturing the indoor temperature dynamics regulation characteristics. It can be noted that prediction temperature in Room 1 shows lots of fluctuation. The reason may be that Room 1 is the test hall, therefore, the doors are opened frequently, which leads to the fluctuation of supply air volume. 4 Summary and conclusion This paper proposes an online modeling method for building thermal process of indoor temperature regulation characteristic. A physical-data driven model, which takes the state-space equation solution representation form as the reference structure, is proposed, and the model parameter is identified based on multiple linear regression analysis. Then, experiment and simulation studies in online and offline have been carried out to validate the proposed modeling method. Based on results above, there are some conclusions below. 1) The proposed model can retain the physical property and be updated online using the operational data, which will be benefit for terminal controller design of air conditioning systems. 2) The proposed the state-space equation solution representation form describes the relationship between change of indoor temperature and system regulation variables, 3) R-Square could be considered as an evaluation index to determine the appropriate data length. 4) The recursive selection algorithm based on R-Square is an effective method to on-line identify MLR model coefficient. 5) It is noted that if the measurements of supply air volume and supply air temperature are not available, the proposed online model could not be applied online. The proposed online model has the state-space representation form which can be converted into the transfer function, and it may be useful for controller parameter extraction online. Meanwhile, the lag response characteristic is also considered in the modeling process, and the proposed online model can be used to realize indoor temperature prediction and to improve control stability. Author statement Xiuming Li: Conceptualization, Methodology, Validation, Writing-Original draft, Zongwei Han: Software, Formal analysis, Visualization, Writing-Reviewing and Editing, Tianyi Zhao: Conceptualization, Investigation, Supervision, Writing-Reviewing and Editing, Jiajia Gao: Investigation, Writing-Reviewing and Editing. Declaration of competing interest There is no conflict of interest. Acknowledgements The authors gratefully acknowledge the support from the Natural Science Foundation of China (grant No. 51778115, 52078096). References [1] G.S. Okochi Y. Yao A review of recent developments and technological advancements of variable-air-volume (VAV) air-conditioning systems Renew. Sustain. Energy Rev. 59 2016 784 817 Okochi, G.S. and Y. Yao, A review of recent developments and technological advancements of variable-air-volume (VAV) air-conditioning systems. Renewable and Sustainable Energy Reviews, 2016. 59: 784-817. [2] S. Ulusoy S.M. Nigdeli G. Bekdaş Novel metaheuristic-based tuning of PID controllers for seismic structures and verification of robustness Journal of Building Engineering 2020 101647 Ulusoy, S., S.M. Nigdeli and G. Bekdas, Novel metaheuristic-based tuning of PID controllers for seismic structures and verification of robustness. Journal of Building Engineering, 2020: 101647. [3] A. Savran G. Kahraman A fuzzy model based adaptive PID controller design for nonlinear and uncertain processes ISA (Instrum. Soc. Am.) Trans. 53 2 2014 280 288 Savran, A. and G. Kahraman, A fuzzy model based adaptive PID controller design for nonlinear and uncertain processes. ISA Transactions, 2014. 53(2): 280-288. [4] K.K. Tan T.H. Lee F.M. Leu Predictive PI versus Smith control for dead-time compensation ISA (Instrum. Soc. Am.) Trans. 40 1 2001 17 29 Tan, K.K., T.H. Lee and F.M. Leu, Predictive PI versus Smith control for dead-time compensation. ISA Transactions, 2001. 40(1): 17-29. [5] A. Ashtiani P.A. Mirzaei F. Haghighat Indoor thermal condition in urban heat island: comparison of the artificial neural network and regression methods prediction Energy Build. 76 2014 597 604 Ashtiani, A., P.A. Mirzaei and F. Haghighat, Indoor thermal condition in urban heat island: Comparison of the artificial neural network and regression methods prediction. Energy and Buildings, 2014. 76: 597-604. [6] G. Mustafaraj G. Lowry J. Chen Prediction of room temperature and relative humidity by autoregressive linear and nonlinear neural network models for an open office Energy Build. 43 6 2011 1452 1460 Mustafaraj, G., G. Lowry and J. Chen, Prediction of room temperature and relative humidity by autoregressive linear and nonlinear neural network models for an open office. Energy and Buildings, 2011. 43(6): 1452-1460. [7] R.Z. Homod Review on the HVAC system modeling types and the shortcomings of their application J. Energy 2013 2013 1 10 Homod, R.Z., Review on the HVAC System Modeling Types and the Shortcomings of Their Application. Journal of Energy, 2013. 2013: 1-10. [8] A. Afram F. Janabi-Sharifi Review of modeling methods for HVAC systems Appl. Therm. Eng. 67 1 2014 507 519 Afram, A. and F. Janabi-Sharifi, Review of modeling methods for HVAC systems. Applied Thermal Engineering, 2014. 67(1): 507-519. [9] Z. Afroz G.M. Shafiullah T. Urmee G. Higgins Modeling techniques used in building HVAC control systems: a review Renew. Sustain. Energy Rev. 83 2018 64 84 Afroz, Z., G.M. Shafiullah, T. Urmee, and G. Higgins, Modeling techniques used in building HVAC control systems: A review. Renewable and Sustainable Energy Reviews, 2018. 83: 64-84. [10] C. Ren S. Cao Development and application of linear ventilation and temperature models for indoor environmental prediction and HVAC systems control Sustainable Cities and Society 51 2019 101673 Ren, C. and S. Cao, Development and application of linear ventilation and temperature models for indoor environmental prediction and HVAC systems control. Sustainable Cities and Society, 2019. 51: 101673. [11] W. Li J. Zhang T. Zhao J. Ren Experimental study of an indoor temperature fuzzy control method for thermal comfort and energy saving using wristband device Build. Environ. 187 2021 107432 Li, W., J. Zhang, T. Zhao, and J. Ren, Experimental study of an indoor temperature fuzzy control method for thermal comfort and energy saving using wristband device. Building and Environment, 2021. 187: 107432. [12] W. Li J. Zhang T. Zhao Indoor thermal environment optimal control for thermal comfort and energy saving based on online monitoring of thermal sensation Energy Build. 197 2019 57 67 Li, W., J. Zhang and T. Zhao, Indoor thermal environment optimal control for thermal comfort and energy saving based on online monitoring of thermal sensation. Energy and Buildings, 2019. 197: 57-67. [13] X. Peng A.H.C. van Paassen A state space model for predicting and controlling the temperature responses of indoor air zones Energy Build. 28 2 1998 197 203 Peng, X. and A.H.C. van Paassen, A state space model for predicting and controlling the temperature responses of indoor air zones. Energy & Buildings, 1998. 28(2): 197-203. [14] G. Huang S. Wang Use of uncertainty polytope to describe constraint processes with uncertain time-delay for robust model predictive control applications ISA (Instrum. Soc. Am.) Trans. 48 4 2009 503 511 Huang, G. and S. Wang, Use of uncertainty polytope to describe constraint processes with uncertain time-delay for robust model predictive control applications. ISA Transactions, 2009. 48(4): 503-511. [15] Y. Yao K. Yang M. Huang L. Wang A state-space model for dynamic response of indoor air temperature and humidity Build. Environ. 64 2013 26 37 Yao, Y., K. Yang, M. Huang, and L. Wang, A state-space model for dynamic response of indoor air temperature and humidity. Building and Environment, 2013. 64: 26-37. [16] T. Xing X. Li J. Zhang An identification method for room temperature dynamic model based on analytical solution in VAV system Energy Build. 174 2018 134 146 Xing, T., X. Li and J. Zhang, An identification method for room temperature dynamic model based on analytical solution in VAV system. Energy and Buildings, 2018. 174: 134-146. [17] C.D. Korkas S. Baldi I. Michailidis E.B. Kosmatopoulos Intelligent energy and thermal comfort management in grid-connected microgrids with heterogeneous occupancy schedule Appl. Energy 149 2015 194 203 Korkas, C.D., S. Baldi, I. Michailidis, and E.B. Kosmatopoulos, Intelligent energy and thermal comfort management in grid-connected microgrids with heterogeneous occupancy schedule. Applied Energy, 2015. 149: 194-203. [18] S. Baldi A. Karagevrekis I.T. Michailidis E.B. Kosmatopoulos Joint energy demand and thermal comfort optimization in photovoltaic-equipped interconnected microgrids Energy Convers. Manag. 101 2015 352 363 Baldi, S., A. Karagevrekis, I.T. Michailidis, and E.B. Kosmatopoulos, Joint energy demand and thermal comfort optimization in photovoltaic-equipped interconnected microgrids. Energy Conversion and Management, 2015. 101: 352-363. [19] A. Ioannou L. Itard T. Agarwal In-situ real time measurements of thermal comfort and comparison with the adaptive comfort theory in Dutch residential dwellings Energy Build. 170 2018 229 241 Ioannou, A., L. Itard and T. Agarwal, In-situ real time measurements of thermal comfort and comparison with the adaptive comfort theory in Dutch residential dwellings. Energy and Buildings, 2018. 170: 229-241. [20] A. Ioannou L. Itard In-situ and real time measurements of thermal comfort and its determinants in thirty residential dwellings in The Netherlands Energy Build. 139 2017 487 505 Ioannou, A. and L. Itard, In-situ and real time measurements of thermal comfort and its determinants in thirty residential dwellings in the Netherlands. Energy and Buildings, 2017. 139: 487-505. [21] A. Kusiak G. Xu Modeling and optimization of HVAC systems using a dynamic neural network Energy 42 1 2012 241 250 Kusiak, A. and G. Xu, Modeling and optimization of HVAC systems using a dynamic neural network. Energy, 2012. 42(1): 241-250. [22] Z. Afroz T. Urmee G.M. Shafiullah G. Higgins Real-time prediction model for indoor temperature in a commercial building Appl. Energy 231 2018 29 53 Afroz, Z., T. Urmee, G.M. Shafiullah, and G. Higgins, Real-time prediction model for indoor temperature in a commercial building. Applied Energy, 2018. 231: 29-53. [23] S. Chatterjee A.S. Hadi Influential observations, high leverage points, and outliers in linear regression 1 3 1986 379 393 Chatterjee, S. and A.S. Hadi, Influential Observations, High Leverage Points, and Outliers in Linear Regression. 1986. 1(3): 379-393. [24] I. Bilous V. Deshko I. Sukhodub Parametric analysis of external and internal factors influence on building energy performance using non-linear multivariate regression models Journal of Building Engineering 20 2018 327 336 Bilous, I., V. Deshko and I. Sukhodub, Parametric analysis of external and internal factors influence on building energy performance using non-linear multivariate regression models. Journal of Building Engineering, 2018. 20: 327-336. [25] G. Qiang T. Zhe D. Yan Z. Neng An improved office building cooling load prediction model based on multivariable linear regression Energy Build. 107 2015 445 455 Qiang, G., T. Zhe, D. Yan, and Z. Neng, An improved office building cooling load prediction model based on multivariable linear regression. Energy and Buildings, 2015. 107: 445-455. [26] C. Buratti P. Ricciardi M. Vergoni HVAC systems testing and check: a simplified model to predict thermal comfort conditions in moderate environments Appl. Energy 104 2013 117 127 Buratti, C., P. Ricciardi and M. Vergoni, HVAC systems testing and check: A simplified model to predict thermal comfort conditions in moderate environments. Applied Energy, 2013. 104: 117-127. [27] X. Li S. Lin J. Zhang T. Zhao Model parameter identification of indoor temperature lag characteristic based on hysteresis relay feedback control in VAV systems Journal of Building Engineering 25 2019 100839 Li, X., S. Lin, J. Zhang, and T. Zhao, Model parameter identification of indoor temperature lag characteristic based on hysteresis relay feedback control in VAV systems. Journal of Building Engineering, 2019. 25: 100839. [28] X. Li Z. Han T. Zhao J. Zhang D. Xue Modeling for indoor temperature prediction based on time-delay and Elman neural network in air conditioning system Journal of Building Engineering 33 2021 101854 Li, X., Z. Han, T. Zhao, J. Zhang, and D. Xue, Modeling for indoor temperature prediction based on time-delay and Elman neural network in air conditioning system. Journal of Building Engineering, 2021. 33: 101854. [29] D.B. Lu D.M. Warsinger Energy savings of retrofitting residential buildings with variable air volume systems across different climates Journal of Building Engineering 30 2020 101223 Lu, D.B. and D.M. Warsinger, Energy savings of retrofitting residential buildings with variable air volume systems across different climates. Journal of Building Engineering, 2020. 30: 101223. [30] Y. Murad Joint shear strength models for exterior RC beam-column connections exposed to biaxial and uniaxial cyclic loading Journal of Building Engineering 30 2020 101225 Murad, Y., Joint shear strength models for exterior RC beam-column connections exposed to biaxial and uniaxial cyclic loading. Journal of Building Engineering, 2020. 30: 101225.",
+    "scopus-id": "85101037710",
+    "coredata": {
+        "eid": "1-s2.0-S2352710221001261",
+        "dc:description": "Since there are lots of influencing factors in indoor temperature regulation process of air conditioning system in the large-public building, it is difficult to establish an accurate mathematical model and to implement model-based online control. This paper proposes an online modeling method for indoor temperature regulation characteristic according to building thermal process. A physical-data driven model, which takes the state-space equation solution representation form as the reference structure, is proposed, and the model parameters are identified based on the multiple linear regression analysis. Then, experimental and simulation studies in online and offline have been carried out to validate the proposed modeling method. The contribution of this study is to provide an online model, which can not only retain system physical property but also be updated online simply. The proposed model with building thermal process property will be benefit for terminal controller design for indoor temperature regulation in the air conditioning system.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2021-07-31",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S2352710221001261",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Li, Xiuming"
+            },
+            {
+                "@_fa": "true",
+                "$": "Han, Zongwei"
+            },
+            {
+                "@_fa": "true",
+                "$": "Zhao, Tianyi"
+            },
+            {
+                "@_fa": "true",
+                "$": "Gao, Jiajia"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S2352710221001261"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S2352710221001261"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S2352-7102(21)00126-1",
+        "prism:volume": "39",
+        "articleNumber": "102270",
+        "prism:publisher": "Elsevier Ltd.",
+        "dc:title": "Online model for indoor temperature control based on building thermal process of air conditioning system",
+        "prism:copyright": "© 2021 Elsevier Ltd. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "23527102",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Air conditioning system"
+            },
+            {
+                "@_fa": "true",
+                "$": "Indoor temperature"
+            },
+            {
+                "@_fa": "true",
+                "$": "Online model"
+            },
+            {
+                "@_fa": "true",
+                "$": "Parameter identification"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building thermal process"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Journal of Building Engineering",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "102270",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "July 2021",
+        "prism:doi": "10.1016/j.jobe.2021.102270",
+        "prism:startingPage": "102270",
+        "dc:identifier": "doi:10.1016/j.jobe.2021.102270",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "423",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "112616",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "135",
+            "@width": "388",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "98603",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "154",
+            "@width": "388",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "93151",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "162",
+            "@width": "533",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "106549",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "157",
+            "@width": "388",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "89306",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "1024",
+            "@width": "687",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "238824",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "242",
+            "@width": "388",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "105699",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "245",
+            "@width": "386",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "104778",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "150",
+            "@width": "388",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "82545",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "177",
+            "@width": "535",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "118073",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "150",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74101",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "76",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "75492",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "87",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72261",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "67",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72481",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "89",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "71701",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "110",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "74171",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "137",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "80841",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "139",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "77325",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "85",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "69629",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "73",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "72891",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1874",
+            "@width": "1712",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "386194",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "600",
+            "@width": "1721",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "294193",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "683",
+            "@width": "1721",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "203354",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "719",
+            "@width": "2362",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "286186",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "697",
+            "@width": "1720",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "172471",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "4535",
+            "@width": "3044",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "1158888",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1075",
+            "@width": "1721",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "348601",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1087",
+            "@width": "1712",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "297186",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "664",
+            "@width": "1720",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "154152",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "786",
+            "@width": "2370",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "358894",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si69.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "32763",
+            "@ref": "si69",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si33.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "129239",
+            "@ref": "si33",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si35.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17748",
+            "@ref": "si35",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si49.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25133",
+            "@ref": "si49",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "66394",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si62.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9613",
+            "@ref": "si62",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si51.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "181986",
+            "@ref": "si51",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si65.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "51977",
+            "@ref": "si65",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si37.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20172",
+            "@ref": "si37",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si50.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17161",
+            "@ref": "si50",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si67.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "6712",
+            "@ref": "si67",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si39.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "112182",
+            "@ref": "si39",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si57.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19437",
+            "@ref": "si57",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si58.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15097",
+            "@ref": "si58",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si56.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "26014",
+            "@ref": "si56",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5286",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si34.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "110433",
+            "@ref": "si34",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12306",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si54.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9769",
+            "@ref": "si54",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si55.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17141",
+            "@ref": "si55",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si73.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24281",
+            "@ref": "si73",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si40.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "137481",
+            "@ref": "si40",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20195",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "3908",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si36.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "32049",
+            "@ref": "si36",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "15759",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9791",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17944",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2505",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "20036",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si72.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30206",
+            "@ref": "si72",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si42.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "41732",
+            "@ref": "si42",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si75.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "54845",
+            "@ref": "si75",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si68.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "68733",
+            "@ref": "si68",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5879",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si43.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25597",
+            "@ref": "si43",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si63.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10228",
+            "@ref": "si63",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si59.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "34434",
+            "@ref": "si59",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si44.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "21474",
+            "@ref": "si44",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si29.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "104753",
+            "@ref": "si29",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si32.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "38934",
+            "@ref": "si32",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5195",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si30.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "33448",
+            "@ref": "si30",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si31.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "38183",
+            "@ref": "si31",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si70.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "25207",
+            "@ref": "si70",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si61.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7566",
+            "@ref": "si61",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si47.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4782",
+            "@ref": "si47",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18951",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si45.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "159184",
+            "@ref": "si45",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si71.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13177",
+            "@ref": "si71",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si53.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "45354",
+            "@ref": "si53",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si60.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9458",
+            "@ref": "si60",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si66.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "33505",
+            "@ref": "si66",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18445",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10959",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si64.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "164002",
+            "@ref": "si64",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si48.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9904",
+            "@ref": "si48",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si38.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "59430",
+            "@ref": "si38",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4680",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "103185",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "9921",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "5756",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "24386",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si41.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "45505",
+            "@ref": "si41",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si46.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "45789",
+            "@ref": "si46",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "32875",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13620",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8032",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23176",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "11163",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23039",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "16262",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S2352710221001261-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "1114170",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85101037710"
+    }
+}}

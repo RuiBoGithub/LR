@@ -1,0 +1,922 @@
+{"full-text-retrieval-response": {
+    "scopus-eid": "2-s2.0-85102131487",
+    "originalText": "serial JL 271089 291210 291731 291800 291881 31 Energy and Buildings ENERGYBUILDINGS 2021-03-02 2021-03-02 2021-03-10 2021-03-10 2021-04-21T02:56:05 1-s2.0-S0378778821001444 S0378-7788(21)00144-4 S0378778821001444 10.1016/j.enbuild.2021.110860 S300 S300.2 FULL-TEXT 1-s2.0-S0378778821X00059 2022-12-12T16:32:10.392426Z 0 0 20210501 2021 2021-03-02T08:23:02.183176Z absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast highlightsabst orcid primabst ref specialabst 0378-7788 03787788 true 238 238 C Volume 238 19 110860 110860 110860 20210501 1 May 2021 2021-05-01 2021 Research Articles article fla © 2021 Elsevier B.V. All rights reserved. REINFORCEMENTLEARNINGOCCUPANTBEHAVIORMODELFORCROSSBUILDINGTRANSFERLEARNINGVARIOUSHVACCONTROLSYSTEMS DENG Z 1 Introduction 2 Methods 2.1 Framework of reinforcement learning model 2.2 Q-learning 2.3 Transfer learning 2.4 Data collection for model validation 2.5 Building energy simulation with RL model 3 Results 3.1 Results of modelling the reward for action 3.2 Results of the RL occupant behavior model 3.3 Validation of the RL model 3.4 Results of transfer learning model 3.5 Energy analysis with the RL occupant behavior model 4 Discussion 5 Conclusion Acknowledgments References ZOU 2018 165 181 P ZHANG 2018 279 294 Y DOCA 2018 731 742 S SUN 2017 383 396 K ANDERSEN 2011 14 16 R BUILDINGSIMULATIONCONFERENCE MODELLINGOCCUPANTSHEATINGSETPOINTPREFERENCES LANGEVIN 2015 27 45 J PFAFFEROTT 2007 676 682 J SUN 2017 43 62 K DENG 2018 587 602 Z WANG 2020 115036 Z OBRIEN 2014 77 87 W STAZI 2017 40 66 F OBRIEN 2017 653 671 W JIA 2017 525 540 M DOCA 2015 585 590 S ANDREWS 2011 1077 1091 C REINHART 2004 15 28 C RYU 2016 1 9 S ZHOU 2016 233 241 H PAPADOPOULOS 2016 214 223 S AZAR 2012 506 518 E SUTTON 1998 R INTRODUCTIONREINFORCEMENTLEARNING ZHANG 2019 472 490 Z KAZMI 2019 1022 1035 H YU 2020 2751 2762 L HAN 2019 101748 M YOON 2019 109420 Y RUELENS 2015 8300 8318 F JIA 2019 6158 6163 R CHEN 2018 195 205 Y PARK 2019 397 414 J VALLADARES 2019 105 117 W BRANDI 2020 110225 S MOCANU 2016 646 655 E RIBEIRO 2018 352 363 M KLEIN 2012 525 536 L YANG 2015 577 586 L CHENG 2016 43 55 Z DENG 2019 216 227 Z KARJALAINEN 2007 1594 1603 S MONTAZAMI 2017 422 434 A GHAHRAMANI 2018 584 591 A DENGX2021X110860 DENGX2021X110860XZ 2023-03-10T00:00:00.000Z 2023-03-10T00:00:00.000Z http://creativecommons.org/licenses/by-nc-nd/4.0/ © 2021 Elsevier B.V. All rights reserved. 2021-03-12T06:52:27.121Z http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp-car Utility Plant Office of Purdue University 1704019079 Purdue University Purdue University http://data.elsevier.com/vocabulary/SciValFunders/100006377 http://sws.geonames.org/6252001/ The authors would like to thank Dr. Orkan Kurtulus in the Center for High Performance Buildings at Purdue University for his assistance in setting the building automation system in the HLAB building. We would also like to thank all the occupants of the HLAB offices for their participation and assistance in obtaining the data reported in this study, and Blaine Miller and Chris Sorenson in the Utility Plant Office of Purdue University for providing data in four Purdue buildings. The data collection in this study was approved by Purdue University Institutional Review Board Protocol # 1704019079. https://doi.org/10.15223/policy-017 https://doi.org/10.15223/policy-037 https://doi.org/10.15223/policy-012 https://doi.org/10.15223/policy-029 https://doi.org/10.15223/policy-004 item S0378-7788(21)00144-4 S0378778821001444 1-s2.0-S0378778821001444 10.1016/j.enbuild.2021.110860 271089 2021-05-08T00:20:39.67275Z 2021-05-01 1-s2.0-S0378778821001444-main.pdf https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/MAIN/application/pdf/f969384b8f7f5d82727e058be3af2303/main.pdf main.pdf pdf true 3797229 MAIN 15 1-s2.0-S0378778821001444-main_1.png https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/PREVIEW/image/png/170b47c3948d33f09b5e0ca52d50af20/main_1.png main_1.png png 62207 849 656 IMAGE-WEB-PDF 1 1-s2.0-S0378778821001444-gr1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr1/DOWNSAMPLED/image/jpeg/2ce3a02df2fb01e591e59dc7630111c1/gr1.jpg gr1 gr1.jpg jpg 74459 358 667 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr10.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr10/DOWNSAMPLED/image/jpeg/6667cd24c63cd59cc9fa4acb0e5fd242/gr10.jpg gr10 gr10.jpg jpg 62475 443 578 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr11.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr11/DOWNSAMPLED/image/jpeg/0792085d5c253578c4c1ea4265fba8af/gr11.jpg gr11 gr11.jpg jpg 71250 443 578 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr12.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr12/DOWNSAMPLED/image/jpeg/c273501bb388e02d02e6ac6da3d3c331/gr12.jpg gr12 gr12.jpg jpg 50646 443 578 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr13.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr13/DOWNSAMPLED/image/jpeg/19ac48e9ec84fc002ce080161ae682e3/gr13.jpg gr13 gr13.jpg jpg 66245 362 667 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr14.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr14/DOWNSAMPLED/image/jpeg/e48525df86d43902467f779206de4a49/gr14.jpg gr14 gr14.jpg jpg 36618 303 667 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr2.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr2/DOWNSAMPLED/image/jpeg/4d29d53f6d0d94f227276c779d3dce8c/gr2.jpg gr2 gr2.jpg jpg 16224 199 333 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr3.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr3/DOWNSAMPLED/image/jpeg/ceaccde6033d644b38aa31f26177ec9f/gr3.jpg gr3 gr3.jpg jpg 40606 475 379 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr4.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr4/DOWNSAMPLED/image/jpeg/560a378765993ae80a4eef3ce40b4f52/gr4.jpg gr4 gr4.jpg jpg 56786 253 667 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr5.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr5/DOWNSAMPLED/image/jpeg/db4101cab7c4b4aa4f664b276dd74261/gr5.jpg gr5 gr5.jpg jpg 86863 406 712 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr6.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr6/DOWNSAMPLED/image/jpeg/8eae5c988d3bb2d42befa526412f9de1/gr6.jpg gr6 gr6.jpg jpg 39724 396 538 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr7.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr7/DOWNSAMPLED/image/jpeg/bd12d4c1d4aac25a9592d236e1e2a370/gr7.jpg gr7 gr7.jpg jpg 26363 392 378 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr8.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr8/DOWNSAMPLED/image/jpeg/97ad708e2deb375ff78ab07f3811ec17/gr8.jpg gr8 gr8.jpg jpg 27962 199 578 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr9.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr9/DOWNSAMPLED/image/jpeg/d0fa5f2ae59081678163b8240a8b02d3/gr9.jpg gr9 gr9.jpg jpg 87145 472 578 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-ga1.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/ga1/DOWNSAMPLED/image/jpeg/a309118f957b34e93d3628a046f6546f/ga1.jpg ga1 true ga1.jpg jpg 34832 200 373 IMAGE-DOWNSAMPLED 1-s2.0-S0378778821001444-gr1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr1/THUMBNAIL/image/gif/edf369451ced0c96144219f9c25c10ac/gr1.sml gr1 gr1.sml sml 13776 118 219 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr10.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr10/THUMBNAIL/image/gif/a8471f599641c197950ccd21c9a5023b/gr10.sml gr10 gr10.sml sml 8962 164 214 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr11.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr11/THUMBNAIL/image/gif/9dafae69a7a29a2b7becb30756b2dbdc/gr11.sml gr11 gr11.sml sml 9420 164 214 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr12.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr12/THUMBNAIL/image/gif/5e34ce1b949c7c85213c30e5fb4c10f6/gr12.sml gr12 gr12.sml sml 6257 164 214 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr13.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr13/THUMBNAIL/image/gif/ecf992a269427bcbdc950d1210fd02e0/gr13.sml gr13 gr13.sml sml 8901 119 219 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr14.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr14/THUMBNAIL/image/gif/e4501e466f82169dc9535857bdc83f55/gr14.sml gr14 gr14.sml sml 3851 100 219 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr2.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr2/THUMBNAIL/image/gif/7123db5dd98ece59b1b792f458730517/gr2.sml gr2 gr2.sml sml 7832 131 219 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr3.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr3/THUMBNAIL/image/gif/c094d7e109205381080aa3801733f077/gr3.sml gr3 gr3.sml sml 5880 163 130 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr4.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr4/THUMBNAIL/image/gif/62f161e29a708c5e2f4fb4a9977fab83/gr4.sml gr4 gr4.sml sml 7810 83 219 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr5.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr5/THUMBNAIL/image/gif/f09841509ca6a01e8a6505eaeef7a961/gr5.sml gr5 gr5.sml sml 18466 125 219 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr6.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr6/THUMBNAIL/image/gif/60697948b3f55ccfb5492f4d8a3dff4b/gr6.sml gr6 gr6.sml sml 15626 161 219 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr7.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr7/THUMBNAIL/image/gif/fcaf39907a6c13efb15e3223668b8e2e/gr7.sml gr7 gr7.sml sml 4961 164 158 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr8.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr8/THUMBNAIL/image/gif/f66dc954e8bea15f70cf2c7176d3db44/gr8.sml gr8 gr8.sml sml 4585 75 219 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr9.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr9/THUMBNAIL/image/gif/e756fb350891cf5aa8fd7bb029269bdd/gr9.sml gr9 gr9.sml sml 13902 164 201 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-ga1.sml https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/ga1/THUMBNAIL/image/gif/b88d59cf9c6d989c676e7f9b308f3074/ga1.sml ga1 true ga1.sml sml 13095 117 219 IMAGE-THUMBNAIL 1-s2.0-S0378778821001444-gr1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr1/HIGHRES/image/jpeg/88b3abaebd9c62ea7f7f3dab54f1bb9b/gr1_lrg.jpg gr1 gr1_lrg.jpg jpg 532653 1586 2953 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr10_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr10/HIGHRES/image/jpeg/173876279c4acf9755f6cea3943db2d1/gr10_lrg.jpg gr10 gr10_lrg.jpg jpg 359884 1962 2559 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr11_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr11/HIGHRES/image/jpeg/f7b40f0fa61373dbec8fc60d91e3b67e/gr11_lrg.jpg gr11 gr11_lrg.jpg jpg 484262 1962 2559 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr12_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr12/HIGHRES/image/jpeg/c07075a68ec2ce4e5c2577fc4f6bc7f6/gr12_lrg.jpg gr12 gr12_lrg.jpg jpg 339853 1962 2559 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr13_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr13/HIGHRES/image/jpeg/d99dc6e288d773066cd884ff088fc7c3/gr13_lrg.jpg gr13 gr13_lrg.jpg jpg 535116 1604 2953 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr14_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr14/HIGHRES/image/jpeg/b688af3b4e281cab1d142c871bee6a94/gr14_lrg.jpg gr14 gr14_lrg.jpg jpg 269972 1342 2953 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr2_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr2/HIGHRES/image/jpeg/af41e1fd0bf9f5de8db11aa7de96b945/gr2_lrg.jpg gr2 gr2_lrg.jpg jpg 114213 884 1476 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr3_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr3/HIGHRES/image/jpeg/cf1d89b9344f5126c6a5ec0a2302742b/gr3_lrg.jpg gr3 gr3_lrg.jpg jpg 314985 2106 1679 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr4_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr4/HIGHRES/image/jpeg/f08a30b85f66c0311bca7e8fef28c09a/gr4_lrg.jpg gr4 gr4_lrg.jpg jpg 499219 1118 2953 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr5_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr5/HIGHRES/image/jpeg/52361c48cf9451826f8e8c5328750c42/gr5_lrg.jpg gr5 gr5_lrg.jpg jpg 857092 1796 3151 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr6_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr6/HIGHRES/image/jpeg/89996d620849ca723255200e7983272a/gr6_lrg.jpg gr6 gr6_lrg.jpg jpg 292979 1752 2382 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr7_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr7/HIGHRES/image/jpeg/e41113c9fb49049a81392231bd312d80/gr7_lrg.jpg gr7 gr7_lrg.jpg jpg 193845 1736 1675 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr8_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr8/HIGHRES/image/jpeg/213e723d865f7d2d69c6eb597a17c52d/gr8_lrg.jpg gr8 gr8_lrg.jpg jpg 197269 880 2559 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-gr9_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/gr9/HIGHRES/image/jpeg/3eb28580cab6e8d92e0d8a3750d9bb41/gr9_lrg.jpg gr9 gr9_lrg.jpg jpg 848902 2091 2559 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-ga1_lrg.jpg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/ga1/HIGHRES/image/jpeg/8c94a163317d7320d75698330122e972/ga1_lrg.jpg ga1 true ga1_lrg.jpg jpg 264734 886 1653 IMAGE-HIGH-RES 1-s2.0-S0378778821001444-si1.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/56e093a7245255966005d32ac0e85b22/si1.svg si1 si1.svg svg 35230 ALTIMG 1-s2.0-S0378778821001444-si10.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/9eb1520094c2717a79a45ae23760c458/si10.svg si10 si10.svg svg 19493 ALTIMG 1-s2.0-S0378778821001444-si11.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/55321df6b7b6c2ae32370e3d01d9b9f6/si11.svg si11 si11.svg svg 17546 ALTIMG 1-s2.0-S0378778821001444-si12.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/0cb469c30373121d21be2a0c61728b64/si12.svg si12 si12.svg svg 8077 ALTIMG 1-s2.0-S0378778821001444-si13.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/2bc2c7356c8be0695b5abde2c1062f38/si13.svg si13 si13.svg svg 30397 ALTIMG 1-s2.0-S0378778821001444-si14.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/91bf5cb935fc1d111523c521e0afca79/si14.svg si14 si14.svg svg 1616 ALTIMG 1-s2.0-S0378778821001444-si15.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/d58cc21ab723ef48b85c61c89dfbe527/si15.svg si15 si15.svg svg 1643 ALTIMG 1-s2.0-S0378778821001444-si16.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/044557a7b34e731d7351d19ec41e9fbc/si16.svg si16 si16.svg svg 1492 ALTIMG 1-s2.0-S0378778821001444-si17.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/3d14d5573005a724e7ed55b98f9123bc/si17.svg si17 si17.svg svg 1408 ALTIMG 1-s2.0-S0378778821001444-si18.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/2bc86a94c4d28ffd423102c9d9eba672/si18.svg si18 si18.svg svg 1601 ALTIMG 1-s2.0-S0378778821001444-si19.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/bbe6476d89ecf32f4484c7e5326785a9/si19.svg si19 si19.svg svg 1548 ALTIMG 1-s2.0-S0378778821001444-si2.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/b07e6ed6d9b5acc45af921ee4ed970d2/si2.svg si2 si2.svg svg 23252 ALTIMG 1-s2.0-S0378778821001444-si20.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/1b6da2052a0beb7733d3155536678e15/si20.svg si20 si20.svg svg 14365 ALTIMG 1-s2.0-S0378778821001444-si21.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/5257eec503259ffad77589e30e23cb0f/si21.svg si21 si21.svg svg 1182 ALTIMG 1-s2.0-S0378778821001444-si22.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/8d791554859eab2bc7376156d78c0b24/si22.svg si22 si22.svg svg 2552 ALTIMG 1-s2.0-S0378778821001444-si23.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/23b790650e4fdf4d3d81702e94b47c3c/si23.svg si23 si23.svg svg 2559 ALTIMG 1-s2.0-S0378778821001444-si24.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/3260d5d3ea6a49c6a4f3655867fd363f/si24.svg si24 si24.svg svg 2511 ALTIMG 1-s2.0-S0378778821001444-si25.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/7eae1fba14b43505a77cc5258dd74207/si25.svg si25 si25.svg svg 4475 ALTIMG 1-s2.0-S0378778821001444-si26.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/ebb8dfabef8e86ce65d53b4e48307a4f/si26.svg si26 si26.svg svg 18823 ALTIMG 1-s2.0-S0378778821001444-si27.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/0533ad67dd7845d6bf4ff2d852fd6df7/si27.svg si27 si27.svg svg 30376 ALTIMG 1-s2.0-S0378778821001444-si28.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/21c6bc020c6a6a1de13da3eb70321469/si28.svg si28 si28.svg svg 30879 ALTIMG 1-s2.0-S0378778821001444-si3.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/8e3f288eee120522fcd4de6c62648ec4/si3.svg si3 si3.svg svg 13391 ALTIMG 1-s2.0-S0378778821001444-si4.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/200e0fbb1e9f1d4941d963ba76573906/si4.svg si4 si4.svg svg 12785 ALTIMG 1-s2.0-S0378778821001444-si5.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/16e73427708768d07238e901c6feb737/si5.svg si5 si5.svg svg 10253 ALTIMG 1-s2.0-S0378778821001444-si6.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/a538b2463f93d16708d93421f5c653bf/si6.svg si6 si6.svg svg 7768 ALTIMG 1-s2.0-S0378778821001444-si7.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/d81ad145aabbb32aff0088f782727ef1/si7.svg si7 si7.svg svg 31767 ALTIMG 1-s2.0-S0378778821001444-si8.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/6e3c3dab1a2b7038334e98501af7e366/si8.svg si8 si8.svg svg 10663 ALTIMG 1-s2.0-S0378778821001444-si9.svg https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378778821001444/STRIPIN/image/svg+xml/2597c981e02b55b1ac3bf0ed3dbaf214/si9.svg si9 si9.svg svg 8208 ALTIMG 1-s2.0-S0378778821001444-am.pdf am am.pdf pdf 2034033 AAM-PDF https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10K8GC8J1LQ/MAIN/application/pdf/7f58823fd3d19a667ab2b9141deb4c9d/am.pdf ENB 110860 110860 S0378-7788(21)00144-4 10.1016/j.enbuild.2021.110860 Elsevier B.V. Fig. 1 Flow chart of methods in this study, including the reinforcement learning occupant behavior model, transfer learning model and energy simulation. Fig. 2 Illustration of the RL model with agent, action space, environment space and rewards. Fig. 3 MDP for the occupant behavior of thermostat set point manual control and clothing level adjustment. Each state space includes numerous parameters, as expressed by Eq. (1), and the figure displays only the key parameters. The initial state is followed by many actions, follow-up states and possible subsequent states. In addition to what is shown in the figure, further possibilities are indicated by an ellipsis. Fig. 4 Transfer of the occupant behavior model for manual control to other buildings with thermostat setback or occupancy control: (a) the data-driven ANN model cannot be transferred because of the coefficient values in the hidden layer; (b) the policy-based RL model can be transferred, and portions of the action and state space are the same. Fig. 5 Photographs of the buildings used for data collection: (a) HLAB building, (b) MSEE building, (c) LWSN building, (d) STAN building and (e) HAAS building. Fig. 6 Geometric model of the HLAB building for EnergyPlus simulations. Fig. 7 Building energy simulation process incorporating the RL occupant behavior model and Q-learning table of actions. Fig. 8 Reward value modelled for different air temperatures in winter by using (a) the PMV model and (b) the thermal comfort ANN model. Fig. 9 Training of the RL model with the use of Q-learning as the number of episodes increases. The blue, orange, and yellow curves represent the episode reward, the average reward in nearby episodes, and the quality, respectively. (a) learning rate = 0.1; (b) learning rate = 0.3; (c) learning rate = 0.5; (d) learning rate = 0.7. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) Fig. 10 The distribution of thermostat set point adjustment by occupants in: (a) single-occupant offices, (b) multi-occupant offices, (c) winter with Clo = 1, and (d) summer with Clo = 0.57. Fig. 11 Comparison of collected data on the occupant behavior of adjusting the thermostat set point and the RL model prediction for HLAB offices in 2018: (a) winter, (b) spring, (c) summer, and (d) fall. Fig. 12 Comparison between collected behavior data and behavior predicted by the transfer learning model in four other Purdue University office buildings in 2018 in (a) summer, (b) fall, and (c) winter. Fig. 13 Comparison of the collected heating and cooling energy use data and the simulation of manual thermostat control with the RL model in the HLAB building for two days in winter. Fig. 14 Comparison of the measured heating and cooling loads and the results simulated by different models with thermostat setback and occupancy control in summer. Table 1 Data collection information for each building. Building Offices for data collection HVAC control type Data collection interval Collected data HLAB 20 Manual control 5 min Room lighting statusNumber of room occupantsRoom air temperature and RHThermostat set pointRoom CO2 concentrationClothing levelRoom supply-air flow rateRoom supply-air temperature LWSN 106 Manual control + thermostat setback 10 min Room lighting statusNumber of room occupantsRoom air temperature and RHThermostat set pointClothing level MSEE 99 Manual control + occupancy control 15 min STAN 122 Manual control + occupancy control 15 min HAAS 48 Manual control + occupancy control 15 min Table 2 Structural and material properties of the HLAB building for the simulations. Construction component Layers (from exterior to interior) Thickness (mm) Conductivity (W/m K) Density (kg/m3) Specific heat (J/kgK) Exterior window Clear float glass 6 0.99 2528 880 Air cavity 13 0.026 1.225 1010 Clear float glass 6 0.99 2528 880 Exterior wall 1 Brick 92.1 0.89 1920 790 Air cavity 60.3 0.026 1.225 1010 Rigid insulation 50.8 0.03 43 1210 Exterior sheathing 12.7 0.07 400 1300 CFMF stud 152.4 0.062 57.26 964 Gypsum board 15.9 0.16 800 1090 Exterior wall 2 Aluminum panel 50.8 45.28 7824 500 Rigid insulation 50.8 0.03 43 1210 Exterior sheathing 12.7 0.07 400 1300 CFMF stud 152.4 0.062 57.26 964 Gypsum board 15.9 0.16 800 1090 Interior gypsum wall Gypsum board 15.9 0.16 800 1090 Metal stud 92.1 0.06 118 1048 Gypsum board 15.9 0.16 800 1090 Interior glass wall/door Glass 6 0.99 2528 880 Interior wood door Wood 44.45 0.15 608 1630 Table 3 Prediction performance of the RL model for the HLAB offices. R2 MAE Winter 2018 0.75 1.6 Spring 2018 0.79 1.9 Summer 2018 0.79 1.5 Fall 2018 0.81 1.7 Overall 0.79 1.68 Table 4 Prediction performance of the transfer learning model from the HLAB building to residential buildings. Season R2 MAE Winter 0.67 2.1 Spring 0.61 2.9 Summer 0.69 2.3 Fall 0.67 2.7 Table 5 Comparison of measured data with the heating and cooling loads (kWh) simulated by the ANN and RL models in four seasons. Load Winter Spring Summer Fall Heating Measurement 3396 2833 2102 3183 Simulation using ANN model 3526 ± 108 2925 ± 110 2275 ± 35 3298 ± 68 Simulation using RL model 3084 ± 67 2948 ± 41 2239 ± 27 3067 ± 24 Cooling Measurement 857 2261 2725 1205 Simulation using ANN model 902 ± 170 2006 ± 115 2597 ± 42 1136 ± 90 Simulation using RL model 863 ± 72 1812 ± 56 2570 ± 30 974 ± 30 Reinforcement learning of occupant behavior model for cross-building transfer learning to various HVAC control systems Zhipeng Deng Qingyan Chen \u204e Center for High Performance Buildings (CHPB), School of Mechanical Engineering, Purdue University, 585 Purdue Mall, West Lafayette, IN 47907, USA Center for High Performance Buildings (CHPB) School of Mechanical Engineering Purdue University 585 Purdue Mall West Lafayette IN 47907 USA Center for High Performance Buildings (CHPB), School of Mechanical Engineering, Purdue University, 585 Purdue Mall, West Lafayette, IN 47907, USA \u204e Corresponding author. Graphical abstract Occupant behavior plays an important role in the evaluation of building performance. However, many contextual factors, such as occupancy, mechanical system and interior design, have a significant impact on occupant behavior. Most previous studies have built data-driven behavior models, which have limited scalability and generalization capability. Our investigation built a policy-based reinforcement learning (RL) model for the behavior of adjusting the thermostat and clothing level. Occupant behavior was modelled as a Markov decision process (MDP). The action and state space in the MDP contained occupant behavior and various impact parameters. The goal of the occupant behavior was a more comfortable environment, and we modelled the reward for the adjustment action as the absolute difference in the thermal sensation vote (TSV) before and after the action. We used Q-learning to train the RL model in MATLAB and validated the model with collected data. After training, the model predicted the behavior of adjusting the thermostat set point with R2 from 0.75 to 0.8, and the mean absolute error (MAE) was less than 1.1 °C (2 °F) in an office building. This study also transferred the behavior knowledge of the RL model to other office buildings with different HVAC control systems. The transfer learning model predicted the occupant behavior with R2 from 0.73 to 0.8, and the MAE was less than 1.1 °C (2 °F) most of the time. Going from office buildings to residential buildings, the transfer learning model also had an R2 over 0.6. Therefore, the RL model combined with transfer learning was able to predict the building occupant behavior accurately with good scalability, and without the need for data collection. Keywords Thermal comfort Machine learning Artificial neural network Air temperature Thermostat set point Q-learning Building performance simulation 1 Introduction In the United States, buildings account for 41% of primary energy use, mainly for maintaining a comfortable and healthy indoor environment [1]. Unfortunately, current methods for simulating building energy consumption are often inaccurate, and the error can be as high as 150% to 250% [2,3]. Discrepancies between the simulated and actual energy consumption may arise from various occupant behavior in buildings [4,5]. Therefore, it is important to estimate the impact of occupant behavior on building energy consumption [6]. Occupant behavior in buildings refers to occupants\u2019 movements and their interactions with building components such as thermostats, windows, lights, blinds and internal equipment [7]. The existing methods for exploring the effects of occupant behavior on energy consumption were mostly based on building performance simulations [8]. In these simulations, modelling occupant behavior is challenging due to its complexity [9\u201311]. Previous studies have tried to predict the energy consumption in commercial and residential buildings with the use of various occupant behavior models. These models can be divided into three categories: data-driven, physics-based and hybrid models. In the data-driven category, many researchers have built linear regression models [12], logistic regression models [13,14], statistical models [15,16], and artificial neural network (ANN) models [17]. To be specific, Andersen [12] and Fabi [13] collected data on occupants\u2019 heating set-points in dwellings and predicted the thermal preference along with indoor environmental quality and heating demand. Langevin\u2019s model [14] used heating set-point data from a one-year field study in an air-conditioned office building. Sun and Hong [16] used a simulation approach to estimate energy savings for five common types of occupant behavior in a real office building across four typical climates. Deng and Chen [17] collected data in an office building for one year to predict occupant behavior in regard to thermostat and clothing level by means of an ANN model. In these studies, the models considered different variables that affect occupant behavior in buildings. However, the generalization capabilities of these data-driven models were not good [18], since the occupant behavior differed from building to building. Some review papers [19,20] have discussed contextual factors that cause occupant behavior to vary greatly, such as room occupancy, availability and accessibility of an HVAC system, and interior design. The authors observed that it was difficult to apply an occupant behavior model developed for one building to another building. Hong et al. also indicated that, because a large number of data-driven behavior models emerged in scattered locations around the world, they lack standardization and consistency and cannot easily be compared one with another [21]. Moreover, all the data-driven models require sufficient data for training, but the estimation of building energy and modelling of occupant behavior are done mostly during the early design stages, when collecting occupant behavior data is impossible [22]. It is hard to build a data-driven occupant behavior model without data or satisfactory generalization capability. As for the physics-based models, a review by Jia et al. [23] pointed out that occupant behavior modelling has progressed from deterministic or static to more detailed and complex. Therefore, many researchers have based their models on the causal relationships of occupant behavior. The driving factors of occupant behavior can be divided into three main types: environmentally related, time related and random factors [20,24]. Hong et al. developed a DNAS (drivers, needs, actions, systems) framework that standardized the representation of energy-related occupant behavior in buildings [21]. Many researchers have adopted this framework for their behavior studies. For example, dynamic Bayesian networks by Tijani et al. [25] simulated the occupant behavior in office buildings as it relates to indoor air quality. The advantage of Bayesian network model was in its representation of occupant behavior as probabilistic cause-effect relationships based on prior knowledge. D\u2019Oca et al. [26] built a knowledge discovery database for window-operating behavior in 16 offices. Zhou et al. [27] used an action-based Markov chain approach to predict window-operating actions in office spaces. They found that the Markov chain reflected the actual behavior accurately in an open-plan office and was therefore a beneficial supplemental module for energy simulation software. The Markov chain model depends on the previous state to predict the probability of an event occurring. This characteristic is useful for representing individuals\u2019 actions and motivations [9]. In addition, many researchers have built other kinds of models for different building types and scenarios. For instance, hidden Markov models [23,28] were used to simulate occupant behavior with unobservable hidden states, and thus these models could be employed under very complicated conditions. Survival models [29] could feature different occupant types to mimic variations in control behavior. Meanwhile, a decision tree model [30,31] regarded occupant decisions and possible behavior as branched graphical classification. This model was straightforward, but complex causal factors in real situations might give rise to too many branches. In recent years, more complex agent-based models [32\u201334] have yielded good predictions of occupant behavior with individual differences among occupants. In short, physics-based occupant behavior models with physical meaning have exhibited better generalization capability than data-driven models. Hence, the present study used a Markov decision process (MDP) to model occupant behavior and build a logic-based reinforcement learning model to explore the model\u2019s scalability. Reinforcement learning (RL) is a machine learning area concerned with the ways in which agents take actions to maximize certain rewards [35]. Off-policy RL can use historical data for training without interacting with the environment. In contrast, policy-based reinforcement learning does not require previous training data because it creates its own experience via random explorations of the environment. As such, this way of learning can obtain rules and knowledge not limited to specific conditions but adaptable to various scenarios. It has been applied successfully to a range of fields, including robot control [36] and playing Go [37]. In the built environment, the RL model has been used to improve building energy efficiency and management when the reward is defined as minimizing building energy consumption [38\u201340]. For instance, Zhang et al. [38] used deep reinforcement learning to control a radiant heating system in an existing office building and achieved a 16.7% reduction in heating demand. A multi-agent reinforcement learning framework by Kazmi et al. [39] achieved a 20% reduction in the energy required for the hot water systems in over 50 houses. Liang [40] modelled an HVAC scheduling system control as an MDP, and the model did not require prior knowledge of the building thermal dynamics model. Similarly, when the reward is the thermal comfort level of occupants, the RL model can be used to control the thermal comfort and HVAC system in buildings [41,42]. For example, Yoon et al. [43] built performance-based comfort control for cooling while minimizing the energy consumption. Ruelens and coauthors [44] used model-free RL for a heat-pump thermostat. Their learning agent reduced the energy consumption by 4\u20139% during 100 winter days and by 9\u201311% during 80 summer days. Azuatalam et al. [45] applied RL to the optimal control of whole-building HVAC systems while harnessing RL\u2019s demand response capabilities. Similarly, Chen [46] and Ding [47] developed novel deep RL for reducing the training data set and training time. Meanwhile, several previous studies used the RL model for advanced building control [43,48,49] and lighting control [50]. In addition, there have been some integrated applications. For example, Valladares et al. [51] used the RL model with a probability of reward combination to improve both the thermal comfort and indoor air quality in buildings. The RL model developed by Brandi et al. [52] optimized indoor temperature control and heating energy consumption in buildings. Ding et al. [53] also employed a novel deep RL framework for optimal control of building subsystems, including HVAC, lighting, blind and window. Hence, RL can be used to model the HVAC system for both thermal comfort and energy management. Physics-based and model-free RL also have the potential to model occupant behavior without data since the logic is very similar. Therefore, this research built an RL model for thermostat set point and clothing level adjustment behavior based on the correlation between thermal sensation and thermally influenced occupant behavior [17]. For modeling of the occupant behavior in buildings with limited information and no data, transfer learning was a feasible approach [18]. The transfer learning method stores knowledge about one problem and then applies it to a related problem. It has been used for cross-building [54,55], cross-home [56] and even cross-city [57] energy modelling. For instance, Mocanu et al. [58] transferred a building energy prediction to a new building in a smart grid. Ribeiro et al. [59] used various machine learning methods to predict school building energy and transfer the prediction to other new schools. Gao et al. [60] built a transfer learning model for thermal comfort prediction in multiple cities. Xu et al. [61] conducted transfer learning for HVAC control between buildings with different sizes, numbers of thermal zones, materials, layouts, air conditioner types, and ambient weather conditions. They found that this approach significantly reduced the training time and energy cost. Therefore, based on the potential of transfer learning, we used it to transfer knowledge about occupant behavior from one building to other buildings. The purpose of the present study was to build an RL occupant behavior model for thermostat and clothing level adjustment in a particular building, and transfer the model to other buildings with different HVAC control systems. For this purpose, we first built an MDP of the occupant behavior and used a thermal sensation model to build the rewards. We then trained the RL model with the use of Q-learning. Next, we used transfer learning to explore the occupant behavior in several other buildings. We also validated the RL occupant behavior model and the transferred model with data collected from various buildings. Finally, we analyzed the simulated building energy performance with the use of the RL model and the transferred model. 2 Methods To develop an occupant behavior model, we first modeled the occupant behavior as an MDP and developed the RL model on the basis of this process. Subsequently, we trained the model with the use of a Q-learning algorithm. Next, we transferred the knowledge of the occupant behavior model from one building with manual control to other buildings with thermostat setback and occupancy control systems. Finally, we validated the transfer learning model with collected data. Fig. 1 summarizes the methods and models in this study. 2.1 Framework of reinforcement learning model As shown in Fig. 2 , in the RL model, an agent can gather information directly from the environment of different states, and then take actions inside and compare the results of these actions via the reward function. This cycle is repeated over time, until the agent has enough experience to correctly choose the actions that yield the maximum reward. Thus, through interaction with an environment and repeated actions, the RL model can evaluate the consequences of actions by learning from past experience. As for the building occupants, the decision to take an action in a specific indoor environment is a similar process to that of the RL model. The MDP is used to describe an environment for reinforcement learning, because the indoor environment and thermal comfort are fully observable. In this study, the occupant behavior was modelled as a decision-making process in which the policy-based RL was used. The building occupant, the occupant behavior, the indoor environment and the improving thermal comfort level are the agent, action, state and reward, respectively, in the model. In each state, the logic of occupant behavior is to proactively seek more comfortable conditions in the indoor environment [11]. Numerous factors are related to the occupant behavior, and we will introduce them in detail in the following sections. We modeled the occupant behavior in offices as an MDP, as shown in Fig. 3 . In the initial state, the agent had many possible choices of behavior, such as adjusting the thermostat set point by various degrees or adjusting the clothing level. For every action, there was a corresponding feedback reward, such as improvement or deterioration of thermal comfort. The agent took an action to enter a follow-up environment, and this process kept going. The time step size for action prediction was 15 min. We took the actual occupant behavior occurrence into consideration, because there was a certain delay in the occurrence of the behavior, and the occupant did not act immediately when feeling uncomfortable. We also assumed that the action could take effect in the subsequent time step if the HVAC system was in normal operation. Note that in Fig. 3 we have listed only some possible actions. There may be others, such as reducing the clothing level and making a more extreme adjustment to the thermostat set point. These additional actions are represented by an ellipsis. The MDP in this study entailed the following specifications: Environment space: The state contains information about the indoor environment that occupants use in deciding on the proper action. In this research, the state space included room air temperature, room air relative humidity, thermostat set point, clothing level of occupants, metabolic rate, room occupancy and time of day. Although there are many other factors [20,24] that impact occupant behavior, we neglected them in order to simplify the structure of the RL model. Here we assumed that the thermal sensation of occupants was not impacted by the time of day. Therefore, time was not included in the TSV and reward calculation. An exception was the transfer learning model for setback and occupancy control in Section 2.3, which moved to a nighttime state at certain times. Generally, time functioned as a label, and it did not contain a numerical value that might influence the RL model and training. In summary, the state space can be expressed as (1) S = T air , R H air , T setpoint , C l o , M e t , o c c u p a n c y , t i m e Action space: The action is the occupant behavior that is performed with the goal of more comfortable conditions. In this research, the action space included raising or lowering the thermostat set point by different degrees, or maintaining the same set point; putting on, keeping the same, or taking off clothes; and arriving. The action space can be expressed as (2) A = A raise , A keep , A lower , A put on , A keep , A take off where the first three actions A raise , A keep , A lower represent adjustments to the thermostat set point, and the last three actions A put on , A keep , A take off represent adjustments to the clothing level. Reward function: The goal of the action is a higher thermal comfort level for the occupants. Therefore, in this research, the reward was modelled as the absolute difference between the initial TSV before the action and the final TSV after the action, which can be expressed as (3) R = TS V t - TS V t + 1 where subscripts t and t + 1 represent the current and next time steps, respectively. It is clear that in order to maximize the reward R, TS V t + 1 = 0 , which means that the desired thermal sensation is neutral after the occupant behavior occurs. In this research, we predicted the TSV in offices with the use of an ANN model [17,62] that expresses TSV as a function of four input parameters as: (4) TSV = f air t e m p e r a t u r e , r e l a t i v e h u m i d i t y , c l o t h i n g i n s u l a t i o n , m e t a b o l i c r a t e where f represents the function of the ANN model. We assumed that the mean radiation temperature was the same as the air temperature, and the air velocity was less than 0.2 m/s. To develop the ANN model, we collected data from over 25 occupants in an office building during the four seasons of 2017. The number of collected data points for training the model was about 5000. The model had three layers, and there were ten neurons in the hidden layer. We used the Levenberg-Marquardt algorithm to train the model, and it predicted the TSV with a mean absolute error (MAE) of 0.43 after training. For buildings without a thermal comfort model, predicted mean vote (PMV) [63] can also be used to model the reward, which is expressed as (5) R = PM V t - PM V t + 1 As above, maximizing the reward R requires that PM V t + 1 = 0 . Reward modelling in the RL model for multi-occupant offices with multiple agents [64] was different from that for single-occupant offices. For multi-occupant offices, the modelling was divided into two categories. In one category, the reward of a dominant occupant was maximized. Here, one occupant near the thermostat would adjust the thermostat dominantly, and the others in the room would compromise with this occupant\u2019s preference, as is the case in some workplaces [17,65]. Thus, the reward was for the dominant individual and can be expressed as (6) R = TS V t , d o m i n a n t - TS V t + 1 , d o m i n a n t During data collection, we also found that in some offices all the occupants had equal control of the thermostat [17]. Therefore, in our other multi-occupant office category, the average reward for all occupants was maximized. The reward was averaged as (7) R = 1 n ∑ i TS V t , i - TS V t + 1 , i where n is the number of occupants in the room, and i represents different occupants. For a single-occupant office where only the dominant occupant was in the room, the two categories of reward modelling were the same as Eqs. (6) and (7). 2.2 Q-learning After designing the model framework, we needed to train the RL model. One of the available training methods is Q-learning. Here \u201cQ\u201d means \u201cquality,\u201d a policy function of an action taken in a given state. It can be expressed as the following mapping: (8) Q : S × A → R Q-learning is a model-free RL algorithm for learning a policy that tells an agent which actions to take under various circumstances [66]. This learning method has been widely used for training RL models [43,49,51,67,68]. With the state space, action space and reward modelling described in Section 2.1, we used the Q-learning algorithm to update the quality. The updating equation for Q-learning can be expressed as (9) Q new s t , a t = Q old s t , a t + α · r t + γ · max a Q s t + 1 , a - Q old s t , a t where Q is the quality, s the state, a the action, α the learning rate, r the reward, γ the discount factor, and max a Q s t + 1 , a the estimation of optimal future value. According to this equation, as the training begins, the quality is initialized to arbitrary or uniform values. Then, at each episode t of the training process, the agent in state s t selects an action a t with a reward r t and an estimated future reward for future actions. After the action, the agent enters a new state s t + 1 . When the maximized reward is confirmed, the optimal action is learned and the quality Q is updated. In this process, the RL model gradually learns to take actions in a certain environment, and we can obtain a Q-learning table of states by various actions. Q-learning is similar to the actual decision process for occupant behavior in buildings. The learning rate and discount factor could impact the learning process. In this study, we selected a learning rate of 0.3 and discount factor of 1. We used a table of states by various actions because the choices of actions in the MDP were discrete for adjusting the thermostat by different degrees or clothing insulation to certain values. Thus, the discount factor had little impact on the Q-learning result. As for the learning rate, we will provide training results for learning rate variations in Section 3.2. We used the MATLAB 2020a Reinforcement Learning Toolbox [69] to build and train the RL model. 2.3 Transfer learning After designing and training the RL occupant behavior model, we sought to transfer the model to other buildings with limited information and even with no data. As shown in Fig. 4 (a), an ANN model, one of the data-driven models, has a layered structure with input, hidden and output layers. The training process for the ANN model uses data to update the values of coefficients in the hidden layer. Therefore, the model can only be used for similar buildings with available data. In previous attempts to apply the model directly to other buildings, the performance was usually not good [18,21]. In those studies, transfer learning of the ANN model grabbed layers of neural network weights and trained the model again with new data. Prediction for different buildings with transferring data-driven models requires the data to retrain. Additionally, the meanings of the coefficients inside the models are still unclear to researchers. Therefore, the information in the hidden layer cannot be transferred or used for other buildings. However, as shown in Fig. 4(b), the policy-based RL occupant behavior model is a logical model with physical meaning, and thus it can be partially transferred to other buildings. We transferred the higher-level rules of the RL model, i.e., the logic of thermal actions, the pursuit of thermal comfort from one building to another building. We could do this because even for different buildings and HVAC control systems, the logic of occupant behavior that seeks more comfortable conditions remained the same. Therefore, the feasible actions and rewards of the RL model were similar for different buildings. For example, we built an RL occupant behavior model for a building with manual thermostat control. In other buildings with thermostat setback or occupancy control, occupants might adjust the thermostat set point in different ways. When they left the room or during the night, the building automation system could reset the thermostat set point to save energy. When the occupants reentered the room, they could adjust the set point and override the system operation. The occupants\u2019 overriding of the automation systems might indicate their dissatisfaction [70]. As such, there was a \u201cnight state\u201d before the occupants\u2019 arrival in the morning, when the set point and air temperature were different, as depicted in Fig. 4(b). After the occupants\u2019 arrival or in the morning, the state space entered the normal initial state. Thus, the transfer learning model structure was similar to original model with possible actions and rewards in the daytime. We could therefore transfer a portion of the parameters in the action space and the rewards to other buildings. Even without data for these buildings, we could still model and predict the occupant behavior. For residential buildings, large-scale collection of occupant behavior data has usually been more difficult, because such buildings are generally not equipped with building automation system (BAS) [17]. The use of questionnaire surveys to gather data has been reported as time-consuming and limited in accuracy [23]. Under this circumstance, building a model by transfer learning was a feasible approach. Similarly, we also transferred the RL occupant behavior model for office buildings to residential buildings. The occupant behavior of manual thermostat control was the same in both types of buildings, but the improved thermal comfort level and reward for actions were different [17]. Moreover, there were other factors that distinguished the occupant behavior in office buildings from that in residential buildings [71,72]. Therefore, we needed to modify the state space and reward in the transfer learning model for residential buildings. For residential buildings, a previous study [17] found that the comfort zone of a building was 1.7 °C (3 °F) higher in summer, and 1.7 °C (3 °F) lower in winter, than the ASHRAE comfort zone [73]. Therefore, we were able to use this information to transfer the thermal sensation and occupant behavior model from the office building to residential buildings. Since the shape of the thermal comfort zone was similar, whereas the impact of air temperature on thermal comfort and occupant behavior was different [17], the logical RL behavior model could be partially transferred. The MDP for manual control of the thermostat was the same in the office building and residential buildings. We transferred the RL occupant behavior model with the use of PMV to calculate the reward as (10) R = PM V R e s i d e n c e _ i - PM V R e s i d e n c e _ f Here, the PMV in the residence was defined differently from the traditional PMV model because of the different comfort zone. With the 3 °F difference in winter and summer, it was calculated as (11) PM V R e s i d e n c e _ w i n t e r = P M V ( T air + 3 , R H , T r , V , C l o , M e t ) (12) PM V R e s i d e n c e _ s u m m e r = P M V ( T air - 3 , R H , T r , V , C l o , M e t ) where the PMV function represents the traditional way of calculating PMV with six parameters. 2.4 Data collection for model validation In order to validate the RL model, this study collected indoor air temperature, relative humidity, thermostat set point, lighting occupancy, clothing level of occupants, and data on the occupant behavior of adjusting the thermostat, from the BAS in 20 offices in the Ray W. Herrick Laboratories (HLAB) building at Purdue University in 2018, as shown in Fig. 5 (a). Half of the offices were multi-occupant student offices, and the rest were single-occupant faculty offices. The building used a variable air volume (VAV) system for heating and cooling. Each office had an independent VAV box and a thermostat (Siemens 544-760A) that enabled the BAS to control the air temperature in the room. We downloaded the indoor environment data of room air temperature and thermostat set point from the BAS. In addition, we used a questionnaire to record the clothing level of the occupants and their clothing-adjustment behavior in the HLAB building. We also gathered room air temperature, relative humidity, thermostat set point and lighting occupancy data in four other office buildings on the Purdue University campus in three seasons of 2018, as shown in Fig. 5(b)\u2013(e). Each building contained more than 100 offices. The HVAC systems in these buildings were similar to those in the HLAB building. However, the HVAC control strategies in the four buildings differed from that in the HLAB building. The HVAC system operated constantly in the HLAB building, and the occupants could adjust the thermostat set point manually. The LWSN building, by contrast, used a thermostat setback that overrode the manual control at night, from 11 PM to 6 AM. Meanwhile, the MSEE, HAAS and STAN buildings used occupancy control for the HVAC system in each room in addition to manual control. Table 1 provides the data collection information for each building, including the number of offices in which data was collected, the HVAC control type, the data collection interval, and the types of data that were collected. The details of the data collection process can be found in [17,74]. 2.5 Building energy simulation with RL model The purpose of constructing the RL occupant behavior model was to evaluate the impact of occupant behavior on building energy performance. Therefore, we also implemented the RL occupant behavior model in EnergyPlus. We utilized SketchUp to construct the building geometry model in Fig. 6 , and then used the model in the EnergyPlus simulations. Table 2 lists the structural and material properties used for the building envelope in the simulations. The structural information was obtained from the HLAB building construction drawings and documents. Fig. 7 depicts the simulation process with the RL occupant behavior model. When the simulation starts, the program first checks whether or not the office is occupied, since the behavior occurs only when there is an occupant inside the office. If so, the agent decides on the action to the next time step based on the Q-learning table. Next, the energy simulation program decides whether or not to adjust the thermostat set point or the clothing level of the occupants. The building energy use will correspond to this decision. Moving to the next time step, the program checks whether or not the simulation time has ended; if not, it again checks if the room is occupied. To obtain a reasonable variation range, we performed the simulation 200 times and analyzed the results [74]. 3 Results 3.1 Results of modelling the reward for action Fig. 8 shows the result of reward modelling when the PMV model and the thermal comfort ANN model were used with Eqs. (3)\u2013(5). The figure depicts the relationship between occupant behavior and the corresponding rewards in various air temperatures when other parameters were the same. For example, when the air temperature was 19.4 °C (67 °F), the occupant might feel cool in winter. Thus, the reward for raising the thermostat set point was positive most of the time, until the occurrence of overheating caused by an excessive adjustment. For each state, there was one occupant behavior of set point adjustment that led to the maximum reward. The reward situation was similar when the air temperature was high and the occupant lowered the set point. When the air temperature was about 22.8 °C (73 °F), the occupant already felt nearly neutral. In this case, either raising or lowering the set point would lead to a negative reward, and the optimal occupant behavior was to make no adjustment. We used this quantified logic to build the RL model. 3.2 Results of the RL occupant behavior model Fig. 9 depicts the training process for the RL model with the use of Q-learning. The blue, red, and orange curves represent the episode reward, the average reward in nearby episodes, and the quality, respectively. Initially, at the beginning of the training process, the RL model knew nothing about the relationship between the environment, states and actions. Thus, it could only take random actions to explore the relationship, and it received varying rewards. As a result, the episode reward was very low. As the learning process went on, the RL model tried various actions to find a way of maximizing the reward. The quality was updated with the use of Eq. (9). In the examples shown in Fig. 9, the thermostat set point and air temperature were 22.8 °C (73 °F), and the occupant was wearing summer clothing. After training over 300 episodes, the RL model learned to take the action at this state that maximized the reward at 0.61. Fig. 9 also shows that an overly high learning rate made the learning process very unstable, and the quality fluctuated during the training. Meanwhile, a low learning rate would slow down the training process. The trained RL model would always predict the same occupant behavior in the same state and environment, which was unrealistic. Actual office occupant behavior is influenced by many other factors that we did not build into the RL model [24,28]. Considering all these factors would have led to an overly complex behavior model. A previous study [11] pointed out that behavior models should not only represent deterministic events but also be described by stochastic laws. Additionally, different thermal preferences on the part of occupants would also cause their behavior to differ. Fig. 10 displays the distribution of collected thermostat set point adjustment behavior at different air temperatures in the HLAB offices. In the box-and-whisker charts, the boxes, whiskers and dots represent the standard deviation, upper and lower bounds, and outliers of the occupant behavior, respectively. The air temperature and occupant behavior had a clear negative correlation. The figure indicates that even at the same air temperature and similar states, the variation range of collected occupant behavior was over ±1.1 °C (2°F) in both single- and multi-occupant offices in different seasons. Under these conditions, the rewards of different actions did not differ greatly, but the RL model always pursued the action that absolutely maximized the reward. For example, the RL model might predict the occupant behavior of raising the set point by 5 °F, while raising it by 4 °F or 6 °F would also be reasonable behavior in a real scenario. Therefore, based on the results in Fig. 10, we added a randomness of −2 °F to +2 °F into the RL model for the final decision to make it more reasonable. 3.3 Validation of the RL model We validated the RL model with the use of data collected in 2018 after adding the randomness for the final decision. Fig. 11 compares the collected occupant behavior with the RL model prediction for HLAB offices in four seasons in 2018. For most of the time, the RL prediction results matched the collected data. Table 3 lists all the prediction results for R2 and MAE. The R2 was around 0.7\u20130.8, and the mean absolute error (MAE) was around 1.5\u20131.9 °F. The overall R2 and MAE were 0.79 and 1.68 °F, respectively. We removed some data as outliers when the HVAC system was under maintenance and the occupant lost control. We also compared the performance of the RL model for single- and multi-occupant offices. For single-occupant offices, the R2 was 0.8 and the MAE was 1.5 °F. For multi-occupant offices, the R2 was 0.78 and the MAE was 1.8 °F. The prediction results for multi-occupant offices were not as good as for single-occupant offices. In previous studies, a prediction R2 of 0.8 was deemed acceptable for an occupant behavior model [74]. Hence, the model performance of the RL model was reasonable. 3.4 Results of transfer learning model After validating the RL model for the HLAB offices, we used the transfer learning model to predict occupant behavior in four other office buildings on the Purdue University campus. Fig. 12 shows the collected occupant behavior data and the RL model prediction in three seasons. The overall R2 was 0.7, and the MAE was 1.7 °F. The results were not as good as the model validation results for the same building, presented in Section 3.3, but it was a feasible method for predicting occupant behavior for the different buildings without data. We also used the defined reward in Eqs. (10)\u2013(12) to train the RL model again for residential buildings. Table 4 shows the prediction performance of the transfer learning model. In the residential buildings, the R2 was between 0.6 and 0.7 in the four seasons, and the MAE varied from 2.1 °F to 2.9 °F. The results were worse than for the transfer learning in the other four office buildings. The reason was that the cross-type prediction was more difficult than cross-building prediction. In the residential buildings, there were many factors that impacted the occupant behavior differently than in the office buildings [71,72] but were not considered in the current RL model. One feasible way to further improve the transfer learning model would be to introduce more impact factors in the state space, in addition to re-modeling the reward function. Furthermore, the quality and quantity of collected data in the residential buildings were not as good as in the office buildings because we used questionnaire surveys in the former. Recording accurate occupant behavior data with corresponding environmental parameters and incorporating the impact factors are directions for improvement in further studies of residential buildings. 3.5 Energy analysis with the RL occupant behavior model After using the transfer learning model to predict occupant behavior in different buildings, we compared the collected heating and cooling energy use data and the simulation with the RL model in the HLAB building, for two days in winter. In Fig. 13 , the box-and-whisker charts represent the simulation results with the use of the RL model and the ANN model. The black curve represents the measured data. For most of the time, the measured energy fluctuated within the lower and upper bounds predicted by the RL model. However, the variation range predicted by the RL model was narrower than that predicted by the ANN model. Table 5 lists the average heating and cooling loads and standard deviations for different seasons in one year. The reason for the difference between models was that the logic of the RL model was to improve the thermal comfort level of occupants. Therefore, the predicted occupant behavior was mostly reasonable. The model could not simulate illogical and extreme behavior such as adjusting the thermostat set point to the highest or lowest value for quick heating or cooling [74]. Such behavior can waste a lot of energy. We also used the transfer learning RL model to predict the energy use with thermostat setback and occupancy control. Fig. 14 shows all the energy simulation results in summer. The measurement and simulation using actual behavior exhibited little divergence. Thermostat setback and occupancy control could reduce energy use by about 30% and 70%, respectively. The average energy simulation results using the RL model were almost the same as with the ANN model, but the variation was less with the former model; this finding was similar to the results in Table 5. Hence, it is feasible to use the transfer learning RL model to predict the energy use in other buildings with various HVAC control systems. 4 Discussion In this study, we built an RL model to predict comfort-related occupant behavior in office buildings, and validated the model with collected data. We also used transfer learning for cross-building occupant behavior modelling. Although various impact factors were modelled in state space, including indoor air temperature and relative humidity, room occupancy and time, we neglected factors such as gender [75], cultural background [76], and age [4]. To improve the model\u2019s performance and widen its applicability, we need to determine the quantitative relationship between these factors and the occupant behavior for reward modelling in future studies. In the MDP, the time step size for occupant behavior prediction was 15 min. Thus, the impact of occupant behavior on the HVAC system and indoor environment was not immediate; rather, it was somewhat delayed. We assumed that the action could take effect in the subsequent time step if the HVAC system was in normal operation. Actually, based on the collected data and observation [17], after adjusting their behavior, the occupants tended to wait for a while, being aware of the HVAC response time. Even though the neutral TSV had not been reached, no occupant behavior occurred during this waiting time. If an occupant waited for a long time, such as 3\u20134 time steps, and still did not feel neutral, then there may have been issues with the HVAC control system or air handing units. In this case, the occupant behavior would be very complicated and personalized, including complaining and making another adjustment, this time to an extreme high or low set point. To improve the learning process and model performance, possible rewards could account for abnormal HVAC operations with longer response time and more time steps. Improving thermal comfort and energy efficiency behavior modelling is a potential direction for our future research. In this study, we assumed that the occupant behavior and TSV decisions were based on the current indoor environment. This assumption was similar to those in the most recognized PMV thermal comfort model. According to the adaptive thermal comfort model, the outdoor climate and past thermal history may influence occupants\u2019 thermal preference and behavior. This could explain some of the prediction discrepancy exhibited by the current RL occupant behavior model, which was a limitation in the current study. Furthermore, the adaptive thermal comfort model has usually been applied to naturally ventilated rooms. In this study, the buildings were all mechanically ventilated. If we assumed adaptive thermal comfort and considered the outdoor climate and past thermal history, we could still build the MDP and introduce these factors in the state and reward. In this case, the model would be more complex. We could apply the adaptive thermal comfort theory and use historical states in the RL model to improve the prediction result as a future research direction. In the present study, we defined the reward as the difference between initial and final TSV as shown in Eqs. (5)\u2013(7). Such definition was result-oriented and path-independent, because the middle terms could be canceled if there were many adjustment behaviors. Thus, the occupants could find the set point that maximized the cumulative reward in different ways, which increased the variation in occupant behavior. However, this study considered only comfort-related occupant behavior and not energy-related behavior in offices. This was because the cost of maintaining a comfortable environment in an office is typically not on the minds of occupants [17]. For simulation of energy-saving occupant behavior in other kinds of buildings, the RL model would also require energy parameters for the state space and reward modelling, such as heating and cooling rates and air change rate [77]. Finally, the RL model and transfer learning in this study exhibited good generalization capability and scalability. These models also have potential for other kinds of occupant behavior, such as interactions with windows [24], shades [19], lighting [78] and other indoor appliances. With the RL model, we tried to model and predict the occupant behavior without collecting data but rather by building a policy-based MDP. We also used transfer learning to obtain the occupant behavior in other office buildings and in residential buildings with different HVAC systems and very limited information. This cross-building occupant behavior transfer was extremely difficult in the data-driven models. Therefore, the generalization capability of the RL and transfer learning models was better than that of the regression models. Meanwhile, the better generalization capability of the RL model may indicate a lesser ability to make predictions for specific buildings. As a result, the prediction accuracy of the RL model may not be as good as that of the data-driven models. 5 Conclusion This study built and validated an RL occupant behavior model for an office building and transferred it to other buildings with thermostat setback and occupancy control. We also compared the energy use simulated by the RL model with measured data and predictions by the ANN model for the HLAB offices and four other office buildings on the Purdue University campus. This investigation led to the following conclusions: 1. The policy-based RL occupant behavior model trained by Q-learning was able to learn the logic of occupant behavior and predict the behavior accurately. The results for prediction of set point adjustment exhibited an R2 around 0.8 and MAE less than 2 °F. 2. Transfer learning successfully transferred the logic and part of the occupant behavior model structure to other buildings with different HVAC control systems, such as thermostat setback and occupancy control. We also transferred the RL model from office buildings to residential buildings with a modification to the impact of air temperature on occupant behavior. The prediction performance was good, with R2 above 0.6 and MSE less than 2 °F. These transfer learning models did not require data collection. Unlike data-driven models, the transfer learning RL model had physical meaning and strong generalization capability. 3. The results of energy simulation for thermostat manual control, setback and occupancy control with the use of the RL model were similar to the results with the ANN model. The RL simulation accurately reflected the impact of occupant behavior on building energy use, but the variation predicted by the RL model was less than that predicted by the ANN model. Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Acknowledgments The authors would like to thank Dr. Orkan Kurtulus in the Center for High Performance Buildings at Purdue University for his assistance in setting the building automation system in the HLAB building. We would also like to thank all the occupants of the HLAB offices for their participation and assistance in obtaining the data reported in this study, and Blaine Miller and Chris Sorenson in the Utility Plant Office of Purdue University for providing data in four Purdue buildings. The data collection in this study was approved by Purdue University Institutional Review Board Protocol # 1704019079. References [1] US Department of Energy, Building energy data. (2011). [2] De Wilde, Pieter. The gap between predicted and measured energy performance of buildings: a framework for investigation. Automat. Constr. 41 (2014): 40\u201349. https://doi.org/10.1016/j.autcon.2014.02.009 [3] P.X.W. Zou X. Xu J. Sanjayan J. Wang Review of 10 years research on building energy performance gap: Life-cycle and stakeholder perspectives Energy Build. 178 2018 165 181 10.1016/j.enbuild.2018.08.040 Zou, Patrick XW, Xiaoxiao Xu, Jay Sanjayan, and Jiayuan Wang. \u201cReview of 10 years research on building energy performance gap: Life-cycle and stakeholder perspectives.\u201d Energy and Buildings 178 (2018): 165-181. https://doi.org/10.1016/j.enbuild.2018.08.040 [4] Y. Zhang X. Bai F.P. Mills J.C.V. Pezzey Rethinking the role of occupant behavior in building energy performance: a review Energy Build. 172 2018 279 294 10.1016/j.enbuild.2018.05.017 Zhang, Yan, Xuemei Bai, Franklin P. Mills, and John CV Pezzey. \u201cRethinking the role of occupant behavior in building energy performance: A review.\u201d Energy and Buildings 172 (2018): 279-294. https://doi.org/10.1016/j.enbuild.2018.05.017 [5] S. D\u2019Oca T. Hong J. Langevin The human dimensions of energy use in buildings: a review Renewable Sustainable Energy Rev. 81 2018 731 742 10.1016/j.rser.2017.08.019 D\u2019Oca, Simona, Tianzhen Hong, and Jared Langevin. \u201cThe human dimensions of energy use in buildings: A review.\u201d Renewable and Sustainable Energy Reviews 81 (2018): 731-742. https://doi.org/10.1016/j.rser.2017.08.019 [6] K. Sun T. Hong A framework for quantifying the impact of occupant behavior on energy savings of energy conservation measures Energy Build. 146 2017 383 396 10.1016/j.enbuild.2017.04.065 Sun, Kaiyu, and Tianzhen Hong. \u201cA framework for quantifying the impact of occupant behavior on energy savings of energy conservation measures.\u201d Energy and Buildings 146 (2017): 383-396. https://doi.org/10.1016/j.enbuild.2017.04.065 [7] Hong, Tianzhen, Sarah C. Taylor-Lange, Simona D\u2019Oca, Da Yan, Stefano P. Corgnati. Advances in research and applications of energy-related occupant behavior in buildings. Energy Build. 116 (2016): 694\u2013702. https://doi.org/10.1016/j.enbuild.2015.11.052. [8] Paone, Antonio, Jean-Philippe Bacher. The impact of building occupant behavior on energy efficiency and methods to influence it: a review of the state of the art. Energies 11, (4) (2018): 953. https://doi.org/10.3390/en11040953. [9] Yan, Da, William O\u2019Brien, Tianzhen Hong, Xiaohang Feng, H. Burak Gunay, Farhang Tahmasebi, Ardeshir Mahdavi. Occupant behavior modeling for building performance simulation: current state and future challenges. Energy Build. 107 (2015): 264-278. https://doi.org/10.1016/j.enbuild.2015.08.032. [10] Hong, Tianzhen, Jared Langevin, Kaiyu Sun. Building simulation: Ten challenges, in: Building Simulation, vol. 11, no. 5, pp. 871-898. Tsinghua University Press, 2018. https://doi.org/10.1007/s12273-018-0444-x. [11] Hong, Tianzhen, Da Yan, Simona D'Oca, Chien-fei Chen. Ten questions concerning occupant behavior in buildings: the big picture. Build. Environ. 114 (2017): 518\u2013530. https://doi.org/10.1016/j.buildenv.2016.12.006. [12] R.V. Andersen B.W. Olesen J. Toftum Modelling occupants\u2019 heating set-point preferences Building Simulation Conference 2011 14 16 R.V. Andersen, B.W. Olesen, J. Toftum, \u201cModelling occupants\u2019 heating set-point preferences,\u201d in: Building Simulation Conference, 2011, pp. 14\u201316. [13] Fabi, Valentina, Rune Vinther Andersen, and Stefano Paolo Corgnati, Influence of occupant's heating set-point preferences on indoor environmental quality and heating demand in residential buildings. HVAC&R Res. 19 (5) (2013): 635-645. https://doi.org/10.1080/10789669.2013.789372. [14] J. Langevin J. Wen P.L. Gurian Simulating the human-building interaction: development and validation of an agent-based model of office occupant behaviors Build. Environ. 88 2015 27 45 10.1016/j.buildenv.2014.11.037 Langevin, Jared, Jin Wen, and Patrick L. Gurian. \u201cSimulating the human-building interaction: Development and validation of an agent-based model of office occupant behaviors.\u201d Building and Environment 88 (2015): 27-45. https://doi.org/10.1016/j.buildenv.2014.11.037 [15] J. Pfafferott S. Herkel Statistical simulation of user behaviour in low-energy office buildings Solar Energy 81 5 2007 676 682 10.1016/j.buildenv.2014.11.037 Pfafferott, J., and S. Herkel. \u201cStatistical simulation of user behaviour in low-energy office buildings.\u201d Solar Energy 81, no. 5 (2007): 676-682.https://doi.org/10.1016/j.buildenv.2014.11.037 [16] K. Sun T. Hong A simulation approach to estimate energy savings potential of occupant behavior measures Energy Build. 136 2017 43 62 10.1016/j.enbuild.2016.12.010 Sun, Kaiyu, and Tianzhen Hong. \u201cA simulation approach to estimate energy savings potential of occupant behavior measures.\u201d Energy and Buildings 136 (2017): 43-62. https://doi.org/10.1016/j.enbuild.2016.12.010 [17] Z. Deng Q. Chen Artificial neural network models using thermal sensations and occupants\u2019 behavior for predicting thermal comfort Energy Build. 174 2018 587 602 10.1016/j.enbuild.2018.06.060 Deng, Zhipeng, and Qingyan Chen. \u201cArtificial neural network models using thermal sensations and occupants\u2019 behavior for predicting thermal comfort.\u201d Energy and Buildings 174 (2018): 587-602. https://doi.org/10.1016/j.enbuild.2018.06.060 [18] Z. Wang T. Hong Reinforcement learning for building controls: the opportunities and challenges Appl. Energy 269 2020 115036 10.1016/j.apenergy.2020.115036 Wang, Zhe, and Tianzhen Hong. \u201cReinforcement learning for building controls: The opportunities and challenges.\u201d Applied Energy 269 (2020): 115036. https://doi.org/10.1016/j.apenergy.2020.115036 [19] W. O'Brien H. Burak Gunay The contextual factors contributing to occupants' adaptive comfort behaviors in offices\u2014a review and proposed modeling framework Build. Environ. 77 2014 77 87 10.1016/j.buildenv.2014.03.024 O'Brien, William, and H. Burak Gunay. \u201cThe contextual factors contributing to occupants' adaptive comfort behaviors in offices\u2014A review and proposed modeling framework.\u201d Building and Environment 77 (2014): 77-87. https://doi.org/10.1016/j.buildenv.2014.03.024 [20] F. Stazi F. Naspi M. D'Orazio A literature review on driving factors and contextual events influencing occupants' behaviours in buildings Build. Environ. 118 2017 40 66 10.1016/j.buildenv.2017.03.021 Stazi, Francesca, Federica Naspi, and Marco D'Orazio. \u201cA literature review on driving factors and contextual events influencing occupants' behaviours in buildings.\u201d Building and Environment 118 (2017): 40-66. https://doi.org/10.1016/j.buildenv.2017.03.021 [21] Hong, Tianzhen, Simona D'Oca, William J.N. Turner, Sarah C. Taylor-Lange. An ontology to represent energy-related occupant behavior in buildings. Part I: Introduction to the DNAs framework. Build. Environ. 92 (2015): 764\u2013777. https://doi.org/10.1016/j.buildenv.2015.02.019 [22] W. O\u2019Brien I. Gaetani S. Gilani S. Carlucci P.-J. Hoes J. Hensen International survey on current occupant modelling approaches in building performance simulation J. Build. Performance Simul. 10 5\u20136 2017 653 671 10.1080/19401493.2016.1243731 O\u2019Brien, William, Isabella Gaetani, Sara Gilani, Salvatore Carlucci, Pieter-Jan Hoes, and Jan Hensen. \u201cInternational survey on current occupant modelling approaches in building performance simulation.\u201d Journal of Building Performance Simulation 10, no. 5-6 (2017): 653-671. https://doi.org/10.1080/19401493.2016.1243731 [23] M. Jia R.S. Srinivasan A.A. Raheem From occupancy to occupant behavior: an analytical survey of data acquisition technologies, modeling methodologies and simulation coupling mechanisms for building energy efficiency Renewable Sustainable Energy Rev. 68 2017 525 540 10.1016/j.rser.2016.10.011 Jia, Mengda, Ravi S. Srinivasan, and Adeeba A. Raheem. \u201cFrom occupancy to occupant behavior: An analytical survey of data acquisition technologies, modeling methodologies and simulation coupling mechanisms for building energy efficiency.\u201d Renewable and Sustainable Energy Reviews 68 (2017): 525-540. https://doi.org/10.1016/j.rser.2016.10.011 [24] Fabi, Valentina, Rune Vinther Andersen, Stefano Corgnati, Bjarne W. Olesen. Occupants' window opening behaviour: a literature review of factors influencing occupant behaviour and models. Build. Environ. 58 (2012): 188\u2013198. https://doi.org/10.1016/j.buildenv.2012.07.009. [25] Tijani, Khadija, Stephane Ploix, Benjamin Haas, Julie Dugdale, Quoc Dung Ngo. Dynamic Bayesian Networks to simulate occupant behaviours in office buildings related to indoor air quality. arXiv preprint arXiv:1605.05966 (2016). https://arxiv.org/ftp/arxiv/papers/1605/1605.05966.pdf. [26] S. D\u2019Oca S. Corgnati T. Hong Data mining of occupant behavior in office buildings Energy Procedia 78 2015 585 590 10.1016/j.egypro.2015.11.022 D\u2019Oca, Simona, Stefano Corgnati, and Tianzhen Hong. \u201cData mining of occupant behavior in office buildings.\u201d Energy Procedia 78 (2015): 585-590. https://doi.org/10.1016/j.egypro.2015.11.022 [27] Zhou, Xin, Tiance Liu, Da Yan, Xing Shi, Xing Jin. An action-based Markov chain modeling approach for predicting the window operating behavior in office spaces. In Building Simulation, pp. 1-15. Tsinghua University Press, 2020. https://doi.org/10.1007/s12273-020-0647-9. [28] C.J. Andrews D. Yi U. Krogmann J.A. Senick R.E. Wener Designing buildings for real occupants: an agent-based approach IEEE Trans. Syst., Man, Cybernetics-Part A: Syst. Humans 41 6 2011 1077 1091 10.1109/TSMCA.2011.2116116 Andrews, Clinton J., Daniel Yi, Uta Krogmann, Jennifer A. Senick, and Richard E. Wener. \u201cDesigning buildings for real occupants: An agent-based approach.\u201d IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and Humans 41, no. 6 (2011): 1077-1091. https://doi.org/10.1109/TSMCA.2011.2116116 [29] C.F. Reinhart Lightswitch-2002: a model for manual and automated control of electric lighting and blinds Solar Energy 77 1 2004 15 28 10.1016/j.solener.2004.04.003 Reinhart, Christoph F. \u201cLightswitch-2002: A model for manual and automated control of electric lighting and blinds.\u201d Solar Energy 77, no. 1 (2004): 15-28. https://doi.org/10.1016/j.solener.2004.04.003 [30] S.H. Ryu H.J. Moon Development of an occupancy prediction model using indoor environmental data based on machine learning techniques Build. Environ. 107 2016 1 9 10.1016/j.buildenv.2016.06.039 Ryu, Seung Ho, and Hyeun Jun Moon. \u201cDevelopment of an occupancy prediction model using indoor environmental data based on machine learning techniques.\u201d Building and Environment 107 (2016): 1-9. https://doi.org/10.1016/j.buildenv.2016.06.039 [31] H. Zhou L. Qiao Y.i. Jiang H. Sun Q. Chen Recognition of air-conditioner operation from indoor air temperature and relative humidity by a data mining approach Energy Build. 111 2016 233 241 10.1016/j.enbuild.2015.11.034 Zhou, Hao, Lifeng Qiao, Yi Jiang, Hejiang Sun, and Qingyan Chen. \u201cRecognition of air-conditioner operation from indoor air temperature and relative humidity by a data mining approach.\u201d Energy and Buildings 111 (2016): 233-241. https://doi.org/10.1016/j.enbuild.2015.11.034 [32] S. Papadopoulos E. Azar Integrating building performance simulation in agent-based modeling using regression surrogate models: a novel human-in-the-loop energy modeling approach Energy Build. 128 2016 214 223 10.1016/j.enbuild.2016.06.079 Papadopoulos, Sokratis, and Elie Azar. \u201cIntegrating building performance simulation in agent-based modeling using regression surrogate models: A novel human-in-the-loop energy modeling approach.\u201d Energy and Buildings 128 (2016): 214-223. https://doi.org/10.1016/j.enbuild.2016.06.079 [33] E. Azar C.C. Menassa Agent-based modeling of occupants and their impact on energy use in commercial buildings J. Comp. Civil Eng. 26 4 2012 506 518 10.1061/(ASCE)CP.1943-5487.0000158 Azar, Elie, and Carol C. Menassa. \u201cAgent-based modeling of occupants and their impact on energy use in commercial buildings.\u201d Journal of Computing in Civil Engineering 26, no. 4 (2012): 506-518. https://doi.org/10.1061/(ASCE)CP.1943-5487.0000158 [34] Lee, Yoon Soo, Ali M. Malkawi. Simulating multiple occupant behaviors in buildings: An agent-based modeling approach. Energy Build. 69 (2014): 407\u2013416. https://doi.org/10.1016/j.enbuild.2013.11.020. [35] R.S. Sutton A.G. Barto Introduction to Reinforcement Learning Vol. 135 1998 MIT Press Cambridge Sutton, R. S., & Barto, A. G. (1998). Introduction to reinforcement learning (Vol. 135). Cambridge: MIT Press. [36] Lillicrap, Timothy P., Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, and Daan Wierstra. Continuous control with deep reinforcement learning. arXiv preprint arXiv:1509.02971 (2015). https://arxiv.org/pdf/1509.02971.pdf. [37] Silver, David, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert et al. Mastering the game of go without human knowledge. nature 550, no. 7676 (2017): 354-359. https://doi.org/10.1038/nature24270. [38] Z. Zhang A. Chong Y. Pan C. Zhang K.P. Lam Whole building energy model for HVAC optimal control: a practical framework based on deep reinforcement learning Energy Build. 199 2019 472 490 10.1016/j.enbuild.2019.07.029 Zhang, Zhiang, Adrian Chong, Yuqi Pan, Chenlu Zhang, and Khee Poh Lam. \u201cWhole building energy model for HVAC optimal control: A practical framework based on deep reinforcement learning.\u201d Energy and Buildings 199 (2019): 472-490. https://doi.org/10.1016/j.enbuild.2019.07.029 [39] H. Kazmi J. Suykens A. Balint J. Driesen Multi-agent reinforcement learning for modeling and control of thermostatically controlled loads Appl. Energy 238 2019 1022 1035 10.1016/j.apenergy.2019.01.140 Kazmi, Hussain, Johan Suykens, Attila Balint, and Johan Driesen. \u201cMulti-agent reinforcement learning for modeling and control of thermostatically controlled loads.\u201d Applied energy 238 (2019): 1022-1035. https://doi.org/10.1016/j.apenergy.2019.01.140 [40] L. Yu W. Xie D.i. Xie Y. Zou D. Zhang Z. Sun L. Zhang Y. Zhang T. Jiang Deep reinforcement learning for smart home energy management IEEE Internet Things J. 7 4 2020 2751 2762 10.1109/JIoT.648890710.1109/JIOT.2019.2957289 Yu, Liang, Weiwei Xie, Di Xie, Yulong Zou, Dengyin Zhang, Zhixin Sun, Linghua Zhang, Yue Zhang, and Tao Jiang. \u201cDeep reinforcement learning for smart home energy management.\u201d IEEE Internet of Things Journal 7, no. 4 (2019): 2751-2762. https://doi.org/10.1109/JIOT.2019.2957289 [41] Han, Mengjie, Ross May, Xingxing Zhang, Xinru Wang, Song Pan, Yan Da, and Yuan Jin. A novel reinforcement learning method for improving occupant comfort via window opening and closing. Sustainable Cities Soc. (2020): 102247. https://doi.org/10.1016/j.scs.2020.102247. [42] M. Han R. May X. Zhang X. Wang S. Pan D. Yan Y. Jin L. Xu A review of reinforcement learning methodologies for controlling occupant comfort in buildings Sustainable Cities Soc. 51 2019 101748 10.1016/j.scs.2019.101748 Han, Mengjie, Ross May, Xingxing Zhang, Xinru Wang, Song Pan, Da Yan, Yuan Jin, and Liguo Xu. \u201cA review of reinforcement learning methodologies for controlling occupant comfort in buildings.\u201d Sustainable Cities and Society 51 (2019): 101748. https://doi.org/10.1016/j.scs.2019.101748 [43] Y.R. Yoon H.J. Moon Performance based thermal comfort control (PTCC) using deep reinforcement learning for space cooling Energy Build. 203 2019 109420 10.1016/j.enbuild.2019.109420 Yoon, Young Ran, and Hyeun Jun Moon. \u201cPerformance based thermal comfort control (PTCC) using deep reinforcement learning for space cooling.\u201d Energy and Buildings 203 (2019): 109420. https://doi.org/10.1016/j.enbuild.2019.109420 [44] F. Ruelens S. Iacovella B.J. Claessens R. Belmans Learning agent for a heat-pump thermostat with a set-back strategy using model-free reinforcement learning Energies 8 8 2015 8300 8318 10.3390/en8088300 Ruelens, Frederik, Sandro Iacovella, Bert J. Claessens, and Ronnie Belmans. \u201cLearning agent for a heat-pump thermostat with a set-back strategy using model-free reinforcement learning.\u201d Energies 8, no. 8 (2015): 8300-8318. https://doi.org/10.3390/en8088300 [45] Azuatalam, Donald, Wee-Lih Lee, Frits de Nijs, Ariel Liebman. Reinforcement learning for whole-building HVAC control and demand response. Energy and AI 2 (2020): 100020. https://doi.org/10.1016/j.egyai.2020.100020. [46] Chen, Bingqing, Zicheng Cai, Mario Bergés. Gnu-RL: A precocial reinforcement learning solution for building HVAC control using a differentiable MPC policy, in: Proceedings of the 6th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, pp. 316-325. 2019. https://doi.org/10.1145/3360322.3360849. [47] Ding, Xianzhong, Wan Du, Alberto E. Cerpa. MB2C: Model-based deep reinforcement learning for multi-zone building control, in: Proceedings of the 7th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, pp. 50\u201359. 2020. https://doi.org/10.1145/3408308.3427986. [48] R. Jia M. Jin K. Sun T. Hong C. Spanos Advanced building control via deep reinforcement learning Energy Procedia 158 2019 6158 6163 10.1016/j.egypro.2019.01.494 Jia, Ruoxi, Ming Jin, Kaiyu Sun, Tianzhen Hong, and Costas Spanos. \u201cAdvanced building control via deep reinforcement learning.\u201d Energy Procedia 158 (2019): 6158-6163. https://doi.org/10.1016/j.egypro.2019.01.494 [49] Y. Chen L.K. Norford H.W. Samuelson A. Malkawi Optimal control of HVAC and window systems for natural ventilation through reinforcement learning Energy Build. 169 2018 195 205 10.1016/j.enbuild.2018.03.051 Chen, Yujiao, Leslie K. Norford, Holly W. Samuelson, and Ali Malkawi. \u201cOptimal control of HVAC and window systems for natural ventilation through reinforcement learning.\u201d Energy and Buildings 169 (2018): 195-205. https://doi.org/10.1016/j.enbuild.2018.03.051 [50] J.Y. Park T. Dougherty H. Fritz Z. Nagy LightLearn: an adaptive and occupant centered controller for lighting based on reinforcement learning Build. Environ. 147 2019 397 414 10.1016/j.buildenv.2018.10.028 Park, June Young, Thomas Dougherty, Hagen Fritz, and Zoltan Nagy. \u201cLightLearn: An adaptive and occupant centered controller for lighting based on reinforcement learning.\u201d Building and Environment 147 (2019): 397-414. https://doi.org/10.1016/j.buildenv.2018.10.028 [51] W. Valladares M. Galindo J. Gutiérrez W. Wu-Chieh K.-K. Liao J.-C. Liao L. Kuang-Chin C.-C. Wang Energy optimization associated with thermal comfort and indoor air control via a deep reinforcement learning algorithm Build. Environ. 155 2019 105 117 10.1016/j.buildenv.2019.03.038 Valladares, William, Marco Galindo, Jorge Gutiérrez, Wu-Chieh Wu, Kuo-Kai Liao, Jen-Chung Liao, Kuang-Chin Lu, and Chi-Chuan Wang. \u201cEnergy optimization associated with thermal comfort and indoor air control via a deep reinforcement learning algorithm.\u201d Building and Environment 155 (2019): 105-117. https://doi.org/10.1016/j.buildenv.2019.03.038 [52] S. Brandi M.S. Piscitelli M. Martellacci A. Capozzoli Deep Reinforcement Learning to optimise indoor temperature control and heating energy consumption in buildings Energy Build. 224 2020 110225 10.1016/j.enbuild.2020.110225 Brandi, Silvio, Marco Savino Piscitelli, Marco Martellacci, and Alfonso Capozzoli. \u201cDeep Reinforcement Learning to optimise indoor temperature control and heating energy consumption in buildings.\u201d Energy and Buildings (2020): 110225. https://doi.org/10.1016/j.enbuild.2020.110225 [53] Ding, Xianzhong, Wan Du, Alberto Cerpa. OCTOPUS: Deep reinforcement learning for holistic smart building control, in: Proceedings of the 6th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, pp. 326-335. 2019. https://doi.org/10.1145/3360322.3360857. [54] Li, Ao, Fu Xiao, Cheng Fan, Maomao Hu. Development of an ANN-based building energy model for information-poor buildings using transfer learning, in: Building Simulation, pp. 1-13. Tsinghua University Press, 2020. https://doi.org/10.1007/s12273-020-0711-5. [55] Mosaico, Gabriele, Matteo Saviozzi, Federico Silvestro, Andrea Bagnasco, Andrea Vinci. Simplified state space building energy model and transfer learning based occupancy estimation for HVAC optimal control, in: 2019 IEEE 5th International forum on Research and Technology for Society and Industry (RTSI), pp. 353-358. IEEE, 2019. https://doi.org/10.1109/RTSI.2019.8895544. [56] Ali, SM Murad, Juan Carlos Augusto, David Windridge. A survey of user-centred approaches for smart home transfer learning and new user home automation adaptation. Appl. Artif. Intelligence 33, (8) (2019): 747\u2013774. https://doi.org/10.1080/08839514.2019.1603784. [57] Alam, Mohammad Arif Ul, Nirmalya Roy. Unseen activity recognitions: A hierarchical active transfer learning approach, in: 2017 IEEE 37th International Conference on Distributed Computing Systems (ICDCS), pp. 436\u2013446. IEEE, 2017. https://doi.org/10.1109/ICDCS.2017.264. [58] E. Mocanu P.H. Nguyen W.L. Kling M. Gibescu Unsupervised energy prediction in a Smart Grid context using reinforcement cross-building transfer learning Energy Build. 116 2016 646 655 10.1016/j.enbuild.2016.01.030 Mocanu, Elena, Phuong H. Nguyen, Wil L. Kling, and Madeleine Gibescu. \u201cUnsupervised energy prediction in a Smart Grid context using reinforcement cross-building transfer learning.\u201d Energy and Buildings 116 (2016): 646-655. https://doi.org/10.1016/j.enbuild.2016.01.030 [59] M. Ribeiro K. Grolinger H.F. ElYamany W.A. Higashino M.A.M. Capretz Transfer learning with seasonal and trend adjustment for cross-building energy forecasting Energy Build. 165 2018 352 363 10.1016/j.enbuild.2018.01.034 Ribeiro, Mauro, Katarina Grolinger, Hany F. ElYamany, Wilson A. Higashino, and Miriam AM Capretz. \u201cTransfer learning with seasonal and trend adjustment for cross-building energy forecasting.\u201d Energy and Buildings 165 (2018): 352-363. https://doi.org/10.1016/j.enbuild.2018.01.034 [60] Gao, Nan, Wei Shao, Mohammad Saiedur Rahaman, Jun Zhai, Klaus David, Flora D. Salim. Transfer learning for thermal comfort prediction in multiple cities. arXiv preprint arXiv:2004.14382 (2020). https://arxiv.org/pdf/2004.14382.pdf. [61] Xu, Shichao, Yixuan Wang, Yanzhi Wang, Zheng O'Neill, Qi Zhu. One for many: Transfer learning for building HVAC control, in: Proceedings of the 7th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, pp. 230-239. 2020. https://doi.org/10.1145/3408308.3427617. [62] Deng, Zhipeng, Qingyan Chen. Development and validation of a smart HVAC control system for multi-occupant offices by using occupants\u2019 physiological signals from wristband. Energy and Buildings 214 (2020): 109872. https://doi.org/10.1016/j.enbuild.2020.109872. [63] Handbook, A.S.H.R.A.E. Fundamentals, ASHRAE\u2013American Society of Heating. Ventilating and Air-Conditioning Engineers (2017). [64] Foerster, Jakob, Ioannis Alexandros Assael, Nando De Freitas, Shimon Whiteson. Learning to communicate with deep multi-agent reinforcement learning, in: Advances in neural information processing systems, pp. 2137\u20132145. 2016. [65] L. Klein J.-young Kwak G. Kavulya F. Jazizadeh B. Becerik-Gerber P. Varakantham M. Tambe Coordinating occupant behavior for building energy and comfort management using multi-agent systems Autom. Constr. 22 2012 525 536 10.1016/j.autcon.2011.11.012 Klein, Laura, Jun-young Kwak, Geoffrey Kavulya, Farrokh Jazizadeh, Burcin Becerik-Gerber, Pradeep Varakantham, and Milind Tambe. \u201cCoordinating occupant behavior for building energy and comfort management using multi-agent systems.\u201d Automation in Construction 22 (2012): 525-536. https://doi.org/10.1016/j.autcon.2011.11.012 [66] Melo, Francisco S. Convergence of Q-learning: A simple proof. Institute Of Systems and Robotics, Tech. Rep (2001): 1\u20134. [67] L. Yang Z. Nagy P. Goffin A. Schlueter Reinforcement learning for optimal control of low exergy buildings Appl. Energy 156 2015 577 586 10.1016/j.apenergy.2015.07.050 Yang, Lei, Zoltan Nagy, Philippe Goffin, and Arno Schlueter. \u201cReinforcement learning for optimal control of low exergy buildings.\u201d Applied Energy 156 (2015): 577-586. https://doi.org/10.1016/j.apenergy.2015.07.050 [68] Z. Cheng Q. Zhao F. Wang Y. Jiang L. Xia J. Ding Satisfaction based Q-learning for integrated lighting and blind control Energy Build. 127 2016 43 55 10.1016/j.enbuild.2016.05.067 Cheng, Zhijin, Qianchuan Zhao, Fulin Wang, Yi Jiang, Li Xia, and Jinlei Ding. \u201cSatisfaction based Q-learning for integrated lighting and blind control.\u201d Energy and Buildings 127 (2016): 43-55. https://doi.org/10.1016/j.enbuild.2016.05.067 [69] https://www.mathworks.com/help/reinforcement-learning/. [70] Gunay, H. Burak, William O'Brien, Ian Beausoleil-Morrison. A critical review of observation studies, modeling, and simulation of adaptive occupant behaviors in offices. Build. Environ. 70 (2013): 31\u201347. https://doi.org/10.1016/j.buildenv.2013.07.020. [71] Wei, Shen, Rory Jones, Pieter De Wilde. Driving factors for occupant-controlled space heating in residential buildings. Energy Build. 70 (2014): 36\u201344. https://doi.org/10.1016/j.enbuild.2013.11.001. [72] Yu, Zhun, Benjamin C.M. Fung, Fariborz Haghighat, Hiroshi Yoshino, Edward Morofsky. A systematic procedure to study the influence of occupant behavior on building energy consumption. Energy Build. 43 (6) (2011): 1409\u20131417. https://doi.org/10.1016/j.enbuild.2011.02.002. [73] Standard, A.S.H.R.A.E. Standard 55-2010, Thermal environmental conditions for human occupancy. American Society of Heating, Refrigerating and Air Conditioning Engineers (2010). [74] Z. Deng Q. Chen Simulating the impact of occupant behavior on energy use of HVAC systems by implementing a behavioral artificial neural network model Energy Build. 198 2019 216 227 10.1016/j.enbuild.2019.06.015 Deng, Zhipeng, and Qingyan Chen. \u201cSimulating the impact of occupant behavior on energy use of HVAC systems by implementing a behavioral artificial neural network model.\u201d Energy and Buildings 198 (2019): 216-227. https://doi.org/10.1016/j.enbuild.2019.06.015 [75] S. Karjalainen Gender differences in thermal comfort and use of thermostats in everyday thermal environments Build. Environ. 42 4 2007 1594 1603 10.1016/j.buildenv.2006.01.009 Karjalainen, Sami. \u201cGender differences in thermal comfort and use of thermostats in everyday thermal environments.\u201d Building and Environment 42, no. 4 (2007): 1594-1603. https://doi.org/10.1016/j.buildenv.2006.01.009 [76] A. Montazami M. Gaterell F. Nicol M. Lumley C. Thoua Impact of social background and behaviour on children's thermal comfort Build. Environ. 122 2017 422 434 10.1016/j.buildenv.2017.06.002 Montazami, Azadeh, Mark Gaterell, Fergus Nicol, Mark Lumley, and Chryssa Thoua. \u201cImpact of social background and behaviour on children's thermal comfort.\u201d Building and Environment 122 (2017): 422-434. https://doi.org/10.1016/j.buildenv.2017.06.002 [77] A. Ghahramani K. Dutta B. Becerik-Gerber Energy trade off analysis of optimized daily temperature setpoints J. Build. Eng. 19 2018 584 591 10.1016/j.jobe.2018.06.012 Ghahramani, Ali, Kanu Dutta, and Burcin Becerik-Gerber. \u201cEnergy trade off analysis of optimized daily temperature setpoints.\u201d Journal of Building Engineering 19 (2018): 584-591. https://doi.org/10.1016/j.jobe.2018.06.012 [78] Yan, Da, Xiaohang Feng, Yuan Jin, and Chuang Wang. The evaluation of stochastic occupant behavior models from an application-oriented perspective: using the lighting behavior model as a case study. Energy Build. 176 (2018): 151\u2013162. https://doi.org/10.1016/j.enbuild.2018.07.037.",
+    "scopus-id": "85102131487",
+    "coredata": {
+        "eid": "1-s2.0-S0378778821001444",
+        "dc:description": "Occupant behavior plays an important role in the evaluation of building performance. However, many contextual factors, such as occupancy, mechanical system and interior design, have a significant impact on occupant behavior. Most previous studies have built data-driven behavior models, which have limited scalability and generalization capability. Our investigation built a policy-based reinforcement learning (RL) model for the behavior of adjusting the thermostat and clothing level. Occupant behavior was modelled as a Markov decision process (MDP). The action and state space in the MDP contained occupant behavior and various impact parameters. The goal of the occupant behavior was a more comfortable environment, and we modelled the reward for the adjustment action as the absolute difference in the thermal sensation vote (TSV) before and after the action. We used Q-learning to train the RL model in MATLAB and validated the model with collected data. After training, the model predicted the behavior of adjusting the thermostat set point with R2 from 0.75 to 0.8, and the mean absolute error (MAE) was less than 1.1 °C (2 °F) in an office building. This study also transferred the behavior knowledge of the RL model to other office buildings with different HVAC control systems. The transfer learning model predicted the occupant behavior with R2 from 0.73 to 0.8, and the MAE was less than 1.1 °C (2 °F) most of the time. Going from office buildings to residential buildings, the transfer learning model also had an R2 over 0.6. Therefore, the RL model combined with transfer learning was able to predict the building occupant behavior accurately with good scalability, and without the need for data collection.",
+        "openArchiveArticle": "false",
+        "prism:coverDate": "2021-05-01",
+        "openaccessUserLicense": null,
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/article/pii/S0378778821001444",
+        "dc:creator": [
+            {
+                "@_fa": "true",
+                "$": "Deng, Zhipeng"
+            },
+            {
+                "@_fa": "true",
+                "$": "Chen, Qingyan"
+            }
+        ],
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/article/pii/S0378778821001444"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scidir",
+                "@href": "https://www.sciencedirect.com/science/article/pii/S0378778821001444"
+            }
+        ],
+        "dc:format": "application/json",
+        "openaccessType": null,
+        "pii": "S0378-7788(21)00144-4",
+        "prism:volume": "238",
+        "articleNumber": "110860",
+        "prism:publisher": "Elsevier B.V.",
+        "dc:title": "Reinforcement learning of occupant behavior model for cross-building transfer learning to various HVAC control systems",
+        "prism:copyright": "© 2021 Elsevier B.V. All rights reserved.",
+        "openaccess": "0",
+        "prism:issn": "03787788",
+        "dcterms:subject": [
+            {
+                "@_fa": "true",
+                "$": "Thermal comfort"
+            },
+            {
+                "@_fa": "true",
+                "$": "Machine learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Artificial neural network"
+            },
+            {
+                "@_fa": "true",
+                "$": "Air temperature"
+            },
+            {
+                "@_fa": "true",
+                "$": "Thermostat set point"
+            },
+            {
+                "@_fa": "true",
+                "$": "Q-learning"
+            },
+            {
+                "@_fa": "true",
+                "$": "Building performance simulation"
+            }
+        ],
+        "openaccessArticle": "false",
+        "prism:publicationName": "Energy and Buildings",
+        "openaccessSponsorType": null,
+        "prism:pageRange": "110860",
+        "pubType": "fla",
+        "prism:coverDisplayDate": "1 May 2021",
+        "prism:doi": "10.1016/j.enbuild.2021.110860",
+        "prism:startingPage": "110860",
+        "dc:identifier": "doi:10.1016/j.enbuild.2021.110860",
+        "openaccessSponsorName": null
+    },
+    "objects": {"object": [
+        {
+            "@category": "standard",
+            "@height": "358",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "74459",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "443",
+            "@width": "578",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr10.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "62475",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "443",
+            "@width": "578",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr11.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "71250",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "443",
+            "@width": "578",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr12.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "50646",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "362",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr13.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "66245",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "303",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr14.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "36618",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "199",
+            "@width": "333",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr2.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "16224",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "475",
+            "@width": "379",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr3.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "40606",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "253",
+            "@width": "667",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr4.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "56786",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "406",
+            "@width": "712",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr5.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "86863",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "396",
+            "@width": "538",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr6.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "39724",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "392",
+            "@width": "378",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr7.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "26363",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "199",
+            "@width": "578",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr8.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "27962",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "472",
+            "@width": "578",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr9.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "87145",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "standard",
+            "@height": "200",
+            "@width": "373",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-ga1.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-DOWNSAMPLED",
+            "@size": "34832",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "118",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13776",
+            "@ref": "gr1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "214",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr10.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8962",
+            "@ref": "gr10",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "214",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr11.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "9420",
+            "@ref": "gr11",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "214",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr12.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "6257",
+            "@ref": "gr12",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "119",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr13.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "8901",
+            "@ref": "gr13",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "100",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr14.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "3851",
+            "@ref": "gr14",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "131",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr2.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7832",
+            "@ref": "gr2",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "163",
+            "@width": "130",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr3.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "5880",
+            "@ref": "gr3",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "83",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr4.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "7810",
+            "@ref": "gr4",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "125",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr5.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "18466",
+            "@ref": "gr5",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "161",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr6.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "15626",
+            "@ref": "gr6",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "158",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr7.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4961",
+            "@ref": "gr7",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "75",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr8.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "4585",
+            "@ref": "gr8",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "164",
+            "@width": "201",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr9.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13902",
+            "@ref": "gr9",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "thumbnail",
+            "@height": "117",
+            "@width": "219",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-ga1.sml?httpAccept=%2A%2F%2A",
+            "@multimediatype": "GIF image file",
+            "@type": "IMAGE-THUMBNAIL",
+            "@size": "13095",
+            "@ref": "ga1",
+            "@mimetype": "image/gif"
+        },
+        {
+            "@category": "high",
+            "@height": "1586",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "532653",
+            "@ref": "gr1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1962",
+            "@width": "2559",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr10_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "359884",
+            "@ref": "gr10",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1962",
+            "@width": "2559",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr11_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "484262",
+            "@ref": "gr11",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1962",
+            "@width": "2559",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr12_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "339853",
+            "@ref": "gr12",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1604",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr13_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "535116",
+            "@ref": "gr13",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1342",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr14_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "269972",
+            "@ref": "gr14",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "884",
+            "@width": "1476",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr2_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "114213",
+            "@ref": "gr2",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2106",
+            "@width": "1679",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr3_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "314985",
+            "@ref": "gr3",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1118",
+            "@width": "2953",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr4_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "499219",
+            "@ref": "gr4",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1796",
+            "@width": "3151",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr5_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "857092",
+            "@ref": "gr5",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1752",
+            "@width": "2382",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr6_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "292979",
+            "@ref": "gr6",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "1736",
+            "@width": "1675",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr7_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "193845",
+            "@ref": "gr7",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "880",
+            "@width": "2559",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr8_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "197269",
+            "@ref": "gr8",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "2091",
+            "@width": "2559",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-gr9_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "848902",
+            "@ref": "gr9",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "high",
+            "@height": "886",
+            "@width": "1653",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-ga1_lrg.jpg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "JPEG image file",
+            "@type": "IMAGE-HIGH-RES",
+            "@size": "264734",
+            "@ref": "ga1",
+            "@mimetype": "image/jpeg"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si1.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "35230",
+            "@ref": "si1",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si10.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "19493",
+            "@ref": "si10",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si11.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "17546",
+            "@ref": "si11",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si12.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8077",
+            "@ref": "si12",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si13.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30397",
+            "@ref": "si13",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si14.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1616",
+            "@ref": "si14",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si15.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1643",
+            "@ref": "si15",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si16.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1492",
+            "@ref": "si16",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si17.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1408",
+            "@ref": "si17",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si18.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1601",
+            "@ref": "si18",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si19.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1548",
+            "@ref": "si19",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si2.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "23252",
+            "@ref": "si2",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si20.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "14365",
+            "@ref": "si20",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si21.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "1182",
+            "@ref": "si21",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si22.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2552",
+            "@ref": "si22",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si23.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2559",
+            "@ref": "si23",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si24.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "2511",
+            "@ref": "si24",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si25.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "4475",
+            "@ref": "si25",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si26.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "18823",
+            "@ref": "si26",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si27.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30376",
+            "@ref": "si27",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si28.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "30879",
+            "@ref": "si28",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si3.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "13391",
+            "@ref": "si3",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si4.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "12785",
+            "@ref": "si4",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si5.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10253",
+            "@ref": "si5",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si6.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "7768",
+            "@ref": "si6",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si7.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "31767",
+            "@ref": "si7",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si8.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "10663",
+            "@ref": "si8",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "thumbnail",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-si9.svg?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Scalable Vector Graphics file",
+            "@type": "ALTIMG",
+            "@size": "8208",
+            "@ref": "si9",
+            "@mimetype": "image/svg+xml"
+        },
+        {
+            "@category": "standard",
+            "@_fa": "true",
+            "$": "https://api.elsevier.com/content/object/eid/1-s2.0-S0378778821001444-am.pdf?httpAccept=%2A%2F%2A",
+            "@multimediatype": "Acrobat PDF file",
+            "@type": "AAM-PDF",
+            "@size": "2034033",
+            "@ref": "am",
+            "@mimetype": "application/pdf"
+        }
+    ]},
+    "link": {
+        "@rel": "abstract",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85102131487"
+    }
+}}
