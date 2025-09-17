@@ -1,135 +1,84 @@
-# =========================
-# Focused ontology for: applications, models, systems, data, KPIs
-# Works with focused_paper_extractor_w2v.py
-# =========================
+# Focused ontology (applications, models, systems, data, KPIs)
 
-# --- Optional: control Word2Vec expansion behavior ---
 expansion_policy:
   default:
-    # Block one-word “abstract” adds:
-    # require at least 2 tokens (e.g., "thermal model"); 
-    # single tokens pass ONLY if they end with useful suffixes below AND look noun-like.
     min_tokens: 2
-    min_seed_support: 2         # candidate must appear near >=2 seeds
-    thresh_seed: 0.55           # sim threshold to an individual seed
-    thresh_centroid: 0.60       # sim threshold to the seed centroid
-    mutual: false               # set true for mutual kNN (stricter, slower)
-    allow_single_if_suffixes: ["model","estimation","prediction","forecast"]
-    head_hints: ["model","modelling","modeling","estimation","prediction","forecast"]
+    min_seed_support: 2
+    thresh_seed: 0.55
+    thresh_centroid: 0.60
+    mutual: false
+    allow_single_if_suffixes: ["model", "estimation", "prediction", "forecast"]
+    head_hints: ["model", "modelling", "modeling", "estimation", "prediction", "forecast"]
   overrides:
     model_paradigm:
-      expand: false             # keep exact tools/algorithms for paradigms
+      expand: false
     systems:
-      min_tokens: 1             # allow short tokens (e.g., "ahu","vav")
+      min_tokens: 1
     applications:
-      min_seed_support: 1       # apps are often sparse; relax a bit
+      min_seed_support: 1
 
-# --- Optional: add global stop terms here (merged with defaults in code) ---
 blocklist:
-  - "matlab"
-  - "simulink"
   - "framework"
   - "pipeline"
   - "toolbox"
   - "integrated"
   - "co-simulation"
   - "cosimulation"
+  - "matlab"
+  - "simulink"
 
-# --- Context anchors to reduce false positives ---
 anchors:
   occupancy_model:
-    require_any: ["model","estimat","predict","classifier","regression","svm","neural","lstm","grey-box","gray-box"]
-    forbid_any: ["measured","measurement","sensor","ground truth","survey","manual count"]
-  temperature_indoor:
-    require_any: ["indoor","zone","room","space","setpoint","supply air","return air","operative","iaq"]
-    forbid_any: ["outdoor","ambient","weather","external","meteorolog"]
-  temperature_outdoor:
-    require_any: ["outdoor","ambient","weather","meteorolog","weather station"]
-    forbid_any: []
+    require_any: ["model", "estimat", "predict", "classifier", "regression", "svm", "neural", "lstm", "grey-box", "gray-box"]
+    forbid_any: ["measured", "measurement", "sensor", "ground truth", "survey", "manual count"]
 
-# --- What applications the paper is about ---
 applications:
-  performance_monitoring:
-    - "performance monitoring"
-    - "energy performance analysis"
-  operation_and_maintenance:
-    - "predictive maintenance"
-    - "preventive maintenance"
-  energy_flexibility:
-    - "demand response"
-    - "dynamic pricing"
-    - "load shedding"
-    - "load shifting"
-    - "grid balancing"
-    - "energy storage"
-  fdd:
-    - "fault detection and diagnosis"
-    - "fdd"
   mpc:
     - "model predictive control"
     - "mpc"
-  occupant_centric_operation:
-    - "occupant centric operation"
-    - "occupant centric control"
-    - "demand-based control"
-    - "occupancy-based control"
-    - "recommender system"
-  operation_performance_analysis:
-    - "prediction"
-    - "optimisation"
-  benchmarking:
-    - "benchmarking"
-    - "baseline model"
+  fdd:
+    - "fault detection and diagnosis"
+    - "fdd"
+  energy_flexibility:
+    - "demand response"
+    - "load shifting"
+    - "load shedding"
+    - "energy storage"
   retrofit:
     - "retrofit analysis"
     - "energy conservation measure"
     - "ecm"
 
-# --- Model scales (used to bind paradigms to the right sub-model) ---
 scale:
   building_model:
-    - "building energy modelling"
-    - "building energy modeling"
-    - "bem"
     - "building model"
-    - "whole-building model"
-    - "building energy model"
     - "whole-building"
-    - "zone model"
-    - "room model"
+    - "building energy model"
+    - "bem"
     - "thermal model"
-    - "urban building energy modelling"
-    - "urban building energy modeling"
-    - "ubem"
-    - "building cluster model"
+    - "zone model"
   system_model:
     - "system model"
     - "hvac model"
+    - "component model"
+    - "air handling unit model"
     - "chiller model"
     - "boiler model"
     - "heat pump model"
-    - "air handling unit model"
-    - "component model"
   occupancy_model:
     - "occupancy model"
     - "occupant model"
-    - "occupant number estimation"
     - "occupancy estimation"
-    - "occupant estimation"
-    - "occupant behavior model"
     - "occupant behaviour model"
   climate_model:
     - "climate model"
     - "weather model"
-    - "meteorological model"
     - "numerical weather prediction"
 
-# --- Paradigms (kept EXACT; no W2V expansion) ---
 model_paradigm:
   whitebox:
     - "energyplus"
     - "trnsys"
-    - "ies-ve"
     - "modelica"
     - "ida-ice"
     - "physics-based"
@@ -141,61 +90,40 @@ model_paradigm:
     - "state-space"
     - "kalman"
     - "semi-empirical"
-    - "hybrid"
     - "resistor-capacitor"
     - "rc model"
-    - "rc network"
   blackbox:
     - "machine learning"
-    - "statistical"
     - "data-driven"
-    - "degree-day"
-    - "bin method"
     - "linear regression"
-    - "linear model"
     - "lasso"
     - "ridge"
-    - "elastic net"
     - "neural network"
-    - "ann"
     - "lstm"
-    - "gru"
     - "svm"
-    - "svr"
     - "random forest"
     - "xgboost"
-    - "bayesian network"
-    - "hmm"
-    - "k-nn"
-    - "knn"
-    - "naive bayes"
     - "gaussian process"
-    - "deep learning"
 
-# --- Named HVAC/system types (AHU/VAV/HP/...) ---
 systems:
-  ahu: ["ahu","air handling unit","air-handling unit"]
-  vav: ["vav","variable air volume","vav box","terminal unit"]
-  heat_pump: ["heat pump","air-source heat pump","ashp","ground source heat pump","gshp"]
-  chiller: ["chiller","chilled water plant"]
-  boiler: ["boiler","steam boiler","hot water boiler"]
+  ahu: ["ahu", "air handling unit", "air-handling unit"]
+  vav: ["vav", "variable air volume", "vav box", "terminal unit"]
+  heat_pump: ["heat pump", "air-source heat pump", "ashp", "ground source heat pump", "gshp"]
+  chiller: ["chiller", "chilled water plant"]
+  boiler: ["boiler", "hot water boiler"]
   cooling_tower: ["cooling tower"]
-  fan_coil: ["fan coil","fcu","fan-coil"]
-  heat_exchanger: ["heat exchanger","hx"]
-  vfd: ["vfd","variable frequency drive"]
+  fan_coil: ["fan coil", "fcu", "fan-coil"]
+  heat_exchanger: ["heat exchanger", "hx"]
+  vfd: ["vfd", "variable frequency drive"]
 
-# --- Optimization methods (families & common terms) ---
 optimization_methods:
   reinforcement_learning:
     - "reinforcement learning"
     - "rl"
     - "drl"
-    - "policy gradient"
-    - "actor-critic"
-    - "dqn"
-    - "sarsa"
-    - "ddpg"
     - "ppo"
+    - "ddpg"
+    - "dqn"
   classical:
     - "linear programming"
     - "quadratic programming"
@@ -209,20 +137,15 @@ optimization_methods:
     - "simulated annealing"
     - "particle swarm"
     - "pso"
-    - "ant colony"
     - "bayesian optimization"
-    - "gaussian process optimization"
   control:
     - "mpc"
-    - "model predictive control"
     - "stochastic mpc"
     - "robust mpc"
     - "economic mpc"
     - "lqr"
     - "pid"
-    - "pi controller"
 
-# --- Data types collected (with indoor/outdoor temperature disambiguation via anchors) ---
 data_types:
   metering:
     - "smart meter"
@@ -238,6 +161,7 @@ data_types:
     - "pm2.5"
     - "pm10"
     - "voc"
+    - "concentration"
   environment:
     - "outdoor temperature"
     - "humidity"
@@ -258,82 +182,25 @@ data_types:
     - "air flow"
     - "water flow"
   thermal_comfort:
-    - "indoor overheating"
-    - "pmv"
-
-# --- KPI names (what is being reported) ---
-kpi:
-  energy_use:
-    - "energy use"
-    - "energy consumption"
-    - "energy demand"
-  energy_performance:
-    - "energy performance"
-    - "performance index"
-    - "epi"
-  power:
-    - "power"
-    - "electric power"
-    - "demand power"
-  comfort:
-    - "thermal comfort"
     - "pmv"
     - "ppd"
-  iaq:
-    - "indoor air quality"
-    - "iaq"
-    - "co2"
-    - "pm2.5"
-    - "pm10"
-  cost:
-    - "energy cost"
-    - "operating cost"
-  emissions:
-    - "emissions"
-    - "co2e"
-    - "carbon"
 
-# --- KPI resolution priority order (also used to bind from phrases like "hourly energy performance") ---
+kpi:
+  energy_use: ["energy use", "energy consumption", "energy demand"]
+  comfort: ["thermal comfort", "pmv", "ppd"]
+  iaq: ["indoor air quality", "iaq", "co2", "pm2.5", "pm10"]
+  cost: ["energy cost", "operating cost"]
+  emissions: ["emissions", "co2e", "carbon"]
+
 kpi_resolution:
-  hourly:
-    - "hourly"
-    - "per hour"
-    - "1-hour"
-    - "hour-by-hour"
-  daily:
-    - "daily"
-    - "per day"
-  weekly:
-    - "weekly"
-    - "per week"
-  monthly:
-    - "monthly"
-    - "per month"
-  yearly:
-    - "annual"
-    - "yearly"
-    - "per year"
-    - "annualized"
+  hourly: ["hourly", "per hour", "1-hour", "hour-by-hour"]
+  daily: ["daily", "per day"]
+  monthly: ["monthly", "per month"]
+  yearly: ["annual", "yearly", "per year"]
 
-# --- Input/data resolution priority (for collected data) ---
 input_resolution:
-  subhourly:
-    - "hz"
-    - "per second"
-    - "1-min"
-    - "5-min"
-    - "15-min"
-    - "seconds"
-    - "minutes"
-    - "subhourly"
-  hourly:
-    - "hourly"
-    - "per hour"
-    - "1-hour"
-  daily:
-    - "daily"
-  monthly:
-    - "monthly"
-  yearly:
-    - "annual"
-    - "yearly"
+  subhourly: ["hz", "per second", "1-min", "5-min", "15-min", "seconds", "minutes", "subhourly"]
+  hourly: ["hourly", "per hour", "1-hour"]
+  daily: ["daily"]
+  monthly: ["monthly"]
+  yearly: ["annual", "yearly"]

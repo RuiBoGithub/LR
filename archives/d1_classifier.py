@@ -31,38 +31,16 @@ ensure_nltk()
 SECTION_WEIGHTS = {
     "method":1.0, "methodology": 1.0, "materials": 1.0, "data": 1.0,
     "experiment": 1.0, "implementation": 1.0,
-    "results": 1.0, "discussion": 0.25, 
-    "introduction": 0.0, "related": 0.0, "literature": 0.0, "background": 0.0, "review": 0.0,
-    "conclusion": 0.05, "future": 0.05, "appendix": 0.25
+    "results": 1.0, "evaluation": 0.75,
+    "abstract": 0.75, "preamble": 0.75,
+    "introduction": 0.05, "related": 0.05, "literature": 0.05, "background": 0.05, "review": 0.05,
+    "discussion": 0.25, "conclusion": 0.75, "future": 0.05, "appendix": 0.25
 }
 
-# ---------------- Section filtering ----------------
-EXCLUDE_SECTIONS = {
-    "related", "literature", "review", "background", "introduction",
-    "preamble"   # drop if you don't trust preambles from OCR
-}
-
-def scannable_sections(sections: dict):
-    """Yield (sec, text) for sections that are allowed to contribute signal."""
-    for sec, text in sections.items():
-        if sec in EXCLUDE_SECTIONS:
-            continue
-        yield sec, text or ""
-
-HEADING_RX = re.compile(
-    r'(?m)^(?:\s*\d+(?:\.\d+)*\s+)?([A-Z][A-Za-z0-9\s\-\(\):]{2,120})\s*:?\s*$'
-)
+HEADING_RX = re.compile(r'(?m)^(?:\s*\d+(?:\.\d+)*\s+)?([A-Z][A-Za-z][^\n]{0,100})$')
 
 def normalize_section_key(raw_header: str) -> str:
-    h = (raw_header or "").strip().lower()
-
-    # canonical reviewish forms first
-    if any(kw in h for kw in [
-        "related work", "state of the art", "literature", "survey",
-        "overview of", "prior work", "previous work", "background and related"
-    ]):
-        return "literature"
-
+    h = raw_header.strip().lower()
     if h.startswith('abstract') or 'abstract' in h: return 'abstract'
     if 'method' in h: return 'method'
     if 'material' in h: return 'materials'
@@ -71,6 +49,7 @@ def normalize_section_key(raw_header: str) -> str:
     if 'implement' in h: return 'implementation'
     if 'result' in h: return 'results'
     if 'evaluat' in h or 'validation' in h: return 'evaluation'
+    if 'related work' in h or 'related-work' in h or 'review' in h or 'literature' in h: return 'literature'
     if 'background' in h: return 'background'
     if 'intro' in h: return 'introduction'
     if 'discuss' in h: return 'discussion'
@@ -78,7 +57,6 @@ def normalize_section_key(raw_header: str) -> str:
     if 'future work' in h or 'future direction' in h: return 'future'
     if 'appendix' in h: return 'appendix'
     return h.split()[0] if h else 'unknown'
-
 
 def split_sections(original_text: str):
     text = (original_text or "").replace('\r', '\n')
@@ -165,9 +143,6 @@ def sent_tokenize_safe(text: str):
         return re.split(r'(?<=[\.\?\!])\s+', text or "")
 
 # ---------------- Labelers ----------------
-def label_special_focus(sections, ont):
-    return label_generic_categories(sections, ont, "special_focus")
-
 def label_energy_waste_concept(sections, ont):
     """
     Uses ont['concept_energy_waste'] dict (already Word2Vec expanded).
@@ -176,7 +151,7 @@ def label_energy_waste_concept(sections, ont):
     subtree = ont.get("concept_energy_waste", {}) or {}
     mentions = set(); ev_mentions = defaultdict(list); ev_defn = []
 
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         t = text or ""
         tl = t.lower()
         for cat, terms in subtree.items():
@@ -196,87 +171,47 @@ def label_energy_waste_concept(sections, ont):
                         ev_defn.append((sec, term, t[s:e]))
 
     return sorted(mentions), (len(ev_defn) > 0), ev_mentions, ev_defn
-def label_kpi_tradeoffs_multi(sections, ont, min_kpis=2):
-    """
-    Detect trade-offs/balances with >= min_kpis KPI concepts in the same sentence.
-    Uses:
-      - ont['kpi_tradeoff_concepts']: {concept_key: [terms...]}
-      - ont['tradeoff_keywords'] (optional)
-    Returns:
-      groups:        sorted list of group keys like 'energy_use|thermal_comfort|infection_risk'
-      pairs:         sorted list of pair keys like 'energy_use|thermal_comfort'
-      keywords:      sorted list of tradeoff/balance cue words actually seen
-      ev_groups:     dict[group_key] -> [(section, keyword, sentence), ...]
-      ev_pairs:      dict[pair_key]  -> [(section, keyword, sentence), ...]
-      group_scores:  dict[group_key] -> section-weighted score (sum of section weights over evidence)
-      pair_scores:   dict[pair_key]  -> section-weighted score
-      kpis_any:      sorted list of unique KPI concept keys seen in any tradeoff sentence
-    """
+
+def label_kpi_tradeoffs(sections, ont):
     concept_map = ont.get("kpi_tradeoff_concepts", {}) or {}
     extra_kw = ont.get("tradeoff_keywords", []) or []
     trade_words = set(TRADEOFF_WORDS + extra_kw)
 
-    # precompile KPI term regex per concept
-    kpi_rx = {
-        key: [re.compile(r"\b" + re.escape(str(term).lower()) + r"\b", re.I)
+    # Precompile regexes
+    concept_regex = {
+        key: [re.compile(r"\b" + re.escape(str(term).lower()) + r"\b", flags=re.I)
               for term in (terms or [])]
         for key, terms in concept_map.items()
     }
 
-    groups, pairs = set(), set()
-    kw_found = set()
-    ev_groups = defaultdict(list)
-    ev_pairs  = defaultdict(list)
-    group_scores = defaultdict(float)
-    pair_scores  = defaultdict(float)
-    kpis_any = set()
+    pairs = set(); kw_found = set(); evidence = defaultdict(list)
 
-    for sec, text in scannable_sections(sections):
-        w = SECTION_WEIGHTS.get(sec, 0.3)
+    for sec, text in sections.items():
         for sent in sent_tokenize_safe(text or ""):
             sl = sent.lower()
-
-            # require one trade-off cue word
-            hit_kw = next((kw for kw in trade_words if kw.lower() in sl), None)
+            hit_kw = None
+            for kw in trade_words:
+                if kw.lower() in sl:
+                    hit_kw = kw
+                    kw_found.add(kw)
+                    break
             if not hit_kw:
                 continue
-            kw_found.add(hit_kw)
 
-            # which KPI concepts are present?
             present = []
-            for key, regs in kpi_rx.items():
-                if any(rx.search(sl) for rx in regs):
+            for key, regs in concept_regex.items():
+                if any(r.search(sl) for r in regs):
                     present.append(key)
 
-            present = sorted(set(present))
-            if len(present) < min_kpis:
-                continue
+            if len(present) >= 2:
+                present = sorted(set(present))
+                for i in range(len(present)):
+                    for j in range(i + 1, len(present)):
+                        pair = f"{present[i]}|{present[j]}"
+                        pairs.add(pair)
+                        evidence[pair].append((sec, hit_kw, sent.strip()))
 
-            # record the whole group
-            group_key = "|".join(present)
-            groups.add(group_key)
-            ev_groups[group_key].append((sec, hit_kw, sent.strip()))
-            group_scores[group_key] += w
-            kpis_any.update(present)
-
-            # also emit all unordered pairs for compatibility
-            for i in range(len(present)):
-                for j in range(i + 1, len(present)):
-                    pair_key = f"{present[i]}|{present[j]}"
-                    pairs.add(pair_key)
-                    ev_pairs[pair_key].append((sec, hit_kw, sent.strip()))
-                    pair_scores[pair_key] += w
-
-    return (
-        sorted(groups),
-        sorted(pairs),
-        sorted(kw_found),
-        ev_groups,
-        ev_pairs,
-        dict(group_scores),
-        dict(pair_scores),
-        sorted(kpis_any),
-    )
+    return sorted(pairs), sorted(kw_found), evidence
 
 def label_paradigms_by_scale(sections, ont):
     """
@@ -318,7 +253,7 @@ def label_paradigms_by_scale(sections, ont):
             "evidence": defaultdict(list),
         }
 
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         w = SECTION_WEIGHTS.get(sec, 0.3)
         for sent in sent_tokenize_safe(text or ""):
             sl = sent.lower()
@@ -355,76 +290,6 @@ def label_paradigms_by_scale(sections, ont):
 
     return out
 
-def label_optimization_by_scale(sections, ont):
-    """
-    Detect optimization methods (and optionally objectives) per scale by sentence-level co-occurrence.
-    Returns:
-      opt_per_scale: {
-        scale_key: {
-          "present": bool,
-          "methods_scores": {method_key: score},   # section-weighted
-          "methods": [sorted non-empty method keys],
-          "objectives_scores": {obj_key: score},   # optional
-          "objectives": [sorted non-empty obj keys],
-          "evidence": {key: [(sec, key, sentence), ...]}
-        }, ...
-      }
-    """
-    scale_map = ont.get("scale", {}) or {}
-    meth_map  = ont.get("optimization_methods", {}) or {}
-    obj_map   = ont.get("optimization_objectives", {}) or {}
-
-    def rx_list(terms):
-        return [re.compile(r"\b" + re.escape(str(t).lower()) + r"\b", re.I) for t in (terms or [])]
-
-    scale_rx = {s: rx_list(terms) for s, terms in scale_map.items()}
-    meth_rx  = {k: rx_list(terms) for k, terms in meth_map.items()}
-    obj_rx   = {k: rx_list(terms) for k, terms in obj_map.items()}
-
-    out = {}
-    for s in scale_map.keys():
-        out[s] = {
-            "present": False,
-            "methods_scores": defaultdict(float),
-            "methods": [],
-            "objectives_scores": defaultdict(float),
-            "objectives": [],
-            "evidence": defaultdict(list),
-        }
-
-    for sec, text in scannable_sections(sections):
-        w = SECTION_WEIGHTS.get(sec, 0.3)
-        for sent in sent_tokenize_safe(text or ""):
-            sl = sent.lower()
-
-            scales_here = [s for s, rxs in scale_rx.items() if any(rx.search(sl) for rx in rxs)]
-            if not scales_here:
-                continue
-
-            meth_here = [m for m, rxs in meth_rx.items() if any(rx.search(sl) for rx in rxs)]
-            obj_here  = [o for o, rxs in obj_rx.items()  if any(rx.search(sl) for rx in rxs)]
-
-            if not meth_here and not obj_here:
-                continue
-
-            for s in scales_here:
-                out[s]["present"] = True
-                for m in meth_here:
-                    out[s]["methods_scores"][m] += w
-                    out[s]["evidence"][m].append((sec, m, sent.strip()))
-                for o in obj_here:
-                    out[s]["objectives_scores"][o] += w
-                    out[s]["evidence"][o].append((sec, o, sent.strip()))
-
-    # finalize winners per scale (keep all nonzero, sorted by score desc)
-    for s, rec in out.items():
-        if rec["methods_scores"]:
-            rec["methods"] = [k for k,_ in sorted(rec["methods_scores"].items(), key=lambda kv: kv[1], reverse=True)]
-        if rec["objectives_scores"]:
-            rec["objectives"] = [k for k,_ in sorted(rec["objectives_scores"].items(), key=lambda kv: kv[1], reverse=True)]
-
-    return out
-
 def label_online_learning(sections, ont):
     scale_map = ont.get("scale", {}) or {}
     online_terms = (ont.get("online_learning", {}) or {}).get("online_learning", [])  # dict form for expansion
@@ -444,7 +309,7 @@ def label_online_learning(sections, ont):
     per_scale_flags = {s: False for s in scale_map.keys()}
     per_scale_ev = {s: [] for s in scale_map.keys()}
 
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         for sent in sent_tokenize_safe(text or ""):
             sl = sent.lower()
             has_online = any(rx.search(sl) for rx in online_rx)
@@ -463,7 +328,7 @@ def label_models_multi(sections, model_paradigm_terms: dict):
     model_hits, evidence = {}, {}
     paradigm_scores = {k: 0.0 for k in model_paradigm_terms.keys()}
 
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         t = (text or "").lower()
         w = SECTION_WEIGHTS.get(sec, 0.3)
         for paradigm, terms in model_paradigm_terms.items():
@@ -482,7 +347,7 @@ def label_models_multi(sections, model_paradigm_terms: dict):
 
 def label_scale(sections, ont):
     hits = set(); ev = defaultdict(list)
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         t = (text or "").lower()
         for scale, terms in ont.get("scale", {}).items():
             ft = find_terms(t, terms, max_hits=3)
@@ -492,7 +357,7 @@ def label_scale(sections, ont):
 
 def label_data_types(sections, ont):
     found = set(); ev = defaultdict(list)
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         t = (text or "").lower()
         for dtype, terms in ont.get("data_types", {}).items():
             ft = find_terms(t, terms, max_hits=3)
@@ -505,10 +370,10 @@ FREQ_WORDS = ["hourly", "daily", "weekly", "monthly", "15-min", "5-min", "1-min"
 
 def extract_sampling(sections):
     hits = []
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         for m in SAMPLE_RX.finditer(text or ""):
             hits.append({"section": sec, "value": m.group(1), "unit": m.group(2)})
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         t = (text or "").lower()
         for w in FREQ_WORDS:
             if contains_term(t, w):
@@ -518,7 +383,7 @@ def extract_sampling(sections):
 def label_applications_and_kpi(sections, ont, kpi_priority_order):
     apps = set(); kpis = set()
     ev_apps = defaultdict(list); ev_kpi = defaultdict(list)
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         t = (text or "").lower()
         for app, terms in ont.get("applications", {}).items():
             ft = find_terms(t, terms, max_hits=3)
@@ -562,7 +427,7 @@ def label_generic_categories(sections, ont, ont_section_key):
     subtree = ont.get(ont_section_key, {})
     if not isinstance(subtree, dict):
         return [], {}
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         t = (text or "").lower()
         for label, terms in subtree.items():
             ft = find_terms(t, terms, max_hits=3)
@@ -585,7 +450,7 @@ def label_model_development(sections, ont):
     elif isinstance(subtree, list):
         # Treat as flat list under a single bucket named "mode"
         mode_map = {m: [m] for m in subtree}
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         t = (text or "").lower()
         for mode, terms in mode_map.items():
             ft = find_terms(t, terms, max_hits=3)
@@ -602,7 +467,7 @@ def label_model_inputs_and_resolution(sections, ont, input_kpi_priority_order):
     input_resolutions = set(); input_res_ev = defaultdict(list)
 
     # Inputs
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         t = (text or "").lower()
         for inp, terms in ont.get("model_inputs", {}).items():
             ft = find_terms(t, terms, max_hits=3)
@@ -610,7 +475,7 @@ def label_model_inputs_and_resolution(sections, ont, input_kpi_priority_order):
                 inputs.add(inp); input_ev[inp].extend([(sec,)*1 + h for h in ft])
 
     # Resolutions (explicit dictionary like kpi_resolution)
-    for sec, text in scannable_sections(sections):
+    for sec, text in sections.items():
         t = (text or "").lower()
         for res, terms in ont.get("input_resolution", {}).items():
             ft = find_terms(t, terms, max_hits=3)
@@ -649,14 +514,13 @@ def sampling_to_resolution(sampling_mentions):
 
 # ---------------- Core paper analysis ----------------
 def analyze_paper(doc, ont_expanded, kpi_priority_order, input_kpi_priority_order):
-    raw = doc['full-text-retrieval-response']['originalText']
+    raw = doc['full-text-retrieval-response']['originalText'] 
     sections = split_sections(raw)
 
     paradigms, model_hits, model_ev, paradigm_scores = label_models_multi(
         sections, model_paradigm_terms=ont_expanded.get("model_paradigm", {})
     )
     scales, scale_ev = label_scale(sections, ont_expanded)
-        
     data_types, data_ev = label_data_types(sections, ont_expanded)
     sampling = extract_sampling(sections)
     apps, kpis, primary_kpi, app_ev, kpi_ev = label_applications_and_kpi(
@@ -665,12 +529,11 @@ def analyze_paper(doc, ont_expanded, kpi_priority_order, input_kpi_priority_orde
 
     # Energy-waste + tradeoffs
     ew_mentions, ew_defn_flag, ew_ev_mentions, ew_ev_defn = label_energy_waste_concept(sections, ont_expanded)
-    (trade_groups, trade_pairs, trade_keywords, trade_ev_groups, trade_ev_pairs,
-    trade_group_scores, trade_pair_scores, trade_kpis_any) = label_kpi_tradeoffs_multi(sections, ont_expanded)
+    trade_pairs, trade_keywords, trade_evidence = label_kpi_tradeoffs(sections, ont_expanded)
 
     # Per-scale paradigms (white/grey/black + specific terms)
     per_scale = label_paradigms_by_scale(sections, ont_expanded)
-    opt_per_scale = label_optimization_by_scale(sections, ont_expanded)
+
     # KPI types, model development, inputs + input resolution
     kpi_types, kpi_type_ev = label_kpi_types(sections, ont_expanded)
     model_development_modes, model_development_ev = label_model_development(sections, ont_expanded)
@@ -707,27 +570,15 @@ def analyze_paper(doc, ont_expanded, kpi_priority_order, input_kpi_priority_orde
         "input_resolution_primary": primary_input_resolution,
         "model_inputs_evidence": model_inputs_ev,
         "input_resolution_evidence": input_res_ev,
-
-
-
         "energy_waste_mentions": ew_mentions,
         "energy_waste_definition_found": ew_defn_flag,
-        "energy_waste_evidence_mentions": ew_ev_mentions,      # dict: term -> [(sec, term, snippet)]
-        "energy_waste_evidence_definitions": ew_ev_defn,       # list: [(sec, term, snippet)]
-
-        # Trade-offs (multi-KPI)
-        "kpi_tradeoff_groups": trade_groups,
+        "energy_waste_evidence_mentions": ew_ev_mentions,
+        "energy_waste_evidence_definitions": ew_ev_defn,
         "kpi_tradeoff_pairs": trade_pairs,
         "kpi_tradeoff_keywords": trade_keywords,
-        "kpi_tradeoff_groups_evidence": trade_ev_groups,
-        "kpi_tradeoff_pairs_evidence": trade_ev_pairs,
-        "kpi_tradeoff_group_scores": trade_group_scores,
-        "kpi_tradeoff_pair_scores": trade_pair_scores,
-        "kpi_tradeoff_kpis_any": trade_kpis_any,
-        
+        "kpi_tradeoff_evidence": trade_evidence,
         # NEW → include per-scale + online-learning outputs
         "per_scale": per_scale,
-        "optimization_per_scale": opt_per_scale,
         "online_learning": online_flag,
         "online_learning_evidence": online_ev,
         "online_learning_per_scale": online_per_scale,
@@ -747,8 +598,6 @@ def worker(args):
     # No need to load the model here anymore
     res = analyze_paper(doc, ont_expanded, kpi_priority_order, input_kpi_priority_order)
     return fname, res
-def allow_ev(sec: str) -> bool:
-    return sec not in EXCLUDE_SECTIONS
 
 def main():
     ap = argparse.ArgumentParser()
@@ -812,24 +661,6 @@ def main():
         paradigms = rec.get("paradigms") or []
         term_hits = rec.get("paradigm_term_hits") or {}
         return nm_if_empty(paradigms), nm_if_empty(term_hits)
-    
-    def join_or_nm(xs):
-        if not xs: return "NM"
-        if isinstance(xs, dict):
-            if not xs: return "NM"
-            return ";".join(k for k,_ in sorted(xs.items(), key=lambda kv: kv[1], reverse=True)) or "NM"
-        if isinstance(xs, (list, set, tuple)):
-            s = ";".join(map(str, xs)).strip()
-            return s or "NM"
-        return str(xs)
-
-    def opt_vals(opt_per_scale, scale_key):
-        rec = (opt_per_scale or {}).get(scale_key, {})
-        return (
-            join_or_nm(rec.get("methods")),
-            join_or_nm(rec.get("objectives")),
-            join_or_nm(rec.get("terms"))
-        )
 
     for fname, r in rows:
         ps = r.get("per_scale", {})
@@ -838,33 +669,18 @@ def main():
         sm_p, sm_terms = ps_vals(ps, "system_model")
         om_p, om_terms = ps_vals(ps, "occupancy_model")
         cm_p, cm_terms = ps_vals(ps, "climate_model")
-        opt_ps = r.get("optimization_per_scale", {})
-
-        bm_meth, bm_obj, bm_terms_opt = opt_vals(opt_ps, "building_model")
-        sm_meth, sm_obj, sm_terms_opt = opt_vals(opt_ps, "system_model")
-        om_meth, om_obj, om_terms_opt = opt_vals(opt_ps, "occupancy_model")
-        cm_meth, cm_obj, cm_terms_opt = opt_vals(opt_ps, "climate_model")
-        # Energy waste: flatten sentences for CSV
-
-        ew_sentences_flat = to_str([
-            f"{sec}: {snip}"
-            for term, hits in (r.get("energy_waste_evidence_mentions") or {}).items()
-            for sec, _, snip in hits if allow_ev(sec)
-        ])
-        ew_defns_flat = to_str([
-            f"{sec}: {snip}"
-            for sec, term, snip in (r.get("energy_waste_evidence_definitions") or [])
-        ])
-
-        # (Optional) tradeoff top group by score
-        trade_group_scores = r.get("kpi_tradeoff_group_scores") or {}
-        trade_top_group = max(trade_group_scores.items(), key=lambda kv: kv[1])[0] if trade_group_scores else "NM"
 
         out_rows.append({
             "file": fname,
-            "scale": to_str(r["scale"]),
             "paradigms": to_str(r["paradigms"]),
             "model_hits": to_str(r["model_hits"]),
+            "scale": to_str(r["scale"]),
+            "data_types": to_str(r["data_types"]),
+            "applications": to_str(r["applications"]),
+            "kpis_all": to_str(r["kpis"]),
+            "kpi_primary": r["kpi_primary"] or "",
+            "collected_data_resolution": r["collected_data_resolution"] or "",
+            "sampling_mentions": to_str([f'{h["section"]}:{h["value"] or ""}{h["unit"]}' for h in r["sampling_mentions"]]),
             # Per-scale (paradigms + matched terms)
             "building_model_paradigms": bm_p,
             "building_model_paradigm_terms": bm_terms,
@@ -874,49 +690,20 @@ def main():
             "occupancy_model_paradigm_terms": om_terms,
             "climate_model_paradigms": cm_p,
             "climate_model_paradigm_terms": cm_terms,
-            # per-scale optimisation (methods + optional objectives)
-            "building_model_optim_methods": bm_meth,
-            "building_model_optim_objectives": bm_obj,
-            "building_model_optim_terms": bm_terms_opt,
-
-            "system_model_optim_methods": sm_meth,
-            "system_model_optim_objectives": sm_obj,
-            "system_model_optim_terms": sm_terms_opt,
-
-            "occupancy_model_optim_methods": om_meth,
-            "occupancy_model_optim_objectives": om_obj,
-            "occupancy_model_optim_terms": om_terms_opt,
-
-            "climate_model_optim_methods": cm_meth,
-            "climate_model_optim_objectives": cm_obj,
-            "climate_model_optim_terms": cm_terms_opt,
-            # applications + KPIs
-            "applications": to_str(r["applications"]),
-            "kpis_all": to_str(r["kpis"]),
-            "kpi_primary": r["kpi_primary"] or "",
+            # KPI/meta
             "kpi_types": to_str(r.get("kpi_types")),
-
-            # Concepts/tradeoffs
-            "energy_waste_mentions": to_str(r.get("energy_waste_mentions")),
-            "energy_waste_definition_found": str(bool(r.get("energy_waste_definition_found"))),
-            "energy_waste_sentences": ew_sentences_flat,
-            "energy_waste_definitions": ew_defns_flat,
-            "kpi_tradeoff_groups": to_str(r.get("kpi_tradeoff_groups")),
-            "kpi_tradeoff_top_group": trade_top_group,
-            "kpi_tradeoff_kpis_any": to_str(r.get("kpi_tradeoff_kpis_any")),
-            # data + sampling
-            "data_types": to_str(r["data_types"]),
-            "collected_data_resolution": r["collected_data_resolution"] or "",
-            "sampling_mentions": to_str([f'{h["section"]}:{h["value"] or ""}{h["unit"]}' for h in r["sampling_mentions"]]),
-            # model development + inputs
             "model_development": to_str(r.get("model_development")),
             "model_inputs": to_str(r.get("model_inputs")),
             "input_resolutions_all": to_str(r.get("input_resolutions")),
             "input_resolution_primary": r.get("input_resolution_primary") or "",
+            # Concepts/tradeoffs
+            "energy_waste_mentions": to_str(r.get("energy_waste_mentions")),
+            "energy_waste_definition_found": str(bool(r.get("energy_waste_definition_found"))),
+            "kpi_tradeoff_pairs": to_str(r.get("kpi_tradeoff_pairs")),
+            "kpi_tradeoff_keywords": to_str(r.get("kpi_tradeoff_keywords")),
             # Online learning
             "online_learning_any": "yes" if r.get("online_learning") else "NM",
             "online_learning_components": nm_if_empty([k for k, v in (r.get("online_learning_per_scale") or {}).items() if v]),
-
         })
 
 
