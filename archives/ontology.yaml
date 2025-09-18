@@ -1,442 +1,138 @@
-concept_energy_waste:
-  energy_waste:
-    - "energy waste"
-    - "wasted energy"
-    - "avoidable energy use"
-    - "unnecessary energy use"
-kpi_tradeoff_concepts:
-  infection_risk:
-    - "infection risk"
-    - "pathogen transmission"
-    - "airborne infection"
-  thermal_comfort:
-    - "thermal comfort"
-    - "pmv"
-    - "ppd"
-  thermal_preference:
-    - "thermal preference"
-    - "preferred temperature"
-  user_requirement:
-    - "user requirement"
-    - "occupant requirement"
-  performance_requirement:
-    - "performance requirement"
-    - "operational requirement"
-  energy_use:
-    - "energy use"
-    - "energy consumption"
-    - "electricity use"
-
-tradeoff_keywords:
-  - "trade-off"
-  - "tradeoff"
-  - "balance"
-  - "balancing"
-  - "compromise"
-  - "pareto"
-  - "multiobjective"
-  - "multi-objective"
-  - "conflict"
-  - "tension"
-  - "competing"
-  - "jointly optimize"
-  - "simultaneously optimize"
-
 scale:
   building_model:
-    - "building energy modelling"
-    - "bem"
-    - "building model"
-    - "whole-building model"
-    - "ubem"
-    - "bem" 
-    - "building model" 
-    - "whole-building" 
-    - "building energy model" 
-    - "zone model" 
-    - "room model" 
-    - "thermal model"
-    - "building cluster model" 
-    - "ubem" 
-    - "urban building energy modelling"
+    - building energy modelling
+    - building model
+    - whole-building
+    - building energy model
+    - zone model
+    - room model
+    - thermal model
+    - ubem
+    - urban building energy modelling
 
   system_model:
-    - "system model"
-    - "hvac model"
-    - "chiller model"
-    - "boiler model"
-    - "heat pump model"
-    - "air handling unit model"
-    - "component model"
+    # canonical HVAC systems/components (no “model” suffix)
+    - hvac
+    - ac
+    - acmv
+    - mv
+    - hrmv
+    - ahu            # air handling unit
+    - air handling unit
+    - doas           # dedicated outdoor air system
+    - dedicated outdoor air system
+    - vav            # variable air volume
+    - fcu            # fan coil unit
+    - ashp           # air-source heat pump
+    - gshp           # ground-source heat pump
+    - heat pump
+    - chiller
+    - chiller plant
+    - boiler
+    - cooling tower
+    - vrf
+    - vrv
+    - coil
+    - cooling coil
+    - secondary cooling coil
+    - damper
+    - fresh air damper
+    - return air damper
+    - vsd fan
+    - pump
+
 
   occupancy_model:
-    - "occupancy model"
-    - "occupant model"
-    - "occupant number"
-    - "occupant number estimation"
-    - "occupant behavior model"
-    - "occupant behaviour model"
-    - "occupancy estimation"
-    - "occupant estimation"
-    
+    - people number estimation
+    - people count estimation
+    - occupancy estimation
+    - occupant count estimation
+    - occupant number estimation
+
   climate_model:
-    - "climate model"
-    - "weather model"
-    - "meteorological model"
-    - "numerical weather prediction"
+    - meteorology prediction
+    - numerical weather prediction
 
-# Paradigms (as you already have)
 model_paradigm:
-  whitebox:
-    - "energyplus"
-    - "trnsys"
-    - "ies-ve"
-    - "modelica"
-    - "ida-ice"
-    - "physics-based"
-    - "first-principles"
-    - "calibrated simulation"
-  greybox:
-    - "grey-box"
-    - "gray-box"
-    - "state-space"
-    - "kalman"
-    - "semi-empirical"
-    - "hybrid"
-    - "resistor-capacitor"
-    - "rc model"
-    - "rc network"
-  blackbox:
-    - "machine learning"
-    - "statistical"
-    - "data-driven"
-    - "degree-day"
-    - "bin method"    
-    - "linear regression"
-    - "linear model"
-    - "lasso"
-    - "ridge"
-    - "elastic net"
-    - "neural network"
-    - "ann"
-    - "lstm"
-    - "gru"
-    - "svm"
-    - "svr"
-    - "random forest"
-    - "xgboost"
-    - "bayesian network"
-    - "hmm"
-    - "kalman"
-    - "k-nn"
-    - "knn"
-    - "naive bayes"
-    - "gaussian process"
-    - "deep learning"
 
-# Optimization method families
+
+  whitebox:
+    - energyplus
+    - trnsys
+    - ies-ve
+    - modelica
+    - ida-ice
+    - physics-based
+    - first-principles
+    - linear
+    - linearized
+
+  greybox:
+    - grey-box
+    - gray-box
+    - state-space
+    - kalman
+    - semi-empirical
+    - hybrid
+    - resistor-capacitor
+    - rc model
+    - rc network
+  blackbox:
+    - machine learning
+    - statistical
+    - data-driven
+    - linear regression
+    - lasso
+    - ridge
+    - elastic net
+    - neural networks
+    - Convolutional Neural Networks
+    - Artificial Neural Networks
+    - ANN
+    - CNN
+    - BCNN
+    - RNN
+    - lstm
+    - gru
+    - svm
+    - svr
+    - random forest
+    - xgboost
+    - bayesian network
+    - hmm
+    - k-nn
+    - knn
+    - naive bayes
+    - gaussian process
+    - deep learning
+
 optimization_methods:
   reinforcement_learning:
-    - "q-learning"
-    - "rl"
-    - "drl"
-    - "reinforcement learning"
-    - "policy gradient"
-    - "actor-critic"
-    - "dqn"
-    - "sarsa"
-  optimisation tool:
-    - "python"
-    - "matlab"
-  optimisation solver:
-    - "optimisation-solver"    
-    - "milp"
-    - "mixed-integer"
-    - "linear programming"
-    - "quadratic programming"
-    - "convex optimization"
-    - "genetic algorithm"
-    - "ga"
-    - "simulated annealing"
-    - "particle swarm"
-    - "pso"
-    - "ant colony"
-    - "bayesian optimization"
-    - "gaussian process optimization"
-    - "pid"
-    - "pi controller"
-    - "optimization"
-    - "optimisation"
-    - "mpc"
-    - "stochastic mpc"
-    - "robust mpc"
-    - "economic mpc"
-    - "lqr"
-    - "fuzzy control"
-    - "multi-objective"
-    - "multiobjective"
-    - "pareto"
-    - "nsga-ii"
-    - "nsga2"
-
-optimization_objectives:
-  energy:
-    - "energy use"
-    - "energy consumption"
-    - "electricity use"
-    - "demand reduction"
-  comfort:
-    - "thermal comfort"
-    - "pmv"
-    - "ppd"
-  cost:
-    - "cost"
-    - "operational cost"
-    - "electricity price"
-    - "tariff"
-  carbon:
-    - "carbon"
-    - "co2"
-    - "emissions"
-  demand_response:
-    - "demand response"
-    - "load shifting"
-    - "peak shaving"
-  iaq_infection:
-    - "indoor air quality"
-    - "iaq"
-    - "infection risk"
-    - "pathogen transmission"
-online_learning:
-  online_learning:
-    - "online learning"
-    - "incremental learning"
-    - "adaptive learning"
-    - "continual learning"
-    - "lifelong learning"
-    - "streaming learning"
-    - "online training"
-    - "real-time update"
-    - "on-policy update"
-    - "adaptive control"
-    - "model update"
-    - "real-time"
-
-data_types:
-  metering:
-    - 'smart meter'
-    - 'electricity meter'
-    - 'kwh'
-    - 'kw'
-  air_temperature:
-    - 'air temperature'
-    - 'dry-bulb'
-    - 't_air'
-  air_quality:
-    - 'co2'
-    - 'pm2.5'
-    - 'pm10'
-    - 'voc'
-  environment:
-    - 'outdoor temperature'
-    - 'humidity'
-    - 'solar irradiance'
-    - 'wind speed'
-    - 'weather station'
-  occupancy:
-    - 'occupancy'
-    - 'presence'
-    - 'people count'
-    - 'wifi probes'
-    - 'ble'
-  hvac_signals:
-    - 'valve position'
-    - 'damper'
-    - 'supply air'
-    - 'return air'
-    - 'air flow'
-    - 'water flow'
-  thermal_comfort:
-    - 'indoor overheating'
-    - 'PMV'
-
-applications:
-  performance monitoring:
-    - 'conditioning'
-  operation and maintenance:
-    - 'predictive maintenance'
-    - 'preventive maintenance'
-
-  energy flexibility:
-    - 'demand response'
-    - 'dynamic pricing'
-    - 'load shedding'
-    - 'load shifting'
-    - 'grid balancing'
-    - 'energy storage'
-
-  fdd:
-    - 'fault detection and diagnosis'
-    - 'fdd'
-  mpc:
-    - 'model predictive control'
-    - 'mpc'
-  occ:
-    - 'occupant centric operation'
-    - 'occupant centric control'
-    - 'demand-based control'
-    - 'occupancy-based control'
-    - 'recommender system'
-  operation performance analysis:
-    - 'prediction'
-    - 'optimisation'
-
-  benchmarking:
-    - 'benchmarking'
-    - 'baseline model'
-
-  retrofit:
-    - 'retrofit analysis'
-    - 'energy conservation measure'
-    - 'ecm'
-special_focus:
-  energy_storage:
-    - "energy storage"
-    - "battery"
-    - "batteries"
-    - "battery storage"
-    - "thermal storage"
-    - "electrical storage"
-    - "lithium-ion"
-    - "lithium ion"
-  renewable_integration:
-    - "renewable energy"
-    - "photovoltaic"
-    - "pv"
-    - "solar"
-    - "wind"
-    - "res"
-    - "der"
-    - "distributed energy resource"
-    - "renewables integration"
-  pricing_trading:
-    - "electricity pricing"
-    - "dynamic pricing"
-    - "real-time pricing"
-    - "electricity trading"
-    - "market participation"
-    - "demand response market"
-    - "day-ahead market"
-    - "spot market"
-  multi_energy:
-    - "multi-energy"
-    - "multi vector"
-    - "multi-energy system"
-    - "integrated energy system"
-    - "combined heat and power"
-    - "cogeneration"
-    - "trigeneration"
-
-kpi_resolution:
-  subhourly:
-    - "second"
-    - "minute"
-    - "1-min"
-    - "5-min"
-    - "15-min"
-    - "hz"
-  hourly:
-    - "hour"
-    - "hourly"
-    - "per hour"
-  daily:
-    - "daily"
-    - "per day"
-  monthly:
-    - "monthly"
-    - "per month"
-  yearly:
-    - "annual"
-    - "yearly"
-
-input_resolution:
-  subhourly:
-    - "second"
-    - "minute"
-    - "1-min"
-    - "5-min"
-    - "15-min"
-    - "hz"
-  hourly:
-    - "hour"
-    - "hourly"
-    - "per hour"
-  daily:
-    - "daily"
-    - "per day"
-  monthly:
-    - "monthly"
-    - "per month"
-  yearly:
-    - "annual"
-    - "yearly"
-
-model_development:
-  - "schedule"
-  - "stochastic"
-  - "probabilistic"
-  - "real-time"
-  - "raw data"
-  - "update"
-
-model_inputs:
-  occupancy:
-    - "occupancy"
-    - "occupant count"
-    - "presence"
-  electric_load:
-    - "electric load"
-    - "demand"
-    - "power draw"
-  electric_use:
-    - "electricity use"
-    - "energy use"
-    - "kwh"
-  internal_gains:
-    - "internal gains"
-    - "plug loads"
-    - "lighting gains"
-  weather:
-    - "weather"
-    - "outdoor temperature"
-    - "solar irradiance"
-  operation_schedules:
-    - "operation schedule"
-    - "equipment schedule"
-    - "hvac schedule"
-
-kpi_type:
-  energy_performance:
-    - "energy use"
-    - "energy consumption"
-    - "energy efficiency"
-    - "eui"
-  thermal_comfort:
-    - "comfort"
-    - "pmv"
-    - "ppd"
-    - "operative temperature"
-  cost:
-    - "cost"
-    - "opex"
-    - "capex"
-    - "price"
-  carbon_emissions:
-    - "carbon"
-    - "co2"
-    - "emissions"
-    - "ghg"
-  flexibility:
-    - "demand response"
-    - "load shifting"
-    - "flexibility"
+    - q-learning
+    - rl
+    - drl
+    - reinforcement learning
+    - policy gradient
+    - actor-critic
+    - dqn
+    - sarsa
+  classical_control_and_mpc:
+    - pid
+    - pi controller
+    - mpc
+    - stochastic mpc
+    - robust mpc
+    - economic mpc
+    - lqr
+  metaheuristics_and_optim:
+    - milp
+    - mixed-integer
+    - linear programming
+    - quadratic programming
+    - convex optimization
+    - genetic algorithm
+    - ga
+    - simulated annealing
+    - particle swarm
+    - pso
+    - bayesian optimization

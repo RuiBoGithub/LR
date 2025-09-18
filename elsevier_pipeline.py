@@ -15,7 +15,7 @@ CSV_PATH   = "csv_output/300_manually_filtered/_verification-list.csv"
 OUT_ROOT   = "elsevier_out"
 ACCEPT     = "xml"          # or "json" (we'll try to discover embedded XML)
 TIMEOUT    = 30
-TARGET_ONLY = True          # <<< NEW: keep ONLY Methods/Results/(Results and Discussion)
+TARGET_ONLY = True          # Keep only Methods/Results/(Results and Discussion)/Abstract/Conclusion
 
 API_KEY   = keys.get("els-apikey")
 INST_TOKEN = keys.get("els-insttoken", "")
@@ -66,6 +66,10 @@ RESULTS_PATTERNS = [
     r"\bevaluation\b", r"\bempirical\s+results?\b", r"\boutcomes?\b",
     r"\bperformance\b", r"\bexperiments?\b", r"\bresults?\s*(and|&)\s*(experiments?|evaluation)\b",
 ]
+CONCLUSION_PATTERNS = [
+    r"\bconclusions?\b", r"\bconcluding\s+remarks?\b", r"\bsummary\b",
+    r"\bconclusion(s|)\s+and\s+future\s+work\b", r"\bfinal\s+remarks?\b",
+]
 MIXED_RESULTS_DISCUSSION = [r"\bresults?\s*(and|&)\s*discussion\b", r"\bdiscussion\s*(and|&)\s*results?\b"]
 HARD_STOP_PATTERNS = [r"\breferences?\b", r"\bbibliograph(y|ies)\b", r"\bappendix\b", r"\bsupplement(ary|al)?\b"]
 
@@ -76,6 +80,8 @@ def label_title(title_norm: str) -> Optional[str]:
         return "Methods"
     if any(re.search(p, title_norm) for p in RESULTS_PATTERNS):
         return "Results"
+    if any(re.search(p, title_norm) for p in CONCLUSION_PATTERNS):
+        return "Conclusion"
     return None  # not target
 
 def should_hard_stop(title_norm: str) -> bool:
@@ -152,13 +158,14 @@ def extract_sections_from_xml(xml_bytes: bytes) -> List[Tuple[str, str]]:
     return sections
 
 def filter_target_sections(sections: List[Tuple[str, str]]) -> List[Tuple[str, str]]:
-    """Keep only Methods / Results / Results and Discussion, preserving order."""
+    """Keep only Methods/Results/Results and Discussion/Abstract/Conclusion, preserving order."""
     kept = []
     for head, body in sections:
         hnorm = norm_title_match(head)
-        if label_title(hnorm) in {"Methods", "Results", "Results and Discussion"}:
-            # Use the normalized canonical label for clarity
-            canon = label_title(hnorm)
+        # Check if it's a target section or abstract
+        if head == "Abstract" or label_title(hnorm) in {"Methods", "Results", "Results and Discussion", "Conclusion"}:
+            # Use the normalized canonical label for target sections, keep 'Abstract' as-is
+            canon = label_title(hnorm) if head != "Abstract" else "Abstract"
             kept.append((canon, body))
     return kept
 
@@ -179,6 +186,7 @@ def get_doi_column(df: pd.DataFrame) -> str:
     raise KeyError("No DOI column found (expected DOI/doi/Doi)")
 
 def main():
+
     if not API_KEY:
         print("ERROR: Missing API key in _credentials.py", file=sys.stderr)
         sys.exit(2)
